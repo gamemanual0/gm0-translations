@@ -1,5 +1,6 @@
 [main]
-host = https://www.transifex.com
+host     = https://www.transifex.com
+lang_map = ro_RO: ro
 
 [o:gamemanual0:p:gm0:r:docs]
 file_filter  = locale/<lang>/LC_MESSAGES/docs.po
