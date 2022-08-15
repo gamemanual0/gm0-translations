@@ -26,4 +26,6 @@ def setup(app):
     app.srcdir = os.path.join(BASEDIR, "gm0/source/")
     app.confdir = app.srcdir
 
+    tags.add("translation")
+
     setup_original(app)
