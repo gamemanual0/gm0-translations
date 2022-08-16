@@ -3,16 +3,431 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Abigail G, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-16 06:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Abigail G, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:2
+msgid "Gallery Of Robot Designs"
+msgstr "Galeria Roboților Documentați"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:4
+msgid ""
+"Collection of robot designs from past seasons. Feel free to borrow some "
+"design solutions for your robot!"
+msgstr ""
+"Colecția roboților din sezoanele trecute. Nu ezitați să vă inspirați din "
+"aceste modele pentru propriul robot!"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:6
+msgid ""
+"Copying another team's design usually doesn't work if you don't understand "
+"why their design works and why they built it that way. Just like copying "
+"your friend's homework doesn't mean you learned the material."
+msgstr ""
+"Copierea designului unei alte echipe nu funcționează de obicei dacă nu "
+"înțelegi de ce funcționează designul lor și de ce l-au construit în acel "
+"mod. Este ca și cum ai copia temele prietenului tău, dar asta nu înseamnă că"
+" ai învățat lecția."
+
+#: ../../gm0/source/docs/appendix/gallery.rst:9
+msgid "2020-2021 Ultimate Goal"
+msgstr "2020-2021 \"Ultimate Goal\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:12
+msgid "13648 Jankbot"
+msgstr "13648 \"Jankbot\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:14
+msgid ""
+"`CAD "
+"<https://cad.onshape.com/documents/ec03c5a1726117b5dd0ef434/v/26fc62a203f44bf75b45a13d/e/863dc892f987c32991536897>`__"
+msgstr ""
+"`CAD "
+"<https://cad.onshape.com/documents/ec03c5a1726117b5dd0ef434/v/26fc62a203f44bf75b45a13d/e/863dc892f987c32991536897>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:15
+msgid ""
+"`Robot Pictures "
+"<https://photos.google.com/share/AF1QipORERv83O2EB2hgFqmfkuEavisH8N4cqhkPNFVCDFGqgaVcj6ED77WXLYPi9yIQIQ?key=VUhvZmxIejYwRUU4b3lPaXZTcmZ0emFsa21yNy13>`__"
+msgstr ""
+"`Pozele Robotului "
+"<https://photos.google.com/share/AF1QipORERv83O2EB2hgFqmfkuEavisH8N4cqhkPNFVCDFGqgaVcj6ED77WXLYPi9yIQIQ?key=VUhvZmxIejYwRUU4b3lPaXZTcmZ0emFsa21yNy13>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:18
+msgid "16537 LOGICoyote"
+msgstr "16537 \"LOGICoyote\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:20
+msgid ""
+"`Engineering Portfolio "
+"<https://drive.google.com/file/d/1pJoChbVlvHk76GqQmj4wkOcPWZAHNehL/edit>`__"
+msgstr ""
+"`Portofoliu "
+"<https://drive.google.com/file/d/1pJoChbVlvHk76GqQmj4wkOcPWZAHNehL/edit>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:21
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=eSGSAS1RTHQ>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=eSGSAS1RTHQ>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:24
+msgid "17077 Adna Robotics"
+msgstr "17077 Adna Robotics"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:26
+msgid ""
+"`CAD "
+"<https://viewer.autodesk.com/id/dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YTM2MHZpZXdlci90NjM3NjM1NDk0NDAxOTEyMTg3X2Y5OWYzOTk1LTc5OGItNGZlYy04Zjk1LTk1MjNmMTQ5MmJmYS5jb2xsYWJvcmF0aW9u?sheetId=NjgwMGM2NmEtZjg0Mi00MmIxLWFlZjctZWQ3MzI0YzRkN2Iz>`__"
+msgstr ""
+"`CAD "
+"<https://viewer.autodesk.com/id/dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YTM2MHZpZXdlci90NjM3NjM1NDk0NDAxOTEyMTg3X2Y5OWYzOTk1LTc5OGItNGZlYy04Zjk1LTk1MjNmMTQ5MmJmYS5jb2xsYWJvcmF0aW9u?sheetId=NjgwMGM2NmEtZjg0Mi00MmIxLWFlZjctZWQ3MzI0YzRkN2Iz>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:27
+msgid ""
+"`Engineering Portfolio "
+"<https://docs.google.com/document/d/1Gd3HlolZlD26xz__ngC1cJsoUYtvUFR_MTUYkEW_L1g/edit>`__"
+msgstr ""
+"`Portofoliu "
+"<https://docs.google.com/document/d/1Gd3HlolZlD26xz__ngC1cJsoUYtvUFR_MTUYkEW_L1g/edit>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:28
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=mSsAVnTCXg0>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=mSsAVnTCXg0>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:31
+msgid "18253 Beach Bots"
+msgstr "18253 Beach Bots"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:33
+msgid ""
+"`CAD "
+"<https://cad.onshape.com/documents/c4258a3b5a1dbcdad41e21f5/w/4f7810069e9b16a173d2bf0a/e/f837c09187d1cca462aaeca2>`_"
+msgstr ""
+"`CAD "
+"<https://cad.onshape.com/documents/c4258a3b5a1dbcdad41e21f5/w/4f7810069e9b16a173d2bf0a/e/f837c09187d1cca462aaeca2>`_"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:34
+msgid ""
+"`Robot Explanation Video <https://www.youtube.com/watch?v=fZFT6Cdp58g>`_"
+msgstr ""
+"`Explicarea Mecanismelor Robotului "
+"<https://www.youtube.com/watch?v=fZFT6Cdp58g>`_"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:35
+msgid ""
+"`Robot Description Flyer "
+"<https://www.canva.com/design/DAEkqnr3g_8/vUqf5zKo3njwY0KRxsmhXg/view>`_"
+msgstr ""
+"`Fluturaș cu Descrierea Robotului "
+"<https://www.canva.com/design/DAEkqnr3g_8/vUqf5zKo3njwY0KRxsmhXg/view>`_"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:38
+msgid "18275 SubZero"
+msgstr "18275 \"SubZero\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:40
+msgid ""
+"`CAD "
+"<https://gmail455333.autodesk360.com/g/shares/SH56a43QTfd62c1cd968310eba6a86848032>`__"
+msgstr ""
+"`CAD "
+"<https://gmail455333.autodesk360.com/g/shares/SH56a43QTfd62c1cd968310eba6a86848032>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:41
+msgid "`Remote Match Video <https://www.youtube.com/watch?v=4Y9WguSl4DE>`__"
+msgstr "`Meci Oficial Remote <https://www.youtube.com/watch?v=4Y9WguSl4DE>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:44
+msgid "2019-20 Skystone"
+msgstr "2019-20 \"Skystone\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:47
+#: ../../gm0/source/docs/appendix/gallery.rst:90
+msgid "11115 Gluten Free"
+msgstr "11115 \"Gluten Free\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:49
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2b675b9/g/shares/SH919a0QTf3c32634dcf988c313f186aa49c?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AmAM0YCMAbAA4IAdgC0uEQBNxAFm6cY4vhFydx3IZ2kBmIQO4Lc%2BEAF8QAXSA>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2b675b9/g/shares/SH919a0QTf3c32634dcf988c313f186aa49c?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AmAM0YCMAbAA4IAdgC0uEQBNxAFm6cY4vhFydx3IZ2kBmIQO4Lc%2BEAF8QAXSA>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:50
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=i2g_b54MEFI>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=i2g_b54MEFI>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:51
+msgid ""
+"`Former World Record Match Video "
+"<https://www.youtube.com/watch?v=hL4nYgLUCeg>`__"
+msgstr ""
+"`Record Mondial Anterior <https://www.youtube.com/watch?v=hL4nYgLUCeg>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:54
+msgid "11503 Viperbots Hyperfang"
+msgstr "11503 \"Viperbots Hyperfang\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:56
+msgid ""
+"`Technical Binder "
+"<https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`__"
+msgstr ""
+"`Portofoliu "
+"<https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:57
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcfc62291ba1fe920f7>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcfc62291ba1fe920f7>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:58
+msgid ""
+"`Animation "
+"<https://drive.google.com/file/d/1wCHZ42TfqL1imSi1w5dGu1kQKBtCGrvr/view?usp=drive_open>`__"
+msgstr ""
+"`Animație "
+"<https://drive.google.com/file/d/1wCHZ42TfqL1imSi1w5dGu1kQKBtCGrvr/view?usp=drive_open>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:61
+#: ../../gm0/source/docs/appendix/gallery.rst:98
+msgid "14270 Quantum Robotics"
+msgstr "14270 \"Quantum Robotics\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:63
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968c54efb8b6d65921b>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968c54efb8b6d65921b>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:64
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=3d8-TN8YVNU>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=3d8-TN8YVNU>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:67
+msgid "2018-19 Rover Ruckus"
+msgstr "2018-19 \"Rover Ruckus\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:70
+msgid "8417 'Lectric Legends"
+msgstr "8417 \"'Lectric Legends\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:72
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf9939325e4a438df9>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf9939325e4a438df9>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:73
+msgid ""
+"`Robot Reveal Video "
+"<https://drive.google.com/file/d/1O44wlNqllfe16ktQYHCRPb-YUxIXzPUp/view>`__"
+msgstr ""
+"`Prezentarea Robotului "
+"<https://drive.google.com/file/d/1O44wlNqllfe16ktQYHCRPb-YUxIXzPUp/view>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:74
+msgid ""
+"`Behind the Bot Interview <https://www.youtube.com/watch?v=IW70TEpFtxM>`__"
+msgstr ""
+"`Interviu Tehnic Robot <https://www.youtube.com/watch?v=IW70TEpFtxM>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:77
+msgid "9048 Philobots"
+msgstr "9048 \"Philobots\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:79
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf1857225708295441>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf1857225708295441>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:82
+msgid "9872 (In)Formal Logic"
+msgstr "9872 \"(In)Formal Logic\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:84
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2814ea3/g/shares/SH56a43QTfd62c1cd968250c04221a0d6400>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2814ea3/g/shares/SH56a43QTfd62c1cd968250c04221a0d6400>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:85
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=pMI2PXhnlS0>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=pMI2PXhnlS0>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:86
+msgid ""
+"`Behind the Bot Interview <https://www.youtube.com/watch?v=6PjfbOV496c>`__"
+msgstr ""
+"`Interviu Tehnic Robot <https://www.youtube.com/watch?v=6PjfbOV496c>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:92
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf876fb9be002654e2>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf876fb9be002654e2>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:93
+msgid "`Practice Match Video <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__"
+msgstr "`Meci de Antrenament <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:94
+msgid ""
+"`World Record Match Video <https://www.youtube.com/watch?v=Nm3ff5JqvzM>`__"
+msgstr "`Record Mondial <https://www.youtube.com/watch?v=Nm3ff5JqvzM>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:95
+msgid ""
+"`Behind the Bot Interview <https://www.youtube.com/watch?v=zun--sNljks>`__"
+msgstr ""
+"`Interviu Tehnic Robot <https://www.youtube.com/watch?v=zun--sNljks>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:100
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968e7fc6e5b3808809c>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968e7fc6e5b3808809c>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:101
+msgid ""
+"`Robot Description Flyer "
+"<https://qrobotics.blob.core.windows.net/2018/mti.pdf>`__"
+msgstr ""
+"`Fluturaș cu Descrierea Robotului "
+"<https://qrobotics.blob.core.windows.net/2018/mti.pdf>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:102
+msgid "`Practice Match Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`__"
+msgstr "`Meci de Antrenament <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:103
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:107
+msgid "2017-18 Relic Recovery"
+msgstr "2017-18 \"Relic Recovery\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:110
+#: ../../gm0/source/docs/appendix/gallery.rst:135
+msgid "9794 Wizards.exe"
+msgstr "9794 \"Wizards.exe\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:112
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=wBmb-4cu4Vs>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=wBmb-4cu4Vs>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:113
+msgid "`3D model of the claw <https://www.thingiverse.com/thing:2785600>`__"
+msgstr ""
+"`Model 3D al mecanismului <https://www.thingiverse.com/thing:2785600>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:114
+msgid ""
+"`Misc CAD models <https://drive.google.com/drive/folders/1Ng-"
+"DqcyMdsfpHy7Mc6W0cfxUMahaA2Sn>`__"
+msgstr ""
+"`Diverse Modele CAD <https://drive.google.com/drive/folders/1Ng-"
+"DqcyMdsfpHy7Mc6W0cfxUMahaA2Sn>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:117
+msgid "2016-17 Velocity Vortex"
+msgstr "2016-17 \"Velocity Vortex\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:120
+msgid "3415 Livingston Lancers"
+msgstr "3415 \"Livingston Lancers\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:122
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=8jvF94d46cs>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=8jvF94d46cs>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:123
+msgid ""
+"`Robot Render "
+"<https://drive.google.com/file/d/1oCy7M8DCr8fLGUcjR6L4Akm1JUgkqhYt/view?usp=drive_open>`__"
+msgstr ""
+"`Modele Procesate 3D "
+"<https://drive.google.com/file/d/1oCy7M8DCr8fLGUcjR6L4Akm1JUgkqhYt/view?usp=drive_open>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:124
+msgid ""
+"`Engineering drawing "
+"<https://drive.google.com/file/d/1YQMyEWS5sPdL1YOPntXIR0FdsY30-G6H/view?usp=drive_open>`__"
+msgstr ""
+"`Schiță Mecanică "
+"<https://drive.google.com/file/d/1YQMyEWS5sPdL1YOPntXIR0FdsY30-G6H/view?usp=drive_open>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:127
+msgid "4137 Islandbots"
+msgstr "4137 \"Islandbots\""
+
+#: ../../gm0/source/docs/appendix/gallery.rst:129
+msgid ""
+"`Technical Binder "
+"<https://docs.google.com/document/d/1RMsGYUu_mo943I42diFhakRUgHF-"
+"Bi4TcWEwkxHUE9g/edit?usp=sharing>`__"
+msgstr ""
+"`Portofoliu "
+"<https://docs.google.com/document/d/1RMsGYUu_mo943I42diFhakRUgHF-"
+"Bi4TcWEwkxHUE9g/edit?usp=sharing>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:130
+msgid ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2801558/g/shares/SH7f1edQT22b515c761ec425b0f17a8d8573>`__"
+msgstr ""
+"`CAD "
+"<https://myhub.autodesk360.com/ue2801558/g/shares/SH7f1edQT22b515c761ec425b0f17a8d8573>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:131
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=acWoCPkWOZs>`__"
+msgstr "`Prezentare Robot <https://www.youtube.com/watch?v=acWoCPkWOZs>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:132
+msgid "`Match Video <https://www.youtube.com/watch?v=myq3DyHqM0w>`__"
+msgstr "`Match Video <https://www.youtube.com/watch?v=myq3DyHqM0w>`__"
+
+#: ../../gm0/source/docs/appendix/gallery.rst:137
+msgid "`Robot Reveal Video <https://www.youtube.com/watch?v=pJs-R-j0zXg>`__"
+msgstr ""
+"`Prezentarea Robotului <https://www.youtube.com/watch?v=pJs-R-j0zXg>`__"

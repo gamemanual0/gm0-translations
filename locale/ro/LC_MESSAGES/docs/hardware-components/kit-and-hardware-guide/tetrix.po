@@ -3,16 +3,128 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Abigail G, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-16 06:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Abigail G, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:9
+msgid ""
+"The TETRIX build system revolves around 32 mm aluminum :term:`c-channels "
+"<Channel>` and a 16mm bolt circle, on 16mm spacing (centers of the circles "
+"are 16mm apart). TETRIX is patterned along these :term:`channels <Channel>` "
+"to create many mounting options for building structures."
+msgstr ""
+"Sistemul de construcție TETRIX se învârte în jurul unor profile din aluminiu"
+" de 32 mm :term:`c-channels <Channel> ` și o gaură de șuruburi de 16 mm, la "
+"o distanță de 16 mm (centrele găurilor sunt la 16 mm distanță). TETRIX este "
+"modelat de-a lungul acestor :term:`profile <Channel> ` pentru a crea "
+"numeroase variante de montare pentru structurile de construcție."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:10
+msgid ""
+"These channels have a tendency to flex and bend under load, often requiring "
+"reinforcement using multiple :term:`channels <Channel>` to maintain their "
+"shape."
+msgstr ""
+"Aceste canale au tendința de a se îndoi sub sarcină, necesitând deseori "
+"întărire cu ajutorul mai multor :term:`profile <Channel> ` pentru a-și "
+"menține forma."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:11
+msgid ""
+"While TETRIX :term:`channel <Channel>` is measured in metric units, the "
+"system employs Imperial (SAE) bolts and Imperial :term:`chain <Chain>`. This"
+" mix of units means that things often don’t quite line up how they’re "
+"supposed to, causing unforeseen problems."
+msgstr ""
+"În timp ce :term:`profilul <Channel> ` TETRIX este măsurat în unități "
+"metrice, sistemul folosește șuruburi imperiale și :term:`lanțuri<Chain> ` "
+"imperiale. Acest amestec de unități înseamnă că adesea lucrurile nu se "
+"aliniază cum ar trebui, provocând probleme neprevăzute."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:12
+msgid ""
+"Additional tensioners are often required when using :term:`chain <Chain>` on"
+" TETRIX."
+msgstr ""
+"Întinzătoarele sunt adesea necesare atunci când se utilizează "
+":term:`lanțurile <Chain> ` pe TETRIX."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:13
+msgid ""
+"TETRIX :term:`gears <Gear>` and :term:`sprockets <Sprocket>` offer very "
+"limited options for creating ratios. The aluminum :term:`gears <Gear>` tend "
+"to grind away very quickly, especially if they are not supported correctly "
+"on both sides."
+msgstr ""
+":term:`Angrenajele <Gear> ` TETRIX și :term:`pinioanele <Sprocket> ` oferă "
+"opțiuni foarte limitate pentru crearea de rapoarte. "
+":term:`Angrenajele<Gear>` din aluminiu tind să se uzeze foarte repede, mai "
+"ales dacă nu sunt susținute corect pe ambele părți."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:14
+msgid ""
+"Tetrix parts generally do not have the best track record for reliability and"
+" longevity due to subpar material choices."
+msgstr ""
+"Piesele Tetrix nu au, în general, cea mai bună reputație în ceea ce privește"
+" fiabilitatea și longevitatea din cauza alegerii unor materiale inferioare."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:15
+msgid ""
+"Tetrix parts are slightly overpriced and lack bang-for-your-buck value found"
+" in kits such as REV and goBILDA."
+msgstr ""
+"Piesele Tetrix au un preț ușor supraevaluat și nu au un raport calitate-preț"
+" bun, așa cum se găsește în kituri precum REV și goBILDA."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:20
+msgid ""
+"While you may be considering TETRIX as a starter kit, we encourage you to "
+"explore your options before selecting a kit. While Tetrix does pick up quite"
+" a lot of flak from the community, it isn’t a bad choice in terms of "
+"physical qualities such as strength, but the mounting options and hole "
+"patterns leave more to be desired and restrict teams in terms of "
+"flexibility."
+msgstr ""
+"Deși este posibil să luați în considerare TETRIX ca kit de pornire, vă "
+"încurajăm să vă explorați toate opțiunile posibile înainte de a alege un "
+"kit. Deși Tetrix primește destul de multe critici din partea comunității, nu"
+" este o alegere rea în ceea ce privește calitățile fizice, cum ar fi "
+"rezistența, dar opțiunile de montare și modelele de găuri lasă mai mult de "
+"dorit și restricționează echipele în ceea ce privește flexibilitatea."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:31
+msgid ""
+"The TETRIX kit, being the most basic of all kit options, is easy to learn "
+"and provides a variety of options in building. The kit itself comes with "
+":term:`c-channel <Channel>`, which is aluminum shaped in a C. It has pre-cut"
+" holes so motors, :term:`gears <Gear>`, or :term:`drive shafts <Shaft>` can "
+"be seamlessly integrated into the channel. For a beginner team with little "
+"to no experience, a TETRIX kit allows you to assemble a working drivetrain "
+"in a couple of hours (Note: Most other kits allow you to do the same thing, "
+"but with more customization options)."
+msgstr ""
+"Kitul TETRIX, fiind cea mai de bază dintre toate opțiunile de kit, este ușor"
+" de învățat și oferă o varietate de opțiuni de construcție. Kitul în sine "
+"vine cu :term:`c-channel <Channel> `, care este aluminiu în formă de C. "
+"Acesta are găuri pretăiate, astfel încât motoarele, :term:`girele <Gear> `, "
+"sau :term:`arborele de transmisie <Shaft> ` pot fi integrate fără probleme "
+"în canal. Pentru o echipă de începători cu puțină sau deloc experiență, un "
+"kit TETRIX vă permite să asamblați o transmisie funcțională în câteva ore "
+"(Notă: Majoritatea celorlalte kituri vă permit să faceți același lucru, dar "
+"cu mai multe opțiuni de personalizare)."

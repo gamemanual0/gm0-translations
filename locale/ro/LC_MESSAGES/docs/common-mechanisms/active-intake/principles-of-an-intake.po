@@ -3,16 +3,136 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Abigail G, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-16 06:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Abigail G, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:2
+msgid "Principles of an Intake"
+msgstr "Principiile unui Intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:7
+msgid ""
+"An intake must be reliable, as picking up and scoring game elements is the "
+"primary method to gain points in all FTC games."
+msgstr ""
+"Un intake trebuie să fie fiabil, deoarece colectarea și marcarea elementelor"
+" de joc este principala metodă de a câștiga puncte în toate jocurile FTC."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:9
+msgid ""
+"Intakes have many moving parts and are susceptible to breaking, especially "
+"at high RPM. Thus, the intake material must be durable to withstand long "
+"periods of operation."
+msgstr ""
+"Intake-urile au multe piese mobile și sunt predispuse la rupere, în special "
+"la viteze mari. Astfel, materialul intake-ului trebuie să fie durabil pentru"
+" a rezista la perioade lungi de funcționare."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:11
+msgid ""
+"Intakes often stick outside of the robot frame perimeter. In this case, "
+"durability becomes extremely important; the intake must be built so that "
+"they can withstand impacts/collisions with other robots or parts of the "
+"field."
+msgstr ""
+"Adesea, intake-urile se lipesc în afara perimetrului cadrului robotului. În "
+"acest caz, durabilitatea devine extrem de importantă; intake-urile trebuie "
+"să fie construite astfel încât să poată rezista la impacturi/coliziuni cu "
+"alți roboți sau cu părți ale terenului."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:13
+msgid ""
+"There are two ways to accomplish this - either by building the intake very "
+"robustly (lots of support so it doesn't break), or making the intake "
+"flexible (for example out of lexan or spring loading it) so that even though"
+" it may bend due to impacts, it will always spring back into place."
+msgstr ""
+"Există două modalități de a realiza acest lucru - fie construind intake-ul "
+"foarte robust (cu mult suport pentru a nu se rupe), fie făcând intake-ul "
+"flexibil (de exemplu, din plexiglas sau cu un arc), astfel încât, chiar dacă"
+" se va îndoi din cauza impactului, acesta isi va reveni întotdeauna la locul"
+" ei."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:15
+msgid ""
+"Another way to prevent intake breaking is to make a fully retractable intake"
+" that won’t protrude outside the 18” cube, though this is seldom needed."
+msgstr ""
+"O altă modalitate de a preveni ruperea intake-ului este de a face un intake "
+"complet retractabil care să nu iasă în afara cubului de 45 cm, deși acest "
+"lucru este rareori necesar."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:26
+msgid ""
+"Even though it was relatively easy to make a compliant wheel intake that "
+"could effectively intake glyphs in one direction, it was hard to make an "
+"intake that could deal with angled glyphs. Being able to intake glyphs in "
+"all orientations was especially important for multi-glyph autonomous modes."
+msgstr ""
+"Chiar dacă a fost relativ ușor să se realizeze un dispozitiv de intake din "
+"roti \"compliant\" care să poată \"aspira\" eficient elementele de joc "
+"într-o singură direcție, a fost greu să se realizeze un intake care să poată"
+" face față elementelor de joc înclinate. Capacitatea de a aspira elemente de"
+" joc în toate orientările a fost deosebit de importantă pentru autonomiile "
+"cu mai multe elemente de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
+msgid ""
+"The intake must be able to consistently control the game elements. For "
+"example, if the intake is too fast and the collection box is not well "
+"designed, then game pieces might fly out. If the intake is too slow, it may "
+"jam itself when contacting the game elements."
+msgstr ""
+"Intake-ul trebuie să fie capabil să controleze în mod constant elementele de"
+" joc. De exemplu, dacă intake-ul este prea rapid și cuva de colectare a "
+"elementelor nu este bine concepută, atunci piesele de joc ar putea să "
+"zboare. Dacă intake-ul este prea lent, se poate bloca singur la contactul cu"
+" elementele de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:32
+msgid ""
+"It is possible for pieces to get jammed at an unreachable angle, especially "
+"when using wheeled intakes. If this occurs, ensure that the driver can jar "
+"the stuck element loose to avoid having a disabled robot."
+msgstr ""
+"Este posibil ca piesele să se blocheze într-un unghi inaccesibil, în special"
+" atunci când se utilizează intake-uri cu roți. Dacă se întâmplă acest lucru,"
+" asigurați-vă că driver-ul poate să zguduie elementul blocat pentru a evita "
+"să aveți un robot inutilizabil."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
+msgid ""
+"The key to any successful robot is cycle time. Reducing cycle time by having"
+" an efficient intake will lead to major improvements in score. A good intake"
+" should take no more than a few seconds to successfully collect the needed "
+"elements."
+msgstr ""
+"Cheia pentru orice robot de succes este timpul de ciclu. Reducerea duratei "
+"ciclului prin intermediul unui intake eficient va duce la îmbunătățiri "
+"majore ale scorului. Un ciclu ideal nu ar trebui să dureze mai mult de "
+"câteva secunde pentru a colecta cu succes elementele necesare."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:41
+msgid ""
+"For example, in Relic Recovery, the best intakes often had a <3 second "
+"collection time for two game elements, and in Rover Ruckus a 1 second "
+"collection time was desired at the highest level."
+msgstr ""
+"De exemplu, în Relic Recovery, cele mai bune intake-uri au avut adesea un "
+"timp de colectare de sub 3 secunde pentru două elemente de joc, iar în Rover"
+" Ruckus s-a dorit un timp de colectare de o secundă la cel mai înalt nivel."

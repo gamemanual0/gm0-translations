@@ -3,16 +3,174 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Abigail G, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-16 06:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Abigail G, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:2
+msgid "Types of Intake"
+msgstr "Tipuri de Intake-uri"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:5
+msgid "Horizontal/Top Intake"
+msgstr "Intake Orizontal/Superior"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:5
+msgid ""
+"A horizontal intake generally is a wider style of intake that has the intake"
+" rotating on a horizontal axis or plane. Horizontal intakes are generally "
+"used for intaking smaller game elements, as these types of intakes can "
+"control more than one piece at a time. Horizontal intakes have been used "
+"successfully in games such as Res-Q and Rover Ruckus, where teams needed to "
+"pick up small cubes and balls from the floor."
+msgstr ""
+"Un intake orizontal este, în general, un stil de intake mai lat, în care "
+"intake-ul se rotește pe o axă sau un plan orizontal. Intake-urile orizontale"
+" sunt în general folosite pentru \\aspirarea\\ elementelor de joc mai mici, "
+"deoarece aceste tipuri de intake-uri pot controla mai mult de un element "
+"odată. Intake-urile orizontale au fost utilizate cu succes în jocuri precum "
+"Res-Q și Rover Ruckus, în care echipele trebuiau să ridice cuburi și bile "
+"mici de pe podea."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:8
+msgid "Vertical Intake"
+msgstr "Intake Vertical"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:8
+msgid ""
+"A vertical intake typically has wheels or other intake components rotating "
+"on a vertical axis (the z-axis). Vertical intakes are more controllable, as "
+"they can only pick up one element at a time. Vertical intakes excel at "
+"picking up large game elements which would be impossible to control more "
+"than one piece at once, such as the foam glyphs in Relic Recovery."
+msgstr ""
+"Un intake vertical are de obicei roți sau alte componente de intake care se "
+"rotesc pe o axă verticală (axa z). Intake-urile verticale sunt mai ușor de "
+"controlat, deoarece pot prelua doar un singur element la un moment dat. "
+"Intake-urile verticale excelează la preluarea elementelor mari de joc care "
+"ar fi imposibil de controlat mai mult de un element deodată, cum ar fi "
+"elementele din spumă din Relic Recovery."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:10
+msgid ""
+"Below are different implementations of horizontal and vertical intakes:"
+msgstr ""
+"Mai jos sunt prezentate diferite implementări ale intake-urilor orizontale "
+"și verticale:"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:13
+msgid "Roller and Wheeled Intakes"
+msgstr "Intake-uri cu Roți/Role"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:15
+msgid ""
+"Roller and wheeled intakes refer to types of intakes which work by having "
+"some sort of hard or pliable object rotate along an axis. Wheeled intakes "
+"use different kinds of wheels (solid traction, compliant, or foam wheels) "
+"that propel the game element to the collection bin. Roller intakes are "
+"wider, and can sometimes intake more than one game element."
+msgstr ""
+"Intake-urile cu role și cu roți se referă la tipuri de intake-uri care "
+"funcționează prin rotirea unui obiect dur sau flexibil de-a lungul unei axe."
+" Intake-urile cu roți folosesc diferite tipuri de roți (roți cu tracțiune "
+"solidă, roți flexibile sau roți din spumă) care propulsează elementul de joc"
+" către coșul de colectare. Intake-urile cu roti sunt mai late și, uneori, "
+"pot prelua mai multe elemente de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:22
+msgid ""
+"A compliant wheel is a flexible rubber wheel that is primarily used for "
+"intakes. These are **NOT** designed for use in drivetrains."
+msgstr ""
+"O roată flexibilă (compliant) este o roată de cauciuc flexibilă care este "
+"utilizată în principal pentru intake-uri. Acestea NU sunt concepute pentru a"
+" fi utilizate în șasiuri."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:24
+msgid ""
+"The available bore options vary depending on the vendor. As with the "
+"compliant wheels, durometer (hardness of rubber) affects both traction and "
+"longevity, sacrificing one for the other. However, in the case of intakes, a"
+" lower durometer is recommended to have maximum grippiness for intaking game"
+" elements."
+msgstr ""
+"Opțiunile de axe disponibile variază în funcție de furnizor. Ca și în cazul "
+"roților \"complaint\", durometrul (duritatea cauciucului) afectează atât "
+"tracțiunea, cât și longevitatea, sacrificând una pentru cealaltă. Cu toate "
+"acestea, în cazul preluărilor, se recomandă un durometru mai mic pentru a "
+"avea o aderență maximă pentru preluarea elementelor de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:43
+msgid "Solid Wheel Intake"
+msgstr "Intake cu Roată Dură"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:45
+msgid ""
+"Solid wheel intakes use wheels such as grip and traction wheels to pick up "
+"game elements. They can be effective in picking up large game elements which"
+" do not have much tolerance difference."
+msgstr ""
+"Intake-urile de roți dure folosesc roți precum roțile de aderență și de "
+"tracțiune pentru a prelua elemente de joc. Acestea pot fi eficiente în "
+"preluarea elementelor de joc mari care nu au o diferență de toleranță prea "
+"mare."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:47
+msgid ""
+"However, compliant wheel intakes generally will be more effective because "
+"compliant wheels offer more adjustability and forgiveness for the game "
+"elements. Compliant wheels also accounting for different game element "
+"orientations (the game pieces can get rotated when being controlled) and "
+"intake angles (the orientation of the game piece before it reaches the "
+"intake)."
+msgstr ""
+"Cu toate acestea, în general, intake-urile din roți flexibile vor fi mai "
+"eficiente, deoarece roțile flexibile oferă mai multă toleranță pentru "
+"elementele de joc. De asemenea, roțile tip \\compliant\\ țin cont de "
+"diferitele orientări ale elementelor de joc (piesele de joc se pot roti "
+"atunci când sunt controlate) și de unghiurile de \\aspirare\\ (orientarea "
+"piesei de joc înainte de a ajunge la intake)."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:50
+msgid "Compliant Wheel Intake"
+msgstr "Intake cu Roți \"Compliant\""
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rstNone
+msgid "Spring-Loaded Intakes"
+msgstr "Intake-uri cu Arc"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:54
+msgid ""
+"A spring-loaded intake is able to pivot in order to accommodate a game "
+"element when it is passing through the intake, but will snap back when the "
+"element has gone through. A spring-loaded intake requires more thought, but "
+"guarantees that the intake wheel will always be in contact with the desired "
+"element."
+msgstr ""
+"Un intake cu arc este capabil să pivoteze pentru a găzdui un element de joc "
+"atunci când acesta trece prin intake, dar se va întoarce la loc atunci când "
+"elementul a trecut. Un intake cu arc necesită mai multă gândire, dar "
+"garantează că roata de intake va fi întotdeauna în contact cu elementul "
+"dorit."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:56
+msgid ""
+"A locked intake simply means that the wheels are locked into place and "
+"cannot pivot."
+msgstr ""
+"Un intake blocat înseamnă pur și simplu că roțile sunt blocate în poziție și"
+" nu pot pivota."
