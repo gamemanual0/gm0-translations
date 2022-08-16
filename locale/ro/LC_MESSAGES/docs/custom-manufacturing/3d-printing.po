@@ -3,16 +3,427 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-16 16:19+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:4
+msgid "3D Printing"
+msgstr "Printare 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:7
+msgid "Kinds of 3D Printing"
+msgstr "Tipuri de Printare 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:9
+msgid ""
+"There are a few different kinds of 3D printing. FDM (Fused Deposition "
+"Modeling) (also known as Fused Filament Fabrication) extrudes a melted "
+"filament to create a part and is the most common type and the one we'll "
+"focus on in this guide. SLA (stereolithography) and SLS (Selective Laser "
+"Sintering) are both options for 3D printing plastics, but they are generally"
+" more complex, expensive, or hold other disadvantages in FTC applications. "
+"For those reasons, they are not recommended."
+msgstr ""
+"Există câteva tipuri de printare 3D, FDM (Modelare prin Depunere Fuzionată),"
+" prin care se extrude un filament topit pentru a crea un obiect, fiind cel "
+"mai popular tip de printare 3D. SLA (stereolitografie) si SLS (Sintentizare "
+"Selectivă prin Laser) sunt alte două opțiuni de printare 3D, însă sunt în "
+"general mai complexe, scumpe, sau au dezavantaje specifice în FTC. Din "
+"aceste motive, SLS și SLA nu sunt recomandate."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:11
+msgid ""
+"Metal 3D printing (SLS and others) is also becoming more and more available,"
+" but is not in the scope of this guide."
+msgstr ""
+"Printarea 3D cu metal (SLS sau altele), este de asemenea din ce în ce mai "
+"accesibilă, însă nu este documentată în acest ghid."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:13
+msgid ""
+"Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete "
+"guide for FDM 3D printing within the scope of FTC, providing answers to a "
+"lot of the basic questions asked about 3D printing concerning topics such "
+"as: bed adhesion, tolerances, designing for 3D printing, tuning, and "
+"hardware choices."
+msgstr ""
+"De asemenea documentați-vă din `COREFTC <https://www.coreftc.org/>`_, un "
+"ghid complet pentru printarea 3D FDM în aplicațiile FTC, cu răspunsuri la "
+"multe din dilemele printării 3D precum: aderența patului de printare, "
+"toleranțe, modelarea pentru printarea 3D, reglare și selecții hardware."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:16
+msgid "Advantages of 3D Printing"
+msgstr "Avantajele Printării 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:18
+msgid ""
+"3D printing allows for customizable sizing and perfect optimization; for "
+"example, teams can print a spool of the exact diameter needed for optimal "
+"speed, or a belt pulley with a certain number of teeth."
+msgstr ""
+"Printarea 3D permite personalizarea dimensiunilor și optimizarea perfectă, "
+"de exemplu, pentru echipele care au nevoie de o transmisie cu curea cu un "
+"anumit număr de dinți."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:19
+msgid ""
+"3D printing allows teams to adapt between kits and individual parts easily, "
+"as not all kits have adaptable mounts or brackets. A good example of this "
+"are the Nexus :term:`mecanum <Mecanum Wheel>` bore adapters that teams 3D "
+"print."
+msgstr ""
+"Printarea 3D permite echipelor să se adapteze între kit-urile și piesele "
+"individuale cu ușurință, din moment ce nu toate kit-urile au monturi "
+"adaptabile. Un exemplu bun în acest sens sunt adaptoarele de ax ale roților "
+":term:`mecanum<Mecanum Wheel>` Nexus, pe care echipele le pot printa 3D."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:20
+msgid ""
+"3D printing allows teams to fabricate parts that would otherwise be "
+"impossible with materials such as aluminum due to machining restrictions."
+msgstr ""
+"Printarea 3D permite echipelor să fabrice piese care altfel ar fi imposibil "
+"de obținut din materiale precum aluminiu din cauza limitărilor de fabricare."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:21
+msgid ""
+"3D printing allows teams to have customizable strain relief on wires and "
+"connections. This is a great project and well worth your time."
+msgstr ""
+"Printarea 3D permite echipelor să reducă stresul asupra cablurilor și "
+"conexiunilor, fiind un proiect în care merită investit timp."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:24
+msgid "Disadvantages of 3D Printing"
+msgstr "Dezavantajele Printării 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:26
+msgid ""
+"**If you are out of 3D printed spares at a competition, you're probably out "
+"of luck. Teams are advised to print at least one set of every single 3D "
+"printed part as spares for competition**."
+msgstr ""
+"**Dacă rămâi fără piese printate 3D la o competiție, ți s-a terminat "
+"norocul. Este recomandat ca echipele să printeze cel putin un set "
+"suplimentar de piese printate 3D de rezervă pentru competiții.**"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:27
+msgid ""
+"3D printed components are generally weaker than other materials such as "
+"aluminum. However, printing in the proper orientation can be very strong - "
+"teams have 3D printed hooks and other parts to support their FRC\\ |reg| "
+"robot (120 pounds) and FTC robots (40 pounds)."
+msgstr ""
+"Piesele printate 3D sunt, în general, mai ușor de rupt decât alte materiale,"
+" precum aluminiul. Însă, printarea 3D În orientarea potrivită poate fi "
+"foarte rezistentă. Unele echipe au printat 3D cârlige și alte piese să iși "
+"susțină roboții lor FRC\\  |reg| (55 kilograme) si roboții FTC (18 "
+"kilograme)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:28
+msgid ""
+"3D printed parts should only be loaded in one orientation. That is, if the "
+"robot is hanging from a hook, the only load should be on the bottom face of "
+"the curved part of the hook. Try to eliminate side loads as much as possible"
+" to avoid part failure."
+msgstr ""
+"Piesele printate 3D ar trebui să fie încărcate într-o singură orientare. "
+"Dacă robotul este susținut de un cârlig, singura încărcătură ar trebui să "
+"fie pe partea de jos a cârligului. Încearcă să elimini orice încărcătură din"
+" părțile laterale pe cât este posibil."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:29
+msgid "The size of 3D printed parts is limited by the size of your print bed."
+msgstr ""
+"Dimensiunile pieselor printate 3D sunt limitate de dimensiunile patului de "
+"printare al imprimantei tale."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:30
+msgid ""
+"Large and thick prints can take a long time (overnight) to print and can run"
+" the risk of failure."
+msgstr ""
+"Piesele de dimensiuni mari și late pot dura foarte mult să se printeze (>10 "
+"ore) și sunt predispuse la eșec."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:31
+msgid ""
+"3D printing can end up quite expensive, though filament can be found for a "
+"reasonable price on online vendors such as Amazon."
+msgstr ""
+"Printarea 3D poate fi destul de scumpă, deși filamentele se pot achiziționa "
+"la prețuri rezonabile, precum eMAG, filamente3d.ro, hobbymarket.ro, etc."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:34
+msgid "Common Filaments"
+msgstr "Filamente Comune"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:36
+msgid ""
+"For almost every part that needs to be 3D printed for FTC, **PLA (or PLA+, "
+"Pro, etc) and/or PETG will meet all the needs for strength, durability, and "
+"aesthetics.** These two filament types are by far the easiest to print, and "
+"are sold by many manufacturers for reasonable prices. Most of the other "
+"filaments here offer very specific advantages (like TPU) that come at the "
+"cost of effort, time, and money."
+msgstr ""
+"Pentru aproape orice piese care trebuie printate 3D pentru FTC, **PLA (sau "
+"PLA+, Pro, etc.) sau PETG vor îndeplini orice nevoie pentru durabilitate, "
+"rezistență și aspect.** Aceste două tipuri de filament sunt pe departe cele "
+"mai ușor de printat și sunt vândute de producători la prețuri rezonabile. "
+"Alte filamente au avantaje specifice, precum TPU, care vin la un preț "
+"ridicat, necesită mai mult efort și timp."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
+msgid ""
+"If your printer's hotend (the part that melts the filament) has a PTFE "
+"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
+"(common in lower price printers like the Ender 3 and its variants), then you"
+" **should not be printing at or above 250° C**. Doing so will cause the PTFE"
+" tube to degrade and melt, releasing toxic fumes. If you need to print at "
+"these temperatures and you have a PTFE lined hotend, you can look at "
+"upgrading to an all-metal hotend."
+msgstr ""
+"Dacă hotend-ul imprimantei tale (componenta care topește filamentul) este "
+"alcătuit dintr-un tub de PTFE care intră în blocul de încălzire, ca la Ender"
+" 3 și alte variante, de exemplu, **atunci nu ar trebui să printezi cu o "
+"temperatură mai mare de 250° C**. Făcând acest lucru va topi și degrada "
+"tubul de PFTE, eliberând fumuri toxice în aer. Dacă ești nevoit să printezi "
+"cu temperaturi ridicate, consideră un upgrade la un hotend integral din "
+"metal, precum cele montate pe Prusa MK3."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
+msgid "PLA (Polylactic Acid)"
+msgstr "PLA (Acid Polilactic)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:43
+msgid ""
+"The most common 3D Printing filament is polylactic acid, or PLA. It is a "
+"plastic made from biological sources like corn starch and sugar cane. PLA is"
+" stiff but more brittle than other filament options and tends to have little"
+" to no warp when printing. PLA is well suited to the majority of robot "
+"parts, but it may not hold up well to shock loads (impacts to parts), and as"
+" such parts should be designed accordingly."
+msgstr ""
+"Cel mai comun filament pentru printarea 3D este acidul polilactic, sau PLA. "
+"Este un plastic fabricat din surse naturale precum amidonul de porumb sau "
+"trestia de zahăr. PLA este rigid, dar mai fragil decât alte filamente și "
+"tinde să aibă aproape zero deviere în timpul printării. PLA este protrivit "
+"pentru majoritatea componentelor pentru roboți, însă nu va rezista mult timp"
+" la impacte, drept pentru care aceste piese trebuie modelate potrivit."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
+msgid "PLA hotend temperatures range from 190°-230° C"
+msgstr "Printarea cu PLA necesită temperaturi între 190°-230° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
+msgid ""
+"PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly "
+"required for PLA"
+msgstr ""
+"Temperatura suprafeței de printare pentru PLA este între 20°-60° C, însă nu "
+"este strict necesar un pat încălzit pentru acest tip de filament."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
+msgid ""
+"Due to the relatively low melting point of PLA, it is not advisable to leave"
+" PLA parts in locations such as a hot car, as this can produce severe "
+"warping in those parts."
+msgstr ""
+"Din cauza punctului scăzut de topire al PLA, nu este indicat să lăsați "
+"piesele printate din PLA într-o mașină în soare, deoarece se pot produce "
+"deteriorări ale materialului."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:50
+msgid ""
+"There are many variations of PLA sold by different manufacturers, like PLA+ "
+"or PLA Pro. These filaments have various additives in them to improve "
+"strength, printability, and other properties. While more expensive, these "
+"products can greatly improve the performance of PLA and cover its "
+"weaknesses."
+msgstr ""
+"Există multe variante ale PLA-ului vândute de diverși producători, precum "
+"PLA+ sau PLA Pro. Aceste filamente au diverși aditivi în compoziție pentru a"
+" îmbunătăți rezistența, durabilitatea, pritabilitatea și alte proprietăți. "
+"Deși sunt mai scumpe, aceste produse pot aduce multe beneficii PLA-ului și "
+"reduc slăbiciunile acestui filament."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:53
+msgid "PETG (Polyethylene Terephthalate Glycol)"
+msgstr "PETG (Polietilen Tereftalat Glicol)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:55
+msgid ""
+"PETG can be described as a strength upgrade to PLA. It is not difficult to "
+"print, but often has noticeably more stringing and other minor artifacts. "
+"While it technically has a lower tensile strength than PLA, it is far less "
+"brittle and withstands impacts better, through slight flexing. It is a great"
+" option for FTC parts which need to be impact resistant where PLA will not "
+"suffice. Its higher temperature resistance also means it won't warp in a "
+"high ambient temperature such as a hot car."
+msgstr ""
+"PETG poate fi descris ca o îmbunătățire a durabilității PLA-ului. Nu este "
+"dificil de printat, deși produce des \"fire\" și defecte minore. Deși, "
+"teoretic, are o rezistență mai slabă decât PLA, este cu mult mai puțin "
+"fragil și face față mai bine impacturilor, fiind un material ușor flexibil. "
+"Este o opțiune bună pentru componentele roboților care trebuie să reziste la"
+" impacturi, unde PLA nu face față. Rezistența mai bună la temperaturi "
+"ridicate reduce riscul de deteriorare al materialului într-un mediu cald."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:57
+msgid ""
+"PETG is known for bonding very well to print beds, **especially glass and "
+"PEI**, and is known to rip chunks out of the bed. It is a good idea to add "
+"some glue stick or hairspray before printing it."
+msgstr ""
+"PETG este cunoscut pentru aderența sa foarte bună pe patul de printare, **în"
+" special pe sticlă sau PEI**, și este comun să se rupă bucăți de pe "
+"suprafață. Este o idee bună să adăugati adeziv (precum lipici la tub pentru "
+"școală) sau fixativ înainte de printare."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
+msgid "PETG hotend temperatures range from 230°-260° C"
+msgstr ""
+"Temperaturile hotend-ului pentru printarea cu PETG variază între 230°-260° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
+msgid "PETG bed temperatures range from 60°-80° C"
+msgstr ""
+"Temperatura suprafeței de printare pentru PETG variază între 60°-80° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
+msgid "Less Common Filaments"
+msgstr "Filamente mai Puțin Comune"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:65
+msgid ""
+"These filaments are less used than those listed above, but can still find "
+"plenty of use cases on an FTC robot. These usually are used due to specific "
+"material properties such as flexibility or durability. These often come "
+"however, with substantial obstacles for printing that prevent some printers "
+"from printing them out of the box, along with sometimes being significantly "
+"more expensive."
+msgstr ""
+"Aceste filamente sunt mai puțin comune decât cele descrise mai sus, însă pot"
+" avea suficiente aplicații în cazul unui robot FTC. Acestea sunt folosite în"
+" general pentru proprietățile lor specifice precum flexibilitatea sau "
+"durabilitatea. Aceste calități vin, în schimb, cu obstacole în procesul de "
+"printare întrucât pot preveni anumite imprimante să printeze cu aceste "
+"materiale din fabrică, și de obicei, aceste filamente sunt mai scumpe."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
+msgid "ABS (Acrylonitrile Butadiene Styrene)"
+msgstr "ABS (Acrilonitril Butadien Stiren)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:70
+msgid ""
+"ABS used to be the standard filament for printing before PLA became "
+"commercially available. You've probably used ABS before in LEGO pieces. It "
+"can withstand high loads and is quite ductile. This comes at the cost of "
+"printing difficulty, where an enclosure is often necessary to raise the "
+"ambient temperature and prevent severe part warping. The strength "
+"improvements over PLA can be more easily found in PETG, so ABS parts are not"
+" as common in FTC. ABS is quite affordable though, sold at the same prices "
+"as PLA."
+msgstr ""
+"ABS a fost în trecut standardul filamentelor pentru printarea 3D, înainte ca"
+" PLA să devină accesibil. Piesele din LEGO sunt fabricate din ABS, de "
+"exemplu. Acest filament poate suporta încărcături imense și este ductil. "
+"Aceste calități vin la pachet cu dificultatea printării acestui filament, "
+"pentru care este necesară ridicarea temperaturii ambientale pentru a preveni"
+" deterioarea materialului în timpul printării. Deoarece calitățile ABS-ului "
+"sunt găsite și în PETG, piesele printate cu ABS nu sunt așa comune în FTC. "
+"Filamentul ABS este, în schimb, destul de ieftin, fiind cam la acelaș preț "
+"ca PLA-ul."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
+msgid "ABS hotend temperatures range from 230°-250° C"
+msgstr ""
+"Temperatura hotend-ului pentru printarea cu ABS variază între 230°-250° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
+msgid "ABS bed temperatures range from 100°-120° C"
+msgstr ""
+"Temperatura suprafeței de printare pentru printarea cu ABS variază între "
+"100°-120° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
+msgid "Enclosure highly recommended to prevent warping"
+msgstr ""
+"O carcasă pentru imprimanta 3D este recomandată pentru a preveni deterioarea"
+" ABS-ului."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:76
+msgid ""
+"Due to the difficulty of printing ABS and its limitations, one might look at"
+" alternatives such as ASA which offer similar properties with much better "
+"printability."
+msgstr ""
+"Din cauza dificultății printării cu ABS și limitările sale, o alternativă "
+"mai bună este ASA, care are propriețăti similare, însă o printabilitate mai "
+"bună."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:79
+msgid "TPU/TPE (Themoplastic polyurethane/Thermoplastic elastomer)"
+msgstr "TPU/TPE (Poliuretan termoplastic)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:81
+msgid ""
+"TPU and TPE are both common printing filaments that are widely used for "
+"their flexible material properties. This allows one to create printed parts "
+"that can easily flex and bend. Sold under many different durometers (a "
+"measure on the Shore Hardness Scale of the hardness/flexibility of a "
+"material), TPU/TPE's high impact resistance and layer adhesion make it not "
+"only a versatile filament, but an extremely durable one. In FTC, teams use "
+"TPU/TPE in roles such as printed intake flaps in place of a tube, as well as"
+" custom belts for low-load applications."
+msgstr ""
+"TPU și TPE sunt ambele filamente des întâlnite care sunt utilizate în "
+"general datorită flexibilității acestora. Aceste proprietăți permit pieselor"
+" printate să se deformeze și să revină la forma inițială. Vândute sub "
+"diferite durometre (măsura flexibilitatii unui material), TPU/TPE dețin o "
+"rezistență puternică asupra impacturilor, drept pentru care sunt folosite în"
+" role pentru intake-uri în loc de tubulatură, dar și personalizate sub formă"
+" de curele pentru transmisii la aplicații ușoare."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:83
+msgid ""
+"Due to its flexible nature, printers that use a Bowden tube extrusion "
+"system, where the extruder motor is not placed on the hotend, will find it "
+"extremely difficult to print TPU/TPE."
+msgstr ""
+"Din cauza flexibilității tubului PTFE, folosit de anumite imprimante 3D, "
+"unde motorul care alimentează imprinta cu filament nu este poziționat direct"
+" deasupra hotend-ului, TPU/TPE sunt dificil de printat pe aceste tipuri de "
+"imprintante."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:85
+msgid "TPU/TPE hotend temperatures range from 210°-250° C"
+msgstr ""
+"Temperatura hotend-ului pentru printarea cu TPU/TPE variază între 210°-250° "
+"C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:86
+msgid ""
+"TPU/TPE does not usually need a heated bed, but if one is used it should not"
+" go over 60° C as this will fuse TPU with print bed."
+msgstr ""
+"TPU/TPE de obicei nu necesită o suprafață de printare încălzită, însă dacă "
+"este folosit totuși un pat încălzit, acesta nu ar trebui încălzit la mai "
+"mult de 60° C, întrucât va fuziona cu materialul TPU."

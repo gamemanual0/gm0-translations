@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Abigail G, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 06:38+0000\n"
+"POT-Creation-Date: 2022-08-16 16:19+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Abigail G, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +38,14 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:9
 msgid "Intake"
 msgstr "Intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:9
+msgid ""
+"A mechanism designed to pick up game elements using some component of "
+"rotational motion powered by a motor."
+msgstr ""
+"Un mecanism cu rolul de a prelua elemente de joc folosind componente în "
+"mișcare rotațională, cu ajutorul unui motor."
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:11
 msgid ""
@@ -72,6 +81,14 @@ msgstr ""
 "Deși nu este o necesitate, este foarte recomandat ca echipele să dedice cel "
 "puțin un motor pentru intake-ul lor, dacă este posibil."
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:17
+msgid ""
+"When it comes to intakes, the JVN school of picking stuff: \"**Touch it, own"
+" it**\" is really valuable."
+msgstr ""
+"Când vine vorba de intake-uri, expresia **Atinge-l, deține-l** devine foarte"
+" valoroasă."
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:19
 msgid ""
 "When your intake comes in contact with game elements, you want it to "
@@ -84,6 +101,18 @@ msgstr ""
 "de eroare, atât în ceea ce privește orientarea piesei de joc, cât și în ceea"
 " ce privește alinierea robotului. De exemplu, uitați-vă la intake-ul de "
 "minge al echipei de FRC\\ |reg| Team 694 de pe robotul lor din 2019:"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:24
+msgid ""
+"FRC\\ |reg| Team 694's Deep Space ball intake with 2 horizontal rollers with"
+" compliant wheels"
+msgstr ""
+"Intake-ul echipei FRC\\ |reg| Team 694's Deep Space cu două role orizontale,"
+" cu roți tip \"compliant\"."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:24
+msgid "FRC 694 StuyPulse, Deep Space"
+msgstr "FRC 694 StuyPulse, Deep Space"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:26
 msgid ""
