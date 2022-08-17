@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 16:19+0000\n"
+"POT-Creation-Date: 2022-08-17 16:21+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -427,3 +427,348 @@ msgstr ""
 "TPU/TPE de obicei nu necesită o suprafață de printare încălzită, însă dacă "
 "este folosit totuși un pat încălzit, acesta nu ar trebui încălzit la mai "
 "mult de 60° C, întrucât va fuziona cu materialul TPU."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:87
+msgid ""
+"TPU/TPE has the tendency to absorb a lot of moisture from the air, and thus "
+"will likely need to be dried before and perhaps during a print."
+msgstr ""
+"TPU/TPE are tendința să absoarbă multă umiditate din aer, iar cel mai "
+"probabil va trebui să fie uscat filamentul înainte/în timpul printării 3D."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:88
+msgid "Direct drive extruder is highly recommended"
+msgstr ""
+"Un extrudor de tip \"Direct Drive\", cu motorul care alimentează hotend-ul "
+"cu filament amplasat direct deasupra acestuia, este recomandat."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:92
+msgid "Exotic Filaments"
+msgstr "Filamente \"Exotice\""
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:94
+msgid ""
+"There is rarely ever any need for these filaments in FTC. They offer "
+"extremely good material properties for parts that need to be subjected to "
+"high forces and adverse environments. They are all much more expensive than "
+"any of the filaments listed above, and offer a multitude of challenges for "
+"printing."
+msgstr ""
+"Aceste filamente sunt întâlnite rar în FTC. Aceastea oferă propriețăti "
+"extrem de bune ale materialului pentru piesele care sunt expuse la condiții "
+"extreme. Aceste filamente sunt mult mai scumpe decât cele descrise mai sus, "
+"și sunt destul de dificil de printat."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:97
+msgid "Nylon"
+msgstr "Nailonul (Nylon)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:99
+msgid ""
+"Nylon filaments can be glass-filled, carbon fiber-filled, or pure. Nylon is "
+"the king of impact resistance in many situations where the part can flex out"
+" of the way, instead of completely breaking. Occasionally nylon is used for "
+"parts like wheel covers on drivetrains and in places where it will be "
+"repeatedly hit and battered. Nylon requires very high temperatures, "
+"generally requires an enclosure, and absolutely must be dried before (and "
+"while) printing."
+msgstr ""
+"Filamentele din nailon pot fi compuse din sticlă, carbon, sau din material "
+"pur. Nailonul este \"regele\" rezistenței la impacturi în cazul în care "
+"piesa printată 3D poate să se deformeze și să revină la forma originală, în "
+"loc să se spargă. Ocazional, nailonul este folosit pentru protecții ale "
+"roților/șasiurilor, unde sunt predispuse la loviri puternice repetitive. "
+"Nailonul are nevoie de o temperatură mare de printare și, în general, o "
+"carcasă pentru a izola atmorsfera imprimantei. Nailonul trebuie uscat bine "
+"înainte și în timpul printării pentru rezultate excelente."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
+msgid "Nylon hotend temperatures range from 240°-260° C"
+msgstr ""
+"Temperatura hotend-ului pentru printare cu nailon variază între 240°-260° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:102
+msgid "Nylon bed temperatures range from 55°-80° C"
+msgstr ""
+"Temperatura suprafetei de printare pentru printarea cu nailon variază între "
+"55°-80° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
+msgid ""
+"Nylon is infamous for absorbing moisture from the air and should be "
+"thoroughly dried before and during printing. Failure to do this will "
+"probably result in a nearly unusable part."
+msgstr ""
+"Nailonul este cunoscut pentru absorbția sa a umidității din aer și ar trebui"
+" uscat integral înainte și în timpul printării. Nefăcând acest lucru, piesa "
+"este predispusă la eșec în timpul printării."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:104
+msgid "Enclosure recommended"
+msgstr "Carcasa cu atmorsferă închisă este recomandată."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:107
+msgid "Carbon Fiber-filled"
+msgstr "Filament Compus din Carbon"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:109
+msgid ""
+"Many filaments are also sold with the addition of small chunks of carbon "
+"fiber mixed into the filament itself. While often though of as an extreme "
+"strength improvement, these filaments are instead meant to be stiffer and "
+"help to improve the printability of filaments like nylon. Carbon fiber-"
+"filled filaments generally require higher temperatures, and a hardened steel"
+" nozzle, but if you can print the pure variants of those filaments, you "
+"should be able to print their carbon fiber-filled counterparts."
+msgstr ""
+"Multe filamente sunt produse cu aditivi compuși din bucăți mici de fibră de "
+"carbon pentru a mări rezistența, dar și rigiditatea și printabilitatea "
+"nailonului. Filamentele din fibră de carbon au nevoie de temperaturi mari de"
+" printare și o duză din oțel dur. Totuși dacă imprimanta ta poate din "
+"fabrică să printeze nailonul pur, poate printa și variantele sale compuse "
+"din fibră de carbon."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:113
+msgid "Polycarbonate (PC)"
+msgstr "Policarbonat (PC)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:115
+msgid ""
+"Polycarbonate and its variants are very very strong, technical materials. PC"
+" shines in its ability to be very rigid, and handle shock loads exceedingly "
+"well. PC also requires being dry, having a printer capable of **very** high "
+"temperatures, and an enclosure. It is a very challenging material to print, "
+"and is often very expensive. There is little reason to ever need printed "
+"polycarbonate parts in FTC, with no use cases requiring its strength."
+msgstr ""
+"Policarbonatul și alte variante ale sale sunt materiale tehnice foarte, "
+"foarte rezistente. PC este un material foarte rigid, și poate face față la "
+"șocuri foarte puternice. PC are nevoie totuși, de o imprimantă capabilă de "
+"printare cu temperaturi *foarte* mari, și o carcasă închisă. Este un "
+"material foarte dificil de printat și foarte scump. În general, nu există "
+"motive concrete să folosești piese printate din PC în FTC, din moment ce nu "
+"vor exista șocuri extrem de puternice în timpul jocului care să facă PC un "
+"material neapărat util."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:117
+msgid ""
+"There are several PC blends that can be much easier to print, a standout "
+"example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC "
+"that retains many of the advantages of pure PC. PolyLite is not quite as "
+"impact-resistant, but a lot cheaper. Both are much easier to print than pure"
+" PC."
+msgstr ""
+"Există câteva variante ale PC care sunt mai ușor de printat, precum "
+"PolyMaker PolyMax PC. Este un filament ușor de printat, care reține "
+"avantajele PC-ului. PolyLite nu este la fel de rezistent, însă cu mult mai "
+"ieftin. Ambele sunt mai ușor de printat decât PC-ul pur."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
+msgid "PC hotend temperatures range from 250°-320° C"
+msgstr ""
+"Temperatura hotend-ului pentru printare cu PC variază între 250°-320° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:120
+msgid "PC bed temperatures range from 80°-140° C"
+msgstr "Temperatura suprafeței de printare pentru PC variază între 80°-140° C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
+msgid "Enclosure required"
+msgstr "O carcasă închisă este obligatorie"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:122
+msgid "Filament must be kept dry"
+msgstr "Filamentul trebuie ținut uscat"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:125
+msgid "High-end exotic filaments"
+msgstr "Filamente \"Exotice\" de Top"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:127
+msgid ""
+"There are a few other materials that can have very high-end benefits, and "
+"push the envelope on what 3D printing can accomplish, but should not be "
+"printed if you are not *very* confident in your printing skills, and have "
+"basically no use in FTC. These materials include, but are not limited to, "
+"Delrin (Polyoxymethylene Homopolymer Acetal), PEI (Polyether Imide, brand "
+"name ULTEM), PEEK (Polyether Ether Ketone), and PEKK "
+"(Polyetherketoneketone). These materials are extremely hard to print, "
+"require ludicrous temperatures (some to the point where a hardened steel "
+"nozzle begins to melt), and are extremely expensive."
+msgstr ""
+"Există câteva materiale care pot avea proprietăți de top, și care pot duce "
+"mai departe capabilitățile printării 3D, însă nu ar trebui folosite dacă nu "
+"ești *foarte* experimentat în printarea 3D, iar piesele nu au un folos în "
+"FTC. Aceste materiale includ: Delrin (Polioximetilen Homopolimer Acetal), "
+"PEI (Polieter Imidă, marca ULTEM), PEEK (Polieter eter cetona), și PEKK "
+"(Polietercetonecetonă). Aceste materiale sunt extrem de greu de printat, au "
+"nevoie de temperaturi extrem de mari (la care duzele din oțel încep să se "
+"topească), și sunt extrem de scumpe."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:130
+msgid "3D Printing Design Guide"
+msgstr "Ghidul Modelării pentru Printarea 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:132
+msgid ""
+"Here is a quick guide on designing 3D printed parts that we hope is helpful "
+"for teams who may be unfamiliar with 3D parts."
+msgstr ""
+"Aici este un scurt ghid care explică proiectarea pieselor printate 3D, care "
+"sperăm să fie util pentru echipele care nu sunt familiarizate cu piesele "
+"printate 3D."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:134
+msgid ""
+"The first consideration when designing 3D printed parts is print "
+"orientation. This refers to the side that contacts the print bed. "
+"Preferably, the part should have a flat bottom to maximize contact with the "
+"print bed."
+msgstr ""
+"Primul lucru pe care al trebui să îl consideri când schițezi o piesă "
+"printată 3D este orientarea în care va fi printat. Acest lucru se referă la "
+"partea care va face contact cu suprafața de printare a imprimantei. "
+"Preferabil, acea parte ar trebui să aibă o suprafață plată pentru un contact"
+" eficient cu patul imprimantei."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:136
+msgid ""
+"Maximizing contact with the print bed will make sure the part doesn't "
+"delaminate or warp from the bed and increase print quality."
+msgstr ""
+"Eficientizarea contactului cu patul de printare va asigura faptul că piesa "
+"nu se va deforma în timpul printării 3D."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:138
+msgid ""
+"If it is impossible for the part to have a flat side to print on, a simple "
+"solution is to split the part into multiple parts along a plane. For "
+"instance, the gearbox plate below didn't have a flat side to print on, so it"
+" was split in half. The part was later sandwiched with numerous screws and "
+"plastic glue. If this plate was printed as one part instead of split in "
+"half, support would have to be used to create all of the necessary holes. "
+"Parts that use no support material make sure that the least amount of "
+"plastic is wasted."
+msgstr ""
+"Dacă este imposibil ca o piesă să aibă o parte plată pentru contact cu patul"
+" de printare, o soluție simplă ar fi să împarți piesa în mai multe bucăți "
+"de-a lungul unui plan. De exemplu, o placă de angrenaj nu are o suprafață "
+"plată de printare, așa că a fost împărțită în două bucăți și lipită ulterior"
+" cu adeziv și șuruburi. Dacă piesa ar fi fost printată într-o singură "
+"bucată, ar fi fost nevoie de material auxiliar de suport pentru a printa "
+"găurile necesare. Piesele care nu au nevoie de material de suport asigură "
+"faptul ca filamentul nu este irosit aiurea."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+msgid "A 3D printed gearbox, printed in 2 parts, cut along a plane"
+msgstr ""
+"Un angrenaj printat 3D, printat în 2 părți, tăiate de-a lungul unui plan"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:144
+msgid ""
+"Don't chamfer or round anything on the perimeter of the first layer on the "
+"bottom face of the part. Chamfering or rounding will increase the chances of"
+" the part warping, especially on unheated print plates."
+msgstr ""
+"Nu teși sau rotunji nimic în perimetrul primului strat printat pe partea de "
+"jos a piesei. Teșirea sau rotunjirea piesei va mări șansele de deformare a "
+"piesei, în special pe paturile de printare neîncălzite."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:147
+msgid "Draft Angle"
+msgstr "Unghiul de Proiectare"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:149
+msgid ""
+"Draft angle refers to the overhang angle between the part side and normal "
+"vector from the print plate. The maximum draft angle refers to the maximum "
+"angle the printer can print without support material and is based on the "
+"printer, print settings (notably speed, temperature and cooling) and "
+"filament type. When trying to decrease support material, consider every "
+"overhang angle and make sure it is within the maximum draft angle. Staying "
+"within the maximum draft angle will also decrease the chances of part "
+"warping."
+msgstr ""
+"Unghiul de proiectare se referă la unghiul suspendat între piesă și vectorul"
+" patului de printare. Unghiul maxim de suspendare se referă la unghiul maxim"
+" pe care imprimanta îl poate printa fără material de suport și este bazat pe"
+" calitatea imprimantei, setările imprimantei (viteza de printare, "
+"temperatura și răcire) și tipul de filament. Când încerci să reduci din "
+"utilizarea materialului de suport, ia în calcul toate unghiurile de "
+"suspendare și asigură-te că sunt mai mici decât unghiul maxim de proiectare,"
+" reducând asftel riscul de deformare."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:152
+msgid "Stress Vectors"
+msgstr "Vectori de Stres"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:154
+msgid ""
+"Perhaps the most important consideration is stress vectors. 3D printed parts"
+" are inherently stronger on two axes and weaker on one axis. The weaker axis"
+" comes from the layering action that defines FDM 3D printing. A common fix "
+"to this is to simply increase the print temperature up to a certain limit "
+"until it starts decreasing print quality, but the weaker axis can be "
+"resolved by again splitting up into multiple parts. The point to get across "
+"is to try to increase strength by optimizing sections of the part on the "
+"plane they are being printed on. For instance, this assembly below was "
+"responsible for hanging the entire robot, so it had to be the maximum "
+"strength possible for a 3D printed part."
+msgstr ""
+"Probabil cel mai important factor ce trebuie luat in considerare este "
+"vectorul de stres / rezistență. Piesele printate 3D sunt mai rezistente "
+"implicit pe două axe teoretice și mai slabe pe o singură axă. Axa mai slabă "
+"este cea pe care sunt printate straturile de filament prin printarea FDM. O "
+"soluție comună este să mărești temperatura de printare până la limită, până "
+"începe să se strice calitatea piesei, însă axa mai slaba poate fi de "
+"asemenea consolidată prin printarea pe mai multe bucăți. În esență, încearcă"
+" să mărești rezistența prin optimizirea secțiunilor piesei pe planul pe care"
+" sunt printate. De exemplu, piesa de mai jos a fost responsibilă pentru "
+"susținerea întregului robot, deci implicit trebuia să aibă rezistența maximă"
+" a unei piese printate 3D."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:156
+msgid ""
+"It might seem counterintuitive to split up a part into multiple parts to "
+"increase strength, but there is a logic behind it."
+msgstr ""
+"Ar putea părea ilogic să împarți o piesă în mai multe părți pentru a mări "
+"rezistența, însă există o logică în spatele acestui concept."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:158
+msgid ""
+"The part could have been easily printed as a single part, but it would be "
+"fairly weak when stresses are exerted in the upward direction. Splitting the"
+" part and creating new flat surfaces to print on will strengthen each axis. "
+"*If one small part failed, the robot might still be able to somewhat "
+"function.* This would be preferable to the entire piece failing at once. In "
+"this example, the side pieces were printed as separate parts on a "
+"complementary axis to strengthen the assembly."
+msgstr ""
+"Piesa ar fi putut fi printată cu ușurință într-o singură bucată, însă ar fi "
+"fost destul de slabă din punct de vedere mecanic cănd stresul ar fi fost "
+"exercitat în sus. Împărțirea axei și crearea unei suprafețe noi, plate, "
+"pentru printare va mări rezistența fiecărei axe. *Dacă o bucată ar fi dat "
+"greș, robotul tot ar mai putea funcționa într-un fel sau altul.* De exemplu,"
+" piesele laterale au fost printate separat pe o axă complementară pentru a "
+"mări rezistența piesei întregi."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+msgid "A multipart assembly 3D printing"
+msgstr "O piesă printată 3D din mai multe bucăți"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+msgid "An assembled version of what was printing in the previous image"
+msgstr "O variantă asamblată a bucăților printate în poza anterioară"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:168
+msgid ""
+"This assembly is a good example of considering part orientation, draft "
+"angles, and stress vectors in each part of the design. Complex parts can be "
+"made strong and without any support by simply splitting it up in the right "
+"way."
+msgstr ""
+"Această piesă este un exemplu bun de considerare al orientării bucăților, "
+"unghiurilor de proiectare, și vectorilor de stres în fiecare parte al "
+"modelului. Piesele complexe pot fi rezistente și fără material de suport pur"
+" și simplu prin împărțirea corectă a piesei."
