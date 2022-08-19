@@ -3,16 +3,86 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-19 04:47+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:2
+msgid "Design Glossary"
+msgstr "Dicționarul de Design"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:5
+msgid "COTS"
+msgstr "COTS"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:7
+msgid ""
+"COTS (Commercial Off the Shelf) parts refer to parts that teams can purchase"
+" physically or through an online retailer."
+msgstr ""
+"COTS (traducere din \"Commercial Off the Shelf\" - disponibil la vânzare) se"
+" referă la piesele pe care echipele le pot achiziționa fizic sau printr-un "
+"vânzător online."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:9
+msgid ""
+"FTC teams are limited to one degree of freedom (with some exceptions) to "
+"COTS parts. Therefore, buying a drawer slide is an allowable part, as there "
+"is only one degree of freedom, but purchasing a multi-axis arm isn’t."
+msgstr ""
+"Echipele FTC sunt limitate la doar câteva grade de libertate (cu anumite "
+"excepții) în legătură cu piesele COTS. Drept pentru care, achiziționarea "
+"unei glisiere de sertar este o piesa legală, dar un braț multi-axial nu "
+"este."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:11
+msgid ""
+"However, teams can buy individual parts and assemble them together into a "
+"mechanism that has more than one degree of freedom. This doesn’t apply to "
+"drivetrain kits."
+msgstr ""
+"În schimb, echipele pot achiziționa piese individual și să le asambleze la "
+"un loc într-un mecanism care are mai multe grade de libertate. Acest lucru "
+"nu se aplică și la kit-uri pentru șasiuri."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:12
+msgid "Packaging"
+msgstr "Ambalarea"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:14
+msgid ""
+"Packaging refers to the relative size and location of components on the "
+"robot. Generally, you want to design and locate (or package) components in "
+"the most space-efficient way you can."
+msgstr ""
+"Ambalarea se referă la dimensiunile relative și locația componentelor pe "
+"robot. În general, vrei să schițezi (sau să ambalezi) componentele în cel "
+"mai eficient mod posibil din punct de vedere al spațiului."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:15
+msgid "STEP file"
+msgstr "Fișierul STEP"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:17
+msgid ""
+"A STEP file is a filetype used to store 3D data about a part. It is "
+"recognized by different CAD softwares including SolidWorks, Inventor, Creo, "
+"etc."
+msgstr ""
+"Un fișier STEP este un tip de fișier folosit pentru a stoca date 3D despre o"
+" piesă. Este recunoscut de diverse programe CAD precum SolidWorks, Inventor,"
+" Creo, etc."

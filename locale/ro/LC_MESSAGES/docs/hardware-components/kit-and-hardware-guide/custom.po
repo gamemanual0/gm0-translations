@@ -3,16 +3,82 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-19 04:47+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:2
+msgid "Custom"
+msgstr "Personalizat"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:4
+msgid ""
+"Many teams elect to ignore kits entirely and instead make their own "
+"mechanisms completely from scratch. While this allows for nearly unlimited "
+"design freedom, keep in mind *full* Custom has many caveats and drawbacks. A"
+" full CAD model is required for a custom robot, as well as machining "
+"capability. Custom robots are not suitable for a new team."
+msgstr ""
+"Multe echipe aleg să ignore kit-urile prefabricate cu totul și în schimb să "
+"își fabrice propriile mecanisme de la 0. În timp ce acest lucru le conferă o"
+" libertate totală în ceea ce priveste design-ul, reține că \"*complet* "
+"personalizat\" are de asemenea și niste dezavantaje. Un model complet CAD "
+"este obligatoriu pentru un robot personalizat, de asemenea și aparatura de "
+"fabricare avansată. Roboții personalizați nu sunt recomandați pentru "
+"echipele noi."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:6
+msgid ""
+"However, forgoing a full custom robot opens up many opportunities. Many "
+"teams choose to create a robot that is a mix of kit parts and custom parts. "
+"Our recommendation is to use kit parts as the backbone of the robot, and "
+"custom fabricate any additional parts necessary, instead of the other way "
+"around. That way, you can rely on the strength and durability of the kit "
+"while retaining the ability to customize small pieces and mechanisms to your"
+" advantage."
+msgstr ""
+"Totuși, fabricarea unui robot complet personalizat deschide multe "
+"oportunități. Multe echipe aleg să construiască un robot \"hibrid\", dintr-"
+"un mix de componente fabricate de companii și personalizate. Recomandarea "
+"noastră este utilizarea componentelor kit ca bază a robotului, și "
+"personalizarea componentelor complementare necesare, ci nu invers. În acest "
+"fel, te poti baza pe rezistenta și durabilitatea kit-ului, în timp ce "
+"păstrezi abilitatea de a personaliza piese mici și mecanisme în avantajul "
+"tău."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:8
+msgid ""
+"The methods that teams use to make custom parts typically involve either "
+"additive or subtractive manufacturing: either building a part from raw "
+"material (3d printing) or removing material from stock to create a part "
+"(Milling, Routing, and Laser Cutting)."
+msgstr ""
+"Metodele pe care echipele le folosesc pentru a fabrica piese personalizate "
+"în general includ fabricarea aditivă sau subtractivă: fie fabrici o piesă "
+"din material crud (printare 3D), sau tai material dintr-o bucată mai mare "
+"pentru a fabrica o piesă (frezare, rutare sau tăiere cu laser)."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:10
+msgid ""
+"You can now find details on 3d printing and milling in our :doc:`Custom "
+"Manufacturing </docs/custom-manufacturing/index>` section, with tutorials "
+"and general tips to help bring your parts from CAD to real life."
+msgstr ""
+"Acum poți găsi detalii despre printarea 3D și frezare în documentul "
+":doc:`Fabricare Personalizată</docs/custom-manufacturing/index>`, cu "
+"tutoriale și sfaturi generale care te ajută să aduci piesele din CAD în "
+"viața reală."

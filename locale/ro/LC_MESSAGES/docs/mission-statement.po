@@ -3,16 +3,74 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-19 04:47+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/mission-statement.rst:8
+msgid "Mission Statement"
+msgstr "Misiunea Ghidului Game Manual 0"
+
+#: ../../gm0/source/docs/mission-statement.rst:10
+msgid ""
+"Hello! Welcome and thank you for taking the time to read |gm0|, the premier "
+"resource for new and upcoming FIRST Tech Challenge teams! If you are a "
+"rookie or a new team, we would especially like to welcome you to the FTC "
+"community. We want to make your beginning steps and transition into FTC as "
+"seamless as possible, and offer some of our own experience and advice "
+"compiled over the years."
+msgstr ""
+"Salut! Bine ai venit, și iși multumim pentru timpul acordat pentru a citi "
+"|gm0|, unul dintre cele mai importante resurse pentru echipele începătoare "
+"din First Tech Challenge! Dacă faci parte dintr-o echipă la început de drum,"
+" îți urăm bun venit în comunitatea FTC! Vrem să iți facem primii pași și "
+"trazitia în FTC căt mai ușoară posibil, și să iți oferim sfaturi din propria"
+" experiență de-a lungul anilor."
+
+#: ../../gm0/source/docs/mission-statement.rst:12
+msgid ""
+"The goal of |gm0| is to create a comprehensive guide for FTC teams. Physical"
+" resources for FTC are few and far between, and online resources are "
+"scattered across the interwebs. Typically, the largest inhibitor for newer "
+"teams is the lack of knowledge base, as robotics is a relatively new STEM "
+"field. New teams also have not made connections to experienced teams who "
+"might mentor or offer advice throughout the season. Thus, they are left in "
+"the dark to figure things out, seemingly with no way out. While the journey "
+"of learning cannot be shortcut, |gm0| seeks to address these shortcomings by"
+" providing a starter’s guide to the hardware and software in FIRST Tech "
+"Challenge."
+msgstr ""
+"Scopul ghidului |gm0| este de a crea un ghid cuprinzător pentru echipele "
+"FTC. Resursele fizice pentru FTC sunt destul de limitate, iar resursele "
+"online sunt greu accesibile. În general, cel mai mare obstacol pentru "
+"echipele noi este lipsa de experiență, din moment ce robotica este un "
+"domeniu relativ nou în STEM. Echipele noi, de asemenea, nu au făcut încă "
+"conexiuni cu echipe cu experiență care le-ar putea oferi sfaturi de-a lungul"
+" sezonului. Astfel, sunt lăsați în întuneric să își dea seama singuri cum "
+"funcționează lucrurile, fără cale de scăpare. Deși aventura cunoașterii nu "
+"poate fi scurtată, |gm0| caută să adreseze aceste obstacole printr-un ghid "
+"care cuprinde hardware-ul și software-ul din First Tech Challenge."
+
+#: ../../gm0/source/docs/mission-statement.rst:18
+msgid ""
+"Before diving in, a short disclaimer: **this guide is not \"How to Build a "
+"Championship-Winning Robot.\"** The purpose of |gm0| is simply to provide "
+"knowledge, advice, and tips on how to get started."
+msgstr ""
+"Înainte să citești ghidul, un mic sfat: ** acest ghid nu este \"Cum să "
+"Construiești un Robot de Top.\"** Scopul |gm0| este pur și simplu de a "
+"împărți cunoștiințe și sfaturi despre cum să îți începi aventura FTC."
