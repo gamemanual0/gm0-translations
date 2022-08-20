@@ -3,16 +3,130 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-20 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:2
+msgid "Arms"
+msgstr "Brațe Mecanice"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:4
+msgid ""
+"Arms are another way to achieve extension past the 18” x 18” dimension of "
+"the robot. Unlike linear extensions, arms require lots of torque - a "
+"standard 40:1 or even 60:1 gearbox will not be suitable in most "
+"applications. For example, many teams will run a 256:1 gearbox for their "
+"rotation motor."
+msgstr ""
+"Brațele mecanice sunt o altă metodă de a obține o extindere dincolo de "
+"dimensiunea maximă de 45 x 45 cm a robotului. Spre deosebire de extensiile "
+"lineare, brațele mecanice au nevoie de mult cuplu: un raport standard de "
+"40:1 sau chiar 60:1 nu vor satisface această nevoie. De exemplu, multe "
+"echipe vor folosi un angrenaj de 256:1 pentru motorul de rotire."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:6
+msgid ""
+"Such motors must be very well supported, or else the motor may torque itself"
+" free from its mount."
+msgstr ""
+"Aceste motoare trebuie să fie montate bine, altfel se vor dezmembra singure "
+"din cauza cuplului."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:8
+msgid ""
+"Rarely should an arm be directly mounted to the driving motor. Instead, "
+"torque should be transferred via gear, chain, or belt. Large arms can also "
+"be hard to control (with the addition of momentum adding load to the "
+"gearbox, it is hard to stop a three-foot arm that weighs five pounds quickly"
+" without breaking a gearbox). In many cases, this issue can be mitigated "
+"with software (see the :doc:`/docs/software/concepts/control-loops` "
+"section)."
+msgstr ""
+"Un braț mecanic ar trebui foarte rar să fie montat diirect pe motorul "
+"responsabil de mișcare. În schimb, cuplul ar trebui transferat prin "
+"angrenaje, curele de distribuție sau lanț. Brațele mari pot de asemenea să "
+"fie greu de controlat (cu atat mai mult din cauza inerției care pune "
+"presiune pe angrenaj, drept pentru care e greu să încetinești un braț "
+"mecanic de 2 kilograme fără să distrugi un angrenaj). În multe cazuri, "
+"problema poate fi rezolvată prin software (citește secțiunea "
+":doc:`/docs/software/concepts/control-loops`)."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:10
+msgid ""
+"Depending on the application and implementation, arms can be either faster "
+"or slower than extension options."
+msgstr ""
+"În funcție de aplicare și implementare, brațele mecanice pot fi mai rapide "
+"sau mai lente decât alte variante de extindere."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:12
+msgid ""
+"The different types of arms in FTC include single arm, chain bar and multi-"
+"axis arms."
+msgstr ""
+"Diversele tipuri de brațe mecanice FTC includ brațul unic, bară pe lanț și "
+"brațe mecanice multi-axiale."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:15
+msgid "Advantages"
+msgstr "Avantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:17
+msgid "Single bar arms can be relatively simple to build."
+msgstr "Brațele mecanice pe o singură bară sunt relativ simplu de construit."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:18
+msgid ""
+"Arms can be useful in low-load applications; however, most mechanisms in FTC"
+" are not very light."
+msgstr ""
+"Brațele mecanice pot fi folositoare în aplicații de sarcină ușoară, însă, "
+"majoritatea mecanismelor FTC nu sunt prea ușoare."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:22
+msgid "Disadvantages"
+msgstr "Dezavantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:24
+msgid ""
+"Arms require an insane amount of torque, and in order to do so, teams must "
+"purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV "
+"<https://www.revrobotics.com/rev-41-1600/>`_, or the more expensive "
+"VersaPlanetary (potentially Lite) and NeveRest Sport. One can also use the "
+"high gear ratio `goBILDA planetary gearbox motors "
+"<https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_."
+msgstr ""
+"Brațele presupun o cantitate imensă de cuplu, iar ca să obții acest lucru, "
+"echipele trebuie să achiziționeze angrenaje de cuplu inalt, precum "
+"`Angrenajul UltraPlanetary de la REV "
+"<https://www.revrobotics.com/rev-41-1600/>`_, sau varianta mult mai scumpă "
+"VersaPlanetary (potential Lite) și NeveRest Sport. Se poate folosi și de "
+"raportul mare al `motorului cu angrenaje planetare goBILDA "
+"<https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:26
+msgid ""
+"While single arms may be more simple, they cannot provide enough extension "
+"for most games."
+msgstr ""
+"Deși brațele mecanice unice pot fi mai simple, nu pot realiza suficientă "
+"extensie pentru majoritatea jocurilor."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/index.rst:29
+msgid "Types of Arms"
+msgstr "Tipuri de Brațe Mecanice"

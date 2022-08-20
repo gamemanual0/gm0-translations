@@ -3,16 +3,122 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tudor Avram, 2022
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-20 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:4
+msgid "Custom Options"
+msgstr "Opțiuni Personalizate"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:6
+msgid ""
+"Some teams have opted to build custom solutions for linear motion. Many of "
+"these teams borrow concepts from FRC\\ |reg| teams, modeling their elevators"
+" off of the tall systems found on the larger robots. There’s a reason that "
+"many competitive FRC\\ |reg| teams build the same type of elevator - at "
+"their scale, the box tube elevator has proven to be the most efficient way "
+"to get game pieces off the ground at blisteringly fast speeds."
+msgstr ""
+"Unele echipe au ales să construiască soluții personalizate pentru mișcarea "
+"liniară. Multe dintre acestea împrumută concepte de la echipe din FRC/ "
+"|reg|, modelându-și sistemele de ridicare după sisteme înalte găsite pe "
+"roboți mai mari. Multe dintre echipele competitive din FRC/ |reg| "
+"construiesc același tip de sistem de ridicare cu un motiv - la scara acestor"
+" roboți, un sistem de ridicare de tip box tube s-a dovedit a fi cel mai "
+"eficient mod de a ridica elementele de joc de pe pământ cu viteze foarte "
+"mari."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:8
+msgid ""
+"When built correctly, an elevator of this type can withstand hundreds of "
+"pounds of load on any axis while barely weighing anything. However, existing"
+" off-the-shelf options already fill the linear motion needs of most FTC "
+"teams."
+msgstr ""
+"Construit corect, un sistem de ridicare de acest tip poate suporta o sarcină"
+" de sute de kilograme pe orice axă, sistemul în sine cântărind foarte puțin."
+" Cu toate acestea, sistemele pre-fabricate existente pe piață deja "
+"îndeplinesc cerințele de mișcare liniară pentru majoritatea echipelor FTC."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:10
+msgid ""
+"Custom extension systems also require tons of work in CAD, hours upon hours "
+"of manufacturing time, and may need multiple iterations before they work "
+"correctly. Due to their complexity and how challenging they are to design, "
+"less experienced teams may encounter significant challenges."
+msgstr ""
+"Sistemele personalizate necesită de asemenea multe ore de proiectare a "
+"acestora, urmate de alte multe ore de manufacturare și este posibil să "
+"necesite iterații multiple pentru a funcționa corect. Din cauza "
+"complexității lor și a faptului că sunt dificil de proiectat, echipele mai "
+"puțin experimentate este posibil să întâmpine dificultăți."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:12
+msgid ""
+"Lightweight drawer slides (MiSUMI aluminum and Long Robotics Slides) can "
+"offer similar performance at a fraction of the complexity."
+msgstr ""
+"Glisierele de sertar ușoare (glisierele de aluminiu de la MISUMI și cele de "
+"la Long Robotics) pot oferi performanțe similare la o complexitate redusă "
+"semnificativ."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:17
+msgid "7236's Rover Ruckus bot with custom box tube elevator"
+msgstr ""
+"Robotul echipei 7236 din sezonul Rover Ruckus construit cu un sistem de "
+"ridicare de tip box tube"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:17
+msgid "7236 Recharged Green, Rover Ruckus, custom box tube linear elevator"
+msgstr ""
+"Robotul echipei 7236, Recharged Green din sezonul Rover Ruckus construit cu "
+"un sistem de ridicare de tip box tube"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:22
+msgid "13075's Rover Ruckus bot with custom 8020 hang"
+msgstr ""
+"Robotul echipei 13075 din sezonul Rover Ruckus cu un sistem de suspendare "
+"personalizat"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:22
+msgid ""
+"13075 Coram Deo Academy Robotics, Rover Ruckus, custom 8020 chain driven "
+"hang"
+msgstr ""
+"Robotul echipei 13075, Coram Deo Academy Robotics din sezonul Rover Ruckus "
+"cu un sistem de suspendare personalizat, pe bază de lanț."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rstNone
+msgid "7172's custom fishing pole based extension CAD model"
+msgstr ""
+"Proiectul 3D al sistemului liniar personalizat al echipei 7172, bazat pe "
+"undițe de pescuit."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:30
+msgid "7172's custom fishing pole based extension"
+msgstr ""
+"Sistemul liniar personalizat al echipei 7172, bazat pe undițe de pescuit."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:30
+msgid ""
+"7172 Technical Difficulties, Rover Ruckus, fishing pole extension using gear"
+" rack"
+msgstr ""
+"Sistemul liniar personalizat al echipei 7172, Technical Difficulties, bazat "
+"pe undițe de pescuit, folosind un sistem de roți dințate."

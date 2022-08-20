@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-20 04:29+0000\n"
+"POT-Creation-Date: 2022-08-20 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -386,3 +386,129 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:113
 msgid "Foam Wheel Intake"
 msgstr "Intake cu roți din spumă"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:115
+msgid ""
+"A foam wheel intake has the same principles as a compliant wheel intake, "
+"except that it uses foam wheels. It is generally recommended that teams "
+"stick to compliant wheels as they are grippier and easier to control."
+msgstr ""
+"Un intake din roți de spumă are aceleași principii ca un intake din roți "
+"compliant, doar ca are roți din spumă. Este în general recomandat ca "
+"echipele să folosească roți compliant din moment ce au o tracțiune mai bună "
+"și sunt mai ușor de controlat."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
+msgid "6299's ResQ intake"
+msgstr "Intake-ul echipei 6299 în sezonul ResQ"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
+msgid "6299 ViperBots QuadX, Res-Q"
+msgstr "Echipa 6299 ViperBots QuadX, sezonul Res-Q"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:123
+msgid "Rubber Band Intake"
+msgstr "Intake cu Elastice"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:125
+msgid ""
+"Rubber band intakes, commonly used by in the VEX Robotics Competition, "
+"generally feature sprockets, wheels, or gears at two ends, with rubber bands"
+" interlaced in between to form a pliable and bendable roller. Generally, it "
+"can be actuated or adjustable with a servo, although this is not necessary."
+msgstr ""
+"Intake-urile cu elastice, în general folosite de comunitatea VEX Robotics "
+"Competition, au în componență pinioane, roți , sau angrenaje pe ambele "
+"părți, cu benzi elastice între ele, pentru a construi o rolă pliabilă și "
+"maleabilă. De obicei, poate fi acționat sau ajustat cu un servomotor, deși "
+"nu este mereu necesar."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:127
+msgid ""
+"Rubber band intakes are great with intaking balls, but not so great with "
+"other types of game elements such as cubes. It generally is slower than a "
+"surgical tubing intake, and requires multiple stages to transfer elements "
+"from collection to deposit. Zip ties can be added to increase the intake’s "
+"range to accommodate for smaller balls."
+msgstr ""
+"Intake-urile cu benzi elastice sunt excelente pentru colectarea sferelor / "
+"mingilor, însă nu așa de bine elemente precum cuburi. În general, este mai "
+"lent decât un intake din tubulatură chirurgicală, și sunt necesari mai multi"
+" pași pentru a transfera elemente de la colectare, la depozit. Colierele "
+"(zip ties) pot fi adăugate pentru a îmbunătăți raza intake-ului pentru a "
+"colecta mingi mai mici."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:132
+msgid "A rubber band intake for VRC Turning Point"
+msgstr "Un intake din benzi elastice pentru VRC Turning Point"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:132
+msgid "Ball intake for VRC Game Turning Point"
+msgstr "Intake pentru mingi pentru VRC Game Turning Point"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:135
+msgid "Tubing Intakes"
+msgstr "Intake-uri din Tubulatură"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:137
+msgid ""
+"Tubing or noodle intakes typically use some sort of pliable tubing, which is"
+" rotated at high RPM to intake game pieces. Tubing intakes are particularly "
+"efficient at picking up small objects such as the balls and cubes from "
+"Res-Q, Velocity Vortex, and Rover Ruckus."
+msgstr ""
+"Intake-urile din tubulatură, sau \"tăiței\", folosesc un tip de tubulatură "
+"pliabilă, care este rotită la viteze (RPM) mari, pentru a colecta elemente "
+"de joc. Intake-urile din tubulatură sunt în particular eficiente pentru a "
+"colecta elemente de mici, precum mingile și cuburile din sezonul Res-Q, "
+"Velocity Vortex și Rover Ruckus."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:140
+msgid "Surgical Tubing Intake"
+msgstr "Intake-ul din Tubulatură Chirurgicală"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:142
+msgid ""
+"Surgical tubing or spearfishing rubber tubing, sold by many different "
+"manufacturers, is a great option for picking up small game elements such as "
+"the minerals from Res-Q or Rover Ruckus."
+msgstr ""
+"Intake-urile din tubulatură chirurgicală sau de pescuit, vândute de diverși "
+"producători, sunt o optiune excelentă pentru colectarea elementelor de joc "
+"mici, precum mineralele din sezonul Res-Q sau Rover Ruckus."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:144
+msgid ""
+"Surgical tubing intakes can, and often, have multiple sets of tubing in "
+"order to move minerals from the collection point to the holding box. This "
+"was most often seen in games where robots had to transfer minerals from the "
+"field to an elevated location."
+msgstr ""
+"Intake-urile din tubulatură chirurgicală pot destul de des să aibă multiple "
+"seturi de tubulatură pentru a mișca mineralele din punctul de colectare până"
+" în cutia de manevrare a robotului. Acest lucru a fost observat cel mai des "
+"în jocurile în care roboții trebuiau să transfere mineralele din teren la o "
+"poziție elevată."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:146
+msgid ""
+"Unlike wheeled and rubber band intakes, which can be spring-loaded, surgical"
+" tubing intakes are practically always fixed at a certain height and angle."
+msgstr ""
+"Față de intake-urile din roți sau elastice, care pot fi acționate cu arc, "
+"cele din tubulatură sunt mereu fixate la o anumită înălțime și unghi."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:148
+msgid "Surgical tubing by itself is soft and pliable. Teams have two options"
+msgstr ""
+"Tubulatura chirurgicală în sine este moale și pliabilă. Echipele au două "
+"opțiuni "
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:150
+msgid "Increase the RPM to 800-1000+ RPM"
+msgstr "Crește viteza (RPM) la 800-1000+ RPM"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:151
+msgid "Use polyurethane tubing at a lower RPM (100-250 RPM)."
+msgstr ""
+"Utilizează tubulatura din poliuretan la o viteză scazută (100-250 RPM)."

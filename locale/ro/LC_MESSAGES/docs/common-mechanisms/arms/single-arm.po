@@ -3,16 +3,70 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-20 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/single-arm.rst:2
+msgid "Single Arm"
+msgstr "Brațul Mecanic Unic"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/single-arm.rst:4
+msgid ""
+"The most simple type of arm in FTC, a single arm refers to an arm on one "
+"axis of rotation. While it is possible to successfully build this kind of "
+"arm, generally a single axis arm will only afford around 15-16” of "
+"extension, which is inadequate for nearly every game."
+msgstr ""
+"Fiind cel mai simplu tip de braț mecanic în FTC, brațul unic este alcătuit "
+"pe o singură axă de rotație. Deși este posibil să construiești acest tip de "
+"braț, în general un braț uni-axial poate oferi doar 38-40 cm de extensie, "
+"ceea ce este nepotrivit pentru aproape orice joc."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/single-arm.rst:6
+msgid ""
+"The reason for this is that the longest a channel can be is 18” (technically"
+" you could have a longer channel by placing it diagonally, but this "
+"complicates matters). Thus, with a maximum of 18” of extension, a couple "
+"inches must be subtracted, since the point of rotation is inside the 18” "
+"sizing cube; therefore the extension is around 15-16”."
+msgstr ""
+"Motivul acestei limitări este lungimea maximă a unui canal din aluminiu, "
+"care este 45 de cm (tehnic poți avea un canal mai lung prin plasarea "
+"acestuia diagonal, însă te complici prea mult). Astfel, cu o extindere "
+"maximă de 45 de cm, câțiva cm trebuie sacrificați, din moment ce punctul de "
+"rotație este în interiorul cubului de măsurare de 45 de cm; astfel "
+"extinderea este undeva la 38-40 cm."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/single-arm.rst:8
+msgid ""
+"Therefore, a single arm with further linear extension is optimal. For "
+"example, some teams built a single arm with an added linear extension "
+"mechanism to reach the desired extension length, which is generally >24”."
+msgstr ""
+"Astfel, un braț unic cu extindere suplimentară este optim. De exemplu, unele"
+" echipe au construit un singur braț cu o extensie liniară pentru a obține "
+"lungimea extinsă dorită, care este în general > 60 cm."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/single-arm.rst:10
+msgid ""
+"The advantages of a single arm are that it is relatively easy to build, and "
+"can be a quick way to gain some form of extension outside of the robot cube."
+msgstr ""
+"Avantajele unui braț unic sunt design-ul simplu, ușor de construit, și poate"
+" fi o metodă ușoară de a obține o extindere în afara cubului imaginar al "
+"robotului."
