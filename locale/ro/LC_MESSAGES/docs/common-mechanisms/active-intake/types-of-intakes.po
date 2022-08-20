@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-19 16:21+0000\n"
+"POT-Creation-Date: 2022-08-20 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -92,6 +92,15 @@ msgstr ""
 " către coșul de colectare. Intake-urile cu roti sunt mai late și, uneori, "
 "pot prelua mai multe elemente de joc."
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:17
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:66
+msgid "Term"
+msgstr "Termen"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:20
+msgid "Compliant Wheel"
+msgstr "Roată \"Compliant\""
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:22
 msgid ""
 "A compliant wheel is a flexible rubber wheel that is primarily used for "
@@ -114,6 +123,42 @@ msgstr ""
 "tracțiunea, cât și longevitatea, sacrificând una pentru cealaltă. Cu toate "
 "acestea, în cazul preluărilor, se recomandă un durometru mai mic pentru a "
 "avea o aderență maximă pentru preluarea elementelor de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:26
+msgid ""
+"Durometer refers to the hardness of rubber. Having a high durometer "
+"translates to a harder rubber surface, more durability, but less traction. A"
+" low durometer means a softer rubber, worse durability, but improved "
+"traction."
+msgstr ""
+"Durometrul se referă la duritatea caciucului. Un durometru mare înseamnă un "
+"cauciuc mai dur, durabilitate mai mare, însă tracțiune/aderență mai slabă. "
+"Un durometru slab înseamnă un cauciuc moale, durabilitate mai slabă, însă "
+"tracțiune mai bună."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:28
+msgid ""
+"Examples of compliant wheel are Andymark's Compliant Wheels, and goBILDA's "
+"Gecko Wheels."
+msgstr ""
+"Exemple de roți compliant sunt roțile AndyMark Compliant, și roțile goBILDA "
+"Gecko"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+msgid "A 2\" green compliant wheel"
+msgstr "O roată de 2 inch compliant verde"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:34
+msgid "A 2\" compliant wheel"
+msgstr "O roată de 2 inch compliant"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+msgid "A 4\" green compliant wheel"
+msgstr "O roată de 4 inch compliant verde"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:40
+msgid "A 4\" compliant wheel"
+msgstr "O roată de 4 inch compliant"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:43
 msgid "Solid Wheel Intake"
@@ -175,3 +220,169 @@ msgid ""
 msgstr ""
 "Un intake blocat înseamnă pur și simplu că roțile sunt blocate în poziție și"
 " nu pot pivota."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:58
+msgid ""
+"The compliant wheel intake is most commonly used with large game elements "
+"such as the glyphs in the 2017-2018 season, Relic Recovery. Compliant wheel "
+"intakes excel at controlling elements with flat surfaces such as cubes or "
+"rectangular prisms. They suffer at picking up balls."
+msgstr ""
+"Un intake din roți compliant este folosit în general pentru elemente de joc "
+"de dimensiuni mari, precum glifele din sezonul 2017-2018, Relic Recovery. "
+"Intake-urile din roți compliant sunt foarte bune pentru posesia elementelor "
+"cu suprafețe plate, precum cuburi și prizme rectangulare. Acestea nu sunt "
+"ideale pentru sfere/mingi."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:60
+msgid ""
+"In this game, robots had to pick up glyphs, which were 6 inch foam cubes, "
+"from the center pit and place them in the cryptobox. This game had many "
+"wheeled intakes primarily because the wheels had consistent and controllable"
+" contact with the glyphs. Wheeled intakes were able to propel the glyphs in "
+"a consistent fashion from the point of contact to the deposit plate, which "
+"would flip up to deposit the glyphs."
+msgstr ""
+"În acest joc, roboții trebuiau să colecteze glife, care erau defapt niște "
+"cuburi din spumă de 15 cm, din zona din centru și să le plasezi în "
+"\"cryptobox\". Acest joc avea multe intake-uri din roți compliant în general"
+" datorită tracțiunii consistente ale roților cu glifele. Intake-urile din "
+"roți erau capabile să propulseze glifele într-o manieră consistentă din "
+"punctul de contact până în zona de depozitare, care se răsturna pentru a "
+"depozita glifele."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:62
+msgid ""
+"Wheeled intakes can be spring-loaded or locked into place. Teams could "
+"choose one or mix; in Relic Recovery, some teams spring-loaded the set of "
+"wheels that made contact first, and then had a fixed set in the back. This "
+"is up to the design team’s choosing."
+msgstr ""
+"Intake-urile cu roți pot fi acționate cu arc sau blocate in loc. Echipele "
+"puteau să aleagă o metodă sau un mix; în Relic Recovery, unele echipe aveau "
+"un set de roți care erau acționate cu arc, iar apoi un set de roți blocate "
+"în loc. Acest lucru era la decizia echipei de design."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:64
+msgid ""
+"Wheeled intakes operate at much slower RPM than surgical tubing intakes, as "
+"wheeled intakes are meant to pick up **one** element at a time. They "
+"generally require more torque than a surgical tubing intake, which is geared"
+" for speed."
+msgstr ""
+"Intake-urile cu roți operează la un nivel RPM mai mic decât intake-urile din"
+" tubulatură, din moment ce intake-urile din roți sunt făcute să colecteze un"
+" **singur** element deodată. În general, este nevoie de mai mult cuplu decât"
+" un intake din tubulatură, care este angrenat pentru viteză."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:69
+msgid "Surgical Tubing"
+msgstr "Tubulatură Chirurgicală"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:71
+msgid ""
+"Surgical tubing is generally latex or rubber tubing. Its most common use "
+"case is in active intakes, and has been popular among teams for many "
+"seasons. Surgical tubing has a hollow center and is sold in different "
+"diameters and wall thicknesses. Teams can experiment with different kinds of"
+" surgical tubing, as well as adding polyurethane tubing (clear tubing that "
+"is stiffer than rubber or latex tubing) in order to make the tubing more "
+"stiff."
+msgstr ""
+"Tubulatura, în general fabricată din latex sau cauciuc, este folosită în "
+"intake-urile active și sunt populare printre echipe de multe sezoane. "
+"Tubulatura are un centru gol și este vandut in diverse diametre și grosimi "
+"ale pereților. Echipele pot experimenta cu diverse tipuri de tubulatură, și "
+"de asemenea să adauge tubulatură din poliuretan (tubulatură transparentă "
+"care este mai rigidă decât tubulatura din latex sau cauciuc) ca să facă "
+"tubulatura mai rigidă."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+msgid "A roll of surgical tubing"
+msgstr "O rolă de tubulatură chirurgicală"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:78
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:160
+msgid "Advantages"
+msgstr "Avantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:80
+msgid "Very controllable"
+msgstr "Foarte controlabil"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:81
+msgid "Propels elements to desired location"
+msgstr "Propulsează elementele într-o locație dorită"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:82
+msgid "Great at picking up large elements"
+msgstr "Excelent pentru colectarea elementelor mari"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:85
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:167
+msgid "Disadvantages"
+msgstr "Dezavantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:87
+msgid "Picks up only one element at a time"
+msgstr "Poate colecta doar un element la un moment dat"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:88
+msgid "Elements can get jammed in a bad position"
+msgstr "Elementele se pot bloca într-o poziție proastă"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:89
+msgid "Not generally used for picking up small elements"
+msgstr "Nu este în general utilizat pentru a colecta elemente mici"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:90
+msgid "Can generally only pick up one specific element shape"
+msgstr "Poate în general să colecteze doar elemente cu o formă specifică"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
+msgid "9971's Relic Recovery intake"
+msgstr "Intake-ul echipei 9971 în sezonul Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
+msgid ""
+"9971 LanBros, Finalist Alliance First Pick (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"9971 LanBros, Parte din Alianța Finalistă ca First Pick (Detroit), Relic "
+"Recovery, acționat cu arc"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
+msgid "8680's Relic Recovery intake"
+msgstr "Intake-ul echipei 8680 în sezonul Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
+msgid "8680 Kraken-Pinion, Relic Recovery"
+msgstr "8680 Kraken-Pinion, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
+msgid "2856's Relic Recovery intake"
+msgstr "Intake-ul echipei 2856 în sezonul Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
+msgid ""
+"2856 Tesseract, Relic Recovery, 2 & 4 in. compliant wheels, 2 in. omni "
+"wheels"
+msgstr ""
+"Echipa 2856 Tesseract, Relic Recovery, roți compliant de 2 și 4 inch, roți "
+"mecanum de 2 inch"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
+msgid "11115's Relic Recovery intake"
+msgstr "Intake-ul echipei 11115's în sezonul Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
+msgid ""
+"11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"11115 Gluten Free, Parte din Alianța Finalistă în rol Căpitan (Detroit), "
+"Relic Recovery, acționat cu arc"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:113
+msgid "Foam Wheel Intake"
+msgstr "Intake cu roți din spumă"

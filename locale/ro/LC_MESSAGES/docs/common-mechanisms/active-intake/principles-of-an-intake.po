@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Abigail G, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 06:38+0000\n"
+"POT-Creation-Date: 2022-08-20 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Abigail G, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,6 +25,10 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:2
 msgid "Principles of an Intake"
 msgstr "Principiile unui Intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:5
+msgid "Reliability"
+msgstr "Fiabilitate"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:7
 msgid ""
@@ -77,6 +82,40 @@ msgstr ""
 "complet retractabil care să nu iasă în afara cubului de 45 cm, deși acest "
 "lucru este rareori necesar."
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:18
+msgid "Consistency"
+msgstr "Consistență"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
+msgid ""
+"The intake **must** be able to pick up game elements consistently and "
+"quickly. For example, in Rover Ruckus each robot could only possess 2 "
+"minerals at a time. Therefore, the intake should only pick up two pieces at "
+"a time, not zero, one, or three."
+msgstr ""
+"Un intake **trebuie** să fie capabil să colecteze elemente de joc în mod "
+"consistent și rapid. De exemplu, în sezonul Rover Ruckus fiecare robot putea"
+" să aibă în posesie 2 minerale deodată. Astfel, intake-ul ar trebui să poată"
+" să colecteze doua piese de joc deodată, nu trei sau unul."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:22
+msgid ""
+"This is a common mistake that many inexperienced teams fail to take into "
+"account."
+msgstr ""
+"O greșeală comună este că multe echipe fără experiență nu iau în considerare"
+" acest lucru."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:24
+msgid ""
+"Another component is the varying angles that the game objects can be located"
+" in. This was especially apparent in the Relic Recovery season, where the "
+"“glyphs” (foam cubes) could be oriented in many directions."
+msgstr ""
+"Un alt factor este unghiul variabil în care elementele de joc pot fi "
+"localizate. Acest lucru a fost foarte evident în sezonul Relic Recovery, "
+"unde \"glifele\" (cuburi din spumă) puteau fi orientate în orice direcție."
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:26
 msgid ""
 "Even though it was relatively easy to make a compliant wheel intake that "
@@ -90,6 +129,10 @@ msgstr ""
 " face față elementelor de joc înclinate. Capacitatea de a aspira elemente de"
 " joc în toate orientările a fost deosebit de importantă pentru autonomiile "
 "cu mai multe elemente de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:29
+msgid "Controllability"
+msgstr "Controlabilitate"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
 msgid ""
@@ -115,6 +158,28 @@ msgstr ""
 " asigurați-vă că driver-ul poate să zguduie elementul blocat pentru a evita "
 "să aveți un robot inutilizabil."
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:33
+msgid ""
+"Optimally, the game elements should follow a certain path each time if "
+"funneling is done correctly."
+msgstr ""
+"În mod optim, elementele de joc ar trebui să urmeze un anumit drum de "
+"fiecare dată dacă transferul este facut corect."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:34
+msgid ""
+"It is best practice that the driver can see the game elements which are "
+"being controlled. This can be done through using clear plating such as "
+"Lexan."
+msgstr ""
+"Este o practică bună ca driver-ul să vadă elementele de joc care sunt în "
+"posesie. Acest lucru poate fi realizat prin folosirea materialelor "
+"transparente precum plexiglas."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:37
+msgid "Efficiency"
+msgstr "Eficiență"
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
 msgid ""
 "The key to any successful robot is cycle time. Reducing cycle time by having"
@@ -136,3 +201,22 @@ msgstr ""
 "De exemplu, în Relic Recovery, cele mai bune intake-uri au avut adesea un "
 "timp de colectare de sub 3 secunde pentru două elemente de joc, iar în Rover"
 " Ruckus s-a dorit un timp de colectare de o secundă la cel mai înalt nivel."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:42
+msgid ""
+"A key rule to remember in FTC is the shortest distance rule: how can you get"
+" minerals from A to B in the shortest distance?"
+msgstr ""
+"O regulă de aur de ținut minte în FTC este regula celui mai scurt drum: cum "
+"poți deplasa elementele de la punctul A la punctul B în cea mai scurtă "
+"distanță?"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:44
+msgid ""
+"The answer is usually a couple straight lines. The closer the minerals "
+"follow this path, the faster they will go from collection to deposit. Don't "
+"make overly long routes unless needed."
+msgstr ""
+"Răspunsul sunt câteva linii drepte. Cu cât elementele urmează cât mai "
+"aproape acest drum, cu cât mai rapid se vor deplasa dintr-un obiectiv în "
+"altul. Nu urma rute foarte lungi decât dacă este nevoie."
