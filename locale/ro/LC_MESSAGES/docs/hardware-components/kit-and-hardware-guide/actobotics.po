@@ -5,18 +5,42 @@
 # 
 # Translators:
 # Botosan Octavian, 2022
+# Rares Neagoe, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-18 04:59+0000\n"
+"POT-Creation-Date: 2022-08-21 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Botosan Octavian, 2022\n"
+"Last-Translator: Rares Neagoe, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:4
+msgid "Actobotics"
+msgstr "Actobotics"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:6
+msgid ""
+"The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is "
+"a fixed-pitch, :term:`channel-based <Channel>` building system using "
+"imperial units. Its 1.5” :term:`c-channel <Channel>` and :term:`ball-bearing"
+" <Ball Bearing>` based motion system allows teams to iterate and build "
+"mechanisms entirely from kit parts."
+msgstr ""
+"Kitul Actobotics de la ServoCity (https://www.servocity.com/actobotics) este"
+" un sistem de construcție cu pas fix, :term:` bazat pe canale <Channel> ` "
+"care utilizează unități imperiale. Sistemul său de mișcare bazat pe "
+":term:`canal c <Channel> ` de 1.5” și :term:`rulmenți cu bile <Ball Bearing>"
+" ` permite echipelor să itereze și să construiască mecanisme în întregime "
+"din piese ale kit-ului."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:9
+msgid "Special Considerations"
+msgstr "Considerații Speciale"

@@ -3,16 +3,631 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-21 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:4
+msgid "Using Android Studio"
+msgstr "Utilizarea Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:6
+msgid ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ is an "
+"integrated development environment (IDE) for Android app development based "
+"on IntelliJ. It compiles your code to an apk which is then installed onto "
+"the Robot Controller: either the Control Hub or a legal Android phone."
+msgstr ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ este un mediu"
+" de dezvoltare (IDE) pentru dezvoltarea aplicațiilor Android, bazat pe "
+"IntelliJ. Acest program îți compilează codul, creând un program apk, care "
+"este instalat pe Robot Controller: fie pe Control Hub, fie pe un telefon "
+"Android legal."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:9
+msgid "Downloading Android Studio"
+msgstr "Descărcarea Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:11
+msgid ""
+"If you've already downloaded Android Studio, you can move on to the next "
+"step, which is `setting up the SDK <#setting-up-the-sdk>`_."
+msgstr ""
+"Dacă deja ai descărcat Android Studio, poți sări la următorul pas, care este"
+" `pregătirea SDK-ului <#setting-up-the-sdk>`_."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:13
+msgid "The steps to download and setup Android Studio are:"
+msgstr "Pașii pentru descărcarea și pregătirea Android Studio sunt:"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:15
+msgid ""
+"Check to make sure your system meets the `necessary requirements "
+"<https://developer.android.com/studio#Requirements>`_"
+msgstr ""
+"Verifică dacă sistemul tău este suficient de performant: `cerințe necesare "
+"<https://developer.android.com/studio#Requirements>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:16
+msgid ""
+"Install the *latest* version of Android Studio from "
+"https://developer.android.com/studio/index.html"
+msgstr ""
+"Instalează cea mai *recentă* versiune de Android Studio de la "
+"https://developer.android.com/studio/index.html"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:17
+msgid ""
+"Run the executable, follow the setup wizard, and use any and all recommended"
+" development kits"
+msgstr ""
+"Rulează programul executabil, urmează pașii, și folosește orice sau toate "
+"kit-urile recomandate de dezvoltare."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:20
+msgid "Setting up the SDK"
+msgstr "Pregătirea SDK-ului"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:22
+msgid ""
+"Now that you have Android Studio installed, you're going to want to use the "
+"current season's SDK (software development kit) where you will create your "
+"team's code."
+msgstr ""
+"Acum că ai instalat Android Studio, trebuie să îti pregătesti SDK-ul "
+"(prescurtat de la software developement kit / kit-ul de dezvoltare software)"
+" al sezonului curent cu care îți vei scrie codul robotului."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:25
+msgid "Downloading the SDK"
+msgstr "Descărcarea SDK-ului"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:27
+msgid ""
+"The SDK is publicly released to a GitHub repository every season. The "
+"current season's SDK can be found in the `FtcRobotController "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository."
+msgstr ""
+"SDK-ul este publicat pe un repository (un loc unde este stocat online cod-"
+"ul) pe GitHub în fiecare sezon. SDK-ul sezonului curent poate fi găsit pe "
+"`FtcRobotController <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`_."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:30
+msgid "Downloading the ZIP"
+msgstr "Descărcarea ZIP-ului"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:32
+msgid ""
+"When you're at the repository, click the green \"code\" button. Then, select"
+" \"Download ZIP.\""
+msgstr ""
+"Când ești pe repository, apasă pe butonul verde numit \"code\", apoi "
+"selectează \"Download ZIP\"."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Click the Download ZIP option"
+msgstr "Apasă pe opțiunea de \"Download ZIP\""
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:38
+msgid "Then, save it to the desired location in your computer."
+msgstr "Apoi, salvează-l la locația dorită pe calculatorul tău."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "The ZIP file should be called FtcRobotController-master"
+msgstr "Fișierul ZIP ar trebui să se numească FtcRobotController-master"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:44
+msgid ""
+"After it is saved, extract the contents of the ZIP and place them into "
+"whatever desired location. You should see the contents of the SDK inside of "
+"the folder location."
+msgstr ""
+"După ce s-a salvat, extrage conținutul ZIP-ului și pune-l în ce locație "
+"dorești. Ar trebui să vezi conținutul SDK-ului în locația folder-ului."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:47
+msgid "Using GitHub Desktop"
+msgstr "Utilizarea GitHub Desktop"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:49
+msgid ""
+"`Install GitHub Desktop <https://docs.github.com/en/desktop/installing-and-"
+"configuring-github-desktop/installing-and-authenticating-to-github-"
+"desktop>`_"
+msgstr ""
+"`Instalează GitHub Desktop <https://docs.github.com/en/desktop/installing-"
+"and-configuring-github-desktop/installing-and-authenticating-to-github-"
+"desktop>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:50
+msgid ""
+"Open the `SDK repository <https://github.com/FIRST-Tech-"
+"Challenge/FTCRobotController>`_ in a browser."
+msgstr ""
+"Deschide `repository-ul SDK-ului <https://github.com/FIRST-Tech-"
+"Challenge/FTCRobotController>`_ într-un browser."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:51
+msgid "Click the green \"code\" button, and then select \"Open with GitHub Desktop.\""
+msgstr "Apasă butonul verde \"code\" și apoi selectează \"Open with GitHub Desktop.\""
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Click the Open with GitHub Desktop option"
+msgstr ""
+"Apasă pe opțiunea Open with GitHub Desktop (Deschidere cu GitHub Desktop)"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:56
+msgid "Clone the project."
+msgstr "Clonează proiectul."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Clone the repository to your resource folder"
+msgstr "Clonează repository-ul în folder-ul tău de resurse"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:62
+msgid "From the Command Line"
+msgstr "Din Terminalul de Comandă"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:64
+msgid "`Install git <https://github.com/git-guides/install-git>`_"
+msgstr "`Instalează git <https://github.com/git-guides/install-git>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:65
+msgid "Open the terminal (probably bash) in the desired resource location."
+msgstr "Deschide terminalul (probabil bash) în locația dorită a resurselor."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:66
+msgid ""
+"Use :code:`$ git clone https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController.git`"
+msgstr ""
+"Folosește :code:`$ git clone https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController.git`"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:69
+msgid "Opening the SDK on Android Studio"
+msgstr "Deschiderea SDK-ului în Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:71
+msgid "Open Android Studio. If you have another project open, close it."
+msgstr ""
+"Deschide Android Studio. Dacă ai deja un alt proiect deshis, închide-l."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid ""
+"A screen should appear with an option to configure settings and import a "
+"project"
+msgstr ""
+"Un meniu ar trebui să apară cu o opțiune de a configura setări și importarea"
+" unui proiect."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:77
+msgid ""
+"Check for updates. Click on the \"configure\" dropdown and select \"check "
+"for updates.\" If you do not have the latest version, download the updates."
+msgstr ""
+"Verifică dacă există actualizări. Apasă pe meniul \"configure\" și "
+"selectează \"check for updates\". Dacă nu ai cea mai recentă versiune, "
+"descarcă actualizările."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid ""
+"If you have no new updates, it should say that you have the latest version "
+"installed"
+msgstr ""
+"Dacă nu există actualizări, ar trebui să scrie că ai cea mai recentă "
+"versiune instalată."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:82
+msgid ""
+"Select \"Import Project.\" Navigate to where you have the SDK saved on your "
+"computer. Choose the directory that has the Android logo."
+msgstr ""
+"Selectează \"Import Project\". Navighează unde ai salvat SDK-ul pe "
+"calculatorul tău. Selectează registrul care are logo-ul Android."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Only select the folder with the Android logo"
+msgstr "Doar selectează folder-ul cu logo-ul Android"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:87
+msgid ""
+"Change to project view. In the top left corner should be a dropdown that "
+"allows you to change the way you are looking at your project."
+msgstr ""
+"Schimbă modul de vizualizare în \"project view\". În colțul din stânga sus "
+"ar trebui să fie un meniu care îți permite să schimbi modul în care te uiți "
+"la proiectul tău."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Change to project view"
+msgstr "Schimbă modul de vizualizare în \"project view\""
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:92
+msgid ""
+"Wait for `Gradle`_ to complete the build. This indicator should be located "
+"at the bottom of the window by default."
+msgstr ""
+"Așteaptă ca `Gradle`_ să termine build-ul. Acest indicator ar trebui să fie "
+"localizat în partea de jos a ferestrei implicit."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "An in-progress Gradle build"
+msgstr "Un build Gradle in desfășurare"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:99
+msgid "Layout"
+msgstr "Aspect"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:101
+msgid ""
+"Android Studio can look intimidating at first glance, but there are only a "
+"few features needed to use it properly."
+msgstr ""
+"Android Studio poate arăta intimidant la prima vedere, însă sunt doar câteva"
+" caracteristici necesare pentru a-l folosi corect."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "Android Studio layout"
+msgstr "Aspectul Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:108
+msgid "Creating Classes"
+msgstr "Crearea Claselor"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:110
+msgid ""
+"The first thing to note in the project view is the dropdown with the name of"
+" the project. If you drop that down, you will see all of the Gradle files "
+"and directories. Navigate to the TeamCode folder. In the teamcode folder you"
+" will see an :code:`org.firstinspires.ftc.teamcode` package."
+msgstr ""
+"Primul lucru de reținut în \"proiect view\" este lista de elemente cu numele"
+" proiectului. Dacă apeși pe listă, vei vedea toate fișierele Gradle și "
+"registrele. Navighează la folder-ul TeamCode, unde vei vedea un pachet "
+":code:`org.firstinspires.ftc.teamcode`."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "TeamCode > src > main > java > org.firstinspires.ftc.teamcode"
+msgstr "TeamCode > src > main > java > org.firstinspires.ftc.teamcode"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:115
+msgid ""
+"This is where you will create your code for the robot. To create a new Java "
+"class, right click on the package, select New, and then choose \"Java "
+"Class.\""
+msgstr ""
+"Aici este locul unde vei crea cod pentru robot. Pentru a crea o clasă nouă "
+"Java, click-dreapta pe pachet, selectează New, și apoi alege \"Java Class\"."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "New > Java Class"
+msgstr "New > Java Class"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:121
+msgid ""
+"Alternatively, you can select the \"Package\" option if you want to create a"
+" subfolder for organization purposes. Then, you can create classes in those "
+"packages."
+msgstr ""
+"Alternativ, poți selecta opțiunea \"Package\" dacă vrei să creezi un "
+"subfolder pentru scopuri organizaționale. Apoi, poți crea clase în acele "
+"pachete."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:124
+msgid "Terminal and Logcat"
+msgstr "Terminalul și Logcat"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:126
+msgid ""
+"Near the bottom left of the application, you will find tabs for the local "
+"terminal and logcat. These are useful tools for working with your program."
+msgstr ""
+"Aproape de colțul din stânga-jos al aplicației, vei găsi tab-uri pentru "
+"terminalul local și logcat-ul. Acestea sunt unelte folositoare pentru "
+"programul tău."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "Terminal and logcat tabs near the bottom left"
+msgstr "Tab-ul terminalului și logcat-ul aproape de colțul din stânga-jos"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:131
+msgid ""
+"Some useful information on using the logcat can be found `here "
+"<https://developer.android.com/studio/debug/am-logcat>`_."
+msgstr ""
+"Niște informații folositoare în legătură cu folosirea logcat-ului pot fi "
+"găsite `aici <https://developer.android.com/studio/debug/am-logcat>`_."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:133
+msgid ""
+"You can build your program through the commandline via the local terminal. "
+"Click on the terminal tab and then input :code:`gradlew :TeamCode:clean "
+":TeamCode:build`. This will delete the previously compiled files and build "
+"your TeamCode module."
+msgstr ""
+"Îți poți construi (build) programul prin linia de comandă prin terminalul "
+"local. Apasă pe tab-ul terminalului și apoi scrie :code:`gradlew "
+":TeamCode:clean :TeamCode:build`. Aceasta comandă va șterge fișierele "
+"compilate anterior și va construi un nou modul TeamCode."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:136
+msgid "Installing Your Program"
+msgstr "Instalarea Programului Tău"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:138
+msgid ""
+"To install your program onto the Robot Controller, you will use the play "
+"button located near the top right of the application window."
+msgstr ""
+"Pentru a-ți instala programul pe Robot Controller, va trebui să folosești "
+"butonul \"play\" localizat aproape de colțul din dreapta sus al ferestrei "
+"aplicației."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "Play button next to device dropdown"
+msgstr "Butonul \"play\" de lângă lista de device-uri"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:143
+msgid ""
+"Next to it you will see a dropdown for devices. When you connect your Robot "
+"Controller to your computer (using the correct cable), the device should "
+"appear in the dropdown after some time. Then, click the play button and your"
+" program will install onto the device."
+msgstr ""
+"Lângă acesta vei vedea o listă de dispozitive. Când îți conectezi Robot "
+"Controller-ul la calculator (prin cablul corect), device-ul ar trebui să "
+"apară în listă dupa ceva timp. Apoi, apasă pe butonul play iar programul tău"
+" se va instala pe dispozitiv."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:147
+msgid ""
+"Occasionally the app will fail to start on the robot controller, leaving the"
+" driver station in a disconnected state. If this occurs you can open the "
+"terminal and run"
+msgstr ""
+"Ocazional, aplicația nu va reusi să pornească pe robot controller, lăsând "
+"driver station-ul într-o stare deconectată. Dacă acest lucru se întamplă, "
+"dechide terminalul și scrie comanda"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:149
+msgid ""
+":code:`adb shell am start -n "
+"com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`"
+msgstr ""
+":code:`adb shell am start -n "
+"com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:151
+msgid "to remotely start the Robot Controller app."
+msgstr "pentru a porni de la distanță aplicatia Robot Controller"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:153
+msgid ""
+"If you run into any problems with this process, refer to the official `REV "
+"documentation <https://docs.revrobotics.com/duo-control/>`_. Some useful "
+"pages from the REV site are:"
+msgstr ""
+"Dacă intervine orice problemă în acest proces, citește documentația oficială"
+" `REV b<https://docs.revrobotics.com/duo-control/>`_. Câteva pagini "
+"folositoare de pe site-ul REV sunt:"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:155
+msgid ""
+"`Troubleshooting the Control System <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_"
+msgstr ""
+"`Depanarea Sistemului de Control <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:156
+msgid ""
+"`Deploying Code Wirelessly <https://docs.revrobotics.com/duo-"
+"control/programming/android-studio-using-wireless-adb>`_"
+msgstr ""
+"`Incărcarea Codului Wireless <https://docs.revrobotics.com/duo-"
+"control/programming/android-studio-using-wireless-adb>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:158
+msgid ""
+"If you're still stuck you can ask for help in the `FTC Discord "
+"<https://discord.com/invite/first-tech-challenge>`_."
+msgstr ""
+"Dacă tot ești blocat poți cere ajutor pe `FTC Discord "
+"<https://discord.com/invite/first-tech-challenge>`_."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:161
+msgid "Gradle"
+msgstr "Gradle"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:163
+msgid ""
+"Gradle is a build tool for software development. In the scope of FTC, it is "
+"used to build and manage dependencies for your project."
+msgstr ""
+"Gradle este o unealtă de construcție pentru dezvoltarea software-ului. În "
+"scopul FTC, este folosit pentru a construi și organiza dependențele "
+"(dependencies) proiectului tău."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:165
+msgid ""
+"When you update any of your Gradle files you will need to perform a Gradle "
+"sync, which syncs your project to the changes and rebuilds it. In your "
+":code:`build.common.gradle`, you will find information for how your robot "
+"controller application is built."
+msgstr ""
+"Când îți actualizezi fișierele Gradle trebuie să faci o sincronizare Gradle,"
+" care îți sincronizeaza proiectul cu schimbările făcute și îl "
+"reconstruiește. În :code:`build.common.gradle`, vei găsi informații despre "
+"cum aplicația pentru Robot Controller este construită."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:168
+msgid "Rebuilding"
+msgstr "Reconstruirea"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:170
+msgid "You can rebuild your project easily with the build dropdown."
+msgstr "Îți poți reconstrui proiectul cu ușurință în meniul \"build\"."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "The build dropdown at the top of the screen"
+msgstr "Meniul \"build\" în partea superioară a ecranului"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:175
+msgid ""
+"To rebuild from a clean project, press the clean project option. This "
+"removes old compiled files from your project so you can completely rebuild "
+"your project. It clears any production files, generated files, etc. This is "
+"useful for making sure old artifacts don't break anything when you build "
+"your code. When you next build your project, it will do so from scratch with"
+" no old compiled files to which it can refer. To rebuild your project, press"
+" the rebuild option."
+msgstr ""
+"Pentru a reconstrui de la un proiect \"curat\", selectează \"clean "
+"project\". Această opțiune îți șterge fișierele compilate din proiect pentru"
+" a-ți putea reconstrui complet proiectul. Îți curăță orice fișiere de "
+"producție, fișiere generate, etc. Această opțiune este folositoare pentru a "
+"te asigura că artefactele vechi nu îți strică proiectul atunci când îți "
+"construiești codul. Când îți construiesti următorul proiect, îl va face de "
+"la 0 fără fișiere compilate anterior de la care se poate \"inspira\". Pentru"
+" a-ți reconstrui proiectul, apasă pe opțiunea \"rebuild\"."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:178
+msgid "Invalidate and Restart"
+msgstr "Invalidează și Restartează"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:180
+msgid ""
+"Sometimes you can get errors after moving things around, refactoring, etc. "
+"The first step is to try cleaning the project and doing a rebuild. If this "
+"doesn't work, you might have confused Android Studio because it caches "
+"information about your project structure."
+msgstr ""
+"Uneori poți să primești erori după ce muți lucrurile din loc, refactorizezi,"
+" etc. Primul pas este să încerci să îți cureți proiectul și să îl "
+"reconstruiești. Dacă această metodă nu merge, s-ar putea să fi pus Android "
+"Studio în \"ceață\" deoarece stochează informații despre structura "
+"proiectului tău."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:182
+msgid ""
+"The most common way to fix these errors is to do an invalidate and restart. "
+"In the file dropdown, there will be an option for this and then you will "
+"choose Invalidate and Restart. This clears the cache and restarts your "
+"Android Studio, which then should perform a Gradle rebuild."
+msgstr ""
+"Cea mai comună metodă de a rezolva aceste erori este de a invalida erorile "
+"și de a restarta aplicația. În meniul \"file\", ar trebui să fie o opțiunea "
+"\"Invalidate and Restart\". Această opțiune curață cache-ul și restartează "
+"Android Studio, care ar trebui să realizeze un Gradle rebuild."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:185
+msgid "Adding Dependencies"
+msgstr "Adăugarea Dependențelor"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:187
+msgid ""
+"If you want to add dependencies to your project, you can do so in the "
+":code:`build.gradle` file in the TeamCode directory."
+msgstr ""
+"Dacă vrei să adaugi dependențe proiectului tău, poți face acest lucru în "
+"fișierul :code:`build.gradle` din registrul TeamCode."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:189
+msgid "There should be a dependencies block at the bottom of the file."
+msgstr "Ar trebui să fie un bloc de dependențe la sfârșitul fișierului."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:202
+msgid ""
+"Some dependencies require changes to your other Gradle files. Make sure to "
+"read the installation instructions for whatever dependency you want to add."
+msgstr ""
+"Unele dependențe au nevoie de schimbări la alte fișiere Gradle. Asigură-te "
+"că ai citit instrucțiunile de instalare pentru orice dependențe pe care vrei"
+" să le adaugi proiectului."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:204
+msgid ""
+"Next, you add a line in the dependencies block to implement the dependency. "
+"This is generally done with :code:`implementation 'com.package.name'`."
+msgstr ""
+"Apoi, adaugi o linie de cod în blocul de dependențe pentru a implementa "
+"dependența. Acest lucru se face în general cu :code:`implementation "
+"'com.package.name'`."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:215
+msgid ""
+"Refer to the instructions of whatever library you are using for the correct "
+"package name and version."
+msgstr ""
+"Citește instrucțiunile pentru orice librărie folosești pentru a adăuga "
+"numele și versiunea corectă a pachetului."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:217
+msgid "Finally, perform a Gradle sync."
+msgstr "În final, realizează o sincronizare Gradle."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:220
+msgid "Upgrading to Java 8"
+msgstr "Actualizarea la Java 8"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:222
+msgid ""
+"By default, the SDK's version of Java is set to 7. Java 8 is also supported."
+" You might want to upgrade your version of Java from 7 to 8 if you want to "
+"use features such as lambdas or generics. Some libraries may also require "
+"you to change your Java version."
+msgstr ""
+"Implicit, versiunea SDK-ului Java este setată la 7. Java 8 este de asemenea "
+"compatibilă. Probabil vei vrea să actualizezi versiunea Java de la 7 la 8 "
+"pentru a folosi funcții precum lambda sau generice. Unele librării de "
+"asemenea vor avea nevoie de o versiune Java actualizată."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:224
+msgid ""
+"To upgrade to Java 8, navigate to your :code:`build.common.gradle` file. "
+"Scroll down until you find this block:"
+msgstr ""
+"Pentru a actualiza la Java 8, navighează la fișierul "
+":code:`build.common.gradle`, iar mai jos vei găsi acest bloc:"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:233
+msgid "Change the :code:`7` to :code:`8`, like so:"
+msgstr "Schimbă :code:`7` în :code:`8`, așa:"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:242
+msgid "Then, perform a Gradle sync."
+msgstr "Apoi, realizează o sincronizare Gradle."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:245
+msgid "Android Debug Bridge"
+msgstr "Depanarea Android (ADB / Android Debug Bridge)"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:247
+msgid ""
+"On macOS, Linux, or using PowerShell you will have to change any commands "
+"that start with :code:`adb` to start with :code:`./adb` if you are in the "
+":code:`platform-tools` directory."
+msgstr ""
+"Pe macOS, Linux, sau Powershell Windows vei fi nevoit să schimbi orice "
+"comandă care începe cu :code:`adb` ca să înceapă cu :code:`./adb` dacă ești "
+"în registrul :code:`platform-tools`."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:252
+msgid "Logcat"
+msgstr "Logcat"
