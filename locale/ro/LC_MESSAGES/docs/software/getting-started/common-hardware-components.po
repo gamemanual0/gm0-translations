@@ -3,16 +3,359 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-23 05:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:2
+msgid "Reading and Writing to Hardware"
+msgstr "Citirea și Scrierea Hardware"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:4
+msgid ""
+"When using the FTC SDK, there are a variety of built in hardware classes "
+"which can be used to communicate with hardware on the robot such as DC "
+"Motors, :term:`Servos <Servo>`, and Sensors."
+msgstr ""
+"Când folosești FTC SDK, există multe varietăți de clase de hardware care pot"
+" fi folosite pentru a comunica cu hardware-ul de pe robot, precum motoare "
+"DC,  :term:`servomotoare<Servo>`, și senzori."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:7
+msgid "Creating and Instantiating Hardware Objects"
+msgstr "Crearea și Instanțarea Obiectelor Hardware"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:9
+msgid ""
+"The first thing required to properly create an object is to import its "
+"class. In Android Studio, if the class is referenced without being imported "
+"Alt+Enter can be pressed to automatically import it. After it is imported, "
+"the next step is to create the object::"
+msgstr ""
+"Primul lucru necesar pentru a crea corect un obiect este importarea clasei "
+"acestuia. În Android Studio, dacă clasa este menționată fără a fi importată "
+"poți apăsa Alt+Enter pentru a o importa automat. După ce este importată "
+"clasa, urmatorul pas este să creezi obiectul::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:13
+msgid ""
+"After the object is created, it must be instantiated. Part of the ``OpMode``"
+" superclass is something called ``hardwareMap``. ``hardwareMap`` is used in "
+"the FTC SDK to instantiate objects rather than calling a constructor."
+msgstr ""
+"După ce obiectul este creat, acesta trebuie instanțat. Parte din superclasa "
+"``OpMode`` este numită ``hardwareMap``. ``hardwareMap`` este folosit în FTC "
+"SDK pentru a instanța obiecte, decât să apelezi un constructor."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:15
+msgid ""
+"It contains all of the information entered into the configuration on the "
+"Robot Controller, such as names of hardware and what port it is plugged "
+"into. Here is an example of instantiating the motor we created above::"
+msgstr ""
+"Conține toate informațiile introduse în configurația Robot Controller-ului, "
+"precum numele hardware-ului și în ce port a fost introdus. Aici este un "
+"exemplu pentru instanțierea motorului pe care l-am creat mai sus::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:19
+msgid ""
+"Whatever sensor you are using, you will pass that class into the spot where "
+"``DcMotor.class`` is. For example, if liftMotor was a Servo, ``Servo.class``"
+" would be passed instead."
+msgstr ""
+"Pentru orice senzor pe care Îl folosești, vei pasa acea clasă în locul unde "
+"este ``DcMotor.class``. De exemplu, dacă liftMotor era un servomotor, "
+"``Servo.class`` ar fi fost pasat în schimb."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:21
+msgid ""
+"For the second argument, you pass whatever the device is named in the Robot "
+"Controller configuration. ``hardwareMap`` will then go find what port the "
+"device with that name is plugged into, which allows the hardware to be "
+"accessed."
+msgstr ""
+"Pentru al doilea argument, vei pasa orice nume pe care îl are dispozitivul "
+"î0n configurația din Robot Controller. ``hardwareMap`` va găsi pe ce port "
+"este conectat dispozitivul cu numele respectiv, care îți permite să accesezi"
+" hardware-ul."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:24
+msgid "Examples of Using Common Hardware Components"
+msgstr "Exemple Comune pentru Utilizarea Componentelor Hardware"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:27
+msgid "DC Motor"
+msgstr "Motorul DC"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:37
+msgid ""
+"After a ``DcMotor`` is instantiated, there are a few variables you can set "
+"to affect how the DC Motor runs. The first of these is direction::"
+msgstr ""
+"După ce un ``DcMotor`` este instanțat, există câteva variabile pe care "
+"trebuie să le setezi pentru a afecta felul în care un motor DC va rula. "
+"Primul din acestea este direcția::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:42
+msgid ""
+"Changing the direction of the motor does exactly what should be expected, it"
+" changes the direction. If a power of 1 is applied to the motor while it is "
+"in forward mode, it will turn one direction. If it is in reverse, a power of"
+" 1 will spin it in the other direction. If you face the shaft of the motor "
+"towards you, forward is counterclockwise (with the exception of NeveRest "
+"motors)."
+msgstr ""
+"Schimbarea direcției unui motor face exact lucrul la care te aștepți, îi "
+"schimbă direcția. Dacă o putere de 1 este aplicată unui motor în timp ce "
+"este setat în modul forward, se va roti într-o sigură direcție. Dacă este în"
+" reverse, o putere de 1 îl va roti în cealaltă direcție. Dacă îndrepti axul "
+"motorului înspre tine, forward este în sensul invers al acului de ceasornic "
+"(cu excepția motoarelor NereRest)."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:44
+msgid "Next, there are two zero power behaviors that can be adjusted::"
+msgstr "Apoi, exită două comportamente de putere 0 care pot fi configurate::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:49
+msgid ""
+"Changing this variable affects how the DC Motor behaves while a power of 0 "
+"is applied. ``BRAKE`` will cause the motor to try and slow itself down if it"
+" is moving (it will NOT cause the motor to hold its position if not already "
+"moving), while ``FLOAT`` causes the motor to glide to a stop, letting "
+"friction do all the work."
+msgstr ""
+"Schimbarea acestei variabile afectează felul în care se comportă motorul DC "
+"când o putere de 0 este aplicată. ``BRAKE`` va forța motorul să încetinească"
+" dacă este în mișcare (nu va face motorul să își mențină poziția dacă nu "
+"este deja în mișcare), în timp ce ``FLOAT`` permite motorului să culiseze "
+"până la o oprire completă, lăsând frecarea fizică să facă toată munca."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:51
+msgid ""
+"Finally, there are four different run modes that can be used with DC motors:"
+" ::"
+msgstr ""
+"În final, există 4 tipuri diferite de rulare care pot fi folosite cu "
+"motoarele DC::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:59
+msgid ""
+"It is important to note that encoder values can be read in any of these "
+"modes provided an encoder is properly plugged in. These modes just change "
+"how the motor reacts to these encoder values. `The REV Robotics "
+"documentation has an explanation of all four run modes "
+"<https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback#choosing-a-motor-mode>`_."
+msgstr ""
+"Este important de reținut faptul ca valorile encoder-ului pot fi citite în "
+"oricare din aceste moduri, în cazul în care un encoder este conectat corect."
+" Aceste moduri doar schimbă modul în care motorul reacționează la aceste "
+"valori ale encoder-ului. `Documentația REV Robotics are un tutorial pentru "
+"aceste moduri de rulare <https://docs.revrobotics.com/duo-"
+"control/programming/using-encoder-feedback#choosing-a-motor-mode>`_."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:61
+msgid ""
+"``RUN_TO_POSITION`` can be a convenient way to control a single-motor "
+"mechanism, as it offloads all control work; however, since every motor is "
+"dealt with independently, it is inadvisable to use this on mechanisms with "
+"multiple motors, especially drivetrains."
+msgstr ""
+"``RUN_TO_POSITION`` poate fi o metodă ușoară de a controla un mecanism bazat"
+" pe un singur motor, din moment ce ușurează toată munca controller-ului; "
+"însă, din moment ce fiecare motor este controlat independent, nu este "
+"recomandat să folosești această metodă pe mecanisme cu mai multe motoare, în"
+" special șasiuri."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:64
+msgid "Encoders"
+msgstr "Encodere"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:66
+msgid "Term"
+msgstr "Termen"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:69
+msgid "Encoder"
+msgstr "Encoder"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:71
+msgid ""
+"An encoder refers to a device that tracks (generally) rotational movement "
+"around an axis."
+msgstr ""
+"Un encoder se referă la un dispozitiv care urmăreste mișcarea rotațională în"
+" jurul unui ax."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:73
+msgid ""
+"There are both absolute and relative encoders. An absolute encoder will "
+"report at exactly what angle the shaft is compared to its absolute “zero”. A"
+" relative encoder will report how far the :term:`shaft <Shaft>` has rotated "
+"since it started tracking (for example, when autonomous starts). Relative "
+"encoders will have a quadrature output, whereas absolute encoders generally "
+"have analog or i2c outputs."
+msgstr ""
+"Există encodere absolute și relative. Un encoder absolut va raporta unghiul "
+"exact la care axul este îndreptat comparativ cu \"zero absolut\". Un encoder"
+" relativ va raporta cât de departe s-a rotit :term:`axul<Shaft>` de când a "
+"început să se rotească (de exemplu, când începe perioada autonomă). "
+"Encoderele relative au o ieșire cuadratulă, în timp ce encoderele absolute "
+"au în general o ieșire analogă sau de tip i2c."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:75
+msgid ""
+"Encoders are used to help find the position of where the robot, or one of "
+"its mechanisms, is."
+msgstr ""
+"Encoderele sunt folosite pentru a găsi poziția robotului, sau a unui "
+"mecanism."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:77
+msgid ""
+"While all FTC legal motors contain built in relative quadrature encoders, "
+"they must be wired separately and are not required for use. External "
+"encoders may be used and plugged into an encoder port so long as they use "
+"the quadrature communication protocol."
+msgstr ""
+"Deși toate motoarele legale FTC conțin encodere relative cuadratule, acestea"
+" trebuie conectate separat și nu sunt obligatorii. Encoderele externe pot fi"
+" folosite și conectate într-un port de encoder cât timp folosesc protocolul "
+"cuadratul de comunicare."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:79
+msgid ""
+"Accessing encoders requires calling one method on the DcMotor object, "
+"``getCurrentPosition()``, which returns the current position of the encoder "
+"plugged into the port. This number may be arbitrary at the beginning of an "
+"opmode, and is not reset to 0 unless ``STOP_AND_RESET_ENCODERS`` is used or "
+"power is cycled to the expansion hub."
+msgstr ""
+"Accesarea encoderelor necesită apelarea unei metode din obiectul DcMotor, "
+"``getCurrentPosition()``, care returnează poziția curentă a encoderului "
+"conectat la port. Acest număr poate fi arbitrar la începutul unui opmode, și"
+" nu este resetat la 0 decât dacă ``STOP_AND_RESET_ENCODERS`` este folosit "
+"sau este restartat Expansion Hub-ul."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:81
+msgid ""
+"There is no real standardized terminology when dealing with quadrature "
+"encoders. The SDK uses \"CPR\" or Counts Per Revolution by default,. You may"
+" also see some datasheets list \"PPR\" or Pulses per Revolution. One pulse "
+"can be equivalent to anywhere from 1 to 4 SDK \"counts\". Be careful when "
+"reading datasheets!"
+msgstr ""
+"Nu există o terminologie standard când utilizezi encodere cuadratule. SDK-ul"
+" folosește \"CPR\" sau Citiri Pe Revoluție implicit. S-ar putea să vezi și "
+"documente care menționează \"PPR\" sau Pulsuri Pe Revoluție. Un puls poate "
+"fi echivalentul a între 1 si 4 citiri ale SDK-ului. Ai grijă când citești "
+"documentațiile!"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:83
+msgid ""
+"Encoders with high numbers of Counts per Revolution, such as the REV Through"
+" Bore Encoder, can lose steps if plugged into ports 1 or 2. In addition, "
+"calls to ``getVelocity()`` on a DcMotorEx object may overflow with high "
+"counts per revolution encoders, due to the returned number only being a 16 "
+"bit signed integer."
+msgstr ""
+"Encoderele cu CPR mare, precum REV Through Bore Encoder, poate pierde pași "
+"dacă sunt conectate la porturile 1 si 2. În plus, apelurile la "
+"``getVelocity()`` pe un obiect DcMotorEx poate suprasolicita programul cu "
+"citiri excesive CPR, din cauza numărului returnat care este un număr întreg "
+"de 16 biți."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:86
+msgid "Servo"
+msgstr "Servomotoare"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:92
+msgid ""
+"After instantiating a ``Servo``, there are two main functions that can be "
+"called: ``setPosition()`` and ``getPosition()``. ::"
+msgstr ""
+"După instanțierea unui ``Servo``, există două funcții principale care pot fi"
+" apelate: ``setPosition()`` și ``getPosition()``. ::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:97
+msgid ""
+"``setPosition()`` sets the position of the :term:`servo <Servo>`. The SDK "
+"will use a built-in control loop with the :term:`servo’s <Servo>` "
+"potentiometer to drive the :term:`servo <Servo>` to that position and hold "
+"that position. ``setPosition()`` takes in a double between 0 and 1, where 0 "
+"is the :term:`servo’s <Servo>` lower limit of rotation and 1 is the "
+":term:`servo’s <Servo>` upper limit of rotation. Everything between is "
+"directly proportional, so 0.5 is the middle, 0.75 is 3/4 the way up, etc."
+msgstr ""
+"``setPosition()`` setează poziția :term:`servomotorului<Servo>`. SDK-ul va "
+"folosi o buclă de control integrată cu potențiometrul "
+":term:`sermotorului<Servo>` pentru a pune în mișcare "
+":term:`servomotorul<Servo>` către acea poziție și să mențină acea poziție. "
+"``setPosition()`` preia valori de tip double între 0 și 1, unde 0 este "
+"limita inferioară a rotației :term:`servomotorului<Servo>`, iar 1 este "
+"limita superioară a rotației :term:`servomotorului<Servo>`. Orice între "
+"aceste valori este direct proporțional, deci 0.5 este mijlocul, 0.75 este "
+"3/4 din rotație, etc."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:99
+msgid ""
+"``getPosition()`` does not return the :term:`servo’s <Servo>` current "
+"position, rather its current target position. If a variable for the "
+":term:`servo’s <Servo>` current target position is stored properly, this "
+"function should never be needed."
+msgstr ""
+"``getPosition()`` nu returnează poziția curentă a "
+":term:`servomotorului<Servo>`, dar poziția sa țintă. Dacă o variabilă pentru"
+" poziția curentă țintă a :term:`servomotorului<Servo>` este stocată corect, "
+"această funcție nu ar trebui folosită niciodată."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:102
+msgid "Continuous Rotation Servo"
+msgstr "Servomotor cu Rotație Continuă"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:108
+msgid ""
+"A CRServo has one main method; ``setPower()``. This works very similarly to "
+"``DcMotor`` 's ``setPower()``, meaning that passing it 0 makes it stop, "
+"passing it 1 makes it go forward at full speed, passing it -1 makes it go "
+"backwards at full speed, and everything in between. ::"
+msgstr ""
+"Un servomotor CR are o metodă principală: ``setPower()``. Aceasta "
+"funcționeaza foarte similar cu ``setPower()``-ul ``DcMotor``-ului, adică 0 "
+"îl face să se oprească, 1 îl face să se miște la viteză maximă, -1 îl face "
+"să se rotească în sens invers la viteză maximă, și restul între aceste "
+"valori.::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:113
+msgid "Digital IO"
+msgstr "IO Digital"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:119
+msgid ""
+"A DigitalChannel has a couple main methods. ``setMode()`` is used to set the"
+" port as either an OUTPUT or INPUT port, ``getState()`` returns the current "
+"state of the port (only works in INPUT mode), and ``setState()`` sets the "
+"state of the port (only works in OUTPUT mode)"
+msgstr ""
+"Un DigitalChannel are câteva metode principale. ``setMode()`` este folosit "
+"pentru a seta un port ca OUTPUT sau INPUT, ``getState()`` returnează starea "
+"curentă a port-ului (merge doar în modul INPUT), iar ``setState()`` setează "
+"starea port-ului (merge doar în modul OUTPUT)."
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:121
+msgid "Digital ports start by default in INPUT mode"
+msgstr "Port-urile digitale încep implicit în modul INPUT"
