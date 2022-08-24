@@ -3,16 +3,93 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-24 16:19+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/useful-resources.rst:8
+msgid "Useful Resources"
+msgstr "Resurse Folositoare"
+
+#: ../../gm0/source/docs/useful-resources.rst:10
+msgid ""
+"Here is a page dedicated to useful resources around the interwebs. Enjoy!"
+msgstr ""
+"Aici este o pagină dedicată unor resurse folositoare din jurul internetului."
+
+#: ../../gm0/source/docs/useful-resources.rst:12
+msgid ""
+"The links with an asterisk (:highlight:`*`) are resources that are "
+"especially pertinent or helpful. We highly suggest you check out these "
+"links."
+msgstr ""
+"Link-urile cu o steluță (:highlight:`*`) sunt resurse care sunt în special "
+"pertinente sau folositoare. Vă sugerăm să vizitati aceste link-uri."
+
+#: ../../gm0/source/docs/useful-resources.rst:15
+msgid "General Resources"
+msgstr "Resurse Generale"
+
+#: ../../gm0/source/docs/useful-resources.rst:17
+msgid ""
+"`FTC Discord <https://discord.com/invite/first-tech-"
+"challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a "
+"discussion-based community server that has teams ranging from first-year "
+"rookies to Winning Alliance Captains at the World Championships. It also has"
+" a channel for direct access to vendors."
+msgstr ""
+"`FTC Discord <https://discord.com/invite/first-tech-"
+"challenge>`_:highlight:`*` --- Serverul **neoficial** FTC Discord este o "
+"comunitate bazată pe discuții care are echipe de la începatori în primul an "
+"până la căpitanii alianțelor câștigătoare la campionatele mondiale. De "
+"asemenea are și un chat pentru a discuta cu vânzători."
+
+#: ../../gm0/source/docs/useful-resources.rst:19
+msgid ""
+"`FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The FTC game"
+" Q&A, where clarifying questions about game rules from teams are asked and "
+"answered."
+msgstr ""
+"`FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- Forumul de "
+"întrebări și răspunsuri FTC, unde sunt clarificate întrebări în legătură cu "
+"reguli de joc."
+
+#: ../../gm0/source/docs/useful-resources.rst:21
+msgid ""
+"`Game and Season Materials <https://www.firstinspires.org/resource-"
+"library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the "
+"information for the current season, including the Game Manuals."
+msgstr ""
+"`Materiale de Joc și Sezon <https://www.firstinspires.org/resource-"
+"library/ftc/game-and-season-info>`_:highlight:`*` --- Unde poți găsi "
+"informații în legătură cu sezonul curent, inclusiv Manualele de Joc."
+
+#: ../../gm0/source/docs/useful-resources.rst:23
+msgid ""
+"`FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- The official FTC "
+"blog; important updates are typically posted here."
+msgstr ""
+"`FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- Blogul oficial "
+"FTC, noutățile importante sunt în general postate aici."
+
+#: ../../gm0/source/docs/useful-resources.rst:25
+msgid ""
+"`FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, "
+"covering the robot, competitions, and team management."
+msgstr ""
+"`FTC Tutorials <http://ftctutorials.com>`_ --- Tutoriale FTC neoficiale, în "
+"legătură cu robotul, competiții și organizarea echipei."

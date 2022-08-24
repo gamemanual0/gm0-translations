@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-24 05:10+0000\n"
+"POT-Creation-Date: 2022-08-24 16:19+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -275,3 +275,502 @@ msgstr ""
 "este înca 0. Poate că motorul nu are suficientă putere distribuită pentru a "
 "se mișca. Păi, cu suficient timp, termenul integral va mări output-ul (în "
 "acest caz, puterea motorului), pentru a se apropia de destinație."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:63
+msgid ""
+"To explain without calculus, the integral term essentially sums the error "
+"over a specific interval of time. To do this, error in each loop iteration "
+"is added to a variable (in this case, :math:`I(t)`)."
+msgstr ""
+"Pentru a explica acest lucru fără analiză matematică, termenul integral este"
+" în esență suma erorilor într-un interval de timp dat. Pentru a face acest "
+"lucru, eroarea din fiecare buclă iterată este adaugată la o variabila (în "
+"acest caz, :math:`I(t)`)."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:65
+msgid ""
+"However, summing error this way has an unfortunate side effect: the longer "
+"the loop takes to complete one iteration, the more slowly this sum "
+"increases, which is obviously not desirable, as we don’t want lag to affect "
+"how the robot moves. To compensate for this, before the error is added to "
+":math:`I(t)`, it is multiplied by how long the previous loop took to-"
+"complete, or :math:`t_{n+1}-t_n`, preventing lag from making the system sum "
+"more slowly."
+msgstr ""
+"Totuși, sumarizarea erorilor în acest mod are și dezavantaje: cu cât durează"
+" mai mult ca bucla să completeze o iterație, cu cât mai încet această sumă "
+"crește, ceea ce este evident însă nu de dorit, din moment ce nu vrem să avem"
+" întârzieri în mișcarea robotului. Pentru a compensa acest lucru, înainte ca"
+" eroarea să fie adaugată la :math:`I(t)`, este înmulțită cu cât de mult a "
+"durat ultima buclă, sau :math:`t_{n+1}-t_n`, pentru a preveni întârzierile "
+"care fac ca sistemul să ruleze mai încet."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:67
+msgid ""
+"So say the robot stops short of the target. The P and D combination aren’t "
+"strong enough to move it forward to the destination. You can either tune "
+":math:`K_p` and :math:`K_d` to compensate (**this is recommended**), or you "
+"can add the integral term to increase output (**this works too, but requires"
+" more attention and tuning to achieve the same result**)."
+msgstr ""
+"Să zicem că robotul se oprește înaintea țintei. Combinația dintre P și D nu "
+"sunt suficient de puternice pentru a mișca înainte robotul la destinație. "
+"Poți ori să reglezi :math:`K_p` și :math:`K_d` pentru a compensa (**acest "
+"lucru este recomandat**), sau să adaugi termenul integral pentru a crește "
+"output-ul (**acest lucru funcționează de asemenea, însă necesită mai multă "
+"atenție și reglare pentru a obține acelaș rezultat**)."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:70
+msgid "PID Pseudocode"
+msgstr "Pseudocod PID"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:95
+msgid "Tuning a PID Loop"
+msgstr "Reglarea unei Bucle PID"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:97
+msgid ""
+"The most important thing to know while tuning a PID loop is how each of the "
+"terms affects the output. This can allow you to see which gains need to be "
+"adjusted."
+msgstr ""
+"Cel mai important lucru de știut atunci când reglezi o buclă PID este cum "
+"fiecare termen afectează output-ul. Acest lucru îți permite să vezi care "
+"valori trebuie ajustate."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:99
+msgid ""
+"For example, if the target is not reached but instead the setpoint begins to"
+" oscillate around the target, it means there is not enough D gain. If the "
+"target is eventually reached, albeit very slowly, that means there is not "
+"enough P gain or the D gain is too high."
+msgstr ""
+"De exemplu, dacă ținta nu este atinsă dar în schimb punctul de referință "
+"începe să oscileze în jurul țintei, înseamnă ca valoarea D nu afectează "
+"suficient algoritmul. Dacă ținta este atinsă, însă foarte încet, înseamnă că"
+" valoarea P nu afectează suficient algoritmul sau D este prea mare."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:101
+msgid ""
+"In brief, the P variable drives the error towards zero, the I variable "
+"corrects for steady state error, and the D variable dampens the effects of "
+"the P variable, more so as error approaches zero, which prevents overshoot."
+msgstr ""
+"Pe scurt, variabila P aduce eroarea spre zero, variabila I menține starea de"
+" echilibru al erorii, iar varibila D ameliorează efectele variabilei P, cu "
+"cât se apropie eroarea de zero, cu cât P devine mai mare, ceea ce previne "
+"depașirea țintei."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:103
+msgid "The most common method for tuning a PID controller is as follows:"
+msgstr "Cea mai comună metođă de a regla un controller PID este următoarea:"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:105
+msgid "Set the I and D gains to zero"
+msgstr "Setează I și D la zero"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:106
+msgid "Increase the P gain until there are oscillations around the target"
+msgstr "Crește valoarea P până când apar oscilații în jurul țintei"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:107
+msgid "Increase the D gain until no overshoot occurs"
+msgstr "Crește valoarea D până când robotul nu mai depășește ținta"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:108
+msgid ""
+"If there is steady state error, increase the I gain until it is corrected"
+msgstr ""
+"Dacă nu există o stare de echilibru, crește valoarea I până când se "
+"corectează"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:110
+msgid ""
+"An important thing to note is that most systems do not need both I and D "
+"control. Generally, systems without a lot of friction do not need an I term,"
+" but will need more D control. Systems with a lot of friction, on the other "
+"hand, generally do not need D control because the friction facilitates "
+"deceleration but need I control because the friction prevents the system "
+"from reaching the target otherwise."
+msgstr ""
+"Un lucru important de reținut este că multe sisteme nu au nevoie de I și D. "
+"În general, sistemele fără prea multă frecare nu au nevoie de un termen I, "
+"însă vor avea nevoie de mai mult control D. Sistemele cu multă frecare, pe "
+"de altă parte, în general nu au nevoie de control D deoarece frecarea "
+"facilitează decelerarea însă au nevoie de control I deoarece frecarea "
+"previne sistemul din a-și atinge ținta."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:112
+msgid ""
+"For a more in-depth explanation, `click here "
+"<https://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning>`_"
+msgstr ""
+"Pentru mai multe detalii, `apasă aici "
+"<https://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning>`_"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:115
+msgid "Built-In PID Controller"
+msgstr "Controllerul PID Integrat"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:116
+msgid ""
+"For situations where one needs to control the velocity or position of a "
+"single motor, the built in PID controller can be used. PID can be enabled by"
+" changing the run mode to ``RUN_USING_ENCODER``"
+msgstr ""
+"Pentru situațiile în care o persoană are nevoie să controleze viteza sau "
+"poziția unui singur motor, controllerul PID integrat poate fi folosit. PID "
+"poate fi activat prin schimbarea modului de rulare în ``RUN_USING_ENCODER``."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:120
+msgid ""
+"Many misunderstand the use of ``RUN_USING_ENCODER``, many may mistake that "
+"it is necessary to use this mode for the encoders to work at all, but this "
+"is not true. Instead, ``RUN_USING_ENCODER`` enables velocity feedback using "
+"the encoder. If you are using an external PID controller such as one that "
+"you implement, generally, it is recommended that you use "
+"``RUN_WITHOUT_ENCODER``."
+msgstr ""
+"Mulți nu înțeleg rolul ``RUN_USING_ENCODER``, mulți pot înțelege că această "
+"funcție este necesară pentru ca encoderele să funcționeze, însă acest lucru "
+"nu este adevărat. În schimb, ``RUN_USING_ENCODER`` activează feedback-ul "
+"vitezei folosind encoderul. Dacă folosești un controller PID extern precum "
+"cel pe care îl implementezi, în general, este recomandat să folosești "
+"``RUN_WITHOUT_ENCODER``."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:123
+msgid ""
+"For official documentation on the built in PID controller, `see here "
+"<https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback>`_"
+msgstr ""
+"Pentru mai multe informații în legătură cu controllerul PID integrat, `apasă"
+" aici <https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback>`_"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:126
+msgid "Debugging Built-In PID Controller"
+msgstr "Depanarea Controllerului PID Integrat"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:129
+msgid "Problem"
+msgstr "Problema"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:129
+msgid "Solution"
+msgstr "Soluția"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:131
+msgid "Motor goes at Full Speed regardless of velocity setpoint"
+msgstr "Motorul merge la viteză maximă indiferent de viteza de referință"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:131
+msgid "Most of the time this occurs when one of two things occurs:"
+msgstr ""
+"De cele mai multe ori acest lucru se întâmplă când au loc două probleme:"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:133
+msgid "#1: Your encoder is not connected properly."
+msgstr "#1: Encoderul nu este conectat corespunzător."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:135
+msgid ""
+"Diagnosis: Log your encoder position to telemetry, if the position "
+"oscillates between 0 - 1 make sure you have the correct cable and it is "
+"seated correctly."
+msgstr ""
+"Diagnoză: Înregistrează poziția encoderului în telemetrie, dacă poziția "
+"oscilează între 0-1 înseamnă că ai cablul corect și este conectat "
+"corespunzător."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:137
+msgid "#2: Your motor is going in the wrong direction."
+msgstr "#2: Motorul tău merge în direcția gresită."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:139
+msgid ""
+"Diagnosis: Log your velocity to telemetry, if you have a positive reference "
+"velocity and the output is negative or vice versa then your motor is plugged"
+" in backwards."
+msgstr ""
+"Diagnoză: Înregistrează viteza ta în telemetrie, dacă ai o referință "
+"pozitivă a vitezei iar output-ul este negativ sau vice versa înseamnă că "
+"motorul tău este conectat invers."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:141
+msgid "Motor does not reach full speed with ``.setPower``"
+msgstr "Motorul nu atinge viteza maximă cu ``.setPower``"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:141
+msgid ""
+"Use the ``.setVelocity`` method as part of DcMotorEx or use "
+"``RUN_WITHOUT_ENCODER`` with an external PID controller."
+msgstr ""
+"Folosește metoda ``.setVelocity`` din clasa DcMotorEx sau "
+"``RUN_WITHOUT_ENCODER`` cu un controller PID extern."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:145
+msgid "PID Controller Sample Rate"
+msgstr "Rata de Numerizare a unui Controller PID"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:147
+msgid ""
+"For teams who desire the most performance out of their PID controller, it is"
+" essential to consider the Sample rate of the controller. The Sample rate is"
+" when the controller updates its output given new sensor data. Higher Sample"
+" rates allow for more stable control and allow for the usage of more "
+"significant PID coefficients to reduce settling time. See this `video "
+"<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ to see how sample "
+"rate effects stability in a practical motor control example. The inbuilt PID"
+" controller is locked at a 20hz refresh rate (50ms sample rate). Many top "
+"FTC teams optimize their robot loops to run at up to 80hz, achieving *much* "
+"more stable control with an external PID."
+msgstr ""
+"Pentru echipele care vor cea mai bună performanță din controllerul lor PID, "
+"este esențial să iei în considerare rata de numerizare a controllerului. "
+"Rata de numerizare este atunci când controllerul îți actualizează output-ul "
+"având date noi despre senzori. Cu cât frecvența de numerizare este mai mare,"
+" cu cât controlul este mai stabil și permite folosirea unor coeficienți PID "
+"mai semnificativi pentru a reduce timpul de corectare. Vezi acest `video "
+"<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ pentru a vedea cum "
+"rata de numerizare afectează stabilitatea într-un exemplu practic cu un "
+"motor. Controllerul PID integrat este blocat la frecventa de actualizare de "
+"20Hz (rata de numerizare de 50ms). Multe echipe FTC de top își optimizează "
+"buclele roboților lor pentru a rula la timpi de la până la 80Hz, obținând un"
+" control *mult*  mai stabil cu un PID extern."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:156
+msgid "Feedforward Control"
+msgstr "Controlul Feedforward"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:158
+msgid ""
+"One less popular but equally useful control loop is the feedforward "
+"controller (sometimes unofficially referred to in FTC as the PVA controller,"
+" or Position-Velocity-Acceleration controller). For those without a physics "
+"background, velocity is the speed and direction something is moving and "
+"acceleration is how fast velocity is increasing or decreasing."
+msgstr ""
+"O buclă de control mai puțin cunoscută însă la fel de folositoare este "
+"controllerul feedforward (uneori neoficial numit în FTC drept controllerul "
+"PVA, sau Poziție-Velocitate-Accerelație). Pentru cei fără cunoștiințe în "
+"fizică, velocitatea este viteza și direcția la care ceva se mișcă și "
+"accerelația este cât de rapid crește sau descrește velocitatea."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:160
+msgid ""
+"Unlike PID, feedforward controllers require you to input not only where you "
+"want to go and where you are, but how fast you want to be moving at all "
+"times. Unlike feedback control loops such as PID, feedforward control loops "
+"don’t require information about the variable you want to control. Instead of"
+" controlling a variable directly, it controls how fast that variable "
+"changes."
+msgstr ""
+"Spre deosebire de PID, controllerele feedforward necesită un input nu numai "
+"compus din unde vrei să mergi și unde ești, însă și cât de rapid vrei să te "
+"miști tot timpul. Spre deosebire de buclele de control bazate pe feedback "
+"precum PID, buclele de control de tip feedforward nu au nevoie de informații"
+" în legătură cu variabila pe care vrei sa o controlezi. În loc să controleze"
+" variabila direct, controlează cât de rapid se schimbă variabila."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:162
+msgid ""
+"Conceptually, the controller is made up of 2 separate P controllers "
+"(remember, a P controller is made up of just the proportional term of a PID "
+"loop). Each of these P controllers are added together to create a "
+"feedforward controller."
+msgstr ""
+"Conceptual, controllerul este format din 2 controllere P separate (reține, "
+"un controller P este format doar din termenul proporțional al buclei PID). "
+"Fiecare din aceste controllere P sunt adăugate împreună pentru a crea un "
+"controller feedforward."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:164
+msgid ""
+"Just like we did with the PID formula, we can define the function like this:"
+" :math:`f(t)=K_v*V(t)+K_a*A(t)`."
+msgstr ""
+"La fel cum am făcut cu formula PID, putem defini funcția astfel: "
+":math:`f(t)=K_v*V(t)+K_a*A(t)`."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:166
+msgid ""
+"In most FTC applications, :math:`f(t)` controls the position of the output. "
+"As the name PVA suggests, the first term relates to velocity, and the second"
+" relates to acceleration. Just like in a P controller, each term contains a "
+"constant multiplied by an error term (in this case, :math:`V(t)` and "
+":math:`A(t)`). However, unlike a PID controller, each term has their own "
+"setpoints and endpoints, meaning error is calculated differently for each "
+"term."
+msgstr ""
+"În cele mai multe aplicații FTC, :math:`f(t)` controlează poziția output-"
+"ului. Cum numele său sugerează, primul termen este legat de velocitate, iar "
+"al doilea de accerelatie. Precum un controller P, fiecare termen conține o "
+"constantă înmulțită cu un termen de eroare (în acest caz, :math:`V(t)` sau "
+":math:`A(t)`). Totuși, față de un controller PID, fiecare termen are "
+"propiile puncte de referință și puncte finale, ceea ce înseamnă că eroarea "
+"este calculată diferit pentru fiecare termen."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:168
+msgid ""
+"Unlike desired position, your desired velocity is likely to change "
+"throughout the control loop. After all, the entire point of using control "
+"loops are to try to create a balance of speed and control of a system. "
+"Remember, in most situations, you want to approach your destination quickly "
+"if you are far away and slow down if you are close for more control."
+msgstr ""
+"Față de poziția dorită, velocitatea dorită se poate schimba în timpul buclei"
+" de control. La urma urmei, tot scopul buclei de control este de a crea o "
+"balanță între viteză și control într-un sistem. Reține, în cele mai multe "
+"situatii, vrei să se apropii de destinație rapid dacă ești departe și încet "
+"dacă esti aproape pentru mai mult control."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:170
+msgid ""
+"For the sake of example, let’s say :math:`v(t)` is a magic function that "
+"could tell you exactly how fast you should be going at any point. To "
+"calculate velocity error, subtract your current velocity from the magic "
+"function :math:`v(t)`. This magic function can also be used to create "
+"another magic function: :math:`a(t)`. This magic function tells you how "
+"exactly how fast the velocity should change in order to get to the next "
+"magic velocity at any specified time."
+msgstr ""
+"Ca exemplu, să zicem că :math:`v(t)` este o funcție magică care îți poate "
+"spune exact cât de rapid ar trebui să mergi în orice punct. Pentru a calcula"
+" eroarea velocității, scade velocitatea curentă din funcția magică "
+":math:`v(t)`. Această funcție magică poate fi de asemenea folosită pentru a "
+"crea o altă funcție magică :math:`a(t)`. Această funcție magică îți spune "
+"exact cât de rapid valocitatea ar trebui să se schimbe ca să treci la "
+"următoarea velocitate magică la orice timp dat."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:172
+msgid ""
+"The last step is finding the magic functions :math:`v(t)` and :math:`a(t)`, "
+"**which can be obtained using motion profiles** (discussed next)."
+msgstr ""
+"Ultimul pas este să găsești funcțiile magice :math:`v(t)` și :math:`a(t)`, "
+"**care pot fi obținute folosind profilarea mișcării** (discutată mai târziu)"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:175
+msgid "Feedforward Pseudocode"
+msgstr "Pseudocod Feedforward"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:197
+msgid "Motion Profiles"
+msgstr "Profilarea Mișcării"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:199
+msgid ""
+"Motion profiling is a technique popularized in FRC\\ |reg| that is starting "
+"to find its way to FTC. A motion profile is a function used to change the "
+"speed of a power transmission system in a controlled and consistent way by "
+"changing desired speed gradually rather than instantaneously."
+msgstr ""
+"Profilarea mișcării este o tehnică popularizată în FRC\\ |reg| care începe "
+"să își găsească folosul în FTC. Un profil al mișcării este o funcție "
+"folosită pentru a schimba viteza unei transmisii într-o manieră controlată "
+"și consistentă prin schimbarea vitezei treptat decât instantaneu."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:201
+msgid ""
+"Let’s illustrate this with an example: say you want your drivetrain, which "
+"is initially unmoving, to drive forward at full speed. Ordinarily, you would"
+" set all drivetrain motors to full power in the code. However, this can be "
+"problematic because even though you tell the motors to move at full speed "
+"instantaneously, the drivetrain takes time to get to full speed. This can "
+"lead to uncontrolled movements which have the potential to make autonomous "
+"less consistent and, perhaps more importantly, damage mechanisms."
+msgstr ""
+"Să ilustrăm acest sistem cu un exemplu: să zicem că vrei ca șasiul tău, care"
+" inițial nu se mișcă, să meargă la viteza maximă. De obicei, setezi toate "
+"motoarele șasiului la viteza maximă în cod. Însă, aceasta metodă ar putea fi"
+" problematică deoacere deși le spui motoarelor să meargă la viteza maximă "
+"instantaneu, șasiului îi ia ceva timp să ajungă la viteza maximă. Acest "
+"lucru poate duce la mișcări necontrolate care ar putea avea potențialul să "
+"facă autonomiile mai puțin consistente și, probabil mai important, să strice"
+" mecanisme."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:203
+msgid "Motion profiling attempts to solve this issue."
+msgstr "Profilarea mișcării încearcă să rezolve această problemă."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:206
+msgid "Advantages"
+msgstr "Avantaje"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:208
+msgid "More controlled and predictable movements"
+msgstr "Mișcări mai controlate și previzibile"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:209
+msgid "Reduces rapid change of applied motor voltage"
+msgstr "Reduce schimbarea rapidă a tensiunii aplicate motorului"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:212
+msgid "Disadvantages"
+msgstr "Dezavantaje"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:214
+msgid "Can be slower"
+msgstr "Poate fi mai lent"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:216
+msgid ""
+"There are two main types of motion profiles: **Trapezoidal** profiles and "
+"**S-Curve** profiles. Trapezoidal profiles accelerate the system at a "
+"constant rate, and S-Curve profiles assume jerk (the speed acceleration "
+"changes) is constant. Given that S-Curve profiles are not optimal for "
+"controlling 2d trajectories (such as driving) and exist to reduce slippage "
+"(which usually only occurs when driving in FTC), trapezoidal profiles are "
+"recommended for most FTC applications."
+msgstr ""
+"Există două tipuri de profilare a mișcării: profilare **Trapezoidală** și "
+"profilare **S-Curve**. Profilarea trapezoidală accerelează sistemul la o "
+"frecvență constantă, iar profilarea S-Curve presupune smucituri (jerk, sau "
+"schimbările în accerelația vitezei) care sunt constante. Astfel, profilarea "
+"S-Curve nu este optimă pentru a controla traiectorii 2D (precum condusul) și"
+" există pentru a reduce alunecarea (care de obicei apare doar când conduci "
+"în FTC), profilarea trapezoidală este recomandată pentru majoritatea "
+"aplicațiilor FTC."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:218
+msgid ""
+"Trapezoidal profiles get their name from the shape of the graph of velocity "
+"over time:"
+msgstr ""
+"Profilarea trapezoidală îți are numele din forma graficului velocității în "
+"timp:"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:223
+msgid ""
+"The position over time, velocity over time, and acceleration over time "
+"graphs for a trapezoidal motion profile"
+msgstr ""
+"Poziția în timp, velocitatea în timp, și accerelația în timp vizualizat "
+"pentru profilarea trapezoidală"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:223
+msgid ""
+"These are the “magic functions” for velocity and acceleration over time "
+"alluded to in the feedforward section."
+msgstr ""
+"Acestea sunt \"funcțiile magice\" pentru velocitate și accerelație în timp "
+"care fac aluzie în secțiunea feedforward."
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:225
+msgid "Here is some pseudocode for a trapezoidal profile:"
+msgstr "Aici este niște pseudocod pentru un profil trapezoidal:"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:255
+msgid ""
+"A more advanced example of the math for motion profile generation as used in"
+" the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ "
+"can be found in this `Jupyter Notebook "
+"<https://mybinder.org/v2/gh/acmerobotics/road-"
+"runner/HEAD?filepath=doc%2Fnotebook%2Froad-runner-lite.ipynb>`_."
+msgstr ""
+"Un exemplu mai avansat al matematicii din generarea profilării mișcării "
+"folosite în `librăria Road Runner <https://github.com/acmerobotics/road-"
+"runner>`_ poate fi găsit în `documentul Jupyter "
+"<https://mybinder.org/v2/gh/acmerobotics/road-"
+"runner/HEAD?filepath=doc%2Fnotebook%2Froad-runner-lite.ipynb>`_."
