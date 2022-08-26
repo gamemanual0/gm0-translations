@@ -3,16 +3,354 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-26 05:24+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:2
+msgid "Linkages"
+msgstr "Mecanisme de Cuplare"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:4
+msgid ""
+"There are many different types of linkages. Generally, linkages are used to "
+"convert rotational motion, such as that from a servo or motor, to linear "
+"motion. Linkages can do this efficiently, and also have specialized movement"
+" patterns that can make them desirable for certain mechanisms."
+msgstr ""
+"Există multe tipuri de mecanisme de cuplare. În general, mecanismele de "
+"cuplare sunt folosite pentru a converti mișcarea rotațională, precum a unui "
+"servomotor sau motor, în mișcare liniară. Mecanismele de cuplare fac acest "
+"lucru eficient și au un tipar specializat de mișcare care le fac de dorit în"
+" unele mecanisme."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:6
+msgid "Term"
+msgstr "Termen"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:9
+msgid "Linkage"
+msgstr "Mecanism de Cuplare"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:11
+msgid ""
+"A system of solid links or bars connected to two or more other links by "
+"hinges, sliding joints, ball-and-socket joints, etc., so as to form a closed"
+" chain or a series of closed chains. Generally used to convert linear motion"
+" to rotational motion or vice versa."
+msgstr ""
+"Un sistem de legături puternice și bare conectate la două sau mai multe "
+"legături prin balamale, glisiere, articulații, etc., deci printr-o serie de "
+"lanțuri închise sau un lanț închis. În general, sunt folosite pentru a "
+"converti mișcarea liniară în mișcare rotațională sau vice versa."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:14
+msgid "Considerations"
+msgstr "Lucruri de luat în Calcul"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:16
+msgid "There are several things to consider when constructing a linkage."
+msgstr ""
+"Există câteva lucruri de luat în calcul atunci când construiești un mecanism"
+" de cuplare."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:18
+msgid ""
+"Over-centering is when a linkage is rotated past its center point (usually "
+"the point where both bars of the linkage are parallel). Driving a linkage "
+"over center can have some benefits, like making the linkage harder to "
+"backdrive. See this `informational youtube video "
+"<https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details on this. "
+"Essentially, linkages can form a structure where pushing on the linkage "
+"moves the robot instead of rotating the linkage."
+msgstr ""
+"Supra-centrarea are loc atunci când mecanismul de cuplare este rotit după "
+"punctul sau central (în general punctul unde ambele bare ale cuplului sunt "
+"pararele). Mișcarea unui mecanism de cuplare după centrul său poate avea "
+"câteva beneficii, precum prevenirea mecanismului din a se mișca invers. Vezi"
+" acest  `video informativ <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ "
+"pentru mai multe detalii. În esență, mecanismele de cuplaj pot forma o "
+"structură unde dacă împingi în mecanism robotul se mișcă în loc ca "
+"mecanismul să se rotească."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:19
+msgid ""
+"Linkages will not have a constant linear speed or force, with a linkage they"
+" generally reach a maximum speed and force when the bars are perpendicular, "
+"then the speed and force will decrease as the linkage is rotated farther."
+msgstr ""
+"Mecanismele de cuplaj nu vor avea constant o viteză liniară sau forță "
+"liniară, cu un astfel de mecanism ele vor atinge în general o viteză maximă "
+"atunci cand barele sunt perpendiculare, iar viteza și forța se vor micșora "
+"atunci când mecanismul de cuplare este rotit mai mult."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:20
+msgid ""
+"Cadding the linkage can be useful to check if it will do what you want it to"
+" do. See this `youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_"
+" for an example of how to set up the mates in OnShape."
+msgstr ""
+"Modelarea în CAD a mecanismului de cuplare este folositor pentru a verifica "
+"dacă poate face ceea ce vrei tu să facă. Vezi acest `video "
+"<https://www.youtube.com/watch?v=QsAC_seQHJY>`_ pentru un exemplu explicativ"
+" pentru modelarea în OnShape."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:23
+msgid "Common Linkage Types"
+msgstr "Mecanisme de Cuplare Comune"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:26
+msgid "Linkage Slides"
+msgstr "Mecanisme de Cuplare pe Glisiere"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:28
+msgid ""
+"A common use for linkages is to drive a linear extension. This allows for a "
+"compact method of converting the rotational motion from a motor or servo "
+"into linear motion moving a mechanism like drawer slides. Generally, a two "
+"bar linakge with multi degree ball linkage components are used to construct "
+"this linkage."
+msgstr ""
+"Un folos comun al mecanismelor de cuplare este pentru a mișca o extensie "
+"liniară. Această metodă permite o metodă compactă de a converti mișcarea "
+"rotațională de la un motor sau servomotor într-o mișcare liniară, precum a "
+"unei glisiere de sertar. În general, două mecanisme de cuplare cu mai multe "
+"componente formate din cupluri cu mai multe grade de libertate sunt folosite"
+" pentru a construi acest mecanism de cuplare."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:33
+msgid "A picture of a 7236 Recharged Green linkage driven slides"
+msgstr ""
+"O poză cu mecanismul de cuplare pe glisiere al echipei 7236 Recharged Green"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:33
+msgid "7236 Recharged Green, Skystone"
+msgstr "Echipa 7236 Recharged Green, Skystone"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:37
+msgid "Four Bar"
+msgstr "Patru Bare"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:39
+msgid ""
+"One type of linkage is called a four bar linkage. This is a linkage that "
+"keeps the end bar at the same angle to the ground at all times. For example,"
+" if the end bar of a virtual four bar is parallel to the ground when "
+"retracted, it will be parallel to the ground at all times, even when rotated"
+" fully out. This is beneficial for mechanisms like claws, which you want "
+"parallel to the ground during operation. In addition, four bars can provide "
+"extension outside of the robot frame, and generally provide both vertical "
+"and horizontal extension due to the \"arc\" that the arm follows. Also, the "
+"construction material of the four bar can be carefully selected to save "
+"weight."
+msgstr ""
+"Un tip de mecanism de cuplare este numit mecanismul de cuplare cu patru "
+"bare. Acesta este un mecanism care ține bara de capăt la acelas unghi față "
+"de pământ tot timpul. De exemplu, dacă bara de la capăt al unui mecanism "
+"este pararelă cu pământul când este retras, va fi pararel pentru mecanisme "
+"precum ghearele, pe care le vrei pararele cu pământul în timpul folosirii. "
+"În plus, cele patru bare pot obține o extensie verticală și orizontală în "
+"afara cadrului robotului datorită \"arcului\" pe care brațul îl urmărește. "
+"De asemenea, materialul de construcție al celor patru bare poate fi versatil"
+" pentru a reduce greutatea robotului. "
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:41
+msgid ""
+"This mechanism is not widely used in FTC due to the space requirements. The "
+"linkage bars that keep the end bar parallel restrict a four bar to under 180"
+" degrees of travel (less then 90 degrees in either direction) without "
+"specialized mechanical construction, and the bars also take up space in the "
+"robot frame."
+msgstr ""
+"Acest mecanism nu este foarte comun în FTC din cauza spațiului limitat. "
+"Barele de cuplare care țin bara de capăt pararelă restricționează cele patru"
+" bare sub 180 de grade de deplasare (mai puțin de 90 de grade în orice "
+"direcție) fără o construcție mecanică specializată, și de asemenea barele "
+"ocupa spațiu în cadrul robotului."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:0
+msgid "CAD Example of Four Bar (Click to expand)"
+msgstr "Un Exemplu CAD al celor Patru Bare (Apasă pentru a mări)"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:50
+msgid ""
+"`Click here to open this example in Onshape Cad, where you can click and "
+"drag parts to see how they move! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
+msgstr ""
+"`Apasă aici pentru a deschide acest exemplu în OnShape, unde poți apăsa și "
+"trage de piese pentru a vedea cum se mișcă! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:55
+msgid "A picture of a VEX Four Bar"
+msgstr "O poză cu un mecanism în patru bare VEX"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:55
+msgid "VEX Robotics Four Bar Claw"
+msgstr "Gheară în Patru Bare VEX Robotics"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:58
+msgid "Virtual Four Bar"
+msgstr "Patru Bare Virtuale"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:60
+msgid ""
+"The more popular alternative to the Four Bar linkage is a Virtual Four Bar. "
+"While not technically a linkage, a virtual four bar uses chains or belts to "
+"create an effect similar to a four bar, where the end effector is kept at a "
+"fixed angle to the ground at all times. Because the need for additional bars"
+" are eliminated, this \"linkage\" can travel more then 180 degrees, and also"
+" can take up less space then a traditional four bar linkage."
+msgstr ""
+"O alternativă mai populară la mecanismul în patru bare sunt cele patru bare "
+"virtuale. Deși nu este tehnic un mecanism de cuplare, legătura cu patru bare"
+" virtuale folosește lanțuri sau curele de distribuție pentru a crea un efect"
+" similar celor patru bare, unde efectorul final este ținut la un unghi fix "
+"față de pământ tot timpul. Deoarece nevoia pentru bare în plus este "
+"eliminată, această cuplare se poate deplasa mai mult de 180 de grade, și "
+"poate de asemenea să ocupe mai puțin spațiu decât un mecanism clasic de "
+"cuplare în patru bare."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:62
+msgid ""
+"This mechanism is more widely used in FTC, as it is an easy addition to an "
+"arm to maintain the end effector's angle relative to the ground."
+msgstr ""
+"Acest mecanism este folosit mai mult în FTC, din moment ce este ușor de "
+"montat pe un braț pentru a menține unghiul efectorului final relativ cu "
+"pământul."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:64
+msgid ""
+"Note: Both chain and belt can be used to construct a virtual four bar, and "
+"there isn't a specific benefit to using either. Due to the fact that the "
+"chain doesn't have to completely rotate around the sprocket, a zip-tie can "
+"be used to tension the chain, making construction easier."
+msgstr ""
+"De reținut: și lanțul și cureaua de distribuție pot fi folosite pentru a "
+"construi o cuplare virtuală în patru bare, și de asemenea nu este un "
+"beneficiu specific la niciuna dintre ele. Din cauza faptului că un lanț nu "
+"se poate roti complet în jurul unui pinion, un șoricel poate fi folosit "
+"pentru a tensiona lanțul, făcând construcția mai ușoară."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:0
+msgid "CAD Example of Virtual Four Bar (Click to expand)"
+msgstr ""
+"Exemplu CAD al unei Cuplări Virtuale în Patru Bare (Apasă pentru a mări)"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:73
+msgid ""
+"`Click here to open this example in Onshape Cad, where you can click and "
+"drag parts to see how they move! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__."
+msgstr ""
+"`Apasă aici pentru a deschide acest exemplu în OnShape, unde poți apăsa si "
+"trage componente pentru a vedea cum se mișcă! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:78
+msgid "7244 OUT of the BOX Robotics Virtual Four Bar"
+msgstr "Mecanismul Virtual în Patru Bare al echipei 7244 OUT of the BOX"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:78
+msgid "7244 OUT of the BOX Robotics, Ultimate Goal"
+msgstr "Echipa 7244 OUT of the BOX Robotics, Ultimate Goal"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:81
+msgid "Double-Reverse Four Bar"
+msgstr "Patru Bare Dublu Inversate"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:83
+msgid ""
+"The double reverse four bar is an extension of the four bar linkage that "
+"allows for more extension. A double reverse four bar consists of a four bar "
+"linkage with a second four bar linkage mounted to the end of the first. This"
+" allows for purely linear extension, as opposed to the \"arc\" that a single"
+" four bar will take. The end effector will still stay at a fixed angle to "
+"the ground due to the purely linear extension."
+msgstr ""
+"Un mecanism dublu inversat cu patru bare este o extensie a cuplării cu patru"
+" bare care permite mai multă extensie. Un mecanism dublu inversat consistă "
+"din un mecanism cu patru bare și un alt mecanism cu patru bare montat la "
+"capătul primului mecanism. Acest mecanism permite extensia liniară pură, "
+"opus \"arcului\" pe care un mecanism simplu cu patru bare pe care îl poate "
+"obține. Efectorul final va sta la un unghi fix față de pământ datorită "
+"extensiei liniare pure."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:85
+msgid ""
+"This mechanism is not widely used in FTC due to the generally large space "
+"requirements needed, but is a fairly compact method of producing large "
+"amounts of linear extension. Care needs to be taken that each side of a "
+"double reverse four bar is driven equally so that issues do not arise from "
+"asymmetric lifting."
+msgstr ""
+"Acest mecanism nu este popular în FTC din cauza spațiului mare pe care îl "
+"ocupă, însă este o metodă destul de compactă de a produce extensii liniare "
+"imense. De asemena trebuie avut grijă ca fiecare parte a mecanismului să fie"
+" mișcat în mod egal pentru a nu apărea probleme din cauza ridicării "
+"asimetrice."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:90
+msgid "11115 Gluten Free Double Reverse Four Bar"
+msgstr ""
+"Mecanismul de Cuplare cu Patru Bare Inversat Dublu al echipei 11115 Gluten "
+"Free"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:90
+msgid "11115 Gluten Free, Skystone"
+msgstr "Echipa 11115 Gluten Free, Skystone"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:93
+msgid "Virtual Double-Reverse Four Bar"
+msgstr "Mecanismul de Cuplare Virtual cu Patru Bare Inversat Dublu"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:95
+msgid ""
+"Similar to the virtual four bar, the virtual double-reverse four bar is a "
+"linkage that uses belts or chains to replace the linkage bars of the double-"
+"reverse four bar. The virtual double-reverse four bar is simply a virtual "
+"four bar where the end effector sprocket/pulley is half the size of the "
+"static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is "
+"mounted to the end effector sprocket/pulley, and another chain/belt is run, "
+"which creates purely linear motion with an end effector that is always at "
+"the same angle to the ground. This creates much more compact linear motion "
+"then a double-reverse four bar, and can also extend in both directions."
+msgstr ""
+"Similar cu mecanismul anterior, mecanismul de cuplare virtual dublu inversat"
+"  cu patru bare este un mecanism care folosește curele de distribuție sau "
+"lanțuri pentru a înlocui barele de cuplare ale mecanismului de cuplare în "
+"patru bare dublu inversat. Acest mecanism este pur și simplu un mecanism de "
+"cuplare virtual în patru bare în care efectorul final, un pinion sau "
+"scripete, este jumătate din dimensiunea pinionului/scripetelui static, "
+"realizând un raport 2:1. Atunci, o bară este montată la pinionul/scripetelui"
+" efectorului final, iar un alt lanț/curea este mișcată, care creează o "
+"mișcare liniară pură cu un efector final care are mereu acelaș unghi față de"
+" pământ. Acestă creează o mișcare liniară mult mai compactă, apoi un "
+"mecanism în patru bare inversat dublu, care se poate extinde în ambele "
+"direcții."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:100
+msgid "8644 Brainstormers Virtual Double Reverse Four Bar"
+msgstr ""
+"Mecanismul de Cuplare Virtual cu Patru Bare Dublu Inversat al echipei 8644 "
+"Brainstormers"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:100
+msgid "8644 Brainstormers, Freight Frenzy"
+msgstr "Echipa 8644 Brainstormers, Freight Frenzy"

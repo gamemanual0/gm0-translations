@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-20 16:17+0000\n"
+"POT-Creation-Date: 2022-08-26 05:24+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -512,3 +512,162 @@ msgstr "Crește viteza (RPM) la 800-1000+ RPM"
 msgid "Use polyurethane tubing at a lower RPM (100-250 RPM)."
 msgstr ""
 "Utilizează tubulatura din poliuretan la o viteză scazută (100-250 RPM)."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:153
+msgid ""
+"Polyurethane tubing can be purchased at a local hardware store and is a "
+"clear tubing that is quite stiff. Using some lubricant, insert the clear "
+"tubing into the surgical tubing for added stiffness."
+msgstr ""
+"Tubulatura din poliuretan poate fi achiziționată la magazinele hardware "
+"locale și este o tubulatură transparentă și destul de rigidă. Cu niște "
+"lubrifiant, insereaza tubulatura transparentă în tubulatura chirurgicală "
+"pentru mai multă rigiditate."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:155
+msgid ""
+"It is encouraged that teams test different RPMs and stiffness to develop the"
+" optimal intake. You will be surprised how changing one small variable such "
+"as the diameter of tubing or how far the tubing extends can affect intake "
+"effectiveness."
+msgstr ""
+"Echipele sunt încurajate să încerce viteze RPM diferite și diverse "
+"rigidități pentru a-și construi intake-ul optim. Vei fi surprins cât de "
+"multe schimbări poate aduce o variabilă mică precum diametrul tubulaturii "
+"sau cât de mult se extinde tubulatura, afectând eficacitatea intake-ului."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:157
+msgid ""
+"Surgical tubing intakes are especially good at picking up multiple elements "
+"at a time, due to the high RPM (sometimes >1000 RPM) of the rollers. "
+"However, it suffers from a lack of controllability, as sometimes the driver "
+"may accidentally pick up more than needed, and have to spit it out."
+msgstr ""
+"Intake-urile din tubulatură chirurgicală sunt în special eficiente pentru a "
+"colecta mai multe elemente deodată, datorită RPM-ului mare (de obicei >1000 "
+"RPM) ale rolelor. Totuși, acesta suferă din lipsa controlabilității, din "
+"moment ce uneori driver-ul poate colecta din greșeală mai multe elemente "
+"decât este nevoie și este nevoit să le \"scuipe\" din sistem."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:162
+msgid "Able to collect multiple elements at a time"
+msgstr "Capabil de a colecta mai multe elemente deodată"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:163
+msgid "Generally more efficient than wheeled intakes"
+msgstr "În general mai eficient decât intake-urile cu roți"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:164
+msgid "Specializes in small and odd-shaped elements"
+msgstr "Specializat în elemente mici sau cu forme neobișnuite"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:169
+msgid "Requires high RPM"
+msgstr "Are nevoie de mai multe RPM"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:170
+msgid "Less controllable"
+msgstr "Mai puțin controlabil"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:171
+msgid "Harder to pick up large elements easily"
+msgstr "Colectează mai greu elementele mari"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
+msgid "8375's surgical tubing intake"
+msgstr "Intake-ul echipei 8375 din tubulatură chirurgicală"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
+msgid "8375 Vulcan Robotics, Res-Q - great example of funneling"
+msgstr "8375 Vulcan Robotics, Res-Q"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
+msgid "8393's surgical tubing intake"
+msgstr "Intake-ul echipei 8393 din tubulatură chirurgicală"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
+msgid ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team, Semifinalist Alliance "
+"Captain (St. Louis), Velocity Vortex"
+msgstr ""
+"Echipa 8393 Giant Diencephalic BrainSTEM, căpitan al alianței semifinaliste "
+"(St. Louis), Velocity Vortex"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
+msgid "11115's surgical tubing intake"
+msgstr "Intake-ul echipei 11115 cu tubulatură chirugicală"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
+msgid "11115 Gluten Free, Winning Alliance First Pick (Detroit), Rover Ruckus"
+msgstr ""
+"Echipa 11115 Gluten Free, parte din alianța câștigătoare ca First Pick "
+"(Detroit), Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
+msgid "7203's surgical tubing intake"
+msgstr "Intake-ul echipei 7203 cu tubulatură chirurgicală"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
+msgid "7203 KNO3, Rover Ruckus"
+msgstr "Echipa 7203 KNO3, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:194
+msgid "Zip Tie Intake"
+msgstr "Intake cu Șoricei (Zip Ties)"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:196
+msgid ""
+"Instead of using surgical tubing, some teams opt for heavy zip ties instead."
+" This can work, but we recommend surgical tubing as it is one of the most "
+"tried and tested methods for picking up nearly any game element. Zip ties "
+"lack the friction of rubber tubing."
+msgstr ""
+"În loc de tubulatură chirurgicală, unele echipe optează pentru șoricei duri."
+" Aceștia pot funcționa, însă noi recomandăm tubulatura chirurgicală din "
+"moment ce este cea mai folosită și testată metodă de a colecta aproape orice"
+" element de joc. Colierele nu au suficientă frecare, precum tubulatura din "
+"cauciuc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:199
+msgid "3D printed intake (NinjaFlex/TPU Filament)"
+msgstr "Intake Printat 3D (NinjaFlex/Filament TPU)"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:201
+msgid ""
+"TPU/NinjaFlex 3D printer filament is a great low-RPM intake flap option, if "
+"designed right they work very well with VEX 393 motors (considered servos in"
+" FTC), and several teams have successfully used this configuration in "
+"competition."
+msgstr ""
+"Un intake printat 3D din TPU/NinjaFlex este o opțiune bună pentru "
+"aplicațiile cu RPM scăzut, iar dacă este conceput bine poate funcționa cu "
+"motoarele VEX 393 (considerate servomotoare în FTC). Căteva echipe au reușit"
+" să folosească această configurație în competiții."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:203
+msgid ""
+"We recommend 3D printed intakes only if your team has had experience in 3D "
+"printing parts."
+msgstr ""
+"Noi recomandăm intake-urile printate 3D doar dacă echipa ta are experiență "
+"în printarea pieselor 3D."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
+msgid "731's 3D printed intake"
+msgstr "Intake-ul printat 3D al echipei 731"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
+msgid "731 Wannabee Strange, Rover Ruckus"
+msgstr "Echipa 731 Wannabee Strange, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:213
+msgid "8417's 3D printed intake"
+msgstr "Intake-ul printat 3D al echipei 8417"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:213
+msgid ""
+"8417 Lectric Legends, Rover Ruckus - TPU intake flaps,  powered by two VEX "
+"393 motors"
+msgstr ""
+"Echipa 8417 Lectric Legends, Rover Ruckus - Intake cu pale din TPU, puse în "
+"mișcare de două motoare VEX 393"

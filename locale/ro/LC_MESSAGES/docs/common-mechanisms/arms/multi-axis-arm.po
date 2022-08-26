@@ -3,16 +3,66 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-26 05:24+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:2
+msgid "Multi-Axis Arm"
+msgstr "Brațul Multi-Axial"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:4
+msgid ""
+"A multi-axis arm is an arm which has multiple points of rotation. Multi-axis"
+" arms introduce many variables that exponentially complicate matters and can"
+" really only be modeled through complex kinematic equations."
+msgstr ""
+"Un braț multi-axial este un braț care are mai multe puncte de rotație. "
+"Brațele multi-axiale introduc multe variabile care complică lucrurile "
+"exponențial și pot  să fie modelate doar prin ecuații cinematice complexe."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:6
+msgid ""
+"This is highly discouraged for inexperienced FTC teams due to the difficulty"
+" of building as well as the need for machine tools."
+msgstr ""
+"Acest mecanism nu este recomandat pentru echipele FTC fără experiență din "
+"cauza dificultății de construcție și nevoia de unelte complexe de fabricare."
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:11
+msgid "20700's multi-axis arm"
+msgstr "Brațul multi-axial al echipei 20700"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:11
+msgid "20700 Snap, Freight Frenzy"
+msgstr "Echipa 20700 Snap, Freight Frenzy"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:16
+msgid "8148's multi-axis arm"
+msgstr "Brațul multi-axial al echipei 8148"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:16
+msgid "8148 Aleph Bots, Relic Recovery"
+msgstr "Echipa 8148 Aleph Bots, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:21
+msgid "15692's multi-axis arm"
+msgstr "Brațul multi-axial al echipei 15692"
+
+#: ../../gm0/source/docs/common-mechanisms/arms/multi-axis-arm.rst:21
+msgid "15692 Rust In Pieces, Rover Ruckus"
+msgstr "Echipa 15692 Rust In Pieces, Rover Ruckus"

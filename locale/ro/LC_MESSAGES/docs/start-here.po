@@ -3,16 +3,173 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-26 05:24+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/start-here.rst:2
+msgid "Start Here"
+msgstr "Începe Aici"
+
+#: ../../gm0/source/docs/start-here.rst:12
+msgid "Useful Resources"
+msgstr "Resurse Folositoare"
+
+#: ../../gm0/source/docs/start-here.rst:14
+msgid ""
+"A list of useful resources and accompanying descriptions, with especially "
+"pertinent ones marked."
+msgstr ""
+"O listă de resurse folositoare și discrieri însoțitoare, cu cele mai "
+"importante resurse marcate."
+
+#: ../../gm0/source/docs/start-here.rst:20
+msgid "FTC Discord"
+msgstr "FTC Discord"
+
+#: ../../gm0/source/docs/start-here.rst:22
+msgid ""
+"The **unofficial** FTC Discord server is a discussion-based community server"
+" that has teams ranging from first-year rookies to Winning Alliance Captains"
+" at the World Championships. It also has a channel for direct access to "
+"vendors."
+msgstr ""
+"Serverul **neoficial** de Discord FTC este o comunitate bazată pe discuții "
+"între echipe de la echipe începătoare până la căpitani ai alianțelor "
+"câștigătoare la campionatele mondiale. De asemenea au un chat prin care poți"
+" să comunici direct cu diverși vânzători."
+
+#: ../../gm0/source/docs/start-here.rst:25
+msgid "Hardware"
+msgstr "Hardware"
+
+#: ../../gm0/source/docs/start-here.rst:35
+msgid "Design Strategy"
+msgstr "Strategie de Design"
+
+#: ../../gm0/source/docs/start-here.rst:37
+msgid "A list of general tips for your team's design process."
+msgstr ""
+"O listă de sfaturi generale pentru procesul de design al echipei tale."
+
+#: ../../gm0/source/docs/start-here.rst:43
+msgid "Design Tradeoffs"
+msgstr "Sacrificii În Design"
+
+#: ../../gm0/source/docs/start-here.rst:45
+msgid ""
+"Goes over some common robot design decisions and typically superior "
+"alternatives to them."
+msgstr "Decizii comune în schițarea robotului și alternative superioare."
+
+#: ../../gm0/source/docs/start-here.rst:51
+msgid "Drivetrains"
+msgstr "Șasiuri"
+
+#: ../../gm0/source/docs/start-here.rst:53
+msgid ""
+"Because it doesn't matter how good the rest of your mechanisms are if the "
+"robot cannot get to where it needs to be (except maybe if you're 8813 in "
+"Relic Recovery)."
+msgstr ""
+"Deoarece degeaba ai mecanisme bune pe robot dacă nu poți să îl miști unde "
+"trebuie să ajungă (excepție pentru echipa 8813 în Relic Recovery)."
+
+#: ../../gm0/source/docs/start-here.rst:59
+msgid "Active Intake"
+msgstr "Intake Activ"
+
+#: ../../gm0/source/docs/start-here.rst:61
+msgid "Because you want to be able to pick stuff up. Touch it, own it."
+msgstr "Deoarece vrei să poți să colectezi chestii."
+
+#: ../../gm0/source/docs/start-here.rst:67
+msgid "Linear Motion Guide"
+msgstr "Ghid Pentru Mișcare Liniară"
+
+#: ../../gm0/source/docs/start-here.rst:69
+msgid ""
+"Moving things further than the constraints of the robot is an extremely "
+"common task, and linear motion is often one of the best ways to do this."
+msgstr ""
+"Mișcarea lucrurilor în afara limitelor robotului este o sarcină foarte "
+"comună, iar mișcarea liniară este de obicei cea mai bună metodă de a face "
+"asta."
+
+#: ../../gm0/source/docs/start-here.rst:75
+msgid "Power Transmission"
+msgstr "Transmisii de Putere"
+
+#: ../../gm0/source/docs/start-here.rst:77
+msgid "Different ways to get rotation from point A to point B."
+msgstr "Diverse metode de a te roti din punctul A în punctul B."
+
+#: ../../gm0/source/docs/start-here.rst:80
+msgid "Programming/Control System"
+msgstr "Programare/Sistem de Control"
+
+#: ../../gm0/source/docs/start-here.rst:91
+msgid "Options for Programming"
+msgstr "Variante de Programare"
+
+#: ../../gm0/source/docs/start-here.rst:93
+msgid "Because without programming, the robot is just an expensive brick."
+msgstr "Deoarece fără programare, robotul este doar o cărămidă scumpă."
+
+#: ../../gm0/source/docs/start-here.rst:99
+msgid "Control Systems"
+msgstr "Sisteme de Control"
+
+#: ../../gm0/source/docs/start-here.rst:101
+msgid ""
+"Because without a control system, the robot is just a (significantly less) "
+"expensive brick."
+msgstr ""
+"Deoarece fără sisteme de control, robotul este doar o caramidă (mai puțin) "
+"scumpă."
+
+#: ../../gm0/source/docs/start-here.rst:107
+msgid "Wiring Guide"
+msgstr "Ghid de Cablare"
+
+#: ../../gm0/source/docs/start-here.rst:109
+msgid "Because disconnects are no fun."
+msgstr "Deoarece deconectarea nu este distractivă."
+
+#: ../../gm0/source/docs/start-here.rst:115
+msgid "Programming Tutorial - Mecanum Drivetrain"
+msgstr "Tutorial de Programare - Șasiul Mecanum"
+
+#: ../../gm0/source/docs/start-here.rst:117
+msgid ""
+"Because mecanum wheels without the right code are some very expensive "
+"questionable quality traction wheels."
+msgstr ""
+"Deoarece roțile mecanum fără codul corespunzător sunt doar niște roți de "
+"tracțiune de o calitate discutabilă."
+
+#: ../../gm0/source/docs/start-here.rst:123
+msgid "Computer Vision"
+msgstr "Computer Vision"
+
+#: ../../gm0/source/docs/start-here.rst:125
+msgid ""
+"Explains the different common computer vision systems and how to use them "
+"(hopefully this doesn't end with a robot uprising)."
+msgstr ""
+"Cum diferitele sisteme de vedere computerizate funcționează și cum să le "
+"folosești (sperăm ca aceste sisteme să nu ducă la o revoluție a roboților)."
