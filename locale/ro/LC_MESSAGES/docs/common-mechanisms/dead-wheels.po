@@ -3,16 +3,809 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-27 04:54+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:2
+msgid "Dead Wheels"
+msgstr "Roți Moarte"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:4
+msgid ""
+"This is a very niche aspect of design in FTC. Generally it is something done"
+" by more experienced teams who have had time to repeatedly test their "
+"designs and mechanisms with software during the off-season."
+msgstr ""
+"Acesta este un aspect de nișă al designului în FTC. În general doar echipele"
+" cu experiență care au avut timp să își testeze modelele și mecanismele prin"
+" software în off-season."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:6
+msgid ""
+"The term dead wheels, tracking wheels, odometry pods, and odometry are often"
+" conflated in the FTC community. However, there are a few key differences "
+"one must keep in mind. Odometry is an umbrella term and refers to the "
+"general use of motion sensors for localization purposes. Meanwhile, dead "
+"wheels, tracking wheels, and odometry pods are all synonymous terms."
+msgstr ""
+"Termenul de roți moarte, roți de monitorizare, capsule de odometrie, și "
+"odometria sunt de obicei confundate în comunitatea FTC. Totuși, există "
+"câteva diferențe cheie pe care trebuie să le reții. Odometria este un termen"
+" umbrelă și se referă la folosirea generală a senzorilor de mișcare în "
+"scopul localizării. Între timp, roțile moarte, roțile de monitorizare și "
+"capsulele de odometrie sunt toate termeni sinonimi."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:8
+msgid "Term"
+msgstr "Termen"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:11
+msgid "Dead Wheel"
+msgstr "Roata Moartă"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:13
+msgid ""
+"A small unpowered wheel (usually an :term:`omni wheel <Omni Wheel>`) that "
+"tracks the distance the robot has traveled through the encoder attached to "
+"the wheel's axle."
+msgstr ""
+"O roată mică fără putere (de obicei o :term:`roată omni<Omni Wheel>`) care "
+"monitorizează distanță pe care robotul a parcurs-o prin encoderul atașat la "
+"axul roții."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:15
+msgid ""
+"Usually, there will be two or three wheels - one or two on the x and y axis "
+"each to track the front-back and left-right position relative to the "
+"starting point. Generally, odometry wheels are sprung so that the wheel is "
+"in contact with the floor tiles at all times to ensure accuracy."
+msgstr ""
+"De obicei, există două sau trei roți - una sau două pe axele X si Y pentru a"
+" monitoriza poziția față-spate și stânga-dreapta relativă cu punctul de "
+"start. În general, roțile de odometrie sunt arcuite pentru a ține roata în "
+"contact cu plăcile de spumă tot timpul pentru a asigura acuratețe."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:17
+msgid ""
+"Odometry refers to the use of motion sensors for localization. Localization "
+"is a means for being able to locate the position of the bot at some point in"
+" time. Localization is crucial in path following and advanced autonomous "
+"modes as one needs to know where they are to generate the necessary "
+"movements needed to reach a desired destination. :doc:`Localization software"
+" </docs/software/concepts/odometry>` plays a major role in odometry; "
+"however, in order to produce accurate results, reliable and accurate "
+"hardware design is a necessity."
+msgstr ""
+"Odometria se referă la folosirea senzorilor de mișcare pentru localizare. "
+"Localizarea reprezintă abilitatea de a localiza poziția robotului într-un "
+"punct în timp. Localizarea este esențială pentru urmarea unei traiectorii "
+"sau autonomii avansate, din moment ce trebuie să știi unde te afli pentru a "
+"genera mișcările necesare pentru a ajunge la o destinație dorită. "
+":doc:`software-ul de localizare </docs/software/concepts/odometry>` joacă un"
+" rol important în odometrie; totuși, ca să produci rezultate precise, "
+"hardware-ul fiabil este o necesitate."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:19
+msgid ""
+"The simplest form of odometry is drive encoder localization. This is the use"
+" of encoders measuring the rotation of motors that power the drive train. "
+"One is able to read the encoder data and feed it through the kinematic "
+"equation for that specific drive train to derive the body's velocity. Drive "
+"encoder localization is generally quite simple and easy to setup as almost "
+"all of the FTC legal motors have built-in encoders. Getting drive encoder "
+"localization setup is simply a matter of plugging in wires, no additional "
+"hardware needed."
+msgstr ""
+"Cea mai simplă formă de odometrie este localizarea prin encoderele "
+"motoarelor. Aceasta folosește encoderele care măsoară rotația motoarelor "
+"care pun în mișcare șasiul. Prin această metodă poți să citești datele "
+"encoderelor și să o folosești prin ecuația cinematică pentru tipul acela de "
+"șasiu pentru a deriva velocitatea corpului. Localizarea prin encoderele "
+"motoarelor este în general destul de simplă și ușor de setat pentru aproape "
+"toate motoarele FTC legale cu encodere incorporate. Trebuie doar să "
+"conectezi câteva cabluri, fără hardware adițional necesar."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:21
+msgid ""
+"Many teams in the community have converged on a unique solution that isn't "
+"seen very much outside of FTC: the use of \"dead wheels,\" \"tracking "
+"wheels,\" or \"odometry pods\" (these terms are all synonymous). These refer"
+" to small \"dead\" or non-driven (not powered by a motor) wheels attached to"
+" an `encoder sensor <#encoders>`_. Two or three dead wheel pods are often "
+"sprung to the ground to ensure accurate tracking. The two-wheel design "
+"utilizes one parallel and one perpendicular pod (parallel and perpendicular "
+"with respect to the drive wheel axis), measuring x and y movement "
+"respectively. Change in heading is measured via a gyroscope. The three-wheel"
+" design utilizes two parallel and one perpendicular pod, measuring x and y "
+"movement respectively. However, this design forgoes the gyroscope and "
+"instead measures heading via the difference with the two parallel wheels. "
+"This is often more accurate in the context of the FTC control system because"
+" the BNO055 IMU (used for the gyroscope in the two-wheel design) utilizes "
+"I2C which is slower than the rest of the I/O on the REV Hub and cannot be "
+"bulk read. These two issues lead to minute drift issues which can compound "
+"over time, thus leading to a more inaccurate localization system when using "
+"the two-wheel design."
+msgstr ""
+"Multe echipe din comunitate au convenit o soluție unică care nu este văzută "
+"foarte mult în afara FTC-ului: folosirea \"roților moarte\", \"roților de "
+"monitorizare\", sau \"capsulelor de odometrie\" (acesti termeni sunt "
+"sinonimi). Acestea se referă la roți \"moarte\" sau fără putere (de la un "
+"motor) atașate la un `senzor (encoder) <#encoders>`_. Capsulele cu două sau "
+"trei roți moarte sunt de obicei arcuite pentru a asigura contact permanent "
+"cu pământul / acuratețe. Design-ul cu două roți folosește una pararelă și "
+"una perpendiculară (la axul motoarelor de șasiu), măsurând mișcarea X și Y. "
+"O schimbare în direcție este măsurată prin giroscop. Design-ul cu trei roți "
+"folosește două capsule pararele și una perpendiculară, măsurând mișcarea X "
+"și Y. Însă, acest design uită de giroscop și în schimb măsoară direcția prin"
+" diferența dintre cele două capsule pararele. Această metodă este mai "
+"precisă deoarece BNO055 IMU (folosit pentru giroscop în design-ul anterior) "
+"utilizează I2C care este mai încet decât restul I/O-ul de pe REV Hub și nu "
+"poate citi în masă (bulk read). Aceste două probleme pot duce la probleme de"
+" abatere care se adună în timp, astfel ducând la o localizare imprecisă "
+"atunci când folosești design-ul cu două roți."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:23
+msgid ""
+"However, designing consistently accurate dead wheels proves to be a "
+"difficult design challenge. It is often quite pricey. A set of three dead "
+"wheels will cost a minimum of $100 for the encoders alone, prior to any "
+"hardware."
+msgstr ""
+"Însă, modelarea unui sistem cu roți moarte consistent se dovedește a fi o "
+"provocare dificilă de design. Este de obicei scump. Un set de trei roți "
+"moarte costă minim 100$ (490 Lei) pentru encodere, înainte de orice "
+"hardware."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:25
+msgid "Let's go through the advantages and disadvantages of each system."
+msgstr "Hai să trecem prin avantajele și dezavantajele fiecărui sistem."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:28
+msgid "Drive Encoder Localization"
+msgstr "Localizarea prin Encoderele Motoarelor"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:30
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:43
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:55
+msgid "**Pros**:"
+msgstr "**Pro**:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:32
+msgid ""
+"Cheap (the motors you're using most likely already have encoders built in)"
+msgstr ""
+"Ieftin (motoarele pe care le folosești cel mai probabil au deja encodere "
+"integrate)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:33
+msgid "Accessible"
+msgstr "Accesibil"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:34
+msgid "Very little configuration necessary"
+msgstr "Puțin efort depus"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:35
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:48
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:58
+msgid "**Cons**:"
+msgstr "**Contra**:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:37
+msgid ""
+"Drive encoder localization on mecanum drive can be quite inaccurate due to "
+"lack on traction on mecanum wheels."
+msgstr ""
+"Această metodă de localizare pe șasiurile mecanum poate fi destul de "
+"inprecisă din cauza lipsei tracțiunii pe roțile mecanum."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:38
+msgid ""
+"Will drift on high acceleration on mecanum drive. Accuracy will be good "
+"enough for basic autonomous modes if acceleration is limited"
+msgstr ""
+"Va aluca la accerelații puternice pe șasiurile mecanum. Acuratețea va fi "
+"destul de bună pentru autonomii simple dacă accerelația este limitată."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:41
+msgid "Two-Wheel Odometry Pods"
+msgstr "Capsule de Odometrie cu Două Roți"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:45
+msgid "Cheaper than 3-wheel design"
+msgstr "Mai ieftine decât design-ul cu 3 roți"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:46
+msgid "Pretty good accuracy"
+msgstr "Acuratețe destul de bună"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:47
+msgid "No tuning of the heading necessary"
+msgstr "Nu este necesar reglajul pe direcție"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:50
+msgid "Subject to more drift than the 3-wheel design"
+msgstr "Se poate abate de la drum mai ușor decât design-ul cu 3 roți"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:53
+msgid "Three-Wheel Odometry Pods"
+msgstr "Capsule de Odometrie cu Trei Roți"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:57
+msgid ""
+"Relatively accurate tracking. Great accuracy in a 30-second autonomous mode"
+msgstr ""
+"Localizare destul de precisă. Acuratețe bună într-o autonomie de 30 de "
+"secunde"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:60
+msgid "Quite pricey"
+msgstr "Destul de scump"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:61
+msgid "Tuning of the heading is very important"
+msgstr "Reglajul direcției este destul de important"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:64
+msgid "Encoders"
+msgstr "Encodere"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:66
+msgid ""
+"A lot of the localization done in software relies on readings from encoders."
+" :ref:`encoders` are sensors that track \"counts\" or \"ticks,\" which are "
+"values that represent a certain amount of a rotation. Different encoders "
+"might have a different number of counts per revolution (CPR), which is also "
+"sometimes also called ticks per revolution. The greater the number of "
+"counts, the more precise the data."
+msgstr ""
+"Multe din localizările făcute în software se bazează pe citirea din "
+"encodere. :ref:`Encoderele` sunt senzori care înregistrează \"pașii\" sau "
+"\"ticks\", care sunt valori care reprezintă un anumit grad de rotație. "
+"Encoderele pot avea un număr diferit de citiri pe revoluție (CPR), care de "
+"asemenea uneori se numește și tick-uri pe revoluție. Cu cât numărul acesta "
+"este mai mare, cu cât datele sunt mai precise."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:68
+msgid ""
+"Encoders are plugged into the JST-PH ports in the REV hubs. These encoders "
+"can either be built-in to the motors or external. External encoders will "
+"still need to be plugged into an encoder port but are not related to the "
+"motor in that port. Through software, we can use the motor object to "
+"determine the position of the encoder. This should be done with motors that "
+"do not use encoders. If you're using dead wheels, you will not need the "
+"drive motor encoder ports, so those are potential ports you might want to "
+"use."
+msgstr ""
+"Encoderele sunt conectate la porturile JST-PH ale hub-urilor REV. Aceste "
+"encodere pot fie să fie integrate în motoare sau externe. Encoderele externe"
+" vor trebui să fie conectate într-un port de encoder însă nu sunt în relație"
+" cu motorul din acel port. Prin software, putem folosi obiectul motorului "
+"pentru a determina poziția encoderului. Acest lucru ar trebui să fie făcut "
+"cu motoare care nu folosesc encodere. Dacă folosești roți moarte, nu vei "
+"avea nevoie de porturile motoarelor de pe șasiu, deci acelea sunt porturile "
+"pe care ai putea să le folosesti."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:70
+msgid ""
+"If one chooses to design dead wheels, there are only two recommended "
+"encoders that one should use for FTC: REV Through-Bore Encoders and U.S. "
+"Digital S4T Encoders."
+msgstr ""
+"Daca alegi să folosești roți moarte, există doar două encodere recomandate "
+"pentru FTC: Encoderele REV Through-Bore (prin ax) și U.S. Digital S4T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:73
+msgid "REV Through-Bore"
+msgstr "REV Through-Bore"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:75
+msgid ""
+"Often short-handed to \"REVcoders\" or \"revcoders,\" the `REV Through-Bore "
+"encoders <https://www.revrobotics.com/rev-11-1271/>`_ has quickly become the"
+" de facto option the FTC community. The REV encoders have gained such a "
+"reputation due to its relative affordability, much improved reliability, and"
+" ease of use. The through-bore design proves to be a *significant* "
+"improvement over previous optical disc encoder designs. Optical disc "
+"encoders are very fragile, prone to scratching, and are much less tolerant "
+"to design flaws."
+msgstr ""
+"De obicei prescurtate în \"REVcodere\" sau \"revcodere\", `encoderele REV "
+"Through-Bore <https://www.revrobotics.com/rev-11-1271/>`_ au devenit rapid "
+"opțiunea cea mai populară pentru comunitatea FTC. Encodere REV au câștigat "
+"atâta reputație pentru prețul său relativ accesibil, fiabilitate și ușurință"
+" în utilizare. Design-ul prin ax se dovedește a fi *semnificativ* mai bun "
+"decât encoderele optice. Encoderele cu disc optic sunt foarte fragile, ușor "
+"de zgâriat, și sunt mai puțin tolerante la probleme de design."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:81
+msgid "A REV Through-Bore Encoder"
+msgstr "Un Encoder REV Through-Bore"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:81
+msgid "REV Through-Bore Encoder"
+msgstr "Encoder REV Through-Bore "
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:83
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:111
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:135
+msgid "**Advantages:**"
+msgstr "**Avantaje**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
+msgid "Through-bore design is very robust and easy to design with"
+msgstr "Design-ul prin ax este foarte robust și ușor de modelat"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:86
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:138
+msgid "Relatively cheap"
+msgstr "Relativ Ieftin"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:87
+msgid "High CPR"
+msgstr "CPR Mare"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:88
+msgid "Easy wiring"
+msgstr "Ușor de Conectat"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:90
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:115
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:140
+msgid "**Disadvantages:**"
+msgstr "**Dezavantaje**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:92
+msgid ""
+"Quite large relative to other encoders. May be challenging to create a "
+"compact design"
+msgstr ""
+"Destul de mare comparativ cu alte encodere. Ar putea fi destul de greu să "
+"creezi un design compact"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:93
+msgid ""
+"Many Through-Bores seem to experience slight, uneven resistance when "
+"rotating. REV says this is normal and will subside as the encoder wears in"
+msgstr ""
+"Multe encodere Through-Bore au o ușoară rezistență inconsistentă când se "
+"rotesc. REV spune ca acest lucru este normal și devine mai puțin observabil "
+"cu cât folosești encoderul mai mult."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:95
+msgid ""
+"To forcefully wear in a REV Through-Bore encoder a 1/2\" hex shaft can be "
+"spun on a drill through the encoder for a couple of minutes"
+msgstr ""
+"Pentru a face rodajul forțat al unui encoder REV Through-Bore un ax de 1/2\""
+" poate fi rotit cu bormașina prin encoder pentru câteva minute"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:96
+msgid "Odd mounting points"
+msgstr "Puncte ciudate de montare"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:98
+msgid ""
+"The Through-Bore encoders have a very high CPR (8k). The REV Hub transmits "
+"velocity in a 16-bit signed integer. This means it can only communicate a "
+"maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a "
+"second (32k / 8k = 4) for the velocity value on the REV Hub to experience an"
+" `integer overflow "
+"<https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is "
+"primarily a concern when dealing with motion profiling. The popular, "
+"existing tools (Road Runner and FTCLib) have `mechanisms for dealing with "
+"this issue <https://github.com/acmerobotics/road-runner-"
+"quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_"
+" so this is not a concern and should not sway your design decision. Just "
+"keep this detail in mind once you start programming."
+msgstr ""
+"Encoderele Through-Bore au un CPR foarte mare (8000). REV Hub-ul transmite "
+"velocitățile într-o variabilă întreagă pe 16 biți. Acest lucru înseamnă că "
+"poate comunica o valoare maximă de 2^15 (care este 32768). Deci, este nevoie"
+" doar de 4 rotații pe secundă (32000 / 8000 = 4) pentru ca valoarea "
+"velocității să depășească limitele REV Hub-ului și să creeze un `integer "
+"overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. "
+"Acest lucru este o problemă când ai de a face cu profilarea mișcării. "
+"Uneltele populare, existente (Road Runner și FTCLib) au `mecanisme pentru a "
+"rezolva această problemă <https://github.com/acmerobotics/road-runner-"
+"quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_"
+" deci nu este o îngrijorare prea mare și nu ar trebui să influențeze decizia"
+" ta de design. Doar ține minte acest detaliu când începi să programezi."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:101
+msgid "U.S. Digital S4T"
+msgstr "U.S. Digital S4T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:103
+msgid ""
+"The `S4T "
+"<https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ "
+"miniature shaft encoder is another viable option used in dead wheel designs."
+" These encoders are very small and may significantly reduce the footprint of"
+" your dead wheel design. Gearing these encoders is ideal to prevent shock "
+"loads."
+msgstr ""
+"Encoderul `S4T "
+"<https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ în "
+"miniatură este o altă opțiune viabilă folosită în design-urile cu roți "
+"moarte. Aceste encodere sunt foarte mici și pot reduce semnificativ impactul"
+" asupra design-ului. Folosirea angrenajelor cu aceste encodere este ideal "
+"pentru a preveni șocurile direct pe encoder."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:109
+msgid "An US Digital S4T encoder"
+msgstr "Un encoder US Digital S4T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:109
+msgid "S4T Encoder"
+msgstr "Encoder S4T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
+msgid "Very compact"
+msgstr "Foarte compact"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:117
+msgid "More expensive (nearly double the price)"
+msgstr "Mai scump (aproape dublu)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:118
+msgid "Less durable"
+msgstr "Mai fragil"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:120
+msgid "Very thin wires. Prone to breaking easily if not secured properly"
+msgstr ""
+"Cabluri foarte subțiri. Predispus la rupere dacă nu este securizat bine"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:122
+msgid "Ideally requires external gearing"
+msgstr "Ideal, necesită angrenaje externe"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:125
+msgid "SRX Mag Encoder"
+msgstr "Encoderul SRX Mag"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:127
+msgid ""
+"The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ "
+"from Cross The Road Electronics is a magnetic encoder. It is not used by "
+"many FTC teams due to its slightly higher complexity to use and lack of FTC-"
+"centric documentation. It is more popular in FRC."
+msgstr ""
+"Encoderul `SRX Mag <https://store.ctr-electronics.com/srx-mag-encoder/>`_ de"
+" la Cross The Road Electronics este un encoder magnetic. Nu este folosit de "
+"multe echipe FTC din cauza complexității mari de folosire și lipsa "
+"documentației specifice de FTC. Este mai popular în FRC."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:133
+msgid "A CTRE SRX Mag encoder"
+msgstr "Un Encoder CTRE SRX Mag"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:133
+msgid "CTRE SRX Mag Encoder"
+msgstr "Encoder CTRE SRC Mag"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:142
+msgid "Requires assembly"
+msgstr "Necesită asamblare"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:143
+msgid "Not much information exists for use in FTC"
+msgstr "Nu există multe instrucțiuni de folosire pentru FTC"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:146
+msgid "U.S. Digital E8T (deprecated)"
+msgstr "U.S. Digital E8T (învechit)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:148
+msgid ""
+"Once the de facto option for most FTC teams, the `E8T "
+"<https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ optical "
+"encoders are no longer recommended as the REV Through-Bores are a superior "
+"option at an equivalent price. The open-hole optical disc design of these "
+"encoders face a number of frustrating design flaws that made them very "
+"fragile and prone to breaking. The only advantage that they have relative to"
+" the REV Through-Bores is their smaller footprint."
+msgstr ""
+"Odată cea mai populară opțiune pentru echipele FTC, encoderul optic  `E8T "
+"<https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ nu mai "
+"sunt recomandate în continuare deoarece REV Though-Bore sunt o opțiune "
+"superioară la un preț echivalent. Design-ul optic deschis al acestor "
+"encodere au multe greșeli de design care le fac fragile și predispuse la "
+"rupere. Singurul avantaj pe care îl au relativ față de REV Though-Bore sunt "
+"dimensiunile mai mici."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:154
+msgid "An US Digital E8T encoder"
+msgstr "Un Encoder US Digital E8T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:154
+msgid "E8T Encoder"
+msgstr "Encoder E8T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:157
+msgid "Design"
+msgstr "Design"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:159
+msgid ""
+"There are few open source dead wheel designs. Dead wheels are often designed"
+" around a team's own drive train and FTC teams seldom publicly release their"
+" own robot CADs."
+msgstr ""
+"Există câteva design-uri disponibile public cu roți moarte. Roțile moarte "
+"sunt de obicei modelate în jurul unui șasiu al unei echipe iar echipele FTC "
+"rar fac public CAD-ul propriului robot."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:161
+msgid "Here are a few publicly available dead wheel designs:"
+msgstr "Aici sunt câteva design-uri publice cu roți moarte:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:163
+msgid "**Open Odometry by 18219**"
+msgstr "**Open Odometry, făcut de echipa 18219**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:165
+msgid "https://openodometry.weebly.com"
+msgstr "https://openodometry.weebly.com"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:166
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:177
+msgid "Utilizes the REV Through-Bore Encoder"
+msgstr "Utilizeaza Encoderul REV Through-Bore"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:167
+msgid "Most popular and robust publicly available design"
+msgstr "Un design foarte popular și robust disponibil public"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:168
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:178
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:198
+msgid "Compact enough to fit into a goBILDA channel"
+msgstr "Suficient de compact să încapă într-un canal goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:170
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:180
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:190
+msgid "**Things to consider**:"
+msgstr "**Lucruri de luat în considerare**:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:172
+msgid ""
+"Utilizes Rotacaster 35mm wheels from Australia. Shipping may take a while"
+msgstr ""
+"Utilizează roți Rotacaster de 35mm din Australia. Livrarea ar putea dura "
+"ceva timp (notă de la plex: livrarea nu ar fi disponibilă pentru România "
+"lol)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:174
+msgid "**goREVdometry**"
+msgstr "**goREVdometry**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:176
+msgid "https://discord.com/invite/Cvz3MbM9dX"
+msgstr "https://discord.com/invite/Cvz3MbM9dX"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:182
+msgid "Information only available through their Discord channel"
+msgstr "Informații disponibile doar prin chat-ul lor de Discord"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:183
+msgid "Hasn't been iterated on in a while"
+msgstr "Nu a mai fost actualizat de ceva timp"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:185
+msgid "**11115 Gluten Free Design - 2019**"
+msgstr "**Design-ul echipei 11115 Gluten Free - 2019**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:187
+msgid ""
+"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
+msgstr ""
+"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:188
+msgid ""
+"The above link the entire robot assembly for 11115's CAD for the 2018-19 "
+"season"
+msgstr ""
+"Link-ul de mai sus conține tot CAD-ul robotului echipei 11115 din sezonul "
+"2018-2019"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:192
+msgid "Uses LEGO gears"
+msgstr "Foloseste angrenaje LEGO"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:193
+msgid "Uses US Digital S4T's. Quite pricey"
+msgstr "Folosește encodere US Digital S4T. Destul de scumpe"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:195
+msgid "**9794 Wizards.exe Design**"
+msgstr "**Design-ul echipei 9794 Wizards.exe**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:197
+msgid ""
+"https://www.youtube.com/watch?list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
+msgstr ""
+"https://www.youtube.com/watch?list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:199
+msgid "**No longer recommended as it utilizes the E8T**"
+msgstr "**Nu mai este recomandat deoarece folosește E8T**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:202
+msgid "Spring Tensioning"
+msgstr "Tensionarea cu Arc"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
+msgid ""
+"It is *highly* recommended that your dead wheel design includes some form of"
+" spring tensioning that pushes the wheel into the ground. This ensures that "
+"the wheel is always in contact with ground and has adequate traction. "
+"Sufficient force is required to ensure constant traction to prevent the "
+"wheels from slipping. Keep in mind that too much force may lift a light "
+"drive train off the ground and disrupt driving."
+msgstr ""
+"Este *foarte* recomandat ca roțile tale moarte să conțină o formă de arcuire"
+" care împinge roata în pământ. Acest lucru asigură faptul că roata are "
+"contact permanent cu pământul și are tracțiune adecvată. Suficientă forță "
+"este necesară pentru a asigura tracțiune constantă pentru a preveni ca roata"
+" să alunece. Ține minte că prea multă forță poate ridica șasiul de pe pământ"
+" și să întrerupă mișcarea."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
+msgid ""
+"The most popular method of spring tensioning is to pivot your pod around a "
+"point and provide a rotational force via a spring or rubber band."
+msgstr ""
+"Cea mai populară metodă de a tensiona cu arc este să îți pivotezi capsula în"
+" jurul unui punct și să obții o forță rotațională printr-un arc sau bandă "
+"elastică."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:212
+msgid "A demonstration of pivoting spring tensioning"
+msgstr "O demonstrație a pivotării prin arcuire"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:212
+msgid "FTC 14320's spring tensioning"
+msgstr "Arcuirea echipei 14320"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+msgid ""
+"A much more niche option is to vertically spring odometry pods. The idea is "
+"that springing around a pivot will cause the dead wheels to move in the axis"
+" parallel to the ground if the height of the dead wheels relative to the "
+"ground changes. Vertically sprung odometry pods will not experience such an "
+"issue. However, this is not really an issue that most teams will experience."
+" Vertically springing is much harder to design well and is not recommended "
+"for the relatively minor improvement in accuracy it yields."
+msgstr ""
+"O altă opțiune este să arcuiești vertical capsulele de odometrie. Ideea este"
+" că arcuirea în jurul unui punct de pivotare va cauza ca roțile moarte să se"
+" miște în axul pararel cu pământul dacă înălțimea roților moarte relativ cu "
+"pământul se schimbă. Capsulele arcuite vertical nu vor avea această "
+"problemă. Însă, nu este o problemă așa mare, din moment ce majoritatea "
+"echipelor nu o vor întalni. Arcuirea vericală este mult mai greu de modelat "
+"bine și nu este recomandată pentru îmbunătățirea minoră în acuratețe pe care"
+" o obține."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:220
+msgid "An example of vertical spring tensioning"
+msgstr "Un exemplu de tensionare cu arc verticală"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:220
+msgid "FTC 18172's vertical springing"
+msgstr "Arcuirea verticală a echipei 18172"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:223
+msgid "Gallery"
+msgstr "Galerie"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:226
+msgid "Open Odometry (REV Through Bore Encoder)"
+msgstr "Open Odometry (Encoderul REV Through Bore)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "Exploded drawing of Open Odometry design"
+msgstr "Desenul extins al design-ului Open Odometry"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "Section view of Open Odometry"
+msgstr "Vedere secționată a Open Odometry"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:237
+msgid "FTC Team 14310 (REV Through Bore Encoder)"
+msgstr "Echipa 14310 (Encoder REV Through Bore)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14130's odometry"
+msgstr "Odometria echipei 14130"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:244
+msgid "FTC Team 8802 (REV Through Bore Encoder)"
+msgstr "Echipa 8802 (Encoder REV Through Bore)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "8802's odometry"
+msgstr "Odometria echipei 8802"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:251
+msgid "FTC Team 14320 (US Digital S4T)"
+msgstr "Echipa 14320 (US Digital S4T)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14320's odometry"
+msgstr "Odometria echipei 14320"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:258
+msgid "FTC Team 11115 (US Digital S4T)"
+msgstr "Odometria Echipei 11115 (US Digital S4T)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:264
+msgid "11115's odometry"
+msgstr "Odometria Echipei 11115"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:264
+msgid ""
+"`FTC Team 11115 Photo Album "
+"<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
+"KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_"
+msgstr ""
+"`Album Foto al echipei 11115 "
+"<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
+"KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:267
+msgid "FTC Team 14481 (REV Through Bore Encoder)"
+msgstr "Echipa 14481 (Encoder REV Through Bore)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14481's odometry"
+msgstr "Odometria Echipei 14481"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:274
+msgid "FTC Team 3658 (REV Through Bore Encoder)"
+msgstr "Echipa 3658 (Encoder REV Through Bore)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:280
+msgid "Render of 3658's odometry"
+msgstr "Randare a odometriei echipei 3658"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:280
+msgid "FTC Team 3658 CAD"
+msgstr "CAD-ul echipei 3658"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:283
+msgid "FTC Team 7236 (REV Through Bore Encoder)"
+msgstr "Echipa 7236 (Encoder REV Through Bore)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:289
+msgid "Exploded view of 7236's odometry"
+msgstr "Vedere extinsă a odometriei echipei 7236"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:289
+msgid "FTC Team 7236 CAD"
+msgstr "CAD-ul echipei 7236"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "7236's odometry"
+msgstr "Odometria echipei 7236"

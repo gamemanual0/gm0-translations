@@ -3,16 +3,169 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-27 04:54+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:2
+msgid "Passive Intake/Claw"
+msgstr "Intake Pasiv / Gheară"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:4
+msgid ""
+"Passive intakes are mechanisms in which the driver must pick up individual "
+"items, usually by actuating some sort of gripper, which holds the game "
+"element."
+msgstr ""
+"Intake-urile Pasive sunt mecanisme prin care driver-ul trebuie să ridice "
+"elemente individuale, de obicei prin acționarea unui prinderi, care ține "
+"elementul de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:6
+msgid ""
+"Claws are the most common sort of passive intake and probably one of the "
+"first mechanisms that jump to mind during brainstorming. Unlike most "
+"intakes, claws can be made with only servos, and thus don’t require valuable"
+" motor slots."
+msgstr ""
+"Ghearele sunt cele mai comune tipuri de intake-uri pasive și probabil "
+"primele mecanisme la care te gândești când faci brainstorming. Spre "
+"deosebire de majoritatea intake-urilor, ghearele pot fi făcute doar cu "
+"servomotoare, și astfel nu necesită port-uri de motoare."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:8
+msgid ""
+"This is not to say there are no disadvantages; notably, unlike intakes, when"
+" you pick up something with a claw, it isn’t easy to transfer the collected "
+"element to a separate scoring mechanism. For this reason, in most cases, "
+"claws double as both a collection method and a scoring method."
+msgstr ""
+"Ca să nu zicem că nu există dezavantaje, notabil, spre deorebire de intake-"
+"uri, când ridici ceva cu o gheară, este destul de greu să transferi "
+"elementul colectat într-un mecanism separat de punctare. Din această cauză, "
+"ghearele sunt de asemenea și un mecanism de punctare."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:10
+msgid ""
+"**Claws are extremely useful for picking up large, unwieldy elements that "
+"cannot be controlled by active intakes**. For example, the relic in Relic "
+"Recovery would be much harder to control using a more active intake; so "
+"teams used a claw."
+msgstr ""
+"**Ghearele sunt foarte folositoare pentru colectarea elementelor mari care "
+"nu pot fi controlate de intake-uri active**. De exemplu, relicva din Relic "
+"Recovery ar fi foarte greu de controlat cu un intake activ, așa că echipele "
+"au folosit o gheară."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:12
+msgid ""
+"However, claws are outclassed by active intakes for picking up small game "
+"pieces in nearly every game."
+msgstr ""
+"Insă, ghearele sunt depășite de intake-uri active în ridicarea elementelor "
+"mici de joc în aproape orice joc."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:15
+msgid "Advantages"
+msgstr "Avantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:17
+msgid "Much simpler than an intake"
+msgstr "Mai simplu decât un intake"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:18
+msgid "Takes a lot less time to build than a reliable intake + transfer"
+msgstr "Se poate construi mai rapid decât un intake fiabil + transfer"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:19
+msgid "Less moving parts = less things that can go wrong"
+msgstr "Mai puține piese în mișcare = mai putine probleme"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:20
+msgid "Usually does not take up a motor slot"
+msgstr "De obicei nu ocupă un port de motor"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:21
+msgid "Can pick up odd shaped game elements that active intakes can’t"
+msgstr ""
+"Poate colecta elemente de joc în forme ciudate pe care intake-urile active "
+"nu pot"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:24
+msgid "Disadvantages"
+msgstr "Dezavantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:26
+msgid "Depending on their use case, claws are slower than intakes."
+msgstr "În funcție de folosință, ghearele sunt mai lente decât intake-urile"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:28
+msgid ""
+"The driver must angle the robot, position the claw, and grab the game "
+"element."
+msgstr ""
+"Driver-ul trebuie să poziționeze robotul la un unghi și să poziționeze "
+"gheara pentru a colecta un element"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:29
+msgid ""
+"By contrast, with an intake, the driver needs only to position the intake "
+"and grab the game elements."
+msgstr ""
+"În schimb, cu un intake, driver-ul trebuie doar să poziționeze intake-ul și "
+"să preia elementele de joc."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:30
+msgid "Claws can be more fragile and break easily."
+msgstr "Ghearele pot fi mai fragile și se pot rupe ușor."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:31
+msgid ""
+"In cases in which claws are slower than intakes, they can be much more prone"
+" to defensive maneuvers. The more time spent collecting, the more vulnerable"
+" you are."
+msgstr ""
+"În cazul în care gheara este mai lentă decât un intake, ele pot fi "
+"predispuse la manevre defensive. Cu cât petreci mai mult timp colectând, cu "
+"cât ești mai vulnerabil."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
+msgid "11115's relic claw"
+msgstr "Gheara pentru relicve echipei 11115"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
+msgid "11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery"
+msgstr ""
+"Echipa 11115 Gluten Free, parte din alianța finalistă în rol de căpitan "
+"(Detroit), Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
+msgid "8680's relic claw"
+msgstr "Gheara pentru relicve a echipei 8680"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
+msgid "8680 Kraken-Pinion, Relic Recovery"
+msgstr "Echipa 8680 Kraken-Pinion, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
+msgid "13075's glyph claw"
+msgstr "Gheara pentru relicve a echipei 13075"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
+msgid ""
+"13075 Coram Deo Academy Robotics, Relic Recovery (**suboptimal use case**)"
+msgstr "Echipa 13075 Coram Deo Academy Robotics, Relic Recovery"

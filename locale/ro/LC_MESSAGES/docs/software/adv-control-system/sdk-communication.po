@@ -3,16 +3,107 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-27 04:54+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:4
+msgid "SDK Communication"
+msgstr "Comunicare SDK"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:6
+msgid ""
+"When using any method in the FTC SDK that accesses hardware, be that setting"
+" motor power, reading an encoder, a sensor, etc., a LynxCommand is sent."
+msgstr ""
+"Când folosești orice metodă în FTC SDK care utilizează hardware, fie setarea"
+" puterii unui motor, citirea unui encoder, un senzor, etc., un LynxCommand "
+"este trimis."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:9
+msgid ""
+"LynxCommands are not sent directly from the Robot Controller to an Expansion"
+" Hub through USB; in an expansion hub they are sent through USB to an FTDI, "
+"which converts the USB signal to a UART one. In the control hub, this USB "
+"step is skipped, instead the control hub board sends the data directly over "
+"UART to the internal expansion hub."
+msgstr ""
+"LynxCommand-urile nu sunt trimise direct din Robot Controller către un "
+"Expansion Hub prin USB; în un expansion hub ele sunt trimise prin USB la un "
+"FTDI, care convertește semnalul USB într-un semnal UART. În control hub, "
+"acest pas USB este sărit, iar în schimb placa control hub-ului trimite "
+"datele direct prin UART către expansion hub-ul intern."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:12
+msgid ""
+"LynxCommands being blocking (and more specifically a master lock being "
+"present on each usb device) means that multithreading hardware calls is at "
+"best not helpful and typically harmful to performance."
+msgstr ""
+"LynxCommand-urile fiind blocante (și mai specific un master lock fiind "
+"prezent pe fiecare dispozitiv usb) înseamnă că apelurile hardware "
+"multithreading sunt, în cel mai bun caz, nefolositoare și în general "
+"dăunătoare performanței."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:14
+msgid ""
+"If an Android phone and Expansion Hub is used, LynxCommands are sent over "
+"USB; however if a Control Hub is used, LynxCommands are sent over UART. This"
+" is very important, not just because of the increased reliability with UART "
+"instead of USB, but also because LynxCommands take approximately 3 "
+"milliseconds over USB and approximately 2 milliseconds over UART."
+msgstr ""
+"Dacă un telefon Android și un Expansion Hub sunt folosite, LynxCommand-urile"
+" sunt trimise prin USB; însă, dacă un Control Hub este folosit, LynxCommand-"
+"urile sunt trimise prin UART. Acest lucru este foarte important, datorită "
+"fiabilității prin UART față de USB, dar și deoarece LynxCommand-urile iau "
+"aproximativ 3ms prin USB și aproximativ 2ms prin UART."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:16
+msgid ""
+"Any expansion hubs connected via RS485 receive their commands via that "
+"connector. Lynx hubs do not have to retransmit packets, so the added latency"
+" from this process isn't significant, but there will be some added latency. "
+"Up to 255 expansion hubs can be connected together in theory."
+msgstr ""
+"Orice expansion hub conectat prin RS485 primește comenzile prin acel "
+"conector. Hub-urile Lynx nu trebuie să retrimită pachete, așa că latența "
+"adăugată prin acest proces nu este semnificativă, însă va fi o latență "
+"adaugată. Până la 255 expansion hub-uri pot fi conectate în teorie."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
+msgid ""
+"Interacting with I2C devices takes significantly longer; upwards of 7 "
+"milliseconds over USB. However, this is not because each LynxCommand takes "
+"longer, but because multiple LynxCommands must be sent to interact with I2C."
+msgstr ""
+"Interacțiunea cu dispozitivele I2C poate lua semnificativ mai mult; până la "
+"7ms prin USB. Însă, acest lucru nu se întamplă deoarece LynxCommand-ul ia "
+"mai mult, însă deoarece mai multe LynxCommands-uri trebuie trimise pentru a "
+"interacționa cu I2C."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:22
+msgid ""
+"Please note that since version 5.5 of the SDK, I2C calls on the Control Hub "
+"are much faster than those on the Expansion Hub. This is because the polling"
+" rate was dramatically increased, which can cut down on unnecessary wasted "
+"time."
+msgstr ""
+"Reține că începând cu versiunea 5.5 a SDK-ului, apelurile I2C pe Control Hub"
+" sunt mult mai rapide decât cele pe Expansion Hub. Acest lucru se întâmplă "
+"deoarece rata de actualizare a fost crescută dramatic, care poate reduce din"
+" timpul irosit."
