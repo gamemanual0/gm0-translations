@@ -3,16 +3,278 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mihail Cimpoiasu, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 05:18+0000\n"
+"POT-Creation-Date: 2022-08-28 04:53+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:4
+msgid "Holonomic Drivetrains"
+msgstr "Șasiuri Holonomice"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:7
+msgid "Mecanum Drive"
+msgstr "Șasiul Mecanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:9
+msgid ""
+"Mecanum drivetrains consist of four mecanum wheels which are powered "
+"independently by one motor. This configuration angles the velocity of each "
+"wheel, allowing the robot to strafe."
+msgstr ""
+"Șasiurile mecanum sunt construite din patru roți mecanum care sunt puse în "
+"mișcare independent de câte un motor. Această configurație controlează "
+"velocitatea fiecărei roți, astfel robotul fiind capabil de a face strafe (a "
+"se mișca în lateral)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:11
+msgid "Term"
+msgstr "Termen"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:14
+msgid "Mecanum Wheel"
+msgstr "Roata Mecanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:16
+msgid ""
+"Mecanum wheels are a special type of wheel that enable maneuverability and "
+"holonomic strafing as opposed to traditional wheels. They consist of a "
+"series of rubber rollers rotated 45 degrees to either the left or right."
+msgstr ""
+"Roțile mecanum sunt un tip special de roți care permit manevrabilitatea și "
+"strafing-ul holonomic, față de roțile tradiționale. Acestea conțin o serie "
+"de role din cauciuc rotite la 45 de grade fie în stânga, fie în dreapta."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:18
+msgid ""
+"In a conventional mecanum drivetrain, running the wheels on one diagonal in "
+"the opposite direction to those on the other diagonal causes sideways "
+"movement. Combinations of these wheel motions allow for vehicle motion in "
+"any direction with any vehicle rotation (including no rotation at all)."
+msgstr ""
+"Într-un șasiu mecanum convențional, rotirea roților pe o diagonală în "
+"direcția opusă celor de pe cealaltă diagonală permite mișcarea în lateral. "
+"Combinarea acestor mișcări ale roților permit mișcarea în orice direcție cu "
+"orice rotație (inclusiv fără rotație)."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:20
+msgid ""
+"The primary advantage to mecanum drive is the maneuverability it affords, "
+"especially because the robot can strafe instead of turn and drive. The "
+"rollers on mecanum wheels form a 45 degree angle with the wheel’s axis of "
+"rotation, which means that mecanum drivetrains can’t strafe as fast as they "
+"can drive forward."
+msgstr ""
+"Avantajul principal al șasiului mecanum este manevrabilitatea pe care o "
+"permite, în special datorită faptului ca robotul poate să facă strafe, în "
+"loc să se întoarcă și să meargă în față. Rolele de pe roțile mecanum "
+"formează un unghi de 45 de grade cu axul de rotație al roții, ceea ce "
+"înseamnă că șasiul mecanum nu poate să facă strafe așa rapid precum pot "
+"merge în față."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:22
+msgid ""
+"This can be explained by discussing the forces involved. When each wheel "
+"rotates, it applies a friction force to the ground, which moves the robot. "
+"When moving forward, both sets of left wheels rotate in the same direction "
+"at the same speed, and both sets of right wheels rotate in the same "
+"direction at the same speed, meaning that the forces do not oppose each "
+"other. However, when strafing, neither the two left wheels nor the two right"
+" wheels are rotating at the same speed. In many cases, they even rotate in "
+"opposite directions."
+msgstr ""
+"Acest fenomen poate fi explicat prin discutarea forțelor implicate. Când "
+"fiecare roată se rotește, aplică o forță de frecare cu pământul, care "
+"rotește robotul. Când te miști în față, ambele seturi din stânga de roți se "
+"rotesc în aceeași direcție la aceeași viteză, iar ambele seturi din dreapta "
+"de roți se rotesc în acceași direcție la aceeași viteză, aceea ce înseamnă "
+"că forțele nu se opun unele altora. Însă, când faci strafe, niciuna din "
+"roțile din stânga sau roțile din dreapta se rotesc la aceeași viteză. În "
+"multe cazuri, se rotesc în direcții opuse."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:24
+msgid ""
+"These two opposing forces cause the rollers to slip more and more, which "
+"angles the robot’s velocity at the expense of traction (more slipping "
+"results in a loss of speed). However, the wheels do still slip when moving "
+"forward but not as drastically as they do when strafing."
+msgstr ""
+"Aceste două forțe opuse fac ca rolele să alunece din ce în ce mai mult, care"
+" cresc velocitatea robotului la costul tracțiunii (mai multă aluncare "
+"rezultă în o piedere a vitezei). Însă, roțile tot alunecă când se mișcă "
+"înainte dar nu la fel de drastic la fel cum fac în strafe."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:26
+msgid ""
+"This is the primary disadvantage to mecanum drivetrains: they tend not to "
+"have much pushing power and thus, are vulnerable to defense by a sturdy tank"
+" drive."
+msgstr ""
+"Acesta este dezavantajul principal la șasiurile mecanum: ele tind să nu aibă"
+" prea multă putere de împingere și astfel, sunt vulnerabile la defensivă din"
+" partea unui șasiu tank robust."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:28
+msgid ""
+"Due to the fact that mecanum wheels are more likely to slip because of the "
+"diagonal rollers, an optional addition to mecanum drives is a separate "
+"odometry mechanism in order to track the robot’s location during autonomous."
+msgstr ""
+"Din cauza faptului că șasiurile mecanum au șanse mai mari să alunece din "
+"cauza rolelor diagonale, o adiție opțională la șasiurile mecanum sunt "
+"mecanismele de odometrie pentru a înregistra locația robotului în timpul "
+"perioadei autonome."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:32
+msgid ""
+"It is important to note that in order to maximize the efficiency and "
+"stability of mecanum drives, when viewed from above, the rollers of each "
+"wheel should point towards the center of the robot, forming an X shape, "
+"rather than a rhombus."
+msgstr ""
+"Este important de reținut faptul că, pentru a maximiza eficiența și "
+"stabilitatea șasiurilor mecanum, când sunt văzute de sus, rolele fiecărei "
+"roți ar trebui să fie îndreptate înspre centrul robotului, formând o formă "
+"de X, decât un romb."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:34
+msgid ""
+"The primary reason for this is that it allows the drivetrain to turn "
+"significantly faster than it would otherwise be able to. When using the "
+"suggested setup, when viewed from the robot’s underside, the rollers form a "
+"rhombus. This allows the force applied by the wheels on the ground to act "
+"tangent to the turn radius, leading to faster turning."
+msgstr ""
+"Motivul principal pentru acest fapt este deoarece îi permite șasiului să se "
+"întoarcă mai rapid decât ar fi putut altfel. Când te folosești de "
+"recomandări, când este vazut de jos robotul, rolele formează un romb. "
+"Acestea permit forțelor aplicate de roți pe pământ să acționeze tangent față"
+" de raza întoarcerii, astfel rezultând o întoarcere mai rapidă."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:36
+msgid ""
+"See `this video <https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ and "
+"`this other video <https://youtu.be/YJaX3vQ6kHw?t=123>`_ for a more in depth"
+" explanation."
+msgstr ""
+"Vezi `acest video <https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ și"
+" `acest alt video <https://youtu.be/YJaX3vQ6kHw?t=123>`_ pentru o explicație"
+" mai detaliată."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:39
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:165
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:200
+msgid "Advantages"
+msgstr "Avantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:41
+msgid ""
+"Fantastic maneuverability and agility due to strafing, can avoid defense "
+"very well"
+msgstr ""
+"Manevrabilitate fantastică și agilitate datorită strafing-ului, poate evita "
+"devensiva foarte ușor"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:42
+msgid "Good acceleration, can have high top speed"
+msgstr "Accerelație bună, poate avea o viteză maximă mare"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:43
+msgid "Very versatile drivetrain for nearly any game"
+msgstr "Un șasiu foarte versatil pentru aproape orice joc"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:46
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:171
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:208
+msgid "Disadvantages"
+msgstr "Dezavantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:48
+msgid ""
+"Suffers in traction, as mecanum rollers have a lower coefficient of friction"
+" than traction wheels; cannot traverse terrain"
+msgstr ""
+"Tracțiunea lasă de dorit, din moment ce rolele mecanum au un coeficient de "
+"frecare mai mic decât roțile de tracțiune, nu poate traversa teren în relief"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:49
+msgid "Able to be pushed around on defense"
+msgstr "Poate să fie împins ușor în defensivă"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:50
+msgid "Wheels must be powered independently, so there is no redundancy"
+msgstr ""
+"Roțile trebuie să fie puse în mișcare independent, deci nu există redundanță"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "CAD Examples of Mecanum Drive (Click to expand)"
+msgstr "Exemple CAD ale Șasiurilor Mecanum (apasă pentru a mări)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "goBILDA COTS"
+msgstr "goBILDA COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:64
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/df9bcea72fcdd7e4aee4134b>`__"
+msgstr ""
+"`Apasă aici pentru a explora online acest model CAD în OnShape "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/df9bcea72fcdd7e4aee4134b>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "REV COTS"
+msgstr "REV COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:72
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/b8d4a6cfe4f26c5170f40a6c>`__"
+msgstr ""
+"`Apasă aici pentru a explora online acest model CAD în OnShape "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/b8d4a6cfe4f26c5170f40a6c>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "goBILDA Custom"
+msgstr "goBILDA Custom"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:80
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>`__"
+msgstr ""
+"`Apasă aici pentru a explora online acest model CAD în OnShape  "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "REV Custom"
+msgstr "REV Custom"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:88
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/40c3266dab2e444011cce79c>`__"
+msgstr ""
+"`Apasă aici pentru a explora online acest model CAD în OnShape  "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/40c3266dab2e444011cce79c>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:95
+msgid "Diagram of mecanum directions"
+msgstr "Diagramă a direcțiilor mecanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:95
+msgid "Configuration for mecanum wheels, courtesy goBILDA"
+msgstr "Configurație pentru roți mecanum, din partea goBILDA"
