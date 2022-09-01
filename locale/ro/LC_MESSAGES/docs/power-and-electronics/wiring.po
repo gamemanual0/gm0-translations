@@ -5,18 +5,223 @@
 # 
 # Translators:
 # Bianca Carstea, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-31 05:38+0000\n"
+"POT-Creation-Date: 2022-09-01 16:20+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Bianca Carstea, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:4
+msgid "Wiring Guide"
+msgstr "Ghid de Cablare"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:7
+msgid "Why does wiring matter?"
+msgstr "De ce contează cablarea?"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:9
+msgid ""
+"Have you ever looked inside your robot and thought \"what a mess of wires\"?"
+" Wiring is extremely important in FTC, but is often overlooked or hastily "
+"done the hour before competition starts. However, time spent in wiring the "
+"robot properly is crucial to the performance and maintenance of the robot."
+msgstr ""
+"V-ați uitat vreodată în interiorul robotului vostru și v-ați gândit \"ce "
+"încurcătură de fire\"? Cablarea este extrem de importantă în FTC, dar este "
+"adesea trecută cu vederea sau făcută în grabă cu o oră înainte de începerea "
+"competiției. Cu toate acestea, timpul petrecut pentru cablarea corectă a "
+"robotului este crucial pentru performanța și întreținerea robotului."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:11
+msgid ""
+"It is highly discouraged for teams to overlook wiring, but many new teams "
+"seem to disregard it or put little thought into wiring the robot properly."
+msgstr ""
+"Nu este recomandat ca echipele să treacă cu vederea cablarea, dar multe "
+"echipe noi par să nu țină cont de acest lucru sau să se gândească prea puțin"
+" la cablarea corectă a robotului."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:13
+msgid ""
+"While tedious and often no fun, wiring can mean the difference between a win"
+" and loss. The best robot in the world won't be able to work if a wire is "
+"loose or gets tangled up in the middle of a match. Thus it is imperative "
+"that wiring is purposefully thought out when designing and building a robot."
+msgstr ""
+"Deși obositoare și adesea deloc plăcute, cablurile pot face diferența dintre"
+" o victorie și o pierdere. Cel mai bun robot din lume nu va putea funcționa "
+"dacă un fir este slăbit sau se încurcă în mijlocul unui meci. Astfel, este "
+"obligatoriu ca cablarea să fie gândită în mod intenționat atunci când se "
+"proiectează și se construiește un robot."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:16
+msgid "*FIRST*\\ |reg| FTC Wiring Guide"
+msgstr "*FIRST*\\ |reg| Ghid de Cablare FTC"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:18
+msgid ""
+"*FIRST*\\ |reg| has created a wiring guide to help teams with tasks like "
+"crimping cables, soldering connections, and ESD mitigation that won’t be "
+"covered in this guide. Once you read up on electronics and wiring here, look"
+" at the `FTC Wiring Guide "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
+"wiring-guide.pdf>`_ for the best practices and more tips & tricks. In "
+"addition, *FIRST*\\ |reg| has written an `ESD Mitigation Whitepaper "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
+"esd-mitigation-echin.pdf>`_ that is worth taking a look at."
+msgstr ""
+"*FIRST*\\ |reg| a creat un ghid de cablare pentru a ajuta echipele cu "
+"sarcini precum strângerea cablurilor, lipirea conexiunilor și atenuarea ESD "
+"(Descărcare Electrostatică) care nu vor fi acoperite în acest ghid. După ce "
+"ați citit despre electronică și cablare aici, consultați `Ghidul de Cablare "
+"FTC "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
+"wiring-guide.pdf>`_ pentru cele mai bune practici și mai multe sfaturi și "
+"trucuri. În plus, *FIRST*\\ |reg| a scris un `Ghid de Atenuare a ESD-ului "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
+"esd-mitigation-echin.pdf>`_  peste care merită să aruncați o privire."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:21
+msgid "General Advice"
+msgstr "Sfaturi Generale"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:23
+msgid ""
+"**Always label wires! When bunched up, you may not know which wire goes into"
+" which port**."
+msgstr ""
+"**Întotdeauna etichetați firele! Când sunt adunate la un loc este posibil sa"
+" nu știti ce fir intră în ce port**."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:24
+msgid ""
+"Tie together loose wires, and better yet, tie that bunch of wires to a "
+"structural component. This will ensure that wires don't interfere with your "
+"mechanisms."
+msgstr ""
+"Legați firele libere și, mai bine, legați acele fire de o componentă "
+"structurală. Acest lucru va asigură că firele nu interferează cu mecanismele"
+" voastre."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:25
+msgid ""
+"**Pay attention to port numbers!** The rev hub will often have multiple "
+"ports per connector on the REV hub. `REV has a pinout guide to avoid "
+"confusion <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/port-pinouts>`_."
+msgstr ""
+"**Atenție la numărul de porturi!** Adesea, hub-ul REV va avea mai multe "
+"porturi pentru fiecare conector de pe hub-ul REV. `REV are un ghid de pinout"
+" pentru a evita confuzia <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/port-pinouts>`_."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:26
+msgid ""
+"**Treat every wire connection as a point of failure**. Therefore, use "
+"electrical tape to tape up and insulate connections and utilize strain "
+"relief as much as possible."
+msgstr ""
+"**Tratați fiecare conexiune de cabluri ca pe un punct de defecțiune**. Prin "
+"urmare, folosiți bandă adezivă electrică pentru a lipi și izola conexiunile "
+"și reduceți cât mai mult posibil tensionarea cablurilor."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:28
+msgid ""
+"**DO NOT solder a wire before crimping it**. Solder can \"creep\" and losing"
+" connection is possible, possibly leading to fire."
+msgstr ""
+"** NU sudați un fir înainte de a-l prinde**. Sudura se poate \"strecura\" și"
+" este posibilă pierderea conexiunii, ceea ce poate duce la incendiu."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:29
+msgid ""
+"**Keep all wire runs as short as possible** to prevent entanglement and "
+"improve wire management."
+msgstr ""
+"**Păstrați toate firele cât mai scurte posibil** pentru a preveni încurcarea"
+" și pentru a îmbunătăți gestionarea firelor."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:30
+msgid ""
+"**When using data/sensor cables, keep them away from motors.** This will "
+"reduce electromagnetic interference (EMI). Add a ferrite bead if possible."
+msgstr ""
+"**Când folosiți cabluri de date/senzor, țineți-le departe de motoare.** "
+"Acest lucru va reduce interferențele electromagnetice (EMI). Adăugați o "
+"perlă de ferită dacă este posibil."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:31
+msgid ""
+"**Crimped connectors are generally better than soldered connectors**, as "
+"solder joints can break easier than a crimped connection."
+msgstr ""
+"**Conectorii sertizați sunt, în general, mai buni decât conectorii sudați**,"
+" deoarece îmbinările prin lipire se pot defecta mai ușor decât o conexiune "
+"strânsă."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:32
+msgid ""
+"**Keep wires tucked away from moving mechanisms,** and ensure that you will "
+"not be at risk of a mechanism snagging a wire. This is a proper application "
+"of materials such as acrylic, which allow drivers to see inside the robot "
+"while keeping wires out of the way of other robots/game pieces. It is "
+"advised for teams to purchase removable velcro ties or cable ties to aid "
+"with cable management."
+msgstr ""
+"** Țineți firele la distanță de mecanismele în mișcare** și asigurați-vă că "
+"nu există riscul ca un mecanism să agațe un fir. Aceasta este o aplicare "
+"adecvată a unor materiale precum acrilicul, care permit driver-ilor să vadă "
+"în interiorul robotului, păstrând în același timp firele la distanță față de"
+" alți roboți/piese de joc. Se recomandă ca echipele să achiziționeze "
+"legături detașabile din velcro sau coliere de cablu pentru a ajuta la "
+"gestionarea cablurilor."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:33
+msgid ""
+"**For power wires, lower** :term:`gauge <Gauge>` **(larger size) wires are "
+"preferable.** This means a lower resistance across the wire and higher power"
+" throughput. This is negligible for data wires, however."
+msgstr ""
+"**Pentru firele de alimentare, sunt de preferat firele de "
+":termen:`calibru<Gauge>` mai mic (dimensiuni mai mari).** Aceasta înseamnă o"
+" rezistență mai mică pe fir și o putere mai mare de trecere. Totuși, acest "
+"lucru este neglijabil pentru firele de date."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:34
+msgid ""
+"**Small wires and cables are fragile.** Treat them as such, and don’t put "
+"them in an area where they will constantly be hit by another object. Larger "
+"power cables can take much more abuse."
+msgstr ""
+"**Firele și cablurile mici sunt fragile.** Tratați-le ca atare și nu le "
+"puneți într-o zonă în care vor fi lovite în mod constant de un alt obiect. "
+"Cablurile de alimentare mai mari pot suporta mult mai multe abuzuri."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:35
+msgid ""
+"**Ensure that your wires are kept out of pinch points** where another "
+"mechanism could sandwich the wire. This is especially important in arms or "
+"mechanisms that are hinged."
+msgstr ""
+"**Asigură-te că firele sunt ținute departe de punctele de ciupire**, unde un"
+" alt mecanism ar putea duce firul în contact. Acest lucru este deosebit de "
+"important în cazul brațelor sau al mecanismelor care sunt articulate."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:40
+msgid "An example of poor wiring"
+msgstr "Un exemplu de cablare slabă"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:40
+msgid "Bad example of wiring!"
+msgstr "Exemplu prost de cablare!"
