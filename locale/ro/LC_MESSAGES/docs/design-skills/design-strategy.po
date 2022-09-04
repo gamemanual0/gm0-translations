@@ -5,18 +5,286 @@
 # 
 # Translators:
 # Bianca Carstea, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-02 05:25+0000\n"
+"POT-Creation-Date: 2022-09-04 05:00+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Bianca Carstea, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:2
+msgid "Design Strategy"
+msgstr "Strategia de design"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:4
+msgid ""
+"A useful resource is the championship conference presentation from Karthik "
+"Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame "
+"team FRC 1114, Simbotics, on effective design and competition strategies: "
+"`Effective FIRST Strategies. <https://www.youtube.com/watch?v=5fifL47TvzE>`_"
+" See also the `slideshow from the presentation "
+"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
+msgstr ""
+"O resursă utilă este prezentarea de la conferința de campionat a lui Karthik"
+" Kanagasabapathy, fostul mentor principal (și actualul consilier) al echipei"
+" Hall of Fame FRC 1114, Simbotics, privind strategiile eficiente de "
+"proiectare și competiție: `Effective FIRST Strategies. "
+"<https://www.youtube.com/watch?v=5fifL47TvzE>`_ Vedeți, de asemenea, "
+"`slideshow-ul din prezentare "
+"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:7
+msgid "General Design Tips and Mistakes"
+msgstr "Sfaturi și Greșeli Generale de Proiectare"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:9
+msgid ""
+"Here are some good tips for teams to make decisions in the high-level design"
+" and strategic planning stages."
+msgstr ""
+"Iată câteva sfaturi bune pentru ca echipele să ia decizii în etapele de "
+"proiectare la nivel înalt și de planificare strategică."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:12
+msgid "Problem"
+msgstr "Problemă"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:12
+msgid "Solution"
+msgstr "Soluție"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+msgid "**Do everything at once**"
+msgstr "**Faceți totul deodată**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+msgid "Robot becomes half-baked"
+msgstr "Robotul devine pe jumătate pregătit"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:17
+msgid "Cannot excel in one area"
+msgstr "Nu poate excela într-un singur domeniu"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+msgid "**Perfect one objective first**"
+msgstr "**Perfecționează mai întâi un obiectiv**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+msgid "Robot is highly optimized"
+msgstr "Robotul este foarte optimizat"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:17
+msgid "Consistently excels in one area"
+msgstr "Excelează în mod constant într-un singur domeniu"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+msgid "**Overcomplicate**"
+msgstr "**Excesiv de complicat**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+msgid "More time needed to iterate"
+msgstr "Este nevoie de mai mult timp pentru a repeta"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:22
+msgid "Less reliable"
+msgstr "Mai puțin fiabile"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+msgid "**Simplify**"
+msgstr "**Simplificați*"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+msgid "Best designs are usually simplest"
+msgstr "Cele mai bune modele sunt de obicei cele mai simple"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:22
+msgid "Less moving parts"
+msgstr "Mai puține piese în mișcare"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+msgid "**Score-first design**"
+msgstr "**Designul de tip primul punctaj**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+msgid "Neglect proper principles"
+msgstr "Neglijarea principiilor corecte"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:27
+msgid "Often wildly inconsistent"
+msgstr "Adesea extrem de inconsecventă"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+msgid "**Design for consistency**"
+msgstr "**Design pentru consistență**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+msgid "Usually reliability > scoring ability"
+msgstr "De obicei, fiabilitatea > capacitatea de notare"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:27
+msgid "Great plus for alliance selection"
+msgstr "Un mare plus pentru selecția de alianțe"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+msgid "**Build haphazardly**"
+msgstr "**Construiește la întâmplare**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+msgid "Build with subpar materials"
+msgstr "Construiți cu materiale inferioare"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:32
+msgid "Inadequate support structure"
+msgstr "Structură de sprijin inadecvată"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+msgid "**Build for reliability**"
+msgstr "**Construiți pentru fiabilitate**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+msgid "Remove unneeded moving parts"
+msgstr "Îndepărtați piesele mobile inutile"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:32
+msgid "Eliminate single points of failure"
+msgstr "Eliminarea punctelor unice de eșec"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+msgid "**Fret about design**"
+msgstr "**Sunt îngrijorat de design**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+msgid "Wastes testing time"
+msgstr "Pierde timp de testare"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:37
+msgid "Design alone is not enough"
+msgstr "Doar designul nu este suficient"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+msgid "**Focus on execution**"
+msgstr "**Concentrați-vă pe execuție**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+msgid "Make a decision, then stick to it"
+msgstr "Luați o decizie, apoi respectați-o"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:37
+msgid "Execution often beats design"
+msgstr "Execuția învinge adesea designul"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:41
+msgid "Doing Everything At Once to → Perfecting One Objective First"
+msgstr ""
+"De la a face totul deodată la → Perfecționarea unui obiectiv mai întâi"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:43
+msgid "**Consistency is king.**"
+msgstr "**Consistența este rege.**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:45
+msgid ""
+"A common pitfall for first year teams is trying to accomplish all the game "
+"objectives at once, especially in tele-op and endgame."
+msgstr ""
+"O capcană obișnuită pentru echipele aflate în primul an este încercarea de a"
+" îndeplini toate obiectivele jocului deodată, în special în teleop și "
+"endgame."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:47
+msgid ""
+"**This is highly discouraged** because oftentimes new teams do not have the "
+"experience to do so. It is no small achievement to have a consistent robot "
+"that completes all objectives in competition, even at the higher levels."
+msgstr ""
+"**Acest lucru este foarte descurajat** deoarece, de multe ori, echipele noi "
+"nu au experiența necesară pentru a face acest lucru. Nu este o realizare "
+"mică să ai un robot consistent care să îndeplinească toate obiectivele în "
+"competiție, chiar și la nivelurile superioare."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:49
+msgid ""
+"Too often, we see teams bring half-baked robots that will attempt to do "
+"everything in a match, but excel at nothing. Even if they succeed, it is "
+"often by thin margins and cannot be repeated. This robot could be much more "
+"successful if the team spent their time to perfect one mechanism first."
+msgstr ""
+"De prea multe ori, vedem echipe care aduc roboți pe jumătate pregătiți, care"
+" vor încerca să facă totul într-un meci, dar nu excelează la nimic. Chiar "
+"dacă reușesc, deseori reușesc cu o marjă mică și nu pot fi repetate. Acest "
+"robot ar putea avea mult mai mult succes dacă echipa și-ar petrece timpul "
+"pentru a perfecționa mai întâi un mecanism."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:51
+msgid ""
+"Teams should always remember the principle that a robot that can complete "
+"one thing consistently will likely be more competitive than the robot that "
+"does everything inconsistently. We recommend teams focus on one objective "
+"during tele-op/endgame and perfect it."
+msgstr ""
+"Echipele ar trebui să își amintească întotdeauna principiul conform căruia "
+"un robot care poate realiza un singur lucru în mod constant va fi probabil "
+"mai competitiv decât un robot care face totul în mod inconsecvent. "
+"Recomandăm echipelor să se concentreze asupra unui singur obiectiv în timpul"
+" teleop/endgame-ului și să îl perfecționeze."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:53
+msgid ""
+"Typically, teams which have a solid autonomous and consistent endgame can be"
+" competitive at the Qualifier level. This is a recommended goal for new "
+"teams."
+msgstr ""
+"De obicei, echipele care au o echipă autonomie solidă și un endgame "
+"consistent pot fi competitive la nivelul calificărilor. Acesta este un "
+"obiectiv recomandat pentru echipele noi."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:56
+msgid "Overcomplex → Simple"
+msgstr "Supracomplex → Simplu"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:58
+msgid ""
+"Another common trap that teams fall into is to overcomplicate needlessly. "
+"Simplifying your robot simplifies possible headaches later."
+msgstr ""
+"O altă capcană frecventă în care cad echipele este aceea de a complica "
+"inutil. Simplificarea robotului simplifică posibilele dureri de cap "
+"ulterioare."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:60
+msgid ""
+"While some robots are very complicated, keep in mind that those teams are "
+"generally experienced, have some sort of machining capability, and fully "
+"design their robot in CAD. However, many world-class teams often build "
+"designs that are ingenious yet ridiculously simple."
+msgstr ""
+"În timp ce unii roboți sunt foarte complicați, rețineți că echipele "
+"respective au, în general, experiență, au un fel de capacitate de prelucrare"
+" și își proiectează complet robotul în CAD. Cu toate acestea, multe echipe "
+"de talie mondială construiesc adesea proiecte ingenioase, dar ridicol de "
+"simple."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:62
+msgid ""
+"Some advantages to simplicity are that the robot has less points of failure,"
+" given that the robot has less moving parts. Additionally, it takes much "
+"less time to iterate through and perfect a simple mechanism as opposed to a "
+"complicated one. The reasoning is that a complicated system has many more "
+"variables that need to be adjusted/could cause problems."
+msgstr ""
+"Unele avantaje ale simplității sunt că robotul are mai puține puncte de "
+"defecțiune, având în vedere că are mai puține piese mobile. În plus, este "
+"nevoie de mult mai puțin timp pentru a repeta și perfecționa un mecanism "
+"simplu, spre deosebire de unul complicat. Raționamentul este că un sistem "
+"complicat are mult mai multe variabile care trebuie ajustate/pot cauza "
+"probleme."
