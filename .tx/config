@@ -32,6 +32,36 @@ source_file  = locale/pot/docs/appendix/vendor-list.pot
 type         = PO
 minimum_perc = 0
 
+[o:gamemanual0:p:gm0:r:docs--awards--award-types]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/award-types.po
+source_file  = locale/pot/docs/awards/award-types.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--awards--index]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/index.po
+source_file  = locale/pot/docs/awards/index.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--awards--judging-presentation]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/judging-presentation.po
+source_file  = locale/pot/docs/awards/judging-presentation.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--awards--notebook]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/notebook.po
+source_file  = locale/pot/docs/awards/notebook.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--awards--portfolio]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/portfolio.po
+source_file  = locale/pot/docs/awards/portfolio.pot
+type         = PO
+minimum_perc = 0
+
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--active-intake--index]
 file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/index.po
 source_file  = locale/pot/docs/common-mechanisms/active-intake/index.pot
