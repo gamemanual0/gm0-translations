@@ -5,18 +5,98 @@
 # 
 # Translators:
 # Bianca Carstea, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-09 05:11+0000\n"
+"POT-Creation-Date: 2022-09-17 04:59+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Bianca Carstea, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:4
+msgid "Rigging"
+msgstr "Ancorare"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:6
+msgid ""
+"Rigging refers to the way that string, belt, or chain is set up to extend "
+"and retract a linear extension. This is an important and time-consuming "
+"requirement for any team that uses linear extension, so be sure to spend "
+"adequate time on it."
+msgstr ""
+"Prin \"ancorare\" se înțelege modul în care o sfoară, o curea sau un lanț "
+"este configurat pentru a extinde și retrage o extensie liniară. Aceasta este"
+" o cerință importantă și consumatoare de timp pentru orice echipă care "
+"utilizează extensia liniară, așa că asigurați-vă că îi acordați timpul "
+"necesar."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:12
+msgid "The rigging for 7236's elevator in Rover Ruckus"
+msgstr "Ancorarea pentru liftul echipei 7236 în Rover Ruckus."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:12
+msgid ""
+"Example rigging setup from team 7236 Recharged Green. This setup utilizes a "
+"continuous stringing setup for the first stage and a cascaded belt-driven "
+"second stage."
+msgstr ""
+"Exemplu de ancorare al sistemului de la echipa 7236 Recharged Green. Această"
+" configurație utilizează un sistem de sfori continue pentru prima etapă și o"
+" a doua etapă acționată de o curea în cascadă."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:17
+msgid "General Rigging Tips"
+msgstr "Sfaturi Generare de Ancorare"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:19
+msgid ""
+"Rig your extension string when the extension is retracted, and your retract "
+"string when the extension is at maximum extension"
+msgstr ""
+"Montați coarda de extensie atunci când extensia este retrasă, iar coarda de "
+"retragere atunci când extensia este la extensie maximă."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:20
+msgid ""
+"Clamping a string with a bolt instead of tying it around something makes it "
+"much easier to quickly change the tension of a string"
+msgstr ""
+"Prinderea unei sfori cu un șurub în loc de legarea ei în jurul a ceva face "
+"mult mai ușoară schimbarea rapidă a tensiunii unei sfori."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:21
+msgid ""
+"If tying an abrasive material string, like kevlar, around a plastic part, "
+"you can tie the string around a washer to distribute the loads across the "
+"hole in the pulley instead of tying it directly into a hole in the pulley"
+msgstr ""
+"Dacă legați o sfoară din material abraziv, cum ar fi kevlarul, în jurul unei"
+" piese din plastic, puteți lega sfoara în jurul unei șaibe pentru a "
+"distribui sarcinile pe gaura din scripete, în loc să o legați direct într-o "
+"gaură din scripete."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:22
+msgid ""
+"Its generally easier to start from the side with the pulley and go to the "
+"end of the slides then the other way around"
+msgstr ""
+"În general, este mai ușor să începeți din partea cu scripetele și să mergeți"
+" la capătul glisierelor decât invers."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:25
+msgid "Continuous Rigging"
+msgstr "Ancorare continuuă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:27
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:58
+msgid "**Generally recommended**"
+msgstr "**Recomandat în general**"
