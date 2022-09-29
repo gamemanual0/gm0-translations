@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 05:26+0000\n"
+"POT-Creation-Date: 2022-09-29 16:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Soft Hoarders, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -170,6 +170,41 @@ msgstr ""
 msgid "Advantages"
 msgstr "Avantaje"
 
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:40
+msgid ""
+"Actobotics has the patented :term:`Servoblocks`, which help drastically "
+"increase servo life by protecting it from shock loads. More information may "
+"be found in the glossary."
+msgstr ""
+"Actobotics a patentat :termen:`Servoblocks`, lucru care ajută la creșterea "
+"drastică a duratei de viață a servo motorului prin protejarea acestuia de "
+"șocuri. Mai multe informații pot fi găsite în glosar."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:41
+msgid ""
+"Actobotics is easily compatible with other build systems such as REV’s kit "
+"using adapters which can be found on the Servocity website."
+msgstr ""
+"Actobotics este ușor compatibil cu alte sisteme de construcție, cum ar fi "
+"kitul REV, folosind adaptoare care pot fi găsite pe site-ul Servocity."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:42
+msgid ""
+"Actobotics is more sturdy than TETRIX in terms of drivetrain flex and has "
+"more support options to prevent structural bending."
+msgstr ""
+"Actobotics este mai robust decât TETRIX în ceea ce privește flexibilitatea "
+"sistemului de mers și are mai multe opțiuni de susținere pentru a preveni "
+"îndoirea structurală."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:45
+msgid ""
+"Actobotics also allows for :term:`face mounting <Face Mounting>` of motors "
+"as opposed to :term:`clamp mounting <Clamp Mounting>`."
+msgstr ""
+"Actobotics permite, de asemenea, :term:`montarea frontală <Face Mounting>` a"
+" motoarelor, spre deosebire de :term:`montarea cu clemă <Clamp Mounting>`."
+
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:48
 msgid "Disadvantages"
 msgstr "Dezavantaje"
@@ -184,3 +219,60 @@ msgstr ""
 "pentru unele echipe cu un buget redus. Luați în considerare că, folosind "
 "reducerea de 25% pentru echipele FTC, Actobotics poate fi mai ieftin decât "
 "TETRIX. Singurul sistem de construcție mai ieftin este REV."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:52
+msgid ""
+":term:`Channel` takes up more space than :term:`extrusion <Extrusion>`, so "
+"mechanisms can be a bit larger with the Actobotics kit. To remediate this "
+"issue, ServoCity sells :term:`mini-channel <Channel>` which is a similar "
+"size as :term:`extrusion <Extrusion>`."
+msgstr ""
+"  \n"
+":term:`Channel` ocupă mai mult spațiu decât :term:`extrusion <Extrusion>`, astfel încât mecanismele pot fi puțin mai mari cu kitul Actobotics. Pentru a remedia această problemă, ServoCity vinde :term:`mini-channel <Channel>` care are o dimensiune similară cu :term:`extrusion <Extrusion>`.\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" \n"
+" \n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:57
+msgid "8644 Brainstormers' Relic Recovery robot"
+msgstr "Robotul echipei 8644 Brainstormers din Relic Recovery"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:57
+msgid ""
+"An example of a successful Actobotics based robot, 8644 Brainstormers: 2018 "
+"Winning Alliance Captain (Detroit), Relic Recovery"
+msgstr ""
+"Un exemplu de robot de succes bazat pe Actobotics este 8644 Brainstormers, "
+"câștigător al 2018 Winning Alliance Captain (Detroit), Relic Recovery"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:62
+msgid "9971 LanBros' Rover Ruckus robot"
+msgstr "Robotul echipei 9971 LanBros din Rover Ruckus"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:62
+msgid ""
+"Another successful Actobotics based robot, 9971 LanBros: 2019 Winning "
+"Alliance Captain (Detroit), Rover Ruckus"
+msgstr ""
+"Un alt robot de succes bazat pe Actobotics este 9971 LanBros, câștigător al "
+"premiului 2019 Winning Alliance Captain (Detroit), Rover Ruckus"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:67
+msgid "9794 Wizards.exe's Rover Ruckus robot"
+msgstr "Robotul 9794 Wizards.exe's Rover Ruckus "
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:67
+msgid ""
+"9794 Wizards.exe used both Actobotics and REV :term:`extrusion <Extrusion>` "
+"to build their Rover Ruckus robot"
+msgstr ""
+"9794 Wizards.exe a folosit atât Actobotics cât și REV pentru a construi "
+"robotul din sezonul Rover Ruckus."
