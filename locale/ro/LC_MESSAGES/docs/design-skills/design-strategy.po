@@ -6,15 +6,16 @@
 # Translators:
 # Bianca Carstea, 2022
 # Mihail Cimpoiasu, 2022
+# Soft Hoarders, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-04 05:00+0000\n"
+"POT-Creation-Date: 2022-10-05 16:43+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Mihail Cimpoiasu, 2022\n"
+"Last-Translator: Soft Hoarders, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -288,3 +289,243 @@ msgstr ""
 "simplu, spre deosebire de unul complicat. Raționamentul este că un sistem "
 "complicat are mult mai multe variabile care trebuie ajustate/pot cauza "
 "probleme."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:64
+msgid ""
+"Keeping things simple can be practically achieved through a couple of ways."
+msgstr ""
+"Păstrarea lucrurilor simple poate fi realizată în practică în câteva moduri."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:66
+msgid ""
+"Limit the degrees of motion that the mechanism operates in. For example, a "
+"linear slide goes in and out in a straight line, as opposed to an arm, which"
+" rotates along an axis. Doing so will serve to eliminate forces that "
+"otherwise could adversely affect the mechanism."
+msgstr ""
+"Limitați gradele de mișcare în care funcționează mecanismul. De exemplu, o "
+"glisieră intră și iese în linie dreaptă, spre deosebire de un braț, care se "
+"rotește de-a lungul unei axe. Acest lucru va servi la eliminarea forțelor "
+"care altfel ar putea afecta negativ mecanismul."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:68
+msgid ""
+"Another way to simplify is to build for the shortest travel distance. "
+"Obviously, the shortest distance from A to B is in a straight line, so teams"
+" should strive to keep the game elements approximately within a reasonably "
+"straight line. This can help in solving possible problems if the game "
+"elements need to change direction too many times."
+msgstr ""
+"Un alt mod de a simplifica este de a construi pentru cea mai scurtă distanță"
+" de deplasare. Evident, cea mai scurtă distanță de la A la B este în linie "
+"dreaptă, astfel încât echipele ar trebui să se străduiască să mențină "
+"elementele de joc într-o linie aproximativ dreaptă. Acest lucru poate ajuta "
+"la rezolvarea eventualelor probleme în cazul în care elementele de joc "
+"trebuie să schimbe traiectoria de prea multe ori."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:71
+msgid "Score-first Designing → Designing for Consistency"
+msgstr "Proiectarea bazată pe punctaj → Proiectarea pentru consistență"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:73
+msgid "Teams should prioritize consistency over scoring ability."
+msgstr ""
+"Echipele ar trebui să prioritizeze consecvența în detrimentul capacității de"
+" a marca."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:75
+msgid ""
+"The tortoise beats the rabbit. An overused parable, but it still holds a "
+"kernel of truth. Why? Because the tortoise, which plodded along "
+"consistently, beat the rabbit, which had hot and cold streaks."
+msgstr ""
+"Broasca țestoasă îl bate pe iepure. O parabolă prea des folosită, dar care "
+"conține totuși un sâmbure de adevăr. De ce? Pentru că broasca țestoasă, care"
+" a înaintat constant, l-a învins pe iepure, care avea perioade calde și "
+"reci."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:77
+msgid ""
+"A hallmark of any successful team is consistency and reliability throughout "
+"the competition season and even across seasons. Sports dynasties are "
+"dynasties for the reason that they compete at a high level not for a couple "
+"games, but for multiple seasons. Without the power of consistency, it will "
+"be nearly impossible to win games, let alone a tournament."
+msgstr ""
+"Un semn distinctiv al oricărei echipe de succes constă în consecvența și "
+"fiabilitatea de care dau dovadă, atât pe parcursul sezonului competițional, "
+"cât și de-a lungul mai multor sezoane. Dinastiile sportive sunt dinastii "
+"pentru că ele concurează la un nivel înalt nu pentru câteva meciuri, ci "
+"pentru mai multe sezoane. Fără puterea consecvenței, va fi aproape imposibil"
+" să câștigi meciuri, ca să nu mai vorbim de un turneu."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:79
+msgid ""
+"Too many teams fall into the pit of prioritizing scoring ability more than "
+"anything else, which is a grave error. In keeping with the first tip, to "
+"perfect one objective first, this practice will serve to increase "
+"consistency."
+msgstr ""
+"Prea multe echipe cad în capcana de a prioritiza capacitatea de a marca mai "
+"mult decât orice altceva, ceea ce reprezintă o eroare gravă. În conformitate"
+" cu primul sfat, de a perfecționa mai întâi un obiectiv, această practică va"
+" servi la creșterea consecvenței."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:81
+msgid ""
+"While scoring ability should be a priority and objective when designing "
+"mechanisms, it is not everything in this game. We advise being consistent at"
+" low and medium scoring levels than inconsistently scoring at a high level."
+msgstr ""
+"Deși capacitatea de a înscrie puncte ar trebui să fie o prioritate și un "
+"obiectiv atunci când se proiectează mecanismele, aceasta nu este totul în "
+"acest joc. Vă sfătuim să fiți consecvenți la niveluri de scoruri mici și "
+"medii decât să fiți inconsecvenți la un nivel înalt."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:83
+msgid ""
+"Focus on being able to do that one thing every single time throughout your "
+"matches, and you will begin to see how important consistency is. **This tip "
+"is equally as important during alliance selections. Top teams will "
+"prioritize teams that are consistent far more than scoring ability.** They "
+"are not afraid to look at teams who can’t score much, but can contribute "
+"every time to the alliance score, rather than selecting a boom-or-bust pick."
+msgstr ""
+"Concentrează-te pe capacitatea de a face acel lucru de fiecare dată în "
+"timpul meciurilor tale și vei începe să vezi cât de importantă este "
+"consecvența. **Acest sfat este la fel de important și în timpul selecțiilor "
+"de alianțe. Echipele de top vor prioritiza echipele care sunt consecvente "
+"mult mai mult decât cele care au capacitatea de a puncta.** Nu se tem să se "
+"uite la echipele care nu pot puncta mult, dar care pot contribuie de fiecare"
+" dată la scorul alianței, mai degrabă decât să selecteze o alegere de tip "
+"\"boom-or-bust\"."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:86
+msgid "Building haphazardly → Building for reliability"
+msgstr "Construirea la întâmplare → Construirea pentru fiabilitate"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:88
+msgid ""
+"Build for the worst case scenario, not the best case scenario. When "
+"building, teams often overlook a key principle: build for reliability. All "
+"too often, teams skimp on the quality of construction as well as materials, "
+"which leads to one of the most common reasons for unsuccessful tournaments: "
+"part failure."
+msgstr ""
+"Construiți pentru cel mai rău scenariu, nu pentru cel mai bun scenariu. "
+"Atunci când construiesc, echipele trec adesea cu vederea un principiu cheie:"
+" construiți pentru fiabilitate. Mult prea des, echipele se zgârcesc la "
+"calitatea construcției, precum și la cea a materialelor, ceea ce duce la "
+"unul dintre cele mai frecvente motive pentru turneele nereușite: defectarea "
+"pieselor."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:90
+msgid ""
+"Teams also do not take into account the rigors of competition and build as "
+"if the robot will not encounter opposing robots. Sufficient driver practice "
+"will be able to better simulate in-game conditions and test the reliability "
+"of the robot. To remedy this problem, refer to the :doc:`Materials Guide "
+"</docs/custom-manufacturing/materials-guide>` to gain a better understanding"
+" of what materials are recommended for use."
+msgstr ""
+"De asemenea, echipele nu iau în considerare rigorile competiției și "
+"construiesc ca și cum robotul nu va întâlni roboți adversari. Antrenamentul "
+"suficient al piloților va putea să simuleze mai bine condițiile din timpul "
+"jocului și să testeze fiabilitatea robotului. Pentru a remedia această "
+"problemă, consultați :doc:`Materials Guide </docs/custom-"
+"manufacturing/materials-guide>` pentru a înțelege mai bine ce materiale se "
+"recomandă a fi utilizate."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:111
+msgid ""
+"It is important to discuss different designs and debate the pros & cons, but"
+" after a design has been picked, stay with it unless there are major flaws "
+"that were originally overlooked. Changing designs will throw away the time "
+"spent on the original design, when teams could have kept improving it or "
+"practiced more. It is possible to rebuild your robot mid-season, and many "
+"top teams have done so to great success."
+msgstr ""
+"Este important să discutați despre diferite modele și să dezbateți "
+"avantajele și dezavantajele, dar după ce ați ales un model, rămâneți cu el, "
+"cu excepția cazului în care există defecte majore care au fost trecute cu "
+"vederea inițial. Schimbarea modelelor va arunca pe apa sâmbetei timpul "
+"petrecut pe modelul inițial, când echipele ar fi putut continua să îl "
+"îmbunătățească sau să exerseze mai mult. Este posibil să vă reconstruiți "
+"robotul la jumătatea sezonului și multe echipe de top au făcut acest lucru "
+"cu mare succes."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:113
+msgid ""
+"However, this is not recommended for rookie and new teams due to the general"
+" lack of experience. Realistically, expect to spend 50-100+ hours to rebuild"
+" a robot from the ground up. Focus on how you can iterate your current "
+"design to be as effective, efficient, and refined as possible."
+msgstr ""
+"Cu toate acestea, nu este recomandat pentru echipele începătoare și noi, din"
+" cauza lipsei generale de experiență. În mod realist, așteptați-vă să "
+"petreceți 50-100+ ore pentru a reconstrui un robot de la zero. Concentrează-"
+"te pe modul în care poți repeta designul tău actual pentru a fi cât mai "
+"eficient, eficace și rafinat posibil."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:116
+msgid "Competition Tips and Mistakes"
+msgstr "Sfaturi și greșeli în materie de concurență"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:118
+msgid ""
+"Here are some good tips for teams to make decisions in the execution stage."
+msgstr ""
+"Iată câteva sfaturi bune pentru ca echipele să ia decizii în etapa de "
+"execuție."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:121
+msgid "**Problem**"
+msgstr "**Problemă**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:121
+msgid "**Solution**"
+msgstr "**Soluție**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+msgid "**Neglect drive practice**"
+msgstr "**Practică de conducere neglijentă**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+msgid "Drivers unfamiliar with robot"
+msgstr "Driverii care nu sunt familiarizați cu robotul"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:126
+msgid "Robot reliability untested"
+msgstr "Fiabilitatea robotului nu a fost testată"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+msgid "**Constant driver training**"
+msgstr "**Antrenament constant al driverilor**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+msgid "Drivers comfortable with controls"
+msgstr "Driverii se simt confortabil cu comenzile"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:126
+msgid "Proven and tested robot"
+msgstr "Robot dovedit și testat"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+msgid "**No game strategy**"
+msgstr "**Nicio strategie de joc**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+msgid "Lack of contingency plans"
+msgstr "Lipsa planurilor de urgență"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:144
+msgid ""
+"No matter how good your robot is, the robot is only 50% of the equation. The"
+" driver(s) are the other 50% which determine the success of the team as a "
+"whole. Even if your robot is the best in the world, an inferior robot with a"
+" competent drive team more than likely will beat your robot with a poor "
+"drive team. By April's world championships, most top teams have run hundreds"
+" of practice matches."
+msgstr ""
+"Indiferent cât de bun este robotul tău, acesta reprezintă doar 50% din ecuație. Pilotul(Piloții) reprezintă cealaltă\n"
+"jumătate, care determină succesul echipei în ansamblu. Chiar dacă robotul dvs. este cel mai bun din lume, un robot inferior cu o echipă de piloți competentă va învinge, mai mult ca sigur, robotul dvs. cu o echipă de piloți slabă. Până la campionatele mondiale din aprilie, majoritatea echipelor de top au efectuat sute de meciuri de antrenament."
