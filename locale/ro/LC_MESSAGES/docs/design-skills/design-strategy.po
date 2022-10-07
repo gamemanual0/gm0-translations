@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-05 16:43+0000\n"
+"POT-Creation-Date: 2022-10-07 16:25+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Soft Hoarders, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -436,6 +436,103 @@ msgstr ""
 "manufacturing/materials-guide>` pentru a înțelege mai bine ce materiale se "
 "recomandă a fi utilizate."
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:92
+msgid ""
+"If possible, teams should build with redundancy in mind. For example, if one"
+" set of linear slides fails due to a wire snapping, having a second set will"
+" still allow the robot to operate instead of sitting dead in the water. "
+"Practically, doubling mechanisms, motors, and servos is a common method to "
+"build for redundancy."
+msgstr ""
+"Dacă este posibil, echipele ar trebui să construiască cu gândul la "
+"redundanță. De exemplu, dacă un set de glisiere liniare se defectează din "
+"cauza ruperii unui cablu, existența unui al doilea set va permite robotului "
+"să funcționeze în loc să nu mai poată funcționa. Practic, dublarea "
+"mecanismelor, a motoarelor și a servomotoarelor este o metodă obișnuită de a"
+" construi pentru redundanță."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:94
+msgid ""
+"In addition, teams often forget to account for twisting or compression "
+"forces that may occur upon the mechanism."
+msgstr ""
+"În plus, echipele uită adesea să ia în considerare forțele de torsiune sau "
+"de compresie care pot apărea asupra mecanismului."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:96
+msgid ""
+"While we cannot give any specific recommendations, do keep in mind what "
+"forces the support structure of your mechanism must bear along the full "
+"range of motion, and account for what occurs when it might hit another "
+"robot/field wall/field. Building more robustly is always worth the time "
+"spent. However, it is good to think about the extra weight that results."
+msgstr ""
+"Deși nu putem oferi recomandări specifice, țineți cont de forțele pe care "
+"trebuie să le suporte structura de susținere a mecanismului dvs. de-a lungul"
+" întregului interval de mișcare și luați în considerare ceea ce se întâmplă "
+"atunci când acesta ar putea lovi un alt robot/perete/teren. Construirea mai "
+"solidă merită tot timpul alocat acesteia. Cu toate acestea, este bine să vă "
+"gândiți la greutatea suplimentară care rezultă."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:98
+msgid ""
+"Furthermore, a common cause of robot disconnect is wiring issues. Refer to "
+"the :doc:`Wiring section </docs/power-and-electronics/wiring>` for more "
+"information; in short, make sure to plan ahead and leave space for wires, "
+"and use strain relief whenever possible."
+msgstr ""
+"În plus, o cauză frecventă a deconectării robotului este reprezentată de "
+"problemele de cablare. Consultați secțiunea :doc:`Wiring "
+"section</docs/power-and-electronics/wiring>` pentru mai multe informații; pe"
+" scurt, asigurați-vă că planificați din timp și lăsați spațiu pentru cabluri"
+" și folosiți o descărcare de tensiune ori de câte ori este posibil."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:100
+msgid ""
+"All these tips combined will help your robot become more reliable, a key "
+"characteristic of all world-level robots."
+msgstr ""
+"Toate aceste sfaturi combinate vor ajuta robotul dumneavoastră să devină mai"
+" fiabil, o caracteristică cheie a tuturor roboților de nivel mondial."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:103
+msgid "Fretting about Design → Focusing on Execution"
+msgstr "Frământări legate de design → Concentrarea pe execuție"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:105
+msgid ""
+"A good execution of a bad design will beat a bad execution of good design."
+msgstr ""
+"O execuție bună a unui proiect prost va învinge o execuție proastă a unui "
+"proiect bun."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:107
+msgid ""
+"FTC is all about how well you execute in both the mechanical aspect and the "
+"driver aspect. If your goal is winning, then how mechanically beautiful your"
+" robot is doesn't matter. Your goal is less of impressing the judges but "
+"performing the best you possibly can on the field."
+msgstr ""
+"FTC se bazează pe modul în care execuți, atât aspectul mecanic, cât și pe "
+"cel al driving-ului. Dacă obiectivul tău este să câștigi, atunci nu contează"
+" cât de frumos este robotul tău din punct de vedere mecanic. Scopul tău este"
+" mai puțin de a impresiona judecătorii, ci de a performa cât mai bine pe "
+"teren."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:109
+msgid ""
+"It is very possible to take a bad design, execute it well, and still be "
+"competitive at a high level. Even though not many teams are able to do so, "
+"it still goes to show that the method of implementation is very important. "
+"When brainstorming designs, try not to get hung up on small details if "
+"possible."
+msgstr ""
+"Este foarte posibil să adopți un design prost, să îl execuți bine și să fii "
+"totuși competitiv la un nivel înalt. Chiar dacă nu multe echipe reușesc să "
+"facă acest lucru, acest lucru demonstrează că metoda de implementare este "
+"foarte importantă. Atunci când faceți brainstorming cu privire la proiecte, "
+"încercați să nu vă blocați pe cât posibil pe detalii mici."
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:111
 msgid ""
 "It is important to discuss different designs and debate the pros & cons, but"
@@ -517,6 +614,57 @@ msgstr "**Nicio strategie de joc**"
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:130
 msgid "Lack of contingency plans"
 msgstr "Lipsa planurilor de urgență"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:131
+msgid "Weakens alliance strength"
+msgstr "Slăbește puterea alianței"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+msgid "**Strategical driving**"
+msgstr "**Conducere strategică**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+msgid "Only purposeful actions taken"
+msgstr "Numai acțiunile întreprinse în mod intenționat"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:131
+msgid "Efficient and effective driving"
+msgstr "Conducerea eficientă și eficace"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+msgid "Less efficient"
+msgstr "Mai puțin eficient"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:136
+msgid "Requires more practice"
+msgstr "Necesită mai multă practică"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+msgid "**Partially automated tasks**"
+msgstr "** Sarcini parțial automatizate**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+msgid "Relieves stress on driver"
+msgstr "Reduce stresul asupra driver-ului"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:136
+msgid "Removes human error"
+msgstr "Elimină eroarea umană"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:140
+msgid "Neglecting driver practice → Constant driver training"
+msgstr ""
+"Neglijarea antrenamentului driverilor → Instruirea constantă a driverilor"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:142
+msgid ""
+"A persistent problem with new teams is neglecting driver practice. Drive "
+"practice is to be done throughout the season, **not the week before "
+"competition.**"
+msgstr ""
+"O problemă persistentă a echipelor noi este neglijarea antrenamentelor "
+"driverilor. Antrenamentele trebuie făcute pe parcursul sezonului, **nu în "
+"săptămâna dinaintea competiției.**"
 
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:144
 msgid ""
