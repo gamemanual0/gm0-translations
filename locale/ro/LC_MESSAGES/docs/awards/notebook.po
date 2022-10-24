@@ -5,18 +5,592 @@
 # 
 # Translators:
 # Bianca Carstea, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 05:20+0000\n"
+"POT-Creation-Date: 2022-10-24 16:28+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: Bianca Carstea, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/awards/notebook.rst:2
+msgid "Notebook Designs and Decisions"
+msgstr "Modele și decizii pentru caiet"
+
+#: ../../gm0/source/docs/awards/notebook.rst:4
+msgid ""
+"This section will cover both what needs to be in the notebook and the "
+"decisions you need to make about it affecting both individual sections and "
+"it as a whole."
+msgstr ""
+"Această secțiune se va referi atât la ceea ce trebuie să conțină caietul, "
+"cât și la deciziile pe care trebuie să le luați cu privire la acesta, care "
+"afectează atât secțiunile individuale, cât și caietul în ansamblu."
+
+#: ../../gm0/source/docs/awards/notebook.rst:6
+msgid ""
+"The engineering notebook is completely OPTIONAL. Having a notebook is NOT a "
+"requirement for any award. However, judges can technically still ask for the"
+" notebook for more information, so some teams still choose to make one. "
+"**This article remains here for legacy reasons for teams that wish to make "
+"engineering notebooks, even though it is completely optional and not "
+"required for teams to still have a shot at awards**. There have been several"
+" instances of teams winning high level awards like Inspire and Think while "
+"having no engineering notebook."
+msgstr ""
+"Caietul tehnic este complet OPȚIONAL. Existența unui caiet NU este o cerință"
+" pentru niciun premiu. Cu toate acestea, din punct de vedere tehnic, juriul "
+"poate solicita în continuare caietul pentru mai multe informații, așa că "
+"unele echipe aleg totuși să facă unul. **Acest articol rămâne aici din "
+"motive de moștenire pentru echipele care doresc să realizeze caiete tehnice,"
+" chiar dacă este complet opțional și nu este obligatoriu pentru ca echipele "
+"să aibă totuși o șansă la premii**. Au existat mai multe cazuri de echipe "
+"care au câștigat premii de nivel înalt, cum ar fi Inspire și Think, deși nu "
+"aveau niciun caiet tehnic."
+
+#: ../../gm0/source/docs/awards/notebook.rst:9
+msgid "Whole Notebook Decisions"
+msgstr "Decizii pentru întregul caiet"
+
+#: ../../gm0/source/docs/awards/notebook.rst:12
+msgid "Condensed vs Long"
+msgstr "Condensat vs Lung"
+
+#: ../../gm0/source/docs/awards/notebook.rst:14
+msgid ""
+"A trap many teams fall into is that a longer notebook is a better notebook, "
+"especially if it's actually quality writing. Unfortunately, that is not "
+"necessarily true."
+msgstr ""
+"O capcană în care cad multe echipe este aceea că un caiet mai lung este un "
+"caiet mai bun, mai ales dacă este vorba de un scris de calitate. Din păcate,"
+" acest lucru nu este neapărat adevărat."
+
+#: ../../gm0/source/docs/awards/notebook.rst:16
+msgid ""
+"At a lot of competitions, especially with the notebook being completely "
+"optional, judges don't have a lot of time to read your notebooks. They will "
+"likely take a cursory scan at a few pages and take a more detailed look at "
+"certain pages. Thus, even if you do write a great but long notebook, they "
+"might miss the highlights and rank you lower than you should have. The "
+"solution to this is to create a condensed notebook."
+msgstr ""
+"La multe concursuri, mai ales caietul fiind complet optional, arbitrii nu au"
+" prea mult timp să-ți citească caietul. Probabil că vor efectua o scanare "
+"superficială la câteva pagini și vor arunca o privire mai detaliată asupra "
+"anumitor pagini. Astfel, chiar dacă scrieți un caiet grozav, dar lung, s-ar "
+"putea să rateze cele mai importante momente și să vă claseze mai jos decât "
+"ar trebui să aveți. Soluția la aceasta problemă este crearea unui caiet "
+"condensat."
+
+#: ../../gm0/source/docs/awards/notebook.rst:18
+msgid ""
+"This is where you make a purposeful effort to get rid of redundancies and "
+"make sure everything written in the notebook serves the purpose of being "
+"read and getting things checked off of awards."
+msgstr ""
+"Aici este momentul în care faceți un efort intenționat pentru a elimina "
+"redundanțele și pentru a vă asigura că tot ceea ce scrieți în caiet servește"
+" scopului de a fi citit și de a obține lucruri bifate din premii."
+
+#: ../../gm0/source/docs/awards/notebook.rst:20
+msgid ""
+"So if you know your state competitions are going to be more than a couple of"
+" days, write a long, detailed filled notebook. But if it is only a day long,"
+" write with every section having a purpose."
+msgstr ""
+"Așa că, dacă știți că concursurile naționale vor dura mai mult de câteva "
+"zile, scrieți un caiet lung și detaliat. Dar dacă este vorba doar de o zi, "
+"scrieți cu fiecare secțiune având un scop."
+
+#: ../../gm0/source/docs/awards/notebook.rst:23
+msgid "Handwritten vs Typed"
+msgstr "Scris de mână vs tehnoredactat"
+
+#: ../../gm0/source/docs/awards/notebook.rst:25
+msgid ""
+"This one is a team decision. Some teams swear judges prefer handwritten "
+"notebooks, but there is no proof for that. But if you're a small team or you"
+" would prefer to write, do that. Be sure that the handwriting is consistent "
+"and legible! Typed notebooks are a lot easier to organize, and judges will "
+"definitely be able to read them."
+msgstr ""
+"Aceasta este o decizie de echipă. Unele echipe jură că juriul preferă "
+"caietele scrise de mână, dar nu există nicio dovadă în acest sens. Dar dacă "
+"sunteți o echipă mică sau dacă preferați să scrieți, faceți asta. Asigurați-"
+"vă că scrisul de mână este consistent și lizibil! Caietele tehnoredactare "
+"sunt mult mai ușor de organizat, iar jurizații vor putea cu siguranță să le "
+"citească."
+
+#: ../../gm0/source/docs/awards/notebook.rst:28
+msgid "Serious vs Charming"
+msgstr "Serios vs Atrăgător "
+
+#: ../../gm0/source/docs/awards/notebook.rst:30
+msgid ""
+"A team's notebook is an extension of its personality and branding. Some "
+"teams try to come across as an engineering firm or at least very serious, "
+"while others act the opposite."
+msgstr ""
+"Caietul unei echipe este o extensie a personalității și a brandingului "
+"acesteia. Unele echipe încearcă să se prezinte ca o firmă de inginerie sau "
+"cel puțin ca fiind foarte serioase, în timp ce altele acționează invers."
+
+#: ../../gm0/source/docs/awards/notebook.rst:32
+msgid ""
+"You should try and reflect that in your notebook. Neither way is better, but"
+" it's good early on to figure out your team's way of acting and writing in a"
+" manner that fits it."
+msgstr ""
+"Ar trebui să încercați să reflectați acest lucru în caietul vostru. Niciuna "
+"dintre cele două modalități nu este mai bună, dar este bine să vă dați seama"
+" din timp de modul de acțiune al echipei voastre și să scrieți într-un mod "
+"care să se potrivească."
+
+#: ../../gm0/source/docs/awards/notebook.rst:34
+msgid ""
+"Generally, humor is acceptable, but try to keep jokes down to a minimum "
+"(after all, the engineering notebook is meant to be a professional-grade "
+"document)."
+msgstr ""
+"În general, umorul este acceptabil, dar încercați să reduceți glumele la "
+"minimum (la urma urmei, caietul tehnic este menit să fie un document de "
+"calitate profesională)."
+
+#: ../../gm0/source/docs/awards/notebook.rst:38
+msgid ""
+"Having a consistent team brand is important so judges remember you. A large "
+"amount of winning awards is being remembered and advocated for by the "
+"judges."
+msgstr ""
+"Este important să aveți un brand de echipă coerent pentru ca juriul să vă "
+"țină minte. O mare parte din câștigarea premiilor constă în a fi ținut minte"
+" și susținut de către juriu."
+
+#: ../../gm0/source/docs/awards/notebook.rst:40
+msgid ""
+"Therefore, having consistent branding helps judges know what team they are "
+"talking to and what they know about you."
+msgstr ""
+"Prin urmare, un branding coerent ajută juriul să știe cu ce echipă vorbesc "
+"și ce știu despre voi."
+
+#: ../../gm0/source/docs/awards/notebook.rst:43
+msgid "Individual sections"
+msgstr "Secțiuni individuale"
+
+#: ../../gm0/source/docs/awards/notebook.rst:45
+msgid ""
+"Section 9.2.2 of |gm1| lists out the type of things that are expected to see"
+" in your notebook."
+msgstr ""
+"Secțiunea 9.2.2 din |gm1| enumeră tipul de lucruri pe care se așteaptă să le"
+" vedeți în caietul tău."
+
+#: ../../gm0/source/docs/awards/notebook.rst:47
+msgid "They are listed here:"
+msgstr "Acestea sunt enumerate aici:"
+
+#: ../../gm0/source/docs/awards/notebook.rst:49
+msgid "Problem Definition"
+msgstr "Definirea problemei"
+
+#: ../../gm0/source/docs/awards/notebook.rst:50
+msgid "Information Gathering"
+msgstr "Colectarea de informații"
+
+#: ../../gm0/source/docs/awards/notebook.rst:51
+msgid "Brainstorming Solutions"
+msgstr "Brainstorming de soluții"
+
+#: ../../gm0/source/docs/awards/notebook.rst:52
+msgid "Concept Design"
+msgstr "Design conceptual"
+
+#: ../../gm0/source/docs/awards/notebook.rst:53
+msgid "System Level Design"
+msgstr "Proiectare la nivel de sistem"
+
+#: ../../gm0/source/docs/awards/notebook.rst:54
+msgid "Testing"
+msgstr "Testare"
+
+#: ../../gm0/source/docs/awards/notebook.rst:55
+msgid "Design Improvement"
+msgstr "Îmbunătățirea designului"
+
+#: ../../gm0/source/docs/awards/notebook.rst:56
+msgid "Production"
+msgstr "Producție"
+
+#: ../../gm0/source/docs/awards/notebook.rst:57
+msgid "Promotion"
+msgstr "Promovare"
+
+#: ../../gm0/source/docs/awards/notebook.rst:58
+msgid "Budgeting"
+msgstr "Bugetare"
+
+#: ../../gm0/source/docs/awards/notebook.rst:59
+msgid "Planning"
+msgstr "Planificare"
+
+#: ../../gm0/source/docs/awards/notebook.rst:60
+msgid "Outreach"
+msgstr "Outreach"
+
+#: ../../gm0/source/docs/awards/notebook.rst:62
+msgid ""
+"Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines"
+" are not plentiful. They include a team plan, which is pretty much all non-"
+"robot writing---a sustainability plan, a strategic plan, and a business plan"
+" all fall into it, and doing one of these sections is required for Inspire "
+"award, and telling us what they want in the notebook (listed above). It "
+"falls to the individual notebook writers to figure out what they "
+"specifically want to call each section and what to put in each section."
+msgstr ""
+"Secțiunile specifice numite în |gm1|, Manualul juriului și Ghidul pentru "
+"notebook-uri nu sunt numeroase. Acestea includ un plan de echipă, care "
+"reprezintă în mare parte tot ceea ce nu este scris pentru roboț - un plan de"
+" sustenabilitate, un plan strategic și un plan de afaceri, toate acestea se "
+"încadrează în această categorie, iar realizarea uneia dintre aceste secțiuni"
+" este obligatorie pentru premiul Inspire, și să ne spună ce își doresc în "
+"caiet (enumerate mai sus). Este la latitudinea fiecărui scriitor la caietul "
+"tehnic să își dea seama cum vor să numească în mod specific fiecare secțiune"
+" și ce să pună în fiecare secțiune."
+
+#: ../../gm0/source/docs/awards/notebook.rst:65
+msgid "Daily Logs and Other Ways of Documenting"
+msgstr "Jurnale zilnice și alte modalități de documentare"
+
+#: ../../gm0/source/docs/awards/notebook.rst:67
+msgid ""
+"This might be the most common way of documenting in notebooks. Even teams "
+"that are so-so about attempting to write a notebook have a couple months "
+"worth of logs because overall they are not that hard to do."
+msgstr ""
+"Acesta ar putea fi cel mai frecvent mod de a documenta în caiete. Chiar și "
+"echipele care nu se străduiesc prea mult să redacteze un caiet au jurnale de"
+" câteva luni, deoarece, în general, acestea nu sunt atât de greu de "
+"realizat."
+
+#: ../../gm0/source/docs/awards/notebook.rst:69
+msgid ""
+"Each team approaches it differently, but a standard approach is as follows."
+msgstr ""
+"Fiecare echipă o abordează diferit, dar o abordare standard este următoarea."
+
+#: ../../gm0/source/docs/awards/notebook.rst:71
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Date"
+msgstr "Data"
+
+#: ../../gm0/source/docs/awards/notebook.rst:73
+msgid "Members of Team Present"
+msgstr "Membri ai echipei prezenți"
+
+#: ../../gm0/source/docs/awards/notebook.rst:76
+msgid "Tasks & Pictures"
+msgstr "Sarcini și imagini"
+
+#: ../../gm0/source/docs/awards/notebook.rst:76
+msgid "More Information, if the Task Was Completed"
+msgstr "Mai multe informații, dacă sarcina a fost finalizată"
+
+#: ../../gm0/source/docs/awards/notebook.rst:78
+msgid "Lorem ipsum"
+msgstr "Lorem ipsum"
+
+#: ../../gm0/source/docs/awards/notebook.rst:78
+msgid "Dolor sit amet, consectetur adipiscing elit"
+msgstr "Dolor sit amet, consectetur adipiscing elit"
+
+#: ../../gm0/source/docs/awards/notebook.rst:80
+msgid "Sed do eiusmod"
+msgstr "Sed do eiusmod"
+
+#: ../../gm0/source/docs/awards/notebook.rst:80
+msgid "Tempor incididunt ut labore"
+msgstr "Tempor incididunt ut labore"
+
+#: ../../gm0/source/docs/awards/notebook.rst:82
+msgid "Et dolore magna"
+msgstr "Et dolore magna"
+
+#: ../../gm0/source/docs/awards/notebook.rst:82
+msgid "Aliqua ut enim ad minim veniam"
+msgstr "Aliqua ut enim ad minim veniam"
+
+#: ../../gm0/source/docs/awards/notebook.rst:85
+msgid ""
+"There are other methods such as weekly, pure goals, or other engineering "
+"based methods such as agile (if you pursue the latter you can use those hard"
+" won mentors you have gotten). Weekly or bi-weekly is the same as above, but"
+" the date becomes a range and you talk about what happened over that period "
+"of time. This is better for a team that has only a couple of people doing "
+"the logs because overall logs get more and more tedious."
+msgstr ""
+"Există și alte metode, cum ar fi cele săptămânale, obiectivele pure sau alte"
+" metode bazate pe inginerie, cum ar fi agile (dacă o urmăriți pe cea din "
+"urmă, puteți folosi acei mentori pe care i-ați obținut cu greu). Săptămânal "
+"sau bisăptămânal este la fel ca mai sus, dar data devine un interval și "
+"vorbiți despre ce s-a întâmplat în acea perioadă de timp. Acest lucru este "
+"mai bun pentru o echipă care are doar câteva persoane care fac jurnalele, "
+"deoarece jurnalele generale devin din ce în ce mai plictisitoare."
+
+#: ../../gm0/source/docs/awards/notebook.rst:87
+msgid "Pure goals is simply as follows."
+msgstr "Obiectivele pure sunt pur și simplu următoarele."
+
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Goal and Goal Date"
+msgstr "Obiectiv și data obiectivului"
+
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Was the Goal Completed in Time?"
+msgstr "Obiectivul a fost îndeplinit la timp?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Quis"
+msgstr "Quis"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Nostrud"
+msgstr "Nostrud"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Exercitation ullamco"
+msgstr "Exercitation ullamco"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Nisi"
+msgstr "Nisi"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Ut aliquip ex ea"
+msgstr "Ut aliquip ex ea"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Commodo consequat"
+msgstr "Commodo consequat"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "Duis"
+msgstr "Duis"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "Aute irure dolor"
+msgstr "Aute irure dolor"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "In reprehenderit in voluptate"
+msgstr "In reprehenderit in voluptate"
+
+#: ../../gm0/source/docs/awards/notebook.rst:100
+msgid "Building Section and Documenting the Robot"
+msgstr "Secțiunea de construcție și documentarea robotului"
+
+#: ../../gm0/source/docs/awards/notebook.rst:102
+msgid ""
+"You have spent a bunch of time reading the rest of this manual to learn "
+"about the robot and how to build it. The building section is about how your "
+"robot fulfills the challenge, and what the driving factors were in building "
+"your robot."
+msgstr ""
+"Ați petrecut o grămadă de timp citind restul acestui manual pentru a învăța "
+"despre robot și despre cum să îl construiți. Secțiunea de construcție se "
+"referă la modul în care robotul vostru îndeplinește provocarea și care au "
+"fost factorii determinanți în construirea robotului."
+
+#: ../../gm0/source/docs/awards/notebook.rst:104
+msgid ""
+"Information about parts and materials, as well as pictures of every "
+"mechanism (plus captions) will help the judges piece together how the robot "
+"works mechanically. Explanations of the components will illustrate the "
+"thought processes behind the design."
+msgstr ""
+"Informațiile despre piese și materiale, precum și fotografiile fiecărui "
+"mecanism (plus legendele) vor ajuta juriul să reconstituie modul în care "
+"funcționează mecanic robotul. Explicațiile privind componentele vor ilustra "
+"procesele de gândire din spatele proiectului."
+
+#: ../../gm0/source/docs/awards/notebook.rst:106
+msgid ""
+"Ample graphics (CAD screenshots/renders, pictures, etc.) will help judges "
+"understand how it works and why it is useful. **However, make sure that each"
+" graphic has a caption or explanation. Do not expect judges to understand "
+"how your robot works through pictures only.**"
+msgstr ""
+"Grafica amplă (capturi de ecran/rezultate CAD, imagini etc.) va ajuta juriul"
+" să înțeleagă cum funcționează și de ce este util. **Asemenea, asigurați-vă "
+"că fiecare grafic are o legendă sau o explicație. Nu vă așteptați ca "
+"judecătorii să înțeleagă cum funcționează robotul dvs. doar prin intermediul"
+" imaginilor.**"
+
+#: ../../gm0/source/docs/awards/notebook.rst:108
+msgid ""
+"As with most documentation, using actual CAD screenshots or real world "
+"photos is generally better then high quality renders. While renders are "
+"interesting from a technological and aesthetic perspective, they usually "
+"take more time and effort and also don't convey your engineering process as "
+"well. CAD screenshots tend to make the document more like an actual "
+"engineering process documentation and can look much more professional, even "
+"if they aren't as aesthetically pleasing."
+msgstr ""
+"La fel ca în cazul majorității documentației, utilizarea de capturi de ecran"
+" CAD reale sau de fotografii din lumea reală este, în general, mai bună "
+"decât randările de înaltă calitate. Deși randările sunt interesante din "
+"punct de vedere tehnologic și estetic, acestea necesită de obicei mai mult "
+"timp și efort și, de asemenea, nu transmit la fel de bine procesul de "
+"inginerie. Capturile de ecran CAD tind să facă documentul să semene mai mult"
+" cu o documentație reală a procesului de inginerie și pot avea un aspect "
+"mult mai profesional, chiar dacă nu sunt la fel de plăcute din punct de "
+"vedere estetic."
+
+#: ../../gm0/source/docs/awards/notebook.rst:110
+msgid ""
+"Additionally, use math in these explanations to target the Think award."
+msgstr ""
+"În plus, folosiți matematica în aceste explicații pentru a viza premiul "
+"Think."
+
+#: ../../gm0/source/docs/awards/notebook.rst:112
+msgid ""
+"The second part is much more documentation and writing heavy, but in some "
+"ways it is easier. As you are building a robot, you will not get your final "
+"bot in the first attempt."
+msgstr ""
+"Cea de-a doua parte este mult mai grea din punct de vedere al documentației "
+"și al scrierii, dar, într-un fel, este mai ușoară. Deoarece construiți un "
+"robot, nu veți obține robotul final din prima încercare."
+
+#: ../../gm0/source/docs/awards/notebook.rst:114
+msgid ""
+"Think about telling a story of how your team progressed from brainstorm and "
+"idea conception to prototyping and final design. The judges *love* to follow"
+" a logical sequence of steps as it shows how the team thought through "
+"mistakes and improved upon successes."
+msgstr ""
+"Gândiți-vă să povestiți cum a progresat echipa voastră de la brainstorming "
+"și de la conceperea ideii până la prototipuri și designul final. Juriul "
+"*iubește* să urmărească o succesiune logică a etapelor, deoarece arată modul"
+" în care echipa s-a gândit la greșeli și a îmbunătățit succesele."
+
+#: ../../gm0/source/docs/awards/notebook.rst:116
+msgid ""
+"Each time you iterate upon a part of your robot or move a step further in "
+"the engineering design process, document it. Important questions to ask "
+"while writing this section are below."
+msgstr ""
+"De fiecare dată când modificați o parte a robotului dumneavoastră sau faceți"
+" un pas înainte în procesul de proiectare tehnică, documentați acest lucru. "
+"Întrebările importante pe care trebuie să vi le puneți atunci când redactați"
+" această secțiune sunt prezentate mai jos."
+
+#: ../../gm0/source/docs/awards/notebook.rst:118
+msgid "What prompted this change/why was this change made?"
+msgstr ""
+"Ce a determinat această schimbare / de ce a fost făcută această schimbare?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:119
+msgid "What was the change?"
+msgstr "Care a fost schimbarea?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:120
+msgid "How was the modification enacted?"
+msgstr "Cum a fost promulgată modificarea?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:121
+msgid "What were the results (good and bad)?"
+msgstr "Care au fost rezultatele (bune și rele)?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:122
+msgid "How can this design be further improved?"
+msgstr "Cum poate fi îmbunătățit în continuare acest design?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:124
+msgid ""
+"This also includes your first unrealized ideas that your team talked about "
+"right when the team came together after the season was released."
+msgstr ""
+"Aceasta include, de asemenea, primele idei nerealizate despre care echipa ta"
+" a vorbit chiar atunci când s-a reunit după lansarea sezonului."
+
+#: ../../gm0/source/docs/awards/notebook.rst:127
+msgid "Notebook Gallery"
+msgstr "Galeria Caietelor"
+
+#: ../../gm0/source/docs/awards/notebook.rst:129
+msgid "Relic Recovery"
+msgstr "Relic Recovery"
+
+#: ../../gm0/source/docs/awards/notebook.rst:131
+msgid ""
+"`4042 <https://drive.google.com/file/d/10TQJd4ioArq-"
+"asmswHneY9S-_okcr5vq/view>`_"
+msgstr ""
+"`4042 <https://drive.google.com/file/d/10TQJd4ioArq-"
+"asmswHneY9S-_okcr5vq/view>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:132
+msgid "Rover Ruckus"
+msgstr "Rover Ruckus"
+
+#: ../../gm0/source/docs/awards/notebook.rst:134
+msgid ""
+"`9794 "
+"<https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_"
+msgstr ""
+"`9794 "
+"<https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:135
+msgid ""
+"`14270 <https://qrobotics.blob.core.windows.net/2018/engineering.pdf>`_"
+msgstr ""
+"`14270 <https://qrobotics.blob.core.windows.net/2018/engineering.pdf>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:136
+msgid "Skystone"
+msgstr "Skystone"
+
+#: ../../gm0/source/docs/awards/notebook.rst:138
+msgid ""
+"`11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-"
+"Gwenh02U-9a>`_"
+msgstr ""
+"`11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-"
+"Gwenh02U-9a>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:139
+msgid ""
+"`8813 Design Notebook "
+"<https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_"
+msgstr ""
+"`8813 Design Notebook "
+"<https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:140
+msgid ""
+"`9656 Technical Binder "
+"<https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_"
+msgstr ""
+"`9656 Technical Binder "
+"<https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:141
+msgid ""
+"`9656 Non-Technical Binder "
+"<https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_"
+msgstr ""
+"`9656 Non-Technical Binder "
+"<https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_"
