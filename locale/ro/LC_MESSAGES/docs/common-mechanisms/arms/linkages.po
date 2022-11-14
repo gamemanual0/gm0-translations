@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-13 05:27+0000\n"
+"POT-Creation-Date: 2022-11-14 04:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -181,19 +181,11 @@ msgstr ""
 "trage de piese pentru a vedea cum se mișcă! "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:55
-msgid "A picture of a VEX Four Bar"
-msgstr "O poză cu un mecanism în patru bare VEX"
-
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:55
-msgid "VEX Robotics Four Bar Claw"
-msgstr "Gheară în Patru Bare VEX Robotics"
-
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:58
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:56
 msgid "Virtual Four Bar"
 msgstr "Patru Bare Virtuale"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:60
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:58
 msgid ""
 "The more popular alternative to the Four Bar linkage is a Virtual Four Bar. "
 "While not technically a linkage, a virtual four bar uses chains or belts to "
@@ -211,7 +203,7 @@ msgstr ""
 "poate de asemenea să ocupe mai puțin spațiu decât un mecanism clasic de "
 "cuplare în patru bare."
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:62
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:60
 msgid ""
 "This mechanism is more widely used in FTC, as it is an easy addition to an "
 "arm to maintain the end effector's angle relative to the ground."
@@ -220,7 +212,7 @@ msgstr ""
 "montat pe un braț pentru a menține unghiul efectorului final relativ cu "
 "pământul."
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:64
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:62
 msgid ""
 "Note: Both chain and belt can be used to construct a virtual four bar, and "
 "there isn't a specific benefit to using either. Due to the fact that the "
@@ -238,7 +230,7 @@ msgid "CAD Example of Virtual Four Bar (Click to expand)"
 msgstr ""
 "Exemplu CAD al unei Cuplări Virtuale în Patru Bare (Apasă pentru a mări)"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:73
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:71
 msgid ""
 "`Click here to open this example in Onshape Cad, where you can click and "
 "drag parts to see how they move! "
@@ -248,19 +240,19 @@ msgstr ""
 "trage componente pentru a vedea cum se mișcă! "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__."
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:78
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:76
 msgid "7244 OUT of the BOX Robotics Virtual Four Bar"
 msgstr "Mecanismul Virtual în Patru Bare al echipei 7244 OUT of the BOX"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:78
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:76
 msgid "7244 OUT of the BOX Robotics, Ultimate Goal"
 msgstr "Echipa 7244 OUT of the BOX Robotics, Ultimate Goal"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:81
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:79
 msgid "Double-Reverse Four Bar"
 msgstr "Patru Bare Dublu Inversate"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:83
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:81
 msgid ""
 "The double reverse four bar is an extension of the four bar linkage that "
 "allows for more extension. A double reverse four bar consists of a four bar "
@@ -277,7 +269,7 @@ msgstr ""
 "obține. Efectorul final va sta la un unghi fix față de pământ datorită "
 "extensiei liniare pure."
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:85
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:83
 msgid ""
 "This mechanism is not widely used in FTC due to the generally large space "
 "requirements needed, but is a fairly compact method of producing large "
@@ -291,21 +283,21 @@ msgstr ""
 " mișcat în mod egal pentru a nu apărea probleme din cauza ridicării "
 "asimetrice."
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:90
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:88
 msgid "11115 Gluten Free Double Reverse Four Bar"
 msgstr ""
 "Mecanismul de Cuplare cu Patru Bare Inversat Dublu al echipei 11115 Gluten "
 "Free"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:90
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:88
 msgid "11115 Gluten Free, Skystone"
 msgstr "Echipa 11115 Gluten Free, Skystone"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:93
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:91
 msgid "Virtual Double-Reverse Four Bar"
 msgstr "Mecanismul de Cuplare Virtual cu Patru Bare Inversat Dublu"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:95
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:93
 msgid ""
 "Similar to the virtual four bar, the virtual double-reverse four bar is a "
 "linkage that uses belts or chains to replace the linkage bars of the double-"
@@ -330,12 +322,12 @@ msgstr ""
 "mecanism în patru bare inversat dublu, care se poate extinde în ambele "
 "direcții."
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:100
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:98
 msgid "8644 Brainstormers Virtual Double Reverse Four Bar"
 msgstr ""
 "Mecanismul de Cuplare Virtual cu Patru Bare Dublu Inversat al echipei 8644 "
 "Brainstormers"
 
-#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:100
+#: ../../gm0/source/docs/common-mechanisms/arms/linkages.rst:98
 msgid "8644 Brainstormers, Freight Frenzy"
 msgstr "Echipa 8644 Brainstormers, Freight Frenzy"

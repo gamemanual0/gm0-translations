@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-19 16:21+0000\n"
+"POT-Creation-Date: 2022-11-14 04:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -62,26 +62,18 @@ msgstr "REV- reprezintă REV Robotics (ex. REV-31-1155)"
 msgid "WCP- signifies West Coast Products (i.e. WCP-0117)"
 msgstr "WCP- reprezintă West Coast Products (ex. WCP-0117)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:15
-msgid "217- signifies VEXpro (i.e. 217-6194)"
-msgstr "217- reprezintă VEXpro (ex. 217-6194)"
-
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:16
-msgid "276- signifies VEX EDR (i.e. 276-2193)"
-msgstr "276- reprezintă VEX EDR (ex. 276-2193)"
-
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:19
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:17
 msgid "SKU Identification"
 msgstr "Identificare SKU"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:21
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:19
 msgid ""
 "Actuonix: 3-4 digit SKU, alphanumeric, in the form of XX00 or X00 (i.e. "
 "PQ12)"
 msgstr ""
 "Actuonix: 3-4 cifre SKU, alfanumeric, sub formă de XX00 sau X00 (ex. PQ12)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:22
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:20
 msgid ""
 "goBILDA: 12 digit SKU, numerical, in the form of 0000-0000-0000 (i.e. "
 "3213-3606-0001)"
@@ -89,89 +81,81 @@ msgstr ""
 "goBILDA: 12 cifre SKU, numeric, sub formă de 0000-0000-0000 (ex. "
 "3213-3606-0001)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:23
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:21
 msgid ""
 "Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000 (i.e. "
 "W44260)"
 msgstr ""
 "Pitsco/Tetrix: 6 cifre SKU, W + 5 numere, sub formă de W00000 (ex. W44260)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:24
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:22
 msgid ""
 "Servocity/Actobotics: 6 digit SKU, numerical, in the form of 000000 (i.e. "
 "615190)"
 msgstr ""
 "Servocity/Actobotics: 6 cifre SKU, numeric, sub formă de 000000 (ex. 615190)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:27
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:25
 msgid "Where can I get ...?"
 msgstr "De unde pot obține ...?"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:29
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:27
 msgid "Motors and Gearboxes"
 msgstr "Motoare și Rapoarte"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:31
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:29
 msgid "Spur Gear Motors"
 msgstr "Motoare cu Roți Dințate"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:33
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:31
 msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
 msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:34
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:32
 msgid ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
 msgstr ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:35
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:33
 msgid "goBILDA 5201 Spur Gear"
 msgstr "goBILDA 5201 Angrenaj Drept"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:36
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:34
 msgid "TETRIX TorqueNado"
 msgstr "TETRIX TorqueNado"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:38
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:36
 msgid "Planetary Gearbox Motors (recommended)"
 msgstr "Motoare cu Angrenaje Planetare (recomandate)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:40
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:38
 msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Orbital"
 msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Orbital"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:41
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:39
 msgid ":term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*"
 msgstr ":term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:42
-msgid ":term:`goBILDA 5202 Yellow Jacket Planetary <Yellow Jacket Motor>`"
-msgstr ":term:`goBILDA 5202 Yellow Jacket Planetary <Yellow Jacket Motor>`"
-
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:43
-msgid "VEX *VersaPlanetary Lite* (gearbox only)"
-msgstr "VEX *VersaPlanetary Lite* (doar angrenajul)"
-
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:44
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:41
 msgid "(*italicized* = customizable gearbox ratio)"
 msgstr "(*italicized* = raport personalizat)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:46
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:43
 msgid "Servos"
 msgstr "Servomotoare"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:48
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:45
 msgid "HiTec (from ServoCity); 24 tooth spline"
 msgstr "HiTec (from ServoCity); suport cu 24 de dinți"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:49
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:46
 msgid "REV Smart Robot Servo; 25 tooth spline"
 msgstr "REV Smart Robot Servo; suport cu 25 de dinți"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:50
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:47
 msgid "goBILDA Dual Mode Servo; 25 tooth spline"
 msgstr "goBILDA Dual Mode Servo; suport cu 25 de dinți"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:51
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:48
 msgid ""
 "Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth "
 "spline"
@@ -179,55 +163,51 @@ msgstr ""
 "Futaba (servomotoarele Futaba sunt folosite des în mașini cu telecomandă sau"
 " drone); suport cu 25 de dinți"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:52
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:49
 msgid "Savox heavy-duty servos; 25 tooth spline"
 msgstr "Savox heavy-duty servos; suport cu 25 de dinți"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:53
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:50
 msgid "Actuonix (linear actuators)"
 msgstr "Actuonix (linear actuators)"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:54
-msgid ":term:`VEX 393 EDR`; 1/8\" square shaft"
-msgstr ":term:`VEX 393 EDR`; 1/8\" ax pătrat"
-
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:56
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:52
 msgid "Sensors"
 msgstr "Senzori"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:58
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:54
 msgid "AndyMark"
 msgstr "AndyMark"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:59
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:55
 msgid "REV"
 msgstr "REV"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:61
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:57
 msgid "Hardware & Raw Materials"
 msgstr "Componente Hardware și Materiale"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:63
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:59
 msgid "McMaster-Carr"
 msgstr "McMaster-Carr"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:64
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:60
 msgid "OnlineMetals"
 msgstr "OnlineMetals"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:65
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:61
 msgid "Amazon"
 msgstr "Amazon"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:66
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:62
 msgid "Local hardware store"
 msgstr "Magazin local de materiale hardware"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:68
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:64
 msgid "Aluminum Components"
 msgstr "Componente din Aluminiu"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:70
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:66
 msgid ""
 "Actobotics :term:`channel <Channel>`, mini :term:`channel <Channel>`, X-rail"
 " :term:`extrusion <Extrusion>`"
@@ -235,62 +215,58 @@ msgstr ""
 ":term:`Profil <Channel>` Actobotics, mini :term:`profil <Channel>`, "
 ":term:`extrudare <Extrusion>` X-rail"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:71
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:67
 msgid ""
 "REV extrusion, C :term:`channel <Channel>`, U :term:`channel <Channel>`"
 msgstr ""
 "Extrudare REV, :term:`profil <Channel>` tip C, :term:`profil <Channel>` tip "
 "U"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:72
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:68
 msgid ""
 "goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`"
 msgstr ""
 ":term:` Profil<Channel>` goBILDA, :term:`extrudare <Extrusion>` goRAIL"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:73
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:69
 msgid "TETRIX :term:`channel <Channel>`"
 msgstr ":term:`Profil <Channel>` TETRIX"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:74
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:70
 msgid "MiSUMI :term:`extrusion <Extrusion>`"
 msgstr ":term:`Extrudare<Extrusion>` MiSUMI"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:76
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:72
 msgid "Gears/Sprockets/Pulleys"
 msgstr "Angrenaje/Pinioane/Scripeți"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:78
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:74
 msgid "REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
 msgstr ":term:Angrenaje <Gear>`, :term:`pinioane <Sprocket>`, scripeți REV"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:79
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:75
 msgid "Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
 msgstr ""
 ":term:Angrenaje <Gear>`, :term:`pinioane <Sprocket>`, scripeți Actobotics"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:80
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:76
 msgid "goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
 msgstr ""
 ":term:Angrenaje <Gear>`, :term:`pinioane <Sprocket>`, scripeți goBILDA"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:81
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:77
 msgid "TETRIX :term:`gears <Gear>` and pulleys"
 msgstr ":term:Angrenaje 1` și scripeții TETRIX"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:82
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:78
 msgid "AndyMark :term:`gears <Gear>` and pulleys"
 msgstr ":term:Angrenaje 1` și scripeții AndyMark"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:83
-msgid "VEX :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
-msgstr ":term:Angrenaje 1`, :term:`pinioane 2`, scripeți VEX"
-
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:85
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:80
 msgid "Wheels"
 msgstr "Roți"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:87
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:82
 msgid ""
 "AndyMark traction, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel"
 " <Mecanum Wheel>`"
@@ -298,7 +274,7 @@ msgstr ""
 "Roți :term:`compliant<Compliant Wheel>`, traction, :term:`mecanum<Mecanum "
 "Wheel>` AndyMark"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:88
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:83
 msgid ""
 "REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum"
 " Wheel>`"
@@ -306,11 +282,11 @@ msgstr ""
 "Roți grip, traction, :term:`omni<Omni Wheel>`,  :term:`mecanum<Mecanum "
 "Wheel>` REV"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:89
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:84
 msgid "ServoCity traction, :term:`omni wheel <Omni Wheel>`"
 msgstr "Roți traction, :term:`omni<Omni Wheel>` ServoCity"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:90
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:85
 msgid ""
 "goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
 "Wheel>`"
@@ -318,11 +294,7 @@ msgstr ""
 "Roți traction, :term:`omni<Omni Wheel>`, :term:`mecanum<Mecanum Wheel>` "
 "goBILDA"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:91
-msgid "VEX colson traction and :term:`mecanum wheel <Mecanum Wheel>`"
-msgstr "Roți colson traction și :term:`mecanum<Mecanum Wheel>` VEX"
-
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:92
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:86
 msgid ""
 "TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
 "Wheel>`"
@@ -330,46 +302,46 @@ msgstr ""
 "Roți traction, :term:`omni<Omni Wheel>`, :term:`mecanum<Mecanum Wheel>` "
 "TETRIX"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:93
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:87
 msgid "Nexus :term:`mecanum wheel <Mecanum Wheel>`"
 msgstr "Roți :term:`mecanum<Mecanum Wheel>` Nexus"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:95
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:89
 msgid "Linear Slide Kits"
 msgstr "Kit-uri de Glisiere Liniare"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:97
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:91
 msgid "REV 15 mm :term:`extrusion <Extrusion>` slide kit"
 msgstr "Kit-ul de glisiere de :term:`extrudere` REV 15 mm"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:98
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:92
 msgid "Actobotics linear slide kit"
 msgstr "Kit-ul de glisiere liniare Actobotics"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:99
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:93
 msgid "goBILDA linear slide kit"
 msgstr "Kit-ul de glisiere liniare goB|LDA"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:101
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:95
 msgid "Drawer Slides"
 msgstr "Glisiere de Sertar"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:103
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:97
 msgid "MiSUMI SAR2 or SAR3 aluminum slide"
 msgstr "Glisiere de aluminiu MiSUMI SAR2 sau SAR3"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:104
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:98
 msgid "Long Robotics Slides"
 msgstr "Glisiere Lungi de Robotică"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:105
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:99
 msgid "Hafele cabinet slide"
 msgstr "Glisiere de Dulap Hafele"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:106
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:100
 msgid "Steel-rolled drawer slide"
 msgstr "Glisiere de Sertar cu Role din Oțel"
 
-#: ../../gm0/source/docs/appendix/vendor-guide.rst:107
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:101
 msgid "Igus"
 msgstr "Igus"
