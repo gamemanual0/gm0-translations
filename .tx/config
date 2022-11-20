@@ -80,27 +80,9 @@ source_file  = locale/pot/docs/common-mechanisms/active-intake/types-of-intakes.
 type         = PO
 minimum_perc = 0
 
-[o:gamemanual0:p:gm0:r:docs--common-mechanisms--arms--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms/index.po
-source_file  = locale/pot/docs/common-mechanisms/arms/index.pot
-type         = PO
-minimum_perc = 0
-
-[o:gamemanual0:p:gm0:r:docs--common-mechanisms--arms--linkages]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms/linkages.po
-source_file  = locale/pot/docs/common-mechanisms/arms/linkages.pot
-type         = PO
-minimum_perc = 0
-
-[o:gamemanual0:p:gm0:r:docs--common-mechanisms--arms--multi-axis-arm]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms/multi-axis-arm.po
-source_file  = locale/pot/docs/common-mechanisms/arms/multi-axis-arm.pot
-type         = PO
-minimum_perc = 0
-
-[o:gamemanual0:p:gm0:r:docs--common-mechanisms--arms--single-arm]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms/single-arm.po
-source_file  = locale/pot/docs/common-mechanisms/arms/single-arm.pot
+[o:gamemanual0:p:gm0:r:docs--common-mechanisms--arms]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms.po
+source_file  = locale/pot/docs/common-mechanisms/arms.pot
 type         = PO
 minimum_perc = 0
 
@@ -191,6 +173,12 @@ minimum_perc = 0
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--rigging]
 file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/rigging.po
 source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/rigging.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--common-mechanisms--linkages]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linkages.po
+source_file  = locale/pot/docs/common-mechanisms/linkages.pot
 type         = PO
 minimum_perc = 0
 
