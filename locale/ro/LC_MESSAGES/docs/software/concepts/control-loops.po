@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-24 16:19+0000\n"
+"POT-Creation-Date: 2022-11-20 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -543,123 +543,11 @@ msgstr ""
 msgid "Feedforward Control"
 msgstr "Controlul Feedforward"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:158
-msgid ""
-"One less popular but equally useful control loop is the feedforward "
-"controller (sometimes unofficially referred to in FTC as the PVA controller,"
-" or Position-Velocity-Acceleration controller). For those without a physics "
-"background, velocity is the speed and direction something is moving and "
-"acceleration is how fast velocity is increasing or decreasing."
-msgstr ""
-"O buclă de control mai puțin cunoscută însă la fel de folositoare este "
-"controllerul feedforward (uneori neoficial numit în FTC drept controllerul "
-"PVA, sau Poziție-Velocitate-Accerelație). Pentru cei fără cunoștiințe în "
-"fizică, velocitatea este viteza și direcția la care ceva se mișcă și "
-"accerelația este cât de rapid crește sau descrește velocitatea."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:160
-msgid ""
-"Unlike PID, feedforward controllers require you to input not only where you "
-"want to go and where you are, but how fast you want to be moving at all "
-"times. Unlike feedback control loops such as PID, feedforward control loops "
-"don’t require information about the variable you want to control. Instead of"
-" controlling a variable directly, it controls how fast that variable "
-"changes."
-msgstr ""
-"Spre deosebire de PID, controllerele feedforward necesită un input nu numai "
-"compus din unde vrei să mergi și unde ești, însă și cât de rapid vrei să te "
-"miști tot timpul. Spre deosebire de buclele de control bazate pe feedback "
-"precum PID, buclele de control de tip feedforward nu au nevoie de informații"
-" în legătură cu variabila pe care vrei sa o controlezi. În loc să controleze"
-" variabila direct, controlează cât de rapid se schimbă variabila."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:162
-msgid ""
-"Conceptually, the controller is made up of 2 separate P controllers "
-"(remember, a P controller is made up of just the proportional term of a PID "
-"loop). Each of these P controllers are added together to create a "
-"feedforward controller."
-msgstr ""
-"Conceptual, controllerul este format din 2 controllere P separate (reține, "
-"un controller P este format doar din termenul proporțional al buclei PID). "
-"Fiecare din aceste controllere P sunt adăugate împreună pentru a crea un "
-"controller feedforward."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:164
-msgid ""
-"Just like we did with the PID formula, we can define the function like this:"
-" :math:`f(t)=K_v*V(t)+K_a*A(t)`."
-msgstr ""
-"La fel cum am făcut cu formula PID, putem defini funcția astfel: "
-":math:`f(t)=K_v*V(t)+K_a*A(t)`."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:166
-msgid ""
-"In most FTC applications, :math:`f(t)` controls the position of the output. "
-"As the name PVA suggests, the first term relates to velocity, and the second"
-" relates to acceleration. Just like in a P controller, each term contains a "
-"constant multiplied by an error term (in this case, :math:`V(t)` and "
-":math:`A(t)`). However, unlike a PID controller, each term has their own "
-"setpoints and endpoints, meaning error is calculated differently for each "
-"term."
-msgstr ""
-"În cele mai multe aplicații FTC, :math:`f(t)` controlează poziția output-"
-"ului. Cum numele său sugerează, primul termen este legat de velocitate, iar "
-"al doilea de accerelatie. Precum un controller P, fiecare termen conține o "
-"constantă înmulțită cu un termen de eroare (în acest caz, :math:`V(t)` sau "
-":math:`A(t)`). Totuși, față de un controller PID, fiecare termen are "
-"propiile puncte de referință și puncte finale, ceea ce înseamnă că eroarea "
-"este calculată diferit pentru fiecare termen."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:168
-msgid ""
-"Unlike desired position, your desired velocity is likely to change "
-"throughout the control loop. After all, the entire point of using control "
-"loops are to try to create a balance of speed and control of a system. "
-"Remember, in most situations, you want to approach your destination quickly "
-"if you are far away and slow down if you are close for more control."
-msgstr ""
-"Față de poziția dorită, velocitatea dorită se poate schimba în timpul buclei"
-" de control. La urma urmei, tot scopul buclei de control este de a crea o "
-"balanță între viteză și control într-un sistem. Reține, în cele mai multe "
-"situatii, vrei să se apropii de destinație rapid dacă ești departe și încet "
-"dacă esti aproape pentru mai mult control."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:170
-msgid ""
-"For the sake of example, let’s say :math:`v(t)` is a magic function that "
-"could tell you exactly how fast you should be going at any point. To "
-"calculate velocity error, subtract your current velocity from the magic "
-"function :math:`v(t)`. This magic function can also be used to create "
-"another magic function: :math:`a(t)`. This magic function tells you how "
-"exactly how fast the velocity should change in order to get to the next "
-"magic velocity at any specified time."
-msgstr ""
-"Ca exemplu, să zicem că :math:`v(t)` este o funcție magică care îți poate "
-"spune exact cât de rapid ar trebui să mergi în orice punct. Pentru a calcula"
-" eroarea velocității, scade velocitatea curentă din funcția magică "
-":math:`v(t)`. Această funcție magică poate fi de asemenea folosită pentru a "
-"crea o altă funcție magică :math:`a(t)`. Această funcție magică îți spune "
-"exact cât de rapid valocitatea ar trebui să se schimbe ca să treci la "
-"următoarea velocitate magică la orice timp dat."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:172
-msgid ""
-"The last step is finding the magic functions :math:`v(t)` and :math:`a(t)`, "
-"**which can be obtained using motion profiles** (discussed next)."
-msgstr ""
-"Ultimul pas este să găsești funcțiile magice :math:`v(t)` și :math:`a(t)`, "
-"**care pot fi obținute folosind profilarea mișcării** (discutată mai târziu)"
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:175
-msgid "Feedforward Pseudocode"
-msgstr "Pseudocod Feedforward"
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:197
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:207
 msgid "Motion Profiles"
 msgstr "Profilarea Mișcării"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:199
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:212
 msgid ""
 "Motion profiling is a technique popularized in FRC\\ |reg| that is starting "
 "to find its way to FTC. A motion profile is a function used to change the "
@@ -671,7 +559,7 @@ msgstr ""
 "folosită pentru a schimba viteza unei transmisii într-o manieră controlată "
 "și consistentă prin schimbarea vitezei treptat decât instantaneu."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:201
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:214
 msgid ""
 "Let’s illustrate this with an example: say you want your drivetrain, which "
 "is initially unmoving, to drive forward at full speed. Ordinarily, you would"
@@ -690,31 +578,31 @@ msgstr ""
 "facă autonomiile mai puțin consistente și, probabil mai important, să strice"
 " mecanisme."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:203
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:216
 msgid "Motion profiling attempts to solve this issue."
 msgstr "Profilarea mișcării încearcă să rezolve această problemă."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:206
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:219
 msgid "Advantages"
 msgstr "Avantaje"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:208
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:221
 msgid "More controlled and predictable movements"
 msgstr "Mișcări mai controlate și previzibile"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:209
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:222
 msgid "Reduces rapid change of applied motor voltage"
 msgstr "Reduce schimbarea rapidă a tensiunii aplicate motorului"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:212
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:225
 msgid "Disadvantages"
 msgstr "Dezavantaje"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:214
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:227
 msgid "Can be slower"
 msgstr "Poate fi mai lent"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:216
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:229
 msgid ""
 "There are two main types of motion profiles: **Trapezoidal** profiles and "
 "**S-Curve** profiles. Trapezoidal profiles accelerate the system at a "
@@ -733,7 +621,7 @@ msgstr ""
 "în FTC), profilarea trapezoidală este recomandată pentru majoritatea "
 "aplicațiilor FTC."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:218
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:231
 msgid ""
 "Trapezoidal profiles get their name from the shape of the graph of velocity "
 "over time:"
@@ -741,7 +629,7 @@ msgstr ""
 "Profilarea trapezoidală îți are numele din forma graficului velocității în "
 "timp:"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:223
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
 msgid ""
 "The position over time, velocity over time, and acceleration over time "
 "graphs for a trapezoidal motion profile"
@@ -749,7 +637,7 @@ msgstr ""
 "Poziția în timp, velocitatea în timp, și accerelația în timp vizualizat "
 "pentru profilarea trapezoidală"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:223
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
 msgid ""
 "These are the “magic functions” for velocity and acceleration over time "
 "alluded to in the feedforward section."
@@ -757,11 +645,11 @@ msgstr ""
 "Acestea sunt \"funcțiile magice\" pentru velocitate și accerelație în timp "
 "care fac aluzie în secțiunea feedforward."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:225
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
 msgid "Here is some pseudocode for a trapezoidal profile:"
 msgstr "Aici este niște pseudocod pentru un profil trapezoidal:"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:255
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:270
 msgid ""
 "A more advanced example of the math for motion profile generation as used in"
 " the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ "
