@@ -452,21 +452,15 @@ source_file  = locale/pot/docs/power-and-electronics/motor-guide/index.pot
 type         = PO
 minimum_perc = 0
 
-[o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--jvn-calculator]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/jvn-calculator.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/jvn-calculator.pot
-type         = PO
-minimum_perc = 0
-
-[o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--motor-current]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/motor-current.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/motor-current.pot
-type         = PO
-minimum_perc = 0
-
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--motor-glossary]
 file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/motor-glossary.po
 source_file  = locale/pot/docs/power-and-electronics/motor-guide/motor-glossary.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--motor-power]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/motor-power.po
+source_file  = locale/pot/docs/power-and-electronics/motor-guide/motor-power.pot
 type         = PO
 minimum_perc = 0
 
