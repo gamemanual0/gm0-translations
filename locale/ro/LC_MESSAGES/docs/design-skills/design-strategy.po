@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-07 16:25+0000\n"
+"POT-Creation-Date: 2022-12-21 04:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Soft Hoarders, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -631,6 +631,10 @@ msgstr "Numai acțiunile întreprinse în mod intenționat"
 msgid "Efficient and effective driving"
 msgstr "Conducerea eficientă și eficace"
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+msgid "**Fully driver-controlled**"
+msgstr "**Controlat integral de driver**"
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:135
 msgid "Less efficient"
 msgstr "Mai puțin eficient"
@@ -677,3 +681,76 @@ msgid ""
 msgstr ""
 "Indiferent cât de bun este robotul tău, acesta reprezintă doar 50% din ecuație. Pilotul(Piloții) reprezintă cealaltă\n"
 "jumătate, care determină succesul echipei în ansamblu. Chiar dacă robotul dvs. este cel mai bun din lume, un robot inferior cu o echipă de piloți competentă va învinge, mai mult ca sigur, robotul dvs. cu o echipă de piloți slabă. Până la campionatele mondiale din aprilie, majoritatea echipelor de top au efectuat sute de meciuri de antrenament."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:146
+msgid ""
+"This gives some obvious advantages compared to a team with lesser practice."
+msgstr ""
+"Acest lucru oferă câteva avantaje evidente în comparație cu o echipă cu mai "
+"puțină pregătită."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:148
+msgid ""
+"The driver(s) are totally familiar with handling the robot in every "
+"situation."
+msgstr ""
+"Driverul (driverii) sunt complet familiarizați cu manevrarea robotului în "
+"orice situație."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:150
+msgid ""
+"The robot is proven to be reliable enough to survive hours of operation."
+msgstr ""
+"Robotul s-a dovedit a fi suficient de fiabil pentru a supraviețui ore "
+"întregi de funcționare."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:151
+msgid ""
+"The immense data that teams gather from test runs are used to optimize every"
+" element of the robot."
+msgstr ""
+"Datele  pe care echipele le adună în urma testelor sunt folosite pentru a "
+"optimiza fiecare element al robotului."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:153
+msgid ""
+"Driver practice not only familiarizes the driver(s) with the robot and "
+"serves as a test of robot reliability, it also simulates in-game conditions."
+" **Learning to push the limits of your robot should be done during practice,"
+" not at a competition.** This way, drivers will become more comfortable "
+"driving under stress and pressure. Teams with intensive driver practice will"
+" purposely make things more difficult (such as placing a disabled robot in "
+"the middle of the field or unplugging a drivetrain motor)."
+msgstr ""
+"Practica driverului nu numai că îl familiarizează pe acesta cu robotul, dar "
+"servește ca test de fiabilitate a robotului, ci simulează și condițiile din "
+"timpul jocului. **Limitele robotului ar trebui să fie aflate în timpul "
+"antrenamentelor, nu la o competiție.** În acest fel, driverii vor deveni mai"
+" confortabili la condus în condiții de stres și presiune. Echipele cu un "
+"antrenament intensiv al driverilor vor face în mod intenționat lucrurile mai"
+" dificile (cum ar fi plasarea unui robot dezactivat în mijlocul terenului "
+"sau deconectarea unui motor de transmisie)."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:155
+msgid ""
+"While this may seem extreme, it is really just a form of preparedness. If "
+"your driver doesn't know how to react, then you need more drive practice."
+msgstr ""
+"Deși acest lucru poate părea extrem, este de fapt doar o formă de pregătire."
+" Dacă driverul dvs. nu știe cum să reacționeze, atunci aveți nevoie de mai "
+"multă practică de conducere."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:158
+msgid "No game strategy → Strategic driving"
+msgstr "Fără strategie de joc → Conducere strategică"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:160
+msgid ""
+"Similar to drive practice, this is something that many inexperienced teams "
+"ignore. A sports example is handy - even with the most talented players, a "
+"team won’t go far without good game strategy."
+msgstr ""
+"La fel ca în cazul antrenamentelor de conducere, acesta este un aspect pe "
+"care multe echipe neexperimentate îl ignoră. Un exemplu sportiv este la "
+"îndemână - chiar și cu cei mai talentați jucători, o echipă nu va ajunge "
+"departe fără o bună strategie de joc."
