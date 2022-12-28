@@ -4,20 +4,169 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mihail Cimpoiasu, 2022
 # Stefania Cernat, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-04 05:00+0000\n"
+"POT-Creation-Date: 2022-12-28 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Stefania Cernat, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:2
+msgid "Sample Drivetrains"
+msgstr "Exemple de Șasiuri"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:4
+msgid ""
+"In this section, we compile several sample drivetrains which you can use as "
+"a starting point for your own designs. You should also check the "
+":doc:`gallery of robot designs </docs/appendix/gallery>` in the Appendix."
+msgstr ""
+"În această secțiune, am adunat mai multe exemple de șasiuri pe care le "
+"puteți folosi ca punct de plecare pentru propriile design-uri. De asemenea, "
+"ar trebui să consultați :doc:`galerie de design-uri de roboți "
+"</docs/appendix/gallery>` din anexă."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:6
+msgid ""
+"`goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit-v4/>`_"
+msgstr "`goBILDA Strafer <https://www.gobilda.com/strafer-chassis-kit-v4/>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:7
+msgid ""
+"Basic mecanum chassis by goBILDA. Simple and easy to build chassis, "
+"providing an excellent starting point for robots built from goBILDA parts."
+msgstr ""
+"Șasiu mecanum de la goBILDA. Șasiu simplu și ușor de asamblat, oferind un "
+"punct de plecare excelent pentru roboții construiți din piese goBILDA."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:8
+msgid ""
+"`goBILDA BeeLine Chassis <https://www.gobilda.com/beeline-chassis-kit/>`_"
+msgstr "`goBILDA BeeLine <https://www.gobilda.com/beeline-chassis- kit/>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:9
+msgid ""
+"Basic 6 wheel drive chassis by goBILDA. Simple and easy to build chassis, "
+"providing an excellent starting point for robots built from goBILDA parts."
+msgstr ""
+"Șasiu cu 6 roți de la goBILDA. Șasiu simplu și ușor de asamblat, oferind un "
+"punct de plecare excelent pentru roboții construiți din piese goBILDA."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:11
+msgid ""
+"`Strafer chassis with Dead Wheels "
+"<https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_"
+msgstr ""
+"`Șasiu Strafer cu Dead Wheels "
+"<https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:11
+msgid ""
+"Modification of goBILDA chassis by FTC 9794 Wizards.exe, which adds "
+":term:`dead wheels <Dead Wheel>`. Also see their video tutorials: "
+"https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp"
+msgstr ""
+"Modificarea șasiului goBILDA de către FTC 9794 Wizards.exe, care adaugă "
+":term:`roți moarte <Dead Wheel>`. Vezi și tutorialele lor: "
+"https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:13
+msgid ""
+"`REV Robotics 6 wheel drivetrain <https://docs.revrobotics.com/duo-"
+"build/channel-drivetrain-build-guide>`_"
+msgstr ""
+"`REV Robotics șasiu cu 6 roți <https://docs.revrobotics.com/duo-"
+"build/channel-drivetrain-build-guide>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:14
+msgid "Sample 6 wheel drivetrain built using REV kit."
+msgstr "Exemplu de șasiu cu 6 roți construit cu ajutorul kitului REV."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:15
+msgid ""
+"`AndyMark Tile Runner chassis <https://www.andymark.com/products/tilerunner-"
+"options>`_"
+msgstr ""
+"`AndyMark Tile Runner <https://www.andymark.com/products/tilerunner-"
+"options>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:16
+msgid ""
+"A universal chassis kit sold by AndyMark. It is available in several "
+"modifications: 6 wheel, mecanum, tank tread. It is expensive, but using "
+"provided 3d models as inspiration for your own drivetrain is free."
+msgstr ""
+"Un kit de șasiu universal vândut de AndyMark. Este disponibil în mai multe "
+"variante de modificare: 6 roți, mecanum, tank. Este scump, dar folosirea "
+"modelelor 3d furnizate ca sursă de inspirație pentru propriul sistem de "
+"transmisie este gratuit."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:17
+msgid ""
+"`Wizards.exe 6 wheel drive chassis "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+msgstr ""
+"`Wizards.exe Șasiu cu 6 roți "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:18
+msgid ""
+"Another design by FTC 9794 Wizards.exe. Combines custom side panels with "
+"Actobotics parts (gears, chain sprockets)."
+msgstr ""
+"Un alt design de FTC 9794 Wizards.exe. Combină panouri laterale "
+"personalizate cu piese Actobotics (angrenaje, pinioane de lanț)."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:20
+msgid ""
+"`Custom drivetrain by FTC 14875 LightSpeed "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+msgstr ""
+"`Șasiu personalizat de FTC 14875 LightSpeed "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:20
+msgid ""
+"This design uses goBILDA mecanum wheels, motors, and some channels combined "
+"with custom side plates. Take a look at this `computer-generated render "
+"<https://drive.google.com/file/d/1M8uj4QQUywU-"
+"_Y99aHIRolac_y93Jcq0/view?usp=drive_open>`_."
+msgstr ""
+"Acest design utilizează roți mecanum goBILDA, motoare și câteva profile "
+"combinate cu plăci laterale personalizate. Aruncați o privire la această "
+"`randare generată <https://drive.google.com/file/d/1M8uj4QQUywU-"
+"_Y99aHIRolac_y93Jcq0/view?usp=drive_open>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:24
+msgid ""
+"`NX VANTAGE-H "
+"<https://cad.onshape.com/documents/3d22333d5ba0abcc62edb57e/w/fa027f644666441544a378c6/e/693039a92658a00632996b28>`_"
+msgstr ""
+"`NX VANTAGE-H "
+"<https://cad.onshape.com/documents/3d22333d5ba0abcc62edb57e/w/fa027f644666441544a378c6/e/693039a92658a00632996b28>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:23
+msgid ""
+"Another custom drivetrain using goBILDA mecanum wheels, by redditor "
+"/u/nateless. Note that this design can be viewed but not downloaded---this "
+"is intentional; see his `original reddit post "
+"<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_."
+msgstr ""
+"Un alt șasiu personalizat folosind roți goBILDA mecanum, de către redditorul"
+" /u/nateless. Rețineți că acest design poate fi vizualizat, dar nu și "
+"descărcat - acest lucru este intenționat; vedeți postarea sa `originală pe "
+"reddit "
+"<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_."

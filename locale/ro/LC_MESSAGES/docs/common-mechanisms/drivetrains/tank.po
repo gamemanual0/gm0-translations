@@ -5,18 +5,401 @@
 # 
 # Translators:
 # Bianca Carstea, 2022
+# Mihail Cimpoiasu, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 05:20+0000\n"
+"POT-Creation-Date: 2022-12-28 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Bianca Carstea, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:4
+msgid "Tank (Skid-Steer) Drivetrains"
+msgstr "Șasiuri Tank (Skid-Steer)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:7
+msgid "2 Wheel Drive (Pushbot Drive)"
+msgstr "Tracțiune pe 2 roți (Pushbot Drive)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:9
+msgid "**Recommended only for first drivetrain, not for competitions**"
+msgstr "**Recomandat doar pentru șasiu, nu pentru competiții**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:11
+msgid ""
+"This rookie drivetrain is considered one of the inferior drivetrains, though"
+" it is usable at low competition levels. This is the introductory drivetrain"
+" type for many rookies, as it is promoted in official guides published by "
+"*FIRST*\\ |reg| (giving it the name pushbot). It often has :term:`direct "
+"driven <Direct Drive>` :term:`traction wheels <Traction wheel>` with "
+"unpowered :term:`omni wheels <Omni Wheel>`."
+msgstr ""
+"Aceast șasiu pentru începători este considerat unu; dintre cele mai slabe "
+"transmisii, deși este utilizabilă la niveluri de competiție scăzute. Acesta "
+"este tipul de șasiu introductiv pentru mulți începători, deoarece este "
+"promovat în ghidurile oficiale publicate de *FIRST* |reg| (ceea ce îi "
+"conferă numele de pushbot). Adesea are :term:`direct driven <Direct Drive>` "
+":term:` traction wheels<Traction wheel> ` cu :term:`omni wheels<Omni Wheel> "
+"` nealimentate."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:13
+msgid ""
+"This type of drivetrain has poor turning as the center of turning is at the "
+"back of the robot between the two powered wheels. In comparison to other "
+"drivetrains, it has poor acceleration due to only using two motors."
+msgstr ""
+"Acest șasiu virează slab, deoarece centrul de virare se află în partea din "
+"spate a robotului, între cele două roți motoare. În comparație cu alte "
+"șasiu, accelerația este slabă din cauza utilizării a numai două motoare."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:15
+msgid ""
+"Even though it may not be an optimal drivetrain, it is still possible to be "
+"competitive as long as the drivetrain is reliable. As a consensus, we would "
+"advise every new team to build the pushbot primarily to learn how to build "
+"with a kit. The pushbot is a good starting point and helps the team get "
+"familiarized with using kit parts, attaching wheels, mounting motors, etc. "
+"However, it is subpar to every other drivetrain in a competitive context."
+msgstr ""
+"Chiar dacă nu este un șasiu optim, este posibil să fie competitivi, atâta "
+"timp cât sistemul de propulsie este fiabil. Ca un consens, sfătuim ca "
+"fiecare echipă nouă să construiască pushbotul în primul rând pentru a învăța"
+" cum să construiască cu un kit. Pushbot-ul este un bun punct de plecare și "
+"ajută echipa să se familiarizeze cu utilizarea pieselor din kit, cu atașarea"
+" roților, cu montarea motoarelor etc. Cu toate acestea, este sub nivelul "
+"oricărui alt șasiu într-un context competitiv."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:17
+msgid ""
+"While the pushbot is a good first drivetrain for new teams to get acquainted"
+" with the kit, it is recommended that teams move away from this drivetrain "
+"when building their competition robot."
+msgstr ""
+"În timp ce pushbot este un prim șasiu bun pentru echipele noi pentru a se "
+"familiariza cu kitul, se recomandă ca echipele să renunțe la această "
+"transmisie atunci când își construiesc robotul de competiție."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:20
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:71
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:153
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:228
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:265
+msgid "Advantages"
+msgstr "Avantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:22
+msgid "Most simple drivetrain to build"
+msgstr "Cel mai simplu șasiu de construit"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:23
+msgid "No need to worry about powering all four wheels"
+msgstr ""
+"Nu trebuie să vă faceți griji cu privire la punerea în mișcare a tuturor "
+"celor patru roți"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:26
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:79
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:161
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:236
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:271
+msgid "Disadvantages"
+msgstr "Dezavantaje"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:28
+msgid "Slower than other options"
+msgstr "Mai lent decât alte opțiuni"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:29
+msgid "Underpowered (all other drivetrain options typically use 4 motors)"
+msgstr ""
+"Subalimentat (toate celelalte opțiuni de transmisie folosesc de obicei 4 "
+"motoare)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:30
+msgid ""
+"Uses the Tetrix MAX motor, which is prone to burning out easily, is "
+"underpowered, and has a fragile gearbox."
+msgstr ""
+"Folosește motorul Tetrix MAX, care este predispus să se ardă cu ușurință, "
+"este insuficient de puternic și are un reductor fragil."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:31
+msgid "Lacks agility and maneuverability due to 2 motor turning"
+msgstr ""
+"Lipsește agilitatea și manevrabilitatea din cauza celor 2 motoare care se "
+"rotesc"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:32
+msgid "Poor acceleration due to 2 motors"
+msgstr "Accelerație slabă din cauza celor 2 motoare"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:33
+msgid ""
+"Often :term:`direct driven <Direct Drive>`, which is highly discouraged for "
+"drivetrains"
+msgstr ""
+"Adesea asamblat :term:`direct driven<Direct Drive>`, ceea ce este extrem de "
+"descurajat în cazul transmisiilor."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
+msgid "Tetrix pushbot"
+msgstr "Tetrix pushbot"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
+msgid "Example pushbot drivetrain included in the starter FTC guide"
+msgstr "Exemplu de șasiu pushbot inclus în ghidul FTC pentru începători"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:42
+msgid "4 Wheel Drive"
+msgstr "Tracțiune pe 4 roți"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:44
+msgid ""
+"In its most common form, the drivetrain uses the same wheel layout as the "
+"two wheel drivetrain (2 traction wheels in the back, 2 omnis in the front), "
+"but with one notable difference: **all four wheels are powered**."
+msgstr ""
+"În forma sa cea mai obișnuită, șasiul utilizează acelaș layout al roților ca"
+" și șasiul pe două roți (2 roți de tracțiune în spate, 2 roți "
+"omnidirecționale în față), dar cu o diferență notabilă: **toate cele patru "
+"roți sunt acționate**."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:46
+msgid ""
+"Some teams will put all four traction wheels or use all four omni wheels. It"
+" is not suggested to use all 4 traction wheels due to poor turning that "
+"results in this setup. This is caused by wheel scrub. Using omni wheels for "
+"all four wheels will result in incredible turning, with the robot rotating "
+"around its center."
+msgstr ""
+"Unele echipe vor pune toate cele patru roți de tracțiune sau vor folosi "
+"toate cele patru roți omni. Nu se sugerează utilizarea tuturor celor 4 roți "
+"de tracțiune din cauza virajelor slabe care rezultă în această configurație."
+" Acest lucru este cauzat de frecarea roților. Folosirea roților omni pentru "
+"toate cele patru roți va avea ca rezultat o întoarcere incredibilă, robotul "
+"rotindu-se în jurul centrului său."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:48
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:61
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:137
+msgid "Term"
+msgstr "Termeni"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:51
+msgid "Wheel scrub"
+msgstr "Frecarea roților"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:53
+msgid ""
+"Wheel scrub refers to friction between the side of the wheel and the floor "
+"tile. It inhibits turning as the drivetrain must overcome this frictional "
+"force in order to turn the robot. Wheel scrub is most common on 4 or 6 wheel"
+" tank drivetrains that do not have a :term:`center drop <Drop Center>`."
+msgstr ""
+"Frecarea roților se referă la frecarea dintre partea laterală a roții și "
+"tile. Aceasta împiedică rotirea, deoarece sistemul de transmisie trebuie să "
+"depășească această forță de frecare pentru a roti robotul. Frecarea roților "
+"este cel mai frecventă la trenurile de rulare cu 4 sau 6 roți care nu au un "
+":term:`center drop<Drop Center>`."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:55
+msgid ""
+"However, this advantage comes with a major loss of traction. For these "
+"reasons, many teams choose to use two traction wheels and two omni wheels "
+"for a balance between quick turning and traction. The primary advantage of "
+"this drivetrain over other tank drivetrains is its ability to easily move "
+"across raised terrain when the bot’s center is raised above the terrain."
+msgstr ""
+"Cu toate acestea, acest avantaj vine cu o pierdere majoră de tracțiune. Din "
+"aceste motive, multe echipe aleg să folosească două roți de tracțiune și "
+"două roți omni pentru un echilibru între virajul rapid și tracțiune. "
+"Principalul avantaj al acestei transmisii față de alte transmisii de tancuri"
+" este capacitatea sa de a se deplasa cu ușurință pe un teren ridicat atunci "
+"când centrul bot-ului este ridicat deasupra terenului."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:57
+msgid ""
+"It is suggested that a four wheel drivetrain be close to, or exactly, a "
+"square. Otherwise, one may encounter problems turning."
+msgstr ""
+"Se sugerează ca un șasiu pe patru roți să fie aproape sau chiar exact un "
+"pătrat. În caz contrar, se pot întâmpina probleme la întoarcere."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:59
+msgid ""
+":term:`Weight distribution` is furthermore a large factor that should be "
+"considered: the more weight in the back, the better."
+msgstr ""
+":term:`Distribuția greutății` este, de asemenea, un factor important care "
+"trebuie luat în considerare: cu cât mai multă greutate în spate, cu atât mai"
+" bine."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:64
+msgid "Weight distribution"
+msgstr "Distribuția greutății"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:66
+msgid ""
+"Weight distribution generally refers to how the weight of the robot is "
+"proportioned. It is desirable to have a relatively 50-50 (50% of weight in "
+"the front half, 50% in back half) so that the drivetrain has optimal "
+"manuverability and turning."
+msgstr ""
+"Distribuția greutății se referă, în general, la modul în care este "
+"proporționată greutatea robotului. Este de dorit să existe o proporție "
+"relativ 50-50 (50% din greutate în jumătatea din față, 50% în jumătatea din "
+"spate), astfel încât șasiul să aibă o manevrabilitate și o capacitate de "
+"virare optimă."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:68
+msgid ""
+"Off-center turning, which may or may not be a drawback, is nearly ubiquitous"
+" among 4 wheel drives. This may not be a problem for teams, but it is good "
+"to be aware of it. Off-center turning can be an advantage, but be warned "
+"that turning will be slightly slower on 4 wheel drives than their six or "
+"eight wheel counterparts."
+msgstr ""
+"Întoarcerea descentrată, care poate fi sau nu un dezavantaj, este aproape "
+"omniprezentă în cazul șasiurilor cu tracțiune integrală. Este posibil ca "
+"acest lucru să nu fie o problemă pentru echipe, dar este bine să fie "
+"conștientizat. Întoarcerea descentrată poate fi un avantaj, dar vă avertizăm"
+" că întoarcerea va fi ușor mai lentă la șasiurile cu 4 roți decât la cele cu"
+" 6 sau 8 roți."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:73
+msgid "More maneuverable than 2WD"
+msgstr "Mai ușor de manevrat decât 2WD"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:74
+msgid "Solid acceleration and traction"
+msgstr "Accelerație și tracțiune solide"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:75
+msgid "Can traverse terrain if the chassis is raised high enough"
+msgstr "Poate traversa terenul dacă șasiul este ridicat suficient de sus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:76
+msgid "Good pushing power for defense, yet maneuverable enough to avoid it"
+msgstr ""
+"Putere bună de împingere pentru defense, dar suficient de manevrabil pentru "
+"a evita"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:81
+msgid "Can tip more easily than 6WD/8WD with a high center of mass"
+msgstr ""
+"Se poate răsturna mai ușor decât 6WD/8WD cu un centru de greutate ridicat"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:82
+msgid "All traction wheel 4WD can have decreased maneuverability"
+msgstr "Toate roțile de tracțiune 4WD pot avea o manevrabilitate redusă"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:83
+msgid ""
+"Weight distribution factors into the turning point and turning radius of the"
+" robot"
+msgstr ""
+"Distribuția greutății influențează punctul de întoarcere și raza de "
+"întoarcere a robotului."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "CAD Examples of Four Wheel Drive (Click to expand)"
+msgstr "Exemple CAD de tracțiune pe patru roți (Click pentru a extinde)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "goBILDA COTS"
+msgstr "goBILDA COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:96
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
+msgstr ""
+"`Click aici pentru a explora acest model în OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "REV COTS"
+msgstr "REV COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:104
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
+msgstr ""
+"`Click aici pentru a explora acest model în OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "goBILDA Custom"
+msgstr "goBILDA Custom"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:112
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
+msgstr ""
+"`Click aici pentru a explora acest model în OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "REV Custom"
+msgstr "REV Custom"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:120
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>`__"
+msgstr ""
+"`Click aici pentru a explora acest model în OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:125
+msgid "7209 Tech Hog's Relic Recovery Robot"
+msgstr "7209 Tech Hog's Relic Recovery Robot"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:125
+msgid "7209 Tech Hogs, Relic Recovery"
+msgstr "7209 Tech Hogs, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
+msgid "10641 Atomic Gear's 4WD on a table"
+msgstr "10641 Atomic Gear's 4WD"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
+msgid "10641 Atomic Gears, Rover Ruckus"
+msgstr "10641 Atomic Gears, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:133
+msgid "6 Wheel Drive (6WD)"
+msgstr "Tracțiune pe 6 roți (6WD)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:135
+msgid ""
+"A 6 wheel drivetrain is a common competitive drivetrain in FTC for multiple "
+"reasons: it has fantastic traction, great turning, and by having 6 wheels, "
+"the drivetrain has more contact with the ground, helping with stability and "
+"traction. There are two main types of 6 wheel drivetrains: ones with "
+"**corner omnis** and ones with a **drop center**."
+msgstr ""
+"Un șasiu cu 6 roți este un șasiu competitiv comun în FTC din mai multe "
+"motive: are o tracțiune fantastică, se întoarce foarte bine și, având 6 "
+"roți, șasiul are mai mult contact cu solul, ceea ce ajută la stabilitate și "
+"tracțiune. Există două tipuri principale de sasiu cu 6 roți: cele cu **omni-"
+"uri în colțuri** și cele cu **drop center**."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:140
+msgid "**Drop Center**"
+msgstr "**Drop Center**"
