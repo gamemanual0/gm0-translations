@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-18 04:13+0000\n"
+"POT-Creation-Date: 2022-12-29 04:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -256,3 +256,322 @@ msgid ""
 msgstr ""
 "Numărul de sfori necesare pentru extindere este egal cu numărul de etaje din"
 " sistem."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:64
+msgid ""
+"When the motor rotates one direction, the extension spool reels in the first"
+" string, decreasing the distance between the base and the bottom of the "
+"first stage. This pushes the second string forward, decreasing the distance "
+"between the top of the first stage and the bottom of the second stage, and "
+"so on. Note that unlike continuous rigging, **every stage moves at the same "
+"time**. The second stage moves 2 times as fast as the first stage relative "
+"to the base, the third 3 times as fast, and so on."
+msgstr ""
+"Atunci când motorul se rotește într-o direcție, bobina de extensie înfășoară"
+" prima sfoară, micșorând distanța dintre bază și partea inferioară a "
+"primului etaj. Acest lucru împinge a doua sfoară înainte, reducând distanța "
+"dintre partea superioară a primului nivel și partea inferioară a celui de-al"
+" doilea nivel, și așa mai departe. Rețineți că, spre deosebire de rigging-ul"
+" continuu, **toate etapele se mișcă în același timp**. A doua treaptă se "
+"mișcă de 2 ori mai repede decât prima treaptă în raport cu baza, a treia de "
+"3 ori mai repede, și așa mai departe."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:66
+msgid ""
+"A cascaded system can be retracted in three ways: using continuous "
+"retraction, elastic retraction, or reverse-cascade retraction."
+msgstr ""
+"Un sistem în cascadă poate fi retractat în trei moduri: folosind retracție "
+"continuă, elastică, sau în cascadă inversă."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:71
+msgid "A diagram of cascade rigging"
+msgstr "O schemă de legare în cascadă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:71
+msgid "Cascade rigging diagram"
+msgstr "Schemă legare în cascadă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:74
+msgid "Retraction Options"
+msgstr "Opțiuni de retracție"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:77
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:86
+msgid "Continuous Retraction"
+msgstr "Retragere continuă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:79
+msgid ""
+"As the name suggests, continuous retraction utilizes inverted continuous "
+"rigging to retract the slides. There are two main methods of doing this, "
+"**free floating retraction** where a string is run from the last stage "
+"directly back to the spool, and **with slide retraction** where the string "
+"is run in an inverse continuous pattern. Generally, **with slide "
+"retraction** should be used with extensions going outside the robot frame to"
+" prevent entanglement, and **free floating retraction** should only be used "
+"with purely vertical slides."
+msgstr ""
+"După cum sugerează și numele, retracția continuă utilizează un sistem "
+"continuu inversat pentru a retrage glisierele. Există două metode principale"
+" de a face acest lucru: **retragere cu flotare liberă**, în care un șir este"
+" parcurs de la ultima treaptă direct înapoi la bobină, și **retragere cu "
+"glisiere**, în care șirul este parcurs într-un model continuu invers. În "
+"general, **cu retracție cu alunecare** trebuie utilizată cu extensii care "
+"ies în afara cadrului robotului pentru a preveni încâlcirea, iar **retracția"
+" cu flotare liberă** trebuie utilizată numai cu alunecări pur verticale."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:81
+msgid ""
+"If continuous retraction is being used with cascade extension, the two "
+"spools cannot be the same diameter. If the variable :math:`N` is the number "
+"of stages in the system, the diameter of the cascade extension spool must be"
+" :math:`N` **times smaller** than the continuous retraction spool."
+msgstr ""
+"În cazul în care se utilizează retracția continuă cu extensia în cascadă, "
+"cele două bobine nu pot avea același diametru. Dacă variabila :math:`N` este"
+" numărul de nivele din sistem, diametrul bobinei de extensie în cascadă "
+"trebuie să fie :math:`N` **de două ori mai mic** decât cel al bobinei de "
+"retracție continuă."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:86
+msgid "A diagram of continuous retraction"
+msgstr "O diagramă de retragere continuă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:88
+msgid ""
+"If free floating retraction is used, **make sure your retract string is "
+"always parallel to the slides**. If the string is misaligned, it can pull on"
+" your slide and cause excess bending forces on the stages."
+msgstr ""
+"În cazul în care se utilizează retracția flotantă liberă, **asigurați-vă că "
+"sfoara de retracție este întotdeauna paralelă cu glisierele**. Dacă șnurul "
+"nu este aliniat, acesta poate trage de glisieră și poate cauza forțe de "
+"îndoire excesive asupra nivelelor."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:90
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:104
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:122
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:244
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:266
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:292
+msgid "Advantages:"
+msgstr "Avantaje:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:92
+msgid "Simplest retraction rigging"
+msgstr "Cea mai simplă schemă de retragere"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:94
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:109
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:127
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:250
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:271
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:297
+msgid "Disadvantages:"
+msgstr "Dezavantaje:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:96
+msgid "Can become tangled if free floating"
+msgstr "Poate deveni încurcat dacă plutește liber"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:97
+msgid "Requires different sized spools if used with cascade retraction"
+msgstr ""
+"Necesită bobine de dimensiuni diferite dacă se utilizează cu retracție în "
+"cascadă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:100
+msgid "Elastic Retraction"
+msgstr "Retragere elastică"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:102
+msgid ""
+"Instead of retracting using a retraction spool, one common way to retract is"
+" to attach a piece of elastic (commonly surgical tubing) to the last stage. "
+"The elastic applies a force on the last stage that is counteracted by the "
+"motor when extending. However, when retracting, the motor reels the last "
+"slide back in. While this is the retraction method recommended by many kit "
+"slide manuals, this method is not recommended."
+msgstr ""
+"În loc să se retragă cu ajutorul unei bobine de retragere, o modalitate "
+"obișnuită de retragere este de a atașa o bucată de elastic (de obicei tub "
+"chirurgical) la ultima etapă. Elasticul aplică o forță asupra ultimului "
+"nivel care este contracarată de către motor atunci când se extinde. Cu toate"
+" acestea, atunci când se retrage, motorul înfășoară înapoi ultima cursă. "
+"Deși aceasta este metoda de retragere recomandată de multe manuale de kituri"
+" de glisiere, această metodă nu este recomandată."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:106
+msgid ""
+"There is only one string to tension, instead of multiple, so tensioning is "
+"simpler."
+msgstr ""
+"Există doar o singură sfoară de tensionat, în loc de mai multe, astfel încât"
+" tensionarea este mai simplă."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:107
+msgid "The elastic automatically tensions the extension string."
+msgstr "Elasticul tensionează automat sfoara de extensie."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:111
+msgid ""
+"Since the elastic applies a force to the slide at all times, this force "
+"opposes the force applied by the motor when extending the slides. **Thus, "
+"elastic retraction decreases extension speed considerably**."
+msgstr ""
+"Deoarece elasticul aplică în permanență o forță asupra glisierei, această "
+"forță se opune forței aplicate de motor atunci când glisierele se extind. "
+"**Din acest motiv, retragerea elastică scade considerabil viteza de "
+"extensie**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:112
+msgid ""
+"The elastic does not apply a constant force at all times. It applies force "
+"proportional to the amount that the slide is extended, so retraction may not"
+" be smooth and controlled, like other rigging methods."
+msgstr ""
+"Elasticul nu aplică o forță constantă în orice moment. Acesta aplică o forță"
+" proporțională cu cantitatea de extensie a glisierei, astfel încât "
+"retragerea poate să nu fie lină și controlată, ca în cazul altor metode de "
+"legare."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:113
+msgid ""
+"It is very easy to unwind your extension spool when using elastic "
+"retraction."
+msgstr ""
+"Este foarte ușor să derulați bobina de extensie atunci când folosiți "
+"retragerea elastică."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:116
+msgid "Cascade Retraction"
+msgstr "Retragere în Cascadă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:118
+msgid ""
+"Cascade retraction entails simply rigging another set of cascade string that"
+" can retract the system when engaged (see the image below)."
+msgstr ""
+"Retragerea în cascadă presupune pur și simplu montarea unui alt set de sfori"
+" în cascadă care poate retrage sistemul atunci când este angrenat (a se "
+"vedea imaginea de mai jos)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:120
+msgid ""
+"If cascade retraction is being used with continuous extension, the two "
+"spools cannot be the same diameter. If the variable :math:`N` is the number "
+"of stages in the system, the diameter of the continuous extension spool must"
+" be :math:`N` **times bigger** than the cascade retraction spool."
+msgstr ""
+"În cazul în care se utilizează retracția în cascadă cu extensia continuă, "
+"cele două bobine nu pot avea același diametru. În cazul în care variabila "
+":math:`N` este numărul de etaje din sistem, diametrul bobinei de extensie "
+"continuă trebuie să fie :math:`N` **de două ori mai mare** decât cel al "
+"bobinei de retracție în cascadă."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:124
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
+msgid "Very space-efficient"
+msgstr "Foarte eficient din punct de vedere al spațiului"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:125
+msgid "All stages retract at the same speed at the same time"
+msgstr "Toate etapele se retrag la aceeași viteză și în același timp"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:129
+msgid ""
+"Requires more string (less strings to tension, less strings that can become "
+"loose)"
+msgstr ""
+"Necesită mai multe corzi (mai puține corzi de tensionat, mai puține corzi "
+"care se pot slăbi)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:130
+msgid "Requires different sized spools if used with cascade extension"
+msgstr ""
+"Necesită bobine de dimensiuni diferite dacă se utilizează cu extensia în "
+"cascadă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:136
+msgid "A diagram of cascade retraction"
+msgstr "O diagramă de retragere în cascadă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:136
+msgid "Cascade retraction"
+msgstr "Retracția în cascadă"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:138
+msgid "Additional Considerations:"
+msgstr "Considerații suplimentare:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:140
+msgid ""
+"If the system has only one stage, cascade rigging is **identical to "
+"continuous rigging**"
+msgstr ""
+"În cazul în care sistemul are doar o singură etapă, legarea în cascadă este "
+"**identică cu legarea continuă**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:141
+msgid ""
+"Unlike continuous rigging, each time a new stage is added to a cascaded "
+"system, the gear ratio required to maintain the same extension speed "
+"increases. For instance, if 2 stages are added to a 1 stage cascaded lift "
+"that is geared at a ratio of 3:1, the ratio must increase by a factor of "
+":math:`\\frac{2+1}{1}` to maintain the same speed, changing the ratio to "
+"9:1."
+msgstr ""
+"Spre deosebire de un montaj continuu, de fiecare dată când se adaugă o nouă "
+"etapă la un sistem în cascadă, raportul de transmisie necesar pentru a "
+"menține aceeași viteză de extensie crește. De exemplu, dacă se adaugă 2 "
+"nivele la un sistem de ridicare în cascadă cu 1 etaj care este angrenat la "
+"un raport de 3:1, raportul trebuie să crească cu un factor de "
+":math:`\\frac{2+1}{1}` pentru a menține aceeași viteză, schimbând raportul "
+"la 9:1."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:142
+msgid ""
+"One disadvantage of cascade rigging is that each string must be kept "
+"tensioned. This is still the case with continuous rigging, but you have many"
+" more strings to keep track of, as tension must be maintained on all of "
+"them."
+msgstr ""
+"Un dezavantaj al montajului în cascadă este că fiecare sfoară trebuie să fie"
+" ținută tensionată. Acest lucru este valabil și în cazul montajului "
+"continuu, dar aveți mult mai multe corzi de urmărit, deoarece tensiunea "
+"trebuie menținută pe toate."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:147
+msgid "Belt-driven slides"
+msgstr "Glisiere acționate cu curea"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:149
+msgid ""
+"One increasingly popular alternative to traditional string-based rigging is "
+"belt-driven slides. This can be done continuously or using cascade rigging."
+msgstr ""
+"O alternativă din ce în ce mai populară la montajele tradiționale pe bază de"
+" sfori este reprezentată de glisierele acționate cu curele. Acest lucru se "
+"poate face în mod continuu sau prin intermediul unui montaj în cascadă."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:152
+msgid "Advantages over string"
+msgstr "Avantaje față de sfoară"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:154
+msgid ""
+"Unlike string, belts used on slides never need to be tensioned. As discussed"
+" in the linear motion section, in order for string-driven slides to remain "
+"efficient, string tension must be maintained. Naturally, string loosens over"
+" time, so you either need a mechanism that can provide extra tension (a "
+"spring) or manually tighten string, which can get a bit tedious (especially "
+"for cascade rigging)."
+msgstr ""
+"Spre deosebire de sfori, curelele utilizate pe glisiere nu trebuie niciodată"
+" tensionate. După cum s-a discutat în secțiunea privind mișcarea liniară, "
+"pentru ca glisierele acționate de șiruri să rămână eficiente, trebuie "
+"menținută tensiunea acestora. În mod natural, coarda se slăbește în timp, "
+"așa că aveți nevoie fie de un mecanism care să asigure o tensiune "
+"suplimentară (un resort), fie să strângeți manual coarda, ceea ce poate "
+"deveni puțin plictisitor (în special pentru montajul în cascadă)."
