@@ -488,12 +488,6 @@ source_file  = locale/pot/docs/power-and-electronics/servo-guide/index.pot
 type         = PO
 minimum_perc = 0
 
-[o:gamemanual0:p:gm0:r:docs--power-and-electronics--servo-guide--specialty-servos]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/specialty-servos.po
-source_file  = locale/pot/docs/power-and-electronics/servo-guide/specialty-servos.pot
-type         = PO
-minimum_perc = 0
-
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--servo-guide--usage-tips]
 file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/usage-tips.po
 source_file  = locale/pot/docs/power-and-electronics/servo-guide/usage-tips.pot
