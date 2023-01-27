@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Stefania Cernat, 2022
-# Mihail Cimpoiasu, 2022
+# Mihail Cimpoiasu, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-03 04:57+0000\n"
+"POT-Creation-Date: 2023-01-27 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Mihail Cimpoiasu, 2022\n"
+"Last-Translator: Mihail Cimpoiasu, 2023\n"
 "Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,3 +25,302 @@ msgstr ""
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:4
 msgid "CAD Tutorials"
 msgstr "Tutoriale CAD"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:7
+msgid "CAD Tutorial Part 1 - Drivetrain in an Hour"
+msgstr "Tutorial CAD Partea 1 - Șasiu într-o Oră"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:10
+msgid "Choosing the Drivetrain"
+msgstr "Alegerea șasiului"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:12
+msgid ""
+"After learning your :term:`CAD <Computer-aided design (CAD)>` program of "
+"choice, determine the necessary requirements for the drivetrain based on the"
+" current game. Teams should shoot for the wheelbase that works the best in "
+"that specific field’s layout."
+msgstr ""
+"După ce ați învățat programul :term:`CAD  <Computer-aided design (CAD)>` "
+"ales, determinați cerințele necesare pentru sistemul de transmisie pe baza "
+"jocului actual. Echipele ar trebui să se orienteze către ampatamentul care "
+"funcționează cel mai bine în configurația specifică a terenului respectiv."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:14
+msgid ""
+"For instance, in Relic Recovery (2017-2018) a drivetrain required precision "
+"to not only grab glyphs from the center pit, but also to line up against the"
+" cryptobox. Thus, mecanum wheels and a wide center section of the robot "
+"proved an advantage over a 6 wheel tank drive. (However, it should be noted "
+"that with sufficient practice and competent drivers, any drive base can be "
+"competitive up to a certain extent)."
+msgstr ""
+"De exemplu, în Relic Recovery (2017-2018), un șasiu a necesitat precizie nu "
+"doar pentru a lua glife din zona centrală, ci și pentru a se alinia la "
+"cryptobox. Astfel, roțile mecanum și o secțiune centrală largă a robotului "
+"s-au dovedit a fi un avantaj comparativ cu o tracțiune alcătuită din 6 roți."
+" (Cu toate acestea, trebuie remarcat faptul că, cu suficientă practică și "
+"piloți competenți, orice șasiu se poate ridica la un nivel înalt într-o "
+"anumită măsură)."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:16
+msgid ""
+"After selecting a drivebase, determine the number of motors. Keep in mind "
+"the eight motor limit is a pain that shouldn't be ignored. A good rule of "
+"thumb is four motors for driving and four motors for the other mechanisms "
+"(e.g. intakes, linear slides, arm, etc.) For most modern FTC games, you need"
+" minimum 7 motors to be highly competitive, although 8 is a good rule of "
+"thumb."
+msgstr ""
+"După selectarea unui șasiu, determinați numărul de motoare. Rețineți că "
+"limita de opt motoare este o cerintă care nu trebuie ignorată. Un sfat este "
+"sa folosești patru motoare pentru transmisie și patru motoare pentru "
+"celelalte mecanisme (de exemplu intake, glisiere liniare, braț etc.) Pentru "
+"majoritatea jocurilor FTC moderne, aveți nevoie de minimum 7 motoare pentru "
+"a fi foarte competitivi, deși 8 este o bună regulă de bază."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:19
+msgid "Designing the Drivetrain Plates"
+msgstr "Proiectarea plăcilor de șasiu"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:21
+msgid ""
+"After learning the CAD software, it's time to start the actual design. Here "
+"are some things to figure out before starting:"
+msgstr ""
+"După ce ați învățat software-ul CAD, este timpul să începeți proiectarea "
+"propriu-zisă. Iată câteva lucruri la care trebuie să vă gândiți înainte de a"
+" începe:"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:23
+msgid "Drive Type (mecanum, 6wd, 8wd, etc.)"
+msgstr "Tipul de șasiu (mecanum, 6wd, 8wd, etc.)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:24
+msgid "Number of Motors (four motors recommended in most cases)"
+msgstr ""
+"Numărul de motoare (patru motoare recomandate în majoritatea cazurilor)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:25
+msgid ""
+"Type of wheels (:term:`Traction <Traction Wheel>`, :term:`omni <Omni "
+"Wheel>`, etc.)"
+msgstr ""
+"Tipul de roți (:term:`Tractiune <Traction Wheel>`, :term:`omni <Omni "
+"Wheel>`, etc.)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:26
+msgid ""
+"Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, :term:`gear "
+"<Gear>`)"
+msgstr ""
+"Distribuție a puterii (:term:`curea <HTD Belt>`, :term:`lanț <Sprocket>`, "
+":term:`agrenaj <Gear>`)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:28
+msgid ""
+"To keep it simple, this example uses a 4 wheel tank drive using four motors."
+" The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to "
+"aid in turning."
+msgstr ""
+"Pentru a simplifica lucrurile, acest exemplu utilizează un șasiu pe 4 roți, "
+"folosind patru motoare. Roțile selectate sunt 2 roți Colson pentru tracțiune"
+" și 2 roți omni pentru a ajuta la întoarcere."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:30
+msgid ""
+"First, make the left side of the drivebase. After completing it, all you "
+"have to do is mirror the left side to the right, so you don’t have to do "
+"each side individually. Start with a 2D sketch of everything before trying "
+"to extrude and make actual 3D objects."
+msgstr ""
+"Mai întâi, faceți partea stângă a șasiului. După ce o finalizați, tot ce "
+"trebuie să faceți este să oglindiți partea stângă în dreapta, astfel încât "
+"să nu mai fie nevoie să faceți fiecare parte individual. Începeți cu o "
+"schiță 2D a tuturor lucrurilor înainte de a începe să faci obiecte 3D."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Drivetrain Plate Technical Drawing"
+msgstr "Desenul tehnic al plăcii de șasiu"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:36
+msgid ""
+"This is a sketch of the inner plate of the drive base. Everything should be "
+"laid out in a 2D sketch to determine the mounting holes, :term:`bore "
+"<Bore>`, :term:`center-to-center distance <C2C>`, etc. 2D sketches are "
+"extremely helpful and are highly recommended in any project. After the "
+"sketch is completed, everything else falls into place and becomes pretty "
+"simple."
+msgstr ""
+"Aceasta este o schiță a plăcii interioare a șasiului. Totul ar trebui să fie"
+" prezentat într-o schiță 2D pentru a determina găurile de montare, "
+":term:`alveolele <Bore>`, :term:`distanța între centre <C2C>`, etc. Schițele"
+" 2D sunt extrem de utile și sunt foarte recomandate în orice proiect. După "
+"ce schița este finalizată, toate celelalte lucruri se rezolvă de la sine, "
+"devenind totul destul de simplu."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:38
+msgid ""
+"After this, extrude that sketch into the first plate of the drivetrain. "
+"Typically, a standard thickness of aluminum plate is 1/8”. Thinner plate "
+"(3/32”) can be used as well, but generally most teams stick to 1/8”. Extrude"
+" the plate to that thickness. Below is the sketch after extruding."
+msgstr ""
+"După aceasta, preluați această schiță în prima placă a transmisiei. În mod "
+"obișnuit, grosimea standard a plăcii de aluminiu este de 1/8\". Se poate "
+"folosi și o placă mai subțire (3/32\"), dar, în general, majoritatea "
+"echipelor rămân la cea de 1/8\". Prelucrați placa la această grosime. Mai "
+"jos este schița după extrudare."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Inner Drivetrain Plate"
+msgstr "Placă interioară de șasiu"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:43
+msgid ""
+"The next step will be making the outer plate for the drivebase. It is even "
+"faster to do than the inner. To do this, simply create a new part. Go back "
+"to your inner plate and start a 2D sketch."
+msgstr ""
+"Următorul pas va fi realizarea plăcii exterioare pentru șasiu. Este chiar "
+"mai rapid de realizat decât cea interioară. Pentru a face acest lucru, "
+"creați pur și simplu o piesă nouă. Întoarceți-vă la placa interioară și "
+"începeți o schiță 2D."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Drivetrain Plate, with entire face seleected"
+msgstr "Placă de șasiu, cu întreaga față selectată"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:49
+msgid ""
+"After starting the new sketch on the inner plate, hit “Project Geometry” and"
+" just click anywhere on the part. It should highlight every outline of the "
+"part. (Shown here is a yellow line; yours might be red, blue or some other "
+"color.) Now click and drag across the part selecting every line on the "
+"screen. Now go hit CTRL + C, then go to the new part and hit create 2D "
+"Sketch. Next hit CTRL + V."
+msgstr ""
+"După ce ați început o nouă schiță pe placa interioară, apăsați \"Project "
+"Geometry\" și faceți clic oriunde pe piesă. Ar trebui să se evidențieze "
+"fiecare contur al piesei. (Aici este prezentată o linie galbenă; a "
+"dumneavoastră ar putea fi roșie, albastră sau de altă culoare.) Acum faceți "
+"clic și trageți pe piesă selectând fiecare linie de pe ecran. Acum apăsați "
+"CTRL + C, apoi mergeți la noua piesă și apăsați Create 2D Sketch. Apoi "
+"apăsați CTRL + V."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid ""
+"Drivetrain inner plate with the parts specific to the inner plate selected"
+msgstr ""
+"Placă interioară a sasiului cu piesele specifice plăcii interioare selectate"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:54
+msgid ""
+"It should look like an exact copy of the inner plate but now as a sketch. "
+"Delete your motor mounts out of the middle, then extrude the outer plate."
+msgstr ""
+"Ar trebui să arate ca o copie exactă a plăcii interioare, dar pentru moment "
+"ca o schiță. Ștergeți suporturile de motor din mijloc, apoi extrudeți placa "
+"exterioară."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Outer Drivetrain Plate"
+msgstr "Placa exterioară de șasiu"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:59
+msgid ""
+"This is what the outer plate looks like, an almost exact copy of the inner "
+"one without the holes for the motors. Now with those two plates made, it’s "
+"really just time to assemble the rest of the drivetrain, which is by far the"
+" most time consuming. Now, for some info on what to use to attach the two "
+"plates together, generally standoffs or churro is highly recommended. To "
+"attach the two halves of the drivetrain, use either channel, extrusion, or a"
+" custom u-brace. Some teams prefer a custom brace as it is a good way to "
+"stiffen up the drivetrain while requiring very little maintenance over the "
+"season. It is possible to use peanut extrusion or kit channel, which "
+"alternatively works just as well."
+msgstr ""
+"Așa arată placa exterioară, o copie aproape exactă a celei interioare, fără "
+"găurile pentru motoare. Acum, având aceste două plăci realizate, este timpul"
+" să asamblăm restul șasiului, care este de departe cea mai costisitoare în "
+"ceea ce ține de timp. Acum, pentru câteva informații despre ce să folosiți "
+"pentru a fixa cele două plăci între ele, în general, standoff-urile sau "
+"churro sunt foarte recomandate. Pentru a atașa cele două jumătăți ale "
+"sistemului de transmisie, folosiți fie un canal, fie o extrudare, fie un "
+"suport în U. Unele echipe preferă un bracket personalizat, deoarece este o "
+"modalitate bună de a rigidiza sistemul de transmisie, necesitând în același "
+"timp foarte puțină întreținere pe parcursul sezonului. Puteți folosi "
+"extrudare de tip peanut sau un kit de canal, care, alternativ, funcționează "
+"la fel de bine."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:61
+msgid ""
+"Note that when using a custom drivetrain, you can cut out material from your"
+" drivetrain plates. This process is called **pocketing**. While not a vital "
+"step, pocketing helps you save weight. However, be careful not to remove too"
+" much material; if done, the plates become less sturdy. More about pocketing"
+" is in the next section."
+msgstr ""
+"Aveți în vedere că atunci când folosiți o transmisie personalizată, puteți "
+"tăia material din plăcile de transmisie. Acest proces se numește "
+"**pocketing**. Deși nu este un pas esențial, pocketing-ul vă ajută să "
+"economisiți greutate. Cu toate acestea, aveți grijă să nu eliminați prea "
+"mult material; dacă o faceți, plăcile devin mai puțin rezistente. Mai multe "
+"despre pocketing se află în secțiunea următoare."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:64
+msgid "Additional Considerations"
+msgstr "Considerente suplimentare"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:66
+msgid ""
+"Powering wheels can be done is a couple different ways through either belts "
+"and pulleys, chains and sprockets, gears, or even powered directly from the "
+"motor. Direct drive and chains are the simpler of the options, with direct "
+"drive not needing a calculated distance at all just have to set the motor "
+"exactly where the center of the wheel is. Chains allow for a little bit of "
+"slack not needing an exact center to center distance in the wrap like belts "
+"and pulleys do. Finally gears which need to be a certain distance apart from"
+" each other to mesh properly and not skip or bind."
+msgstr ""
+"Acționarea roților se poate face în câteva moduri diferite, fie prin "
+"intermediul curelelor și a scripeților, a lanțurilor și a roților dințate, a"
+" angrenajelor sau chiar direct de la motor. Transmisia directă și lanțurile "
+"sunt cele mai simple dintre opțiuni, cu transmisie directă neavând nevoie "
+"deloc de o distanță calculată, trebuie doar ca motorul să fie setat exact "
+"unde se află centrul roții. Lanțurile permit un pic de slăbiciune, neavând "
+"nevoie de o distanță exactă între centrele înfășurării, așa cum fac curelele"
+" și scripeții. În cele din urmă, angrenajele care trebuie să fie la o "
+"anumită distanță una față de cealaltă pentru a se cupla în mod corespunzător"
+" și a nu sări sau a nu se bloca."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:68
+msgid ""
+"Mounting motors is done in a plate style by face mounting the motor into the"
+" innermost drivetrain plate. It can also be done by mounting the motors to a"
+" 3rd plate, located in between the outside and inside. This allows for the "
+"motor to take up less space in the middle of the robot, but adds complexity."
+" Motors should always be as low as possible and depending where you want the"
+" center of mass, either the middle or towards the back of the robot. It is "
+"also worth keeping in mind the type of power transmission and the expediency"
+" of doing so in light of the motor placement."
+msgstr ""
+"Montarea motoarelor se face în stil placă, prin montarea frontală a "
+"motorului în cea mai interioară placă de transmisie. De asemenea, se poate "
+"realiza prin montarea motoarelor pe o a treia placă, situată între exterior "
+"și interior. Acest lucru permite ca motorul să ocupe mai puțin spațiu în "
+"mijlocul robotului, dar adaugă complexitate. Motoarele ar trebui să fie "
+"întotdeauna cât mai jos posibil și, în funcție de locul în care doriți "
+"centrul de greutate, fie la mijloc, fie spre partea din spate a robotului. "
+"De asemenea, merită să țineți cont de tipul de transmisie a puterii și de "
+"posibilitatea de a face acest lucru în funcție de amplasarea motorului."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:70
+msgid ""
+"Ground clearance is all dependent on if there are any obstacles on the "
+"field, as well as what your team wants to do in that game in regards to said"
+" obstacles."
+msgstr ""
+"Ampatamentul la sol depinde de existența unor obstacole pe teren, precum și "
+"de felul in care echipa ta dorește să acționeze în acel joc în ceea ce "
+"privește obstacolele date."
