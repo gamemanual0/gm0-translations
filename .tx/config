@@ -62,6 +62,42 @@ source_file  = locale/pot/docs/awards/portfolio.pot
 type         = PO
 minimum_perc = 0
 
+[o:gamemanual0:p:gm0:r:docs--being-a-team--collaboration-and-efficiency]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/collaboration-and-efficiency.po
+source_file  = locale/pot/docs/being-a-team/collaboration-and-efficiency.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--being-a-team--index]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/index.po
+source_file  = locale/pot/docs/being-a-team/index.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--being-a-team--outreach-basics]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/outreach-basics.po
+source_file  = locale/pot/docs/being-a-team/outreach-basics.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--being-a-team--pitching-your-team]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/pitching-your-team.po
+source_file  = locale/pot/docs/being-a-team/pitching-your-team.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--being-a-team--starting-a-team]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/starting-a-team.po
+source_file  = locale/pot/docs/being-a-team/starting-a-team.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--being-a-team--team-organization]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/team-organization.po
+source_file  = locale/pot/docs/being-a-team/team-organization.pot
+type         = PO
+minimum_perc = 0
+
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--active-intake--index]
 file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/index.po
 source_file  = locale/pot/docs/common-mechanisms/active-intake/index.pot
@@ -635,6 +671,12 @@ minimum_perc = 0
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--bulk-reads]
 file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/bulk-reads.po
 source_file  = locale/pot/docs/software/tutorials/bulk-reads.pot
+type         = PO
+minimum_perc = 0
+
+[o:gamemanual0:p:gm0:r:docs--software--tutorials--encoders]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/encoders.po
+source_file  = locale/pot/docs/software/tutorials/encoders.pot
 type         = PO
 minimum_perc = 0
 
