@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-13 04:15+0000\n"
+"POT-Creation-Date: 2023-06-13 16:17+0000\n"
 "PO-Revision-Date: 2022-08-15 03:16+0000\n"
 "Last-Translator: Yuki Terasaki, 2023\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/gamemanual0/teams/148648/ja_JP/)\n"
@@ -20,3 +20,126 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/index.rst:105
+msgid "Game Manual 0 Table of Contents"
+msgstr "Game Manual 0 目次"
+
+#: ../../gm0/source/index.rst:4
+msgid "Index"
+msgstr "目次"
+
+#: ../../gm0/source/index.rst:8
+msgid ""
+"This content is translated from English, and as such may include some "
+"English phrases for technical terms."
+msgstr ""
+"このコンテンツは英語から翻訳された物のため、専門用語に英語表現が含まれる可能性があります。また、翻訳に間違いがありましたら、GitHubで教えて下さい。"
+
+#: ../../gm0/source/index.rst:19
+msgid "Start Here"
+msgstr "ここから始める"
+
+#: ../../gm0/source/index.rst:21
+msgid ""
+"Are you a rookie team? Are you new to FTC? Are you just looking for a "
+"refresher? Check out this section for a curated list of the most pertinent "
+"pages!"
+msgstr ""
+"ルーキーチームですか？FTCは初めてですか？内容をもう一度確認したいですか？このセクションでは、もっとも重要なページをリストとしてまとめています！"
+
+#: ../../gm0/source/index.rst:28
+msgid "Being a Team"
+msgstr "チームになる"
+
+#: ../../gm0/source/index.rst:30
+msgid "Covers how to start, organize, and run an effective team."
+msgstr "どのようにして効果的なチームを立ち上げ、組織化し、運営するかを説明します。"
+
+#: ../../gm0/source/index.rst:36
+msgid "Design Skills"
+msgstr "設計スキル"
+
+#: ../../gm0/source/index.rst:38
+msgid ""
+"Covers generic design skills, including the engineering design process, "
+"design strategy, and CAD."
+msgstr "エンジニアリング設計プロセス、設計戦略、CADなど、一般的な設計スキルについて説明します。"
+
+#: ../../gm0/source/index.rst:44
+msgid "Hardware Components"
+msgstr "ハードウェアの構成要素"
+
+#: ../../gm0/source/index.rst:46
+msgid ""
+"Compares the kit options, has a list of useful tools, and some general "
+"advice."
+msgstr "キットの比較、便利なツール、いくつかの一般的なアドバイスを示します。"
+
+#: ../../gm0/source/index.rst:53
+msgid "Common Mechanisms"
+msgstr "一般的な機構"
+
+#: ../../gm0/source/index.rst:55
+msgid ""
+"Contains descriptions, advantages/disadvantages, and examples of common "
+"mechanisms, including: drivetrains, arms, linear motion, intakes, and dead "
+"wheels. Also covers some specific common design tradeoff recommendations and"
+" power transmission."
+msgstr ""
+"Drivetrain、Arm、Linear Motion、Intake、Dead "
+"Wheelsなど、一般的なメカニズムの説明、長所/短所、および例が含まれています。また、一般的な設計におけるトレードオフの推奨事項と動力伝達についても説明します。"
+
+#: ../../gm0/source/index.rst:61
+msgid "Custom Manufacturing"
+msgstr "カスタムパーツの作成"
+
+#: ../../gm0/source/index.rst:63
+msgid ""
+"Covers which materials are appropriate to use when and specifics to 3D "
+"printing and machining."
+msgstr "3D プリントと加工の際にどの材料を使用するのが適切か、およびその詳細について説明します。"
+
+#: ../../gm0/source/index.rst:69
+msgid "Electronics and Motion Components"
+msgstr "電子部品・機構部品"
+
+#: ../../gm0/source/index.rst:71
+msgid "Covers wiring, the control system, motors, servos, and sensors."
+msgstr "配線、制御システム、モーター、サーボ、センサーについて説明します。"
+
+#: ../../gm0/source/index.rst:77
+msgid "Software"
+msgstr "ソフトウェア"
+
+#: ../../gm0/source/index.rst:79
+msgid "Covers a range of software topics."
+msgstr "ソフトウェアに関して説明します。"
+
+#: ../../gm0/source/index.rst:85
+msgid "Useful Resources"
+msgstr "役に立つリソース"
+
+#: ../../gm0/source/index.rst:87
+msgid ""
+"A list of useful resources and accompanying descriptions, with especially "
+"pertinent ones marked."
+msgstr "役に立つリソースと説明のリストです。特に重要なものはマークされています。"
+
+#: ../../gm0/source/index.rst:93
+msgid "Know Your Lingo"
+msgstr "用語解説"
+
+#: ../../gm0/source/index.rst:95
+msgid "A list of commonly used FTC slang and their meanings."
+msgstr "よく使われるFTCスラングとその意味の一覧です。"
+
+#: ../../gm0/source/index.rst:101
+msgid "Appendix"
+msgstr "付録"
+
+#: ../../gm0/source/index.rst:103
+msgid ""
+"Contains a glossary, a robot design gallery, and information about specific "
+"vendors."
+msgstr "用語集、ロボットデザインギャラリー、ベンダー情報などがあります。"
