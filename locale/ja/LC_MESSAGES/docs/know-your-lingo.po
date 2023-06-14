@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-14 04:15+0000\n"
+"POT-Creation-Date: 2023-06-14 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yuki Terasaki, 2023\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/gamemanual0/teams/148648/ja_JP/)\n"
@@ -21,10 +21,261 @@ msgstr ""
 "Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/know-your-lingo.rst:2
+msgid "Know Your Lingo"
+msgstr "専門用語を知る"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:4
+msgid ""
+"Many teams may be unfamiliar with the various terms and slang that are often"
+" thrown around at competitions and meets. Here we have compiled a guide of "
+"some commonly used terms to get you up to speed."
+msgstr ""
+"多くのチームは、FTCや大会で頻繁に飛び交うさまざまな用語やスラングに馴染みがないかもしれません。 ここでは、よく使用される用語のガイドをまとめました。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:7
+msgid "Competitions"
+msgstr "Competitions (競技会)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:9
+msgid "Program Delivery Partner (PDP)"
+msgstr "Program Delivery Partner (PDP・プログラムデリバリーパートナー)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:10
+msgid ""
+"Director or directors for events and activities in a region. Used to be "
+"referred to as the Affiliate Partner (AP)."
+msgstr ""
+"地域のイベント・大会や活動のディレクターまたはディレクター。以前はアフィリエイトパートナー (AP) "
+"と呼ばれていました。(地域の大会を開催している各地域の非営利団体などを指します)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:11
+msgid "Qualifier"
+msgstr "Qualifier (予選)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:12
+msgid ""
+"Tournament with 5-6 qualifying matches and best-of-three alliance "
+"elimination matches. Judging included. Will advance to States/Regional "
+"level."
+msgstr ""
+"5 ～ 6 試合の予選試合と 3 試合先取の同盟を組んで行う試合で構成されるトーナメント。各種賞の審査も含めて。 次は、州 / 地域レベルに進みます。"
+
 #: ../../gm0/source/docs/know-your-lingo.rst:13
 msgid "League Meet"
 msgstr "League Meet (リーグ戦)"
 
+#: ../../gm0/source/docs/know-your-lingo.rst:14
+msgid ""
+"Low-stress competition with matches counting towards league rank at a League"
+" Tournament. No judging."
+msgstr "リーグ戦でリーグランクにカウントされる試合もあり、ストレスの少ない大会です。賞などの審査はありません。"
+
 #: ../../gm0/source/docs/know-your-lingo.rst:15
 msgid "League Tournament"
 msgstr "League Tournament (リーグトーナメント)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:16
+msgid ""
+"Tournament with ranked matches and alliance elimination matches for teams "
+"participating in that League. Judging included. Will advance to "
+"States/Regional level. Sometimes called a \"League Championship\"."
+msgstr ""
+"そのリーグに参加しているチームのランクマッチとAlliance同士によるトーナメント。 賞などの審査も含めて。 州/地域レベルに進みます。 "
+"「リーグチャンピオンシップ」と呼ばれることもあります。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:17
+msgid "Alliance"
+msgstr "Alliance (同盟)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:18
+msgid ""
+"Group of two or, in eliminations, two or three teams that compete. In "
+"elimination matches each team must play at least once."
+msgstr ""
+"2チームのグループ、またはAlliance同士によるトーナメントでは2チームまたは3チームが対戦する。Alliance同士によるトーナメントでは、各チームが最低1回は試合をしなければならない。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:19
+msgid "Ranking Points (RP)"
+msgstr "Ranking Points (RP・ランキングポイント)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:20
+msgid ""
+"Primary basis in rankings at traditional events. For the Power Play season, "
+"each team receives 2 RP for winning a qualification match, 1 for tieing, and"
+" 0 for losing."
+msgstr ""
+"トラディショナルイベントにおけるランキングの元となる数値。 Power Playシーズンでは、各チームは予選で試合に勝つと 2 RP、引き分けで 1 "
+"RP、負けると 0 RP を受け取ります。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:22
+msgid "TieBreaker Points (TBP)"
+msgstr "TieBreaker Points (TBP・タイブレイカーポイント)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:22
+msgid ""
+"Secondary determinant in team rankings for traditional events, primary "
+"determinant for remote events. For the Power Play season, this is split up "
+"into two parts; TBP1 and TBP2. TBP1 is used before TBP2, and is the "
+"alliances/teams autonomous period score. TBP2 is the alliances/teams end "
+"game score. (Whether it is alliances/teams depends on if the team is at "
+"traditional events, respectively.)"
+msgstr ""
+"トラディショナルイベントではチームランキングの二次決定要因、リモートイベントでは一次決定要因になる。Power "
+"Playシーズンでは、TBP1とTBP2の2つに分かれる。TBP1はTBP2の前に使用され、Alliance / "
+"Teamの自律的な期間のスコアである。TBP2は、Alliance / Teamのエンドゲームスコアです。(Alliance / Team "
+"かどうかは、それぞれトラディショナルイベントに参加しているかどうかによる。)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:25
+msgid "Qualification Match"
+msgstr "Qualification Match"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:25
+msgid ""
+"Qualifying matches (generally 5) with random alliance partners and opponents"
+" will be played to determine team rankings."
+msgstr "ランダムなAlliance partnerおよび対戦相手との予選試合 (通常5試合) を行い、チームの順位を決定します。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:29
+msgid "Elimination Match"
+msgstr "Elimination Match"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:28
+msgid ""
+"2 alliances of 2 or 3 teams each compete in best of 3 matches to determine "
+"winning alliance. Also known as elim matches, or just elims."
+msgstr ""
+"2チームまたは3チームの2つのAllianceが3試合のベストを競い、優勝アライアンスを決定する。elim "
+"matches、または単にelimsとも呼ばれる。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:32
+msgid "Robot Components"
+msgstr "Robot Components"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:35
+msgid "DC Motor"
+msgstr "DC Motor"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:35
+msgid ""
+"Open-loop :term:`RS-555 series <RS-550 Series Motor>` 12 volt motors used to"
+" power mechanisms. Max of 8."
+msgstr ""
+"オープンループ `RS-555 シリーズ<RS-550 Series Motor>`12 ボルト "
+"モーターは、機構に動力を供給するために使用されます。最大8個。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:38
+msgid "Servo"
+msgstr "Servo"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:38
+msgid ""
+"Closed-loop :term:`servo-motors <Servo>` used for precise movement. "
+"Controlled by PWM signals. Max of 12."
+msgstr "閉ループ`サーボモーター<Servo>`を使用して正確な動きを実現します。PWM信号によって制御されます。最大12個。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:40
+msgid "Drivetrain (DT)"
+msgstr "Drivetrain (DT・ドライブベース)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:41
+msgid "Mechanism responsible for the movement of the robot."
+msgstr "ロボットが動き回るための機構。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:43
+msgid "Intake"
+msgstr "Intake"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:43
+msgid ""
+"Mechanism responsible for picking up game elements from the field by using "
+"rotational motion."
+msgstr "回転運動によってフィールドからゲームピースを回収する機構。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:45
+msgid "Claw"
+msgstr "Claw (爪)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:46
+msgid "Mechanism responsible for picking up game elements by grasping."
+msgstr "ゲームピースをつかむように回収するための機構。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:48
+msgid "Linear Extension/Slide"
+msgstr "Linear Extension/Slide"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:48
+msgid ""
+"Mechanism responsible for extending parts beyond the starting configuration "
+"of the robot in a linear fashion."
+msgstr "ロボットのスタート時の構成(範囲・大きさ)を超えてパーツを直線的に拡張する機構。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:50
+msgid "Arm"
+msgstr "Arm"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:51
+msgid ""
+"Mechanism responsible for extending the reach of the robot through "
+"rotational motion or multi-axis movement."
+msgstr "回転運動や多軸運動によって、ロボットの機構の到達範囲を広げる役割を担う機構。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:56
+msgid "REV Expansion Hub"
+msgstr "REV Expansion Hub"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:53
+msgid ""
+"Hardware controller for the robot, connected to :term:`Robot Controller` "
+"phone. Controls 4 motor and encoders, 6 servos, and various sensors via "
+"digital, analog, and I2C ports. Maximum of 2 hubs."
+msgstr ""
+"ロボットのハードウェアコントローラで、:term:`Robot Controller` として使用しているAndroid "
+"スマートフォンに接続されています。デジタル、アナログ、I2Cポートを介して4つのモーターとエンコーダー、6つのサーボ、各種センサーを制御する。最大2台のハブを使用できます。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:61
+msgid "REV Control Hub"
+msgstr "REV Control Hub"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:59
+msgid ""
+"Integrated Expansion Hub + :term:`Robot Controller` phone. It serves many of"
+" the same purposes as the Expansion Hub but eliminates the need for a "
+":term:`Robot Controller` phone. 1 Expansion Hub may be used along side 1 "
+"Control Hub."
+msgstr ""
+"Integrated Expansion Hub  + :term:`Robot Controller`として使用するAndroid "
+"スマートフォン。Expansion Hubと同じ役割を果たしますが、 :term:`Robot Controller`として使用するAndroid "
+"スマートフォンが不要になります。1つのExpansion Hubは1つのControl Hubと一緒に使用することができます。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:64
+msgid "Driver Station (DS)"
+msgstr "Driver Station (DS)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:64
+msgid ""
+"Android phone connected to the gamepad controller. Drivers interact with the"
+" DS phone to start/stop robot."
+msgstr "コントローラーを接続したAndroidスマートフォン。ドライバーはAndroidスマートフォンを使用して、ロボットを起動/停止させる。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:67
+msgid "Robot Controller"
+msgstr "Robot Controller"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:67
+msgid ""
+"Android phone connected to the Expansion Hub. Connects to DS phone via WiFi-"
+"Direct."
+msgstr ""
+"Expansion Hubに接続されたAndroidスマートフォン。Driver Stationの役割をしているAndroidスマートフォンとWi-Fi"
+" Directで接続する。"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:72
+msgid "Gamepad Controller"
+msgstr "Gamepad Controller"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:70
+msgid ""
+"An Xbox or PS4 style controller which the driver uses to control the robot "
+"during driver-control period. Maximum of 2."
+msgstr "XboxまたはPS4スタイルのコントローラーで、ドライバーがドライバーコントロール時間中にロボットを操縦するために使用します。最大2つ。"
