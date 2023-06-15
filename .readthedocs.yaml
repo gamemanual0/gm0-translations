@@ -1,7 +1,24 @@
-requirements_file: gm0/source/requirements.txt
+
+version: 2
 
 sphinx:
   builder: html
-  configuration: conf.py
+  configuration: gm0/source/conf.py
   fail_on_warning: true
 
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  apt_packages:
+    - graphviz
+
+formats:
+  - pdf
+
+python:
+  install:
+    - requirements: requirements.txt
+
+submodules:
+  include: all
