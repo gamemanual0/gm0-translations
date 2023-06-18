@@ -320,6 +320,12 @@ source_file  = locale/pot/docs/custom-manufacturing/index.pot
 type         = PO
 minimum_perc = 0
 
+[o:gamemanual0:p:gm0:r:docs--custom-manufacturing--laser-cutting]
+file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/laser-cutting.po
+source_file  = locale/pot/docs/custom-manufacturing/laser-cutting.pot
+type         = PO
+minimum_perc = 0
+
 [o:gamemanual0:p:gm0:r:docs--custom-manufacturing--machining]
 file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/machining.po
 source_file  = locale/pot/docs/custom-manufacturing/machining.pot
