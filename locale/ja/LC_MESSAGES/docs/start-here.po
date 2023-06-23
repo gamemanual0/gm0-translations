@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-14 04:15+0000\n"
+"POT-Creation-Date: 2023-06-23 04:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yuki Terasaki, 2023\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/gamemanual0/teams/148648/ja_JP/)\n"
@@ -36,54 +36,40 @@ msgid ""
 msgstr "役に立つリソースと説明のリストです。特に重要なものはマークされています。"
 
 #: ../../gm0/source/docs/start-here.rst:20
-msgid "FTC Discord"
-msgstr "FTCのDiscordコミュニティ"
-
-#: ../../gm0/source/docs/start-here.rst:22
-msgid ""
-"The **unofficial** FTC Discord server is a discussion-based community server"
-" that has teams ranging from first-year rookies to Winning Alliance Captains"
-" at the World Championships. It also has a channel for direct access to "
-"vendors."
-msgstr ""
-"FTCのDiscordサーバーは、1年目のルーキーから世界大会での優勝したAllianceのキャプテンなどの様々なチームが参加する、ディスカッションベースの"
-" **非公式** コミュニティサーバーです。また、ベンダーに直接連絡をするためのチャンネルもあります。"
-
-#: ../../gm0/source/docs/start-here.rst:29
 msgid "Being a Team"
 msgstr "チームを始める"
 
-#: ../../gm0/source/docs/start-here.rst:31
+#: ../../gm0/source/docs/start-here.rst:22
 msgid "Covers how to start, organize, and run an effective team."
 msgstr "どのようにして効果的なチームを立ち上げ、組織化し、運営するかを説明します。"
 
-#: ../../gm0/source/docs/start-here.rst:34
+#: ../../gm0/source/docs/start-here.rst:25
 msgid "Hardware"
 msgstr "ハードウェア"
 
-#: ../../gm0/source/docs/start-here.rst:44
+#: ../../gm0/source/docs/start-here.rst:35
 msgid "Design Strategy"
 msgstr "設計戦略"
 
-#: ../../gm0/source/docs/start-here.rst:46
+#: ../../gm0/source/docs/start-here.rst:37
 msgid "A list of general tips for your team's design process."
 msgstr "チームの設計プロセスのための一般的なヒントのリストです。"
 
-#: ../../gm0/source/docs/start-here.rst:52
+#: ../../gm0/source/docs/start-here.rst:43
 msgid "Design Tradeoffs"
 msgstr "設計上のトレードオフ"
 
-#: ../../gm0/source/docs/start-here.rst:54
+#: ../../gm0/source/docs/start-here.rst:45
 msgid ""
 "Goes over some common robot design decisions and typically superior "
 "alternatives to them."
 msgstr "いくつかの一般的なロボット設計の決定と、それより優れた代替案について説明します。"
 
-#: ../../gm0/source/docs/start-here.rst:60
+#: ../../gm0/source/docs/start-here.rst:51
 msgid "Drivetrains"
 msgstr "Drivetrains"
 
-#: ../../gm0/source/docs/start-here.rst:62
+#: ../../gm0/source/docs/start-here.rst:53
 msgid ""
 "Because it doesn't matter how good the rest of your mechanisms are if the "
 "robot cannot get to where it needs to be (except maybe if you're 8813 in "
@@ -92,77 +78,77 @@ msgstr ""
 "なぜなら、ロボットが必要な場所にたどり着けなければ、他のメカニズムがどれだけ優れていても意味がないからだ (8813 Relic "
 "Recoveryの場合は例外かもしれない) "
 
-#: ../../gm0/source/docs/start-here.rst:68
+#: ../../gm0/source/docs/start-here.rst:59
 msgid "Active Intake"
 msgstr "Active Intake"
 
-#: ../../gm0/source/docs/start-here.rst:70
+#: ../../gm0/source/docs/start-here.rst:61
 msgid "Because you want to be able to pick stuff up. Touch it, own it."
 msgstr "物を拾えるようになりたいからです。触って、所有して。"
 
-#: ../../gm0/source/docs/start-here.rst:76
+#: ../../gm0/source/docs/start-here.rst:67
 msgid "Linear Motion Guide"
 msgstr "Linear Motion ガイド"
 
-#: ../../gm0/source/docs/start-here.rst:78
+#: ../../gm0/source/docs/start-here.rst:69
 msgid ""
 "Moving things further than the constraints of the robot is an extremely "
 "common task, and linear motion is often one of the best ways to do this."
 msgstr "ロボットの制約を超えて機構を動かすことはよくあることで、直線運動はそのための最良の方法の一つであることが多い。"
 
-#: ../../gm0/source/docs/start-here.rst:84
+#: ../../gm0/source/docs/start-here.rst:75
 msgid "Power Transmission"
 msgstr "Power Transmission"
 
-#: ../../gm0/source/docs/start-here.rst:86
+#: ../../gm0/source/docs/start-here.rst:77
 msgid "Different ways to get rotation from point A to point B."
 msgstr "A地点からB地点へ回転させるためのさまざまな方法。"
 
-#: ../../gm0/source/docs/start-here.rst:89
+#: ../../gm0/source/docs/start-here.rst:80
 msgid "Programming/Control System"
 msgstr "プログラミング / コントロールシステム"
 
-#: ../../gm0/source/docs/start-here.rst:100
+#: ../../gm0/source/docs/start-here.rst:91
 msgid "Options for Programming"
 msgstr "プログラミングのオプション"
 
-#: ../../gm0/source/docs/start-here.rst:102
+#: ../../gm0/source/docs/start-here.rst:93
 msgid "Because without programming, the robot is just an expensive brick."
 msgstr "ロボットはプログラムが無ければ、ただの高価なレンガに過ぎないからです。"
 
-#: ../../gm0/source/docs/start-here.rst:108
+#: ../../gm0/source/docs/start-here.rst:99
 msgid "Control Systems"
 msgstr "コントロールシステム"
 
-#: ../../gm0/source/docs/start-here.rst:110
+#: ../../gm0/source/docs/start-here.rst:101
 msgid ""
 "Because without a control system, the robot is just a (significantly less) "
 "expensive brick."
 msgstr "なぜなら、制御システムがなければ、ロボットは単なる（著しく安価な）レンガに過ぎないからです。"
 
-#: ../../gm0/source/docs/start-here.rst:116
+#: ../../gm0/source/docs/start-here.rst:107
 msgid "Wiring Guide"
 msgstr "配線ガイド"
 
-#: ../../gm0/source/docs/start-here.rst:118
+#: ../../gm0/source/docs/start-here.rst:109
 msgid "Because disconnects are no fun."
 msgstr "切断は面白くないから..."
 
-#: ../../gm0/source/docs/start-here.rst:124
+#: ../../gm0/source/docs/start-here.rst:115
 msgid "Programming Tutorial - Mecanum Drivetrain"
 msgstr "プログラミングチュートリアル - メカナムドライブ"
 
-#: ../../gm0/source/docs/start-here.rst:126
+#: ../../gm0/source/docs/start-here.rst:117
 msgid ""
 "Because mecanum wheels without the right code are some very expensive "
 "questionable quality traction wheels."
 msgstr "適切なプログラムのないメカナムホイールは、非常に高価で動作に問題のあるトラクションホイールであるためです。"
 
-#: ../../gm0/source/docs/start-here.rst:132
+#: ../../gm0/source/docs/start-here.rst:123
 msgid "Computer Vision"
 msgstr "画像認識"
 
-#: ../../gm0/source/docs/start-here.rst:134
+#: ../../gm0/source/docs/start-here.rst:125
 msgid ""
 "Explains the different common computer vision systems and how to use them "
 "(hopefully this doesn't end with a robot uprising)."
