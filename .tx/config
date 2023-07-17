@@ -1,736 +1,980 @@
 [main]
 host     = https://www.transifex.com
-lang_map = ro_RO: ro, ja_JP: ja, fr_CA: fr
+lang_map = ja_JP: ja, fr_CA: fr, ro_RO: ro
 
 [o:gamemanual0:p:gm0:r:docs--appendix--gallery]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/appendix/gallery.po
-source_file  = locale/pot/docs/appendix/gallery.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/gallery.po
+source_file            = locale/pot/docs/appendix/gallery.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--appendix--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/appendix/index.po
-source_file  = locale/pot/docs/appendix/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/index.po
+source_file            = locale/pot/docs/appendix/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--appendix--license]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/appendix/license.po
-source_file  = locale/pot/docs/appendix/license.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/license.po
+source_file            = locale/pot/docs/appendix/license.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--appendix--vendor-guide]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/appendix/vendor-guide.po
-source_file  = locale/pot/docs/appendix/vendor-guide.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/vendor-guide.po
+source_file            = locale/pot/docs/appendix/vendor-guide.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--appendix--vendor-list]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/appendix/vendor-list.po
-source_file  = locale/pot/docs/appendix/vendor-list.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/vendor-list.po
+source_file            = locale/pot/docs/appendix/vendor-list.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--awards--award-types]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/award-types.po
-source_file  = locale/pot/docs/awards/award-types.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/award-types.po
+source_file            = locale/pot/docs/awards/award-types.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--awards--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/index.po
-source_file  = locale/pot/docs/awards/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/index.po
+source_file            = locale/pot/docs/awards/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--awards--judging-presentation]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/judging-presentation.po
-source_file  = locale/pot/docs/awards/judging-presentation.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/judging-presentation.po
+source_file            = locale/pot/docs/awards/judging-presentation.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--awards--notebook]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/notebook.po
-source_file  = locale/pot/docs/awards/notebook.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/notebook.po
+source_file            = locale/pot/docs/awards/notebook.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--awards--portfolio]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/awards/portfolio.po
-source_file  = locale/pot/docs/awards/portfolio.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/portfolio.po
+source_file            = locale/pot/docs/awards/portfolio.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--being-a-team--collaboration-and-efficiency]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/collaboration-and-efficiency.po
-source_file  = locale/pot/docs/being-a-team/collaboration-and-efficiency.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/collaboration-and-efficiency.po
+source_file            = locale/pot/docs/being-a-team/collaboration-and-efficiency.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--being-a-team--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/index.po
-source_file  = locale/pot/docs/being-a-team/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/index.po
+source_file            = locale/pot/docs/being-a-team/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--being-a-team--outreach-basics]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/outreach-basics.po
-source_file  = locale/pot/docs/being-a-team/outreach-basics.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/outreach-basics.po
+source_file            = locale/pot/docs/being-a-team/outreach-basics.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--being-a-team--pitching-your-team]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/pitching-your-team.po
-source_file  = locale/pot/docs/being-a-team/pitching-your-team.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/pitching-your-team.po
+source_file            = locale/pot/docs/being-a-team/pitching-your-team.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--being-a-team--starting-a-team]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/starting-a-team.po
-source_file  = locale/pot/docs/being-a-team/starting-a-team.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/starting-a-team.po
+source_file            = locale/pot/docs/being-a-team/starting-a-team.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--being-a-team--team-organization]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/being-a-team/team-organization.po
-source_file  = locale/pot/docs/being-a-team/team-organization.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/team-organization.po
+source_file            = locale/pot/docs/being-a-team/team-organization.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--active-intake--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/index.po
-source_file  = locale/pot/docs/common-mechanisms/active-intake/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/index.po
+source_file            = locale/pot/docs/common-mechanisms/active-intake/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--active-intake--principles-of-an-intake]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/principles-of-an-intake.po
-source_file  = locale/pot/docs/common-mechanisms/active-intake/principles-of-an-intake.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/principles-of-an-intake.po
+source_file            = locale/pot/docs/common-mechanisms/active-intake/principles-of-an-intake.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--active-intake--types-of-intakes]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/types-of-intakes.po
-source_file  = locale/pot/docs/common-mechanisms/active-intake/types-of-intakes.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active-intake/types-of-intakes.po
+source_file            = locale/pot/docs/common-mechanisms/active-intake/types-of-intakes.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--arms]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms.po
-source_file  = locale/pot/docs/common-mechanisms/arms.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms.po
+source_file            = locale/pot/docs/common-mechanisms/arms.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--dead-wheels]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/dead-wheels.po
-source_file  = locale/pot/docs/common-mechanisms/dead-wheels.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/dead-wheels.po
+source_file            = locale/pot/docs/common-mechanisms/dead-wheels.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--design-tradeoffs]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/design-tradeoffs.po
-source_file  = locale/pot/docs/common-mechanisms/design-tradeoffs.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/design-tradeoffs.po
+source_file            = locale/pot/docs/common-mechanisms/design-tradeoffs.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--drivetrains--drivetrain-gallery]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/drivetrain-gallery.po
-source_file  = locale/pot/docs/common-mechanisms/drivetrains/drivetrain-gallery.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/drivetrain-gallery.po
+source_file            = locale/pot/docs/common-mechanisms/drivetrains/drivetrain-gallery.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--drivetrains--holonomic]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/holonomic.po
-source_file  = locale/pot/docs/common-mechanisms/drivetrains/holonomic.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/holonomic.po
+source_file            = locale/pot/docs/common-mechanisms/drivetrains/holonomic.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--drivetrains--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/index.po
-source_file  = locale/pot/docs/common-mechanisms/drivetrains/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/index.po
+source_file            = locale/pot/docs/common-mechanisms/drivetrains/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--drivetrains--tank]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/tank.po
-source_file  = locale/pot/docs/common-mechanisms/drivetrains/tank.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivetrains/tank.po
+source_file            = locale/pot/docs/common-mechanisms/drivetrains/tank.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/index.po
-source_file  = locale/pot/docs/common-mechanisms/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/index.po
+source_file            = locale/pot/docs/common-mechanisms/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--custom]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/custom.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/custom.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/custom.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/custom.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--drawer-slides]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/drawer-slides.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/drawer-slides.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/drawer-slides.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/drawer-slides.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--extrusion-slides]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/extrusion-slides.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/extrusion-slides.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/extrusion-slides.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/extrusion-slides.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/index.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/index.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--lead-screws]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/lead-screws.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/lead-screws.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/lead-screws.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/lead-screws.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--linear-bearing-slides]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--rack-and-pinion]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linear-motion-guide--rigging]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/rigging.po
-source_file  = locale/pot/docs/common-mechanisms/linear-motion-guide/rigging.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear-motion-guide/rigging.po
+source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/rigging.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--linkages]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linkages.po
-source_file  = locale/pot/docs/common-mechanisms/linkages.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linkages.po
+source_file            = locale/pot/docs/common-mechanisms/linkages.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--passive-intake-claw]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/passive-intake-claw.po
-source_file  = locale/pot/docs/common-mechanisms/passive-intake-claw.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/passive-intake-claw.po
+source_file            = locale/pot/docs/common-mechanisms/passive-intake-claw.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--belt]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/belt.po
-source_file  = locale/pot/docs/common-mechanisms/power-transmission/belt.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/belt.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/belt.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--chain]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/chain.po
-source_file  = locale/pot/docs/common-mechanisms/power-transmission/chain.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/chain.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/chain.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--direct-drive]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/direct-drive.po
-source_file  = locale/pot/docs/common-mechanisms/power-transmission/direct-drive.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/direct-drive.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/direct-drive.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--gears]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/gears.po
-source_file  = locale/pot/docs/common-mechanisms/power-transmission/gears.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/gears.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/gears.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/index.po
-source_file  = locale/pot/docs/common-mechanisms/power-transmission/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/index.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--motion-mounting]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/motion-mounting.po
-source_file  = locale/pot/docs/common-mechanisms/power-transmission/motion-mounting.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/motion-mounting.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/motion-mounting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--power-transmission-glossary]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/power-transmission-glossary.po
-source_file  = locale/pot/docs/common-mechanisms/power-transmission/power-transmission-glossary.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/power-transmission-glossary.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/power-transmission-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--transfers--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transfers/index.po
-source_file  = locale/pot/docs/common-mechanisms/transfers/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transfers/index.po
+source_file            = locale/pot/docs/common-mechanisms/transfers/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--transfers--transfer-design]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transfers/transfer-design.po
-source_file  = locale/pot/docs/common-mechanisms/transfers/transfer-design.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transfers/transfer-design.po
+source_file            = locale/pot/docs/common-mechanisms/transfers/transfer-design.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--transfers--transfer-types]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transfers/transfer-types.po
-source_file  = locale/pot/docs/common-mechanisms/transfers/transfer-types.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transfers/transfer-types.po
+source_file            = locale/pot/docs/common-mechanisms/transfers/transfer-types.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--contributing--contributors]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/contributing/contributors.po
-source_file  = locale/pot/docs/contributing/contributors.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/contributors.po
+source_file            = locale/pot/docs/contributing/contributors.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--contributing--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/contributing/index.po
-source_file  = locale/pot/docs/contributing/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/index.po
+source_file            = locale/pot/docs/contributing/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--contributing--methods-of-contributing]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/contributing/methods-of-contributing.po
-source_file  = locale/pot/docs/contributing/methods-of-contributing.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/methods-of-contributing.po
+source_file            = locale/pot/docs/contributing/methods-of-contributing.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--contributing--style-guide]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/contributing/style-guide.po
-source_file  = locale/pot/docs/contributing/style-guide.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/style-guide.po
+source_file            = locale/pot/docs/contributing/style-guide.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--custom-manufacturing--3d-printing]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/3d-printing.po
-source_file  = locale/pot/docs/custom-manufacturing/3d-printing.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/3d-printing.po
+source_file            = locale/pot/docs/custom-manufacturing/3d-printing.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--custom-manufacturing--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/index.po
-source_file  = locale/pot/docs/custom-manufacturing/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/index.po
+source_file            = locale/pot/docs/custom-manufacturing/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--custom-manufacturing--laser-cutting]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/laser-cutting.po
-source_file  = locale/pot/docs/custom-manufacturing/laser-cutting.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/laser-cutting.po
+source_file            = locale/pot/docs/custom-manufacturing/laser-cutting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--custom-manufacturing--machining]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/machining.po
-source_file  = locale/pot/docs/custom-manufacturing/machining.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/machining.po
+source_file            = locale/pot/docs/custom-manufacturing/machining.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--custom-manufacturing--manufacturing-glossary]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/manufacturing-glossary.po
-source_file  = locale/pot/docs/custom-manufacturing/manufacturing-glossary.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/manufacturing-glossary.po
+source_file            = locale/pot/docs/custom-manufacturing/manufacturing-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--custom-manufacturing--materials-guide]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/materials-guide.po
-source_file  = locale/pot/docs/custom-manufacturing/materials-guide.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/materials-guide.po
+source_file            = locale/pot/docs/custom-manufacturing/materials-guide.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--design-skills--cad]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/design-skills/cad.po
-source_file  = locale/pot/docs/design-skills/cad.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/cad.po
+source_file            = locale/pot/docs/design-skills/cad.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--design-skills--cad-tutorials]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/design-skills/cad-tutorials.po
-source_file  = locale/pot/docs/design-skills/cad-tutorials.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/cad-tutorials.po
+source_file            = locale/pot/docs/design-skills/cad-tutorials.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--design-skills--design-glossary]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/design-skills/design-glossary.po
-source_file  = locale/pot/docs/design-skills/design-glossary.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/design-glossary.po
+source_file            = locale/pot/docs/design-skills/design-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--design-skills--design-strategy]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/design-skills/design-strategy.po
-source_file  = locale/pot/docs/design-skills/design-strategy.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/design-strategy.po
+source_file            = locale/pot/docs/design-skills/design-strategy.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--design-skills--engineering-design-process]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/design-skills/engineering-design-process.po
-source_file  = locale/pot/docs/design-skills/engineering-design-process.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/engineering-design-process.po
+source_file            = locale/pot/docs/design-skills/engineering-design-process.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--design-skills--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/design-skills/index.po
-source_file  = locale/pot/docs/design-skills/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/index.po
+source_file            = locale/pot/docs/design-skills/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/index.po
-source_file  = locale/pot/docs/hardware-components/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/index.po
+source_file            = locale/pot/docs/hardware-components/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--kit-and-hardware-guide--actobotics]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/actobotics.po
-source_file  = locale/pot/docs/hardware-components/kit-and-hardware-guide/actobotics.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/actobotics.po
+source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/actobotics.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--kit-and-hardware-guide--custom]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/custom.po
-source_file  = locale/pot/docs/hardware-components/kit-and-hardware-guide/custom.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/custom.po
+source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/custom.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--kit-and-hardware-guide--gobilda]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/gobilda.po
-source_file  = locale/pot/docs/hardware-components/kit-and-hardware-guide/gobilda.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/gobilda.po
+source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/gobilda.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--kit-and-hardware-guide--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/index.po
-source_file  = locale/pot/docs/hardware-components/kit-and-hardware-guide/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/index.po
+source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--kit-and-hardware-guide--kit-glossary]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/kit-glossary.po
-source_file  = locale/pot/docs/hardware-components/kit-and-hardware-guide/kit-glossary.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/kit-glossary.po
+source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/kit-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--kit-and-hardware-guide--rev-robotics]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/rev-robotics.po
-source_file  = locale/pot/docs/hardware-components/kit-and-hardware-guide/rev-robotics.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/rev-robotics.po
+source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/rev-robotics.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--kit-and-hardware-guide--tetrix]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/tetrix.po
-source_file  = locale/pot/docs/hardware-components/kit-and-hardware-guide/tetrix.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-and-hardware-guide/tetrix.po
+source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/tetrix.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--tips-and-tricks]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/tips-and-tricks.po
-source_file  = locale/pot/docs/hardware-components/tips-and-tricks.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/tips-and-tricks.po
+source_file            = locale/pot/docs/hardware-components/tips-and-tricks.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--hardware-components--tools-list]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/hardware-components/tools-list.po
-source_file  = locale/pot/docs/hardware-components/tools-list.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/tools-list.po
+source_file            = locale/pot/docs/hardware-components/tools-list.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--know-your-lingo]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/know-your-lingo.po
-source_file  = locale/pot/docs/know-your-lingo.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/know-your-lingo.po
+source_file            = locale/pot/docs/know-your-lingo.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--mission-statement]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/mission-statement.po
-source_file  = locale/pot/docs/mission-statement.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/mission-statement.po
+source_file            = locale/pot/docs/mission-statement.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--connectors-and-wires]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/connectors-and-wires.po
-source_file  = locale/pot/docs/power-and-electronics/connectors-and-wires.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/connectors-and-wires.po
+source_file            = locale/pot/docs/power-and-electronics/connectors-and-wires.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--control-system]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/control-system.po
-source_file  = locale/pot/docs/power-and-electronics/control-system.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/control-system.po
+source_file            = locale/pot/docs/power-and-electronics/control-system.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--driver-station-guide]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/driver-station-guide.po
-source_file  = locale/pot/docs/power-and-electronics/driver-station-guide.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/driver-station-guide.po
+source_file            = locale/pot/docs/power-and-electronics/driver-station-guide.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/index.po
-source_file  = locale/pot/docs/power-and-electronics/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/index.po
+source_file            = locale/pot/docs/power-and-electronics/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--choosing-motor]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/choosing-motor.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/choosing-motor.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/choosing-motor.po
+source_file            = locale/pot/docs/power-and-electronics/motor-guide/choosing-motor.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--gearbox-anatomy]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/gearbox-anatomy.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/gearbox-anatomy.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/gearbox-anatomy.po
+source_file            = locale/pot/docs/power-and-electronics/motor-guide/gearbox-anatomy.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/index.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/index.po
+source_file            = locale/pot/docs/power-and-electronics/motor-guide/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--motor-glossary]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/motor-glossary.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/motor-glossary.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/motor-glossary.po
+source_file            = locale/pot/docs/power-and-electronics/motor-guide/motor-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--motor-power]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/motor-power.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/motor-power.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/motor-power.po
+source_file            = locale/pot/docs/power-and-electronics/motor-guide/motor-power.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--motor-guide--wiring-mounting-motors]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/wiring-mounting-motors.po
-source_file  = locale/pot/docs/power-and-electronics/motor-guide/wiring-mounting-motors.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/motor-guide/wiring-mounting-motors.po
+source_file            = locale/pot/docs/power-and-electronics/motor-guide/wiring-mounting-motors.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--sensor-glossary]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/sensor-glossary.po
-source_file  = locale/pot/docs/power-and-electronics/sensor-glossary.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/sensor-glossary.po
+source_file            = locale/pot/docs/power-and-electronics/sensor-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--servo-guide--choosing-servo]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/choosing-servo.po
-source_file  = locale/pot/docs/power-and-electronics/servo-guide/choosing-servo.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/choosing-servo.po
+source_file            = locale/pot/docs/power-and-electronics/servo-guide/choosing-servo.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--servo-guide--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/index.po
-source_file  = locale/pot/docs/power-and-electronics/servo-guide/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/index.po
+source_file            = locale/pot/docs/power-and-electronics/servo-guide/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--servo-guide--usage-tips]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/usage-tips.po
-source_file  = locale/pot/docs/power-and-electronics/servo-guide/usage-tips.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/servo-guide/usage-tips.po
+source_file            = locale/pot/docs/power-and-electronics/servo-guide/usage-tips.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--tips-and-tricks]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/tips-and-tricks.po
-source_file  = locale/pot/docs/power-and-electronics/tips-and-tricks.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/tips-and-tricks.po
+source_file            = locale/pot/docs/power-and-electronics/tips-and-tricks.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--power-and-electronics--wiring]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/wiring.po
-source_file  = locale/pot/docs/power-and-electronics/wiring.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/wiring.po
+source_file            = locale/pot/docs/power-and-electronics/wiring.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--adv-control-system--control-system-internals]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/control-system-internals.po
-source_file  = locale/pot/docs/software/adv-control-system/control-system-internals.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/control-system-internals.po
+source_file            = locale/pot/docs/software/adv-control-system/control-system-internals.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--adv-control-system--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/index.po
-source_file  = locale/pot/docs/software/adv-control-system/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/index.po
+source_file            = locale/pot/docs/software/adv-control-system/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--adv-control-system--lynx-module]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/lynx-module.po
-source_file  = locale/pot/docs/software/adv-control-system/lynx-module.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/lynx-module.po
+source_file            = locale/pot/docs/software/adv-control-system/lynx-module.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--adv-control-system--sdk-communication]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-communication.po
-source_file  = locale/pot/docs/software/adv-control-system/sdk-communication.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-communication.po
+source_file            = locale/pot/docs/software/adv-control-system/sdk-communication.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--adv-control-system--sdk-motors]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-motors.po
-source_file  = locale/pot/docs/software/adv-control-system/sdk-motors.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-motors.po
+source_file            = locale/pot/docs/software/adv-control-system/sdk-motors.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--adv-control-system--sdk-sensors]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-sensors.po
-source_file  = locale/pot/docs/software/adv-control-system/sdk-sensors.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-sensors.po
+source_file            = locale/pot/docs/software/adv-control-system/sdk-sensors.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--adv-control-system--sdk-servos]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-servos.po
-source_file  = locale/pot/docs/software/adv-control-system/sdk-servos.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-system/sdk-servos.po
+source_file            = locale/pot/docs/software/adv-control-system/sdk-servos.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--concepts--control-loops]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/concepts/control-loops.po
-source_file  = locale/pot/docs/software/concepts/control-loops.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/control-loops.po
+source_file            = locale/pot/docs/software/concepts/control-loops.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--concepts--finite-state-machines]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/concepts/finite-state-machines.po
-source_file  = locale/pot/docs/software/concepts/finite-state-machines.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/finite-state-machines.po
+source_file            = locale/pot/docs/software/concepts/finite-state-machines.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--concepts--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/concepts/index.po
-source_file  = locale/pot/docs/software/concepts/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/index.po
+source_file            = locale/pot/docs/software/concepts/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--concepts--kinematics]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/concepts/kinematics.po
-source_file  = locale/pot/docs/software/concepts/kinematics.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/kinematics.po
+source_file            = locale/pot/docs/software/concepts/kinematics.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--concepts--odometry]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/concepts/odometry.po
-source_file  = locale/pot/docs/software/concepts/odometry.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/odometry.po
+source_file            = locale/pot/docs/software/concepts/odometry.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--getting-started--common-hardware-components]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/getting-started/common-hardware-components.po
-source_file  = locale/pot/docs/software/getting-started/common-hardware-components.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started/common-hardware-components.po
+source_file            = locale/pot/docs/software/getting-started/common-hardware-components.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--getting-started--common-issues]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/getting-started/common-issues.po
-source_file  = locale/pot/docs/software/getting-started/common-issues.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started/common-issues.po
+source_file            = locale/pot/docs/software/getting-started/common-issues.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--getting-started--fundamental-concepts]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/getting-started/fundamental-concepts.po
-source_file  = locale/pot/docs/software/getting-started/fundamental-concepts.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started/fundamental-concepts.po
+source_file            = locale/pot/docs/software/getting-started/fundamental-concepts.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--getting-started--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/getting-started/index.po
-source_file  = locale/pot/docs/software/getting-started/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started/index.po
+source_file            = locale/pot/docs/software/getting-started/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--getting-started--linear-opmode-vs-opmode]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/getting-started/linear-opmode-vs-opmode.po
-source_file  = locale/pot/docs/software/getting-started/linear-opmode-vs-opmode.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started/linear-opmode-vs-opmode.po
+source_file            = locale/pot/docs/software/getting-started/linear-opmode-vs-opmode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--getting-started--options-for-programming]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/getting-started/options-for-programming.po
-source_file  = locale/pot/docs/software/getting-started/options-for-programming.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started/options-for-programming.po
+source_file            = locale/pot/docs/software/getting-started/options-for-programming.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--getting-started--using-android-studio]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/getting-started/using-android-studio.po
-source_file  = locale/pot/docs/software/getting-started/using-android-studio.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started/using-android-studio.po
+source_file            = locale/pot/docs/software/getting-started/using-android-studio.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/index.po
-source_file  = locale/pot/docs/software/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/index.po
+source_file            = locale/pot/docs/software/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--software-glossary]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/software-glossary.po
-source_file  = locale/pot/docs/software/software-glossary.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/software-glossary.po
+source_file            = locale/pot/docs/software/software-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--bulk-reads]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/bulk-reads.po
-source_file  = locale/pot/docs/software/tutorials/bulk-reads.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/bulk-reads.po
+source_file            = locale/pot/docs/software/tutorials/bulk-reads.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--encoders]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/encoders.po
-source_file  = locale/pot/docs/software/tutorials/encoders.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/encoders.po
+source_file            = locale/pot/docs/software/tutorials/encoders.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--gamepad]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/gamepad.po
-source_file  = locale/pot/docs/software/tutorials/gamepad.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/gamepad.po
+source_file            = locale/pot/docs/software/tutorials/gamepad.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--index]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/index.po
-source_file  = locale/pot/docs/software/tutorials/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/index.po
+source_file            = locale/pot/docs/software/tutorials/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--mecanum-drive]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/mecanum-drive.po
-source_file  = locale/pot/docs/software/tutorials/mecanum-drive.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/mecanum-drive.po
+source_file            = locale/pot/docs/software/tutorials/mecanum-drive.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--using-telemetry]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/using-telemetry.po
-source_file  = locale/pot/docs/software/tutorials/using-telemetry.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/using-telemetry.po
+source_file            = locale/pot/docs/software/tutorials/using-telemetry.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--software--tutorials--vision]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/software/tutorials/vision.po
-source_file  = locale/pot/docs/software/tutorials/vision.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/vision.po
+source_file            = locale/pot/docs/software/tutorials/vision.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--start-here]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/start-here.po
-source_file  = locale/pot/docs/start-here.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/start-here.po
+source_file            = locale/pot/docs/start-here.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:docs--useful-resources]
-file_filter  = locale/<lang>/LC_MESSAGES/docs/useful-resources.po
-source_file  = locale/pot/docs/useful-resources.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/docs/useful-resources.po
+source_file            = locale/pot/docs/useful-resources.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:gamemanual0:p:gm0:r:index]
-file_filter  = locale/<lang>/LC_MESSAGES/index.po
-source_file  = locale/pot/index.pot
-type         = PO
-minimum_perc = 0
+file_filter            = locale/<lang>/LC_MESSAGES/index.po
+source_file            = locale/pot/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
