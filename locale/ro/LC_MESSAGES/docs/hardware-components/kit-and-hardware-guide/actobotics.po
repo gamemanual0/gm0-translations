@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Botosan Octavian, 2022
-# Rares Neagoe, 2022
+# Rareș Neagoe, 2022
 # Stefania Cernat, 2022
 # Stefan Meirosu, 2022
 # Soft Hoarders, 2022
@@ -15,10 +15,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 16:26+0000\n"
+"POT-Creation-Date: 2023-08-24 04:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Soft Hoarders, 2022\n"
-"Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
+"Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Actobotics"
 msgstr "Actobotics"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:6
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:8
 msgid ""
 "The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is "
 "a fixed-pitch, :term:`channel-based <Channel>` building system using "
@@ -44,11 +44,11 @@ msgstr ""
 " ` permite echipelor să itereze și să construiască mecanisme în întregime "
 "din piese ale kit-ului."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:9
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
 msgid "Special Considerations"
 msgstr "Considerații Speciale"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:13
 msgid ""
 "Actobotics' :term:`channel <Channel>` hole pattern has many more mounting "
 "holes than a Tetrix channel, so it offers more flexibility in terms of "
@@ -58,7 +58,7 @@ msgstr ""
 "decât cele Tetrix, astfel încât oferă mai multă flexibilitate în ceea ce "
 "privește montarea."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:12
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:14
 msgid ""
 "Actobotics uses imperial units across the board, allowing for clean spacing "
 "and fitting. However, most other kits use metric."
@@ -67,7 +67,7 @@ msgstr ""
 "potrivirea perfectă. Cu toate acestea, majoritatea celorlalte kituri "
 "utilizează sistemul metric."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:13
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:15
 msgid ""
 "Actobotics can interface with other kits such as REV through a variety of "
 "Pattern Adapters."
@@ -75,7 +75,7 @@ msgstr ""
 "Actobotics se poate interconecta cu alte kituri, cum ar fi REV, printr-o "
 "varietate de adaptoare de modele."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:14
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:16
 msgid ""
 "ServoCity offers a 25% off discount for all *FIRST*\\ |reg| teams making, "
 "pricing competitive: https://www.servocity.com/first_team_discounts"
@@ -84,11 +84,11 @@ msgstr ""
 "rezultând în prețuri competitive: "
 "https://www.servocity.com/first_team_discounts"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:17
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:19
 msgid "Notable Components"
 msgstr "Componente Notabile"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:19
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:21
 msgid ""
 "Mini-channel is offered in addition to the standard size :term:`channel "
 "<Channel>` for non-structural components."
@@ -96,7 +96,7 @@ msgstr ""
 "Mini-canalul este oferit în plus față de dimensiunea standard de "
 ":term:`canal <Channel> ` pentru componente nestructurale."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:20
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:22
 msgid ""
 "Actobotics' X-rail :term:`extrusion <Extrusion>` system offers immense "
 "adjustability and flexibility as it adds a :term:`extrusion <Extrusion>` "
@@ -106,7 +106,7 @@ msgstr ""
 "ajustabilitate și flexibilitate imensă, deoarece adaugă :term:`profile "
 "extrudate<Extrusion>` la un kit bazat pe :term:`canale <Channel>`."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:21
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:23
 msgid ""
 "To complement the structural offerings, Actobotics uses a series of clamping"
 " hubs and a robust 1/4” steel :term:`D-shaft <Shaft>`."
@@ -114,7 +114,7 @@ msgstr ""
 "Pentru o structură completă, Actobotics utilizează o serie de hub-uri de "
 "prindere și un :term:`D-shaft <Shaft>`puternic din oțel de 1/4\"."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:22
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:24
 msgid ""
 "The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to build "
 "extending mechanisms."
@@ -122,7 +122,7 @@ msgstr ""
 "Kitul de mișcare liniară utilizează :term:`profilul <Extrusion>` X-rail "
 "pentru a construi mecanisme de extindere."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:23
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:25
 msgid ""
 "The :term:`Servoblocks`, which prolongs the life of a servo, are recommended"
 " for all teams, regardless of kit. However, :term:`Servoblocks` seamlessly "
@@ -132,7 +132,7 @@ msgstr ""
 " recomandate pentru toate echipele, indiferent de kit. Cu toate acestea, "
 ":term:`Servoblock-urile` se potrivesc perfect cu ecosistemul Actobotics."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:24
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:26
 msgid ""
 "Actobotics furthermore offers motion options such as :term:`bevel gears "
 "<Bevel gear>` and Linear Actuator kits (using :term:`lead screws <Lead "
@@ -142,23 +142,15 @@ msgstr ""
 ":term:`angrenaje conice <Bevel gear>` și kituri de acționare liniară ( "
 ":term:`șuruburi cu plumb <Lead Screw>`) pentru cazuri specifice."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:27
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:29
 msgid "Verdict"
 msgstr "Verdict"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:29
-msgid ""
-"Actobotics is a solid choice for new teams, offering a reliable base kit "
-"with many options to expand upon."
-msgstr ""
-"Actobotics este o alegere bună pentru echipele noi, oferind un kit de bază "
-"fiabil cu multe opțiuni de extindere."
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:32
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:34
 msgid "Kit of Parts"
 msgstr "Kit de Piese"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:34
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:36
 msgid ""
 "`2020-2021 Kit Parts <https://www.servocity.com/ftc-competition-"
 "kit-20-21-season/>`_"
@@ -166,11 +158,11 @@ msgstr ""
 "`2020-2021 Kit piese <https://www.servocity.com/ftc-competition-"
 "kit-20-21-season/>`_"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:37
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:39
 msgid "Advantages"
 msgstr "Avantaje"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:39
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:41
 msgid ""
 "Actobotics provides a great value fixed pitch build system that is generally"
 " easier to assemble than :term:`extrusion-based <Extrusion>` systems which "
@@ -180,7 +172,7 @@ msgstr ""
 "general, mai ușor de asamblat decât sistemele bazate pe extrudare, care "
 "necesită tăierea prin extrudare la lungime."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:40
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:42
 msgid ""
 "Actobotics has the patented :term:`Servoblocks`, which help drastically "
 "increase servo life by protecting it from shock loads. More information may "
@@ -190,7 +182,7 @@ msgstr ""
 "drastică a duratei de viață a servo motorului prin protejarea acestuia de "
 "șocuri. Mai multe informații pot fi găsite în glosar."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:41
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:43
 msgid ""
 "Actobotics is easily compatible with other build systems such as REV’s kit "
 "using adapters which can be found on the Servocity website."
@@ -198,7 +190,7 @@ msgstr ""
 "Actobotics este ușor compatibil cu alte sisteme de construcție, cum ar fi "
 "kitul REV, folosind adaptoare care pot fi găsite pe site-ul Servocity."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:42
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:44
 msgid ""
 "Actobotics is more sturdy than TETRIX in terms of drivetrain flex and has "
 "more support options to prevent structural bending."
@@ -207,7 +199,7 @@ msgstr ""
 "sistemului de mers și are mai multe opțiuni de susținere pentru a preveni "
 "îndoirea structurală."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:43
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:45
 msgid ""
 "The :term:`clamping hubs <Clamping Hub>` offered are more reliable than "
 ":term:`set screws <Set Screw>`, as clamping engages the shaft in more places"
@@ -222,7 +214,7 @@ msgstr ""
 "secțiunea :doc:`TETRIX <tetrix> `, șuruburile de fixare, în special, sunt "
 "vulnerabile la slăbire, mai ales fără aplicarea de Loctite."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:44
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:46
 msgid ""
 "Actobotics’ motion system is **very** robust and relies on :term:`ball "
 "bearings <Ball Bearing>`, which have a lower coefficient of friction than "
@@ -234,7 +226,7 @@ msgstr ""
 "mai mic decât bucșele. Actobotics este compatibil cu axul hex de 5 mm "
 "utilizat de REV cu hub-urile lor adaptabile."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:45
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:47
 msgid ""
 "Actobotics also allows for :term:`face mounting <Face Mounting>` of motors "
 "as opposed to :term:`clamp mounting <Clamp Mounting>`."
@@ -242,11 +234,11 @@ msgstr ""
 "Actobotics permite, de asemenea, :term:`montarea frontală <Face Mounting>` a"
 " motoarelor, spre deosebire de :term:`montarea cu clemă <Clamp Mounting>`."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:48
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:50
 msgid "Disadvantages"
 msgstr "Dezavantaje"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:50
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:53
 msgid ""
 "Actobotics is not very cheap, so its cost may be prohibitive for some teams "
 "with a low budget. Note that with the 25% off FTC team discount, Actobotics "
@@ -257,7 +249,7 @@ msgstr ""
 "reducerea de 25% pentru echipele FTC, Actobotics poate fi mai ieftin decât "
 "TETRIX. Singurul sistem de construcție mai ieftin este REV."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:51
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:54
 msgid ""
 "The XL :term:`belts <Timing Belt>` from ServoCity are not great. It is "
 "recommended that :term:`belts <HTD Belt>` are purchased from ServoCity "
@@ -271,7 +263,7 @@ msgstr ""
 "asemenea, în interiorul canalului nu există mult spațiu pentru o curea sau "
 "un lanț de rulare, ceea ce limitează foarte mult dimensiunea fuliilor."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:52
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:55
 msgid ""
 ":term:`Channel` takes up more space than :term:`extrusion <Extrusion>`, so "
 "mechanisms can be a bit larger with the Actobotics kit. To remediate this "
@@ -292,11 +284,11 @@ msgstr ""
 " \n"
 " "
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:57
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:60
 msgid "8644 Brainstormers' Relic Recovery robot"
 msgstr "Robotul echipei 8644 Brainstormers din Relic Recovery"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:57
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:60
 msgid ""
 "An example of a successful Actobotics based robot, 8644 Brainstormers: 2018 "
 "Winning Alliance Captain (Detroit), Relic Recovery"
@@ -304,11 +296,11 @@ msgstr ""
 "Un exemplu de robot de succes bazat pe Actobotics este 8644 Brainstormers, "
 "câștigător al 2018 Winning Alliance Captain (Detroit), Relic Recovery"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:62
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:65
 msgid "9971 LanBros' Rover Ruckus robot"
 msgstr "Robotul echipei 9971 LanBros din Rover Ruckus"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:62
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:65
 msgid ""
 "Another successful Actobotics based robot, 9971 LanBros: 2019 Winning "
 "Alliance Captain (Detroit), Rover Ruckus"
@@ -316,11 +308,11 @@ msgstr ""
 "Un alt robot de succes bazat pe Actobotics este 9971 LanBros, câștigător al "
 "premiului 2019 Winning Alliance Captain (Detroit), Rover Ruckus"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:67
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:70
 msgid "9794 Wizards.exe's Rover Ruckus robot"
 msgstr "Robotul 9794 Wizards.exe's Rover Ruckus "
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:67
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:70
 msgid ""
 "9794 Wizards.exe used both Actobotics and REV :term:`extrusion <Extrusion>` "
 "to build their Rover Ruckus robot"
