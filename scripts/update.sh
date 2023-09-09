@@ -3,7 +3,7 @@
 
 set -ex
 
-LANG_TO_PULL=${1:-'ro_RO,pt,ja_JP,fr_CA'}
+LANG_TO_PULL=${1:-'ro_RO,pt,ja_JP,fr_CA,zh_CN'}
 LANG_MAP='ro_RO: ro, ja_JP: ja, fr_CA: fr'
 MAINPROJECT=gm0
 ORGANIZATION=gamemanual0
