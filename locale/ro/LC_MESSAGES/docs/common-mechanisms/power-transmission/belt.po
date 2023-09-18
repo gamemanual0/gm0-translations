@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-19 04:47+0000\n"
+"POT-Creation-Date: 2023-09-18 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
-"Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
+"Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -111,88 +111,11 @@ msgstr ""
 "lanț. Pentru a modela aceste tensionatoare, noi îți recomandăm să îți "
 "schițezi sisteme mai complexe în CAD, iar apoi să le aplici în viața reală."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:26
-msgid "Center-to-Center calculations"
-msgstr "Calcule Centru-la-Centru"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:28
-msgid ""
-"Just like chain, the actual calculations for precise :term:`C2C` distances "
-"for belts are complicated. Here is a `calculator "
-"<https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_"
-" or `two <https://sudenga.com/resources/figuring-belt-lengths-and-distance-"
-"between-pulleys/>`_ that simplifies the work."
-msgstr ""
-"Precum lanțul, calculele pentru distanțele precise ale curelelor sunt "
-"complicate. Aici găsesti un `calculator "
-"<https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_"
-"  sau `două <https://sudenga.com/resources/figuring-belt-lengths-and-"
-"distance-between-pulleys/>`_  care iți ușurează munca."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:30
-msgid ""
-"C=\\frac{P}{8}*(2L-(N+n)+\\sqrt{(2L-(N+n))^2-\\frac{8}{\\pi^2}*(N-n)^2})\n"
-"\n"
-"L=\\frac{2C}{P}+\\frac{N+n}{2}+\\frac{P(\\frac{N-n}{2\\pi})^2}{C}"
-msgstr ""
-"C=\\frac{P}{8}*(2L-(N+n)+\\sqrt{(2L-(N+n))^2-\\frac{8}{\\pi^2}*(N-n)^2})\n"
-"\n"
-"L=\\frac{2C}{P}+\\frac{N+n}{2}+\\frac{P(\\frac{N-n}{2\\pi})^2}{C}"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:36
-msgid ":math:`C=` center-to-center distance, inches"
-msgstr ""
-":math:`C=` distanța centru-la-centru, inches (varianta pe cm in curând)"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:38
-msgid ":math:`L=` belt length in pitches"
-msgstr ":math:`L=` lungimea curelei în pași"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:40
-msgid ":math:`P=` pitch of belt"
-msgstr ":math:`P=` pasul curelei"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:42
-msgid ":math:`N=` number of teeth in large pulley"
-msgstr ":math:`N=` numărul de dinți din angrenajul mai mic"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:44
-msgid ":math:`n=` number of teeth in small pulley"
-msgstr ":math:`n=` numărul de dinți din angrenajul mai mic"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:46
-msgid ""
-"C=\\frac{L-\\frac{\\pi}{2}(D+d)}{4}+\\sqrt{[(\\frac{L-\\frac{\\pi}{2}(D+d)}{4})^2-\\frac{(D-d)^2}{8}}\n"
-"\n"
-msgstr ""
-"C=\\frac{L-\\frac{\\pi}{2}(D+d)}{4}+\\sqrt{[(\\frac{L-\\frac{\\pi}{2}(D+d)}{4})^2-\\frac{(D-d)^2}{8}}\n"
-"\n"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:48
-msgid ":math:`D=` chosen diameter of large pulley"
-msgstr ":math:`D=` diametrul dorit al angrenajului mai mare"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:50
-msgid ":math:`d=` chosen diameter of small pulley"
-msgstr ":math:`d=` diametrul dorit al angrenajului mai mic"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:52
-msgid ":math:`L=` length of belt"
-msgstr ":math:`L=` lungimea curelei"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:54
-msgid ":math:`C=` center distance"
-msgstr ":math:`C=` distanța centrală"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:56
-msgid "(all units must be the same)"
-msgstr "(toate unitățile trebuie să fie la fel)"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:59
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:45
 msgid "Belt Wrap"
 msgstr "Îmbrățișarea Curelei"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:61
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:47
 msgid ""
 "**Belt should, at the very least, have 90° of contact with the pulley. The "
 "best practice is to have 180° or more of contact**, as it is very unlikely "
@@ -220,23 +143,23 @@ msgstr ""
 " mișcă fără rezistență prea mare, ai tensionat cureaua corect. Dacă este "
 "prea strâns, atunci cureaua abia se va mișca sub o împingere ușoară."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:64
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:50
 msgid "Best practices for wrap"
 msgstr "Cele mai bune metode de a îmbrățișa cureaua"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:69
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:55
 msgid "Properly done belt wrap without tensioners"
 msgstr "Îmbrățișarea corectă a curelei fără tensionatoare"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:69
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:55
 msgid "Ethan Doak, goBILDA"
 msgstr "Ethan Doak, goBILDA"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:74
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:60
 msgid "A drivetrain by 8103 using belt"
 msgstr "Un șasiu construit de echipa 8103 folosind curele de distribuție"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:74
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:60
 msgid ""
 "8103 Null Robotics, offseason prototype, properly done belt wrap with "
 "tensioners"
@@ -244,11 +167,11 @@ msgstr ""
 "8103 Null Robotics, prototip offseason, îmbrățișarea curelei corectă cu "
 "tensionatoare."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:77
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:63
 msgid "Advantages:"
 msgstr "Avantaje:"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:79
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:65
 msgid ""
 "**Pulleys can be made at home**. Pulleys can be 3D printed for most "
 "situations, allowing you to cut costs and create unique tooth counts easily."
@@ -257,7 +180,7 @@ msgstr ""
 "majoritatea cazurilor, astfel reducând din costuri și permițăndu-ți să îți "
 "personalizezi numărul de dinți pe curea."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:80
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:66
 msgid ""
 "**Belts are very strong**. They’re reinforced with fiberglass cords that are"
 " incredibly hard to break, giving belts immense strength. (*If you break a "
@@ -269,7 +192,7 @@ msgstr ""
 "(*Dacă rupi o curea, este cel mai probabil din cauză faptului că nu a fost "
 "montată corect sau tensionată prea mult.*)"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:81
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:67
 msgid ""
 "**When tensioned correctly, there is absolutely no slop**. Engines use "
 "timing belt for a reason - because it’s the best possible solution for them "
@@ -282,7 +205,7 @@ msgstr ""
 "există nimic care să se compare cu acuratețea rotațională a unei curele "
 "tensionate perfect."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:82
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:68
 msgid ""
 "**Belts are efficient and quiet**. Compared to the loud shredding sound of a"
 " chain run, belt runs are dead silent, and they’re more efficient than "
@@ -292,11 +215,11 @@ msgstr ""
 "zgomotoase, curelele sunt complet selențioase, șî sunt mai eficiente decât "
 "lanțurile (deși nu are niciun impact practic asupra unui robot FTC)."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:85
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:71
 msgid "Disadvantages:"
 msgstr "Dezavantaje:"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:87
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:73
 msgid ""
 "**Belts aren’t customizable**. You buy a belt of a specific length and "
 "you’re stuck with that length until you buy another one. This isn’t too bad "
@@ -308,7 +231,7 @@ msgstr ""
 "rău dacă iți schițezi bine robotul, însă lantul va funcționa mai bine pentru"
 " prototipuri unde lungimea lanțului se poate schimba des."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:88
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:74
 msgid ""
 "**Belts can be wider than alternatives (especially chain)**. This probably "
 "won’t have much of an impact, but belt can often be wider than other power "
@@ -319,7 +242,7 @@ msgstr ""
 " late decât alte tipuri de transmisii, deci s-ar putea să nu funcționeze în "
 "locuri strâmte."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:89
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:75
 msgid ""
 "**Belts can be expensive (but you’ll save money with pulleys)**. While you "
 "can buy chain 10 feet at a time, you’ll most likely be buying each belt "
@@ -330,19 +253,19 @@ msgstr ""
 "fiecare curea nou nouță. În timp ce acest lucru poate fi scump, vei economi "
 "bani pe angrenaje."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:94
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:80
 msgid "Properly done belt wrap with tensioners"
 msgstr "Îmbrățișarea unei curele executată corect cu tensionatoare"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:94
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:80
 msgid "7236 Recharged Green, Rover Ruckus"
 msgstr "Echipa 7236 Recharged Green, Rover Ruckus"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:99
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:85
 msgid "A drivetrain by 8417 using belt"
 msgstr ""
 "Un șasiu construit de echipa 8417 cu ajutorul curelelor de distribuție"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:99
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:85
 msgid "8417 Lectric Legends, Rover Ruckus"
 msgstr "8417 Lectric Legends, Rover Ruckus"
