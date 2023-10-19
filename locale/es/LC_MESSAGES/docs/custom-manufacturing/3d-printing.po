@@ -3,16 +3,47 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Erives, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-19 13:35+0000\n"
+"POT-Creation-Date: 2023-10-19 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Sebastian Erives, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
+msgid "PLA (Polylactic Acid)"
+msgstr "PLA (ácido poliláctico)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:43
+msgid ""
+"The most common 3D Printing filament is polylactic acid, or PLA. It is a "
+"plastic made from biological sources like corn starch and sugar cane. PLA is"
+" stiff but more brittle than other filament options and tends to have little"
+" to no warp when printing. PLA is well suited to the majority of robot "
+"parts, but it may not hold up well to shock loads (impacts to parts), and as"
+" such parts should be designed accordingly."
+msgstr ""
+"El filamento de impresión 3D más común es el ácido poliláctico, o PLA. Es un"
+" plástico fabricado a partir de fuentes biológicas como el almidón de maíz y"
+" la caña de azúcar. El PLA es rígido, aunque más quebradizo que otras "
+"opciones de filamento, y tiende a tener muy pocas o nulas deformaciones al "
+"imprimir. El PLA es adecuado para la mayoría de las piezas que puedas "
+"necesitar en tu robot, pero puede que no resista bien las cargas de choque "
+"(impactos en las piezas), por lo que éstas deben diseñarse tomando esto en "
+"consideración."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
+msgid "PLA hotend temperatures range from 190°-230° C"
+msgstr ""
+"Las temperaturas del hotend para el PLA oscilan entre los 190° y 230° C"
