@@ -5,7 +5,6 @@
 # 
 # Translators:
 # Botosan Octavian, 2022
-# Rareș Neagoe, 2022
 # Stefania Cernat, 2022
 # Stefan Meirosu, 2022
 # Soft Hoarders, 2022
@@ -16,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-16 16:17+0000\n"
+"POT-Creation-Date: 2023-10-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Cosmin Harbon, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -25,21 +24,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:8
-msgid ""
-"The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is "
-"a fixed-pitch, :term:`channel-based <Channel>` building system using "
-"imperial units. Its 1.5” :term:`c-channel <Channel>` and :term:`ball-bearing"
-" <Ball Bearing>` based motion system allows teams to iterate and build "
-"mechanisms entirely from kit parts."
-msgstr ""
-"Kitul Actobotics de la ServoCity (https://www.servocity.com/actobotics) este"
-" un sistem de construcție cu pas fix, :term:` bazat pe canale <Channel> ` "
-"care utilizează unități imperiale. Sistemul său de mișcare bazat pe "
-":term:`canal c <Channel> ` de 1.5” și :term:`rulmenți cu bile <Ball Bearing>"
-" ` permite echipelor să itereze și să construiască mecanisme în întregime "
-"din piese ale kit-ului."
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
 msgid "Special Considerations"
@@ -102,14 +86,6 @@ msgstr ""
 "Sistemul X-rail de :term:`extrudare <Extrusion>` Actobotics oferă "
 "ajustabilitate și flexibilitate imensă, deoarece adaugă :term:`profile "
 "extrudate<Extrusion>` la un kit bazat pe :term:`canale <Channel>`."
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:23
-msgid ""
-"To complement the structural offerings, Actobotics uses a series of clamping"
-" hubs and a robust 1/4” steel :term:`D-shaft <Shaft>`."
-msgstr ""
-"Pentru o structură completă, Actobotics utilizează o serie de hub-uri de "
-"prindere și un :term:`D-shaft <Shaft>`puternic din oțel de 1/4\"."
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:24
 msgid ""
@@ -179,14 +155,6 @@ msgstr ""
 "drastică a duratei de viață a servo motorului prin protejarea acestuia de "
 "șocuri. Mai multe informații pot fi găsite în glosar."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:43
-msgid ""
-"Actobotics is easily compatible with other build systems such as REV’s kit "
-"using adapters which can be found on the Servocity website."
-msgstr ""
-"Actobotics este ușor compatibil cu alte sisteme de construcție, cum ar fi "
-"kitul REV, folosind adaptoare care pot fi găsite pe site-ul Servocity."
-
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:44
 msgid ""
 "Actobotics is more sturdy than TETRIX in terms of drivetrain flex and has "
@@ -211,18 +179,6 @@ msgstr ""
 "secțiunea :doc:`TETRIX <tetrix> `, șuruburile de fixare, în special, sunt "
 "vulnerabile la slăbire, mai ales fără aplicarea de Loctite."
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:46
-msgid ""
-"Actobotics’ motion system is **very** robust and relies on :term:`ball "
-"bearings <Ball Bearing>`, which have a lower coefficient of friction than "
-"bushings. Actobotics is compatible with the 5mm hex used by REV with their "
-"adaptable hubs."
-msgstr ""
-"Sistemul de mișcare al Actobotics este **foarte** robust și se bazează pe "
-":term:`rulmenți cu bile <Ball Bearing>`, care au un coeficient de frecare "
-"mai mic decât bucșele. Actobotics este compatibil cu axul hex de 5 mm "
-"utilizat de REV cu hub-urile lor adaptabile."
-
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:47
 msgid ""
 "Actobotics also allows for :term:`face mounting <Face Mounting>` of motors "
@@ -245,20 +201,6 @@ msgstr ""
 "pentru unele echipe cu un buget redus. Luați în considerare că, folosind "
 "reducerea de 25% pentru echipele FTC, Actobotics poate fi mai ieftin decât "
 "TETRIX. Singurul sistem de construcție mai ieftin este REV."
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:54
-msgid ""
-"The XL :term:`belts <Timing Belt>` from ServoCity are not great. It is "
-"recommended that :term:`belts <HTD Belt>` are purchased from ServoCity "
-"instead, which may necessitate the use of 3d printed pulleys. There also "
-"isn’t a large amount of space inside the channel for a belt or chain run, "
-"vastly limiting the size of the pulleys."
-msgstr ""
-":term:`curele <Timing Belt>` XL de la ServoCity nu sunt grozave. Se "
-"recomandă să achiziționați în schimb :term:`curele <HTD Belt>` de la "
-"ServoCity, ceea ce ar putea necesita utilizarea de fulii printate 3d. De "
-"asemenea, în interiorul canalului nu există mult spațiu pentru o curea sau "
-"un lanț de rulare, ceea ce limitează foarte mult dimensiunea fuliilor."
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:55
 msgid ""

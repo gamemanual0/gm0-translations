@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-18 04:15+0000\n"
+"POT-Creation-Date: 2023-10-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -25,20 +25,6 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:9
 msgid "Timing Belt"
 msgstr "Curea de Distribuție"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:4
-msgid ""
-"When you think of a belt, you’re probably thinking of a very important men’s"
-" fashion accessory. However, there’s another type of belt, and it’s way more"
-" relevant to robotics - the timing belt. If you’ve ever tinkered with the "
-"insides of a car before, you probably recognize timing belts as an important"
-" component designed to keep everything under the hood in sync."
-msgstr ""
-"Când te gândești la o curea, cel mai probabil te gândești la un accesoriu "
-"fashion pentru bărbați. Însă, există un alt timp de curea, și este mult mai "
-"relevantă roboticii - cureaua de distribuție. Dacă te-ai uitat în interiorul"
-" unei mașini vreodată, probabil ai observat că curelele de distribuție sunt "
-"niște componente importante fabricate să țină totul în sincron."
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:6
 msgid "Term"
@@ -61,21 +47,6 @@ msgstr "O poză cu niște curele de distribuție pe o transmisie"
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:16
 msgid "Timing belts and a pulley"
 msgstr "Niște curele de distribuție și o transmisie"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:18
-msgid ""
-"While a timing belt may complete a similar objective to :term:`chain "
-"<Sprocket>`, its characteristics and strengths are very different. Timing "
-"belts are lighter and more compact than chains, but they lack the "
-"customizability of their bulkier brother - belts come in a closed loop of "
-"predetermined length, and there’s no changing that length on the fly."
-msgstr ""
-"Deși o curea de distribuție poate îndeplini acelaș obiectiv ca un "
-":term:`lanț<Sprocket>`, caracteristicile sale sunt foarte diferite. Curelele"
-" de distribuție sunt mai ușoare și mai compacte decât lanțurile, însă nu "
-"sunt la fel de personalizabile ca fratele lor mai voluminos - curelele de "
-"distribuție sunt într-o buclă închisă cu o lungime predeterminată și nu "
-"există posibilitatea de a schimba lungimea unei curele fabricate."
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:20
 msgid ""
@@ -111,55 +82,27 @@ msgstr ""
 "lanț. Pentru a modela aceste tensionatoare, noi îți recomandăm să îți "
 "schițezi sisteme mai complexe în CAD, iar apoi să le aplici în viața reală."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:45
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:47
 msgid "Belt Wrap"
 msgstr "Îmbrățișarea Curelei"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:47
-msgid ""
-"**Belt should, at the very least, have 90° of contact with the pulley. The "
-"best practice is to have 180° or more of contact**, as it is very unlikely "
-"to fall off with proper tensioning. Belt skipping, especially on drivetrains"
-" or arms, is very possible without proper belt wrap or tensioning. When "
-"tensioning belt, be sure to not undertension or overtension it. "
-"Undertensioning belt can result in the belt falling off the pulley or belt "
-"skipping, where the belt can skip along the pulley. Overtensioning belt "
-"often results in the motor burning out, or less seriously, a loss of "
-"efficiency. Push along the belt, and if it moves slightly without "
-"significant resistance, chances are you’ve done it correctly. If it’s too "
-"tight, then the belt will barely move under a gentle press."
-msgstr ""
-"**Cureaua ar trebui, cel putin, să aibă 90° de contact cu angrenajul. Cea "
-"mai bună practică este să aibă 180° sau mai mult de contact direct**, din "
-"moment ce este foarte improbabil să alunece de pe transmisie cu tensiunea "
-"corectă. Fenomentul numit \"belt skipping\", este foarte probabil să aibă "
-"loc atunci când cureaua nu are suficient contact cu angrenajele sau este "
-"prost tensionată, în general, pe șasiuri sau brațe mecanice. Când tensionezi"
-" cureaua, ai grijă să nu o supra-tensionezi sau sub-tensionezi. Sub-"
-"tensionarea poate duce la aluncarea curelei de pe angrenaj, sau \"belt "
-"skipping\", care se întâmplă atunci când cureaua sare de-a lungul unui "
-"angrenaj. Supra-tensionarea curelei poate duce la arderea motorului, sau mai"
-" optimist, o pierdere a eficientei. Împinge de-a lungul curelei, iar dacă se"
-" mișcă fără rezistență prea mare, ai tensionat cureaua corect. Dacă este "
-"prea strâns, atunci cureaua abia se va mișca sub o împingere ușoară."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:50
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:52
 msgid "Best practices for wrap"
 msgstr "Cele mai bune metode de a îmbrățișa cureaua"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:55
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:57
 msgid "Properly done belt wrap without tensioners"
 msgstr "Îmbrățișarea corectă a curelei fără tensionatoare"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:55
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:57
 msgid "Ethan Doak, goBILDA"
 msgstr "Ethan Doak, goBILDA"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:60
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:62
 msgid "A drivetrain by 8103 using belt"
 msgstr "Un șasiu construit de echipa 8103 folosind curele de distribuție"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:60
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:62
 msgid ""
 "8103 Null Robotics, offseason prototype, properly done belt wrap with "
 "tensioners"
@@ -167,11 +110,11 @@ msgstr ""
 "8103 Null Robotics, prototip offseason, îmbrățișarea curelei corectă cu "
 "tensionatoare."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:63
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:65
 msgid "Advantages:"
 msgstr "Avantaje:"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:65
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:67
 msgid ""
 "**Pulleys can be made at home**. Pulleys can be 3D printed for most "
 "situations, allowing you to cut costs and create unique tooth counts easily."
@@ -180,92 +123,23 @@ msgstr ""
 "majoritatea cazurilor, astfel reducând din costuri și permițăndu-ți să îți "
 "personalizezi numărul de dinți pe curea."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:66
-msgid ""
-"**Belts are very strong**. They’re reinforced with fiberglass cords that are"
-" incredibly hard to break, giving belts immense strength. (*If you break a "
-"belt, it’s most likely because it was out of alignment or tensioned far too "
-"tightly*.)"
-msgstr ""
-"**Curelele sunt foarte puternice**. Sunt consolidate cu fibre din sticlă "
-"care sunt incredibil de puternice, astfel făcând cureaua foarte rezistentă. "
-"(*Dacă rupi o curea, este cel mai probabil din cauză faptului că nu a fost "
-"montată corect sau tensionată prea mult.*)"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:67
-msgid ""
-"**When tensioned correctly, there is absolutely no slop**. Engines use "
-"timing belt for a reason - because it’s the best possible solution for them "
-"to perfectly synchronize their shafts. There’s nothing that matches the "
-"rotational accuracy of a properly tensioned belt."
-msgstr ""
-"**Când o curea este tensionată corect, nu există deloc pantă**. Motoarele cu"
-" ardere folosesc curele de distribuție cu un motiv - deoarece este cea mai "
-"bună soluție posibilă pentru ca ele să se sincronizeze perfect cu axul. Nu "
-"există nimic care să se compare cu acuratețea rotațională a unei curele "
-"tensionate perfect."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:68
-msgid ""
-"**Belts are efficient and quiet**. Compared to the loud shredding sound of a"
-" chain run, belt runs are dead silent, and they’re more efficient than "
-"chains (although this makes zero practical impact in the robotics use case)."
-msgstr ""
-"**Curelele sunt eficiente și selențioase**. Comparativ cu lanțurile foarte "
-"zgomotoase, curelele sunt complet selențioase, șî sunt mai eficiente decât "
-"lanțurile (deși nu are niciun impact practic asupra unui robot FTC)."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:71
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:73
 msgid "Disadvantages:"
 msgstr "Dezavantaje:"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:73
-msgid ""
-"**Belts aren’t customizable**. You buy a belt of a specific length and "
-"you’re stuck with that length until you buy another one. This isn’t too bad "
-"if you’re planning out your robot properly, but chain will work better for "
-"prototypes where the chain length will be changing often."
-msgstr ""
-"**Curelele nu sunt personalizabile**. Cumperi o curea de o lungime specifică"
-" și rămâi cu acea lungime până când cumperi alta. Acest lucru nu este așa "
-"rău dacă iți schițezi bine robotul, însă lantul va funcționa mai bine pentru"
-" prototipuri unde lungimea lanțului se poate schimba des."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:74
-msgid ""
-"**Belts can be wider than alternatives (especially chain)**. This probably "
-"won’t have much of an impact, but belt can often be wider than other power "
-"transmission methods, so it may not always fit."
-msgstr ""
-"**Curelele pot fi mai late decât alternativele lor (în special lanțul)**. "
-"Acest lucru probabil nu va avea un impact așa mare, însă curelele pot fi mai"
-" late decât alte tipuri de transmisii, deci s-ar putea să nu funcționeze în "
-"locuri strâmte."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:75
-msgid ""
-"**Belts can be expensive (but you’ll save money with pulleys)**. While you "
-"can buy chain 10 feet at a time, you’ll most likely be buying each belt "
-"brand new. While this can get expensive, you’ll be saving money on pulleys."
-msgstr ""
-"**Curelele pot fi scumpe (însă vei economi bani cu angrenaje)**. În timp ce "
-"poți să cumperi 3 metri de lanț deodată, cel mai probabil vei cumpăra "
-"fiecare curea nou nouță. În timp ce acest lucru poate fi scump, vei economi "
-"bani pe angrenaje."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:80
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:82
 msgid "Properly done belt wrap with tensioners"
 msgstr "Îmbrățișarea unei curele executată corect cu tensionatoare"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:80
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:82
 msgid "7236 Recharged Green, Rover Ruckus"
 msgstr "Echipa 7236 Recharged Green, Rover Ruckus"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:85
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:87
 msgid "A drivetrain by 8417 using belt"
 msgstr ""
 "Un șasiu construit de echipa 8417 cu ajutorul curelelor de distribuție"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:85
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:87
 msgid "8417 Lectric Legends, Rover Ruckus"
 msgstr "8417 Lectric Legends, Rover Ruckus"

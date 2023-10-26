@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-27 04:54+0000\n"
+"POT-Creation-Date: 2023-10-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
-"Language-Team: Romanian (Romania) (https://www.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
+"Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,30 +34,6 @@ msgstr ""
 "Intake-urile Pasive sunt mecanisme prin care driver-ul trebuie să ridice "
 "elemente individuale, de obicei prin acționarea unui prinderi, care ține "
 "elementul de joc."
-
-#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:6
-msgid ""
-"Claws are the most common sort of passive intake and probably one of the "
-"first mechanisms that jump to mind during brainstorming. Unlike most "
-"intakes, claws can be made with only servos, and thus don’t require valuable"
-" motor slots."
-msgstr ""
-"Ghearele sunt cele mai comune tipuri de intake-uri pasive și probabil "
-"primele mecanisme la care te gândești când faci brainstorming. Spre "
-"deosebire de majoritatea intake-urilor, ghearele pot fi făcute doar cu "
-"servomotoare, și astfel nu necesită port-uri de motoare."
-
-#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:8
-msgid ""
-"This is not to say there are no disadvantages; notably, unlike intakes, when"
-" you pick up something with a claw, it isn’t easy to transfer the collected "
-"element to a separate scoring mechanism. For this reason, in most cases, "
-"claws double as both a collection method and a scoring method."
-msgstr ""
-"Ca să nu zicem că nu există dezavantaje, notabil, spre deorebire de intake-"
-"uri, când ridici ceva cu o gheară, este destul de greu să transferi "
-"elementul colectat într-un mecanism separat de punctare. Din această cauză, "
-"ghearele sunt de asemenea și un mecanism de punctare."
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:10
 msgid ""
@@ -98,12 +74,6 @@ msgstr "Mai puține piese în mișcare = mai putine probleme"
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:20
 msgid "Usually does not take up a motor slot"
 msgstr "De obicei nu ocupă un port de motor"
-
-#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:21
-msgid "Can pick up odd shaped game elements that active intakes can’t"
-msgstr ""
-"Poate colecta elemente de joc în forme ciudate pe care intake-urile active "
-"nu pot"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:24
 msgid "Disadvantages"
