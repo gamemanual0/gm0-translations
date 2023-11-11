@@ -5,18 +5,444 @@
 # 
 # Translators:
 # Victoria Chacon, 2023
+# Sebastian Erives <serivesmejia@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-07 04:15+0000\n"
+"POT-Creation-Date: 2023-11-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2023\n"
+"Last-Translator: Sebastian Erives <serivesmejia@gmail.com>, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:2
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:9
+msgid "Timing Belt"
+msgstr "Correa Dentada"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:4
+msgid ""
+"When you think of a belt, you're probably thinking of a very important men's"
+" fashion accessory. However, there's another type of belt, and it's way more"
+" relevant to robotics - the timing belt. If you've ever tinkered with the "
+"insides of a car before, you probably recognize timing belts as an important"
+" component designed to keep everything under the hood in sync."
+msgstr ""
+"Cuando piensas en una correa (del ingles \"belt\"), probablemente se refiera"
+" a un importante accesorio de moda masculina. Sin embargo, hay otro tipo de "
+"correa mucho más relevante para la robótica: la correa de distribución. Si "
+"alguna vez ha jugado con el interior de un coche, probablemente reconocerá "
+"las correas de distribución como un componente importante diseñado para "
+"mantener todo sincronizado bajo el capó."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:6
+msgid "Term"
+msgstr "Términos"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:11
+msgid ""
+"Timing belts use a series of small, wide teeth to engage a pulley with a "
+"number of matching grooves. They earn their name because they can be very "
+"precise, transmitting power with virtually no slop and ensuring a snug "
+"connection between shafts."
+msgstr ""
+"Las correas de distribución utilizan una serie de dientes pequeños y anchos "
+"para engranar en una polea con una serie de ranuras a juego. Se ganan su "
+"nombre porque pueden ser muy precisas, transmitiendo potencia sin apenas "
+"holguras y garantizando una conexión ajustada entre ejes."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:0
+msgid "A picture of timing belts on a pulley"
+msgstr "Imagen de correas dentadas en una polea."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:16
+msgid "Timing belts and a pulley"
+msgstr "Correas dentadas y una polea."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:18
+msgid ""
+"While a timing belt may complete a similar objective to :term:`chain "
+"<Sprocket>`, its characteristics and strengths are very different. Timing "
+"belts are lighter and more compact than chains, but they lack the "
+"customizability of their bulkier brother - belts come in a closed loop of "
+"predetermined length, and there's no changing that length on the fly."
+msgstr ""
+"Aunque una correa de distribución puede cumplir un objetivo similar al de la"
+" :term:`cadena`<Sprocket>, sus características y puntos fuertes son muy "
+"diferentes. Las correas de distribución son más ligeras y compactas que las "
+"cadenas, pero carecen de la capacidad de personalización de su hermano más "
+"voluminoso: las correas vienen en un bucle cerrado de longitud "
+"predeterminada, y no se puede cambiar esa longitud sobre la marcha."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:20
+msgid ""
+"Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches"
+" found on FTC robots include HTD 5mm, HTD 3mm, and GT2 3mm."
+msgstr ""
+"Al igual que la cadena, la correa se identifica por su :term:`pitch <Pitch>`"
+" - los \"pitch\" comunes que se encuentran en los robots FTC incluyen HTD "
+"5mm, HTD 3mm, y GT2 3mm."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:22
+msgid ""
+"When using timing belts, correct tension is very important. There are two "
+"main ways to get your tension right. The first is easy - goBILDA and "
+"Actobotics already have belts integrated into their hole patterns. You can "
+"buy correctly sized belt directly from each vendor, and your tension will be"
+" perfect as soon as the belt is installed. As your designs gain complexity, "
+"so will your belt runs - maybe there are more than 2 pulleys, and maybe your"
+" pulleys are all different sizes. To compensate for this, the second way to "
+"ensure tension is to use a dynamic tensioner, similar to those found in "
+"complex chain runs. To design for these tensioners, we recommend planning "
+"more complex belt runs in CAD before building them in real life."
+msgstr ""
+"Cuando se utilizan correas de distribución, tener la tensión correcta es muy"
+" importante. Hay dos formas principales de conseguir la tensión correcta. La"
+" primera es fácil - goBILDA y Actobotics ya tienen correas integradas en sus"
+" patrones de agujeros. Puede comprar la correa del tamaño correcto "
+"directamente a cada proveedor, y su tensión será perfecta tan pronto como la"
+" correa esté instalada. A medida que tus diseños ganen en complejidad, "
+"también lo harán tus recorridos de correa: quizá haya más de 2 poleas, y "
+"quizá tus poleas sean todas de tamaños diferentes. Para compensar esta "
+"situación, la segunda forma de asegurar la tensión es utilizar un tensor "
+"dinámico, similar a los que se encuentran en tramos de cadena complejos. "
+"Para diseñar estos tensores, recomendamos planificar los tramos de correa "
+"más complejos en CAD antes de construirlos en la vida real."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:26
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:32
+msgid "Belt Calculator"
+msgstr "Calculadora de Correas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:28
+msgid ""
+"The actual calculations to determine which belt to use to get close to a "
+"given center-to-center (:term:`C2C`) distance are complicated. Below is a "
+"calculator to help out:"
+msgstr ""
+"Los cálculos reales para determinar qué correa utilizar para acercarse a una"
+" distancia dada de centro a centro (:term:`C2C`) son complicados. A "
+"continuación encontrarás una calculadora que te ayudará:"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:37
+msgid "The web version of gm0 has a belt calculator available here."
+msgstr ""
+"La versión web de gm0 tiene una calculadora de correas disponible aquí."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:42
+msgid ""
+"This calculator will suggest belt lengths even if they are difficult to get "
+"from vendors. Make sure the C2C distance you design around is for a belt "
+"length that you can purchase."
+msgstr ""
+"Esta calculadora le sugerirá longitudes de correa incluso aquellas que son "
+"difíciles de conseguir de vendedores conocidos. Asegúrese de que la "
+"distancia C2C en torno a la que diseña es para una longitud de correa que "
+"puede comprar."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:44
+msgid ""
+"SDP-SI has a `more advanced calculator <https://sdp-si.com/tools/center-"
+"distance-designer.php>`_, as does `ReCalc <https://www.reca.lc/belts>`_. The"
+" equations for calculating these values by hand can be found in `SDP-SI's "
+"Designing a Miniature Belt and Pulley Drive System Design Guide "
+"<https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_."
+msgstr ""
+"SDP-SI dispone de una `more advanced calculator <https://sdp-"
+"si.com/tools/center-distance-designer.php>`_, al igual que `ReCalc "
+"<https://www.reca.lc/belts>`_ Las ecuaciones para calcular estos valores a "
+"mano se pueden encontrar en `SDP-SI's Designing a Miniature Belt and Pulley "
+"Drive System Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-"
+"miniature-belt-drive.pdf>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:47
+msgid "Belt Wrap"
+msgstr "Rodeo de Correa"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:49
+msgid ""
+"**Belt should, at the very least, have 90° of contact with the pulley. The "
+"best practice is to have 180° or more of contact**, as it is very unlikely "
+"to fall off with proper tensioning. Belt skipping, especially on drivetrains"
+" or arms, is very possible without proper belt wrap or tensioning. When "
+"tensioning belt, be sure to not undertension or overtension it. "
+"Undertensioning belt can result in the belt falling off the pulley or belt "
+"skipping, where the belt can skip along the pulley. Overtensioning belt "
+"often results in the motor burning out, or less seriously, a loss of "
+"efficiency. Push along the belt, and if it moves slightly without "
+"significant resistance, chances are you've done it correctly. If it's too "
+"tight, then the belt will barely move under a gentle press."
+msgstr ""
+"**La correa debe tener, como mínimo, 90° de contacto con la polea. La mejor "
+"práctica es tener 180° o más de contacto**, ya que es muy poco probable que "
+"se caiga con una tensión adecuada. Es muy posible que la correa salte, "
+"especialmente en transmisiones o brazos, si no está bien tensada. Al tensar "
+"la correa, asegúrese de no tensarla ni demasiado ni muy poco. Si se tensa "
+"demasiado poco, la correa puede caerse de la polea o saltar a lo largo de "
+"esta. Si la correa está demasiado tensa, el motor puede quemarse o, lo que "
+"es menos grave, perder eficacia. Empuje a lo largo de la correa, y si se "
+"mueve ligeramente sin resistencia significativa, lo más probable es que lo "
+"haya hecho correctamente. Si está demasiado tensa, entonces la correa apenas"
+" se moverá bajo una suave presión."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:52
+msgid "Best practices for wrap"
+msgstr "Mejores Prácticas para el Rodeo"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:57
+msgid "Properly done belt wrap without tensioners"
+msgstr "Rodeo de la correa correctamente realizada sin tensores"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:57
+msgid "Ethan Doak, goBILDA"
+msgstr "Ethan Doak, goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:62
+msgid "A drivetrain by 8103 using belt"
+msgstr "Un chasis con correas hecho por 8103"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:62
+msgid ""
+"8103 Null Robotics, offseason prototype, properly done belt wrap with "
+"tensioners"
+msgstr ""
+"8103 Null Robotics, prototipo de off-season, rodeo de correa correctamente "
+"hecha con tensores."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:65
+msgid "Advantages:"
+msgstr "Ventajas:"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:67
+msgid ""
+"**Pulleys can be made at home**. Pulleys can be 3D printed for most "
+"situations, allowing you to cut costs and create unique tooth counts easily."
+msgstr ""
+"**Las poleas se pueden fabricar en casa**. Las poleas se pueden imprimir en "
+"3D para la mayoría de las situaciones, lo que le permite reducir costes y "
+"crear recuentos de dientes únicos con facilidad."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:68
+msgid ""
+"**Belts are very strong**. They're reinforced with fiberglass cords that are"
+" incredibly hard to break, giving belts immense strength. (*If you break a "
+"belt, it's most likely because it was out of alignment or tensioned far too "
+"tightly*.)"
+msgstr ""
+"**Las correas son muy resistentes**. Están reforzadas con cuerdas de fibra "
+"de vidrio que son increíblemente difíciles de romper, lo que confiere a las "
+"correas una resistencia inmensa. (*Si rompes una correa, lo más probable es "
+"que sea porque estaba desalineada o tensada con demasiada fuerza*)."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:69
+msgid ""
+"**When tensioned correctly, there is absolutely no slop**. Engines use "
+"timing belt for a reason - because it's the best possible solution for them "
+"to perfectly synchronize their shafts. There's nothing that matches the "
+"rotational accuracy of a properly tensioned belt."
+msgstr ""
+"**Cuando se tensa correctamente, no hay ninguna holgura**. Los motores de "
+"los automóviles utilizan correas de distribución por una razón: porque es la"
+" mejor solución posible para sincronizar perfectamente sus ejes. No hay nada"
+" que iguale la precisión de rotación de una correa correctamente tensada."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:70
+msgid ""
+"**Belts are efficient and quiet**. Compared to the loud shredding sound of a"
+" chain run, belt runs are dead silent, and they're more efficient than "
+"chains (although this makes zero practical impact in the robotics use case)."
+msgstr ""
+"**Las cintas son eficientes y silenciosas**. En comparación con el fuerte "
+"sonido de trituración de una cadena, las correas son totalmente silenciosas "
+"y más eficientes que las cadenas (aunque esto no tiene ningún impacto "
+"práctico en el caso de uso de la robótica)."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:73
+msgid "Disadvantages:"
+msgstr "Desventajas:"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:75
+msgid ""
+"**Belts aren't customizable**. You buy a belt of a specific length and "
+"you're stuck with that length until you buy another one. This isn't too bad "
+"if you're planning out your robot properly, but chain will work better for "
+"prototypes where the chain length will be changing often."
+msgstr ""
+"**Las correas no son personalizables**. Compras una correa de una longitud "
+"específica y te quedas con esa longitud hasta que compras otra. Esto no es "
+"tan malo si estás planificando tu robot adecuadamente, pero la cadena "
+"funcionará mejor para prototipos donde la longitud de la cadena cambiará a "
+"menudo."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:76
+msgid ""
+"**Belts can be wider than alternatives (especially chain)**. This probably "
+"won't have much of an impact, but belt can often be wider than other power "
+"transmission methods, so it may not always fit."
+msgstr ""
+"**Las correas pueden ser más anchas que otras alternativas (especialmente la"
+" cadena)**. Esto probablemente no tendrá mucho impacto, pero la correa a "
+"menudo puede ser más ancha que otros métodos de transmisión de potencia, por"
+" lo que no siempre encaja."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:77
+msgid ""
+"**Belts can be expensive (but you'll save money with pulleys)**. While you "
+"can buy chain 10 feet at a time, you'll most likely be buying each belt "
+"brand new. While this can get expensive, you'll be saving money on pulleys."
+msgstr ""
+"**Las correas pueden ser caras (pero ahorrarás dinero con las poleas)**. "
+"Mientras que es posible comprar la cadena de 10 pies y no tener que volver "
+"preocuparse, lo más probable es que vas a tener que comprar muchas correas "
+"nuevas de diversos tamaños. Aunque esto puede resultar caro, ahorrarás "
+"dinero con las poleas."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:82
+msgid "Properly done belt wrap with tensioners"
+msgstr "Rodeo de la correa correctamente hecha con tensores"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:82
+msgid "7236 Recharged Green, Rover Ruckus"
+msgstr "7236 Recharged Green, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:87
+msgid "A drivetrain by 8417 using belt"
+msgstr "Una transmisión por correa por el equipo 8417"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:87
+msgid "8417 Lectric Legends, Rover Ruckus"
+msgstr "8417 Lectric Legends, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:90
+msgid "Purchasing Belts"
+msgstr "Compra de Correas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:92
+msgid ""
+"Once you know what pitch and length belt you want, purchasing a belt "
+"requires navigating the vendor's website. Almost every COTS belt vendor will"
+" identify belts by 3 values: pitch, pitch length, and width. Pitch is the "
+"pitch of the belt, pitch length is the length of the belt (belt teeth times "
+"pitch), and width is the width of the belt. From there, its a matter of "
+"searching the vendor's page for the right belt."
+msgstr ""
+"Una vez que sepas qué pitch y que longitud de correa desea, la compra de una"
+" correa requiere navegar por el sitio web del proveedor. Casi todos los "
+"proveedores de correas COTS identifican las correas por 3 valores: pitch, "
+"longitud de pitch y anchura. El pitch es el pitch de la correa, la longitud "
+"del pitch es la longitud de la correa (dientes de la correa por pitch) y la "
+"anchura es la anchura de la correa. A partir de ahí, es cuestión de buscar "
+"la correa adecuada en la página del proveedor."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:95
+msgid "SDP-SI"
+msgstr "SDP-SI"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:97
+msgid ""
+"SDP-SI is an established mechanical parts vendor that sells a large "
+"assortment of COTS belts. To navigate the site, go to the `main belts page "
+"<https://www.sdp-si.com/products/details/timing-belt-detail.php>`_, navigate"
+" to the correct belt type, then select the option for the correct pitch."
+msgstr ""
+"SDP-SI es un proveedor establecido de piezas mecánicas que vende un gran "
+"surtido de correas COTS. Para navegar por el sitio, vaya a la `página "
+"principal de correas <https://www.sdp-si.com/products/details/timing-belt-"
+"detail.php>`_, navegue hasta el tipo de correa correcto y, a continuación, "
+"seleccione la opción del pitch correcto."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:100
+msgid ""
+"Make sure to select the Single Sided belt type, and not the Timing Belt "
+"Stock type. Timing Belt Stock is a long stretch of belt that is not in a "
+"loop, whereas Single Sided belts are a loop."
+msgstr ""
+"Asegúrese de seleccionar el tipo de correa de un solo lado, y no el tipo de "
+"correa de distribución. La correa dentada es un tramo largo de correa que no"
+" forma un bucle, mientras que las correas unilaterales forman un bucle."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:102
+msgid ""
+"For example, to purchase an HTD-5 belt, first navigate to GATES HTD Timing "
+"Belts, navigate to 5mm pitch, and select buy now under the single sided belt"
+" option."
+msgstr ""
+"Por ejemplo, para comprar una correa HTD-5, primero navegue a GATES HTD "
+"Timing Belts, navegue a 5mm pitch, y seleccione buy now bajo la opción "
+"single sided belt."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:105
+msgid "V-Belt Guys"
+msgstr "V-Belt Guys"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:107
+msgid ""
+"V-Belt Guys stocks a large number of options for belts. They are known for "
+"stocking almost every width of belt, since they cut belts to size for the "
+"order. Searching the site uses belt codes with the format \"Pitch Length-"
+"Pitch Code-Width\". For example, a 200 pitch length HTD5 belt with a 5mm "
+"side to side width would be the code 200-5m-5. A list of common pitch codes "
+"is below."
+msgstr ""
+"V-Belt Guys tiene en stock un gran número de opciones de correas. Son "
+"conocidos por tener en stock casi todos los anchos de correa, ya que cortan "
+"las correas a la medida del pedido. La búsqueda en el sitio utiliza códigos "
+"de correa con el formato \"Longitud de Pitch-Codigo de Pitch-Anchura\". Por "
+"ejemplo, una correa HTD5 de largo de 200 con una anchura lateral de 5 mm "
+"tendría el código 200-5m-5. A continuación encontrará una lista de los "
+"códigos de pitch más comunes."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:110
+msgid "Name"
+msgstr "Nombre"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:110
+msgid "Pitch Code"
+msgstr "Código de Pitch"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:112
+msgid "HTD-5"
+msgstr "HTD-5"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:112
+msgid "5m"
+msgstr "5m"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:113
+msgid "HTD-3"
+msgstr "HTD-3"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:113
+msgid "3m"
+msgstr "3m"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:114
+msgid "GT3-2mm"
+msgstr "GT3-2mm"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:114
+msgid "2mgt"
+msgstr "2mgt"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:115
+msgid "GT3-3mm"
+msgstr "GT3-3mm"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:115
+msgid "3mgt"
+msgstr "3mgt"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:116
+msgid "GT3-5mm"
+msgstr "GT3-5mm"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:116
+msgid "5mgt"
+msgstr "5mgt"
