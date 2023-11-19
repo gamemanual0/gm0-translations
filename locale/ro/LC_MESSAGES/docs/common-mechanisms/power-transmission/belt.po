@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2023-11-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -21,16 +21,16 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:2
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:9
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:4
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:11
 msgid "Timing Belt"
 msgstr "Curea de Distribuție"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:6
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:8
 msgid "Term"
 msgstr "Termen"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:11
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:13
 msgid ""
 "Timing belts use a series of small, wide teeth to engage a pulley with a "
 "number of matching grooves. They earn their name because they can be very "
@@ -44,19 +44,11 @@ msgstr ""
 msgid "A picture of timing belts on a pulley"
 msgstr "O poză cu niște curele de distribuție pe o transmisie"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:16
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:18
 msgid "Timing belts and a pulley"
 msgstr "Niște curele de distribuție și o transmisie"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:20
-msgid ""
-"Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches"
-" found on FTC robots include HTD 5mm, HTD 3mm, and GT2 3mm."
-msgstr ""
-"Precum lanțul, cureaua este identificată după :term:`pasul<Pitch>` sau - "
-"pașii comuni regăsiti pe roboții FTC includ HTD 5mm, HTD 3mm și GT2 3mm."
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:22
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:24
 msgid ""
 "When using timing belts, correct tension is very important. There are two "
 "main ways to get your tension right. The first is easy - goBILDA and "
@@ -82,27 +74,27 @@ msgstr ""
 "lanț. Pentru a modela aceste tensionatoare, noi îți recomandăm să îți "
 "schițezi sisteme mai complexe în CAD, iar apoi să le aplici în viața reală."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:47
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:49
 msgid "Belt Wrap"
 msgstr "Îmbrățișarea Curelei"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:52
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:54
 msgid "Best practices for wrap"
 msgstr "Cele mai bune metode de a îmbrățișa cureaua"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:57
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:59
 msgid "Properly done belt wrap without tensioners"
 msgstr "Îmbrățișarea corectă a curelei fără tensionatoare"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:57
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:59
 msgid "Ethan Doak, goBILDA"
 msgstr "Ethan Doak, goBILDA"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:62
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:64
 msgid "A drivetrain by 8103 using belt"
 msgstr "Un șasiu construit de echipa 8103 folosind curele de distribuție"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:62
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:64
 msgid ""
 "8103 Null Robotics, offseason prototype, properly done belt wrap with "
 "tensioners"
@@ -110,11 +102,11 @@ msgstr ""
 "8103 Null Robotics, prototip offseason, îmbrățișarea curelei corectă cu "
 "tensionatoare."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:65
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:67
 msgid "Advantages:"
 msgstr "Avantaje:"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:67
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:69
 msgid ""
 "**Pulleys can be made at home**. Pulleys can be 3D printed for most "
 "situations, allowing you to cut costs and create unique tooth counts easily."
@@ -123,23 +115,23 @@ msgstr ""
 "majoritatea cazurilor, astfel reducând din costuri și permițăndu-ți să îți "
 "personalizezi numărul de dinți pe curea."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:73
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:75
 msgid "Disadvantages:"
 msgstr "Dezavantaje:"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:82
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:84
 msgid "Properly done belt wrap with tensioners"
 msgstr "Îmbrățișarea unei curele executată corect cu tensionatoare"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:82
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:84
 msgid "7236 Recharged Green, Rover Ruckus"
 msgstr "Echipa 7236 Recharged Green, Rover Ruckus"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:87
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:89
 msgid "A drivetrain by 8417 using belt"
 msgstr ""
 "Un șasiu construit de echipa 8417 cu ajutorul curelelor de distribuție"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:87
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:89
 msgid "8417 Lectric Legends, Rover Ruckus"
 msgstr "8417 Lectric Legends, Rover Ruckus"

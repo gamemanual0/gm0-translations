@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2023-11-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Bianca Carstea, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -22,25 +22,15 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:2
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:4
 msgid "Reading and Writing to Hardware"
 msgstr "Citirea și Scrierea Hardware"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:4
-msgid ""
-"When using the FTC SDK, there are a variety of built in hardware classes "
-"which can be used to communicate with hardware on the robot such as DC "
-"Motors, :term:`Servos <Servo>`, and Sensors."
-msgstr ""
-"Când folosești FTC SDK, există multe varietăți de clase de hardware care pot"
-" fi folosite pentru a comunica cu hardware-ul de pe robot, precum motoare "
-"DC,  :term:`servomotoare<Servo>`, și senzori."
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:7
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:9
 msgid "Creating and Instantiating Hardware Objects"
 msgstr "Crearea și Instanțarea Obiectelor Hardware"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:9
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:11
 msgid ""
 "The first thing required to properly create an object is to import its "
 "class. In Android Studio, if the class is referenced without being imported "
@@ -52,7 +42,7 @@ msgstr ""
 "poți apăsa Alt+Enter pentru a o importa automat. După ce este importată "
 "clasa, urmatorul pas este să creezi obiectul::"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:13
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:15
 msgid ""
 "After the object is created, it must be instantiated. Part of the ``OpMode``"
 " superclass is something called ``hardwareMap``. ``hardwareMap`` is used in "
@@ -62,7 +52,7 @@ msgstr ""
 "``OpMode`` este numită ``hardwareMap``. ``hardwareMap`` este folosit în FTC "
 "SDK pentru a instanța obiecte, decât să apelezi un constructor."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:15
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:17
 msgid ""
 "It contains all of the information entered into the configuration on the "
 "Robot Controller, such as names of hardware and what port it is plugged "
@@ -72,7 +62,7 @@ msgstr ""
 "precum numele hardware-ului și în ce port a fost introdus. Aici este un "
 "exemplu pentru instanțierea motorului pe care l-am creat mai sus::"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:19
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:21
 msgid ""
 "Whatever sensor you are using, you will pass that class into the spot where "
 "``DcMotor.class`` is. For example, if liftMotor was a Servo, ``Servo.class``"
@@ -82,7 +72,7 @@ msgstr ""
 "este ``DcMotor.class``. De exemplu, dacă liftMotor era un servomotor, "
 "``Servo.class`` ar fi fost pasat în schimb."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:21
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:23
 msgid ""
 "For the second argument, you pass whatever the device is named in the Robot "
 "Controller configuration. ``hardwareMap`` will then go find what port the "
@@ -94,15 +84,15 @@ msgstr ""
 "este conectat dispozitivul cu numele respectiv, care îți permite să accesezi"
 " hardware-ul."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:24
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:26
 msgid "Examples of Using Common Hardware Components"
 msgstr "Exemple Comune pentru Utilizarea Componentelor Hardware"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:27
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:29
 msgid "DC Motor"
 msgstr "Motorul DC"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:37
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:39
 msgid ""
 "After a ``DcMotor`` is instantiated, there are a few variables you can set "
 "to affect how the DC Motor runs. The first of these is direction::"
@@ -111,7 +101,7 @@ msgstr ""
 "trebuie să le setezi pentru a afecta felul în care un motor DC va rula. "
 "Primul din acestea este direcția::"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:42
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:44
 msgid ""
 "Changing the direction of the motor does exactly what should be expected, it"
 " changes the direction. If a power of 1 is applied to the motor while it is "
@@ -127,11 +117,11 @@ msgstr ""
 "motorului înspre tine, forward este în sensul invers al acului de ceasornic "
 "(cu excepția motoarelor NereRest)."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:44
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:46
 msgid "Next, there are two zero power behaviors that can be adjusted::"
 msgstr "Apoi, exită două comportamente de putere 0 care pot fi configurate::"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:49
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:51
 msgid ""
 "Changing this variable affects how the DC Motor behaves while a power of 0 "
 "is applied. ``BRAKE`` will cause the motor to try and slow itself down if it"
@@ -145,7 +135,7 @@ msgstr ""
 "este deja în mișcare), în timp ce ``FLOAT`` permite motorului să culiseze "
 "până la o oprire completă, lăsând frecarea fizică să facă toată munca."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:51
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:53
 msgid ""
 "Finally, there are four different run modes that can be used with DC motors:"
 " ::"
@@ -153,7 +143,7 @@ msgstr ""
 "În final, există 4 tipuri diferite de rulare care pot fi folosite cu "
 "motoarele DC::"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:59
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:61
 msgid ""
 "It is important to note that encoder values can be read in any of these "
 "modes provided an encoder is properly plugged in. These modes just change "
@@ -169,7 +159,7 @@ msgstr ""
 "aceste moduri de rulare <https://docs.revrobotics.com/duo-"
 "control/programming/using-encoder-feedback#choosing-a-motor-mode>`_."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:61
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:63
 msgid ""
 "``RUN_TO_POSITION`` can be a convenient way to control a single-motor "
 "mechanism, as it offloads all control work; however, since every motor is "
@@ -182,19 +172,19 @@ msgstr ""
 "recomandat să folosești această metodă pe mecanisme cu mai multe motoare, în"
 " special șasiuri."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:64
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:66
 msgid "Encoders"
 msgstr "Encodere"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:66
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:68
 msgid "Term"
 msgstr "Termen"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:69
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:71
 msgid "Encoder"
 msgstr "Encoder"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:71
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:73
 msgid ""
 "An encoder refers to a device that tracks (generally) rotational movement "
 "around an axis."
@@ -202,7 +192,7 @@ msgstr ""
 "Un encoder se referă la un dispozitiv care urmăreste mișcarea rotațională în"
 " jurul unui ax."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:75
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:77
 msgid ""
 "Encoders are used to help find the position of where the robot, or one of "
 "its mechanisms, is."
@@ -210,7 +200,7 @@ msgstr ""
 "Encoderele sunt folosite pentru a găsi poziția robotului, sau a unui "
 "mecanism."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:77
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:79
 msgid ""
 "While all FTC legal motors contain built in relative quadrature encoders, "
 "they must be wired separately and are not required for use. External "
@@ -222,7 +212,7 @@ msgstr ""
 " folosite și conectate într-un port de encoder cât timp folosesc protocolul "
 "cuadratul de comunicare."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:79
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:81
 msgid ""
 "Accessing encoders requires calling one method on the DcMotor object, "
 "``getCurrentPosition()``, which returns the current position of the encoder "
@@ -236,7 +226,7 @@ msgstr ""
 " nu este resetat la 0 decât dacă ``STOP_AND_RESET_ENCODERS`` este folosit "
 "sau este restartat Expansion Hub-ul."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:81
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:83
 msgid ""
 "There is no real standardized terminology when dealing with quadrature "
 "encoders. The SDK uses \"CPR\" or Counts Per Revolution by default,. You may"
@@ -250,7 +240,7 @@ msgstr ""
 "fi echivalentul a între 1 si 4 citiri ale SDK-ului. Ai grijă când citești "
 "documentațiile!"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:83
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:85
 msgid ""
 "Encoders with high numbers of Counts per Revolution, such as the REV Through"
 " Bore Encoder, can lose steps if plugged into ports 1 or 2. In addition, "
@@ -264,11 +254,11 @@ msgstr ""
 "citiri excesive CPR, din cauza numărului returnat care este un număr întreg "
 "de 16 biți."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:86
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:88
 msgid "Servo"
 msgstr "Servomotoare"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:92
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:94
 msgid ""
 "After instantiating a ``Servo``, there are two main functions that can be "
 "called: ``setPosition()`` and ``getPosition()``. ::"
@@ -276,11 +266,11 @@ msgstr ""
 "După instanțierea unui ``Servo``, există două funcții principale care pot fi"
 " apelate: ``setPosition()`` și ``getPosition()``. ::"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:102
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:104
 msgid "Continuous Rotation Servo"
 msgstr "Servomotor cu Rotație Continuă"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:108
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:110
 msgid ""
 "A CRServo has one main method; ``setPower()``. This works very similarly to "
 "``DcMotor`` 's ``setPower()``, meaning that passing it 0 makes it stop, "
@@ -293,11 +283,11 @@ msgstr ""
 "să se rotească în sens invers la viteză maximă, și restul între aceste "
 "valori.::"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:113
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
 msgid "Digital IO"
 msgstr "IO Digital"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:119
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:121
 msgid ""
 "A DigitalChannel has a couple main methods. ``setMode()`` is used to set the"
 " port as either an OUTPUT or INPUT port, ``getState()`` returns the current "
@@ -309,11 +299,11 @@ msgstr ""
 "curentă a port-ului (merge doar în modul INPUT), iar ``setState()`` setează "
 "starea port-ului (merge doar în modul OUTPUT)."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:121
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:123
 msgid "Digital ports start by default in INPUT mode"
 msgstr "Port-urile digitale încep implicit în modul INPUT"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:123
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:125
 msgid ""
 "Digital ports are pulled UP to prevent floating. This means that there is a "
 "resistor between the port and 3.3V so the port reads HIGH by default when "
@@ -331,11 +321,11 @@ msgstr ""
 " portul digital. **Conectarea greșită (3.3V la portul digital) poate cauza "
 "instabilitate și să îți facă expansion hub-ul să dea crash.**"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:126
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:128
 msgid "Analog Input"
 msgstr "Input Analog"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:132
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:134
 msgid ""
 "An ``AnalogInput`` has one main method: ``getVoltage()`` which is used to "
 "get the current input voltage to the port."
@@ -343,7 +333,7 @@ msgstr ""
 "``AnalogInput`` are o metodă principală: ``getVoltage()`` care este folosit "
 "pentru a obține tensiunea curentă aplicată portului."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:134
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:136
 msgid ""
 "Although ``getMaxVoltage()`` returns 3.3v, the expansion and control hub "
 "analog input ports can safely handle up to 5v."
@@ -351,11 +341,11 @@ msgstr ""
 "Deși ``getMaxVoltage()`` returnează 3.3v, porturile de intrare analog ale "
 "expansion și control hub-urilor pot face fața cu ușurintă până la 5v."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:137
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:139
 msgid "A Note on Hardware Call Speed"
 msgstr "De Reținut Despre Viteza de Apelare Hardware"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:139
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:141
 msgid ""
 "Every hardware call you make, (whether it be setting the power for a motor, "
 "setting a :term:`servo <Servo>` position, reading an encoder value, etc.) "
@@ -371,7 +361,7 @@ msgstr ""
 "deoarece, în spate, SDK-ul trebuie să facă mai multe apeluri pentru a "
 "efectua o operație I2C."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:141
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:143
 msgid ""
 "When using a Control Hub, you may see considerably faster hardware call "
 "times because the Control Hub uses a direct UART connection to the Lynx "
@@ -383,7 +373,7 @@ msgstr ""
 "Lynx în loc să treacă prin USB și un \"om la mijloc\" FTDI cum se întâmplă "
 "când folosești un telefon."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:145
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:147
 msgid ""
 "This means that it is critical to minimize the amount of hardware calls you "
 "make in order to keep your control loops running fast. For instance, do not "
@@ -397,7 +387,7 @@ msgstr ""
 " stocheaza valoarea într-o variabilă dacă ai nevoie să o folosești înca o "
 "data în alte puncte în aceeași bucla de control."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:147
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:149
 msgid ""
 "Using a bulk read hardware call can help with this problem. A bulk read "
 "takes the same 3ms to execute as any other normal hardware call, but it "

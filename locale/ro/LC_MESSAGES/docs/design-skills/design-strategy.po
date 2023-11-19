@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2023-11-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Soft Hoarders, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -23,32 +23,15 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:2
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:4
 msgid "Design Strategy"
 msgstr "Strategia de design"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:4
-msgid ""
-"A useful resource is the championship conference presentation from Karthik "
-"Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame "
-"team FRC 1114, Simbotics, on effective design and competition strategies: "
-"`Effective FIRST Strategies. <https://www.youtube.com/watch?v=5fifL47TvzE>`_"
-" See also the `slideshow from the presentation "
-"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
-msgstr ""
-"O resursă utilă este prezentarea de la conferința de campionat a lui Karthik"
-" Kanagasabapathy, fostul mentor principal (și actualul consilier) al echipei"
-" Hall of Fame FRC 1114, Simbotics, privind strategiile eficiente de "
-"proiectare și competiție: `Effective FIRST Strategies. "
-"<https://www.youtube.com/watch?v=5fifL47TvzE>`_ Vedeți, de asemenea, "
-"`slideshow-ul din prezentare "
-"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
-
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:7
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:9
 msgid "General Design Tips and Mistakes"
 msgstr "Sfaturi și Greșeli Generale de Proiectare"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:9
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:11
 msgid ""
 "Here are some good tips for teams to make decisions in the high-level design"
 " and strategic planning stages."
@@ -56,144 +39,144 @@ msgstr ""
 "Iată câteva sfaturi bune pentru ca echipele să ia decizii în etapele de "
 "proiectare la nivel înalt și de planificare strategică."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:12
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
 msgid "Problem"
 msgstr "Problemă"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:12
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
 msgid "Solution"
 msgstr "Soluție"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
 msgid "**Do everything at once**"
 msgstr "**Faceți totul deodată**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:18
 msgid "Robot becomes half-baked"
 msgstr "Robotul devine pe jumătate pregătit"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:17
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
 msgid "Cannot excel in one area"
 msgstr "Nu poate excela într-un singur domeniu"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
 msgid "**Perfect one objective first**"
 msgstr "**Perfecționează mai întâi un obiectiv**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:18
 msgid "Robot is highly optimized"
 msgstr "Robotul este foarte optimizat"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:17
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
 msgid "Consistently excels in one area"
 msgstr "Excelează în mod constant într-un singur domeniu"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
 msgid "**Overcomplicate**"
 msgstr "**Excesiv de complicat**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:23
 msgid "More time needed to iterate"
 msgstr "Este nevoie de mai mult timp pentru a repeta"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:22
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
 msgid "Less reliable"
 msgstr "Mai puțin fiabile"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
 msgid "**Simplify**"
 msgstr "**Simplificați*"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:23
 msgid "Best designs are usually simplest"
 msgstr "Cele mai bune modele sunt de obicei cele mai simple"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:22
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
 msgid "Less moving parts"
 msgstr "Mai puține piese în mișcare"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
 msgid "**Score-first design**"
 msgstr "**Designul de tip primul punctaj**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:28
 msgid "Neglect proper principles"
 msgstr "Neglijarea principiilor corecte"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:27
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
 msgid "Often wildly inconsistent"
 msgstr "Adesea extrem de inconsecventă"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
 msgid "**Design for consistency**"
 msgstr "**Design pentru consistență**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:28
 msgid "Usually reliability > scoring ability"
 msgstr "De obicei, fiabilitatea > capacitatea de notare"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:27
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
 msgid "Great plus for alliance selection"
 msgstr "Un mare plus pentru selecția de alianțe"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
 msgid "**Build haphazardly**"
 msgstr "**Construiește la întâmplare**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:33
 msgid "Build with subpar materials"
 msgstr "Construiți cu materiale inferioare"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:32
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
 msgid "Inadequate support structure"
 msgstr "Structură de sprijin inadecvată"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
 msgid "**Build for reliability**"
 msgstr "**Construiți pentru fiabilitate**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:33
 msgid "Remove unneeded moving parts"
 msgstr "Îndepărtați piesele mobile inutile"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:32
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
 msgid "Eliminate single points of failure"
 msgstr "Eliminarea punctelor unice de eșec"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
 msgid "**Fret about design**"
 msgstr "**Sunt îngrijorat de design**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:38
 msgid "Wastes testing time"
 msgstr "Pierde timp de testare"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:37
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:39
 msgid "Design alone is not enough"
 msgstr "Doar designul nu este suficient"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
 msgid "**Focus on execution**"
 msgstr "**Concentrați-vă pe execuție**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:38
 msgid "Make a decision, then stick to it"
 msgstr "Luați o decizie, apoi respectați-o"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:37
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:39
 msgid "Execution often beats design"
 msgstr "Execuția învinge adesea designul"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:41
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:43
 msgid "Doing Everything At Once to → Perfecting One Objective First"
 msgstr ""
 "De la a face totul deodată la → Perfecționarea unui obiectiv mai întâi"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:43
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:45
 msgid "**Consistency is king.**"
 msgstr "**Consistența este rege.**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:45
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:47
 msgid ""
 "A common pitfall for first year teams is trying to accomplish all the game "
 "objectives at once, especially in tele-op and endgame."
@@ -202,7 +185,7 @@ msgstr ""
 " îndeplini toate obiectivele jocului deodată, în special în teleop și "
 "endgame."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:47
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:49
 msgid ""
 "**This is highly discouraged** because oftentimes new teams do not have the "
 "experience to do so. It is no small achievement to have a consistent robot "
@@ -213,7 +196,7 @@ msgstr ""
 "mică să ai un robot consistent care să îndeplinească toate obiectivele în "
 "competiție, chiar și la nivelurile superioare."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:49
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:51
 msgid ""
 "Too often, we see teams bring half-baked robots that will attempt to do "
 "everything in a match, but excel at nothing. Even if they succeed, it is "
@@ -226,7 +209,7 @@ msgstr ""
 "robot ar putea avea mult mai mult succes dacă echipa și-ar petrece timpul "
 "pentru a perfecționa mai întâi un mecanism."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:51
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:53
 msgid ""
 "Teams should always remember the principle that a robot that can complete "
 "one thing consistently will likely be more competitive than the robot that "
@@ -239,7 +222,7 @@ msgstr ""
 "Recomandăm echipelor să se concentreze asupra unui singur obiectiv în timpul"
 " teleop/endgame-ului și să îl perfecționeze."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:53
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:55
 msgid ""
 "Typically, teams which have a solid autonomous and consistent endgame can be"
 " competitive at the Qualifier level. This is a recommended goal for new "
@@ -249,11 +232,11 @@ msgstr ""
 "consistent pot fi competitive la nivelul calificărilor. Acesta este un "
 "obiectiv recomandat pentru echipele noi."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:56
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:58
 msgid "Overcomplex → Simple"
 msgstr "Supracomplex → Simplu"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:58
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:60
 msgid ""
 "Another common trap that teams fall into is to overcomplicate needlessly. "
 "Simplifying your robot simplifies possible headaches later."
@@ -262,7 +245,7 @@ msgstr ""
 "inutil. Simplificarea robotului simplifică posibilele dureri de cap "
 "ulterioare."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:60
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:62
 msgid ""
 "While some robots are very complicated, keep in mind that those teams are "
 "generally experienced, have some sort of machining capability, and fully "
@@ -275,7 +258,7 @@ msgstr ""
 "de talie mondială construiesc adesea proiecte ingenioase, dar ridicol de "
 "simple."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:62
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:64
 msgid ""
 "Some advantages to simplicity are that the robot has less points of failure,"
 " given that the robot has less moving parts. Additionally, it takes much "
@@ -290,13 +273,13 @@ msgstr ""
 "complicat are mult mai multe variabile care trebuie ajustate/pot cauza "
 "probleme."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:64
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:66
 msgid ""
 "Keeping things simple can be practically achieved through a couple of ways."
 msgstr ""
 "Păstrarea lucrurilor simple poate fi realizată în practică în câteva moduri."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:66
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:68
 msgid ""
 "Limit the degrees of motion that the mechanism operates in. For example, a "
 "linear slide goes in and out in a straight line, as opposed to an arm, which"
@@ -308,7 +291,7 @@ msgstr ""
 "rotește de-a lungul unei axe. Acest lucru va servi la eliminarea forțelor "
 "care altfel ar putea afecta negativ mecanismul."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:68
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:70
 msgid ""
 "Another way to simplify is to build for the shortest travel distance. "
 "Obviously, the shortest distance from A to B is in a straight line, so teams"
@@ -323,17 +306,17 @@ msgstr ""
 "la rezolvarea eventualelor probleme în cazul în care elementele de joc "
 "trebuie să schimbe traiectoria de prea multe ori."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:71
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:73
 msgid "Score-first Designing → Designing for Consistency"
 msgstr "Proiectarea bazată pe punctaj → Proiectarea pentru consistență"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:73
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:75
 msgid "Teams should prioritize consistency over scoring ability."
 msgstr ""
 "Echipele ar trebui să prioritizeze consecvența în detrimentul capacității de"
 " a marca."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:75
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:77
 msgid ""
 "The tortoise beats the rabbit. An overused parable, but it still holds a "
 "kernel of truth. Why? Because the tortoise, which plodded along "
@@ -344,7 +327,7 @@ msgstr ""
 " a înaintat constant, l-a învins pe iepure, care avea perioade calde și "
 "reci."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:77
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:79
 msgid ""
 "A hallmark of any successful team is consistency and reliability throughout "
 "the competition season and even across seasons. Sports dynasties are "
@@ -359,7 +342,7 @@ msgstr ""
 "pentru mai multe sezoane. Fără puterea consecvenței, va fi aproape imposibil"
 " să câștigi meciuri, ca să nu mai vorbim de un turneu."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:79
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:81
 msgid ""
 "Too many teams fall into the pit of prioritizing scoring ability more than "
 "anything else, which is a grave error. In keeping with the first tip, to "
@@ -371,7 +354,7 @@ msgstr ""
 " cu primul sfat, de a perfecționa mai întâi un obiectiv, această practică va"
 " servi la creșterea consecvenței."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:81
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:83
 msgid ""
 "While scoring ability should be a priority and objective when designing "
 "mechanisms, it is not everything in this game. We advise being consistent at"
@@ -382,11 +365,11 @@ msgstr ""
 "acest joc. Vă sfătuim să fiți consecvenți la niveluri de scoruri mici și "
 "medii decât să fiți inconsecvenți la un nivel înalt."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:86
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:88
 msgid "Building haphazardly → Building for reliability"
 msgstr "Construirea la întâmplare → Construirea pentru fiabilitate"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:88
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:90
 msgid ""
 "Build for the worst case scenario, not the best case scenario. When "
 "building, teams often overlook a key principle: build for reliability. All "
@@ -401,7 +384,7 @@ msgstr ""
 "unul dintre cele mai frecvente motive pentru turneele nereușite: defectarea "
 "pieselor."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:90
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:92
 msgid ""
 "Teams also do not take into account the rigors of competition and build as "
 "if the robot will not encounter opposing robots. Sufficient driver practice "
@@ -418,7 +401,7 @@ msgstr ""
 "manufacturing/materials-guide>` pentru a înțelege mai bine ce materiale se "
 "recomandă a fi utilizate."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:92
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:94
 msgid ""
 "If possible, teams should build with redundancy in mind. For example, if one"
 " set of linear slides fails due to a wire snapping, having a second set will"
@@ -433,7 +416,7 @@ msgstr ""
 "mecanismelor, a motoarelor și a servomotoarelor este o metodă obișnuită de a"
 " construi pentru redundanță."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:94
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:96
 msgid ""
 "In addition, teams often forget to account for twisting or compression "
 "forces that may occur upon the mechanism."
@@ -441,7 +424,7 @@ msgstr ""
 "În plus, echipele uită adesea să ia în considerare forțele de torsiune sau "
 "de compresie care pot apărea asupra mecanismului."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:96
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:98
 msgid ""
 "While we cannot give any specific recommendations, do keep in mind what "
 "forces the support structure of your mechanism must bear along the full "
@@ -456,7 +439,7 @@ msgstr ""
 "solidă merită tot timpul alocat acesteia. Cu toate acestea, este bine să vă "
 "gândiți la greutatea suplimentară care rezultă."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:98
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:100
 msgid ""
 "Furthermore, a common cause of robot disconnect is wiring issues. Refer to "
 "the :doc:`Wiring section </docs/power-and-electronics/wiring>` for more "
@@ -469,7 +452,7 @@ msgstr ""
 " scurt, asigurați-vă că planificați din timp și lăsați spațiu pentru cabluri"
 " și folosiți o descărcare de tensiune ori de câte ori este posibil."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:100
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:102
 msgid ""
 "All these tips combined will help your robot become more reliable, a key "
 "characteristic of all world-level robots."
@@ -477,31 +460,18 @@ msgstr ""
 "Toate aceste sfaturi combinate vor ajuta robotul dumneavoastră să devină mai"
 " fiabil, o caracteristică cheie a tuturor roboților de nivel mondial."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:103
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:105
 msgid "Fretting about Design → Focusing on Execution"
 msgstr "Frământări legate de design → Concentrarea pe execuție"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:105
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:107
 msgid ""
 "A good execution of a bad design will beat a bad execution of good design."
 msgstr ""
 "O execuție bună a unui proiect prost va învinge o execuție proastă a unui "
 "proiect bun."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:107
-msgid ""
-"FTC is all about how well you execute in both the mechanical aspect and the "
-"driver aspect. If your goal is winning, then how mechanically beautiful your"
-" robot is doesn't matter. Your goal is less of impressing the judges but "
-"performing the best you possibly can on the field."
-msgstr ""
-"FTC se bazează pe modul în care execuți, atât aspectul mecanic, cât și pe "
-"cel al driving-ului. Dacă obiectivul tău este să câștigi, atunci nu contează"
-" cât de frumos este robotul tău din punct de vedere mecanic. Scopul tău este"
-" mai puțin de a impresiona judecătorii, ci de a performa cât mai bine pe "
-"teren."
-
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:109
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:111
 msgid ""
 "It is very possible to take a bad design, execute it well, and still be "
 "competitive at a high level. Even though not many teams are able to do so, "
@@ -515,7 +485,7 @@ msgstr ""
 "foarte importantă. Atunci când faceți brainstorming cu privire la proiecte, "
 "încercați să nu vă blocați pe cât posibil pe detalii mici."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:111
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:113
 msgid ""
 "It is important to discuss different designs and debate the pros & cons, but"
 " after a design has been picked, stay with it unless there are major flaws "
@@ -533,7 +503,7 @@ msgstr ""
 "robotul la jumătatea sezonului și multe echipe de top au făcut acest lucru "
 "cu mare succes."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:113
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:115
 msgid ""
 "However, this is not recommended for rookie and new teams due to the general"
 " lack of experience. Realistically, expect to spend 50-100+ hours to rebuild"
@@ -546,103 +516,103 @@ msgstr ""
 "te pe modul în care poți repeta designul tău actual pentru a fi cât mai "
 "eficient, eficace și rafinat posibil."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:116
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:118
 msgid "Competition Tips and Mistakes"
 msgstr "Sfaturi și greșeli în materie de concurență"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:118
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:120
 msgid ""
 "Here are some good tips for teams to make decisions in the execution stage."
 msgstr ""
 "Iată câteva sfaturi bune pentru ca echipele să ia decizii în etapa de "
 "execuție."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:121
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
 msgid "**Problem**"
 msgstr "**Problemă**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:121
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
 msgid "**Solution**"
 msgstr "**Soluție**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
 msgid "**Neglect drive practice**"
 msgstr "**Practică de conducere neglijentă**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:127
 msgid "Drivers unfamiliar with robot"
 msgstr "Driverii care nu sunt familiarizați cu robotul"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:126
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
 msgid "Robot reliability untested"
 msgstr "Fiabilitatea robotului nu a fost testată"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
 msgid "**Constant driver training**"
 msgstr "**Antrenament constant al driverilor**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:127
 msgid "Drivers comfortable with controls"
 msgstr "Driverii se simt confortabil cu comenzile"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:126
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
 msgid "Proven and tested robot"
 msgstr "Robot dovedit și testat"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
 msgid "**No game strategy**"
 msgstr "**Nicio strategie de joc**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:132
 msgid "Lack of contingency plans"
 msgstr "Lipsa planurilor de urgență"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:131
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
 msgid "Weakens alliance strength"
 msgstr "Slăbește puterea alianței"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
 msgid "**Strategical driving**"
 msgstr "**Conducere strategică**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:132
 msgid "Only purposeful actions taken"
 msgstr "Numai acțiunile întreprinse în mod intenționat"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:131
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
 msgid "Efficient and effective driving"
 msgstr "Conducerea eficientă și eficace"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
 msgid "**Fully driver-controlled**"
 msgstr "**Controlat integral de driver**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:137
 msgid "Less efficient"
 msgstr "Mai puțin eficient"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:136
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:138
 msgid "Requires more practice"
 msgstr "Necesită mai multă practică"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
 msgid "**Partially automated tasks**"
 msgstr "** Sarcini parțial automatizate**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:137
 msgid "Relieves stress on driver"
 msgstr "Reduce stresul asupra driver-ului"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:136
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:138
 msgid "Removes human error"
 msgstr "Elimină eroarea umană"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:140
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:142
 msgid "Neglecting driver practice → Constant driver training"
 msgstr ""
 "Neglijarea antrenamentului driverilor → Instruirea constantă a driverilor"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:142
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:144
 msgid ""
 "A persistent problem with new teams is neglecting driver practice. Drive "
 "practice is to be done throughout the season, **not the week before "
@@ -652,7 +622,7 @@ msgstr ""
 "driverilor. Antrenamentele trebuie făcute pe parcursul sezonului, **nu în "
 "săptămâna dinaintea competiției.**"
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:144
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:146
 msgid ""
 "No matter how good your robot is, the robot is only 50% of the equation. The"
 " driver(s) are the other 50% which determine the success of the team as a "
@@ -664,14 +634,14 @@ msgstr ""
 "Indiferent cât de bun este robotul tău, acesta reprezintă doar 50% din ecuație. Pilotul(Piloții) reprezintă cealaltă\n"
 "jumătate, care determină succesul echipei în ansamblu. Chiar dacă robotul dvs. este cel mai bun din lume, un robot inferior cu o echipă de piloți competentă va învinge, mai mult ca sigur, robotul dvs. cu o echipă de piloți slabă. Până la campionatele mondiale din aprilie, majoritatea echipelor de top au efectuat sute de meciuri de antrenament."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:146
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:148
 msgid ""
 "This gives some obvious advantages compared to a team with lesser practice."
 msgstr ""
 "Acest lucru oferă câteva avantaje evidente în comparație cu o echipă cu mai "
 "puțină pregătită."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:148
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:150
 msgid ""
 "The driver(s) are totally familiar with handling the robot in every "
 "situation."
@@ -679,14 +649,14 @@ msgstr ""
 "Driverul (driverii) sunt complet familiarizați cu manevrarea robotului în "
 "orice situație."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:150
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:152
 msgid ""
 "The robot is proven to be reliable enough to survive hours of operation."
 msgstr ""
 "Robotul s-a dovedit a fi suficient de fiabil pentru a supraviețui ore "
 "întregi de funcționare."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:151
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:153
 msgid ""
 "The immense data that teams gather from test runs are used to optimize every"
 " element of the robot."
@@ -694,7 +664,7 @@ msgstr ""
 "Datele  pe care echipele le adună în urma testelor sunt folosite pentru a "
 "optimiza fiecare element al robotului."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:153
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:155
 msgid ""
 "Driver practice not only familiarizes the driver(s) with the robot and "
 "serves as a test of robot reliability, it also simulates in-game conditions."
@@ -713,7 +683,7 @@ msgstr ""
 " dificile (cum ar fi plasarea unui robot dezactivat în mijlocul terenului "
 "sau deconectarea unui motor de transmisie)."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:155
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:157
 msgid ""
 "While this may seem extreme, it is really just a form of preparedness. If "
 "your driver doesn't know how to react, then you need more drive practice."
@@ -722,6 +692,6 @@ msgstr ""
 " Dacă driverul dvs. nu știe cum să reacționeze, atunci aveți nevoie de mai "
 "multă practică de conducere."
 
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:158
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:160
 msgid "No game strategy → Strategic driving"
 msgstr "Fără strategie de joc → Conducere strategică"

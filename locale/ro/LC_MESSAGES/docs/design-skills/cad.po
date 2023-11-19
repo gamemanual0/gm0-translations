@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2023-11-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Stefania Cernat, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -23,31 +23,20 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:2
-#: ../../gm0/source/docs/design-skills/cad.rst:10
+#: ../../gm0/source/docs/design-skills/cad.rst:4
+#: ../../gm0/source/docs/design-skills/cad.rst:12
 msgid "Computer-aided design (CAD)"
 msgstr "Design Computerizat (CAD)"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:5
+#: ../../gm0/source/docs/design-skills/cad.rst:7
 msgid "Introduction"
 msgstr "Introducere"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:7
+#: ../../gm0/source/docs/design-skills/cad.rst:9
 msgid "Term"
 msgstr "Termeni"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:12
-msgid ""
-"CAD is software most commonly used to aid the design and drafting of parts "
-"and assemblies in engineering. In FTC, CAD is used to make 3D models of "
-"robots as well as design custom parts."
-msgstr ""
-"CAD-ul este software cel mai des folosit pentru a facilita design-ul și "
-"proiectarea părților și componentelor în inginerie. În FTC, CAD-ul este "
-"folosit pentru a face modele 3D ale roboților, cât și pentru design-ul "
-"pieselor personalizate."
-
-#: ../../gm0/source/docs/design-skills/cad.rst:16
+#: ../../gm0/source/docs/design-skills/cad.rst:18
 msgid ""
 "So, what's the point of CAD, then? It is encouraged that new teams try their"
 " hand at CAD, especially if you have a mentor or parent who is experienced "
@@ -57,7 +46,7 @@ msgstr ""
 "încerce mâna la CAD, în special dacă ai un mentor sau părinte care are "
 "experiență în acest domeniu. CAD este benefic din mai multe motive."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:18
+#: ../../gm0/source/docs/design-skills/cad.rst:20
 msgid ""
 "CAD solves a lot of preventable headaches, such as spacing issues. Thus, it "
 "will save time when you discover problems in CAD that you can remediate "
@@ -67,7 +56,7 @@ msgstr ""
 " îți va salva timpul când descoperi probleme în CAD ca să le remediezi "
 "înainte să îți construiești robotul."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:19
+#: ../../gm0/source/docs/design-skills/cad.rst:21
 msgid ""
 "CAD is a professional tool that is used in many STEM fields. Having CAD "
 "knowledge and skills will be beneficial in your future career, should you "
@@ -77,7 +66,7 @@ msgstr ""
 "Să ai cunoștințe și îndemânare în software CAD va fi benefic în viitoarea ta"
 " carieră."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:20
+#: ../../gm0/source/docs/design-skills/cad.rst:22
 msgid ""
 "If you desire to create 3D-printed or machined parts, CAD will be necessary "
 "to do so."
@@ -85,7 +74,7 @@ msgstr ""
 "Dacă dorești să creezi piese printate 3D sau fabricate la CNC, CAD-ul este "
 "necesar."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:23
+#: ../../gm0/source/docs/design-skills/cad.rst:25
 msgid ""
 "**However, CAD is not the magic genie that will guarantee you success in "
 "FTC.** When used properly, it is a great tool to aid teams in building their"
@@ -96,7 +85,7 @@ msgstr ""
 "în construcția robotului. Reține, totuși, ca multe echipe au avut succes "
 "fără CAD."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:25
+#: ../../gm0/source/docs/design-skills/cad.rst:27
 msgid ""
 "Starting off, choose a CAD program and learn it as well as possible. It may "
 "be a good idea to spend a few weeks just finding objects lying around, sit "
@@ -120,15 +109,15 @@ msgstr ""
 "de video-uri pe YouTube; unul bun fiind TFI care face tutoriale detalitate "
 "despre Inventor."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:28
+#: ../../gm0/source/docs/design-skills/cad.rst:30
 msgid "Overview of CAD Programs"
 msgstr "Prezentarea Generală a Programelor CAD"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:33
+#: ../../gm0/source/docs/design-skills/cad.rst:35
 msgid "`Onshape <https://www.onshape.com/en/education/>`_"
 msgstr "`Onshape <https://www.onshape.com/en/education/>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:35
+#: ../../gm0/source/docs/design-skills/cad.rst:37
 msgid ""
 "A fully-featured CAD package, but it runs entirely in the cloud. It can run "
 "on any computer (even Chromebooks!) and has iOS, iPadOS, and Android apps as"
@@ -138,7 +127,7 @@ msgstr ""
 "calculator (chiar și Chromebook-uri!) și are aplicații pentru iOS, iPadOS și"
 " Android."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:39
+#: ../../gm0/source/docs/design-skills/cad.rst:41
 msgid ""
 "OnShape also has FeatureScript, a programming language where you can write "
 "custom features. The community has created a lot of very useful "
@@ -148,7 +137,7 @@ msgstr ""
 "scrie funcții personalizate. Comunitatea a creat multe programe "
 "FeatureScript pe care le poți folosi gratis."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:41
+#: ../../gm0/source/docs/design-skills/cad.rst:43
 msgid ""
 "Onshape also has a comprehensive tutorial system (https://learn.onshape.com)"
 " that will not only teach you how to use their software, but how to approach"
@@ -158,7 +147,7 @@ msgstr ""
 "(https://learn.onshape.com) care te va învăța cum să le folosești programul,"
 " dar și cum să abordezi probleme legate de design."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:46
+#: ../../gm0/source/docs/design-skills/cad.rst:48
 msgid ""
 "`SolidWorks "
 "<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
@@ -166,7 +155,7 @@ msgstr ""
 "`SolidWorks "
 "<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:52
+#: ../../gm0/source/docs/design-skills/cad.rst:54
 msgid ""
 "If you have mentors or team members with previous experience in SolidWorks "
 "or an engineering class at your school that teaches SolidWorks, it will be "
@@ -176,7 +165,7 @@ msgstr ""
 "cursuri la școală care te învață SolidWorks, este cea mai bună opțiune "
 "pentru tine."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:55
+#: ../../gm0/source/docs/design-skills/cad.rst:57
 msgid ""
 "`Inventor <https://www.autodesk.com/education/edu-"
 "software/overview?sorting=featured&page=1>`_"
@@ -184,7 +173,7 @@ msgstr ""
 "`Inventor <https://www.autodesk.com/education/edu-"
 "software/overview?sorting=featured&page=1>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:61
+#: ../../gm0/source/docs/design-skills/cad.rst:63
 msgid ""
 "**Inventor is also not available for Mac**, but it may run better on lower-"
 "spec PCs."
@@ -192,7 +181,7 @@ msgstr ""
 "**Inventor de asemenea nu este disponibil pentru Mac**, însă poate rula mai "
 "bine pe calculatoarele mai puțin perfomante."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:63
+#: ../../gm0/source/docs/design-skills/cad.rst:65
 msgid ""
 "If you have mentors or team members with previous experience in Inventor or "
 "an engineering class at your school that teaches Inventor, it will be your "
@@ -201,7 +190,7 @@ msgstr ""
 "Daca ai mentori sau membri cu experiență în Inventor sau un curs la școală "
 "care predă Inventor, este cea mai bună opțiune pentru tine."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:68
+#: ../../gm0/source/docs/design-skills/cad.rst:70
 msgid ""
 "`Fusion 360 <https://www.autodesk.com/education/edu-"
 "software/overview?sorting=featured&page=1>`_"
@@ -209,14 +198,14 @@ msgstr ""
 "`Fusion 360 <https://www.autodesk.com/education/edu-"
 "software/overview?sorting=featured&page=1>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:78
+#: ../../gm0/source/docs/design-skills/cad.rst:80
 msgid ""
 "If one is careful to follow good design practices, Fusion is a solid option."
 msgstr ""
 "Dacă ești atent să urmezi obiceiuri bune de design, Fusion este o alegere "
 "bună."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:81
+#: ../../gm0/source/docs/design-skills/cad.rst:83
 msgid ""
 "`Creo (formerly known as Pro/E) "
 "<https://www.ptc.com/en/products/education/free-software/standalone-"
@@ -225,7 +214,7 @@ msgstr ""
 "`Creo (numit înainte Pro/E) <https://www.ptc.com/en/products/education/free-"
 "software/standalone-educator>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:83
+#: ../../gm0/source/docs/design-skills/cad.rst:85
 msgid ""
 "A family of CAD/CAM applications developed by PTC (Parametric Technology "
 "Corporation). Creo parametric is the main CAD package that includes robust "
@@ -235,7 +224,7 @@ msgstr ""
 "Corporation). Creo este aplicația principală CAD care include un sistem "
 "robust de asamblare și modelare similară cu SolidWorks."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:85
+#: ../../gm0/source/docs/design-skills/cad.rst:87
 msgid ""
 "The main advantage of Creo compared to other CAD software is the complex "
 "part relations and constraints, however, most new users find this aspect "
@@ -254,7 +243,7 @@ msgstr ""
 "multe componente. Cu Creo Simulate, poți integra îmbunătățiri ale modelelor "
 "3D direct din materialul/geometria componentelor."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:87
+#: ../../gm0/source/docs/design-skills/cad.rst:89
 msgid ""
 "Creo has many features, but the general 80-20 rule applies - 20% of the "
 "features will create 80% of the designs. The Creo package also includes a "
@@ -267,7 +256,7 @@ msgstr ""
 "Windchill, pe care cele mai multe companii îl folosesc, însă pentru FTC, "
 "Grabcad este suficient. "
 
-#: ../../gm0/source/docs/design-skills/cad.rst:89
+#: ../../gm0/source/docs/design-skills/cad.rst:91
 msgid ""
 "Learning Creo can be more of a challenge than other CAD software, because of"
 " the limited available tutorials online in addition to the complex relations"
@@ -279,7 +268,7 @@ msgstr ""
 "constrângere. Recomandarea noastră este să înveți Creo de la cineva care are"
 " deja experiență cu acest program."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:91
+#: ../../gm0/source/docs/design-skills/cad.rst:93
 msgid ""
 "College-level engineering classes as well as numerous companies in the "
 "automotive, aerospace and consumer industry use Creo. Since Creo makes use "
@@ -292,11 +281,11 @@ msgstr ""
 "Totuși, un emulator de Windows poate fi instalat pentru a utiliza Creo pe "
 "Mac."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:94
+#: ../../gm0/source/docs/design-skills/cad.rst:96
 msgid "Getting Parts"
 msgstr "Descărcarea Pieselor"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:96
+#: ../../gm0/source/docs/design-skills/cad.rst:98
 msgid ""
 "All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models "
 "of the parts they sell in STEP format, which can be imported by any of the "
@@ -309,15 +298,15 @@ msgstr ""
 "asemenea oferă repository-uri sau fișiere zip cu :term:`fisierele STEP` ale "
 "tuturor modelor pe care le vând."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:98
+#: ../../gm0/source/docs/design-skills/cad.rst:100
 msgid "Vendor CAD Libraries"
 msgstr "Librării CAD"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:100
+#: ../../gm0/source/docs/design-skills/cad.rst:102
 msgid "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
 msgstr "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:101
+#: ../../gm0/source/docs/design-skills/cad.rst:103
 msgid ""
 "`REV Robotics "
 "<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
@@ -325,7 +314,7 @@ msgstr ""
 "`REV Robotics "
 "<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:103
+#: ../../gm0/source/docs/design-skills/cad.rst:105
 msgid ""
 "`10650 Hazmat Robotics CAD Library "
 "<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
@@ -337,11 +326,11 @@ msgstr ""
 "lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
 "Pzynwsq/folder/6578524>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:107
+#: ../../gm0/source/docs/design-skills/cad.rst:109
 msgid "File sharing"
 msgstr "Partajarea Fișierelor"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:109
+#: ../../gm0/source/docs/design-skills/cad.rst:111
 msgid ""
 "Teams often have multiple members working on CAD models, and thus require a "
 "file sharing system for ensuring that each person has up-to-date files. Some"
@@ -352,7 +341,7 @@ msgstr ""
 "că fiecare persoană au fișiere actualizate la zi. Niste recomandări includ "
 "GrabCAD, Box, Google Drive, sau Dropbox."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:111
+#: ../../gm0/source/docs/design-skills/cad.rst:113
 msgid ""
 "It is also a good idea that one team member work on the model at a time to "
 "prevent confusion."

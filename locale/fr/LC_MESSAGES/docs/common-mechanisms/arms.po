@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2023-11-19 04:15+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
 "Last-Translator: Martin Sorto-Ventura, 2023\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:2
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:4
 msgid "Arms"
 msgstr "Bras"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:4
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:6
 msgid ""
 "Arms are another way to achieve extension past the 18\" x 18\" dimension of "
 "the robot. Unlike linear extensions, arms require lots of torque - a "
@@ -40,7 +40,7 @@ msgstr ""
 "nombreuses équipes utiliseront un réducteur 256:1 pour leur moteur de "
 "rotation."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:6
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:8
 msgid ""
 "Such motors must be very well supported, or else the motor may torque itself"
 " free from its mount."
@@ -48,7 +48,7 @@ msgstr ""
 "Ces moteurs doivent être très bien soutenus, sinon le couple engendré risque"
 " de les faire détacher de leur support."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:8
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:10
 msgid ""
 "Rarely should an arm be directly mounted to the driving motor. Instead, "
 "torque should be transferred via gear, chain, or belt. Large arms can also "
@@ -67,7 +67,7 @@ msgstr ""
 " problème peut être atténué avec la programmation (voir la section "
 ":doc:`/docs/software/concepts/control-loops`)."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:10
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:12
 msgid ""
 "Depending on the application and implementation, arms can be either faster "
 "or slower than extension options."
@@ -75,23 +75,16 @@ msgstr ""
 "Selon l'application et la mise en œuvre, les bras peuvent être plus rapides "
 "ou plus lents que d'autres options d'extension."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:12
-msgid ""
-"The different types of arms in FTC include single arm and multi-axis arms."
-msgstr ""
-"Les différents types de bras en FTC comprennent les bras simples d'un seul "
-"axe et les bras à plusieurs axes."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:15
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:17
 msgid "Advantages"
 msgstr "Avantages"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:17
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:19
 msgid "Single bar arms can be relatively simple to build."
 msgstr ""
 "Les bras à barre unique peuvent être relativement simples à construire."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:18
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:20
 msgid ""
 "Arms can be useful in low-load applications; however, most mechanisms in FTC"
 " are not very light."
@@ -99,11 +92,11 @@ msgstr ""
 "Les bras peuvent être utiles dans les applications à faible charge ; "
 "cependant, la plupart des mécanismes en FTC ne sont pas très légers."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:22
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:24
 msgid "Disadvantages"
 msgstr "Désavantages"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:24
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
 msgid ""
 "Arms require a large amount of torque, and in order to do so, teams must "
 "purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV "
@@ -117,7 +110,7 @@ msgstr ""
 "`_ ou la boîte de vitesses à rapport élevé `goBILDA planetary gearbox motors"
 " <https://www.gobilda.com/yellow-jacket-planetary-gear-motors> `_."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:28
 msgid ""
 "While single arms may be more simple, they cannot provide enough extension "
 "for most games."
@@ -125,11 +118,11 @@ msgstr ""
 "Bien que les bras à un seul axe soient plus simples, ils n'offrent pas une "
 "extension suffisante pour la plupart des jeux."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:29
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:31
 msgid "Single Arms"
 msgstr "Bras simples"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:37
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:39
 msgid ""
 "The advantages of a single arm are that it is relatively easy to build, and "
 "can be a quick way to gain some form of extension outside of the robot cube."
@@ -138,7 +131,7 @@ msgstr ""
 "et qu'il peut constituer un moyen rapide d'obtenir une forme d'extension en "
 "dehors du cube du robot."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:39
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
 msgid ""
 "However, there are many disadvantages such as having a high gear ratio, "
 "requiring much more support than a linear slide, and being hard to control "
@@ -149,13 +142,13 @@ msgstr ""
 "mécanisme linéaire et la difficulté de les contrôler sans le logiciel "
 "approprié."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:44
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid "8103's single arm attached to a belt driven linear extension"
 msgstr ""
 "Le bras unique de 8103 est fixé à une extension linéaire entraînée par une "
 "courroie."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:44
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid ""
 "8103 Null Robotics, Rover Ruckus, single arm + custom belt driven linear "
 "extension"
@@ -163,13 +156,13 @@ msgstr ""
 "8103 Null Robotics, Rover Ruckus, bras simple + extension linéaire à "
 "courroie personnalisée "
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:49
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
 msgid "8417's single arm attached to a belt driven linear extension"
 msgstr ""
 "Le bras unique de 8417 est fixé à une extension linéaire entraînée par une "
 "courroie."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:49
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
 msgid ""
 "8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick (Ochoa), "
 "single arm + custom belt driven linear extension"
@@ -178,11 +171,11 @@ msgstr ""
 "(Ochoa), bras simple + extension linéaire personnalisée entraînée par "
 "courroie"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:53
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:55
 msgid "Multi-Axis Arms"
 msgstr "Bras multi-axes"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:55
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:57
 msgid ""
 "A multi-axis arm is an arm which has multiple points of rotation. Multi-axis"
 " arms introduce many variables that exponentially complicate matters and can"
@@ -193,7 +186,7 @@ msgstr ""
 "choses de manière exponentielle et ne peuvent être modélisées qu'à l'aide "
 "d'équations cinématiques complexes."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:57
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:59
 msgid ""
 "This is highly discouraged for inexperienced FTC teams due to the difficulty"
 " of building as well as the need for machine tools."
@@ -202,26 +195,26 @@ msgstr ""
 " raison de la difficulté de construction et de la nécessité de disposer de "
 "machines-outils."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:62
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:64
 msgid "20700's multi-axis arm"
 msgstr "Bras multi-axes de 20700"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:62
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:64
 msgid "20700 Snap, Freight Frenzy"
 msgstr "20700 Snap, Frêt en folie"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:67
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:69
 msgid "8148's multi-axis arm"
 msgstr "Le bras multi-axes de 8148"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:67
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:69
 msgid "8148 Aleph Bots, Relic Recovery"
 msgstr "8148 Bots Aleph, Relic Recovery"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:72
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
 msgid "15692's multi-axis arm"
 msgstr "Le bras multi-axes de 15692"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:72
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
 msgid "15692 Rust In Pieces, Rover Ruckus"
 msgstr "15692 Rust In Pieces, Rover Ruckus"

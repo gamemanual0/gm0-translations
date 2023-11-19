@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2023-11-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Bianca Carstea, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -23,23 +23,15 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:2
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:4
 msgid "Principles of an Intake"
 msgstr "Principiile unui Intake"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:5
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:7
 msgid "Reliability"
 msgstr "Fiabilitate"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:7
-msgid ""
-"An intake must be reliable, as picking up and scoring game elements is the "
-"primary method to gain points in all FTC games."
-msgstr ""
-"Un intake trebuie să fie fiabil, deoarece colectarea și marcarea elementelor"
-" de joc este principala metodă de a câștiga puncte în toate jocurile FTC."
-
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:9
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:11
 msgid ""
 "Intakes have many moving parts and are susceptible to breaking, especially "
 "at high RPM. Thus, the intake material must be durable to withstand long "
@@ -49,7 +41,7 @@ msgstr ""
 "la viteze mari. Astfel, materialul intake-ului trebuie să fie durabil pentru"
 " a rezista la perioade lungi de funcționare."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:11
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:13
 msgid ""
 "Intakes often stick outside of the robot frame perimeter. In this case, "
 "durability becomes extremely important; the intake must be built so that "
@@ -61,7 +53,7 @@ msgstr ""
 "să fie construite astfel încât să poată rezista la impacturi/coliziuni cu "
 "alți roboți sau cu părți ale terenului."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:13
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:15
 msgid ""
 "There are two ways to accomplish this - either by building the intake very "
 "robustly (lots of support so it doesn't break), or making the intake "
@@ -74,11 +66,11 @@ msgstr ""
 " se va îndoi din cauza impactului, acesta isi va reveni întotdeauna la locul"
 " ei."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:18
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
 msgid "Consistency"
 msgstr "Consistență"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:22
 msgid ""
 "The intake **must** be able to pick up game elements consistently and "
 "quickly. For example, in Rover Ruckus each robot could only possess 2 "
@@ -90,7 +82,7 @@ msgstr ""
 " să aibă în posesie 2 minerale deodată. Astfel, intake-ul ar trebui să poată"
 " să colecteze doua piese de joc deodată, nu trei sau unul."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:22
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:24
 msgid ""
 "This is a common mistake that many inexperienced teams fail to take into "
 "account."
@@ -98,7 +90,7 @@ msgstr ""
 "O greșeală comună este că multe echipe fără experiență nu iau în considerare"
 " acest lucru."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:26
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:28
 msgid ""
 "Even though it was relatively easy to make a compliant wheel intake that "
 "could effectively intake glyphs in one direction, it was hard to make an "
@@ -112,11 +104,11 @@ msgstr ""
 " joc în toate orientările a fost deosebit de importantă pentru autonomiile "
 "cu mai multe elemente de joc."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:29
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
 msgid "Controllability"
 msgstr "Controlabilitate"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:33
 msgid ""
 "The intake must be able to consistently control the game elements. For "
 "example, if the intake is too fast and the collection box is not well "
@@ -129,7 +121,7 @@ msgstr ""
 "zboare. Dacă intake-ul este prea lent, se poate bloca singur la contactul cu"
 " elementele de joc."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:32
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:34
 msgid ""
 "It is possible for pieces to get jammed at an unreachable angle, especially "
 "when using wheeled intakes. If this occurs, ensure that the driver can jar "
@@ -140,7 +132,7 @@ msgstr ""
 " asigurați-vă că driver-ul poate să zguduie elementul blocat pentru a evita "
 "să aveți un robot inutilizabil."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:33
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:35
 msgid ""
 "Optimally, the game elements should follow a certain path each time if "
 "funneling is done correctly."
@@ -148,7 +140,7 @@ msgstr ""
 "În mod optim, elementele de joc ar trebui să urmeze un anumit drum de "
 "fiecare dată dacă transferul este facut corect."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:34
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:36
 msgid ""
 "It is best practice that the driver can see the game elements which are "
 "being controlled. This can be done through using clear plating such as "
@@ -158,11 +150,11 @@ msgstr ""
 "posesie. Acest lucru poate fi realizat prin folosirea materialelor "
 "transparente precum plexiglas."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:37
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
 msgid "Efficiency"
 msgstr "Eficiență"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:41
 msgid ""
 "The key to any successful robot is cycle time. Reducing cycle time by having"
 " an efficient intake will lead to major improvements in score. A good intake"
@@ -174,7 +166,7 @@ msgstr ""
 "majore ale scorului. Un ciclu ideal nu ar trebui să dureze mai mult de "
 "câteva secunde pentru a colecta cu succes elementele necesare."
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:41
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:43
 msgid ""
 "For example, in Relic Recovery, the best intakes often had a <3 second "
 "collection time for two game elements, and in Rover Ruckus a 1 second "

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 04:14+0000\n"
+"POT-Creation-Date: 2023-11-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Cosmin Harbon, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -23,21 +23,11 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:2
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:4
 msgid "Tips and Tricks"
 msgstr "Sfaturi și trucuri"
 
-#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:4
-msgid ""
-"Below is a collection of tips and tricks on basic building. Some of them may"
-" seem obvious, but almost every FTC newbie made these mistakes at least "
-"once."
-msgstr ""
-"Mai jos puteți găsi o serie de sfaturi și trucuri de bază legate de "
-"construcția roboților. Unele dintre ele pot părea evidente, dar aproape "
-"fiecare boboc FTC a făcut aceste greșeli cel puțin o dată."
-
-#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:6
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:8
 msgid ""
 "**Color code your tools**. If you are using several different sizes of hex "
 "drivers (e.g. 2.5 mm and 3 mm used in goBILDA), color code them, using "
@@ -48,7 +38,7 @@ msgstr ""
 "culori, folosind bandă izolieră de culori diferite pentru fiecare "
 "dimensiune. "
 
-#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:8
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:10
 msgid ""
 "**Only use locknuts**. Never use regular nuts in your builds - they easily "
 "come loose under vibration. Kep nuts used in TETRIX are better, but they are"
