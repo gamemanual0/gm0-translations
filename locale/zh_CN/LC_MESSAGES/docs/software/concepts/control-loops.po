@@ -4,20 +4,638 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # 芷晗 李, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-20 04:16+0000\n"
+"POT-Creation-Date: 2023-11-20 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: 芷晗 李, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:4
+msgid "Control Loops"
+msgstr "控制回路"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:6
+msgid ""
+"Control loops are software used to operate power transmission systems (such "
+"as a drivetrain or linear slide) in a fast and controlled fashion. Not only "
+"do control loops let you run mechanisms quickly without fear of losing "
+"control, in many cases, they help preserve the longevity of mechanisms by "
+"reducing rapid change of applied motor voltage."
+msgstr ""
+"控制回路是用于快速、可控地运行动力传输系统（如传动系统或线性滑轨）的软件。控制回路不仅能让您快速运行机械装置而不必担心失控，而且在许多情况下，它们还能通过减少外加电机电压的快速变化来延长机械装置的使用寿命。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:9
+msgid "What is Error?"
+msgstr "什么是错误？"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:11
+msgid ""
+"The first thing that must be defined when discussing control loops is the "
+"concept of error."
+msgstr "在讨论控制回路时，首先必须定义误差的概念。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:13
+msgid ""
+"Error is defined as the difference between where you are and where you want "
+"to be. For instance, say you tell your drivetrain to drive at 30 inches per "
+"second, but in actuality, at a time, the drivetrain is driving at 28 inches "
+"per second. Since :math:`30-28=2`, the error of the drivetrain's speed at "
+"this time :math:`T` is 2 inches per second. In other words, at a time "
+":math:`t=T`, :math:`e(t)=2`."
+msgstr ""
+"误差的定义是您所处的位置与您希望达到的位置之间的差值。例如，您告诉您的动力传动系统以每秒 30 英寸的速度行驶，但实际上，动力传动系统以每秒 28 "
+"英寸的速度行驶。由于 :math:`30-28=2`，:math:`T` 时刻传动系统的速度误差为每秒 2 英寸。换句话说，在 :math:`t=T` "
+"时，:math:`e(t)=2`。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:16
+msgid "PID"
+msgstr "PID"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:18
+msgid ""
+"A PID controller (or Proportional Integral Derivative controller) is a "
+"control loop that solely uses error to control the system. PID is a form of "
+"a **feedback control loop**, or **closed loop control**. This means that "
+"data about the variable you are controlling is required in order for the "
+"loop to control that variable. In this case, information about the **error**"
+" of the system is required to control the system with a PID controller."
+msgstr ""
+"PID 控制器（或称比例积分微分控制器）是一种仅利用误差来控制系统的控制回路。PID "
+"是**反馈控制回路**或**闭环控制**的一种形式。这意味着，为了让环路控制该变量，需要关于所控制变量的数据。在这种情况下，要使用 PID "
+"控制器对系统进行控制，就需要有关系统**误差**的信息。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:21
+msgid "The Optional Calculus"
+msgstr "可选微积分"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:23
+msgid ""
+"The following equation represents the rigorous mathematical definition of "
+"the output of a PID controller :math:`f` at any given time :math:`t`:"
+msgstr "下式表示 PID 控制器 :math:`f` 在任何给定时间 :math:`t` 的输出的严格数学定义："
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:25
+msgid ""
+"f(t) = K_p e(t) + K_i \\int_o^t e(t) \\mathrm{d}t + K_d \\frac{\\mathrm{d}e(t)}{\\mathrm{d}t}\n"
+"\n"
+msgstr ""
+"f(t) = K_p e(t) + K_i \\int_o^t e(t) \\mathrm{d}t + K_d \\frac{mathrm{d}e(t)}{\\mathrm{d}t}\n"
+"\n"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:27
+msgid ""
+"where :math:`K_p`, :math:`K_i`, and :math:`K_d` are constants and "
+":math:`e(t)`, as previously mentioned, is the error in the system."
+msgstr "其中 :math:`K_p`、:math:`K_i` 和 :math:`K_d` 为常数，:math:`e(t)` 如前所述，为系统误差。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:29
+msgid ""
+"If you have no experience with calculus, don't worry; while PID is "
+"fundamentally rooted in calculus, you do not need any calculus experience to"
+" be able to understand it, only basic algebra. However, you are still urged "
+"to read the rest of the section regardless of calculus experience, as the "
+"formula alone doesn't tell you why it works."
+msgstr ""
+"如果你没有微积分的经验，不要担心；虽然PID从根本上植根于微积分，但你不需要任何微积分经验就能理解它，只需要基本的代数。然而，不管微积分经验如何，你仍然被敦促阅读本节的其余部分，因为仅靠公式并不能告诉你它为什么有效。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:32
+msgid "Simplification of the PID formula"
+msgstr "简化 PID 公式"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:34
+msgid ""
+"Here is a simplified version of the PID formula: :math:`f(t)=K_p P(t)+K_i "
+"I(t)+K_d D(t)`"
+msgstr "以下是 PID 公式的简化版本：:math:`f(t)=K_p P(t)+K_i I(t)+K_d D(t)`"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:36
+msgid ""
+"All we have done is simply take the full formula and replaced part of the "
+"terms with functions: :math:`P(t)`, :math:`I(t)`, and :math:`D(t)`."
+msgstr ""
+"我们所做的只是简单地使用完整的公式，并将部分项替换为函数：:math:`P(t)`、:math:`I(t)` 和 :math:`D(t)`。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:39
+msgid "The Proportional Term"
+msgstr "比例项"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:41
+msgid ""
+"The first component of the function, :math:`K_p P(t)`, is by far the most "
+"simple and easy to understand, as :math:`P(t) = e(t)`. For the sake of "
+"example, let's pretend that :math:`K_i=0` and :math:`K_d=0` (a PID "
+"controller with only a proportional constant is known as a **P "
+"controller**). How will the system behave? Well, if the error is large, the "
+"output will be large. Likewise, if the error is small, the output will be "
+"small. Also, ideally, given enough time, the system always approaches its "
+"destination, assuming :math:`K_p` is of the correct sign."
+msgstr ""
+"函数的第一个分量 :math:`K_p P(t)` 是迄今为止最简单易懂的，因为 :math:`P(t) = e(t)`。举例来说，假设 "
+":math:`K_i=0` 和 :math:`K_d=0` （只有比例常数的 PID 控制器称为 **P "
+"控制器**）。系统将如何运行？如果误差大，输出就会大。同样，如果误差小，输出也会小。此外，在理想情况下，只要有足够的时间，假定 :math:`K_p` "
+"的符号正确，系统总会接近目标。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:43
+msgid ""
+"Say we apply this to a drivetrain. You want to drive a distance :math:`D`, "
+"and you decide to set your motor powers using a P controller to accomplish "
+"this. In this case, your error is how far away the robot is from the desired"
+" location. As you start to drive forward, your error is large, so you drive "
+"forward quickly, which is desirable. After all, you aren't concerned with "
+"overshooting the target yet if you are far away from it."
+msgstr ""
+"假设我们将此应用于传动系统。您想行驶一段距离 :math:`D`，并决定使用 P "
+"控制器设置电机功率来实现这一目标。在这种情况下，你的误差就是机器人距离目标位置的距离。当您开始向前行驶时，您的误差很大，因此您会快速向前行驶，这也是可取的。毕竟，如果距离目标较远，您还不用担心会超速。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:45
+msgid ""
+"But as the robot's distance to the target approaches 0, you will start to "
+"slow down, gaining more control over the robot. Once the error is zero, "
+"ideally, the robot will stop, and you have reached your destination. If you "
+"happen to overshoot, the error will become negative, and the robot will "
+"backtrack, repeating the process."
+msgstr ""
+"但当机器人与目标的距离趋近于 0 "
+"时，您将开始减速，从而获得对机器人更多的控制权。理想情况下，一旦误差为零，机器人就会停下来，而你也就到达了目的地。如果碰巧超速，误差将变为负值，机器人将返回，重复上述过程。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:48
+msgid "The Derivative Term"
+msgstr "微分项"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:50
+msgid ""
+"This term, :math:`K_d D(t)`, is intended to dampen the rate of change of the"
+" error. In other words, it tries to keep the error constant. How is this "
+"done?"
+msgstr "这个项 :math:`K_d D(t)` 的目的是抑制误差的变化率。换句话说，它试图保持误差不变。如何做到这一点呢？"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:52
+msgid ""
+"Well, for those of you with calculus under your belt, "
+":math:`D(t)=\\frac{de(t)}{dt}`. For those without calculus experience, it "
+"represents how fast the error is changing. Graphically, :math:`D(t)` is "
+"simply the slope of the error at any given time :math:`t`."
+msgstr ""
+"对于有微积分经验的人来说，:math:`D(t)=\\frac{de(t)}{dt}`。对于没有微积分经验的人来说，它表示误差变化的速度。从图形上看，:math:`D(t)`"
+" 就是任意给定时间 :math:`t` 下误差的斜率。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:54
+msgid ""
+"This slope can be calculated by keeping track of the error over successive "
+"iterations of the control loop. One iteration occurs at time :math:`t_n` "
+"with an error of :math:`e(t_n)`. At the next iteration, the time is "
+":math:`t_{n+1}` with an error of :math:`e(t_{n+1})`. Thus, to find "
+":math:`D(t)`, simply find the slope of :math:`e(t)` given these two points."
+msgstr ""
+"这个斜率可以通过跟踪控制环连续迭代的误差来计算。一次迭代的时间为 :math:`t_n`，误差为 :math:`e(t_n)`。下一次迭代的时间为 "
+":math:`t_{n+1}`，误差为 :math:`e(t_{n+1})`。因此，若要求出 :math:`D(t)` ，只需根据这两点求出 "
+":math:`e(t)` 的斜率即可。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:57
+msgid "The Integral Term"
+msgstr "积分项"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:59
+msgid ""
+"Admittedly, the integral term is the least important term for FTC\\ |reg| "
+"PID control loops. With a properly tuned :math:`K_p` and :math:`K_d`, you "
+"often can just set :math:`K_i` to 0 and call it a day."
+msgstr ""
+"诚然，积分项是FTC调节PID控制回路中最不重要的项。通过适当调整：math:`K_p`和：math:`K_d`，您通常可以将：math：`K_i`设置为0，然后就到此为止。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:61
+msgid ""
+"However, it can still be useful in some cases. Just like the derivative "
+"term, the integral term intends to correct for overshoot. if the system "
+"thinks it reached its destination, it will stop, even when, in fact, the "
+"error is not yet 0. Perhaps the motor is no longer being supplied enough "
+"power to move. Well, given enough time, the integral term will increase the "
+"output (in this case, motor power), causing movement towards the "
+"destination."
+msgstr ""
+"不过，它在某些情况下仍然有用。就像微分项一样，积分项的目的也是修正超调。如果系统认为已经到达目的地，它就会停止，即使事实上误差还没有为 "
+"0。那么，只要有足够的时间，积分项就会增加输出（这里指的是电机功率），从而使电机向目的地运动。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:63
+msgid ""
+"To explain without calculus, the integral term essentially sums the error "
+"over a specific interval of time. To do this, error in each loop iteration "
+"is added to a variable (in this case, :math:`I(t)`)."
+msgstr ""
+"如果不用微积分的知识来解释的话，积分项实质上是将特定时间间隔内的误差相加。为此，每次循环迭代中的误差都会加到一个变量中（本例中为 "
+":math:`I(t)`）。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:65
+msgid ""
+"However, summing error this way has an unfortunate side effect: the longer "
+"the loop takes to complete one iteration, the more slowly this sum "
+"increases, which is obviously not desirable, as we don't want lag to affect "
+"how the robot moves. To compensate for this, before the error is added to "
+":math:`I(t)`, it is multiplied by how long the previous loop took to-"
+"complete, or :math:`t_{n+1}-t_n`, preventing lag from making the system sum "
+"more slowly."
+msgstr ""
+"然而，用这种方法计算误差总和有一个不幸的副作用：循环完成一次迭代所需的时间越长，误差总和增加的速度就越慢，这显然是不可取的，因为我们不希望滞后影响机器人的移动。为了弥补这一点，在将误差添加到"
+" :math:`I(t)` 之前，先将其乘以上一个循环完成所需的时间，即 :math:`t_{n+1}-t_n`，以防止滞后使系统总和增加得更慢。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:67
+msgid ""
+"So say the robot stops short of the target. The P and D combination aren't "
+"strong enough to move it forward to the destination. You can either tune "
+":math:`K_p` and :math:`K_d` to compensate (**this is recommended**), or you "
+"can add the integral term to increase output (**this works too, but requires"
+" more attention and tuning to achieve the same result**)."
+msgstr ""
+"假设机器人在目标附近停下。P和D组合不足以将其向前移动到目的地。您可以调整：math:`K_p`和：math:`K_d`以进行补偿（**建议使用**），也可以添加积分项以增加输出（**这也有效，但需要更多的关注和调整才能获得相同的结果**）。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:70
+msgid "PID Pseudocode"
+msgstr "PID 伪代码"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:95
+msgid "Tuning a PID Loop"
+msgstr "调整 PID 回路"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:97
+msgid ""
+"The most important thing to know while tuning a PID loop is how each of the "
+"terms affects the output. This can allow you to see which gains need to be "
+"adjusted."
+msgstr "在调整 PID 循环时，最重要的是了解每个项对输出的影响。这可以让您了解哪些增益需要调整。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:99
+msgid ""
+"For example, if the target is not reached but instead the setpoint begins to"
+" oscillate around the target, it means there is not enough D gain. If the "
+"target is eventually reached, albeit very slowly, that means there is not "
+"enough P gain or the D gain is too high."
+msgstr ""
+"例如，如果没有达到目标后停止，而是围绕目标摆动，则说明 D 增益不够。如果最终达到目标，但是速度非常缓慢，则说明 P 增益不足或 D 增益过高。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:101
+msgid ""
+"In brief, the P variable drives the error towards zero, the I variable "
+"corrects for steady state error, and the D variable dampens the effects of "
+"the P variable, more so as error approaches zero, which prevents overshoot."
+msgstr "简而言之，P 变量推动误差趋于零，I 变量修正稳态误差，D 变量抑制 P 变量的影响，当误差趋于零时，D 变量的影响更大，从而防止超调。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:103
+msgid "The most common method for tuning a PID controller is as follows:"
+msgstr "调整 PID 控制器最常用的方法如下："
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:105
+msgid "Set the I and D gains to zero"
+msgstr "将 I 增益和 D 增益设为零"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:106
+msgid "Increase the P gain until there are oscillations around the target"
+msgstr "增大 P 增益，直到目标附近出现振荡"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:107
+msgid "Increase the D gain until no overshoot occurs"
+msgstr "增大 D 增益，直到不出现过冲为止"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:108
+msgid ""
+"If there is steady state error, increase the I gain until it is corrected"
+msgstr "如果存在稳态误差，则增大 I 增益，直至误差得到纠正"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:110
+msgid ""
+"An important thing to note is that most systems do not need both I and D "
+"control. Generally, systems without a lot of friction do not need an I term,"
+" but will need more D control. Systems with a lot of friction, on the other "
+"hand, generally do not need D control because the friction facilitates "
+"deceleration but need I control because the friction prevents the system "
+"from reaching the target otherwise."
+msgstr ""
+"需要注意的是，大多数系统并不需要 I 和 D 控制。一般来说，没有大量摩擦的系统不需要 I 项控制，但需要更多的 D "
+"项控制。另一方面，摩擦力较大的系统一般不需要 D 控制，因为摩擦力有助于减速，但需要 I 控制，因为摩擦力会阻止系统达到目标。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:112
+msgid ""
+"For a more in-depth explanation, `click here "
+"<https://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning>`_"
+msgstr ""
+"如需更深入的解释，请`点击这里<https://blog.wesleyac.com/posts/intro-to-control-part-two-"
+"pid-tuning>`_"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:115
+msgid "Built-In PID Controller"
+msgstr "内置 PID 控制器"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:116
+msgid ""
+"For situations where one needs to control the velocity or position of a "
+"single motor, the built in PID controller can be used. PID can be enabled by"
+" changing the run mode to ``RUN_USING_ENCODER``"
+msgstr "如果需要控制单个电机的速度或位置，可以使用内置的 PID 控制器。将运行模式更改为 \"RUN_USING_ENCODER\"，即可启用 PID。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:120
+msgid ""
+"Many misunderstand the use of ``RUN_USING_ENCODER``, many may mistake that "
+"it is necessary to use this mode for the encoders to work at all, but this "
+"is not true. Instead, ``RUN_USING_ENCODER`` enables velocity feedback using "
+"the encoder. If you are using an external PID controller such as one that "
+"you implement, generally, it is recommended that you use "
+"``RUN_WITHOUT_ENCODER``."
+msgstr ""
+"许多人误解了 ``RUN_USING_ENCODER`` "
+"的使用，误以为必须使用该模式编码器才能工作，但事实并非如此。相反，`RUN_USING_ENCODER`` 可以使用编码器实现速度反馈。如果使用的是外部"
+" PID 控制器，例如自己实现的控制器，一般建议使用 ``RUN_WITHOUT_ENCODER``。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:123
+msgid ""
+"For official documentation on the built in PID controller, `see here "
+"<https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback>`_"
+msgstr ""
+"有关内置 PID 控制器的官方文档，` 请参见<https://docs.revrobotics.com/duo-"
+"control/programming/using-encoder-feedback>`_"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:126
+msgid "Debugging Built-In PID Controller"
+msgstr "调试内置 PID 控制器"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:129
+msgid "Problem"
+msgstr "问题"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:129
+msgid "Solution"
+msgstr "解决方案"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:131
+msgid "Motor goes at Full Speed regardless of velocity setpoint"
+msgstr "电机全速运转，与速度设定值无关"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:131
+msgid "Most of the time this occurs when one of two things occurs:"
+msgstr "大多数情况下，出现这种情况的原因有两种："
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:133
+msgid "#1: Your encoder is not connected properly."
+msgstr "#1：编码器连接不正确。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:135
+msgid ""
+"Diagnosis: Log your encoder position to telemetry, if the position "
+"oscillates between 0 - 1 make sure you have the correct cable and it is "
+"seated correctly."
+msgstr "诊断：将编码器的位置记录到遥测系统中，如果位置在 0 - 1 之间摆动，请确保电缆正确且安装正确。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:137
+msgid "#2: Your motor is going in the wrong direction."
+msgstr "#2: 你的电机运转方向错误。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:139
+msgid ""
+"Diagnosis: Log your velocity to telemetry, if you have a positive reference "
+"velocity and the output is negative or vice versa then your motor is plugged"
+" in backwards."
+msgstr "诊断：将速度记录到遥测系统中，如果参考速度为正，而输出为负，或者反之亦然，则说明电机插反了。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:141
+msgid "Motor does not reach full speed with ``.setPower``"
+msgstr "使用 ``.setPower`` 时电机未达到全速"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:141
+msgid ""
+"Use the ``.setVelocity`` method as part of DcMotorEx or use "
+"``RUN_WITHOUT_ENCODER`` with an external PID controller."
+msgstr ""
+"使用作为 DcMotorEx 一部分的 ``.setVelocity`` 方法，或使用外部 PID 控制器的 "
+"``RUN_WITHOUT_ENCODER`` 方法。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:145
+msgid "PID Controller Sample Rate"
+msgstr "PID 控制器采样率"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:147
+msgid ""
+"For teams who desire the most performance out of their PID controller, it is"
+" essential to consider the Sample rate of the controller. The Sample rate is"
+" when the controller updates its output given new sensor data. Higher Sample"
+" rates allow for more stable control and allow for the usage of more "
+"significant PID coefficients to reduce settling time. See this `video "
+"<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ to see how sample "
+"rate effects stability in a practical motor control example. The inbuilt PID"
+" controller is locked at a 20hz refresh rate (50ms sample rate). Many top "
+"FTC teams optimize their robot loops to run at up to 80hz, achieving *much* "
+"more stable control with an external PID."
+msgstr ""
+"对于希望 PID "
+"控制器发挥最大性能的团队来说，必须考虑控制器的采样率。采样率是指控制器根据新的传感器数据更新其输出的时间。较高的采样率可实现更稳定的控制，并允许使用更重要的"
+" PID 系数来减少沉淀时间。请参阅本视频<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s> "
+"，了解采样率在实际电机控制示例中如何影响稳定性。内置 PID 控制器的刷新率锁定在 20 赫兹（50 毫秒采样率）。许多顶尖的 FTC "
+"团队会优化他们的机器人回路，使其运行频率高达 80hz，从而通过外部 PID 实现**更稳定的控制。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:156
+msgid "Feedforward Control"
+msgstr "前馈控制"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:158
+msgid ""
+"Feedforward control is a method of what is known as \"open-loop\" control. "
+"This is the opposite of closed-loop control and the primary difference is "
+"that feedforward does not actively use sensors to control the system.  "
+"Instead it \"predicts\" the desired input based on a model."
+msgstr ""
+"前馈控制是一种被称为 \"开环 \"控制的方法。它与闭环控制相反，主要区别在于前馈控制并不主动使用传感器来控制系统。  相反，它根据模型 \"预测 "
+"\"所需的输入。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:160
+msgid ""
+"Typically feedforward is used to control either rates of change or combat "
+"known disturbances from your system."
+msgstr "前馈通常用于控制变化率或消除系统中的已知干扰。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:162
+msgid ""
+"Feedforward is very powerful because it is immune to noise or other sensor "
+"errors.  This is because it is not actively measuring the system, but "
+"instead predicting the desired input. However, this also means that it is "
+"not very good at correcting for errors. This is why it is often used in "
+"conjunction with a closed-loop controller such as PID."
+msgstr ""
+"前馈功能非常强大，因为它不受噪声或其他传感器误差的影响。  "
+"这是因为它不是主动测量系统，而是预测所需的输入。不过，这也意味着它不善于纠正错误。这就是为什么它经常与 PID 等闭环控制器结合使用。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:166
+msgid "Kv Ka Feedforward Model"
+msgstr "Kv Ka 前馈模型"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:168
+msgid ""
+"The most common feedforward and the one used by libraries such as road-"
+"runner is the Kv-Ka feedforward model:"
+msgstr "Kv-Ka 前馈模型是最常见的前馈模型，也是 road-runner 等程序库所使用的前馈模型："
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:170
+msgid ""
+"f(t) = K_v \\cdot \\text{Velocity} + K_a \\cdot \\text{Acceleration}\n"
+"\n"
+msgstr ""
+"f(t) = K_v \\cdot \\text{Velocity} + K_a \\cdot \\text{Acceleration}\n"
+"\n"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:173
+msgid ""
+"Where :math:`K_v` is the velocity gain, :math:`K_a` is the acceleration "
+"gain, and :math:`f(t)` is the feedforward output sent to your motors."
+msgstr "其中 :math:`K_v` 是速度增益，:math:`K_a` 是加速度增益，:math:`f(t)` 是发送给电机的前馈输出。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:175
+msgid ""
+"These gains can be estimated by giving the controller a series of ramp "
+"inputs (such as those computed with a motion profile), measuring the output,"
+" and then changing these gains till the robot matches the desired motion."
+msgstr "这些增益可以通过给控制器一系列斜坡输入（如用运动曲线计算的输入）来估算，测量输出，然后改变这些增益，直到机器人达到所需的运动状态。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:178
+msgid ""
+"The gains will change based on the robot's mass, friction, and other "
+"factors. It is recommended to re-estimate these gains every time you make a "
+"significant change to your robot."
+msgstr "增益会根据机器人的质量、摩擦力和其他因素发生变化。建议每次对机器人进行重大改动时，都重新估算这些增益。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:184
+msgid "Kv Ka Feedforward Pseudocode"
+msgstr "Kv Ka 前馈伪代码"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:195
+msgid "Static Friction Feedforward"
+msgstr "静态摩擦前馈"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:196
+msgid ""
+"In every system there is bound to be some amount of static Friction. This "
+"means that the robot mechanism will not move until a certain amount of power"
+" is applied. This can be modeled by adding a constant feedforward term in "
+"the direction you want to move."
+msgstr ""
+"每个系统都必然存在一定的静摩擦力。这意味着，在施加一定量的动力之前，机器人机构不会移动。这可以通过在想要移动的方向上添加一个恒定的前馈项来模拟。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:207
+msgid "Motion Profiles"
+msgstr "运动曲线"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:210
+msgid ""
+"Motion profiles are *not* a specific type of control loop, but rather a "
+"technique that works well in combination with other control loops such as "
+"PID and feedforward."
+msgstr "运动曲线不是**一种特定类型的控制回路，而是一种与其他控制回路（如 PID 和前馈）结合使用的技术。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:212
+msgid ""
+"Motion profiling is a technique popularized in FRC\\ |reg| that is starting "
+"to find its way to FTC. A motion profile is a function used to change the "
+"speed of a power transmission system in a controlled and consistent way by "
+"changing desired speed gradually rather than instantaneously."
+msgstr ""
+"运动曲线是一种在 FRC\\ |reg| 中得到推广的技术，目前正开始应用于 "
+"FTC。运动曲线是一种函数，用于通过逐渐而非瞬时改变所需的速度，以受控和一致的方式改变动力传输系统的速度。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:214
+msgid ""
+"Let's illustrate this with an example: say you want your drivetrain, which "
+"is initially unmoving, to drive forward at full speed. Ordinarily, you would"
+" set all drivetrain motors to full power in the code. However, this can be "
+"problematic because even though you tell the motors to move at full speed "
+"instantaneously, the drivetrain takes time to get to full speed. This can "
+"lead to uncontrolled movements which have the potential to make autonomous "
+"less consistent and, perhaps more importantly, damage mechanisms."
+msgstr ""
+"让我们举个例子来说明这一点：假设您希望初始不动的传动系统全速前进。通常情况下，您会在代码中将传动系统的所有电机设置为全速。但是，这样做可能会有问题，因为即使您让电机瞬间全速前进，传动系统也需要时间才能达到全速。这可能会导致不受控制的运动，从而降低自主稳定性，更重要的是可能会损坏机械装置。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:216
+msgid "Motion profiling attempts to solve this issue."
+msgstr "运动曲线试图解决这个问题。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:219
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:221
+msgid "More controlled and predictable movements"
+msgstr "动作更可控、更可预测"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:222
+msgid "Reduces rapid change of applied motor voltage"
+msgstr "降低外加电机电压的快速变化"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:225
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:227
+msgid "Can be slower"
+msgstr "可能慢一些"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:229
+msgid ""
+"There are two main types of motion profiles: **Trapezoidal** profiles and "
+"**S-Curve** profiles. Trapezoidal profiles accelerate the system at a "
+"constant rate, and S-Curve profiles assume jerk (the speed acceleration "
+"changes) is constant. Given that S-Curve profiles are not optimal for "
+"controlling 2d trajectories (such as driving) and exist to reduce slippage "
+"(which usually only occurs when driving in FTC), trapezoidal profiles are "
+"recommended for most FTC applications."
+msgstr ""
+"运动曲线主要有两种类型：**梯形曲线和 S 曲线。梯形曲线以恒定的速度加速系统，而 S 曲线则假定加速度变化的速度是恒定的。鉴于 S "
+"曲线并不是控制二维轨迹（如驾驶）的最佳选择，而且其存在是为了减少打滑（通常只在 FTC 驾驶时才会发生），因此建议在大多数 FTC 应用中使用梯形剖面。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:231
+msgid ""
+"Trapezoidal profiles get their name from the shape of the graph of velocity "
+"over time:"
+msgstr "梯形曲线的名称来源于速度随时间变化的图形形状："
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
+msgid ""
+"The position over time, velocity over time, and acceleration over time "
+"graphs for a trapezoidal motion profile"
+msgstr "梯形运动曲线的位置随时间变化图、速度随时间变化图和加速度随时间变化图"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
+msgid ""
+"These are the \"magic functions\" for velocity and acceleration over time "
+"alluded to in the feedforward section."
+msgstr "这些是前文提到的速度和加速度随时间变化的“神奇函数”。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
+msgid "Here is some pseudocode for a trapezoidal profile:"
+msgstr "下面是梯形剖面的一些伪代码："
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:268
+msgid ""
+"The results of the above pseudocode are then used in a feedforward and / or "
+"PID loop to control the position of the system in a smooth and predictable "
+"way."
+msgstr "然后将上述伪代码的结果用于前馈和/或 PID 环路，以平滑和可预测的方式控制系统的位置。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:270
+msgid ""
+"A more advanced example of the math for motion profile generation as used in"
+" the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ "
+"can be found in this `Jupyter Notebook "
+"<https://mybinder.org/v2/gh/acmerobotics/road-"
+"runner/HEAD?filepath=doc%2Fnotebook%2Froad-runner-lite.ipynb>`_."
+msgstr ""
+"在 \"Road Runner 库<https://github.com/acmerobotics/road-"
+"runner>`_\"中使用的运动曲线生成数学的更高级示例可在本 \"Jupyter "
+"Notebook<https://mybinder.org/v2/gh/acmerobotics/road-"
+"runner/HEAD?filepath=doc%2Fnotebook%2Froad-runner-lite.ipynb>`_\"中找到。"

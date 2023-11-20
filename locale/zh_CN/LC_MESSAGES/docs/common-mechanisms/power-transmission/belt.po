@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2023-11-20 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,347 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:4
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:11
+msgid "Timing Belt"
+msgstr "同步带"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:6
+msgid ""
+"When you think of a belt, you're probably thinking of a very important men's"
+" fashion accessory. However, there's another type of belt, and it's way more"
+" relevant to robotics - the timing belt. If you've ever tinkered with the "
+"insides of a car before, you probably recognize timing belts as an important"
+" component designed to keep everything under the hood in sync."
+msgstr ""
+"提到皮带，您可能会想到一种非常重要的男士时尚配饰。然而，还有一种皮带与机器人技术更为相关--"
+"同步带。如果你以前修补过汽车内部，你可能会认识到同步带是一个重要的部件，它的作用是使引擎盖下的所有部件保持同步。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:8
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:13
+msgid ""
+"Timing belts use a series of small, wide teeth to engage a pulley with a "
+"number of matching grooves. They earn their name because they can be very "
+"precise, transmitting power with virtually no slop and ensuring a snug "
+"connection between shafts."
+msgstr ""
+"同步带使用一系列小而宽的齿来啮合带有许多匹配沟槽的滑轮。同步带之所以得名，是因为它可以非常精确地传递动力，几乎没有任何偏差，并确保轴之间的紧密连接。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:0
+msgid "A picture of timing belts on a pulley"
+msgstr "同步带轮上的同步带图片"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:18
+msgid "Timing belts and a pulley"
+msgstr "同步带和同步带轮"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:20
+msgid ""
+"While a timing belt may complete a similar objective to :term:`chain "
+"<Sprocket>`, its characteristics and strengths are very different. Timing "
+"belts are lighter and more compact than chains, but they lack the "
+"customizability of their bulkier brother - belts come in a closed loop of "
+"predetermined length, and there's no changing that length on the fly."
+msgstr ""
+"虽然同步带与 :term:`chain<Sprocket>` "
+"的目标相似，但其特性和优势却截然不同。同步带比链条更轻、更紧凑，但却缺乏其大块头兄弟的可定制性--同步带是一个预先确定长度的闭环，不能随意改变长度。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:22
+msgid ""
+"Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches"
+" found on FTC\\ |reg| robots include HTD 5mm, HTD 3mm, and GT2 3mm."
+msgstr ""
+"与链条一样，同步带也是通过 :term:`pitch<Pitch>` 来识别的 - FTC ||reg|机器人上常见的节距包括 HTD 5mm、HTD "
+"3mm 和 GT2 3mm。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:24
+msgid ""
+"When using timing belts, correct tension is very important. There are two "
+"main ways to get your tension right. The first is easy - goBILDA and "
+"Actobotics already have belts integrated into their hole patterns. You can "
+"buy correctly sized belt directly from each vendor, and your tension will be"
+" perfect as soon as the belt is installed. As your designs gain complexity, "
+"so will your belt runs - maybe there are more than 2 pulleys, and maybe your"
+" pulleys are all different sizes. To compensate for this, the second way to "
+"ensure tension is to use a dynamic tensioner, similar to those found in "
+"complex chain runs. To design for these tensioners, we recommend planning "
+"more complex belt runs in CAD before building them in real life."
+msgstr ""
+"使用同步带时，正确的张力非常重要。有2种主要方法可以使张力正确。第一种方法很简单，goBILDA 和 Actobotics "
+"的孔型中已经集成了同步带。您可以直接从每家供应商处购买尺寸正确的同步带，安装好同步带后，张力就会达到完美状态。随着设计的复杂性增加，您的同步带运行也会越来越复杂"
+"--"
+"可能有两个以上的同步带轮，可能您的同步带轮尺寸各不相同。为了弥补这一不足，确保张力的第二种方法是使用动态张紧器，类似于复杂链条运行中的张紧器。为了设计这些张紧器，我们建议在实际制造之前先在"
+" CAD 中规划更复杂的皮带运行。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:28
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:34
+msgid "Belt Calculator"
+msgstr "同步带计算器"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:30
+msgid ""
+"The actual calculations to determine which belt to use to get close to a "
+"given center-to-center (:term:`C2C`) distance are complicated. Below is a "
+"calculator to help out:"
+msgstr "确定使用哪种同步带来接近给定的中心到中心(:term:`C2C`)距离的实际计算很复杂。下面的计算器可以提供帮助："
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:39
+msgid "The web version of gm0 has a belt calculator available here."
+msgstr "gm0 网页版的同步带计算器可在此处使用。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:44
+msgid ""
+"This calculator will suggest belt lengths even if they are difficult to get "
+"from vendors. Make sure the C2C distance you design around is for a belt "
+"length that you can purchase."
+msgstr "即使很难从供应商处购买到同步带长度，本计算器也会给出建议。请确保您设计的 C2C 距离是您可以购买到的同步带长度。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:46
+msgid ""
+"SDP-SI has a `more advanced calculator <https://sdp-si.com/tools/center-"
+"distance-designer.php>`_, as does `ReCalc <https://www.reca.lc/belts>`_. The"
+" equations for calculating these values by hand can be found in `SDP-SI's "
+"Designing a Miniature Belt and Pulley Drive System Design Guide "
+"<https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_."
+msgstr ""
+"SDP-SI 有一个 `更高级的计算器<https://sdp-si.com/tools/center-distance-"
+"designer.php>`_，ReCalc<https://www.reca.lc/belts>`_也有。手工计算这些值的公式可在`SDP-SI "
+"的《微型同步带和同步带传动系统设计指南》<https://www.sdp-si.com/Belt-Drive/Designing-a-"
+"miniature-belt-drive.pdf>`_中找到。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:49
+msgid "Belt Wrap"
+msgstr "同步带安装"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:51
+msgid ""
+"**Belt should, at the very least, have 90° of contact with the pulley. The "
+"best practice is to have 180° or more of contact**, as it is very unlikely "
+"to fall off with proper tensioning. Belt skipping, especially on drivetrains"
+" or arms, is very possible without proper belt wrap or tensioning. When "
+"tensioning belt, be sure to not undertension or overtension it. "
+"Undertensioning belt can result in the belt falling off the pulley or belt "
+"skipping, where the belt can skip along the pulley. Overtensioning belt "
+"often results in the motor burning out, or less seriously, a loss of "
+"efficiency. Push along the belt, and if it moves slightly without "
+"significant resistance, chances are you've done it correctly. If it's too "
+"tight, then the belt will barely move under a gentle press."
+msgstr ""
+"**同步带至少应与同步带轮呈 90° 接触。最好的做法是 180° "
+"或更多的接触**，因为在正确张紧的情况下，同步带脱落的可能性很小。如果没有正确的缠绕或张紧，同步带很可能跳脱，特别是在传动系统或机械臂上。张紧同步带时，确保不要张紧不足或张紧过度。同步带张力不足会导致同步带从同步带轮上脱落或同步带跳动，即同步带沿着同步带轮跳动。同步带张力过大通常会导致电机烧毁，严重的还会降低效率。沿着同步带推动，如果皮带在没有明显阻力的情况下轻微移动，则很可能是正确的。如果太紧的话，轻轻按压同步带几乎不会移动。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:54
+msgid "Best practices for wrap"
+msgstr "安装同步带的最佳实践"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:59
+msgid "Properly done belt wrap without tensioners"
+msgstr "正确安装同步带，不使用张紧器"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:59
+msgid "Ethan Doak, goBILDA"
+msgstr "Ethan Doak, goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:64
+msgid "A drivetrain by 8103 using belt"
+msgstr "使用同步带的 8103 传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:64
+msgid ""
+"8103 Null Robotics, offseason prototype, properly done belt wrap with "
+"tensioners"
+msgstr "8103 Null Robotics，休赛期原型机，带张紧装置的同步带安装妥当"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:67
+msgid "Advantages:"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:69
+msgid ""
+"**Pulleys can be made at home**. Pulleys can be 3D printed for most "
+"situations, allowing you to cut costs and create unique tooth counts easily."
+msgstr "**同步带轮可在家中制作**。同步带轮可通过3D打印技术制作，适用于大多数情况，让您可以降低成本，轻松创建独特的齿数。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:70
+msgid ""
+"**Belts are very strong**. They're reinforced with fiberglass cords that are"
+" incredibly hard to break, giving belts immense strength. (*If you break a "
+"belt, it's most likely because it was out of alignment or tensioned far too "
+"tightly*.)"
+msgstr ""
+"**同步带非常结实**。它们由玻璃纤维绳加固，非常不易断裂，因此同步带非常结实。(*如果你弄断了一条同步带，很可能是因为它没有对准或张得太紧*）。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:71
+msgid ""
+"**When tensioned correctly, there is absolutely no slop**. Engines use "
+"timing belt for a reason - because it's the best possible solution for them "
+"to perfectly synchronize their shafts. There's nothing that matches the "
+"rotational accuracy of a properly tensioned belt."
+msgstr ""
+"**当张紧正确时，绝对不会出现松弛**。发动机使用同步带是有原因的，因为它是使轴完全同步的最佳解决方案。没有什么能与正确张紧的同步带的旋转精度相媲美。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:72
+msgid ""
+"**Belts are efficient and quiet**. Compared to the loud shredding sound of a"
+" chain run, belt runs are dead silent, and they're more efficient than "
+"chains (although this makes zero practical impact in the robotics use case)."
+msgstr ""
+"**同步带高效、安静**。与链条运行时发出的巨大碎裂声相比，同步带运行时噪音极低，而且比链条更高效（尽管这在机器人应用案例中没有任何实际影响）。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:75
+msgid "Disadvantages:"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:77
+msgid ""
+"**Belts aren't customizable**. You buy a belt of a specific length and "
+"you're stuck with that length until you buy another one. This isn't too bad "
+"if you're planning out your robot properly, but chain will work better for "
+"prototypes where the chain length will be changing often."
+msgstr ""
+"**同步带不能自由修改长度**。你买了一条特定长度的同步带，就只能用这个长度，直到你再买一条。如果您对机器人进行了合理规划，这并不算太糟糕，但对于链条长度会经常变化的原型机来说，链条的效果会更好。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:78
+msgid ""
+"**Belts can be wider than alternatives (especially chain)**. This probably "
+"won't have much of an impact, but belt can often be wider than other power "
+"transmission methods, so it may not always fit."
+msgstr "**同步带可能比其他传动方式（尤其是链条）更宽**。这可能不会有太大影响，但同步带通常比其他动力传输方式更宽，因此不一定总是合适。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:79
+msgid ""
+"**Belts can be expensive (but you'll save money with pulleys)**. While you "
+"can buy chain 10 feet at a time, you'll most likely be buying each belt "
+"brand new. While this can get expensive, you'll be saving money on pulleys."
+msgstr ""
+"**同步带可能很贵（但使用同步带轮可以省钱）**。虽然您可以一次购买 10 "
+"英尺长的链条，但您很可能需要购买全新的皮带。虽然这可能会很贵，但您可以在同步带上省钱。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:84
+msgid "Properly done belt wrap with tensioners"
+msgstr "带张紧装置的同步带安装正确无误"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:84
+msgid "7236 Recharged Green, Rover Ruckus"
+msgstr "7236 Recharged Green, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:89
+msgid "A drivetrain by 8417 using belt"
+msgstr "8417 使用的同步带传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:89
+msgid "8417 Lectric Legends, Rover Ruckus"
+msgstr "8417 Lectric Legends, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:92
+msgid "Purchasing Belts"
+msgstr "采购同步带"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:94
+msgid ""
+"Once you know what pitch and length belt you want, purchasing a belt "
+"requires navigating the vendor's website. Almost every COTS belt vendor will"
+" identify belts by 3 values: pitch, pitch length, and width. Pitch is the "
+"pitch of the belt, pitch length is the length of the belt (belt teeth times "
+"pitch), and width is the width of the belt. From there, its a matter of "
+"searching the vendor's page for the right belt."
+msgstr ""
+"一旦您知道自己需要什么节距和长度的同步带，购买同步带时就需要浏览供应商的网站。几乎所有 COTS "
+"同步带供应商都会用3个值来识别同步带：节距、节距长度和宽度。节距是同步带的间距，节距长度是皮带的长度（同步带齿数乘以间距），宽度是同步带的宽度。然后，就可以在供应商的页面上搜索合适的皮带了。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:97
+msgid "SDP-SI"
+msgstr "SDP-SI"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:99
+msgid ""
+"SDP-SI is an established mechanical parts vendor that sells a large "
+"assortment of COTS belts. To navigate the site, go to the `main belts page "
+"<https://www.sdp-si.com/products/details/timing-belt-detail.php>`_, navigate"
+" to the correct belt type, then select the option for the correct pitch."
+msgstr ""
+"SDP-SI 是一家知名的机械零件供应商，销售大量的 COTS 同步带。要浏览该网站，请访问 `主要同步带页面<https://www.sdp-"
+"si.com/products/details/timing-belt-detail.php>`_，导航到正确的皮带类型，然后选择正确节距的选项。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:102
+msgid ""
+"Make sure to select the Single Sided belt type, and not the Timing Belt "
+"Stock type. Timing Belt Stock is a long stretch of belt that is not in a "
+"loop, whereas Single Sided belts are a loop."
+msgstr "确保选择单面同步带类型，而不是同步带库存类型。同步带库存是一段非环形的长带，而单面带是环形的。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:104
+msgid ""
+"For example, to purchase an HTD-5 belt, first navigate to GATES HTD Timing "
+"Belts, navigate to 5mm pitch, and select buy now under the single sided belt"
+" option."
+msgstr "例如，要购买 HTD-5 皮带，首先导航到 GATES HTD 正时皮带，导航到 5mm 间距，然后在单面同步带选项下选择立即购买。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:107
+msgid "V-Belt Guys"
+msgstr "V-Belt Guys"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:109
+msgid ""
+"V-Belt Guys stocks a large number of options for belts. They are known for "
+"stocking almost every width of belt, since they cut belts to size for the "
+"order. Searching the site uses belt codes with the format \"Pitch Length-"
+"Pitch Code-Width\". For example, a 200 pitch length HTD5 belt with a 5mm "
+"side to side width would be the code 200-5m-5. A list of common pitch codes "
+"is below."
+msgstr ""
+"V-Belt Guys "
+"库存有大量可供选择的皮带。他们以库存几乎所有宽度的同步带而闻名，因为他们会根据订单的尺寸切割同步带。搜索网站使用的同步带代码格式为 \"节距长度-"
+"节距代码-宽度\"。例如，边宽为 5 毫米、间距长度为 200 的 HTD5 皮带的代码为 200-5m-5。 常用间距代码列表如下。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:112
+msgid "Name"
+msgstr "名字"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:112
+msgid "Pitch Code"
+msgstr "节距代号"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:114
+msgid "HTD-5"
+msgstr "HTD-5"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:114
+msgid "5m"
+msgstr "5m"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:115
+msgid "HTD-3"
+msgstr "HTD-3"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:115
+msgid "3m"
+msgstr "3m"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:116
+msgid "GT3-2mm"
+msgstr "GT3-2mm"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:116
+msgid "2mgt"
+msgstr "2mgt"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:117
+msgid "GT3-3mm"
+msgstr "GT3-3mm"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:117
+msgid "3mgt"
+msgstr "3mgt"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:118
+msgid "GT3-5mm"
+msgstr "GT3-5mm"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:118
+msgid "5mgt"
+msgstr "5mgt"
