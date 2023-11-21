@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 04:16+0000\n"
+"POT-Creation-Date: 2023-11-21 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -21,3 +21,178 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:4
+msgid "SDK Motors"
+msgstr "SDK电机"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:6
+msgid ""
+"The SDK offers several methods of controlling and communicating with motors,"
+" as well as a couple of hidden methods that can be easily accessed."
+msgstr "SDK提供了几种控制和与电机通信的方法，以及一些可以轻松访问的隐藏方法。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:9
+msgid "General Explanation"
+msgstr "一般解释"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:12
+msgid "Motor Controller"
+msgstr "电机控制器"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:13
+msgid ""
+"All motor ports are controlled with what is called an H-bridge motor "
+"controller, a circuit that can be used to vary the output voltage as well as"
+" signage (negative or positive) of the voltage. Negative voltage through a "
+"DC Motor reverses a motor, whereas positive motor will make the motor go "
+"forward. SDK Motor power (from -1 to 1), represents a multiplier of the "
+"input voltage that is output through the motor port. The different voltages "
+"are created via PWM, where the port is turned on and off rapidly to create a"
+" lower average voltage."
+msgstr ""
+"所有电机端口都由所谓的H桥电机控制器控制，该电路可用于改变输出电压以及电压的标志（负或正）。通过DC的负电压使电机反转，而正电机将使电机前进。SDK电机功率（从-1到1）表示通过电机端口输出的输入电压的乘数。不同的电压通过PWM创建，其中端口快速打开和关闭以创建较低的平均电压。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:15
+msgid ""
+"In addition, the zero power behavior of the motor, that is the behavior of "
+"the motor when no power is applied, can be configured. In FLOAT mode, the "
+"motor controller simply turns off, providing minimal additional resistance. "
+"In BRAKE mode, the two motor leads are shorted together internally. Due to "
+"the inherent property that all DC brushed motors generate electricity when "
+"the shaft spins, shorting the leads causes a reverse power that stops the "
+"motor quickly and is resistant to external forces."
+msgstr ""
+"此外，可以配置电机的零功率行为，即电机在没有施加电源时的行为。在FLOAT模式下，电机控制器简单地关闭，提供最小的附加电阻。在BRAKE模式下，两个电机引线在内部一起短路。由于所有DC有刷电机在轴旋转时都产生电力的固有特性，短路引线会导致反向功率，从而快速停止电机并抵抗外力。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:17
+msgid ""
+"The motor controller uses the input voltage, this means on a 13 volt "
+"battery, setting the power to 1 will create an output voltage of 13 volts. "
+"Similarly, on an 11 volt battery, a power of 1 will create an output voltage"
+" of 11 volts."
+msgstr ""
+"电机控制器使用输入电压，这意味着在13伏电池上，将功率设置为1将产生13伏的输出电压。类似地，在11伏电池上，功率为1将产生11伏的输出电压。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:20
+msgid "Motor Encoder"
+msgstr "电机编码器"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:22
+msgid ""
+"There is no real standardized terminology when dealing with quadrature "
+"encoders. Here, we use the terms \"count\" and \"tick\" to represent a "
+"single rising or falling action in the quadrature wave. You may also see "
+"some datasheets list \"pulses\", which can indicate anything from 1 "
+"\"count\" to 4 \"counts\". Be careful when reading datasheets!"
+msgstr ""
+"在处理正交编码器时，没有真正标准化的术语。在这里，我们使用术语“count”和“tick”来表示正交波中的单个上升或下降动作。您可能还会看到一些数据表列出了“pulse”，它可以表示从1个“count”到4个“count”的任何内容。阅读数据表时要小心！"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:24
+msgid ""
+"FTC\\ |reg| Encoders use the two wire quadrature format for transmitting "
+"relative encoder information. In quadrature, there are two signal wires, A "
+"and B. When moving, both A and B generate square waves that are 90 degrees "
+"apart, that is one square wave starts half way through the other square "
+"wave, and ends half way through the other square wave. When traveling in one"
+" direction, the A wire square wave leads the B wire square wave, and in the "
+"other direction the B wire square wave leads the A wire square wave. The two"
+" waves are combined in XOR to produce the output wave, where each rising and"
+" falling action is one \"tick\", and the faster the wave the faster the "
+"encoder is moving."
+msgstr ""
+"FTC\\ |reg| 编码器使用双线正交格式传输相对编码器信息。在正交格式中，有两根信号线 A 和 B。移动时，A 和 B 产生相距 90 "
+"度的方波，即一个方波从另一个方波的一半处开始，到另一个方波的一半处结束。向一个方向移动时，A 线方波领先于 B 线方波，向另一个方向移动时，B "
+"线方波领先于 A 线方波。这两个波通过 XOR 组合产生输出波，其中每个上升和下降动作为一个 \"tick\"，波速越快，编码器的移动速度越快。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:26
+msgid ""
+"The REV hub counts the pulses and calculates velocity by using a 5 value "
+"\"ring buffer\", which has a new value added to it every 10 ms. These 5 "
+"values are then used to calculate the current velocity."
+msgstr ""
+"REV集线器通过使用5值“环形缓冲区（ring buffer）”来计算脉冲和速度，该缓冲区每10毫秒添加一个新值。然后使用这5个值来计算当前速度。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:28
+msgid ""
+"It is recommended that quadrature encoders be hooked up to special hardware "
+"decoded ports to allow them to be read correctly. The expansion hub contains"
+" special hardware for reading quadrature encoders, but because there are "
+"only two of those controllers, two of the pins are hooked up in \"software\""
+" instead (the ports are decoded in software instead of in hardware). "
+"Effectively, this means that ports 0 and 3, the two ports connected to the "
+"special quadrature ports, will always read accurately. **Ports 1 and 2 are "
+"connected to the less accurate \"software\" ports, meaning that with high "
+"CPR encoders (encoders that produce more than 4000 counts per revolution, "
+"such as the REV Through Bore Encoder or Talon SRX Encoder) they can \"lose "
+"steps\" and drift.**"
+msgstr ""
+"建议将正交编码器连接到特殊的硬件解码端口，以允许正确读取它们。扩展集线器包含用于读取正交编码器的特殊硬件，但由于只有其中两个控制器，因此其中两个引脚连接在“软件”中（端口在软件中而不是在硬件中解码）。实际上，这意味着端口0和3，连接到特殊正交端口的两个端口，将始终准确读取。**端口1和2连接到不太准确的“软件”端口，这意味着使用高CPR编码器（每转产生超过4000个计数的编码器，例如REV直通孔编码器或Talon"
+" SRX编码器），它们可以“失步”和漂移。**"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:33
+msgid ""
+"An example of a quadrature wave, with the A channel, B channel. The wave is "
+"broken up into four sections, where each section constitutes a tick."
+msgstr "正交波的一个示例，包括 A 频道和 B 频道。波被分成四段，每段为一个tick。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:33
+msgid ""
+"An example of a quadrature wave, with channel A leading channel B. Each "
+"count is a \"count\" or \"tick\""
+msgstr "正交波的一个例子，通道 A 领先于通道 B，每个计数都是一个 \"count \"或 \"tick\"。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:36
+msgid "Hidden Methods"
+msgstr "隐藏方法"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:39
+msgid "DcMotorEx"
+msgstr "DcMotorEx"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:40
+msgid ""
+"All REV hub DC motors are instances of ``DcMotorEx``, which exposes some "
+"more methods to the user, such as velocity control and current draw "
+"measurement."
+msgstr "所有REV轮毂DC电机都是DcMotorEx的实例，它向用户提供了更多方法，例如速度控制和电流消耗测量。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:42
+msgid ""
+"There is no downside to using DcMotorEx, in order to convert a DcMotor to a "
+"DcMotorEx the user simply just needs to cast the DcMotor returned by the "
+"``hardwareMap`` to a DcMotorEx."
+msgstr ""
+"使用DcMotorEx没有缺点，为了将DcMotorEx转换为DcMotorEx，用户只需将hardwareMap返回的DcMotorEx转换为DcMotorEx。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:45
+msgid "Tips"
+msgstr "提示"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:47
+msgid ""
+"While current readings are not bulk read, current alerts "
+"(``isMotorOverCurrent()``) is bulk read."
+msgstr "虽然当前读数不是批量读取，但当前警报（isMotorOverCurrent()）是批量读取。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:48
+msgid ""
+"PID/PIDF coefficients use internal units for the output, a two byte short "
+"from -32767 to 32767, instead of the user -1 to 1."
+msgstr "PID/PIDF系数使用内部单位作为输出，从-32767到32767短两个字节，而不是用户-1到1。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:49
+msgid ""
+"The default ``getVelocity()`` method returns the encoder velocity in ticks "
+"per second."
+msgstr "默认的getVelocity()方法以每秒刻度为单位返回编码器速度。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:50
+msgid ""
+"The ``RunMode`` ``STOP_AND_RESET_ENCODERS`` is not actually a run mode. "
+"Instead, it just sets the power to zero and sends a "
+"``LynxResetMotorEncoderCommand``. This command can be issued manually if one"
+" wants to easy reset a motor encoder without changing the run mode."
+msgstr ""
+"该RunMode "
+"STOP_AND_RESET_ENCODERS实际上并不是运行模式。相反，它只是将功率设置为零并发送一个LynxResetMotorEncoderCommand。如果想要在不改变运行模式的情况下轻松重置电机编码器，可以手动发出此命令。"
