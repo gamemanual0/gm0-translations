@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-20 16:18+0000\n"
+"POT-Creation-Date: 2023-11-21 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:9
 msgid "What is Error?"
-msgstr "什么是错误？"
+msgstr "什么是误差？"
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:11
 msgid ""
@@ -213,7 +213,8 @@ msgid ""
 "PID control loops. With a properly tuned :math:`K_p` and :math:`K_d`, you "
 "often can just set :math:`K_i` to 0 and call it a day."
 msgstr ""
-"诚然，积分项是FTC调节PID控制回路中最不重要的项。通过适当调整：math:`K_p`和：math:`K_d`，您通常可以将：math：`K_i`设置为0，然后就到此为止。"
+"诚然，积分项是FTC \\ |reg| 调节PID控制回路中最不重要的项。通过适当调整  :math:`K_p` 和 :math:`K_d` "
+"，您通常可以将 :math:`K_i` 设置为0，然后就到此为止。"
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:61
 msgid ""
@@ -258,7 +259,8 @@ msgid ""
 "can add the integral term to increase output (**this works too, but requires"
 " more attention and tuning to achieve the same result**)."
 msgstr ""
-"假设机器人在目标附近停下。P和D组合不足以将其向前移动到目的地。您可以调整：math:`K_p`和：math:`K_d`以进行补偿（**建议使用**），也可以添加积分项以增加输出（**这也有效，但需要更多的关注和调整才能获得相同的结果**）。"
+"假设机器人在目标附近停下。P和D组合不足以将其向前移动到目的地。您可以调整 :math:`K_p` 和 :math:`K_d` "
+"以进行补偿（**建议使用**），也可以添加积分项以增加输出（**这也有效，但需要更多的关注和调整才能获得相同的结果**）。"
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:70
 msgid "PID Pseudocode"
@@ -537,7 +539,7 @@ msgid ""
 "Motion profiles are *not* a specific type of control loop, but rather a "
 "technique that works well in combination with other control loops such as "
 "PID and feedforward."
-msgstr "运动曲线不是**一种特定类型的控制回路，而是一种与其他控制回路（如 PID 和前馈）结合使用的技术。"
+msgstr "运动曲线*不是*一种特定类型的控制回路，而是一种与其他控制回路（如 PID 和前馈）结合使用的技术。"
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:212
 msgid ""
@@ -595,7 +597,7 @@ msgid ""
 "(which usually only occurs when driving in FTC), trapezoidal profiles are "
 "recommended for most FTC applications."
 msgstr ""
-"运动曲线主要有两种类型：**梯形曲线和 S 曲线。梯形曲线以恒定的速度加速系统，而 S 曲线则假定加速度变化的速度是恒定的。鉴于 S "
+"运动曲线主要有两种类型：**梯形曲线**和 **S 曲线**。梯形曲线以恒定的速度加速系统，而 S 曲线则假定加速度变化的速度是恒定的。鉴于 S "
 "曲线并不是控制二维轨迹（如驾驶）的最佳选择，而且其存在是为了减少打滑（通常只在 FTC 驾驶时才会发生），因此建议在大多数 FTC 应用中使用梯形剖面。"
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:231
