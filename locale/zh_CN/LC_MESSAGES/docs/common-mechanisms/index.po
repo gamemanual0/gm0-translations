@@ -5,19 +5,29 @@
 # 
 # Translators:
 # Shawphy, 2023
-# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 04:16+0000\n"
+"POT-Creation-Date: 2023-11-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/index.rst:4
+msgid "Common Mechanisms"
+msgstr "常见机械结构"
+
+#: ../../gm0/source/docs/common-mechanisms/index.rst:6
+msgid ""
+"This chapter covers suggestions for design of common components of FTC\\ "
+"|reg| robots: drivetrain, linear motion (slides and lifts), claws, intakes, "
+"and more."
+msgstr "本章包括对 FTC\\ |reg| 机器人常见组件设计的建议：传动系统、线性运动（滑轨和升降机）、爪子、吸入拾取装置等。"

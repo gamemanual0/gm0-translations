@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-24 16:17+0000\n"
+"POT-Creation-Date: 2023-11-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,6 +20,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:4
+msgid "Sample Drivetrains"
+msgstr "传动系统案例"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:6
+msgid ""
+"In this section, we compile several sample drivetrains which you can use as "
+"a starting point for your own designs. You should also check the "
+":doc:`gallery of robot designs </docs/appendix/gallery>` in the Appendix."
+msgstr ""
+"在本节中，我们汇编了几个示例传动系统，您可以将其作为自己设计的起点。您还应该查看附录中的 :doc:`gallery of robot "
+"designs</docs/appendix/gallery>`。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:8
+msgid ""
+"`goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit-v4/>`_"
+msgstr ""
+"`goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit-v4/>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:9
+msgid ""
+"Basic mecanum chassis by goBILDA. Simple and easy to build chassis, "
+"providing an excellent starting point for robots built from goBILDA parts."
+msgstr "goBILDA 的基本麦克纳姆轮底盘。底盘简单易造，是使用 goBILDA 零件制造机器人的绝佳起点。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:10
+msgid ""
+"`goBILDA BeeLine Chassis <https://www.gobilda.com/beeline-chassis-kit/>`_"
+msgstr ""
+"`goBILDA BeeLine Chassis <https://www.gobilda.com/beeline-chassis-kit/>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:11
+msgid ""
+"Basic 6 wheel drive chassis by goBILDA. Simple and easy to build chassis, "
+"providing an excellent starting point for robots built from goBILDA parts."
+msgstr "goBILDA 的基本六轮驱动底盘。底盘简单易造，是使用 goBILDA 零件制造机器人的绝佳起点。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:13
 msgid ""
@@ -48,3 +85,71 @@ msgid ""
 msgstr ""
 "`REV 机器人 6 轮传动系统 <https://docs.revrobotics.com/duo-build/channel-drivetrain-"
 "build-guide>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:16
+msgid "Sample 6 wheel drivetrain built using REV kit."
+msgstr "使用 REV 套件制作的 6 轮传动系统案例。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:17
+msgid ""
+"`AndyMark Tile Runner chassis <https://www.andymark.com/products/tilerunner-"
+"options>`_"
+msgstr ""
+"`AndyMark Tile Runner chassis <https://www.andymark.com/products/tilerunner-"
+"options>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:18
+msgid ""
+"A universal chassis kit sold by AndyMark. It is available in several "
+"modifications: 6 wheel, mecanum, tank tread. It is expensive, but using "
+"provided 3d models as inspiration for your own drivetrain is free."
+msgstr ""
+"AndyMark 销售的通用底盘套件。它有多种改装方式：6 轮、机械式、坦克胎面。虽然价格昂贵，但不用花费任何费用就可以使用他们的 3D "
+"模型为自己传动系统提供灵感。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:19
+msgid ""
+"`Wizards.exe 6 wheel drive chassis "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+msgstr ""
+"`Wizards.exe 6 轮驱动底盘 "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:20
+msgid ""
+"Another design by FTC 9794 Wizards.exe. Combines custom side panels with "
+"Actobotics parts (gears, chain sprockets)."
+msgstr "FTC 9794 Wizards.exe 的另一项设计。将定制侧板与 Actobotics 部件（齿轮、链轮）相结合。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:21
+msgid ""
+"`Custom drivetrain by FTC 14875 LightSpeed "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+msgstr ""
+"` FTC 14875 LightSpeed 的自制传动系统 "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:22
+msgid ""
+"This design uses goBILDA mecanum wheels, motors, and some channels combined "
+"with custom side plates."
+msgstr "该设计使用了 goBILDA 麦克纳姆轮、电机和一些与定制侧板相结合的通道。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:25
+msgid ""
+"`NX VANTAGE-H "
+"<https://cad.onshape.com/documents/3d22333d5ba0abcc62edb57e/w/fa027f644666441544a378c6/e/693039a92658a00632996b28>`_"
+msgstr ""
+"`NX VANTAGE-H "
+"<https://cad.onshape.com/documents/3d22333d5ba0abcc62edb57e/w/fa027f644666441544a378c6/e/693039a92658a00632996b28>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:24
+msgid ""
+"Another custom drivetrain using goBILDA mecanum wheels, by redditor "
+"/u/nateless. Note that this design can be viewed but not downloaded---this "
+"is intentional; see his `original reddit post "
+"<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_."
+msgstr ""
+"另一个使用 goBILDA 麦克纳姆轮的定制传动系统，由 redditor /u/nateless 制作。请注意，这个设计可以查看，但不能下载--"
+"这是故意的；请参阅他的 `原始 reddit "
+"帖子<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_。"

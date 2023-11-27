@@ -5,18 +5,175 @@
 # 
 # Translators:
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2023-11-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:4
+msgid "Control Systems"
+msgstr "控制系统"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:6
+msgid ""
+"The FTC\\ |reg| control system is based around a \":term:`Robot "
+"Controller`\" and a \":term:`Driver Station`\". The :term:`Robot Controller`"
+" is mounted on the robot. It is either embedded within or connected to "
+"special \"Hub(s)\", which in turn connect to motors, servos, and sensors. "
+"The :term:`Robot Controller` is linked to the :term:`Driver Station` through"
+" WiFi or WiFi Direct."
+msgstr ""
+"FTC\\ |reg| 控制系统由 \":term:`Robot Controller`\" 和 \":term:`Driver Station`\" "
+"组成。:term:`Robot Controller` "
+"安装在机器人上。它嵌入或连接到特殊的“集线器”，而“集线器”又连接到电机、伺服器和传感器。:term:`Robot Controller` 通过 "
+"WiFi 或 WiFi Direct 与 :term:`Driver Station` 相连。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:8
+msgid ""
+"REV Robotics is the sole manufacturer of legal FTC control system "
+"components. The REV Expansion Hub connects to motors, servos, sensors, and a"
+" :term:`Robot Controller`. A REV Control Hub has the same functionality of "
+"an Expansion Hub but with a built-in :term:`Robot Controller`."
+msgstr ""
+"REV Robotics 是合法 FTC 控制系统组件的唯一制造商。REV Expansion Hub 可连接电机、伺服器、传感器和一个 "
+":term:`Robot Controller` 。REV Control Hub具有与Expansion Hub相同的功能，但内置一个 "
+":term:`Robot Controller`。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:10
+msgid "More information about the FTC Control System can be found below:"
+msgstr "有关 FTC 控制系统的更多信息，请参见下文："
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:12
+msgid ""
+"`Official Control System Documentation on FTC Docs <https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-"
+"FTC-Control-System.html>`_"
+msgstr ""
+"`FTC 官方提供的控制系统文档 <https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-"
+"FTC-Control-System.html>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:13
+msgid ""
+"`REV Control System Documentation <https://docs.revrobotics.com/duo-"
+"control/>`_"
+msgstr "`REV 控制系统文件<https://docs.revrobotics.com/duo-control/>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:14
+msgid ""
+"`Official troubleshooting guide "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"system-troubleshooting-guide.pdf>`_"
+msgstr ""
+"官方故障排除指南<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"system-troubleshooting-guide.pdf>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:16
+msgid ""
+"There are two possible control systems that can be run on an FTC robot "
+"legally:"
+msgstr "有两种可能的控制系统可以在 FTC 机器人上合法运行："
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:18
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:24
+msgid "REV Control Hub + REV Expansion Hub"
+msgstr "REV Control Hub + REV Expansion Hub"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:19
+msgid ":term:`RC Phone <Robot Controller>` + REV Expansion Hub(s)"
+msgstr ":term:`RC Phone <Robot Controller>` + REV Expansion Hub"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:21
+msgid ""
+"Beginning in the 2024-2025 season, an :term:`RC Phone <Robot Controller>` "
+"will no longer be legal to use as a Robot Controller. Teams will be required"
+" to use a REV Control Hub as their :term:`Robot Controller`."
+msgstr ""
+"从 2024-2025 赛季开始，:term:`RC Phone<Robot Controller>`将不再合法用作机器人控制器。参赛队必须使用 REV"
+" Control Hub 作为 :term:`Robot Controller`。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:26
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:41
+msgid ""
+"It is of vital importance to update the firmware on REV Expansion hubs to at"
+" least version 1.8.2. It includes better protection against disconnects and "
+"improves program performance. See the `REV Expansion Hub firmware update "
+"docs`_."
+msgstr ""
+"将 REV Expansion Hub的固件更新到至少 1.8.2 版本至关重要。它包括更好的断开连接保护，并提高了程序性能。请参阅 `REV "
+"Expansion Hub firmware update docs`_。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:28
+msgid "This is the standard control system for teams starting out in FTC."
+msgstr "这是 FTC 初创团队的标准控制系统。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:30
+msgid ""
+"The Control Hub connects to the Expansion Hub through either a RS-485 "
+"connection, or a USB-A (Control Hub side) to mini-USB (Expansion Hub-side) "
+"connection. In either case, proper strain relief and cable management should"
+" be used."
+msgstr ""
+"Control Hub 通过 RS-485 连接或 USB-A（控制集线器端）转mini-USB 线 与Expansion "
+"Hub相连。无论哪种情况，都应使用适当的应力消除和电缆管理。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:32
+msgid ""
+"For more information on setting up the Control Hub and configuring the "
+"robot, head to `REV Robotics' Technical Resources Control Hub Guide "
+"<https://docs.revrobotics.com/duo-control/control-hub-gs>`_."
+msgstr ""
+"有关设置Control Hub和配置机器人的更多信息，请访问 `REV Robotics' Technical Resources Control "
+"Hub Guide<https://docs.revrobotics.com/duo-control/control-hub-gs>`_。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rstNone
+msgid "A diagram of the Control Hub + Expansion Hub control system"
+msgstr "Control Hub + Expansion Hub控制系统示意图"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:39
+msgid "RC Phone + REV Expansion Hub(s)"
+msgstr "RC Phone + REV Expansion Hub"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:43
+msgid ""
+"The Expansion Hub connects to the :term:`Robot Controller` phone through its"
+" mini USB port. The REV Expansion Hub is reliable, as long as proper strain "
+"relief and wiring is carried out. This includes the :term:`USB Retention "
+"Mount`, as well as 3D printing :term:`XT30` stress relief mounts."
+msgstr ""
+"Expansion Hub通过 mini USB 端口连接到 :term:`Robot Controller` "
+"手机。只要进行适当的应力消除和布线，REV Expansion Hub 是可靠的。这包括 :term:`USB 固定支架`，以及 3D 打印 "
+":term:`XT30` 应力消除支架。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:45
+msgid ""
+"For more information on setting up the Expansion Hub and configuring the "
+"robot, head to `REV Robotics' Technical Resources Expansion Hub Guide "
+"<https://docs.revrobotics.com/duo-control/legacy/expansion-hub-gs>`_."
+msgstr ""
+"有关设置扩展集线器和配置机器人的更多信息，请访问 `REV Robotics' Technical Resources Expansion Hub "
+"Guide<https://docs.revrobotics.com/duo-control/legacy/expansion-hub-gs>`_。"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:47
+msgid "`USB Retention Mount <https://www.revrobotics.com/rev-41-1214/>`_"
+msgstr "USB 固定安装<https://www.revrobotics.com/rev-41-1214/>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:48
+msgid "`XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_"
+msgstr "XT30 缓解压力<https://www.thingiverse.com/thing:2887045>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rstNone
+msgid "A diagram of the RC Phone + Expansion Hub(s) control system"
+msgstr "RC Phone + Expansion Hub控制系统示意图"

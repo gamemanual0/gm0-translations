@@ -4,19 +4,69 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# shaw phy, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-24 16:15+0000\n"
+"POT-Creation-Date: 2023-11-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:2
+msgid "Software Glossary"
+msgstr "软件相关词汇表"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:5
+msgid "Disconnect"
+msgstr "断连"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:7
+msgid ""
+"A disconnect (DC) is when, for any reason, the robot is not able to be "
+"controlled from the gamepad. This can happen for many reasons - static "
+"buildup on the robot, a loose cable, or an error in code."
+msgstr "断连 (DC) 是指由于任何原因，机器人无法通过游戏手柄进行控制。发生这种情况的原因有很多——机器人上的静电积聚、电缆松动或代码错误。"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:9
+msgid ""
+"Generally, most DCs are caused by improper wiring, so wire stress relief is "
+"encouraged for all teams (:term:`USB Retention Mount`). They can also be "
+"caused by WiFi disconnects, or an ESD (electrostatic discharge) shock to the"
+" electronics."
+msgstr ""
+"一般来说，大多数断连都是由接线不当引起的，因此我们鼓励所有团队减轻接线应力(:term:`USB Retention Mount`)。它们也可能由 "
+"WiFi 断开或电子元件受到 ESD（静电放电）冲击引起。"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:10
+msgid "Driver Station"
+msgstr "操作站"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:12
+msgid ""
+"The Driver Station (DS) refers to both the software and device that is used "
+"by the drive team and connects to the gamepad(s). The device can either be "
+"one of the Android phones specified in |gm1| or a REV Robotics Driver Hub."
+msgstr "操作站（DS）是指驱动团队使用的软件和设备，用于连接游戏手柄。该设备可以是|gm1|中指定的安卓手机之一，也可以是 REV操作坞 。"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:13
+msgid "Robot Controller"
+msgstr "机器人控制器"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:15
+msgid ""
+"The Robot Controller (RC) refers to both the software and device that is on "
+"the robot that controls it. This can either be a REV Robotics Control Hub or"
+" one of the Android phones specified in |gm1| connected to an Expansion Hub "
+"via a Micro USB cable."
+msgstr ""
+"机器人控制器（RC）是指机器人上控制机器人的软件和设备。它既可以是 REV控制坞 ，也可以是 |gm1|中指定的通过 USB 连接到扩展集线器 "
+"(Expansion Hub) 的安卓手机。"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-24 04:15+0000\n"
+"POT-Creation-Date: 2023-11-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -21,3 +21,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:4
+msgid "SDK Servos"
+msgstr "SDK 伺服电机"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:9
+msgid "General Explanation"
+msgstr "通用说明"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:24
+msgid "An example of a PWM wave for a made up servo."
+msgstr "一个控制伺服电机的 PWM 波形示例。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:24
+msgid ""
+"An example of servo PWM waves. NOTE: Servo angles are arbitrarily selected "
+"and will not be accurate to all servos"
+msgstr "伺服电机 PWM 波形示例。注意：伺服电机角度是任意选择的，并非对所有伺服电机都准确无误。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:32
+msgid "ServoImplEx"
+msgstr "ServoImplEx"

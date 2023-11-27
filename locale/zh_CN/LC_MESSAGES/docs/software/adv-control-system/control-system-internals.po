@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2023-11-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,261 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:4
+msgid "Control System Electronics"
+msgstr "控制系统电子"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:6
+msgid ""
+"This page contains a breakdown of the known electronics in the control "
+"system, as well as any notes regarding them"
+msgstr "本页包含控制系统中已知电子设备的故障，以及有关它们的任何注释"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
+msgid "Expansion Hub Internals"
+msgstr "Expansion Hub内部"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:11
+msgid ""
+"Don't take apart a Control or Expansion Hub unless you really know what you "
+"are doing. They can be damaged in the process, especially if one does not "
+"know how to properly reassemble it. THIS WILL VOID YOUR WARRANTY!"
+msgstr ""
+"除非你真的知道你在做什么，否则不要拆开控制或扩展集线器。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。这将使您的保修无效！"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
+msgid "Lynx Board"
+msgstr "Lynx电路板"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
+msgid ""
+"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
+"Hub that interacts with hardware. References to \"Lynx\" are made in the "
+"FTC\\ |reg| SDK refer to this board. It appears to have been developed by "
+"both REV and DEKA, possibly for use in *FIRST*\\ |reg| Global (judging by "
+"the *FIRST* Global silkscreen on the PCB)."
+msgstr ""
+"“Lynx”是扩展集线器和控制集线器中与硬件交互的电路板的代号。FTC\\ |reg| SDK 中提到的“Lynx”就是指这块板。它似乎是由 REV 和"
+" DEKA 共同开发的，可能用于 *FIRST*\\ |reg| Global（根据PCB上的FIRST Global丝网印刷判断）。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:18
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:80
+msgid ""
+"Don't take apart a Control or Expansion Hub unless you really know what you "
+"are doing. They can be damaged in the process, especially if one does not "
+"know how to properly reassemble it."
+msgstr "除非你真的知道你在做什么，否则不要拆开控制或扩展集线器。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
+msgid "A Lynx board that was removed from its case"
+msgstr "一块从机箱中取出的 Lynx 电路板"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:26
+msgid "Processor"
+msgstr "处理器"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:28
+msgid ""
+"The main processor of the Expansion Hub is a Texas Instruments ARM Cortex M4"
+" running at 80 MHZ."
+msgstr ""
+"扩展集线器（Expansion Hub）的主处理器是Texas Instruments ARM Cortex M4，运行频率为 80 MHZ。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:31
+msgid "Ports"
+msgstr "端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:33
+msgid "The expansion hub has the following ports"
+msgstr "扩展中心有以下端口："
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:35
+msgid "Two UART Debug Ports"
+msgstr "两个通用异步收发设备调试端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:37
+msgid ""
+"The top port outputs a continuous high speed CSV stream of data from the "
+"various subsystems in the hub."
+msgstr "顶部端口从集线器中的各个子系统输出连续的高速CSV数据流。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:38
+msgid ""
+"The bottom port outputs data at a baud rate of 115200 at a user specified "
+"verbosity."
+msgstr "底部端口以用户指定的详细程度以115200的波特率输出数据。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:39
+msgid "Four I2C Ports"
+msgstr "四个I2C端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:41
+msgid ""
+"These ports are 100/400 kHz compliant and are connected to a separate bus so"
+" there is no need to be concerned about address collisions"
+msgstr "这些端口符合100/400 kHz标准，并连接到单独的总线，因此无需担心地址冲突"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:42
+msgid "There are integrated pull up resistors on this port"
+msgstr "此端口上有集成上拉电阻"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:43
+msgid "Eight DIO Ports"
+msgstr "八个DIO端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:45
+msgid ""
+"3.3V only, current limited, can briefly supply more than the rated current "
+"spec. Pulled up internally."
+msgstr "仅3.3V，电流有限，可短暂提供超过额定电流规格的电流。内部拉起。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:46
+msgid "Four Analog Ports"
+msgstr "四个模拟端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:48
+msgid ""
+"5V compliant, you can use a level shifter to supply 5v to the sensor, but "
+"take care the analog line bypasses the level shifter. The VIN and GND lines "
+"must pass through the level shifter for it to work however."
+msgstr "5V兼容，您可以使用电平转换器向传感器供电5v，但要注意模拟线绕过电平转换器。然而，VIN和GND线必须通过电平转换器才能工作。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:49
+msgid "Six Servo Ports"
+msgstr "六个伺服端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:51
+msgid ""
+"The 5V supply on the servo ports is default OFF, and will only enable once a"
+" servo is used. All six 5V pins are switched on and off together, and "
+"disabling PWM on one port will switch all of the ports off unless another "
+"servo is used."
+msgstr ""
+"伺服端口上的5V电源默认关闭，仅在使用伺服时启用。所有六个5V引脚一起打开和关闭，除非使用另一个伺服，否则禁用一个端口上的PWM将关闭所有端口。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:52
+msgid "Two 5V Power Ports"
+msgstr "两个5V电源端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:54
+msgid "The 5V supply is shared with the servos"
+msgstr "5V电源与伺服系统共享"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:55
+msgid "Four Motor Ports"
+msgstr "四个电机端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:57
+msgid ""
+"Current limited and have overtemperature protection on the chip. The output "
+"does not brake the h-bridge during the PWM off cycle. What this means is "
+"that there might be linearity issues while deaccelerating, because of "
+"momentum in the motor."
+msgstr "电流受限，芯片上有过温保护。在PWM关闭周期期间，输出不会制动h桥。这意味着由于电机中的动量，在减速时可能会出现线性问题。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:58
+msgid ""
+"The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is "
+"capabile of handling well over the maximum amount of current an FTC motor "
+"can draw. It has integrated current sensing and has been used since the "
+"modern robotics era. It has built in thermal and current safety limits. This"
+" motor controller has been used for years, and may even date back to the "
+"early HiTechnic based control system."
+msgstr ""
+"电机驱动器是ST微电子VNH5050电机驱动器IC，能够很好地处理FTC电机可以消耗的最大电流。它集成了电流传感，自现代机器人时代以来一直在使用。它内置了热和电流安全限制。这种电机控制器已经使用多年，甚至可以追溯到早期基于HiTechnic的控制系统。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
+msgid "Four Encoder Ports"
+msgstr "四个编码器端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:61
+msgid ""
+"**IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be "
+"connected via hardware and are reliable at high speed**. There are two "
+"methods of connecting an encoder internally to the texas instruments "
+"microprocessor, through hardware and software. Hardware ports use the "
+"integrated quadrature decoder chip and are extremely accurate at high speed,"
+" whereas encoders decoded in software are not reliable at high speeds. As a "
+"result, high Count Per Revolution (CPR) encoders, those with more than 4000 "
+"counts per revolution, should NOT be used on ports 1 and 2, the ports "
+"connected in software."
+msgstr ""
+"**重要提示：只有两个编码器端口（端口0和3）似乎是通过硬件连接的，并且在高速下是可靠的**有两种方法可以通过硬件和软件将编码器内部连接到德克萨斯仪器的微处理器。硬件端口使用集成的正交解码器芯片，在高速下非常准确，而在软件中解码的编码器在高速下并不可靠。因此，每转计数超过4000次的高计数（CPR）编码器不应用于软件连接的端口1和2。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:62
+msgid "Two XT30 Connectors"
+msgstr "两个XT30连接器"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:64
+msgid ""
+"Care should be taken when moving around cables as these connectors have been"
+" known to fail and break off the board."
+msgstr "在电缆周围移动时应小心，因为已知这些连接器会出现故障并从电路板上脱落。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:65
+msgid ""
+"In addition, XT30s will wear and get loose with time. Hot glue is "
+"recommended if cables come loose."
+msgstr "此外，XT30s会随着时间的推移而磨损和松动。如果电缆松动，建议使用热胶。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:66
+msgid "Mini USB B Connector"
+msgstr "USB B连接器"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:68
+msgid ""
+"Capable of full speed USB 2.0, and 5V output to charge a phone. The 5v "
+"output may be unreliable, it depends on the hub."
+msgstr "能够全速USB 2.0和5V输出为手机充电。5v输出可能不可靠，取决于集线器。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:69
+msgid "Internal Connector"
+msgstr "内部连接器"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
+msgid ""
+"This connector is what is used to connect to the android daughterboard. It "
+"presumably has UART capability as well as power and ground. All expansion "
+"hubs have this connector, whether or not they are a control hub. Presumably "
+"this is because the control hub and REV hub were developed together at the "
+"same time."
+msgstr ""
+"这个连接器是用来连接android子板的。据推测，它具有通用异步收发设备功能以及电源和接地功能。所有扩展集线器都有这个连接器，无论它们是否是控制集线器。据推测，这是因为控制集线器和REV集线器是同时开发的。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:74
+msgid "Control Hub"
+msgstr "控制中心"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:76
+msgid ""
+"The Control Hub is an Expansion Hub with an embedded Android single-board "
+"computer daughterboard connected to it. This enables it to not need a "
+"separate Robot Controller phone, as the daughterboard functions as the Robot"
+" Controller. Internally, LynxCommands are sent over from the daughterboard "
+"to the Lynx board over an internal UART connection."
+msgstr ""
+"控制中心（Control "
+"Hub）是一个扩展集线器，它连接了一个嵌入式Android单板计算机子板。这使得它不需要单独的机器人控制器电话，因为子板充当机器人控制器。在内部，LynxCommand通过内部通用异步收发设备连接从子板发送到Lynx板。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:78
+msgid ""
+"The control hub daughterboard contains a RK3328 Quad-core ARM Cortex-A53 "
+"running a custom version of Android/Linux. This software is open source, but"
+" has nothing notible except for some software that manages the wifi access "
+"point. It has no thermal spreading, such as heat sinks, on the chip, which "
+"can cause thermal throttling when heavy applications such as tensorflow are "
+"used."
+msgstr ""
+"控制集线器子板包含一个RK3328四核ARMCortex-A53，运行一个定制版本的安卓/Linux。这个软件是开源的，但是除了一些管理wifi接入点的软件之外，没有什么重要的东西。它在芯片上没有热扩散，比如散热器，当使用像tenorflow这样的重型应用程序时，会导致热节流。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
+msgid "The single board computer and Lynx board from a Control Hub"
+msgstr "Control Hub的单板计算机和 Lynx 板"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:89
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:89
+msgid "The android board, removed from a control hub"
+msgstr "从Control Hub拆下的安卓板"
