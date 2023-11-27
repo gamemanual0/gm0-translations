@@ -4,20 +4,529 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2023-11-27 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:4
+msgid "Gamepad Usage"
+msgstr "游戏手柄使用"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:7
+msgid "Gamepad Layout"
+msgstr "游戏手柄布局"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Logitech F310"
+msgstr "Logitech F310"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Logitech F310 gamepad image layout."
+msgstr "罗技 F310 游戏手柄布局示意图。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Xbox 360"
+msgstr "Xbox 360"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Xbox 360 gamepad image layout."
+msgstr "Xbox 360 游戏手柄布局示意图。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "PS4/Etpark"
+msgstr "PS4/Etpark"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "PS4/Etpark gamepad image layout."
+msgstr "PS4/Etpark 游戏手柄布局示意图。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:30
+msgid ""
+"``L1`` is ``left_bumper``, ``L2`` is ``left_trigger``, ``R1``/``R2`` are the"
+" right-hand equivalents."
+msgstr ""
+"``L1``是``left_bumper``，``L2``是``left_trigger``，``R1``/``R2`表示右手侧的``bumper``和``trigger``按键。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:33
+msgid "Button Aliases"
+msgstr "按钮别名"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:39
+msgid "PS4"
+msgstr "PS4"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:39
+msgid "Xbox"
+msgstr "Xbox"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:41
+msgid "``circle``"
+msgstr " ``circle``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:41
+msgid "``b``"
+msgstr "``b``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:43
+msgid "``cross``"
+msgstr "``cross``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:43
+msgid "``a``"
+msgstr "``a``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:45
+msgid "``triangle``"
+msgstr "``triangle``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:45
+msgid "``y``"
+msgstr "``y``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:47
+msgid "``square``"
+msgstr "``square``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:47
+msgid "``x``"
+msgstr "``x``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:49
+msgid "``share``"
+msgstr "``share``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:49
+msgid "``back``"
+msgstr "``back``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:51
+msgid "``options``"
+msgstr "``options``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:51
+msgid "``start``"
+msgstr "``start``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:53
+msgid "``ps``"
+msgstr "``ps``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:53
+msgid "``guide``"
+msgstr "``guide``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:57
+msgid "Boolean Inputs"
+msgstr "布尔输入"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:59
+msgid ""
+"TeleOp OpModes are generally written in iterative style, with a loop that "
+"contains code that is called over an over. Under this paradigm, a simple "
+"handling of user input could look like"
+msgstr "TeleOp OpModes通常以迭代风格编写，其中包含通过over调用的代码的循环。在这种范式下，对用户输入的简单处理可能看起来像："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:70
+msgid ""
+"In this situation, this likely does what the driver wants: while the button "
+"is held, the motor's power is set to 1, and otherwise the power is set to 0."
+" Since writing the same power to a motor multiple times has no effect on the"
+" motor's behavior, this works perfectly fine. However, issues arise when "
+"wanting to do something once when a button is pressed. For example, it is "
+"tempting to write something like this to get a press of a or b to adjust a "
+"servo."
+msgstr ""
+"在这种情况下，这可能会满足驾驶员的需求：当按钮被按住时，电机的功率设置为1，否则功率设置为0。由于多次向电机写入相同的功率对电机的行为没有影响，因此这完全可以正常工作。然而，当按下按钮时，想要做某事时就会出现问题。例如，写这样的东西来按下a或b来调整伺服系统是很有诱惑力的。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:81
+msgid ""
+"However, this will behave unpredictably, as each time the button is pressed,"
+" the ``setPosition`` method will be called multiple times as the loop "
+"frequency changes as does the button press length. There are a few "
+"techniques to avoid this, however they all require comparing the gamepad "
+"state to the gamepad state in the previous loop; therefore, it is necessary "
+"to store it."
+msgstr ""
+"但是，这将表现出不可预测的行为，因为每次按下按钮时，随着循环频率的变化以及按钮按下长度的变化，将多次调用``setPosition``方法。有一些技术可以避免这种情况，但是它们都需要将游戏手柄状态与上一个循环中的游戏手柄状态进行比较；因此，有必要存储它。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:84
+msgid "Storing Gamepad State"
+msgstr "存储游戏手柄状态"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:86
+msgid ""
+"While each gamepad input's previous state could be stored individually in a "
+"variable, e.g. ``boolean previousA``, this very quickly gets annoying. "
+"Luckily, the FTC SDK provides a way to copy gamepad states, with "
+"``gamepad.copy(gamepadToCopy)``."
+msgstr ""
+"虽然每个游戏手柄输入的先前状态可以单独存储在一个变量中，例如``boolean previousA``，但这很快就会变得烦人。幸运的是，FTC "
+"SDK提供了一种复制游戏手柄状态的方法，带有``gamepad.copy(gamepadToCopy)``。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:88
+msgid ""
+"In addition to storing the gamepad state for the previous iteration of the "
+"loop, the gamepad state for the current iteration of the loop is also "
+"stored. This is necessary because if the state of a button was always read "
+"from ``gamepad1``/``gamepad2``, it could change between reading the value "
+"and storing the previous value. This is because ``gamepad1``/``gamepad2`` "
+"update concurrently for ``LinearOpMode``, and so can change during a loop "
+"iteration."
+msgstr ""
+"除了存储循环前一次迭代的gamepad状态之外，还存储循环当前迭代的gamepad状态。这是必要的，因为如果按钮的状态总是从``gamepad1``/``gamepad2``读取，它可能会在读取值和存储前一次值之间改变。这是因为``gamepad1``/``gamepad2``同时更新``LinearOpMode``，因此可以在循环迭代期间改变。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:90
+msgid ""
+"In a ``LinearOpMode`` based TeleOp program, storing both current and "
+"previous gamepad state could look like:"
+msgstr "在基于``LinearOpMode``的TeleOp程序中，存储当前和以前的游戏手柄状态可能如下所示："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:126
+msgid "Rising Edge Detector"
+msgstr "上升沿检测器"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Why is it called a rising edge detector?"
+msgstr "为什么叫上升沿检测器？"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:130
+msgid ""
+"A signal edge is a transition in a digital signal. In this case, the digital"
+" signal is the gamepad input, which is low when not held and high when held."
+" The rising edge is the transition from low to high, and the falling edge is"
+" the transition from high to low."
+msgstr "信号沿是数字信号中的过渡，在这种情况下，数字信号是游戏手柄输入，不持有时为低，持有时为高。上升沿是从低到高的过渡，下降沿是从高到低的过渡。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:128
+msgid "A diagram of a rising/falling edge of a square wave"
+msgstr "方波上升沿/下降沿示意图"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:135
+msgid ""
+"The most commonly used technique is a rising edge detector. It allows code "
+"to be run only once when the button is initially pressed, as opposed to "
+"every loop while it is held down. It works by checking that the button is "
+"currently pressed, but was not pressed in the previous loop. For example, "
+"inside of a TeleOp loop:"
+msgstr ""
+"最常用的技术是上升沿检测器。它允许代码在最初按下按钮时只运行一次，而不是在按下按钮时运行每个循环。它的工作原理是检查按钮当前是否被按下，但在上一个循环中没有被按下。例如，在TeleOp循环内部："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:143
+msgid ""
+"This will increase the servo position by 0.1 exactly once per press of "
+"``a``."
+msgstr "这将使每按``a``一次，伺服位置正好增加0.1。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:146
+msgid "Falling Edge Detector"
+msgstr "下降沿检测器"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:148
+msgid ""
+"A very similar technique is a falling edge detector. It allows code to be "
+"run only once when the button is released, as opposed to every loop while it"
+" is held down. It works by checking that the button is currently not "
+"pressed, but was pressed in the previous loop. For example, inside of a "
+"TeleOp loop:"
+msgstr ""
+"一种非常相似的技术是下降沿检测器。它允许代码在按钮释放时只运行一次，而不是在按下按钮时运行每个循环。它的工作原理是检查按钮当前是否未被按下，而是在前一个循环中被按下。例如，在TeleOp循环内部："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:156
+msgid ""
+"This will decrease the servo position by 0.1 exactly once per release of "
+"``b``."
+msgstr "这将减少伺服位置0.1正好每释放一次``b``。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:158
+msgid ""
+"One button can run different code on the rising and falling edge. This is "
+"mainly useful for fairly complex interactions and so is not demonstrated "
+"here."
+msgstr "一个按钮可以在上升沿和下降沿运行不同的代码。这主要适用于相当复杂的交互，因此此处不演示。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:161
+msgid "Toggles"
+msgstr "切换"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:163
+msgid ""
+"One common use case for rising edge detectors is to control toggles. Toggles"
+" can be used to have a button for the robot to switch between states; for "
+"example, turning an intake on and off. This can be done for any number of "
+"states but is most commonly done between two. To make a toggle between two "
+"states, a rising edge detector is used to set a boolean to its opposite and "
+"then that boolean is used to control an action."
+msgstr ""
+"上升沿检测器的一个常见用例是控制切换。开关可以用来有一个按钮让机器人在状态之间切换；例如，打开和关闭吸入。这可以针对任意数量的状态进行，但最常见的是在两个状态之间进行。为了在两个状态之间进行切换，上升沿检测器用于将布尔值设置为相反的值，然后该布尔值用于控制动作。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:166
+msgid "Example"
+msgstr "例子"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:168
+msgid "Within the initialization code:"
+msgstr "在初始化代码中："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:174
+msgid "Inside of the corresponding TeleOp loop:"
+msgstr "在相应的TeleOp循环内部："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:194
+msgid ""
+"This will turn on the intake when ``a`` is pressed, and leave it on until it"
+" is pressed again."
+msgstr "这将在按下``a``时打开吸入，并保持打开状态，直到再次按下。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:196
+msgid ""
+"The less a driver has to keep in their head about the state of the robot the"
+" less they can screw up. Since toggles mean that a button does different "
+"things every time it is pressed, consider alternate solutions. This is "
+"especially true for toggles with more than two states."
+msgstr ""
+"驾驶员对机器人状态的了解越少，他们就越不可能搞砸。由于切换意味着每次按下按钮都会做不同的事情，请考虑替代解决方案。对于具有两个以上状态的切换尤其如此。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:199
+msgid "Gamepad Feedback"
+msgstr "游戏手柄反馈"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:201
+msgid ""
+"Gamepad feedback (i.e. rumble and LED control) can be a helpful way for "
+"robots to communicate status to a driver during a match. The degree to which"
+" the legal gamepads support this functionality varies:"
+msgstr "游戏手柄反馈（即震动和LED控制）是机器人在比赛中向驾驶员传达状态的有用方式。合法游戏手柄支持此功能的程度各不相同："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:207
+msgid "Rumble: none"
+msgstr "震动：没有"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:208
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:214
+msgid "LED Control: none"
+msgstr "LED控制：无"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:213
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:218
+msgid "Rumble: large (whomp whomp) and small (bzzz)"
+msgstr "震动：大（whomp whomp）和小（bzzz）"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "DualShock4 (PS4)"
+msgstr "DualShock4（PS4）"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:219
+msgid "LED Control: control of RGB lightbar (solid color or pattern)"
+msgstr "LED控制：控制RGB灯条（纯色或图案）"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "EtPark"
+msgstr "EtPark"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:223
+msgid ""
+"Rumble: contains both left and right rumble motors, but both seem to be only"
+" small weight (bzzz)"
+msgstr "震动：包含左右震动马达，但两者似乎都只有很小的重量（bzzz）"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:224
+msgid ""
+"LED Control: control of RGB LED (solid color or pattern). LED is fairly "
+"small and dim and may not be a good choice."
+msgstr "LED控制：RGBLED（纯色或图案）的控制，LED相当小且暗淡，可能不是一个好的选择。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:226
+msgid ""
+"Gamepad feedback can be used to alert drivers of: start of endgame, intake "
+"loaded, automatic aligment complete, etc."
+msgstr "游戏手柄反馈可用于提醒驾驶员：游戏结束开始、进气加载、自动结绳完成等。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:230
+msgid "Rumble"
+msgstr "震动"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:232
+msgid ""
+"The SDK provides both a simple and more complex API for controlling rumble "
+"according to the desired use case."
+msgstr "SDK提供了一个简单和更复杂的API，用于根据所需的用例控制震动。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:236
+msgid ""
+"Rumble power is specified as a floating-point value in the range [0.0, 1.0]."
+msgstr "震动功率指定为[0.0,1.0]范围内的浮点值。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:237
+msgid ""
+"Rumble duration is specified in milliseconds as an integer. The constant "
+"``Gamepad.RUMBLE_DURATION_CONTINUOUS`` may be used to indicate that the "
+"rumble should continue until another rumble action is commanded."
+msgstr ""
+"震动持续时间以毫秒为单位指定为整数。常数``Gamepad.RUMBLE_DURATION_CONTINUOUS``可用于指示震动应继续，直到命令另一个震动动作。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:239
+msgid ""
+"All rumble actions are completed asynchronously; i.e. the function calls "
+"will return immediately. Any call to a rumble API will immediately displace "
+"any currently running rumble action. That is, if you command a gamepad to "
+"rumble for 750ms and then immediately command a rumble for 250ms, the "
+"gamepad will rumble for 250ms from the time the second command was issued."
+msgstr ""
+"所有震动动作都是异步完成的；即函数调用将立即返回。任何对震动API的调用都会立即替换任何当前正在运行的震动动作。也就是说，如果您命令游戏手柄震动作响750毫秒，然后立即命令震动作响250毫秒，则游戏手柄将从发出第二个命令时起震动作响250毫秒。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:242
+msgid "Simple API"
+msgstr "简单API"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:244
+msgid ""
+"The simplest way to command rumble: rumble motor 1 at 100% power for a "
+"specified duration:"
+msgstr "命令震动的最简单方法：在指定持续时间内以100%功率震动电机1："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:250
+msgid "If control over both rumble motors and rumble intensity is desried:"
+msgstr "如果无法控制震动马达和震动强度："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:256
+msgid ""
+"To make a gamepad rumble for a certain number of \"blips\" (the notion of "
+"what a \"blip\" is being predefined by the SDK):"
+msgstr "让游戏手柄震动作响一定数量的“光点”（“光点”的概念由SDK预定义）："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:264
+msgid "Helper functions:"
+msgstr "辅助功能："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:266
+msgid ""
+"The ``public boolean isRumbling()`` function provides an educated guess "
+"about whether there is a rumble action ongoing on this gamepad. The Robot "
+"Controller does not know for sure whether a rumble action is ongoing or not,"
+" because once the command is sent to the Driver Station, the Driver Station "
+"handles running the gamepad effects and the Robot Controller is \"hands "
+"off\"."
+msgstr ""
+"这个``public boolean "
+"isRumbling()``函数提供了一个关于这个游戏手柄上是否有震动动作正在进行的有根据的猜测。机器人控制器不确定震动动作是否正在进行，因为一旦命令被发送到驱动站，驱动站就会处理运行游戏手柄效果，机器人控制器就会“放手”。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:268
+msgid ""
+"The ``public void stopRumble()`` function may be used to stop any ongoing "
+"rumble action for a gamepad (perhaps most useful in conjunction with a "
+"rumble of continuous duration)."
+msgstr ""
+"可以使用``public void stopRumble()``函数来停止任何正在进行的游戏手柄的震动动作（也许与持续时间的震动一起最有用）。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:271
+msgid "Advanced API"
+msgstr "高级API"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:273
+msgid ""
+"To create more advanced rumble behavior, a ``RumbleEffect`` may be created, "
+"which is composed of \"Steps\" which specify the power and duration each "
+"rumble motor should operate at. When a gamepad is commanded to run a "
+"``RumbleEffect``, it will perform each of the \"Steps\" in series."
+msgstr ""
+"为了创建更高级的震动行为，可以创建一个``RumbleEffect``，它由指定每个震动电机应运行的功率和持续时间的“步骤”组成。当游戏手柄被命令运行``RumbleEffect``时，它将连续执行每个“步骤”。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:275
+msgid ""
+"To create a ``RumbleEffect``, the ``RumbleEffect.Builder`` class must be "
+"used. The builder provides the ``addStep(double rumble1, double rumble2, int"
+" durationMs)`` function which is used to add a step to the sequence, and the"
+" ``build()`` function to create a ``RumbleEffect`` from the sequence of "
+"steps."
+msgstr ""
+"要创建``RumbleEffect``，必须使用RumbleEffect.Builder类。构建器提供``addStep（double rumble1,"
+" double rumble2, int "
+"durationMs）``函数用于向序列添加步骤，以及``build()``函数用于从步骤序列创建RumbleEffect。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:289
+msgid ""
+"Once a ``RumbleEffect`` has been created, it can be sent to a gamepad by "
+"calling:"
+msgstr "一旦创建了``RumbleEffect``，它可以通过调用发送到游戏手柄："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:296
+msgid "LED Control"
+msgstr "LED控制"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:300
+msgid ""
+"RGB LED component (i.e. red, green, blue) intensity is specified as a "
+"floating-point value in the range [0.0, 1.0]."
+msgstr "RGB LED分量（即红、绿、蓝）的强度被指定为[0.0,1.0]范围内的浮点值。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:301
+msgid ""
+"LED duration is specified in milliseconds as an integer. The constant "
+"``Gamepad.LED_DURATION_CONTINUOUS`` may be used to indicate that the LED "
+"should remain the specified color until another command is issued."
+msgstr ""
+"LED持续时间以毫秒为单位指定为整数。常量``Gamepad.LED_DURATION_CONTINUOUS``可用于指示LED应保持指定的颜色，直到发出另一个命令。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:304
+msgid ""
+"All LED actions are completed `asynchronously;` i.e. the function calls will"
+" return immediately. Any call to an LED API will immediately displace any "
+"currently running LED action. That is, if you command the LED green for "
+"750ms and then immediately command purple for 250ms, the LED will light "
+"purple for 250ms from the time the second command was issued."
+msgstr ""
+"所有 LED 操作都是 \"异步 \"完成的，即函数调用将立即返回。对 LED API 的任何调用都会立即取代当前运行的任何 LED "
+"操作。也就是说，如果您对 LED 发出持续 750 毫秒的绿色命令，然后立即对其发出持续 250 毫秒的紫色命令，那么从发出第二条命令开始，LED 将在"
+" 250 毫秒内点亮紫色。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:307
+msgid "To set the LED color for a fixed duration:"
+msgstr "要设置固定持续时间的LED颜色："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:313
+msgid ""
+"To create more advanced LED behavior, an ``LedEffect`` may be created, which"
+" is composed of \"Steps\" which specify a color and the duration for which "
+"to maintain it. When a gamepad is commanded to run an ``LedEffect``, it will"
+" perform each of the \"Steps\" in series."
+msgstr ""
+"要创建更高级的LED行为，可以创建一个``LedEffect``，它由指定颜色和维护颜色持续时间的“步骤”组成。当游戏手柄被命令运行``LedEffect``时，它将连续执行每个“步骤”。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:315
+msgid ""
+"To create an ``LedEffect``, the ``LedEffect.Builder`` class must be used. "
+"The builder provides the ``addStep(double r, double g, double b, int "
+"durationMs)`` function which is used to add a step to the sequence, and the "
+"``build()`` function to create an ``LedEffect`` from the sequence of steps."
+msgstr ""
+"要创建``LedEffect``，必须使用``LedEffect.Builder``类。构建器提供了``addStep(double r, double"
+" g, double b, int "
+"durationMs)``函数，用于向序列添加步骤，以及``build()``函数，用于从步骤序列创建``LedEffect``。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:317
+msgid ""
+"Using an anonymous instance of the builder class is the cleanest way to "
+"construct an ``LedEffect``, for example:"
+msgstr "使用构建器类的匿名实例是构建``LedEffect``的最干净方法，例如："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:328
+msgid ""
+"Once an ``LedEffect`` has been created, it can be sent to a gamepad by "
+"calling:"
+msgstr "一旦创建了``LedEffect``，它可以通过调用发送到游戏手柄："
