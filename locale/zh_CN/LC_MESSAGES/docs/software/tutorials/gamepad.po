@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 04:16+0000\n"
+"POT-Creation-Date: 2023-11-28 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -264,17 +264,6 @@ msgstr "一个按钮可以在上升沿和下降沿运行不同的代码。这主
 msgid "Toggles"
 msgstr "切换"
 
-#: ../../gm0/source/docs/software/tutorials/gamepad.rst:163
-msgid ""
-"One common use case for rising edge detectors is to control toggles. Toggles"
-" can be used to have a button for the robot to switch between states; for "
-"example, turning an intake on and off. This can be done for any number of "
-"states but is most commonly done between two. To make a toggle between two "
-"states, a rising edge detector is used to set a boolean to its opposite and "
-"then that boolean is used to control an action."
-msgstr ""
-"上升沿检测器的一个常见用例是控制切换。开关可以用来有一个按钮让机器人在状态之间切换；例如，打开和关闭吸入。这可以针对任意数量的状态进行，但最常见的是在两个状态之间进行。为了在两个状态之间进行切换，上升沿检测器用于将布尔值设置为相反的值，然后该布尔值用于控制动作。"
-
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:166
 msgid "Example"
 msgstr "例子"
@@ -286,12 +275,6 @@ msgstr "在初始化代码中："
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:174
 msgid "Inside of the corresponding TeleOp loop:"
 msgstr "在相应的TeleOp循环内部："
-
-#: ../../gm0/source/docs/software/tutorials/gamepad.rst:194
-msgid ""
-"This will turn on the intake when ``a`` is pressed, and leave it on until it"
-" is pressed again."
-msgstr "这将在按下``a``时打开吸入，并保持打开状态，直到再次按下。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:196
 msgid ""
@@ -350,12 +333,6 @@ msgid ""
 "LED Control: control of RGB LED (solid color or pattern). LED is fairly "
 "small and dim and may not be a good choice."
 msgstr "LED控制：RGBLED（纯色或图案）的控制，LED相当小且暗淡，可能不是一个好的选择。"
-
-#: ../../gm0/source/docs/software/tutorials/gamepad.rst:226
-msgid ""
-"Gamepad feedback can be used to alert drivers of: start of endgame, intake "
-"loaded, automatic aligment complete, etc."
-msgstr "游戏手柄反馈可用于提醒驾驶员：游戏结束开始、进气加载、自动结绳完成等。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:230
 msgid "Rumble"

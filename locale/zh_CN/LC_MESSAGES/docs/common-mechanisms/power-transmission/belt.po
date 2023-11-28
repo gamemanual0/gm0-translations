@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-24 16:17+0000\n"
+"POT-Creation-Date: 2023-11-28 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -57,25 +57,6 @@ msgstr "同步带轮上的同步带图片"
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:18
 msgid "Timing belts and a pulley"
 msgstr "同步带和同步带轮"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:20
-msgid ""
-"While a timing belt may complete a similar objective to :term:`chain "
-"<Sprocket>`, its characteristics and strengths are very different. Timing "
-"belts are lighter and more compact than chains, but they lack the "
-"customizability of their bulkier brother - belts come in a closed loop of "
-"predetermined length, and there's no changing that length on the fly."
-msgstr ""
-"虽然同步带与 :term:`chain<Sprocket>` "
-"的目标相似，但其特性和优势却截然不同。同步带比链条更轻、更紧凑，但却缺乏其大块头兄弟的可定制性--同步带是一个预先确定长度的闭环，不能随意改变长度。"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:22
-msgid ""
-"Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches"
-" found on FTC\\ |reg| robots include HTD 5mm, HTD 3mm, and GT2 3mm."
-msgstr ""
-"与链条一样，同步带也是通过 :term:`pitch<Pitch>` 来识别的 - FTC\\ |reg|机器人上常见的节距包括 HTD 5mm、HTD"
-" 3mm 和 GT2 3mm。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:24
 msgid ""

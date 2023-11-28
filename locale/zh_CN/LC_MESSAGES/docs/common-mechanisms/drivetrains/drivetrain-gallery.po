@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 16:17+0000\n"
+"POT-Creation-Date: 2023-11-28 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -24,15 +24,6 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:4
 msgid "Sample Drivetrains"
 msgstr "传动系统案例"
-
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:6
-msgid ""
-"In this section, we compile several sample drivetrains which you can use as "
-"a starting point for your own designs. You should also check the "
-":doc:`gallery of robot designs </docs/appendix/gallery>` in the Appendix."
-msgstr ""
-"在本节中，我们汇编了几个示例传动系统，您可以将其作为自己设计的起点。您还应该查看附录中的 :doc:`gallery of robot "
-"designs</docs/appendix/gallery>`。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:8
 msgid ""
@@ -65,18 +56,6 @@ msgid ""
 msgstr ""
 "`Strafer chassis with Dead Wheels "
 "<https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_"
-
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:13
-msgid ""
-"Modification of goBILDA chassis by FTC\\ |reg| 9794 Wizards.exe, which adds "
-":term:`dead wheels <Dead Wheel>`. Also see their video tutorials: "
-"https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-"
-"rquurYgWAQGhu6iC0At75vgqFJp"
-msgstr ""
-"通过 FTC\\ |reg| 9794 Wizards.exe 对 goBILDA 底盘进行修改，增加了 :term:`dead wheels<Dead"
-" "
-"Wheel>`。也可查看他们的视频教程：https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-"
-"rquurYgWAQGhu6iC0At75vgqFJp。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:15
 msgid ""
@@ -142,14 +121,3 @@ msgid ""
 msgstr ""
 "`NX VANTAGE-H "
 "<https://cad.onshape.com/documents/3d22333d5ba0abcc62edb57e/w/fa027f644666441544a378c6/e/693039a92658a00632996b28>`_"
-
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:24
-msgid ""
-"Another custom drivetrain using goBILDA mecanum wheels, by redditor "
-"/u/nateless. Note that this design can be viewed but not downloaded---this "
-"is intentional; see his `original reddit post "
-"<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_."
-msgstr ""
-"另一个使用 goBILDA 麦克纳姆轮的定制传动系统，由 redditor /u/nateless 制作。请注意，这个设计可以查看，但不能下载--"
-"这是故意的；请参阅他的 `原始 reddit "
-"帖子<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_。"
