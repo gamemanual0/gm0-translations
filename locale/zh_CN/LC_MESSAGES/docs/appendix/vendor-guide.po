@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-29 04:15+0000\n"
+"POT-Creation-Date: 2023-11-29 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -79,6 +79,14 @@ msgid ""
 ":term:`goBILDA 5202/5203 Yellow Jacket Planetary <Yellow Jacket Motor>`"
 msgstr ""
 ":term:`goBILDA 5202/5203 Yellow Jacket Planetary <Yellow Jacket Motor>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:41
+msgid "(*italicized* = customizable gearbox ratio)"
+msgstr "（ *斜体* =可定制的变速箱比例）"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:43
+msgid "Servos"
+msgstr "伺服电机"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:70
 msgid "TETRIX :term:`channel <Channel>`"

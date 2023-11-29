@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 16:17+0000\n"
+"POT-Creation-Date: 2023-11-29 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -21,6 +21,180 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:4
+msgid "Using Android Studio"
+msgstr "使用 Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:6
+msgid ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ is an "
+"integrated development environment (IDE) for Android app development based "
+"on IntelliJ. It compiles your code to an apk which is then installed onto "
+"the Robot Controller: either the Control Hub or a legal Android phone."
+msgstr ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ "
+"是一个基于智能的安卓应用开发集成开发环境（IDE）。它将您的代码编译成一个apk，然后安装到机器人控制器上：Control Hub 或合规的安卓手机。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:9
+msgid "Downloading Android Studio"
+msgstr "下载 Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:11
+msgid ""
+"If you've already downloaded Android Studio, you can move on to the next "
+"step, which is `setting up the SDK <#setting-up-the-sdk>`_."
+msgstr "如果您已经下载了Android Studio，则可以继续下一步，即设置 `设置 SDK <#setting-up-the-sdk>`_。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:13
+msgid "The steps to download and setup Android Studio are:"
+msgstr "下载和设置 Android Studio 的步骤如下："
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:15
+msgid ""
+"Check to make sure your system meets the `necessary requirements "
+"<https://developer.android.com/studio#Requirements>`_"
+msgstr "检查确保您的系统满足 `必要要求<https://developer.android.com/studio#Requirements>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:16
+msgid ""
+"Install the *latest* version of Android Studio from "
+"https://developer.android.com/studio/index.html"
+msgstr ""
+"从 https://developer.android.com/studio/index.html 安装 *最新* 版本的 Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:17
+msgid ""
+"Run the executable, follow the setup wizard, and use any and all recommended"
+" development kits"
+msgstr "运行可执行文件，按照设置向导操作，并使用推荐的所有开发工具包"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:20
+msgid "Setting up the SDK"
+msgstr "设置SDK"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:22
+msgid ""
+"Now that you have Android Studio installed, you're going to want to use the "
+"current season's SDK (software development kit) where you will create your "
+"team's code."
+msgstr "现在您已经安装了 Android Studio，您需要使用当前赛季的 SDK（软件开发工具包）来创建团队代码。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:25
+msgid "Downloading the SDK"
+msgstr "下载 SDK"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:27
+msgid ""
+"The SDK is publicly released to a GitHub repository every season. The "
+"current season's SDK can be found in the `FtcRobotController "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository."
+msgstr ""
+"SDK 每个赛季都会在 GitHub 存储库中公开发布。当前赛季的 SDK 可在 `FtcRobotController "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ 存储库中找到。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:30
+msgid "Downloading the ZIP"
+msgstr "下载 ZIP"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:32
+msgid ""
+"When you're at the repository, click the green \"code\" button. Then, select"
+" \"Download ZIP.\""
+msgstr "进入存储库后，点击绿色的 \"代码 \"按钮。然后选择 \"下载 ZIP\"。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Click the Download ZIP option"
+msgstr "点击下载 ZIP 选项"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:38
+msgid "Then, save it to the desired location in your computer."
+msgstr "然后，将其保存到电脑中想要的位置。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "The ZIP file should be called FtcRobotController-master"
+msgstr "ZIP 文件的名称应为 FtcRobotController-master"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:44
+msgid ""
+"After it is saved, extract the contents of the ZIP and place them into "
+"whatever desired location. You should see the contents of the SDK inside of "
+"the folder location."
+msgstr "保存后，解压缩 ZIP 中的内容并将其放置到所需位置。您应该能在文件夹中看到 SDK 的内容。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:47
+msgid "Using GitHub Desktop"
+msgstr "使用 GitHub Desktop"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:49
+msgid ""
+"`Install GitHub Desktop <https://docs.github.com/en/desktop/installing-and-"
+"configuring-github-desktop/installing-and-authenticating-to-github-"
+"desktop>`_"
+msgstr ""
+"`安装 GitHub Desktop<https://docs.github.com/en/desktop/installing-and-"
+"configuring-github-desktop/installing-and-authenticating-to-github-"
+"desktop>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:51
+msgid "Click the green \"code\" button, and then select \"Open with GitHub Desktop.\""
+msgstr "点击绿色的 \"代码 \"按钮，然后选择 \"用 GitHub Desktop打开\"。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:56
+msgid "Clone the project."
+msgstr "克隆项目。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Clone the repository to your resource folder"
+msgstr "将版本库克隆到资源文件夹中"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:62
+msgid "From the Command Line"
+msgstr "从命令行"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:64
+msgid "`Install git <https://github.com/git-guides/install-git>`_"
+msgstr "`安装 git<https://github.com/git-guides/install-git>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:66
+msgid ""
+"Use :code:`$ git clone https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController.git`"
+msgstr ""
+"使用 :code:`$ git clone https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController.git`"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:69
+msgid "Opening the SDK on Android Studio"
+msgstr "在 Android Studio 上打开 SDK"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:71
+msgid "Open Android Studio. If you have another project open, close it."
+msgstr "打开 Android Studio。如果打开了另一个项目，请将其关闭。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid ""
+"A screen should appear with an option to configure settings and import a "
+"project"
+msgstr "屏幕上应出现配置设置和导入项目的选项"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid ""
+"If you have no new updates, it should say that you have the latest version "
+"installed"
+msgstr "如果没有新的更新，它就会显示您已安装了最新版本"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "An in-progress Gradle build"
+msgstr "正在进行的 Gradle 构建"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:99
+msgid "Layout"
+msgstr "布局"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "Android Studio layout"
+msgstr "Android Studio 布局"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:131
 msgid ""
@@ -37,3 +211,11 @@ msgid ""
 msgstr ""
 "`无线部署代码 <https://docs.revrobotics.com/duo-control/programming/android-"
 "studio-using-wireless-adb>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:168
+msgid "Rebuilding"
+msgstr "重建"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "The build dropdown at the top of the screen"
+msgstr "屏幕顶部的 \"Build\" 下拉菜单"

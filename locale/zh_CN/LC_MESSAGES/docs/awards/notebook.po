@@ -5,18 +5,490 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 04:16+0000\n"
+"POT-Creation-Date: 2023-11-29 16:17+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/awards/notebook.rst:2
+msgid "Notebook Designs and Decisions"
+msgstr "工程笔记本设计和决策"
+
+#: ../../gm0/source/docs/awards/notebook.rst:4
+msgid ""
+"This section will cover both what needs to be in the notebook and the "
+"decisions you need to make about it affecting both individual sections and "
+"it as a whole."
+msgstr "本节将涵盖工程笔记本中需要包含的内容以及您需要做出的影响各个部分和整个工笔的决定。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:6
+msgid ""
+"The engineering notebook is completely OPTIONAL. Having a notebook is NOT a "
+"requirement for any award. However, judges can technically still ask for the"
+" notebook for more information, so some teams still choose to make one. "
+"**This article remains here for legacy reasons for teams that wish to make "
+"engineering notebooks, even though it is completely optional and not "
+"required for teams to still have a shot at awards**. There have been several"
+" instances of teams winning high level awards like Inspire and Think while "
+"having no engineering notebook."
+msgstr ""
+"工笔是完全可选的。拥有工笔不是任何奖项的要求。但是，从技术上讲，评委仍然可以要求工笔提供更多信息，因此一些团队仍然选择制作一个。本文保留在这里是出于希望制作工程笔记本的团队的遗留原因，即使它是完全可选的，并且不需要团队仍然有机会获得奖项。有几个团队在没有工程笔记本的情况下赢得了像激励和思考这样的高级别奖项。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:9
+msgid "Whole Notebook Decisions"
+msgstr "整个工笔决定"
+
+#: ../../gm0/source/docs/awards/notebook.rst:12
+msgid "Condensed vs Long"
+msgstr "精简vs详细"
+
+#: ../../gm0/source/docs/awards/notebook.rst:14
+msgid ""
+"A trap many teams fall into is that a longer notebook is a better notebook, "
+"especially if it's actually quality writing. Unfortunately, that is not "
+"necessarily true."
+msgstr "许多团队会陷入的误区是，工程笔记越长越好，尤其是如果它实际上是高质量的写作。不幸的是，这不一定是真的。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:16
+msgid ""
+"At a lot of competitions, especially with the notebook being completely "
+"optional, judges don't have a lot of time to read your notebooks. They will "
+"likely take a cursory scan at a few pages and take a more detailed look at "
+"certain pages. Thus, even if you do write a great but long notebook, they "
+"might miss the highlights and rank you lower than you should have. The "
+"solution to this is to create a condensed notebook."
+msgstr ""
+"在很多比赛中，尤其是当工程笔记完全只是可选选项时，评委没有太多时间阅读你的工笔。他们可能会粗略地浏览几页，然后更详细地查看某些其他页面。因此，即使你写了一个很棒但很长的工笔，他们也可能会错过亮点，并把你排在低于你应该有的位置。解决这个问题的方法是创建一个精简的工笔。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:18
+msgid ""
+"This is where you make a purposeful effort to get rid of redundancies and "
+"make sure everything written in the notebook serves the purpose of being "
+"read and getting things checked off of awards."
+msgstr "这是你有目的地努力摆脱冗余的地方，并确保工笔上写的所有东西都符合被阅读和被检查的目的。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:20
+msgid ""
+"So if you know your state competitions are going to be more than a couple of"
+" days, write a long, detailed filled notebook. But if it is only a day long,"
+" write with every section having a purpose."
+msgstr "因此，如果你知道你的州比赛将超过几天，写一个长长的、详细的工笔。但是如果只有一天，请有目的性地写每个部分。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:23
+msgid "Handwritten vs Typed"
+msgstr "手写vs打字"
+
+#: ../../gm0/source/docs/awards/notebook.rst:25
+msgid ""
+"This one is a team decision. Some teams swear judges prefer handwritten "
+"notebooks, but there is no proof for that. But if you're a small team or you"
+" would prefer to write, do that. Be sure that the handwriting is consistent "
+"and legible! Typed notebooks are a lot easier to organize, and judges will "
+"definitely be able to read them."
+msgstr ""
+"这是一个团队的决定。一些团队坚信评委更喜欢手写工笔，但没有证据证明这一点。但是如果你是一个小团队或者你更喜欢写作，那就这样做。确保笔迹一致且清晰！打印工笔更容易组织，评委肯定能够阅读它们。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:28
+msgid "Serious vs Charming"
+msgstr "严肃vs魅力"
+
+#: ../../gm0/source/docs/awards/notebook.rst:30
+msgid ""
+"A team's notebook is an extension of its personality and branding. Some "
+"teams try to come across as an engineering firm or at least very serious, "
+"while others act the opposite."
+msgstr "团队的工笔是其个性和品牌的延伸。一些团队试图给人以工程公司或至少非常严肃的印象，而另一些团队则相反。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:32
+msgid ""
+"You should try and reflect that in your notebook. Neither way is better, but"
+" it's good early on to figure out your team's way of acting and writing in a"
+" manner that fits it."
+msgstr "你应该试着在你的工笔上反映这一点。两种方式都不好，但是尽早找出你的团队以适合它的方式行事和写作是件好事。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:34
+msgid ""
+"Generally, humor is acceptable, but try to keep jokes down to a minimum "
+"(after all, the engineering notebook is meant to be a professional-grade "
+"document)."
+msgstr "一般来说，幽默是可以接受的，但是尽量把笑话控制在最低限度（毕竟，工笔是专业级的文件）。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:38
+msgid ""
+"Having a consistent team brand is important so judges remember you. A large "
+"amount of winning awards is being remembered and advocated for by the "
+"judges."
+msgstr "拥有一个一致的团队品牌很重要，这样评委才能记住你。大量的获奖奖项被评委记住和倡导。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:40
+msgid ""
+"Therefore, having consistent branding helps judges know what team they are "
+"talking to and what they know about you."
+msgstr "因此，拥有一致的品牌有助于评委了解他们在与哪个团队交谈，以及他们对你的了解。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:43
+msgid "Individual sections"
+msgstr "个别部分"
+
+#: ../../gm0/source/docs/awards/notebook.rst:45
+msgid ""
+"Section 9.2.2 of |gm1| lists out the type of things that are expected to see"
+" in your notebook."
+msgstr "游戏手册第1部分的第9.2.2节列出了预期在工笔中看到的内容类型。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:47
+msgid "They are listed here:"
+msgstr "它们列在这里："
+
+#: ../../gm0/source/docs/awards/notebook.rst:49
+msgid "Problem Definition"
+msgstr "问题定义"
+
+#: ../../gm0/source/docs/awards/notebook.rst:50
+msgid "Information Gathering"
+msgstr "信息收集"
+
+#: ../../gm0/source/docs/awards/notebook.rst:51
+msgid "Brainstorming Solutions"
+msgstr "头脑风暴解决方案"
+
+#: ../../gm0/source/docs/awards/notebook.rst:52
+msgid "Concept Design"
+msgstr "概念设计"
+
+#: ../../gm0/source/docs/awards/notebook.rst:53
+msgid "System Level Design"
+msgstr "系统级设计"
+
+#: ../../gm0/source/docs/awards/notebook.rst:54
+msgid "Testing"
+msgstr "测试"
+
+#: ../../gm0/source/docs/awards/notebook.rst:55
+msgid "Design Improvement"
+msgstr "设计改进"
+
+#: ../../gm0/source/docs/awards/notebook.rst:56
+msgid "Production"
+msgstr "生产"
+
+#: ../../gm0/source/docs/awards/notebook.rst:57
+msgid "Promotion"
+msgstr "晋升"
+
+#: ../../gm0/source/docs/awards/notebook.rst:58
+msgid "Budgeting"
+msgstr "预算编制"
+
+#: ../../gm0/source/docs/awards/notebook.rst:59
+msgid "Planning"
+msgstr "规划"
+
+#: ../../gm0/source/docs/awards/notebook.rst:60
+msgid "Outreach"
+msgstr "外联"
+
+#: ../../gm0/source/docs/awards/notebook.rst:62
+msgid ""
+"Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines"
+" are not plentiful. They include a team plan, which is pretty much all non-"
+"robot writing---a sustainability plan, a strategic plan, and a business plan"
+" all fall into it, and doing one of these sections is required for Inspire "
+"award, and telling us what they want in the notebook (listed above). It "
+"falls to the individual notebook writers to figure out what they "
+"specifically want to call each section and what to put in each section."
+msgstr ""
+"《游戏手册》第1部分、《评委手册》和《工笔指南》中提到的具体部分并不多。它们包括一个团队计划，几乎都是非机器人写作——可持续发展计划、战略计划和商业计划都属于其中，激励奖需要做其中一个部分，并告诉我们他们想要在工笔中写什么（上面列出）。这取决于个人工笔作者来弄清楚他们特别想给每个部分起什么名字，以及在每个部分中写什么。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:65
+msgid "Daily Logs and Other Ways of Documenting"
+msgstr "日志和其他记录方式"
+
+#: ../../gm0/source/docs/awards/notebook.rst:67
+msgid ""
+"This might be the most common way of documenting in notebooks. Even teams "
+"that are so-so about attempting to write a notebook have a couple months "
+"worth of logs because overall they are not that hard to do."
+msgstr "这可能是在工笔中记录的最常见方式。即使是那些试图写工笔的团队也有几个月的日志，因为总的来说它们并不难做到。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:69
+msgid ""
+"Each team approaches it differently, but a standard approach is as follows."
+msgstr "每个团队的做法各不相同，但标准做法如下。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:71
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Date"
+msgstr "日期"
+
+#: ../../gm0/source/docs/awards/notebook.rst:73
+msgid "Members of Team Present"
+msgstr "出席会议的小组成员"
+
+#: ../../gm0/source/docs/awards/notebook.rst:76
+msgid "Tasks & Pictures"
+msgstr "任务和图片"
+
+#: ../../gm0/source/docs/awards/notebook.rst:76
+msgid "More Information, if the Task Was Completed"
+msgstr "更多信息，如果任务已完成"
+
+#: ../../gm0/source/docs/awards/notebook.rst:78
+msgid "Lorem ipsum"
+msgstr "Lorem ipsum"
+
+#: ../../gm0/source/docs/awards/notebook.rst:78
+msgid "Dolor sit amet, consectetur adipiscing elit"
+msgstr "Dolor sit amet, consectetur adipiscing elit"
+
+#: ../../gm0/source/docs/awards/notebook.rst:80
+msgid "Sed do eiusmod"
+msgstr "Sed do eiusmod"
+
+#: ../../gm0/source/docs/awards/notebook.rst:80
+msgid "Tempor incididunt ut labore"
+msgstr "Tempor incididunt ut labore"
+
+#: ../../gm0/source/docs/awards/notebook.rst:82
+msgid "Et dolore magna"
+msgstr "Et dolore magna"
+
+#: ../../gm0/source/docs/awards/notebook.rst:82
+msgid "Aliqua ut enim ad minim veniam"
+msgstr "Aliqua ut enim ad minim veniam"
+
+#: ../../gm0/source/docs/awards/notebook.rst:85
+msgid ""
+"There are other methods such as weekly, pure goals, or other engineering "
+"based methods such as agile (if you pursue the latter you can use those hard"
+" won mentors you have gotten). Weekly or bi-weekly is the same as above, but"
+" the date becomes a range and you talk about what happened over that period "
+"of time. This is better for a team that has only a couple of people doing "
+"the logs because overall logs get more and more tedious."
+msgstr ""
+"还有其他方法，例如每周，纯目标，或其他基于工程的方法，例如敏捷（如果你追求后者，你可以使用那些来之不易的导师）。每周或双周与上述相同，但日期成为一个范围，你谈论这段时间发生的事情。这对于只有几个人做日志的团队来说更好，因为整体日志变得越来越乏味。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:87
+msgid "Pure goals is simply as follows."
+msgstr "纯目标简单如下"
+
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Goal and Goal Date"
+msgstr "目标和目标日期"
+
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Was the Goal Completed in Time?"
+msgstr "目标是否及时完成？"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Quis"
+msgstr "Quis"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Nostrud"
+msgstr "Nostrud"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Exercitation ullamco"
+msgstr "Exercitation ullamco"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Nisi"
+msgstr "Nisi"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Ut aliquip ex ea"
+msgstr "Ut aliquip ex ea"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Commodo consequat"
+msgstr "Commodo consequat"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "Duis"
+msgstr "Duis"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "Aute irure dolor"
+msgstr "Aute irure dolor"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "In reprehenderit in voluptate"
+msgstr "In reprehenderit in voluptate"
+
+#: ../../gm0/source/docs/awards/notebook.rst:100
+msgid "Building Section and Documenting the Robot"
+msgstr "构建部分和记录机器人"
+
+#: ../../gm0/source/docs/awards/notebook.rst:102
+msgid ""
+"You have spent a bunch of time reading the rest of this manual to learn "
+"about the robot and how to build it. The building section is about how your "
+"robot fulfills the challenge, and what the driving factors were in building "
+"your robot."
+msgstr "您已经花了很多时间阅读本手册的其余部分以了解机器人以及如何构建它。构建部分是关于您的机器人如何完成挑战，以及构建机器人的驱动因素是什么。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:104
+msgid ""
+"Information about parts and materials, as well as pictures of every "
+"mechanism (plus captions) will help the judges piece together how the robot "
+"works mechanically. Explanations of the components will illustrate the "
+"thought processes behind the design."
+msgstr "关于零件和材料的信息，以及每个机构的图片（加上标题）将帮助评委拼凑出机器人是如何机械工作的。组件的解释将说明设计背后的思维过程。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:106
+msgid ""
+"Ample graphics (CAD screenshots/renders, pictures, etc.) will help judges "
+"understand how it works and why it is useful. **However, make sure that each"
+" graphic has a caption or explanation. Do not expect judges to understand "
+"how your robot works through pictures only.**"
+msgstr ""
+"充足的图形（CADscreenshots/renders,图片等）将帮助评委理解它是如何工作的，以及它为什么有用。但是，请确保每个图形都有标题或解释。不要指望评委只通过图片来了解你的机器人是如何工作的。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:108
+msgid ""
+"As with most documentation, using actual CAD screenshots or real world "
+"photos is generally better then high quality renders. While renders are "
+"interesting from a technological and aesthetic perspective, they usually "
+"take more time and effort and also don't convey your engineering process as "
+"well. CAD screenshots tend to make the document more like an actual "
+"engineering process documentation and can look much more professional, even "
+"if they aren't as aesthetically pleasing."
+msgstr ""
+"与大多数留档一样，使用实际的计算机辅助设计屏幕截图或真实世界的照片通常比高质量的渲染要好。虽然从技术和美学的角度来看，渲染很有趣，但它们通常需要更多的时间和精力，也不能传达您的工程过程。计算机辅助设计屏幕截图往往使文档更像实际的工程过程留档，看起来更专业，即使它们在美学上不那么令人愉悦。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:110
+msgid ""
+"Additionally, use math in these explanations to target the Think award."
+msgstr "此外，在这些解释中使用数学来瞄准思考奖。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:112
+msgid ""
+"The second part is much more documentation and writing heavy, but in some "
+"ways it is easier. As you are building a robot, you will not get your final "
+"bot in the first attempt."
+msgstr "第二部分更留档，写得更重，但在某些方面更容易。当你正在构建一个机器人时，你不会在第一次尝试中得到你的最终机器人。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:114
+msgid ""
+"Think about telling a story of how your team progressed from brainstorm and "
+"idea conception to prototyping and final design. The judges *love* to follow"
+" a logical sequence of steps as it shows how the team thought through "
+"mistakes and improved upon successes."
+msgstr ""
+"考虑讲述一个你的团队如何从头脑风暴和想法构思到原型设计和最终设计的故事。评委们喜欢遵循逻辑顺序的步骤，因为它展示了团队是如何克服错误并在成功的基础上改进的。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:116
+msgid ""
+"Each time you iterate upon a part of your robot or move a step further in "
+"the engineering design process, document it. Important questions to ask "
+"while writing this section are below."
+msgstr "每次您迭代机器人的一部分或在工程设计过程中更进一步时，请将其记录下来。编写本节时要问的重要问题如下。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:118
+msgid "What prompted this change/why was this change made?"
+msgstr "是什么促使了这一变化/为什么做出这一变化？"
+
+#: ../../gm0/source/docs/awards/notebook.rst:119
+msgid "What was the change?"
+msgstr "变化是什么？"
+
+#: ../../gm0/source/docs/awards/notebook.rst:120
+msgid "How was the modification enacted?"
+msgstr "修改是如何实施的？"
+
+#: ../../gm0/source/docs/awards/notebook.rst:121
+msgid "What were the results (good and bad)?"
+msgstr "结果是什么（好的和坏的）？"
+
+#: ../../gm0/source/docs/awards/notebook.rst:122
+msgid "How can this design be further improved?"
+msgstr "如何进一步改进这种设计？"
+
+#: ../../gm0/source/docs/awards/notebook.rst:124
+msgid ""
+"This also includes your first unrealized ideas that your team talked about "
+"right when the team came together after the season was released."
+msgstr "这也包括你的团队在赛季发布后团队聚在一起时谈论的第一个未实现的想法。"
+
+#: ../../gm0/source/docs/awards/notebook.rst:127
+msgid "Notebook Gallery"
+msgstr "工笔图库"
+
+#: ../../gm0/source/docs/awards/notebook.rst:129
+msgid "Relic Recovery"
+msgstr "Relic Recovery"
+
+#: ../../gm0/source/docs/awards/notebook.rst:131
+msgid ""
+"`4042 <https://drive.google.com/file/d/10TQJd4ioArq-"
+"asmswHneY9S-_okcr5vq/view>`_"
+msgstr ""
+"`4042 <https://drive.google.com/file/d/10TQJd4ioArq-"
+"asmswHneY9S-_okcr5vq/view>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:132
+msgid "Rover Ruckus"
+msgstr "Rover Ruckus"
+
+#: ../../gm0/source/docs/awards/notebook.rst:134
+msgid ""
+"`9794 "
+"<https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_"
+msgstr ""
+"`9794 "
+"<https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:135
+msgid ""
+"`14270 <https://qrobotics.blob.core.windows.net/2018/engineering.pdf>`_"
+msgstr ""
+"`14270 <https://qrobotics.blob.core.windows.net/2018/engineering.pdf>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:136
+msgid "Skystone"
+msgstr "Skystone"
+
+#: ../../gm0/source/docs/awards/notebook.rst:138
+msgid ""
+"`11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-"
+"Gwenh02U-9a>`_"
+msgstr ""
+"`11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-"
+"Gwenh02U-9a>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:139
+msgid ""
+"`8813 Design Notebook "
+"<https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_"
+msgstr ""
+"`8813 Design Notebook "
+"<https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:140
+msgid ""
+"`9656 Technical Binder "
+"<https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_"
+msgstr ""
+"`9656 Technical Binder "
+"<https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:141
+msgid ""
+"`9656 Non-Technical Binder "
+"<https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_"
+msgstr ""
+"`9656 Non-Technical Binder "
+"<https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_"
