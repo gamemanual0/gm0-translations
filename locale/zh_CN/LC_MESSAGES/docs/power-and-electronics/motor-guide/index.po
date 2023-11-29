@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 04:16+0000\n"
+"POT-Creation-Date: 2023-11-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -24,3 +24,9 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/index.rst:4
 msgid "Motor Guide"
 msgstr "电机指南"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/index.rst:6
+msgid ""
+"12 volt DC motors are main drivers of FTC\\ |reg| robots. They are used for "
+"powering the drivetrain, intakes, lifts, and other mechanisms."
+msgstr "12 伏直流电机是 FTC\\ |reg| 机器人的主要驱动装置。它们用于为传动系统、吸入拾取装置、抬升装置和其他机构提供动力。"

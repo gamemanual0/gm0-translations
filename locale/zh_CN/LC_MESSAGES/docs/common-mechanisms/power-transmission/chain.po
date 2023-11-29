@@ -5,18 +5,26 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 16:18+0000\n"
+"POT-Creation-Date: 2023-11-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:82
+msgid ""
+"**The smaller the sprocket, the faster the chain stretch**. This is because "
+"when the chain is run on a smaller sprocket, more force is applied due to a "
+"smaller radius."
+msgstr "链轮越小，链条拉伸越快。这是因为当链条在较小的链轮上运行时，由于半径较小，会产生更大的力。"

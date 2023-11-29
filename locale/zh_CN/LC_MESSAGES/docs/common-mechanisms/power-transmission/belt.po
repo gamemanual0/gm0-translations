@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 04:16+0000\n"
+"POT-Creation-Date: 2023-11-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -34,7 +34,7 @@ msgid ""
 "insides of a car before, you probably recognize timing belts as an important"
 " component designed to keep everything under the hood in sync."
 msgstr ""
-"提到皮带，您可能会想到一种非常重要的男士时尚配饰。然而，还有一种皮带与机器人技术更为相关--"
+"提到皮带，你可能会想到一种非常重要的男士时尚配饰。然而，还有一种皮带与机器人技术更为相关--"
 "同步带。如果你以前修补过汽车内部，你可能会认识到同步带是一个重要的部件，它的作用是使引擎盖下的所有部件保持同步。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:8
@@ -58,6 +58,25 @@ msgstr "同步带轮上的同步带图片"
 msgid "Timing belts and a pulley"
 msgstr "同步带和同步带轮"
 
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:20
+msgid ""
+"While a timing belt may complete a similar objective to :term:`chain "
+"<Sprocket>`, its characteristics and strengths are very different. Timing "
+"belts are lighter and more compact than chains, but they lack the "
+"customizability of their bulkier brother - belts come in a closed loop of "
+"predetermined length, and there's no changing that length on the fly."
+msgstr ""
+"虽然同步带与 :term:`chain <Sprocket>` "
+"的目标相似，但其特性和优势却截然不同。同步带比链条更轻、更紧凑，但却缺乏其大块头兄弟的可定制性--同步带是一个预先确定长度的闭环，不能随意改变长度。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:22
+msgid ""
+"Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches"
+" found on FTC\\ |reg| robots include HTD 5mm, HTD 3mm, and GT2 3mm."
+msgstr ""
+"与链条一样，同步带也是通过 :term:`pitch <Pitch>` 来识别的 - FTC\\ |reg| 机器人上常见的节距包括 HTD "
+"5mm、HTD 3mm 和 GT2 3mm。"
+
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:24
 msgid ""
 "When using timing belts, correct tension is very important. There are two "
@@ -72,9 +91,9 @@ msgid ""
 "more complex belt runs in CAD before building them in real life."
 msgstr ""
 "使用同步带时，正确的张力非常重要。有2种主要方法可以使张力正确。第一种方法很简单，goBILDA 和 Actobotics "
-"的孔型中已经集成了同步带。您可以直接从每家供应商处购买尺寸正确的同步带，安装好同步带后，张力就会达到完美状态。随着设计的复杂性增加，您的同步带运行也会越来越复杂"
+"的孔型中已经集成了同步带。你可以直接从每家供应商处购买尺寸正确的同步带，安装好同步带后，张力就会达到完美状态。随着设计的复杂性增加，你的同步带运行也会越来越复杂"
 "--"
-"可能有两个以上的同步带轮，可能您的同步带轮尺寸各不相同。为了弥补这一不足，确保张力的第二种方法是使用动态张紧器，类似于复杂链条运行中的张紧器。为了设计这些张紧器，我们建议在实际制造之前先在"
+"可能有两个以上的同步带轮，可能你的同步带轮尺寸各不相同。为了弥补这一不足，确保张力的第二种方法是使用动态张紧器，类似于复杂链条运行中的张紧器。为了设计这些张紧器，我们建议在实际制造之前先在"
 " CAD 中规划更复杂的皮带运行。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:28
@@ -98,7 +117,7 @@ msgid ""
 "This calculator will suggest belt lengths even if they are difficult to get "
 "from vendors. Make sure the C2C distance you design around is for a belt "
 "length that you can purchase."
-msgstr "即使很难从供应商处购买到同步带长度，本计算器也会给出建议。请确保您设计的 C2C 距离是您可以购买到的同步带长度。"
+msgstr "即使很难从供应商处购买到同步带长度，本计算器也会给出建议。请确保你设计的 C2C 距离是你可以购买到的同步带长度。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:46
 msgid ""
@@ -164,7 +183,7 @@ msgstr "优势"
 msgid ""
 "**Pulleys can be made at home**. Pulleys can be 3D printed for most "
 "situations, allowing you to cut costs and create unique tooth counts easily."
-msgstr "**同步带轮可在家中制作**。同步带轮可通过3D打印技术制作，适用于大多数情况，让您可以降低成本，轻松创建独特的齿数。"
+msgstr "**同步带轮可在家中制作**。同步带轮可通过3D打印技术制作，适用于大多数情况，让你可以降低成本，轻松创建独特的齿数。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:70
 msgid ""
@@ -203,7 +222,7 @@ msgid ""
 "if you're planning out your robot properly, but chain will work better for "
 "prototypes where the chain length will be changing often."
 msgstr ""
-"**同步带不能自由修改长度**。你买了一条特定长度的同步带，就只能用这个长度，直到你再买一条。如果您对机器人进行了合理规划，这并不算太糟糕，但对于链条长度会经常变化的原型机来说，链条的效果会更好。"
+"**同步带不能自由修改长度**。你买了一条特定长度的同步带，就只能用这个长度，直到你再买一条。如果你对机器人进行了合理规划，这并不算太糟糕，但对于链条长度会经常变化的原型机来说，链条的效果会更好。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:78
 msgid ""
@@ -218,8 +237,8 @@ msgid ""
 "can buy chain 10 feet at a time, you'll most likely be buying each belt "
 "brand new. While this can get expensive, you'll be saving money on pulleys."
 msgstr ""
-"**同步带可能很贵（但使用同步带轮可以省钱）**。虽然您可以一次购买 10 "
-"英尺长的链条，但您很可能需要购买全新的皮带。虽然这可能会很贵，但您可以在同步带上省钱。"
+"**同步带可能很贵（但使用同步带轮可以省钱）**。虽然你可以一次购买 10 "
+"英尺长的链条，但你很可能需要购买全新的皮带。虽然这可能会很贵，但你可以在同步带上省钱。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:84
 msgid "Properly done belt wrap with tensioners"
@@ -250,7 +269,7 @@ msgid ""
 "pitch), and width is the width of the belt. From there, its a matter of "
 "searching the vendor's page for the right belt."
 msgstr ""
-"一旦您知道自己需要什么节距和长度的同步带，购买同步带时就需要浏览供应商的网站。几乎所有 COTS "
+"一旦你知道自己需要什么节距和长度的同步带，购买同步带时就需要浏览供应商的网站。几乎所有 COTS "
 "同步带供应商都会用3个值来识别同步带：节距、节距长度和宽度。节距是同步带的间距，节距长度是皮带的长度（同步带齿数乘以间距），宽度是同步带的宽度。然后，就可以在供应商的页面上搜索合适的皮带了。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/belt.rst:97

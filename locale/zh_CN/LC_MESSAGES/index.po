@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 04:16+0000\n"
+"POT-Creation-Date: 2023-11-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-15 03:16+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -45,7 +45,7 @@ msgid ""
 "Are you a rookie team? Are you new to FTC\\ |reg|? Are you just looking for "
 "a refresher? Check out this section for a curated list of the most pertinent"
 " pages!"
-msgstr "您是新秀团队吗？您是 FTC\\ |reg| 的新手吗？您只是想复习一下？请查看本部分最相关页面的精选列表！"
+msgstr "你是新秀团队吗？你是 FTC\\ |reg| 的新手吗？你只是想复习一下？请查看本部分最相关页面的精选列表！"
 
 #: ../../gm0/source/index.rst:28
 msgid "Being a Team"
@@ -69,13 +69,42 @@ msgstr "涵盖通用设计技能，包括工程设计过程、设计策略和CAD
 msgid "Hardware Components"
 msgstr "硬件组件"
 
+#: ../../gm0/source/index.rst:46
+msgid ""
+"Compares the kit options, has a list of useful tools, and some general "
+"advice."
+msgstr "比较套件选项，列出有用的工具和一些常规建议。"
+
 #: ../../gm0/source/index.rst:53
 msgid "Common Mechanisms"
 msgstr "常见机械结构"
 
+#: ../../gm0/source/index.rst:55
+msgid ""
+"Contains descriptions, advantages/disadvantages, and examples of common "
+"mechanisms, including: drivetrains, arms, linear motion, intakes, and dead "
+"wheels. Also covers some specific common design tradeoff recommendations and"
+" power transmission."
+msgstr ""
+"包含常见机构的描述、优/缺点,和示例，包括：传动系统、机械臂、直线运动导轨、吸入拾取结构和惰轮。还涵盖了一些特定的常见设计权衡建议和动力传动。"
+
+#: ../../gm0/source/index.rst:61
+msgid "Custom Manufacturing"
+msgstr "定制制造"
+
+#: ../../gm0/source/index.rst:63
+msgid ""
+"Covers which materials are appropriate to use when and specifics to 3D "
+"printing and machining."
+msgstr "涵盖哪些材料适合在何时使用以及3D打印和机械加工的细节。"
+
 #: ../../gm0/source/index.rst:69
 msgid "Electronics and Motion Components"
 msgstr "电子和运动元件"
+
+#: ../../gm0/source/index.rst:71
+msgid "Covers wiring, the control system, motors, servos, and sensors."
+msgstr "涵盖布线、控制系统、电机、伺服系统和传感器。"
 
 #: ../../gm0/source/index.rst:77
 msgid "Software"
@@ -88,6 +117,12 @@ msgstr "涵盖一系列软件主题。"
 #: ../../gm0/source/index.rst:85
 msgid "Useful Resources"
 msgstr "有用资源"
+
+#: ../../gm0/source/index.rst:87
+msgid ""
+"A list of useful resources and accompanying descriptions, with especially "
+"pertinent ones marked."
+msgstr "有用资源的列表和随附的描述，并标记出特别相关的内容。"
 
 #: ../../gm0/source/index.rst:93
 msgid "Know Your Lingo"

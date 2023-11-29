@@ -5,15 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 16:17+0000\n"
+"POT-Creation-Date: 2023-11-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +42,7 @@ msgid ""
 "are doing. They can be damaged in the process, especially if one does not "
 "know how to properly reassemble it. THIS WILL VOID YOUR WARRANTY!"
 msgstr ""
-"除非你真的知道你在做什么，否则不要拆开控制或扩展集线器。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。这将使您的保修无效！"
+"除非你真的知道你在做什么，否则不要拆开控制或扩展集线器。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。这将使你的保修无效！"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
 msgid "Lynx Board"
@@ -139,7 +140,7 @@ msgid ""
 "5V compliant, you can use a level shifter to supply 5v to the sensor, but "
 "take care the analog line bypasses the level shifter. The VIN and GND lines "
 "must pass through the level shifter for it to work however."
-msgstr "5V兼容，您可以使用电平转换器向传感器供电5v，但要注意模拟线绕过电平转换器。然而，VIN和GND线必须通过电平转换器才能工作。"
+msgstr "5V兼容，你可以使用电平转换器向传感器供电5v，但要注意模拟线绕过电平转换器。然而，VIN和GND线必须通过电平转换器才能工作。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:49
 msgid "Six Servo Ports"
