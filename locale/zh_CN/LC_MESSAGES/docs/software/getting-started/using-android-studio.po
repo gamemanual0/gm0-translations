@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-29 16:17+0000\n"
+"POT-Creation-Date: 2023-11-30 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -185,6 +185,10 @@ msgid ""
 msgstr "如果没有新的更新，它就会显示您已安装了最新版本"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "Change to project view"
+msgstr "更改为项目视图"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
 msgid "An in-progress Gradle build"
 msgstr "正在进行的 Gradle 构建"
 
@@ -196,6 +200,10 @@ msgstr "布局"
 msgid "Android Studio layout"
 msgstr "Android Studio 布局"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+msgid "New > Java Class"
+msgstr "New > Java Class"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:131
 msgid ""
 "Some useful information on using the logcat can be found `here "
@@ -203,6 +211,14 @@ msgid ""
 msgstr ""
 "有关使用logcat的一些有用信息可以在`这里 <https://developer.android.com/studio/debug/am-"
 "logcat>`_找到。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:149
+msgid ""
+":code:`adb shell am start -n "
+"com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`"
+msgstr ""
+":code:`adb shell am start -n "
+"com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:156
 msgid ""
@@ -212,6 +228,18 @@ msgstr ""
 "`无线部署代码 <https://docs.revrobotics.com/duo-control/programming/android-"
 "studio-using-wireless-adb>`_"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:158
+msgid ""
+"If you're still stuck you can ask for help in the `FTC\\ |reg| Discord "
+"<https://discord.com/invite/first-tech-challenge>`_."
+msgstr ""
+"如果你仍然卡住了，可以在 `FTC\\ |reg| Discord <https://discord.com/invite/first-tech-"
+"challenge>`_寻求帮助。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:161
+msgid "Gradle"
+msgstr "Gradle"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:168
 msgid "Rebuilding"
 msgstr "重建"
@@ -219,3 +247,11 @@ msgstr "重建"
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
 msgid "The build dropdown at the top of the screen"
 msgstr "屏幕顶部的 \"Build\" 下拉菜单"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:217
+msgid "Finally, perform a Gradle sync."
+msgstr "最后，执行Gradle同步。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:220
+msgid "Upgrading to Java 8"
+msgstr "升级到Java8"

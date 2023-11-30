@@ -3,16 +3,205 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Shawphy, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-11-30 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:2
+msgid "Finite State Machines"
+msgstr "有限状态机"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:4
+msgid ""
+"Finite State Machines (FSM) are often used while programming in order to "
+"allow for more complex series of actions. This is especially useful when one"
+" needs multiple tasks to run at the same time, because it allows for tasks "
+"to depend on each other's execution in a non-linear fashion."
+msgstr ""
+"有限状态机（FSM）通常用于编程，以实现更复杂的一系列操作。当需要多个任务同时运行时，这一点尤其有用，因为它允许任务以非线性方式相互依赖执行。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:7
+msgid "What is a Finite State Machine?"
+msgstr "什么是有限状态机？"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:9
+msgid ""
+"The name of a finite state machine is very descriptive; it's a state "
+"machine, with a finite number of states. It can be in one state at a time, "
+"and can transition to a different state once something happens. For example,"
+" see the example of a finite state machine that's on `Wikipedia "
+"<https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-"
+"operated_turnstile>`__ because a turnstile is a great example, and it is "
+"explained very well."
+msgstr ""
+"有限状态机的名称非常具有描述性；它是一种状态机，具有有限个状态。它可以同时处于一种状态，一旦有事情发生，就可以过渡到另一种状态。例如，请参阅 `维基百科"
+" <https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-"
+"operated_turnstile>`__ 上的有限状态机旋转门的示例。因为旋转门就是一个很好的例子，而且解释得非常清楚。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:12
+msgid "Implementation"
+msgstr "具体实现"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:15
+msgid "Naive Implementation"
+msgstr "简单实现"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:17
+msgid ""
+"When first learning about FSMs, it is quite common for programmers to try "
+"and use them. Often times, they try to apply an FSM to their autonomous "
+"programs by segmenting their autonomous into a giant ``switch`` statement, "
+"and it often looks something like this:"
+msgstr ""
+"初学 FSM 时，程序员尝试使用 FSM 的情况很常见。很多时候，他们试图将 FSM 应用到自主程序中，将自主程序分割成一个巨大的 ``switch``"
+" 语句，通常看起来是这样的："
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:56
+msgid ""
+"This however does not really have any benefits compared to if the programmer"
+" had simply put each of the code's segments into functions, and executed "
+"them in order. In fact, often times, programmers will structure their code "
+"like this instead of splitting their code up into functions. The result is "
+"an autonomous that's more difficult to debug, and ultimately harder to fix "
+"on the fly during a competition or other time crunch."
+msgstr ""
+"然而，与程序员简单地将每段代码放入函数并按顺序执行相比，这样做并没有任何好处。事实上，很多时候，程序员都会这样编排代码，而不是将代码分割成函数。这样做的结果是，自动阶段代码更难调试，最终也更难在比赛或其他时间紧迫的情况下临时修复。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:58
+msgid ""
+"If one drew out the state transition diagram for each of the states, for the"
+" autonomus above it'd be very linear, and the state transitions always occur"
+" because the section of the code finished:"
+msgstr "如果画出每种状态的状态转换图，对于上面的自动程序来说，它将是非常线性的，而且状态转换总是因为该段代码完成而发生："
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:81
+msgid ""
+"In fact, in many implementations, making state transitions for any other "
+"reason is often difficult because the code executes linearly and is only in "
+"a loop to rerun the switch statements. (Often times, this means the code has"
+" a hard time reacting to a stop request in the middle of autonomous.)"
+msgstr ""
+"事实上，在许多实现中，由于代码是线性执行的，只需在循环中重新运行 switch "
+"语句，因此出于任何其他原因进行状态转换通常都很困难。(很多时候，这意味着代码很难对自动运行中的停止请求做出反应）。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:83
+msgid ""
+"It is unadvisable to write code like this. If your autonomous is "
+"synchronous, it is preferable to split your code up into functions and run "
+"them in order, as this will be easier to understand and edit on the fly."
+msgstr "这样写代码是不可取的。如果您的自动运行程序是同步的，最好将代码分割成多个函数并按顺序运行，因为这样更易于理解和即时编辑。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:86
+msgid "Useful Implementation"
+msgstr "有用的实现"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:88
+msgid ""
+"FSMs are the right tool to use when a robot needs to complete multiple tasks"
+" at once; a common example of this is when a robot should have automation in"
+" teleop, but still have control over the drivetrain."
+msgstr "当机器人需要同时完成多项任务时，FSM 就是最合适的工具；一个常见的例子是，机器人需要在远程操作中实现自动化，但仍能控制传动系统。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:90
+msgid ""
+"Often times, teams have issues because their teleop executes in a loop and "
+"their servo logic has sleeps in it. But, we can avoid this if we write code "
+"in an **asynchronous** fashion - where instead of waiting for a task to "
+"complete before doing the next one, tasks are performed at the same time, "
+"and each task's state is checked without stopping the other tasks from "
+"executing."
+msgstr ""
+"很多时候，团队会遇到一些问题，因为他们的远程操作是在循环中执行的，而且他们的伺服电机逻辑中存在 sleep 函数。但是，如果我们以**异步** "
+"的方式编写代码，就可以避免这种情况的发生--"
+"在这种方式下，任务不是等一个任务完成后再执行下一个任务，而是同时执行，并且在不停止其他任务执行的情况下检查每个任务的状态。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:92
+msgid ""
+"An example of this would be that if one had a robot similar to `Gluten "
+"Free's Rover Ruckus Robot <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__, "
+"and one wanted to automate the scoring lift so that the drivers don't have "
+"to think while the bot deposits the minerals. There are two parts of the bot"
+" that are relevant to us in this exercise: the angled scoring lift, and the "
+"servo that tips the dumper so the minerals fall out. The goal is to be able "
+"to push a button, and then the bot will:"
+msgstr ""
+"举个例子，如果我们有一个类似于 `Gluten Free's Rover Ruckus "
+"Robot<https://www.youtube.com/watch?v=NQvhvYJXVMA>`__ "
+"的机器人，而我们想自动完成升降机的工作，这样驾驶员就不必在机器人堆放矿石时思考。在本练习中，机器人有两个与我们相关的部分：倾斜的得分升降机和倒出矿物的伺服电机。我们的目标是按下按钮，机器人就会开始工作："
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:94
+msgid "extend the lift,"
+msgstr "延长升降机，"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:95
+msgid ""
+"at full lift extension, angle the mineral bucket servo to deposit the "
+"minerals,"
+msgstr "在升降机完全伸出的时候，调整矿斗伺服电机的角度，倒出矿物，"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:96
+msgid "wait for the minerals to fall out,"
+msgstr "等着矿石掉出来、"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:97
+msgid "reset the servo to the original position"
+msgstr "将伺服电机复位到初始位置"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:98
+msgid "retract the lift"
+msgstr "缩回升降机"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:100
+msgid ""
+"If the drivers press a specific other button, we will stop executing the "
+"actions above as a failsafe - in case the robot is breaking somehow and the "
+"drivers need to take manual control. All the while, the drivers should still"
+" be able to control our drivetrain so we can make adjustments. Now, of "
+"course, this is a bit simplified (and probably not entirely what GF did), "
+"but it will do for now."
+msgstr ""
+"如果驾驶员按下其他特定按钮，我们将停止执行上述操作，以防万一--"
+"万一机器人发生故障，驾驶员需要手动控制。与此同时，驾驶员仍能控制我们的传动系统，以便我们进行调整。当然，这有点简化了（可能也不完全是 GF "
+"所做的那样），但目前还是可以做到的。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:102
+msgid ""
+"Before anything is programmed, it may be useful draw out the state diagram "
+"for this to get a better understanding of what we the robot should actually "
+"be doing. This can also add to a Control Award submission."
+msgstr "在编写任何程序之前，不妨绘制出相关的状态图，以便更好地了解机器人实际应该做些什么。这也可以为提交的控制奖增色不少。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:120
+msgid ""
+"Notice how resetting the dump servo and retracting the lift share a state. "
+"That's because the robot doesn't need to wait for the servo to reset before "
+"moving the lift down; they can both happen at once."
+msgstr "请注意，重置倾卸伺服电机和缩回移位机是共用一个状态的。这是因为机器人在向下移动移位机之前不需要等待伺服器复位，它们可以同时进行。"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:122
+msgid ""
+"Now, let's get into actually implementing the code for this. In a "
+"traditional ``OpMode``, which is commonly used for teleop, code runs "
+"repeatedly in a ``loop()`` function, so instead of waiting for a state "
+"transition to happen directly, the code will repeatedly check on each "
+"``loop()`` call if it should perform a state transition. This kind of "
+"\"update our state\" pattern keeps code from blocking the rest of the "
+"``loop()`` code from running, such as the drivetrain."
+msgstr ""
+"现在，让我们来实际执行相关代码。在传统的 ``OpMode`` （通常用于远程操作）中，代码会在一个 ``loop()`` "
+"函数中重复运行，因此代码不会直接等待状态转换的发生，而是会在每次 ``loop()``调用时重复检查是否应该执行状态转换。这种 \"更新状态 "
+"\"模式可以防止代码阻塞其他 ``loop()`` 代码的运行，例如传动系统。"
