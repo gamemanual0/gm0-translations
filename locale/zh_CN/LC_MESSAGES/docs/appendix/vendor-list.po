@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-29 04:15+0000\n"
+"POT-Creation-Date: 2023-12-01 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,62 +22,214 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:4
+msgid "Vendor List"
+msgstr "供应商列表"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:6
 msgid "`Actuonix <https://www.actuonix.com/>`_"
 msgstr "`Actuonix <https://www.actuonix.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:8
+msgid ""
+"Actuonix sells linear actuators and linear motion components. Expensive, but"
+" robust. Teams can apply for a *FIRST*\\ |reg| sponsorship."
+msgstr ""
+"Actuonix销售电动线性执行器（linear actuators）和直线运动组件（linear motion "
+"components）。虽然价格昂贵，但坚固耐用。团队可以申请*FIRST*\\ |reg|赞助。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:9
 msgid "`AndyMark <https://www.andymark.com>`_"
 msgstr "`AndyMark <https://www.andymark.com>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:11
+msgid ""
+"AndyMark sells the official game field and game sets, as well as individual "
+"game parts and the SoftTiles foam tiles."
+msgstr "AndyMark销售官方比赛场地和比赛套装，以及单个比赛场地部件和SoftTiles泡沫地垫。"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:12
+msgid ""
+"AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner, "
+"compliant, stealth, and mecanum wheels, as well as many other items."
+msgstr "AndyMark还销售NeveRest和NeveRest Sport电机、TileRunner和麦卡纳姆轮，以及许多其他产品。"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:14
 msgid "`Axon Robotics <https://axon-robotics.com/>`_"
 msgstr "`Axon Robotics <https://axon-robotics.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:14
+msgid ""
+"Vendor for highly customizable servos, with software functionality for range"
+" increases to switch between positional mode and continuous rotation mode."
+msgstr "提供可高度定制的伺服系统，具有软件功能，可增加范围以在位置模式和连续旋转模式之间切换。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:16
 msgid "`CopperState <https://www.copperstate.com/>`_"
 msgstr "`CopperState <https://www.copperstate.com/>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:18
+msgid "Cheap vendor for fasteners/other hardware."
+msgstr "紧固件/其他硬件的廉价供应商。"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:19
 msgid "`eplastics <https://www.eplastics.com/>`_"
 msgstr "`eplastics <https://www.eplastics.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:21
+msgid "Vendor for raw plastics, such as polycarbonate, acetal, HDPE, etc."
+msgstr "原料塑料供应商，如聚碳酸酯、缩醛、HDPE等。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:22
 msgid "`estreetplastics <https://www.estreetplastics.com/Default.asp>`_"
 msgstr "`estreetplastics <https://www.estreetplastics.com/Default.asp>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:24
+msgid "Vendor for raw plastics, including smoked polycarbonate."
+msgstr "原料塑料供应商，包括烟熏聚碳酸酯。"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:25
 msgid "`Fastenal <https://www.fastenal.com/>`_"
 msgstr "`Fastenal <https://www.fastenal.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:27
+msgid "Mid-range vendor for fasteners/other hardware, including tools."
+msgstr "紧固件/其他硬件（包括工具）的中档供应商。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:28
 msgid "`goBILDA <https://www.gobilda.com/>`_"
 msgstr "`goBILDA <https://www.gobilda.com/>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:30
+msgid ""
+"goBILDA sells its own build system, complete with Yellow Jacket motors, "
+"channel, motion components, and battery. Note that the cheapest batteries "
+"are found here, the MATRIX 12V Batteries are $39.99, with the team discount "
+"they are $29.99, nearly half the price of the $50 batteries sold elsewhere."
+msgstr ""
+"goBILDA销售自己的搭建系统，包括小蜜蜂电机、套件通道梁、运动组件和电池。请注意，最便宜的电池是在这里找到的，MATRIX "
+"12V电池是39.99美元，团队折扣是29.99美元，几乎是其他地方销售的50美元电池价格的一半。"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:31
+msgid "Teams can get a 25% Team Discount from goBILDA."
+msgstr "团队可以从goBILDA获得25%的团队折扣。"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:32
 msgid "`McMaster-Carr <https://www.mcmaster.com>`_"
 msgstr "`McMaster-Carr <https://www.mcmaster.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:34
+msgid ""
+"McMaster-Carr sells hardware and raw materials in bulk quantities. They "
+"stock nearly every type of bolt, screw, and nut possible, as well as "
+"washers, bearings, springs, etc. Purchase from them for bulk quantities of "
+"hardware, as well as the times you need a very obscure part."
+msgstr ""
+"McMaster-"
+"Carr大量销售硬件和原材料。他们几乎储存了所有可能的螺栓、螺钉和螺母，以及垫圈、轴承、弹簧等。如果你需要大宗的五金配件，或者你需要一些非常冷门的零件，都可以从他们这里购买。"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:35
+msgid ""
+"Don't be turned off by the hidden shipping. Generally, McMaster-Carr's "
+"shipping is around the same price as other vendors, and shipping is usually "
+"next-day."
+msgstr "不要被隐藏的运费吓到。一般来说，McMaster-Carr的运费与其他供应商的价格大致相同，而且通常是第二天发货。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:36
 msgid "`MiSUMI <https://us.misumi-ec.com/>`_"
 msgstr "`MiSUMI <https://us.misumi-ec.com/>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:38
+msgid ""
+"MiSUMI is a Japanese company specializing in industrial and manufacturing "
+"components. They sell bulk 15mm anodized :term:`extrusion <Extrusion>` "
+"similar to the REV Robotics :term:`extrusion <Extrusion>`. The 15mm "
+":term:`extrusion <Extrusion>` can be cut to length as well."
+msgstr ""
+"MiSUMI是一家专门从事工业和制造部件的日本公司。他们销售类似于REV Robotics :term:`铝型材 <Extrusion>` "
+"的散装15毫米阳极氧化 :term:`铝型材 <Extrusion>` 。这种15mm :term:`铝型材 <Extrusion>` "
+"也可以根据需要剪裁成所需的长度。"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:39
+msgid ""
+"MiSUMI also sells aluminum drawer slides that are popular for linear "
+"extensions. They are available in different lengths, but the most common is "
+"400mm."
+msgstr "MiSUMI还销售流行于线性延伸的铝制抽屉滑轨。它们有不同的长度可供选择，但最常见的是400mm。"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:40
 msgid "`OnlineMetals <https://www.onlinemetals.com/>`_"
 msgstr "`OnlineMetals <https://www.onlinemetals.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:42
+msgid "A common vendor for purchasing various raw metals."
+msgstr "购买各种金属原料的普通供应商。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:43
 msgid "`Pitsco <https://www.pitsco.com>`_"
 msgstr "`Pitsco <https://www.pitsco.com>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:45
+msgid ""
+"Pitsco sells the Tetrix kit with channels, TorqueNado motors, and their own "
+"motion system."
+msgstr "Pitsco销售带有槽道的Tetrix套件、TorqueNado电机和自己的运动系统的Tetrix套件。"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:46
 msgid "`REV Robotics <https://www.revrobotics.com>`_"
 msgstr "`REV Robotics <https://www.revrobotics.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:48
+msgid ""
+"REV Robotics sells the REV build system, which is an :term:`extrusion "
+"<Extrusion>`-based ecosystem complete with motors (HD Hex, HD Planetary, "
+"Core HEX), :term:`extrusion <Extrusion>`, :term:`servos <Servo>` (Smart "
+"Robot Servo), brackets, and battery."
+msgstr ""
+"REV Robotics 销售 REV 构建系统，这是一个基于 :term:`extrusion <Extrusion>` 的生态系统，配有电机（HD "
+"Hex、HD Planetary、Core HEX）、 :term:`extrusion <Extrusion>`、 :term:`servos "
+"<Servo>`（Smart Robot Servo）、支架和电池。"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:49
+msgid ""
+"REV also sells the control system for FTC\\ |reg| (Expansion Hub and Control"
+" Hub)."
+msgstr "REV 还销售FTC\\ |reg|的控制系统（Expansion Hub和Control Hub）。"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:51
+msgid ""
+"REV offers various sensors (Magnetic Limit Switch, Color Sensor, Touch "
+"Sensor, Distance Sensor, Potentiometer, etc.)"
+msgstr "REV提供各种传感器（磁限位开关、颜色传感器、触摸传感器、距离传感器、电位器等）"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:52
+msgid ""
+"Additionally, electronic components such as the Servo Power Module, "
+"SPARKmini, or Blinkin may be purchased."
+msgstr "此外，还可以购买Servo Power Module、SPARKmini或Blinkin等电子元件。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:53
 msgid "`Servocity <https://www.servocity.com>`_"
 msgstr "`Servocity <https://www.servocity.com>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:55
+msgid ""
+"Servocity sells a wide range of :term:`servos <Servo>`, from Hitec to "
+"Futaba, at all price points."
+msgstr "Servocity销售范围广泛的 :term:`servos<Servo>`，从Hitec到Futaba，各种价位的都有。"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:56
+msgid "Teams can get a 25% team discount from Servocity"
+msgstr "团队可以从Servocity获得25%的团队折扣"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:57
 msgid "`West Coast Products <https://wcproducts.com/>`_"
 msgstr "`West Coast Products <https://wcproducts.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:59
+msgid ""
+"Also known as WCP, West Coast Products sells products exclusively aimed "
+"toward FRC\\ |reg| use. However many of their parts can be used in FTC, "
+"especially in custom robots."
+msgstr ""
+"West Coast Products 也被称为WCP，专门销售用于FRC的产品。不过，他们的许多部件都可用于FTC，尤其是用于定制机器人中。"

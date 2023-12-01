@@ -4,23 +4,46 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-29 16:17+0000\n"
+"POT-Creation-Date: 2023-12-01 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:2
+msgid "Vendor Guide"
+msgstr "供应商指南"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:5
+msgid "Vendor Identification"
+msgstr "供应商识别"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:7
+msgid ""
+"When you read some Bill of Materials (BOMs) or part numbers that are "
+"references in this guide, it might be confusing to find what vendor the part"
+" you need comes from. The obvious thing to do is Google the part number, and"
+" generally it can identify what you want and where it comes from. But if "
+"that fails, here are some quick tips to identify the vendor selling what you"
+" need."
+msgstr ""
+"当你阅读本指南中引用的一些物料清单（BOMs）或零件编号时，可能会感到困惑，无法找到你需要的零件来自哪个供应商。显而易见的做法是谷歌搜索零件编号，通常它可以识别你想要的零件以及及其来源。但是如果这种方法失败了，这里有一些快速提示来识别销售你需要的东西的供应商。"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:10
+msgid "Prefix Identification"
+msgstr "前缀识别"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:12
 msgid "AM- signifies AndyMark (i.e. AM-0447)"
@@ -33,6 +56,10 @@ msgstr "REV- 表示REV Robotics（比如REV-31-1155）"
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:14
 msgid "WCP- signifies West Coast Products (i.e. WCP-0117)"
 msgstr "WCP- 表示 West Coast Products（比如WCP-0117）"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:17
+msgid "SKU Identification"
+msgstr "SKU识别"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:19
 msgid ""
@@ -58,6 +85,18 @@ msgid ""
 "615190)"
 msgstr "Servocity/Actobotics：6位数字SKU，000000格式（比如615190）"
 
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:25
+msgid "Where can I get ...?"
+msgstr "我在哪里可以得到…？"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:27
+msgid "Motors and Gearboxes"
+msgstr "电机和齿轮箱"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:29
+msgid "Spur Gear Motors"
+msgstr "正齿轮电机"
+
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:31
 msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
 msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
@@ -65,6 +104,18 @@ msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:32
 msgid ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
 msgstr ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:33
+msgid "goBILDA 5201 Spur Gear"
+msgstr "goBILDA 5201 直齿轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:34
+msgid "TETRIX TorqueNado"
+msgstr "TETRIX TorqueNado"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:36
+msgid "Planetary Gearbox Motors (recommended)"
+msgstr "行星齿轮箱电机（推荐）"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:38
 msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Orbital"
@@ -86,7 +137,92 @@ msgstr "（ *斜体* =可定制的变速箱比例）"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:43
 msgid "Servos"
-msgstr "伺服电机"
+msgstr "舵机"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:45
+msgid "HiTec (from ServoCity); 24 tooth spline"
+msgstr "HiTec（来自ServoCity）；24齿出轴"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:46
+msgid "REV Smart Robot Servo; 25 tooth spline"
+msgstr "REV舵机；25齿出轴"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:47
+msgid "Axon Mini & Max; 25 tooth spline"
+msgstr "Axon Mini&Max；25齿出轴"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:48
+msgid "goBILDA Dual Mode Servo; 25 tooth spline"
+msgstr "goBILDA双模式舵机；25齿出轴"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:49
+msgid ""
+"Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth "
+"spline"
+msgstr "Futaba（Futaba舵机广泛用于遥控和业余飞机）；25齿出轴"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:50
+msgid "Savox heavy-duty servos; 25 tooth spline"
+msgstr "Savox重型舵机；25齿出轴"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:51
+msgid "Actuonix (linear actuators)"
+msgstr "Actuonix（线性执行器）"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:53
+msgid "Sensors"
+msgstr "传感器"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:55
+msgid "AndyMark"
+msgstr "AndyMark"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:56
+msgid "REV"
+msgstr "REV"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:58
+msgid "Hardware & Raw Materials"
+msgstr "五金和原材料"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:60
+msgid "McMaster-Carr"
+msgstr "McMaster-Carr"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:61
+msgid "OnlineMetals"
+msgstr "OnlineMetals"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:62
+msgid "Amazon"
+msgstr "Amazon"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:63
+msgid "Local hardware store"
+msgstr "当地五金店"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:65
+msgid "Aluminum Components"
+msgstr "铝型材"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:67
+msgid ""
+"Actobotics :term:`channel <Channel>`, mini :term:`channel <Channel>`, X-rail"
+" :term:`extrusion <Extrusion>`"
+msgstr ""
+"Actobotics :term:`channel <Channel>`, 微型 :term:`channel <Channel>`, X-rail "
+":term:`extrusion <Extrusion>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:68
+msgid ""
+"REV extrusion, C :term:`channel <Channel>`, U :term:`channel <Channel>`"
+msgstr "REV 铝型材, C型 :term:`channel <Channel>`, U型 :term:`channel <Channel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:69
+msgid ""
+"goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`"
+msgstr ""
+"goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:70
 msgid "TETRIX :term:`channel <Channel>`"
@@ -95,3 +231,108 @@ msgstr "TETRIX :term:`channel <Channel>` 通道梁"
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:71
 msgid "MiSUMI :term:`extrusion <Extrusion>`"
 msgstr "MiSUMI :term:`extrusion <Extrusion>` 铝型材"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:73
+msgid "Gears/Sprockets/Pulleys"
+msgstr "齿轮/链轮/滑轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:75
+msgid "REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
+msgstr "REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, 滑轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:76
+msgid "Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
+msgstr "Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, 滑轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:77
+msgid "goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
+msgstr "goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, 滑轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:78
+msgid "TETRIX :term:`gears <Gear>` and pulleys"
+msgstr "TETRIX :term:`gears <Gear>` 以及滑轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:79
+msgid "AndyMark :term:`gears <Gear>` and pulleys"
+msgstr "AndyMark :term:`gears <Gear>` 以及滑轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:81
+msgid "Wheels"
+msgstr "车轮"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:83
+msgid ""
+"AndyMark traction, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel"
+" <Mecanum Wheel>`"
+msgstr ""
+"AndyMark 橡胶轮, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel "
+"<Mecanum Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:84
+msgid ""
+"REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum"
+" Wheel>`"
+msgstr ""
+"REV 硅胶轮, 橡胶轮, :term:`omni<Omni Wheel>`, :term:`mecanum wheel<Mecanum Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:85
+msgid "ServoCity traction, :term:`omni wheel <Omni Wheel>`"
+msgstr "ServoCity 橡胶轮， :term:`omni wheel<Omni Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:86
+msgid ""
+"goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
+"Wheel>`"
+msgstr ""
+"goBILDA 橡胶轮, :term:`omni<Omni Wheel>`, :term:`mecanum wheel<Mecanum Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:87
+msgid ""
+"TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
+"Wheel>`"
+msgstr ""
+"TETRIX 橡胶轮, :term:`omni<Omni Wheel>`, :term:`mecanum wheel<Mecanum Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:88
+msgid "Nexus :term:`mecanum wheel <Mecanum Wheel>`"
+msgstr "Nexus :term:`mecanum wheel<Mecanum Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:90
+msgid "Linear Slide Kits"
+msgstr "直线滑台"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:92
+msgid "REV 15 mm :term:`extrusion <Extrusion>` slide kit"
+msgstr "REV 15 mm 铝型材 :term:`extrusion<Extrusion>` 滑轨"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:93
+msgid "Actobotics linear slide kit"
+msgstr "Actobotics 直线滑台"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:94
+msgid "goBILDA linear slide kit"
+msgstr "goBILDA 直线滑台"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:96
+msgid "Drawer Slides"
+msgstr "抽屉滑轨"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:98
+msgid "MiSUMI SAR2 or SAR3 aluminum slide"
+msgstr "MiSUMI SAR2或SAR3铝制滑轨"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:99
+msgid "Long Robotics Slides"
+msgstr "Long Robotics 滑轨"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:100
+msgid "Hafele cabinet slide"
+msgstr "Hafele 橱柜滑轨"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:101
+msgid "Steel-rolled drawer slide"
+msgstr "轧钢抽屉滑轨"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:102
+msgid "Igus"
+msgstr "Igus"

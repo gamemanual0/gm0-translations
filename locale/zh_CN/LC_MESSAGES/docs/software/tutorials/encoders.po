@@ -3,16 +3,100 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# DomnickJYH, 2023
+# Shawphy, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-01 16:17+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:4
+msgid "Encoders"
+msgstr "编码器"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:7
+msgid "What Are Encoders?"
+msgstr "什么是编码器（Encoder）？"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:8
+msgid ""
+"Very commonly in FTC\\ |reg|, you want to know where something is. Whether "
+"that is how many times your drivetrain wheel has rotated, what angle your "
+"arm is at, or how far your string slides have gone, rotational encoders can "
+"help you. In FTC, an encoder refers to any sensor that tracks the rotational"
+" angle of a mechanism."
+msgstr ""
+"在FTC中很常见的是，你想知道某物在哪个方位。无论是传动轮旋转了多少次，机械臂处于什么角度，还是滑块走了多远，旋转编码器都可以帮助你。在FTC中，编码器是指跟踪机械旋转角度的任何传感器。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:10
+msgid ""
+"There are two types of encoders commonly used in FTC, relative and absolute "
+"encoders. Relative encoders are the ones covered here as they are the more "
+"common type."
+msgstr "FTC中常用的编码器有两种，相对编码器和绝对编码器。相对编码器是这里介绍的，因为它们是更常见的类型。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:13
+msgid "Relative Encoders"
+msgstr "相对编码器"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:14
+msgid ""
+"Ranging from the built in encoder in every FTC legal motor to common "
+"external encoders like the REV Through Bore encoder, these encoders track "
+"the relative position of the shaft or mechanism they are attached to. **What"
+" this means is that the position output is relative to the initial position "
+"at robot power on, meaning position information is lost between power "
+"cycles**."
+msgstr ""
+"从每个FTC电机中的内置编码器到常见的外部编码器，如REV通孔编码器，这些编码器记录它们所连接的轴或机构的相对位置。**这意味着编码器的位置输出是相对于机器人通电时的初始位置来计算的，这也意味着编码器的位置信息会在不通电时丢失。**"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:16
+msgid ""
+"Relative encoders don't reset to zero at the beginning of OpModes! You can "
+"use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero "
+"at the beginning of an OpMode (see below)."
+msgstr ""
+"相对编码器不会在OpMode开始时重置为零！您可以使用STOP_AND_RESET_ENCODERS来确保编码器在OpMode开始时始终为零（见下文）。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:18
+msgid ""
+"All relative encoders in FTC use the \"quadrature\" protocol to send "
+"position information to the expansion hub. As a result, relative encoders "
+"must be plugged into the encoder ports located near the motor ports in order"
+" to function."
+msgstr ""
+"FTC中的所有相对编码器都使用“正交（quadrature）”协议向扩展集线器发送位置信息。因此，相对编码器必须插入位于电机端口附近的编码器端口才能运行。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:21
+msgid "Terminology"
+msgstr "相关术语"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:22
+msgid ""
+"**Count**: A \"count\" (sometimes referred to as a \"tick\") refers to one "
+"increment of the encoder's position. Relative encoders report their position"
+" as a number equal to the number of \"ticks\" or \"counts\" the encoder has "
+"moved from its starting angle."
+msgstr ""
+"**计数（count）**：一个“count”（有时称为一个“tick”）是指编码器位置的一个增量。相对编码器将其位置输出为一个数字，该数字等于编码器从其起始角度移动的“ticks”或“counts”的数量。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:24
+msgid ""
+"**Counts Per Revolution**: The number of \"counts\" that an encoder reports "
+"after it has gone exactly one revolution. This value is commonly used to "
+"convert encoder \"counts\" into degrees or revolutions."
+msgstr ""
+"**每转计数（counts per "
+"revolution）**：编码器恰好转了一圈后输出的“counts”数。此值通常用于将编码器“counts”转换为度或转数。"

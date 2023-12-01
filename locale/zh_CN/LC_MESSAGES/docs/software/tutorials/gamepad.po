@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-29 04:15+0000\n"
+"POT-Creation-Date: 2023-12-01 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -66,6 +66,18 @@ msgstr ""
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:33
 msgid "Button Aliases"
 msgstr "按钮别名"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:35
+msgid ""
+"Since both PS4-style and Xbox-Style controllers are FTC\\ |reg| legal, there"
+" are `aliases in the FTC SDK <https://github.com/OpenFTC/Extracted-"
+"RC/blob/c960dd7de34d49a66c00a345636175392f936b9e/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L892>`_"
+" between PS4-style and Xbox-style button naming."
+msgstr ""
+"由于 PS4 和 Xbox 控制器都是合法的 FTC\\ |reg|，因此在 FTC "
+"SDK<https://github.com/OpenFTC/Extracted-"
+"RC/blob/c960dd7de34d49a66c00a345636175392f936b9e/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L892>"
+" 中，PS4 风格和 Xbox 风格按钮命名之间存在 \"差异\"。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:39
 msgid "PS4"
@@ -264,6 +276,17 @@ msgstr "一个按钮可以在上升沿和下降沿运行不同的代码。这主
 msgid "Toggles"
 msgstr "切换"
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:163
+msgid ""
+"One common use case for rising edge detectors is to control toggles. Toggles"
+" can be used to have a button for the robot to switch between states; for "
+"example, turning an intake on and off. This can be done for any number of "
+"states but is most commonly done between two. To make a toggle between two "
+"states, a rising edge detector is used to set a boolean to its opposite and "
+"then that boolean is used to control an action."
+msgstr ""
+"上升沿检测器的一个常见用例是控制切换。开关可以用来有一个按钮让机器人在状态之间切换；例如，启动和停止吸入拾取装置。这可以针对任意数量的状态进行，但最常见的是在两个状态之间进行。为了在两个状态之间进行切换，上升沿检测器用于将布尔值设置为相反的值，然后该布尔值用于控制动作。"
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:166
 msgid "Example"
 msgstr "例子"
@@ -275,6 +298,12 @@ msgstr "在初始化代码中："
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:174
 msgid "Inside of the corresponding TeleOp loop:"
 msgstr "在相应的TeleOp循环内部："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:194
+msgid ""
+"This will turn on the intake when ``a`` is pressed, and leave it on until it"
+" is pressed again."
+msgstr "这将在按下``a``时启动吸入拾取装置，并保持运行状态，直到再次按下。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:196
 msgid ""
@@ -333,6 +362,12 @@ msgid ""
 "LED Control: control of RGB LED (solid color or pattern). LED is fairly "
 "small and dim and may not be a good choice."
 msgstr "LED控制：RGBLED（纯色或图案）的控制，LED相当小且暗淡，可能不是一个好的选择。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:226
+msgid ""
+"Gamepad feedback can be used to alert drivers of: start of endgame, intake "
+"loaded, automatic aligment complete, etc."
+msgstr "游戏手柄反馈可用于提醒驾驶员：游戏结束开始、吸入拾取装置加载、自动结绳完成等。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:230
 msgid "Rumble"
@@ -435,6 +470,12 @@ msgstr ""
 "要创建``RumbleEffect``，必须使用RumbleEffect.Builder类。构建器提供``addStep（double rumble1,"
 " double rumble2, int "
 "durationMs）``函数用于向序列添加步骤，以及``build()``函数用于从步骤序列创建RumbleEffect。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:277
+msgid ""
+"Using an anonymous instance of the builder class is the cleanest way to "
+"construct a ``RumbleEffect``, for example:"
+msgstr "使用构建器类的匿名实例是构造``RumbleEffect``的最干净方法，例如："
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:289
 msgid ""
