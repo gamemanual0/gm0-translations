@@ -3,16 +3,144 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# DomnickJYH, 2023
+# Shawphy, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-02 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:4
+msgid "LinearOpMode vs OpMode"
+msgstr "LinearOpMode与OpMode"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:6
+msgid ""
+"There are two OpMode classes within the FTC\\ |reg| SDK: ``OpMode`` and "
+"``LinearOpMode``. The one you use affects how you write the program. For "
+"examples of how to use OpMode and LinearOpMode, `refer to the example "
+"OpModes in the SDK <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_."
+msgstr ""
+"FTC\\ |reg| SDK中有两个OpMode类： "
+"``OpMode``和``LinearOpMode``。您使用的类会影响您编写程序的方式。有关如何使用OpMode和LinearOpMode的示例， "
+"`请参阅SDK中的示OpModes例 <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:9
+msgid "LinearOpMode Methods"
+msgstr "LinearOpMode方法"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:11
+msgid ""
+"``runOpMode()``: Code inside this method will run exactly once after you "
+"press the INIT button. This is where you should put all code for the OpMode."
+msgstr "``runOpMode()``：按下INIT按钮后，此方法中的代码将只运行一次。这是您应该放置OpMode的所有代码的地方。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:12
+msgid ""
+"``waitForStart()``: This method pauses the Op-Mode until you press the START"
+" button on the driver station."
+msgstr "``waitForStart()``：此方法暂停操作模式，直到您按下驱动程序站上的START按钮。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:13
+msgid ""
+"``isStarted()``: returns ``true`` if the START button has been pressed, "
+"otherwise it returns ``false``."
+msgstr "``isStarted()``：如果按下了START按钮，则返回 ``true``，否则返回 ``false``。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:14
+msgid ""
+"``isStopRequested()``: returns ``true`` if the STOP button has been pressed,"
+" otherwise it returns ``false``."
+msgstr "``isStopRequest()``：如果按下了STOP按钮，则返回 ``true``，否则返回 ``false``。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:15
+msgid ""
+"``idle()``: calls ``Thread.yield``, allowing other threads at the same "
+"priority level to run."
+msgstr "``idle()``：调用 ``Thread.yield``，允许相同优先级的其他线程运行。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:16
+msgid ""
+"``opModeIsActive()``: returns ``isStarted() && !isStopRequested()`` and "
+"calls ``idle()``."
+msgstr ""
+"``opModeIsActive()``：返回 ``isStarted() && ! isStopRequest()``并调用 ``idle()``。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:17
+msgid ""
+"``opModeInInit()``: returns ``!isStarted() && !isStopRequested()`` and does "
+"not call ``idle()``."
+msgstr ""
+"``opModeInit()``：返回 ``!isStarted() && ! isStopRequest()``并且不调用 ``idle()``。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:20
+msgid "OpMode Methods"
+msgstr "OpMode方法"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:22
+msgid ""
+"``init()``: Code inside this method will run exactly once after you press "
+"the INIT button on the driver station."
+msgstr "``init()``：在您按下驱动程序站上的INIT按钮后，此方法中的代码将只运行一次。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:23
+msgid ""
+"``init_loop()``: Once the code in ``init()`` has been run, code inside this "
+"method will run continuously until the START button is pressed on the driver"
+" station."
+msgstr "``init_loop()``：运行 ``init()``中的代码后，此方法中的代码将持续运行，直到驱动程序站上按下START按钮。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:24
+msgid ""
+"``start()``: Code inside this method will run exactly once after you press "
+"the START button on the driver station."
+msgstr "``start()``：此方法中的代码将在您按下驱动程序站上的START按钮后运行一次。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:25
+msgid ""
+"``loop()``: Once the code in ``start()`` has been run, code inside this "
+"method will run continuously until the STOP button is pressed on the driver "
+"station."
+msgstr "``loop()``：一旦运行 ``start()``中的代码，此方法中的代码将连续运行，直到驱动程序站上按下STOP按钮。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:26
+msgid ""
+"``stop()``: Code inside this method will run exactly once after you press "
+"the STOP button on the driver station."
+msgstr "``stop()``：此方法中的代码将在您按下驱动程序站上的STOP按钮后运行一次。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:28
+msgid ""
+"As of SDK version 8.1, when executing ``OpMode``\\ s there is a negligible "
+"delay of one millisecond between calls of ``loop()``. Previously, it had "
+"unpredictable delays, however since 8.1 it is similarly performant to "
+"``LinearOpMode``."
+msgstr ""
+"从SDK版本8.1开始，当执行 ``OpMode``时，调用 "
+"``loop()``之间的延迟可以忽略不计。以前，它有不可预测的延迟，但是从8.1开始，它的性能类似于 ``LinearOpMode``。"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:31
+msgid "Conclusion"
+msgstr "结论"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:33
+msgid ""
+"Overall, the use of ``LinearOpMode`` or ``OpMode`` is up to preference. "
+"|gm0| uses ``LinearOpMode`` everywhere for consistency."
+msgstr ""
+"总的来说，使用 ``LinearOpMode``或 ``OpMode`` 取决于偏好。 |gm0|在任何地方都使用 "
+"``LinearOpMode``以保持一致性。"

@@ -4,23 +4,57 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-02 04:15+0000\n"
+"POT-Creation-Date: 2023-12-02 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:4
+msgid "Options for Programming"
+msgstr "编程语言选择"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:6
+msgid ""
+"There are three recommended options for teams to use when programming a "
+"robot to do various tasks: Blocks, OnBot Java, and Android Studio."
+msgstr "团队在编程机器人执行各种任务时，我们推荐以下三种：图形化编程、OnBot Java和Android Studio。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:9
+msgid "Blocks"
+msgstr "图形化编程"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:11
+msgid ""
+"The Blocks Programming Tool is a simple way to code simple actions for the "
+"robot. It has a colorful and lego-like design and includes sounds of block "
+"pieces of snapping together."
+msgstr "图形化编程工具是一种为机器人编写简单动作的简单方法。它有一个彩色的乐高式设计，包括块块合在一起的声音。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:13
+msgid ""
+"Using a device and a robot controller phone, connect your device to the "
+"phone's Wi-Fi by clicking the three dots in the top right of the :term:`RC "
+"<Robot Controller>` and select \"Program & Manage\". This will display the "
+"WiFi SSID and password for you to connect to. Go onto your browser "
+"(preferably Chrome, though other modern browser will likely work) and enter "
+"the address shown on the :term:`RC <Robot Controller>`."
+msgstr ""
+"使用设备和机器人控制器，点击 :term:`RC <Robot Controller>` 右上方的三个点，选择 \"编程和管理\"，将设备连接到手机的 "
+"Wi-Fi。这将显示供您连接的 WiFi SSID 和密码。打开浏览器（最好是 Chrome 浏览器，不过其他现代浏览器也可以），输入 "
+":term:`RC <Robot Controller>` 上显示的地址。"
 
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:16
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:46
@@ -30,6 +64,28 @@ msgstr ""
 msgid "Advantages"
 msgstr "优势"
 
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:18
+msgid "Good for beginners: one of the easiest and simplest options to use."
+msgstr "适合初学者：最简单易用的选项之一。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:19
+msgid ""
+"Easy to set up: requires a device (laptop, chromebook, tablet) and a phone "
+"in the Program & Manage screen"
+msgstr "易于设置：需要设备（笔记本电脑、chromebook、平板电脑）和运行“程序和管理”屏幕的手机"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:20
+msgid "Programs can be saved directly to the phone"
+msgstr "程序可以直接保存到手机"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:22
+msgid "Changes can be made quickly"
+msgstr "可快速进行更改"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:23
+msgid "Doesn't require an external Wi-Fi connection"
+msgstr "不需要外部Wi-Fi连接"
+
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:26
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:55
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:88
@@ -38,18 +94,261 @@ msgstr "优势"
 msgid "Disadvantages"
 msgstr "缺点"
 
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:28
+msgid ""
+"Not recommended if you're already familiar with some type of programming"
+msgstr "如果您已经熟悉某种语言的编程，则不建议使用"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:30
+msgid "Primarily a teaching tool for people with no programming experience"
+msgstr "主要是为没有编程经验的人提供的教学工具"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:31
+msgid ""
+"This will change your primary Wi-Fi network to the :term:`Robot Controller's"
+" <Robot Controller>` Direct Wi-Fi network, and as such, you will be unable "
+"to access the internet while connected to this particular network."
+msgstr ""
+"这将把你的主 Wi-Fi 网络更改为 :term:`Robot Controller's<Robot Controller>` 直接 Wi-Fi "
+"网络，因此，当你连接到这个特定网络时，将无法访问互联网。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:33
+msgid ""
+"Teams can get around this by purchasing an external Wi-Fi module that allows"
+" computers to run 2 Wi-Fi networks at once."
+msgstr "团队可以通过购买允许计算机同时运行2个Wi-Fi网络的外部Wi-Fi模块来解决这个问题。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:35
+msgid "Sacrifices flexibility and application for simplicity"
+msgstr "牺牲灵活性和应用程序以求简单"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:36
+msgid ""
+"Don't ever use it on a phone, unless you're out of options. (Not phone-"
+"friendly)"
+msgstr "永远不要在手机上使用它，除非你别无选择。（不适合手机）"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:38
+msgid "You may make a bigger mess if you try to."
+msgstr "如果你试图这样做，你可能会制造更大的混乱。"
+
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:41
 msgid "OnBot Java"
 msgstr "OnBot Java"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:43
+msgid ""
+"OnBot Java uses a similar method of using a browser to code and save "
+"directly to the phone. The difference being that a programming language "
+"called Java is used instead."
+msgstr "OnBot Java使用类似的方法，使用浏览器进行编码并直接保存到手机上。不同之处在于使用了一种称为Java的编程语言。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:48
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:69
+msgid ""
+"Recommended if you're learning or have learned some programming, even better"
+" if you know a little Java."
+msgstr "如果你正在学习或已经学习了一些编程，推荐你使用；如果你懂一点Java，那就更好了。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:49
+msgid "Greater flexibility than Blocks"
+msgstr "比图形化编程有着更大的灵活性"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:50
+msgid "There are a lot more resources available in case you need help"
+msgstr "有很多可用的资源以防你需要帮助"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:51
+msgid "More applicable to the real-world than Blocks"
+msgstr "比图形化编程更适用于实际情况"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:52
+msgid "Maintains most of the advantages of Blocks"
+msgstr "保持图形化编程的大部分优势"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:57
+msgid ""
+"Connecting to the robot controller's Wi-Fi network will prevent you from "
+"using anything on the internet including video tutorials and online "
+"communication"
+msgstr "连接到机器人控制器的Wi-Fi网络将阻止您使用任何在互联网上包括视频教程和在线通信"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:58
+msgid "Using external libraries is difficult and borderline impossible"
+msgstr "使用外部库很困难，几乎不可能"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:59
+msgid "Steeper learning curve than Blocks"
+msgstr "比起图形化编程需要在短期内掌握更多全新的知识"
 
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:62
 msgid "Android Studio"
 msgstr "Android Studio"
 
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:64
+msgid ""
+"Android Studio is a comprehensive Integrated Development Environment (IDE) "
+"that uses Java to program the phones. Instead of using a browser to upload "
+"code, Android Studio will compile your Robot Controller code into a .apk "
+"file (an app installer), and install that on the phone."
+msgstr ""
+"Android Studio是一个全面的集成开发环境（IDE），它使用Java来对手机进行编程。Android "
+"Studio不会使用浏览器上传代码，而是将您的机器人控制器代码编译为.apk文件（应用程序安装程序），并将其安装在手机上。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:70
+msgid "Much greater flexibility than Blocks."
+msgstr "比图形化编程有更大的灵活性。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:71
+msgid ""
+"Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_, "
+"`FTCLib`_, and `Road Runner`_."
+msgstr "更容易集成库，如 `EasyOpenCV`_, `FTC Dashboard`_, `FTCLib`_和 `Road Runner`_。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:72
+msgid "Can use plugins like `Road Runner`_."
+msgstr "可以使用插件，如 `Road Runner`_。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:73
+msgid ""
+"Can use either a USB connection to the :term:`RC <Robot Controller>` phone, "
+"or a wireless connection to upload code."
+msgstr "可使用 USB 连接到 :term:`RC<Robot Controller>` 手机，或使用无线连接上传代码。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:75
+msgid "Deploy times can be sped up by using `OpenRC Turbo`_."
+msgstr "使用 `OpenRC Turbo`_可以加快部署时间。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:77
+msgid "Can debug in real-time"
+msgstr "可以实时调试"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:78
+msgid "Many resources for Java, Android Studio, and IDEA"
+msgstr "Java、Android Studio和IDEA的许多资源"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:79
+msgid "Can use other programming languages"
+msgstr "可以使用其他编程语言"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:90
+msgid ""
+"Connecting to the robot controller's Wi-Fi network will prevent you from "
+"using anything on the internet including video tutorials and online "
+"communication, unless you have a second Wifi adapter (cheap and easy)"
+msgstr "连接到机器人控制器的Wi-Fi网络将阻止您使用互联网上的任何内容，包括视频教程和在线通信，除非您有第二个Wifi适配器（便宜且简单）"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:91
+msgid ""
+"Relatively easy setup process, but time consuming and is a hefty install "
+"(3GB of files between Android Studio, ftc_app, and other libraries)"
+msgstr "相对容易的安装过程，但耗时，有一个庞大的安装量（Android Studio，ftc_app和其他库之间的3GB文件）"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:92
+msgid "Issues can be difficult to diagnose and solve"
+msgstr "问题可能难以诊断和解决"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:95
+msgid "Other Programming Languages"
+msgstr "其他编程语言"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:98
+msgid "Kotlin"
+msgstr "Kotlin静态编程语言"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:100
+msgid ""
+"Kotlin is a relatively new and rapidly growing programming language from "
+"Jetbrains, the creator of the IntelliJ IDE, which Android Studio is based "
+"off. Kotlin was made to be completely compatible with Java but be easier to "
+"work with. Google recently announced it as an official Android language, "
+"then announced they are going \"Kotlin first\" but still keeping Java "
+"support."
+msgstr ""
+"Kotlin静态编程语言是一种相对较新且发展迅速的编程语言，来自Jetbrains，它是IntelliJIDE的创建者，Android "
+"Studio就是基于它。Kotlin静态编程语言被设计成与Java完全兼容，但更容易使用。谷歌最近宣布它为官方安卓语言，然后宣布他们将“使Kotlin静态编程语言优先”，但仍保持Java支持。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:105
+msgid "Concise, readable, easy to edit code"
+msgstr "简洁、易读、易于编辑的代码"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:107
+msgid "Easy to write as it takes much less code to do the same thing"
+msgstr "易于编写，因为做同样的事情所需的代码要少得多"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:108
+msgid "Both optional type inference and a stronger type system than Java"
+msgstr "可选类型推断和比Java更强大的类型系统"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:109
+msgid "Null safety"
+msgstr "Null安全"
+
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:110
 msgid "Thread safety"
 msgstr "线程安全"
 
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:111
+msgid "Functional programming"
+msgstr "函数式编程"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:112
+msgid "Seamless integration with Java code and libraries"
+msgstr "与Java代码和库无缝衔接"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:113
+msgid "Very easy to transition from Java"
+msgstr "很容易从Java转移过来"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:118
+msgid "Not widely used in FTC\\ |reg| yet"
+msgstr "尚未广泛应用于FTC\\ |reg|"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:119
+msgid "New and has fewer community resources for training"
+msgstr "是新加入的语言，用于培训的社区资源较少"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:120
+msgid ""
+"Not recommended for programmers who need large amounts of help from other "
+"teams"
+msgstr "不推荐给需要其他团队大量帮助的程序员"
+
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:123
 msgid "C and C++"
 msgstr "C 和 C++"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:125
+msgid ""
+"C and C++ are native programming languages compatible with Android. Very few"
+" teams have used C++. This is typically used for only part of the code, with"
+" the majority being Java or Kotlin."
+msgstr "C和C++是与Android兼容的本地编程语言。很少有团队使用C++。这通常仅用于部分代码，大多数是Java或Kotlin静态编程语言。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:130
+msgid "Fast execution for extremely resource-intensive applications."
+msgstr "快速执行资源密集型应用程序。"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:131
+msgid "Supports more libraries"
+msgstr "支持更多库"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:136
+msgid "Rarely needed"
+msgstr "很少需要或使用"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:137
+msgid "Very difficult to set up"
+msgstr "设置起来非常困难"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:138
+msgid "Difficult to debug code"
+msgstr "难以调试代码"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:139
+msgid "Very few teams can help you"
+msgstr "很少有团队可以帮助你"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:140
+msgid "Very few online resources"
+msgstr "很少的在线资源"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 16:17+0000\n"
+"POT-Creation-Date: 2023-12-02 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -22,3 +22,368 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:4
+msgid "Reading and Writing to Hardware"
+msgstr "硬件的读取与写入"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:6
+msgid ""
+"When using the FTC\\ |reg| SDK, there are a variety of built in hardware "
+"classes which can be used to communicate with hardware on the robot such as "
+"DC Motors, :term:`Servos <Servo>`, and Sensors."
+msgstr ""
+"使用 FTC\\ |reg| SDK 时，有多种内置硬件类可用于与机器人上的硬件，如直流电机、:term:`舵机 <Servo>`和传感器，进行通信。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:9
+msgid "Creating and Instantiating Hardware Objects"
+msgstr "创建和实例化硬件对象"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:11
+msgid ""
+"The first thing required to properly create an object is to import its "
+"class. In Android Studio, if the class is referenced without being imported "
+"Alt+Enter can be pressed to automatically import it. After it is imported, "
+"the next step is to create the object::"
+msgstr ""
+"要正确创建对象，首先需要导入对象的类。在 Android Studio 中，如果引用了类却没有导入，可以按 Alt+Enter "
+"键自动导入。导入后，下一步就是创建对象："
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:15
+msgid ""
+"After the object is created, it must be instantiated. Part of the ``OpMode``"
+" superclass is something called ``hardwareMap``. ``hardwareMap`` is used in "
+"the FTC SDK to instantiate objects rather than calling a constructor."
+msgstr ""
+"创建对象后，必须对其进行实例化。``OpMode`` 超类的一部分称为 ``hardwareMap``。FTC SDK 使用 "
+"``hardwareMap`` 来实例化对象，而不是调用构造函数。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:17
+msgid ""
+"It contains all of the information entered into the configuration on the "
+"Robot Controller, such as names of hardware and what port it is plugged "
+"into. Here is an example of instantiating the motor we created above::"
+msgstr "它包含输入到机器人控制器配置中的所有信息，例如硬件名称和插入的端口。下面是实例化我们上面创建的电机的示例::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:21
+msgid ""
+"Whatever sensor you are using, you will pass that class into the spot where "
+"``DcMotor.class`` is. For example, if liftMotor was a Servo, ``Servo.class``"
+" would be passed instead."
+msgstr ""
+"无论使用什么传感器，都要将该类传入 ``DcMotor.class`` 所在的位置。例如，如果 liftMotor 是伺服电机，则应传递 "
+"``Servo.class`` 代替。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:23
+msgid ""
+"For the second argument, you pass whatever the device is named in the Robot "
+"Controller configuration. ``hardwareMap`` will then go find what port the "
+"device with that name is plugged into, which allows the hardware to be "
+"accessed."
+msgstr "第二个参数是机器人控制器配置中设备的名称。然后，``hardwareMap``将查找该设备所连接的端口，从而访问硬件。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:26
+msgid "Examples of Using Common Hardware Components"
+msgstr "使用通用硬件组件的示例"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:29
+msgid "DC Motor"
+msgstr "直流电机"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:39
+msgid ""
+"After a ``DcMotor`` is instantiated, there are a few variables you can set "
+"to affect how the DC Motor runs. The first of these is direction::"
+msgstr "在``DcMotor``实例化之后，您可以设置一些变量来影响直流电机的运行方式。第一个变量是方向::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:44
+msgid ""
+"Changing the direction of the motor does exactly what should be expected, it"
+" changes the direction. If a power of 1 is applied to the motor while it is "
+"in forward mode, it will turn one direction. If it is in reverse, a power of"
+" 1 will spin it in the other direction. If you face the shaft of the motor "
+"towards you, forward is counterclockwise (with the exception of NeveRest "
+"motors)."
+msgstr ""
+"改变电机方向的作用与预期完全一致，即改变方向。如果在正转模式下对电机施加 1 的功率，它将朝一个方向转动。如果处于反转状态，1 "
+"的功率将使其向另一个方向旋转。如果将电机轴朝向自己，则正转是逆时针方向（NeveRest 电机除外）。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:46
+msgid "Next, there are two zero power behaviors that can be adjusted::"
+msgstr "接下来，有两种零功率行为可以调整："
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:51
+msgid ""
+"Changing this variable affects how the DC Motor behaves while a power of 0 "
+"is applied. ``BRAKE`` will cause the motor to try and slow itself down if it"
+" is moving (it will NOT cause the motor to hold its position if not already "
+"moving), while ``FLOAT`` causes the motor to glide to a stop, letting "
+"friction do all the work."
+msgstr ""
+"更改该变量会影响直流电机在功率为 0 "
+"时的行为。如果电机正在运动，`BRAKE``会使电机减速（如果电机尚未运动，则不会使电机保持位置），而`FLOAT``会使电机滑行到停止位置，让摩擦力完成所有工作。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:53
+msgid ""
+"Finally, there are four different run modes that can be used with DC motors:"
+" ::"
+msgstr "最后，有四种不同的运行模式可用于直流电机::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:61
+msgid ""
+"It is important to note that encoder values can be read in any of these "
+"modes provided an encoder is properly plugged in. These modes just change "
+"how the motor reacts to these encoder values. `The REV Robotics "
+"documentation has an explanation of all four run modes "
+"<https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback#choosing-a-motor-mode>`_."
+msgstr ""
+"需要注意的是，只要正确插入编码器，就可以在上述任何模式下读取编码器值。这些模式只是改变电机对这些编码器值的反应方式。 `REV Robotics "
+"文档对所有四种运行模式都有解释 <https://docs.revrobotics.com/duo-control/programming/using-"
+"encoder-feedback#choosing-a-motor-mode>`_。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:63
+msgid ""
+"``RUN_TO_POSITION`` can be a convenient way to control a single-motor "
+"mechanism, as it offloads all control work; however, since every motor is "
+"dealt with independently, it is inadvisable to use this on mechanisms with "
+"multiple motors, especially drivetrains."
+msgstr ""
+"``RUN_TO_POSITION`` "
+"是一种控制单电机机构的便捷方法，因为它卸载了所有控制工作；但是，由于每个电机都是独立处理的，因此不宜用于多电机机构，尤其是底盘驱动系统。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:66
+msgid "Encoders"
+msgstr "编码器"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:68
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:71
+msgid "Encoder"
+msgstr "编码器"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:73
+msgid ""
+"An encoder refers to a device that tracks (generally) rotational movement "
+"around an axis."
+msgstr "编码器是指记录（通常）围绕轴的旋转运动的设备。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:75
+msgid ""
+"There are both absolute and relative encoders. An absolute encoder will "
+"report at exactly what angle the shaft is compared to its absolute \"zero\"."
+" A relative encoder will report how far the :term:`shaft <Shaft>` has "
+"rotated since it started tracking (for example, when autonomous starts). "
+"Relative encoders will have a quadrature output, whereas absolute encoders "
+"generally have analog or i2c outputs."
+msgstr ""
+"编码器分为绝对编码器和相对编码器。绝对编码器将准确报告轴与其绝对 \"零点\" 相比的角度。相对编码器将报告 :term:`shaft<Shaft>` "
+"自开始跟踪以来（例如，自主启动时）旋转了多远。相对编码器通过正交信号输出，而绝对编码器通常通过模拟信号或 i2c 输出。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:77
+msgid ""
+"Encoders are used to help find the position of where the robot, or one of "
+"its mechanisms, is."
+msgstr "编码器用于帮助找到机器人或其部分机械结构的位置。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:79
+msgid ""
+"While all FTC legal motors contain built in relative quadrature encoders, "
+"they must be wired separately and are not required for use. External "
+"encoders may be used and plugged into an encoder port so long as they use "
+"the quadrature communication protocol."
+msgstr ""
+"虽然所有 FTC 合规电机都内置有相对正交编码器，但必须单独接线，且并非必须使用。只要使用正交通信协议，就可以使用外部编码器并将其插入编码器端口。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:81
+msgid ""
+"Accessing encoders requires calling one method on the DcMotor object, "
+"``getCurrentPosition()``, which returns the current position of the encoder "
+"plugged into the port. This number may be arbitrary at the beginning of an "
+"opmode, and is not reset to 0 unless ``STOP_AND_RESET_ENCODERS`` is used or "
+"power is cycled to the expansion hub."
+msgstr ""
+"访问编码器需要调用 DcMotor 对象上的一个方法 ``getCurrentPosition()``，该方法可返回插入端口的编码器的当前位置。该数字在"
+" opmode 开始时可以是任意的，除非使用了 ``STOP_AND_RESET_ENCODERS`` 或对Expansion "
+"Hub进行了电源循环，否则不会重置为 0。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:83
+msgid ""
+"There is no real standardized terminology when dealing with quadrature "
+"encoders. The SDK uses \"CPR\" or Counts Per Revolution by default,. You may"
+" also see some datasheets list \"PPR\" or Pulses per Revolution. One pulse "
+"can be equivalent to anywhere from 1 to 4 SDK \"counts\". Be careful when "
+"reading datasheets!"
+msgstr ""
+"处理正交编码器时没有真正的标准化术语。SDK 默认使用 \"CPR\"（每转计数）。您也可能看到一些数据表列出了 "
+"\"PPR\"（每转脉冲数）。一个脉冲相当于 1 到 4 个 SDK \"计数\"。阅读数据表时要小心！"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:85
+msgid ""
+"Encoders with high numbers of Counts per Revolution, such as the REV Through"
+" Bore Encoder, can lose steps if plugged into ports 1 or 2. In addition, "
+"calls to ``getVelocity()`` on a DcMotorEx object may overflow with high "
+"counts per revolution encoders, due to the returned number only being a 16 "
+"bit signed integer."
+msgstr ""
+"每转计数较高的编码器（如 REV 通孔编码器）如果插入端口 1 或 2，可能会丢失步进。此外，调用 DcMotorEx 对象上的 "
+"``getVelocity()``时，由于返回的数字仅为 16 位有符号整数，因此每转计数高的编码器可能会溢出。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:88
+msgid "Servo"
+msgstr "舵机"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:94
+msgid ""
+"After instantiating a ``Servo``, there are two main functions that can be "
+"called: ``setPosition()`` and ``getPosition()``. ::"
+msgstr "在实例化``Servo``后，可以调用两个主要函数：``setPosition()`` 和`getPosition()`` ::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:99
+msgid ""
+"``setPosition()`` sets the position of the :term:`servo <Servo>`. The SDK "
+"will use a built-in control loop with the :term:`servo's <Servo>` "
+"potentiometer to drive the :term:`servo <Servo>` to that position and hold "
+"that position. ``setPosition()`` takes in a double between 0 and 1, where 0 "
+"is the :term:`servo's <Servo>` lower limit of rotation and 1 is the "
+":term:`servo's <Servo>` upper limit of rotation. Everything between is "
+"directly proportional, so 0.5 is the middle, 0.75 is 3/4 the way up, etc."
+msgstr ""
+"``setPosition()`` 设置 :term:`servo<Servo>` 的位置。SDK 将使用 :term:`servo's<Servo>`"
+" 电位器的内置控制循环，将 :term:`servo<Servo>` 驱动到该位置并保持该位置。`setPosition()`` 接收介于 0 和 1 "
+"之间的 double，其中 0 是 :term:`servo 的<Servo>` 旋转下限，1 是 :term:`servo 的<Servo>` "
+"旋转上限。介于两者之间的是正比例，所以 0.5 是中间值，0.75 是 3/4 上限值，等等。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:101
+msgid ""
+"``getPosition()`` does not return the :term:`servo's <Servo>` current "
+"position, rather its current target position. If a variable for the "
+":term:`servo's <Servo>` current target position is stored properly, this "
+"function should never be needed."
+msgstr ""
+"`getPosition()`` 返回的不是 :term:`servo 的<Servo>` 当前位置，而是当前目标位置。如果 :term:`servo "
+"的<Servo>` 当前目标位置的变量存储得当，就不需要使用此函数。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:104
+msgid "Continuous Rotation Servo"
+msgstr "连续旋转舵机"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:110
+msgid ""
+"A CRServo has one main method; ``setPower()``. This works very similarly to "
+"``DcMotor`` 's ``setPower()``, meaning that passing it 0 makes it stop, "
+"passing it 1 makes it go forward at full speed, passing it -1 makes it go "
+"backwards at full speed, and everything in between. ::"
+msgstr ""
+"CRServo 有一个主要方法：``setPower()``。其工作原理与 ``DcMotor`` 的 ``setPower()``非常相似，即传入 0"
+" 会使其停止，传入 1 会使其全速前进，传入 -1 会使其全速后退，以及介于两者之间的所有情况。::"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
+msgid "Digital IO"
+msgstr "数字IO"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:121
+msgid ""
+"A DigitalChannel has a couple main methods. ``setMode()`` is used to set the"
+" port as either an OUTPUT or INPUT port, ``getState()`` returns the current "
+"state of the port (only works in INPUT mode), and ``setState()`` sets the "
+"state of the port (only works in OUTPUT mode)"
+msgstr ""
+"数字通道有几个主要方法。``setMode()`` 用于将端口设置为输出或输入端口，``getState()`` "
+"返回端口的当前状态（仅在输入模式下有效），``setState()`` 设置端口的状态（仅在输出模式下有效）。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:123
+msgid "Digital ports start by default in INPUT mode"
+msgstr "数字端口默认以 INPUT 模式启动"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:125
+msgid ""
+"Digital ports are pulled UP to prevent floating. This means that there is a "
+"resistor between the port and 3.3V so the port reads HIGH by default when "
+"nothing is connected. As a result digital devices MUST connect the digital "
+"pin to ground when closed, then leave it unconnected when open. For limit "
+"switches, this means connecting one lead to ground and the other to the "
+"digital port. **Connecting this wrong (connecting 3.3V to the digital port) "
+"may cause instability and can cause your expansion hub to crash**"
+msgstr ""
+"数字端口上拉以防止信号抖动。这意味着在端口和 3.3V "
+"电压之间有一个电阻，因此端口在未连接任何设备时默认为高电平。因此，数字设备在关闭时必须将数字引脚连接到地，而在打开时则保持未连接状态。对于限位开关而言，这意味着将一条引线连接至地线，另一条引线连接至数字端口。**连接错误（将"
+" 3.3V 电压连接到数字端口）可能导致不稳定，并可能导致 Expansion Hub 崩溃**。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:128
+msgid "Analog Input"
+msgstr "模拟输入"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:134
+msgid ""
+"An ``AnalogInput`` has one main method: ``getVoltage()`` which is used to "
+"get the current input voltage to the port."
+msgstr "``AnalogInput`` 有一个主要方法：``getVoltage()`` ，用于获取端口当前的输入电压。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:136
+msgid ""
+"Although ``getMaxVoltage()`` returns 3.3v, the expansion and control hub "
+"analog input ports can safely handle up to 5v."
+msgstr ""
+"虽然 ``getMaxVoltage()`` 返回 3.3v，但Expansion Hub 和 Control Hub模拟输入端口可以安全地处理高达 "
+"5v 的电压。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:139
+msgid "A Note on Hardware Call Speed"
+msgstr "关于硬件调用速度的注意事项"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:141
+msgid ""
+"Every hardware call you make, (whether it be setting the power for a motor, "
+"setting a :term:`servo <Servo>` position, reading an encoder value, etc.) "
+"will take approximately 3 milliseconds to execute, except for I2C calls "
+"which can take upwards of 7ms. This is because behind the scenes, the SDK "
+"may need to make multiple hardware calls in order to perform the I2C "
+"operation."
+msgstr ""
+"每次硬件调用（无论是设置电机功率、设置 :term:`servo<Servo>` 位置、读取编码器值等）的执行时间约为 3 毫秒，但 I2C "
+"调用除外，它可能需要 7 毫秒以上。这是因为在幕后，SDK 可能需要进行多次硬件调用才能执行 I2C 操作。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:143
+msgid ""
+"When using a Control Hub, you may see considerably faster hardware call "
+"times because the Control Hub uses a direct UART connection to the Lynx "
+"board instead of going through USB and a middle-man FTDI as happens when "
+"using a phone."
+msgstr ""
+"使用 Control Hub 时，您可能会看到硬件调用时间大大缩短，因为 Control Hub 使用直接 UART 连接到 Lynx "
+"板，而不是像使用手机作为RC时那样通过 USB 和中间的 FTDI。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:145
+msgid ""
+"These times may seem fast, but they add up quickly. Consider a control loop "
+"to drive forward for N encoder counts while maintaining heading using the "
+"IMU. This would require 5 normal hardware calls (4 set power + 1 read "
+"encoder) and an I2C call (IMU) which means that the loop cycle would take "
+"approximately 22ms to execute, and thus run at approximately 45Hz."
+msgstr ""
+"这些时间看似很快，但累积起来也很快。考虑一个控制回路，在使用 IMU 保持航向的同时，向前驱动 N 个编码器计数。这需要 5 次普通硬件调用（4 "
+"次设置功率 + 1 次读取编码器）和 1 次 I2C 调用（IMU），这意味着执行循环周期大约需要 22 毫秒，因此运行频率大约为 45 赫兹。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:147
+msgid ""
+"This means that it is critical to minimize the amount of hardware calls you "
+"make in order to keep your control loops running fast. For instance, do not "
+"read a sensor more than once per loop. Instead, read it once and store the "
+"value to a variable if you need to use it again at other points in the same "
+"loop cycle."
+msgstr ""
+"这意味着必须尽量减少硬件调用次数，以保证控制回路快速运行。例如，不要在每个循环中多次读取传感器。相反，只需读取一次，然后将值存储到变量中，以便在同一循环周期的其他时间点再次使用。"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:149
+msgid ""
+"Using a bulk read hardware call can help with this problem. A bulk read "
+"takes the same 3ms to execute as any other normal hardware call, but it "
+"returns far more data. In order to be able to use bulk reads, you must be "
+"running SDK v5.4 or higher. See :doc:`/docs/software/tutorials/bulk-reads` "
+"for more information"
+msgstr ""
+"使用批量读取硬件调用可以帮助解决这个问题。批量读取的执行时间与任何其他普通硬件调用一样，都是 3 毫秒，但它返回的数据要多得多。要使用批量读取，必须运行"
+" SDK v5.4 或更高版本。更多信息请参见 :doc:`/docs/software/tutorials/bulk-reads` 。"

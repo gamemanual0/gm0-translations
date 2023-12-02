@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 16:17+0000\n"
+"POT-Creation-Date: 2023-12-02 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,164 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:4
+msgid "Fundamental Concepts of Programming"
+msgstr "编程基本概念"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:6
+msgid ""
+"For almost any programming language, whether it's Java, Python, or Blocks, "
+"there are concepts in coding that transfer across languages. These ideas are"
+" foundational when learning to program and should be applicable in FTC\\ "
+"|reg| and beyond."
+msgstr ""
+"对于几乎任何编程语言，无论是Java、Python还是图形化编程，代码中都有跨语言迁移的概念。这些是学习编程时的基础，应该适用于FTC及其他领域。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:8
+msgid ""
+"This section is primarily for people with limited Java experience. However, "
+"even if you are more experienced, it may still be helpful to skim through "
+"the section, as you might find concepts that have not yet been introduced to"
+" you."
+msgstr "本节主要面向Java经验有限的人。然而，即使您很有经验，浏览本节仍然可能有所帮助，因为您可能会发现您尚未知晓的概念。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:10
+msgid ""
+"Examples will mostly be in Java, where ``//`` indicates a comment which the "
+"program ignores and is used for people to read."
+msgstr "示例主要使用Java编写，其中 ``//`` 表示被注释的程序，人们阅读注释来获取代码的说明。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:23
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:50
+msgid "Java-Specific Exploratory Questions"
+msgstr "Java特定的探索性问题"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:25
+msgid ""
+"If I didn't set a value for number and then I printed it, what would it "
+"print?"
+msgstr "如果我没有设置数字的值，然后我输出它，它会输出什么？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:26
+msgid "What other operations can I do with number and secondNumber?"
+msgstr "我还可以对 number 和 secondNumber 进行哪些操作？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:27
+msgid "Can I set a decimal to number? If not, what happens?"
+msgstr "我可以给数字设置小数吗？如果没有，会发生什么？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:28
+msgid "What is ``System.out.println();``?"
+msgstr "什么是 ``System.out.println();`` ？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:29
+msgid ""
+"Delete one character in the code. Remember the error (if any), and then undo"
+" it. Delete another part. How many different errors can you get?"
+msgstr "删除代码中的一个字符。记住错误（如果有），然后撤消它。删除另一部分。你可以得到多少不同的错误？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:32
+msgid "There are different types of variables"
+msgstr "不同类型的变量"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:34
+msgid "Numbers (Integers, Floats, Doubles)"
+msgstr "数字（整数、浮点数、双精度）"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:35
+msgid "Strings (Text) or characters"
+msgstr "字符串（文本）或字符"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:36
+msgid "And a lot more depending on the language (Ex: Arrays)"
+msgstr "更多取决于语言（例如：数组）"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:37
+msgid ""
+"They help tell the program know the basis of what it should do with a "
+"variable."
+msgstr "它们有助于告诉程序如何处理变量。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:52
+msgid ""
+"Replace the text in ``coolName`` to something else. Your name, a phone "
+"number, your favorite anime. What about emotes and copypastas? What about "
+"characters in other languages?"
+msgstr ""
+"将 ``coolName`` 中的文本替换为其他内容。你的名字、电话号码、你最喜欢的动漫。那表情符号和复制内容会怎么样呢？又或是其他语言的字母呢？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:53
+msgid "Try adding a number and a string, what happens?"
+msgstr "尝试添加一个数字和一个字符串，会发生什么？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:54
+msgid "Is it possible to add multiple strings and numbers together?"
+msgstr "是否可以将多个字符串和数字添加在一起？"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:57
+msgid "Important Control Structures"
+msgstr "重要控制结构"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:59
+msgid ""
+"Be sure to familiarize yourself with basic control structures (if/else "
+"statements, for loops, while loops, and for-each loops). These control "
+"structures are by far the most commonly encountered, and thus, familiarizing"
+" yourself with these principles is extremely important (not just for FTC, "
+"but programming in general). However, there are a few control structures "
+"that are far less common that are extremely useful in FTC; namely "
+":doc:`/docs/software/concepts/finite-state-machines`."
+msgstr ""
+"一定要熟悉基本的控制结构（if/else语句、for循环、while循环和for-"
+"each循环）。这些控制结构是最常见的，因此，熟悉这些结构非常重要（不仅仅是FTC，一般的编程亦是如此）。然而，有一些不太常见的控制结构在FTC中非常有用；即"
+" :doc:`/docs/software/concepts/finite-state-machines`.。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:62
+msgid "Data Structures (Arrays)"
+msgstr "数据结构（数组）"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:64
+msgid ""
+"Data structures are a method of organizing and storing large amounts of "
+"data. There are a lot of different types of data structures that mostly "
+"differ in the relationships between data points, and we would recommend that"
+" you read into them. We will only go over a few here."
+msgstr ""
+"数据结构是一种组织和存储大量数据的方法。有许多不同类型的数据结构，它们在数据点之间的关系上大多不同，我们建议您仔细阅读它们。我们在这里只介绍几个。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:71
+msgid "`Arrays <https://www.geeksforgeeks.org/arrays-in-java/>`_"
+msgstr "`数组 <https://www.geeksforgeeks.org/arrays-in-java/>`_"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:67
+msgid ""
+"Arrays are the most basic and simple data structure. When an array is "
+"initialized, its size must be set, and it cannot be changed."
+msgstr "数组是最基本、最简单的数据结构，数组初始化时，必须设置其大小，不可更改。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:69
+msgid ""
+"If you wish to expand an array, a new one must be created and all of the old"
+" data copied over. Elements of an array are stored adjacent to each other in"
+" memory, so when they are accessed the number you want to access times the "
+"amount of bits in the object in the array is added to the starting address, "
+"and data is accessed from there."
+msgstr ""
+"如果你想扩展一个数组，必须创建一个新的数组，并复制所有旧数据。数组的元素彼此相邻地存储在内存中，因此当它们被访问时，你想访问的数字乘以数组中对象的位数被添加到起始地址，并从那里访问数据。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:71
+msgid ""
+"This means that arrays are incredibly efficient at reading data in a "
+"nonlinear order."
+msgstr "这意味着数组在以非线性顺序读取数据方面非常有效。"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:73
+msgid "`ArrayList <https://www.geeksforgeeks.org/arraylist-in-java/>`_"
+msgstr "`数组列表 <https://www.geeksforgeeks.org/arraylist-in-java/>`_"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:75
+msgid ""
+"`Object Oriented Programming in Java <https://www.geeksforgeeks.org/classes-"
+"objects-java/>`_"
+msgstr "`Java中的面向对象编程 <https://www.geeksforgeeks.org/classes-objects-java/>`_"
