@@ -5,16 +5,15 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 16:17+0000\n"
+"POT-Creation-Date: 2023-12-03 16:15+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +37,8 @@ msgid ""
 "help you. In FTC, an encoder refers to any sensor that tracks the rotational"
 " angle of a mechanism."
 msgstr ""
-"在FTC中很常见的是，你想知道某物在哪个方位。无论是传动轮旋转了多少次，机械臂处于什么角度，还是滑块走了多远，旋转编码器都可以帮助你。在FTC中，编码器是指跟踪机械旋转角度的任何传感器。"
+"在FTC\\ "
+"|reg|中很常见的是，你想知道某物在哪个方位。无论是传动轮旋转了多少次，机械臂处于什么角度，还是滑块走了多远，旋转编码器都可以帮助你。在FTC中，编码器是指跟踪机械旋转角度的任何传感器。"
 
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:10
 msgid ""
@@ -100,3 +100,276 @@ msgid ""
 msgstr ""
 "**每转计数（counts per "
 "revolution）**：编码器恰好转了一圈后输出的“counts”数。此值通常用于将编码器“counts”转换为度或转数。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:26
+msgid ""
+"Quadrature terminology can get very confusing! Some encoders may report "
+"\"pulses per revolution.\" One pulse can either equal 1 or 4 counts. Other "
+"encoders may report \"cycles per revolution\", which confusingly have the "
+"same acronym as counts per revolution. The best way to check is to plug the "
+"encoder into the REV Hub and turn it 1 full revolution, then check what it "
+"reports."
+msgstr ""
+"正交术语（Quadrature terminology）可能会变得非常混乱！一些编码器可能会报告“每转脉冲（pulses per "
+"revolution）”。一个脉冲可以等于1或4个计数。其他编码器可能会报告“每转周期（cycles per "
+"revolution）”，这与每转计数具有相同的首字母缩写词。最好的检查方法是将编码器插入REV集线器并将其转1个完整转，然后检查它报告的内容。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:29
+msgid "Programming Encoders"
+msgstr "编程编码器"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:32
+msgid "Reading Encoders"
+msgstr "阅读编码器"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:34
+msgid ""
+"In FTC software, quadrature encoders and motors are accessed with the same "
+"motor object. What this means is that we can access an encoder's position "
+"like so:"
+msgstr "在FTC软件中，正交编码器和电机使用相同的电机对象访问。这意味着我们可以像这样访问编码器的位置："
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+msgid "Java"
+msgstr "Java"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+msgid "Blocks"
+msgstr "图形化编程"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:51
+msgid ""
+"While convenient if one uses the built-in motor encoder, this can easily "
+"become confusing if using external encoders. To use external encoders, you "
+"must use the motor object associated with the port. For example, if there is"
+" a motor in port 1 named \"Arm Motor\" and an external encoder plugged into "
+"encoder port 1, you must do the following to get the encoder's position:"
+msgstr ""
+"使用内置电机编码器很方便，而使用外部编码器就很容易造成混乱。要使用外部编码器，必须使用与端口相关联的电机对象。例如，如果端口1中有一个名为“机械臂电机”的电机，编码器端口1中插入了一个外部编码器，则必须执行以下操作才能获得编码器的位置："
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:69
+msgid ""
+"Great! We now have the relative position of our encoder, reported in the "
+"number of \"counts\" it is from what it considers to be zero. However, it is"
+" often convenient to have the encoder start at zero at the beginning of the "
+"OpMode. While it technically does not change anything, it can help with "
+"debugging and simplify future code. To do this, we can add a call to reset "
+"the encoders before we read them."
+msgstr ""
+"太好了！我们现在有了编码器的相对位置，它从相对的零始点开始，以“计数”的数量输出数值。然而，让编码器在OpMode的开头从零开始通常很方便。虽然从技术上讲它不会改变任何东西，但它可以帮助调试和简化未来的代码。为此，我们可以在读取编码器之前添加一个重置编码器的调用。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:89
+msgid ""
+"As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It instead "
+"tells the SDK not to use the motor encoder for built-in velocity control**. "
+"We will go over what this means in a later section, but for now, know that "
+"it turns the motor back on so we can use it after the encoder is reset."
+msgstr ""
+"请注意，**RUN_WITHOUT_ENCODER不会禁用编码器。相反，它会告诉SDK不要使用电机编码器进行内置速度控制。**我们将在后面的部分讨论这意味着什么，但现在，知道它会重新打开电机，以便我们可以在编码器复位后使用它。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:91
+msgid ""
+"Now we have our position (in counts) relative to the starting angle of the "
+"encoder. We can make a quick program to see this in action. Here, we use a "
+"motor encoder plugged into a port named \"Arm Motor\" in the hardware "
+"configuration."
+msgstr ""
+"现在我们有了相对于编码器起始角度的位置（以计数为单位）。我们可以制作一个快速程序来查看这一点的运行情况。在这里，我们使用插入硬件配置中名为“Arm "
+"Motor”的端口的电机编码器。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:138
+msgid ""
+"If you run the above OpMode and turn the encoder, you should see the values "
+"change as you move. If you rotate the shaft back to where it started, you "
+"will see the number return to (very close to) zero. As an exercise, rotate "
+"the shaft one full revolution (360) degrees and note down the number."
+msgstr ""
+"如果您运行上述OpMode并转动编码器，您应该会看到值在您移动时发生变化。如果您将轴旋转回起始位置，您将看到数字返回（非常接近）零。作为练习，将轴旋转一周（360）度并记下数字。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:140
+msgid ""
+"There is one more thing we can do with encoders. While knowing the number of"
+" counts something moved is useful, oftentimes one will need a different "
+"number, like the number of revolutions the encoder has turned or the angle "
+"it is at. To determine these, we need a constant, the encoders Counts Per "
+"Revolution or CPR. For external encoders, this number is often provided in a"
+" datasheet. For motors, it will generally be on the product page, although "
+"some motors (most notably the Rev Ultraplanetary Gearbox) do not provide it "
+"plainly."
+msgstr ""
+"我们还可以用编码器做一件事。虽然知道移动的计数很有用，但通常需要一个不同的数字，比如编码器转动的转数或角度。为了确定这些，我们需要一个常数，编码器每转计数或CPR。对于外部编码器，这个数字通常在数据表中提供。对于电机，它通常会出现在产品页面上，尽管一些电机（最明显的是Rev"
+" Ultraplanetary Gearbox）没有明确提供。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:142
+msgid ""
+"You can calculate a motor's Counts Per Revolution by taking the base motor's"
+" Counts Per Revolution and multiplying it by the gearbox ratio. Be careful "
+"to use the actual gearbox ratio when doing this! For example, a 5:1 "
+"Ultraplanetary motor would have a count per revolution of 28 * (5.23) = "
+"146.44 because the base motor has 28 Counts Per Revolution and the 5:1 "
+"gearbox actually has a 5.23:1 gear ratio. Remember, when using two gearboxes"
+" on top of each other, you multiply the gear ratios together."
+msgstr ""
+"您可以通过获取基础电机的每转计数并将其乘以齿轮箱比来计算电机的每转计数。执行此操作时请注意使用实际齿轮箱比！例如，5:1的Ultraplanetary电机的每转计数为28*(5.23)=146.44，因为基础电机的每转计数为28，而5:1齿轮箱实际上具有5.23:1的齿轮比。请记住，当使用两个齿轮箱时，您需要将齿轮箱比相乘。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:144
+msgid ""
+"In the following example, we divide the encoder position by its counts per "
+"revolution to obtain the number of revolutions the encoder has rotated. You "
+"have to replace [Your Counts Per Revolution Here] with the counts per "
+"revolution of your motor, found on its product page or calculated using the "
+"above tip."
+msgstr ""
+"在下面的示例中，我们将编码器位置除以它的每转计数，以获得编码器旋转的转数。您必须将[Your Counts Per Revolution "
+"Here]替换为电机的每转计数，可在其产品页面上找到或使用上述提示计算。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:164
+msgid ""
+"There is one more number we can get: the angle of the shaft. Calculating "
+"this number is very simple. We can multiply the number of rotations by 360 "
+"(since there are 360 degrees in one revolution). You might notice that this "
+"number can go above 360 as the shaft rotates multiple times. As such, we "
+"introduce angleNormalized, which will always be between 0 and 360."
+msgstr ""
+"我们还可以得到一个数字：轴的角度。计算这个数字非常简单。我们可以将旋转次数乘以360（因为一次旋转有360度）。您可能会注意到，当轴多次旋转时，这个数字可以超过360。因此，我们引入angleNormalized，它将始终介于0和360之间。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:186
+msgid "Putting it all together, we get the following testing program."
+msgstr "把它们放在一起，我们得到了以下测试程序。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:238
+msgid ":download:`Blocks file download <block-code/encoder-opmode.blk>`"
+msgstr ":download:`下载图形化编程文件 <block-code/encoder-opmode.blk>`"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:244
+msgid "Tracking Wheels and Spools"
+msgstr "跟踪轮和线轴"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:246
+msgid ""
+"Up to this point, we have mostly been working with motors rotating "
+"something. However, many mechanisms in FTC are linear, and it can be "
+"desirable to measure these in a linear unit as well. Fortunately, this is "
+"very straightforward. All we need to know is the diameter of the object we "
+"are measuring."
+msgstr ""
+"到目前为止，我们主要是使用电机旋转物体。然而，FTC中的许多机制都是线性的，也可以用线性单位来计量它们。幸运的是，这非常简单。我们只需要知道我们正在计量的物体的直径。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:248
+msgid ""
+"Be careful when selecting your diameter. For wheels, it is the outer "
+"diameter of the wheel, but for spools, it is the inner diameter of the "
+"spool, where the string rests. For chain and belts, it is the \"pitch "
+"diameter\" of the sprocket or pulley."
+msgstr ""
+"选择直径时要小心。对于轮子来说，它是轮子的外径，但对于线轴来说，它是线轴的内径，也就是弦的位置。对于链条和皮带来说，它是链轮或皮带轮的“节距直径（pitch"
+" diameter）”。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:250
+msgid ""
+"From here, we can calculate the circumference (the length of the arc of the "
+"circle, or the distance the wheel/spool will travel in one rotation)"
+msgstr "从这里，我们可以计算周长（圆的弧长，或轮子/线轴在一次旋转中行驶的距离）"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:269
+msgid ""
+"Units are very important when dealing with FTC programming, so make sure "
+"they are always consistent! Whatever units you use for the diameter are the "
+"units for your calculated distance. So if you measure your diameter in "
+"inches, the reported distance will also be in inches."
+msgstr ""
+"在处理FTC编程时单位非常重要，所以要确保它们始终一致！无论你用什么单位表示直径，都是你计算距离的单位。所以如果你以英寸为单位测量直径，输出显示的距离数据也将以英寸为单位。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:271
+msgid "Putting this all together with our previous testing program, we get"
+msgstr "将这些与我们之前的测试程序放在一起，我们得到了"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:329
+msgid ":download:`Blocks file download <block-code/spool-encoder-opmode.blk>`"
+msgstr ":download:`下载图形化编程文件 <block-code/spool-encoder-opmode.blk>`"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:335
+msgid "Running Motors With Encoders"
+msgstr "带编码器的运行电机"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:336
+msgid ""
+"We've learned how to read encoder values, but how do you set where you want "
+"to go and tell the motor to go there?"
+msgstr "我们已经学会了如何读取编码器值，但是如何设置要去的地方并告诉电机去那里？"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:338
+msgid ""
+"Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can"
+" use another motor mode, RUN_TO_POSITION, to tell the motor to run to a "
+"specific position in ticks, like so:"
+msgstr ""
+"先前，我们了解了电机的RUN_WITHOUT_ENCODER模式。我们可以使用另一种电机模式，RUN_TO_POSITION，以tick告诉电机运行到特定位置，如下所示："
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:356
+msgid ""
+"You can find out more about run modes at the `official REV Robotics "
+"Documentation page <https://docs.revrobotics.com/duo-"
+"control/programming/using-encoder-feedback>`_"
+msgstr ""
+"您可以在 `官方REV机器人文档页面 <https://docs.revrobotics.com/duo-"
+"control/programming/using-encoder-feedback>`_ 找到更多关于运行模式的信息。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:358
+msgid ""
+"However, before we tell the motor to go to a position, we have to tell the "
+"motor what position to run to. **Note that this value must be an integer**. "
+"Let's amend the above code to do that."
+msgstr "然而，在我们告诉电机去一个位置之前，我们必须告诉电机运行到什么位置。注意，**这个值必须是一个整数。**让我们修改上面的代码来做到这一点。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:360
+msgid ""
+"Setting the motor to RUN_TO_POSITION mode before setting a target position "
+"will throw an error. Be careful not to do that!"
+msgstr "在设置目标位置之前将电机设置为RUN_TO_POSITION模式会提示错误。小心不要这样做！"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:380
+msgid ""
+"This code tells the motor to move to 1000 ticks, using a PID loop to control"
+" the motor's position. You can read more about PID loops `here. "
+"<https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`_"
+msgstr ""
+"此代码告诉电机移动到1000tick，使用PID回路来控制电机的位置。您可以在 `此处 "
+"<https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`_ "
+"阅读有关PID回路的更多信息。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:382
+msgid "We can cap the speed that the motor runs at using the following code:"
+msgstr "我们可以使用以下代码限制电机运行的速度："
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:403
+msgid "Now, let's use this information to control an arm in an OpMode."
+msgstr "现在，让我们使用此信息来控制OpMode中的机械臂。"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:475
+msgid ":download:`Blocks file download <block-code/arm-opmode.blk>`"
+msgstr ":download:`下载图形化编程文件 <block-code/arm-opmode.blk>`"
