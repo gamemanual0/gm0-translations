@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-24 16:17+0000\n"
+"POT-Creation-Date: 2023-12-04 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:2
+msgid "Methods of Contributing"
+msgstr "贡献方式"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:5
+msgid "GitHub Pull Request (Strongly Preferred)"
+msgstr "GitHub 拉取请求（强烈推荐）"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:7
+msgid ""
+"Pull Requests should be made to the `gm0 "
+"<https://github.com/gamemanual0/gm0>`_ repository on GitHub. They will be "
+"reviewed and comments may be made. Draft pull requests are strongly "
+"recommended when you are working on something, as it allows for feedback "
+"during the development process. It also means that the CI can run."
+msgstr ""
+"拉取请求应提交到 GitHub 上的 `gm0<https://github.com/gamemanual0/gm0>`_ "
+"仓库。我们会对这些请求进行审核，并提出意见。我们强烈建议您在开发过程中提出拉取请求草案，因为这样可以在开发过程中获得反馈。这也意味着 CI "
+"可以运行。中文翻译的问题也可以在上述 Github 仓库中开新的 issue，我们会持续关注。"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:10
+msgid "Document Submission"
+msgstr "提交文件"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:12
+msgid ""
+"This method is designed to help contributors who do not have an "
+"understanding of git and reStructuredText to start contributing. This method"
+" only works for adding **new pages**; you **cannot** edit current pages "
+"using this method."
+msgstr ""
+"此方法旨在帮助不了解 git 和 reStructuredText 的贡献者开始贡献。此方法仅适用于添加 **新页面** ；您 **不能** "
+"使用此方法编辑当前页面。"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:14
+msgid "Write your intended content in a Google Doc"
+msgstr "在 Google 文档中撰写您的预期内容"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:15
+msgid ""
+"Change the Google Doc to \"Anyone on the internet with this link can "
+"comment\""
+msgstr "将谷歌文档改为 \"互联网上任何拥有此链接的人都可以发表评论\"。"
+
+#: ../../gm0/source/docs/contributing/methods-of-contributing.rst:16
+msgid ""
+"Submit a link to the Google Doc in the following `form "
+"<https://docs.google.com/forms/d/e/1FAIpQLSdo2p-2dDjjUF180ggXPjUJGjucxpvLO9_fU1oEUpBBivDP4A/viewform>`_"
+msgstr ""
+"在以下 `表单 "
+"<https://docs.google.com/forms/d/e/1FAIpQLSdo2p-2dDjjUF180ggXPjUJGjucxpvLO9_fU1oEUpBBivDP4A/viewform>`_"
+" 中提交 Google 文档链接"

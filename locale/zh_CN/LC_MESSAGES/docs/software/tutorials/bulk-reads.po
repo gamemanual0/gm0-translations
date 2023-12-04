@@ -5,18 +5,127 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 04:16+0000\n"
+"POT-Creation-Date: 2023-12-04 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:4
+msgid "Bulk Reads"
+msgstr "批量读取"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:6
+msgid ""
+"Bulk reads are a LynxCommand that reads all sensor values (except I2C) on a "
+"hub at once. This takes the same amount of time to execute as any other "
+"LynxCommand, and can therefore save a lot of time in the execution loop; "
+"with a bulk read, reading ten sensors takes as much time as reading one "
+"sensor (if they are not I2C and are on the same hub)."
+msgstr ""
+"批量读取是一次性读取集线器上所有传感器值（I2C 除外）的 LynxCommand。这与其他 LynxCommand "
+"的执行时间相同，因此可以在执行循环中节省大量时间；批量读取时，读取十个传感器的时间与读取一个传感器的时间相同（如果它们不是 I2C "
+"且在同一个集线器上）。"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:8
+msgid ""
+"This became much simpler to do with SDK versions 5.4 and above, with a "
+"built-in way to easily access it. Here is `the official example "
+"<https://github.com/first-tech-"
+"challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java>`_"
+" on how to use bulk reads."
+msgstr ""
+"在 5.4 及以上版本的 SDK 中，这一操作变得简单多了，内置的方法可以轻松访问它。下面是如何使用批量读取的 \"官方示例 "
+"<https://github.com/first-tech-"
+"challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java>`_\"。"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:11
+msgid "Off Mode"
+msgstr "关闭模式（Off Mode）"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:13
+msgid ""
+"This is the default, and the most boring; it means bulk reads are not used "
+"by the SDK when calling normal hardware-access methods."
+msgstr "这是默认设置，也是最无聊的设置；它意味着 SDK 在调用正常硬件访问方法时不会使用批量读取。"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:15
+msgid ""
+"Bulk reads can still be accessed by calling the "
+"``LynxModule.getBulkInputData()`` method, however if one wishes to use bulk "
+"reads (which we highly recommend) using ``AUTO`` or ``MANUAL`` modes is "
+"simpler."
+msgstr ""
+"批量读取仍可通过调用 ``LynxModule.getBulkInputData()`` 方法进行，但如果希望使用批量读取（我们强烈推荐），使用 "
+"``AUTO`` 或 ``MANUAL`` 模式更为简单。"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:17
+msgid "To manually set ``OFF`` mode, you need to run ::"
+msgstr "要手动设置 ``OFF·` 模式，需要运行:："
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:26
+msgid "Auto Mode"
+msgstr "自动模式（Auto Mode）"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:28
+msgid ""
+"This is the simplest mode to use that utilizes bulk reads; a new bulk read "
+"is done when a hardware read is repeated. As an example of this ::"
+msgstr "这是最简单的批量读取模式；当硬件读取重复时，会进行新的批量读取。例如::"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:46
+msgid ""
+"However, this can be problematic, if the same hardware read is called more "
+"than once in a given loop; an example of this ::"
+msgstr "但是，如果在一个给定的循环中多次调用同一个硬件读取，就会出现问题，例如 ::"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:61
+msgid ""
+"Overall, this is recommended, as it is very unlikely to mess anything up and"
+" can give significant performance improvements for little effort. On the "
+"user side, one does not need to manually flush the bulk read cache; however,"
+" this means you lose some control."
+msgstr ""
+"总的来说，这是推荐的，因为它不太可能搞砸任何事情，并且可以不费吹灰之力就显著提高性能。在用户方面，不需要手动刷新批量读取缓存；但是，这意味着您失去了一些控制权。"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:64
+msgid "Manual Mode"
+msgstr "手动模式（Manual Mode）"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:66
+msgid ""
+"In manual mode the cache for bulk reads is only reset once manually reset. "
+"This can be useful, as it is the way to absolutely minimize extraneous "
+"reads, however if the cache is not reset, stale values will be returned. "
+"That being said, here's a proper implementation of ``MANUAL`` mode ::"
+msgstr ""
+"在手动模式下，批量读取的缓存只有在手动重置后才会重置。这可能很有用，因为它是绝对减少无关读取的方法，但如果不重置缓存，就会返回陈旧的值。下面是 "
+"``手动`` 模式的正确实现 ::"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:87
+msgid ""
+"When in ``MANUAL`` mode, if the cache is not cleared appropriately, stale "
+"values will be returned. For that reason, if you are not quite sure what you"
+" are doing, we recommend ``AUTO`` mode; while ``MANUAL`` mode can have some "
+"performance improvements if ``AUTO`` mode is not used optimally, it has less"
+" room for catastrophic error."
+msgstr ""
+"在 ``MANUAL`` 模式下，如果没有适当地清除缓存，就会返回过时的值。因此，如果您不太确定自己在做什么，我们建议您使用 ``AUTO`` "
+"模式；如果没有最佳地使用 ``AUTO`` 模式，虽然 ``MANUAL`` 模式可以在一定程度上提高性能，但它发生灾难性错误的可能性较小。"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:89
+msgid ""
+"Bulk reads are issued per hub, so you don't necessarily need to bulk read "
+"both hubs at the same time or every loop."
+msgstr "批量读取是针对每个集线器发出的，因此不一定需要同时或每次循环批量读取两个集线器。"
