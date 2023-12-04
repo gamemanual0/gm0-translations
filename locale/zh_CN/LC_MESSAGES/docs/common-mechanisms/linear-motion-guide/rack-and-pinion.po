@@ -3,16 +3,84 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# DomnickJYH, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-04 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:4
+msgid "Rack and Pinion"
+msgstr "齿条和小齿轮"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:6
+msgid ""
+"Rack and pinion refers to a a toothed linear gear (the rack), meshed with a "
+"a circular gear (the pinion gear). When the pinion gear is driven, it will "
+"drive the pinion gear upwards or downwards, depending on how the rack and "
+"pinion is mounted."
+msgstr ""
+"齿轮齿条是指一个齿形线性齿轮（齿条）与一个圆形齿轮（小齿轮）啮合。当驱动小齿轮时，它将向上或向下驱动小齿轮，这取决于齿条和小齿轮的安装方式。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:8
+msgid ""
+"Generally, rack and pinion is a good light-use option for FTC\\ |reg| teams "
+"in terms of linear extension. However, there are some disadvantages to rack "
+"and pinion compared to the other options of linear extension. Therefore, "
+"rack and pinion is generally not recommended for teams."
+msgstr ""
+"一般来说，对于FTC|reg|团队来说，齿轮齿条式线性延长器是一个不错的轻型用途选择。不过，与其他线性延伸方案相比，齿轮齿条式也有一些缺点。因此，一般不建议伍队使用齿轮齿条式线性延长器。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:11
+msgid "Advantages"
+msgstr "优点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:13
+msgid "Easy way to extend upwards."
+msgstr "向上延伸的简单方法"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:14
+msgid "Power and linear motion in one package"
+msgstr "集动力和直线运动于一体"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:15
+msgid "Can with proper support, sustain heavy load (e.g. hang robot)"
+msgstr "能在适当的支撑下承受重物（如悬挂式机器人）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:18
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:20
+msgid ""
+"Rack and pinion generally is only used in one stage, because multiple "
+"mechanisms require other forms of powering it (belt, string, chain, etc.)"
+msgstr "齿轮齿条一般只用于一个阶段，因为多个机构需要其他形式的动力（皮带、绳索、链条等）。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:22
+msgid ""
+"Rack and pinion needs to be supported very well to sustain heavy load, or "
+"else the mesh will fail. **It is not advisable to use the Tetrix rack and "
+"pinion in high stress conditions**."
+msgstr "齿条和小齿轮需要很好的支撑以承受重负荷，否则网罩会失效。**不建议在高应力条件下使用Tetrix齿条和小齿轮**。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:27
+msgid "A marketing image for the tetrix rack and pinion"
+msgstr "tetrix齿条齿轮的市场形象"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:27
+msgid ""
+"The Tetrix rack and pinion has a tendency to fail under medium to high load."
+msgstr "Tetrix齿条和小齿轮在中高负荷下容易发生故障。"

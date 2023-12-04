@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 16:17+0000\n"
+"POT-Creation-Date: 2023-12-04 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,11 +24,79 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:4
 msgid "Dead Wheels"
-msgstr "死轮"
+msgstr "惰轮"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:6
+msgid ""
+"This is a very niche aspect of design in FTC\\ |reg|. Generally it is "
+"something done by more experienced teams who have had time to repeatedly "
+"test their designs and mechanisms with software during the off-season."
+msgstr ""
+"这是 FTC\\ |reg| 设计中一个非常小众的方面。一般来说，经验丰富的团队才会这样做，因为他们有时间在休赛期反复用软件测试自己的设计和机制。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:8
+msgid ""
+"The term dead wheels, tracking wheels, odometry pods, and odometry are often"
+" conflated in the FTC community. However, there are a few key differences "
+"one must keep in mind. Odometry is an umbrella term and refers to the "
+"general use of motion sensors for localization purposes. Meanwhile, dead "
+"wheels, tracking wheels, and odometry pods are all synonymous terms."
+msgstr ""
+"术语“惰轮”、“履带从动轮”、“编码器吊舱”和“编码器”在FTC社区中经常混淆使用。然而，必须记住几个关键区别。编码器是一个总称，指的是使用运动传感器进行定位目的的一般性使用。与此同时，“惰轮”、“履带从动轮”和“编码器吊舱”都是同义词。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:10
 msgid "Term"
 msgstr "术语"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:13
+msgid "Dead Wheel"
+msgstr "惰轮"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:15
+msgid ""
+"A small unpowered wheel (usually an :term:`omni wheel <Omni Wheel>`) that "
+"tracks the distance the robot has traveled through the encoder attached to "
+"the wheel's axle."
+msgstr "一个没有动力的小轮子 (通常是 :term:`万向轮 <Omni Wheel>`)，通过连接在轮轴上的编码器跟踪机器人行驶的距离。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:30
+msgid "Drive Encoder Localization"
+msgstr "驱动器编码器定位"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:32
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:45
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:57
+msgid "**Pros**:"
+msgstr "**优点**:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:34
+msgid ""
+"Cheap (the motors you're using most likely already have encoders built in)"
+msgstr "便宜（您使用的电机很可能已经内置了编码器）"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:35
+msgid "Accessible"
+msgstr "方便"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:36
+msgid "Very little configuration necessary"
+msgstr "几乎不需要配置"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:37
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:50
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:60
+msgid "**Cons**:"
+msgstr "**缺点**:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:39
+msgid ""
+"Drive encoder localization on mecanum drive can be quite inaccurate due to "
+"lack on traction on mecanum wheels."
+msgstr "由于麦克纳姆轮缺乏牵引力，麦轮驱动装置上的编码器定位可能非常不准确。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:195
+msgid "Uses US Digital S4T's. Quite pricey"
+msgstr "用US数码S4T(相当昂贵)"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:197
 msgid "**9794 Wizards.exe Design**"
@@ -41,3 +109,7 @@ msgid ""
 msgstr ""
 "https://www.youtube.com/watch?list=PLICNg-"
 "rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:201
+msgid "**No longer recommended as it utilizes the E8T**"
+msgstr "**不再推荐使用E8T**"

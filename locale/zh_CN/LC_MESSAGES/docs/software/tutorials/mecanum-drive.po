@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-03 16:15+0000\n"
+"POT-Creation-Date: 2023-12-04 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -90,6 +90,10 @@ msgstr ""
 "标准的麦轮驱动配置有4个以“X”形状定向的麦轮。这意味着当从上面看时，滚子是朝向中心的。这种配置允许人们将偏移滚子产生的力矢量相加，并推导出任何方向的运动。重要的是要注意，由于摩擦力，不可能在每个方向都进行完美的运动，因此"
 " :term:`mecanum drivetrain <Mecanum Wheel>` "
 "比起其他方向可以更快地向前/向后移动。平移和旋转相结合也会导致运动变慢。"
+
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
+msgid "Force diagram of a complete mecanum drive"
+msgstr "完整麦轮传动装置的受力示意图"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:26
 msgid ""

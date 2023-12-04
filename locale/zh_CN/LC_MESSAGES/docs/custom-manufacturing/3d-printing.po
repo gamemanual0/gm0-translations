@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 04:16+0000\n"
+"POT-Creation-Date: 2023-12-04 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -29,3 +29,551 @@ msgstr "3D打印"
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:7
 msgid "Kinds of 3D Printing"
 msgstr "3D打印种类"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:9
+msgid ""
+"There are a few different kinds of 3D printing. FDM (Fused Deposition "
+"Modeling) (also known as Fused Filament Fabrication) extrudes a melted "
+"filament to create a part and is the most common type and the one we'll "
+"focus on in this guide. SLA (stereolithography) and SLS (Selective Laser "
+"Sintering) are both options for 3D printing plastics, but they are generally"
+" more complex, expensive, or hold other disadvantages in FTC\\ |reg| "
+"applications. For those reasons, they are not recommended."
+msgstr ""
+"3D打印有几种不同的类型。FDM（熔融沉积建模）（也称熔融长丝制造）通过挤出熔融长丝来制造零件，这是最常见的类型，也是本指南的重点。SLA（立体光刻）和SLS（选择性激光烧结）都是3D打印塑料的选择，但它们通常更为复杂、昂贵，或者在FTC\\|reg|应用中存在其他缺点。出于这些原因，我们不推荐使用它们。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:11
+msgid ""
+"Metal 3D printing (SLS and others) is also becoming more and more available,"
+" but is not in the scope of this guide."
+msgstr "金属3D打印（SLS和其他）也越来越多，但不在本指南的范围内。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:13
+msgid ""
+"Consider checking out `the FTC docs 3D printing section <https://ftc-"
+"docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>`_, a "
+"guide for FDM 3D printing within the scope of FTC. It covers topics such as:"
+" bed adhesion, tolerances, designing for 3D printing, tuning, and hardware "
+"choices."
+msgstr ""
+"考虑查看 FTC `文档中3D打印的部份<https://ftc-"
+"docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>`_，这是FTC范围内FDM"
+" 3D打印的完整指南，提供了有关3D打印的许多基本问题的答案，这些问题涉及：床层附着力、公差、3D打印设计、调整和硬件选择。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:16
+msgid "Advantages of 3D Printing"
+msgstr "3D打印的优势"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:18
+msgid ""
+"3D printing allows for customizable sizing and perfect optimization; for "
+"example, teams can print a spool of the exact diameter needed for optimal "
+"speed, or a belt pulley with a certain number of teeth."
+msgstr "3D打印允许定制尺寸和完美优化；例如，团队可以打印最佳速度所需的精确直径的线轴，或者具有一定齿数的皮带轮。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:19
+msgid ""
+"3D printing allows teams to adapt between kits and individual parts easily, "
+"as not all kits have adaptable mounts or brackets. A good example of this "
+"are the Nexus :term:`mecanum <Mecanum Wheel>` bore adapters that teams 3D "
+"print."
+msgstr ""
+"3D打印允许团队轻松适应套件和单个零件，因为并非所有套件都具有可适应的支架或支架。团队3D打印的Nexusmecanum<Mecanum "
+"Wheel>孔适配器就是一个很好的例子。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:20
+msgid ""
+"3D printing allows teams to fabricate parts that would otherwise be "
+"impossible with materials such as aluminum due to machining restrictions."
+msgstr "3D打印允许团队制造由于加工限制而无法使用铝等材料制造的零件。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:21
+msgid ""
+"3D printing allows teams to have customizable strain relief on wires and "
+"connections. This is a great project and well worth your time."
+msgstr "3D打印允许团队在电线和连接上有可定制的应变消除。这是一个伟大的项目，非常值得你花时间。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:24
+msgid "Disadvantages of 3D Printing"
+msgstr "3D打印的缺点"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:26
+msgid ""
+"**If you are out of 3D printed spares at a competition, you're probably out "
+"of luck. Teams are advised to print at least one set of every single 3D "
+"printed part as spares for competition**."
+msgstr "如果你在比赛中没有3D打印的备件，那么你可能运气不好。建议团队至少打印一套3D打印的零件作为比赛的备件。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:27
+msgid ""
+"3D printed components are generally weaker than other materials such as "
+"aluminum. However, printing in the proper orientation can be very strong - "
+"teams have 3D printed hooks and other parts to support their FRC\\ |reg| "
+"robot (120 pounds) and FTC robots (40 pounds)."
+msgstr ""
+"3D打印部件硬度通常比铝等其他材料弱。然而，正确方向的打印可能非常坚固——团队3D打印挂钩和其他部件来支撑他们的FRC®机器人（120磅）和FTC机器人（40磅）。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:28
+msgid ""
+"3D printed parts should only be loaded in one orientation. That is, if the "
+"robot is hanging from a hook, the only load should be on the bottom face of "
+"the curved part of the hook. Try to eliminate side loads as much as possible"
+" to avoid part failure."
+msgstr ""
+"3D打印的零件只能以一个方向装载。也就是说，如果机器人悬挂在钩子上，唯一的载荷应该在钩子弯曲部分的底面上。尽量消除侧面载荷，以避免零件失效。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:29
+msgid "The size of 3D printed parts is limited by the size of your print bed."
+msgstr "打印零件3D尺寸受打印床尺寸的限制。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:30
+msgid ""
+"Large and thick prints can take a long time (overnight) to print and can run"
+" the risk of failure."
+msgstr "大而厚的打印可能需要很长时间（一夜之间）才能打印出来，并且可能会有失败的风险。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:31
+msgid ""
+"3D printing can end up quite expensive, though filament can be found for a "
+"reasonable price on online vendors such as Amazon."
+msgstr "3D打印最终可能会非常昂贵，尽管在亚马逊等在线供应商那里可以找到价格合理的灯丝。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:34
+msgid "Common Filaments"
+msgstr "普通长丝"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:36
+msgid ""
+"For almost every part that needs to be 3D printed for FTC, **PLA (or PLA+, "
+"Pro, etc) and/or PETG will meet all the needs for strength, durability, and "
+"aesthetics.** These two filament types are by far the easiest to print, and "
+"are sold by many manufacturers for reasonable prices. Most of the other "
+"filaments here offer very specific advantages (like TPU) that come at the "
+"cost of effort, time, and money."
+msgstr ""
+"对于几乎所有需要3D打印FTC的零件，PLA（或PLA+、Pro等）和/或PETG将满足强度、耐用性和美观性的所有需求。这两种灯丝类型是迄今为止最容易打印的，并且被许多制造商以合理的价格出售。这里的大多数其他灯丝都提供了非常具体的优势（如TPU），这些优势是以付出努力、时间和金钱为代价的。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
+msgid ""
+"If your printer's hotend (the part that melts the filament) has a PTFE "
+"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
+"(common in lower price printers like the Ender 3 and its variants), then you"
+" **should not be printing at or above 250° C**. Doing so will cause the PTFE"
+" tube to degrade and melt, releasing toxic fumes. If you need to print at "
+"these temperatures and you have a PTFE lined hotend, you can look at "
+"upgrading to an all-metal hotend."
+msgstr ""
+"如果您的打印机热端（熔化灯丝的部分）有PTFE（特氟龙）衬里，其中PTFE管一直延伸到热块（常见于价格较低的打印机，如Ender "
+"3及其变体），那么您不应该在250°C或更高温度下打印。这样做会导致PTFE管降解和熔化，释放有毒气体。如果您需要在这些温度下打印，并且您有PTFE衬里的热端，您可以考虑升级到全金属热端。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
+msgid "PLA (Polylactic Acid)"
+msgstr "PLA(聚乳酸)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:43
+msgid ""
+"The most common 3D Printing filament is polylactic acid, or PLA. It is a "
+"plastic made from biological sources like corn starch and sugar cane. PLA is"
+" stiff but more brittle than other filament options and tends to have little"
+" to no warp when printing. PLA is well suited to the majority of robot "
+"parts, but it may not hold up well to shock loads (impacts to parts), and as"
+" such parts should be designed accordingly."
+msgstr ""
+"最常见的3D打印灯丝是聚乳酸或聚乳酸。它是一种由玉米淀粉和甘蔗等生物来源制成的塑料。聚乳酸比其他灯丝更硬，但更脆，打印时往往几乎没有翘曲。聚乳酸非常适合大多数机器人部件，但它可能不能很好地承受冲击载荷（对部件的冲击），因此这些部件应该相应地设计。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
+msgid "PLA hotend temperatures range from 190°-230° C"
+msgstr "PLA热端温度范围为190°-230°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
+msgid ""
+"PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly "
+"required for PLA"
+msgstr "PLA床层温度范围为20°-60°C，但PLA并不严格要求加热床"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
+msgid ""
+"Due to the relatively low melting point of PLA, it is not advisable to leave"
+" PLA parts in locations such as a hot car, as this can produce severe "
+"warping in those parts."
+msgstr "由于PLA的熔点相对较低，不建议将PLA零件留在热车等位置，因为这会在这些零件中产生严重的翘曲。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:50
+msgid ""
+"There are many variations of PLA sold by different manufacturers, like PLA+ "
+"or PLA Pro. These filaments have various additives in them to improve "
+"strength, printability, and other properties. While more expensive, these "
+"products can greatly improve the performance of PLA and cover its "
+"weaknesses."
+msgstr ""
+"不同制造商销售的聚乳酸有许多变体，如聚乳酸+或聚乳酸专业。这些长丝中含有各种添加剂，以提高强度、打印性和其他性能。虽然更昂贵，但这些产品可以大大提高聚乳酸的性能并弥补其弱点。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:53
+msgid "PETG (Polyethylene Terephthalate Glycol)"
+msgstr "PETG (聚对苯二甲酸乙二醇酯)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:55
+msgid ""
+"PETG can be described as a strength upgrade to PLA. It is not difficult to "
+"print, but often has noticeably more stringing and other minor artifacts. "
+"While it technically has a lower tensile strength than PLA, it is far less "
+"brittle and withstands impacts better, through slight flexing. It is a great"
+" option for FTC parts which need to be impact resistant where PLA will not "
+"suffice. Its higher temperature resistance also means it won't warp in a "
+"high ambient temperature such as a hot car."
+msgstr ""
+"PETG可以被描述为PLA的强度升级。它并不难打印，但通常有明显更多的穿线和其他次要工件。虽然从技术上讲，它的拉伸强度低于PLA，但通过轻微的弯曲，它的脆性要小得多，承受冲击的能力也更好。对于需要抗冲击的FTC部件来说，它是一个很好的选择，而PLA是不够的。它更高的耐温性也意味着它不会在高温环境中变形，比如在热车中。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:57
+msgid ""
+"PETG is known for bonding very well to print beds, **especially glass and "
+"PEI**, and is known to rip chunks out of the bed. It is a good idea to add "
+"some glue stick or hairspray before printing it."
+msgstr "PETG以粘合非常好而闻名于打印床，尤其是玻璃和PEI，并且以从床上撕下大块而闻名。在打印之前添加一些胶棒或发胶是个好主意。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
+msgid "PETG hotend temperatures range from 230°-260° C"
+msgstr "PETG热端温度范围为230°-260°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
+msgid "PETG bed temperatures range from 60°-80° C"
+msgstr "PETG床层温度范围为60°-80°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
+msgid "Less Common Filaments"
+msgstr "较少常见的长丝"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:65
+msgid ""
+"These filaments are less used than those listed above, but can still find "
+"plenty of use cases on an FTC robot. These usually are used due to specific "
+"material properties such as flexibility or durability. These often come "
+"however, with substantial obstacles for printing that prevent some printers "
+"from printing them out of the box, along with sometimes being significantly "
+"more expensive."
+msgstr ""
+"这些细丝比上面列出的少用，但是仍然可以在FTC机器人上找到很多用例。这些通常是由于特定的材料特性而使用的，如柔韧性或耐用性。然而，这些通常会出现很大的打印障碍，阻止一些打印机开箱打印，有时还会贵得多。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
+msgid "ABS (Acrylonitrile Butadiene Styrene)"
+msgstr "ABS（丙烯腈丁二烯苯乙烯）"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:70
+msgid ""
+"ABS used to be the standard filament for printing before PLA became "
+"commercially available. You've probably used ABS before in LEGO\\ |reg| "
+"pieces. It can withstand high loads and is quite ductile. This comes at the "
+"cost of printing difficulty, where an enclosure is often necessary to raise "
+"the ambient temperature and prevent severe part warping. The strength "
+"improvements over PLA can be more easily found in PETG, so ABS parts are not"
+" as common in FTC. ABS is quite affordable though, sold at the same prices "
+"as PLA."
+msgstr ""
+"在聚乳酸商业化之前，ABS曾是打印的标准长丝。您可能曾经在LEGO\\|reg|零件中使用过ABS。它可以承受高负荷，而且韧性很好。但这是以打印困难为代价的，通常需要一个外壳来提高环境温度，防止部件严重变形。与PLA相比，PETG更容易提高强度，因此ABS零件在FTC中并不常见。但ABS的价格相当实惠，与PLA的售价相同。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
+msgid "ABS hotend temperatures range from 230°-250° C"
+msgstr "ABS端温度范围为230°-250°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
+msgid "ABS bed temperatures range from 100°-120° C"
+msgstr "ABS床温度范围为100°-120°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
+msgid "Enclosure highly recommended to prevent warping"
+msgstr "强烈推荐外壳以防止翘曲"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:76
+msgid ""
+"Due to the difficulty of printing ABS and its limitations, one might look at"
+" alternatives such as ASA which offer similar properties with much better "
+"printability."
+msgstr "由于打印ABS的困难和局限性，人们可能会考虑ASA等替代品，它们具有更好的打印性能。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:79
+msgid "TPU/TPE (Themoplastic polyurethane/Thermoplastic elastomer)"
+msgstr "TPU/TPE（polyurethane/Thermoplastic弹性体）"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:81
+msgid ""
+"TPU and TPE are both common printing filaments that are widely used for "
+"their flexible material properties. This allows one to create printed parts "
+"that can easily flex and bend. Sold under many different durometers (a "
+"measure on the Shore Hardness Scale of the hardness/flexibility of a "
+"material), TPU/TPE's high impact resistance and layer adhesion make it not "
+"only a versatile filament, but an extremely durable one. In FTC, teams use "
+"TPU/TPE in roles such as printed intake flaps in place of a tube, as well as"
+" custom belts for low-load applications."
+msgstr ""
+"TPU和TPE都是常见的打印长丝，因其柔性材料特性而被广泛使用。这使得人们可以制造出易于弯曲和弯曲的打印零件。在许多不同的硬度下销售（一种材料hardness/flexibility的肖氏硬度等级的衡量标准），TPU/TPE的高抗冲击性和层粘附性使其不仅是一种多功能长丝，而且是一种极其耐用的长丝。在FTC，团队使用TPU/TPE来代替管子，以及用于低负载应用的定制皮带。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:83
+msgid ""
+"Due to its flexible nature, printers that use a Bowden tube extrusion "
+"system, where the extruder motor is not placed on the hotend, will find it "
+"extremely difficult to print TPU/TPE."
+msgstr "由于其灵活性，使用Bowden管挤出系统的打印机，其中挤出机电机不放置在端部，将发现打印TPU/TPE极其困难。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:85
+msgid "TPU/TPE hotend temperatures range from 210°-250° C"
+msgstr "TPU/TPE热端温度范围为210°-250°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:86
+msgid ""
+"TPU/TPE does not usually need a heated bed, but if one is used it should not"
+" go over 60° C as this will fuse TPU with print bed."
+msgstr "TPU/TPE通常不需要加热床，但如果使用加热床，则不应超过60°C，因为这会将TPU与打印床熔化。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:87
+msgid ""
+"TPU/TPE has the tendency to absorb a lot of moisture from the air, and thus "
+"will likely need to be dried before and perhaps during a print."
+msgstr "TPU/TPE有从空气中吸收大量水分的趋势，因此可能需要在打印前或打印期间干燥。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:88
+msgid "Direct drive extruder is highly recommended"
+msgstr "强烈推荐直接驱动挤出机"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:92
+msgid "Exotic Filaments"
+msgstr "进口打印材料"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:94
+msgid ""
+"There is rarely ever any need for these filaments in FTC. They offer "
+"extremely good material properties for parts that need to be subjected to "
+"high forces and adverse environments. They are all much more expensive than "
+"any of the filaments listed above, and offer a multitude of challenges for "
+"printing."
+msgstr ""
+"FTC很少需要这些长丝。它们为需要承受高强度和恶劣环境的零件提供了非常好的材料性能。它们都比上面列出的任何一种长丝贵得多，并为打印带来了许多挑战。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:97
+msgid "Nylon"
+msgstr "尼龙"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:99
+msgid ""
+"Nylon filaments can be glass-filled, carbon fiber-filled, or pure. Nylon is "
+"the king of impact resistance in many situations where the part can flex out"
+" of the way, instead of completely breaking. Occasionally nylon is used for "
+"parts like wheel covers on drivetrains and in places where it will be "
+"repeatedly hit and battered. Nylon requires very high temperatures, "
+"generally requires an enclosure, and absolutely must be dried before (and "
+"while) printing."
+msgstr ""
+"尼龙丝可以是玻璃填充的，碳纤维填充的，也可以是纯的。在许多情况下，尼龙是抗冲击性之王，在这些情况下，零件可以弯曲而不是完全断裂。偶尔，尼龙用于传动系统上的轮罩等零件，以及会反复撞击和撞击的地方。尼龙需要非常高的温度，通常需要外壳，并且在打印前（和打印时）必须绝对干燥。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
+msgid "Nylon hotend temperatures range from 240°-260° C"
+msgstr "尼龙端部温度范围为240°-260°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:102
+msgid "Nylon bed temperatures range from 55°-80° C"
+msgstr "尼龙床温度范围为55°-80°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
+msgid ""
+"Nylon is infamous for absorbing moisture from the air and should be "
+"thoroughly dried before and during printing. Failure to do this will "
+"probably result in a nearly unusable part."
+msgstr "尼龙因吸收空气中的水分而臭名昭著，在打印前和打印过程中应该彻底干燥。不这样做可能会导致几乎无法使用的部分。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:104
+msgid "Enclosure recommended"
+msgstr "建议的附件"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:107
+msgid "Carbon Fiber-filled"
+msgstr "碳纤维填充"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:109
+msgid ""
+"Many filaments are also sold with the addition of small chunks of carbon "
+"fiber mixed into the filament itself. While often though of as an extreme "
+"strength improvement, these filaments are instead meant to be stiffer and "
+"help to improve the printability of filaments like nylon. Carbon fiber-"
+"filled filaments generally require higher temperatures, and a hardened steel"
+" nozzle, but if you can print the pure variants of those filaments, you "
+"should be able to print their carbon fiber-filled counterparts."
+msgstr ""
+"许多长丝也在销售时添加了小块碳纤维混合到长丝本身中。虽然这些长丝通常被认为是一种极端的强度改进，但它们实际上更坚硬，有助于提高尼龙等长丝的打印性。碳纤维填充长丝通常需要更高的温度和硬化的钢喷嘴，但是如果你能打印这些长丝的纯变体，你应该能够打印它们的碳纤维填充长丝。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:113
+msgid "Polycarbonate (PC)"
+msgstr "聚碳酸酯（PC）"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:115
+msgid ""
+"Polycarbonate and its variants are very very strong, technical materials. PC"
+" shines in its ability to be very rigid, and handle shock loads exceedingly "
+"well. PC also requires being dry, having a printer capable of **very** high "
+"temperatures, and an enclosure. It is a very challenging material to print, "
+"and is often very expensive. There is little reason to ever need printed "
+"polycarbonate parts in FTC, with no use cases requiring its strength."
+msgstr ""
+"聚碳酸酯及其变体是非常非常坚固的技术材料。PC在它非常刚性的能力上大放异彩，并且能够非常好地处理冲击载荷。PC还需要干燥，拥有能够承受非常高温度的打印机和外壳。这是一种非常具有挑战性的打印材料，而且通常非常昂贵。FTC几乎没有理由需要打印聚碳酸酯部件，因为没有需要其强度的用例。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:117
+msgid ""
+"There are several PC blends that can be much easier to print, a standout "
+"example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC "
+"that retains many of the advantages of pure PC. PolyLite is not quite as "
+"impact-resistant, but a lot cheaper. Both are much easier to print than pure"
+" PC."
+msgstr ""
+"有几种PC混合物更容易打印，一个突出的例子是PolyMaker "
+"PolyMaxPC。这是一种更容易打印、温度更低的PC，保留了纯PC的许多优点。PolyLite不太耐冲击，但便宜得多。两者都比纯PC更容易打印。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
+msgid "PC hotend temperatures range from 250°-320° C"
+msgstr "PC端温度范围为250°-320°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:120
+msgid "PC bed temperatures range from 80°-140° C"
+msgstr "PC床温度范围为80°-140°C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
+msgid "Enclosure required"
+msgstr "所需附件"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:122
+msgid "Filament must be kept dry"
+msgstr "灯丝必须保持干燥"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:125
+msgid "High-end exotic filaments"
+msgstr "高端进口打印材料"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:127
+msgid ""
+"There are a few other materials that can have very high-end benefits, and "
+"push the envelope on what 3D printing can accomplish, but should not be "
+"printed if you are not *very* confident in your printing skills, and have "
+"basically no use in FTC. These materials include, but are not limited to, "
+"Delrin (Polyoxymethylene Homopolymer Acetal), PEI (Polyether Imide, brand "
+"name ULTEM), PEEK (Polyether Ether Ketone), and PEKK "
+"(Polyetherketoneketone). These materials are extremely hard to print, "
+"require ludicrous temperatures (some to the point where a hardened steel "
+"nozzle begins to melt), and are extremely expensive."
+msgstr ""
+"还有一些其他材料可以具有非常高端的好处，并且在3D打印可以完成的事情上推信封，但如果您对自己的打印技能不是非常有信心，并且在FTC中基本上没有用处，则不应该打印。这些材料包括但不限于Delrin（聚甲醛均聚物缩醛）、PEI（聚醚亚胺，品牌名称ULTEM）、PEEK（聚醚醚酮）和PEKK(Polyetherketoneketone).这些材料极难打印，需要很高的温度（有些达到硬化钢喷嘴开始融化的程度），并且极其昂贵。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:130
+msgid "3D Printing Design Guide"
+msgstr "3D打印设计指南"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:132
+msgid ""
+"Here is a quick guide on designing 3D printed parts that we hope is helpful "
+"for teams who may be unfamiliar with 3D parts."
+msgstr "这里有一个关于设计3D打印零件的快速指南，我们希望对可能不熟悉3D零件的团队有所帮助。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:134
+msgid ""
+"The first consideration when designing 3D printed parts is print "
+"orientation. This refers to the side that contacts the print bed. "
+"Preferably, the part should have a flat bottom to maximize contact with the "
+"print bed."
+msgstr "设计3D打印部件时首先考虑的是打印方向，这是指与打印床接触的一侧，优选地，该部件应具有平底，以最大限度地与打印床接触。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:136
+msgid ""
+"Maximizing contact with the print bed will make sure the part doesn't "
+"delaminate or warp from the bed and increase print quality."
+msgstr "最大限度地与打印床接触将确保零件不会从打印床脱层或翘曲，并提高打印质量。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:138
+msgid ""
+"If it is impossible for the part to have a flat side to print on, a simple "
+"solution is to split the part into multiple parts along a plane. For "
+"instance, the gearbox plate below didn't have a flat side to print on, so it"
+" was split in half. The part was later sandwiched with numerous screws and "
+"plastic glue. If this plate was printed as one part instead of split in "
+"half, support would have to be used to create all of the necessary holes. "
+"Parts that use no support material make sure that the least amount of "
+"plastic is wasted."
+msgstr ""
+"如果零件不可能有平坦的一面可以打印，一个简单的解决方案是沿着平面将零件分成多个部分。例如，下面的变速箱板没有平坦的一面可以打印，所以它被分成两半。这个零件后来被夹在许多螺钉和塑料胶水中。如果这个板是作为一个零件打印的，而不是分成两半，就必须使用支架来制造所有必要的孔。不使用支撑材料的零件可以确保浪费最少的塑料。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+msgid "A 3D printed gearbox, printed in 2 parts, cut along a plane"
+msgstr "一个 3D 打印的齿轮箱，分为2部分打印，沿平面切割"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:144
+msgid ""
+"Don't chamfer or round anything on the perimeter of the first layer on the "
+"bottom face of the part. Chamfering or rounding will increase the chances of"
+" the part warping, especially on unheated print plates."
+msgstr "不要在零件底面第一层的周边倒角或倒圆任何东西。倒角或倒圆会增加零件翘曲的机会，尤其是在未加热的印版上。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:147
+msgid "Draft Angle"
+msgstr "牵伸角"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:149
+msgid ""
+"Draft angle refers to the overhang angle between the part side and normal "
+"vector from the print plate. The maximum draft angle refers to the maximum "
+"angle the printer can print without support material and is based on the "
+"printer, print settings (notably speed, temperature and cooling) and "
+"filament type. When trying to decrease support material, consider every "
+"overhang angle and make sure it is within the maximum draft angle. Staying "
+"within the maximum draft angle will also decrease the chances of part "
+"warping."
+msgstr ""
+"拔模角是指部件侧面与打印板法向量之间的悬垂角度。最大拔模角是指打印机在不使用支撑材料的情况下可以打印的最大角度，取决于打印机、打印设置（主要是速度、温度和冷却）以及长丝类型。在尝试减少支撑材料时，要考虑每个悬伸角度，并确保其在最大牵伸角度范围内。保持在最大拔模角范围内也会降低部件翘曲的几率。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:152
+msgid "Stress Vectors"
+msgstr "应力矢量"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:154
+msgid ""
+"Perhaps the most important consideration is stress vectors. 3D printed parts"
+" are inherently stronger on two axes and weaker on one axis. The weaker axis"
+" comes from the layering action that defines FDM 3D printing. A common fix "
+"to this is to simply increase the print temperature up to a certain limit "
+"until it starts decreasing print quality, but the weaker axis can be "
+"resolved by again splitting up into multiple parts. The point to get across "
+"is to try to increase strength by optimizing sections of the part on the "
+"plane they are being printed on. For instance, this assembly below was "
+"responsible for hanging the entire robot, so it had to be the maximum "
+"strength possible for a 3D printed part."
+msgstr ""
+"也许最重要的考虑因素是应力矢量。3D打印零件在两个轴上天生更强，在一个轴上更弱。较弱的轴来自定义FDM3D打印的分层动作。一个常见的解决方法是简单地将打印温度提高到一定的限度，直到它开始降低打印质量，但是较弱的轴可以通过再次分成多个部分来解决。要理解的一点是尝试通过优化零件在打印平面上的部分来提高强度。例如，下面的组件负责悬挂整个机器人，因此它必须是3D打印零件的最大强度。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:156
+msgid ""
+"It might seem counterintuitive to split up a part into multiple parts to "
+"increase strength, but there is a logic behind it."
+msgstr "将一个零件分成多个零件来增加强度似乎违反直觉，但这背后有一个逻辑。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:158
+msgid ""
+"The part could have been easily printed as a single part, but it would be "
+"fairly weak when stresses are exerted in the upward direction. Splitting the"
+" part and creating new flat surfaces to print on will strengthen each axis. "
+"*If one small part failed, the robot might still be able to somewhat "
+"function.* This would be preferable to the entire piece failing at once. In "
+"this example, the side pieces were printed as separate parts on a "
+"complementary axis to strengthen the assembly."
+msgstr ""
+"该零件可以很容易地作为单个零件打印，但当向上施加应力时，它会相当弱。拆分零件并创建新的平坦表面来打印将加强每个轴。如果一个小零件发生故障，机器人可能仍然能够发挥一定的作用。这比整个零件一次发生故障要好。在这个例子中，侧件作为单独的零件打印在互补轴上，以加强组件。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+msgid "A multipart assembly 3D printing"
+msgstr "多部件组装3D打印"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+msgid "An assembled version of what was printing in the previous image"
+msgstr "上一张图片中打印内容的组装版本"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:168
+msgid ""
+"This assembly is a good example of considering part orientation, draft "
+"angles, and stress vectors in each part of the design. Complex parts can be "
+"made strong and without any support by simply splitting it up in the right "
+"way."
+msgstr ""
+"这个装配是一个很好的例子，说明在设计的每个部分都要考虑零件的方向、拔模角和应力矢量。只需以正确的方式进行拆分，就能使复杂的零件在没有任何支撑的情况下变得坚固。"

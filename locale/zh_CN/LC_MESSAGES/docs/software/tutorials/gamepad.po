@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-02 16:15+0000\n"
+"POT-Creation-Date: 2023-12-04 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -61,7 +61,8 @@ msgid ""
 "``L1`` is ``left_bumper``, ``L2`` is ``left_trigger``, ``R1``/``R2`` are the"
 " right-hand equivalents."
 msgstr ""
-"``L1``是``left_bumper``，``L2``是``left_trigger``，``R1``/``R2`表示右手侧的``bumper``和``trigger``按键。"
+"``L1`` 是 ``left_bumper`` ， ``L2`` 是 ``left_trigger`` ， ``R1``/``R2`` 表示右手侧的 "
+"``bumper`` 和 ``trigger`` 按键。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:33
 msgid "Button Aliases"
@@ -175,7 +176,8 @@ msgid ""
 "state to the gamepad state in the previous loop; therefore, it is necessary "
 "to store it."
 msgstr ""
-"但是，这将表现出不可预测的行为，因为每次按下按钮时，随着循环频率的变化以及按钮按下长度的变化，将多次调用``setPosition``方法。有一些技术可以避免这种情况，但是它们都需要将游戏手柄状态与上一个循环中的游戏手柄状态进行比较；因此，有必要存储它。"
+"但是，这将表现出不可预测的行为，因为每次按下按钮时，随着循环频率的变化以及按钮按下长度的变化，将多次调用 ``setPosition`` "
+"方法。有一些技术可以避免这种情况，但是它们都需要将游戏手柄状态与上一个循环中的游戏手柄状态进行比较；因此，有必要存储它。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:84
 msgid "Storing Gamepad State"
@@ -189,7 +191,7 @@ msgid ""
 "``gamepad.copy(gamepadToCopy)``."
 msgstr ""
 "虽然每个游戏手柄输入的先前状态可以单独存储在一个变量中，例如``boolean previousA``，但这很快就会变得烦人。幸运的是，FTC "
-"SDK提供了一种复制游戏手柄状态的方法，带有``gamepad.copy(gamepadToCopy)``。"
+"SDK提供了一种复制游戏手柄状态的方法，带有 ``gamepad.copy(gamepadToCopy)`` 。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:88
 msgid ""
@@ -201,13 +203,15 @@ msgid ""
 "update concurrently for ``LinearOpMode``, and so can change during a loop "
 "iteration."
 msgstr ""
-"除了存储循环前一次迭代的gamepad状态之外，还存储循环当前迭代的gamepad状态。这是必要的，因为如果按钮的状态总是从``gamepad1``/``gamepad2``读取，它可能会在读取值和存储前一次值之间改变。这是因为``gamepad1``/``gamepad2``同时更新``LinearOpMode``，因此可以在循环迭代期间改变。"
+"除了存储循环前一次迭代的gamepad状态之外，还存储循环当前迭代的gamepad状态。这是必要的，因为如果按钮的状态总是从 ``gamepad1`` "
+"/ ``gamepad2`` 读取，它可能会在读取值和存储前一次值之间改变。这是因为 ``gamepad1`` / ``gamepad2`` 同时更新 "
+"``LinearOpMode`` ，因此可以在循环迭代期间改变。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:90
 msgid ""
 "In a ``LinearOpMode`` based TeleOp program, storing both current and "
 "previous gamepad state could look like:"
-msgstr "在基于``LinearOpMode``的TeleOp程序中，存储当前和以前的游戏手柄状态可能如下所示："
+msgstr "在基于 ``LinearOpMode`` 的TeleOp程序中，存储当前和以前的游戏手柄状态可能如下所示："
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:126
 msgid "Rising Edge Detector"
@@ -243,7 +247,7 @@ msgstr ""
 msgid ""
 "This will increase the servo position by 0.1 exactly once per press of "
 "``a``."
-msgstr "这将使每按``a``一次，伺服位置正好增加0.1。"
+msgstr "这将使每按 ``a`` 一次，伺服位置正好增加0.1。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:146
 msgid "Falling Edge Detector"
@@ -263,7 +267,7 @@ msgstr ""
 msgid ""
 "This will decrease the servo position by 0.1 exactly once per release of "
 "``b``."
-msgstr "这将减少伺服位置0.1正好每释放一次``b``。"
+msgstr "这将减少伺服位置0.1正好每释放一次 ``b`` 。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:158
 msgid ""
@@ -303,7 +307,7 @@ msgstr "在相应的TeleOp循环内部："
 msgid ""
 "This will turn on the intake when ``a`` is pressed, and leave it on until it"
 " is pressed again."
-msgstr "这将在按下``a``时启动吸入拾取装置，并保持运行状态，直到再次按下。"
+msgstr "这将在按下 ``a`` 时启动吸入拾取装置，并保持运行状态，直到再次按下。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:196
 msgid ""
@@ -390,7 +394,8 @@ msgid ""
 "``Gamepad.RUMBLE_DURATION_CONTINUOUS`` may be used to indicate that the "
 "rumble should continue until another rumble action is commanded."
 msgstr ""
-"震动持续时间以毫秒为单位指定为整数。常数``Gamepad.RUMBLE_DURATION_CONTINUOUS``可用于指示震动应继续，直到命令另一个震动动作。"
+"震动持续时间以毫秒为单位指定为整数。常数 ``Gamepad.RUMBLE_DURATION_CONTINUOUS`` "
+"可用于指示震动应继续，直到命令另一个震动动作。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:239
 msgid ""
@@ -457,7 +462,8 @@ msgid ""
 "rumble motor should operate at. When a gamepad is commanded to run a "
 "``RumbleEffect``, it will perform each of the \"Steps\" in series."
 msgstr ""
-"为了创建更高级的震动行为，可以创建一个``RumbleEffect``，它由指定每个震动电机应运行的功率和持续时间的“步骤”组成。当游戏手柄被命令运行``RumbleEffect``时，它将连续执行每个“步骤”。"
+"为了创建更高级的震动行为，可以创建一个 ``RumbleEffect`` "
+"，它由指定每个震动电机应运行的功率和持续时间的“步骤”组成。当游戏手柄被命令运行 ``RumbleEffect`` 时，它将连续执行每个“步骤”。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:275
 msgid ""
@@ -467,21 +473,21 @@ msgid ""
 " ``build()`` function to create a ``RumbleEffect`` from the sequence of "
 "steps."
 msgstr ""
-"要创建``RumbleEffect``，必须使用RumbleEffect.Builder类。构建器提供``addStep（double rumble1,"
-" double rumble2, int "
-"durationMs）``函数用于向序列添加步骤，以及``build()``函数用于从步骤序列创建RumbleEffect。"
+"要创建 ``RumbleEffect`` ，必须使用RumbleEffect.Builder类。构建器提供 ``addStep（double "
+"rumble1, double rumble2, int durationMs）`` 函数用于向序列添加步骤，以及 ``build()`` "
+"函数用于从步骤序列创建RumbleEffect。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:277
 msgid ""
 "Using an anonymous instance of the builder class is the cleanest way to "
 "construct a ``RumbleEffect``, for example:"
-msgstr "使用构建器类的匿名实例是构造``RumbleEffect``的最干净方法，例如："
+msgstr "使用构建器类的匿名实例是构造 ``RumbleEffect`` 的最干净方法，例如："
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:289
 msgid ""
 "Once a ``RumbleEffect`` has been created, it can be sent to a gamepad by "
 "calling:"
-msgstr "一旦创建了``RumbleEffect``，它可以通过调用发送到游戏手柄："
+msgstr "一旦创建了 ``RumbleEffect`` ，它可以通过调用发送到游戏手柄："
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:296
 msgid "LED Control"
@@ -499,7 +505,8 @@ msgid ""
 "``Gamepad.LED_DURATION_CONTINUOUS`` may be used to indicate that the LED "
 "should remain the specified color until another command is issued."
 msgstr ""
-"LED持续时间以毫秒为单位指定为整数。常量``Gamepad.LED_DURATION_CONTINUOUS``可用于指示LED应保持指定的颜色，直到发出另一个命令。"
+"LED持续时间以毫秒为单位指定为整数。常量 ``Gamepad.LED_DURATION_CONTINUOUS`` "
+"可用于指示LED应保持指定的颜色，直到发出另一个命令。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:304
 msgid ""
@@ -524,7 +531,8 @@ msgid ""
 "to maintain it. When a gamepad is commanded to run an ``LedEffect``, it will"
 " perform each of the \"Steps\" in series."
 msgstr ""
-"要创建更高级的LED行为，可以创建一个``LedEffect``，它由指定颜色和维护颜色持续时间的“步骤”组成。当游戏手柄被命令运行``LedEffect``时，它将连续执行每个“步骤”。"
+"要创建更高级的LED行为，可以创建一个 ``LedEffect`` ，它由指定颜色和维护颜色持续时间的“步骤”组成。当游戏手柄被命令运行 "
+"``LedEffect`` 时，它将连续执行每个“步骤”。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:315
 msgid ""
@@ -533,18 +541,18 @@ msgid ""
 "durationMs)`` function which is used to add a step to the sequence, and the "
 "``build()`` function to create an ``LedEffect`` from the sequence of steps."
 msgstr ""
-"要创建``LedEffect``，必须使用``LedEffect.Builder``类。构建器提供了``addStep(double r, double"
-" g, double b, int "
-"durationMs)``函数，用于向序列添加步骤，以及``build()``函数，用于从步骤序列创建``LedEffect``。"
+"要创建 ``LedEffect`` ，必须使用 ``LedEffect.Builder`` 类。构建器提供了 ``addStep(double r, "
+"double g, double b, int durationMs)`` 函数，用于向序列添加步骤，以及 ``build()`` "
+"函数，用于从步骤序列创建 ``LedEffect`` 。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:317
 msgid ""
 "Using an anonymous instance of the builder class is the cleanest way to "
 "construct an ``LedEffect``, for example:"
-msgstr "使用构建器类的匿名实例是构建``LedEffect``的最干净方法，例如："
+msgstr "使用构建器类的匿名实例是构建 ``LedEffect`` 的最干净方法，例如："
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:328
 msgid ""
 "Once an ``LedEffect`` has been created, it can be sent to a gamepad by "
 "calling:"
-msgstr "一旦创建了``LedEffect``，它可以通过调用发送到游戏手柄："
+msgstr "一旦创建了 ``LedEffect`` ，它可以通过调用发送到游戏手柄："

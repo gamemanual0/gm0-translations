@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-29 04:15+0000\n"
+"POT-Creation-Date: 2023-12-04 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,3 +25,33 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:4
 msgid "Active Intake"
 msgstr "主动吸入拾取装置"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:13
+msgid ""
+"There are multiple parts of an effective intake: intake geometry, intake "
+"type and material, and speed. However, a common rule of them is the faster "
+"the intake, often the more effective it is. For example, near the end of "
+"Rover Ruckus, many of the top performing teams used a 3.7:1 (1600 RPM) motor"
+" or a 5.2:1 (1000 RPM) motor on their intake."
+msgstr ""
+"有用的吸入装置有多个部分：吸入口的几何形状、吸入物体类型和材料以及速度。然而，它们的一个共同规则是吸入速度越大，通常来说，越有效。例如，在Rover "
+"Ruckus比赛接近尾声时，许多具有顶级表现的团队在进气时使用了3.7:1（1600转）电机或5.2:1（1000转）的电机。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:15
+msgid ""
+"While not a necessity, it is highly recommended that teams dedicate at least"
+" one motor to their intake if possible."
+msgstr "虽然并非完全必要，但强烈建议团队有可能的话至少使用一个电机来做吸入装置。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:26
+msgid ""
+"When this robot drives up to a ball, it barely has to point itself at the "
+"ball before the ball is instantly locked in between the two rows of wheels. "
+"What makes it so effective is the immense amount of testing that went into "
+"its design. The team tried a number of intake shapes, initially building "
+"with wood and rubber bands, and recorded which shapes were most effective. "
+"By testing their intake design out before competition, they didn't have to "
+"guess whether it would work as intended: they put it on the field with "
+"confidence."
+msgstr ""
+"当这个机器人驶向一个球时，它几乎不需要把自己对准球，球就会立即被锁在两排轮子之间。它如此有效的原因是它的设计中进行了大量的测试。该团队尝试了许多吸入装置的形状，最初是用木头和橡皮筋建造的，并记录了哪些形状最有效。通过在比赛前测试他们的吸入装置的设计，他们不必猜测它是否会按预期工作：他们自信地把它放在比赛场地上。"
