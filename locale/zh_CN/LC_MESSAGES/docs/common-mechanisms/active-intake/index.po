@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2023-12-06 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,6 +26,29 @@ msgstr ""
 msgid "Active Intake"
 msgstr "主动吸入拾取装置"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:6
+msgid ""
+"There's one main rule when it comes to intakes in FTC: you need one. Before "
+"diving in, what *is* an intake in the first place?"
+msgstr "说到FTC的主动吸入拾取装置，有一个主要规则：你肯定需要这么一个结构。在深入研究之前，首先什么是主动吸入拾取装置？"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:9
+msgid "Intake"
+msgstr "吸入拾取装置"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:9
+msgid ""
+"A mechanism designed to pick up game elements using some component of "
+"rotational motion powered by a motor."
+msgstr "利用马达驱动的旋转运动的某些部分来拾取游戏元素的结构。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:11
+msgid ""
+"An intake is differentiated from a claw as an intake does not grasp "
+"individual game elements using a pinching motion, but rather sucks the "
+"element in through a variety of means such as wheels, tubes, etc."
+msgstr "吸入拾取装置与夹子不同，因为吸入拾取装置不会使用捏合动作抓住单个游戏元素，而是通过轮子、管子等各种方式将元素吸入。"
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:13
 msgid ""
 "There are multiple parts of an effective intake: intake geometry, intake "
@@ -35,13 +58,39 @@ msgid ""
 " or a 5.2:1 (1000 RPM) motor on their intake."
 msgstr ""
 "有用的吸入装置有多个部分：吸入口的几何形状、吸入物体类型和材料以及速度。然而，它们的一个共同规则是吸入速度越大，通常来说，越有效。例如，在Rover "
-"Ruckus比赛接近尾声时，许多具有顶级表现的团队在进气时使用了3.7:1（1600转）电机或5.2:1（1000转）的电机。"
+"Ruckus比赛接近尾声时，许多具有顶级表现的团队在进气时使用了3.7:1（1600RPM）电机或5.2:1（1000RPM）的电机。"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:15
 msgid ""
 "While not a necessity, it is highly recommended that teams dedicate at least"
 " one motor to their intake if possible."
-msgstr "虽然并非完全必要，但强烈建议团队有可能的话至少使用一个电机来做吸入装置。"
+msgstr "虽然并非完全必要，但强烈建议团队有可能的话至少使用一个电机来做吸入拾取装置。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:17
+msgid ""
+"When it comes to intakes: \"**Touch it, own it**\" is a really valuable "
+"concept."
+msgstr "谈到吸入装置，\"**接触到目标，并把目标放进机器**”\" 是一个非常有价值的概念。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:19
+msgid ""
+"When your intake comes in contact with game elements, you want it to "
+"instantly control them. You should design with a margin for error, both in "
+"the orientation of the game piece and in the alignment of the robot. For "
+"example, look at FRC\\ |reg| Team 694's ball intake on their 2019 robot:"
+msgstr ""
+"当你的吸入拾取装置接触到游戏元素时，你希望它能立即控制它们。你应该在设计时留有误差余地，无论是游戏部件的方向还是机器人的对齐方式。例如，看看FRC\\ "
+"|reg| 694队2019年机器人吸入了多少球："
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:24
+msgid ""
+"FRC Team 694's Deep Space ball intake with 2 horizontal rollers with "
+"compliant wheels"
+msgstr "FRC 694 队的 \"深空\"——Deep Space——球形吸入拾取装置，配有 2 个水平滚轮和顺应性滚轮"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:24
+msgid "FRC 694 StuyPulse, Deep Space"
+msgstr "FRC 694 StuyPulse, Deep Space"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:26
 msgid ""
