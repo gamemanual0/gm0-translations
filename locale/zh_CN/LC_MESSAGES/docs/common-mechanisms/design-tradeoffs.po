@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 16:18+0000\n"
+"POT-Creation-Date: 2023-12-09 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: wwsk2008sq, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -21,3 +21,75 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:4
+msgid "Design Tradeoffs"
+msgstr "设计权衡"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:7
+msgid "**Problem**"
+msgstr "**问题**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:7
+msgid "Solution"
+msgstr "解决方案"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:9
+msgid "**2 motor drivetrain**"
+msgstr "**双电机驱动系统**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:11
+msgid "Less power"
+msgstr "减少功率"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:12
+msgid "Less acceleration"
+msgstr "加速度降低"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:9
+msgid "**4 motor drivetrain**"
+msgstr "**4 发动机传动系统**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:11
+msgid "Ability to traverse obstacles"
+msgstr "穿越障碍的能力"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:12
+msgid "Improved power and acceleration"
+msgstr "提高动力和加速度"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:14
+msgid "**Mecanum, 6WD, etc.**"
+msgstr "**Mecanum、六轮驱动等**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:16
+msgid "More agile, higher top speed"
+msgstr "更灵活，最高速度更高"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:17
+msgid "Customizable gear ratio"
+msgstr "可定制的齿轮传动比"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:19
+msgid "**Claw**"
+msgstr "**爪子/夹子**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:21
+msgid "Controls 1 element at a time"
+msgstr "一次只能拾取1个元素"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:22
+msgid "Easy to break"
+msgstr "很容易被打断"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:19
+msgid "**Intake**"
+msgstr "**吸入拾取装置**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:21
+msgid "Controls multiple elements at a time"
+msgstr "能够同时收集多个元素"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:22
+msgid "Much more efficient"
+msgstr "效率要高得多"

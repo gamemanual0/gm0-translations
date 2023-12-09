@@ -5,18 +5,158 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 16:18+0000\n"
+"POT-Creation-Date: 2023-12-09 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: wwsk2008sq, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:4
+msgid "Drawer Slides"
+msgstr "抽屉滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:8
+msgid ""
+"These slides are available from a number of different vendors, and come in "
+"many varieties, so choosing the right slide can seem overwhelming. Steel "
+"drawer slides are common, but can be hard to mount, as they aren't made to "
+"be stacked. Aluminum drawer slides, such as the MiSUMI slides, are generally"
+" the best option for teams."
+msgstr ""
+"这些滑轨有许多不同的供应商提供，而且种类繁多，因此选择合适的滑轨可能会让人不知所措。钢制抽屉滑轨很常见，但很难安装，因为它们不是用来堆叠的。铝制抽屉滑轨，如"
+" MiSUMI 滑轨，通常是团队的最佳选择。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:10
+msgid ""
+"**We recommend the Viper Slides or MiSUMI slides for newer teams.** Viper "
+"Slides are cheaper and interface better with goBILDA products, while MiSUMI "
+"slides interface better with REV products. Viper slides are also available "
+"in a `complete kit <https://www.gobilda.com/2-stage-viper-slide-kit/>`_"
+msgstr ""
+"** 我们向新团队推荐 Viper 滑轨或 MiSUMI 滑轨。** Viper 滑轨的价格便宜，与 goBILDA 产品的接口适配更好，而 "
+"MiSUMI 滑轨与 REV 产品的接口适配更好。Viper 滑轨也有 `\"完整套件\"可供购买 "
+"<https://www.gobilda.com/2-stage-viper-slide-kit/>`_。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:14
+msgid ""
+"When running two sets of drawer slides together, they should be mounted to "
+"face each other in order to reduce sag. This is especially important for "
+"horizontal extensions."
+msgstr "当两组抽屉滑轨一起运行时，它们应面对面安装，以减少下垂。这对于水平方向上的延伸尤其重要。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:0
+msgid ""
+"7236 Recharged Green's Rover Ruckus robot with two sets of SAR3 slides both "
+"facing the ground on their horizontal extension."
+msgstr "7236 Recharged Green的 Rover Ruckus 机器人，拥有两套 SAR3 滑轨，都在水平延伸部分朝向地面。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:19
+msgid "7236 Recharged Green, Rover Ruckus"
+msgstr "7236 Recharged Green, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:21
+msgid ""
+"On 7236's robot, the slides are not facing each other. The sag caused by "
+"this is largely mitigated by supporting the extension at the end with omni "
+"wheels."
+msgstr "在 7236 的机器人上，滑轨不是面对面的。通过在末端使用万向轮支撑延伸部分，在很大程度上缓解了由此造成的下垂。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:0
+msgid ""
+"12791 Iterative Intentions's Freight Frenzy Robot with two sets of SAR240 "
+"slides facing each other on their horizontal extension."
+msgstr ""
+"12791 Iterative Intentions 的 Freight Frenzy Robot，两组 SAR240 滑轨在水平延伸部分相对。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:26
+msgid "12791 Iterative Intentions, Power Play"
+msgstr "12791 Iterative Intentions, Power Play"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:28
+msgid ""
+"On 12791's robot, the slides face each other, which decreases sag in "
+"comparison to other orientations."
+msgstr "在 12791 的机器人上，两组滑轨面对面，与其他方向相比，可以减少下垂。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:30
+msgid "Listed below are the recommended drawer slides."
+msgstr "以下是推荐的抽屉滑轨。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:33
+msgid "Steel-rolled cabinet drawer slides"
+msgstr "钢制橱柜式抽屉滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:35
+msgid ""
+"Available from your local hardware store, steel slides aren't a bad option "
+"for FTC\\ |reg| teams, as they are heavy-duty enough for most use cases. "
+"However, these kinds of slides are much heavier than other aluminum slide "
+"options. Furthermore, these slides are not designed to have bearings or a "
+"second slide attached to them, because they only contain mounting for a "
+"standard drawer. Thus, these slides require drilling holes in order to mount"
+" the necessary parts for linear extension."
+msgstr ""
+"钢制滑轨可以在当地五金店买到，对于 FTC\\ |reg| "
+"团队来说，钢制滑梯也不失为一种好的选择，因为它们的重量足以满足大多数使用情况。不过，这种滑轨比其他铝制滑轨要重很多。此外，这些滑轨在设计上没有轴承或第二个滑轨，因为它们只包含一个标准抽屉的安装。因此，这些滑轨需要钻孔才能安装线性延伸所需的部件。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:38
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:76
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:99
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:128
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:40
+msgid "Commonplace at any hardware store"
+msgstr "在任何五金店都很常见"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:41
+msgid "Not very expensive"
+msgstr "价格不贵"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:44
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:84
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:109
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:135
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:46
+msgid "Heavier than other slide options (steel as opposed to aluminum)"
+msgstr "比其他滑轨更重（钢制而非铝制）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:47
+msgid "Sliding is usually good but not great"
+msgstr "滑动性能通常还不错，但不是非常好"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:48
+msgid "Hard to adapt to building systems"
+msgstr "难以适应仍在修建的系统"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:49
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:88
+msgid "3D printed spacers may be required"
+msgstr "可能需要 3D 打印的垫片"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:52
+msgid "MiSUMI Telescopic Slide Rails"
+msgstr "MiSUMI伸缩式滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:102
+msgid "Compatible with goBILDA ecosystem"
+msgstr "与 goBILDA 生态兼容"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:115
+msgid "Long Robotics Slides"
+msgstr "Long Robotics 滑轨"

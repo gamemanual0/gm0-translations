@@ -5,18 +5,134 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 16:18+0000\n"
+"POT-Creation-Date: 2023-12-09 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:4
+msgid "Computer Vision"
+msgstr "计算机视觉"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:6
+msgid ""
+"Computer vision is the process of using computers to understand digital "
+"images, such as photographs and videos. Computer vision offers object "
+"detection which is commonly needed in FTC\\ |reg|."
+msgstr "计算机视觉是利用计算机理解照片和视频等数字图像的过程。计算机视觉可提供 FTC\\ |reg| 中通常需要的物体检测功能。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:8
+msgid ""
+"Currently, there are 3 commonly used forms of computer vision: TensorFlow "
+"Lite, AprilTags, and OpenCV (via VisionPortal/EasyOpenCV)."
+msgstr ""
+"目前，有 3 种常用的计算机视觉形式：TensorFlow Lite、AprilTags 和 OpenCV（通过 "
+"VisionPortal/EasyOpenCV）。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:11
+msgid "Officially Supported Solutions"
+msgstr "官方支持的解决方案"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:14
+msgid "TensorFlow"
+msgstr "TensorFlow"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:16
+msgid ""
+"TensorFlow is Google's machine learning technology, which can be trained to "
+"detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight "
+"version of Google's TensorFlow designed to run on mobile devices. Along with"
+" Android Studio and OnBot support, TensorFlow has block support which makes "
+"it a good choice for most teams."
+msgstr ""
+"TensorFlow是谷歌的机器学习技术，可以通过训练来检测物体。FTC SDK使用TensorFlow "
+"Lite，这是谷歌TensorFlow的轻量级版本，提供在移动设备上使用与运行。除了支持Android "
+"Studio和OnBot之外，TensorFlow还支持图形化编程，这使得它成为大多数团队的不错选择。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:18
+msgid ""
+"Sample OpModes for TensorFlow being used for pixel detection (CENTERSTAGE) "
+"can be found `here <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ "
+"(Blocks), and a Java example can be found `here <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__."
+msgstr ""
+"用于像素检测（CENTERSTAGE）的 TensorFlow OpModes 示例可在 `此处 <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-"
+"TFOD>`__（块）中找到，Java 示例可在 `此处 <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__中找到。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:20
+msgid ""
+"*FIRST*\\ |reg| has released a tool called FTC-ML to train your own "
+"TensorFlow Lite model for detecting custom objects. Details about FTC-ML can"
+" be found `on FTC Docs <https://ftc-"
+"docs.firstinspires.org/ftc_ml/index.html>`_."
+msgstr ""
+"*FIRST*\\ |reg| 发布了一款名为 FTC-ML 的工具，用于训练自己的 TensorFlow Lite 模型，以检测自定义对象。有关 "
+"FTC-ML 的详细信息，请访问 `FTC 文档 <https://ftc-"
+"docs.firstinspires.org/ftc_ml/index.html>`_。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:23
+msgid "AprilTags"
+msgstr "AprilTags"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:25
+msgid ""
+"AprilTags detect specific low-resolution, black-and-white images that are "
+"placed on various parts of the field. AprilTags are a great way to detect "
+"specific parts of the fields at wide angles, distances, and in a variety of "
+"lighting conditions. AprilTags are supported in OnBot Java, Android Studio, "
+"and Blocks."
+msgstr ""
+"AprilTags检测可以放置在自定义元素上的特定低分辨率黑白图像。Apriltags是在各种照明条件下检测自定义元素的好方法。由于AprilTags是EasyOpenCV的插件，因此团队必须已经在他们的机器人上安装了EasyOpenCV。AprilTags仅在Android"
+" Studio中受支持。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:27
+msgid ""
+"You can learn more about implementing AprilTags `on FTC Docs <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
+"intro.html>`__. Supported AprilTag images are available on this `pdf "
+"<https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`__."
+msgstr ""
+"有关 AprilTag 的更多信息，请访问 `FTC 文档 <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
+"intro.html>`__。支持的 AprilTag 图像可在此 `pdf "
+"<https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`___上获取。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:30
+msgid "VisionPortal"
+msgstr "VisionPortal"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:38
+msgid "EasyOpenCV Simulator"
+msgstr "EasyOpenCV模拟器"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:40
+msgid ""
+"EasyOpenCV Simulator is a straightforward way to test your pipelines "
+"directly on your computer. It supports Windows, macOS, and Linux, and "
+"simulates a portion of the FTC SDK structure including the VisionPortal API,"
+" allowing you to copy and paste pipelines."
+msgstr ""
+"EasyOpenCV Simulator是直接在计算机上测试的直接方法，它支持Windows、macOS和Linux，并模拟FTC "
+"SDK结构的一部分，允许您复制和粘贴。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:42
+msgid ""
+"You can find EasyOpenCV Simulator `here <https://github.com/deltacv/EOCV-"
+"Sim>`__."
+msgstr ""
+"您可以在`这里 <https://github.com/deltacv/EOCV-Sim>`__找到 EasyOpenCV Simulator。"

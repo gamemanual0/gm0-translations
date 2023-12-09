@@ -5,18 +5,92 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 16:18+0000\n"
+"POT-Creation-Date: 2023-12-09 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: wwsk2008sq, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:4
+msgid "Custom Options"
+msgstr "个性化定制选择"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:6
+msgid ""
+"Some teams have opted to build custom solutions for linear motion. Many of "
+"these teams borrow concepts from FRC\\ |reg| teams, modeling their elevators"
+" off of the tall systems found on the larger robots. There's a reason that "
+"many competitive FRC teams build the same type of elevator - at their scale,"
+" the box tube elevator has proven to be the most efficient way to get game "
+"pieces off the ground at blisteringly fast speeds."
+msgstr ""
+"一些团队选择定制线性运动解决方案。其中许多团队借鉴了 FRC\\ |reg| 团队的概念，以大型机器人上的高大系统为蓝本来设计他们的升降结构。许多 "
+"FRC 竞技团队建造相同类型的升降机是有原因的--在他们的规模中，箱管式升降结构已被证明是以极快的速度将游戏部件送离地面的最有效方式。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:8
+msgid ""
+"When built correctly, an elevator of this type can withstand hundreds of "
+"pounds of load on any axis while barely weighing anything. However, existing"
+" off-the-shelf options already fill the linear motion needs of most FTC\\ "
+"|reg| teams."
+msgstr ""
+"如果制造得当，这种类型的升降结构可以在任何轴上承受数百磅的负载，而几乎没有任何重量。然而，现有的现成选件已经可以满足大多数 FTC\\ |reg| "
+"团队的线性运动需求。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:10
+msgid ""
+"Custom extension systems also require tons of work in CAD, hours upon hours "
+"of manufacturing time, and may need multiple iterations before they work "
+"correctly. Due to their complexity and how challenging they are to design, "
+"less experienced teams may encounter significant challenges."
+msgstr ""
+"定制扩展系统还需要大量的计算机辅助设计工作，数小时的制造时间，并且可能需要多次迭代才能正常工作。由于它们的复杂性和设计的挑战性，经验不足的团队可能会遇到重大挑战。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:12
+msgid ""
+"Lightweight drawer slides (MiSUMI aluminum and Long Robotics Slides) can "
+"offer similar performance at a fraction of the complexity."
+msgstr "轻型抽屉滑轨（MiSUMI 铝制滑轨和 Long Robotics 滑轨）可以提供类似的性能，但复杂程度却远低于上述架构。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:17
+msgid "7236's Rover Ruckus bot with custom box tube elevator"
+msgstr "7236 的 Rover Ruckus 机器人，装载有定制的箱管升降结构"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:17
+msgid "7236 Recharged Green, Rover Ruckus, custom box tube linear elevator"
+msgstr "7236 Recharged Green，Rover Ruckus，定制的箱管式线性升降结构"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:22
+msgid "13075's Rover Ruckus bot with custom 8020 hang"
+msgstr "13075 的 Rover Ruckus 机器人，带有定制的 8020 挂件"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:22
+msgid ""
+"13075 Coram Deo Academy Robotics, Rover Ruckus, custom 8020 chain driven "
+"hang"
+msgstr "13075 Coram Deo Academy Robotics，Rover Ruckus，并装载了定制 8020 链传动吊架"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rstNone
+msgid "7172's custom fishing pole based extension CAD model"
+msgstr "7172 的定制鱼竿，基于扩展 CAD 模型"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:30
+msgid "7172's custom fishing pole based extension"
+msgstr "7172 定制的基于鱼竿的扩展装置"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:30
+msgid ""
+"7172 Technical Difficulties, Rover Ruckus, fishing pole extension using gear"
+" rack"
+msgstr "7172 的技术难题：Rover Ruckus，使用齿轮架延长鱼竿"
