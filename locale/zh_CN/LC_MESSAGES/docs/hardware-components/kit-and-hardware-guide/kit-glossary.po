@@ -3,16 +3,33 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# DomnickJYH, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-11 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:7
+msgid "Channel"
+msgstr "频道"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:11
+msgid ""
+"Channel is fixed pitch, which means that there are pre-drilled holes that "
+"limit mounting to finite locations. It can be used to easily construct "
+"drivetrains; however, be aware that :term:`gear <Gear>` and :term:`chain "
+"<Chain>` mesh may not be with channel."
+msgstr ""
+"槽钢是固定间距的，这意味着预先钻好的孔将安装位置限制在有限范围内。它可用于轻松构建传动系统；但要注意，齿轮<Gear>和链网络<Chain>可能与槽钢不匹配。"
