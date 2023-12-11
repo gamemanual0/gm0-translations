@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 04:16+0000\n"
+"POT-Creation-Date: 2023-12-11 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,195 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:9
+msgid ""
+"Mecanum drivetrains consist of four mecanum wheels which are powered "
+"independently by one motor. This configuration angles the velocity of each "
+"wheel, allowing the robot to strafe."
+msgstr "麦克纳姆传动系统由四个麦克纳姆轮组成，它们由一个电机独立驱动。这种结构可以调整每个轮子的速度，使机器人能够进行平移。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:11
+msgid "Term"
+msgstr "提示"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:14
+msgid "Mecanum Wheel"
+msgstr "麦克纳姆轮"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:16
+msgid ""
+"Mecanum wheels are a special type of wheel that enable maneuverability and "
+"holonomic strafing as opposed to traditional wheels. They consist of a "
+"series of rubber rollers rotated 45 degrees to either the left or right."
+msgstr "麦克纳姆轮是一种特殊的车轮，与传统车轮相比，它具有机动性和整体扫射功能。它们由一系列向左或向右旋转 45 度的橡胶滚轮组成。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:18
+msgid ""
+"In a conventional mecanum drivetrain, running the wheels on one diagonal in "
+"the opposite direction to those on the other diagonal causes sideways "
+"movement. Combinations of these wheel motions allow for vehicle motion in "
+"any direction with any vehicle rotation (including no rotation at all)."
+msgstr ""
+"在传统的机械传动系统中，一个对角线上的车轮与另一个对角线上的车轮运行方向相反，会导致车辆侧向运动。这些车轮运动的组合可以使车辆在任何方向上以任何车辆旋转（包括完全不旋转）的方式运动。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:20
+msgid ""
+"The primary advantage to mecanum drive is the maneuverability it affords, "
+"especially because the robot can strafe instead of turn and drive. The "
+"rollers on mecanum wheels form a 45 degree angle with the wheel's axis of "
+"rotation, which means that mecanum drivetrains can't strafe as fast as they "
+"can drive forward."
+msgstr ""
+"麦克纳姆传动系统的主要优势在于它的机动性，尤其是因为机器人可以平移而不是转弯行驶。麦柯纳姆车轮上的滚轮与车轮的旋转轴成 45 "
+"度角，这意味着麦柯纳姆传动系统的平移速度比不上前进速度。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:22
+msgid ""
+"This can be explained by discussing the forces involved. When each wheel "
+"rotates, it applies a friction force to the ground, which moves the robot. "
+"When moving forward, both sets of left wheels rotate in the same direction "
+"at the same speed, and both sets of right wheels rotate in the same "
+"direction at the same speed, meaning that the forces do not oppose each "
+"other. However, when strafing, neither the two left wheels nor the two right"
+" wheels are rotating at the same speed. In many cases, they even rotate in "
+"opposite directions."
+msgstr ""
+"这可以通过讨论相关的力来解释。每个轮子转动时，都会对地面产生摩擦力，从而推动机器人前进。前进时，两组左轮以相同的速度同方向旋转，两组右轮以相同的速度同方向旋转，这意味着力不会相互抵消。然而，在扫射时，两个左轮和两个右轮的旋转速度都不相同。在许多情况下，它们的旋转方向甚至相反。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:24
+msgid ""
+"These two opposing forces cause the rollers to slip more and more, which "
+"angles the robot's velocity at the expense of traction (more slipping "
+"results in a loss of speed). However, the wheels do still slip when moving "
+"forward but not as drastically as they do when strafing."
+msgstr ""
+"这两种相反的力会导致滚轮打滑越来越多，从而以牺牲牵引力为代价（打滑越多，速度越低）使机器人的速度成角度变化。不过，在向前移动时，滚轮仍会打滑，但不会像扫射时那样剧烈。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:26
+msgid ""
+"This is the primary disadvantage to mecanum drivetrains: they tend not to "
+"have much pushing power and thus, are vulnerable to defense by a sturdy tank"
+" drive."
+msgstr "这是机械传动系统的主要缺点：它们往往没有太大的推动力，因此容易受到坚固的坦克驱动装置的攻击。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:28
+msgid ""
+"Due to the fact that mecanum wheels are more likely to slip because of the "
+"diagonal rollers, an optional addition to mecanum drives is a separate "
+"odometry mechanism in order to track the robot's location during autonomous."
+msgstr "由于对角滚轮的存在，麦克纳姆轮更容易打滑，因此在麦克纳姆驱动装置上可选择增加一个单独的测距装置，以便在自主运行时跟踪机器人的位置。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:32
+msgid ""
+"It is important to note that in order to maximize the efficiency and "
+"stability of mecanum drives, when viewed from above, the rollers of each "
+"wheel should point towards the center of the robot, forming an X shape, "
+"rather than a rhombus."
+msgstr "值得注意的是，为了最大限度地提高机械手驱动装置的效率和稳定性，从上面看，每个轮子的滚轴应指向机器人的中心，形成 X 形，而不是菱形。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:34
+msgid ""
+"The primary reason for this is that it allows the drivetrain to turn "
+"significantly faster than it would otherwise be able to. When using the "
+"suggested setup, when viewed from the robot's underside, the rollers form a "
+"rhombus. This allows the force applied by the wheels on the ground to act "
+"tangent to the turn radius, leading to faster turning."
+msgstr ""
+"这样做的主要原因是，它可以使传动系统的转动速度明显快于其他方式。使用建议的设置时，从机器人底部看，滚轮形成一个菱形。这使得车轮施加在地面上的力与转弯半径相切，从而加快了转弯速度。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:36
+msgid ""
+"See `this video <https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ and "
+"`this other video <https://youtu.be/YJaX3vQ6kHw?t=123>`_ for a more in depth"
+" explanation."
+msgstr ""
+"有关更深入的解释，请参阅 `此视频<https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ 和 "
+"`此其他视频<https://youtu.be/YJaX3vQ6kHw?t=123>`_。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:39
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:158
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:193
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:41
+msgid ""
+"Fantastic maneuverability and agility due to strafing, can avoid defense "
+"very well"
+msgstr "平移带来的出色机动性和敏捷性，可以很好地躲避防御"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:42
+msgid "Good acceleration, can have high top speed"
+msgstr "加速性能好，最高速度高"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:43
+msgid "Very versatile drivetrain for nearly any game"
+msgstr "非常灵活的传动系统，几乎适用于任何比赛"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:46
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:164
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:201
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:48
+msgid ""
+"Suffers in traction, as mecanum rollers have a lower coefficient of friction"
+" than traction wheels; cannot traverse terrain"
+msgstr "由于机械滚筒的摩擦系数低于牵引轮，因此牵引力较差；无法穿越地形"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:49
+msgid "Able to be pushed around on defense"
+msgstr "可能会在防守中被推来推去"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:50
+msgid "Wheels must be powered independently, so there is no redundancy"
+msgstr "车轮必须独立供电，因此没有冗余"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "CAD Examples of Mecanum Drive (Click to expand)"
+msgstr "Mecanum Drive 的 CAD 示例（点击展开）"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "goBILDA COTS"
+msgstr "goBILDA COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "REV COTS"
+msgstr "REV COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:72
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/b8d4a6cfe4f26c5170f40a6c>`__"
+msgstr ""
+"点击此处在 OnShape 在线 "
+"CAD<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/b8d4a6cfe4f26c5170f40a6c>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "goBILDA Custom"
+msgstr "goBILDA 定制"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:80
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>`__"
+msgstr ""
+"点击此处在 OnShape 在线 "
+"CAD<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:88
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/40c3266dab2e444011cce79c>`__"
+msgstr ""
+"点击此处在 OnShape 在线 "
+"CAD<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/40c3266dab2e444011cce79c>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:95
+msgid "Diagram of mecanum directions"
+msgstr "机械臂方向图"

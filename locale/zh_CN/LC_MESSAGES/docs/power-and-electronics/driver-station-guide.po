@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 04:16+0000\n"
+"POT-Creation-Date: 2023-12-11 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -21,3 +21,270 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:4
+msgid "Driver Station Guide"
+msgstr "操作站指南"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:6
+msgid ""
+"The Driver Station (DS) is the way drivers interact with the robot. Through "
+"it, you configure settings, configure hardware, start and stop OpModes, use "
+"gamepads, and receive telemetry data from the robot. There are two main "
+"different choices for a Driver Station: the REV Robotics Driver Hub and an "
+"Android phone."
+msgstr ""
+"操作站（DS）是操作手与机器人互动的途径。通过它，您可以配置设置、配置硬件、启动和停止运行模式、使用游戏手柄以及接收机器人的遥测数据。操作站主要有两种不同的选择：REV"
+" Robotics Driver Hub 和安卓手机。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:9
+msgid "REV Driver Hub"
+msgstr "REV Driver Hub"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:11
+msgid ""
+"The REV Robotics Driver Hub is effectively an Android phone with built in "
+"USB ports. It is purpose built for FTC\\ |reg|, and has several advantages "
+"over traditional Android phones."
+msgstr ""
+"REV Robotics Driver Hub 实际上是一款内置 USB 端口的安卓手机。它专为 FTC\\ |reg| "
+"而设计，与传统的安卓手机相比具有多项优势。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:14
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:38
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:16
+msgid ""
+"Full sized USB ports do not require flimsy On The Go (micro-USB connector to"
+" USB-A port) cables"
+msgstr "全尺寸 USB 端口，故不需要脆弱的 On The Go（micro-USB 接口连接 USB-A 端口）电缆"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:17
+msgid "Charges from USB-C including fast charging Power Delivery modes"
+msgstr "使用 USB-C 充电，包括快速充电 Power Delivery 模式"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:18
+msgid "Larger screen than many Android phones"
+msgstr "屏幕比许多安卓手机都大"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:19
+msgid "Case is more robust then a standard Android phone"
+msgstr "外壳比普通安卓手机更坚固"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:22
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:44
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:24
+msgid ""
+"Price: A Driver Hub costs $250.00, whereas legal Android phones can be "
+"purchased secondhand for less"
+msgstr "价格: 一个 Driver Hub 需要 250.00 美元，而合法的安卓手机只需更低的价格就能买到二手货。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:25
+msgid ""
+"Power Issues: Teams have reported random losses of power coming from an "
+"improperly sized battery."
+msgstr "电源问题：有团队报告称，若电池尺寸不合适，会导致随机断电。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:26
+msgid ""
+"Battery Issues: Teams have reported high battery drain in sleep mode, "
+"leading to hubs dying faster then expected"
+msgstr "电池问题：有团队报告称，睡眠模式下电池电量消耗很大，导致集线器比预期死机得更快"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:27
+msgid ""
+"Wifi Issues: The wifi driver will occasionally crash when the device goes to"
+" sleep, requiring a device restart"
+msgstr "Wifi 问题：设备休眠时，WIFI 驱动程序偶尔会崩溃，需要重启设备"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:30
+msgid ""
+"If you purchase a Driver Hub and experience issues, refer to the `REV Driver"
+" Hub troubleshooting page <https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. "
+"The unexpected power off fix may be done preemptively to prevent a shutdown "
+"during a match."
+msgstr ""
+"如果您购买了驱动集线器并遇到问题，请参阅 \"REV 驱动集线器故障排除 \"页面<https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/driver-hub-"
+"troubleshooting>`_。意外断电修复可能是为防止在比赛期间关机而预先进行的。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:33
+msgid "Android Phones"
+msgstr "安卓手机"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:35
+msgid "As of 2023-2024, Android phones are still legal for competition use."
+msgstr "截至 2023-2024 年，安卓手机仍可合法用于比赛。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:40
+msgid "Android phones can be very cheap when purchased secondhand"
+msgstr "购买二手安卓手机非常便宜"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:41
+msgid "Android phones generally are reliable out of the box"
+msgstr "安卓手机一般开箱即可靠"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:46
+msgid ""
+"The lack of a full size USB A port means that flimsy On The Go cables must "
+"be used"
+msgstr "没有全尺寸 USB A 端口意味着必须使用脆弱的 On The Go 电缆"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:47
+msgid ""
+"The phones themselves should be protected with a case to prevent damage"
+msgstr "手机本身应该有保护套，以防损坏"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:49
+msgid ""
+"A 5 GHz phone is preferred over the standard 2.4 GHz phone to reduce ping "
+"issues. Have you ever noticed that your team's robot seems to lag at "
+"competitions only? This is because most school WiFi bands run on 2.4 GHz, "
+"which means that 2.4 GHz channels will be more crowded on competition day. "
+"This can lead to noticeably higher ping/lag which adversely affects driver "
+"and robot performance."
+msgstr ""
+"最好使用支持 5GHz 频段传输数据的手机，而不是标准的2.4 "
+"GHz频段传输数据手机，以减少延迟过高的问题。您是否曾注意到，您团队的机器人似乎只在比赛时才会出现滞后现象？这是因为大多数学校的 WiFi "
+"频段都是2.4GHz，这意味着比赛当天2.4GHz 频道会比较拥挤。这会导致明显的ping/lag，从而对驾驶员和机器人的性能产生不利影响。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:51
+msgid ""
+"USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a "
+"possible source of disconnects during a match. This is generally caused by "
+"poor quality cables/adapters between the driver station and the gamepads. "
+"**It generally is worth it to purchase higher quality cables and adapters as"
+" opposed to the cheapest options.**"
+msgstr ""
+"USB 和 :term:`OTG<Micro USB On The Go (OTG) Cable>` "
+"连接可能是比赛中断开连接的原因之一。这通常是由驱动站和游戏手柄之间的劣质电缆/适配器造成的。**一般来说，值得购买质量较高的电缆和适配器，而不是最便宜的选择。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:53
+msgid ""
+"`Recommended USB to OTG Cable "
+"<https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_"
+msgstr ""
+"推荐的 USB 转 OTG "
+"电缆：<https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:55
+msgid "Term"
+msgstr "提示"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:58
+msgid "Micro USB On The Go (OTG) Cable"
+msgstr "micro-USB On The Go (OTG) 连接线"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:60
+msgid ""
+"The Micro USB OTG cable connects the :term:`Driver Station` phone with the "
+"Logitech controller that the driver uses in order to control the robot."
+msgstr "Micro USB OTG 线缆将 :term:`Driver Station` 手机与罗技控制器连接起来。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:62
+msgid ""
+"It is recommended that teams purchase a couple spares due to faulty OTG "
+"cable connections and their low price."
+msgstr "由于 OTG 线缆较易出现连接故障及其低廉的价格，建议团队购买几条备用线缆。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:0
+msgid "A USB OTG Cable"
+msgstr "一条 USB OTG 线缆"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:69
+msgid "Controllers"
+msgstr "控制器"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:71
+msgid ""
+"**LEGAL CONTROLLERS:** As of the 2021-2022 season, the following controllers"
+" are  `legal for competition: "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-"
+"illegal-parts-list.pdf>`_"
+msgstr ""
+"**合法控制器：** 自 2021-2022 赛季起，以下控制器为 "
+"\"合法比赛控制器\"：<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-"
+"illegal-parts-list.pdf>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:73
+msgid "Xbox 360 Controller for Windows"
+msgstr "适用于 Windows 的 Xbox 360 手柄"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:74
+msgid "Logitech F310 Controller"
+msgstr "罗技 F310 手柄"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:75
+msgid "ETPark Wired Controller for PS4"
+msgstr "用于 PS4 的 ETPark 有线手柄"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:76
+msgid ""
+"Sony DualShock 4 Wireless Controller for PS4 (Must be connected wired over "
+"USB)"
+msgstr "用于 PS4 的索尼 DualShock 4 无线手柄（必须通过 USB 有线连接）"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:78
+msgid ""
+"In the past, the Xbox 360 controller was preferred by many top teams over "
+"the Logitech F310. This is mostly as the Xbox controller has less of a dead "
+"spot. A dead spot is basically the area where the joystick can move but not "
+"communicate that the stick has shifted slightly. This means that when the "
+"joystick is moved to a position where the controller can detect it, the "
+"robot will sometimes have a tendency to lurch forward. Dead spots make it "
+"difficult for the driver to execute fine-tuned and precise movements. **This"
+" is likely a non-issue for the large majority of teams. Also, keep in mind "
+"that there are very specific models of the Xbox controller that are legal, "
+"so they can be hard to find new.**"
+msgstr ""
+"过去，与罗技 F310 相比，Xbox 360 控制器是许多顶级团队的首选。这主要是因为 Xbox "
+"手柄的死点较少。死点基本上是指操纵杆可以移动，但无法传达操纵杆已轻微移动的区域。这意味着，当操纵杆移动到控制器可以检测到的位置时，机器人有时会有向前冲的趋势。死点使驾驶员难以执行微调和精确的动作。**对于大多数团队来说，这可能不是问题。此外，请记住，Xbox"
+" 控制器只有特定型号是合法的，因此很难找到新的型号。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:80
+msgid ""
+"Starting with the 2020-2021 season, the ETPark and Sony PS4 Controllers are "
+"legal and provide numerous advantages over Xbox 360 Controllers. Some of "
+"these advantages include, better trigger and bumper control, a more usable "
+"dpad, and trackpad support as of the 2021-2022 season. Use of the PS4 "
+"controller is slightly different because the locations of the Left Stick and"
+" DPAD are swapped and `some button names are different. "
+"<https://github.com/OpenFTC/OpenRC-"
+"Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_"
+" **Pro Tip: Make sure your drivers have experience with the controller they "
+"plan to use for competition.**"
+msgstr ""
+"从 2020-2021 赛季开始，ETPark 和索尼 PS4 手柄是合法的，与 Xbox 360 "
+"控制器相比具有众多优势。其中一些优势包括：更好的扳机和保险杠控制、更实用的触控板以及从 2021-2022 赛季开始的触控板支持。PS4 "
+"控制器的使用略有不同，因为左摇杆和 Dpad 的位置互换了，而且 "
+"\"一些按钮的名称也不同\"。<https://github.com/OpenFTC/OpenRC-"
+"Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_"
+" **专业提示：确保您的车手对他们计划在比赛中使用的控制器有使用经验。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:82
+msgid ""
+"Generally it is the opinion that the PS4 controllers are better than the "
+"other options. Among the options for PS4 controllers, the choice is really "
+"up to you. The Sony controller has slightly better buttons, but the ETPark "
+"controller is half the cost and a more solid connecting wire. **Keep in mind"
+" that the drivers can use different controllers, so pick the one most "
+"comfortable to you.**"
+msgstr ""
+"一般认为，PS4 手柄比其他选择更好。在 PS4 控制器的各种选择中，真正的选择取决于您。索尼手柄的按键略胜一筹，但 ETPark "
+"手柄的成本仅为索尼控制器的一半，而且连接线更牢固。**请记住，驱动程序可以使用不同的手柄，因此请选择最适合您的手柄。"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:84
+msgid ""
+"A phone holder and :term:`OTG <Micro USB On The Go (OTG) Cable>` strain "
+"relief connector can be useful as it may help to prevent connections from "
+"loosening. Especially if teams are running dual controller configuration, "
+"ensuring that the USB hub is secure won't hurt."
+msgstr ""
+"手机支架和:term:`OTG<Micro USB On The Go (OTG) "
+"Cable>`应力消除连接器可能有助于防止连接松动。特别是在团队运行双控制器配置时，确保 USB 集线器的安全不会有任何问题。"
