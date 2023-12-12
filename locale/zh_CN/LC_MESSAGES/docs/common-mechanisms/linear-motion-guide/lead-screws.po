@@ -3,16 +3,90 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# DomnickJYH, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-12 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:4
+msgid "Lead Screws"
+msgstr "引线螺钉"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:6
+msgid ""
+"Lead screws use a threaded rod to create high-torque linear motion. Their "
+"primary advantage is being able to handle much higher loads than other "
+"unmodified kit options. While this option was popularized in Rover Ruckus "
+"for hanging robots, variations have been in use since as far back as Res-Q. "
+"Another use case for lead screws is to change the angle of an arm platform, "
+"though this is more common in FRC\\ |reg|. However, this ability to handle "
+"high loads comes at a cost: lead screws are extremely slow."
+msgstr ""
+"导螺杆使用螺纹杆来产生高扭矩线性运动。其主要优点是能够承受比其他未改装套件高得多的负载。虽然这种选择在用于悬挂机器人的 Rover Ruckus "
+"中得到了推广，但早在 Res-Q 中就已经开始使用各种变体。导螺杆的另一个用例是改变机械臂平台的角度，不过这在 FRC\\ |reg| "
+"中更为常见。然而，这种处理高负载的能力是有代价的：导螺杆的速度极慢。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:8
+msgid ""
+"By far the most popular lead screw option is the `ServoCity Linear Actuator "
+"kit <https://www.servocity.com/linear-actuator-kit-a-7-4-stroke-x-rail-"
+"piston/>`_. Overall, this kit is lightweight, simple, and cheap. It can be a"
+" good start for teams using REV and needing a linear extension, and is "
+"generally usable out of the box."
+msgstr ""
+"迄今为止，最受欢迎的导螺杆选项是 \"ServoCity 线性致动器套件<https://www.servocity.com/linear-"
+"actuator-kit-a-7-4-stroke-x-rail-piston/>\"。总体而言，该套件轻便、简单、便宜。对于使用 REV "
+"并需要线性扩展的团队来说，它是一个良好的开端，一般开箱即可使用。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:11
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:13
+msgid "Easy way for high-load, high-torque applications"
+msgstr "高负荷、高扭矩应用的简便方法"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:14
+msgid "Compact form factor"
+msgstr "外形紧凑"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:15
+msgid "Typically only requires one motor"
+msgstr "通常只需要一个电机"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:18
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:20
+msgid "Not for quick linear extensions"
+msgstr "不适用于快速线性延伸"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:21
+msgid "High torque translates to slow extension speed"
+msgstr "扭矩大，伸展速度慢"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rstNone
+msgid "A lead screw with the object that rides It"
+msgstr "导螺杆和乘坐它的物体"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:29
+msgid "A render of 11115's Rover Ruckus hang mechanism, using lead screws"
+msgstr "11115 的漫游者 Ruckus 悬挂装置效果图，使用的是铅螺钉"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:29
+msgid "11115 Gluten Free, Rover Ruckus, Actobotics lead screw used for hang"
+msgstr "11115 无麸质、Rover Ruckus、用于悬挂的 Actobotics 引线螺钉"

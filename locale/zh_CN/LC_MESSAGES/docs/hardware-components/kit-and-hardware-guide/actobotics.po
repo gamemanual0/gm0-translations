@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2023-12-12 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -206,9 +206,23 @@ msgstr ""
 "Actobotics的运动系统非常非常坚固，依靠的是:term:`ball bearings<Ball "
 "Bearing>`，这种轴承的摩擦系数比衬套低。Actobotics与REV使用的5毫米六角适配轮胎兼容。"
 
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:47
+msgid ""
+"Actobotics also allows for :term:`face mounting <Face Mounting>` of motors "
+"as opposed to :term:`clamp mounting <Clamp Mounting>`."
+msgstr ""
+"Actobotics还允许电机:term:`face mounting<Face Mounting>`，而不是:term:`clamp "
+"mounting<Clamp Mounting>`。"
+
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:50
 msgid "Disadvantages"
 msgstr "缺点"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:52
+msgid ""
+"Actobotics is no longer being produced by ServoCity, so it may be difficult "
+"to locate some parts."
+msgstr "Actobotics已不再由ServoCity生产，因此可能很难找到某些部件。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:53
 msgid ""

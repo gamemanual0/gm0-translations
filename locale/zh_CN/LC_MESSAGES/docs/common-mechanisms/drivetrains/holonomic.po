@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 16:18+0000\n"
+"POT-Creation-Date: 2023-12-12 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,6 +20,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:4
+msgid "Holonomic Drivetrains"
+msgstr "整体工程学动力传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:7
+msgid "Mecanum Drive"
+msgstr "麦克纳姆轮传动系统"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:9
 msgid ""
@@ -174,6 +182,15 @@ msgstr "Mecanum Drive 的 CAD 示例（点击展开）"
 msgid "goBILDA COTS"
 msgstr "goBILDA COTS"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:64
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/df9bcea72fcdd7e4aee4134b>`__"
+msgstr ""
+"点击此处在 OnShape 在线 "
+"CAD<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/df9bcea72fcdd7e4aee4134b>"
+" 中查看此模型 `__"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
 msgid "REV COTS"
 msgstr "REV COTS"
@@ -200,6 +217,10 @@ msgstr ""
 "CAD<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>"
 " 中查看此模型 `__"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "REV Custom"
+msgstr "REV Custom"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:88
 msgid ""
 "`Click here to explore this model in OnShape online CAD "
@@ -212,3 +233,370 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:95
 msgid "Diagram of mecanum directions"
 msgstr "机械臂方向图"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:95
+msgid "Configuration for mecanum wheels, courtesy goBILDA"
+msgstr "麦克纳姆轮的配置，goBILDA 提供"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:98
+msgid "Mecanum Wheels Miniguide"
+msgstr "麦克纳姆轮·微指南"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:100
+msgid ""
+"One of the most important features of a mecanum wheel is the mechanism that "
+"allows the roller to spin---either :term:`bushings <Bushing>` or :term:`ball"
+" bearings <Ball Bearing>`. Mecanums which use ball bearings strafe better "
+"than those which use bushings, as the rollers can spin with less friction."
+msgstr ""
+"麦克纳姆轮最重要的特征之一是让滚子旋转的装置--:term:`bushings<Bushing>`或:term:`ball bearings<Ball "
+"Bearing>`。使用滚珠轴承的机械轮比使用衬套的机械轮更能飞，因为滚轮旋转时的摩擦更小。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:102
+msgid ""
+"In the past, some teams have invested in 6 inch diameter mecanum wheels. "
+"These are generally much more expensive and generally do not provide "
+"significant performance benefits. We highly recommend sticking with wheels "
+"that are between 3 and 4 inches in diameter."
+msgstr ""
+"过去，一些车队曾投资购买直径为 6 英寸的麦克纳姆轮。这些轮子通常要贵得多，而且一般不会带来明显的性能优势。我们强烈建议使用轮径在 3 到 4 "
+"英寸之间的轮子。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:105
+msgid "Recommended"
+msgstr "推荐"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:107
+msgid ""
+"These wheels are the gold standard of mecanum wheels, if you are buying new "
+"mecanum wheels there is very little reason to buy any mecanum wheels not "
+"from this section."
+msgstr "这些车轮是麦克纳姆轮的黄金标准，如果您要购买新的麦轮，几乎没有理由不从这部分购买任何麦轮。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:109
+msgid ""
+"`goBILDA Mecanum Wheels v2  <https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_ ($127.49 with team "
+"discount): The goBILDA v2 Mecanum Wheels are the gold standard for teams "
+"wanting a quality design in all aspects. They feature a 96mm diameter and a "
+"thickness of 38mm, with ball bearing supported, 70A durometer rollers that "
+"provide excellent strafing performance. With the use of recessed 16x16mm and"
+" 32x32mm holes, these wheels have the largest amount of mounting options and"
+" can fit all shaft styles commonly used in FTC\\ |reg|."
+msgstr ""
+"`goBILDA Mecanum Wheels v2<https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_（127.49 美元，有团队折扣）：goBILDA v2 "
+"Mecanum 轮圈是追求全方位优质设计的车队的黄金标准。它们的直径为 96 毫米，厚度为 38 毫米，滚珠轴承支撑、硬度为 70A "
+"的滚轮可提供出色的平移性能。由于使用了 16x16mm 和 32x32mm 的凹孔，这些轮子有最多的安装选择，可适用于 FTC |reg | "
+"中常用的所有轴型。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:110
+msgid ""
+"`REV Robotics Mecanum Wheels <https://www.revrobotics.com/rev-45-1655/>`_ "
+"($127.50 with team discount): The REV Robotics Mecanum Wheels come in at "
+"only 75mm in diameter, providing a smaller mecanum wheel option to FTC "
+"teams; however, they are not the thinnest option at 40.8mm thick. They "
+"feature ball bearing supported rollers that provide exceptional strafing "
+"capabilities and traction. The hole pattern featured on these wheels is "
+"compatible with Andymark Nubs as well as the REV Robotics Universal Hex "
+"Adapter v2 (which is included); however, in order to use other shaft options"
+" the use of an adapter or physical modification will likely be required."
+msgstr ""
+"REV Robotics Mecanum "
+"Wheels<https://www.revrobotics.com/rev-45-1655/>`_（127.50 美元，可享受团队折扣）：REV "
+"Robotics Mecanum Wheels 的直径仅为 75 毫米，为 FTC 团队提供了更小的 Mecanum Wheels "
+"选项；不过，它们并不是最薄的选项，厚度仅为 40.8 毫米。它们采用滚珠轴承支撑滚轮，可提供出色的扫射能力和牵引力。这些轮子上的孔型与 Andymark"
+" Nubs 以及 REV Robotics 通用六角适配器 v2（已包括在内）兼容；但是，要使用其他轴选项，可能需要使用适配器或进行物理改装。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:113
+msgid "Viable"
+msgstr "可行方案"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:115
+msgid ""
+"These mecanums have acceptable performance but there is very little reason "
+"to buy them at this point, as they have been superseded by better ones. If "
+"you already own them, they are a viable option, but consider looking at some"
+" of the mecanums from the `Recommended`_ section."
+msgstr ""
+"这些麦克纳姆轮的性能可以接受，但目前购买它们的理由并不充分，因为它们已经被更好的机械手取代。如果您已经拥有它们，它们是一个可行的选择，但也可以考虑 "
+"\"推荐 \"部分中的一些麦克纳姆轮。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:117
+msgid ""
+"`Nexus Ball Bearing Mecanum Wheels <https://www.robotshop.com/en/100mm-"
+"mecanum-wheel-set.html>`_ ($134.00): These wheels are 100 mm in diameter and"
+" 59 mm wide. They strafe excellently because of the use of ball bearings. "
+"However, they are more expensive, take up more space, have less traction, "
+"and are harder to mount to than the recommended wheels."
+msgstr ""
+"Nexus 滚珠轴承 麦轮<https://www.robotshop.com/en/100mm-mecanum-wheel-"
+"set.html>`_（134.00 美元）：这些轮子直径 100 毫米，宽 59 "
+"毫米。由于使用了滚珠轴承，它们的平移性能非常出色。不过，它们比推荐的轮子更贵，占用空间更大，牵引力更小，而且更难安装。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:118
+msgid ""
+"`goBILDA Mecanum Wheels v1 <https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_ (discontinued): These wheels"
+" are very similar to the Nexus Ball Bearing Mecanum Wheels, but with a "
+"different color scheme and better mounting options."
+msgstr ""
+"`goBILDA Mecanum Wheels v1<https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_（已停产）：这些轮子与 Nexus Ball "
+"Bearing Mecanum Wheels 非常相似，但配色不同，安装方式也更好。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:119
+msgid ""
+"`Andymark Heavy Duty Mecanum Wheels <https://www.andymark.com/products/4-in-"
+"hd-mecanum-wheel-set-options>`_ ($225): These are easily the most expensive "
+"mecanums on the list. These wheels are 4\" in diameter and 1.65\" wide. "
+"These are bushing based mecanums, so while they strafe decently they still "
+"perform worse than bearing based ones. They have a good amount of traction, "
+"more than the Nexus bearing or bushing wheels."
+msgstr ""
+"Andymark Heavy Duty Mecanum Wheels<https://www.andymark.com/products/4-in-"
+"hd-mecanum-wheel-set-options>`_（225 美元）：这些轮子是清单上最昂贵的轮子。这些轮子直径为 4 英寸，宽 1.65 "
+"英寸。这些轮子就是基于衬套的麦轮，因此虽然它们的打击性能不错，但仍然比基于轴承的轮子差。它们有很好的牵引力，比 Nexus 轴承或衬套车轮更大。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:120
+msgid ""
+"`Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-"
+"mecanum-wheel-set.html>`_ ($80.00): This is the Nexus Ball Bearing Mecanum "
+"Wheel with bushings instead of ball bearings. There is not much to say about"
+" them except that they strafe decently but worse than the ball bearing based"
+" equivalent."
+msgstr ""
+"Nexus Bushing Mecanum Wheels<https://www.robotshop.com/en/100mm-aluminum-"
+"mecanum-wheel-set.html>`_（80.00 美元）：这是使用衬套而不是滚珠轴承的 Nexus Ball Bearing "
+"Mecanum Wheel。除了扫射效果不错，但比滚珠轴承的同类产品差一些之外，没有什么可说的。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:123
+msgid "Not Recommended"
+msgstr "不推荐"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:125
+msgid ""
+"There is almost no reason to use these mecanum wheels---they perform very "
+"poorly and are not much cheaper than those in the `Recommended`_ section. We"
+" cannot recommend the use of these on an FTC robot, if at all possible "
+"replace them with mecanums from the `Recommended`_ section."
+msgstr ""
+"几乎没有理由使用这些麦克纳姆轮--它们的性能非常差，而且价格也不比 \"推荐 \"部分的机械轮便宜多少。我们不建议在 FTC "
+"机器人上使用这些轮子，如果可能的话，请更换为 \"推荐 \"部分中的轮子。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:127
+msgid ""
+"`TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ "
+"($149.00): These mecanums are designed with a bushing based, hard plastic "
+"roller which in turn creates poor strafing performance. The integrated hub "
+"is a set screw based design with a round bore, causing unreliability as well"
+" as taking up extra space."
+msgstr ""
+"TETRIX Mecanum Wheels<https://www.pitsco.com/TETRIX-MAX-Mecanum-"
+"Wheels>`_（149.00 "
+"美元）：这些梅卡纳姆轮毂采用基于衬套的硬塑料滚轮设计，因此平移性能较差。集成式轮毂是一种基于固定螺钉的圆孔设计，不仅不可靠，而且占用额外空间。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:128
+msgid ""
+"`Andymark Standard Duty Mecanum Wheels "
+"<https://www.andymark.com/products/4-in-standard-mecanum-wheel-set>`_ "
+"($77.00): These wheels barely strafe and are super fragile."
+msgstr ""
+"Andymark Standard Duty Mecanum "
+"Wheels<https://www.andymark.com/products/4-in-standard-mecanum-wheel-"
+"set>（$77.00）：这些轮子几乎不能平移，而且非常脆弱。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:133
+msgid "8103 Null Robotics's mecanum drivetrain render"
+msgstr "8103 Null Robotics 的 mecanum 传动系统效果图"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:133
+msgid "8103 Null Robotics, Rover Ruckus, **using Nexus mecanum bearing**"
+msgstr "8103 Null Robotics, Rover Ruckus, **使用 Nexus mecanum 轴承**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:138
+msgid "731 Wannabee Strange's mecanum drivetrain render"
+msgstr "731 Wannabee Strange 的 mecanum 传动系统效果图"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:138
+msgid ""
+"731 Wannabee Strange, Rover Ruckus, using **AndyMark HD mecanum wheels**"
+msgstr "731 Wannabee Strange，Rover Ruckus，使用**AndyMark HD mecanum 车轮**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:141
+msgid "X-Drive"
+msgstr "X-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:143
+msgid ""
+"X-Drive is a holonomic omni-wheel based drivetrain. This type of drive "
+"involves mounting 4 omni wheels at the corner of the robot at a 45 degree "
+"angle."
+msgstr "X-Drive 是一种基于整体工程学的全方位轮驱动系统。这种驱动方式是在机器人的一角以 45 度角安装 4 个全向轮。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:145
+msgid ""
+"One notable difference between X-Drive and mecanum is strafe speed. While, "
+"as mentioned in the mecanum section, the ratio of strafe speed to forward "
+"speed is noticeably less than 1, the ratio on an X-Drive is exactly 1 due to"
+" the rotational symmetry of the wheel placement. This means that an X-Drive "
+"bot's strafe speed and forward speed are equivalent. The drivetrains are "
+"slower, however, when strafing at 45° (approximately "
+":math:`\\frac{\\sqrt{2}}{2}` of its forward speed)."
+msgstr ""
+"X-Drive 和 mecanum 的一个显著区别是转向速度。正如前面麦轮部分所述，扫射速度与前进速度的比值明显小于 1，而 X-Drive "
+"上的比值正好是 1，这是因为车轮位置的旋转对称性。这意味着 X-Drive 机器人的扫射速度和前进速度相当。不过，当以 45° "
+"角扫射时，传动系统的速度会变慢（约为 :math:`frac\\{sqrt{2}}{2}` 的前进速度）。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:147
+msgid ""
+"Even though X-drive has good turning and acceleration, the main downside to "
+"the drive is packaging/form factor. Packaging refers to how easy/convenient "
+"the drivetrain fits into the overall design of the robot."
+msgstr "尽管 X 驱动具有良好的转弯和加速性能，但其主要缺点在于包装/外形尺寸。包装指的是传动系统与机器人整体设计的匹配程度。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:149
+msgid ""
+"Ideally, the drivetrain should take up as little space as possible to make "
+"it easier to design mechanisms around. Because the omni wheels are offset, "
+"packaging a X-Drive is more difficult than other types of holonomic drive "
+"like mecanum or H-Drive. Also because of the strange packaging, it is "
+"relatively difficult to cleanly transfer power from the motors to wheels, "
+"meaning that most X-Drives end up being direct-driven, which is bad for the "
+"lifespan of the motor gearbox."
+msgstr ""
+"理想情况下，传动系统应占用尽可能少的空间，以便于围绕其设计机构。由于全向轮是偏置的，因此 X 驱动器的包装比其他类型的整体驱动（如机械传动或 H "
+"驱动）更加困难。此外，由于包装奇特，从电机到车轮的动力传递也相对困难，这意味着大多数 X-Drive 最终都是直接驱动，这对电机齿轮箱的使用寿命不利。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:153
+msgid ""
+"When using X-Drive, the robot moves forwards/backwards/straight side-to-side"
+" :math:`\\sqrt{2}` times faster than a drivetrain with wheels in the normal "
+"orientation (with the same gear ratio and wheel size)."
+msgstr ""
+"使用 X-Drive 系统时，机器人向前/向后/直向移动的速度 "
+":math:`\\sqrt{2}`要比车轮处于正常方向的传动系统（具有相同的齿轮比和车轮尺寸）快一倍。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:155
+msgid ""
+"For an explanation of why exactly this is, see `this analysis "
+"<https://www.chiefdelphi.com/t/paper-mecanum-and-omni-kinematic-and-force-"
+"analysis/106153>`_."
+msgstr ""
+"有关具体原因的解释，请参阅 `this analysis<https://www.chiefdelphi.com/t/paper-mecanum-"
+"and-omni-kinematic-and-force-analysis/106153>`_。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:160
+msgid "Good maneuverability and agility"
+msgstr "良好的机动性和灵活性"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:161
+msgid "Good acceleration"
+msgstr "加速性能良好"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:166
+msgid "Prone to defense, pushed around easily"
+msgstr "易被防守，容易被推来推去"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:167
+msgid "Often uses direct drive due to awkward form factor"
+msgstr "由于外形笨拙，通常使用直接驱动"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:172
+msgid "731 Wannabee Strange's X-Drive"
+msgstr "731 Wannabee Strange队伍的X-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:172
+msgid "731 Wannabee Strange, Velocity Vortex"
+msgstr "731 Wannabee Strange, Velocity Vortex"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:177
+msgid "5040 Nuts and Bolts's X-Drive"
+msgstr "5040 Nuts and Bolts队伍的X-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:177
+msgid "5040 Nuts and Bolts, Relic Recovery"
+msgstr "5040 Nuts and Bolts, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:180
+msgid "H-Drive"
+msgstr "H-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:182
+msgid ""
+"H-Drive (also known as U-drive, depending on the configuration) is a "
+"holonomic type drive that uses all omni wheels. H-Drive relies on a set of "
+"\"strafer wheels\" that are perpendicular to the forward/backward wheels to "
+"achieve strafing. H-Drive is similar to a fusion of a tank drivetrain while "
+"retaining the maneuverability and strafing of holonomic drivetrains."
+msgstr ""
+"H-驱动（根据配置不同，也称为 "
+"U-驱动）是一种使用全向轮的整体工程学驱动。H-Drive依靠一组与前进/后退轮垂直的\"扫射轮\"来实现扫射。H-Drive类似于坦克传动系统的融合，同时保留了整体工程学传动系统的机动性和扫射功能。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:184
+msgid ""
+"H-Drive is theoretically very easy to code, but most teams employ some sort "
+"of gyro correction to strafe straight, although it is not necessary with "
+"proper weight distribution."
+msgstr "H-Drive理论上非常容易编码，但大多数团队都会使用某种陀螺仪校正来进行直线扫射，尽管在重量分配合理的情况下并不需要这样做。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:186
+msgid ""
+"H-Drive has a number of possible motor configurations - 1 or 2 motors can be"
+" put on each forward drive pod, and one or two motors can be put on the "
+"strafe wheels. In the configuration with one motor on each forward drive "
+"pod, H-Drive has slightly reduced acceleration compared to mecanum drive."
+msgstr ""
+"H-Drive有多种可能的电机配置--"
+"每个前进驱动舱可安装1或2个电机，扫射轮可安装1或2个电机。与机械传动相比，H-Drive在每个前驱动吊舱上安装一个电机的配置下，加速度略有降低。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:188
+msgid ""
+"For the highest possible reliability, many FRC\\ |reg| teams will suspend "
+"their strafe wheels on a rocker system to ensure that all wheels are in "
+"contact with the ground while the robot is not strafing."
+msgstr "为了获得尽可能高的可靠性，许多FRC|reg|团队会将它们的扫射轮悬挂在摇杆系统上，以确保机器人不扫射时所有轮子都与地面接触。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:190
+msgid ""
+"By far the biggest advantage of H-drive is its ability to accommodate "
+"multiple motor distributions. For instance, if you want to dedicate only 3 "
+"motors to your mechanisms and you have a motor left over, using a 1 strafe "
+"motor, 4 drive motor configuration is absolutely viable. Or if you dedicate "
+"5 motors for your mechanisms, H-drive with 2 drive motors and 1 strafe motor"
+" is definitely optimal."
+msgstr ""
+"到目前为止，H-drive的最大优势在于它能够适应多种电机分布。例如，如果您只想将3个电机专用于您的机械装置，而且还有一个电机剩余，那么使用1个扫瞄电机、4个驱动电机的配置绝对可行。或者，如果您想为机械装置分配"
+" 5个电机，那么使用2个驱动电机和1个扫瞄电机的H-drive绝对是最佳选择。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:195
+msgid "Combines tank and holonomic drivetrain advantages"
+msgstr "兼具油箱和整体式动力传动系统的优势"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:196
+msgid "Can be used with 3 or 5 motors"
+msgstr "可与3或5个电机一起使用"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:197
+msgid "Good traction and top speed"
+msgstr "良好的牵引力和最高速度"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:198
+msgid "Great maneuverability and agility"
+msgstr "出色的机动性和灵活性"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:203
+msgid "Strafing is slightly less effective than mecanum"
+msgstr "扫射的效果略逊于麦克纳姆轮"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:204
+msgid "Complex suspension occasionally needed, depending on design"
+msgstr "偶尔需要复杂的悬挂系统，视设计而定"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:209
+msgid "9804 Bomb Squad's H-Drive"
+msgstr "9804 Bomb Squad队伍的H-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:209
+msgid "9804 Bomb Squad, Relic Recovery"
+msgstr "9804 Bomb Squad, Relic Recovery"
