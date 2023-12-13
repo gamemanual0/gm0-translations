@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 04:16+0000\n"
+"POT-Creation-Date: 2023-12-13 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,6 +94,21 @@ msgid ""
 "lack on traction on mecanum wheels."
 msgstr "由于麦克纳姆轮缺乏牵引力，麦轮驱动装置上的编码器定位可能非常不准确。"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:77
+msgid ""
+"Often short-handed to \"REVcoders\" or \"revcoders,\" the `REV Through-Bore "
+"encoders <https://www.revrobotics.com/rev-11-1271/>`_ has quickly become the"
+" de facto option the FTC community. The REV encoders have gained such a "
+"reputation due to its relative affordability, much improved reliability, and"
+" ease of use. The through-bore design proves to be a *significant* "
+"improvement over previous optical disc encoder designs. Optical disc "
+"encoders are very fragile, prone to scratching, and are much less tolerant "
+"to design flaws."
+msgstr ""
+"通常缺乏“REVcoders”或“recoders”， `REV通孔编码器 "
+"<https://www.revrobotics.com/rev-11-1271/>`_ "
+"已迅速成为FTC社区事实上的选择。REV编码器因其相对便宜、可靠性大大提高和易用性而获得这样的声誉。通孔设计被证明是对以前光盘编码器设计的重大改进。光盘编码器非常脆弱，容易刮伤，并且对设计缺陷的容忍度要低得多。"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
 msgid "**Advantages:**"
@@ -118,6 +133,41 @@ msgstr "接线简单"
 msgid "**Disadvantages:**"
 msgstr "缺点："
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:100
+msgid ""
+"The Through-Bore encoders have a very high CPR (8k). The REV Hub transmits "
+"velocity in a 16-bit signed integer. This means it can only communicate a "
+"maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a "
+"second (32k / 8k = 4) for the velocity value on the REV Hub to experience an"
+" `integer overflow "
+"<https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is "
+"primarily a concern when dealing with motion profiling. The popular, "
+"existing tools (Road Runner and FTCLib) have `mechanisms for dealing with "
+"this issue <https://github.com/acmerobotics/road-runner-"
+"ftc/blob/e79f8a900f45c9058b67716b5289a52e17769e40/RoadRunner/src/main/java/com/acmerobotics/roadrunner/ftc/Encoders.kt#L66>`_"
+" so this is not a concern and should not sway your design decision. Just "
+"keep this detail in mind once you start programming."
+msgstr ""
+"通孔编码器具有非常高的CPR（8k）。REV Hub以16位有符号整数传输速度。这意味着它只能传达2^15的最大值（即32768）。因此，REV "
+"Hub上的速度值每秒只需旋转4次（32k/8k=4），就会出现 `整数溢出 "
+"<https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_ "
+"。这主要是处理运动剖面时的一个问题。流行的现有工具（Road Runner和FTCLib）具有 `处理此问题的机制 "
+"<https://github.com/acmerobotics/road-runner-"
+"ftc/blob/e79f8a900f45c9058b67716b5289a52e17769e40/RoadRunner/src/main/java/com/acmerobotics/roadrunner/ftc/Encoders.kt#L66>`_"
+" 因此，这不是一个问题，也不应影响您的设计决策。一旦开始编程，请记住此细节。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:105
+msgid ""
+"The `S4T "
+"<https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ "
+"miniature shaft encoder is another viable option used in dead wheel designs."
+" These encoders are very small and may significantly reduce the footprint of"
+" your dead wheel design. Gearing these encoders is ideal to prevent shock "
+"loads."
+msgstr ""
+"在 `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_"
+" 微型轴编码器是死轮设计中使用的另一个可行的选择。这些编码器非常小，可以显著减少死轮设计的占地面积。传动这些编码器是防止冲击载荷的理想选择。"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
 msgid "*****Advantages:**"
 msgstr "*****优点：**"
@@ -134,6 +184,20 @@ msgstr "更贵（几乎是价格的两倍）"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:120
 msgid "Less durable"
 msgstr "不太耐用"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:150
+msgid ""
+"Once the de facto option for most FTC teams, the `E8T "
+"<https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ optical "
+"encoders are no longer recommended as the REV Through-Bores are a superior "
+"option at an equivalent price. The open-hole optical disc design of these "
+"encoders face a number of frustrating design flaws that made them very "
+"fragile and prone to breaking. The only advantage that they have relative to"
+" the REV Through-Bores is their smaller footprint."
+msgstr ""
+"曾经是大多数FTC团队事实上的选择，`E8T "
+"<https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ "
+"光学编码器不再被推荐，因为REV通孔是同等价格的卓越选择。这些编码器的开孔光盘设计面临许多令人沮丧的设计缺陷，这些缺陷使它们非常脆弱，容易断裂。与REV通孔相比，它们唯一的优势是占地面积更小。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:159
 msgid "Design"

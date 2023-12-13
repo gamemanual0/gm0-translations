@@ -3,16 +3,240 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# wwsk2008sq, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-13 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: wwsk2008sq, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:2
+msgid "Motor Wiring And Mounting"
+msgstr "电机的接线和安装"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:5
+msgid "Power Connections"
+msgstr "电源连接"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:7
+msgid ""
+"Depending on the vendor, the motors can come with one of the following "
+"connectors:"
+msgstr "根据供应商的不同，电机可配备以下连接器之一："
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:9
+msgid ":term:`JST-VH` connector (REV motors)"
+msgstr ":term:`JST-VH` 连接器 (REV 电机)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:10
+msgid ":term:`Anderson PowerPole` (AndyMark's NeveRest)"
+msgstr ":term:`Anderson PowerPole` (AndyMark's NeveRest)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:11
+msgid "3.5mm Bullet connector (goBILDA)"
+msgstr "3.5 毫米子弹式连接器 (goBILDA)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:13
+msgid ""
+":term:`JST-VH` is probably easiest to use, as it is the same connector used "
+"by REV Expansion Hub. The :term:`JST-VH` connection has a locking mechanism "
+"for peace of mind. :term:`PowerPoles <Anderson PowerPole>` are very reliable"
+" and sturdy but somewhat bulky. Bullet connectors are very compact, making "
+"it easy to route the cable through openings, but can disconnect if someone "
+"pulls on the wire, so you need to be careful with them."
+msgstr ""
+":term:`JST-VH`可能最容易使用，因为它与 REV Expansion Hub 使用的连接器相同。:term:`JST-VH` "
+"连接带有锁定装置，可放心使用。 :term:`PowerPoles<Anderson PowerPole>` "
+"非常可靠、坚固，但有些笨重。子弹头连接器非常紧凑，便于将电缆穿过开口，但如果有人拉扯电线，就会断开，因此需要小心使用。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:15
+msgid ""
+"Since REV Hubs use :term:`JST-VH` connectors, to connect a motor with "
+":term:`Anderson PowerPole` or bullet connectors you need adapters which you "
+"can purchase from REV Robotics and goBILDA."
+msgstr ""
+"由于 REV 集线器使用 :term:`JST-VH` 接头，要连接使用 :term:`Anderson PowerPole` "
+"或子弹式接头的电机，需要使用适配器，您可以从 REV Robotics 和 goBILDA 购买适配器。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:17
+msgid ""
+"You can extend or shorten motor power cables by soldering additional length "
+"of cable. This is legal as long as you use 18 gauge or thicker cables. Teams"
+" can also purchase extender cables to chain multiple pieces of cable "
+"together."
+msgstr ""
+"您可以通过焊接额外长度的电缆来延长或缩短电机电源电缆。只要使用 18 "
+"号或更粗的电缆，这种做法都是合法的。参赛队还可以购买延长电缆，将多根电缆连接在一起。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:19
+msgid ""
+"For more tips on wiring the robot, see :doc:`/docs/power-and-"
+"electronics/wiring`."
+msgstr "有关机器人布线的更多提示，请参阅 :doc:`/docs/power-and-electronics/wiring` 。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:24
+msgid "Encoders"
+msgstr "编码器"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:26
+msgid ""
+"Encoder cables are very fragile. Take care to protect them from snagging and"
+" sharp impacts! It may be prudent to inspect encoder wires once in a while."
+msgstr "编码器电缆非常脆弱。要小心保护，防止被卡住或受到尖锐撞击！为谨慎起见，应定期检查编码器电缆。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:28
+msgid ""
+"If using encoders, you need to connect them to the REV hub by a 4-wire "
+"cable. REV Hub uses 4-pin :term:`JST-PH` connector for encoder ports. REV "
+"motors also use :term:`JST-PH` encoder ports, so you can connect them to the"
+" hub by :term:`JST-PH` 4-wire cable, available from REV Robotics."
+msgstr ""
+"如果使用编码器，则需要用 4 线电缆将其连接到 REV 集线器。REV 集线器的编码器端口使用 4 针 :term:`JST-PH` 连接器。REV "
+"电机也使用 :term:`JST-PH` 编码器端口，因此可以通过 :term:`JST-PH` 4 线电缆将它们连接到集线器，电缆可从 REV "
+"Robotics 购买。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:30
+msgid ""
+"goBILDA motors use JST-XH 4-pin encoder port (**note the difference: XH vs "
+"PH**), so to connect them, you need a JST-PH to JST-XH cable, available from"
+" AndyMark or goBILDA."
+msgstr ""
+"goBILDA 马达使用 JST-XH 4 针编码器端口（**注意区别：XH 与 PH**），因此要连接它们，需要 JST-PH 转 JST-XH "
+"电缆，可从 AndyMark 或 goBILDA 购买。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:32
+msgid ""
+"AndyMark also use JST-XH encoder port; however, an additional problem is "
+"that encoders of these motors require 5v power, whereas the encoder port of "
+"REV hub only provides 3.3v. Thus, it is recommended that you connect them "
+"using level shifters, available from REV Robotics. For details please check "
+"the `REV's documentation <https://docs.revrobotics.com/duo-"
+"control/sensors/5v-sensors#connecting-5v-encoder>`_."
+msgstr ""
+"AndyMark 也使用 JST-XH 编码器端口；但另一个问题是，这些电机的编码器需要 5 伏电源，而 REV 集线器的编码器端口只能提供 3.3 "
+"伏。因此，建议使用 REV Robotics 提供的电平转换器连接它们。详情请查阅 REV "
+"的文档<https://docs.revrobotics.com/duo-"
+"control/sensors/5v-sensors#connecting-5v-encoder>`_。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:35
+msgid "Mounting Motors"
+msgstr "安装电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:37
+msgid ""
+"There are two ways to mount a motor: using a :term:`clamping mount <Clamp "
+"Mounting>` (such as `32mm goBILDA clamping mount "
+"<https://www.gobilda.com/1400-series-1-side-2-post-clamping-mount-32mm-"
+"bore/>`_) or :term:`face mounting <Face Mounting>`, using threaded holes in "
+"the front face of the gearbox."
+msgstr ""
+"有两种安装电机的方法：使用 :term:` 夹紧安装 <Clamp Mounting>` （如 `32mm goBILDA "
+"夹紧安装<https://www.gobilda.com/1400-series-1-side-2-post-clamping-mount-32mm-"
+"bore/>`_）或 :term:` 表面安装 <Face Mounting>`，使用齿轮箱正面的螺纹孔。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:40
+msgid "Clamping Mount"
+msgstr "夹紧支架"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:42
+msgid "Easiest way to mount a motor, as only one screw is required."
+msgstr "安装电机的最简单方法，因为只需要一个螺丝。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:43
+msgid ""
+"Not as secure as face mounting, as clamp friction is looser than face "
+"mounting using screws."
+msgstr "由于夹具摩擦力比使用螺钉的正面安装要小，因此不如正面安装牢固。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:44
+msgid ""
+"Some gearboxes (particularly spur gear) do not place the output shaft in the"
+" center of the gearbox."
+msgstr "有些变速箱（尤其是直齿轮变速箱）并没有将输出轴置于变速箱的中心。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:46
+msgid ""
+"Thus, motors with offset shafts are particularly sensitive to clamp mounts, "
+"as any rotation of the motor will alter the shaft position. This may have "
+"the consequence of losing :term:`chain <Chain>` or :term:`belt <HTD Belt>` "
+"tension."
+msgstr ""
+"因此，带偏置轴的电机对夹具特别敏感，因为电机的任何旋转都会改变轴的位置。这可能会导致 :term:`链条 <Chain>` 或 :term:`皮带 "
+"<HTD Belt>` 张力损失。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:47
+msgid ""
+"It is possible to double clamp a motor - one in front, and one in the back."
+msgstr "可以对电机进行双夹紧--一个在前，一个在后。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:48
+msgid ""
+"To increase friction and reduce the chance of loosening, one can wrap "
+"electrical tape around the area of the motor that will be clamped down. Use "
+"a couple wraps of tape."
+msgstr "为了增加摩擦力和减少松动的机会，可以在电机夹紧的部位缠上电工胶带。用胶带缠几圈。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:51
+msgid "Face Mount"
+msgstr "正面安装"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:53
+msgid "Slightly more tedious and uses more screws."
+msgstr "稍显繁琐，使用的螺丝也更多。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:54
+msgid ""
+"Repairing a broken gearbox or swapping a motor is slower than if using clamp"
+" mounting."
+msgstr "修理损坏的变速箱或更换电机的速度比使用夹具安装要慢。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:55
+msgid ""
+"Face mounting is much more reliable than clamp mounting, as the screws hold "
+"the motor in place very tightly."
+msgstr "正面安装比夹钳安装更可靠，因为螺钉能将电机紧紧固定。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:56
+msgid ""
+"Teams can use **BLUE** :term:`Loctite` on high-vibration motors to ensure "
+"the motor does not jar loose."
+msgstr "参赛队可在高振动电机上使用 **BLUE** :term:`乐泰胶水` 来确保电机不会松动。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:58
+msgid ""
+":term:`Face mounting <Face Mounting>` is recommended for high-load and/or "
+"high vibration use cases such as drivetrain. This is as :term:`clamp mounted"
+" <Clamp Mounting>` motors can shift and come loose easier than :term:`face "
+"mounted <Face Mounting>` motors. It is also recommended to use **BLUE** "
+":term:`Loctite` when :term:`face mounting <Face Mounting>`, if possible."
+msgstr ""
+":term:`Face mounting <Face Mounting>` 建议用于高负载和/或高振动的情况，如传动系统。这是因为 "
+":term:`clamp mounted <Clamp Mounting>` 电机比 :term:`face mounted <Face "
+"Mounting>` 电机更容易移位和松动。如果可能，还建议在 :term:` 表面安装 <Face Mounting>` 时使用 ** BLUE** "
+":term:`Loctite` 。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:60
+msgid ""
+"Note that the pattern of :term:`face mounting <Face Mounting>` holes is "
+"different for different vendors. For example, goBILDA uses 4 M4 holes in a "
+"square with side 16 mm, whereas AndyMark classic motors use 6 M3 holes on a "
+"31 mm diameter circle. Thus, face mounting NeveRest motors to goBILDA parts "
+"requires use of special adapters, and vice versa. Similarly, gearbox "
+"diameter also varies between motors, so when choosing a :term:`clamping hub "
+"<Clamping Hub>`, make sure to use the right diameter."
+msgstr ""
+"请注意，不同供应商的 :term:`face mounting <Face Mounting>` 孔型是不同的。例如，goBILDA 在边长为 16 "
+"毫米的正方形上使用 4 个 M4 孔，而 AndyMark classic 电机在直径为 31 毫米的圆形上使用 6 个 M3 孔。因此，将 "
+"NeveRest 电机安装到 goBILDA 部件上需要使用特殊的适配器，反之亦然。同样，不同电机的齿轮箱直径也不同，因此在选择 "
+":term:`clamping hub <Clamping Hub>` 时，请确保使用正确的直径。"

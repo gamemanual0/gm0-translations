@@ -4,20 +4,707 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2023-12-13 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:4
+msgid "CAD Tutorials"
+msgstr "CAD教程"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:7
+msgid "CAD Tutorial Part 1 - Drivetrain in an Hour"
+msgstr "CAD教程第1部分-一小时内的传动系统"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:10
+msgid "Choosing the Drivetrain"
+msgstr "选择传动系统"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:12
+msgid ""
+"After learning your :term:`CAD <Computer-aided design (CAD)>` program of "
+"choice, determine the necessary requirements for the drivetrain based on the"
+" current game. Teams should shoot for the wheelbase that works the best in "
+"that specific field's layout."
+msgstr ""
+"在学习了您选择的计算机辅助设计 :term:`CAD <Computer-aided design (CAD)>` "
+"程序后，根据当前游戏确定动力传动系统的必要要求。团队应该寻找在特定领域布局中效果最好的轴距。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:14
+msgid ""
+"For instance, in Relic Recovery (2017-2018) a drivetrain required precision "
+"to not only grab glyphs from the center pit, but also to line up against the"
+" cryptobox. Thus, mecanum wheels and a wide center section of the robot "
+"proved an advantage over a 6 wheel tank drive. (However, it should be noted "
+"that with sufficient practice and competent drivers, any drive base can be "
+"competitive up to a certain extent)."
+msgstr ""
+"例如，在 Relic "
+"Recovery（2017-2018）中，动力传动系统不仅需要精确地从中心坑抓取字形，还需要与密码盒对齐。因此，mecanum车轮和机器人的宽中心部分被证明是6轮坦克驱动的优势。（然而，应该注意的是，只要有足够的练习和称职的司机，任何驱动基础都可以在一定程度上具有竞争力）。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:16
+msgid ""
+"After selecting a drivebase, determine the number of motors. Keep in mind "
+"the eight motor limit is a pain that shouldn't be ignored. A good rule of "
+"thumb is four motors for driving and four motors for the other mechanisms "
+"(e.g. intakes, linear slides, arm, etc.) For most modern FTC\\ |reg| games, "
+"you need minimum 7 motors to be highly competitive, although 8 is a good "
+"rule of thumb."
+msgstr ""
+"选择驱动基座后，确定电机数量。请记住，八个电机的限制是一个不容忽视的问题。一个好的经验法则是四个电机用于驱动，四个电机用于其他机构（如吸入拾取装置、线性滑轨、机械臂等）。对于大多数现代"
+" FTC |reg| 游戏来说，您至少需要 7 个电机才能具有较强的竞争力，尽管 8 个电机也是一个好的经验法则。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:19
+msgid "Designing the Drivetrain Plates"
+msgstr "设计传动系统板"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:21
+msgid ""
+"After learning the CAD software, it's time to start the actual design. Here "
+"are some things to figure out before starting:"
+msgstr "学习CAD软件后，是时候开始实际设计了。在开始之前需要弄清楚一些事情："
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:23
+msgid "Drive Type (mecanum, 6wd, 8wd, etc.)"
+msgstr "驱动类型（mecanum、6wd、8wd等）"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:24
+msgid "Number of Motors (four motors recommended in most cases)"
+msgstr "电机数量（大多数情况下建议使用四台电机）"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:25
+msgid ""
+"Type of wheels (:term:`Traction <Traction Wheel>`, :term:`omni <Omni "
+"Wheel>`, etc.)"
+msgstr ""
+"车轮类型（牵引力、全方位等） (:term:`Traction <Traction Wheel>`, :term:`omni <Omni "
+"Wheel>`, etc.)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:26
+msgid ""
+"Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, :term:`gear "
+"<Gear>`)"
+msgstr ""
+"驱动功率（皮带、链条、齿轮） (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, "
+":term:`gear <Gear>`)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:28
+msgid ""
+"To keep it simple, this example uses a 4 wheel tank drive using four motors."
+" The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to "
+"aid in turning."
+msgstr "为了简单起见，本例使用四个电机的四轮油箱驱动。选择的车轮是2个用于牵引的科尔森车轮和2个用于辅助转向的全向车轮。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:30
+msgid ""
+"First, make the left side of the drivebase. After completing it, all you "
+"have to do is mirror the left side to the right, so you don't have to do "
+"each side individually. Start with a 2D sketch of everything before trying "
+"to extrude and make actual 3D objects."
+msgstr ""
+"首先，制作驾驶座的左侧。完成后，你所要做的就是将左侧镜像到右侧，这样你就不必单独做每一侧。在尝试挤压和制作实际的3D对象之前，先从所有东西的2D草图开始。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Drivetrain Plate Technical Drawing"
+msgstr "传动系统板技术图纸"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:36
+msgid ""
+"This is a sketch of the inner plate of the drive base. Everything should be "
+"laid out in a 2D sketch to determine the mounting holes, :term:`bore "
+"<Bore>`, :term:`center-to-center distance <C2C>`, etc. 2D sketches are "
+"extremely helpful and are highly recommended in any project. After the "
+"sketch is completed, everything else falls into place and becomes pretty "
+"simple."
+msgstr ""
+"是驱动底座内板的草图。一切都应该在2D草图中进行布局，以确定安装孔、孔、中心到中心的距离等。 :term:`bore <Bore>`, "
+":term:`center-to-center distance <C2C>` "
+"2D草图非常有帮助，在任何项目中都强烈推荐。草图完成后，其他一切都就位了，变得非常简单。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:38
+msgid ""
+"After this, extrude that sketch into the first plate of the drivetrain. "
+"Typically, a standard thickness of aluminum plate is 1/8\". Thinner plate "
+"(3/32\") can be used as well, but generally most teams stick to 1/8\". "
+"Extrude the plate to that thickness. Below is the sketch after extruding."
+msgstr ""
+"在此之后，将草图拉伸为传动系统的第一个板。通常，铝板的标准厚度为1/8英寸。也可以使用更薄的板（3/32英寸），但通常大多数团队坚持1/8英寸。将板拉伸到该厚度。下面是拉伸后的草图。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Inner Drivetrain Plate"
+msgstr "内传动系板"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:43
+msgid ""
+"The next step will be making the outer plate for the drivebase. It is even "
+"faster to do than the inner. To do this, simply create a new part. Go back "
+"to your inner plate and start a 2D sketch."
+msgstr "下一步将是为驱动底座制作外板。它比内部更快。为此，只需创建一个新零件。回到您的内板并开始2D草图。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Drivetrain Plate, with entire face seleected"
+msgstr "传动系统板，整个板面均被切除"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:49
+msgid ""
+"After starting the new sketch on the inner plate, hit \"Project Geometry\" "
+"and just click anywhere on the part. It should highlight every outline of "
+"the part. (Shown here is a yellow line; yours might be red, blue or some "
+"other color.) Now click and drag across the part selecting every line on the"
+" screen. Now go hit CTRL + C, then go to the new part and hit create 2D "
+"Sketch. Next hit CTRL + V."
+msgstr ""
+"在内板上开始新草图后，点击“项目几何”，只需单击零件上的任何位置。它应该突出显示零件的每个轮廓。（此处显示的是一条黄线；你的可能是红色、蓝色或其他颜色。）现在单击并拖动零件，选择屏幕上的每一行。现在点击CTRL+C，然后转到新零件并点击创建2D草图。下一步点击CTRL+V。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid ""
+"Drivetrain inner plate with the parts specific to the inner plate selected"
+msgstr "传动系统内板，包括所选内板的专用部件"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:54
+msgid ""
+"It should look like an exact copy of the inner plate but now as a sketch. "
+"Delete your motor mounts out of the middle, then extrude the outer plate."
+msgstr "它应该看起来像内板的精确副本，但现在作为草图。从中间删除电机口，然后拉伸出外板。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Outer Drivetrain Plate"
+msgstr "外传动系板"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:59
+msgid ""
+"This is what the outer plate looks like, an almost exact copy of the inner "
+"one without the holes for the motors. Now with those two plates made, it's "
+"really just time to assemble the rest of the drivetrain, which is by far the"
+" most time consuming. Now, for some info on what to use to attach the two "
+"plates together, generally standoffs or churro is highly recommended. To "
+"attach the two halves of the drivetrain, use either channel, extrusion, or a"
+" custom u-brace. Some teams prefer a custom brace as it is a good way to "
+"stiffen up the drivetrain while requiring very little maintenance over the "
+"season. It is possible to use peanut extrusion or kit channel, which "
+"alternatively works just as well."
+msgstr ""
+"这是外板的样子，几乎完全复制了内板，没有电机孔。现在制作了这两块板，现在真的只是组装动力传动系统其余部分的时间，这是迄今为止最耗时的。现在，关于如何将两块板连接在一起的一些信息，强烈推荐使用支架或梁柱。要连接两部分的动力传动系统，请使用管道、拉伸或定制的u型支架。一些团队更喜欢定制支架，因为这是一种加强动力传动系统的好方法，同时在整个季节几乎不需要维护。可以使用花生梁或套件管道，这也同样有效。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:61
+msgid ""
+"Note that when using a custom drivetrain, you can cut out material from your"
+" drivetrain plates. This process is called **pocketing**. While not a vital "
+"step, pocketing helps you save weight. However, be careful not to remove too"
+" much material; if done, the plates become less sturdy. More about pocketing"
+" is in the next section."
+msgstr ""
+"请注意，当使用自定义动力传动系统时，您可以从动力传动系统板上切割材料。这个过程称为装袋。虽然装袋不是重要的一步，但它可以帮助您减轻重量。但是，注意不要移除太多材料；如果这样做，板会变得不那么坚固。更多关于装袋的信息在下一节中。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:64
+msgid "Additional Considerations"
+msgstr "其他考虑因素"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:66
+msgid ""
+"Powering wheels can be done is a couple different ways through either belts "
+"and pulleys, chains and sprockets, gears, or even powered directly from the "
+"motor. Direct drive and chains are the simpler of the options, with direct "
+"drive not needing a calculated distance at all just have to set the motor "
+"exactly where the center of the wheel is. Chains allow for a little bit of "
+"slack not needing an exact center to center distance in the wrap like belts "
+"and pulleys do. Finally gears which need to be a certain distance apart from"
+" each other to mesh properly and not skip or bind."
+msgstr ""
+"为车轮提供动力可以通过皮带和皮带轮、链条和链轮、齿轮，甚至直接由电机提供动力来实现。直接驱动和链条是更简单的选择，直接驱动根本不需要计算距离，只需将电机精确设置在车轮中心的位置。链条允许一点松弛，而不需要像皮带和皮带轮那样在包裹中精确的中心到中心的距离。最后，需要彼此相距一定距离的齿轮才能正确啮合，而不是跳跃或捆绑。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:68
+msgid ""
+"Mounting motors is done in a plate style by face mounting the motor into the"
+" innermost drivetrain plate. It can also be done by mounting the motors to a"
+" 3rd plate, located in between the outside and inside. This allows for the "
+"motor to take up less space in the middle of the robot, but adds complexity."
+" Motors should always be as low as possible and depending where you want the"
+" center of mass, either the middle or towards the back of the robot. It is "
+"also worth keeping in mind the type of power transmission and the expediency"
+" of doing so in light of the motor placement."
+msgstr ""
+"安装电机是通过将电机正面安装到最内侧的传动系统板上来完成的。也可以通过将电机安装到位于内外之间的第三个板上来完成。这允许电机在机器人中间占用更少的空间，但增加了复杂性。电机应该总是尽可能低，并且取决于你想要的质心位置，无论是机器人的中间还是后面。还值得记住的是动力传输的类型以及根据电机位置这样做的便利性。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:70
+msgid ""
+"Ground clearance is all dependent on if there are any obstacles on the "
+"field, as well as what your team wants to do in that game in regards to said"
+" obstacles."
+msgstr "场地净空完全取决于场地上是否有任何障碍物，以及你的球队在比赛中想要做什么来处理这些障碍物。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:72
+msgid ""
+"For example, in Rover Ruckus some teams with tank drivetrains decided to "
+"enter the crater. Therefore, they left enough space to not beach themselves "
+"on top of the crater, a common mistake that inexperienced teams often make."
+msgstr ""
+"例如，在Rover "
+"Ruckus中，一些配备坦克传动系统的团队决定进入火山口。因此，他们留出了足够的空间，以免自己在火山口顶部搁浅，这是缺乏经验的团队经常犯的常见错误。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:74
+msgid ""
+"Other teams decided to ignore driving over the crater and decided to reach "
+"over with an arm or slide system, which meant they didn't need a lot of "
+"ground clearance for their drivebase."
+msgstr "其他车队决定忽略开车越过火山口，并决定使用手臂或滑轨系统伸出手来，这意味着他们的驾驶基础不需要太多的离地间隙。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:76
+msgid ""
+"Typically, anywhere from .25 inches of clearance to .5 inches (if you want "
+"to be safe) on a completely flat field will allow for the weight of the "
+"robot to push into the foam tiles. Nothing else from the robot should touch "
+"the ground."
+msgstr ""
+"通常，在完全平坦的场地上，从0.25英寸到0.5英寸（如果你想安全的话）的间隙将允许机器人的重量推入泡沫瓷砖。机器人的其他任何东西都不应接触地面。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:78
+msgid ""
+"Something you can do is set the robot in CAD onto a field. Set up obstacles "
+"such as the crater and simulate driving over the crater by moving it across "
+"like you think it would in the real world."
+msgstr "您可以做的事情是将CAD中的机器人设置到一个地面上。设置陨石坑等障碍物，并通过像您在现实世界中想象的那样移动它来模拟在陨石坑上行驶。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:80
+msgid ""
+"If either of the plates intersect with the obstacle, add some more clearance"
+" so you don't get beached like a sad whale."
+msgstr "如果任何一个板块与障碍物相交，增加一些间隙，这样你就不会像悲伤的鲸鱼一样搁浅。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:82
+msgid ""
+"A general rule of thumb for most teams is the wider the intake, the better "
+"the chance of picking up the game piece. However, this is super game "
+"dependent. If you need to pick up a 6\" cube like in Relic Recovery then you"
+" would not need 14\" of space for your intake."
+msgstr ""
+"大多数团队的一般经验法则是摄入量越大，获得游戏碎片的机会就越大。然而，这是超级游戏依赖的。如果你需要像遗迹恢复中那样拿起一个6英寸的立方体，那么你就不需要14英寸的空间来摄入。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:84
+msgid ""
+"However, if you need to pick up a ball like in Velocity Vortex, the bigger "
+"the intake gives you better chances of grabbing the balls. Keep this in mind"
+" when designing drive pods - try to keep them as thin as possible without "
+"sacrificing rigidity and strength to maximize space for other mechanisms and"
+" wiring."
+msgstr ""
+"然而，如果你需要像在速度涡流中那样捡起一个球，吸入拾取装置越大，你就有更好的机会抓住球。在设计驱动吊舱时请记住这一点——尽量保持它们薄，而不牺牲刚性和强度，以最大限度地增加其他机构和布线的空间。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:86
+msgid ""
+"Connecting your two plates together is really simple. Some standoffs or "
+"churro extrusion from AndyMark is a relatively easy way to connect them "
+"together with a few bolts. Just make a few 1/4 in. holes in your sketch "
+"where you want the churro tube to be. Decide how long the churro needs to "
+"be. Remember to leave enough space between the plates for your wheels, "
+"pulleys, sprockets, and spacers. You don't need to go overkill on how many "
+"standoffs you need in between your plates; however, put them in strategic "
+"places where support is needed."
+msgstr ""
+"将两个板连接在一起非常简单。AndyMark的一些支架或油条挤压是一种相对简单的方法，可以用几个螺栓将它们连接在一起。只需在你的草图中做几个1/4英寸的孔。你想让油条管在哪里。决定油条需要多长时间。记住在板之间留出足够的空间来放你的轮子、滑轮、链轮和垫片。你不需要在板之间需要多少支架；然而，把它们放在需要支持的战略位置。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:88
+msgid ""
+"Shown below is a drive pod, which is one half of the drivetrain, including "
+"the shafts, bearings, wheels, motors, belts, etc. In short, the drive pod "
+"has everything that will be built in real life. This particular one is the "
+"left side, but to make the right side create an offset plane, select the "
+"mirror tool, then hit mirror."
+msgstr ""
+"下面显示的是一个驱动吊舱，它是传动系统的一半，包括轴、轴承、轮子、电机、皮带等。简而言之，驱动吊舱拥有现实生活中将要建造的一切。这个特别的是左侧，但要使右侧创建一个偏移平面，请选择镜像工具，然后点击镜像。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Left side drivetrain pod"
+msgstr "左侧传动系统吊舱"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:93
+msgid ""
+"After mirroring the drive pod to make your opposite side, connect those two "
+"halves together and you're done with the drivetrain. Below is a rendering of"
+" the complete drivetrain in CAD."
+msgstr "在镜像驱动吊舱以制作您的另一侧后，将这两半连接在一起，您就完成了动力传动系统。下面是CAD中完整动力传动系统的渲染。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:99
+msgid "CAD Tutorial Part 2 - Pocketing Guide"
+msgstr "CAD教程第2部分-口袋指南"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:101
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:104
+msgid "Pocketing"
+msgstr "口袋化"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:106
+msgid ""
+"\"Pocketing\" is a common term in FTC and FRC\\ |reg| lingo that refers to "
+"cutting out excess material from a CAD designed part. Pocketing helps to "
+"reduce weight and can increase strength of a part. This may seem "
+"counterintuitive (how can removing material strengthen a part?) but "
+"pocketing can reduce stress buildup, especially at corners."
+msgstr ""
+"“口袋”是FTC和FRC®百科中的一个常用术语，指的是从CAD设计的零件中去除多余的材料。口袋有助于减轻重量，增加零件的强度。这可能看起来违反直觉（去除材料如何加强零件？）但是口袋可以减少应力积累，尤其是在角落。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:108
+msgid ""
+"Pocketing is often seen on drivetrain sheet metal plates which will be CNC "
+"machined. In FRC, pocketing is often used to reduce weight of the "
+"rectangular aluminum tubes."
+msgstr "在数控加工的传动系统工作表金属板上经常可以看到口袋。在FRC中，口袋通常用于减轻矩形铝管的重量。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:110
+msgid ""
+"There are several ways to machine pockets into material including milling, "
+"routing, water jet cutting, laser cutting and even hand drilling. Depending "
+"on your access to tooling, pocketing can be more or less difficult for you."
+msgstr "有几种方法可以将口袋加工成材料，包括铣削、布线、喷水切割、激光切割甚至手工钻孔。根据您获得工具的情况，装袋对您来说或多或少是困难的。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:112
+msgid ""
+"CNC milling and routing excel at pocketing aluminum box tubing, whereas "
+"water jet and laser cutting excel at pocketing plates. Whether pocketing on "
+"box tubing or plates, the design is fairly similar."
+msgstr "数控铣削和布线擅长装入铝箱管，而水射流和激光切割擅长装入板。无论是装入箱管还是板材，设计都非常相似。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:114
+msgid ""
+"When designing pockets, **it's important to consider the type of material, "
+"thickness, and how much stress will be on the part**. Materials that are "
+"weaker, thinner or under significant stress should have less \"aggressive\" "
+"pocketing and materials that are stronger, thicker or under less stress can "
+"have more \"aggressive\" pocketing. Aggressive pocketing refers to the "
+"amount of material removal from the blank part (more aggressive = more "
+"material removal)."
+msgstr ""
+"在设计口袋时，重要的是要考虑材料的类型、厚度以及零件上的应力大小。较弱、较薄或承受重大压力的材料应该具有较少的“侵略性”口袋，而较强、较厚或承受较小压力的材料可以具有更“侵略性”口袋。侵略性口袋是指从空白部分移除材料的量（更具侵略性=更多材料移除）。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:116
+msgid ""
+"Although a bit complex to understand, FEA (finite element analysis) can be "
+"used to determine appropriate strut thickness when pocketing. FEA can be "
+"used to generate pocketing geometry, but that is an entirely different "
+"rabbit hole."
+msgstr "虽然理解起来有点复杂，但FEA（有限元分析）可用于确定装袋时的适当支柱厚度。FEA可用于生成装袋几何形状，但那是一个完全不同的复杂情况。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:121
+msgid "FEA of inner drivetrain plate"
+msgstr "传动系统内板的有限元分析"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:121
+msgid "731 Wannabee Strange, Rover Ruckus, FEA of inner drivetrain plate"
+msgstr "731 Wannabee Strange、Rover Ruckus、传动系统内板有限元分析"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:123
+msgid ""
+"Designing concise and advantageous pocketing is as simple as drawing circles"
+" and tangent lines. Parametric pockets can be defined by one or two offset "
+"values. The offset values determine the thickness of the remaining material."
+msgstr "设计简洁有利的口袋就像画圆圈和切线一样简单。参数口袋可以由一个或两个偏移值定义。偏移值决定了剩余材料的厚度。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:125
+msgid ""
+"Parametric means that the entire sketch is defined by a parameter, in this "
+"case is the offset value which when adjusted will automatically adjust the "
+"entire sketch (in terms of material thickness)."
+msgstr "参数化是指整个草图由参数定义，在这种情况下是偏移值，当调整时会自动调整整个草图（就材料厚度而言）。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:127
+msgid ""
+"There are several references that can be drawn on every plate/tube which are"
+" screw holes, bearing holes, and corners. Each reference will get its own "
+"construction/sketch circle or two. Ideally all of the construction circles "
+"are one of less than 4 sizes to keep the pocketing consistent and simple."
+msgstr ""
+"每个板/管上都可以绘制几个参考，分别是螺丝孔、轴承孔和角。每个参考都将获得自己的构造/草图圆或两个。理想情况下，所有的构造圆都小于4个尺寸之一，以保持口袋的一致性和简单性。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:129
+msgid ""
+"First are the screw hole construction circles with radius of the screw hole "
+"radius plus the offset value. Next are bearing holes with radius of bearing "
+"hole radius plus offset value. Then are edges with construction circles with"
+" the radius of an offset value. Then the most important circles are at each "
+"of the screw and bearing holes, which will define the strut thickness."
+msgstr ""
+"首先是螺丝孔半径加偏移值的螺丝孔构造圆。接下来是轴承孔半径加偏移值的轴承孔。然后是具有偏移值半径的构造圆的边缘。然后最重要的圆位于每个螺钉和轴承孔，这将定义支柱厚度。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:131
+msgid ""
+"The circles at the center of each screw and bearing hole will have the "
+"diameter of an offset value. After all of the construction circles are "
+"drawn, tangent lines can be drawn to create the pocketing geometry. Using "
+"the parametric offset value will make it easy to adjust strut thickness by "
+"just changing one or two values."
+msgstr ""
+"每个螺钉和轴承孔中心的圆圈将具有偏移值的直径。绘制所有构造圆圈后，可以绘制切线来创建口袋几何形状。使用参数偏移值将很容易通过更改一个或两个值来调整支柱厚度。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:133
+msgid ""
+"Tangent lines are drawn between the circles on the edges with other circles "
+"on edges and between the circles at the center of each bearing and screw "
+"hole. The circles with radius of bearing hole and screw hole plus offset "
+"value make sure that there is enough material around the bearing and screw "
+"holes. An example is below."
+msgstr ""
+"在每个轴承和螺丝孔的边缘上的圆与其他圆之间以及中心的圆之间画切线。轴承孔和螺丝孔半径加上偏移值的圆确保轴承和螺丝孔周围有足够的材料。下面是一个例子。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Outer mechanism plate with pocketing sketch highlighted"
+msgstr "外侧机构板上有突出的口袋简图"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Outer mechanism plate with all functional geometry"
+msgstr "带所有功能几何图形的外机构板"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:144
+msgid "Outer mechanism plate fully pocketed"
+msgstr "外侧机构板完全袋装"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:144
+msgid "731 Wannabee Strange, 2019 Summer VCC Cadathon, Outer Mechanism Plate"
+msgstr "731 Wannabee Strange，2019 年夏季 VCC Cadathon，外机制板"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:146
+msgid ""
+"The last step in pocketing is adding rounds to each and every corner, "
+"especially inner corners. Rounds relieve stress buildup at corners and make "
+"it easier to machine. Some machines, such as mills and routers, are also "
+"unable to machine tight internal corners. For those parts that need minimum "
+"rigidity loss and a lot more machine time on their hands, pockets don't need"
+" to be cut all the way."
+msgstr ""
+"装袋的最后一步是在每个角落增加圆角，尤其是内角。圆角可以减轻角落的压力，使加工更容易。一些机器，如铣床和路由器，也无法加工紧密的内角。对于那些需要最小刚性损失和更多机器时间的零件，口袋不需要一路切割。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:148
+msgid ""
+":term:`Waterjet cutters <Waterjet cutter>` and :term:`laser cutters <Laser "
+"cutter>` are only able to cut material all the way through, but routers and "
+"mills are able to make surface pockets. These pockets don't go all the way "
+"through the material and are multitudes more rigid than thru pocketing."
+msgstr ""
+"水射流切割机:term:`Waterjet cutters <Waterjet cutter>`和激光切割机:term:`laser cutters "
+"<Laser cutter>`只能切割材料，但是路由器和磨坊能够制造表面口袋。这些口袋不会一直穿过材料，而且比通过口袋更坚硬。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:150
+msgid ""
+"The downside is increased machining time. The increased time is from the "
+"\"lawn mowing\" tool cutting path verses simply cutting the edges of the "
+"geometry. It is also more difficult to machine, because more material is "
+"milled out and chip ejection becomes more important."
+msgstr ""
+"缺点是加工时间增加。增加的时间是从“割草”工具切割路径到简单地切割几何形状的边缘。它也更难加工，因为更多的材料被铣削出来，切屑喷射变得更加重要。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:155
+msgid "Outer mechanism plate surface pocketed"
+msgstr "外机构板表面挖孔"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:155
+msgid "Surface Pocketing Example"
+msgstr "表面挖孔实例"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:157
+msgid ""
+"If you don't have access to any precision tools, a hand drill/drill press "
+"and large drill bit/flat bottom boring bits can create pockets in material. "
+"Although this is the simplest form of pocketing, there is a straightforward "
+"way to optimize the circular drill method."
+msgstr ""
+"如果您无法获得任何精密工具，手钻/钻床和大钻头/平底钻头可以在材料中创建口袋。虽然这是最简单的口袋形式，但有一种直接的方法可以优化圆形钻孔方法。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:159
+msgid ""
+"Since the main goal of pocketing is to remove as much material as possible "
+"without significantly sacrificing the structural stability, the holes need "
+"to be drilled in specific positions with the right size bit."
+msgstr "由于凹坑的主要目标是在不显著牺牲结构稳定性的情况下去除尽可能多的材料，因此需要在特定位置用合适尺寸的钻头钻孔。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:161
+msgid ""
+"The most effective way to find the specific positions and drill bit sizes, "
+"is to first create a pocketing design as you would do with circles and "
+"tangent lines. Then draw holes tangent to the struts created by the circles "
+"and tangent lines. An example is below with the orange as the holes to drill"
+" positioned tangentially to the regular pocketed edges."
+msgstr ""
+"找到具置和钻头尺寸的最有效方法是首先创建一个口袋设计，就像你对圆形和切线所做的那样。然后绘制与圆形和切线创建的支柱相切的孔。下面是一个例子，橙色作为钻孔定位在常规口袋边缘的切线上。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Outer mechanism plate showing the tangent circles between the pockets"
+msgstr "外层机构板显示挖孔之间的切圆"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:169
+msgid "Outer mechanism plate showing optimal drill pockets"
+msgstr "外机构板显示最佳钻孔槽"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:169
+msgid "Optimal Drill Pocketing Method Example"
+msgstr "最佳钻孔方法示例"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:171
+msgid ""
+"Although it may look like a random mess and it may take a while longer than "
+"just randomly \"cheese holing\", this method will yield the greatest weight "
+"reduction to structural rigidity loss ratio using the drill pocketing "
+"method."
+msgstr "虽然它可能看起来像一个随机的混乱，它可能需要比仅仅随机“奶酪打孔”更长的时间，但这种方法将使用钻孔方法产生最大的重量减轻结构刚性损失比。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:173
+msgid ""
+"A very important tip to pocketing is to do it last when designing a part. "
+"Parts should not be designed around the pocketing pattern, rather the "
+"pocketing should be designed around the part. If there are too many holes in"
+" a part, or the part is too small to be pocketed with an offset value, then "
+"it's probably not worth it to pocket."
+msgstr ""
+"口袋设计的一个很重要的技巧是在设计零件时要最后做。零件不应该围绕口袋图案设计，而应该围绕零件设计口袋。如果一个零件上的孔太多，或者零件太小而不能用偏移值装进口袋，那么很可能不值得装进口袋。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:175
+msgid ""
+"Pocketing can reduce part weight, but when using traditional machining "
+"methods can take a significant amount of extra time. Although, when adding "
+"pockets to parts that are going to be 3D printed, it can in some cases "
+"decrease print time as well as material used."
+msgstr ""
+"口袋可以减轻零件重量，但是当使用传统的加工方法时，可能会花费大量的额外时间。然而，当在将要3D打印的零件上添加口袋时，在某些情况下，它可以减少打印时间和使用的材料。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:177
+msgid ""
+"The pocketing method above is the simplest parametric method to pocketing, "
+"but more complex methods exist. For instance, the image below is an example "
+"of a complex double iso-grid pocketing pattern optimized for metal 3D "
+"printing."
+msgstr "上面的口袋方法是口袋的最简单的参数方法，但更复杂的方法存在。例如，下图是针对金属3D印刷优化的复杂双等网格口袋图案的示例。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:182
+msgid "Arm pivot mount with complex double iso-grid pocketing pattern"
+msgstr "支臂转轴固定装置，带有复杂的双等格网袋纹"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:182
+msgid "731 Wannabee Strange, Rover Ruckus, Arm Pivot Mount"
+msgstr "731 Wannabee Strange、Rover Ruckus、臂枢轴支架"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:184
+msgid ""
+"When the pockets are designed around a 3D printed part, many new "
+"possibilities open up in terms of minimum inner corner radius, resolution "
+"and dimensions. Now of course, 3D printed parts can be pocketed in the same "
+"way as traditional parts with similar results."
+msgstr ""
+"当口袋围绕3D印刷零件设计时，在最小内角半径、分辨率和尺寸方面开辟了许多新的可能性。现在当然，3D印刷零件可以像传统零件一样装入口袋，结果相似。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:187
+msgid "CAD Tutorial Part 3 - Custom Pulley Template"
+msgstr "CAD教程第3部分-定制滑轮模板"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:189
+msgid ""
+"When designing methods of power transmission, it's useful to have an "
+"adjustable pulley generator to rapidly rearrange C-C (center to center) "
+"distance for design changes. Typically, FTC teams use the HTD5 belt profile "
+"due to its deep tooth profile, which adds resistance to slipping and "
+"increases load capacity. This tutorial will focus on the HTD5 profile, but "
+"it is relatively easy to adapt for different profiles."
+msgstr ""
+"在设计动力传动方法时，有一个可调节的皮带轮发生器来快速重新安排C-C（中心到中心）距离以进行设计更改是很有用的。通常，FTC团队使用HTD5皮带轮廓，因为它的深齿形增加了滑动阻力并增加了负载能力。本教程将重点介绍HTD5轮廓，但它相对容易适应不同的轮廓。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:191
+msgid ""
+"To make the pulley fully parametric (adjustable without redoing the base "
+"sketch), we will use Equations (in Solidworks and Creo), Parameters (Fusion "
+"360 and Inventor) or Variables (Onshape). Equations allow a user to quickly "
+"adjust values and change multiple dimensions in a sketch or feature."
+msgstr ""
+"为了使滑轮完全参数化（无需重做基本草图即可调整），我们将使用方程式（在Solidworks和Creo中）、参数（Fusion "
+"360和Inventor）或变量（Onform）。方程式允许用户快速调整值并更改草图或特征中的多个维度。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "A screenshot of the \"Equations, Global Variables, and Dimensions\" view"
+msgstr "方程、全局变量和维度 \"视图截图"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:197
+msgid ""
+"First, define a new variable \"n\" and set a default value of 24. This is "
+"crucial since \"n\" will affect the number of teeth, which will define the "
+"angle between teeth and the circular pattern."
+msgstr "首先，定义一个新变量“n”并设置默认值为24。这一点至关重要，因为“n”将影响牙齿的数量——这将定义牙齿和圆形图案之间的角度。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:199
+msgid "Copy the sketch below."
+msgstr "复制下面的草图。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The sketch to copy"
+msgstr "要复制的草图"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:204
+msgid "The 15° equation is done by typing =360/\"n\" into the text box."
+msgstr "15°方程通过在输入框中键入=360/\"n\"来完成。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:205
+msgid ""
+"Note that 5mm dimension at the top describes arc length, which is done in "
+"Solidworks by first selecting the two points and the connecting arc."
+msgstr "请注意，顶部的5mm尺寸描述了弧长，这是在Solidworks中通过首先选择两点和连接弧来完成的。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:206
+msgid ""
+"The two big circles are tangent to the two smaller circles, but the two "
+"smaller circles are not tangent to each other."
+msgstr "两个大圆与两个小圆相切，但两个小圆互不相切。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:208
+msgid ""
+"Leave this sketch as a reference and use \"Convert Entities\" to create "
+"sketches for additional features."
+msgstr "保留此草图作为参考，并使用“转换实体”为附加功能创建草图。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The profile of the pulley"
+msgstr "滑轮轮廓"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:213
+msgid ""
+"Next, extrude the outer bold circle. Cut-extrude the profile in the "
+"reference sketch. Do these features separately."
+msgstr "接下来，挤出外部粗体圆圈。切割-挤出参考草图中的轮廓。分别执行这些功能。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid ""
+"A screenshot of the tool to create the circular pattern of the next step"
+msgstr "创建下一步的圆形图案的工具截图"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:218
+msgid ""
+"Now, just create a Circular Pattern. Define Direction 1 as the top face and "
+"create \"n\" instances of the cut-extrude feature."
+msgstr "现在，只需创建一个圆形图案。将方向1定义为顶面并创建“n”个切割挤压特征的实例。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The CAD of the pulley with dimensions"
+msgstr "滑轮 CAD 的尺寸"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:223
+msgid ""
+"Now just sketch on the side plane and sketch the flanges. This is up to you,"
+" but I prefer to keep the outer point vertical to a point pierced through "
+"the outer circle. That way, the flange changes with respect to \"n\"."
+msgstr "现在只需在侧平面上绘制草图并绘制法兰。这取决于你，但我更喜欢保持外部点垂直于穿过外部圆的点。这样，法兰相对于“n”发生变化。"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The complete CAD of the pulley"
+msgstr "滑轮的完整 CAD"

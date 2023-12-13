@@ -3,16 +3,111 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# wwsk2008sq, 2023
+# Shawphy, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-13 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:159
+msgid "Disadvantages over string"
+msgstr "与线缆相比的缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
+msgid "5064's cascading belt rigging"
+msgstr "5064 队伍级联皮带传动装置"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
+msgid "An image of 13075 linear slides"
+msgstr "13075 队伍制作线性滑轨的图像"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
+msgid "An image of 13075 linear slide's string tensioner"
+msgstr "13075 线性滑轨线缆张紧器的图像"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:235
+msgid "Cable Carrier/Drag Chain"
+msgstr "电缆架/拖链"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:239
+msgid "Here are some links to various drag chain products:"
+msgstr "下面是一些有关各种拖链产品的链接："
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:241
+msgid ""
+"`igus cable carrier <https://www.igus.com/info/energy-chains-e2-micro-small-"
+"cable-carrier>`_"
+msgstr ""
+"`igus 电缆支架<https://www.igus.com/info/energy-chains-e2-micro-small-cable-"
+"carrier>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:242
+msgid ""
+"`uxcell 10x10mm drag chain, from Amazon <https://www.amazon.com/uxcell-"
+"InnerH-InnerW-Plastic-"
+"Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
+msgstr ""
+"uxcell 10x10mm 拖链，来自亚马逊<https://www.amazon.com/uxcell-InnerH-InnerW-Plastic-"
+"Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:246
+msgid "Difficult to get tangled/hooked onto other objects or robots"
+msgstr "难以缠绕/钩住其他物体或机器人"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:247
+msgid "Sturdy and durable"
+msgstr "坚固耐用"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:248
+msgid "Protects wires very well"
+msgstr "很好地保护电线"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:252
+msgid "Large form factor, takes up a lot of space"
+msgstr "外形尺寸大，占用空间大"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:253
+msgid "Links need to be added if additional extension is needed"
+msgstr "如果需要额外扩展，需要添加连接器"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:254
+msgid "Can be on the heavy side, especially with a long length of drag chain"
+msgstr "可能会偏重，尤其是拖链较长时"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:259
+msgid "7236's Rover Ruckus robot with cable carriers visible"
+msgstr "7236 队伍的 Rover Ruckus 机器人，电缆架清晰可见"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:259
+msgid ""
+"7236 Recharged Green, Rover Ruckus: Cable carrier on the left side of their "
+"horizontal slides and the right side of vertical slides"
+msgstr "7236 Recharged Green，Rover Ruckus：水平滑道左侧和垂直滑道右侧的电缆支架"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:281
+msgid "10030's robot's coil cord"
+msgstr "10030 队伍的机器人的线圈"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:281
+msgid ""
+"10030 7 Sigma Robotics, Relic Recovery: Coil-cord on horizontal extension "
+"mechanism"
+msgstr "10030 7 Sigma Robotics， Relic Recovery：水平延伸装置上的线圈绳"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:294
+msgid "Extremely simple and easy to implement"
+msgstr "极其简单，易于实施"

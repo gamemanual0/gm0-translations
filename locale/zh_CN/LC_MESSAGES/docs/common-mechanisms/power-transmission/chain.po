@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2023-12-13 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,9 +22,39 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:6
+msgid ""
+"When your shafts aren't right next to each other, roller chain and sprockets"
+" will allow you to transmit power securely between your shafts."
+msgstr "当你的轴不相邻时，滚子链和链轮将允许你在轴之间安全地传输动力。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:76
+msgid ""
+"**Chain can be pretty precise**. When properly tensioned, roller chain "
+"doesn't have very much slop. However, you really need to get your chain "
+"tension right to reduce slop, and you'll probably want an adjustable "
+"tensioner for when the chain stretches. This can be done easily if using "
+"extrusion systems, as the sprocket can be adjusted for tension."
+msgstr ""
+"**链条可以非常精确* "
+"*。如果张紧得当，滚子链不会有太大的松弛。不过，你需要适当地张紧链条以减少滑动，而且你可能需要一个可调节的张紧器，以便在链条拉伸时使用。如果使用挤压系统，这一点很容易做到，因为链轮可以根据张力进行调整。"
+
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:79
 msgid "Disadvantages"
 msgstr "劣势"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:81
+msgid ""
+"**Chain stretches over time**. As it's used, the connections between the "
+"links and rollers can stretch a bit. While it doesn't look like much, this "
+"stretching can introduce lots of slop into your chain run and even derail it"
+" in some cases. You'll most likely need an adjustable tensioner to keep your"
+" tension over time - some teams have used spring-loaded dynamic tensioners "
+"to automatically compensate for any changes."
+msgstr ""
+"** 链条会随着时间的推移而拉伸** "
+"。链条在使用过程中，链节和滚子之间的连接会有一些拉伸。虽然看起来不大，但这种拉伸会给链条运行带来很大的不稳定性，在某些情况下甚至会使链条脱轨。您很可能需要一个可调节的张紧器来长期保持张力"
+"--有些车队使用弹簧式动态张紧器来自动补偿任何变化。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:82
 msgid ""

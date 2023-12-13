@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2023-12-13 16:16+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -41,6 +41,43 @@ msgstr "FTC\\ |reg| 团队有 7 个奖项（不包括可选奖项）。有关这
 msgid "Inspire Award"
 msgstr "启发奖"
 
+#: ../../gm0/source/docs/awards/award-types.rst:14
+msgid ""
+"The Inspire Award is the top award for an FTC team. It is given to a team "
+"that consistently rises to the top in other awards categories. It is also "
+"(barring host team advancement), the first advancement slot on the "
+"advancement list. This means the winner is guaranteed to advance to the next"
+" level in most scenarios, unlike the winning alliance captain in some "
+"states."
+msgstr ""
+"启发奖是FTC团队的最高奖项。它授予在其他奖项类别中持续上升到顶部的团队。它也是（除非东道主团队晋级），晋级列表中的第一个晋级位置。这意味着在大多数情况下，获胜者可以保证晋级到下一个级别，这与某些州的获胜联盟队长不同。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:16
+msgid ""
+"In order to win the Inspire Award, your team should focus on every other "
+"award category, and perform well in the robot game. In the past, the Inspire"
+" Award has given much more weight to awards performance, but it seems as if "
+"the judges are now taking robot performance into consideration more."
+msgstr ""
+"为了赢得激励奖，你的团队应该专注于其他所有奖项类别，并在机器人游戏中表现出色。过去，激励奖对奖项表现的重视程度要高得多，但现在评委似乎更多地考虑机器人的表现。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:18
+msgid ""
+"Of all the awards, this one is arguably the most subjective, as it is about "
+"how good does a team does overall, including and how much they weigh "
+"outreach as compared to robot performance along with documentation."
+msgstr "在所有奖项中，这个可以说是最主观的，因为它是关于一个团队整体做得有多好，包括与机器人表现和留档相比，他们在多大程度上权衡了外展。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:21
+#: ../../gm0/source/docs/awards/award-types.rst:31
+#: ../../gm0/source/docs/awards/award-types.rst:43
+#: ../../gm0/source/docs/awards/award-types.rst:55
+#: ../../gm0/source/docs/awards/award-types.rst:67
+#: ../../gm0/source/docs/awards/award-types.rst:87
+#: ../../gm0/source/docs/awards/award-types.rst:96
+msgid "Official Game Manual Description"
+msgstr "官方游戏手册说明"
+
 #: ../../gm0/source/docs/awards/award-types.rst:21
 msgid ""
 "This judged award is given to the team that best embodies the 'challenge' of"
@@ -60,9 +97,91 @@ msgstr ""
 msgid "Think Award"
 msgstr "思维奖"
 
+#: ../../gm0/source/docs/awards/award-types.rst:24
+msgid ""
+"The Think Award is based entirely on the |EN| and Engineering Portfolio. In "
+"order to have a chance at winning, the |EN| should include as much math and "
+"physics as possible, document the entire journey of the robot through "
+"iterations, and other documentation of design and game strategy."
+msgstr ""
+"思维奖完全基于工程笔记本和工笔摘要。为了有机会获胜，工程笔记本应该包括尽可能多的数学和物理，记录机器人通过迭代的整个旅程，以及设计和游戏策略的其他文档。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:26
+msgid ""
+"In addition, the portfolio should be well laid out and contain information "
+"on various non-technical aspects of the team, such as sustainability "
+"(recruitment of new team member and mentors), training, outreach (especially"
+" the impact of the outreach and what was learned from it), and team "
+"structure. While these categories aren't as strictly important as robot "
+"documentation, they are generally recommended for a strong engineering "
+"portfolio."
+msgstr ""
+"此外，团队应该布局良好，并包含有关团队各种非技术方面的信息，例如可持续性（招聘新团队成员和导师）、培训、外展（特别是外展的影响以及从中学到的东西）和团队结构。虽然这些类别并不像机器人留档那样严格重要，但通常建议它们用于强大的工笔摘要。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:29
+msgid ""
+"This judged award is given to the Team that best reflects the journey the "
+"Team took as they experienced the engineering design process during the "
+"build season. The engineering content within the portfolio is the key "
+"reference for judges to help identify the most deserving Team. The Teams "
+"engineering content must focus on the design and build stage of the Team's "
+"Robot."
+msgstr ""
+"这个评审类奖项将颁发给最能反映出他们赛季期间所经历的工程设计过程等各种“旅程”的队伍。评委将利用检查记录本中的工程单元来选出最有资格得奖的队伍。队伍的工程记录本必须着重在队伍机器人的设计和组装阶段上。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:31
+msgid ""
+"The Team must be able to share or provide additional detailed information "
+"that is helpful for the judges. This could include descriptions of the "
+"underlying science and mathematics of the Robot design and game strategies, "
+"the designs, redesigns, successes, and opportunities for improvement. A Team"
+" is not a candidate for this award if their portfolio does not include "
+"engineering content."
+msgstr ""
+"队伍必须能分享和提供对评委有帮助的更多细节信息。这些信息包括机器人设计和比赛策略、设计、重新设计、成功的案例。如果队伍尚未完成工程笔记摘要的工程部分，则该队伍将不得角逐本奖项。"
+
 #: ../../gm0/source/docs/awards/award-types.rst:32
 msgid "Connect Award"
 msgstr "联结奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:34
+msgid ""
+"The Connect Award is one of the two outreach awards. This award is for teams"
+" that work with their local STEM community and corporate community. "
+"Unfortunately, the line between the Connect and Motivate award can be vague,"
+" and judges may not differentiate which outreach falls under which award."
+msgstr ""
+"联结奖是两个外展奖之一。该奖项授予与当地STEM社区和企业社区合作的团队。不幸的是，连接奖和激励奖之间的界限可能很模糊，评委可能无法区分哪些外展属于哪个奖项。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:36
+#: ../../gm0/source/docs/awards/award-types.rst:82
+msgid ""
+"Look at the section about differentiating connect and motivate for more "
+"advice on this. For both outreach awards, a Team Plan is required. Refer to "
+"the section about writing a team plan for advice."
+msgstr "查看有关区分连接和激励的部分，以获取更多相关建议。对于两个外展奖项，都需要团队计划。请参阅有关编写团队计划的部分以获取建议。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:38
+msgid ""
+"A portfolio is also required for this award, and should contain descriptions"
+" of the outreach as well as what the team gained from the outreach. In "
+"addition, the portfolio should also contain information on plans for "
+"recruitment of mentors as well as how the team plans to meaningfully develop"
+" their STEM connections."
+msgstr ""
+"该奖项还需要一个工笔摘要，并应包含对外联的描述以及团队从外联中获得的收获。此外，工笔摘要还应包含有关招聘导师计划以及团队计划如何有意义地发展其STEM联系的信息。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:40
+msgid ""
+"Be prepared for judges to ask you how your outreaches were meaningful, and "
+"try to avoid doing STEM outreaches just for the sake of saying you did a "
+"STEM outreach. Successful STEM outreaches are those that are undertaken for "
+"a specific purpose and have a clear intent and goal, such as meeting with an"
+" expert on computer vision to ask for advice on a vision task for the game. "
+"If you are struggling to find STEM outreaches, local colleges and businesses"
+" are a good start."
+msgstr ""
+"准备好让评委问你的外展有什么意义，尽量避免仅仅为了说你做了STEM外展而做STEM外展。成功的STEM外展是为特定目的进行的，有明确的意图和目标，例如会见计算机视觉专家，就游戏的视觉任务征求建议。如果你很难找到STEM外展，当地的大学和企业是一个好的开始。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:43
 msgid ""
@@ -99,6 +218,29 @@ msgid ""
 "under Control."
 msgstr "创新奖主要针对硬件，但一些团队也能够将软件展示为创新。一些评委认为展示软件作为创新的一部分很棒，但其他人认为软件只适合控制。"
 
+#: ../../gm0/source/docs/awards/award-types.rst:50
+msgid ""
+"While it may be tempting to sell your entire robot as innovative, it is "
+"often much more effective to focus on one or two aspects of your robot "
+"instead. Judges will often ask what the most innovative part of your robot "
+"is, and this is your opportunity to focus in on the one or two mechanisms "
+"that you can sell."
+msgstr ""
+"虽然把你的整个机器人作为创新展示可能很诱人，但专注于机器人的一两个方面通常更有效。评委经常会问你的机器人最具创新性的部分是什么，这是你专注于你可以展示的一两个机制的机会。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:52
+msgid ""
+"The engineering portfolio should contain information on your robot's "
+"mechanisms, and your presentation should also mention the innovative parts "
+"of your robot. However, refrain from over describing the mechanisms you "
+"intend to sell as innovative, as you want to leave room for the judges to "
+"ask questions, which gives you more opportunities and time to sell your "
+"mechanisms. In addition, practice what aspects of the mechanisms you want to"
+" sell as innovative, and make sure you are able to thoroughly describe why "
+"they are innovative when asked."
+msgstr ""
+"工程作品集应该包含关于你的机器人机制的信息，你的演讲也应该提到你的机器人的创新部分。但是，不要过度描述你打算展示的机制是创新的，因为你想给评委留下提问的空间，这给了你更多的机会和时间来展示你的机制。此外，练习你想展示的机制的哪些方面是创新的，并确保你能够在被问到时彻底描述它们为什么是创新的。"
+
 #: ../../gm0/source/docs/awards/award-types.rst:55
 msgid ""
 "The Innovate Award celebrates a Team that thinks imaginatively and has the "
@@ -121,6 +263,70 @@ msgstr ""
 #: ../../gm0/source/docs/awards/award-types.rst:56
 msgid "Control Award"
 msgstr "控制奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:58
+msgid ""
+"The Control award is meant to recognize a team that has a good software "
+"solution to make their robot \"intelligent\". It's known as the \"software "
+"award\" and is for the team with the best or most innovative software and "
+"sensor solution for the game."
+msgstr ""
+"控制奖旨在表彰拥有良好软件解决方案的团队，使他们的机器人“智能”。它同样被称为“软件奖”，是为拥有最佳或最具创新性的比赛软件和传感器解决方案的团队设立的。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:60
+msgid ""
+"Don't be tempted to overlook the control award even though it doesn't "
+"advance at most competitions. The control award counts for the inspire "
+"award, and strong performance in control counts towards inspire ranking."
+msgstr "不要被诱惑忽视控制奖，即使它在大多数比赛中没有进步。控制奖计入激励奖，控制方面的强劲表现计入激励排名。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:62
+msgid ""
+"This award requires a separate submission sheet which is a condensed summary"
+" of a team's software. Check your region's rules, some require `the "
+"traditional (in person) "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"award-submission-form-traditional.pdf>`_ or `remote "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"award-submission-form-remote.pdf>`_ form, but some accept custom forms. "
+"Check with your affiliate partner or judges if you are unsure. **Do not "
+"directly put code into your portfolio, control award sheet or notebook, the "
+"judges will not care**. Instead, focus on explaining key algorithms that you"
+" use, and explain the software in an easy to understand way. Remember, your "
+"control award judges may not be software engineers or programmers, so make "
+"sure you can explain everything to someone without a software background."
+msgstr ""
+"该奖项要求提交一份单独的表格，该表格是团队软件的浓缩摘要。请查看您所在地区的规则，有些地区要求使用 `传统（本人） "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"award-submission-form-traditional.pdf>`_或 `远程 "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"award-submission-form-remote.pdf>`_表格，但有些地区接受自定义表格。如果您不确定，请咨询您的联盟合作伙伴或裁判。 "
+"**不要直接将代码写入作品集、控制奖表或笔记本，评委不会在意** "
+"。相反，请重点解释您使用的关键算法，并以通俗易懂的方式解释软件。请记住，控制奖评委可能不是软件工程师或程序员，因此请确保您能向没有软件背景的人解释一切。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:64
+msgid ""
+"In addition, control award software is more then just your autonomous mode "
+"programs. Driver assistance, feedback, and automation all are vital to the "
+"control award."
+msgstr "此外，控制奖励软件不仅仅是您的自主模式程序。驾驶员辅助、反馈和自动化对于控制奖励都至关重要。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:67
+msgid ""
+"The Control Award celebrates a Team that uses sensors and software to "
+"increase the Robot's functionality in the field. This award is given to the "
+"Team that demonstrates innovative thinking to solve game challenges such as "
+"autonomous operation, improving mechanical systems with intelligent control,"
+" or using sensors to achieve better results. The control component should "
+"work consistently in the field. The Team's engineering portfolio must "
+"contain a summary of the software, sensors, and mechanical control, but "
+"would likely not include copies of the code itself."
+msgstr ""
+"控制奖表彰在比赛中利用传感器和软件来加强机器人功能的队伍。这支队伍展现出控制系统的创新思维，以解决比赛中象是自动性的任务、以高明的控制方式加强机械系统、或利用传感器在比赛中取得更好的成绩。控制物件必须在场地上一致工作。队伍的工程笔记摘要必须包含软件、传感器、及机械控制的摘要，但可以不包括代码的副本。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:69
+msgid "Some examples of control award sheets are:"
+msgstr "控制奖励工作表的一些例子是："
 
 #: ../../gm0/source/docs/awards/award-types.rst:71
 msgid ""
@@ -193,6 +399,15 @@ msgstr ""
 "激励奖是两个外联奖之一。它针对的是与当地和 *FIRST* 社区合作的团队。遗憾的是，:term:`connect award<Connect "
 "Award>`与激励奖之间的界限可能比较模糊，大多数评委不知道如何区分哪些外联活动属于哪个奖项。"
 
+#: ../../gm0/source/docs/awards/award-types.rst:84
+msgid ""
+"The key aspects to include in your portfolio and presentation for motivate "
+"is showing how all team members contribute to the success of the team, how "
+"your team is recruiting members from non-stem areas, as well as plans for "
+"fundraising, funding, sustainability, and recruitment."
+msgstr ""
+"在你的工笔摘要和演示中，激励的关键方面是展示所有团队成员如何为团队的成功做出贡献，你的团队如何从非干领域招募成员，以及筹款、融资、可持续性和招聘计划。"
+
 #: ../../gm0/source/docs/awards/award-types.rst:87
 msgid ""
 "This Team embraces the culture of *FIRST* and clearly shows what it means to"
@@ -211,6 +426,45 @@ msgstr ""
 msgid "Design Award"
 msgstr "设计奖"
 
+#: ../../gm0/source/docs/awards/award-types.rst:90
+msgid ""
+"The Design Award is one of the robot awards that primarily focuses on the "
+"hardware aspect of the robot. It is for robots that are both functional, "
+"aesthetic, and use good design practices, including CAD."
+msgstr "设计奖是主要关注机器人硬件方面的机器人奖项之一。它适用于功能性、美观性和使用良好设计实践（包括CAD）的机器人。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:92
+msgid ""
+"In order to be considered for the Design Award, it's recommended that your "
+"team uses CAD and designs the robot before it is built, with engineering "
+"portfolio sections about the development of the robot through iterations of "
+"the engineering design process. Its important to include CAD screenshots and"
+" drawings in your portfolio, and your design should be consistent with any "
+"team goals listed."
+msgstr ""
+"为了被考虑获得设计奖，建议您的团队使用计算机辅助设计并在机器人建造前对其进行设计，并通过工程设计过程的迭代对机器人的开发进行工笔摘要部分。在您的作品集中包含计算机辅助设计屏幕截图和图纸很重要，您的设计应与列出的任何团队目标保持一致。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:94
+msgid ""
+"While functionality is what most teams focus on, the Design Award also takes"
+" into account aesthetics, and most judges will generally be turned off by an"
+" ugly robot for this award (no cardboard on the robot!), so make sure your "
+"robot looks presentable."
+msgstr ""
+"虽然功能是大多数团队关注的，但设计奖也考虑了美学，大多数评委通常会被这个奖项的丑陋机器人拒之门外（机器人上没有纸板！），所以确保你的机器人看起来像样。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:97
+msgid ""
+"This judged award recognizes design elements of the Robot that are both "
+"functional and aesthetic. The Design Award is presented to Teams that "
+"incorporate industrial design elements into their solution. These design "
+"elements could simplify the Robot's appearance by giving it a clean look, be"
+" decorative in nature, or otherwise express the creativity of the Team. The "
+"Robot should be durable, efficiently designed, and effectively address the "
+"game challenge."
+msgstr ""
+"该奖项旨在表彰机器人的功能融合美学设计元素。设计奖颁发给将工业设计元素纳入其解决方案的队伍。这些设计元素可以简化机器人的外观，具有自然装饰性或表达队伍的创造力，使其外观简洁且耐用，进而有效的在比赛场上发挥作用和执行任务。"
+
 #: ../../gm0/source/docs/awards/award-types.rst:112
 msgid "Starting/Mentoring *FIRST* Teams"
 msgstr "启动/指导 *FIRST* 团队"
@@ -224,6 +478,21 @@ msgid ""
 msgstr ""
 "为了扩大影响，请确保在活动中提供更多的资源，而不仅仅是你的团队信息，除了 *FIRST* 科技挑战赛的信息外，还有 *FIRST* "
 "乐高联盟团队的详细信息，这可以扩大你的影响范围。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:132
+msgid ""
+"The Judges Choice Award is meant to recognize a team that doesn't fit into "
+"any of the existing award categories, but the judges still felt the team "
+"deserved to win an award for their outstanding effort or other experience. "
+"This award is very subjective, and doesn't advance teams. It is also "
+"optional to give at every competition, but in some regions given at every "
+"competition unless the judges don't find a deserving team."
+msgstr ""
+"评委选择奖旨在表彰一个不适合任何现有奖项类别的团队，但评委仍然认为该团队应该因其杰出的努力或其他经验而获奖。这个奖项非常主观，不会提升团队。在每场比赛中给予也是可选的，但在某些地区，除非评委没有找到一个值得的团队。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:137
+msgid "Some good Promote award submissions include:"
+msgstr "一些好的推广奖提交包括："
 
 #: ../../gm0/source/docs/awards/award-types.rst:139
 msgid "`Team 3595 in 2014 <https://www.youtube.com/watch?v=yYFxuJwtCu0>`_"
@@ -241,6 +510,10 @@ msgstr "`Team 5795 in 2017 <https://www.youtube.com/watch?v=8gn-URpmXVA>`_"
 msgid "`Team 4924 in 2016 <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
 msgstr "`Team 4924 in 2016 <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
 
+#: ../../gm0/source/docs/awards/award-types.rst:144
+msgid "Some good Compass award submissions include:"
+msgstr "一些优秀的罗盘奖项提交包括："
+
 #: ../../gm0/source/docs/awards/award-types.rst:146
 msgid "`Team 4855 in 2017 <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
 msgstr "`Team 4855 in 2017 <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
@@ -256,3 +529,9 @@ msgstr "`Team 9879 in 2017 <https://www.youtube.com/watch?v=z6M6UYMLujo>`_"
 #: ../../gm0/source/docs/awards/award-types.rst:149
 msgid "`Team 6510 in 2015 <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
 msgstr "`Team 6510 in 2015 <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
+
+#: ../../gm0/source/docs/awards/award-types.rst:151
+msgid ""
+"For more information on these awards, take a look at the specific section "
+"for each award in |gm1|."
+msgstr "有关这些奖项的更多信息，请查看游戏手册第1部分中每个奖项的具体部分。"
