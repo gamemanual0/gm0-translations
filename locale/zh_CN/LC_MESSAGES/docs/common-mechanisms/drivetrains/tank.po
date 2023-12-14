@@ -5,21 +5,323 @@
 # 
 # Translators:
 # Shawphy, 2023
+# wwsk2008sq, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 16:18+0000\n"
+"POT-Creation-Date: 2023-12-14 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: wwsk2008sq, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:4
+msgid "Tank (Skid-Steer) Drivetrains"
+msgstr "坦克（滑移装载机）传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:7
+msgid "2 Wheel Drive (Pushbot Drive)"
+msgstr "2轮驱动（推杆驱动）"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:9
+msgid "**Recommended only for first drivetrain, not for competitions**"
+msgstr " **建议仅用于你的团队入门用的动力系统，而不用于比赛** "
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:11
+msgid ""
+"This rookie drivetrain is considered one of the inferior drivetrains, though"
+" it is usable at low competition levels. This is the introductory drivetrain"
+" type for many rookies, as it is promoted in official guides published by "
+"*FIRST*\\ |reg| (giving it the name pushbot). It often has :term:`direct "
+"driven <Direct Drive>` :term:`traction wheels <Traction wheel>` with "
+"unpowered :term:`omni wheels <Omni Wheel>`."
+msgstr ""
+"这种新手传动系统被认为是低级传动系统之一，尽管它在低级比赛中也能使用。这是许多新手的入门传动系统类型，因为*FIRST*/|reg|出版的官方指南中推广了这种传动系统（给它起了个名字叫pushbot）。它通常有"
+" :term:`直接驱动 <Direct Drive>` :term:`牵引轮 <Traction wheel>` 和无动力的 :term:`全向轮 "
+"<Omni Wheel>`。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:13
+msgid ""
+"This type of drivetrain has poor turning as the center of turning is at the "
+"back of the robot between the two powered wheels. In comparison to other "
+"drivetrains, it has poor acceleration due to only using two motors."
+msgstr "这种传动系统的转弯性能较差，因为转弯中心位于机器人后部的两个动力轮之间。与其他传动系统相比，由于只使用了两个电机，它的加速性能也较差。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:15
+msgid ""
+"Even though it may not be an optimal drivetrain, it is still possible to be "
+"competitive as long as the drivetrain is reliable. As a consensus, we would "
+"advise every new team to build the pushbot primarily to learn how to build "
+"with a kit. The pushbot is a good starting point and helps the team get "
+"familiarized with using kit parts, attaching wheels, mounting motors, etc. "
+"However, it is subpar to every other drivetrain in a competitive context."
+msgstr ""
+"尽管这可能不是最佳的动力传动系统，但只要动力传动系统可靠，还是有可能取得竞争优势的。作为共识，我们建议每支新参赛队制作推杆机器人，主要是为了学习如何使用套件进行制作。pushbot"
+" 是一个很好的起点，可以帮助团队熟悉如何使用套件部件、安装车轮和电机等。但是，在竞技环境中，它与其他任何动力传动系统相比都不尽如人意。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:17
+msgid ""
+"While the pushbot is a good first drivetrain for new teams to get acquainted"
+" with the kit, it is recommended that teams move away from this drivetrain "
+"when building their competition robot."
+msgstr "虽然推杆机器人是新团队熟悉该套件的第一套传动系统，但建议团队在制作比赛机器人时不要使用该传动系统。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:20
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:71
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:153
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:228
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:265
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:22
+msgid "Most simple drivetrain to build"
+msgstr "最简单、最容易制作的动力传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:23
+msgid "No need to worry about powering all four wheels"
+msgstr "无需担心为四个车轮提供动力"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:26
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:79
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:161
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:236
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:271
+msgid "Disadvantages"
+msgstr "劣势"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:28
+msgid "Slower than other options"
+msgstr "比其他可选传动系统慢"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:29
+msgid "Underpowered (all other drivetrain options typically use 4 motors)"
+msgstr "动力不足（所有其他传动系统方案通常使用 4 个电机）"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:30
+msgid ""
+"Uses the Tetrix MAX motor, which is prone to burning out easily, is "
+"underpowered, and has a fragile gearbox."
+msgstr "使用 Tetrix MAX 电机，容易烧毁，动力不足，变速箱也很脆弱。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:31
+msgid "Lacks agility and maneuverability due to 2 motor turning"
+msgstr "由于使用 2 个电机转弯，缺乏灵活性和机动性"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:32
+msgid "Poor acceleration due to 2 motors"
+msgstr "2 个电机导致加速性能差"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:33
+msgid ""
+"Often :term:`direct driven <Direct Drive>`, which is highly discouraged for "
+"drivetrains"
+msgstr "通常使用 :term:`直接驱动 <Direct Drive>`，就传动系统而言，非常不推荐这么搭建"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
+msgid "Tetrix pushbot"
+msgstr "Tetrix pushbot"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
+msgid "Example pushbot drivetrain included in the starter FTC\\ |reg| guide"
+msgstr "包含在启动器 FTC\\ |reg| 指南中的 pushbot 传动系统示例"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:42
+msgid "4 Wheel Drive"
+msgstr "4轮驱动"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:44
+msgid ""
+"In its most common form, the drivetrain uses the same wheel layout as the "
+"two wheel drivetrain (2 traction wheels in the back, 2 omnis in the front), "
+"but with one notable difference: **all four wheels are powered**."
+msgstr ""
+"在最常见的形式中，传动系统使用与双轮传动系统相同的车轮布局（后部 2 个牵引轮，前部 2 个全向轮），但有一个显著区别： **四个车轮都有动力** 。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:46
+msgid ""
+"Some teams will put all four traction wheels or use all four omni wheels. It"
+" is not suggested to use all 4 traction wheels due to poor turning that "
+"results in this setup. This is caused by wheel scrub. Using omni wheels for "
+"all four wheels will result in incredible turning, with the robot rotating "
+"around its center."
+msgstr ""
+"有些参赛队伍会使用全部四个牵引轮或全部四个全向轮。不建议使用全部4个牵引轮，因为这种设置会导致转弯性能不良。这是车轮摩擦过大造成的。如果四个轮子都使用全向轮，机器人将围绕中心旋转，从而实现不可思议的转向性能。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:48
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:61
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:137
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:51
+msgid "Wheel scrub"
+msgstr "车轮摩擦"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:53
+msgid ""
+"Wheel scrub refers to friction between the side of the wheel and the floor "
+"tile. It inhibits turning as the drivetrain must overcome this frictional "
+"force in order to turn the robot. Wheel scrub is most common on 4 or 6 wheel"
+" tank drivetrains that do not have a :term:`center drop <Drop Center>`."
+msgstr ""
+"车轮摩擦是指车轮侧面与地砖之间的摩擦。由于传动系统必须克服这种摩擦力才能使机器人转动，因此这种摩擦力会抑制机器人的转动。车轮摩擦最常见于没有 "
+":term:`中心落差 <Drop Center>`的 4 轮或 6 轮坦克驱动系统。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:55
+msgid ""
+"However, this advantage comes with a major loss of traction. For these "
+"reasons, many teams choose to use two traction wheels and two omni wheels "
+"for a balance between quick turning and traction. The primary advantage of "
+"this drivetrain over other tank drivetrains is its ability to easily move "
+"across raised terrain when the bot's center is raised above the terrain."
+msgstr ""
+"然而，这种优势也会带来牵引力的重大损失。因此，许多团队选择使用两个牵引轮和两个全能轮，以在快速转弯和牵引力之间取得平衡。与其他坦克传动系统相比，这种传动系统的主要优势在于，当机器人的中心高于地形时，它能够轻松地在凸起的地形上移动。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:57
+msgid ""
+"It is suggested that a four wheel drivetrain be close to, or exactly, a "
+"square. Otherwise, one may encounter problems turning."
+msgstr "建议四轮驱动系统接近或正好是一个正方形。否则，可能会遇到转向问题。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:59
+msgid ""
+":term:`Weight distribution` is furthermore a large factor that should be "
+"considered: the more weight in the back, the better."
+msgstr ":term: `重量分配` 也是一个需要考虑的重要因素：背部的重量越重越好。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:64
+msgid "Weight distribution"
+msgstr "重量分配"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:66
+msgid ""
+"Weight distribution generally refers to how the weight of the robot is "
+"proportioned. It is desirable to have a relatively 50-50 (50% of weight in "
+"the front half, 50% in back half) so that the drivetrain has optimal "
+"manuverability and turning."
+msgstr ""
+"重量分配一般是指机器人的重量比例。机器人的重量最好是50-50分配，即各占一半（50% 的重量在前半部分，50% "
+"的重量在后半部分），这样传动系统就能获得最佳的操纵性和转弯性能。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:68
+msgid ""
+"Off-center turning, which may or may not be a drawback, is nearly ubiquitous"
+" among 4 wheel drives. This may not be a problem for teams, but it is good "
+"to be aware of it. Off-center turning can be an advantage, but be warned "
+"that turning will be slightly slower on 4 wheel drives than their six or "
+"eight wheel counterparts."
+msgstr ""
+"偏离中心转弯可能是也可能不是缺点，但在四轮驱动车中几乎无处不在。这对车队来说可能不是问题，但最好还是注意一下。偏离中心转弯可能是一种优势，但需要注意的是，4轮驱动车的转弯速度会比6轮或8轮的同类车型稍慢。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:73
+msgid "More maneuverable than 2WD"
+msgstr "比2轮驱动更灵活"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:74
+msgid "Solid acceleration and traction"
+msgstr "稳健的加速和牵引力"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:75
+msgid "Can traverse terrain if the chassis is raised high enough"
+msgstr "如果底盘升得足够高，就能穿越地形"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:76
+msgid "Good pushing power for defense, yet maneuverable enough to avoid it"
+msgstr "良好的推力可用于防御，但机动性足以躲避推力"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:81
+msgid "Can tip more easily than 6WD/8WD with a high center of mass"
+msgstr "重心较高，比 6轮/8轮驱动更容易翻车"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:82
+msgid "All traction wheel 4WD can have decreased maneuverability"
+msgstr "4个轮子全部都是牵引轮的4驱系统会降低操控性"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:83
+msgid ""
+"Weight distribution factors into the turning point and turning radius of the"
+" robot"
+msgstr "机器人的转弯点和转弯半径与重量分配有关"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "CAD Examples of Four Wheel Drive (Click to expand)"
+msgstr "四轮驱动 CAD 示例（点击展开）"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "goBILDA COTS"
+msgstr "goBILDA COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:96
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
+msgstr ""
+"`点击此处在 OnShape 在线 CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "REV COTS"
+msgstr "REV COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:104
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
+msgstr ""
+"`点击此处在 OnShape 在线 CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "goBILDA Custom"
+msgstr "goBILDA Custom"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:112
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
+msgstr ""
+"`点击此处在 OnShape 在线 CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "REV Custom"
+msgstr "REV Custom"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:120
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>`__"
+msgstr ""
+"`点击此处在 OnShape 在线 "
+"CAD<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:125
+msgid "7209 Tech Hog's Relic Recovery Robot"
+msgstr "7209 Tech Hog队伍的 Relic Recovery Robot"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:125
+msgid "7209 Tech Hogs, Relic Recovery"
+msgstr "7209 Tech Hogs, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
+msgid "10641 Atomic Gear's 4WD on a table"
+msgstr "10641 Atomic Gear的 4WD 摆放在桌上"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "CAD Examples of Six Wheel Drive (Click to expand)"

@@ -6,15 +6,16 @@
 # Translators:
 # DomnickJYH, 2023
 # Shawphy, 2023
+# wwsk2008sq, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-13 16:16+0000\n"
+"POT-Creation-Date: 2023-12-14 16:14+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: wwsk2008sq, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -465,9 +466,86 @@ msgid ""
 msgstr ""
 "该奖项旨在表彰机器人的功能融合美学设计元素。设计奖颁发给将工业设计元素纳入其解决方案的队伍。这些设计元素可以简化机器人的外观，具有自然装饰性或表达队伍的创造力，使其外观简洁且耐用，进而有效的在比赛场上发挥作用和执行任务。"
 
+#: ../../gm0/source/docs/awards/award-types.rst:100
+msgid "Connect vs Motivate"
+msgstr "联结vs激励"
+
+#: ../../gm0/source/docs/awards/award-types.rst:102
+msgid ""
+"Both outreach awards can be hard to differentiate, as the official "
+"descriptions are super vague, and most judges don't know the difference "
+"perfectly. Since the descriptions are very vague, it is up to you to "
+"determine what goes towards which award. Oftentimes, teams will put more "
+"outreach in :term:`Connect <Connect Award>` than :term:`Motivate <Motivate "
+"Award>`, as Connect is fairly high up on the advancement list unlike "
+"Motivate, so putting more into Connect and winning Connect may advance, "
+"though make sure to do your research before trying a strategy like this."
+msgstr ""
+"这两个外联奖项可能很难区分，因为官方的描述非常模糊，大多数评委并不完全清楚其中的区别。由于描述非常含糊，因此要由您来决定哪些内容可以获得哪个奖项。通常，参赛队会在:term:`Connect"
+" <Connect Award>`中投入更多的外联活动，而不是:term:`Motivate <Motivate Award>`，因为 "
+"\"Connect \"在晋级名单上的排名与 \"Motivate \"不同，\"Connect \"在晋级名单上的排名相当靠前，因此，在 "
+"\"Connect \"中投入更多并赢得 \"Connect \"的参赛队可能会晋级。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:104
+msgid "What Falls Under Connect?"
+msgstr "什么属于Connect？"
+
+#: ../../gm0/source/docs/awards/award-types.rst:106
+msgid "Developing relationships with companies"
+msgstr "发展与公司的关系"
+
+#: ../../gm0/source/docs/awards/award-types.rst:107
+msgid "Getting external mentors (not parents)"
+msgstr "聘请外部导师（不能是父母）"
+
+#: ../../gm0/source/docs/awards/award-types.rst:108
+msgid ""
+"Fundraising from companies (other methods may fall under motivate on a case "
+"by case basis)"
+msgstr "从公司筹集资金（其他方法可能根据具体情况属于激励）"
+
+#: ../../gm0/source/docs/awards/award-types.rst:110
+msgid "What Falls Under Motivate?"
+msgstr "什么是Motivate？"
+
 #: ../../gm0/source/docs/awards/award-types.rst:112
 msgid "Starting/Mentoring *FIRST* Teams"
 msgstr "启动/指导 *FIRST* 团队"
+
+#: ../../gm0/source/docs/awards/award-types.rst:113
+msgid "Community Demos"
+msgstr "社区演示"
+
+#: ../../gm0/source/docs/awards/award-types.rst:115
+msgid "Tips for Both"
+msgstr "两方面的提示"
+
+#: ../../gm0/source/docs/awards/award-types.rst:117
+msgid ""
+"Present numbers, but only emphasize them if they're large with a wow factor"
+msgstr "展示数字，但只有在它们很大且有令人惊叹的因素时才强调它们"
+
+#: ../../gm0/source/docs/awards/award-types.rst:118
+msgid ""
+"Make sure your numbers are somewhat accurate! If you are at a large event, "
+"you can get a rough headcount from the organizers, but its generally better "
+"to know roughly how many people actually stopped and looked at your team."
+msgstr ""
+"确保你的数字有些准确！如果你参加了一个大型活动，你可以从组织者那里得到一个粗略的人数统计，但是通常最好知道大约有多少人真正停下来看着你的团队。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:119
+msgid ""
+"Present stories to the judges, not just overviews. Tell personal stories."
+msgstr "向评委展示故事，而不仅仅是概述。讲述个人故事。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:120
+msgid ""
+"Log all your outreach events, with who went and how many hours each person "
+"did in its own place separate from the engineering notebook. This makes it "
+"easier to compile total numbers and shows the judges every outreach "
+"activity/event in one place."
+msgstr ""
+"记录你所有的外展活动，与谁一起去，每个人在自己的地方做了多少小时，与工程笔记本分开。这使得汇编总数变得更加容易，并在一个地方向评委展示每个外展活动/事件。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:121
 msgid ""
@@ -479,6 +557,28 @@ msgstr ""
 "为了扩大影响，请确保在活动中提供更多的资源，而不仅仅是你的团队信息，除了 *FIRST* 科技挑战赛的信息外，还有 *FIRST* "
 "乐高联盟团队的详细信息，这可以扩大你的影响范围。"
 
+#: ../../gm0/source/docs/awards/award-types.rst:122
+msgid ""
+"Follow up, follow up, follow up! If a person gives you a business card or a "
+"student expresses interest, it doesn't hurt to follow up if they don't reach"
+" out as promised. People can forget or get busy, sometimes a reminder is "
+"useful!"
+msgstr "跟进，跟进，跟进！如果一个人给你名片或学生表示感兴趣，如果他们没有如约伸出手，跟进也无妨。人们可以忘记或忙碌，有时提醒是有用的！"
+
+#: ../../gm0/source/docs/awards/award-types.rst:125
+msgid "Optional Awards"
+msgstr "可选奖项"
+
+#: ../../gm0/source/docs/awards/award-types.rst:127
+msgid ""
+"There are some awards that events are not required to present; these do not "
+"advance teams."
+msgstr "有些奖项是活动不需要颁发的；这些不会推进团队。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:130
+msgid "Judges Choice Award"
+msgstr "评审奖"
+
 #: ../../gm0/source/docs/awards/award-types.rst:132
 msgid ""
 "The Judges Choice Award is meant to recognize a team that doesn't fit into "
@@ -489,6 +589,26 @@ msgid ""
 "competition unless the judges don't find a deserving team."
 msgstr ""
 "评委选择奖旨在表彰一个不适合任何现有奖项类别的团队，但评委仍然认为该团队应该因其杰出的努力或其他经验而获奖。这个奖项非常主观，不会提升团队。在每场比赛中给予也是可选的，但在某些地区，除非评委没有找到一个值得的团队。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:133
+msgid "Promote Award and Compass Award"
+msgstr "促进奖和指南针奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:135
+msgid ""
+"The Promote and Compass awards are optional awards that are usually given "
+"only at state championships and world championships. These awards do not "
+"require an engineering notebook to win, but do not advance teams. They are "
+"submitted as a video no longer than 1 minute. The Promote award is for "
+"creating a PSA for *FIRST* with a specific video prompt. This prompt changes"
+" every year, and is found in |gm1|. The Compass award is for recognizing an "
+"outstanding mentor. Submitting these awards is usually done on a case-by-"
+"case basis, where the event organizer sends teams instructions on how to "
+"submit."
+msgstr ""
+"促进奖和指南针奖是可选奖项，通常只在州锦标赛和世界锦标赛上颁发。这些奖项不需要工程笔记本，但不能晋级。获奖者需提交不超过 1 "
+"分钟的视频。推广奖是根据特定的视频提示为 *FIRST* 创作公益广告。该提示每年都会更改，可在 |gm1| "
+"中找到。指南针奖用于表彰杰出的导师。提交这些奖项通常是根据具体情况进行的，活动组织者会向参赛团队发送如何提交奖项的说明。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:137
 msgid "Some good Promote award submissions include:"
