@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
 # 
 #, fuzzy
@@ -12,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 04:16+0000\n"
+"POT-Creation-Date: 2023-12-14 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -37,8 +36,8 @@ msgid ""
 msgstr ""
 "FTC\\ |reg| 控制系统由 \":term:`Robot Controller`\" 和 \":term:`Driver Station`\" "
 "组成。:term:`Robot Controller` "
-"安装在机器人上。它嵌入或连接到特殊的“集线器”，而“集线器”又连接到电机、伺服器和传感器。:term:`Robot Controller` 通过 "
-"WiFi 或 WiFi Direct 与 :term:`Driver Station` 相连。"
+"安装在机器人上。它嵌入或连接到特殊的“集线器”，而“集线器”又连接到电机、舵机和传感器。:term:`Robot Controller` 通过 WiFi"
+" 或 WiFi Direct 与 :term:`Driver Station` 相连。"
 
 #: ../../gm0/source/docs/power-and-electronics/control-system.rst:8
 msgid ""
@@ -47,7 +46,7 @@ msgid ""
 " :term:`Robot Controller`. A REV Control Hub has the same functionality of "
 "an Expansion Hub but with a built-in :term:`Robot Controller`."
 msgstr ""
-"REV Robotics 是合法 FTC 控制系统组件的唯一制造商。REV Expansion Hub 可连接电机、伺服器、传感器和一个 "
+"REV Robotics 是合法 FTC 控制系统组件的唯一制造商。REV Expansion Hub 可连接电机、舵机、传感器和一个 "
 ":term:`Robot Controller` 。REV Control Hub具有与Expansion Hub相同的功能，但内置一个 "
 ":term:`Robot Controller`。"
 

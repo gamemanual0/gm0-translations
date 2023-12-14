@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 16:18+0000\n"
+"POT-Creation-Date: 2023-12-14 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -125,7 +125,7 @@ msgid ""
 "and each task's state is checked without stopping the other tasks from "
 "executing."
 msgstr ""
-"很多时候，团队会遇到一些问题，因为他们的远程操作是在循环中执行的，而且他们的伺服电机逻辑中存在 sleep 函数。但是，如果我们以**异步** "
+"很多时候，团队会遇到一些问题，因为他们的远程操作是在循环中执行的，而且他们的舵机逻辑中存在 sleep 函数。但是，如果我们以**异步** "
 "的方式编写代码，就可以避免这种情况的发生--"
 "在这种方式下，任务不是等一个任务完成后再执行下一个任务，而是同时执行，并且在不停止其他任务执行的情况下检查每个任务的状态。"
 
@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 "举个例子，如果我们有一个类似于 `Gluten Free's Rover Ruckus Robot "
 "<https://www.youtube.com/watch?v=NQvhvYJXVMA>`__ "
-"的机器人，而我们想自动完成升降机的工作，这样驾驶员就不必在机器人堆放矿石时思考。在本练习中，机器人有两个与我们相关的部分：倾斜的得分升降机和倒出矿物的伺服电机。我们的目标是按下按钮，机器人就会开始工作："
+"的机器人，而我们想自动完成升降机的工作，这样驾驶员就不必在机器人堆放矿石时思考。在本练习中，机器人有两个与我们相关的部分：倾斜的得分升降机和倒出矿物的舵机。我们的目标是按下按钮，机器人就会开始工作："
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:94
 msgid "extend the lift,"
@@ -151,7 +151,7 @@ msgstr "延长升降机，"
 msgid ""
 "at full lift extension, angle the mineral bucket servo to deposit the "
 "minerals,"
-msgstr "在升降机完全伸出的时候，调整矿斗伺服电机的角度，倒出矿物，"
+msgstr "在升降机完全伸出的时候，调整矿斗舵机的角度，倒出矿物，"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:96
 msgid "wait for the minerals to fall out,"
@@ -159,7 +159,7 @@ msgstr "等着矿石掉出来、"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:97
 msgid "reset the servo to the original position"
-msgstr "将伺服电机复位到初始位置"
+msgstr "将舵机复位到初始位置"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:98
 msgid "retract the lift"
@@ -190,7 +190,7 @@ msgid ""
 "Notice how resetting the dump servo and retracting the lift share a state. "
 "That's because the robot doesn't need to wait for the servo to reset before "
 "moving the lift down; they can both happen at once."
-msgstr "请注意，重置倾卸伺服电机和缩回移位机是共用一个状态的。这是因为机器人在向下移动移位机之前不需要等待伺服器复位，它们可以同时进行。"
+msgstr "请注意，重置倾卸舵机和缩回移位机是共用一个状态的。这是因为机器人在向下移动移位机之前不需要等待舵机复位，它们可以同时进行。"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:122
 msgid ""

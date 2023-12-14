@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 16:17+0000\n"
+"POT-Creation-Date: 2023-12-14 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -214,7 +214,7 @@ msgid ""
 "Hardware controller for the robot, connected to :term:`Robot Controller` "
 "phone. Controls 4 motor and encoders, 6 servos, and various sensors via "
 "digital, analog, and I2C ports. Maximum of 2 hubs."
-msgstr "机器人硬件控制器，连接到机器人控制器。通过数字、模拟和I2C端口控制4个电机和编码器、6个伺服系统和各种传感器。最多2个。"
+msgstr "机器人硬件控制器，连接到机器人控制器。通过数字、模拟和I2C端口控制4个电机和编码器、6个舵机和各种传感器。最多2个。"
 
 #: ../../gm0/source/docs/know-your-lingo.rst:61
 msgid "REV Control Hub"

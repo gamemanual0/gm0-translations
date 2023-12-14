@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-13 16:16+0000\n"
+"POT-Creation-Date: 2023-12-14 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:4
 msgid "Choosing a Servo"
-msgstr "挑选伺服电机"
+msgstr "挑选舵机"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:6
 msgid ""
@@ -34,7 +34,7 @@ msgid ""
 "recommendations at the end."
 msgstr ""
 "鉴于需要考虑的选项众多，挑选 :term:`servo <Servo>` "
-"起初可能会令人望而生畏。本指南旨在为比较不同的伺服电机选项提供一个起点，并在最后提供一些精选建议。"
+"起初可能会令人望而生畏。本指南旨在为比较不同的舵机选项提供一个起点，并在最后提供一些精选建议。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:10
 msgid ""
@@ -45,7 +45,7 @@ msgid ""
 " recommendation only to vendors who historically have been reliable with "
 "publishing servo specifications."
 msgstr ""
-"在选择伺服电机时，牢记特定供应商的可靠性非常重要。亚马逊和其他类似网站上的制造商和经销商夸大其舵机规格或选择不切实际的最佳情况来衡量规格的做法并不少见。我们的推荐仅限于在发布伺服电机规格方面历来可靠的供应商。"
+"在选择舵机时，牢记特定供应商的可靠性非常重要。亚马逊和其他类似网站上的制造商和经销商夸大其舵机规格或选择不切实际的最佳情况来衡量规格的做法并不少见。我们的推荐仅限于在发布舵机规格方面历来可靠的供应商。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:12
 msgid ""
@@ -66,7 +66,7 @@ msgid ""
 "PWM signal is used to control their rotation speed."
 msgstr ""
 ":term:`Servos <Servo>` 可以根据 PWM "
-"输入信号旋转到给定位置的伺服系统称为**常规伺服系统。此外，还有**连续旋转伺服器**，它们实际上只是:term:`servo "
+"输入信号旋转到给定位置的舵机称为**常规舵机。此外，还有**连续旋转舵机**，它们实际上只是:term:`servo "
 "<Servo>`外形尺寸的小型电机。它们没有位置控制，而是使用 PWM 信号来控制转速。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:24
@@ -129,7 +129,7 @@ msgid ""
 "that opens a trapdoor or moves game elements within the robot."
 msgstr ""
 "**塑料**：使用低功率 :term:`servos <Servo>`时，通常没有问题。一般用于模型飞机，如副翼。FTC "
-"应用包括不会直接接触任何游戏元素或场地的轻负载机构。例如，用于打开活板门或移动机器人内游戏元素的伺服器。"
+"应用包括不会直接接触任何游戏元素或场地的轻负载机构。例如，用于打开活板门或移动机器人内游戏元素的舵机。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:54
 msgid ""
@@ -139,7 +139,7 @@ msgid ""
 "however its advantage is in strength to weight ratio (as in, titanium "
 "gearboxes will often be lighter then steel gearboxes)."
 msgstr ""
-"**钛**：钛是真正的高端产品，几乎牢不可破：术语：\"伺服电机 <Servo>\"。起价从 75 美元到 150 "
+"**钛**：钛是真正的高端产品，几乎牢不可破的 :term:`舵机 <Servo>`.。起价从 75 美元到 150 "
 "美元不等。一个常见的误解是，钛比钢更坚固，但其优势在于强度与重量比（例如，钛齿轮箱通常比钢齿轮箱更轻）。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:59
@@ -173,8 +173,8 @@ msgid ""
 "goBILDA Dual Mode servos. However, Hitec servos using 24 tooth spline are "
 "also very popular."
 msgstr ""
-":term:`舵机 <Servo>` 的输出轴通常称为**花键。大多数舵机采用行业标准的 25 齿花键（也称为 F3）；特别是 REV Smart "
-"Servo 和 goBILDA Dual Mode 舵机使用的就是这种花键。不过，使用 24 齿花键的 Hitec 伺服器也很受欢迎。"
+":term:`舵机 <Servo>` 的输出轴通常称为 **花键** 。大多数舵机采用行业标准的 25 齿花键（也称为 F3）；特别是 REV "
+"Smart Servo 和 goBILDA Dual Mode 舵机使用的就是这种花键。不过，使用 24 齿花键的 Hitec 舵机也很受欢迎。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:70
 msgid ""
@@ -189,7 +189,7 @@ msgid ""
 " retaining position feedback is called the range. When choosing a servo, it "
 "is important to make sure you have enough range for the movement you need."
 msgstr ""
-"非连续 :term:`servo <Servo>` 在保持位置反馈的同时可以旋转的角度称为量程。在选择伺服器时，必须确保有足够的量程来满足运动需求。"
+"非连续 :term:`servo <Servo>` 在保持位置反馈的同时可以旋转的角度称为量程。在选择舵机时，必须确保有足够的量程来满足运动需求。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:92
 msgid "Cost"
@@ -249,8 +249,8 @@ msgid ""
 "very good price to performance servo. It is dual mode, has a higher then "
 "average output torque (and correspondingly lower speed), and steel gearbox."
 msgstr ""
-"`goBILDA 双模式伺服器（扭矩）(25-2-扭矩) <https://www.gobilda.com/2000-series-dual-mode-"
-"servo-25-2-torque/>`_ - 性价比非常高的伺服器。它采用双模式，输出扭矩高于平均水平（速度相应较低），并配有钢制齿轮箱。"
+"`goBILDA 双模式舵机（扭矩）(25-2-扭矩) <https://www.gobilda.com/2000-series-dual-mode-"
+"servo-25-2-torque/>`_ - 性价比非常高的舵机。它采用双模式，输出扭矩高于平均水平（速度相应较低），并配有钢制齿轮箱。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:120
 msgid ""
@@ -259,8 +259,8 @@ msgid ""
 " good price to performance servo. It is dual mode, has a higher then average"
 " output torque (and correspondingly lower speed), and steel gearbox."
 msgstr ""
-"`goBILDA 双模式伺服器（速度）(25-3) <https://www.gobilda.com/2000-series-dual-mode-"
-"servo-25-3-speed/>`_ - 性价比非常高的伺服器。它采用双模式，输出扭矩高于平均水平（速度相应较低），采用钢制齿轮箱。"
+"`goBILDA 双模式舵机（速度）(25-3) <https://www.gobilda.com/2000-series-dual-mode-"
+"servo-25-3-speed/>`_ - 性价比非常高的舵机。它采用双模式，输出扭矩高于平均水平（速度相应较低），采用钢制齿轮箱。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:122
 msgid ""
@@ -285,7 +285,7 @@ msgid ""
 msgstr ""
 "`Andymark 高速/扭矩舵机 <https://www.andymark.com/products/programmable-servos>`_ "
 "- 作为市场新秀，这款舵机性价比极高，具有独特的 5 毫米六角输出和英制半英寸安装模式。与常用的 goBILDA "
-"双模式舵机相比，高速伺服器的输出功率更大。高扭矩舵机的效率高于 goBILDA "
+"双模式舵机相比，高速舵机的输出功率更大。高扭矩舵机的效率高于 goBILDA "
 "双模式舵机。**在撰写本文时，该产品尚未发布，因此这些说法尚未得到证实。** 由于Andymark一贯的品质，所以在这里包含了这款舵机。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:130
@@ -296,7 +296,7 @@ msgid ""
 "via an analog output wire."
 msgstr ""
 "`Axon Robotics MAX+ <https://axon-robotics.com/products/max>`_ - "
-"性价比最高的高性能伺服器。它具有高效率和高功率输出。此外，该伺服器还可通过模拟输出线跟踪其绝对位置。"
+"性价比最高的高性能舵机。它具有高效率和高功率输出。此外，该舵机还可通过模拟输出线跟踪其绝对位置。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:141
 msgid ""
@@ -305,6 +305,6 @@ msgid ""
 "`ServoCity <https://www.servocity.com/>`_ or `Amazon "
 "<https://www.amazon.com/>`_."
 msgstr ""
-"REV 和 goBILDA :term:`servos <Servo>`可分别从 REV 和 goBILDA "
-"网站购买。对于所有其他伺服器，一些好的来源是 `ServoCity <https://www.servocity.com/>`_ 或 `Amazon "
+"REV 和 goBILDA :term:`servos <Servo>`可分别从 REV 和 goBILDA 网站购买。对于所有其他舵机，一些好的来源是"
+" `ServoCity <https://www.servocity.com/>`_ 或 `Amazon "
 "<https://www.amazon.com/>`_。"
