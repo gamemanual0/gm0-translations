@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 04:16+0000\n"
+"POT-Creation-Date: 2023-12-15 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Sebastian Erives <serivesmejia@gmail.com>, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -180,24 +180,6 @@ msgstr ""
 "bastante razonables. La mayoría de los otros filamentos ofrecen ventajas muy"
 " específicas (como el TPU) que vienen a costa de tiempo, esfuerzo y dinero."
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
-msgid ""
-"If your printer's hotend (the part that melts the filament) has a PTFE "
-"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
-"(common in lower price printers like the Ender 3 and its variants), then you"
-" **should not be printing at or above 250° C**. Doing so will cause the PTFE"
-" tube to degrade and melt, releasing toxic fumes. If you need to print at "
-"these temperatures and you have a PTFE lined hotend, you can look at "
-"upgrading to an all-metal hotend."
-msgstr ""
-"Si el hotend de tu impresora (la parte que funde el filamento) tiene un "
-"alineamiento de PTFE (teflón), donde el tubo de PTFE llega hasta el bloque "
-"térmico (común en impresoras de menor precio como la Ender 3 y sus "
-"variantes), entonces **no deberías imprimir a 250° C** o más. Si lo haces, "
-"el tubo de PTFE se degradará y fundirá, liberando humos tóxicos. Si necesita"
-" imprimir a estas temperaturas y tiene un hotend alineado con PTFE, puedes "
-"buscar para actualizar tu impresora a un hotend totalmente metálico."
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
 msgid "PLA (Polylactic Acid)"
 msgstr "PLA (ácido poliláctico)"
@@ -219,20 +201,6 @@ msgstr ""
 "necesitar en tu robot, pero puede que no resista bien las cargas de choque "
 "(impactos en las piezas), por lo que éstas deben diseñarse tomando esto en "
 "consideración."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
-msgid "PLA hotend temperatures range from 190°-230° C"
-msgstr ""
-"Las temperaturas del hotend para el PLA oscilan entre los 190° y 230° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
-msgid ""
-"PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly "
-"required for PLA"
-msgstr ""
-"Las temperaturas de la cama de impresión para el PLA oscilan entre 20° y 60°"
-" C, pero no es estrictamente necesario una cama de impresión calentada para "
-"el PLA"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
 msgid ""
@@ -294,16 +262,6 @@ msgstr ""
 "buena idea añadir un poco de pegamento en barra o spray de cabello antes de "
 "imprimirlo."
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
-msgid "PETG hotend temperatures range from 230°-260° C"
-msgstr "Las temperaturas del hotend para el PETG oscilan entre 230° y 260° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
-msgid "PETG bed temperatures range from 60°-80° C"
-msgstr ""
-"Las temperaturas de la cama de impresión para el PETG oscilan entre 60° y "
-"80° C"
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
 msgid "Less Common Filaments"
 msgstr "Filamentos Menos Comunes"
@@ -327,16 +285,6 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
 msgid "ABS (Acrylonitrile Butadiene Styrene)"
 msgstr "ABS (Acrilonitrilo Butadieno Estireno)"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
-msgid "ABS hotend temperatures range from 230°-250° C"
-msgstr "Las temperaturas del hotend para el ABS oscilan entre 230° y 250° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
-msgid "ABS bed temperatures range from 100°-120° C"
-msgstr ""
-"Las temperaturas de la cama de impresión para el ABS oscilan entre 100° y "
-"120° C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
 msgid "Enclosure highly recommended to prevent warping"
@@ -386,20 +334,6 @@ msgstr ""
 "Debido a su naturaleza flexible, las impresoras que utilizan un sistema de "
 "extrusión de tubo Bowden, en el que el motor del extrusor no se coloca en el"
 " hotend, tendrán grandes dificultades para imprimir TPU/TPE."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:85
-msgid "TPU/TPE hotend temperatures range from 210°-250° C"
-msgstr ""
-"Las temperaturas del hotend para el TPU/TPE oscilan entre 210° y 250° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:86
-msgid ""
-"TPU/TPE does not usually need a heated bed, but if one is used it should not"
-" go over 60° C as this will fuse TPU with print bed."
-msgstr ""
-"El TPU/TPE no suele necesitar una cama de impresión caliente, pero si se "
-"utiliza una, no debe superar los 60° C, ya que esto fundiría el TPU con la "
-"cama de impresión."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:87
 msgid ""
@@ -454,16 +388,6 @@ msgstr ""
 "maltratará repetidamente. El nylon requiere temperaturas muy elevadas, por "
 "lo general requiere un encerramiento y es absolutamente necesario secarlo "
 "antes (y durante) la impresión."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
-msgid "Nylon hotend temperatures range from 240°-260° C"
-msgstr "Las temperaturas del hotend para el nylon oscilan entre 240° y 260° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:102
-msgid "Nylon bed temperatures range from 55°-80° C"
-msgstr ""
-"Las temperaturas de la cama de impresión para el nylon oscilan entre 55° y "
-"80° C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
 msgid ""
@@ -536,16 +460,6 @@ msgstr ""
 "imprimir y de menor temperatura que conserva muchas de las ventajas del PC "
 "puro. PolyLite no es tan resistente a los impactos, pero es mucho más "
 "barato. Ambos son mucho más fáciles de imprimir que el PC puro."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
-msgid "PC hotend temperatures range from 250°-320° C"
-msgstr "Las temperaturas del hotend para el PC oscilan entre 250° y 320° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:120
-msgid "PC bed temperatures range from 80°-140° C"
-msgstr ""
-"Las temperaturas de la cama de impresión para el PC oscilan entre 80° y 140°"
-" C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
 msgid "Enclosure required"

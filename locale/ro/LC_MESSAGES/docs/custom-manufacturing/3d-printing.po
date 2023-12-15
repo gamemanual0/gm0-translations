@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2023-12-15 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -160,24 +160,6 @@ msgstr ""
 "Alte filamente au avantaje specifice, precum TPU, care vin la un preț "
 "ridicat, necesită mai mult efort și timp."
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
-msgid ""
-"If your printer's hotend (the part that melts the filament) has a PTFE "
-"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
-"(common in lower price printers like the Ender 3 and its variants), then you"
-" **should not be printing at or above 250° C**. Doing so will cause the PTFE"
-" tube to degrade and melt, releasing toxic fumes. If you need to print at "
-"these temperatures and you have a PTFE lined hotend, you can look at "
-"upgrading to an all-metal hotend."
-msgstr ""
-"Dacă hotend-ul imprimantei tale (componenta care topește filamentul) este "
-"alcătuit dintr-un tub de PTFE care intră în blocul de încălzire, ca la Ender"
-" 3 și alte variante, de exemplu, **atunci nu ar trebui să printezi cu o "
-"temperatură mai mare de 250° C**. Făcând acest lucru va topi și degrada "
-"tubul de PFTE, eliberând fumuri toxice în aer. Dacă ești nevoit să printezi "
-"cu temperaturi ridicate, consideră un upgrade la un hotend integral din "
-"metal, precum cele montate pe Prusa MK3."
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
 msgid "PLA (Polylactic Acid)"
 msgstr "PLA (Acid Polilactic)"
@@ -197,18 +179,6 @@ msgstr ""
 "tinde să aibă aproape zero deviere în timpul printării. PLA este protrivit "
 "pentru majoritatea componentelor pentru roboți, însă nu va rezista mult timp"
 " la impacte, drept pentru care aceste piese trebuie modelate potrivit."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
-msgid "PLA hotend temperatures range from 190°-230° C"
-msgstr "Printarea cu PLA necesită temperaturi între 190°-230° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
-msgid ""
-"PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly "
-"required for PLA"
-msgstr ""
-"Temperatura suprafeței de printare pentru PLA este între 20°-60° C, însă nu "
-"este strict necesar un pat încălzit pentru acest tip de filament."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
 msgid ""
@@ -267,16 +237,6 @@ msgstr ""
 "suprafață. Este o idee bună să adăugati adeziv (precum lipici la tub pentru "
 "școală) sau fixativ înainte de printare."
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
-msgid "PETG hotend temperatures range from 230°-260° C"
-msgstr ""
-"Temperaturile hotend-ului pentru printarea cu PETG variază între 230°-260° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
-msgid "PETG bed temperatures range from 60°-80° C"
-msgstr ""
-"Temperatura suprafeței de printare pentru PETG variază între 60°-80° C"
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
 msgid "Less Common Filaments"
 msgstr "Filamente mai Puțin Comune"
@@ -300,17 +260,6 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
 msgid "ABS (Acrylonitrile Butadiene Styrene)"
 msgstr "ABS (Acrilonitril Butadien Stiren)"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
-msgid "ABS hotend temperatures range from 230°-250° C"
-msgstr ""
-"Temperatura hotend-ului pentru printarea cu ABS variază între 230°-250° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
-msgid "ABS bed temperatures range from 100°-120° C"
-msgstr ""
-"Temperatura suprafeței de printare pentru printarea cu ABS variază între "
-"100°-120° C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
 msgid "Enclosure highly recommended to prevent warping"
@@ -361,21 +310,6 @@ msgstr ""
 "unde motorul care alimentează imprinta cu filament nu este poziționat direct"
 " deasupra hotend-ului, TPU/TPE sunt dificil de printat pe aceste tipuri de "
 "imprintante."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:85
-msgid "TPU/TPE hotend temperatures range from 210°-250° C"
-msgstr ""
-"Temperatura hotend-ului pentru printarea cu TPU/TPE variază între 210°-250° "
-"C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:86
-msgid ""
-"TPU/TPE does not usually need a heated bed, but if one is used it should not"
-" go over 60° C as this will fuse TPU with print bed."
-msgstr ""
-"TPU/TPE de obicei nu necesită o suprafață de printare încălzită, însă dacă "
-"este folosit totuși un pat încălzit, acesta nu ar trebui încălzit la mai "
-"mult de 60° C, întrucât va fuziona cu materialul TPU."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:87
 msgid ""
@@ -430,17 +364,6 @@ msgstr ""
 "Nailonul are nevoie de o temperatură mare de printare și, în general, o "
 "carcasă pentru a izola atmorsfera imprimantei. Nailonul trebuie uscat bine "
 "înainte și în timpul printării pentru rezultate excelente."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
-msgid "Nylon hotend temperatures range from 240°-260° C"
-msgstr ""
-"Temperatura hotend-ului pentru printare cu nailon variază între 240°-260° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:102
-msgid "Nylon bed temperatures range from 55°-80° C"
-msgstr ""
-"Temperatura suprafetei de printare pentru printarea cu nailon variază între "
-"55°-80° C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
 msgid ""
@@ -511,15 +434,6 @@ msgstr ""
 "PolyMaker PolyMax PC. Este un filament ușor de printat, care reține "
 "avantajele PC-ului. PolyLite nu este la fel de rezistent, însă cu mult mai "
 "ieftin. Ambele sunt mai ușor de printat decât PC-ul pur."
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
-msgid "PC hotend temperatures range from 250°-320° C"
-msgstr ""
-"Temperatura hotend-ului pentru printare cu PC variază între 250°-320° C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:120
-msgid "PC bed temperatures range from 80°-140° C"
-msgstr "Temperatura suprafeței de printare pentru PC variază între 80°-140° C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
 msgid "Enclosure required"

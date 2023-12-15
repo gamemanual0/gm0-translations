@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2023-12-15 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -153,19 +153,6 @@ msgid ""
 msgstr ""
 "对于几乎所有需要3D打印FTC的零件，PLA（或PLA+、Pro等）和/或PETG将满足强度、耐用性和美观性的所有需求。这两种灯丝类型是迄今为止最容易打印的，并且被许多制造商以合理的价格出售。这里的大多数其他灯丝都提供了非常具体的优势（如TPU），这些优势是以付出努力、时间和金钱为代价的。"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
-msgid ""
-"If your printer's hotend (the part that melts the filament) has a PTFE "
-"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
-"(common in lower price printers like the Ender 3 and its variants), then you"
-" **should not be printing at or above 250° C**. Doing so will cause the PTFE"
-" tube to degrade and melt, releasing toxic fumes. If you need to print at "
-"these temperatures and you have a PTFE lined hotend, you can look at "
-"upgrading to an all-metal hotend."
-msgstr ""
-"如果您的打印机热端（熔化灯丝的部分）有PTFE（特氟龙）衬里，其中PTFE管一直延伸到热块（常见于价格较低的打印机，如Ender "
-"3及其变体），那么您不应该在250°C或更高温度下打印。这样做会导致PTFE管降解和熔化，释放有毒气体。如果您需要在这些温度下打印，并且您有PTFE衬里的热端，您可以考虑升级到全金属热端。"
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
 msgid "PLA (Polylactic Acid)"
 msgstr "PLA(聚乳酸)"
@@ -180,16 +167,6 @@ msgid ""
 " such parts should be designed accordingly."
 msgstr ""
 "最常见的3D打印灯丝是聚乳酸或聚乳酸。它是一种由玉米淀粉和甘蔗等生物来源制成的塑料。聚乳酸比其他灯丝更硬，但更脆，打印时往往几乎没有翘曲。聚乳酸非常适合大多数机器人部件，但它可能不能很好地承受冲击载荷（对部件的冲击），因此这些部件应该相应地设计。"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
-msgid "PLA hotend temperatures range from 190°-230° C"
-msgstr "PLA热端温度范围为190°-230°C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
-msgid ""
-"PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly "
-"required for PLA"
-msgstr "PLA床层温度范围为20°-60°C，但PLA并不严格要求加热床"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
 msgid ""
@@ -231,14 +208,6 @@ msgid ""
 "some glue stick or hairspray before printing it."
 msgstr "PETG以粘合非常好而闻名于打印床，尤其是玻璃和PEI，并且以从床上撕下大块而闻名。在打印之前添加一些胶棒或发胶是个好主意。"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
-msgid "PETG hotend temperatures range from 230°-260° C"
-msgstr "PETG热端温度范围为230°-260°C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
-msgid "PETG bed temperatures range from 60°-80° C"
-msgstr "PETG床层温度范围为60°-80°C"
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
 msgid "Less Common Filaments"
 msgstr "较少常见的长丝"
@@ -270,14 +239,6 @@ msgid ""
 "as PLA."
 msgstr ""
 "在聚乳酸商业化之前，ABS曾是打印的标准长丝。您可能曾经在LEGO\\|reg|零件中使用过ABS。它可以承受高负荷，而且韧性很好。但这是以打印困难为代价的，通常需要一个外壳来提高环境温度，防止部件严重变形。与PLA相比，PETG更容易提高强度，因此ABS零件在FTC中并不常见。但ABS的价格相当实惠，与PLA的售价相同。"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
-msgid "ABS hotend temperatures range from 230°-250° C"
-msgstr "ABS端温度范围为230°-250°C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
-msgid "ABS bed temperatures range from 100°-120° C"
-msgstr "ABS床温度范围为100°-120°C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
 msgid "Enclosure highly recommended to prevent warping"
@@ -313,16 +274,6 @@ msgid ""
 "system, where the extruder motor is not placed on the hotend, will find it "
 "extremely difficult to print TPU/TPE."
 msgstr "由于其灵活性，使用Bowden管挤出系统的打印机，其中挤出机电机不放置在端部，将发现打印TPU/TPE极其困难。"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:85
-msgid "TPU/TPE hotend temperatures range from 210°-250° C"
-msgstr "TPU/TPE热端温度范围为210°-250°C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:86
-msgid ""
-"TPU/TPE does not usually need a heated bed, but if one is used it should not"
-" go over 60° C as this will fuse TPU with print bed."
-msgstr "TPU/TPE通常不需要加热床，但如果使用加热床，则不应超过60°C，因为这会将TPU与打印床熔化。"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:87
 msgid ""
@@ -363,14 +314,6 @@ msgid ""
 "while) printing."
 msgstr ""
 "尼龙丝可以是玻璃填充的，碳纤维填充的，也可以是纯的。在许多情况下，尼龙是抗冲击性之王，在这些情况下，零件可以弯曲而不是完全断裂。偶尔，尼龙用于传动系统上的轮罩等零件，以及会反复撞击和撞击的地方。尼龙需要非常高的温度，通常需要外壳，并且在打印前（和打印时）必须绝对干燥。"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
-msgid "Nylon hotend temperatures range from 240°-260° C"
-msgstr "尼龙端部温度范围为240°-260°C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:102
-msgid "Nylon bed temperatures range from 55°-80° C"
-msgstr "尼龙床温度范围为55°-80°C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
 msgid ""
@@ -424,14 +367,6 @@ msgid ""
 msgstr ""
 "有几种PC混合物更容易打印，一个突出的例子是PolyMaker "
 "PolyMaxPC。这是一种更容易打印、温度更低的PC，保留了纯PC的许多优点。PolyLite不太耐冲击，但便宜得多。两者都比纯PC更容易打印。"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
-msgid "PC hotend temperatures range from 250°-320° C"
-msgstr "PC端温度范围为250°-320°C"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:120
-msgid "PC bed temperatures range from 80°-140° C"
-msgstr "PC床温度范围为80°-140°C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
 msgid "Enclosure required"

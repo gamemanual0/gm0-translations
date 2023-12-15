@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 04:16+0000\n"
+"POT-Creation-Date: 2023-12-15 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -32,18 +32,6 @@ msgstr "术语"
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:9
 msgid "Servo"
 msgstr "舵机"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:11
-msgid ""
-"a small DC motor attached to servo gears that is very finely controllable "
-"and interfaces via a 3 wire PWM connector. Servos are used in FTC\\ |reg| "
-"for high-precision applications that are low-load - for example, opening a "
-"trapdoor for balls to fall through. Typically servos have limited range of "
-"rotation (180° is common). The output has splines, which are the rigid teeth"
-" that are on top of the servo."
-msgstr ""
-"舵机（舵机）是一种与伺服齿轮相连的小型直流电机，可进行非常精细的控制，并通过 3 线 PWM 连接器进行连接。伺服在 FTC\\ |reg| "
-"中用于低负载的高精度应用--例如，打开活板门让小球通过。通常，舵机的旋转范围有限（通常为 180°）。输出有花键，即舵机顶部的刚性齿。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:13
 msgid ""
