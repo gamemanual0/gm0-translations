@@ -5,18 +5,30 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 16:14+0000\n"
+"POT-Creation-Date: 2023-12-17 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:67
+msgid ""
+"Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are"
+" recommended over steel drawer slides due to weight savings. Refer to the "
+":doc:`Linear Motion section </docs/common-mechanisms/linear-motion-"
+"guide/index>` for more information."
+msgstr ""
+"与钢制抽屉滑轨相比，建议使用铝制抽屉滑轨，通常配有 :term:`ball bearings <Ball "
+"Bearing>`，以减轻重量。更多信息，请参阅 :doc:` 线性运动部分 </docs/common-mechanisms/linear-"
+"motion-guide/index>`。"

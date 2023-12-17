@@ -6,18 +6,348 @@
 # Translators:
 # guluomagongchengshi, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 16:18+0000\n"
+"POT-Creation-Date: 2023-12-17 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:4
+msgid "goBILDA"
+msgstr "goBILDA"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:6
+msgid ""
+"goBILDA (https://www.gobilda.com/) is a fixed-pitch, :term:`channel "
+"<Channel>` based building system using metric units. It was recently "
+"released in the 2018-2019 season and is made by the same company as "
+"Actobotics."
+msgstr ""
+"goBILDA (https://www.gobilda.com/) 是一种基于固定间距、:term:`channel "
+"<Channel>`的建筑系统，使用公制单位。它最近于 2018-2019 赛季发布，与 Actobotics 由同一家公司制造。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:9
+msgid "Special Considerations"
+msgstr "特殊考虑因素"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:11
+msgid ""
+"goBILDA is based on metric measurements using M4 hardware. The hole pattern "
+"has 4mm holes on 8mm grid."
+msgstr "goBILDA 使用 M4 硬件以公制为基础进行测量。孔型为 4 毫米孔，8 毫米栅格。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:12
+msgid ""
+"The kit is primarily structured around :term:`U-channel <Channel>`, which is"
+" strong and durable."
+msgstr "该套件主要由 :term:`U-channel <Channel>` 构成，坚固耐用。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:13
+msgid ""
+"goBILDA's robust motion system allows teams to easily build drivetrains and "
+"mechanisms without worrying about placement and tensioning."
+msgstr "goBILDA强大的运动系统允许团队轻松构建传动系统和机制，而无需担心放置和张力。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:14
+msgid ""
+"It is arguable, but goBILDA has likely a low learning curve due to its "
+"simple yet extremely functional catalog of parts."
+msgstr "这是有争议的，但goBILDA可能具有相对较简单的学习曲线，因为它的零件目录直截了当且高度实用。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:15
+msgid ""
+"goBILDA parts can generally be easily adapted to other kit parts such as "
+"REV."
+msgstr "goBILDA 部件通常很容易改装成其他套件部件，如 REV。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:16
+msgid ""
+"Additionally, goBILDA is still being developed at a quick pace and is "
+"responsive to the needs of the FTC\\ |reg| community."
+msgstr "此外，goBILDA仍在快速开发中，并响应FTC社区的需求。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:17
+msgid "**goBILDA offers a 25% discount for** *FIRST*\\ |reg| **teams**."
+msgstr "goBILDA提供25%的折扣** *FIRST*\\ |reg| **teams**."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:20
+msgid "Notable components"
+msgstr "著名的组件"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:22
+msgid ""
+"goBILDA uses :term:`8mm pitch chain <Chain>` and HTD 3 or HTD 5 :term:`belts"
+" <HTD Belt>` for motion."
+msgstr ""
+"goBILDA 使用 :term:`8mm pitch chain <Chain>` 和 HTD 3 或 HTD 5 :term:`belts <HTD"
+" Belt>` 进行运动。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:23
+msgid ""
+"goBILDA mostly uses :term:`clamping hubs <Clamping Hub>` (called Sonic "
+"hubs), eliminating the unreliable :term:`set screws <Set Screw>`."
+msgstr ""
+"goBILDA 主要使用 :term:`clamping hubs<Clamping Hub>`（称为 Sonic hubs），省去了不可靠的 "
+":term:`set screws<Set Screw>`。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:24
+msgid ""
+"goBILDA :term:`shafts <Shaft>` are metric (:term:`6mm D <Shaft>` and "
+":term:`8mm rounded hex <Shaft>`)."
+msgstr ""
+"goBILDA :term:`shafts <Shaft>` 是公制（:term:`6mm D <Shaft>` 和 :term:`8mm "
+"rounded hex <Shaft>`）。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:25
+msgid ""
+"The primary structural component is the 48mm aluminum :term:`U-channel "
+"<Channel>`, shown below."
+msgstr "主要结构部件是 48 毫米铝质 :term:`U-channel <Channel>`，如下图所示。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
+msgid "goBILDA U-channel"
+msgstr "goBILDA U 型通道"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
+msgid "goBILDA :term:`U-channel <Channel>` (48x48 mm)"
+msgstr "goBILDA :term:`U-channel <Channel>` (48x48 mm)"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:32
+msgid ""
+"Low-Side channel (smaller profile :term:`channel <Channel>`) complements "
+"full size channel. Low-Side channel is just 12mm in height and allows for "
+"more compact builds. Additionally, Low-Side channel opens up possibilities "
+"such as a kit-based :term:`parallel plate drivetrain <Parallel Plate "
+"Drivetrain>`. Low-Side channel also forms the basis of the cascading kit "
+"with a 2 or 4 stage option."
+msgstr ""
+"低侧通道(较小的轮廓:术语:“通道”<Channel>)是全尺寸通道的补充。低侧通道的高度仅为12毫米，并允许更紧凑的建筑。此外，低侧通道开辟了各种可能性，如基于套件的术语:“平行板传动系统”<Parallel"
+" Plate Drivetrain>。低侧通道也形成与2或4级选项级联套件的基础。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:37
+msgid "goBILDA low-side channel"
+msgstr "goBILDA 低压侧通道"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:37
+msgid "goBILDA low-side channel (12x48 mm)"
+msgstr "goBILDA 低侧通道（12x48 毫米）"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:39
+msgid ""
+"Mini-Low-Side channel (even smaller profile :term:`channel <Channel>`) that "
+"compliments Low-Side channel. Mini-Low-Side channel is 12mm tall and just "
+"32mm wide, making it great for small structures."
+msgstr ""
+"迷你低边槽钢（轮廓更小 :term:`channel <Channel>`）是低边槽钢的补充。迷你低边槽高 12 毫米，宽仅 32 "
+"毫米，非常适合小型结构。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:44
+msgid "goBILDA mini-low-side channel"
+msgstr "goBILDA 小型低压侧通道"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:44
+msgid "goBILDA mini-low-side channel (12x48 mm)"
+msgstr "goBILDA 小型低边通道（12x48 毫米）"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:46
+msgid ""
+"Viper-Slides are goBILDA's version of the commonly used drawer slides for "
+"linear extension in 336mm and 240mm lengths. Notably, goBILDA sells a Viper-"
+"Slide kit, which contains all of the parts to assemble either a 2 stack or 4"
+" stack of slides. In addition, they are one of the few vendors who sells a "
+"belted version of these slides. The 240mm slide is also uniquely "
+"bidirectional, sliding both ways."
+msgstr ""
+"蝰蛇滑轨是 goBILDA 的常用抽屉滑轨，用于线性延伸，长度为 336 毫米和 240 毫米。值得注意的是，goBILDA "
+"销售蝰蛇滑轨套件，其中包含组装 2 层或 4 层滑轨的所有部件。此外，他们还是少数几家销售带式滑轨的供应商之一。240 "
+"毫米滑轨也是独特的双向滑轨，可双向滑动。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:48
+msgid ""
+"goRAIL is :term:`extrusion <Extrusion>` that complements the :term:`channel "
+"<Channel>` offerings well. goRAIL is used in the linear actuator kit for "
+"extending mechanisms."
+msgstr ""
+"goRAIL 是 :term:`extrusion <Extrusion>`，与 :term:`channel <Channel>` "
+"的产品相得益彰。goRAIL 用于线性推杆套件中的延伸机构。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:51
+msgid "Verdict"
+msgstr "判决"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:53
+msgid ""
+"goBILDA's kit is a solid, albeit slightly more expensive, option for new "
+"teams. It offers a great deal of flexibility and part options from their "
+"catalog. goBILDA is a solid choice due to reasonable pricing, low learning "
+"curve, and thought-out design that reduces headaches."
+msgstr ""
+"goBILDA 的套件是新团队的可靠选择，尽管价格略高。goBILDA 价格合理，学习成本低，设计周到，减少了很多麻烦，因此是一个不错的选择。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:56
+msgid "Kit of Parts"
+msgstr "配件包"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:58
+msgid ""
+"`2023-2024 Kit Parts <https://www.gobilda.com/ftc-starter-"
+"kit-2023-2024-season/>`_"
+msgstr ""
+"`2023-2024 套件 <https://www.gobilda.com/ftc-starter-kit-2023-2024-season/>`_"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:61
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:63
+msgid ""
+"goBILDA's Low-Side U-channel opens up many new possibilities due to its "
+"flexibility and compactness. For example, one can now make a :term:`parallel"
+" plate drivetrain <Parallel Plate Drivetrain>` without custom machining, or "
+"make custom width :term:`U-channel <Channel>`."
+msgstr ""
+"goBILDA 的低边 U 型槽因其灵活性和紧凑性而开辟了许多新的可能性。例如，现在人们可以制作 :term:`parallel plate "
+"drivetrain<Parallel Plate Drivetrain>`，而无需进行定制加工，或者制作定制宽度的 "
+":term:`U-channel<Channel>`。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:64
+msgid ""
+"goBILDA also has :term:`Servoblocks` (identical to Actobotics other than "
+"hole pattern) which drastically increase servo life."
+msgstr "goBILDA 还有 :term:`Servoblocks`（除孔型外与 Actobotics 相同），可大幅延长伺服器的使用寿命。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:65
+msgid ""
+"goBILDA has native large bore :term:`hex shaft <Shaft>` support (12 mm REX "
+"is comparable to 3/8\" rounded hex) which is one of the main advantages of "
+"custom fabrication brought to a kit based system."
+msgstr ""
+"goBILDA 具有原生的大孔径 :term:`hex shaft<Shaft>` 支持（12 毫米 REX 相当于 3/8 "
+"英寸圆角六角），这是将定制加工带入套件系统的主要优势之一。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:66
+msgid ""
+"goBILDA also is able to interface with TETRIX :term:`channel <Channel>` "
+"because they share some holes. For more information about TETRIX-goBILDA "
+"compatibility, check out this `website "
+"<https://gobildatetrix.blogspot.com/>`_. It is also quite compatible with "
+"REV's ecosystem."
+msgstr ""
+"goBILDA 也能与 TETRIX :term:`channel <Channel>` 接口，因为它们共享一些漏洞。有关 TETRIX-goBILDA"
+" 兼容性的更多信息，请访问<https://gobildatetrix.blogspot.com/> 。它与 REV 的生态系统也相当兼容。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:67
+msgid ""
+"goBILDA has a well thought-out :term:`ball bearing <Ball Bearing>` based "
+"motion system with smart motion transfer. It is easy to do :term:`chain "
+"<Chain>` or :term:`belt <HTD Belt>` in channel."
+msgstr ""
+"goBILDA 拥有经过深思熟虑的 :term:`ball bearing <Ball Bearing>` "
+"运动系统，具有智能运动传输功能。在通道中很容易实现 :term:`chain <Chain>` 或 :term:`belt <HTD Belt>`。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:69
+msgid ""
+"8mm :term:`chain <Chain>`, HTD 3, and HTD 5 mm :term:`belt <HTD Belt>` can "
+"do perfect :term:`C2C (center to center) <C2C>` on the goBILDA pattern. This"
+" saves a lot of headache when needing to calculate :term:`C2C` distances."
+msgstr ""
+"8 毫米 :term:`chain<Chain>`、HTD 3 和 HTD 5 毫米 :term:`belt<HTD Belt>` 可以在 "
+"goBILDA 图案上实现完美的 :term:`C2C（中心到中心）<C2C>`。当需要计算 :term:`C2C` 距离时，这将省去很多麻烦。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:71
+msgid ""
+"goBILDA has plenty of :term:`shaft <Shaft>`, :term:`ball bearing <Ball "
+"Bearing>`, and pillow block options."
+msgstr ""
+"goBILDA 有大量 :term:`shaft<Shaft>`、:term:`ball bearing<Ball Bearing>` "
+"和枕式轴承可供选择。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:72
+msgid ""
+"goBILDA motors can :term:`face mount <Face Mounting>` natively into "
+":term:`channel <Channel>`, eliminating the need for motor mounts and "
+"providing a robust, reliable way to mount motors."
+msgstr ""
+"goBILDA 电机可以 :term:`face mount<Face Mounting>` 本地安装到 "
+":term:`channel<Channel>`，无需电机支架，提供了一种坚固可靠的电机安装方式。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:73
+msgid ""
+"goBILDA has some special parts are unavailable in other systems, like "
+":term:`square beam shafts <Shaft>`."
+msgstr "goBILDA 有一些其他系统无法提供的特殊部件，例如 :term:`square beam shafts<Shaft>`。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:74
+msgid ""
+"goBILDA provides a large selection of 12V DC motors. Their :term:`Yellow "
+"Jacket motors <Yellow Jacket Motor>` use orbital gearboxes and are available"
+" in 10 different gear ratios ranging from 30 RPM to 1620 RPM. No other "
+"manufacturer offers such varied gear ratios out of the box."
+msgstr ""
+"goBILDA 提供大量 12V 直流电机供您选择。他们的 :term:`Yellow Jacket motors<Yellow Jacket "
+"Motor>` 使用轨道齿轮箱，有 10 种不同的齿轮比，从 30 RPM 到 1620 RPM 不等。没有其他制造商能提供如此多样的齿轮比。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:77
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:79
+msgid ""
+"goBILDA is not the cheapest build system; it is relatively equivalent in "
+"pricing to Actobotics, but REV is cheaper."
+msgstr "goBILDA 并不是最便宜的构建系统；它的价格与 Actobotics 相对相当，但 REV 更便宜。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:80
+msgid ""
+"goBILDA :term:`U-channels <Channel>` are larger than the :term:`channels "
+"<Channel>` from Tetrix, resulting in larger builds. However, this is more "
+"than compensated by the fact that one can put a :term:`goBILDA motor <Yellow"
+" Jacket Motor>` *inside* a :term:`channel <Channel>`. In addition, the "
+"introduction of mini-low-side channel allows for more compact builds where "
+"needed"
+msgstr ""
+"goBILDA 的 :term:`U-channels<Channel>` 比 Tetrix 的 :term:`channels<Channel>` "
+"要大，导致构建量较大。不过，这一点可以通过在 :term:`channel<Channel>` 内放置 :term:`goBILDA 电机<Yellow"
+" Jacket Motor>` 来弥补。此外，迷你低侧通道的引入可在必要时实现更紧凑的构造"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:81
+msgid ""
+"Because of metric pattern spacing, goBILDA utilizes 8mm pitch :term:`chain "
+"<Chain>`, as opposed to the FTC standard #25 Imperial :term:`chain <Chain>`."
+" This means that other kits' :term:`chain <Chain>` and :term:`sprockets "
+"<Sprocket>` won't work with goBILDA :term:`chain <Chain>` and "
+":term:`sprockets <Sprocket>`."
+msgstr ""
+"由于公制模式的间距，goBILDA 使用 8mm 间距的 :term:`chain<Chain>`，而不是 FTC 标准的 #25 英制 "
+":term:`chain<Chain>`。这意味着其他套件的 :term:`chain<Chain>` 和 "
+":term:`sprockets<Sprocket>` 无法与 goBILDA :term:`chain<Chain>` 和 "
+":term:`sprockets<Sprocket>` 配合使用。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rstNone
+msgid ""
+"7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the lander"
+msgstr "7182 机械矛盾立方体的漫游者 Ruckus 机器人挂在着陆器上"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:89
+msgid ""
+"7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the field"
+msgstr "7182 Mechanical Paradox Cubed 的 Rover Ruckus 机器人挂在场地上"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:89
+msgid ""
+"An example of a successful goBILDA based robot, 7182 Mechanical Paradox "
+"Cubed: Finalist Alliance 1st Pick (Detroit), Rover Ruckus"
+msgstr ""
+"基于 goBILDA 的成功机器人范例，7182 Mechanical Paradox Cubed：入围联盟第一选拔赛（底特律），Rover "
+"Ruckus"
