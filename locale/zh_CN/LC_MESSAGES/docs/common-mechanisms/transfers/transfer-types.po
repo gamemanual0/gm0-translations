@@ -4,19 +4,281 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 芷晗 李, 2023
+# wwsk2008sq, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-15 16:17+0000\n"
+"POT-Creation-Date: 2023-12-17 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: 芷晗 李, 2023\n"
+"Last-Translator: wwsk2008sq, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:4
+msgid "Types of Transfers"
+msgstr "传送结构类型"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:6
+msgid ""
+"There are a lot of different styles and types of transfers, but most are a "
+"form of Direct Transfer, Flip Up Transfer, Grate Transfer, or Conveyor "
+"Transfer."
+msgstr "传送结构的样式和类型多种多样，但大多数都是直接传送、翻转传送、篦式传送或传送带传送的一种形式。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:9
+msgid "Direct Transfer"
+msgstr "直接传送"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:11
+msgid ""
+"The simplest form of transfer is a direct transfer. This is the term for "
+"when the mechanism that an item is being moved to is simply placed directly "
+"behind whatever is gathering the item. The most common form of this is "
+"putting an arm or bucket directly behind the intake to collect the item as "
+"soon as it enters the intake. Since there is no mechanism between the intake"
+" and the outtake system, this is also referred to as a \"transferless\" "
+"system."
+msgstr ""
+"最简单的传送方式是直接传送。这是指将物品移动到的装置直接放置在收集物品的装置后面。最常见的形式是将一个机械臂或桶直接放在入口后面，以便在物品进入入口后立即将其收集起来。由于在入口和出口系统之间没有任何机构，这种系统也被称为"
+" \"无传送结构 \"系统。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:14
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:37
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:86
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:117
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:16
+msgid "Least mechanical complexity of any transfer system"
+msgstr "在所有传送系统中，机械复杂程度最低"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:17
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:39
+msgid "Doesn't take up much space"
+msgstr "不占空间"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:18
+msgid "Fastest transfer system"
+msgstr "最快的传输系统"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:21
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:44
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:93
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:124
+msgid "Disadvantages"
+msgstr "劣势"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:23
+msgid "Doesn't actually move the item internally"
+msgstr "实际上不会在内部移动物品"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:24
+msgid ""
+"Requires the scoring mechanism to be able to go both behind the intake as "
+"well as into whatever position is needed for scoring"
+msgstr "要求得分装置既安装在物品入口后面，也安装在得分所需的位置上"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:29
+msgid ""
+"A picture of a direct transfer intake from FTC\\ |reg| 16461, where the "
+"collection bucket is behind the intake"
+msgstr "来自 FTC |reg| 16461 的直接传送进气口图片，其中收集装置位于吸入装置后面"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:29
+msgid ""
+"16461 Infinite Turtles, Freight Frenzy, Direct transfer intake, where the "
+"collection bucket is right behind the intake"
+msgstr "16461 Infinite Turtles，在Freight Frenzy比赛中涉及的直接传送吸入装置，收集装置就在吸入装置后面"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:32
+msgid "Flip Up Transfer"
+msgstr "翻转式传送装置"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:34
+msgid ""
+"Flip up transfers are a form of transfer where the mechanism holding the "
+"item is rotated around a pivot point to align with a second mechanism that "
+"then collects the item. This mechanism is very commonly used on intakes to "
+"gain vertical height as well as some horizontal distance. In this use case, "
+"the intake can simply be mounted onto the transfer system, then spun in "
+"reverse to eject the item from the transfer mechanism into the scoring "
+"mechanism."
+msgstr ""
+"翻转式传送是一种传送方式，它将承载物品的装置围绕一个支点旋转，与第二个装置对齐，然后将物品收集起来。这种装置通常用于入口，以增加垂直高度和水平距离。在这种使用情况下，可以简单地将吸入装置安装到传送系统上，然后反向旋转，将物品从传送装置中弹出，进入得分装置。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:40
+msgid ""
+"Intake can be run co-axially to the flip up system so the motor doesn't have"
+" to be moved with the mechanism"
+msgstr "吸入装置可与翻转系统同轴运行，这样电机就不必随机械装置一起移动"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:41
+msgid ""
+"Allows intake to stick outside of the robot and start rotated up to fit "
+"inside the 18 inch sizing cube, enabling more flexibility"
+msgstr "允许吸入口伸出机器人外部，并开始旋转以适应 18 英寸的尺寸限制立方体，从而实现更大的灵活性"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:46
+msgid "Limited in horizontal and vertical movement"
+msgstr "水平和垂直移动受限"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:47
+msgid "Care must be taken that mechanisms align properly to each other"
+msgstr "必须注意各机构之间的正确对齐"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:48
+msgid "Slower form of transfer then grate or direct"
+msgstr "传送速度比栅格式传送或直接传送慢"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:49
+msgid "Mechanism can be hit by other robots when outside the robot frame"
+msgstr "在机器人框架外，机械装置可能会被其他机器人击中"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rstNone
+msgid "6165 extending and flip up intake"
+msgstr "6165 队伍设计的扩展和翻转式进气口"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:63
+msgid ""
+"6165 MSET Cuttlefish, Freight Frenzy, Flip up intake, mounted on linear "
+"slides for increased horizontal reach"
+msgstr "6165 MSET Cuttlefish, 于Freight Frenzy比赛中设计的翻转式进气口，安装在线性滑轨上，增加了水平伸展范围"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rstNone
+msgid "7236 flip up intake"
+msgstr "7236 队伍的翻转式吸入装置"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:78
+msgid "7236 Recharged Green, Rover Ruckus, Flip up intake"
+msgstr "7236 Recharged Green, Rover Ruckus, 翻转式吸入装置"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:81
+msgid "Grate Transfer"
+msgstr "栅格式传送"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:83
+msgid ""
+"Grate transfer is a form of transfer where two sets of \"forks\" are used on"
+" both the transfer mechanism and the scoring mechanism, offset from each "
+"other. This means the forks can pass by each other without intersecting, "
+"allowing an item to seamlessly go from being supported by one set of forks "
+"to the other. This provides really fast transfer times, but also limits how "
+"the transfer can operate. Generally, this type of transfer is used with two "
+"sets of linear slides at an angle to each other, most commonly with one at a"
+" horizontal and one more vertical."
+msgstr ""
+"栅格式传送是一种传送方式，在传送机构和得分机构上使用两组 "
+"\"叉子\"，相互偏移。这意味着叉子可以相互通过而不相交，从而使物品可以从一组叉子的支撑无缝转到另一组叉子的支撑。这提供了非常快的传送时间，但也限制了传送的操作方式。一般来说，这种传送方式使用两组互成角度的线性滑轨，最常见的是一组水平，一组垂直。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:88
+msgid "Low mechanical complexity"
+msgstr "机械复杂性低"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:89
+msgid "Second fastest transfer system (instantaneous)"
+msgstr "第二快传输系统（瞬时）"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:90
+msgid ""
+"Integrates well with linear mechanism (such as extending intakes and "
+"outtakes)"
+msgstr "与线性机构（如扩展吸入口和发射口）完美结合"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:95
+msgid ""
+"More complex design, careful alignment needed to prevent the \"forks\" from "
+"colliding"
+msgstr "设计更加复杂，需要仔细校准以防止 \"叉 \"相撞"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:96
+msgid "Doesn't integrate easily with rotational mechanisms"
+msgstr "不易与旋转装置整合"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:97
+msgid ""
+"Limiting in range of motion, mechanisms have to move in specific orders for "
+"the transfer to work correctly"
+msgstr "运动范围受限，各机构必须按特定顺序运动，才能正常工作"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:0
+msgid "Animated Grate Transfer Example (Click To Expand)"
+msgstr "栅格式传送动画示例（点击展开）"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:109
+msgid "6929 grate transfer deposit, where the forks are visible"
+msgstr "6929 栅格式传送，叉子清晰可见"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:109
+msgid ""
+"6929 Data Force, Rover Ruckus, Grate transfer deposit. Forks are visible on "
+"the bottom, which go between forks on the intake bucket."
+msgstr "6929 Data Force，于Rover Ruckus比赛中设计的栅格式传送。底部可见叉子，叉子位于吸入装置的叉子之间。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:112
+msgid "Conveyor Transfers"
+msgstr "传送带传送"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:114
+msgid ""
+"Conveyor transfer is a catch all term for transfer system that uses "
+"components to linearly move objects internally. Conveyors can use rollers, "
+"belts, surgical tubing, rubber bands, and other materials to move the items."
+" These materials then form conveyors that seamlessly move the object "
+"linearly from one mechanism to another. Conveyors are generally either "
+"roller conveyors, where a series of rollers move parts, or continuous "
+"conveyors, where a continuous object moves the items. In addition, a hybrid "
+"conveyor can be used which is made up of both rollers and continuous objects"
+" in between."
+msgstr ""
+"传送带传送是传送带系统的总称，它使用组件在内部线性移动物体。输送机可以使用辊子、皮带、导管、橡皮筋和其他材料来移动物品。然后，这些材料组成传送带，将物体从一个装置无缝地线性移动到另一个装置。输送机一般都是辊子输送机，由一系列辊子移动部件或连续输送机，由一个连续的物体移动物品。此外，还可以使用混合式输送机，这种输送机由辊子和介于两者之间的连续物体组成。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:119
+msgid "Can create \"buffers\" where multiple items can be stored"
+msgstr "可创建可存储多个项目的 \"缓冲区"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:120
+msgid "Items can be moved across complex paths internally"
+msgstr "物品可在内部复杂路径上移动"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:121
+msgid ""
+"Items can be continuously transferred instead of having discrete back and "
+"forth motions"
+msgstr "物品可以连续传输，而不是不连续的来回移动"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:126
+msgid ""
+"Items can jam on the entrance and exit of the conveyor, especially when "
+"multiple elements are entering at once."
+msgstr "物品可能会堵塞在传送带的入口和出口处，尤其是当多个物品同时进入时。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:127
+msgid "Significant mechanical complexity"
+msgstr "相当复杂的机械结构"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:129
+msgid "There are different types of conveyors that can be used."
+msgstr "可以使用不同类型的传送带。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:132
+msgid "Roller Conveyor"
+msgstr "辊子输送机"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:134
+msgid ""
+"Roller conveyors use a series of rollers or wheels to move objects from the "
+"beginning of the conveyor to the end. These transfers allow for the use of "
+"compliant wheel for different or odd shaped items, but care must be taken "
+"that objects don't get stuck in between rollers. In addition, wheels tend to"
+" have better grip then many forms of continuous conveyors. Surgical tubing "
+"can also be used instead of rollers."
+msgstr ""
+"辊筒式输送机使用一系列辊筒或滚轮将物品从输送机的起点运送到终点。这些传送装置允许使用符合要求的轮子来传送不同或奇形怪状的物品，但必须注意不要让物品卡在辊筒之间。此外，滚轮往往比许多形式的连续输送机具有更好的抓地力。也可以使用手术管道代替滚轮。"
