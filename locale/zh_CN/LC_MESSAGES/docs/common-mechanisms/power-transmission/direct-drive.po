@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 04:16+0000\n"
+"POT-Creation-Date: 2023-12-18 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,167 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:2
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:7
+msgid "Direct Drive"
+msgstr "直接驱动"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:4
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:17
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:9
+msgid ""
+"Powering a mechanical part (most commonly a drive wheel) directly from the "
+"motor axis. Many new and inexperienced teams will use this method to power "
+"their drivetrain as it is the simplest way to do so. However, there are "
+"significant drawbacks to this method."
+msgstr ""
+"直接从电机轴为机械部件（最常见的是驱动轮）提供动力。许多没有经验的新团队会使用这种方法为传动系统提供动力，因为这是最简单的方法。然而，这种方法也有很大的缺点。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:11
+msgid ""
+"Direct drive puts unnecessary load on the drive motor. This is because shock"
+" loads can destroy gearboxes, even :term:`planetary gearboxes <Planetary "
+"Gear>`. Gearboxes are able to withstand load along the axis of rotation, "
+"such as what occurs when the wheel changes direction. This is a normal "
+"situation of load. However, in direct drive, the gearbox shaft can be "
+"exposed to other shock loads outside of the normal axis. This happens when "
+"the wheel comes into contact with another robot or the field wall, which "
+"honestly happens more than you'd think. This can bend the motor shaft or "
+"permanently damage the gearbox."
+msgstr ""
+"直接驱动会给驱动电机带来不必要的负载。这是因为冲击负荷会破坏齿轮箱，即使是 :term:`planetary gearboxes<Planetary "
+"Gear>`。齿轮箱能够承受沿旋转轴方向的负载，例如车轮改变方向时的负载。这是正常的负载情况。但是，在直接驱动中，齿轮箱轴可能会受到正常轴以外的其他冲击载荷。当车轮接触到另一个机器人或场地墙壁时，就会发生这种情况。这会导致电机轴弯曲或永久性损坏齿轮箱。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:13
+msgid ""
+"It also limits the :term:`gear ratio <Gear Reduction>` to whatever ratio the"
+" motor gearbox is at. One advantage of all the other three transmission "
+"systems is the ability to gear up or down, based on a team's needs. Direct "
+"drive cannot do so, and if your drivetrain uses 40:1 gearboxes, there is no "
+"way to reduce this ratio to a faster 20:1 gearbox, for example."
+msgstr ""
+"它还将 :term:`gear ratio<Gear Reduction>` "
+"限制为电机变速箱的任何传动比。其他三种传动系统的一个优点是可以根据车队的需要增减齿轮。而直接驱动则无法做到这一点，例如，如果您的传动系统使用40:1的变速箱，则无法将此比率降低到更快的20:1变速箱。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:15
+msgid ""
+"Motor shafts are not built to carry large amounts of downward load. This can"
+" lead to bending of the motor shaft, since in direct drive the shaft is only"
+" supported by one side, the gearbox. Generally, a principle among all "
+"engineers is to support the shaft on both sides, which isn't possible in "
+"this case. This leads to :term:`cantilevering <Cantilever>` the shaft, "
+"something that should be avoided in general. Thus, with a heavy robot the "
+"motor shafts can easily be bent due to a lack of support. (While typically "
+"it is impossible to support a motor shaft on both ends, it is a common rule "
+"of thumb to have dual support on wheels or other non-motor shafts.)"
+msgstr ""
+"电机轴的构造不能承受较大的向下负荷。这可能会导致电机轴弯曲，因为在直接驱动中，轴仅由一侧（即变速箱）支撑。一般来说，所有工程师的原则都是在两侧支撑轴，但在这种情况下是不可能的。这将导致:"
+" "
+"term:`cantilevering<Cantilever>`轴的倾斜，而这在一般情况下是应该避免的。因此，对于重型机器人来说，由于缺乏支撑，电机轴很容易弯曲。(虽然电机轴的两端通常不可能都有支撑，但通常的经验法则是在轮子或其他非电机轴上设置双重支撑）。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:20
+msgid "Cantilever"
+msgstr "悬臂式"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:22
+msgid ""
+"A cantilever refers to when an object (usually a :term:`shaft <Shaft>`) is "
+"only supported on one side. While this provides theoretically less support, "
+"as long as the shaft is still supported at two points by :term:`bearings "
+"<Ball Bearing>` or :term:`bushings <Bushing>`, cantilever is still a sound "
+"building technique. Many drivetrains are cantilevered, which provides for "
+"easy access to wheels."
+msgstr ""
+"悬臂是指一个物体（通常是一根 :term:` 轴<Shaft>`）只有一侧有支撑。虽然从理论上讲，悬臂提供的支撑较少，但只要轴的两点仍由 "
+":term:`bearings<Ball Bearing>` 或 :term:`bushings<Bushing>` "
+"支撑，悬臂仍不失为一种合理的建筑技术。许多传动系统都是悬臂式的，这样可以方便地接触车轮。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:24
+msgid ""
+"Supporting a shaft on both sides is theoretically more structurally sound, "
+"although in most cases you won't notice a difference."
+msgstr "从理论上讲，两侧支撑轴的结构更合理，但在大多数情况下，你不会注意到有什么不同。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:0
+msgid "Sanford's cantilever 6WD prototype"
+msgstr "Sanford的悬臂式6WD原型车"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:29
+msgid "Sanford's Prototype"
+msgstr "Sanford的原型"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:32
+msgid "Advantages"
+msgstr "优点"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:34
+msgid "Saves space"
+msgstr "节省空间"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:35
+msgid "Easy to build; most simple form of transmission"
+msgstr "易于建造；最简单的传动形式"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:38
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:40
+msgid "Prone to shock loads which destroy the gearbox"
+msgstr "易受冲击载荷的影响而损坏齿轮箱"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:41
+msgid "Limited gear ratio to the motor itself"
+msgstr "电机本身的传动比有限"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:42
+msgid "Wears the gearbox of the motor faster"
+msgstr "电机变速箱磨损更快"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:43
+msgid "Can bend the motor shaft"
+msgstr "会使电机轴弯曲"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rstNone
+msgid ""
+"A drivetrain with the wheel directly driven, but with an externally "
+"supported shaft"
+msgstr "直接驱动车轮的传动系统，但有外部支撑轴"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:48
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:62
+msgid "11316, Weapons of Mass Construction"
+msgstr "11316, Weapons of Mass Construction"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:50
+msgid ""
+"*Outside* Supported Direct Drive (**Preferred Version of Direct Drive**)"
+msgstr "*外部*支持直接驱动（**直接驱动的首选版本**）"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rstNone
+msgid ""
+"A drivetrain with the wheel directly driven, but with an internally "
+"supported shaft"
+msgstr "直接驱动车轮的传动系统，但有内部支撑轴"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:55
+msgid "Ethan Doak"
+msgstr "Ethan Doak"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:57
+msgid ""
+"*Inside* Supported Direct Drive (**Preferred Version of Direct Drive**)"
+msgstr "*内部* 支持直接驱动（**直接驱动的首选版本**）"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rstNone
+msgid ""
+"A drivetrain with the wheel direct mounted, but with an unsupported shaft"
+msgstr "车轮直接安装但无支撑轴的传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:64
+msgid "Unsupported Direct Drive (**not recommended**)"
+msgstr "不支持直接驱动（**不推荐**）。"

@@ -4,20 +4,88 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-20 16:18+0000\n"
+"POT-Creation-Date: 2023-12-18 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:4
+msgid "SDK Communication"
+msgstr "SDK通信"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:6
+msgid ""
+"When using any method in the FTC\\ |reg| SDK that accesses hardware, be that"
+" setting motor power, reading an encoder, a sensor, etc., a LynxCommand is "
+"sent."
+msgstr "当使用 FTC |reg| SDK 中的任何方法访问硬件时，比如设置电机功率、读取编码器、传感器等，都会发送LynxCommand。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:9
+msgid ""
+"LynxCommands are not sent directly from the Robot Controller to an Expansion"
+" Hub through USB; in an expansion hub they are sent through USB to an FTDI, "
+"which converts the USB signal to a UART one. In the control hub, this USB "
+"step is skipped, instead the control hub board sends the data directly over "
+"UART to the internal expansion hub."
+msgstr ""
+"LynxCommand不是通过USB直接从机器人控制器发送到Expansion "
+"Hub；在扩展集线器中，它们通过USB发送到FTDI，FTDI将USB信号转换为通用异步收发设备信号（UART）。在Control "
+"Hub中，跳过此USB步骤，而是Control Hub主板直接通过UART将数据发送到内部Expansion Hub。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:12
+msgid ""
+"LynxCommands being blocking (and more specifically a master lock being "
+"present on each usb device) means that multithreading hardware calls is at "
+"best not helpful and typically harmful to performance."
+msgstr "LynxCommand被阻塞（更具体地说，每个USB设备上都有一个主锁）意味着多线程硬件调用充其量是没有帮助的，通常对性能有害。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:14
+msgid ""
+"If an Android phone and Expansion Hub is used, LynxCommands are sent over "
+"USB; however if a Control Hub is used, LynxCommands are sent over UART. This"
+" is very important, not just because of the increased reliability with UART "
+"instead of USB, but also because LynxCommands take approximately 3 "
+"milliseconds over USB and approximately 2 milliseconds over UART."
+msgstr ""
+"如果使用Android手机和扩展集线器，LynxCommand将通过USB发送；但是，如果使用Control "
+"Hub，LynxCommand将通过通用异步收发设备发送。这一点非常重要，不仅因为通用异步收发设备而不是USB提高了可靠性，而且因为LynxCommand在USB上大约需要3毫秒，在通用异步收发设备上大约需要2毫秒。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:16
+msgid ""
+"Any expansion hubs connected via RS485 receive their commands via that "
+"connector. Lynx hubs do not have to retransmit packets, so the added latency"
+" from this process isn't significant, but there will be some added latency. "
+"Up to 255 expansion hubs can be connected together in theory."
+msgstr ""
+"任何通过RS485连接的扩展集线器都通过该连接器接收它们的命令。Lynx集线器不必重传数据包，因此此过程增加的延迟并不显著，但会增加一些延迟。理论上最多可以将255个扩展集线器连接在一起。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
+msgid ""
+"Interacting with I2C devices takes significantly longer; upwards of 7 "
+"milliseconds over USB. However, this is not because each LynxCommand takes "
+"longer, but because multiple LynxCommands must be sent to interact with I2C."
+msgstr ""
+"与I2C设备交互需要更长的时间；通过USB超过7毫秒。但是，这并不是因为每个LynxCommand需要更长的时间，而是因为必须发送多个LynxCommand才能与I2C交互。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:22
+msgid ""
+"Please note that since version 5.5 of the SDK, I2C calls on the Control Hub "
+"are much faster than those on the Expansion Hub. This is because the polling"
+" rate was dramatically increased, which can cut down on unnecessary wasted "
+"time."
+msgstr ""
+"请注意，从SDK5.5版本开始，Control Hub上的I2C调用比Expansion "
+"Hub上的调用快得多。这是因为轮询率大幅提高，这可以减少不必要的浪费时间。"

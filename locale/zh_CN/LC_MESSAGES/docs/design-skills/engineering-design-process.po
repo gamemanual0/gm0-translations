@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 16:17+0000\n"
+"POT-Creation-Date: 2023-12-18 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,133 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:2
+msgid "Engineering Design Process"
+msgstr "工程设计流程"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:4
+msgid ""
+"*Note: The exact process will vary from team to team, so the graphic is not "
+"meant to be a hard and fast rule.*"
+msgstr "注意：确切的过程因团队而异，因此下述内容并不意味着是一个硬性规则。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:27
+msgid "Components of the Engineering Design Process"
+msgstr "工程设计过程的组成部分"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:29
+msgid ""
+"In general, the design process contains these steps; however, every team "
+"will modify the process to their needs and limitations."
+msgstr ""
+"通常，设计过程包含以下这些步骤；\n"
+"但是，每个团队都会根据自己的需要和限制修改流程。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:31
+msgid ""
+"Define the problem: What are you trying to solve? What is the timeline?"
+msgstr "定义问题：你想解决什么？时间轴是什么？"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:32
+msgid ""
+"Specify requirements: What are the necessities for your proposed solution?"
+msgstr "指定需求：您提出的解决方案的必要性是什么？"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:33
+msgid "Brainstorm/CAD Design: Draw or sketch a prototype on paper or in CAD."
+msgstr "头脑风暴/CAD设计：在纸上或CAD中绘制或绘制原型。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:34
+msgid ""
+"Prototype/Experiment: Put a first design together using physical materials."
+msgstr "原型/实验:使用物理材料搭建第一个设计。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:35
+msgid ""
+"Test: Ensure you thoroughly test every part of your prototype to detect "
+"flaws."
+msgstr "测试：确保彻底测试原型的每个部分以检测缺陷。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:36
+msgid ""
+"Analyze results: Examine what you learned from your tests to iterate "
+"successively."
+msgstr "分析结果：分析您从测试中学到的内容，以便连续迭代。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:37
+msgid ""
+"Final implementation: Polish and solidify a final design that won't change."
+msgstr "最终实施：抛光和固化不会改变的最终设计。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:39
+msgid ""
+"As an example, let's look at an imaginary team building a drivetrain for "
+"Rover Ruckus (RR2), which was 2018-2019's game. In RR2, there was a crater, "
+"which was about 3\" tall, and could be traversed. In that year's game, there"
+" were two main options: traverse said crater, or not traverse it and instead"
+" reach over with an arm."
+msgstr ""
+"举个例子，让我们看一个想象中的团队为Rover "
+"Ruckus（RR2）建造动力传动系统，这是2018-2019年的游戏。在RR2中，有一个坑，大约3英寸高，可以穿过。在那一年的游戏中，有两个主要选择：穿过这个坑，或者不穿过它，而是用机械臂伸过去。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:41
+msgid ""
+"The team must first specify requirements for the drivetrain. One of the most"
+" important aspects of a drivetrain is maneuverability. Another requirement "
+"could be speed, traction, reliability, etc. From the team's specified "
+"requirements, they would now look at drivetrains that fit their "
+"requirements. If the team wanted to traverse the crater, then a 4WD or 6WD "
+"would be an optimal design. If they did not need to traverse the crater, "
+"many options are still on the table such as the holonomic drivetrains."
+msgstr ""
+"团队必须首先指定动力传动系统的要求。动力传动系统最重要的方面之一是机动性。另一个要求可能是速度、牵引力、可靠性等。从团队指定的要求来看，他们现在将考虑符合他们要求的动力传动系统。如果团队想要穿过坑，那么4WD或6WD将是最佳设计。如果他们不需要穿过坑，许多选项仍然可供选择，例如完整的动力传动系统。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:43
+msgid ""
+"The next step would be to brainstorm actual designs. It would be prudent to "
+"have more than one student to design one drivetrain prototype, so that the "
+"team could test more than one drivetrain."
+msgstr "下一步将是头脑风暴出一个实际设计。谨慎的做法是让多个学生设计一个动力传动系统原型，这样团队就可以测试多个动力传动系统。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:45
+msgid ""
+"From there, a team could begin the prototyping and testing process. This "
+"could involve tests of the time taken to cross the crater, time from crater "
+"to lander, top speed, maneuverability, etc. Simple tests may be conducted "
+"instead of complicated ones. For example, if the robot is projected to weigh"
+" 30 pounds, a dumbbell placed on top of the drivetrain simulates the extra "
+"weight well to see if the drivetrain can get over the crater easily and "
+"reliably, so the robot will not get stuck on the crater edge."
+msgstr ""
+"自此，一个团队可以开始原型设计和测试的过程。这可能包括测试穿过坑所需的时间、从坑到着陆器的时间、最高速度、可操作性等。可以进行简单的测试，而不是复杂的测试。例如，如果机器人预计重30磅，放置在动力传动系统顶部的哑铃可以模拟额外的重量，看看动力传动系统是否可以轻松可靠地越过坑，这样机器人就不会卡在坑边缘。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:47
+msgid ""
+"Next, analyze results and iterate. If, for example, there was too little "
+"clearance, and the drivetrain got stuck on the crater part of the time, then"
+" it would be necessary to raise the drivebase in order to remediate this "
+"problem. However, don't change too many things at once - **you want to "
+"change ONLY ONE variable at a time**, or else you won't know what may cause "
+"a further problem should it arise. Always try to change one variable at a "
+"time."
+msgstr ""
+"接下来，分析结果并迭代。例如，如果间隙太小，动力传动系统在部分时间卡在坑上，那么就有必要提高动力基础来修复这个问题。然而，不要一次改变太多的东西——你一次只想改变一个变量，否则，你将不知道什么可能导致进一步的问题出现。总是坚持一次改变一个变量。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:49
+msgid ""
+"**It often takes multiple iterations to get things right, so don't be "
+"discouraged if your second or even third attempt doesn't perform as well as "
+"you think it will**. Many teams have 10+ iterations of intake designs in "
+"order to refine and hone down their design to be optimally efficient. While "
+"that many tries isn't recommended for new teams, don't be afraid to modify "
+"*one factor* at a time to isolate and solve problems."
+msgstr ""
+"通常需要多次迭代才能把事情做好，所以如果你的第二次甚至第三次尝试没有你想象的那么好，不要气馁。许多团队有10多次迭代的进气设计，以便改进和磨练他们的设计，使其达到最佳效率。虽然不建议新团队尝试这么多次，但不要害怕一次修改一个因素来隔离和解决问题。"
+
+#: ../../gm0/source/docs/design-skills/engineering-design-process.rst:51
+msgid ""
+"Your final implementation could be just an upgraded prototype, or, if you "
+"had used subpar/scrap materials for a prototype, you could change them out "
+"for durable ones."
+msgstr "您的最终实现可能只是一个升级的原型，或者，如果您在原型中使用了低于标准/废弃的材料，您可以将它们换成耐用的材料。"
