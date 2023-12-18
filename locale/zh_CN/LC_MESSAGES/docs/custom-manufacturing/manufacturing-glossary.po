@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-13 16:16+0000\n"
+"POT-Creation-Date: 2023-12-18 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: wwsk2008sq, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -20,3 +20,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:2
+msgid "Manufacturing Glossary"
+msgstr "制造业术语表"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:5
+msgid "Laser Cutter"
+msgstr "激光切割机"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:7
+msgid ""
+"A laser cutter is a tool that uses a high-power laser to cut through sheet "
+"metal or similar material. The laser is guided by CNC to cut preprogrammed "
+"patterns into the sheet."
+msgstr "激光切割机是一种使用大功率激光切割金属板或类似材料的工具。激光由数控系统引导，在金属板上切割预先编程的图案。"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:8
+msgid "Waterjet Cutter"
+msgstr "水柱切割机"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:10
+msgid ""
+"A waterjet cutter is a tool which cuts sheet metal and other materials via "
+"extremely high pressure water focused into a small stream. Waterjet cutters "
+"are commonly used in industrial fabrication and can follow preprogrammed "
+"instructions to cut patterns, similar to a CNC system."
+msgstr ""
+"水柱切割机是一种通过聚焦成小水流的极高压水切割金属板和其他材料的工具。水刀切割机常用于工业制造，可按照预先编程的指令切割图案，类似于数控系统。"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:11
+msgid "Standoff"
+msgstr "支座"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:13
+msgid ""
+"A standoff is a fastener with two threaded ends and usually has a hex "
+"profile to be used with a wrench. These ends are usually female threaded, "
+"meaning that they can have a screw threaded into them."
+msgstr "支座是一种两端有螺纹的紧固件，通常带有六角形轮廓，可与扳手配合使用。这些端头通常是内螺纹，这意味着它们可以拧上螺丝。"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:15
+msgid ""
+"This is usually a more compact alternative to a long screw and spacers, and "
+"can be used to space things out as well as fasten them. Custom standoffs can"
+" be made out of hex stock, such as :term:`AndyMark Churro <Churro>`."
+msgstr ""
+"与长螺钉和垫片相比，这通常是一种更紧凑的替代方案，既可用于拉开空间，也可用于固定。定制支座可以用六角材料制成，例如 :term:`AndyMark "
+"Churro<Churro>`。"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:17
+msgid ""
+"Standoffs are usually used in drivetrain purposes, such as in parallel plate"
+" drivetrains, where the plates must be separated and supported by standoffs "
+"at equal distances."
+msgstr "支座通常用于传动系统，例如平行板传动系统，在这种情况下，板与板之间必须用支座以相等的距离分开和支撑。"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:0
+msgid "A couple of standoffr"
+msgstr "几个支座样例"
