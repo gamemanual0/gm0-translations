@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2023-12-19 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -21,3 +21,402 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:4
+#: ../../gm0/source/docs/design-skills/cad.rst:12
+msgid "Computer-aided design (CAD)"
+msgstr "计算机辅助设计（CAD）"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:7
+msgid "Introduction"
+msgstr "简介"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:9
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:14
+msgid ""
+"CAD is software most commonly used to aid the design and drafting of parts "
+"and assemblies in engineering. In FTC\\ |reg|, CAD is used to make 3D models"
+" of robots as well as design custom parts."
+msgstr "CAD是工程设计中最常用的辅助设计和绘制零件和装配图的软件。在 FTC\\ |reg| 中，CAD用于制作机器人的3D模型以及设计定制部件。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:16
+msgid ""
+"**CAD is not necessary in FTC to build a successful robot.** Many successful"
+" teams didn't CAD their robot at all. Other successful teams only made parts"
+" of their robot in CAD. Still other teams fully designed their robot in CAD."
+msgstr ""
+"在FTC建造一个成功的机器人时，计算机辅助设计不是必需的。许多成功的团队根本没有对他们的机器人进行计算机辅助设计。其他成功的团队只在计算机辅助设计中制造了机器人的一部分。还有一些团队完全用计算机辅助设计了他们的机器人。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:18
+msgid ""
+"So, what's the point of CAD, then? It is encouraged that new teams try their"
+" hand at CAD, especially if you have a mentor or parent who is experienced "
+"in such an area. CAD is beneficial for multiple reasons."
+msgstr "那么，CAD有什么意义呢？鼓励新团队尝试CAD，特别是如果您有在这方面经验丰富的导师或父母。CAD有多种益处。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:20
+msgid ""
+"CAD solves a lot of preventable headaches, such as spacing issues. Thus, it "
+"will save time when you discover problems in CAD that you can remediate "
+"before you build your robot."
+msgstr "CAD能解决许多可预防的问题，例如行间距问题。因此，当您发现CAD中的问题时，它将节省时间，您可以在构建机器人之前修复这些问题。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:21
+msgid ""
+"CAD is a professional tool that is used in many STEM fields. Having CAD "
+"knowledge and skills will be beneficial in your future career, should you "
+"study and work in those fields."
+msgstr "CAD是一种专业工具，应用于许多STEM领域。如果你在这些领域学习和工作，拥有计算机辅助设计知识和技能将对你未来的职业生涯有益。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:22
+msgid ""
+"If you desire to create 3D-printed or machined parts, CAD will be necessary "
+"to do so."
+msgstr "如果您希望创造3D打印或机械加工的零件，CAD将是必要的。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:23
+msgid ""
+"CAD can reduce the cost of building a robot by helping to determine which "
+"parts you need for a robot before actually spending the money to buy those "
+"parts."
+msgstr "CAD可以通过在实际花钱购买这些零件之前帮助确定您需要机器人的哪些零件来降低构建机器人的成本。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:25
+msgid ""
+"**However, CAD is not the magic genie that will guarantee you success in "
+"FTC.** When used properly, it is a great tool to aid teams in building their"
+" robot. Keep in mind, though, that many teams have had success without CAD."
+msgstr ""
+"然而，CAD并不是保证你FTC比赛成功的魔法精灵。如果使用得当，它是帮助团队构建机器人的绝佳工具。不过，请记住，许多团队在没有CAD的情况下都取得了成功。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:27
+msgid ""
+"Starting off, choose a CAD program and learn it as well as possible. It may "
+"be a good idea to spend a few weeks just finding objects lying around, sit "
+"down with a ruler or calipers, and make a quick CAD model. A good way to "
+"test accuracy is to choose a solid object made up of one known material. "
+"Weigh the object and make the model in CAD, apply that material to it, and "
+"see what the weight difference is. This is a good way to test how accurate "
+"the CAD model is to the real part. It really doesn't matter what object it "
+"is - just find something and make it to the best of your abilities. There "
+"are also tons of videos on YouTube; a good one is TFI who makes detailed "
+"tutorials for Autodesk Inventor."
+msgstr ""
+"从一开始，选择一个CAD程序，并尽可能地学习它。花几个星期的时间寻找周围的物体，用尺子或卡尺坐下来，制作一个快速的CAD模型可能是个好主意。测试准确性的一个好方法是选择一个由一种已知材料组成的固体物体。称重物体并在CAD中制作模型，将该材料应用于它，看看重量差异是什么。这是测试CAD模型对真实零件的准确性的好方法。它真的不重要——只要找到一些东西，并尽你所能地制作它。YouTube上也有大量的视频；一个很好的方法是TFI，他为Autodesk"
+" Inventor制作详细的教程。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:30
+msgid "Overview of CAD Programs"
+msgstr "CAD程序概述"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:32
+msgid ""
+"There are many possible CAD programs that teams can learn, all of which can "
+"be downloaded for free under a student or FTC team license. You'll have to "
+"do a bit of research here, as the requirements for free copies vary based on"
+" the program. Here are a couple suggestions to consider:"
+msgstr ""
+"团队可以学习许多可能的CAD程序，所有这些程序都可以在学生或FTC团队许可下免费下载。你必须在这里做一些研究，因为免费副本的要求因程序而异。以下是一些需要考虑的建议："
+
+#: ../../gm0/source/docs/design-skills/cad.rst:35
+msgid "`Onshape <https://www.onshape.com/en/education/>`_"
+msgstr "`Onshape <https://www.onshape.com/en/education/>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:37
+msgid ""
+"A fully-featured CAD package, but it runs entirely in the cloud. It can run "
+"on any computer (even Chromebooks!) and has iOS, iPadOS, and Android apps as"
+" well."
+msgstr ""
+"一个功能齐全的CAD包，但它完全在云中运行。它可以在任何计算机上运行（甚至Chromebook！），也有iOS、iPadOS和安卓应用程序。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:39
+msgid ""
+"It has all of the same core features as SolidWorks and Inventor, as well as "
+"the best collaboration workflow in the industry - many people call it \"the "
+"Google Docs of CAD.\" Onshape allows multiple people to work on the same "
+"document at the same time, and allows users to \"follow\" each other and see"
+" what's on another user's screen."
+msgstr ""
+"它具有与SolidWorks和Inventor相同的核心功能，以及业内最好的协作工作流程——许多人称之为“计算机辅助设计的谷歌文档”Onform允许多人同时处理同一个文档，并允许用户相互“跟踪”，查看另一个用户屏幕上的内容。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:41
+msgid ""
+"OnShape also has FeatureScript, a programming language where you can write "
+"custom features. The community has created a lot of very useful "
+"FeatureScripts already which you can use completely for free."
+msgstr ""
+"OnShape还有FeatureScript，这是一种编程语言，您可以在其中编写自定义功能。社区已经创建了许多非常有用的FeatureScricript，您可以完全免费使用它们。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:43
+msgid ""
+"Onshape also has a comprehensive tutorial system (https://learn.onshape.com)"
+" that will not only teach you how to use their software, but how to approach"
+" design problems."
+msgstr ""
+"Onshape 还有一个全面的教程系统 (https://learn.onshape.com)，不仅教你如何使用软件，还教你如何解决设计问题。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:45
+msgid ""
+"If you're just starting out with CAD, or you don't have access to powerful "
+"computers, Onshape is the software for you."
+msgstr "如果您刚刚开始使用CAD，或者您无法使用功能强大的计算机，那么Onform就是适合您的软件。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:48
+msgid ""
+"`SolidWorks "
+"<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
+msgstr ""
+"`SolidWorks "
+"<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:50
+msgid ""
+"An industry standard CAD package made by Dassault Systemes. It's as fully "
+"featured as CAD software gets, including great simulation features and a "
+"very robust assembly environment. It's used widely in industry and is also "
+"the program of choice for most college-level engineering classes."
+msgstr ""
+"由Dassault "
+"Systemes公司制造的行业标准CAD包。它与CAD软件一样功能齐全，包括出色的仿真功能和非常强大的装配环境。它在工业中广泛使用，也是大多数大学工程类的首选程序。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:52
+msgid ""
+"However, **it isn't available for Mac users**, and you'll need a pretty "
+"beefy computer to run it (16GB RAM is standard). SolidWorks also comes with "
+"a solid simulation program if you wish to test the structural properties of "
+"your robot or a custom-designed part."
+msgstr ""
+"然而，**它不适用于Mac用户**，你需要一台相当结实的计算机来运行它（标准运行内存大小为16GB "
+"RAM）。如果你想测试机器人或定制设计部件的结构特性，SolidWorks还带有一个可靠的模拟程序。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:54
+msgid ""
+"If you have mentors or team members with previous experience in SolidWorks "
+"or an engineering class at your school that teaches SolidWorks, it will be "
+"your best choice."
+msgstr "如果你有导师或团队成员有SolidWorks的经验，或者你的学校有教授SolidWorks的工程课程，这将是你最好的选择。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:57
+msgid ""
+"`Inventor <https://www.autodesk.com/education/edu-"
+"software/overview?sorting=featured&page=1>`_"
+msgstr ""
+"`Inventor <https://www.autodesk.com/education/edu-"
+"software/overview?sorting=featured&page=1>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:59
+msgid ""
+"Autodesk's industrial CAD offering. It offers many similar features to "
+"SolidWorks, but has a different UI and three distinct assembly modes."
+msgstr "Autodesk的工业CAD产品。它提供了许多与SolidWorks相似的功能，但具有不同的UI和三种不同的组装模式。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:61
+msgid ""
+"While it's used by many companies in the industry, it doesn't appear in very"
+" many college curriculums. Inventor is generally the second choice for "
+"companies who don't use SolidWorks but instead are based around the Autodesk"
+" universe."
+msgstr ""
+"虽然该行业的许多公司都在使用它，但它并没有出现在很多大学课程中。对于不使用SolidWorks而是基于Autodesk "
+"universe.来说，Inventor通常是第二选择。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:63
+msgid ""
+"**Inventor is also not available for Mac**, but it may run better on lower-"
+"spec PCs."
+msgstr "**Inventor也不适用于Mac**，但它可能在低规格的PC上运行得更好。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:65
+msgid ""
+"If you have mentors or team members with previous experience in Inventor or "
+"an engineering class at your school that teaches Inventor, it will be your "
+"best choice."
+msgstr "如果你有导师或团队成员有在Inventor的经验，或者在你的学校教授Inventor的工程课程，这将是你最好的选择。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:70
+msgid ""
+"`Fusion 360 <https://www.autodesk.com/education/edu-"
+"software/overview?sorting=featured&page=1>`_"
+msgstr ""
+"`Fusion 360 <https://www.autodesk.com/education/edu-"
+"software/overview?sorting=featured&page=1>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:72
+msgid ""
+"A cloud-based all-in-one CAD/CAM package, also made by Autodesk. Fusion 360 "
+"is cross platform compatible, although it doesn't run very well on low-spec "
+"computers."
+msgstr "基于云的一体化CAD/CAM包，也是由Autodesk制造的。Fusion 360是跨平台兼容的，尽管它在低规格计算机上运行得不太好。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:74
+msgid ""
+"It has a powerful CAM environment for machining your parts, and it has "
+"intuitive and easy cloud rendering that gives the heavy lifting to "
+"Autodesk's servers. To maintain a simpler UI, Fusion skips out on a lot of "
+"the more advanced features found in SolidWorks and Inventor, although this "
+"isn't really much of a problem."
+msgstr ""
+"它有一个强大的计算机辅助制造环境来加工你的零件，它有直观简单的云渲染，给Autodesk的服务器带来了繁重的工作。为了保持更简单的UI，Fusion简化了SolidWorks和Inventor中的许多更高级的功能，尽管这不是什么大问题。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:76
+msgid ""
+"However, a more noteworthy difference is that Fusion ignores every single "
+"industry standard, creating its own structure and organizational system. "
+"Beyond simple sketches and extrude features, Fusion's modeling and assembly "
+"system is unique and not compatible with any other CAD software, making it "
+"hard to switch away from Fusion."
+msgstr ""
+"然而，更值得注意的区别是，Fusion忽略了所有行业标准，创建了自己的结构和组织系统。除了简单的草图和导出功能之外，Fusion的建模和组装系统是独一无二的，与任何其他CAD软件都不兼容，这使得它很难从Fusion中切换出来。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:78
+msgid ""
+"Because of this, if you aren't careful, Fusion's file hierarchy can actively"
+" encourage bad design habits and discourages reusability by allowing users "
+"to create new parts without designing them individually first."
+msgstr "因此，如果您不小心，Fusion的文件层次结构可以通过允许用户创建新部件而不首先单独设计它们来积极鼓励不良设计习惯并阻止可重用性。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:80
+msgid ""
+"If one is careful to follow good design practices, Fusion is a solid option."
+msgstr "如果一个人小心翼翼地遵循良好的设计实践，Fusion是一个可靠的选择。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:83
+msgid ""
+"`Creo (formerly known as Pro/E) "
+"<https://www.ptc.com/en/products/education/free-software/standalone-"
+"educator>`_"
+msgstr ""
+"`Creo (之前称为 Pro/E) <https://www.ptc.com/en/products/education/free-"
+"software/standalone-educator>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:85
+msgid ""
+"A family of CAD/CAM applications developed by PTC (Parametric Technology "
+"Corporation). Creo parametric is the main CAD package that includes robust "
+"assembly and part modeling similar to Solidworks."
+msgstr ""
+"由PTC（参数化技术公司）开发的一系列CAD/CAM应用程序。Creo参数化是主要的CAD软件包，包括类似于Solidworks的装配体和零件建模。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:87
+msgid ""
+"The main advantage of Creo compared to other CAD software is the complex "
+"part relations and constraints, however, most new users find this aspect "
+"difficult to grasp completely. The Creo package includes an integrated local"
+" rendering engine and thorough simulation system. The rendering engine can "
+"be used to create photo-realistic renders of anything between single-part "
+"simple to multi-component complex designs. Design enhancements can be "
+"directly integrated into parts from materials/geometry simulations in Creo "
+"Simulate."
+msgstr ""
+"与其他CAD软件相比，Creo的主要优势在于复杂的零件关系和约束，然而，大多数新用户发现这方面很难完全掌握。Creo软件包包括一个集成的本地渲染引擎和全面的模拟系统。渲染引擎可用于创建从单部分简单到多组件复杂设计之间的任何事物的照片般逼真的渲染。设计增强功能可以直接集成到Creo模拟中的材料/几何模拟中的零件中。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:89
+msgid ""
+"Creo has many features, but the general 80-20 rule applies - 20% of the "
+"features will create 80% of the designs. The Creo package also includes a "
+"version based file sharing system called Windchill which most professional "
+"companies use, but for FTC purposes Grabcad will suffice."
+msgstr ""
+"Creo有很多功能，但是一般的80-20规则适用——20%的功能将创建80%的设计。Creo软件包还包括一个基于版本的文件共享系统，称为Windchill，大多数专业公司都使用它，但对于FTC目的，Grabcad就足够了。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:91
+msgid ""
+"Learning Creo can be more of a challenge than other CAD software, because of"
+" the limited available tutorials online in addition to the complex relations"
+" and constraints structure. Our recommendation is to learn Creo from someone"
+" who already has experience with the software."
+msgstr ""
+"学习Creo可能比其他CAD软件更具挑战性，因为除了复杂的关系和约束结构之外，在线可用教程有限。我们的建议是向已经使用该软件的人学习Creo。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:93
+msgid ""
+"College-level engineering classes as well as numerous companies in the "
+"automotive, aerospace and consumer industry use Creo. Since Creo makes use "
+"of Windows OS file system it will not run on Mac. However, a Windows "
+"emulator can be installed to run Creo on Mac."
+msgstr ""
+"大学级别的工程课程以及汽车、航空航天和消费行业的许多公司都使用Creo。由于Creo使用WindowsOS文件系统，因此无法在Mac上运行。但是，可以安装一个Windows模拟器来在Mac上运行Creo。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:96
+msgid "Getting Parts"
+msgstr "获取零件模型"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:98
+msgid ""
+"All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models "
+"of the parts they sell in STEP format, which can be imported by any of the "
+"CAD programs above. Some vendors also offer repositories or zip files "
+"containing :term:`STEP file` of all the models they sell."
+msgstr ""
+"所有供应商（REV、goBILDA、Actobotics、AndyMark、Tetrix）都以STEP格式提供他们销售的零件的3D模型，可以通过上述任何CAD程序导入。一些供应商还提供包含他们销售的所有模型的STEP文件的存储库或zip文件。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:100
+msgid "Vendor CAD Libraries"
+msgstr "供应商CAD库"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:102
+msgid "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
+msgstr "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:103
+msgid ""
+"`REV Robotics "
+"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
+msgstr ""
+"`REV Robotics "
+"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:105
+msgid ""
+"`10650 Hazmat Robotics CAD Library "
+"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
+"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
+"Pzynwsq/folder/6578524>`_"
+msgstr ""
+"`10650 Hazmat Robotics CAD 库 "
+"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
+"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
+"Pzynwsq/folder/6578524>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:106
+msgid ""
+"`FTC Onshape Parts Library (contains a majority of parts from most major "
+"vendors) <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_"
+msgstr ""
+"`FTC Onshape 零件库（包含大多数主要供应商的大部分零件） <https://ftconshape.com/introduction-to-"
+"the-ftc-parts-library/>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:109
+msgid "File sharing"
+msgstr "文件共享"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:111
+msgid ""
+"Teams often have multiple members working on CAD models, and thus require a "
+"file sharing system for ensuring that each person has up-to-date files. Some"
+" recommendations include GrabCAD, Box, Google Drive, or Dropbox."
+msgstr ""
+"团队通常有多名成员处理CAD模型，因此需要一个文件共享系统来确保每个人都拥有最新的文件。一些建议包括GrabCAD、Box、Google "
+"Drive或Dropbox。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:113
+msgid ""
+"It is also a good idea that one team member work on the model at a time to "
+"prevent confusion."
+msgstr "一个团队成员一次处理模型以防止混淆也是一个好主意。"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:116
+msgid "Useful Resources"
+msgstr "有用资源"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:118
+msgid ""
+"More CAD resources can be found in the :ref:`CAD section of the Useful "
+"Resources page <useful-resources-cad>`."
+msgstr ""
+"更多的CAD资源可以在这里找到 : ref:`CAD section of the Useful Resources page <useful-"
+"resources-cad>`."

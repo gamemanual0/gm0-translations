@@ -5,15 +5,16 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-17 16:16+0000\n"
+"POT-Creation-Date: 2023-12-19 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: wwsk2008sq, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -282,3 +283,65 @@ msgid ""
 "can also be used instead of rollers."
 msgstr ""
 "辊筒式输送机使用一系列辊筒或滚轮将物品从输送机的起点运送到终点。这些传送装置允许使用符合要求的轮子来传送不同或奇形怪状的物品，但必须注意不要让物品卡在辊筒之间。此外，滚轮往往比许多形式的连续输送机具有更好的抓地力。也可以使用手术管道代替滚轮。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:139
+msgid ""
+"7244 Roller Conveyor intake, where a series of omni wheels moves a game "
+"element verticall"
+msgstr "7244 辊子输送机吸入装置，其中一系列全方位轮子垂直移动游戏元素"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:139
+msgid ""
+"7244 OUT of the BOX Robotics, Ultimate Goal, Roller conveyor transfer "
+"intake, where a series of omni wheels moves the game element rings at a high"
+" vertical angle"
+msgstr ""
+"7244 OUT of the BOX Robotics，Ultimate "
+"Goal，辊筒输送机传送进料口，其中一系列全方位轮子以较高的垂直角度移动游戏元素环"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:142
+msgid "Continuous Conveyor"
+msgstr "连续输送机"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:144
+msgid ""
+"A continuous conveyor uses a continuous object, such as belts, surgical "
+"tubing, or rubber bands to move objects. These transfers generally have less"
+" compliance than roller intakes, but also continuously contact the object "
+"being moved. This can lead to fewer jamming problems. However, the common "
+"objects used, such as belts and rubber bands, don't have much grip, so they "
+"may slip when transferring objects."
+msgstr ""
+"连续输送机使用皮带、导管或橡皮筋等连续物体来移动物体。与辊子进料口相比，这些传送装置的顺从性通常较低，但也能持续接触被传送的物体。这就减少了堵塞问题。不过，皮带和橡皮筋等常用物体的抓地力不强，因此在传送物体时可能会打滑。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:149
+msgid "8644 Conveyor that uses o-ring belts to move rings internally"
+msgstr "8644 使用 O 形环传送带在内部移动环的传送带"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:149
+msgid ""
+"8644 Brainstormers, Ultimate Goal, Conveyors which moves rings using o-ring "
+"belts internally"
+msgstr "8644 Brainstormers，Ultimate Goal，利用内部 O 形环传送带移动环的传送带"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:154
+msgid "11115 Ball transfer using rubber bands"
+msgstr "11115 使用橡皮筋转移球"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:154
+msgid "11115 Gluten Free, Ball transfer using rubber bands"
+msgstr "11115 Gluten Free，使用橡皮筋转球"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:157
+msgid "Hybrid Conveyor"
+msgstr "混合输送机"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:159
+msgid ""
+"Hybrid conveyors use rollers with continuous objects such as belts and "
+"rubber bands between them. This solves the contact issues of roller "
+"conveyors while also having more grip then purely continuous conveyors. "
+"However, these conveyors have to be designed to allow both the roller and "
+"continuous materials to make contact with the item."
+msgstr ""
+"混合式输送机在辊筒与皮带和橡胶带等连续物体之间使用辊筒。这解决了辊筒输送机的接触问题，同时也比纯连续输送机有更大的抓地力。不过，这些输送机的设计必须使辊筒和连续材料都能与物品接触。"

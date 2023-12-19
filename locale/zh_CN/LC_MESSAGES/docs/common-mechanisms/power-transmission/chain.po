@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-15 04:16+0000\n"
+"POT-Creation-Date: 2023-12-19 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,6 +27,17 @@ msgid ""
 "When your shafts aren't right next to each other, roller chain and sprockets"
 " will allow you to transmit power securely between your shafts."
 msgstr "当你的轴不相邻时，滚子链和链轮将允许你在轴之间安全地传输动力。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:54
+msgid ""
+"**Chain should, at the very least, have 90 degrees of contact with the "
+"sprocket. The best practice is to have 180 degrees or more of contact**, as "
+"it is very unlikely to fall off with proper tensioning. Chain skipping, "
+"especially on drivetrains or arms, is very possible without proper chain "
+"wrap or tensioning."
+msgstr ""
+"**链条至少应与链轮接触 90 度。最好的做法是链条与链轮接触 180 "
+"度或更多**，因为如果张紧得当，链条脱落的可能性很小。如果没有适当的链条缠绕或张紧，链条很可能跳动，尤其是在传动系统或机械臂上。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:76
 msgid ""

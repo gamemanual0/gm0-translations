@@ -3,16 +3,151 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# DomnickJYH, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-09 18:23+0000\n"
+"POT-Creation-Date: 2023-12-19 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:4
+msgid "Tips and Tricks"
+msgstr "技巧和窍门"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:6
+msgid ""
+"Below is a collection of tips and tricks on basic building. Some of them may"
+" seem obvious, but almost every FTC\\ |reg| newbie made these mistakes at "
+"least once."
+msgstr "下面收集了一些关于基本建设的技巧和窍门。其中有些可能看似显而易见，但几乎每个 FTC\\ |reg| 新手都至少犯过一次这些错误。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:8
+msgid ""
+"**Color code your tools**. If you are using several different sizes of hex "
+"drivers (e.g. 2.5 mm and 3 mm used in goBILDA), color code them, using "
+"different color electric tape for different sizes."
+msgstr ""
+"**对工具进行颜色编码**。如果您使用几种不同尺寸的六角起子（例如 goBILDA 中使用的 2.5 毫米和 3 "
+"毫米），请对它们进行颜色编码，不同尺寸使用不同颜色的电工胶带。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:9
+msgid ""
+"**Avoid set screws**. :term:`Set screws <Set Screw>` easily come loose, "
+"causing the hub to slip. In addition, :term:`set screws <Set Screw>` damage "
+"the :term:`axle <Shaft>`, sometimes making it very hard to remove the hub "
+"later. For these reasons, whenever possible, use :term:`clamping hubs "
+"<Clamping Hub>` and collars instead of :term:`set screw <Set Screw>` ones. "
+"If you must use set screw hubs, use a non-permanent threadlocker such as "
+"`Loctite blue <https://www.loctiteproducts.com/en/products/specialty-"
+"products/specialty/loctite_threadlockerblue242.html>`_ to prevent them from "
+"loosening."
+msgstr ""
+"**避免使用固定螺钉**。:term: `固定螺钉 <Set Screw>` 容易松动，导致轮毂打滑。此外，:term: `固定螺钉 <Set "
+"Screw>` 会损坏:term: `车轴 <Shaft>`，有时会导致以后很难拆卸轮毂。因此，尽可能使用 :term: ` 夹紧轮毂 "
+"<Clamping Hub>` 和轴环，而不是 :term: ` 固定螺钉 <Set "
+"Screw>`。如果您必须使用固定螺钉轮毂，请使用非永久性螺纹锁固剂，如\" `Loctite "
+"blue<https://www.loctiteproducts.com/en/products/specialty-"
+"products/specialty/loctite_threadlockerblue242.html>`_\"，以防止其松动。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:10
+msgid ""
+"**Only use locknuts**. Never use regular nuts in your builds - they easily "
+"come loose under vibration. Kep nuts used in TETRIX are better, but they are"
+" still prone to loosening. For best results, always use :term:`nylon "
+"locknuts <Locknut>`."
+msgstr ""
+"**只使用锁紧螺母**。切勿在制造中使用普通螺母 - 它们在振动下很容易松动。TETRIX 中使用的 Kep "
+"螺母较好，但仍容易松动。为获得最佳效果，请始终使用 :term: `尼龙锁紧螺母 <Locknut>`。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:11
+msgid ""
+"**Do not use socket head screws on plastic**. Using socket head screws for "
+"attaching plastic parts (in particular, for attaching servos) damages the "
+"plastic. Use button head screws instead, or use socket head screws with "
+"washers."
+msgstr ""
+"**不要在塑料件上使用裸的内六角螺钉**。使用内六角螺钉固定塑料部件（尤其是固定舵机）会损坏塑料。请使用钮扣头螺钉，或使用带垫圈的内六角螺钉。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:12
+msgid ""
+"**Make sure screws are not hitting anything**. When you are attaching a "
+"part, make sure the screw you are using is not longer than the depth of the "
+"threaded hole - otherwise, the screw will hit the bottom of the hole and you"
+" will be unable to tighten it properly."
+msgstr "**确保螺丝不会撞到任何东西**。在安装部件时，确保使用的螺钉长度不超过螺纹孔的深度，否则螺钉会碰到孔底，无法正确拧紧。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:14
+msgid ""
+"This situation commonly happens when attaching parts to a :term:`t-slot "
+"extrusion <Extrusion>` (Misumi, REV, goBILDA's goRAIL) - if the screw is too"
+" long, it will hit the bottom of the slot, and no matter how hard you try, "
+"you won't get a tight connection. Another case when this situation arises is"
+" when using attachment blocks where two screw holes intersect - if you are "
+"not careful, you could have one screw hitting another."
+msgstr ""
+"这种情况通常发生在将部件连接到 :term: `T型挤压螺丝 <Extrusion>`（Misumi、REV、goBILDA 的 goRAIL）时--"
+"如果螺丝太长，就会碰到槽底，无论如何努力都无法实现紧密连接。出现这种情况的另一种情况是在使用两个螺丝孔相交的连接块时--"
+"如果不小心，可能会出现一个螺丝撞到另一个螺丝的情况。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:15
+msgid ""
+"**Do not connect two components which both have threaded holes**. To get "
+"tight connection, the screw should go through an **unthreaded** hole in one "
+"component into a **threaded** hole in another, or through two unthreaded "
+"holes into a nut."
+msgstr ""
+"**不要连接两个都有螺纹孔的部件**。要实现紧密连接，螺钉应穿过一个部件上的**无螺纹**孔进入另一个部件上的**有螺纹**孔，或穿过两个无螺纹孔进入一个螺母。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:16
+msgid ""
+"**Removing stripped screws**. A common problem is removing a screw in which "
+"the hex socket head is damaged or worn out and thus the regular hex driver "
+"doesn't provide enough holding power to loosen the screw. Here are some ways"
+" to deal with the problem."
+msgstr ""
+"**拆卸剥落的螺丝**。常见的问题是在拆卸螺丝时，六角螺丝刀头已损坏或磨损，因此普通的六角螺丝刀无法提供足够的夹紧力来拧松螺丝。以下是解决这一问题的一些方法。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:18
+msgid ""
+"Get a better hex driver. Hex drivers can also be worn out, especially ball "
+"head hex drivers. Get a new hex driver (not ball head), which is not yet "
+"worn out, and it might give you more traction with stubborn screws."
+msgstr ""
+"换一个更好的六角螺丝刀。六角起子也会磨损，尤其是球头六角起子。买一个新的六角起子（非球头），它还没有磨损，在拧顽固螺丝时可能会有更大的牵引力。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:19
+msgid ""
+"Put a rubber band between the tip of the hex driver and the socket. This "
+"increases the traction."
+msgstr "在六角起子的顶端和套筒之间套上橡皮筋。这样可以增加牵引力。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:21
+msgid "Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_"
+msgstr "使用 `螺丝拔出器<https://www.amazon.com/dp/B07GZ17QD9/>`_"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:22
+msgid "If nothing works, drill it out."
+msgstr "如果没有效果，就把它钻出来。"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:23
+msgid ""
+"If that doesn't work, remember that a screw is not a screw if it is liquid "
+"metal. This is obviously not a very good idea. :)"
+msgstr "如果还不行，请记住，如果是液态金属，螺丝就不是螺丝了。这显然不是个好主意。 :)"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:25
+msgid ""
+"Needless to say, once you removed the damaged screw, discard it immediately "
+"- do not put it back in the box with other screws."
+msgstr "无需多说的是，一旦取下损坏的螺丝，就应立即丢弃，不要和其他螺丝一起放回盒子里。"
