@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-17 04:16+0000\n"
+"POT-Creation-Date: 2023-12-20 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -203,6 +203,10 @@ msgstr ""
 msgid "Design"
 msgstr "设计"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:165
+msgid "**Open Odometry by 18219**"
+msgstr "**18219 的开放式里程计**"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:167
 msgid "https://openodometry.weebly.com"
 msgstr "https://openodometry.weebly.com"
@@ -242,6 +246,18 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:201
 msgid "**No longer recommended as it utilizes the E8T**"
 msgstr "**不再推荐使用E8T**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
+msgid ""
+"It is *highly* recommended that your dead wheel design includes some form of"
+" spring tensioning that pushes the wheel into the ground. This ensures that "
+"the wheel is always in contact with ground and has adequate traction. "
+"Sufficient force is required to ensure constant traction to prevent the "
+"wheels from slipping. Keep in mind that too much force may lift a light "
+"drive train off the ground and disrupt driving."
+msgstr ""
+"*强烈* "
+"建议您的惰轮设计包括某种形式的弹簧张紧，将车轮推入地面。这确保车轮始终与地面接触并具有足够的牵引力。需要足够的力来确保恒定的牵引力以防止车轮打滑。请记住，太大的力可能会将轻型驱动列车抬离地面并扰乱驾驶。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
 msgid "FTC 14320's spring tensioning"

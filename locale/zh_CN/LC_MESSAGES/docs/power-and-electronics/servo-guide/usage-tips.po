@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2023-12-20 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -36,8 +36,8 @@ msgid ""
 ":term:`servo <Servo>` away from its position risks damaging the internal "
 ":term:`gears <Gear>`."
 msgstr ""
-"请勿反向驱动 :term: `舵机 <Servo>`。强行将电动 :term: `舵机 <Servo>` 从其位置上旋转可能会损坏舵机内部的 "
-":term: `齿轮 <Gear>`。"
+"请勿反向驱动 :term:`舵机 <Servo>`。强行将电动 :term:`舵机 <Servo>` 从其位置上旋转可能会损坏舵机内部的 "
+":term:`齿轮 <Gear>`。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:9
 msgid ""
@@ -58,9 +58,9 @@ msgid ""
 " <Servo>` is not working, first check if they are plugged in correctly. Then"
 " check it again."
 msgstr ""
-":term: `舵机` 接线通常是黑-红-白。匹配颜色是检查舵机是否正确插入的简便方法。:term: `舵机`连接器不提供插错的保护：如果您将其旋转 "
-"180 度，它仍然可以插入 - 但:term: `舵机 <Servo>`将无法工作。(但不会损坏）。因此，如果您的 :term:`舵机 <Servo>`"
-" 不工作，请首先检查它们是否正确插入。然后再检查一次。"
+":term:`舵机` 接线通常是黑-红-白。匹配颜色是检查舵机是否正确插入的简便方法。:term:`舵机`连接器不提供插错的保护：如果您将其旋转 180"
+" 度，它仍然可以插入 - 但:term:`舵机 <Servo>`将无法工作。(但不会损坏）。因此，如果您的 :term:`舵机 <Servo>` "
+"不工作，请首先检查它们是否正确插入。然后再检查一次。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:17
 msgid ""
@@ -77,7 +77,7 @@ msgid ""
 "Do not use socket head screws to attach :term:`servos <Servo>` - when "
 "tightened, they will damage the plastic. Use button head screws or socket "
 "heads with a washer."
-msgstr "请勿使用内六角螺丝固定 :term: `舵机 <Servo>` - 拧紧后会损坏塑料。请使用带垫圈的圆头螺钉或内六角螺钉。"
+msgstr "请勿使用内六角螺丝固定 :term:`舵机 <Servo>` - 拧紧后会损坏塑料。请使用带垫圈的圆头螺钉或内六角螺钉。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:19
 msgid ""
@@ -89,8 +89,8 @@ msgid ""
 "inevitably happen)."
 msgstr ""
 ":term:`舵机 <Servo>` 在承受横向负载或 :term:`shaft <Shaft>` "
-"弯曲时很容易断裂。例如，如果不采取任何额外的预防措施，直接在 :term: `舵机 <Servo>` "
-"上安装机械臂或机械爪，很可能在机械臂伸长后第一次撞墙时就会折断 :term: `舵机 <Servo>`（这种情况不可避免地会发生）。"
+"弯曲时很容易断裂。例如，如果不采取任何额外的预防措施，直接在 :term:`舵机 <Servo>` "
+"上安装机械臂或机械爪，很可能在机械臂伸长后第一次撞墙时就会折断 :term:`舵机 <Servo>`（这种情况不可避免地会发生）。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:21
 msgid ""
@@ -132,7 +132,7 @@ msgstr "紧凑型舵机"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:33
 msgid "Alternative :term:`servo <Servo>` support block"
-msgstr "替代 :term: `舵机 <Servo>` 的支撑块"
+msgstr "替代 :term:`舵机 <Servo>` 的支撑块"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:35
 msgid ""

@@ -6,15 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 16:15+0000\n"
+"POT-Creation-Date: 2023-12-20 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +60,10 @@ msgid "Improved power and acceleration"
 msgstr "提高动力和加速度"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:14
+msgid "**Pushbot**"
+msgstr "**Pushbot**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:14
 msgid "**Mecanum, 6WD, etc.**"
 msgstr "**Mecanum、六轮驱动等**"
 
@@ -93,3 +98,18 @@ msgstr "能够同时收集多个元素"
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:22
 msgid "Much more efficient"
 msgstr "效率要高得多"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:24
+msgid "**Planetary gearboxes**"
+msgstr "**行星齿轮箱**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:48
+msgid ""
+"We do recommend teams who have purchased the Tetrix kit to build it for "
+"educational purposes only - that is, to get familiarized with the parts and "
+"basic building principles using a :term:`channel-based <Channel>` kit. "
+"However, we do not advise that teams use that pushbot at a competition due "
+"to its many flaws."
+msgstr ""
+"我们建议购买了 Tetrix 套件的参赛队仅出于教学目的制作该套件，即使用 :term:`channel-based <Channel>` "
+"套件熟悉零件和基本制作原理。但是，由于这种推杆传动机器人存在许多缺陷，我们不建议参赛队在比赛中使用。"

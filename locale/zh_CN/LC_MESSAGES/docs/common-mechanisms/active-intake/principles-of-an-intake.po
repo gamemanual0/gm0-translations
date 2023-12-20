@@ -5,15 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-09 04:15+0000\n"
+"POT-Creation-Date: 2023-12-20 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,9 +30,32 @@ msgstr "吸入拾取装置原则"
 msgid "Reliability"
 msgstr "可靠性"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:9
+msgid ""
+"An intake must be reliable, as picking up and scoring game elements is the "
+"primary method to gain points in all FTC\\ |reg| games."
+msgstr "吸入拾取装置必须可靠，因为在所有 FTC\\ |reg| 游戏中，拾取游戏元素和得分是获得分数的主要方法。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:11
+msgid ""
+"Intakes have many moving parts and are susceptible to breaking, especially "
+"at high RPM. Thus, the intake material must be durable to withstand long "
+"periods of operation."
+msgstr "吸入拾取装置有许多活动部件，很容易损坏，尤其是在高转速时。因此，进气道材料必须经久耐用，能够承受长时间运行。"
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
 msgid "Consistency"
 msgstr "一致性"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:22
+msgid ""
+"The intake **must** be able to pick up game elements consistently and "
+"quickly. For example, in Rover Ruckus each robot could only possess 2 "
+"minerals at a time. Therefore, the intake should only pick up two pieces at "
+"a time, not zero, one, or three."
+msgstr ""
+"吸入拾取装置 **必须** 能够持续、快速地拾取游戏元素。例如，在 Rover Ruckus 中，每个机器人一次只能拥有 2 "
+"块矿石。因此，吸入拾取装置一次只能拾取两块，而不是零块、一块或三块。"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
 msgid "Controllability"
