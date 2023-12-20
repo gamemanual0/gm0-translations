@@ -5,16 +5,15 @@
 # 
 # Translators:
 # Shawphy, 2023
-# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-18 16:17+0000\n"
+"POT-Creation-Date: 2023-12-20 04:13+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +42,7 @@ msgid ""
 "rotation (180\\ |deg| is common). The output has splines, which are the "
 "rigid teeth that are on top of the servo."
 msgstr ""
-"舵机是一种与伺服齿轮相连的小型直流电机，可进行非常精细的控制，并通过 3 线 PWM 连接器进行连接。伺服在 FTC\\ |reg| "
+"舵机是一种与舵机齿轮相连的小型直流电机，可进行非常精细的控制，并通过 3 线 PWM 连接器进行连接。舵机在 FTC\\ |reg| "
 "中用于低负载的高精度应用--例如，打开活板门让小球通过。通常，舵机的旋转范围有限（通常为 180°）。输出有花键，即舵机顶部的刚性齿。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:13
@@ -104,5 +103,5 @@ msgid ""
 " to frequently replace servos, choose ones with metal gears and use "
 ":term:`Servoblocks` or your kit's equivalent to prolong longevity."
 msgstr ""
-"舵机最常见的问题是耐用性。廉价舵机的内部伺服齿轮在受到冲击负荷时很容易剥落。舵机在处理横向负载或轴弯曲时的能力也很差。为避免频繁更换舵机，请选择带有金属齿轮的舵机，并使用"
+"舵机最常见的问题是耐用性。廉价舵机的内部舵机齿轮在受到冲击负荷时很容易剥落。舵机在处理横向负载或轴弯曲时的能力也很差。为避免频繁更换舵机，请选择带有金属齿轮的舵机，并使用"
 " :term:`Servoblocks` 或套件中的同类产品来延长舵机的使用寿命。"

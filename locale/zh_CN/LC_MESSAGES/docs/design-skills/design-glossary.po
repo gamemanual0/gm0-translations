@@ -5,18 +5,73 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 16:18+0000\n"
+"POT-Creation-Date: 2023-12-20 04:13+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:4
+msgid "Design Glossary"
+msgstr "设计术语表"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:7
+msgid "COTS"
+msgstr "COTS"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:9
+msgid ""
+"COTS (Commercial Off the Shelf) parts refer to parts that teams can purchase"
+" physically or through an online retailer."
+msgstr "COTS（商用现货）部件指的是团队可以通过实物或在线零售商购买的部件。"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:11
+msgid ""
+"FTC\\ |reg| teams are limited to one degree of freedom (with some "
+"exceptions) to COTS parts. Therefore, buying a drawer slide is an allowable "
+"part, as there is only one degree of freedom, but purchasing a multi-axis "
+"arm isn't."
+msgstr ""
+"FTC\\ |reg| 团队对 COTS "
+"零件的自由度仅限于一个自由度（有一些例外）。因此，购买抽屉滑轨是允许的部件，因为只有一个自由度，但购买多轴臂就不允许了。"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:13
+msgid ""
+"However, teams can buy individual parts and assemble them together into a "
+"mechanism that has more than one degree of freedom. This doesn't apply to "
+"drivetrain kits."
+msgstr "不过，参赛队可以购买单个零件，然后将它们组装成一个具有一个以上自由度的机构。这不适用于传动系统套件。"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:14
+msgid "Packaging"
+msgstr "包装"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:16
+msgid ""
+"Packaging refers to the relative size and location of components on the "
+"robot. Generally, you want to design and locate (or package) components in "
+"the most space-efficient way you can."
+msgstr "包装是指机器人上组件的相对尺寸和位置。一般来说，您希望以最节省空间的方式设计和定位（或包装）部件。"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:17
+msgid "STEP file"
+msgstr "STEP 文件"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:19
+msgid ""
+"A STEP file is a filetype used to store 3D data about a part. It is "
+"recognized by different CAD softwares including SolidWorks, Inventor, Creo, "
+"etc."
+msgstr ""
+"STEP 文件是一种用于存储零件 3D 数据的文件类型。不同的 CAD 软件（包括 SolidWorks、Inventor、Creo 等）都能识别它。"

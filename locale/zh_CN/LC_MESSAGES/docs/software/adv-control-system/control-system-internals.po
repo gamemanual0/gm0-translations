@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 04:16+0000\n"
+"POT-Creation-Date: 2023-12-20 04:13+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -144,7 +144,7 @@ msgstr "5V兼容，你可以使用电平转换器向传感器供电5v，但要�
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:49
 msgid "Six Servo Ports"
-msgstr "六个伺服端口"
+msgstr "六个舵机端口"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:51
 msgid ""
@@ -153,7 +153,7 @@ msgid ""
 "disabling PWM on one port will switch all of the ports off unless another "
 "servo is used."
 msgstr ""
-"伺服端口上的5V电源默认关闭，仅在使用伺服时启用。所有六个5V引脚一起打开和关闭，除非使用另一个伺服，否则禁用一个端口上的PWM将关闭所有端口。"
+"舵机端口上的5V电源默认关闭，仅在使用舵机时启用。所有六个5V引脚一起打开和关闭，除非使用另一个舵机，否则禁用一个端口上的PWM将关闭所有端口。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:52
 msgid "Two 5V Power Ports"

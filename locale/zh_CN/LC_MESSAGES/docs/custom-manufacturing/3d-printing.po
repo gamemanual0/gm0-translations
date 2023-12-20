@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
 # guluomagongchengshi, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-18 04:16+0000\n"
+"POT-Creation-Date: 2023-12-20 04:13+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: guluomagongchengshi, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +57,7 @@ msgid ""
 " bed adhesion, tolerances, designing for 3D printing, tuning, and hardware "
 "choices."
 msgstr ""
-"考虑查看 FTC `文档中3D打印的部份<https://ftc-"
+"考虑查看 FTC `文档中3D打印的部份 <https://ftc-"
 "docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>`_，这是FTC范围内FDM"
 " 3D打印的完整指南，提供了有关3D打印的许多基本问题的答案，这些问题涉及：床层附着力、公差、3D打印设计、调整和硬件选择。"
 
@@ -79,7 +79,7 @@ msgid ""
 "are the Nexus :term:`mecanum <Mecanum Wheel>` bore adapters that teams 3D "
 "print."
 msgstr ""
-"3D打印允许团队轻松适应套件和单个零件，因为并非所有套件都具有可适应的支架或支架。团队3D打印的Nexusmecanum<Mecanum "
+"3D打印允许团队轻松适应套件和单个零件，因为并非所有套件都具有可适应的支架或支架。团队3D打印的Nexusmecanum <Mecanum "
 "Wheel>孔适配器就是一个很好的例子。"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:20
@@ -208,6 +208,10 @@ msgid ""
 "PEI**, and is known to rip chunks out of the bed. It is a good idea to add "
 "some glue stick or hairspray before printing it."
 msgstr "PETG以粘合非常好而闻名于打印床，尤其是玻璃和PEI，并且以从床上撕下大块而闻名。在打印之前添加一些胶棒或发胶是个好主意。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
+msgid "PETG hotend temperatures range from 230\\ |deg|-260\\ |deg| C"
+msgstr "PETG 热端温度范围为 230\\ |deg|-260\\ |deg| C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
 msgid "Less Common Filaments"
@@ -393,7 +397,9 @@ msgid ""
 "require ludicrous temperatures (some to the point where a hardened steel "
 "nozzle begins to melt), and are extremely expensive."
 msgstr ""
-"还有一些其他材料可以具有非常高端的好处，并且在3D打印可以完成的事情上推信封，但如果您对自己的打印技能不是非常有信心，并且在FTC中基本上没有用处，则不应该打印。这些材料包括但不限于Delrin（聚甲醛均聚物缩醛）、PEI（聚醚亚胺，品牌名称ULTEM）、PEEK（聚醚醚酮）和PEKK(Polyetherketoneketone).这些材料极难打印，需要很高的温度（有些达到硬化钢喷嘴开始融化的程度），并且极其昂贵。"
+"还有一些材料可以带来非常高端的优势，并推动 3D 打印技术的发展，但如果您对自己的打印技术没有 *足够* 信心，就不应该打印这些材料，而且它们在 FTC"
+" "
+"中基本上没有用处。这些材料包括但不限于Delrin（聚甲醛均聚物缩醛）、PEI（聚醚酰亚胺，品牌名ULTEM）、PEEK（聚醚醚酮）和PEKK（聚醚酮酮）。这些材料极难打印，所需的温度高得离谱（有些甚至达到硬化钢喷嘴开始熔化的程度），而且价格极其昂贵。"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:130
 msgid "3D Printing Design Guide"

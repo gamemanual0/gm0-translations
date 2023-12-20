@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-18 04:16+0000\n"
+"POT-Creation-Date: 2023-12-20 04:13+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +51,7 @@ msgid ""
 " is the easiest way to get quick answers to questions. It also has a channel"
 " with direct access to vendors."
 msgstr ""
-"`FTC Discord<https://discord.com/invite/first-tech-"
+"`FTC Discord <https://discord.com/invite/first-tech-"
 "challenge>`_:highlight:`*` --- 非官方** FTC Discord 服务器是一个基于讨论的社区服务器。它是最活跃的 FTC"
 " 社区，这意味着它通常拥有最新的信息，也是快速获得问题答案的最简单方法。它还有一个可以直接访问供应商的频道。"
 
@@ -80,7 +80,7 @@ msgid ""
 " Q&A, where clarifying questions about game rules from teams are asked and "
 "answered."
 msgstr ""
-"FTC Q&amp;A<https://ftc-qa.firstinspires.org>`_:highlight:`*`---FTC "
+"FTC Q&amp;A <https://ftc-qa.firstinspires.org>`_:highlight:`*`---FTC "
 "游戏问答，在这里可以问答来自团队的有关游戏规则的澄清问题。"
 
 #: ../../gm0/source/docs/useful-resources.rst:27
@@ -89,7 +89,7 @@ msgid ""
 "library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the "
 "information for the current season, including the Game Manuals."
 msgstr ""
-"游戏和赛季资料<https://www.firstinspires.org/resource-library/ftc/game-and-season-"
+"游戏和赛季资料 <https://www.firstinspires.org/resource-library/ftc/game-and-season-"
 "info>`_:highlight:`*` --- 在这里可以找到当前赛季的资料，包括游戏手册。"
 
 #: ../../gm0/source/docs/useful-resources.rst:29
@@ -97,13 +97,13 @@ msgid ""
 "`FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- The official FTC "
 "blog; important updates are typically posted here."
 msgstr ""
-"FTC博客<https://firsttechchallenge.blogspot.com/>`_ ---FTC官方博客；重要更新通常在此发布。"
+"FTC博客 <https://firsttechchallenge.blogspot.com/>`_ ---FTC官方博客；重要更新通常在此发布。"
 
 #: ../../gm0/source/docs/useful-resources.rst:31
 msgid ""
 "`FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, "
 "covering the robot, competitions, and team management."
-msgstr "FTC教程<http://ftctutorials.com>`_ --- （非官方）FTC教程，内容包括机器人、比赛和团队管理。"
+msgstr "FTC教程 <http://ftctutorials.com>`_ --- （非官方）FTC教程，内容包括机器人、比赛和团队管理。"
 
 #: ../../gm0/source/docs/useful-resources.rst:33
 msgid ""
@@ -123,7 +123,7 @@ msgid ""
 "duo>`_ --- Covers REV's hardware and software. The control system "
 "documentation includes an introductory FTC programming tutorial."
 msgstr ""
-"REV Robotics FTC 文档<https://docs.revrobotics.com/docs/rev-duo>`_ --- "
+"REV Robotics FTC 文档 <https://docs.revrobotics.com/docs/rev-duo>`_ --- "
 "涵盖REV的硬件和软件。控制系统文档包括FTC编程入门教程。"
 
 #: ../../gm0/source/docs/useful-resources.rst:37
@@ -150,7 +150,8 @@ msgid ""
 "team. While some details are FRC specific (namely the 6 week timeline), much"
 " of it is applicable to running a FTC team."
 msgstr ""
-"经营一支FIRST团队<https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*`"
+"经营一支FIRST团队 "
+"<https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*`"
 " --- 这是著名团队 FRC 1114 Simbotics 的前首席导师（现任顾问）Karthik "
 "Kanagasbathy关于经营一支*FIRST*团队的指南。虽然有些细节是FRC特有的（即6周的时间安排），但其中大部分内容都适用于FTC团队的运作。"
 
@@ -160,7 +161,7 @@ msgid ""
 "library/ftc/team-management-resources>`_ --- *FIRST* FTC team management "
 "resources, covering budget, engineering notebook, etc."
 msgstr ""
-"团队管理资源<https://www.firstinspires.org/resource-library/ftc/team-management-"
+"团队管理资源 <https://www.firstinspires.org/resource-library/ftc/team-management-"
 "resources>`_ --- *FIRST*FTC团队管理资源，包括预算、工程笔记本等。"
 
 #: ../../gm0/source/docs/useful-resources.rst:47
@@ -177,10 +178,11 @@ msgid ""
 "itself "
 "<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
 msgstr ""
-"`Effective FIRST "
-"Strategies<https://www.youtube.com/watch?v=5fifL47TvzE>`_:highlight:`*` --- "
-"著名团队 FRC 1114、Simbotics 的前首席导师（现任顾问）Karthik "
-"Kanagasabapathy在冠军会议上发表的关于有效设计和竞赛策略的演讲。另请参阅\"幻灯片本身<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_。"
+"`Effective FIRST Strategies "
+"<https://www.youtube.com/watch?v=5fifL47TvzE>`_:highlight:`*` --- 著名团队 FRC "
+"1114、Simbotics 的前首席导师（现任顾问）Karthik "
+"Kanagasabapathy在冠军会议上发表的关于有效设计和竞赛策略的演讲。另请参阅\"幻灯片本身 "
+"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_。"
 
 #: ../../gm0/source/docs/useful-resources.rst:54
 msgid "CAD"
@@ -192,7 +194,7 @@ msgid ""
 "software/overview>`_ --- Autodesk's education account sign up. An education "
 "account gives access to both Fusion 360 and Inventor."
 msgstr ""
-"`Autodesk教育账户<https://www.autodesk.com/education/edu-software/overview>`_ "
+"`Autodesk教育账户 <https://www.autodesk.com/education/edu-software/overview>`_ "
 "--- `Autodesk教育账户注册。教育帐户可同时访问 Fusion 360 和Inventor。"
 
 #: ../../gm0/source/docs/useful-resources.rst:58
@@ -201,7 +203,7 @@ msgid ""
 "software/standalone-educator>`_ --- Creo's education license application "
 "form."
 msgstr ""
-"`Creo教育账户<https://www.ptc.com/en/products/education/free-"
+"`Creo教育账户 <https://www.ptc.com/en/products/education/free-"
 "software/standalone-educator>`_ --- Creo 的教育许可证申请表。"
 
 #: ../../gm0/source/docs/useful-resources.rst:60
@@ -209,7 +211,7 @@ msgid ""
 "`Onshape Education Account <https://www.onshape.com/en/education/>`_ --- "
 "Onshape's education account creation page."
 msgstr ""
-"Onshape教育账户<https://www.onshape.com/en/education/>`_ --- Onshape的教育账户创建页面。"
+"Onshape教育账户 <https://www.onshape.com/en/education/>`_ --- Onshape的教育账户创建页面。"
 
 #: ../../gm0/source/docs/useful-resources.rst:62
 msgid ""
@@ -218,9 +220,9 @@ msgid ""
 " link to the application form for free Solidworks licenses for robotics "
 "teams."
 msgstr ""
-"`SolidWorks "
-"Sponsorship<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
-" --- 为机器人团队提供免费 Solidworks 许可证申请表的链接。"
+"`SolidWorks Sponsorship "
+"<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_ --- "
+"为机器人团队提供免费 Solidworks 许可证申请表的链接。"
 
 #: ../../gm0/source/docs/useful-resources.rst:65
 msgid "Part Libraries"
@@ -234,8 +236,8 @@ msgid ""
 "Pzynwsq/folder/6578524>`_ --- A multi-vendor part library that works across "
 "CAD software due to its use of STEP files."
 msgstr ""
-"`10650 Hazmat Robotics "
-"公共CAD库<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
+"`10650 Hazmat Robotics 公共CAD库 "
+"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
 "lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
 "Pzynwsq/folder/6578524>`_ --- 一个多供应商零件库，由于使用STEP文件，因此可跨CAD软件使用。"
 
@@ -245,7 +247,7 @@ msgid ""
 "<https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_ --- A "
 "multi-vendor parts library specifically for Onshape."
 msgstr ""
-"`2901 Purple Gears Onshape 零件库<https://ftconshape.com/introduction-to-the-"
+"`2901 Purple Gears Onshape 零件库 <https://ftconshape.com/introduction-to-the-"
 "ftc-parts-library/>`_ --- 专为 Onshape 设计的多供应商零件库。"
 
 #: ../../gm0/source/docs/useful-resources.rst:71
@@ -254,8 +256,8 @@ msgid ""
 "<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
 " --- REV's official CAD library for its FTC parts."
 msgstr ""
-"REV Robotics "
-"官方CAD库<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
+"REV Robotics 官方CAD库 "
+"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
 " --- REV的FTC零件官方CAD库。"
 
 #: ../../gm0/source/docs/useful-resources.rst:73
@@ -263,7 +265,7 @@ msgid ""
 "`ServoCity Official CAD Library <https://www.servocity.com/step-files>`_ ---"
 " ServoCity's entire STEP file catalog. This includes Actobotics parts."
 msgstr ""
-"`ServoCity 官方CAD库<https://www.servocity.com/step-files>`_ --- ServoCity "
+"`ServoCity 官方CAD库 <https://www.servocity.com/step-files>`_ --- ServoCity "
 "的整个STEP文件目录。其中包括Actobotics部件。"
 
 #: ../../gm0/source/docs/useful-resources.rst:76
@@ -316,7 +318,7 @@ msgid ""
 "addon and material library designed to make CAD rendering simple and easy, "
 "while being fully customizable for advanced users."
 msgstr ""
-"`Blender4FTC<https://ryanhcode.gitbook.io/blender4ftc/>`_ --- "
+"`Blender4FTC <https://ryanhcode.gitbook.io/blender4ftc/>`_ --- "
 "一个Blender附加组件和材质库，旨在让CAD渲染变得简单轻松，同时还能为高级用户提供完全自定义功能。"
 
 #: ../../gm0/source/docs/useful-resources.rst:89
@@ -325,7 +327,7 @@ msgid ""
 "in-fusion-360/>`_ --- A guide to rendering FTC robots in Fusion 360, "
 "assuming little experience in Fusion 360."
 msgstr ""
-"FTC 在 Fusion 360 中的渲染<https://renders360.gitbook.io/ftc-rendering-in-"
+"FTC 在 Fusion 360 中的渲染 <https://renders360.gitbook.io/ftc-rendering-in-"
 "fusion-360/>`_ --- FTC机器人在 Fusion 360 中的渲染指南，前提是对 Fusion 360 没有什么经验。"
 
 #: ../../gm0/source/docs/useful-resources.rst:92
@@ -352,8 +354,8 @@ msgid ""
 " --- A playlist of videos comparing different implementations of various "
 "mechanisms, gears and chain, and various other FTC robot-related topics."
 msgstr ""
-"`8644 "
-"Brainstormers的技巧和窍门<https://www.youtube.com/playlist?list=PLoX10e-f5UgIWtNA3mlb_SSozS5w-eAlB>`_"
+"`8644 Brainstormers的技巧和窍门 "
+"<https://www.youtube.com/playlist?list=PLoX10e-f5UgIWtNA3mlb_SSozS5w-eAlB>`_"
 " --- 一个视频播放列表，其中比较了各种机制、齿轮和链条的不同实现方式，以及其他各种与FTC机器人相关的主题。"
 
 #: ../../gm0/source/docs/useful-resources.rst:98
@@ -362,7 +364,7 @@ msgid ""
 "wjQ/featured>`_ --- A channel containing many useful FTC videos, especially "
 "for rookies."
 msgstr ""
-"`9794 Wizards.exe<https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-"
+"`9794 Wizards.exe <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-"
 "wjQ/featured>`_ --- 一个包含许多有用的FTC视频的频道，尤其适合新手。"
 
 #: ../../gm0/source/docs/useful-resources.rst:100
@@ -372,7 +374,7 @@ msgid ""
 "questions asked about 3D printing concerning topics such as: bed adhesion, "
 "tolerances, designing for 3D printing, tuning, and hardware choices."
 msgstr ""
-"`COREFTC<https://www.coreftc.org/>`_ --- 在FTC范围内的 FDM 3D "
+"`COREFTC <https://www.coreftc.org/>`_ --- 在FTC范围内的 FDM 3D "
 "打印完整指南，为有关3D打印的许多基本问题提供了答案，涉及的主题包括：床层附着力、公差、3D打印设计、调整和硬件选择。"
 
 #: ../../gm0/source/docs/useful-resources.rst:102
@@ -382,7 +384,7 @@ msgid ""
 " approach to designing a robot including strategy, brainstorming, and "
 "prototyping."
 msgstr ""
-"设计具有竞争力的FTC机器人（付费）<https://www.amazon.com/dp/B09DN3999Y>`_ --- "
+"设计具有竞争力的FTC机器人（付费） <https://www.amazon.com/dp/B09DN3999Y>`_ --- "
 "本书介绍了设计机器人的整体方法，包括战略、头脑风暴和原型设计。"
 
 #: ../../gm0/source/docs/useful-resources.rst:104
@@ -402,7 +404,7 @@ msgid ""
 "library/ftc/robot-building-resources>`_ --- A collection of official *FIRST*"
 " design and build resources, including TETRIX/REV build guides."
 msgstr ""
-"FIRST Robot Building Resources<https://www.firstinspires.org/resource-"
+"FIRST Robot Building Resources <https://www.firstinspires.org/resource-"
 "library/ftc/robot-building-resources>`_ --- 官方*FIRST*设计和构建资源集，包括 TETRIX/REV "
 "构建指南。"
 
@@ -411,8 +413,8 @@ msgid ""
 "`goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- "
 "Documentation covering how to use goBILDA together with TETRIX."
 msgstr ""
-"`goBILDA 与 TETRIX<https://gobildatetrix.blogspot.com>`_ --- 说明如何将 goBILDA 与 "
-"TETRIX 结合使用的文档。"
+"`goBILDA 与 TETRIX <https://gobildatetrix.blogspot.com>`_ --- 说明如何将 goBILDA 与"
+" TETRIX 结合使用的文档。"
 
 #: ../../gm0/source/docs/useful-resources.rst:110
 msgid ""
@@ -421,8 +423,8 @@ msgid ""
 "manufacturing, design styles, power transmission, mechanism design, and "
 "more."
 msgstr ""
-"`NASA RAP 设计指南<https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_ "
-"--- 竞技机器人指南，涵盖制造、设计风格、动力传输、机构设计等主题。"
+"`NASA RAP 设计指南 <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_"
+" --- 竞技机器人指南，涵盖制造、设计风格、动力传输、机构设计等主题。"
 
 #: ../../gm0/source/docs/useful-resources.rst:112
 msgid ""
@@ -538,7 +540,7 @@ msgid ""
 "`ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design "
 "calculator, currently in alpha, which provides sharable links."
 msgstr ""
-"`ReCalc<https://reca.lc/>`_ --- 一个专注于协作的机械设计计算器，目前处于 alpha 阶段，提供可共享的链接。"
+"`ReCalc <https://reca.lc/>`_ --- 一个专注于协作的机械设计计算器，目前处于 alpha 阶段，提供可共享的链接。"
 
 #: ../../gm0/source/docs/useful-resources.rst:140
 msgid ""
@@ -547,7 +549,7 @@ msgid ""
 "providing some utilities like belt sizing, a trajectory calculator, and "
 "more."
 msgstr ""
-"`Thad's EveryCalc<http://everycalc.thadhughes.xyz/>`_ --- "
+"`Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- "
 "一个机械设计计算器，涵盖各种机械装置，同时还提供一些实用工具，如皮带尺寸、弹道计算器等。"
 
 #: ../../gm0/source/docs/useful-resources.rst:143
@@ -561,8 +563,8 @@ msgid ""
 " --- An  introduction to FTC programming, assuming no preexisting Java "
 "knowledge."
 msgstr ""
-"`Learn Java for "
-"FTC<https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`"
+"`Learn Java for FTC "
+"<https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`"
 " --- FTC编程入门，假定事先没有Java知识。"
 
 #: ../../gm0/source/docs/useful-resources.rst:147
@@ -573,10 +575,10 @@ msgid ""
 "Challenge/FtcRobotController/wiki/>`_ and `JavaDocs "
 "<https://javadoc.io/doc/org.firstinspires.ftc>`_."
 msgstr ""
-"FTC Robot Controller Repository<https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController>`_:highlight:`*` --- FTC SDK 的主页。还可以查看相关的 "
-"`wiki<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ 和 "
-"`JavaDocs<https://javadoc.io/doc/org.firstinspires.ftc>`_。"
+"FTC Robot Controller Repository <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`_:highlight:`*` --- FTC SDK 的主页。还可以查看相关的 `wiki"
+" <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ 和 "
+"`JavaDocs <https://javadoc.io/doc/org.firstinspires.ftc>`_。"
 
 #: ../../gm0/source/docs/useful-resources.rst:149
 msgid ""
@@ -605,7 +607,7 @@ msgid ""
 "`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- A guide to control theory "
 "created by FTC #19376 Thermal Equilibrium."
 msgstr ""
-"`CTRL ALT FTC<https://www.ctrlaltftc.com/>`_ --- 由 FTC #19376 Thermal "
+"`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- 由 FTC #19376 Thermal "
 "Equilibrium.创建的控制理论指导。"
 
 #: ../../gm0/source/docs/useful-resources.rst:155
@@ -661,7 +663,7 @@ msgid ""
 "telemetry live as well as tuning configuration variables in real-time while "
 "opmodes are running."
 msgstr ""
-"FTC Dashboard<https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC "
+"FTC Dashboard <https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC "
 "Dashboard 是为FTC设计的基于 websocket 的 React dashboard。它对调试非常有用，包括实时显示和绘制遥测数据以及在 "
 "opmodes 运行时实时调整配置变量等功能。"
 
@@ -671,7 +673,7 @@ msgid ""
 "library, notably providing a command-based programming paradigm and vision "
 "pipelines."
 msgstr ""
-"`FTCLib<https://github.com/FTCLib/FTCLib>`_ --- "
+"`FTCLib <https://github.com/FTCLib/FTCLib>`_ --- "
 "一个相当全面的FTC库，主要提供基于命令的编程范式和视觉管道。"
 
 #: ../../gm0/source/docs/useful-resources.rst:170
@@ -684,9 +686,10 @@ msgid ""
 " Runner <https://www.learnroadrunner.com/>`_, a guide to setting up Road "
 "Runner."
 msgstr ""
-"`Road Runner<https://github.com/acmerobotics/road-runner>`_ --- Road Runner "
+"`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner"
+" "
 "是一个运动规划库。它主要为自主机器人运动而设计，允许复杂的路径跟踪和生成，同时保持对速度和加速度的控制。这使得机器人具有更精确、更先进的路径跟踪能力。另请参阅"
-" `Learn Road Runner<https://www.learnroadrunner.com/>`_，这是一份设置 Road Runner "
+" `Learn Road Runner <https://www.learnroadrunner.com/>`_，这是一份设置 Road Runner "
 "的指南。"
 
 #: ../../gm0/source/docs/useful-resources.rst:173
@@ -728,7 +731,7 @@ msgid ""
 "team and event result database for FTC. However, it lacks information from "
 "before Skystone."
 msgstr ""
-"FTC Events<https://ftc-events.firstinspires.org/>`_ --- FTC "
+"FTC Events <https://ftc-events.firstinspires.org/>`_ --- FTC "
 "官方*FIRST*队伍和赛事结果数据库。但缺少 Skystone 之前的信息。"
 
 #: ../../gm0/source/docs/useful-resources.rst:184
