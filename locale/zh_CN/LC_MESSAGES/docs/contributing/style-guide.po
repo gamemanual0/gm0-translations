@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2023-12-21 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -21,3 +21,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:4
+msgid "Style Guide"
+msgstr "风格指南"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:20
+msgid "**Keep in mind that FTC design trends are temporary and transient**"
+msgstr "**请记住，FTC的设计趋势是暂时和短暂的**"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:46
+msgid ""
+"Abide by *FIRST*\\ |reg| Trademark guidelines, available `here "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
+msgstr ""
+"遵守 *FIRST*\\ |reg| 商标指南，可从这里获取 "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:49
+msgid "Always capitalize and italize the name *FIRST*"
+msgstr "始终大写并斜体标注 *FIRST* 名称"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:50
+msgid "Do NOT use a possessive on the *FIRST* name (e.g, *FIRST*'s)"
+msgstr "不要在 *FIRST* 名称上使用所有格（如 *FIRST*'s）"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:52
+msgid "It's gm0 not GM0 damn it; look at the logo."
+msgstr "请注意！这份文档的名称是是 gm0，不是 GM0！解释这点真是麻烦！请看看这个标志。"

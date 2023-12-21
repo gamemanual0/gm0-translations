@@ -4,19 +4,123 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# shaw phy, 2023
+# Shawphy, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 16:17+0000\n"
+"POT-Creation-Date: 2023-12-21 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2023\n"
+"Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:4
+msgid "SDK Sensors"
+msgstr "SDK 传感器"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:6
+msgid ""
+"The SDK offers several methods of controlling and communicating with "
+"sensors."
+msgstr "SDK 提供多种控制传感器和与传感器通信的方法。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:9
+msgid "General Explanation"
+msgstr "一般说明"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:12
+msgid "I2C Explanation"
+msgstr "I2C 说明"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:14
+msgid ""
+"I2C is a two wire serial communication bus that is designed to communicate "
+"with multiple devices. The two wires are the SCL, or clock line, and SDA, or"
+" data line. The REV hub connector also contains two more pins for 3.3v and "
+"GND. The protocol can address multiple devices using addresses, where the "
+"master device sends the address it is communicating with, then the data it "
+"wants to send. The device it is talking to then responds. This means any "
+"number of devices can be connected to one I2C port, so long as no two "
+"devices have the same I2C addresses."
+msgstr ""
+"I2C 是一种双线串行通信总线，设计用于与多个设备通信。这两根线分别是 SCL（时钟线）和 SDA（数据线）。REV "
+"集线器连接器上还有两个针脚，分别用于连接 3.3V 和 "
+"GND。该协议可使用地址寻址多个设备，主设备发送与之通信的地址，然后发送要发送的数据。与之通话的设备随后做出响应。这意味着一个 I2C "
+"端口可以连接任意数量的设备，只要没有两个设备的 I2C 地址相同即可。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:16
+msgid ""
+"I2C has multiple speed specifications, but the REV hub supports both 100khz "
+"and 400khz communication standards. The specification also requires the "
+"lines to be pulled up, so the REV hub has dual 2.49 k\\ |Omega| pull up "
+"resistors, negating the need for external pull up resistors."
+msgstr ""
+"I2C 有多种速度规格，但 REV 集线器同时支持 100khz 和 400khz 通信标准。该规格还要求线路上拉，因此 REV 集线器具有双 2.49"
+" k\\ |Omega| 上拉电阻，无需外部上拉电阻。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:18
+msgid ""
+"Devices generally have their I2C addresses hard coded, meaning they cannot "
+"be changed. Check the devices data sheet to make sure addresses will not "
+"conflict if connecting multiple I2C devices together."
+msgstr "设备的 I2C 地址一般都是硬编码，即无法更改。请查阅设备数据表，确保将多个 I2C 设备连接在一起时地址不会冲突。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:20
+msgid ""
+"I2C is often called slower than other forms of sensors. It is not inherently"
+" slower, but due to the way I2C communication works in the SDK it takes "
+"multiple commands to read one I2C sensor, which means one I2C read can take "
+"2-3x longer than one digital or analog read."
+msgstr ""
+"I2C 通常被称为比其他形式的传感器慢。它本身并不慢，但由于 SDK 中 I2C 通信的工作方式，读取一个 I2C 传感器需要多条命令，这意味着 I2C"
+" 读取一次的时间可能比数字或模拟读取一次的时间长 2-3 倍。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:23
+msgid "Analog Input"
+msgstr "模拟输入"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:25
+msgid ""
+"Reads the input voltage to the expansion hub. These ports are the ONLY "
+"sensor ports that are 5v tolerant."
+msgstr "读取扩展集线器的输入电压。这些端口是唯一能承受 5V 电压的传感器端口。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:28
+msgid "Digital I/O"
+msgstr "数字输入/输出"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:30
+msgid ""
+"Digital I/O can be configured to either act as an INPUT, reading whether the"
+" port is HIGH or LOW, or an OUTPUT, sending HIGH or LOW signals. The digital"
+" input is pulled HIGH to prevent floating."
+msgstr "数字输入/输出可配置为输入（读取端口的高电平或低电平）或输出（发送高电平或低电平信号）。数字输入为高电平，以防止浮动。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:32
+msgid ""
+"Floating occurs when you attempt to read from a digital input pin but the "
+"signal is disconnected or not pulled HIGH or to ground. As a result, the pin"
+" is considered \"floating\" and can have inconsistent results. To prevent "
+"this, a resistor bridges between the port and 3.3V, so that instead of "
+"floating the pin instead reads HIGH when nothing is connected."
+msgstr ""
+"当试图从数字输入引脚读取信号，但信号断开或没有拉高或接地时，就会出现浮动。因此，该引脚被认为是 \"浮动\" "
+"的，结果可能不一致。为了避免这种情况，需要在端口和 3.3V 之间桥接一个电阻，这样当没有任何连接时，引脚就不会浮动，而是读取高电平。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:34
+msgid ""
+"When wiring limit switches or other digital devices, DO NOT connect the "
+"limit switch to 3.3V and the digital port, like most datasheets recommend. "
+"Instead, the REV hub expects a connection between GROUND and the digital "
+"pin. **Connecting between 3.3V and the digital pin may cause instability or "
+"the hub to die.**"
+msgstr ""
+"在为限位开关或其他数字设备布线时，切勿像大多数数据手册建议的那样，将限位开关连接到 3.3V 和数字端口。相反，REV "
+"集线器希望在接地和数字引脚之间建立连接。**在 3.3V 和数字引脚之间连接可能会导致不稳定或集线器死机。"
