@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2023-12-25 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,6 +43,30 @@ msgid ""
 "periods of operation."
 msgstr "吸入拾取装置有许多活动部件，很容易损坏，尤其是在高转速时。因此，进气道材料必须经久耐用，能够承受长时间运行。"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:13
+msgid ""
+"Intakes often stick outside of the robot frame perimeter. In this case, "
+"durability becomes extremely important; the intake must be built so that "
+"they can withstand impacts/collisions with other robots or parts of the "
+"field."
+msgstr "吸入拾取装置通常位于机器人框架外围。在这种情况下，耐用性就变得极为重要；吸入拾取装置的构造必须能够承受与其他机器人或场地部分的撞击/碰撞。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:15
+msgid ""
+"There are two ways to accomplish this - either by building the intake very "
+"robustly (lots of support so it doesn't break), or making the intake "
+"flexible (for example out of lexan or spring loading it) so that even though"
+" it may bend due to impacts, it will always spring back into place."
+msgstr ""
+"要做到这一点，有两种方法：一种是把吸入拾取装置做得非常坚固（有很多支撑，这样就不会断裂），另一种是把吸入拾取装置做得有弹性（例如用 Lexan "
+"或弹簧加载），这样即使吸入拾取装置可能会因撞击而弯曲，它也总能弹回原位。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:17
+msgid ""
+"Another way to prevent intake breaking is to make a fully retractable intake"
+" that won't protrude outside the 18\" cube, though this is seldom needed."
+msgstr "防止吸入拾取装置破损的另一种方法是制作一个完全可伸缩的吸入拾取装置，使其不会伸出 18 英寸立方体之外，不过这种方法很少用到。"
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
 msgid "Consistency"
 msgstr "一致性"
@@ -57,10 +81,91 @@ msgstr ""
 "吸入拾取装置 **必须** 能够持续、快速地拾取游戏元素。例如，在 Rover Ruckus 中，每个机器人一次只能拥有 2 "
 "块矿石。因此，吸入拾取装置一次只能拾取两块，而不是零块、一块或三块。"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:24
+msgid ""
+"This is a common mistake that many inexperienced teams fail to take into "
+"account."
+msgstr "这是一个常见的错误，许多缺乏经验的团队都没有考虑到这一点。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:26
+msgid ""
+"Another component is the varying angles that the game objects can be located"
+" in. This was especially apparent in the Relic Recovery season, where the "
+"\"glyphs\" (foam cubes) could be oriented in many directions."
+msgstr "另一个要素是游戏对象可以从不同角度进行定位。这一点在 \"文物寻回 \"赛季中尤为明显，\"字形\"（泡沫方块）可以朝向多个方向。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:28
+msgid ""
+"Even though it was relatively easy to make a compliant wheel intake that "
+"could effectively intake glyphs in one direction, it was hard to make an "
+"intake that could deal with angled glyphs. Being able to intake glyphs in "
+"all orientations was especially important for multi-glyph autonomous modes."
+msgstr ""
+"尽管制作一个能有效摄取单向字形的顺滑轮吸入拾取装置相对容易，但要制作一个能处理倾斜字形的吸入拾取装置却很难。对于多字形自主模式来说，能够吸入所有方向的字形尤为重要。"
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
 msgid "Controllability"
 msgstr "可控性"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:33
+msgid ""
+"The intake must be able to consistently control the game elements. For "
+"example, if the intake is too fast and the collection box is not well "
+"designed, then game pieces might fly out. If the intake is too slow, it may "
+"jam itself when contacting the game elements."
+msgstr ""
+"吸入拾取装置必须能够始终如一地控制游戏元素。例如，如果吸入拾取装置的速度太快，而收集箱又设计得不好，那么游戏碎片就可能飞出来。如果吸入拾取装置速度太慢，在接触游戏元素时可能会卡住。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:34
+msgid ""
+"It is possible for pieces to get jammed at an unreachable angle, especially "
+"when using wheeled intakes. If this occurs, ensure that the driver can jar "
+"the stuck element loose to avoid having a disabled robot."
+msgstr "元件有可能卡在无法触及的角度，特别是在使用轮式吸入拾取装置时。如果出现这种情况，应确保操纵手能将卡住的元件撬开，以免机器人瘫痪。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:35
+msgid ""
+"Optimally, the game elements should follow a certain path each time if "
+"funneling is done correctly."
+msgstr "最理想的情况是，如果漏斗处理得当，游戏元素每次都应遵循一定的路径。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:36
+msgid ""
+"It is best practice that the driver can see the game elements which are "
+"being controlled. This can be done through using clear plating such as "
+"Lexan."
+msgstr "最好的做法是让操纵手能够看到所控制的游戏元素。这可以通过使用 Lexan 等透明镀层来实现。"
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
 msgid "Efficiency"
 msgstr "效率"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:41
+msgid ""
+"The key to any successful robot is cycle time. Reducing cycle time by having"
+" an efficient intake will lead to major improvements in score. A good intake"
+" should take no more than a few seconds to successfully collect the needed "
+"elements."
+msgstr "周期时间是机器人成功的关键。通过高效的取件来缩短周期时间，将大大提高得分。一个好的吸入拾取装置只需几秒钟就能成功收集所需的元素。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:43
+msgid ""
+"For example, in Relic Recovery, the best intakes often had a <3 second "
+"collection time for two game elements, and in Rover Ruckus a 1 second "
+"collection time was desired at the highest level."
+msgstr ""
+"例如，在Relic Recover中，最好的吸入拾取装置往往需要小于3秒的时间才能收集到两个游戏元素，而在Rover "
+"Ruckus中，最高级别的吸入拾取装置需要 1 秒的收集时间。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:44
+msgid ""
+"A key rule to remember in FTC is the shortest distance rule: how can you get"
+" scoring elements from A to B in the shortest distance?"
+msgstr "在 FTC 中，需要记住的一个关键规则是最短距离规则：如何在最短的距离内将得分元素从 A 到 B？"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:46
+msgid ""
+"The answer is usually one or two straight lines. The closer the scoring "
+"elements follow this path, the faster they will go from collection to "
+"deposit. Don't make overly long routes unless needed."
+msgstr "答案通常是一条或两条直线。计分元素越靠近这条路径，它们从收集到存入的速度就越快。除非需要，否则不要设置过长的路线。"

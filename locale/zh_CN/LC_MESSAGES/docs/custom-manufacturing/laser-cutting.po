@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2023-12-25 04:16+0000\n"
 "PO-Revision-Date: 2023-06-18 04:15+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,6 +26,257 @@ msgstr ""
 msgid "Laser Cutting"
 msgstr "激光切割"
 
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:6
+msgid ""
+"Laser cutting can be a useful tool that allows FTC\\ |reg| teams to quickly "
+"produce complex custom parts. This guide will cover the uses of laser "
+"cutting in FTC, common types of laser cutters, and how to optimize your "
+"design for laser cutting."
+msgstr ""
+"激光切割可以成为一种有用的工具，使FTC团队能够快速生产复杂的定制零件。本指南将涵盖激光切割在FTC中的用途、激光切割机的常见类型以及如何优化您的激光切割设计。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:8
+msgid ""
+"If your team does not have access to a laser cutter, consider checking with "
+"sponsors or local makerspaces, or using a service like `Fabworks "
+"<https://www.fabworks.com/>`_ or `SendCutSend <https://sendcutsend.com/>`_. "
+"These may have access to laser cutters that can cut more exotic materials. "
+"For example, Fabworks and SendCutSend both cut metals such as aluminum and "
+"steel, and SendCutSend specifically offers a wide variety of woods, "
+"plastics, metals, and composites. These services may also offer post-"
+"processing such as bending, tapping, and powder coating."
+msgstr ""
+"如果你的团队无法使用激光切割机，请考虑与赞助商或当地的创客空间核实，或者使用`Fabworks "
+"<https://www.fabworks.com/>`_或`SendCutSend "
+"<https://sendcutsend.com/>`_等服务。这些可能可以使用激光切割机切割更奇特的材料。例如，Fabworks和 "
+"SendCutSend都能切割铝和钢等金属，SendCutSend "
+"专门提供各种木材、塑料、金属和复合材料。这些服务还可以提供弯曲、攻丝和粉末涂层等后处理。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:11
+msgid "Common Types of Laser Cutters"
+msgstr "激光切割机的常见类型"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:13
+msgid ""
+"In general, there are three types of laser cutters FTC teams may have access"
+" to: **diode lasers**, **CO2 lasers**, and **fiber lasers**."
+msgstr "一般来说，FTC 团队可以使用三种类型的激光切割机：**二极管激光器**、二氧化碳激光器**和光纤激光器**。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:16
+msgid "Diode"
+msgstr "二极管"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:18
+msgid ""
+"These tend to be the smallest, cheapest, and lightest duty. They move around"
+" a small (<20 watts) laser diode on an exposed gantry. Usually they can only"
+" cut paper, cardboard or thin wood. In FTC, these can be useful for quick "
+"cardboard prototypes and for engraving decorative items such as team numbers"
+" and sponsor logos."
+msgstr ""
+"这些往往是最小、最便宜、最轻的任务。它们在暴露的龙门架上绕着一个小（<20瓦特）激光二极管。通常它们只能切割纸、纸板或薄木头。FTC，这些对于快速纸板原型和雕刻装饰性物品如团队编号和赞助商标志很有用。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:21
+msgid "CO2"
+msgstr "二氧化碳"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:23
+msgid ""
+"These are typically enclosed machines, using a moving mirror to aim the "
+"light from a 30+ watt laser tube. These can cut wood and plastics, but can "
+"only mark metal. They can be very useful in FTC for custom parts."
+msgstr ""
+"这些通常是封闭的机器，使用移动的镜子瞄准30多瓦激光管的光。这些可以切割木材和塑料，但只能标记金属。它们在定制零件的FTC比赛中中非常有用。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:26
+msgid "Fiber"
+msgstr "纤维"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:28
+msgid ""
+"These combine beams from multiple laser diodes into a fiber optic cable and "
+"can cut metal. Desktop versions usually have a very limited working area, "
+"often just a couple inches. These are very expensive and few FTC teams have "
+"access to them."
+msgstr ""
+"这些将来自多个激光二极管的光束组合成光缆，可以切割金属。台式机版本的工作区域通常非常有限，通常只有几英寸。这些非常昂贵，很少有FTC团队能够使用它们。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:30
+msgid ""
+"These are generalizations, and are not always true. For example, some diode "
+"cutters can cut thin metals. For more information, always research your "
+"specific laser cutter."
+msgstr "这些都是概括，并不总是正确的。例如，一些二极管切割机可以切割薄金属。要了解更多信息，请始终研究您的特定激光切割机。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:33
+msgid "What Can You Cut?"
+msgstr "你能切什么？"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:35
+msgid ""
+"As mentioned above, CO2 lasers---like those commonly available to FTC teams"
+"---can cut wood and some plastics. Some of the most useful materials you can"
+" cut with a CO2 laser in the 40 watt range are:"
+msgstr ""
+"如上所述，二氧化碳激光器——就像FTC团队通常使用的那些——可以切割木材和一些塑料。用40瓦范围内的二氧化碳激光器切割的一些最有用的材料是："
+
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:38
 msgid "Wood"
 msgstr "木材"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:40
+msgid ""
+"Most thin wood can be easily lasercut and is great for prototypes as well as"
+" light-duty parts. For more info see :ref:`the material guide <materials-"
+"guide-plywood-and-mdf>`. Please note that some woods - such as MDF - contain"
+" glues that release fumes when cut. Oily or resinous woods may also have a "
+"heightened risk of catching on fire."
+msgstr ""
+"大多数薄木板都可以很容易地进行激光切割，非常适合制作原型和轻型零件。更多信息请参阅 :ref:`材料指南 <materials-guide-"
+"plywood-and-mdf>`。请注意，某些木材（如中密度纤维板）含有胶水，切割时会释放烟雾。油性或树脂木材可能会增加着火的风险。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:43
+msgid "Acrylic"
+msgstr "丙烯酸"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:45
+msgid ""
+"Acrylic is a very commonly used material for laser cutting. Due to its "
+"tendency to fracture under load, it mainly finds use on FTC bots as "
+"decorative plates or as guides to funnel game elements. For more information"
+" on using acrylic in FTC, see :ref:`the material guide <materials-guide-"
+"acrylic>`."
+msgstr ""
+"亚克力是一种非常常用的激光切割材料。由于它在负载下容易断裂，因此在 FTC 机器人上主要用作装饰板或漏斗游戏元素的导轨。有关在 FTC "
+"中使用亚克力的更多信息，请参阅 :ref:`the material guide <materials-guide-acrylic>`。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:48
+msgid "Delrin"
+msgstr "Delrin"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:50
+msgid ""
+"Delrin, also known as acetal, can be safely cut on most CO2 lasers with "
+"proper ventilation. Laser cut Delrin can be used to make everything from "
+"motor mounts to linear slide inserts to whole drivetrain plates. More "
+"information on delrin can be found in :ref:`the material guide <materials-"
+"guide-delrin>`."
+msgstr ""
+"Delrin 又称缩醛，在适当通风的情况下，可以在大多数 CO2 激光器上安全切割。激光切割的 Delrin "
+"可用于制造从电机支架、线性滑块插入件到整个传动系统板的所有部件。有关 Delrin 的更多信息，请参阅 :ref:`the material guide"
+" <materials-guide-delrin>`。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:53
+msgid "What Can't You Cut?"
+msgstr "你不能切割什么？"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:55
+msgid ""
+"There are some materials, mostly plastics, you should **NEVER** try cutting "
+"on a desktop laser."
+msgstr "有些材料，主要是塑料，你永远不要尝试在桌面激光上切割。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:58
+msgid "PVC"
+msgstr "聚氯乙烯"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:60
+msgid ""
+"This emits toxic fumes which can damage your laser cutter and your lungs."
+msgstr "这会释放有毒气体，损害你的激光切割机和你的肺部。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:63
+msgid "Polycarbonate"
+msgstr "聚碳酸酯"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:65
+msgid ""
+"If you try to cut polycarbonate it will discolor and burn instead of "
+"cutting, releasing toxic fumes and potentially starting a fire."
+msgstr "如果你试图切割聚碳酸酯，它会变色并燃烧而不是切割，释放有毒气体并可能引发火灾。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:68
+msgid "ABS and HDPE"
+msgstr "ABS和HDPE"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:70
+msgid "These will both melt instead of cutting cleanly."
+msgstr "这些都会融化而不是切割干净。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:73
+msgid "Any unknown plastic"
+msgstr "任何不明塑料"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:75
+msgid ""
+"If you don't know what a plastic is, don't take the risk of cutting it. It "
+"could potentially burn or release toxic gasses. Be careful, as some "
+"different plastics, such as acrylic and polycarbonate, can resemble each "
+"other."
+msgstr "如果你不知道塑料是什么，不要冒险切割它。它可能会燃烧或释放有毒气体。小心，因为一些不同的塑料，如丙烯酸和聚碳酸酯，可能彼此相似。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:77
+msgid ""
+"This is not an exhaustive list and you should always research materials to "
+"ensure they will be safe before cutting them."
+msgstr "这不是一个详尽的清单，你应该总是研究材料，以确保它们在切割之前是安全的。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:80
+msgid "Design Guide"
+msgstr "设计指南"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:82
+msgid ""
+"When using a sponsor, machine shop, or service like Fabworks or SendCutSend,"
+" parts may be adjusted by the vendor for you. Check with the service you are"
+" using before you make these adjustments!"
+msgstr ""
+"使用赞助商、机械车间或Fabworks或SendCutsend等服务时，供应商可能会为您调整零件。在进行这些调整之前，请咨询您正在使用的服务！"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:84
+msgid ""
+"There are a few quirks of laser cut parts that you should keep in mind when "
+"designing them"
+msgstr "有几个少见的激光切割零件您应该牢记当设计他们"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:87
+msgid "Kerf"
+msgstr "锯口"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:89
+msgid ""
+"Most laser cutting software does not account for the width of the laser beam"
+" when cutting. This means if you require precise outer dimensions or hole "
+"diameters, you need to manually offset your paths in CAD."
+msgstr "大多数激光切割软件在切割时不会考虑激光束的宽度。这意味着如果您需要精确的外形尺寸或孔直径，您需要在CAD中手动偏移路径。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:92
+msgid "Taper"
+msgstr "锥度"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:94
+msgid ""
+"As the lens in a laser cutter focuses light, it naturally creates a cone "
+"shaped beam. This leads to a beveled edge on parts. While this is usually "
+"not a problem for plates, it means pressfit non-flanged bearings may work "
+"their way out over time as they are squeezed harder at one side than "
+"another. One way to get around this is to lase holes undersized and then "
+"drill or ream them out to their final dimension to achieve vertical walls."
+msgstr ""
+"当激光切割机中的透镜聚焦光线时，它自然会产生锥形光束。这导致零件上有斜边。虽然这通常对板来说不是问题，但这意味着随着时间的推移，压配合非法兰轴承可能会出现问题，因为它们的一侧比另一侧挤压得更厉害。解决这个问题的一种方法是激光孔尺寸较小，然后钻或扩孔到最终尺寸，以实现垂直壁。"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:99
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:99
+msgid "Side view of a laser-cut acrylic part, showing the taper"
+msgstr "激光切割丙烯酸部件的侧视图，显示锥度"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:102
+msgid "Other Uses of Laser Cutting"
+msgstr "激光切割的其他用途"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:104
+msgid ""
+"A laser cutter can be used to precisely mark the positions of holes in a "
+"metal sheet, which can then be drilled out with a drill press to make metal "
+"plates."
+msgstr "激光切割机可以用来精确标记金属工作表中孔的位置，然后用钻床钻出孔来制作金属板。"

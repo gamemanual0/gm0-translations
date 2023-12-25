@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2023-12-25 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +22,126 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:4
+msgid "Roller Chain"
+msgstr "滚轮链"
+
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:6
 msgid ""
 "When your shafts aren't right next to each other, roller chain and sprockets"
 " will allow you to transmit power securely between your shafts."
-msgstr "当你的轴不相邻时，滚子链和链轮将允许你在轴之间安全地传输动力。"
+msgstr "当你的轴不相邻时，滚轮链和链轮能使你在轴之间安全地传输动力。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:8
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:11
+msgid "Chain"
+msgstr "链条"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:13
+msgid ""
+"Roller chain is made up of a series of links joined by pins. Each link can "
+"rotate around its pins, creating a dynamic loop that can conform to any "
+"shape. The pins in the chain engage the gaps between teeth on each sprocket."
+msgstr "滚轮链由一系列由销连接的链节组成，每个链节都可以围绕其销旋转，创造出一个可以符合任何形状的动态回路，链中的销接合每个链轮上的齿间间隙。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:15
+msgid ""
+"Chain number refers to the type and size of chain that is compatible with "
+"the sprocket. #25 chain and 8mm chain are both commonly used in FTC\\ |reg|."
+msgstr "链号是指与链轮相容的链条类型和尺寸。#25链和8mm链都是FTC比赛中常用的型号。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:17
+msgid ""
+"If you've ridden a bike, chances are that you've already seen roller chain -"
+" the chain on your FTC robot is similar, but it's probably a different "
+":term:`pitch <Pitch>` (different size). Chains most commonly used in FTC are"
+" #25 (1/4 inch pitch) or 8mm pitch."
+msgstr ""
+"如果你骑过自行车，你很可能已经见过滚轮链——你FTC机器人上的链条是相似的，但可能是不同的间距 "
+"<Pitch>（不同的尺寸）。FTC中最常用的链条是25号（1/4英寸间距）或8毫米间距。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:19
+msgid ""
+"When using chain, often there is a master link. This is a special type of "
+"link that has a removable end capsule in order to shorten the chain. "
+"However, as it is removable, it is not a very reliable chain link and can "
+"loosen and fall off under prolonged usage. There have been teams who have "
+"had master chain links fail during competition, costing them a match in the "
+"elimination rounds."
+msgstr ""
+"使用链条时，通常会有一个主链节。这是一种特殊类型的链节，有一个可拆卸的末端胶囊，以缩短链条。但是，由于它是可拆卸的，所以它不是一个非常可靠的链节，在长时间使用下会松动和脱落。有些团队在比赛中出现了主链节失败，他们在淘汰赛中损失输掉了一场比赛。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:21
+msgid ""
+"A chain breaker eliminates the need for master links because it can break "
+"and join chain at any point."
+msgstr "断链器消除了对主链接的需求，因为它可以在任何时候断开和连接链。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:23
+msgid ""
+"It is highly recommended that teams purchase a chain breaker (we recommend "
+"the DarkSoul chain breaker for #25 chain, and the goBILDA Chain Breaker for "
+"8mm pitch chain) instead of using master links, which are prone to failure."
+msgstr "强烈建议团队购买断链器（我们推荐#25链使用DarkSoul断链器，8mm间距链使用goBILDA断链器），而不是使用容易出现故障的主链。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:28
+msgid "A disassembled master link"
+msgstr "一节被拆卸下来的主链节"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:28
+msgid "The removable master link is shown on the right."
+msgstr "右图为可拆卸的主链节。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:31
+msgid "Center-to-Center calculations"
+msgstr "中心到中心的计算"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:33
+msgid ""
+"The equation to calculate :term:`center-to-center <C2C>` for chain is quite "
+"complicated. Many `online calculators <https://reca.lc/chains>`_ can "
+"calculate C-C distances without going through the tedious calculations. "
+"However, the complete formula is below."
+msgstr ""
+"计算 :term:`center-to-center <C2C>`链的方程相当复杂。许多 \"在线计算器 "
+"<https://reca.lc/chains>`_\"可以计算 C-C 间距，而无需进行繁琐的计算。不过，完整的公式如下。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:35
+msgid ""
+"C=\\frac{P}{8}*(2L-(N+n)+\\sqrt{(2L-(N+n))^2-\\frac{8}{\\pi^2}*(N-n)^2})\n"
+"\n"
+"L=\\frac{2C}{P}+\\frac{N+n}{2}+\\frac{P(\\frac{N-n}{2\\pi})^2}{C}"
+msgstr ""
+"C=\\frac{P}{8}*(2L-(N+n)+\\sqrt{(2L-(N+n))^2-\\frac{8}{\\pi^2}*(N-n)^2})\n"
+"\n"
+"L=\\frac{2C}{P}+\\frac{N+n}{2}+\\frac{P(\\frac{N-n}{2\\pi})^2}{C}"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:41
+msgid ":math:`C` = center-to-center distance, inches"
+msgstr ":math:`C` = 中心到中心的距离，英寸"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:43
+msgid ":math:`L` = chain length in pitches"
+msgstr ":math:`L` = 链长，以节距为单位"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:45
+msgid ":math:`P` = pitch of chain"
+msgstr ":math:`P` = 链条间距"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:47
+msgid ":math:`N` = number of teeth in large sprocket"
+msgstr ":math:`N` = 大链轮的齿数"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:49
+msgid ":math:`n` = number of teeth in small sprocket"
+msgstr ":math:`n` = 小链轮的齿数"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:52
+msgid "Chain Wrap"
+msgstr "链条的缠绕"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:54
 msgid ""
@@ -38,6 +153,63 @@ msgid ""
 msgstr ""
 "**链条至少应与链轮接触 90 度。最好的做法是链条与链轮接触 180 "
 "度或更多**，因为如果张紧得当，链条脱落的可能性很小。如果没有适当的链条缠绕或张紧，链条很可能跳动，尤其是在传动系统或机械臂上。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:56
+msgid ""
+"When tensioning chain, be sure to not undertension or overtension chain. "
+"Undertensioning chain can result in the chain falling off the sprocket or "
+"chain skipping, where the chain can skip along the sprocket. Overtensioning "
+"the chain often results in the motor burning out, or less seriously, a loss "
+"of efficiency. Push along the chain run, and if the chain moves slightly "
+"without significant resistance, chances are you've done it correctly. If "
+"it's too tight, then the chain will barely move under a gentle press."
+msgstr ""
+"张紧链条时，一定要注意不要张紧不足或张紧过度。链条张力不足会导致链条从链轮上脱落或跳链，即链条沿着链轮跳动。链条张力过大通常会导致电机烧毁，严重的还会降低效率。沿链条运行方向推动，如果链条在没有明显阻力的情况下轻微移动，则很可能是操作正确。如果太紧，那么轻轻一按，链条几乎不会移动。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:59
+msgid "Best practices for wrap"
+msgstr "最佳的链条缠绕方法"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:64
+msgid "A metal chain for a drivetrain by 724, Rednek Robotics Wun"
+msgstr "724，Rednek Robotics Wun 队制作的用于传动系统的金属链条"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:64
+msgid "724 Rednek Robotics Wun, Relic Recovery"
+msgstr "724 Rednek Robotics Wun, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:69
+msgid "A metal chain for a drivetrain by 8103, Null Robotics"
+msgstr "用于传动系统的金属链条，由 8103，Null Robotics 队伍制作"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:69
+msgid "8103 Null Robotics, Rover Ruckus"
+msgstr "8103 Null Robotics, Rover Ruckus队伍"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:72
+msgid "Advantages"
+msgstr "优点"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:74
+msgid ""
+"**Chain can take a beating**. No matter what your application is, metal "
+"chain is usually up for the challenge. #25 chain can hold up to 930lbs "
+"before breaking, and there's nothing you'll do in FTC that will exert that "
+"force. (If your chain does break, it's most likely due to a faulty Master "
+"Link or sprockets that are not correctly aligned.)"
+msgstr ""
+"**链条可以经受考验。** 无论你要用他做什么，金属链条通常都能经受住挑战。25 号链条在断裂前可承受 930 磅的重量，而在 FTC "
+"中，你所做的任何事情都不会产生这样的力。(如果你的链条确实断裂，很可能是由于主链环故障或链轮未正确对齐造成的）。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:75
+msgid ""
+"**Chain can be however long or short as you wish**. If your ratio changes or"
+" your shafts move, it's easy to adapt your chain run - just break the chain "
+"and put it back together at its new length. You can often do this without "
+"even removing the chain from your robot."
+msgstr ""
+"**链条可长可短。** "
+"如果传动比发生变化或轴发生移动，调整链条运行也很容易，只需将链条折断，然后按新长度重新组装即可。通常情况下，你甚至无需从机器人上拆下链条。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:76
 msgid ""
@@ -73,3 +245,45 @@ msgid ""
 "when the chain is run on a smaller sprocket, more force is applied due to a "
 "smaller radius."
 msgstr "链轮越小，链条拉伸越快。这是因为当链条在较小的链轮上运行时，由于半径较小，会产生更大的力。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:83
+msgid ""
+"**Chain wrap, especially in one chain run, can be problematic**. Typically, "
+"teams use either one or two chain runs (pieces of chain) per drivetrain "
+"side. However, one chain run can require more than one idler sprocket and "
+"get very complex in order to maintain proper chain wrap."
+msgstr ""
+"**链条缠绕，尤其是在一个链条运行过程中，可能会出现问题**。通常情况下，队伍会在每个传动系统侧使用一条或两条链条（链片）。但是，一条链条运行可能需要一个以上的惰轮链轮，而且为了保持链条的适当缠绕会变得非常复杂。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:84
+msgid ""
+"**Sprockets are really big**. If you want a really high reduction using "
+"chain, you'll pay for it in the space that it takes up. Sprocket teeth are "
+"much larger than gear or pulley teeth, so your reductions are going to be "
+"much larger."
+msgstr ""
+"**链轮真的很大**。如果你想用链条获得很高的减速比，你就得为它占用的空间付出代价。链轮的齿要比齿轮或滑轮的齿大得多，因此减速比也会大得多。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:89
+msgid "A metal chain for a drivetrain by 7244, OUT of the BOX Robotics"
+msgstr "用于传动系统的金属链条，由 7244、OUT of the BOX Robotics 队伍提供"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:89
+msgid "7244 OUT of the BOX Robotics, Relic Recovery"
+msgstr "7244 OUT of the BOX Robotics, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:94
+msgid "A plastic chain on an intake by 9794, Wizards.exe"
+msgstr "吸入拾取装置上的塑料链条，由 9794，Wizards.exe制作"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:94
+msgid "9794 Wizards.exe, Rover Ruckus, plastic chain on intake"
+msgstr "9794 Wizards.exe，Rover Ruckus，吸入拾取装置塑料链条"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:99
+msgid "Properly done chain wrap with tensioners"
+msgstr "使用张紧器进行适当的链条缠绕"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:99
+msgid "Properly done chain wrap with the REV system"
+msgstr "使用 REV 系统正确进行链条缠绕"
