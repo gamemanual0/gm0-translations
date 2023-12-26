@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2023-12-26 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -70,9 +70,9 @@ msgid ""
 "Tech-Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__."
 msgstr ""
 "用于像素检测（CENTERSTAGE）的 TensorFlow OpModes 示例可在 `此处 <https://github.com/FIRST-"
-"Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-"
-"TFOD>`__（块）中找到，Java 示例可在 `此处 <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__中找到。"
+"Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ "
+"（块）中找到，Java 示例可在 `此处 <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__ 中找到。"
 
 #: ../../gm0/source/docs/software/tutorials/vision.rst:20
 msgid ""
@@ -110,11 +110,33 @@ msgstr ""
 "有关 AprilTag 的更多信息，请访问 `FTC 文档 <https://ftc-"
 "docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
 "intro.html>`__。支持的 AprilTag 图像可在此 `pdf "
-"<https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`___上获取。"
+"<https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`___"
+" 上获取。"
 
 #: ../../gm0/source/docs/software/tutorials/vision.rst:30
 msgid "VisionPortal"
 msgstr "VisionPortal"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:32
+msgid ""
+"Introduced with FTC SDK v8.2, the VisionPortal API integrates the "
+"`EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__ project into the FTC "
+"SDK. With VisionPortal, you can attach multiple VisionProcessors to a single"
+" camera. VisionProcessors are an easy way to create OpenCV pipelines, which "
+"allows for custom manipulation and processing to be applied to each incoming"
+" frame. VisionPortal is the most powerful form of computer vision, but it is"
+" also the hardest to use. Therefore, we can only recommend it to more "
+"advanced teams."
+msgstr ""
+"随着 FTC SDK v8.2 的推出，VisionPortal API 将 `EasyOpenCV "
+"<https://github.com/OpenFTC/EasyOpenCV>`__ 项目集成到 FTC SDK 中。有了 "
+"VisionPortal，您可以将多个 VisionProcessor 附加到单个相机上。VisionProcessors 是创建 OpenCV "
+"管道的简便方法，它允许对每个输入帧进行自定义操作和处理。VisionPortal "
+"是计算机视觉功能最强大的形式，但也是最难使用的。因此，我们只能向更高级的团队推荐它。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:35
+msgid "Additional Vision Resources"
+msgstr "其他视觉资源"
 
 #: ../../gm0/source/docs/software/tutorials/vision.rst:38
 msgid "EasyOpenCV Simulator"
@@ -134,5 +156,54 @@ msgstr ""
 msgid ""
 "You can find EasyOpenCV Simulator `here <https://github.com/deltacv/EOCV-"
 "Sim>`__."
+msgstr "您可以在 `这里 <https://github.com/deltacv/EOCV-Sim>`__ 找到 EasyOpenCV 模拟器。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:45
+msgid "FTC\\ |reg| Dashboard"
+msgstr "FTC\\ |reg| Dashboard"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:47
+msgid ""
+"FTC Dashboard runs a dashboard webpage on the Control Hub that, among other "
+"things, streams a live preview of a connected camera. This is a very useful "
+"tool for testing and debugging vision applications."
 msgstr ""
-"您可以在`这里 <https://github.com/deltacv/EOCV-Sim>`__找到 EasyOpenCV Simulator。"
+"FTC Dashboard "
+"在控制集线器上运行一个仪表盘网页，除其他功能外，还可以流式传输所连接摄像头的实时预览。这是测试和调试视觉应用的一个非常有用的工具。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:49
+msgid ""
+"FTC Dashboard is not legal to run during matches, make sure it is disabled "
+"during a competition. More information can be found `here "
+"<https://acmerobotics.github.io/ftc-dashboard/competition>`__."
+msgstr ""
+"在比赛期间运行 FTC Dashboard 是不合法的，请确保在比赛期间禁用它。更多信息请 `参见 "
+"<https://acmerobotics.github.io/ftc-dashboard/competition>`__ 。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:51
+msgid ""
+"You can find FTC Dashboard `here <https://github.com/acmerobotics/ftc-"
+"dashboard>`__."
+msgstr ""
+"您可以在 `这里 <https://github.com/acmerobotics/ftc-dashboard>`__ 找到 FTC "
+"Dashboard。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:54
+msgid "Scrcpy"
+msgstr "Scrcpy"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:56
+msgid ""
+"Scrcpy is an easy way to display and control Android devices connected over "
+"USB. It supports Linux, Windows, and macOS, offers low latency, requires low"
+" resources, and has great performance. It is extremely useful for debugging "
+"vision code on a Control Hub, as it will enable you to see the camera output"
+" in near real time. It can also be used with a robot controller phone, "
+"however the camera output can be seen on the phone's screen."
+msgstr ""
+"Scrcpy 是显示和控制通过 USB 连接的安卓设备的简便方法。它支持 Linux、Windows 和 "
+"macOS，具有低延迟、低资源需求和高性能的特点。它对调试控制集线器上的视觉代码非常有用，因为它能让你近乎实时地看到摄像头的输出。它还可以与机器人控制器手机一起使用，不过摄像头输出可以在手机屏幕上看到。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:58
+msgid "You can find scrcpy `here <https://github.com/Genymobile/scrcpy>`__."
+msgstr "您可以在 `这里 <https://github.com/Genymobile/scrcpy>`__ 找到 scrcpy。"

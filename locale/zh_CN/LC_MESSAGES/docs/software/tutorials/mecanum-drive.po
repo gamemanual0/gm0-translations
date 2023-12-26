@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2023-12-26 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:4
 msgid "Mecanum TeleOp"
-msgstr "麦卡纳姆系统TeleOp"
+msgstr "麦克纳姆 TeleOp"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:7
 msgid "Mecanum Physics"
-msgstr "麦卡纳姆系统（Mecanum）"
+msgstr "麦克纳姆物理学"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:9
 msgid ""
@@ -39,9 +39,9 @@ msgid ""
 "video <https://www.youtube.com/watch?v=pP8ajNMx84k>`_ demonstrating such "
 "movement."
 msgstr ""
-":term:`Mecanum drive <Mecanum Wheel>` （以下简称麦轮）是FTC\\ "
-"|reg|中非常流行的传动系统类型。麦轮传动系统支持完整运动。这意味着传动系统在旋转时能够向任何方向移动：向前、向后、左右、旋转时平移等。 "
-"`这里有一个简洁的视频 <https://www.youtube.com/watch?v=pP8ajNMx84k>`_演示了这种运动。"
+":term:`麦克纳姆驱动 <Mecanum Wheel>` （以下简称麦轮）是FTC\\ |reg| "
+"中非常流行的驱动系统类型。麦轮传动系统支持完整运动。这意味着传动系统在旋转时能够向任何方向移动：向前、向后、左右、旋转时平移等。 `这里有一个简洁的视频"
+" <https://www.youtube.com/watch?v=pP8ajNMx84k>`_ 演示了这种运动。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:11
 msgid ""
@@ -52,6 +52,20 @@ msgstr ""
 "一些常见的COTS麦轮传动系统套件是 `goBILDA Strafer Chassis Kit "
 "<https://www.gobilda.com/strafer-chassis-kit-v5/>`_ 和 `REV Mecanum "
 "Drivetrain Kit <https://www.revrobotics.com/rev-45-2470/>`_。"
+
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:13
+msgid ""
+":term:`Mecanum wheels <Mecanum Wheel>` have rollers at a 45\\ |deg| angle to"
+" the rest of the wheel. Since these are in contact with the ground instead "
+"of something solid like in a :term:`traction wheel <Traction wheel>`, "
+"instead of the wheel creating a force parallel to the orientation of the "
+"wheel, it creates one 45\\ |deg| from parallel. Depending on how the wheels "
+"are driven, X or Y components of the force vectors can cancel which allows "
+"movement in any direction."
+msgstr ""
+"麦轮 <Mecanum Wheel>`滚轮与轮子的其他部分成 45 度角。由于这些滚轮与地面接触，而不是像:term:`traction wheel "
+"<Traction wheel>`那样与固体接触，因此车轮产生的力不是与车轮方向平行的力，而是与平行线成 45 度 "
+"角的力。根据车轮的驱动方式，力矢量的X或Y分量可以抵消，从而允许向任何方向运动。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
 msgid "Force diagram of a single mecanum wheel"
@@ -267,7 +281,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:237
 msgid "Field Centric"
-msgstr "以场地为主体"
+msgstr "以场地为中心坐标系"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:239
 msgid ""
@@ -278,7 +292,7 @@ msgid ""
 "x/y components of the joysticks are rotated counter to the robot's angle, "
 "which is given by the IMU."
 msgstr ""
-"通过以场地为主体的麦轮驱动，平移操纵杆控制机器人相对于场地的方向，而不是机器人框架。这是一些驾驶员的首选，并使一些规避动作更容易，因为在给定方向平移时可以更容易地旋转。为此，操纵杆的x/y分量与机器人的角度相反旋转，角度由IMU给出。"
+"通过以场地为参考坐标系的麦轮驱动，平移操纵杆控制机器人相对于场地的方向，而不是机器人框架。这是一些驾驶员的首选，并使一些规避动作更容易，因为在给定方向平移时可以更容易地旋转。为此，操纵杆的x/y分量与机器人的角度相反旋转，角度由IMU给出。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:241
 msgid ""
