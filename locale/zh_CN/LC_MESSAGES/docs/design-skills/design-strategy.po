@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 16:15+0000\n"
+"POT-Creation-Date: 2023-12-26 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -22,21 +22,326 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:4
+msgid "Design Strategy"
+msgstr "设计策略"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:6
+msgid ""
+"A useful resource is the championship conference presentation from Karthik "
+"Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame "
+"team FRC\\ |reg| 1114, Simbotics, on effective design and competition "
+"strategies: `Effective FIRST Strategies. "
+"<https://www.youtube.com/watch?v=5fifL47TvzE>`_ See also the `slideshow from"
+" the presentation "
+"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
+msgstr ""
+"著名团队 FRC\\ |reg| 1114、Simbotics 的前任首席导师（现任顾问）Karthik Kanagasabapathy "
+"在冠军会议上就有效的设计和竞赛策略发表了演讲，这是一个非常有用的资源：有效的 FIRST "
+"战略。<https://www.youtube.com/watch?v=5fifL47TvzE>另请参阅 \"演讲幻灯片 "
+"\"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:9
+msgid "General Design Tips and Mistakes"
+msgstr "一般设计技巧和错误"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:11
+msgid ""
+"Here are some good tips for teams to make decisions in the high-level design"
+" and strategic planning stages."
+msgstr "以下是一些很好的提示，供团队在高级设计和战略规划阶段做出决策。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+msgid "Problem"
+msgstr "问题"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+msgid "Solution"
+msgstr "解决方案"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+msgid "**Do everything at once**"
+msgstr "一次做所有事情"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:18
+msgid "Robot becomes half-baked"
+msgstr "机器人不完善"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+msgid "Cannot excel in one area"
+msgstr "无法在一个领域出类拔萃"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+msgid "**Perfect one objective first**"
+msgstr "先完善一个目标"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:18
+msgid "Robot is highly optimized"
+msgstr "机器人高度优化"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+msgid "Consistently excels in one area"
+msgstr "始终在一个领域表现出色"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+msgid "**Overcomplicate**"
+msgstr "**过于复杂**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:23
+msgid "More time needed to iterate"
+msgstr "需要更多时间进行迭代"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+msgid "Less reliable"
+msgstr "不太可靠"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+msgid "**Simplify**"
+msgstr "**简化**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:23
+msgid "Best designs are usually simplest"
+msgstr "最好的设计通常是最简单的"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+msgid "Less moving parts"
+msgstr "简化移动部分"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+msgid "**Score-first design**"
+msgstr "**以分数为先的设计**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:28
+msgid "Neglect proper principles"
+msgstr "忽视正当的原则"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+msgid "Often wildly inconsistent"
+msgstr "通常非常不一致"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+msgid "**Design for consistency**"
+msgstr "**一致性设计**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:28
+msgid "Usually reliability > scoring ability"
+msgstr "通常可靠性>评分能力"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+msgid "Great plus for alliance selection"
+msgstr "联盟选拔等得到大加分"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+msgid "**Build haphazardly**"
+msgstr "**随意建造**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:33
+msgid "Build with subpar materials"
+msgstr "使用低于标准的材料构建"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+msgid "Inadequate support structure"
+msgstr "支持结构不足"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+msgid "**Build for reliability**"
+msgstr "**为可靠性而构建**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:33
+msgid "Remove unneeded moving parts"
+msgstr "移除不需要的活动部件"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+msgid "Eliminate single points of failure"
+msgstr "消除单点故障"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+msgid "**Fret about design**"
+msgstr "**设计问题**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:38
+msgid "Wastes testing time"
+msgstr "浪费测试时间"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:39
+msgid "Design alone is not enough"
+msgstr "光有设计是不够的"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+msgid "**Focus on execution**"
+msgstr "**注重执行**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:38
+msgid "Make a decision, then stick to it"
+msgstr "做出决定，然后坚持下去"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:39
+msgid "Execution often beats design"
+msgstr "执行往往胜过设计"
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:43
 msgid "Doing Everything At Once |rarr| Perfecting One Objective First"
 msgstr "一次搞定所有事情 |rarr| 先完善一个目标"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:45
+msgid "**Consistency is king.**"
+msgstr "**一致性是王道。**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:47
+msgid ""
+"A common pitfall for first year teams is trying to accomplish all the game "
+"objectives at once, especially in tele-op and endgame."
+msgstr "第一年团队的一个常见隐患是试图一次完成所有游戏目标，尤其是在远程操作和终局游戏中。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:49
+msgid ""
+"**This is highly discouraged** because oftentimes new teams do not have the "
+"experience to do so. It is no small achievement to have a consistent robot "
+"that completes all objectives in competition, even at the higher levels."
+msgstr "**这是非常不提倡的**，因为新团队通常没有这样做的经验。拥有一个在比赛中完成所有目标的一致机器人，即使是在更高的水平上，也是不小的成就。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:51
+msgid ""
+"Too often, we see teams bring half-baked robots that will attempt to do "
+"everything in a match, but excel at nothing. Even if they succeed, it is "
+"often by thin margins and cannot be repeated. This robot could be much more "
+"successful if the team spent their time to perfect one mechanism first."
+msgstr ""
+"我们经常看到团队带来不完善的机器人，这些机器人会试图在比赛中做任何事情，但什么都不擅长。即使他们成功了，其带来的利益也往往是微乎其微的，且不能重复。如果团队花时间先完善一种机制，这个机器人可能会更成功。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:53
+msgid ""
+"Teams should always remember the principle that a robot that can complete "
+"one thing consistently will likely be more competitive than the robot that "
+"does everything inconsistently. We recommend teams focus on one objective "
+"during tele-op/endgame and perfect it."
+msgstr ""
+"团队应该始终记住这样一个原则，即能够始终如一地完成一件事的机器人可能比不始终如一地完成所有事情的机器人更具竞争力。我们建议团队在远程操作/终局中专注于一个目标并完善它。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:55
+msgid ""
+"Typically, teams which have a solid autonomous and consistent endgame can be"
+" competitive at the Qualifier level. This is a recommended goal for new "
+"teams."
+msgstr "通常，拥有稳固自主和一致终局的团队可以在资格赛级别具有竞争力。这是新团队的推荐目标。"
 
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:58
 msgid "Overcomplex |rarr| Simple"
 msgstr "过于复杂 |rarr| 简单"
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:60
+msgid ""
+"Another common trap that teams fall into is to overcomplicate needlessly. "
+"Simplifying your robot simplifies possible headaches later."
+msgstr "团队陷入的另一个常见隐患是不必要地过度复杂化。简化你的机器人会减少以后可能的困难。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:62
+msgid ""
+"While some robots are very complicated, keep in mind that those teams are "
+"generally experienced, have some sort of machining capability, and fully "
+"design their robot in CAD. However, many world-class teams often build "
+"designs that are ingenious yet ridiculously simple."
+msgstr ""
+"虽然有些机器人非常复杂，但请记住，这些团队通常经验丰富，具有某种加工能力，并完全在计算机辅助设计中设计他们的机器人。然而，许多世界级的团队经常构建巧妙但简单得离谱的设计。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:64
+msgid ""
+"Some advantages to simplicity are that the robot has less points of failure,"
+" given that the robot has less moving parts. Additionally, it takes much "
+"less time to iterate through and perfect a simple mechanism as opposed to a "
+"complicated one. The reasoning is that a complicated system has many more "
+"variables that need to be adjusted/could cause problems."
+msgstr ""
+"简单的一些优点是机器人的故障点更少，因为机器人的运动部件更少。此外，与复杂的机制相比，迭代和完善简单机制所需的时间要少得多。理由是复杂的系统有更多的变量需要调整/可能导致问题。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:66
+msgid ""
+"Keeping things simple can be practically achieved through a couple of ways."
+msgstr "保持事情简单实际上可以通过几种方式来实现。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:68
+msgid ""
+"Limit the degrees of motion that the mechanism operates in. For example, a "
+"linear slide goes in and out in a straight line, as opposed to an arm, which"
+" rotates along an axis. Doing so will serve to eliminate forces that "
+"otherwise could adversely affect the mechanism."
+msgstr "限制机构运行的运动度。例如，直线滑块沿直线进出，而臂沿轴旋转。这样做将有助于消除可能对机构产生不利影响的力。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:70
+msgid ""
+"Another way to simplify is to build for the shortest travel distance. "
+"Obviously, the shortest distance from A to B is in a straight line, so teams"
+" should strive to keep the game elements approximately within a reasonably "
+"straight line. This can help in solving possible problems if the game "
+"elements need to change direction too many times."
+msgstr ""
+"另一种简化方法是构建最短的前行距离。显然，从A到B的最短距离是在一条直线上，因此团队应该努力将游戏元素大致保持在一条合理的直线内。如果游戏元素需要多次改变方向，这有助于解决可能出现的问题。"
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:73
 msgid "Score-first Designing |rarr| Designing for Consistency"
 msgstr "得分优先设计 |rarr| 一致性设计"
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:75
+msgid "Teams should prioritize consistency over scoring ability."
+msgstr "团队应该优先考虑一致性而不是得分能力。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:77
+msgid ""
+"The tortoise beats the rabbit. An overused parable, but it still holds a "
+"kernel of truth. Why? Because the tortoise, which plodded along "
+"consistently, beat the rabbit, which had hot and cold streaks."
+msgstr ""
+"龟兔赛跑，一个被过度使用的比喻，但它仍然有一个真理的核心。为什么？因为乌龟一直坚持不懈地向目标前进，而兔子不专注，没有确切的目标，因此乌龟打败了兔子。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:79
+msgid ""
+"A hallmark of any successful team is consistency and reliability throughout "
+"the competition season and even across seasons. Sports dynasties are "
+"dynasties for the reason that they compete at a high level not for a couple "
+"games, but for multiple seasons. Without the power of consistency, it will "
+"be nearly impossible to win games, let alone a tournament."
+msgstr ""
+"任何一支成功球队的标志都是整个比赛赛季甚至整个赛季的一致性和可靠性。Sports王朝之所以是王朝，是因为他们不仅在几场比赛中，而且在多个赛季中都表现出高水平的竞争。没有一致性的力量，赢得比赛几乎是不可能的，更不用说锦标赛了。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:81
+msgid ""
+"Too many teams fall into the pit of prioritizing scoring ability more than "
+"anything else, which is a grave error. In keeping with the first tip, to "
+"perfect one objective first, this practice will serve to increase "
+"consistency."
+msgstr "太多的团队陷入了优先考虑得分能力的深坑，这是一个严重的错误。为了与第一个提示保持一致，首先完善一个目标，这种做法将有助于增加一致性。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:83
+msgid ""
+"While scoring ability should be a priority and objective when designing "
+"mechanisms, it is not everything in this game. We advise being consistent at"
+" low and medium scoring levels than inconsistently scoring at a high level."
+msgstr "虽然得分能力应该是设计机制时的优先事项和目标，但它不是游戏中的一切。我们建议在中低得分水平保持一致，而不是在高水平上不一致得分。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:85
+msgid ""
+"Focus on being able to do that one thing every single time throughout your "
+"matches, and you will begin to see how important consistency is. **This tip "
+"is equally as important during alliance selections. Top teams will "
+"prioritize teams that are consistent far more than scoring ability.** They "
+"are not afraid to look at teams who can't score much, but can contribute "
+"every time to the alliance score, rather than selecting a boom-or-bust pick."
+msgstr ""
+"专注于在你的比赛中每一次都能做那件事，你就会开始看到一致性有多重要。在联盟选择期间，这个技巧同样重要。顶级球队会优先考虑一致的球队，而不是得分能力。他们不怕看那些得分不多的球队，但每次都能为联盟得分做出贡献，而不是选择繁荣或萧条的选择。"
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:88
 msgid "Building haphazardly |rarr| Building for reliability"
 msgstr "杂乱无章地建设 |rarr| 有规划的建设"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:90
+msgid ""
+"Build for the worst case scenario, not the best case scenario. When "
+"building, teams often overlook a key principle: build for reliability. All "
+"too often, teams skimp on the quality of construction as well as materials, "
+"which leads to one of the most common reasons for unsuccessful tournaments: "
+"part failure."
+msgstr ""
+"为最坏的情况而不是最好的情况而建造。在建造时，团队经常忽略一个关键原则：为可靠性而建造。团队经常在建造质量和材料上吝啬，这导致锦标赛不成功的最常见原因之一：零件故障。"
 
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:105
 msgid "Fretting about Design |rarr| Focusing on Execution"
