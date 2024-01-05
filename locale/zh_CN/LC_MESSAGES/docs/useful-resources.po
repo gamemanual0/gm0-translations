@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 16:16+0000\n"
+"POT-Creation-Date: 2024-01-05 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,6 +116,15 @@ msgstr ""
 "`FIRST 资源库 <https://www.firstinspires.org/resource-"
 "library?field_content_type_value%5B%5D=first_tech_challenge>`_ --- "
 "*FIRST*资源库（针对FTC资源进行过滤）。其中包括机器人/场地检查清单、机器人制作和编程资源、团队管理资源、FTC导师手册等。"
+
+#: ../../gm0/source/docs/useful-resources.rst:35
+msgid ""
+"`Engineering Portfolio Library <https://portfolios.hivemindrobotics.net>`_ "
+"--- A library of past award-winning Engineering Portfolios. Created by Polar"
+" from FTC 23396 and managed by the community."
+msgstr ""
+"`工程笔记库 <https://portfolios.hivemindrobotics.net>`_ --- 过去获奖的工程作品集库。由来自 FTC "
+"23396 的 Polar 创建，并由社区管理。"
 
 #: ../../gm0/source/docs/useful-resources.rst:37
 msgid ""
@@ -724,3 +733,27 @@ msgstr ""
 #: ../../gm0/source/docs/useful-resources.rst:182
 msgid "Team/Event Results"
 msgstr "团队/活动结果"
+
+#: ../../gm0/source/docs/useful-resources.rst:184
+msgid ""
+"`FTC Events <https://ftc-events.firstinspires.org/>`_ --- Official *FIRST* "
+"team and event result database for FTC."
+msgstr ""
+"`FTC Events<https://ftc-events.firstinspires.org/>`_ --- FTC 官方 *FIRST* "
+"团队和赛事结果数据库。"
+
+#: ../../gm0/source/docs/useful-resources.rst:186
+msgid ""
+"`FTC Scout <https://ftcscout.org>`_ --- A community FTC Events frontend with"
+" more features and a more slick UI."
+msgstr ""
+"`FTC Scout<https://ftcscout.org>`_ --- 社区运营的 FTC 赛事信息前端，具有更多功能和更流畅的用户界面。"
+
+#: ../../gm0/source/docs/useful-resources.rst:188
+msgid ""
+"`The Orange Alliance <https://theorangealliance.org/>`_ --- A community-run "
+"team and event result database, primarily useful for its more comprehensive "
+"results before Ultimate Goal (2020-2021)."
+msgstr ""
+"`橙色联盟 <https://theorangealliance.org/>`_ --- "
+"社区运营的团队和赛事结果数据库，主要用于在终极目标（2020-2021 年）之前提供更全面的赛事结果。"
