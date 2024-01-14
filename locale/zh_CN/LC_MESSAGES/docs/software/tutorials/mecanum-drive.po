@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 04:16+0000\n"
+"POT-Creation-Date: 2024-01-14 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,8 +63,8 @@ msgid ""
 "are driven, X or Y components of the force vectors can cancel which allows "
 "movement in any direction."
 msgstr ""
-"麦轮 <Mecanum Wheel>`滚轮与轮子的其他部分成 45 度角。由于这些滚轮与地面接触，而不是像:term:`traction wheel "
-"<Traction wheel>`那样与固体接触，因此车轮产生的力不是与车轮方向平行的力，而是与平行线成 45 度 "
+":term:`麦轮 <Mecanum Wheel>` 滚轮与轮子的其他部分成 45 度角。由于这些滚轮与地面接触，而不是像 :term:`牵引轮 "
+"<Traction wheel>` 那样与固体接触，因此车轮产生的力不是与车轮方向平行的力，而是与平行线成 45\\ |deg| "
 "角的力。根据车轮的驱动方式，力矢量的X或Y分量可以抵消，从而允许向任何方向运动。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
@@ -88,8 +88,7 @@ msgid ""
 "result in slower movement."
 msgstr ""
 "标准的麦轮驱动配置有4个以“X”形状定向的麦轮。这意味着当从上面看时，滚子是朝向中心的。这种配置允许人们将偏移滚子产生的力矢量相加，并推导出任何方向的运动。重要的是要注意，由于摩擦力，不可能在每个方向都进行完美的运动，因此"
-" :term:`mecanum drivetrain <Mecanum Wheel>` "
-"比起其他方向可以更快地向前/向后移动。平移和旋转相结合也会导致运动变慢。"
+" :term:`麦轮底盘 <Mecanum Wheel>` 比起其他方向可以更快地向前/向后移动。平移和旋转相结合也会导致运动变慢。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
 msgid "Force diagram of a complete mecanum drive"
@@ -104,7 +103,7 @@ msgid ""
 "few examples of how the wheels must be driven to achieve different "
 "movements:"
 msgstr ""
-"在上图中，向量1、2、3和4分别表示底盘向图像顶部行驶时由 :term:`mecanum wheels <Mecanum Wheel>` "
+"在上图中，向量1、2、3和4分别表示底盘向图像顶部行驶时由 :term:`麦轮 <Mecanum Wheel>` "
 "创建的力向量。所有电机都在向前行驶。蓝线和红线分别是它们的X和Y分量。以下是车轮必须如何驱动以实现不同运动的几个示例："
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
@@ -134,7 +133,7 @@ msgid ""
 "To control only forward/backward movement, you simply need to set the motor "
 "powers to the Y stick value (flip the sign since Y is reversed):"
 msgstr ""
-"在推导麦轮方程之前，设想一个场景，你有一个2电机动力传动系统，你想用左摇杆Y轴来控制它前进/后退，用右摇杆X轴来控制它枢轴转动。电机的配置是，当身体背对着你时，右电机的正方向是顺时针，而左电机相反。要控制只前进/后退运动，你只需要将电机功率设置为Y摇杆值（翻转符号，因为Y是反转的）："
+"在推导麦轮方程之前，设想一个场景，你有一个2电机坦克底盘，你想用左摇杆Y轴来控制它前进/后退，用右摇杆X轴来控制它自转转动。电机的配置是，当底盘背对着你时，右电机的正方向是顺时针，而左电机相反。要控制只前进/后退运动，你只需要将电机功率设置为Y摇杆值（翻转符号，因为Y是反转的）："
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
@@ -159,7 +158,7 @@ msgid ""
 "Although at first adding rotation might seem like a difficult task, it's "
 "actually super simple. All you need to do is subtract the right X stick "
 "value from the right wheels, and add it to the left:"
-msgstr "虽然起初添加旋转似乎是一项艰巨的任务，但实际上非常简单。你需要做的就是从右侧轮子中减去右侧摇杆的X值，然后将其添加到左侧："
+msgstr "虽然起初添加旋转似乎是一项艰巨的任务，但实际上非常简单。你需要做的就是从右轮功率值中减去右摇杆的X值，然后将其添加到左轮功率值中："
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:81
 msgid ""
@@ -186,8 +185,8 @@ msgid ""
 " only difference from turning is that rather than wheels on the same side "
 "being the same sign, wheels diagonal to each other will be the same sign."
 msgstr ""
-"使用 :term:`mecanum wheels <Mecanum Wheel>` "
-"进行全方位运动的原理与将转弯添加到坦克示例中的原理相同。根据车轮需要如何旋转以获得所需的运动，左摇杆的X值将被加减到每个车轮上。与转弯的唯一区别是，不是同一侧的车轮是相同的符号，而彼此对角线的车轮将是相同的符号。"
+"使用 :term:`麦轮 <Mecanum Wheel>` "
+"进行全向运动的原理与将转弯添加到坦克示例中的原理相同。根据车轮需要如何旋转以获得所需的运动，左摇杆的X值将被加减到每个车轮上。与转弯的唯一区别是，不是同一侧的车轮是相同的符号，而彼此对角线的车轮将是相同的符号。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:85
 msgid ""
@@ -245,7 +244,7 @@ msgid ""
 "directions, and make field centric driving more accurate. In this tutorial, "
 "we will use 1.1, but it's really up to driver preference."
 msgstr ""
-"现在我们有了一个正常运行的麦轮驱动程序，可以做一些事情来清理它。第一步是将左X值乘以某个值以抵消不完美的平移。这样做将使驱动器在非轴对齐方向上感觉更准确，并使以场为中心的驱动更准确。在本教程中，我们将使用1.1，但这实际上取决于驱动程序的偏好。"
+"现在我们有了一个正常运行的麦轮驱动程序，可以做一些事情来清理它。第一步是将左X值乘以某个值以抵消不完美的平移。这样做将使驱动器在非轴对齐方向上感觉更准确，并使以场为中心的驱动更准确。在本教程中，我们将使用1.1，但这实际上取决于驾驶偏好。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:136
 msgid ""
@@ -262,17 +261,20 @@ msgid ""
 "0.1, 1.0, and 1.0, which is not the same ratio. Instead, we need to divide "
 "all of them by the largest power's absolute value when it exceeds 1:"
 msgstr ""
-"由于SDK只是将幂裁剪（限制）到该范围内，我们可能会丢失我们正在寻找的比率，除非我们主动将所有数字放回该范围，同时仍保持我们计算的比率。例如，如果我们计算0.4、0.1、1.1和1.4的值，它们将被裁剪为0.4、0.1、1.0和1.0，这不是相同的比率。相反，当超过1时，我们需要将它们全部除以最大幂的绝对值："
+"由于 SDK "
+"只是会简单地将功率值剪切（限制）到该范围内，因此除非我们主动将所有数字放回该范围内，同时保持计算出的比率，否则就会导致丢失各个轮子功率值的比例关系。例如，如果我们计算出"
+" 0.4、0.1、1.1 和 1.4 的值，它们将被剪切为 0.4、0.1、1.0 和 1.0，这不是相同的比率。因此，当最大功率值的绝对值超过 1 "
+"时，我们需要将它们全部除以最大功率值的绝对值："
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:163
 msgid ""
 "Make sure to set the powers on your motor and update this every loop in an "
 "opmode!"
-msgstr "确保设置你的电机上的电源，并在操作模式中更新每个循环！"
+msgstr "确保在电机上设置功率，并在 opmode 模式的每个循环中更新功率！"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:166
 msgid "Robot-Centric Final Sample Code"
-msgstr "以机器人为主体的最终示例代码"
+msgstr "以机器人视角操控模式的最终示例代码"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:231
 msgid ":download:`Blocks file download <block-code/mecanum-drive-sample.blk>`"
@@ -281,7 +283,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:237
 msgid "Field Centric"
-msgstr "以场地为中心坐标系"
+msgstr "以场地坐标系的操控模式"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:239
 msgid ""
@@ -292,7 +294,8 @@ msgid ""
 "x/y components of the joysticks are rotated counter to the robot's angle, "
 "which is given by the IMU."
 msgstr ""
-"通过以场地为参考坐标系的麦轮驱动，平移操纵杆控制机器人相对于场地的方向，而不是机器人框架。这是一些驾驶员的首选，并使一些规避动作更容易，因为在给定方向平移时可以更容易地旋转。为此，操纵杆的x/y分量与机器人的角度相反旋转，角度由IMU给出。"
+"在以场地坐标系的麦轮驱动模式中，平移操纵杆控制的是机器人相对于场地的方向，而不是机器人自身参考系的方向。有些驾驶员更喜欢这种操作模式，这样可以使一些规避动作变得更容易，因为在向指定方向平移的同时可以更容易地旋转。为此，操纵杆的"
+" x/y 分量会基于机器人的角度进行旋转，这里机器人的角度由 IMU 提供。"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:241
 msgid ""
@@ -304,8 +307,8 @@ msgid ""
 "docs.firstinspires.org/programming_resources/imu/imu.html>`_ for more "
 "information. The way the IMU will be initialized here is:"
 msgstr ""
-"Control Hubs（以及旧型号的扩展中心）内部有一个IMU。与大多数其他硬件不同，建议使用 ``hardwareMap.get()`` "
-"之外的操作来开始使用它。请注意，默认情况下，这是在创建新配置时配置为 ``imu`` 的。有关详细信息，请 "
+"Control Hubs（以及旧型号的Expansion Hub）内部有一个IMU。与大多数其他硬件不同，建议使用 "
+"``hardwareMap.get()`` 之外的操作来开始使用它。请注意，默认情况下，这是在创建新配置时配置为 ``imu`` 的。有关详细信息，请 "
 "`参阅FTC文档页面，其中涵盖了IMU接口及其参数 <https://ftc-"
 "docs.firstinspires.org/programming_resources/imu/imu.html>`_ 。此处初始化IMU的方式是："
 
