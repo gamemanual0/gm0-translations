@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 04:16+0000\n"
+"POT-Creation-Date: 2024-01-19 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,83 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:2
+msgid "Vendor Guide"
+msgstr "Guía del Proveedor"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:5
+msgid "Vendor Identification"
+msgstr "Identificación del Proveedor"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:7
+msgid ""
+"When you read some Bill of Materials (BOMs) or part numbers that are "
+"references in this guide, it might be confusing to find what vendor the part"
+" you need comes from. The obvious thing to do is Google the part number, and"
+" generally it can identify what you want and where it comes from. But if "
+"that fails, here are some quick tips to identify the vendor selling what you"
+" need."
+msgstr ""
+"Cuando leas algunas Listas de Materiales (BOMs) o números de parte que se "
+"mencionan en esta guía, puede resultar confuso encontrar de qué proveedor "
+"proviene la pieza que necesitas. Lo obvio es buscar el número de parte en "
+"Google, y generalmente puede identificar lo que deseas y de dónde proviene. "
+"Pero si eso falla, aquí hay algunos consejos rápidos para identificar al "
+"proveedor que vende lo que necesitas."
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:10
+msgid "Prefix Identification"
+msgstr "Identificación de Prefijo"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:12
+msgid "AM- signifies AndyMark (i.e. AM-0447)"
+msgstr "AM- significa AndyMark (es decir, AM-0447)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:13
+msgid "REV- signifies REV Robotics (i.e. REV-31-1155)"
+msgstr "REV- significa REV Robotics (es decir, REV-31-1155)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:14
+msgid "WCP- signifies West Coast Products (i.e. WCP-0117)"
+msgstr "WCP- significa West Coast Products (es decir, WCP-0117)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:17
+msgid "SKU Identification"
+msgstr "Identificación de SKU (Unidad de mantenimiento de existencias)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:19
+msgid ""
+"Actuonix: 3-4 digit SKU, alphanumeric, in the form of XX00 or X00 (i.e. "
+"PQ12)"
+msgstr ""
+"Actuonix: SKU de 3-4 dígitos, alfanumérico, en forma de XX00 o X00 (es "
+"decir, PQ12)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:20
+msgid ""
+"goBILDA: 12 digit SKU, numerical, in the form of 0000-0000-0000 (i.e. "
+"3213-3606-0001)"
+msgstr ""
+"goBILDA: SKU de 12 dígitos, numérico, en el formato de 0000-0000-0000 (es "
+"decir, 3213-3606-0001)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:21
+msgid ""
+"Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000 (i.e. "
+"W44260)"
+msgstr ""
+"Pitsco/Tetrix: SKU de 6 dígitos, W + 5 números, en la forma de W00000 (es "
+"decir, W44260)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:22
+msgid ""
+"Servocity/Actobotics: 6 digit SKU, numerical, in the form of 000000 (i.e. "
+"615190)"
+msgstr ""
+"Servocity/Actobotics: SKU de 6 dígitos, numérico, en la forma de 000000 (es "
+"decir, 615190)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:25
+msgid "Where can I get ...?"
+msgstr "¿Dónde puedo conseguir ...?"
