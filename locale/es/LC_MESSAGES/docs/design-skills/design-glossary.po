@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 04:16+0000\n"
+"POT-Creation-Date: 2024-01-22 04:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,69 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:4
+msgid "Design Glossary"
+msgstr "Glosario de diseño"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:7
+msgid "COTS"
+msgstr "COTS"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:9
+msgid ""
+"COTS (Commercial Off the Shelf) parts refer to parts that teams can purchase"
+" physically or through an online retailer."
+msgstr ""
+"COTS (Commercial Off the Shelf) partes se refieren a partes que los equipos "
+"pueden comprar físicamente o a través de un minorista en línea."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:11
+msgid ""
+"FTC\\ |reg| teams are limited to one degree of freedom (with some "
+"exceptions) to COTS parts. Therefore, buying a drawer slide is an allowable "
+"part, as there is only one degree of freedom, but purchasing a multi-axis "
+"arm isn't."
+msgstr ""
+"FTC\\ |reg| los equipos están limitados a un grado de libertad (con algunas "
+"excepciones) para las partes COTS. Por lo tanto, comprar un deslizador de "
+"cajón es una parte permitida, ya que solo hay un grado de libertad, pero "
+"comprar un brazo de varios ejes no lo es."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:13
+msgid ""
+"However, teams can buy individual parts and assemble them together into a "
+"mechanism that has more than one degree of freedom. This doesn't apply to "
+"drivetrain kits."
+msgstr ""
+"Sin embargo, los equipos pueden comprar piezas individuales y ensamblarlas "
+"juntas en un mecanismo que tiene más de un grado de libertad. Esto no se "
+"aplica a los kits de tren de chasises."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:14
+msgid "Packaging"
+msgstr "Empaque"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:16
+msgid ""
+"Packaging refers to the relative size and location of components on the "
+"robot. Generally, you want to design and locate (or package) components in "
+"the most space-efficient way you can."
+msgstr ""
+"El empaquetado se refiere al tamaño relativo y la ubicación de los "
+"componentes en el robot. En general, deseas diseñar y ubicar (o empaquetar) "
+"los componentes de la manera más eficiente en cuanto al espacio que puedas."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:17
+msgid "STEP file"
+msgstr "Archivo STEP"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:19
+msgid ""
+"A STEP file is a filetype used to store 3D data about a part. It is "
+"recognized by different CAD softwares including SolidWorks, Inventor, Creo, "
+"etc."
+msgstr ""
+"Un archivo STEP es un tipo de archivo utilizado para almacenar datos 3D "
+"sobre una pieza. Es reconocido por diferentes softwares de CAD, incluyendo "
+"SolidWorks, Inventor, Creo, etc."

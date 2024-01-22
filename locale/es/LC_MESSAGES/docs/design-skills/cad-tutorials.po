@@ -5,21 +5,544 @@
 # 
 # Translators:
 # Nicolás Flores Verdad Quintana, 2023
-# Victoria Quintana, 2023
-# Yaretzi Lugo, 2024
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 04:16+0000\n"
+"POT-Creation-Date: 2024-01-22 04:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:4
+msgid "CAD Tutorials"
+msgstr "Tutoriales CAD"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:7
+msgid "CAD Tutorial Part 1 - Drivetrain in an Hour"
+msgstr "Tutorial CAD Parte 1 - Chasis en una hora"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:10
+msgid "Choosing the Drivetrain"
+msgstr "Elegir el chasis "
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:12
+msgid ""
+"After learning your :term:`CAD <Computer-aided design (CAD)>` program of "
+"choice, determine the necessary requirements for the drivetrain based on the"
+" current game. Teams should shoot for the wheelbase that works the best in "
+"that specific field's layout."
+msgstr ""
+"Después de aprender el programa :term:`CAD <Computer-aided design (CAD)>` de"
+" su elección, determine los requisitos necesarios para chasis en función del"
+" juego actual. Los equipos deberían optar por el chasis que mejor funcione "
+"en el trazado de ese campo específico."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:14
+msgid ""
+"For instance, in Relic Recovery (2017-2018) a drivetrain required precision "
+"to not only grab glyphs from the center pit, but also to line up against the"
+" cryptobox. Thus, mecanum wheels and a wide center section of the robot "
+"proved an advantage over a 6 wheel tank drive. (However, it should be noted "
+"that with sufficient practice and competent drivers, any drive base can be "
+"competitive up to a certain extent)."
+msgstr ""
+"Por ejemplo, en Relic Recovery (2017-2018) un chasis requería precisión no "
+"solo para agarrar glifos del foso central, sino también para alinearse "
+"contra la criptocaja. Así, las ruedas mecanum y una sección central ancha "
+"del robot resultaron ser una ventaja frente a una tracción de tanque de 6 "
+"ruedas. (Sin embargo, hay que señalar que, con suficiente práctica y "
+"conductores competentes, cualquier chasis puede ser competitivo hasta cierto"
+" punto)."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:16
+msgid ""
+"After selecting a drivebase, determine the number of motors. Keep in mind "
+"the eight motor limit is a pain that shouldn't be ignored. A good rule of "
+"thumb is four motors for driving and four motors for the other mechanisms "
+"(e.g. intakes, linear slides, arm, etc.) For most modern FTC\\ |reg| games, "
+"you need minimum 7 motors to be highly competitive, although 8 is a good "
+"rule of thumb."
+msgstr ""
+"Después de seleccionar un chasis, determina el número de motores. Ten en "
+"cuenta que el límite de ocho motores es una molestia que no debe ser "
+"ignorada. Una buena regla general es utilizar cuatro motores para la "
+"conducción y cuatro motores para los otros mecanismos (por ejemplo, intakes,"
+" deslizadores lineales, brazo, etc.). Para la mayoría de los juegos modernos"
+" de FTC\\ |reg|, necesitas un mínimo de 7 motores para ser altamente "
+"competitivo, aunque 8 es una buena regla general."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:19
+msgid "Designing the Drivetrain Plates"
+msgstr "Diseño de las Placas del Chasis"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:21
+msgid ""
+"After learning the CAD software, it's time to start the actual design. Here "
+"are some things to figure out before starting:"
+msgstr ""
+"Después de aprender el software CAD, es hora de empezar el diseño "
+"propiamente. He aquí algunas cosas que hay que tener en cuenta antes de "
+"empezar:"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:23
+msgid "Drive Type (mecanum, 6wd, 8wd, etc.)"
+msgstr "Tipo de conducción (mecanum, 6wd, 8wd, etc.)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:24
+msgid "Number of Motors (four motors recommended in most cases)"
+msgstr ""
+"Número de motores (se recomiendan cuatro motores en la mayoría de los casos)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:25
+msgid ""
+"Type of wheels (:term:`Traction <Traction Wheel>`, :term:`omni <Omni "
+"Wheel>`, etc.)"
+msgstr ""
+"Tipo de ruedas (:term:`Traction <Traction Wheel>`, :term:`omni <Omni "
+"Wheel>`, etc.)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:26
+msgid ""
+"Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, :term:`gear "
+"<Gear>`)"
+msgstr ""
+"Potencia motriz (:term:`correa <HTD Belt>`, :term:`cadena <Sprocket>`, "
+":term:`engranaje <Gear>`)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:28
+msgid ""
+"To keep it simple, this example uses a 4 wheel tank drive using four motors."
+" The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to "
+"aid in turning."
+msgstr ""
+"Para simplificar, este ejemplo utiliza una tracción en tanque de 4 ruedas "
+"con cuatro motores. Las ruedas seleccionadas son 2 ruedas Colson para "
+"tracción, y 2 ruedas omni para ayudar en el giro."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:30
+msgid ""
+"First, make the left side of the drivebase. After completing it, all you "
+"have to do is mirror the left side to the right, so you don't have to do "
+"each side individually. Start with a 2D sketch of everything before trying "
+"to extrude and make actual 3D objects."
+msgstr ""
+"Primero, has la placa lado izquierdo. Después de completarlo, todo lo que "
+"tienes que hacer es reflejar el lado izquierdo al derecho, por lo que no "
+"tienes que hacer cada lado individualmente. Empieza con un boceto 2D de todo"
+" antes de intentar extruir y hacer objetos 3D reales."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Drivetrain Plate Technical Drawing"
+msgstr "Placas del Chasis Dibujo Técnico"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:36
+msgid ""
+"This is a sketch of the inner plate of the drive base. Everything should be "
+"laid out in a 2D sketch to determine the mounting holes, :term:`bore "
+"<Bore>`, :term:`center-to-center distance <C2C>`, etc. 2D sketches are "
+"extremely helpful and are highly recommended in any project. After the "
+"sketch is completed, everything else falls into place and becomes pretty "
+"simple."
+msgstr ""
+"Esto es un dibujo de la placa interior de la base de accionamiento. Todo "
+"debe trazarse en un dibujo 2D para determinar los orificios de montaje, "
+":term:`agujero de eje <Bore>`, :term:`distancia de centro a centro <C2C>`, "
+"etc. Los croquis 2D son extremadamente útiles y muy recomendables en "
+"cualquier proyecto. Una vez realizado el croquis, todo lo demás encaja y "
+"resulta bastante sencillo."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:38
+msgid ""
+"After this, extrude that sketch into the first plate of the drivetrain. "
+"Typically, a standard thickness of aluminum plate is 1/8\". Thinner plate "
+"(3/32\") can be used as well, but generally most teams stick to 1/8\". "
+"Extrude the plate to that thickness. Below is the sketch after extruding."
+msgstr ""
+"Después de esto, extruir ese boceto en la primera placa del chasis. "
+"Normalmente, el grosor estándar de la placa de aluminio es de un 1/8  de "
+"pulgada También se pueden utilizar placas más finas ( un 3/32 de pulgada), "
+"pero la mayoría de los equipos suelen utilizar placas de un 1/8 de pulgada. "
+"Extruir la placa a ese espesor. A continuación se muestra el boceto después "
+"de la extrusión."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Inner Drivetrain Plate"
+msgstr "Placa Interior del Chasis  "
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:43
+msgid ""
+"The next step will be making the outer plate for the drivebase. It is even "
+"faster to do than the inner. To do this, simply create a new part. Go back "
+"to your inner plate and start a 2D sketch."
+msgstr ""
+"El siguiente paso será hacer la placa exterior para la base del chasis. Es "
+"aún más rápido de hacer que la interior. Para ello, basta con crear una "
+"nueva pieza. Vuelve a tu placa interior e inicia un boceto 2D."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Drivetrain Plate, with entire face seleected"
+msgstr "Placa del chasis, con toda la cara seleccionada"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:49
+msgid ""
+"After starting the new sketch on the inner plate, hit \"Project Geometry\" "
+"and just click anywhere on the part. It should highlight every outline of "
+"the part. (Shown here is a yellow line; yours might be red, blue or some "
+"other color.) Now click and drag across the part selecting every line on the"
+" screen. Now go hit CTRL + C, then go to the new part and hit create 2D "
+"Sketch. Next hit CTRL + V."
+msgstr ""
+"Tras iniciar el nuevo boceto en la placa interior, pulsa \"Proyectar "
+"geometría\" y haz clic en cualquier parte de la pieza. Debería resaltar "
+"todos los contornos de la pieza. (Aquí se muestra una línea amarilla; la "
+"tuya puede ser roja, azul o de otro color.) Ahora haz clic y arrastra a "
+"través de la pieza seleccionando cada línea en la pantalla. Ahora pulsa CTRL"
+" + C, luego ve a la nueva pieza y pulsa crear un dibujo 2D. A continuación, "
+"pulsa CTRL + V."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid ""
+"Drivetrain inner plate with the parts specific to the inner plate selected"
+msgstr ""
+"Placa interior del chasis con las piezas específicas de la placa interior "
+"seleccionada"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:54
+msgid ""
+"It should look like an exact copy of the inner plate but now as a sketch. "
+"Delete your motor mounts out of the middle, then extrude the outer plate."
+msgstr ""
+"Debe parecer una copia exacta de la placa interior pero ahora como un "
+"boceto. Elimina los soportes del motor del centro y extruye la placa "
+"exterior."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Outer Drivetrain Plate"
+msgstr "Placa Exterior del Chasis"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:59
+msgid ""
+"This is what the outer plate looks like, an almost exact copy of the inner "
+"one without the holes for the motors. Now with those two plates made, it's "
+"really just time to assemble the rest of the drivetrain, which is by far the"
+" most time consuming. Now, for some info on what to use to attach the two "
+"plates together, generally standoffs or churro is highly recommended. To "
+"attach the two halves of the drivetrain, use either channel, extrusion, or a"
+" custom u-brace. Some teams prefer a custom brace as it is a good way to "
+"stiffen up the drivetrain while requiring very little maintenance over the "
+"season. It is possible to use peanut extrusion or kit channel, which "
+"alternatively works just as well."
+msgstr ""
+"Este es el aspecto de la placa exterior, una copia casi exacta de la "
+"interior sin los agujeros para los motores. Ahora con esas dos placas "
+"hechas, es realmente sólo el momento de montar el resto del chasis, que es, "
+"con mucho, el que más tiempo consume. Ahora, para obtener información sobre "
+"lo que se debe utilizar para unir las dos placas, por lo general standoffs o"
+" churros es muy recomendable. Para unir las dos mitades del chasis, se puede"
+" utilizar u canal, extrusión o una abrazadera en U personalizada. Algunos "
+"equipos prefieren una abrazadera a medida, ya que es una buena manera de "
+"endurecer el chasis y requiere muy poco mantenimiento a lo largo de la "
+"temporada. Es posible utilizar extrusión de cacahuete o canal de kit, que "
+"alternativamente funciona igual de bien."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:61
+msgid ""
+"Note that when using a custom drivetrain, you can cut out material from your"
+" drivetrain plates. This process is called **pocketing**. While not a vital "
+"step, pocketing helps you save weight. However, be careful not to remove too"
+" much material; if done, the plates become less sturdy. More about pocketing"
+" is in the next section."
+msgstr ""
+"Tener en cuenta que cuando se utiliza un chasis personalizado, puede "
+"recortar material de sus placas del chasis. Este proceso se llama "
+"**pocketing**. Aunque no es un paso vital, el pocketing ayuda a ahorrar "
+"peso. Sin embargo, se debe tener cuidado de no quitar demasiado material; si"
+" lo hace, las placas se vuelven menos resistentes. Más información sobre el "
+"pocketing en la siguiente sección."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:64
+msgid "Additional Considerations"
+msgstr "Consideraciones Adicionales"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:66
+msgid ""
+"Powering wheels can be done is a couple different ways through either belts "
+"and pulleys, chains and sprockets, gears, or even powered directly from the "
+"motor. Direct drive and chains are the simpler of the options, with direct "
+"drive not needing a calculated distance at all just have to set the motor "
+"exactly where the center of the wheel is. Chains allow for a little bit of "
+"slack not needing an exact center to center distance in the wrap like belts "
+"and pulleys do. Finally gears which need to be a certain distance apart from"
+" each other to mesh properly and not skip or bind."
+msgstr ""
+"El accionamiento de las ruedas puede hacerse de maneras diferentes: mediante"
+" correas y poleas, cadenas y piñones, engranajes o incluso directamente "
+"desde el motor. La transmisión directa y las cadenas son las opciones más "
+"sencillas, ya que la transmisión directa no necesita una distancia "
+"calculada, sólo hay que colocar el motor exactamente en el centro de la "
+"rueda. Las cadenas permiten un poco de holgura al no necesitar una distancia"
+" exacta de centro a centro en la envoltura como hacen las correas y las "
+"poleas. Por último, los engranajes deben estar a cierta distancia unos de "
+"otros para engranar correctamente y no saltar o atascarse."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:68
+msgid ""
+"Mounting motors is done in a plate style by face mounting the motor into the"
+" innermost drivetrain plate. It can also be done by mounting the motors to a"
+" 3rd plate, located in between the outside and inside. This allows for the "
+"motor to take up less space in the middle of the robot, but adds complexity."
+" Motors should always be as low as possible and depending where you want the"
+" center of mass, either the middle or towards the back of the robot. It is "
+"also worth keeping in mind the type of power transmission and the expediency"
+" of doing so in light of the motor placement."
+msgstr ""
+"El montaje de los motores se realiza en un estilo de placa mediante el "
+"montaje frontal del motor en la placa de transmisión más interna. También "
+"puede hacerse montando los motores en una 3era placa, situada entre el "
+"exterior y el interior. Esto permite que el motor ocupe menos espacio en el "
+"centro del robot, pero añade complejidad. Los motores siempre deben estar lo"
+" más abajo posible y dependiendo de dónde quieras el centro de masa, en el "
+"centro o hacia la parte trasera del robot. También conviene tener en cuenta "
+"el tipo de transmisión de potencia y la conveniencia de hacerlo en función "
+"de la colocación del motor."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:70
+msgid ""
+"Ground clearance is all dependent on if there are any obstacles on the "
+"field, as well as what your team wants to do in that game in regards to said"
+" obstacles."
+msgstr ""
+"La distancia al suelo depende de si hay obstáculos en el campo, así como de "
+"lo que tu equipo quiera hacer en ese partido con respecto a dichos "
+"obstáculos."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:72
+msgid ""
+"For example, in Rover Ruckus some teams with tank drivetrains decided to "
+"enter the crater. Therefore, they left enough space to not beach themselves "
+"on top of the crater, a common mistake that inexperienced teams often make."
+msgstr ""
+"Por ejemplo, en Rover Ruckus algunos equipos con una configuración tanque en"
+" su chasis decidieron entrar en el cráter. Por lo tanto, dejaron espacio "
+"suficiente para no vararse encima del cráter, un error común que suelen "
+"cometer los equipos inexpertos."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:74
+msgid ""
+"Other teams decided to ignore driving over the crater and decided to reach "
+"over with an arm or slide system, which meant they didn't need a lot of "
+"ground clearance for their drivebase."
+msgstr ""
+"Otros equipos decidieron ignorar la conducción sobre el cráter y optaron por"
+" alcanzarlo con un brazo o un sistema de deslizamiento, lo que significaba "
+"que no necesitaban mucha distancia al suelo para su base de su chasis."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:76
+msgid ""
+"Typically, anywhere from .25 inches of clearance to .5 inches (if you want "
+"to be safe) on a completely flat field will allow for the weight of the "
+"robot to push into the foam tiles. Nothing else from the robot should touch "
+"the ground."
+msgstr ""
+"Normalmente, desde .25 pulgadas (0.7 centímetros) de espacio libre hasta .5 "
+"pulgadas (1.3 centímetros) (si quieres estar seguro) en un campo "
+"completamente plano permitirá que el peso del robot se empuje hacia las "
+"baldosas de espuma. Nada más del robot debe tocar el suelo."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:78
+msgid ""
+"Something you can do is set the robot in CAD onto a field. Set up obstacles "
+"such as the crater and simulate driving over the crater by moving it across "
+"like you think it would in the real world."
+msgstr ""
+"Algo que puedes hacer es colocar el robot en CAD sobre un terreno. Coloca "
+"obstáculos como el cráter y simula la conducción sobre el cráter moviéndolo "
+"como crees que lo haría en el mundo real."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:80
+msgid ""
+"If either of the plates intersect with the obstacle, add some more clearance"
+" so you don't get beached like a sad whale."
+msgstr ""
+"Si alguna de las placas se cruza con el obstáculo, añade algo más de espacio"
+" libre para que no quedes varado como una triste ballena."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:82
+msgid ""
+"A general rule of thumb for most teams is the wider the intake, the better "
+"the chance of picking up the game piece. However, this is super game "
+"dependent. If you need to pick up a 6\" cube like in Relic Recovery then you"
+" would not need 14\" of space for your intake."
+msgstr ""
+"Una regla general para la mayoría de los equipos es que cuanto más amplia "
+"sea la entrada, mayor será la posibilidad de recoger la ficha de juego. Sin "
+"embargo, esto depende mucho del juego. Si necesitas recoger un cubo de 6 "
+"pulgadas, como en Relic Recovery, no necesitarás 14 pulgadas de espacio para"
+" la entrada."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:84
+msgid ""
+"However, if you need to pick up a ball like in Velocity Vortex, the bigger "
+"the intake gives you better chances of grabbing the balls. Keep this in mind"
+" when designing drive pods - try to keep them as thin as possible without "
+"sacrificing rigidity and strength to maximize space for other mechanisms and"
+" wiring."
+msgstr ""
+"Sin embargo, si necesitas recoger una bola como en Velocity Vortex, cuanto "
+"mayor sea la entrada más posibilidades tendrás de agarrar las bolas. Ten "
+"esto en cuenta al diseñar las cápsulas de propulsión: intenta que sean lo "
+"más finas posible sin sacrificar rigidez y resistencia para maximizar el "
+"espacio para otros mecanismos y cableado."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:86
+msgid ""
+"Connecting your two plates together is really simple. Some standoffs or "
+"churro extrusion from AndyMark is a relatively easy way to connect them "
+"together with a few bolts. Just make a few 1/4 in. holes in your sketch "
+"where you want the churro tube to be. Decide how long the churro needs to "
+"be. Remember to leave enough space between the plates for your wheels, "
+"pulleys, sprockets, and spacers. You don't need to go overkill on how many "
+"standoffs you need in between your plates; however, put them in strategic "
+"places where support is needed."
+msgstr ""
+"Conectar las dos placas es muy sencillo. Algunos separadores o churro "
+"extrusión de AndyMark es una manera relativamente fácil de conectarlos entre"
+" sí con unos pocos tornillos. Sólo tienes que hacer unos agujeros de 1/4 "
+"pulg. en tu boceto donde quieres que esté el tubo de churro. Decide la "
+"longitud que debe tener el churro. Recuerda dejar suficiente espacio entre "
+"las placas para tus ruedas, poleas, piñones y espaciadores. No es necesario "
+"que te pases con el número de separadores que necesitas entre las placas; "
+"sin embargo, colócalos en lugares estratégicos donde se necesite apoyo."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Left side drivetrain pod"
+msgstr "Módulo del chasis izquierdo"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:93
+msgid ""
+"After mirroring the drive pod to make your opposite side, connect those two "
+"halves together and you're done with the drivetrain. Below is a rendering of"
+" the complete drivetrain in CAD."
+msgstr ""
+"Después de reflejar la cápsula de conducción para hacer su lado opuesto, "
+"conectar las dos mitades juntas y ya terminaste con el chasis. A "
+"continuación, se muestra una representación del chasis completo en CAD."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:99
+msgid "CAD Tutorial Part 2 - Pocketing Guide"
+msgstr "Tutorial CAD Parte 2 - Guía de Pocketing"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:101
+msgid "Term"
+msgstr "Término"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:104
+msgid "Pocketing"
+msgstr "Pocketing"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:106
+msgid ""
+"\"Pocketing\" is a common term in FTC and FRC\\ |reg| lingo that refers to "
+"cutting out excess material from a CAD designed part. Pocketing helps to "
+"reduce weight and can increase strength of a part. This may seem "
+"counterintuitive (how can removing material strengthen a part?) but "
+"pocketing can reduce stress buildup, especially at corners."
+msgstr ""
+"\"Pocketing\" es un término común en la jerga de FTC y FRC que se refiere a "
+"recortar el exceso de material de una pieza diseñada con CAD. El Pocketing "
+"ayuda a reducir el peso y puede aumentar la resistencia de una pieza. Esto "
+"puede parecer contradictorio (¿cómo puede reforzar una pieza la eliminación "
+"de material?), pero el pocketing puede reducir la acumulación de tensiones, "
+"especialmente en las esquinas."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:108
+msgid ""
+"Pocketing is often seen on drivetrain sheet metal plates which will be CNC "
+"machined. In FRC, pocketing is often used to reduce weight of the "
+"rectangular aluminum tubes."
+msgstr ""
+"El Pocketing se ve a menudo en las placas de metal del chasis que serán "
+"maquinadas por CNC. En FRC, el pocketing se utiliza a menudo para reducir el"
+" peso de los tubos rectangulares de aluminio."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:110
+msgid ""
+"There are several ways to machine pockets into material including milling, "
+"routing, water jet cutting, laser cutting and even hand drilling. Depending "
+"on your access to tooling, pocketing can be more or less difficult for you."
+msgstr ""
+"Hay varias formas de maquinar cavidades en el material: trituración, "
+"enrutamiento, corte por chorro de agua, corte por láser e incluso taladrado "
+"manual. Dependiendo de su acceso a las herramientas, el pocketing puede "
+"resultarle más o menos difícil."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:114
+msgid ""
+"When designing pockets, **it's important to consider the type of material, "
+"thickness, and how much stress will be on the part**. Materials that are "
+"weaker, thinner or under significant stress should have less \"aggressive\" "
+"pocketing and materials that are stronger, thicker or under less stress can "
+"have more \"aggressive\" pocketing. Aggressive pocketing refers to the "
+"amount of material removal from the blank part (more aggressive = more "
+"material removal)."
+msgstr ""
+"Al diseñar pockets, **es importante tener en cuenta el tipo de material, el "
+"grosor y la tensión a la que estará sometida la pieza**. Los materiales más "
+"débiles, más finos o sometidos a una tensión mayor deben tener un pocketing "
+"menos \"agresivo\" y los materiales más fuertes, más gruesos o sometidos a "
+"menos tensión pueden tener un pocketing más \"agresivo\". El pocketing "
+"agresivo se refiere a la cantidad de material eliminado de la pieza en bruto"
+" (más agresivo = más material eliminado)."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:116
+msgid ""
+"Although a bit complex to understand, FEA (finite element analysis) can be "
+"used to determine appropriate strut thickness when pocketing. FEA can be "
+"used to generate pocketing geometry, but that is an entirely different "
+"rabbit hole."
+msgstr ""
+"Aunque es un poco complicado de entender, el AEF (análisis de elementos "
+"finitos) puede utilizarse para determinar el grosor adecuado de los puntales"
+" con el pocketing. El AEF también puede utilizarse para generar la geometría"
+" del pocketing, pero eso es algo totalmente distinto."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:121
+msgid "FEA of inner drivetrain plate"
+msgstr "AEF de la placa del chasis interior"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:121
+msgid "731 Wannabee Strange, Rover Ruckus, FEA of inner drivetrain plate"
+msgstr ""
+"731 Wannabee Strange, Rover Ruckus, FEA de la placa del chasis interna"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:123
+msgid ""
+"Designing concise and advantageous pocketing is as simple as drawing circles"
+" and tangent lines. Parametric pockets can be defined by one or two offset "
+"values. The offset values determine the thickness of the remaining material."
+msgstr ""
+"Diseñar pocketing concisos y ventajosas es tan sencillo como dibujar "
+"círculos y líneas tangentes. Los pockets paramétricos pueden definirse "
+"mediante uno o dos valores de desplazamiento. Los valores de desplazamiento "
+"determinan el grosor del material restante."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:125
+msgid ""
+"Parametric means that the entire sketch is defined by a parameter, in this "
+"case is the offset value which when adjusted will automatically adjust the "
+"entire sketch (in terms of material thickness)."
+msgstr ""
+"Paramétrico significa que todo el sketch está definido por un parámetro, en "
+"este caso es el valor de desplazamiento que cuando se ajusta ajustará "
+"automáticamente todo el sketch (en términos de espesor del material)."
