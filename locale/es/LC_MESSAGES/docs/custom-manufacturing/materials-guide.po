@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 04:15+0000\n"
+"POT-Creation-Date: 2024-01-23 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -21,3 +21,192 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:4
+msgid "Materials Guide"
+msgstr "Guía de Materiales"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:6
+msgid ""
+"In FTC\\ |reg|, teams have design freedom in terms of what raw materials to "
+"use. However, there are definitely some important recommendations regarding "
+"material usage."
+msgstr ""
+"En FTC, los equipos tienen libertad de diseño en cuanto a qué materiales "
+"primarios utilizar. Sin embargo, definitivamente hay algunas recomendaciones"
+" importantes con respecto al uso de materiales."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:8
+msgid ""
+"Common raw materials may be found at your local hardware store. McMaster-"
+"Carr and OnlineMetals are two frequently used online vendors. For more "
+"vendors, check the Appendix."
+msgstr ""
+"Las materias primas más comunes pueden encontrarse en su ferretería local "
+"McMaster-Carr y OnlineMetals son dos proveedores en línea que se utilizan "
+"con frecuencia. Para más proveedores, consulte el Apéndice."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:10
+msgid "Here are recommended materials listed in order of importance."
+msgstr ""
+"A continuación, está enlistado los materiales recomendados por orden de "
+"importancia."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:13
+msgid "Recommended Materials"
+msgstr "Materiales Recomendados"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:15
+msgid "Aluminum channel & angle"
+msgstr "Canal y Ángulo de aluminio"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:16
+msgid "Aluminum extrusion (15 and 20 mm)"
+msgstr "Extrusión de aluminio (15 y 20 mm)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:17
+msgid "Polycarbonate (Lexan\\ |trade|)"
+msgstr "Policarbonato (Lexan\\ |trade|)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:18
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:98
+msgid "ABS"
+msgstr "Plástico ABS"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:19
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:114
+msgid "Delrin"
+msgstr "Acetal"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:20
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:125
+msgid "HDPE"
+msgstr "HDPE"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:23
+msgid "Conditionally Recommended"
+msgstr "Recomendado Condicionalmente"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:25
+msgid "Aluminum sheet"
+msgstr "Hoja de aluminio"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:26
+msgid "Aluminum :term:`extrusion <Extrusion>` (1 inch)"
+msgstr "Aluminio: término: 'extrusión <Extrusion>` (1 pulgada)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:27
+msgid "Plywood"
+msgstr "Contrachapado"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:28
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:136
+msgid "Polyvinyl chloride (PVC)"
+msgstr "Cloruro de polivinilo (PVC)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:31
+msgid "Not Recommended"
+msgstr "No Recomendado"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:33
+msgid "Medium-density fiberboard (MDF)"
+msgstr "Tablero de fibra de densidad media (MDF)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:34
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:72
+msgid "Steel"
+msgstr "Acero"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:35
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:148
+msgid "Acrylic"
+msgstr "Acrílico"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:38
+msgid "Metals"
+msgstr "Metales"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:41
+msgid "Aluminum"
+msgstr "Aluminio"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+msgid ""
+"Various aluminum items including extrusion, box tube, flat sheet, channel, "
+"and drawer slides"
+msgstr ""
+"Diversos artículos de aluminio, como extrusiones, tubos de caja, hojas "
+"planas, canales y rieles de cajón"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:47
+msgid ""
+"A high strength, medium-high density material. Suitable for use in nearly "
+"every application; recommended in load-bearing applications."
+msgstr ""
+"Material de alta resistencia y densidad media-alta. Adecuado para su uso en "
+"casi todas las aplicaciones; recomendado en aplicaciones de soporte de "
+"carga."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:48
+msgid ""
+"Aluminum comes in :term:`channel <Channel>`, :term:`extrusion <Extrusion>`, "
+"flat, angle, sheet/plate, and is used in some drawer slides."
+msgstr ""
+"El aluminio se presenta en: término: 'canal <Channel>`, termino: 'extrusión "
+"<Extrusion>`, plano, ángulo, chapa/placa, y se utiliza en algunos rieles "
+"para cajones."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:50
+msgid ""
+"Aluminum :term:`channel <Channel>` is used in many build system kits and is "
+"very popular among teams of various skill levels. :term:`channel <Channel>` "
+"is strong yet relatively lightweight, and offers many mounting options for "
+"teams."
+msgstr ""
+"El: término: `canal <Channel>` de aluminio se utiliza en muchos kits de "
+"sistemas de construcción y es muy popular entre los equipos de varios "
+"niveles de habilidad.: término: 'canal <Channel>` es fuerte pero "
+"relativamente ligero, y ofrece muchas opciones de montaje para los equipos."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:52
+msgid ""
+"15 mm :term:`extrusion <Extrusion>` is compatible with M3 hardware, allowing"
+" teams to slide in bolts to their desired location. REV and MiSUMI offer 15 "
+"mm :term:`extrusion <Extrusion>`. REV :term:`extrusion <Extrusion>` is not "
+"as great structurally, but is lighter than MiSUMI :term:`extrusion "
+"<Extrusion>`. MiSUMI is more resistant to :term:`flexing and/or twisting "
+"under load <Torsional Rigidity>`. Both REV and MiSUMI :term:`extrusion "
+"<Extrusion>` are sold in bulk, and MiSUMI has the option to cut to the half "
+"millimeter. Keep in mind that a lot of :term:`extrusion <Extrusion>` can add"
+" up quickly in terms of weight."
+msgstr ""
+"15 mm: término: `extrusión <Extrusion>` es compatible con el hardware M3, lo"
+" que permite a los equipos deslizar los pernos hasta la ubicación deseada. "
+"REV y MiSUMI ofrecen: término: `extrusión <Extrusion>` de 15 mm. REV: "
+"término: `extrusión <Extrusion>` no es tan buena estructuralmente, pero es "
+"más ligera que MiSUMI :término: 'extrusión <Extrusion>`. MiSUMI es más "
+"resistente al: término: 'flexión y/o torsión bajo carga <Torsional "
+"Rigidity>`. Tanto REV como MiSUMI :término: 'extrusión <Extrusion>` se "
+"venden a granel, y MiSUMI tiene la opción de corte al medio milímetro. Tenga"
+" en cuenta que una gran cantidad de: término:' extrusión <Extrusion>` puede "
+"aumentar rápidamente en términos de peso."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:54
+msgid "Term"
+msgstr "Término"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:57
+msgid "Torsional Rigidity"
+msgstr "Rigidez Torsional"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:59
+msgid ""
+"Torsional rigidity refers to how difficult it is to twist an object due to "
+"an applied torque. This mainly refers to :term:`extrusion <Extrusion>`, as "
+"it is easier to twist extrusion than :term:`channel <Channel>` or an angle "
+"piece, for example."
+msgstr ""
+"La rigidez torsional se refiere a la dificultad de torcer un objeto debido a"
+" un toque aplicado. Esto se refiere principalmente a: término: 'extrusión "
+"<Extrusion>`, ya que es más fácil retorcer la extrusión que un: término: "
+"'canal <Channel>` o una pieza angular, por ejemplo."
