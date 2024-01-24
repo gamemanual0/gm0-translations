@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 04:16+0000\n"
+"POT-Creation-Date: 2024-01-24 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,86 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:2
+msgid "Electronics and Motion Components"
+msgstr "Electrónica y Componentes de Movimiento"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:4
+msgid ""
+"This chapter contains information on electric power and electronics of the "
+"robot, including information on wiring, batteries, motors, and control "
+"system."
+msgstr ""
+"Este capítulo contiene información sobre la energía eléctrica y la "
+"electrónica del robot, incluyendo información sobre el cableado, las "
+"baterías, los motores y el sistema de control."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:19
+msgid "Glossary"
+msgstr "Glosario"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:22
+msgid "Gauge"
+msgstr "Calibre"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:24
+msgid ""
+"Wire gauge refers to the diameter of wire. AWG stands for American Wire "
+"Gauge, the general system used in the US. The larger the gauge number, the "
+"smaller the wire diameter. Generally, :term:`servo <Servo>` wires are 22 AWG"
+" and motor wires are 18 AWG."
+msgstr ""
+"El calibre del cable se refiere al diámetro del cable. AWG significa "
+"American Wire Gauge (Calibre de Alambre Estadounidense CAE), el sistema "
+"general utilizado en los Estados Unidos. Cuanto mayor sea el número de "
+"calibre, menor será el diámetro del alambre. Generalmente, los cables del "
+":term:`servo <Servo>` son de calibre 22 AWG y los cables de motor son de "
+"calibre 18 AWG."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:25
+msgid "Grounding Strap"
+msgstr "Correa de puesta a tierra"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:27
+msgid ""
+"The REV Grounding Strap is used to ground the metal frame of the robot to "
+"the :term:`XT30` port of the Expansion Hub. It is currently the only legal "
+"way to ground your robot."
+msgstr ""
+"La Correa de Puesta a Tierra REV se utiliza para poner a tierra el marco "
+"metálico del robot al puerto :term:`XT30` del Expansion Hub. Actualmente, es"
+" la única forma legal de poner a tierra tu robot."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:0
+msgid "A REV Robotics grounding strap"
+msgstr "Una correa de puesta a tierra de REV Robotics"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:32
+msgid "USB Retention Mount"
+msgstr "Montaje de retención USB"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:34
+msgid ""
+"The USB Retention Mount, sold by REV, is a plastic part affixed to the "
+"Expansion Hub that relieves stress on the USB Mini port. This is especially "
+"important because if the USB cable is loose or disconnected, the robot phone"
+" cannot communicate with the Expansion Hub, causing a disconnect."
+msgstr ""
+"El soporte de retención USB, vendido por REV, es una pieza de plástico "
+"fijada al Expansion Hub que alivia el estrés en el puerto USB Mini. Esto es "
+"especialmente importante porque si el cable USB está suelto o desconectado, "
+"el teléfono del robot no puede comunicarse con el Expansion Hub, lo que "
+"causa una desconexión."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:36
+msgid ""
+"For teams using an expansion hub, it is highly recommended for teams to "
+"purchase the USB retention mount."
+msgstr ""
+"Para los equipos que utilizan un expansion hub, se recomienda "
+"encarecidamente que los equipos compren el montage de retención USB."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:0
+msgid "A USB retention mount attached to a REV Expansion Hub"
+msgstr "Un montage de retención USB adjunto a un REV Expansion Hub."

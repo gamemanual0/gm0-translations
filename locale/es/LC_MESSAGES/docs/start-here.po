@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 16:15+0000\n"
+"POT-Creation-Date: 2024-01-24 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,152 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/start-here.rst:2
+msgid "Start Here"
+msgstr "Comienza aquí"
+
+#: ../../gm0/source/docs/start-here.rst:12
+msgid "Useful Resources"
+msgstr "Recursos útiles"
+
+#: ../../gm0/source/docs/start-here.rst:14
+msgid ""
+"A list of useful resources and accompanying descriptions, with especially "
+"pertinent ones marked."
+msgstr ""
+"Una lista de recursos útiles y descripciones correspondientes, con los más "
+"pertinentes marcados."
+
+#: ../../gm0/source/docs/start-here.rst:20
+msgid "Being a Team"
+msgstr "Ser un equipo"
+
+#: ../../gm0/source/docs/start-here.rst:22
+msgid "Covers how to start, organize, and run an effective team."
+msgstr "Cubre cómo comenzar, organizar y dirigir un equipo efectivo."
+
+#: ../../gm0/source/docs/start-here.rst:25
+msgid "Hardware"
+msgstr "Hardware"
+
+#: ../../gm0/source/docs/start-here.rst:35
+msgid "Design Strategy"
+msgstr "Estrategia de diseño"
+
+#: ../../gm0/source/docs/start-here.rst:37
+msgid "A list of general tips for your team's design process."
+msgstr ""
+"Una lista de consejos generales para el proceso de diseño de tu equipo."
+
+#: ../../gm0/source/docs/start-here.rst:43
+msgid "Design Tradeoffs"
+msgstr "Compensaciones de diseño"
+
+#: ../../gm0/source/docs/start-here.rst:45
+msgid ""
+"Goes over some common robot design decisions and typically superior "
+"alternatives to them."
+msgstr ""
+"Repasa algunas decisiones comunes en el diseño de robots y alternativas "
+"típicamente superiores a las mismas."
+
+#: ../../gm0/source/docs/start-here.rst:51
+msgid "Drivetrains"
+msgstr "Chasis"
+
+#: ../../gm0/source/docs/start-here.rst:53
+msgid ""
+"Because it doesn't matter how good the rest of your mechanisms are if the "
+"robot cannot get to where it needs to be (except maybe if you're 8813 in "
+"Relic Recovery)."
+msgstr ""
+"Porque no importa qué tan buenos sean el resto de tus mecanismos si el robot"
+" no puede llegar a donde necesita estar (excepto tal vez si eres 8813 en "
+"Relic Recovery)."
+
+#: ../../gm0/source/docs/start-here.rst:59
+msgid "Active Intake"
+msgstr "Intake activo"
+
+#: ../../gm0/source/docs/start-here.rst:61
+msgid "Because you want to be able to pick stuff up. Touch it, own it."
+msgstr "Porque quieres poder recoger cosas. Tocarlas, poseerlas."
+
+#: ../../gm0/source/docs/start-here.rst:67
+msgid "Linear Motion Guide"
+msgstr "Guía de movimiento lineal"
+
+#: ../../gm0/source/docs/start-here.rst:69
+msgid ""
+"Moving things further than the constraints of the robot is an extremely "
+"common task, and linear motion is often one of the best ways to do this."
+msgstr ""
+"Mover las cosas más allá de las limitaciones del robot es una tarea "
+"extremadamente común, y el movimiento lineal suele ser una de las mejores "
+"formas de hacerlo."
+
+#: ../../gm0/source/docs/start-here.rst:75
+msgid "Power Transmission"
+msgstr "Transmisión de potencia"
+
+#: ../../gm0/source/docs/start-here.rst:77
+msgid "Different ways to get rotation from point A to point B."
+msgstr ""
+"Diferentes formas de llevar la rotación desde el punto A hasta el punto B."
+
+#: ../../gm0/source/docs/start-here.rst:80
+msgid "Programming/Control System"
+msgstr "Programación/Sistema de Control"
+
+#: ../../gm0/source/docs/start-here.rst:91
+msgid "Options for Programming"
+msgstr "Opciones para programación"
+
+#: ../../gm0/source/docs/start-here.rst:93
+msgid "Because without programming, the robot is just an expensive brick."
+msgstr "Porque sin programación, el robot es solo un ladrillo costoso."
+
+#: ../../gm0/source/docs/start-here.rst:99
+msgid "Control Systems"
+msgstr "Sistemas de Control"
+
+#: ../../gm0/source/docs/start-here.rst:101
+msgid ""
+"Because without a control system, the robot is just a (significantly less) "
+"expensive brick."
+msgstr ""
+"Porque sin un sistema de control, el robot es solo un ladrillo "
+"(significativamente menos) costoso."
+
+#: ../../gm0/source/docs/start-here.rst:107
+msgid "Wiring Guide"
+msgstr "Guía de cableado"
+
+#: ../../gm0/source/docs/start-here.rst:109
+msgid "Because disconnects are no fun."
+msgstr "Porque las desconexiones no son divertidas."
+
+#: ../../gm0/source/docs/start-here.rst:115
+msgid "Programming Tutorial - Mecanum Drivetrain"
+msgstr "Tutorial de programación - Chasis Mecanum "
+
+#: ../../gm0/source/docs/start-here.rst:117
+msgid ""
+"Because mecanum wheels without the right code are some very expensive "
+"questionable quality traction wheels."
+msgstr ""
+"Porque las ruedas mecanum sin el código correcto son unas ruedas de tracción"
+" de calidad cuestionable y muy costosas."
+
+#: ../../gm0/source/docs/start-here.rst:123
+msgid "Computer Vision"
+msgstr "Visión Computarizada"
+
+#: ../../gm0/source/docs/start-here.rst:125
+msgid ""
+"Explains the different common computer vision systems and how to use them "
+"(hopefully this doesn't end with a robot uprising)."
+msgstr ""
+"Explica los diferentes sistemas comunes de visión computarizada y cómo "
+"usarlos (esperemos que esto no termine con un levantamiento de robots)."

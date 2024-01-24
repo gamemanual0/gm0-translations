@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-08 04:16+0000\n"
+"POT-Creation-Date: 2024-01-24 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,114 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:4
+msgid "Active Intake"
+msgstr "Intake activo"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:6
+msgid ""
+"There's one main rule when it comes to intakes in FTC: you need one. Before "
+"diving in, what *is* an intake in the first place?"
+msgstr ""
+"Hay una regla principal cuando se trata de intakes en FTC: necesitas uno. "
+"Antes de sumergirte en, ¿qué *es* un intake en primer lugar?"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:9
+msgid "Intake"
+msgstr "Intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:9
+msgid ""
+"A mechanism designed to pick up game elements using some component of "
+"rotational motion powered by a motor."
+msgstr ""
+"Un mecanismo diseñado para recoger elementos de juego utilizando algún "
+"componente de movimiento rotacional impulsado por un motor."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:11
+msgid ""
+"An intake is differentiated from a claw as an intake does not grasp "
+"individual game elements using a pinching motion, but rather sucks the "
+"element in through a variety of means such as wheels, tubes, etc."
+msgstr ""
+"Un intake se diferencia de una garra en que un intake no agarra elementos "
+"individuales del juego utilizando un movimiento de pellizco, sino que "
+"succiona el elemento a través de una variedad de medios como ruedas, tubos, "
+"etc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:13
+msgid ""
+"There are multiple parts of an effective intake: intake geometry, intake "
+"type and material, and speed. However, a common rule of them is the faster "
+"the intake, often the more effective it is. For example, near the end of "
+"Rover Ruckus, many of the top performing teams used a 3.7:1 (1600 RPM) motor"
+" or a 5.2:1 (1000 RPM) motor on their intake."
+msgstr ""
+"Hay múltiples partes de un intake efectivo: geometría del intake, tipo y "
+"material del intake, y velocidad. Sin embargo, una regla común de estos es "
+"que cuanto más rápido sea el intake, generalmente más efectivo será. Por "
+"ejemplo, cerca del final de Rover Ruckus, muchos de los equipos con mejor "
+"rendimiento utilizaron un motor de 3.7:1 (1600 RPM) o un motor de 5.2:1 "
+"(1000 RPM) en su intake."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:15
+msgid ""
+"While not a necessity, it is highly recommended that teams dedicate at least"
+" one motor to their intake if possible."
+msgstr ""
+"Si bien no es una necesidad, se recomienda encarecidamente que los equipos "
+"dediquen al menos un motor a su intake si es posible."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:17
+msgid ""
+"When it comes to intakes: \"**Touch it, own it**\" is a really valuable "
+"concept."
+msgstr ""
+"Cuando se trata de intakes: \"**Tócalo, hazlo tuyo**\" es un concepto "
+"realmente valioso."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:19
+msgid ""
+"When your intake comes in contact with game elements, you want it to "
+"instantly control them. You should design with a margin for error, both in "
+"the orientation of the game piece and in the alignment of the robot. For "
+"example, look at FRC\\ |reg| Team 694's ball intake on their 2019 robot:"
+msgstr ""
+"Cuando tu intake entra en contacto con elementos del juego, quieres que los "
+"controle instantáneamente. Debes diseñar con un margen de error, tanto en la"
+" orientación de la pieza del juego como en la alineación del robot. Por "
+"ejemplo, mira el intake de pelotas del equipo 694 de FRC en su robot de "
+"2019."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:24
+msgid ""
+"FRC Team 694's Deep Space ball intake with 2 horizontal rollers with "
+"compliant wheels"
+msgstr ""
+"FRC Team 694's intake de bola Deep Space con 2 rodillos horizontales con "
+"ruedas flexibles"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:24
+msgid "FRC 694 StuyPulse, Deep Space"
+msgstr "FRC 694 StuyPulse, Deep Space"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/index.rst:26
+msgid ""
+"When this robot drives up to a ball, it barely has to point itself at the "
+"ball before the ball is instantly locked in between the two rows of wheels. "
+"What makes it so effective is the immense amount of testing that went into "
+"its design. The team tried a number of intake shapes, initially building "
+"with wood and rubber bands, and recorded which shapes were most effective. "
+"By testing their intake design out before competition, they didn't have to "
+"guess whether it would work as intended: they put it on the field with "
+"confidence."
+msgstr ""
+"Cuando este robot se acerca a una pelota, apenas tiene que apuntarse hacia "
+"la pelota antes de que la pelota se bloquee instantáneamente entre las dos "
+"filas de ruedas. Lo que lo hace tan efectivo es la inmensa cantidad de "
+"pruebas que se realizaron en su diseño. El equipo probó varias formas de "
+"intake, inicialmente construyendo con madera y bandas de goma, y registró "
+"qué formas eran más efectivas. Al probar su diseño de intake antes de la "
+"competencia, no tuvieron que adivinar si funcionaría como se pretendía: lo "
+"pusieron en el campo con confianza."

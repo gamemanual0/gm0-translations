@@ -5,18 +5,167 @@
 # 
 # Translators:
 # Eli Villalba, 2023
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 04:16+0000\n"
+"POT-Creation-Date: 2024-01-24 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Eli Villalba, 2023\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:4
+msgid "Sample Drivetrains"
+msgstr "Ejemplo de Chasis"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:6
+msgid ""
+"In this section, we compile several sample drivetrains which you can use as "
+"a starting point for your own designs. You should also check the "
+":doc:`gallery of robot designs </docs/appendix/gallery>` in the Appendix."
+msgstr ""
+"En esta sección, recopilamos varios ejemplos de chasises que puedes utilizar"
+" como punto de partida para tus propios diseños. También deberías consultar "
+"la :doc:`galería de diseños de robots </docs/appendix/gallery>` en el "
+"Apéndice."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:8
+msgid ""
+"`goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit-v4/>`_"
+msgstr ""
+"`goBILDA chasis strafer <https://www.gobilda.com/strafer-chassis-kit-v4/>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:9
+msgid ""
+"Basic mecanum chassis by goBILDA. Simple and easy to build chassis, "
+"providing an excellent starting point for robots built from goBILDA parts."
+msgstr ""
+"Chasis mecanum básico de goBILDA. Chasis simple y fácil de construir, que "
+"proporciona un excelente punto de partida para los robots construidos a "
+"partir de piezas goBILDA."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:10
+msgid ""
+"`goBILDA BeeLine Chassis <https://www.gobilda.com/beeline-chassis-kit/>`_"
+msgstr ""
+"`goBILDA BeeLine Chasis <https://www.gobilda.com/beeline-chassis-kit/>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:11
+msgid ""
+"Basic 6 wheel drive chassis by goBILDA. Simple and easy to build chassis, "
+"providing an excellent starting point for robots built from goBILDA parts."
+msgstr ""
+"Chasis básico de 6 ruedas motrices de goBILDA. Chasis simple y fácil de "
+"construir, proporcionando un excelente punto de partida para los robots "
+"construidos a partir de piezas goBILDA."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:13
+msgid ""
+"`Strafer chassis with Dead Wheels "
+"<https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_"
+msgstr ""
+"`Strafer chasis con ruedas muertas "
+"<https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:13
+msgid ""
+"Modification of goBILDA chassis by FTC\\ |reg| 9794 Wizards.exe, which adds "
+":term:`dead wheels <Dead Wheel>`. Also see their video tutorials: "
+"https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp"
+msgstr ""
+"Modificación del chasis de goBILDA por FTC |reg| 9794 Wizards.exe, que añade"
+" :term:`ruedas muertas <Dead Wheel>`. También puedes ver sus tutoriales en "
+"vídeo: https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:15
+msgid ""
+"`REV Robotics 6 wheel drivetrain <https://docs.revrobotics.com/duo-"
+"build/channel-drivetrain-build-guide>`_"
+msgstr ""
+"`REV Robotics Chasis de 6 llantas <https://docs.revrobotics.com/duo-"
+"build/channel-drivetrain-build-guide>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:16
+msgid "Sample 6 wheel drivetrain built using REV kit."
+msgstr "Ejemplo de chasis de 6 ruedas construida con el kit REV."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:17
+msgid ""
+"`AndyMark Tile Runner chassis <https://www.andymark.com/products/tilerunner-"
+"options>`_"
+msgstr ""
+"`AndyMark Tile Runner chasis <https://www.andymark.com/products/tilerunner-"
+"options>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:18
+msgid ""
+"A universal chassis kit sold by AndyMark. It is available in several "
+"modifications: 6 wheel, mecanum, tank tread. It is expensive, but using "
+"provided 3d models as inspiration for your own drivetrain is free."
+msgstr ""
+"Un kit de chasis universal vendido por AndyMark. Está disponible en varias "
+"modificaciones: 6 ruedas, mecanum, banda de rodadura del tanque. Es caro, "
+"pero el uso de modelos 3d proporcionados como inspiración para su propio "
+"chasis es gratis."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:19
+msgid ""
+"`Wizards.exe 6 wheel drive chassis "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+msgstr ""
+"`Wizards.exe chasis de 6 ruedas motrices "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:20
+msgid ""
+"Another design by FTC 9794 Wizards.exe. Combines custom side panels with "
+"Actobotics parts (gears, chain sprockets)."
+msgstr ""
+"Otro diseño de FTC 9794 Wizards.exe. Combina paneles laterales "
+"personalizados con piezas de Actobotics (engranajes, piñones de cadena)."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:21
+msgid ""
+"`Custom drivetrain by FTC 14875 LightSpeed "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+msgstr ""
+"`Chasis personalizado por FTC 14875 LightSpeed "
+"<https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:22
+msgid ""
+"This design uses goBILDA mecanum wheels, motors, and some channels combined "
+"with custom side plates."
+msgstr ""
+"Este diseño utiliza ruedas mecanum goBILDA, motores y algunos canales "
+"combinados con placas laterales personalizadas."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:25
+msgid ""
+"`NX VANTAGE-H "
+"<https://cad.onshape.com/documents/3d22333d5ba0abcc62edb57e/w/fa027f644666441544a378c6/e/693039a92658a00632996b28>`_"
+msgstr ""
+"`NX VANTAGE-H "
+"<https://cad.onshape.com/documents/3d22333d5ba0abcc62edb57e/w/fa027f644666441544a378c6/e/693039a92658a00632996b28>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/drivetrain-gallery.rst:24
+msgid ""
+"Another custom drivetrain using goBILDA mecanum wheels, by redditor "
+"/u/nateless. Note that this design can be viewed but not downloaded---this "
+"is intentional; see his `original reddit post "
+"<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_."
+msgstr ""
+"Otro chasis personalizado con ruedas mecanum de goBILDA, por el redditor "
+"/u/nateless. Ten en cuenta que este diseño puede verse pero no descargarse; "
+"esto es intencionado; consulta su `publicación original en reddit "
+"<https://www.reddit.com/r/FTC/comments/c8vlsj/cad_for_nx_vantageh_is_going_public/>`_."
