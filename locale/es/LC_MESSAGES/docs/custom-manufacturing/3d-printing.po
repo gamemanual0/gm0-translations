@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 04:15+0000\n"
+"POT-Creation-Date: 2024-01-24 04:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -29,6 +29,24 @@ msgstr "Impresión 3D"
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:7
 msgid "Kinds of 3D Printing"
 msgstr "Tipos de Impresión 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:9
+msgid ""
+"There are a few different kinds of 3D printing. FDM (Fused Deposition "
+"Modeling) (also known as Fused Filament Fabrication) extrudes a melted "
+"filament to create a part and is the most common type and the one we'll "
+"focus on in this guide. SLA (stereolithography) and SLS (Selective Laser "
+"Sintering) are both options for 3D printing plastics, but they are generally"
+" more complex, expensive, or hold other disadvantages in FTC\\ |reg| "
+"applications. For those reasons, they are not recommended."
+msgstr ""
+"Hay varios tipos diferentes de impresión 3D. FDM (Modelado por Deposición "
+"Fundida) (también conocido como Fabricación por Filamento Fundido) extruye "
+"un filamento fundido para crear una pieza y es el tipo más común y en el que"
+" nos enfocaremos en esta guía. SLA (estereolitografía) y SLS (Sinterización "
+"Selectiva por Láser) son opciones para imprimir plásticos en 3D, pero "
+"generalmente son más complejas, costosas o tienen otras desventajas en "
+"aplicaciones de FTC\\ |reg|. Por estas razones, no se recomiendan."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:11
 msgid ""
@@ -181,6 +199,25 @@ msgstr ""
 "bastante razonables. La mayoría de los otros filamentos ofrecen ventajas muy"
 " específicas (como el TPU) que vienen a costa de tiempo, esfuerzo y dinero."
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
+msgid ""
+"If your printer's hotend (the part that melts the filament) has a PTFE "
+"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
+"(common in lower price printers like the Ender 3 and its variants), then you"
+" **should not be printing at or above 250 degrees Celsius**. Doing so will "
+"cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need "
+"to print at these temperatures and you have a PTFE lined hotend, you can "
+"look at upgrading to an all-metal hotend."
+msgstr ""
+"Si el hotend de tu impresora (la parte que derrite el filamento) tiene un "
+"revestimiento de PTFE (Teflón) donde el tubo de PTFE llega hasta el bloque "
+"de calor (común en impresoras de menor precio como la Ender 3 y sus "
+"variantes), entonces **no debes imprimir a una temperatura igual o superior "
+"a 250 grados Celsius**. Hacerlo causará que el tubo de PTFE se degrade y se "
+"derrita, liberando gases tóxicos. Si necesitas imprimir a estas temperaturas"
+" y tienes un hotend revestido de PTFE, puedes considerar actualizar a un "
+"hotend completamente metálico."
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
 msgid "PLA (Polylactic Acid)"
 msgstr "PLA (ácido poliláctico)"
@@ -202,6 +239,19 @@ msgstr ""
 "necesitar en tu robot, pero puede que no resista bien las cargas de choque "
 "(impactos en las piezas), por lo que éstas deben diseñarse tomando esto en "
 "consideración."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
+msgid "PLA hotend temperatures range from 190\\ |deg|-230\\ |deg| C"
+msgstr ""
+"Los rangos de temperatura del hotend PLA van desde 190\\ |deg|-230\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
+msgid ""
+"PLA bed temperatures range from 20\\ |deg|-60\\ |deg| C, but a heated bed "
+"isn't strictly required for PLA"
+msgstr ""
+"Las temperaturas de la cama PLA van desde 20\\ |deg|-60\\ |deg| C, pero no "
+"es estrictamente necesario tener una cama caliente para PLA."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
 msgid ""
@@ -263,6 +313,16 @@ msgstr ""
 "buena idea añadir un poco de pegamento en barra o spray de cabello antes de "
 "imprimirlo."
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
+msgid "PETG hotend temperatures range from 230\\ |deg|-260\\ |deg| C"
+msgstr ""
+"Los rangos de temperatura del hotend PETG van desde 230\\ |deg|-260\\ |deg| "
+"C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
+msgid "PETG bed temperatures range from 60\\ |deg|-80\\ |deg| C"
+msgstr "Las temperaturas de la cama PETG van desde 60\\ |deg|-80\\ |deg| C"
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
 msgid "Less Common Filaments"
 msgstr "Filamentos Menos Comunes"
@@ -286,6 +346,35 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
 msgid "ABS (Acrylonitrile Butadiene Styrene)"
 msgstr "ABS (Acrilonitrilo Butadieno Estireno)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:70
+msgid ""
+"ABS used to be the standard filament for printing before PLA became "
+"commercially available. You've probably used ABS before in LEGO\\ |reg| "
+"pieces. It can withstand high loads and is quite ductile. This comes at the "
+"cost of printing difficulty, where an enclosure is often necessary to raise "
+"the ambient temperature and prevent severe part warping. The strength "
+"improvements over PLA can be more easily found in PETG, so ABS parts are not"
+" as common in FTC. ABS is quite affordable though, sold at the same prices "
+"as PLA."
+msgstr ""
+"ABS solía ser el filamento estándar para la impresión antes de que el PLA "
+"estuviera disponible comercialmente. Probablemente hayas usado ABS antes en "
+"piezas de LEGO\\ |reg|. Puede soportar cargas altas y es bastante dúctil. "
+"Esto tiene un costo en la dificultad de impresión, donde a menudo es "
+"necesario un recinto para aumentar la temperatura ambiente y evitar "
+"deformaciones graves en la pieza. Las mejoras en resistencia sobre el PLA se"
+" pueden encontrar más fácilmente en PETG, por lo que las piezas de ABS no "
+"son tan comunes en FTC. Sin embargo, el ABS es bastante asequible, se vende "
+"a los mismos precios que el PLA."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
+msgid "ABS hotend temperatures range from 230\\ |deg|-250\\ |deg| C"
+msgstr "El rango de temperaturas del hotend ABS va de 230\\ |deg|-250\\ |deg| C."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
+msgid "ABS bed temperatures range from 100\\ |deg|-120\\ |deg| C"
+msgstr "Las temperaturas de la cama ABS oscilan entre 100\\ |deg|-120\\ |deg| C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
 msgid "Enclosure highly recommended to prevent warping"
@@ -335,6 +424,19 @@ msgstr ""
 "Debido a su naturaleza flexible, las impresoras que utilizan un sistema de "
 "extrusión de tubo Bowden, en el que el motor del extrusor no se coloca en el"
 " hotend, tendrán grandes dificultades para imprimir TPU/TPE."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:85
+msgid "TPU/TPE hotend temperatures range from 210\\ |deg|-250\\ |deg| C"
+msgstr "TPU/TPE temperaturas del hotend varían de 210\\ |deg|-250\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:86
+msgid ""
+"TPU/TPE does not usually need a heated bed, but if one is used it should not"
+" go over 60 |deg|\\ C as this will fuse TPU with print bed."
+msgstr ""
+"TPU/TPE generalmente no necesita una cama caliente, pero si se utiliza una, "
+"no debe superar los 60 |deg|\\ C, ya que esto fusionará TPU con la cama de "
+"impresión."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:87
 msgid ""
@@ -389,6 +491,14 @@ msgstr ""
 "maltratará repetidamente. El nylon requiere temperaturas muy elevadas, por "
 "lo general requiere un encerramiento y es absolutamente necesario secarlo "
 "antes (y durante) la impresión."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
+msgid "Nylon hotend temperatures range from 240\\ |deg|-260\\ |deg| C"
+msgstr "Las temperaturas del hotend de nylon van desde 240\\ |deg|-260\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:102
+msgid "Nylon bed temperatures range from 55\\ |deg|-80\\ |deg| C"
+msgstr "Las temperaturas de la cama de nylon varían de 55\\ |deg|-80\\ |deg| C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
 msgid ""
@@ -461,6 +571,16 @@ msgstr ""
 "imprimir y de menor temperatura que conserva muchas de las ventajas del PC "
 "puro. PolyLite no es tan resistente a los impactos, pero es mucho más "
 "barato. Ambos son mucho más fáciles de imprimir que el PC puro."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
+msgid "PC hotend temperatures range from 250\\ |deg|-320\\ |deg| C"
+msgstr ""
+"Las temperaturas del hotend de la PC oscilan entre 250\\ |deg|-320\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:120
+msgid "PC bed temperatures range from 80\\ |deg|-140\\ |deg| C"
+msgstr ""
+"Las temperaturas de la cama de la PC oscilan entre 80\\ |deg|-140\\ |deg| C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
 msgid "Enclosure required"

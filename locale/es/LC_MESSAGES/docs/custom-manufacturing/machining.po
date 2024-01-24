@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 16:18+0000\n"
+"POT-Creation-Date: 2024-01-24 04:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,147 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:4
+msgid "Machining"
+msgstr "Maquinado"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:7
+msgid "Advantages of Machining"
+msgstr "Ventajas de maquinar"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:9
+msgid ""
+"Machining allows teams to create practically any part without limitations."
+msgstr ""
+"El maquinado permite a los equipos crear prácticamente cualquier pieza sin "
+"limitaciones."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:10
+msgid ""
+"Machining allows teams to create custom drivetrain plates, arms, linear "
+"slides, etc to fit their design needs more effectively than kits."
+msgstr ""
+"El maquinado permite a los equipos crear placas del chasis personalizadas, "
+"brazos, guías lineales, etc. para adaptarse a sus necesidades de diseño de "
+"manera más efectiva que los kits."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:11
+msgid "Machining is cool. Yes, really."
+msgstr "El maquinado es genial. Sí, de verdad."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:14
+msgid "Disadvantages of Machining"
+msgstr "Desventajas del maquinado"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:16
+msgid ""
+"Perhaps the biggest barrier when making a fully custom robot is that it "
+"requires very expensive manufacturing equipment. While 3D printers have "
+"become more and more common in FTC\\ |reg| and allow teams to create or "
+"customize small parts, many teams do not have access to equipment such as "
+"lathes, routers, waterjet cutters, or CNC machines."
+msgstr ""
+"Quizás la barrera más grande al hacer un robot completamente personalizado "
+"es que requiere equipo de fabricación muy costoso. Aunque las impresoras 3D "
+"se han vuelto cada vez más comunes en FTC\\ |reg| y permiten a los equipos "
+"crear o personalizar piezas pequeñas, muchos equipos no tienen acceso a "
+"equipos como tornos, enrutadores, cortadores de chorro de agua o máquinas "
+"CNC."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:17
+msgid ""
+"Fully custom robots need to be fully designed in CAD. Sketching will not cut"
+" it when building custom robots."
+msgstr ""
+"Los robots personalizados deben ser completamente diseñados en CAD. El "
+"dibujo a mano no es suficiente cuando se construyen robots personalizados."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:18
+msgid ""
+"Another barrier is that prototyping with fully custom systems is almost "
+"always much slower than using kit parts. The full CAD process takes time, "
+"and fabrication/getting parts fabricated by a shop or sponsor is another "
+"lengthy process. Notwithstanding those two factors, if something goes "
+"drastically wrong then it will require a repeat process of CAD and "
+"fabrication."
+msgstr ""
+"Otra barrera es que la creación de prototipos con sistemas completamente "
+"personalizados casi siempre es mucho más lenta que el uso de piezas de kit. "
+"El proceso completo de CAD lleva tiempo, y la fabricación/obtención de "
+"piezas fabricadas por una tienda o patrocinador es otro proceso largo. No "
+"obstante, si algo sale drásticamente mal, requerirá un proceso repetido de "
+"CAD y fabricación."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:20
+msgid ""
+"It must be noted that teams do not need to pick between a fully kit-based "
+"robot or a fully custom robot. In fact, many successful teams are actually a"
+" hybrid of both kit and custom parts, as can be seen in many of example "
+"robots in this section."
+msgstr ""
+"Debe tenerse en cuenta que los equipos no necesitan elegir entre un robot "
+"completamente basado en kits o un robot completamente personalizado. De "
+"hecho, muchos equipos exitosos son en realidad una combinación de piezas de "
+"kit y personalizadas, como se puede ver en muchos ejemplos de robots en esta"
+" sección."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:22
+msgid ""
+"However, our suggestion is that inexperienced teams should prioritize 3D "
+"printing over machining for fabricating custom parts, at least for the near "
+"term."
+msgstr ""
+"Sin embargo, nuestra sugerencia es que los equipos inexpertos deberían "
+"priorizar la impresión en 3D sobre el maquinado para fabricar piezas "
+"personalizadas, al menos a corto plazo."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:27
+msgid "8680 Kraken Pinion's Rover Ruckus robot"
+msgstr "8680 Kraken Pinion's Rover Ruckus robot"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:27
+msgid ""
+"8680 Kraken Pinion, Division Semifinalist (Detroit Worlds), Rover Ruckus"
+msgstr ""
+"8680 Kraken Pinion, Semifinalista de División (Detroit Worlds), Rover Ruckus"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:29
+msgid ""
+"Utilizes a kit-based drivetrain (Actobotics) and horizontal linear slides "
+"(REV) with a custom intake, housing, and mineral container. Kit linear "
+"actuator (Actobotics) with custom hook."
+msgstr ""
+"Utiliza un chasis basado en kit (Actobotics) y rieles lineales horizontales "
+"(REV) con una intake, carcasa y contenedor de minerales personalizados. "
+"Actuador lineal de kit (Actobotics) con gancho personalizado."
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:34
+msgid "8393 Giant Diencephalic BrainSTEM Robotics Team's Relic Recovery robot"
+msgstr ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team's Relic Recovery robot"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:34
+msgid ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team, Winning Alliance First Pick"
+" (Detroit), Relic Recovery, fully custom"
+msgstr ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team, Primera Selección Alianza "
+"Ganadora (Detroit), Relic Recovery, completamente personalizado"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:39
+msgid "731 Wannabee Strange's Rover Ruckus robot"
+msgstr "731 Wannabee Strange's Rover Ruckus robot"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:39
+msgid "731 Wannabee Strange, Rover Ruckus, Design Award Finalist (Houston)"
+msgstr ""
+"731 Wannabee Strange, Rover Ruckus, Finalista del Premio de Diseño (Houston)"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:41
+msgid ""
+"Utilizes a 3D printed (PETG and TPU) and machined (milled) arm/intake with a"
+" custom HDPE drive train (CNC routed)"
+msgstr ""
+"Utiliza un brazo/intake impreso en 3D (PETG y TPU) y maquinado (fresado) con"
+" un chasis personalizado de HDPE (enrutado por CNC)"
