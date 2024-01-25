@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 04:15+0000\n"
+"POT-Creation-Date: 2024-01-25 04:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -21,3 +21,81 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:4
+msgid "Roller Chain"
+msgstr "Cadena de rodillos"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:6
+msgid ""
+"When your shafts aren't right next to each other, roller chain and sprockets"
+" will allow you to transmit power securely between your shafts."
+msgstr ""
+"Cuando los ejes no están uno al lado del otro, la cadena de rodillos y las "
+"ruedas dentadas le permitirán transmitir la potencia de forma segura entre "
+"los ejes."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:8
+msgid "Term"
+msgstr "Término "
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:11
+msgid "Chain"
+msgstr "Cadena"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:13
+msgid ""
+"Roller chain is made up of a series of links joined by pins. Each link can "
+"rotate around its pins, creating a dynamic loop that can conform to any "
+"shape. The pins in the chain engage the gaps between teeth on each sprocket."
+msgstr ""
+"La cadena de rodillos está formada por una serie de eslabones unidos por "
+"pasadores. Cada eslabón puede girar alrededor de sus pasadores, creando un "
+"bucle dinámico que puede adaptarse a cualquier forma. Los pasadores de la "
+"cadena encajan en los huecos entre dientes de cada piñón."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:15
+msgid ""
+"Chain number refers to the type and size of chain that is compatible with "
+"the sprocket. #25 chain and 8mm chain are both commonly used in FTC\\ |reg|."
+msgstr ""
+"El número de cadena se refiere al tipo y tamaño de cadena que es compatible "
+"con el piñón/rueda dentada. La cadena #25 y la cadena de 8 mm son comúnmente"
+" utilizadas en FTC\\ |reg|."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:17
+msgid ""
+"If you've ridden a bike, chances are that you've already seen roller chain -"
+" the chain on your FTC robot is similar, but it's probably a different "
+":term:`pitch <Pitch>` (different size). Chains most commonly used in FTC are"
+" #25 (1/4 inch pitch) or 8mm pitch."
+msgstr ""
+"Si ha montado en bicicleta, lo más probable es que ya haya visto cadenas de "
+"rodillos; la cadena de su robot FTC es similar, pero probablemente tenga un "
+":term:`pitch<Pitch>` (tamaño diferente). Las cadenas más utilizadas en FTC "
+"son de #25 (paso de 1/4 de pulgada) o de 8 mm."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:19
+msgid ""
+"When using chain, often there is a master link. This is a special type of "
+"link that has a removable end capsule in order to shorten the chain. "
+"However, as it is removable, it is not a very reliable chain link and can "
+"loosen and fall off under prolonged usage. There have been teams who have "
+"had master chain links fail during competition, costing them a match in the "
+"elimination rounds."
+msgstr ""
+"Cuando se utiliza una cadena, suele haber un eslabón maestro. Se trata de un"
+" tipo especial de eslabón que tiene una cápsula extraíble en el extremo para"
+" acortar la cadena. Sin embargo, al ser desmontable, no es un eslabón de "
+"cadena muy fiable y puede aflojarse y caerse con el uso prolongado. Ha "
+"habido equipos a los que les han fallado los eslabones maestros de la cadena"
+" durante la competición, lo que les ha costado un partido en las rondas "
+"eliminatorias."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:21
+msgid ""
+"A chain breaker eliminates the need for master links because it can break "
+"and join chain at any point."
+msgstr ""
+"Un rompedor de cadena elimina la necesidad de eslabones maestros porque "
+"puede romper y unir la cadena en cualquier punto."
