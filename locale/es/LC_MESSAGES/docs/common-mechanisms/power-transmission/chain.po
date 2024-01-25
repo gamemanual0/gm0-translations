@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 04:17+0000\n"
+"POT-Creation-Date: 2024-01-25 16:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -99,3 +99,254 @@ msgid ""
 msgstr ""
 "Un rompedor de cadena elimina la necesidad de eslabones maestros porque "
 "puede romper y unir la cadena en cualquier punto."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:23
+msgid ""
+"It is highly recommended that teams purchase a chain breaker (we recommend "
+"the DarkSoul chain breaker for #25 chain, and the goBILDA Chain Breaker for "
+"8mm pitch chain) instead of using master links, which are prone to failure."
+msgstr ""
+"Se recomienda encarecidamente que los equipos adquieran un rompedor de "
+"cadenas (recomendamos el rompedor de cadenas DarkSoul para cadenas del nº "
+"25, y el rompedor de cadenas goBILDA para cadenas de paso de 8 mm) en lugar "
+"de utilizar eslabones maestros, que son propensos a fallar."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:28
+msgid "A disassembled master link"
+msgstr "Un eslabón maestro desmontado"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:28
+msgid "The removable master link is shown on the right."
+msgstr "El eslabón maestro desmontable se muestra a la derecha."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:31
+msgid "Center-to-Center calculations"
+msgstr "Cálculos de centro a centro"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:33
+msgid ""
+"The equation to calculate :term:`center-to-center <C2C>` for chain is quite "
+"complicated. Many `online calculators <https://reca.lc/chains>`_ can "
+"calculate C-C distances without going through the tedious calculations. "
+"However, the complete formula is below."
+msgstr ""
+"La ecuación para calcular :term:`centro a centro <C2C>` para cadena es "
+"bastante complicada. Muchas `calculadoras en línea "
+"<https://reca.lc/chains>`_ pueden calcular las distancias C-C sin pasar por "
+"los tediosos cálculos. Sin embargo, la fórmula completa está a continuación."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:35
+msgid ""
+"C=\\frac{P}{8}*(2L-(N+n)+\\sqrt{(2L-(N+n))^2-\\frac{8}{\\pi^2}*(N-n)^2})\n"
+"\n"
+"L=\\frac{2C}{P}+\\frac{N+n}{2}+\\frac{P(\\frac{N-n}{2\\pi})^2}{C}"
+msgstr ""
+"C=\\frac{P}{8}*(2L-(N+n)+\\sqrt{(2L-(N+n))^2-\\frac{8}{\\pi^2}*(N-n)^2})\n"
+"\n"
+"L=\\frac{2C}{P}+\\frac{N+n}{2}+\\frac{P(\\frac{N-n}{2\\pi})^2}{C}"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:41
+msgid ":math:`C` = center-to-center distance, inches"
+msgstr ""
+":math:`C` = distancia entre ejes, es decir de centro a centro, pulgadas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:43
+msgid ":math:`L` = chain length in pitches"
+msgstr ":math:`L` = longitud de la cadena en pasos"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:45
+msgid ":math:`P` = pitch of chain"
+msgstr ":math:`P` = paso de cadena"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:47
+msgid ":math:`N` = number of teeth in large sprocket"
+msgstr ":math:`N` = número de dientes de la rueda dentada grande"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:49
+msgid ":math:`n` = number of teeth in small sprocket"
+msgstr ":math:`n` = número de dientes de la rueda dentada pequeña"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:52
+msgid "Chain Wrap"
+msgstr "Envoltura de cadena"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:54
+msgid ""
+"**Chain should, at the very least, have 90 degrees of contact with the "
+"sprocket. The best practice is to have 180 degrees or more of contact**, as "
+"it is very unlikely to fall off with proper tensioning. Chain skipping, "
+"especially on drivetrains or arms, is very possible without proper chain "
+"wrap or tensioning."
+msgstr ""
+"**La cadena debe tener, como mínimo, 90 grados de contacto con el piñón. La "
+"mejor práctica es tener 180 grados o más de contacto**, ya que es muy poco "
+"probable que se salga con una tensión adecuada. Es muy posible que la cadena"
+" salte, especialmente en un chasis o brazos, sin un adecuado envoltorio o "
+"tensión de la cadena."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:56
+msgid ""
+"When tensioning chain, be sure to not undertension or overtension chain. "
+"Undertensioning chain can result in the chain falling off the sprocket or "
+"chain skipping, where the chain can skip along the sprocket. Overtensioning "
+"the chain often results in the motor burning out, or less seriously, a loss "
+"of efficiency. Push along the chain run, and if the chain moves slightly "
+"without significant resistance, chances are you've done it correctly. If "
+"it's too tight, then the chain will barely move under a gentle press."
+msgstr ""
+"Al tensar la cadena, asegúrese de no tensarla ni demasiado ni demasiado "
+"poco. Un tensado insuficiente de la cadena puede provocar que la cadena se "
+"salga del piñón o que la cadena salte a lo largo del piñón. Tensar demasiado"
+" la cadena a menudo provoca que el motor se queme o, lo que es menos grave, "
+"una pérdida de eficiencia. Empuje a lo largo del recorrido de la cadena, y "
+"si la cadena se mueve ligeramente sin resistencia significativa, lo más "
+"probable es que lo haya hecho correctamente. Si está demasiado tensa, "
+"entonces la cadena apenas se moverá bajo una suave presión."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:59
+msgid "Best practices for wrap"
+msgstr "Mejores prácticas para la envoltura"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:64
+msgid "A metal chain for a drivetrain by 724, Rednek Robotics Wun"
+msgstr "Una cadena metálica para una transmisión de 724, Rednek Robotics Wun"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:64
+msgid "724 Rednek Robotics Wun, Relic Recovery"
+msgstr "724 Rednek Robotics Wun, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:69
+msgid "A metal chain for a drivetrain by 8103, Null Robotics"
+msgstr "Una cadena metálica para una transmisión de 8103, Null Robotics"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:69
+msgid "8103 Null Robotics, Rover Ruckus"
+msgstr "8103 Null Robotics, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:72
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:74
+msgid ""
+"**Chain can take a beating**. No matter what your application is, metal "
+"chain is usually up for the challenge. #25 chain can hold up to 930lbs "
+"before breaking, and there's nothing you'll do in FTC that will exert that "
+"force. (If your chain does break, it's most likely due to a faulty Master "
+"Link or sprockets that are not correctly aligned.)"
+msgstr ""
+"**La cadena puede soportar una paliza**. No importa cuál sea su aplicación, "
+"la cadena metálica suele estar a la altura del desafío. La cadena #25 puede "
+"soportar hasta 930 libras antes de romperse, y no hay nada que puedas hacer "
+"en FTC que ejerza esa fuerza. (Si tu cadena se rompe, lo más probable es que"
+" se deba a un Master Link defectuoso o a piñones que no están correctamente "
+"alineados)."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:75
+msgid ""
+"**Chain can be however long or short as you wish**. If your ratio changes or"
+" your shafts move, it's easy to adapt your chain run - just break the chain "
+"and put it back together at its new length. You can often do this without "
+"even removing the chain from your robot."
+msgstr ""
+"**La cadena puede ser tan larga o corta como desee**. Si cambia la relación "
+"de transmisión o se mueven los ejes, es fácil adaptar el recorrido de la "
+"cadena: basta con romper la cadena y volver a montarla con la nueva "
+"longitud. A menudo puede hacerlo sin ni siquiera desmontar la cadena del "
+"robot."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:76
+msgid ""
+"**Chain can be pretty precise**. When properly tensioned, roller chain "
+"doesn't have very much slop. However, you really need to get your chain "
+"tension right to reduce slop, and you'll probably want an adjustable "
+"tensioner for when the chain stretches. This can be done easily if using "
+"extrusion systems, as the sprocket can be adjusted for tension."
+msgstr ""
+"**La cadena puede ser muy precisa**. Cuando está bien tensada, la cadena de "
+"rodillos no tiene mucha holgura. Sin embargo, hay que tensar bien la cadena "
+"para reducir la inclinación, y probablemente querrás un tensor ajustable "
+"para cuando la cadena se estire. Esto puede hacerse fácilmente si se "
+"utilizan sistemas de extrusión, ya que el piñón puede ajustarse para la "
+"tensión."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:79
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:81
+msgid ""
+"**Chain stretches over time**. As it's used, the connections between the "
+"links and rollers can stretch a bit. While it doesn't look like much, this "
+"stretching can introduce lots of slop into your chain run and even derail it"
+" in some cases. You'll most likely need an adjustable tensioner to keep your"
+" tension over time - some teams have used spring-loaded dynamic tensioners "
+"to automatically compensate for any changes."
+msgstr ""
+"**La cadena se estira con el tiempo**. Con el uso, las conexiones entre los "
+"eslabones y los rodillos pueden estirarse un poco. Aunque no parezca gran "
+"cosa, este estiramiento puede introducir mucha holgura en el recorrido de la"
+" cadena e incluso hacerla descarrilar en algunos casos. Lo más probable es "
+"que necesites un tensor ajustable para mantener la tensión a lo largo del "
+"tiempo; algunos equipos han utilizado tensores dinámicos con resorte para "
+"compensar automáticamente cualquier cambio."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:82
+msgid ""
+"**The smaller the sprocket, the faster the chain stretch**. This is because "
+"when the chain is run on a smaller sprocket, more force is applied due to a "
+"smaller radius."
+msgstr ""
+"**Cuanto más pequeño es el piñón, más rápido se estira la cadena**. Esto se "
+"debe a que cuando la cadena se desplaza en un piñón más pequeño, se aplica "
+"más fuerza debido a un radio más pequeño."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:83
+msgid ""
+"**Chain wrap, especially in one chain run, can be problematic**. Typically, "
+"teams use either one or two chain runs (pieces of chain) per drivetrain "
+"side. However, one chain run can require more than one idler sprocket and "
+"get very complex in order to maintain proper chain wrap."
+msgstr ""
+"**La torsión de la cadena, especialmente en un tramo, puede ser "
+"problemática**. Normalmente, los equipos utilizan uno o dos recorridos de "
+"cadena (trozos de cadena) por cada lado de la transmisión. Sin embargo, un "
+"recorrido de cadena puede requerir más de un piñón loco y volverse muy "
+"complejo para mantener una envoltura adecuada de la cadena."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:84
+msgid ""
+"**Sprockets are really big**. If you want a really high reduction using "
+"chain, you'll pay for it in the space that it takes up. Sprocket teeth are "
+"much larger than gear or pulley teeth, so your reductions are going to be "
+"much larger."
+msgstr ""
+"**Los piñones son realmente grandes**. Si quieres una reducción realmente "
+"alta usando cadena, lo pagarás en el espacio que ocupa. Los dientes de los "
+"piñones son mucho más grandes que los de los engranajes o las poleas, por lo"
+" que las reducciones serán mucho mayores."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:89
+msgid "A metal chain for a drivetrain by 7244, OUT of the BOX Robotics"
+msgstr ""
+"Una cadena metálica para una transmisión de 7244, OUT of the BOX Robotics"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:89
+msgid "7244 OUT of the BOX Robotics, Relic Recovery"
+msgstr "7244 OUT of the BOX Robotics, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:94
+msgid "A plastic chain on an intake by 9794, Wizards.exe"
+msgstr "Una cadena de plástico en un intake de 9794, Wizards.exe"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:94
+msgid "9794 Wizards.exe, Rover Ruckus, plastic chain on intake"
+msgstr "9794 Wizards.exe, Rover Ruckus, cadena de plástico en el intake"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:99
+msgid "Properly done chain wrap with tensioners"
+msgstr "Envoltura de cadena correctamente realizada con tensores"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/chain.rst:99
+msgid "Properly done chain wrap with the REV system"
+msgstr "Envoltura de cadena correctamente realizada con el sistema REV"
