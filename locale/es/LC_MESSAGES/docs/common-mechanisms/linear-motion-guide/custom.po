@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 04:16+0000\n"
+"POT-Creation-Date: 2024-01-26 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -24,3 +24,92 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:4
 msgid "Custom Options"
 msgstr "Opciones personalizadas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:6
+msgid ""
+"Some teams have opted to build custom solutions for linear motion. Many of "
+"these teams borrow concepts from FRC\\ |reg| teams, modeling their elevators"
+" off of the tall systems found on the larger robots. There's a reason that "
+"many competitive FRC teams build the same type of elevator - at their scale,"
+" the box tube elevator has proven to be the most efficient way to get game "
+"pieces off the ground at blisteringly fast speeds."
+msgstr ""
+"Algunos equipos han optado por construir soluciones personalizadas para el "
+"movimiento lineal. Muchos de estos equipos toman prestados conceptos de los "
+"equipos de FRC\\ |reg|, modelando sus elevadores a partir de los sistemas "
+"altos que se encuentran en los robots más grandes. Hay una razón por la cual"
+" muchos equipos competitivos de FRC construyen el mismo tipo de elevador: a "
+"su escala, el elevador de tubo de caja ha demostrado ser la forma más "
+"eficiente de sacar las piezas del juego del suelo a velocidades "
+"increíblemente rápidas."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:8
+msgid ""
+"When built correctly, an elevator of this type can withstand hundreds of "
+"pounds of load on any axis while barely weighing anything. However, existing"
+" off-the-shelf options already fill the linear motion needs of most FTC\\ "
+"|reg| teams."
+msgstr ""
+"Cuando se construye correctamente, un elevador de este tipo puede soportar "
+"cientos de libras de carga en cualquier eje mientras apenas pesa algo. Sin "
+"embargo, las opciones existentes disponibles ya satisfacen las necesidades "
+"de movimiento lineal de la mayoría de los equipos de FTC\\ |reg|."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:10
+msgid ""
+"Custom extension systems also require tons of work in CAD, hours upon hours "
+"of manufacturing time, and may need multiple iterations before they work "
+"correctly. Due to their complexity and how challenging they are to design, "
+"less experienced teams may encounter significant challenges."
+msgstr ""
+"Los sistemas de extensión personalizados también requieren toneladas de "
+"trabajo en CAD, horas y horas de tiempo de fabricación, y pueden necesitar "
+"múltiples iteraciones antes de que funcionen correctamente. Debido a su "
+"complejidad y lo desafiante que es diseñarlos, los equipos menos "
+"experimentados pueden enfrentar desafíos significativos."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:12
+msgid ""
+"Lightweight drawer slides (MiSUMI aluminum and Long Robotics Slides) can "
+"offer similar performance at a fraction of the complexity."
+msgstr ""
+"Rieles de cajón ligeros (aluminio MiSUMI y rieles Long Robotics) pueden "
+"ofrecer un rendimiento similar a una fracción de la complejidad."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:17
+msgid "7236's Rover Ruckus bot with custom box tube elevator"
+msgstr "7236's Rover Ruckus bot con elevador de tubo de caja personalizado"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:17
+msgid "7236 Recharged Green, Rover Ruckus, custom box tube linear elevator"
+msgstr ""
+"7236 Recharged Green, Rover Ruckus, elevador lineal de tubo de caja "
+"personalizado"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:22
+msgid "13075's Rover Ruckus bot with custom 8020 hang"
+msgstr "13075's Rover Ruckus bot con gancho personalizado 8020"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:22
+msgid ""
+"13075 Coram Deo Academy Robotics, Rover Ruckus, custom 8020 chain driven "
+"hang"
+msgstr ""
+"13075 Coram Deo Academy Robotics, Rover Ruckus, cadena 8020 personalizada "
+"impulsada para colgar."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rstNone
+msgid "7172's custom fishing pole based extension CAD model"
+msgstr "7172's modelo CAD de extensión de caña de pescar personalizada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:30
+msgid "7172's custom fishing pole based extension"
+msgstr "7172's extensión de caña de pescar personalizada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/custom.rst:30
+msgid ""
+"7172 Technical Difficulties, Rover Ruckus, fishing pole extension using gear"
+" rack"
+msgstr ""
+"7172 Technical Difficulties, Rover Ruckus, extensión de caña de pescar "
+"utilizando cremallera de engranajes"
