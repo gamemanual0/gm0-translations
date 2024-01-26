@@ -5,18 +5,81 @@
 # 
 # Translators:
 # Eli Villalba, 2023
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 04:16+0000\n"
+"POT-Creation-Date: 2024-01-26 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Eli Villalba, 2023\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:2
+msgid "Custom"
+msgstr "Personalización"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:4
+msgid ""
+"Many teams elect to ignore kits entirely and instead make their own "
+"mechanisms completely from scratch. While this allows for nearly unlimited "
+"design freedom, keep in mind *full* Custom has many caveats and drawbacks. A"
+" full CAD model is required for a custom robot, as well as machining "
+"capability. Custom robots are not suitable for a new team."
+msgstr ""
+"Muchos equipos optan por ignorar por completo los kits y fabricar sus "
+"propios mecanismos desde cero. Aunque esto permite una libertad de diseño "
+"casi ilimitada, hay que tener en cuenta que la fabricación *completamente* "
+"personalizada tiene muchas advertencias e inconvenientes. Un robot "
+"personalizado requiere un modelo CAD completo, así como capacidad de "
+"maquinado. Los robots personalizados no son adecuados para un equipo nuevo."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:6
+msgid ""
+"However, forgoing a full custom robot opens up many opportunities. Many "
+"teams choose to create a robot that is a mix of kit parts and custom parts. "
+"Our recommendation is to use kit parts as the backbone of the robot, and "
+"custom fabricate any additional parts necessary, instead of the other way "
+"around. That way, you can rely on the strength and durability of the kit "
+"while retaining the ability to customize small pieces and mechanisms to your"
+" advantage."
+msgstr ""
+"Sin embargo, renunciar a un robot totalmente personalizado abre muchas "
+"oportunidades. Muchos equipos optan por crear un robot que sea una mezcla de"
+" piezas de kit y piezas personalizadas. Nuestra recomendación es utilizar "
+"las piezas del kit como columna vertebral del robot y fabricar a medida las "
+"piezas adicionales que sean necesarias, en lugar de al revés. De este modo, "
+"puedes confiar en la resistencia y durabilidad del kit y, al mismo tiempo, "
+"conservar la capacidad de personalizar pequeñas piezas y mecanismos en tu "
+"beneficio."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:8
+msgid ""
+"The methods that teams use to make custom parts typically involve either "
+"additive or subtractive manufacturing: either building a part from raw "
+"material (3d printing) or removing material from stock to create a part "
+"(Milling, Routing, and Laser Cutting)."
+msgstr ""
+"Los métodos que utilizan los equipos para fabricar piezas personalizadas "
+"suelen consistir en la fabricación aditiva o sustractiva: o bien se "
+"construye una pieza a partir de material en bruto (impresión 3D) o bien se "
+"retira material del stock para crear una pieza (Fresado, Ranurado y Corte "
+"por láser)."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/custom.rst:10
+msgid ""
+"You can now find details on 3d printing and milling in our :doc:`Custom "
+"Manufacturing </docs/custom-manufacturing/index>` section, with tutorials "
+"and general tips to help bring your parts from CAD to real life."
+msgstr ""
+"Ahora puede encontrar información detallada sobre impresión 3D y fresado en "
+"nuestra sección :doc:`Fabricación personalizada </docs/custom-"
+"manufacturing/index>`, con tutoriales y consejos generales para ayudarle a "
+"llevar sus piezas del CAD a la vida real."

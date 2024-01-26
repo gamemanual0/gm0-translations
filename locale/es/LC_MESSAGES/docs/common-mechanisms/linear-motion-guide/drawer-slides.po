@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 16:18+0000\n"
+"POT-Creation-Date: 2024-01-26 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -252,3 +252,255 @@ msgstr ""
 "etapas (tiene un deslizador intermedio para aumentar la extensión del "
 "deslizador). Los equipos han utilizado ambos con éxito y no hay ninguna "
 "opción claramente superior."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:62
+msgid ""
+"Teams using SAR3 slides will generally need to buy low profile M3 jam nuts "
+"from McMaster-Carr to connect the slides together. These nuts fit inside the"
+" slides with a tiny bit of clearance when tightened."
+msgstr ""
+"Los equipos que utilizan las diapositivas SAR3 generalmente necesitarán "
+"comprar tuercas de bloqueo M3 de perfil bajo de McMaster-Carr para conectar "
+"los rieles entre sí. Estas tuercas se ajustan dentro de los rieles con un "
+"pequeño margen de holgura cuando se aprietan."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:67
+msgid "A 3 stage lift using SAR2 slides and a 2 stage lift using SAR3 slides"
+msgstr ""
+"Un ascensor de 3 etapas utilizando deslizadores SAR2 y un ascensor de 2 "
+"etapas utilizando deslizadores SAR3"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:67
+msgid ""
+"Left: cross section of a 3 stage lift using 3D printed inserts (blue) and "
+"SAR2 slides; right: cross section of a 2 stage lift using a 3D printed "
+"insert and SAR3 slides. The left approach is also used for Long Robotics "
+"slides (discussed below)."
+msgstr ""
+"Izquierda: sección transversal de un elevador de 3 etapas utilizando "
+"inserciones impresas en 3D (azules) y deslizadores SAR2; derecha: sección "
+"transversal de un elevador de 2 etapas utilizando una inserción impresa en "
+"3D y deslizadores SAR3. El enfoque de la izquierda también se utiliza para "
+"los deslizadores de Long Robotics (discutidos a continuación)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:69
+msgid "Rail length Options:"
+msgstr "Opciones de Longitud de riel:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:71
+msgid "200 mm, part number SAR220 (SAR2) or SAR320 (SAR3)"
+msgstr "200 mm, número de parte SAR220 (SAR2) o SAR320 (SAR3)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:72
+msgid "300 mm, part number SAR230 (SAR2) or SAR330 (SAR3)"
+msgstr "300 mm, número de parte SAR230 (SAR2) o SAR330 (SAR3)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:73
+msgid "400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)"
+msgstr "400 mm, número de parte SAR240 (SAR2) o SAR340 (SAR3)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:78
+msgid "Best slide smoothness due to ball bearings"
+msgstr "Mejor suavidad de deslizamiento debido a los rodamientos de bolas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:79
+msgid "Very little slide flex, robust build quality"
+msgstr ""
+"Muy poca flexibilidad en el deslizamiento, calidad de construcción robusta"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:80
+msgid "Can handle relatively heavy load use cases (within reason)"
+msgstr ""
+"Puede manejar casos de uso relativamente pesados (dentro de lo razonable)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:81
+msgid "Compatible with REV 15mm extrusion system"
+msgstr "Compatible con el sistema de extrusión REV de 15 mm"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:86
+msgid "Not cheap"
+msgstr "No es barato"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:87
+msgid "Tricky to adapt if not using REV"
+msgstr "Complicado de adaptar si no se utiliza REV"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:89
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:139
+msgid ""
+"Steel ball bearings wear into the aluminum rails over time, introducing play"
+msgstr ""
+"Los rodamientos de bolas de acero se desgastan con el tiempo en los rieles "
+"de aluminio, lo que introduce el juego."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:92
+msgid "Viper Slides"
+msgstr "Viper Slides"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:94
+msgid ""
+"`goBILDA Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-"
+"carriage-336mm-length-244mm-travel/>`_ are a relatively new addition to the "
+"goBilda ecosystem. They are COTS steel drawer slides that can be purchased "
+"in `a kit with all the parts needed to assemble and rig them right away "
+"<https://www.gobilda.com/2-stage-viper-slide-kit/>`_."
+msgstr ""
+"goBILDA Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-"
+"carriage-336mm-length-244mm-travel/> son una adición relativamente nueva al "
+"ecosistema goBilda. Son rieles de cajón de acero COTS que se pueden comprar "
+"en un kit con todas las piezas necesarias para ensamblarlos y ajustarlos de "
+"inmediato <https://www.gobilda.com/2-stage-viper-slide-kit/>."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:96
+msgid ""
+"They use M4 mounting bolts, and are on the standard 8 mm goBilda pattern."
+msgstr ""
+"Utilizan tornillos de montaje M4 y están en el patrón estándar de 8 mm de "
+"goBilda."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:101
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:130
+msgid "Slide are smooth due to ball bearings"
+msgstr "Los rieles son suaves debido a los rodamientos de bolas."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:102
+msgid "Compatible with goBILDA ecosystem"
+msgstr "Compatible con el ecosistema goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:103
+msgid ""
+"Steel slides can handle more load (can use one set of slides instead of two "
+"in many situations)"
+msgstr ""
+"Los rieles de acero pueden manejar más carga (pueden usar un solo juego de "
+"rieles en lugar de dos en muchas situaciones)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:104
+msgid ""
+"Available in a kit with everything you need to start using in one purchase"
+msgstr ""
+"Disponible en un kit con todo lo que necesitas para comenzar a usar en una "
+"sola compra"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:105
+msgid "Longer stroke (more extension) then the same length misumi slide"
+msgstr ""
+"Carrera más larga (más extensión) que el mismo deslizador de longitud "
+"Misumi."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:106
+msgid "Cheaper then misumi slides"
+msgstr "Más barato que los rieles de Misumi"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:111
+msgid "Twice as heavy per slide compared to misumi slides"
+msgstr ""
+"Dos veces más pesado por riel en comparación con las rieles de Misumi."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:112
+msgid "Recommended to mount slides to channel to prevent bending"
+msgstr "Recomendado montar los rieles al canal para evitar que se doble."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:115
+msgid "Long Robotics Slides"
+msgstr "Long Robotics Slides"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:117
+msgid ""
+"Due to the tendency of the endstops to fail, as well as inconsistent jamming"
+" issues on the slides, Long Robotics slides are no longer recommended to "
+"purchase"
+msgstr ""
+"Debido a la tendencia de los finales de tope a fallar, así como a problemas "
+"inconsistentes de atasco en los deslizadores, ya no se recomienda comprar "
+"los deslizadores de Long Robotics."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:119
+msgid ""
+"The `Long Robotics <https://longrobotics.com/>`_ slides are also used by "
+"teams because they are almost as smooth as MiSUMI slides due to the ball "
+"bearing system but slightly cheaper."
+msgstr ""
+"Los rieles de `Long Robotics <https://longrobotics.com/>`_ también son "
+"utilizados por los equipos porque son casi tan suaves como los rieles de "
+"MiSUMI debido al sistema de rodamientos de bolas pero un poco más baratas."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:121
+msgid ""
+"They utilize M4 mounting bolts, and can mount directly to goBILDA channel. "
+"They are virtually identical to the SAR2 series of MiSUMI slides."
+msgstr ""
+"Utilizan tornillos de montaje M4 y se pueden montar directamente en el canal"
+" goBILDA. Son prácticamente idénticos a la serie SAR2 de deslizadores "
+"MiSUMI."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:123
+msgid ""
+"The manufacturer website has CAD files for 3D printed inserts that go "
+"between the slides, which V-bearings are mounted to. V-bearings are "
+"`available from Long Robotics <https://longrobotics.com/product/3x12x4mm-v-"
+"bearing-10-pack/>`_. To attach slides, one will need to purchase "
+"**countersunk M4 screws**, which are `also available from Long Robotics "
+"<https://longrobotics.com/product/6mm-d-low-"
+"head-10mm-m4-screw-10-pack-t10-torx-drive/>`_."
+msgstr ""
+"El sitio web del fabricante tiene archivos CAD para insertos impresos en 3D "
+"que van entre los rieles, a las cuales se montan los rodamientos en V. Los "
+"rodamientos en V están disponibles en Long Robotics "
+"<https://longrobotics.com/product/3x12x4mm-v-bearing-10-pack/>. Para sujetar"
+" los rieles, se necesitará comprar **tornillos M4 avellanados**, los cuales "
+"también están disponibles en Long Robotics "
+"<https://longrobotics.com/product/6mm-d-low-"
+"head-10mm-m4-screw-10-pack-t10-torx-drive/>."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:125
+msgid ""
+"These are available in both a `300 mm rail length option "
+"<https://longrobotics.com/product/lrs-300-aluminum-slide-300mm-black-"
+"anodized/>`_ and `400 mm rail length option "
+"<https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-"
+"anodized/>`_."
+msgstr ""
+"Estos están disponibles en una opción de longitud de riel de 300 mm "
+"<https://longrobotics.com/product/lrs-300-aluminum-slide-300mm-black-"
+"anodized/>`_ y una opción de longitud de riel de 400 mm. "
+"<https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-"
+"anodized/>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:131
+msgid "Compatible with goBILDA channel"
+msgstr "Compatible con el canal goBILDA."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:132
+msgid "Cheaper than MiSUMI slides"
+msgstr "Más barato que los rieles de MiSUMI"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:137
+msgid ""
+"3D Printed spacers are almost required; while other solutions exist, 3D "
+"Printed spacers are the simplest and lowest-risk"
+msgstr ""
+"Los espaciadores impresos en 3D son casi necesarios; aunque existen otras "
+"soluciones, los espaciadores impresos en 3D son los más simples y de menor "
+"riesgo."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:138
+msgid ""
+"Can be difficult to mount to kit systems which aren't :term:`extrusion "
+"<Extrusion>` based or don't have holes spaced at 8 mm apart"
+msgstr ""
+"Puede ser difícil de montar en sistemas de kit que no están basados en "
+":term:`extrusión <Extrusion>` o no tienen agujeros espaciados a 8 mm de "
+"distancia."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:140
+msgid ""
+"The endstops on the slides have been known to fail, spilling ball bearings "
+"out of the slide onto the field"
+msgstr ""
+"Los topes en los deslizadores se han sabido fallar, derramando rodamientos "
+"de bolas fuera del deslizador hacia el campo."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:141
+msgid "Slides have been known to seize and jam on occasion"
+msgstr "Las rieles se han conocido por atascarse y trabarse en ocasiones."
