@@ -5,18 +5,171 @@
 # 
 # Translators:
 # Eli Villalba, 2023
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 04:16+0000\n"
+"POT-Creation-Date: 2024-01-27 04:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Eli Villalba, 2023\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:2
+msgid "Passive Intake/Claw"
+msgstr "Admisión Pasiva/Garra"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:4
+msgid ""
+"Passive intakes are mechanisms in which the driver must pick up individual "
+"items, usually by actuating some sort of gripper, which holds the game "
+"element."
+msgstr ""
+"Las tomas pasivas son mecanismos en los que el conductor debe recoger "
+"elementos individuales, normalmente accionando algún tipo de pinza, que "
+"sujeta el elemento de juego."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:6
+msgid ""
+"Claws are the most common sort of passive intake and probably one of the "
+"first mechanisms that jump to mind during brainstorming. Unlike most "
+"intakes, claws can be made with only servos, and thus don't require valuable"
+" motor slots."
+msgstr ""
+"Las garras son el tipo más común de admisión pasiva y probablemente uno de "
+"los primeros mecanismos que saltan a la mente durante una lluvia de ideas. A"
+" diferencia de la mayoría de los intakes, las garras se pueden hacer solo "
+"con servos, por lo que no requieren valiosas ranuras para el motor."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:8
+msgid ""
+"This is not to say there are no disadvantages; notably, unlike intakes, when"
+" you pick up something with a claw, it isn't easy to transfer the collected "
+"element to a separate scoring mechanism. For this reason, in most cases, "
+"claws double as both a collection method and a scoring method."
+msgstr ""
+"Esto no quiere decir que no haya desventajas; en particular, a diferencia de"
+" los intakes, cuando se recoge algo con una garra, no es fácil transferir el"
+" elemento recogido a un mecanismo de puntuación independiente. Por esta "
+"razón, en la mayoría de los casos, las garras sirven tanto de método de "
+"recogida como de método de puntuación."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:10
+msgid ""
+"**Claws are extremely useful for picking up large, unwieldy elements that "
+"cannot be controlled by active intakes**. For example, the relic in Relic "
+"Recovery would be much harder to control using a more active intake; so "
+"teams used a claw."
+msgstr ""
+"**Las garras son muy útiles para recoger elementos grandes y difíciles de "
+"manejar que no se pueden controlar con intakes activos**. Por ejemplo, la "
+"reliquia en Relic Recovery sería mucho más difícil de controlar usando un "
+"intake más activo; por eso los equipos usaron una garra."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:12
+msgid ""
+"However, claws are outclassed by active intakes for picking up small game "
+"pieces in nearly every game."
+msgstr ""
+"Sin embargo, las garras se ven superadas por los intakes activos para "
+"recoger pequeñas piezas del juego en casi todos los juegos."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:15
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:17
+msgid "Much simpler than an intake"
+msgstr "Mucho más sencillo que un intake"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:18
+msgid "Takes a lot less time to build than a reliable intake + transfer"
+msgstr ""
+"Se tarda mucho menos en construir que una intake fiable + transferencia"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:19
+msgid "Less moving parts = less things that can go wrong"
+msgstr "Menos piezas móviles = menos cosas que pueden ir mal"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:20
+msgid "Usually does not take up a motor slot"
+msgstr "No suele ocupar espacio en el motor"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:21
+msgid "Can pick up odd shaped game elements that active intakes can't"
+msgstr ""
+"Puede recoger elementos de juego de forma extraña que las intakes activos no"
+" pueden"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:24
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:26
+msgid "Depending on their use case, claws are slower than intakes."
+msgstr "Según su uso, las garras son más lentas que los intakes."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:28
+msgid ""
+"The driver must angle the robot, position the claw, and grab the game "
+"element."
+msgstr ""
+"El conductor debe inclinar el robot, colocar la garra y agarrar el elemento "
+"de juego."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:29
+msgid ""
+"By contrast, with an intake, the driver needs only to position the intake "
+"and grab the game elements."
+msgstr ""
+"En cambio, con un intake, el conductor sólo tiene que colocar el intake y "
+"agarrar los elementos de juego."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:30
+msgid "Claws can be more fragile and break easily."
+msgstr "Las garras pueden ser más frágiles y romperse con facilidad."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:31
+msgid ""
+"In cases in which claws are slower than intakes, they can be much more prone"
+" to defensive maneuvers. The more time spent collecting, the more vulnerable"
+" you are."
+msgstr ""
+"En los casos en que las garras son más lentas que los intakes, pueden ser "
+"mucho más propensos a las maniobras defensivas. Cuanto más tiempo pase "
+"recogiendo, más vulnerable será."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
+msgid "11115's relic claw"
+msgstr "Garra reliquia 11115"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
+msgid "11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery"
+msgstr ""
+"11115 Gluten Free, Capitán de la Alianza Finalista (Detroit), Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
+msgid "8680's relic claw"
+msgstr "Garra reliquia 8680"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
+msgid "8680 Kraken-Pinion, Relic Recovery"
+msgstr "8680 Kraken-Pinion, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
+msgid "13075's glyph claw"
+msgstr "Garra glífica 13075"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
+msgid ""
+"13075 Coram Deo Academy Robotics, Relic Recovery (**suboptimal use case**)"
+msgstr ""
+"13075 Robótica de la Academia Coram Deo, Relic Recovery (**caso de uso "
+"subóptimo**)"
