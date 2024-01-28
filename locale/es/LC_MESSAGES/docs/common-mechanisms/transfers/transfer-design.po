@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-09 04:16+0000\n"
+"POT-Creation-Date: 2024-01-28 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:2
+msgid "Transfer Design Fundamentals"
+msgstr "Fundamentos de Diseño de Transferencia"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:4
+msgid ""
+"There are a few fundamental aspects of the design of any transfer that must "
+"be considered. Generally, the most important considerations are:"
+msgstr ""
+"Hay algunos aspectos fundamentales del diseño de cualquier transferencia que"
+" deben considerarse. Generalmente, las consideraciones más importantes son:"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:6
+msgid "What will be transferred?"
+msgstr "¿Qué se transferirá?"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:7
+msgid "Where will the item(s) be transferred?"
+msgstr "¿Dónde se transferirán los artículos/el artículo?"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:8
+msgid "How will the item(s) be transferred?"
+msgstr "¿Cómo se transferirán los artículos/el artículo?"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:11
+msgid "Object Considerations"
+msgstr "Consideraciones del objeto"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:13
+msgid ""
+"One important thing to consider when designing a transfer is what object "
+"will be transferred by the mechanism. Any design must be able to physically "
+"hold the object being transferred, but it is also important to consider how "
+"many objects need to be held by the transfer or if different types of items "
+"need to be transferred."
+msgstr ""
+"Una cosa importante a considerar al diseñar una transferencia es qué objeto "
+"será transferido por el mecanismo. Cualquier diseño debe ser capaz de "
+"sostener físicamente el objeto que se está transfiriendo, pero también es "
+"importante considerar cuántos objetos deben ser sostenidos por la "
+"transferencia o si se necesitan transferir diferentes tipos de elementos."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:16
+msgid "Location Considerations"
+msgstr "Consideraciones de ubicación"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:18
+msgid ""
+"Another important consideration when designing a transfer is where the "
+"transfer will be moving items from and to. Moving objects in multiple axes "
+"is difficult and error-prone. When mechanisms are aligned, transfers only "
+"have to act in straight lines, avoiding unnecessary complexity. A very "
+"common use for a transfer mechanism is to move objects from the intake of "
+"the robot to a scoring mechanism. In this case, it can make sense to combine"
+" the transfer system with the intake system or scoring system, so only two "
+"mechanisms are needed."
+msgstr ""
+"Otra consideración importante al diseñar una transferencia es de dónde y "
+"hacia dónde se moverán los objetos. Mover objetos en múltiples ejes es "
+"difícil y propenso a errores. Cuando los mecanismos están alineados, las "
+"transferencias solo tienen que actuar en líneas rectas, evitando complejidad"
+" innecesaria. Un uso muy común para un mecanismo de transferencia es mover "
+"objetos desde el intake del robot hacia un mecanismo de puntuación. En este "
+"caso, puede tener sentido combinar el sistema de transferencia con el "
+"sistema de intake o el sistema de puntuación, de manera que solo se "
+"necesiten dos mecanismos."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:21
+msgid ""
+"Generally, when designing transfers, you want to avoid as much mechanical "
+"complexity as possible. The less moving parts in a mechanism, the lower the "
+"chance something can fail."
+msgstr ""
+"Generalmente, al diseñar transferencias, quieres evitar la mayor complejidad"
+" mecánica posible. Cuantas menos piezas móviles en un mecanismo, menor es la"
+" probabilidad de que algo falle."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:24
+msgid "Transfer Type Considerations"
+msgstr "Consideraciones sobre el tipo de transferencia"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:26
+msgid ""
+"There are several different types of transfers, ranging from linear to "
+"rotational transfers, and different ways of actually moving objects inside "
+"the transfer mechanism. When designing a transfer, a design that has lower "
+"mechanical complexity will be prone to less mechanical failures. See "
+":doc:`transfer-types` for examples of common transfer types."
+msgstr ""
+"Existen varios tipos diferentes de transferencias, que van desde "
+"transferencias lineales hasta transferencias rotacionales, y diferentes "
+"formas de mover objetos dentro del mecanismo de transferencia. Al diseñar "
+"una transferencia, un diseño con menor complejidad mecánica será propenso a "
+"menos fallas mecánicas. Ver :doc:`tipo-de-transferencia` para ejemplos de "
+"tipos comunes de transferencias."

@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Nicolás Flores Verdad Quintana, 2023
-# Yaretzi Lugo, 2024
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 04:14+0000\n"
+"POT-Creation-Date: 2024-01-28 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -502,6 +502,17 @@ msgstr ""
 "manual. Dependiendo de su acceso a las herramientas, el pocketing puede "
 "resultarle más o menos difícil."
 
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:112
+msgid ""
+"CNC milling and routing excel at pocketing aluminum box tubing, whereas "
+"water jet and laser cutting excel at pocketing plates. Whether pocketing on "
+"box tubing or plates, the design is fairly similar."
+msgstr ""
+"El fresado y enrutamiento CNC son excelentes para hacer pocketing en tubos "
+"de aluminio, mientras que el corte por chorro de agua y láser son excelentes"
+" para hacer pocketing en placas. Ya sea en tubos o placas, el diseño es "
+"bastante similar."
+
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:114
 msgid ""
 "When designing pockets, **it's important to consider the type of material, "
@@ -656,6 +667,19 @@ msgstr ""
 "mucho más tiempo de mecanizado, no es necesario cortar las cavidades por "
 "completo."
 
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:148
+msgid ""
+":term:`Waterjet cutters <Waterjet cutter>` and :term:`laser cutters <Laser "
+"cutter>` are only able to cut material all the way through, but routers and "
+"mills are able to make surface pockets. These pockets don't go all the way "
+"through the material and are multitudes more rigid than thru pocketing."
+msgstr ""
+"Las cortadoras de chorro de agua<Waterjet cutter> y las cortadoras "
+"láser<Laser cutter> solo pueden cortar el material completamente, pero los "
+"enrutadores y fresadoras pueden crear bolsillos en la superficie. Estos "
+"bolsillos no atraviesan completamente el material y son mucho más rígidos "
+"que el pocketing a través."
+
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:150
 msgid ""
 "The downside is increased machining time. The increased time is from the "
@@ -672,3 +696,270 @@ msgstr ""
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:155
 msgid "Outer mechanism plate surface pocketed"
 msgstr "Superficie de la placa del mecanismo exterior embolsada"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:155
+msgid "Surface Pocketing Example"
+msgstr "Ejemplo de embolsado en superficie"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:157
+msgid ""
+"If you don't have access to any precision tools, a hand drill/drill press "
+"and large drill bit/flat bottom boring bits can create pockets in material. "
+"Although this is the simplest form of pocketing, there is a straightforward "
+"way to optimize the circular drill method."
+msgstr ""
+"Si no tiene acceso a ninguna herramienta de precisión, un taladro de "
+"mano/una prensa de taladrar y una broca grande/una broca de fondo plano "
+"pueden crear cavidades en el material. Aunque esta es la forma más sencilla "
+"de pocketing, hay una forma sencilla de optimizar el método de taladro "
+"circular."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:159
+msgid ""
+"Since the main goal of pocketing is to remove as much material as possible "
+"without significantly sacrificing the structural stability, the holes need "
+"to be drilled in specific positions with the right size bit."
+msgstr ""
+"Dado que el objetivo principal del pocketing es eliminar la mayor cantidad "
+"de material posible sin sacrificar significativamente la estabilidad "
+"estructural, los orificios deben perforarse en posiciones específicas con la"
+" broca del tamaño adecuado."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:161
+msgid ""
+"The most effective way to find the specific positions and drill bit sizes, "
+"is to first create a pocketing design as you would do with circles and "
+"tangent lines. Then draw holes tangent to the struts created by the circles "
+"and tangent lines. An example is below with the orange as the holes to drill"
+" positioned tangentially to the regular pocketed edges."
+msgstr ""
+"La forma más eficaz de encontrar las posiciones específicas y los tamaños de"
+" las brocas es crear primero un diseño de pocketing de cómo se haría con "
+"círculos y líneas tangentes. A continuación, dibuje orificios tangentes a "
+"los puntales creados por los círculos y las líneas tangentes. A "
+"continuación, se muestra un ejemplo con la naranja como los agujeros para "
+"perforar colocados tangencialmente a los bordes embolsados regulares."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "Outer mechanism plate showing the tangent circles between the pockets"
+msgstr ""
+"Placa exterior del mecanismo que muestra los círculos tangentes entre las "
+"bolsas"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:169
+msgid "Outer mechanism plate showing optimal drill pockets"
+msgstr ""
+"Placa de mecanismo exterior que muestra las cavidades de perforación óptimas"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:169
+msgid "Optimal Drill Pocketing Method Example"
+msgstr "Ejemplo de método óptimo de pocketing/perforación"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:171
+msgid ""
+"Although it may look like a random mess and it may take a while longer than "
+"just randomly \"cheese holing\", this method will yield the greatest weight "
+"reduction to structural rigidity loss ratio using the drill pocketing "
+"method."
+msgstr ""
+"A pesar de que puede parecer un desastre al azar y puede tomar un poco más "
+"de tiempo que sólo al azar \"cheese holing\", este método producirá la mayor"
+" reducción de peso a la relación de pérdida de rigidez estructural "
+"utilizando el método de perforación."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:173
+msgid ""
+"A very important tip to pocketing is to do it last when designing a part. "
+"Parts should not be designed around the pocketing pattern, rather the "
+"pocketing should be designed around the part. If there are too many holes in"
+" a part, or the part is too small to be pocketed with an offset value, then "
+"it's probably not worth it to pocket."
+msgstr ""
+"Un consejo muy importante para el \"pocketing\" es hacerlo en último lugar "
+"cuando se diseña una pieza. Las piezas no deben diseñarse en función del "
+"patrón del pocketing, sino que el pocketing debe diseñarse en función de la "
+"pieza. Si hay demasiados orificios en una pieza, o la pieza es demasiado "
+"pequeña para hacer pocketing con un valor de desplazamiento, probablemente "
+"no merezca la pena hacer pocketing."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:175
+msgid ""
+"Pocketing can reduce part weight, but when using traditional machining "
+"methods can take a significant amount of extra time. Although, when adding "
+"pockets to parts that are going to be 3D printed, it can in some cases "
+"decrease print time as well as material used."
+msgstr ""
+"El pocketing puede reducir el peso de la pieza, pero si se utilizan métodos "
+"de maquinado tradicionales, puede requerir mucho tiempo adicional. Sin "
+"embargo, si se añaden bolsillos a piezas que se van a imprimir en 3D, en "
+"algunos casos se puede reducir el tiempo de impresión y el material "
+"utilizado."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:177
+msgid ""
+"The pocketing method above is the simplest parametric method to pocketing, "
+"but more complex methods exist. For instance, the image below is an example "
+"of a complex double iso-grid pocketing pattern optimized for metal 3D "
+"printing."
+msgstr ""
+"El método de pocketing anterior es el método paramétrico más sencillo de "
+"pocketing, pero existen métodos más complejos. Por ejemplo, la imagen "
+"siguiente es un ejemplo de un complejo patrón de pocketing de doble iso-"
+"rejilla optimizado para la impresión 3D en metal."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:182
+msgid "Arm pivot mount with complex double iso-grid pocketing pattern"
+msgstr ""
+"Soporte de pivote de brazo con complejo patrón de pocketing de doble iso-"
+"rejilla"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:182
+msgid "731 Wannabee Strange, Rover Ruckus, Arm Pivot Mount"
+msgstr "731 Wannabee Strange, Rover Ruckus, Montaje de brazo pivotante"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:184
+msgid ""
+"When the pockets are designed around a 3D printed part, many new "
+"possibilities open up in terms of minimum inner corner radius, resolution "
+"and dimensions. Now of course, 3D printed parts can be pocketed in the same "
+"way as traditional parts with similar results."
+msgstr ""
+"Cuando el pocketing se diseña en torno a una pieza impresa en 3D, se abren "
+"muchas nuevas posibilidades en cuanto a radio mínimo de las esquinas "
+"interiores, resolución y dimensiones. Ahora, por supuesto, en las piezas "
+"impresas en 3D se puede hacer el pocketing del mismo modo que las piezas "
+"tradicionales con resultados similares."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:187
+msgid "CAD Tutorial Part 3 - Custom Pulley Template"
+msgstr "Tutorial CAD Parte 3 - Plantilla de polea personalizada"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:189
+msgid ""
+"When designing methods of power transmission, it's useful to have an "
+"adjustable pulley generator to rapidly rearrange C-C (center to center) "
+"distance for design changes. Typically, FTC teams use the HTD5 belt profile "
+"due to its deep tooth profile, which adds resistance to slipping and "
+"increases load capacity. This tutorial will focus on the HTD5 profile, but "
+"it is relatively easy to adapt for different profiles."
+msgstr ""
+"A la hora de diseñar métodos de transmisión de potencia, resulta útil "
+"disponer de un generador de poleas ajustable que permita reajustar "
+"rápidamente la distancia C-C (centro a centro) para realizar cambios en el "
+"diseño. Normalmente, los equipos de FTC utilizan el perfil de correa HTD5 "
+"debido a su perfil de dientes profundos, que añade resistencia al "
+"deslizamiento y aumenta la capacidad de carga. Este tutorial se centrará en "
+"el perfil HTD5, pero es relativamente fácil de adaptar para diferentes "
+"perfiles."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:191
+msgid ""
+"To make the pulley fully parametric (adjustable without redoing the base "
+"sketch), we will use Equations (in Solidworks and Creo), Parameters (Fusion "
+"360 and Inventor) or Variables (Onshape). Equations allow a user to quickly "
+"adjust values and change multiple dimensions in a sketch or feature."
+msgstr ""
+"Para hacer la polea totalmente paramétrica (ajustable sin rehacer el croquis"
+" base), utilizaremos Ecuaciones (en Solidworks y Creo), Parámetros (Fusion "
+"360 e Inventor) o Variables (Onshape). Las ecuaciones permiten al usuario "
+"ajustar rápidamente valores y cambiar múltiples dimensiones en un croquis o "
+"elemento."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "A screenshot of the \"Equations, Global Variables, and Dimensions\" view"
+msgstr ""
+"Captura de pantalla de la vista \"Ecuaciones, variables globales y "
+"dimensiones\"."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:197
+msgid ""
+"First, define a new variable \"n\" and set a default value of 24. This is "
+"crucial since \"n\" will affect the number of teeth, which will define the "
+"angle between teeth and the circular pattern."
+msgstr ""
+"En primer lugar, defina una nueva variable \"n\" y establezca un valor por "
+"defecto de 24. Esto es crucial ya que \"n\" afectará al número de dientes, "
+"que definirá el ángulo entre los dientes y el patrón circular."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:199
+msgid "Copy the sketch below."
+msgstr "Copia el siguiente esquema."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The sketch to copy"
+msgstr "El boceto a copiar"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:204
+msgid "The 15\\ |deg| equation is done by typing =360/\"n\" into the text box."
+msgstr "La ecuación 15\\ |deg| se hace escribiendo =360/\"n\" en la caja de texto."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:205
+msgid ""
+"Note that 5mm dimension at the top describes arc length, which is done in "
+"Solidworks by first selecting the two points and the connecting arc."
+msgstr ""
+"Tenga en cuenta que los 5 mm de la parte superior describe la longitud del "
+"arco, que se realiza en Solidworks seleccionando primero los dos puntos y el"
+" arco de conexión."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:206
+msgid ""
+"The two big circles are tangent to the two smaller circles, but the two "
+"smaller circles are not tangent to each other."
+msgstr ""
+"Las dos circunferencias grandes son tangentes a las dos circunferencias "
+"pequeñas, pero las dos circunferencias pequeñas no son tangentes entre sí."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:208
+msgid ""
+"Leave this sketch as a reference and use \"Convert Entities\" to create "
+"sketches for additional features."
+msgstr ""
+"Deje este boceto como referencia y utilice \"Convertir entidades\" para "
+"crear bocetos de características adicionales."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The profile of the pulley"
+msgstr "El perfil de la polea"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:213
+msgid ""
+"Next, extrude the outer bold circle. Cut-extrude the profile in the "
+"reference sketch. Do these features separately."
+msgstr ""
+"A continuación, extruya el círculo exterior en negrita. Corte-extruya el "
+"perfil en el croquis de referencia. Realice estas operaciones por separado."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid ""
+"A screenshot of the tool to create the circular pattern of the next step"
+msgstr ""
+"Una captura de pantalla de la herramienta para crear el patrón circular del "
+"siguiente paso"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:218
+msgid ""
+"Now, just create a Circular Pattern. Define Direction 1 as the top face and "
+"create \"n\" instances of the cut-extrude feature."
+msgstr ""
+"Ahora, cree un Patrón Circular. Defina la Dirección 1 como la cara superior "
+"y cree \"n\" instancias de la función cortar-extruir."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The CAD of the pulley with dimensions"
+msgstr "El CAD de la polea con dimensiones"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:223
+msgid ""
+"Now just sketch on the side plane and sketch the flanges. This is up to you,"
+" but I prefer to keep the outer point vertical to a point pierced through "
+"the outer circle. That way, the flange changes with respect to \"n\"."
+msgstr ""
+"Ahora dibuje en el plano lateral y dibuje las bridas. Esto depende de ti, "
+"pero yo prefiero mantener el punto exterior vertical a un punto atravesado "
+"por el círculo exterior. De esta forma, la brida cambia con respecto a "
+"\"n\"."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+msgid "The complete CAD of the pulley"
+msgstr "El CAD completo de la polea"

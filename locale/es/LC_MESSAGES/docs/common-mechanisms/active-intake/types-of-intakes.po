@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-09 04:16+0000\n"
+"POT-Creation-Date: 2024-01-28 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,646 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:2
+msgid "Types of Intake"
+msgstr "Tipos de Intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:5
+msgid "Horizontal/Top Intake"
+msgstr "Horizontal/Top Intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:5
+msgid ""
+"A horizontal intake generally is a wider style of intake that has the intake"
+" rotating on a horizontal axis or plane. Horizontal intakes are generally "
+"used for intaking smaller game elements, as these types of intakes can "
+"control more than one piece at a time. Horizontal intakes have been used "
+"successfully in games such as Res-Q and Rover Ruckus, where teams needed to "
+"pick up small cubes and balls from the floor."
+msgstr ""
+"Una intake horizontal generalmente es un estilo más amplio de intake que "
+"tiene la entrada girando en un eje o plano horizontal. Las entradas "
+"horizontales se utilizan generalmente para recoger elementos de juego más "
+"pequeños, ya que este tipo de entradas pueden controlar más de una pieza a "
+"la vez. Las entradas horizontales se han utilizado con éxito en juegos como "
+"Res-Q y Rover Ruckus, donde los equipos necesitaban recoger cubos pequeños y"
+" pelotas del suelo."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:8
+msgid "Vertical Intake"
+msgstr "Intake vertical"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:8
+msgid ""
+"A vertical intake typically has wheels or other intake components rotating "
+"on a vertical axis (the z-axis). Vertical intakes are more controllable, as "
+"they can only pick up one element at a time. Vertical intakes excel at "
+"picking up large game elements which would be impossible to control more "
+"than one piece at once, such as the foam glyphs in Relic Recovery."
+msgstr ""
+"Un intake vertical típicamente tiene ruedas u otros componentes de intake "
+"que giran en un eje vertical (el eje z). Los intakes verticales son más "
+"controlables, ya que solo pueden recoger un elemento a la vez. Las tomas "
+"verticales son excelentes para recoger elementos grandes del juego que sería"
+" imposible controlar más de una pieza a la vez, como los glifos de espuma en"
+" Relic Recovery."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:10
+msgid ""
+"Below are different implementations of horizontal and vertical intakes:"
+msgstr ""
+"A continuación se presentan diferentes implementaciones de intakes "
+"horizontales y verticales."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:13
+msgid "Roller and Wheeled Intakes"
+msgstr "Intakes con Rodillos y Ruedas"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:15
+msgid ""
+"Roller and wheeled intakes refer to types of intakes which work by having "
+"some sort of hard or pliable object rotate along an axis. Wheeled intakes "
+"use different kinds of wheels (solid traction, compliant, or foam wheels) "
+"that propel the game element to the collection bin. Roller intakes are "
+"wider, and can sometimes intake more than one game element."
+msgstr ""
+"Intakes con rodillos y ruedas se refieren a tipos de intakes que funcionan "
+"al hacer que algún objeto duro o flexible gire a lo largo de un eje. Los "
+"intakes con ruedas utilizan diferentes tipos de ruedas (tracción sólida, "
+"flexibles o de espuma) que impulsan el elemento del juego hacia el "
+"contenedor de recolección. Los intakes de rodillos son más anchos y a veces "
+"pueden recoger más de un elemento del juego."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:17
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:66
+msgid "Term"
+msgstr "Término"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:20
+msgid "Compliant Wheel"
+msgstr "Rueda Compatible/Complaint Wheel"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:22
+msgid ""
+"A compliant wheel is a flexible rubber wheel that is primarily used for "
+"intakes. These are **NOT** designed for use in drivetrains."
+msgstr ""
+"Una rueda compatible es una rueda de goma flexible que se utiliza "
+"principalmente para los intakes. Estas **NO** están diseñadas para su uso en"
+" el chasis."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:24
+msgid ""
+"The available bore options vary depending on the vendor. As with the "
+"compliant wheels, durometer (hardness of rubber) affects both traction and "
+"longevity, sacrificing one for the other. However, in the case of intakes, a"
+" lower durometer is recommended to have maximum grippiness for intaking game"
+" elements."
+msgstr ""
+"Las opciones de diámetro disponibles varían dependiendo del proveedor. Al "
+"igual que con las ruedas compatibles, el durómetro (la dureza del "
+"caucho/goma) afecta tanto la tracción como la durabilidad, sacrificando una "
+"por la otra. Sin embargo, en el caso de los intakes, se recomienda una menor"
+" dureza para tener la máxima adherencia al tomar elementos del juego."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:26
+msgid ""
+"Durometer refers to the hardness of rubber. Having a high durometer "
+"translates to a harder rubber surface, more durability, but less traction. A"
+" low durometer means a softer rubber, worse durability, but improved "
+"traction."
+msgstr ""
+"El durómetro se refiere a la dureza del caucho. Tener un durómetro alto se "
+"traduce en una superficie de caucho/goma más duro, mayor durabilidad, pero "
+"menor tracción. Un durómetro bajo significa un caucho más suave, menor "
+"durabilidad, pero mejor tracción."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:28
+msgid ""
+"Examples of compliant wheel are Andymark's Compliant Wheels, and goBILDA's "
+"Gecko Wheels."
+msgstr ""
+"Ejemplos de ruedas compatibles son las Ruedas Flexibles de Andymark y las "
+"Ruedas Gecko de goBILDA."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+msgid "A 2\" green compliant wheel"
+msgstr "A 2\" rueda compatible verde"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:34
+msgid "A 2\" compliant wheel"
+msgstr "A 2\" rueda compatible "
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+msgid "A 4\" green compliant wheel"
+msgstr "A 4\" rueda compatible verde"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:40
+msgid "A 4\" compliant wheel"
+msgstr "A 4\"  rueda compatible "
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:43
+msgid "Solid Wheel Intake"
+msgstr "Intake de Rueda Sólida"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:45
+msgid ""
+"Solid wheel intakes use wheels such as grip and traction wheels to pick up "
+"game elements. They can be effective in picking up large game elements which"
+" do not have much tolerance difference."
+msgstr ""
+"Los intakes de rueda sólida utilizan ruedas como ruedas de agarre y tracción"
+" para recoger elementos del juego. Pueden ser efectivas para recoger grandes"
+" elementos del juego que no tienen mucha diferencia de tolerancia."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:47
+msgid ""
+"However, compliant wheel intakes generally will be more effective because "
+"compliant wheels offer more adjustability and forgiveness for the game "
+"elements. Compliant wheels also accounting for different game element "
+"orientations (the game pieces can get rotated when being controlled) and "
+"intake angles (the orientation of the game piece before it reaches the "
+"intake)."
+msgstr ""
+"Sin embargo, las entradas de ruedas compatibles en general serán más "
+"efectivas porque las ruedas compatibles ofrecen más ajustabilidad y perdón "
+"para los elementos del juego. Las ruedas compatibles también tienen en "
+"cuenta las diferentes orientaciones de los elementos del juego (las piezas "
+"del juego pueden girar cuando se controlan) y los ángulos del intake (la "
+"orientación de la pieza del juego antes de llegar al intake)."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:50
+msgid "Compliant Wheel Intake"
+msgstr "Intake de Rueda Compatible"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rstNone
+msgid "Spring-Loaded Intakes"
+msgstr "Intake Equipado con Resortes"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:54
+msgid ""
+"A spring-loaded intake is able to pivot in order to accommodate a game "
+"element when it is passing through the intake, but will snap back when the "
+"element has gone through. A spring-loaded intake requires more thought, but "
+"guarantees that the intake wheel will always be in contact with the desired "
+"element."
+msgstr ""
+"Un intake con resorte puede girar para acomodar un elemento del juego cuando"
+" pasa a través del intake, pero volverá a su posición cuando el elemento "
+"haya pasado. Un intake con resorte requiere más consideración, pero "
+"garantiza que la rueda del intake siempre estará en contacto con el elemento"
+" deseado."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:56
+msgid ""
+"A locked intake simply means that the wheels are locked into place and "
+"cannot pivot."
+msgstr ""
+"Un intake bloqueado simplemente significa que las ruedas están bloqueadas en"
+" su lugar y no pueden pivotar."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:58
+msgid ""
+"The compliant wheel intake is most commonly used with large game elements "
+"such as the glyphs in the 2017-2018 season, Relic Recovery. Compliant wheel "
+"intakes excel at controlling elements with flat surfaces such as cubes or "
+"rectangular prisms. They suffer at picking up balls."
+msgstr ""
+"El intake de rueda compatible se utiliza más comúnmente con elementos de "
+"juego grandes como los glifos en la temporada 2017-2018, Relic Recovery. Los"
+" intakes de rueda compatible son excelentes para controlar elementos con "
+"superficies planas como cubos o prismas rectangulares. Tienen dificultades "
+"para recoger pelotas."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:60
+msgid ""
+"In this game, robots had to pick up glyphs, which were 6 inch foam cubes, "
+"from the center pit and place them in the cryptobox. This game had many "
+"wheeled intakes primarily because the wheels had consistent and controllable"
+" contact with the glyphs. Wheeled intakes were able to propel the glyphs in "
+"a consistent fashion from the point of contact to the deposit plate, which "
+"would flip up to deposit the glyphs."
+msgstr ""
+"En este juego, los robots tenían que recoger glifos, que eran cubos de "
+"espuma de 6 pulgadas, del pozo central y colocarlos en la criptocaja. Este "
+"juego tenía muchos sistemas de intakes con ruedas principalmente porque las "
+"ruedas tenían un contacto constante y controlable con los glifos. Los "
+"sistemas de intake con ruedas podían propulsar los glifos de manera "
+"constante desde el punto de contacto hasta la placa de depósito, que se "
+"voltearía para depositar los glifos."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:62
+msgid ""
+"Wheeled intakes can be spring-loaded or locked into place. Teams could "
+"choose one or mix; in Relic Recovery, some teams spring-loaded the set of "
+"wheels that made contact first, and then had a fixed set in the back. This "
+"is up to the design team's choosing."
+msgstr ""
+"Los intakes con ruedas pueden estar equipadas con resortes o bloqueadas en "
+"su lugar. Los equipos pueden elegir una opción o combinarlas; en Relic "
+"Recovery, algunos equipos equiparon con resortes el conjunto de ruedas que "
+"hacían contacto primero, y luego tenían un conjunto fijo en la parte "
+"trasera. Esto depende de la elección del equipo de diseño."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:64
+msgid ""
+"Wheeled intakes operate at much slower RPM than surgical tubing intakes, as "
+"wheeled intakes are meant to pick up **one** element at a time. They "
+"generally require more torque than a surgical tubing intake, which is geared"
+" for speed."
+msgstr ""
+"Los intakes con ruedas operan a RPM mucho más lentas que los intakes de tubo"
+" quirúrgico, ya que los intakes con ruedas están diseñadas para recoger "
+"**un** elemento a la vez. Generalmente requieren más torque que un intake de"
+" tubo quirúrgico, que está diseñado para la velocidad."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:69
+msgid "Surgical Tubing"
+msgstr "Tubos quirúrgicos"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:71
+msgid ""
+"Surgical tubing is generally latex or rubber tubing. Its most common use "
+"case is in active intakes, and has been popular among teams for many "
+"seasons. Surgical tubing has a hollow center and is sold in different "
+"diameters and wall thicknesses. Teams can experiment with different kinds of"
+" surgical tubing, as well as adding polyurethane tubing (clear tubing that "
+"is stiffer than rubber or latex tubing) in order to make the tubing more "
+"stiff."
+msgstr ""
+"El tubo quirúrgico generalmente es de látex o caucho. Su caso de uso más "
+"común es en intakes activos, y ha sido popular entre los equipos durante "
+"muchas temporadas. El tubo quirúrgico tiene un centro hueco y se vende en "
+"diferentes diámetros y espesores de pared. Los equipos pueden experimentar "
+"con diferentes tipos de tubo quirúrgico, así como agregar tubo de "
+"poliuretano (tubo transparente que es más rígido que el tubo de caucho o "
+"látex) para hacer que el tubo sea más rígido."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+msgid "A roll of surgical tubing"
+msgstr "Un rollo de tubo quirúrgico"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:78
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:160
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:80
+msgid "Very controllable"
+msgstr "Muy controlable"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:81
+msgid "Propels elements to desired location"
+msgstr "Propulsa elementos a la ubicación deseada"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:82
+msgid "Great at picking up large elements"
+msgstr "Genial para recoger elementos grandes"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:85
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:167
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:87
+msgid "Picks up only one element at a time"
+msgstr "Recoge solo un elemento a la vez"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:88
+msgid "Elements can get jammed in a bad position"
+msgstr "Los elementos pueden atascarse en una mala posición."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:89
+msgid "Not generally used for picking up small elements"
+msgstr "No se utiliza generalmente para recoger elementos pequeños."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:90
+msgid "Can generally only pick up one specific element shape"
+msgstr "Solo puede recoger generalmente una forma de elemento específica"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
+msgid "9971's Relic Recovery intake"
+msgstr "9971's Relic Recovery intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
+msgid ""
+"9971 LanBros, Finalist Alliance First Pick (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"9971 LanBros, Alianza Finalista Primera Selección (Detroit), Relic de "
+"Recovery, equipado con resortes"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
+msgid "8680's Relic Recovery intake"
+msgstr "8680's Relic Recovery intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
+msgid "8680 Kraken-Pinion, Relic Recovery"
+msgstr "8680 Kraken-Pinion, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
+msgid "2856's Relic Recovery intake"
+msgstr "2856's Relic Recovery intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
+msgid ""
+"2856 Tesseract, Relic Recovery, 2 & 4 in. compliant wheels, 2 in. omni "
+"wheels"
+msgstr ""
+"2856 Tesseract, Relic Recovery, 2 y 4 pulgadas. Ruedas compatibles, 2 "
+"pulgadas. ruedas omni"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
+msgid "11115's Relic Recovery intake"
+msgstr "11115's Relic Recovery intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
+msgid ""
+"11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"11115 Gluten Free, Capitán de la Alianza Finalista (Detroit), Relic "
+"Recovery, equipado con resortes"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:113
+msgid "Foam Wheel Intake"
+msgstr "Intake de Rueda de Espuma"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:115
+msgid ""
+"A foam wheel intake has the same principles as a compliant wheel intake, "
+"except that it uses foam wheels. It is generally recommended that teams "
+"stick to compliant wheels as they are grippier and easier to control."
+msgstr ""
+"Un intake de rueda de espuma tiene los mismos principios que un intake de "
+"rueda compatible, excepto que utiliza ruedas de espuma. Generalmente se "
+"recomienda que los equipos se adhieran a las ruedas compatibles ya que son "
+"más adherentes y más fáciles de controlar."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
+msgid "6299's ResQ intake"
+msgstr "6299's ResQ intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
+msgid "6299 ViperBots QuadX, Res-Q"
+msgstr "6299 ViperBots QuadX, Res-Q"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:123
+msgid "Rubber Band Intake"
+msgstr "Intake de Liga de Hule"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:125
+msgid ""
+"Rubber band intakes, commonly used by in VRC, generally feature sprockets, "
+"wheels, or gears at two ends, with rubber bands interlaced in between to "
+"form a pliable and bendable roller. Generally, it can be actuated or "
+"adjustable with a servo, although this is not necessary."
+msgstr ""
+"Los intakes de liga de hule, comúnmente utilizadas en VRC, generalmente "
+"cuentan con piñones, ruedas o engranajes en ambos extremos, con ligas de "
+"hule entrelazadas entre ellos para formar un rodillo flexible y maleable. "
+"Por lo general, puede ser accionado o ajustable con un servo, aunque esto no"
+" es necesario."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:127
+msgid ""
+"Rubber band intakes are great with intaking balls, but not so great with "
+"other types of game elements such as cubes. It generally is slower than a "
+"surgical tubing intake, and requires multiple stages to transfer elements "
+"from collection to deposit. Zip ties can be added to increase the intake's "
+"range to accommodate for smaller balls."
+msgstr ""
+"Los intakes de liga de hule son excelentes para recoger bolas, pero no tan "
+"buenas para otros tipos de elementos de juego como cubos. En general, es más"
+" lento que un intake de tubo quirúrgico y requiere múltiples etapas para "
+"transferir elementos de la colección al depósito. Se pueden agregar "
+"cinchos/corbatas de plástico para aumentar el alcance del intake y adaptarse"
+" a bolas más pequeñas."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:132
+msgid "A rubber band intake for VRC Turning Point"
+msgstr "Intake de liga de hule para VRC Turning Point"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:132
+msgid "Ball intake for VRC Game Turning Point"
+msgstr "Intake de balón para el juego VRC Turning Point"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:135
+msgid "Tubing Intakes"
+msgstr "Intake de Tubos"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:137
+msgid ""
+"Tubing or noodle intakes typically use some sort of pliable tubing, which is"
+" rotated at high RPM to intake game pieces. Tubing intakes are particularly "
+"efficient at picking up small objects such as the balls and cubes from "
+"Res-Q, Velocity Vortex, and Rover Ruckus."
+msgstr ""
+"Los intakes de tubo o de fideos generalmente utilizan algún tipo de tubo "
+"flexible, que se gira a alta velocidad para recoger las piezas del juego. "
+"Los intakes de tubo son particularmente eficientes para recoger objetos "
+"pequeños como las pelotas y cubos de Res-Q, Velocity Vortex y Rover Ruckus."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:140
+msgid "Surgical Tubing Intake"
+msgstr "Intake de tubo quirúrgico"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:142
+msgid ""
+"Surgical tubing or spearfishing rubber tubing, sold by many different "
+"manufacturers, is a great option for picking up small game elements such as "
+"the minerals from Res-Q or Rover Ruckus."
+msgstr ""
+"El tubo quirúrgico o el tubo de goma para pesca submarina, vendido por "
+"muchos fabricantes diferentes, es una excelente opción para recoger "
+"elementos de juegos pequeños como los minerales de Res-Q o Rover Ruckus."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:144
+msgid ""
+"Surgical tubing intakes can, and often, have multiple sets of tubing in "
+"order to move minerals from the collection point to the holding box. This "
+"was most often seen in games where robots had to transfer minerals from the "
+"field to an elevated location."
+msgstr ""
+"Los intakes de tubos quirúrgicos pueden, y a menudo, tienen múltiples "
+"conjuntos de tubos para mover minerales desde el punto de recolección hasta "
+"la caja de almacenamiento. Esto se veía con mayor frecuencia en juegos donde"
+" los robots tenían que transferir minerales desde el campo hasta una "
+"ubicación elevada."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:146
+msgid ""
+"Unlike wheeled and rubber band intakes, which can be spring-loaded, surgical"
+" tubing intakes are practically always fixed at a certain height and angle."
+msgstr ""
+"A diferencia de los intakes con ruedas y ligas de hule, que pueden ser "
+"equipados con resorte, los intakes con tubos quirúrgicos casi siempre están "
+"fijos a una cierta altura y ángulo."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:148
+msgid "Surgical tubing by itself is soft and pliable. Teams have two options"
+msgstr ""
+"El tubo quirúrgico por sí mismo es suave y flexible. Los equipos tienen dos "
+"opciones."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:150
+msgid "Increase the RPM to 800-1000+ RPM"
+msgstr "Aumenta las RPM a 800-1000+ RPM"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:151
+msgid "Use polyurethane tubing at a lower RPM (100-250 RPM)."
+msgstr ""
+"Utilice tubería de poliuretano a una velocidad más baja (100-250 RPM)."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:153
+msgid ""
+"Polyurethane tubing can be purchased at a local hardware store and is a "
+"clear tubing that is quite stiff. Using some lubricant, insert the clear "
+"tubing into the surgical tubing for added stiffness."
+msgstr ""
+"El tubo de poliuretano se puede comprar en una ferretería local y es un tubo"
+" transparente que es bastante rígido. Usando un lubricante, inserta el tubo "
+"transparente en el tubo quirúrgico para mayor rigidez."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:155
+msgid ""
+"It is encouraged that teams test different RPMs and stiffness to develop the"
+" optimal intake. You will be surprised how changing one small variable such "
+"as the diameter of tubing or how far the tubing extends can affect intake "
+"effectiveness."
+msgstr ""
+"Se recomienda que los equipos prueben diferentes RPM y rigidez para "
+"desarrollar el intake óptimo. Te sorprenderá cómo cambiar una pequeña "
+"variable, como el diámetro del tubo o hasta dónde se extiende el tubo, puede"
+" afectar la efectividad del intake."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:157
+msgid ""
+"Surgical tubing intakes are especially good at picking up multiple elements "
+"at a time, due to the high RPM (sometimes >1000 RPM) of the rollers. "
+"However, it suffers from a lack of controllability, as sometimes the driver "
+"may accidentally pick up more than needed, and have to spit it out."
+msgstr ""
+"Las entradas de tubos quirúrgicos son especialmente buenas para recoger "
+"múltiples elementos a la vez, debido a las altas RPM (a veces >1000 RPM) de "
+"los rodillos. Sin embargo, sufre de falta de controlabilidad, ya que a veces"
+" el conductor puede recoger accidentalmente más de lo necesario y tener que "
+"escupirlo."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:162
+msgid "Able to collect multiple elements at a time"
+msgstr "Capaz de recolectar múltiples elementos a la vez"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:163
+msgid "Generally more efficient than wheeled intakes"
+msgstr "Generalmente más eficiente que los intakes con ruedas"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:164
+msgid "Specializes in small and odd-shaped elements"
+msgstr "Se especializa en elementos pequeños y de formas extrañas"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:169
+msgid "Requires high RPM"
+msgstr "Requiere altas RPM"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:170
+msgid "Less controllable"
+msgstr "Menos controlable"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:171
+msgid "Harder to pick up large elements easily"
+msgstr "Más difícil recoger elementos grandes fácilmente"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
+msgid "8375's surgical tubing intake"
+msgstr "8375's intake de tubo quirúrgico"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
+msgid "8375 Vulcan Robotics, Res-Q - great example of funneling"
+msgstr "8375 Vulcan Robotics, Res-Q - gran ejemplo de embudo"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
+msgid "8393's surgical tubing intake"
+msgstr "8393's intake de tubo quirúrgico"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
+msgid ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team, Semifinalist Alliance "
+"Captain (St. Louis), Velocity Vortex"
+msgstr ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team, Capitán de la Alianza "
+"Semifinalista (St. Louis), Velocity Vortex"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
+msgid "11115's surgical tubing intake"
+msgstr "11115's intake de tubo quirúrgico"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
+msgid "11115 Gluten Free, Winning Alliance First Pick (Detroit), Rover Ruckus"
+msgstr ""
+"11115 Gluten Free, Primera selección de la Alianza Ganadora (Detroit), Rover"
+" Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
+msgid "7203's surgical tubing intake"
+msgstr "7203's intake de tubo quirúrgico"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
+msgid "7203 KNO3, Rover Ruckus"
+msgstr "7203 KNO3, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:194
+msgid "Zip Tie Intake"
+msgstr "Intake de Cincho/Corbata"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:196
+msgid ""
+"Instead of using surgical tubing, some teams opt for heavy zip ties instead."
+" This can work, but we recommend surgical tubing as it is one of the most "
+"tried and tested methods for picking up nearly any game element. Zip ties "
+"lack the friction of rubber tubing."
+msgstr ""
+"En lugar de usar tubos quirúrgicos, algunos equipos optan por usar cinchos "
+"gruesos en su lugar. Esto puede funcionar, pero recomendamos el uso de tubos"
+" quirúrgicos, ya que es uno de los métodos más probados y comprobados para "
+"recoger casi cualquier elemento del juego. Los cinchos/corbatas carecen de "
+"la fricción de los tubos de goma."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:199
+msgid "3D printed intake (NinjaFlex/TPU Filament)"
+msgstr "Intake Impreso en 3D (NinjaFlex/TPU Filamento)"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:201
+msgid ""
+"TPU/NinjaFlex 3D printer filament is a great low-RPM intake flap option, if "
+"designed right they work well with servos, and several teams have "
+"successfully used this configuration in competition."
+msgstr ""
+"TPU/NinjaFlex filamento para impresora 3D es una excelente opción de intake "
+"aleta de baja RPM, si se diseña correctamente funcionan bien con servos, y "
+"varios equipos han utilizado con éxito esta configuración en competencia."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:203
+msgid ""
+"We recommend 3D printed intakes only if your team has had experience in 3D "
+"printing parts."
+msgstr ""
+"Recomendamos los intakes impresos en 3D solo si tu equipo tiene experiencia "
+"en la impresión de piezas en 3D."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
+msgid "731's 3D printed intake"
+msgstr "731's intake impreso en 3D"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
+msgid "731 Wannabee Strange, Rover Ruckus"
+msgstr "731 Wannabee Strange, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:213
+msgid "8417's 3D printed intake"
+msgstr "8417's intake impreso en 3D"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:213
+msgid "8417 Lectric Legends, Rover Ruckus - TPU intake flaps"
+msgstr "8417 Lectric Legends, Rover Ruckus - TPU intake aleta"

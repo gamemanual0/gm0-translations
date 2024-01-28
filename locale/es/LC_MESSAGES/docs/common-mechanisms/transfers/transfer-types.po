@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 04:16+0000\n"
+"POT-Creation-Date: 2024-01-28 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,415 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:4
+msgid "Types of Transfers"
+msgstr "Tipos de Transferencias"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:6
+msgid ""
+"There are a lot of different styles and types of transfers, but most are a "
+"form of Direct Transfer, Flip Up Transfer, Grate Transfer, or Conveyor "
+"Transfer."
+msgstr ""
+"Hay muchos estilos y tipos diferentes de transferencias, pero la mayoría son"
+" una forma de Transferencia Directa, Transferencia de Volteo, Transferencia "
+"de Rejilla o Transferencia de Transportador."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:9
+msgid "Direct Transfer"
+msgstr "Transferencia Directa"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:11
+msgid ""
+"The simplest form of transfer is a direct transfer. This is the term for "
+"when the mechanism that an item is being moved to is simply placed directly "
+"behind whatever is gathering the item. The most common form of this is "
+"putting an arm or bucket directly behind the intake to collect the item as "
+"soon as it enters the intake. Since there is no mechanism between the intake"
+" and the outtake system, this is also referred to as a \"transferless\" "
+"system."
+msgstr ""
+"La forma más simple de transferencia es una transferencia directa. Este es "
+"el término para cuando el mecanismo al que se está moviendo un objeto se "
+"coloca directamente detrás de lo que está recogiendo el objeto. La forma más"
+" común de esto es poner un brazo o una canasta directamente detrás del "
+"intake para recoger el objeto tan pronto como entra en el intake. Dado que "
+"no hay mecanismo entre el intake y el sistema del outtake, esto también se "
+"conoce como un sistema \"sin transferencia\"."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:14
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:37
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:86
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:117
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:16
+msgid "Least mechanical complexity of any transfer system"
+msgstr "La menor complejidad mecánica de cualquier sistema de transferencia"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:17
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:39
+msgid "Doesn't take up much space"
+msgstr "No ocupa mucho espacio."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:18
+msgid "Fastest transfer system"
+msgstr "Sistema de transferencia más rápido"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:21
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:44
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:93
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:124
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:23
+msgid "Doesn't actually move the item internally"
+msgstr "No mueve realmente el elemento internamente."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:24
+msgid ""
+"Requires the scoring mechanism to be able to go both behind the intake as "
+"well as into whatever position is needed for scoring"
+msgstr ""
+"Requiere que el mecanismo de puntuación pueda ir tanto detrás del intake "
+"como en cualquier posición necesaria para anotar puntos."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:29
+msgid ""
+"A picture of a direct transfer intake from FTC\\ |reg| 16461, where the "
+"collection bucket is behind the intake"
+msgstr ""
+"Una imagen de un intake de transferencia directa de FTC\\ |reg| 16461, donde"
+" la canasta de recolección está detrás del intake"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:29
+msgid ""
+"16461 Infinite Turtles, Freight Frenzy, Direct transfer intake, where the "
+"collection bucket is right behind the intake"
+msgstr ""
+"16461 Infinite Turtles, Freight Frenzy, Intake de transferencia directa, "
+"donde la canasta de recolección está justo detrás del intake"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:32
+msgid "Flip Up Transfer"
+msgstr "Transferencia de Volteo"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:34
+msgid ""
+"Flip up transfers are a form of transfer where the mechanism holding the "
+"item is rotated around a pivot point to align with a second mechanism that "
+"then collects the item. This mechanism is very commonly used on intakes to "
+"gain vertical height as well as some horizontal distance. In this use case, "
+"the intake can simply be mounted onto the transfer system, then spun in "
+"reverse to eject the item from the transfer mechanism into the scoring "
+"mechanism."
+msgstr ""
+"Las transferencias de volteo son una forma de transferencia en la que el "
+"mecanismo que sostiene el artículo se gira alrededor de un punto de pivote "
+"para alinearse con un segundo mecanismo que luego recoge el artículo. Este "
+"mecanismo se utiliza muy comúnmente en los intakes para ganar altura "
+"vertical, así como cierta distancia horizontal. En este caso de uso, el "
+"intake simplemente se puede montar en el sistema de transferencia, luego "
+"girar en sentido contrario para expulsar el artículo del mecanismo de "
+"transferencia hacia el mecanismo de puntuación."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:40
+msgid ""
+"Intake can be run co-axially to the flip up system so the motor doesn't have"
+" to be moved with the mechanism"
+msgstr ""
+"El intake puede trabajar coaxialmente al sistema de volteo para que el motor"
+" no tenga que moverse con el mecanismo."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:41
+msgid ""
+"Allows intake to stick outside of the robot and start rotated up to fit "
+"inside the 18 inch sizing cube, enabling more flexibility"
+msgstr ""
+"Permite que el intake se mantenga fuera del robot y comience girado hacia "
+"arriba para ajustarse dentro del cubo de dimensiones de 18 pulgadas, lo que "
+"permite una mayor flexibilidad."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:46
+msgid "Limited in horizontal and vertical movement"
+msgstr "Limitado en movimiento horizontal y vertical."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:47
+msgid "Care must be taken that mechanisms align properly to each other"
+msgstr ""
+"Debe tenerse cuidado de que los mecanismos se alineen correctamente entre "
+"sí."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:48
+msgid "Slower form of transfer then grate or direct"
+msgstr "Forma más lenta de transferencia que la rejilla o directa"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:49
+msgid "Mechanism can be hit by other robots when outside the robot frame"
+msgstr ""
+"El mecanismo puede ser golpeado por otros robots cuando está fuera del marco"
+" del robot."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rstNone
+msgid "6165 extending and flip up intake"
+msgstr "6165 intake de extensión y volteo"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:63
+msgid ""
+"6165 MSET Cuttlefish, Freight Frenzy, Flip up intake, mounted on linear "
+"slides for increased horizontal reach"
+msgstr ""
+"6165 MSET Cuttlefish, Freight Frenzy, Intake de volteo, montado en "
+"deslizadores lineales para aumentar el alcance horizontal."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rstNone
+msgid "7236 flip up intake"
+msgstr "7236 intake de volteo"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:78
+msgid "7236 Recharged Green, Rover Ruckus, Flip up intake"
+msgstr "7236 Recharged Green, Rover Ruckus, Intake de volteo"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:81
+msgid "Grate Transfer"
+msgstr "Transferencia de Rejilla"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:83
+msgid ""
+"Grate transfer is a form of transfer where two sets of \"forks\" are used on"
+" both the transfer mechanism and the scoring mechanism, offset from each "
+"other. This means the forks can pass by each other without intersecting, "
+"allowing an item to seamlessly go from being supported by one set of forks "
+"to the other. This provides really fast transfer times, but also limits how "
+"the transfer can operate. Generally, this type of transfer is used with two "
+"sets of linear slides at an angle to each other, most commonly with one at a"
+" horizontal and one more vertical."
+msgstr ""
+"La transferencia de rejilla es una forma de transferencia en la que se "
+"utilizan dos conjuntos de \"tenedores\" tanto en el mecanismo de "
+"transferencia como en el mecanismo de puntuación, desplazados entre sí. Esto"
+" significa que los tenedores pueden pasar uno junto al otro sin "
+"intersectarse, permitiendo que un objeto pase sin problemas de ser soportado"
+" por un conjunto de tenedores al otro. Esto proporciona tiempos de "
+"transferencia realmente rápidos, pero también limita cómo puede operar la "
+"transferencia. Por lo general, este tipo de transferencia se utiliza con dos"
+" conjuntos de deslizadores lineales en un ángulo entre sí, más comúnmente "
+"con uno en posición horizontal y otro más vertical."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:88
+msgid "Low mechanical complexity"
+msgstr "Baja complejidad mecánica"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:89
+msgid "Second fastest transfer system (instantaneous)"
+msgstr "Segundo sistema de transferencia más rápido (instantáneo)"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:90
+msgid ""
+"Integrates well with linear mechanism (such as extending intakes and "
+"outtakes)"
+msgstr ""
+"Se integra bien con mecanismos lineales (como intakes y outtakes de "
+"extensión)"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:95
+msgid ""
+"More complex design, careful alignment needed to prevent the \"forks\" from "
+"colliding"
+msgstr ""
+"Diseño más complejo, se necesita una alineación cuidadosa para evitar que "
+"los \"tenedores\" colisionen."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:96
+msgid "Doesn't integrate easily with rotational mechanisms"
+msgstr "No se integra fácilmente con mecanismos de rotación."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:97
+msgid ""
+"Limiting in range of motion, mechanisms have to move in specific orders for "
+"the transfer to work correctly"
+msgstr ""
+"Limitado en el rango de movimiento, los mecanismos tienen que moverse en "
+"órdenes específicos para que la transferencia funcione correctamente."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:0
+msgid "Animated Grate Transfer Example (Click To Expand)"
+msgstr "Ejemplo de Transferencia de Rejilla Animada (Haz clic para expandir)"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:109
+msgid "6929 grate transfer deposit, where the forks are visible"
+msgstr ""
+"6929 depósito de transferencia de rejilla, donde los tenedores son visibles"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:109
+msgid ""
+"6929 Data Force, Rover Ruckus, Grate transfer deposit. Forks are visible on "
+"the bottom, which go between forks on the intake bucket."
+msgstr ""
+"6929 Data Force, Rover Ruckus, Depósito de transferencia de rejilla. Los "
+"tenedores son visibles en la parte inferior, los cuales van entre los "
+"tenedores de la canasta del intake."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:112
+msgid "Conveyor Transfers"
+msgstr "Transferencia de transportador"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:114
+msgid ""
+"Conveyor transfer is a catch all term for transfer system that uses "
+"components to linearly move objects internally. Conveyors can use rollers, "
+"belts, surgical tubing, rubber bands, and other materials to move the items."
+" These materials then form conveyors that seamlessly move the object "
+"linearly from one mechanism to another. Conveyors are generally either "
+"roller conveyors, where a series of rollers move parts, or continuous "
+"conveyors, where a continuous object moves the items. In addition, a hybrid "
+"conveyor can be used which is made up of both rollers and continuous objects"
+" in between."
+msgstr ""
+"La transferencia de transportador es un término general para un sistema de "
+"transferencia que utiliza componentes para mover objetos linealmente "
+"internamente. Los transportadores pueden utilizar rodillos, correas, tubos "
+"quirúrgicos, bandas de goma y otros materiales para mover los artículos. "
+"Estos materiales luego forman transportadores que mueven sin problemas el "
+"objeto linealmente de un mecanismo a otro. Los transportadores son "
+"generalmente transportadores de rodillos, donde una serie de rodillos mueven"
+" las piezas, o transportadores continuos, donde un objeto continuo mueve los"
+" artículos. Además, se puede utilizar un transportador híbrido que está "
+"compuesto tanto por rodillos como por objetos continuos en el medio."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:119
+msgid "Can create \"buffers\" where multiple items can be stored"
+msgstr "Puede crear \"topes\" donde se pueden almacenar varios elementos"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:120
+msgid "Items can be moved across complex paths internally"
+msgstr ""
+"Los elementos pueden ser movidos a través de rutas complejas internamente."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:121
+msgid ""
+"Items can be continuously transferred instead of having discrete back and "
+"forth motions"
+msgstr ""
+"Los elementos pueden ser transferidos de manera continua en lugar de tener "
+"movimientos discretos de ida y vuelta."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:126
+msgid ""
+"Items can jam on the entrance and exit of the conveyor, especially when "
+"multiple elements are entering at once."
+msgstr ""
+"Los elementos pueden atascarse en la entrada y salida del transportador, "
+"especialmente cuando varios elementos ingresan al mismo tiempo."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:127
+msgid "Significant mechanical complexity"
+msgstr "Complejidad mecánica significativa"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:129
+msgid "There are different types of conveyors that can be used."
+msgstr "Existen diferentes tipos de transportadores que se pueden utilizar."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:132
+msgid "Roller Conveyor"
+msgstr "Transportador de rodillos"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:134
+msgid ""
+"Roller conveyors use a series of rollers or wheels to move objects from the "
+"beginning of the conveyor to the end. These transfers allow for the use of "
+"compliant wheel for different or odd shaped items, but care must be taken "
+"that objects don't get stuck in between rollers. In addition, wheels tend to"
+" have better grip then many forms of continuous conveyors. Surgical tubing "
+"can also be used instead of rollers."
+msgstr ""
+"Las transportadoras de rodillos utilizan una serie de rodillos o ruedas para"
+" mover objetos desde el principio del transportador hasta el final. Estas "
+"transferencias permiten el uso de ruedas compatibles para objetos de formas "
+"diferentes o extrañas, pero se debe tener cuidado de que los objetos no se "
+"queden atascados entre los rodillos. Además, las ruedas tienden a tener un "
+"mejor agarre que muchas formas de transportadoras continuas. También se "
+"puede utilizar tubos quirúrgicos en lugar de rodillos."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:139
+msgid ""
+"7244 Roller Conveyor intake, where a series of omni wheels moves a game "
+"element verticall"
+msgstr ""
+"7244 Intake de transportador de rodillos, donde una serie de ruedas omni "
+"mueve un elemento del juego verticalmente."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:139
+msgid ""
+"7244 OUT of the BOX Robotics, Ultimate Goal, Roller conveyor transfer "
+"intake, where a series of omni wheels moves the game element rings at a high"
+" vertical angle"
+msgstr ""
+"7244 OUT of the BOX Robotics, Ultimate Goal, Intake de transferencia de "
+"transportador de rodillos, donde una serie de ruedas omni mueve los anillos "
+"de elementos del juego en un ángulo vertical alto"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:142
+msgid "Continuous Conveyor"
+msgstr "Transportador continuo"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:144
+msgid ""
+"A continuous conveyor uses a continuous object, such as belts, surgical "
+"tubing, or rubber bands to move objects. These transfers generally have less"
+" compliance than roller intakes, but also continuously contact the object "
+"being moved. This can lead to fewer jamming problems. However, the common "
+"objects used, such as belts and rubber bands, don't have much grip, so they "
+"may slip when transferring objects."
+msgstr ""
+"Un transportador continuo utiliza un objeto continuo, como cintas, tubos "
+"quirúrgicos o bandas de goma, para mover objetos. Estas transferencias "
+"generalmente tienen menos flexibilidad que las entradas de rodillos, pero "
+"también entran en contacto continuo con el objeto que se está moviendo. Esto"
+" puede llevar a menos problemas de atasco. Sin embargo, los objetos "
+"comúnmente utilizados, como cintas y bandas de goma, no tienen mucho agarre,"
+" por lo que pueden resbalar al transferir objetos."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:149
+msgid "8644 Conveyor that uses o-ring belts to move rings internally"
+msgstr ""
+"8644 Transportador que utiliza correas en forma de anillo para mover anillos"
+" internamente"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:149
+msgid ""
+"8644 Brainstormers, Ultimate Goal, Conveyors which moves rings using o-ring "
+"belts internally"
+msgstr ""
+"8644 Brainstormers, Ultimate Goal, Transportador que mueve internamente "
+"anillos utilizando correas en forma de o"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:154
+msgid "11115 Ball transfer using rubber bands"
+msgstr "11115 Transferencia de bola usando ligas de hule"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:154
+msgid "11115 Gluten Free, Ball transfer using rubber bands"
+msgstr "11115 Gluten Free, Transferencia de bola usando ligas de hule"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:157
+msgid "Hybrid Conveyor"
+msgstr "Transportador híbrido"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:159
+msgid ""
+"Hybrid conveyors use rollers with continuous objects such as belts and "
+"rubber bands between them. This solves the contact issues of roller "
+"conveyors while also having more grip then purely continuous conveyors. "
+"However, these conveyors have to be designed to allow both the roller and "
+"continuous materials to make contact with the item."
+msgstr ""
+"Las transportadores híbridos utilizan rodillos con objetos continuos como "
+"cintas y bandas de goma entre ellos. Esto resuelve los problemas de contacto"
+" de las transportadores de rodillos, al mismo tiempo que proporciona un "
+"mayor agarre que las transportadoeas puramente continuos. Sin embargo, estos"
+" transportadores deben diseñarse para permitir que tanto el rodillo como los"
+" materiales continuos hagan contacto con el artículo."
