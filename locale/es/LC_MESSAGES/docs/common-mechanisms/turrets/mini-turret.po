@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 04:16+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2023-08-04 04:15+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:2
+msgid "Mini Turrets"
+msgstr "Mini Torretas"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:4
+msgid ""
+"Mini turrets are turrets that pivot something small, typically an end "
+"effector. These are often at the end of a linear extension or arm. These are"
+" much simpler than full turrets, because they are physically smaller and "
+"deal with much smaller loads. There are many ways to implement a mini "
+"turret, and generally any of the methods mentioned on the :doc:`./full-"
+"turret` page will work, but the center-bearing technique is the most common,"
+" as it is the simplest."
+msgstr ""
+"Mini torretas son torretas que pivotan algo pequeño, típicamente un efector "
+"final. Estas suelen estar al final de una extensión lineal o brazo. Son "
+"mucho más simples que las torretas completas, ya que son físicamente más "
+"pequeñas y manejan cargas mucho más pequeñas. Hay muchas formas de "
+"implementar una mini torreta, y en general cualquiera de los métodos "
+"mencionados en la página :doc:`./torretas-completas` funcionará, pero la "
+"técnica del rodamiento central es la más común, ya que es la más simple."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:8
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:10
+msgid "Allows for accurate mechanism rotation, without drivetrain movement."
+msgstr ""
+"Permite una rotación precisa del mecanismo, sin movimiento del chasis."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:11
+msgid "Much simpler than a full turret."
+msgstr "Mucho más simple que una torreta completa."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:14
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:16
+msgid ""
+"Heavier than just an end effector, which is especially important on the end "
+"of slides/arms because of mechanism speed and center of gravity."
+msgstr ""
+"Más pesado que solo un efector final, lo cual es especialmente importante en"
+" el extremo de los deslizadores/brazos debido a la velocidad del mecanismo y"
+" al centro de gravedad."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:17
+msgid "More complex than no turret."
+msgstr "Más complejo que sin torreta."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:18
+msgid "Provide fairly limited range compared to full turrets."
+msgstr ""
+"Proporcionar un rango bastante limitado en comparación con las torretas "
+"completas."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:23
+msgid "12518 Almond Robotics' Mini Turret"
+msgstr "12518 Almond Robotics' Mini Torreta"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:23
+msgid ""
+"12518 Almond Robotics, Freight Frenzy, a **center-bearing mini turret** on "
+"the end of slides used to rotate a scoring mechanism with a servo"
+msgstr ""
+"12518 Almond Robotics, Freight Frenzy, un **mini torreta con rodamiento "
+"central** en el extremo de los deslizadores utilizados para girar un "
+"mecanismo de puntuación con un servo"

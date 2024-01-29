@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 04:16+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -21,3 +21,184 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:4
+msgid "Control Systems"
+msgstr "Sistemas de Control"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:6
+msgid ""
+"The FTC\\ |reg| control system is based around a \":term:`Robot "
+"Controller`\" and a \":term:`Driver Station`\". The :term:`Robot Controller`"
+" is mounted on the robot. It is either embedded within or connected to "
+"special \"Hub(s)\", which in turn connect to motors, servos, and sensors. "
+"The :term:`Robot Controller` is linked to the :term:`Driver Station` through"
+" WiFi or WiFi Direct."
+msgstr ""
+"El sistema de control de la FTC\\ |reg| se basa en un \":term:`Controlador "
+"de Robot`\" y una \":term:`Estación del Conductor`\". El :term:`Controlador "
+"de Robot` está montado en el robot. Está integrado dentro o conectado a "
+"\"Hub(s)\" especiales, que a su vez se conectan a motores, servos y "
+"sensores. El :term:`Controlador de Robot` está vinculado a la "
+":term:`Estación del Conductor` a través de WiFi o WiFi Direct."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:8
+msgid ""
+"REV Robotics is the sole manufacturer of legal FTC control system "
+"components. The REV Expansion Hub connects to motors, servos, sensors, and a"
+" :term:`Robot Controller`. A REV Control Hub has the same functionality of "
+"an Expansion Hub but with a built-in :term:`Robot Controller`."
+msgstr ""
+"REV Robotics es el único fabricante de componentes legales del sistema de "
+"control FTC. El REV Expansion Hub se conecta a motores, servos, sensores y a"
+" un :term:`Controlador de Robot`. Un REV Control Hub tiene la misma "
+"funcionalidad que un Expansion Hub pero con un :term:`Controlador de Robot` "
+"integrado."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:10
+msgid "More information about the FTC Control System can be found below:"
+msgstr ""
+"A continuación encontrará más información sobre el Sistema de Control FTC:"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:12
+msgid ""
+"`Official Control System Documentation on FTC Docs <https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-"
+"FTC-Control-System.html>`_"
+msgstr ""
+"`Documentación oficial del sistema de control en FTC Docs <https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-"
+"FTC-Control-System.html>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:13
+msgid ""
+"`REV Control System Documentation <https://docs.revrobotics.com/duo-"
+"control/>`_"
+msgstr ""
+"`Documentación del Sistema de Control REV <https://docs.revrobotics.com/duo-"
+"control/>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:14
+msgid ""
+"`Official troubleshooting guide "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"system-troubleshooting-guide.pdf>`_"
+msgstr ""
+"Guía oficial de solución de problemas "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
+"system-troubleshooting-guide.pdf>"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:16
+msgid ""
+"There are two possible control systems that can be run on an FTC robot "
+"legally:"
+msgstr ""
+"Hay dos posibles sistemas de control que se pueden utilizar legalmente en un"
+" robot FTC."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:18
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:24
+msgid "REV Control Hub + REV Expansion Hub"
+msgstr "REV Control Hub + REV Expansion Hub"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:19
+msgid ":term:`RC Phone <Robot Controller>` + REV Expansion Hub(s)"
+msgstr ":term:`RC Teléfono <Robot Controller>` + REV Expansion Hub(s) "
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:21
+msgid ""
+"Beginning in the 2024-2025 season, an :term:`RC Phone <Robot Controller>` "
+"will no longer be legal to use as a Robot Controller. Teams will be required"
+" to use a REV Control Hub as their :term:`Robot Controller`."
+msgstr ""
+"A partir de la temporada 2024-2025, un :term:`RC Teléfono <Robot "
+"Controller>` ya no será legal para usar como Controlador de Robot. Los "
+"equipos deberán usar un REV Control Hub como su :term:`Controlador de "
+"Robot`."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:26
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:41
+msgid ""
+"It is of vital importance to update the firmware on REV Expansion hubs to at"
+" least version 1.8.2. It includes better protection against disconnects and "
+"improves program performance. See the `REV Expansion Hub firmware update "
+"docs`_."
+msgstr ""
+"Es de vital importancia actualizar el firmware en los REV Expansion Hubs a "
+"al menos la versión 1.8.2. Incluye una mejor protección contra desconexiones"
+" y mejora el rendimiento del programa. Consulta la documentación de "
+"actualización del firmware del `REV Expansion Hub`_."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:28
+msgid "This is the standard control system for teams starting out in FTC."
+msgstr ""
+"Este es el sistema de control estándar para equipos que comienzan en FTC."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:30
+msgid ""
+"The Control Hub connects to the Expansion Hub through either a RS-485 "
+"connection, or a USB-A (Control Hub side) to mini-USB (Expansion Hub-side) "
+"connection. In either case, proper strain relief and cable management should"
+" be used."
+msgstr ""
+"El Control Hub se conecta al Expansion Hub a través de una conexión RS-485 o"
+" una conexión USB-A (lado del Control Hub) a mini-USB (lado del Expansion "
+"Hub). En ambos casos, se debe utilizar un alivio de tensión y una gestión de"
+" cables adecuado."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:32
+msgid ""
+"For more information on setting up the Control Hub and configuring the "
+"robot, head to `REV Robotics' Technical Resources Control Hub Guide "
+"<https://docs.revrobotics.com/duo-control/control-hub-gs>`_."
+msgstr ""
+"Para obtener más información sobre cómo configurar el Control Hub y "
+"configurar el robot, dirígete a la Guía del Control Hub de los Recursos "
+"Técnicos de REV Robotics <https://docs.revrobotics.com/duo-control/control-"
+"hub-gs>."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rstNone
+msgid "A diagram of the Control Hub + Expansion Hub control system"
+msgstr "Un diagrama del sistema de control del Control Hub + Expansion Hub."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:39
+msgid "RC Phone + REV Expansion Hub(s)"
+msgstr "RC Teléfono + REV Expansion Hub(s)"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:43
+msgid ""
+"The Expansion Hub connects to the :term:`Robot Controller` phone through its"
+" mini USB port. The REV Expansion Hub is reliable, as long as proper strain "
+"relief and wiring is carried out. This includes the :term:`USB Retention "
+"Mount`, as well as 3D printing :term:`XT30` stress relief mounts."
+msgstr ""
+"El Expansion Hub se conecta al teléfono :term:`Controlador del robot` a "
+"través de su puerto mini USB. El REV Expansion Hub es confiable, siempre y "
+"cuando se realice un alivio adecuado de la tensión y el cableado. Esto "
+"incluye el :term:`USB Montaje de Retención`, así como los soportes de alivio"
+" de tensión :term:`XT30` de impresión 3D."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:45
+msgid ""
+"For more information on setting up the Expansion Hub and configuring the "
+"robot, head to `REV Robotics' Technical Resources Expansion Hub Guide "
+"<https://docs.revrobotics.com/duo-control/legacy/expansion-hub-gs>`_."
+msgstr ""
+"Para obtener más información sobre cómo configurar el Expansion Hub y "
+"configurar el robot, dirígete a la Guía del Expansion Hub de los Recursos "
+"Técnicos de REV Robotics <https://docs.revrobotics.com/duo-"
+"control/legacy/expansion-hub-gs>."
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:47
+msgid "`USB Retention Mount <https://www.revrobotics.com/rev-41-1214/>`_"
+msgstr ""
+"USB Retention Mount/Montaje de retención USB  "
+"<https://www.revrobotics.com/rev-41-1214/>"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:48
+msgid "`XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_"
+msgstr "XT30 Alivio del Estrés <https://www.thingiverse.com/thing:2887045>"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rstNone
+msgid "A diagram of the RC Phone + Expansion Hub(s) control system"
+msgstr "Un diagrama del sistema de control del RC Teléfono + Expansion Hub(s)"

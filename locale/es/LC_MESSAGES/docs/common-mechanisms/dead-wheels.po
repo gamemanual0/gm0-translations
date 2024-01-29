@@ -6,18 +6,827 @@
 # Translators:
 # Ddino XD, 2024
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 04:14+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:4
+msgid "Dead Wheels"
+msgstr "Ruedas muertas"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:6
+msgid ""
+"This is a very niche aspect of design in FTC\\ |reg|. Generally it is "
+"something done by more experienced teams who have had time to repeatedly "
+"test their designs and mechanisms with software during the off-season."
+msgstr ""
+"Este es un aspecto muy nicho del diseño en FTC |reg|. Generalmente es algo "
+"que hacen los equipos más experimentados, que han tenido tiempo de probar "
+"repetidamente sus diseños y mecanismos con software durante el off-season."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:8
+msgid ""
+"The term dead wheels, tracking wheels, odometry pods, and odometry are often"
+" conflated in the FTC community. However, there are a few key differences "
+"one must keep in mind. Odometry is an umbrella term and refers to the "
+"general use of motion sensors for localization purposes. Meanwhile, dead "
+"wheels, tracking wheels, and odometry pods are all synonymous terms."
+msgstr ""
+"Los términos ruedas muertas, ruedas de seguimiento, cápsulas de odometría y "
+"odometría se confunden a menudo en la comunidad de FTC. Sin embargo, hay "
+"algunas diferencias clave que hay que tener en cuenta. La odometría es un "
+"término genérico que se refiere al uso general de sensores de movimiento con"
+" fines de localización. Mientras tanto, ruedas muertas, ruedas de "
+"seguimiento y cápsulas de odometría son términos sinónimos."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:10
+msgid "Term"
+msgstr "Términos"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:13
+msgid "Dead Wheel"
+msgstr "Rueda muerta"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:15
+msgid ""
+"A small unpowered wheel (usually an :term:`omni wheel <Omni Wheel>`) that "
+"tracks the distance the robot has traveled through the encoder attached to "
+"the wheel's axle."
+msgstr ""
+"Una pequeña rueda sin motor (normalmente una :term:`rueda omni <Omni "
+"Wheel>`) que realiza un seguimiento de la distancia que ha recorrido el "
+"robot a través del codificador acoplado al eje de la rueda."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:17
+msgid ""
+"Usually, there will be two or three wheels - one or two on the x and y axis "
+"each to track the front-back and left-right position relative to the "
+"starting point. Generally, odometry wheels are sprung so that the wheel is "
+"in contact with the floor tiles at all times to ensure accuracy."
+msgstr ""
+"Normalmente, habrá dos o tres ruedas: una o dos en los ejes x e y para "
+"seguir la posición delante-detrás y a la izquierda-derecha en relación con "
+"el punto de partida. Por lo general, las ruedas de odometría tienen muelles "
+"para que la rueda esté en contacto con las baldosas del suelo en todo "
+"momento para garantizar la precisión."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:19
+msgid ""
+"Odometry refers to the use of motion sensors for localization. Localization "
+"is a means for being able to locate the position of the bot at some point in"
+" time. Localization is crucial in path following and advanced autonomous "
+"modes as one needs to know where they are to generate the necessary "
+"movements needed to reach a desired destination. :doc:`Localization software"
+" </docs/software/concepts/odometry>` plays a major role in odometry; "
+"however, in order to produce accurate results, reliable and accurate "
+"hardware design is a necessity."
+msgstr ""
+"La odometría se refiere al uso de sensores de movimiento para la "
+"localización. La localización es un medio para poder localizar la posición "
+"del robot en un momento dado. La localización es crucial en el seguimiento "
+"de trayectorias y en los modos autónomos avanzados, ya que uno necesita "
+"saber dónde se encuentra para generar los movimientos necesarios para "
+"alcanzar el destino deseado. :doc:`El software de localización "
+"</docs/software/concepts/odometry>` desempeña un papel fundamental en la "
+"odometría; sin embargo, para producir resultados precisos, es necesario un "
+"diseño de hardware fiable y preciso."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:21
+msgid ""
+"The simplest form of odometry is drive encoder localization. This is the use"
+" of encoders measuring the rotation of motors that power the drive train. "
+"One is able to read the encoder data and feed it through the kinematic "
+"equation for that specific drive train to derive the body's velocity. Drive "
+"encoder localization is generally quite simple and easy to setup as almost "
+"all of the FTC legal motors have built-in encoders. Getting drive encoder "
+"localization setup is simply a matter of plugging in wires, no additional "
+"hardware needed."
+msgstr ""
+"La forma más sencilla de odometría es la localización por codificador de "
+"accionamiento. Se trata del uso de codificadores que miden la rotación de "
+"los motores que accionan el chasis. Se leen los datos del codificador y se "
+"introducen en la ecuación cinemática del chasis específico para obtener la "
+"velocidad del cuerpo. Por lo general, la localización del codificador de "
+"accionamiento es bastante sencilla y fácil de configurar, ya que casi todos "
+"los motores legales FTC tienen codificadores incorporados. Conseguir la "
+"localización del codificador de accionamiento es simplemente una cuestión de"
+" conectar los cables, sin necesidad de hardware adicional."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:23
+msgid ""
+"Many teams in the community have converged on a unique solution that isn't "
+"seen very much outside of FTC: the use of \"dead wheels,\" \"tracking "
+"wheels,\" or \"odometry pods\" (these terms are all synonymous). These refer"
+" to small \"dead\" or non-driven (not powered by a motor) wheels attached to"
+" an `encoder sensor <#encoders>`_. Two or three dead wheel pods are often "
+"sprung to the ground to ensure accurate tracking. The two-wheel design "
+"utilizes one parallel and one perpendicular pod (parallel and perpendicular "
+"with respect to the drive wheel axis), measuring x and y movement "
+"respectively. Change in heading is measured via a gyroscope. The three-wheel"
+" design utilizes two parallel and one perpendicular pod, measuring x and y "
+"movement respectively. However, this design forgoes the gyroscope and "
+"instead measures heading via the difference with the two parallel wheels. "
+"This is often more accurate in the context of the FTC control system because"
+" the BNO055 IMU (used for the gyroscope in the two-wheel design) utilizes "
+"I2C which is slower than the rest of the I/O on the REV Hub and cannot be "
+"bulk read. These two issues lead to minute drift issues which can compound "
+"over time, thus leading to a more inaccurate localization system when using "
+"the two-wheel design."
+msgstr ""
+"Muchos equipos de la comunidad han convergido en una solución única que no "
+"se ve mucho fuera de FTC: el uso de \"ruedas muertas\", \"ruedas de "
+"seguimiento\" o \"cápsulas de odometría\" (todos estos términos son "
+"sinónimos). Se trata de pequeñas ruedas \"muertas\" o no propulsadas (no "
+"accionadas por un motor) unidas a un `sensor codificador <#encoders>`_. A "
+"menudo, dos o tres ruedas muertas se apoyan en el suelo para garantizar un "
+"seguimiento preciso. El diseño de dos ruedas utiliza una cápsula paralela y "
+"otra perpendicular (paralela y perpendicular con respecto al eje de la rueda"
+" del chasis), que miden el movimiento x e y respectivamente. El cambio de "
+"rumbo se mide mediante un giroscopio. El diseño de tres ruedas utiliza dos "
+"cápsulas paralelas y una perpendicular, que miden el movimiento x e y "
+"respectivamente. Sin embargo, este diseño renuncia al giroscopio y en su "
+"lugar mide el rumbo a través de la diferencia con las dos ruedas paralelas. "
+"Esto es a menudo más preciso en el contexto del sistema de control FTC "
+"porque el BNO055 IMU (utilizado para el giroscopio en el diseño de dos "
+"ruedas) utiliza I2C que es más lento que el resto de la E / S en el Hub REV "
+"y no se puede leer a granel. Estos dos problemas conducen a problemas de "
+"desvío de minutos que pueden agravarse con el tiempo, lo que lleva a un "
+"sistema de localización más inexacta cuando se utiliza el diseño de dos "
+"ruedas."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:25
+msgid ""
+"However, designing consistently accurate dead wheels proves to be a "
+"difficult design challenge. It is often quite pricey. A set of three dead "
+"wheels will cost a minimum of $100 for the encoders alone, prior to any "
+"hardware."
+msgstr ""
+"Sin embargo, diseñar ruedas muertas de precisión constante resulta un reto "
+"de diseño difícil. Además, suele ser bastante caro. Un juego de tres ruedas "
+"muertas costará como mínimo 100 dólares sólo por los codificadores, antes de"
+" cualquier hardware."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:27
+msgid "Let's go through the advantages and disadvantages of each system."
+msgstr "Veamos las ventajas e inconvenientes de cada sistema."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:30
+msgid "Drive Encoder Localization"
+msgstr "Localización del codificador de accionamiento"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:32
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:45
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:57
+msgid "**Pros**:"
+msgstr "Pros:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:34
+msgid ""
+"Cheap (the motors you're using most likely already have encoders built in)"
+msgstr ""
+"Barato (lo más probable es que los motores que utilices ya incorporen "
+"codificadores (encoders))."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:35
+msgid "Accessible"
+msgstr "Accesible"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:36
+msgid "Very little configuration necessary"
+msgstr "Se necesita muy poca configuración"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:37
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:50
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:60
+msgid "**Cons**:"
+msgstr "Cons:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:39
+msgid ""
+"Drive encoder localization on mecanum drive can be quite inaccurate due to "
+"lack on traction on mecanum wheels."
+msgstr ""
+"La localización del codificador del accionamiento mecanum puede ser bastante"
+" imprecisa debido a la falta de tracción de las ruedas mecanum."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:40
+msgid ""
+"Will drift on high acceleration on mecanum drive. Accuracy will be good "
+"enough for basic autonomous modes if acceleration is limited"
+msgstr ""
+"Se desviará en aceleraciones altas con accionamiento mecánico. La precisión "
+"será suficiente para los modos autónomos básicos si se limita la "
+"aceleración."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:43
+msgid "Two-Wheel Odometry Pods"
+msgstr "Cápsulas de odometría de dos ruedas"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:47
+msgid "Cheaper than 3-wheel design"
+msgstr "Más barato que el diseño de 3 ruedas"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:48
+msgid "Pretty good accuracy"
+msgstr "Bastante buena precisión"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:49
+msgid "No tuning of the heading necessary"
+msgstr "No es necesario ajustar el rumbo"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:52
+msgid "Subject to more drift than the 3-wheel design"
+msgstr "Sujeto a más desvío que el diseño de 3 ruedas"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:55
+msgid "Three-Wheel Odometry Pods"
+msgstr "Cápsulas de odometría de tres ruedas"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:59
+msgid ""
+"Relatively accurate tracking. Great accuracy in a 30-second autonomous mode"
+msgstr ""
+"Seguimiento relativamente preciso. Gran precisión en un modo autónomo de 30 "
+"segundos."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:62
+msgid "Quite pricey"
+msgstr "Bastante caro"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:63
+msgid "Tuning of the heading is very important"
+msgstr "Es muy importante afinar el rumbo"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:66
+msgid "Encoders"
+msgstr "Codificadores (Encoders)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:68
+msgid ""
+"A lot of the localization done in software relies on readings from encoders."
+" :ref:`encoders` are sensors that track \"counts\" or \"ticks,\" which are "
+"values that represent a certain amount of a rotation. Different encoders "
+"might have a different number of counts per revolution (CPR), which is also "
+"sometimes also called ticks per revolution. The greater the number of "
+"counts, the more precise the data."
+msgstr ""
+"Gran parte de la localización realizada en software se basa en las lecturas "
+"de los encóderes. :ref:`encóderes` son sensores que realizan un seguimiento "
+"de los \"recuentos\" o \"ticks\", que son valores que representan una cierta"
+" cantidad de una rotación. Diferentes codificadores pueden tener un número "
+"diferente de cuentas por revolución (CPR), que a veces también se llama "
+"ticks por revolución. Cuanto mayor sea el número de cuentas, más precisos "
+"serán los datos."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:70
+msgid ""
+"Encoders are plugged into the JST-PH ports in the REV hubs. These encoders "
+"can either be built-in to the motors or external. External encoders will "
+"still need to be plugged into an encoder port but are not related to the "
+"motor in that port. Through software, we can use the motor object to "
+"determine the position of the encoder. This should be done with motors that "
+"do not use encoders. If you're using dead wheels, you will not need the "
+"drive motor encoder ports, so those are potential ports you might want to "
+"use."
+msgstr ""
+"Los codificadores se conectan a los puertos JST-PH de los REV hubs. Estos "
+"codificadores pueden ser incorporados a los motores o externos. Los encoders"
+" externos aún necesitarán ser conectados a un puerto de encoder pero no "
+"están relacionados con el motor en ese puerto. A través del software, "
+"podemos utilizar el objeto motor para determinar la posición del encoder. "
+"Esto debe hacerse con motores que no utilicen encoders. Si estás usando "
+"ruedas muertas, no necesitarás los puertos de encoder del motor de "
+"accionamiento, así que esos son puertos potenciales que podrías querer usar."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:72
+msgid ""
+"If one chooses to design dead wheels, there are only two recommended "
+"encoders that one should use for FTC: REV Through-Bore Encoders and U.S. "
+"Digital S4T Encoders."
+msgstr ""
+"Si se opta por diseñar ruedas muertas, sólo hay dos codificadores "
+"recomendados para FTC: REV Through-Bore Encoders y U.S. Digital S4T "
+"Encoders."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:75
+msgid "REV Through-Bore"
+msgstr "REV Through-Bore"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:77
+msgid ""
+"Often short-handed to \"REVcoders\" or \"revcoders,\" the `REV Through-Bore "
+"encoders <https://www.revrobotics.com/rev-11-1271/>`_ has quickly become the"
+" de facto option the FTC community. The REV encoders have gained such a "
+"reputation due to its relative affordability, much improved reliability, and"
+" ease of use. The through-bore design proves to be a *significant* "
+"improvement over previous optical disc encoder designs. Optical disc "
+"encoders are very fragile, prone to scratching, and are much less tolerant "
+"to design flaws."
+msgstr ""
+"A menudo abreviado como \"REVcoders\" o \"revcoders\", el `REV Through-Bore "
+"encoders <https://www.revrobotics.com/rev-11-1271/>`_ se ha convertido "
+"rápidamente en la opción de facto de la comunidad FTC. Los codificadores REV"
+" se han ganado tal reputación debido a su relativa asequibilidad, su "
+"fiabilidad muy mejorada y su facilidad de uso. El diseño pasante ha "
+"demostrado ser una mejora *significativa* con respecto a los diseños "
+"anteriores de codificadores de disco óptico. Los codificadores de disco "
+"óptico son muy frágiles, propensos a rayarse y mucho menos tolerantes a los "
+"fallos de diseño."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:83
+msgid "A REV Through-Bore Encoder"
+msgstr "A REV Through-Bore Encoder"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:83
+msgid "REV Through-Bore Encoder"
+msgstr "REV Through-Bore Encoder"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
+msgid "**Advantages:**"
+msgstr "Ventajas:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:87
+msgid "Through-bore design is very robust and easy to design with"
+msgstr "El diseño through-bore es muy robusto y fácil de diseñar"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:88
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:140
+msgid "Relatively cheap"
+msgstr "Relativamente barato"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:89
+msgid "High CPR"
+msgstr "Alto CPR"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:90
+msgid "Easy wiring"
+msgstr "Cableado sencillo"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:92
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:117
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:142
+msgid "**Disadvantages:**"
+msgstr "Desventajas:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:94
+msgid ""
+"Quite large relative to other encoders. May be challenging to create a "
+"compact design"
+msgstr ""
+"Bastante grande en comparación con otros codificadores. Puede ser difícil "
+"crear un diseño compacto"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:95
+msgid ""
+"Many Through-Bores seem to experience slight, uneven resistance when "
+"rotating. REV says this is normal and will subside as the encoder wears in"
+msgstr ""
+"Muchos through-bore parecen experimentar una resistencia ligera y desigual "
+"al girar. REV dice que esto es normal y disminuirá a medida que se desgaste "
+"el codificador."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:97
+msgid ""
+"To forcefully wear in a REV Through-Bore encoder a 1/2\" hex shaft can be "
+"spun on a drill through the encoder for a couple of minutes"
+msgstr ""
+"Para forzar el desgaste de un codificador REV Through-Bore, se puede hacer "
+"girar un eje hexagonal de 1/2\" en un taladro a través del codificador "
+"durante un par de minutos."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:98
+msgid "Odd mounting points"
+msgstr "Puntos de montaje extraños"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:100
+msgid ""
+"The Through-Bore encoders have a very high CPR (8k). The REV Hub transmits "
+"velocity in a 16-bit signed integer. This means it can only communicate a "
+"maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a "
+"second (32k / 8k = 4) for the velocity value on the REV Hub to experience an"
+" `integer overflow "
+"<https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is "
+"primarily a concern when dealing with motion profiling. The popular, "
+"existing tools (Road Runner and FTCLib) have `mechanisms for dealing with "
+"this issue <https://github.com/acmerobotics/road-runner-"
+"ftc/blob/e79f8a900f45c9058b67716b5289a52e17769e40/RoadRunner/src/main/java/com/acmerobotics/roadrunner/ftc/Encoders.kt#L66>`_"
+" so this is not a concern and should not sway your design decision. Just "
+"keep this detail in mind once you start programming."
+msgstr ""
+"Los codificadores pasantes tienen una RCP muy alto (8k). El Hub REV "
+"transmite la velocidad en un entero con signo de 16 bits. Esto significa que"
+" sólo puede comunicar un valor máximo de 2^15 (que es 32768). Por lo tanto, "
+"sólo se necesitan 4 rotaciones por segundo (32k / 8k = 4) para que el valor "
+"de la velocidad en el REV Hub experimente un `desbordamiento de enteros "
+"<https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. Esto es "
+"principalmente una preocupación cuando se trata de perfiles de movimiento. "
+"Las herramientas populares existentes (Road Runner y FTCLib) tienen "
+"`mecanismos para tratar este problema <https://github.com/acmerobotics/road-"
+"runner-"
+"ftc/blob/e79f8a900f45c9058b67716b5289a52e17769e40/RoadRunner/src/main/java/com/acmerobotics/roadrunner/ftc/Encoders.kt#L66>`_"
+" así que esto no es una preocupación y no debe influir en su decisión de "
+"diseño. Sólo ten en cuenta este detalle cuando empieces a programar."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:103
+msgid "U.S. Digital S4T"
+msgstr "U.S. Digital S4T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:105
+msgid ""
+"The `S4T "
+"<https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ "
+"miniature shaft encoder is another viable option used in dead wheel designs."
+" These encoders are very small and may significantly reduce the footprint of"
+" your dead wheel design. Gearing these encoders is ideal to prevent shock "
+"loads."
+msgstr ""
+"El encóder de eje en miniatura `S4T "
+"<https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ es "
+"otra opción viable utilizada en diseños de rueda muerta. Estos encóderes son"
+" muy pequeños y pueden reducir significativamente la huella de su diseño de "
+"rueda muerta. El engranaje de estos encóderes es ideal para evitar cargas de"
+" choque."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:111
+msgid "An US Digital S4T encoder"
+msgstr "Un codificador US Digital S4T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:111
+msgid "S4T Encoder"
+msgstr "Codificador S4T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
+msgid "*****Advantages:**"
+msgstr "Ventajas:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:115
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:139
+msgid "Very compact"
+msgstr "Muy compacto"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:119
+msgid "More expensive (nearly double the price)"
+msgstr "Más caro (casi el doble de precio)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:120
+msgid "Less durable"
+msgstr "Menos duradero"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:122
+msgid "Very thin wires. Prone to breaking easily if not secured properly"
+msgstr ""
+"Cables muy finos. Propensos a romperse fácilmente si no se sujetan "
+"correctamente."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:124
+msgid "Ideally requires external gearing"
+msgstr "Idealmente requiere un engranaje externo"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:127
+msgid "SRX Mag Encoder"
+msgstr "Codificador SRX Mag"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:129
+msgid ""
+"The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ "
+"from Cross The Road Electronics is a magnetic encoder. It is not used by "
+"many FTC teams due to its slightly higher complexity to use and lack of FTC "
+"centric documentation. It is more popular in FRC\\ |reg|."
+msgstr ""
+"El `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ "
+"de Cross The Road Electronics es un codificador magnético. No es utilizado "
+"por muchos equipos de FTC debido a su complejidad ligeramente mayor de usar "
+"y la falta de documentación centrada en FTC. Es más popular en FRC |reg|."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:135
+msgid "A CTRE SRX Mag encoder"
+msgstr "Un codificador magnético CTRE SRX "
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:135
+msgid "CTRE SRX Mag Encoder"
+msgstr "Codificador magnético CTRE SRX"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:144
+msgid "Requires assembly"
+msgstr "Requiere montaje"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:145
+msgid "Not much information exists for use in FTC"
+msgstr "No existe mucha información para utilizar en  FTC"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:148
+msgid "U.S. Digital E8T (deprecated)"
+msgstr "U.S. Digital E8T (obsoleto)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:150
+msgid ""
+"Once the de facto option for most FTC teams, the `E8T "
+"<https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ optical "
+"encoders are no longer recommended as the REV Through-Bores are a superior "
+"option at an equivalent price. The open-hole optical disc design of these "
+"encoders face a number of frustrating design flaws that made them very "
+"fragile and prone to breaking. The only advantage that they have relative to"
+" the REV Through-Bores is their smaller footprint."
+msgstr ""
+"Los codificadores ópticos `E8T "
+"<https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_, que en "
+"su día fueron la opción de facto para la mayoría de los equipos FTC, ya no "
+"se recomiendan, ya que los REV Through-Bore son una opción superior a un "
+"precio equivalente. El diseño de disco óptico de orificio abierto de estos "
+"codificadores se enfrenta a una serie de frustrantes defectos de diseño que "
+"los hacen muy frágiles y propensos a romperse. La única ventaja que tienen "
+"con respecto a los REV Through-Bore es que ocupan menos espacio."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:156
+msgid "An US Digital E8T encoder"
+msgstr "Un codificador US Digital E8T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:156
+msgid "E8T Encoder"
+msgstr "Codificador E8T"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:159
+msgid "Design"
+msgstr "Diseño"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:161
+msgid ""
+"There are few open source dead wheel designs. Dead wheels are often designed"
+" around a team's own drive train and FTC teams seldom publicly release their"
+" own robot CADs."
+msgstr ""
+"Existen pocos diseños de ruedas muertas de código abierto. Las ruedas "
+"muertas suelen diseñarse en torno al propio chasis del equipo y los equipos "
+"de FTC rara vez publican los CAD de sus robots."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:163
+msgid "Here are a few publicly available dead wheel designs:"
+msgstr "He aquí algunos diseños de ruedas muertas disponibles públicamente:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:165
+msgid "**Open Odometry by 18219**"
+msgstr "**Odometría Abierta por 18219**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:167
+msgid "https://openodometry.weebly.com"
+msgstr "https://openodometry.weebly.com"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:168
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:179
+msgid "Utilizes the REV Through-Bore Encoder"
+msgstr "Utiliza el REV Through-Bore Encoder"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:169
+msgid "Most popular and robust publicly available design"
+msgstr "El diseño más popular y robusto disponible públicamente"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:170
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:180
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:200
+msgid "Compact enough to fit into a goBILDA channel"
+msgstr "Suficientemente compacto para caber en un canal goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:172
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:182
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:192
+msgid "**Things to consider**:"
+msgstr "Cosas a tener en cuenta:"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:174
+msgid ""
+"Utilizes Rotacaster 35mm wheels from Australia. Shipping may take a while"
+msgstr ""
+"Utiliza ruedas Rotacaster de 35 mm de Australia. El envío puede tardar un "
+"poco"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:176
+msgid "**goREVdometry**"
+msgstr "**goREVdometry**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:178
+msgid "https://discord.com/invite/Cvz3MbM9dX"
+msgstr "https://discord.com/invite/Cvz3MbM9dX"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:184
+msgid "Information only available through their Discord channel"
+msgstr "Información disponible únicamente a través de su canal de Discord"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:185
+msgid "Hasn't been iterated on in a while"
+msgstr "No se ha iterado en un tiempo"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:187
+msgid "**11115 Gluten Free Design - 2019**"
+msgstr "11115 Diseño Gluten Free - 2019"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:189
+msgid ""
+"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
+msgstr ""
+"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:190
+msgid ""
+"The above link the entire robot assembly for 11115's CAD for the 2018-19 "
+"season"
+msgstr ""
+"El enlace de arriba todo el montaje del robot para el CAD de 11115 para la "
+"temporada 2018-19"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:194
+msgid "Uses LEGO\\ |reg| gears"
+msgstr "Utiliza engranajes LEGO |reg|"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:195
+msgid "Uses US Digital S4T's. Quite pricey"
+msgstr "Utiliza US Digital S4T. Bastante caros"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:197
+msgid "**9794 Wizards.exe Design**"
+msgstr "9794 Wizards.exe Design"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:199
+msgid ""
+"https://www.youtube.com/watch?list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
+msgstr ""
+"https://www.youtube.com/watch?list=PLICNg-"
+"rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:201
+msgid "**No longer recommended as it utilizes the E8T**"
+msgstr "**Ya no se recomienda porque utiliza el E8T."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
+msgid "Spring Tensioning"
+msgstr "Tensado de resortes"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
+msgid ""
+"It is *highly* recommended that your dead wheel design includes some form of"
+" spring tensioning that pushes the wheel into the ground. This ensures that "
+"the wheel is always in contact with ground and has adequate traction. "
+"Sufficient force is required to ensure constant traction to prevent the "
+"wheels from slipping. Keep in mind that too much force may lift a light "
+"drive train off the ground and disrupt driving."
+msgstr ""
+"Es *altamente* recomendable que el diseño de su rueda muerta incluya algún "
+"tipo de resorte tensor que empuje la rueda hacia el suelo. Esto garantiza "
+"que la rueda esté siempre en contacto con el suelo y tenga la tracción "
+"adecuada. Se requiere una fuerza suficiente para garantizar una tracción "
+"constante y evitar que las ruedas patinen. Tenga en cuenta que demasiada "
+"fuerza puede levantar del suelo un chasis ligero e interrumpir la "
+"conducción."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:208
+msgid ""
+"The most popular method of spring tensioning is to pivot your pod around a "
+"point and provide a rotational force via a spring or rubber band."
+msgstr ""
+"El método más popular para tensar los resortes consiste en hacer pivotar la "
+"cápsula alrededor de un punto y aplicar una fuerza de rotación mediante un "
+"resorte o una goma elástica."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+msgid "A demonstration of pivoting spring tensioning"
+msgstr "Demostración del tensado de resortes pivotantes"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+msgid "FTC 14320's spring tensioning"
+msgstr "Tensado de resorte del equipo de FTC 14320"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:216
+msgid ""
+"A much more niche option is to vertically spring odometry pods. The idea is "
+"that springing around a pivot will cause the dead wheels to move in the axis"
+" parallel to the ground if the height of the dead wheels relative to the "
+"ground changes. Vertically sprung odometry pods will not experience such an "
+"issue. However, this is not really an issue that most teams will experience."
+" Vertically springing is much harder to design well and is not recommended "
+"for the relatively minor improvement in accuracy it yields."
+msgstr ""
+"Una opción mucho más especializada consiste en mecer verticalmente las "
+"cápsulas de odometría. La idea es que la suspensión alrededor de un pivote "
+"hará que las ruedas muertas se muevan en el eje paralelo al suelo si cambia "
+"la altura de las ruedas muertas con respecto al suelo. Las cápsulas de "
+"odometría con resortes verticales no experimentarán este problema. Sin "
+"embargo, esto no es realmente un problema que la mayoría de los equipos "
+"experimentarán. La suspensión vertical es mucho más difícil de diseñar bien "
+"y no se recomienda por la mejora relativamente pequeña de la precisión que "
+"proporciona."
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
+msgid "An example of vertical spring tensioning"
+msgstr "Un ejemplo de tensado vertical de resortes"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
+msgid "FTC 18172's vertical springing"
+msgstr "El resorte vertical del equipo de FTC 18172"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:225
+msgid "Gallery"
+msgstr "Galería"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:228
+msgid "Open Odometry (REV Through Bore Encoder)"
+msgstr "Odometría abierta (REV Through Bore Encoder)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "Exploded drawing of Open Odometry design"
+msgstr "Despiece del diseño de Odometría Abierta"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "Section view of Open Odometry"
+msgstr "Vista en sección de la Odometría Abierta"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:239
+msgid "FTC\\ |reg| Team 14310 (REV Through Bore Encoder)"
+msgstr "FTC\\ |reg| Equipo 14310 (REV Through Bore Encoder)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14130's odometry"
+msgstr "Odometría de 14130"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:246
+msgid "FTC Team 8802 (REV Through Bore Encoder)"
+msgstr "Equipo de FTC 8802 (REV Through Bore Encoder)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "8802's odometry"
+msgstr "Odometría de 8802"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:253
+msgid "FTC Team 14320 (US Digital S4T)"
+msgstr "Equipo de FTC 14320 (US Digital S4T)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14320's odometry"
+msgstr "Odometría de 14320"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:260
+msgid "FTC Team 11115 (US Digital S4T)"
+msgstr "Equipo de FTC 11115 (US Digital S4T)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
+msgid "11115's odometry"
+msgstr "Odometría de 11115"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
+msgid ""
+"`FTC Team 11115 Photo Album "
+"<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
+"KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_"
+msgstr ""
+"`Álbum de fotos del equipo "
+"11115<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
+"KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:269
+msgid "FTC Team 14481 (REV Through Bore Encoder)"
+msgstr "Equipo de FTC 14481 (REV Through Bore Encoder)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14481's odometry"
+msgstr "Odometría de 14481"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:276
+msgid "FTC Team 3658 (REV Through Bore Encoder)"
+msgstr "Equipo de FTC 3658 (REV Through Bore Encoder)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
+msgid "Render of 3658's odometry"
+msgstr "Render de la odometría de 3658"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
+msgid "FTC Team 3658 CAD"
+msgstr "Equipo de FTC 3658 CAD"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:285
+msgid "FTC Team 7236 (REV Through Bore Encoder)"
+msgstr "Equipo de FTC 7236 (REV Through Bore Encoder)"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:291
+msgid "Exploded view of 7236's odometry"
+msgstr "Despiece de la odometría de 7236"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:291
+msgid "FTC Team 7236 CAD"
+msgstr "Equipo de FTC 7236 CAD"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "7236's odometry"
+msgstr "Odometría de 7236"

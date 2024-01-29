@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 04:16+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,167 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:4
+msgid "SDK Servos"
+msgstr "SDK Servos"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:6
+msgid ""
+"The SDK offers several methods of controlling and communicating with servos,"
+" as well as a couple of hidden methods that can be easily accessed."
+msgstr ""
+"El SDK ofrece varios métodos de control y comunicación con servos, así como "
+"un par de métodos ocultos que se pueden acceder fácilmente."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:9
+msgid "General Explanation"
+msgstr "Explicación general"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:12
+msgid "PWM Explanation"
+msgstr "Explicación de PWM (Modulación de Ancho de Pulso)"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:14
+msgid ""
+"Servos are controlled via a PWM signal. PWM signal is one where the signal "
+"turns on for a number of microseconds, then off for a number of "
+"microseconds. Servos are controlled by sending variable length pulses every "
+"20 ms, with the length of the pulses dictating what angle the servo should "
+"move to (or with CR servos, what speed it should move at). This length of "
+"the pulse, expressed in microseconds, is called the PWM pulse width. By "
+"default, the sdk generates signals from 600 to 2400 microseconds (with SDK 0"
+" being 600 microseconds, and SDK 1 being 2400 microseconds). However, the "
+"expansion hub can actually generate between 500 and 2500 microseconds if the"
+" range is set manually."
+msgstr ""
+"Los servos se controlan mediante una señal PWM. La señal PWM es aquella en "
+"la que la señal se enciende durante un número de microsegundos y luego se "
+"apaga durante un número de microsegundos. Los servos se controlan enviando "
+"pulsos de longitud variable cada 20 ms, siendo la longitud de los pulsos la "
+"que dicta a qué ángulo debe moverse el servo (o, en el caso de los servos "
+"CR, a qué velocidad debe moverse). Esta longitud del pulso, expresada en "
+"microsegundos, se llama ancho de pulso PWM. Por defecto, el sdk genera "
+"señales de 600 a 2400 microsegundos (siendo 600 microsegundos el SDK 0 y "
+"2400 microsegundos el SDK 1). Sin embargo, el expansion hub puede generar "
+"entre 500 y 2500 microsegundos si se establece el rango manualmente."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:17
+msgid "5V Power"
+msgstr "5V Energía"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:19
+msgid ""
+"All servos require a minimum of 5V to operate, and so the expansion hub "
+"generates 5V to power the servos. The 5V power is shared between pairs of "
+"ports (0-1, 2-3, 4-5). By default, this 5V power is OFF, and doesn't provide"
+" power. However, doing any servo operation, such as setting the position of "
+"a servo, will turn ON the 5V power to both shared ports. Calling disable PWM"
+" seems to turn OFF shared power, however if another servo is used or is "
+"active the 5V power will remain ON instead."
+msgstr ""
+"Todos los servos requieren un mínimo de 5V para funcionar, por lo que el "
+"expansion hub genera 5V para alimentar los servos. La alimentación de 5V se "
+"comparte entre pares de puertos (0-1, 2-3, 4-5). Por defecto, esta "
+"alimentación de 5V está APAGADA y no proporciona energía. Sin embargo, "
+"cualquier operación de servo, como establecer la posición de un servo, "
+"activará la alimentación de 5V en ambos puertos compartidos. Llamar a "
+"disable PWM parece apagar la alimentación compartida, sin embargo, si se "
+"utiliza otro servo o está activo, la alimentación de 5V permanecerá "
+"ENCENDIDA en su lugar."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:24
+msgid "An example of a PWM wave for a made up servo."
+msgstr "Un ejemplo de una onda PWM para un servo inventado."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:24
+msgid ""
+"An example of servo PWM waves. NOTE: Servo angles are arbitrarily selected "
+"and will not be accurate to all servos"
+msgstr ""
+"Un ejemplo de ondas PWM de servo. NOTA: Los ángulos del servo se seleccionan"
+" arbitrariamente y no serán precisos para todos los servos."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:26
+msgid ""
+"Every pair of **two ports**, (0-1, 2-3, 4-5) share the SAME 2 amp "
+"limitation, so care should be taken that pairs of servos do not pull more "
+"than 2 amps. Putting servos in every other port is recommended when "
+"possible."
+msgstr ""
+"Cada par de **dos puertos**, (0-1, 2-3, 4-5) comparten la MISMA limitación "
+"de 2 amperios, así que se debe tener cuidado de que los pares de servos no "
+"consuman más de 2 amperios. Se recomienda colocar los servos en cada otro "
+"puerto cuando sea posible."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:29
+msgid "Hidden Methods"
+msgstr "Métodos Ocultos"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:32
+msgid "ServoImplEx"
+msgstr "ServoImplEx"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:33
+msgid ""
+"All REV hub servos are instances of ``ServoImplEx``, which exposes some more"
+" methods to the user, such as setting the servo PWM range."
+msgstr ""
+"Todos los servos REV hub son instancias de \"ServoImplEx\", que expone "
+"algunos métodos adicionales al usuario, como establecer el rango PWM del "
+"servo."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:35
+msgid ""
+"There is no downside to using ``ServoImplEx``, in order to convert a "
+"``Servo`` to a ``ServoImplEx`` the user simply just needs to cast the "
+"``Servo`` returned by the ``hardwareMap`` to a ``ServoImplEx``."
+msgstr ""
+"No hay ninguna desventaja en usar \"ServoImplEx\", para convertir un "
+"\"Servo\" a \"ServoImplEx\" el usuario simplemente necesita hacer un cast "
+"del \"Servo\" devuelto por \"hardwareMap\" a \"ServoImplEx\"."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:37
+msgid "**Tips:**"
+msgstr "**Consejos:**"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:39
+msgid ""
+"You can use ``setPwmRange()`` to increase the servo range to a maximum of "
+"500 to 2500 microseconds. This changes the SDK mapping, with 0 becoming the "
+"minimum microseconds and 1 becoming the maximum microseconds. **Increasing "
+"the range to 500-2500 can give more range when controlling servos that use "
+"500-2500 PWM Range, such as goBILDA servos and REV Smart Robot Servo**"
+msgstr ""
+"Puedes usar ``setPwmRange()`` para aumentar el rango del servo a un máximo "
+"de 500 a 2500 microsegundos. Esto cambia el mapeo del SDK, con 0 "
+"convirtiéndose en el mínimo de microsegundos y 1 convirtiéndose en el máximo"
+" de microsegundos. **Aumentar el rango a 500-2500 puede proporcionar más "
+"rango al controlar servos que utilizan un rango de PWM de 500-2500, como los"
+" servos goBILDA y el REV Smart Robot Servo**"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:40
+msgid ""
+"``setPwmDisable()`` and ``setPwmEnable()`` can be used to turn on and off "
+"the PWM signal to a servo. On some servos, this will cause the servo to de-"
+"energize and \"turn off\" with no holding power. Other servos may stay on "
+"and hold their position. Behavior will vary from servo manufacturer to servo"
+" manufacturer. It will also disable 5V power if the servo is the only one in"
+" its group of ports."
+msgstr ""
+"``setPwmDisable()`` y ``setPwmEnable()`` se pueden utilizar para encender y "
+"apagar la señal PWM a un servo. En algunos servos, esto hará que el servo se"
+" desenergice y se \"apague\" sin potencia de retención. Otros servos pueden "
+"permanecer encendidos y mantener su posición. El comportamiento variará de "
+"un fabricante de servo a otro. También desactivará la alimentación de 5V si "
+"el servo es el único en su grupo de puertos."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:42
+msgid ""
+"Both REV Smart Robot Servos and goBILDA servos will stop holding their "
+"position when ``setPwmDisable`` is called, regardless of if the 5v power is "
+"still on or not."
+msgstr ""
+"Ambos servos REV Smart Robot y goBILDA dejarán de mantener su posición "
+"cuando se llame a \"setPwmDisable\", sin importar si la alimentación de 5v "
+"está encendida o no."

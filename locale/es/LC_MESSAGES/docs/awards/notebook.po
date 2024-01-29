@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 04:15+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -21,3 +21,569 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/awards/notebook.rst:2
+msgid "Notebook Designs and Decisions"
+msgstr "Diseños de Cuadernos y Decisiones"
+
+#: ../../gm0/source/docs/awards/notebook.rst:4
+msgid ""
+"This section will cover both what needs to be in the notebook and the "
+"decisions you need to make about it affecting both individual sections and "
+"it as a whole."
+msgstr ""
+"Esta sección tratará tanto de lo que hay que incluir en el cuaderno como de "
+"las decisiones que hay que tomar al respecto afectando tanto a las secciones"
+" individuales como al cuaderno en su conjunto."
+
+#: ../../gm0/source/docs/awards/notebook.rst:6
+msgid ""
+"The engineering notebook is completely OPTIONAL. Having a notebook is NOT a "
+"requirement for any award. However, judges can technically still ask for the"
+" notebook for more information, so some teams still choose to make one. "
+"**This article remains here for legacy reasons for teams that wish to make "
+"engineering notebooks, even though it is completely optional and not "
+"required for teams to still have a shot at awards**. There have been several"
+" instances of teams winning high level awards like Inspire and Think while "
+"having no engineering notebook."
+msgstr ""
+"El cuaderno de ingeniería es completamente OPCIONAL. Tener un cuaderno NO es"
+" un requisito para ningún premio. Sin embargo, técnicamente los jueces "
+"pueden pedir el cuaderno para obtener más información, por lo que algunos "
+"equipos deciden hacer uno. **Este artículo permanece aquí por razones de "
+"legado para los equipos que deseen hacer cuadernos de ingeniería, a pesar de"
+" que es completamente opcional y no es necesario para que los equipos "
+"todavía tengan una oportunidad para los premios**. Ha habido varios casos de"
+" equipos que han ganado premios de alto nivel como Inspire y Think sin tener"
+" un cuaderno de ingeniería."
+
+#: ../../gm0/source/docs/awards/notebook.rst:9
+msgid "Whole Notebook Decisions"
+msgstr "Decisiones del Cuaderno Entero"
+
+#: ../../gm0/source/docs/awards/notebook.rst:12
+msgid "Condensed vs Long"
+msgstr "Condensado vs Largo"
+
+#: ../../gm0/source/docs/awards/notebook.rst:14
+msgid ""
+"A trap many teams fall into is that a longer notebook is a better notebook, "
+"especially if it's actually quality writing. Unfortunately, that is not "
+"necessarily true."
+msgstr ""
+"Una trampa en la que caen muchos equipos es que un cuaderno más largo es un "
+"cuaderno mejor, sobre todo si se trata de escritura de calidad. Por "
+"desgracia, eso no es necesariamente cierto."
+
+#: ../../gm0/source/docs/awards/notebook.rst:16
+msgid ""
+"At a lot of competitions, especially with the notebook being completely "
+"optional, judges don't have a lot of time to read your notebooks. They will "
+"likely take a cursory scan at a few pages and take a more detailed look at "
+"certain pages. Thus, even if you do write a great but long notebook, they "
+"might miss the highlights and rank you lower than you should have. The "
+"solution to this is to create a condensed notebook."
+msgstr ""
+"En muchas competiciones, especialmente cuando el cuaderno es totalmente "
+"opcional, los jueces no tienen mucho tiempo para leer los cuadernos. Lo más "
+"probable es que echen un vistazo superficial a algunas páginas y se fijen "
+"con más detalle en otras. Por lo tanto, aunque escribas un cuaderno "
+"estupendo pero largo, es posible que no vean lo más destacado y te "
+"clasifiquen más bajo de lo que deberías. La solución es crear un cuaderno "
+"resumido."
+
+#: ../../gm0/source/docs/awards/notebook.rst:18
+msgid ""
+"This is where you make a purposeful effort to get rid of redundancies and "
+"make sure everything written in the notebook serves the purpose of being "
+"read and getting things checked off of awards."
+msgstr ""
+"Aquí es donde se hace un esfuerzo decidido por deshacerse de las "
+"redundancias y asegurarse de que todo lo que se escribe en el cuaderno sirve"
+" para ser leído y para que se marquen cosas en las adjudicaciones."
+
+#: ../../gm0/source/docs/awards/notebook.rst:20
+msgid ""
+"So if you know your state competitions are going to be more than a couple of"
+" days, write a long, detailed filled notebook. But if it is only a day long,"
+" write with every section having a purpose."
+msgstr ""
+"Así que si sabes que tus competiciones estatales van a durar más de un par "
+"de días, escribe un cuaderno largo y lleno de detalles. Pero si solo dura un"
+" día, escribe con cada sección que tenga un propósito."
+
+#: ../../gm0/source/docs/awards/notebook.rst:23
+msgid "Handwritten vs Typed"
+msgstr "Escrito a mano vs A máquina"
+
+#: ../../gm0/source/docs/awards/notebook.rst:25
+msgid ""
+"This one is a team decision. Some teams swear judges prefer handwritten "
+"notebooks, but there is no proof for that. But if you're a small team or you"
+" would prefer to write, do that. Be sure that the handwriting is consistent "
+"and legible! Typed notebooks are a lot easier to organize, and judges will "
+"definitely be able to read them."
+msgstr ""
+"Esta es una decisión del equipo. Algunos equipos juran que los jueces "
+"prefieren los cuadernos escritos a mano, pero no hay pruebas de ello. Pero "
+"si eres un equipo pequeño o prefieres escribir, hazlo. ¡Asegúrate de que la "
+"letra es consistente y legible! Los cuadernos mecanografiados son mucho más "
+"fáciles de organizar, y los jueces sin duda podrán leerlos."
+
+#: ../../gm0/source/docs/awards/notebook.rst:28
+msgid "Serious vs Charming"
+msgstr "Serio vs Encantador"
+
+#: ../../gm0/source/docs/awards/notebook.rst:30
+msgid ""
+"A team's notebook is an extension of its personality and branding. Some "
+"teams try to come across as an engineering firm or at least very serious, "
+"while others act the opposite."
+msgstr ""
+"El cuaderno de un equipo es una extensión de su personalidad y su marca. "
+"Algunos equipos intentan mostrarse como una empresa de ingeniería o, al "
+"menos, muy serios, mientras que otros actúan de forma opuesta."
+
+#: ../../gm0/source/docs/awards/notebook.rst:32
+msgid ""
+"You should try and reflect that in your notebook. Neither way is better, but"
+" it's good early on to figure out your team's way of acting and writing in a"
+" manner that fits it."
+msgstr ""
+"Deberías intentar reflejarlo en tu cuaderno. Ninguna de las dos formas es "
+"mejor, pero es bueno que desde el principio descubras la forma de actuar y "
+"escribir de tu equipo de manera que se adapte a ella."
+
+#: ../../gm0/source/docs/awards/notebook.rst:34
+msgid ""
+"Generally, humor is acceptable, but try to keep jokes down to a minimum "
+"(after all, the engineering notebook is meant to be a professional-grade "
+"document)."
+msgstr ""
+"Generalmente, el humor es aceptable, pero procura que las bromas sean "
+"mínimas (al fin y al cabo, el cuaderno de ingeniería está pensado para ser "
+"un documento de nivel profesional)."
+
+#: ../../gm0/source/docs/awards/notebook.rst:38
+msgid ""
+"Having a consistent team brand is important so judges remember you. A large "
+"amount of winning awards is being remembered and advocated for by the "
+"judges."
+msgstr ""
+"Tener una marca de equipo coherente es importante para que los jueces te "
+"recuerden. Una gran parte de ganar premios consiste en ser recordado y "
+"defendido por los jueces."
+
+#: ../../gm0/source/docs/awards/notebook.rst:40
+msgid ""
+"Therefore, having consistent branding helps judges know what team they are "
+"talking to and what they know about you."
+msgstr ""
+"Por lo tanto, tener una marca coherente ayuda a los jueces a saber con qué "
+"equipo están hablando y qué saben de ti."
+
+#: ../../gm0/source/docs/awards/notebook.rst:43
+msgid "Individual sections"
+msgstr "Secciones individuales"
+
+#: ../../gm0/source/docs/awards/notebook.rst:45
+msgid ""
+"Section 9.2.2 of |gm1| lists out the type of things that are expected to see"
+" in your notebook."
+msgstr ""
+"La sección 9.2.2 de |gm1| enumera el tipo de cosas que se espera ver en tu "
+"cuaderno."
+
+#: ../../gm0/source/docs/awards/notebook.rst:47
+msgid "They are listed here:"
+msgstr "Se enumeran aquí:"
+
+#: ../../gm0/source/docs/awards/notebook.rst:49
+msgid "Problem Definition"
+msgstr "Definición del Problema"
+
+#: ../../gm0/source/docs/awards/notebook.rst:50
+msgid "Information Gathering"
+msgstr "Recopilación de Información"
+
+#: ../../gm0/source/docs/awards/notebook.rst:51
+msgid "Brainstorming Solutions"
+msgstr "Lluvia de Ideas"
+
+#: ../../gm0/source/docs/awards/notebook.rst:52
+msgid "Concept Design"
+msgstr "Diseño conceptual"
+
+#: ../../gm0/source/docs/awards/notebook.rst:53
+msgid "System Level Design"
+msgstr "Diseño a Nivel de Sistema"
+
+#: ../../gm0/source/docs/awards/notebook.rst:54
+msgid "Testing"
+msgstr "Pruebas"
+
+#: ../../gm0/source/docs/awards/notebook.rst:55
+msgid "Design Improvement"
+msgstr "Mejora del Diseño"
+
+#: ../../gm0/source/docs/awards/notebook.rst:56
+msgid "Production"
+msgstr "Producción"
+
+#: ../../gm0/source/docs/awards/notebook.rst:57
+msgid "Promotion"
+msgstr "Promoción"
+
+#: ../../gm0/source/docs/awards/notebook.rst:58
+msgid "Budgeting"
+msgstr "Presupuestos"
+
+#: ../../gm0/source/docs/awards/notebook.rst:59
+msgid "Planning"
+msgstr "Planificación"
+
+#: ../../gm0/source/docs/awards/notebook.rst:60
+msgid "Outreach"
+msgstr "Divulgación"
+
+#: ../../gm0/source/docs/awards/notebook.rst:62
+msgid ""
+"Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines"
+" are not plentiful. They include a team plan, which is pretty much all non-"
+"robot writing---a sustainability plan, a strategic plan, and a business plan"
+" all fall into it, and doing one of these sections is required for Inspire "
+"award, and telling us what they want in the notebook (listed above). It "
+"falls to the individual notebook writers to figure out what they "
+"specifically want to call each section and what to put in each section."
+msgstr ""
+"Las secciones específicas nombradas en |gm1|, el Manual de Jueces y las "
+"Directrices del Cuaderno no son abundantes. Incluyen un plan de equipo, que "
+"es más o menos todo lo que no está escrito sobre robots: un plan de "
+"sostenibilidad, un plan estratégico y un plan de negocio, y hacer una de "
+"estas secciones es obligatorio para el premio Inspire, y decirnos lo que "
+"quieren en el cuaderno (enumerado anteriormente). Corresponde a los autores "
+"de cada cuaderno decidir cómo quieren llamar específicamente a cada sección "
+"y qué poner en cada una de ellas."
+
+#: ../../gm0/source/docs/awards/notebook.rst:65
+msgid "Daily Logs and Other Ways of Documenting"
+msgstr "Registros Diarios y Otras Formas de Documentación"
+
+#: ../../gm0/source/docs/awards/notebook.rst:67
+msgid ""
+"This might be the most common way of documenting in notebooks. Even teams "
+"that are so-so about attempting to write a notebook have a couple months "
+"worth of logs because overall they are not that hard to do."
+msgstr ""
+"Quizá sea la forma más habitual de documentarse en cuadernos. Incluso los "
+"equipos que no se esfuerzan demasiado por escribir un cuaderno tienen un par"
+" de meses de registros porque, en general, no son tan difíciles de hacer."
+
+#: ../../gm0/source/docs/awards/notebook.rst:69
+msgid ""
+"Each team approaches it differently, but a standard approach is as follows."
+msgstr ""
+"Cada equipo lo enfoca de forma diferente, pero un enfoque estándar es el "
+"siguiente."
+
+#: ../../gm0/source/docs/awards/notebook.rst:71
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Date"
+msgstr "Fecha"
+
+#: ../../gm0/source/docs/awards/notebook.rst:73
+msgid "Members of Team Present"
+msgstr "Miembros del Equipo Presentes"
+
+#: ../../gm0/source/docs/awards/notebook.rst:76
+msgid "Tasks & Pictures"
+msgstr "Tareas e Imágenes"
+
+#: ../../gm0/source/docs/awards/notebook.rst:76
+msgid "More Information, if the Task Was Completed"
+msgstr "Más Información, si se ha Completado la Tarea"
+
+#: ../../gm0/source/docs/awards/notebook.rst:78
+msgid "Lorem ipsum"
+msgstr "Lorem ipsum"
+
+#: ../../gm0/source/docs/awards/notebook.rst:78
+msgid "Dolor sit amet, consectetur adipiscing elit"
+msgstr "Dolor sit amet, consectetur adipiscing elit"
+
+#: ../../gm0/source/docs/awards/notebook.rst:80
+msgid "Sed do eiusmod"
+msgstr "Sed do eiusmod"
+
+#: ../../gm0/source/docs/awards/notebook.rst:80
+msgid "Tempor incididunt ut labore"
+msgstr "Tempor incididunt ut labore"
+
+#: ../../gm0/source/docs/awards/notebook.rst:82
+msgid "Et dolore magna"
+msgstr "Et dolore magna"
+
+#: ../../gm0/source/docs/awards/notebook.rst:82
+msgid "Aliqua ut enim ad minim veniam"
+msgstr "Aliqua ut enim ad minim veniam"
+
+#: ../../gm0/source/docs/awards/notebook.rst:85
+msgid ""
+"There are other methods such as weekly, pure goals, or other engineering "
+"based methods such as agile (if you pursue the latter you can use those hard"
+" won mentors you have gotten). Weekly or bi-weekly is the same as above, but"
+" the date becomes a range and you talk about what happened over that period "
+"of time. This is better for a team that has only a couple of people doing "
+"the logs because overall logs get more and more tedious."
+msgstr ""
+"Existen otros métodos, como el semanal, el de objetivos puros u otros "
+"métodos basados en la ingeniería, como el ágil (si sigues este último, "
+"puedes utilizar esos mentores que tanto te ha costado conseguir). Semanal o "
+"quincenal es lo mismo que lo anterior, pero la fecha se convierte en un "
+"intervalo y se habla de lo que ha ocurrido en ese periodo de tiempo. Esto es"
+" mejor para un equipo que sólo tiene un par de personas que hacen los "
+"registros porque los registros en general se vuelven más y más tediosos."
+
+#: ../../gm0/source/docs/awards/notebook.rst:87
+msgid "Pure goals is simply as follows."
+msgstr "Los objetivos puros son simplemente los siguientes."
+
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Goal and Goal Date"
+msgstr "Objetivo y Fecha del Objetivo"
+
+#: ../../gm0/source/docs/awards/notebook.rst:90
+msgid "Was the Goal Completed in Time?"
+msgstr "¿Se ha Cumplido el Objetivo a Tiempo?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Quis"
+msgstr "Quis"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Nostrud"
+msgstr "Nostrud"
+
+#: ../../gm0/source/docs/awards/notebook.rst:92
+msgid "Exercitation ullamco"
+msgstr "Ejercicio ullamco"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Nisi"
+msgstr "Nisi"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Ut aliquip ex ea"
+msgstr "Ut aliquip ex ea"
+
+#: ../../gm0/source/docs/awards/notebook.rst:94
+msgid "Commodo consequat"
+msgstr "Commodo consequat"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "Duis"
+msgstr "Duis"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "Aute irure dolor"
+msgstr "Aute irure dolor"
+
+#: ../../gm0/source/docs/awards/notebook.rst:96
+msgid "In reprehenderit in voluptate"
+msgstr "In reprehenderit in voluptate"
+
+#: ../../gm0/source/docs/awards/notebook.rst:100
+msgid "Building Section and Documenting the Robot"
+msgstr "Sección de Construcción y Documentación del Robot"
+
+#: ../../gm0/source/docs/awards/notebook.rst:102
+msgid ""
+"You have spent a bunch of time reading the rest of this manual to learn "
+"about the robot and how to build it. The building section is about how your "
+"robot fulfills the challenge, and what the driving factors were in building "
+"your robot."
+msgstr ""
+"Has pasado mucho tiempo leyendo el resto de este manual para aprender sobre "
+"el robot y cómo construirlo. La sección de construcción trata sobre cómo tu "
+"robot cumple el desafío y cuáles fueron los factores que te impulsaron a "
+"construirlo."
+
+#: ../../gm0/source/docs/awards/notebook.rst:104
+msgid ""
+"Information about parts and materials, as well as pictures of every "
+"mechanism (plus captions) will help the judges piece together how the robot "
+"works mechanically. Explanations of the components will illustrate the "
+"thought processes behind the design."
+msgstr ""
+"La información sobre piezas y materiales, así como las imágenes de cada "
+"mecanismo (con leyenda) ayudarán a los jueces a reconstruir el "
+"funcionamiento mecánico del robot. Las explicaciones de los componentes "
+"ilustrarán el proceso de reflexión que hay detrás del diseño."
+
+#: ../../gm0/source/docs/awards/notebook.rst:106
+msgid ""
+"Ample graphics (CAD screenshots/renders, pictures, etc.) will help judges "
+"understand how it works and why it is useful. **However, make sure that each"
+" graphic has a caption or explanation. Do not expect judges to understand "
+"how your robot works through pictures only.**"
+msgstr ""
+"Amplios gráficos (capturas de pantalla/renders de CAD, fotos, etc.) ayudarán"
+" a los jueces a entender cómo funciona y por qué es útil. **Sin embargo, "
+"asegúrese de que cada gráfico tenga una leyenda o explicación. No espere que"
+" los jueces entiendan cómo funciona tu robot sólo con imágenes."
+
+#: ../../gm0/source/docs/awards/notebook.rst:108
+msgid ""
+"As with most documentation, using actual CAD screenshots or real world "
+"photos is generally better then high quality renders. While renders are "
+"interesting from a technological and aesthetic perspective, they usually "
+"take more time and effort and also don't convey your engineering process as "
+"well. CAD screenshots tend to make the document more like an actual "
+"engineering process documentation and can look much more professional, even "
+"if they aren't as aesthetically pleasing."
+msgstr ""
+"Como ocurre con la mayoría de la documentación, es mejor utilizar capturas "
+"de pantalla CAD reales o fotos del mundo real que renders de alta calidad. "
+"Aunque los renders son interesantes desde el punto de vista tecnológico y "
+"estético, suelen requerir más tiempo y esfuerzo y no transmiten tan bien el "
+"proceso de ingeniería. Las capturas de pantalla CAD tienden a hacer que el "
+"documento se parezca más a la documentación de un proceso de ingeniería real"
+" y pueden parecer mucho más profesionales, aunque no sean tan agradables "
+"estéticamente."
+
+#: ../../gm0/source/docs/awards/notebook.rst:110
+msgid ""
+"Additionally, use math in these explanations to target the Think award."
+msgstr ""
+"Además, utilice las matemáticas en estas explicaciones para orientar el "
+"premio Think."
+
+#: ../../gm0/source/docs/awards/notebook.rst:112
+msgid ""
+"The second part is much more documentation and writing heavy, but in some "
+"ways it is easier. As you are building a robot, you will not get your final "
+"bot in the first attempt."
+msgstr ""
+"La segunda parte es mucho más pesada en cuanto a documentación y escritura, "
+"pero en cierto modo es más fácil. Como estás construyendo un robot, no "
+"conseguirás tu bot final en el primer intento."
+
+#: ../../gm0/source/docs/awards/notebook.rst:114
+msgid ""
+"Think about telling a story of how your team progressed from brainstorm and "
+"idea conception to prototyping and final design. The judges *love* to follow"
+" a logical sequence of steps as it shows how the team thought through "
+"mistakes and improved upon successes."
+msgstr ""
+"Piensa en contar cómo ha progresado tu equipo desde la lluvia de ideas y la "
+"concepción de la idea hasta la creación del prototipo y el diseño final. A "
+"los jueces les *encanta* seguir una secuencia lógica de pasos, ya que "
+"demuestra cómo el equipo resolvió los errores y mejoró los éxitos."
+
+#: ../../gm0/source/docs/awards/notebook.rst:116
+msgid ""
+"Each time you iterate upon a part of your robot or move a step further in "
+"the engineering design process, document it. Important questions to ask "
+"while writing this section are below."
+msgstr ""
+"Cada vez que itere sobre una parte de su robot o avance un paso más en el "
+"proceso de diseño de ingeniería, documéntalo. A continuación encontrarás "
+"preguntas importantes que debes plantearte al redactar esta sección."
+
+#: ../../gm0/source/docs/awards/notebook.rst:118
+msgid "What prompted this change/why was this change made?"
+msgstr "¿Qué motivó este cambio/por qué se hizo?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:119
+msgid "What was the change?"
+msgstr "¿Cuál ha sido el cambio?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:120
+msgid "How was the modification enacted?"
+msgstr "¿Cómo se promulgó la modificación?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:121
+msgid "What were the results (good and bad)?"
+msgstr "¿Cuáles fueron los resultados (buenos y malos)?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:122
+msgid "How can this design be further improved?"
+msgstr "¿Cómo puede mejorarse este diseño?"
+
+#: ../../gm0/source/docs/awards/notebook.rst:124
+msgid ""
+"This also includes your first unrealized ideas that your team talked about "
+"right when the team came together after the season was released."
+msgstr ""
+"Esto también incluye las primeras ideas no realizadas de las que habló el "
+"equipo justo cuando se reunió tras el estreno de la temporada."
+
+#: ../../gm0/source/docs/awards/notebook.rst:127
+msgid "Notebook Gallery"
+msgstr "Galería de cuadernos"
+
+#: ../../gm0/source/docs/awards/notebook.rst:129
+msgid "Relic Recovery"
+msgstr "Recuperación de reliquias"
+
+#: ../../gm0/source/docs/awards/notebook.rst:131
+msgid ""
+"`4042 <https://drive.google.com/file/d/10TQJd4ioArq-"
+"asmswHneY9S-_okcr5vq/view>`_"
+msgstr ""
+"`4042 <https://drive.google.com/file/d/10TQJd4ioArq-"
+"asmswHneY9S-_okcr5vq/view>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:132
+msgid "Rover Ruckus"
+msgstr "Rover Ruckus"
+
+#: ../../gm0/source/docs/awards/notebook.rst:134
+msgid ""
+"`9794 "
+"<https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_"
+msgstr ""
+"`9794 "
+"<https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:135
+msgid ""
+"`14270 <https://qrobotics.blob.core.windows.net/2018/engineering.pdf>`_"
+msgstr ""
+"`14270 <https://qrobotics.blob.core.windows.net/2018/engineering.pdf>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:136
+msgid "Skystone"
+msgstr "Skystone"
+
+#: ../../gm0/source/docs/awards/notebook.rst:138
+msgid ""
+"`11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-"
+"Gwenh02U-9a>`_"
+msgstr ""
+"`11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-"
+"Gwenh02U-9a>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:139
+msgid ""
+"`8813 Design Notebook "
+"<https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_"
+msgstr ""
+"`8813 Cuaderno de diseño "
+"<https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:140
+msgid ""
+"`9656 Technical Binder "
+"<https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_"
+msgstr ""
+"`9656 Carpeta técnica "
+"<https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_"
+
+#: ../../gm0/source/docs/awards/notebook.rst:141
+msgid ""
+"`9656 Non-Technical Binder "
+"<https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_"
+msgstr ""
+"`9656 Carpeta no técnica "
+"<https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_"

@@ -5,18 +5,344 @@
 # 
 # Translators:
 # Crackermi, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-23 04:16+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Crackermi, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:4
+msgid "Driver Station Guide"
+msgstr "Guía del Driver Station"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:6
+msgid ""
+"The Driver Station (DS) is the way drivers interact with the robot. Through "
+"it, you configure settings, configure hardware, start and stop OpModes, use "
+"gamepads, and receive telemetry data from the robot. There are two main "
+"different choices for a Driver Station: the REV Robotics Driver Hub and an "
+"Android phone."
+msgstr ""
+"La Driver Station (DS) es la forma en que los conductores interactúan con el"
+" robot. A través de ella, se configuran los ajustes, se configura el "
+"hardware, se inician y detienen los OpModes, se utilizan los gamepads y se "
+"reciben datos de telemetría del robot. Hay dos opciones principales "
+"diferentes para una Driver Station: el REV Robotics Driver Hub y un teléfono"
+" Android."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:9
+msgid "REV Driver Hub"
+msgstr "REV Driver Hub"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:11
+msgid ""
+"The REV Robotics Driver Hub is effectively an Android phone with built in "
+"USB ports. It is purpose built for FTC\\ |reg|, and has several advantages "
+"over traditional Android phones."
+msgstr ""
+"El REV Robotics Driver Hub es un teléfono Android con puertos USB "
+"integrados. Está diseñado específicamente para FTC\\ |reg|, y tiene varias "
+"ventajas sobre los teléfonos Android tradicionales."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:14
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:38
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:16
+msgid ""
+"Full sized USB ports do not require flimsy On The Go (micro-USB connector to"
+" USB-A port) cables"
+msgstr ""
+"Los puertos USB de tamaño completo no requieren cables endebles On The Go "
+"(conector micro-USB a puerto USB-A)"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:17
+msgid "Charges from USB-C including fast charging Power Delivery modes"
+msgstr ""
+"Carga desde USB-C, incluyendo los modos de carga rápida Power Delivery"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:18
+msgid "Larger screen than many Android phones"
+msgstr "Pantalla más grande que muchos teléfonos Android"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:19
+msgid "Case is more robust then a standard Android phone"
+msgstr "La carcasa es más robusta que la de un teléfono Android estándar"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:22
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:44
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:24
+msgid ""
+"Price: A Driver Hub costs $250.00, whereas legal Android phones can be "
+"purchased secondhand for less"
+msgstr ""
+"Precio: Un Driver Hub cuesta 250,00 dólares, mientras que los teléfonos "
+"Android legales se pueden comprar de segunda mano por menos."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:25
+msgid ""
+"Power Issues: Teams have reported random losses of power coming from an "
+"improperly sized battery."
+msgstr ""
+"Problemas de alimentación: Los equipos han informado de pérdidas aleatorias "
+"de energía procedentes de una batería de tamaño inadecuado."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:26
+msgid ""
+"Battery Issues: Teams have reported high battery drain in sleep mode, "
+"leading to hubs dying faster then expected"
+msgstr ""
+"Problemas de batería: Los equipos han informado de un alto consumo de "
+"batería en el modo de suspensión, lo que lleva a los centros de morir más "
+"rápido de lo esperado"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:27
+msgid ""
+"Wifi Issues: The wifi driver will occasionally crash when the device goes to"
+" sleep, requiring a device restart"
+msgstr ""
+"Problemas con el wifi: El controlador wifi se bloquea ocasionalmente cuando "
+"el dispositivo entra en reposo, lo que obliga a reiniciarlo."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:30
+msgid ""
+"If you purchase a Driver Hub and experience issues, refer to the `REV Driver"
+" Hub troubleshooting page <https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. "
+"The unexpected power off fix may be done preemptively to prevent a shutdown "
+"during a match."
+msgstr ""
+"Si adquiere un Driver Hub y tiene problemas, consulte la página de solución "
+"de problemas de `REV Driver Hub <https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. La"
+" corrección del apagado inesperado puede realizarse de forma preventiva para"
+" evitar un apagado durante un partido."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:33
+msgid "Android Phones"
+msgstr "Teléfonos Android"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:35
+msgid "As of 2023-2024, Android phones are still legal for competition use."
+msgstr ""
+"A partir de 2023-2024, los teléfonos Android seguirán siendo legales para su"
+" uso en competición."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:40
+msgid "Android phones can be very cheap when purchased secondhand"
+msgstr ""
+"Los teléfonos Android pueden ser muy baratos si se compran de segunda mano"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:41
+msgid "Android phones generally are reliable out of the box"
+msgstr "Los teléfonos Android suelen ser fiables nada más sacarlos de la caja"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:46
+msgid ""
+"The lack of a full size USB A port means that flimsy On The Go cables must "
+"be used"
+msgstr ""
+"La falta de un puerto USB A de tamaño completo obliga a utilizar cables On "
+"The Go endebles."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:47
+msgid ""
+"The phones themselves should be protected with a case to prevent damage"
+msgstr "Los teléfonos deben protegerse con una funda para evitar daños."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:49
+msgid ""
+"A 5 GHz phone is preferred over the standard 2.4 GHz phone to reduce ping "
+"issues. Have you ever noticed that your team's robot seems to lag at "
+"competitions only? This is because most school WiFi bands run on 2.4 GHz, "
+"which means that 2.4 GHz channels will be more crowded on competition day. "
+"This can lead to noticeably higher ping/lag which adversely affects driver "
+"and robot performance."
+msgstr ""
+"Se prefiere un teléfono de 5 GHz al estándar de 2,4 GHz para reducir los "
+"problemas de ping. ¿Te has dado cuenta alguna vez de que el robot de tu "
+"equipo parece ir con retraso sólo en las competiciones? Esto se debe a que "
+"la mayoría de las bandas WiFi de las escuelas funcionan a 2,4 GHz, lo que "
+"significa que los canales de 2,4 GHz estarán más saturados el día de la "
+"competición. Esto puede provocar un ping/lag notablemente mayor, lo que "
+"afecta negativamente al rendimiento del conductor y del robot."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:51
+msgid ""
+"USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a "
+"possible source of disconnects during a match. This is generally caused by "
+"poor quality cables/adapters between the driver station and the gamepads. "
+"**It generally is worth it to purchase higher quality cables and adapters as"
+" opposed to the cheapest options.**"
+msgstr ""
+"Las conexiones USB y :term:`OTG <Micro USB On The Go (OTG) Cable>` pueden "
+"ser una posible fuente de desconexiones durante un partido. Esto suele "
+"deberse a cables/adaptadores de mala calidad entre la estación de control y "
+"los gamepads. **Por lo general, merece la pena comprar cables y adaptadores "
+"de mayor calidad en lugar de las opciones más baratas."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:53
+msgid ""
+"`Recommended USB to OTG Cable "
+"<https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_"
+msgstr ""
+"`Cable USB a OTG recomendado "
+"<https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:55
+msgid "Term"
+msgstr "Término"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:58
+msgid "Micro USB On The Go (OTG) Cable"
+msgstr "Cable Micro USB On The Go (OTG)"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:60
+msgid ""
+"The Micro USB OTG cable connects the :term:`Driver Station` phone with the "
+"Logitech controller that the driver uses in order to control the robot."
+msgstr ""
+"El cable Micro USB OTG conecta el teléfono :term:`Driver Station` con el "
+"controlador Logitech que el controlador utiliza para controlar el robot."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:62
+msgid ""
+"It is recommended that teams purchase a couple spares due to faulty OTG "
+"cable connections and their low price."
+msgstr ""
+"Se recomienda que los equipos adquieran un par de repuestos debido a las "
+"conexiones defectuosas del cable OTG y a su bajo precio."
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:0
+msgid "A USB OTG Cable"
+msgstr "Un cable USB OTG"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:69
+msgid "Controllers"
+msgstr "Controladores"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:71
+msgid ""
+"**LEGAL CONTROLLERS:** As of the 2021-2022 season, the following controllers"
+" are  `legal for competition: "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-"
+"illegal-parts-list.pdf>`_"
+msgstr ""
+"**CONTROLADORES LEGALES:** A partir de la temporada 2021-2022, los "
+"siguientes controladores son `legales para la competición: "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-"
+"illegal-parts-list.pdf>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:73
+msgid "Xbox 360 Controller for Windows"
+msgstr "Control Xbox 360 para Windows"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:74
+msgid "Logitech F310 Controller"
+msgstr "Control Logitech F310"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:75
+msgid "ETPark Wired Controller for PS4"
+msgstr "Control con cable ETPark para PS4"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:76
+msgid ""
+"Sony DualShock 4 Wireless Controller for PS4 (Must be connected wired over "
+"USB)"
+msgstr ""
+"Control inalámbrico Sony DualShock 4 para PS4 (debe conectarse por cable a "
+"través de USB)"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:78
+msgid ""
+"In the past, the Xbox 360 controller was preferred by many top teams over "
+"the Logitech F310. This is mostly as the Xbox controller has less of a dead "
+"spot. A dead spot is basically the area where the joystick can move but not "
+"communicate that the stick has shifted slightly. This means that when the "
+"joystick is moved to a position where the controller can detect it, the "
+"robot will sometimes have a tendency to lurch forward. Dead spots make it "
+"difficult for the driver to execute fine-tuned and precise movements. **This"
+" is likely a non-issue for the large majority of teams. Also, keep in mind "
+"that there are very specific models of the Xbox controller that are legal, "
+"so they can be hard to find new.**"
+msgstr ""
+"En el pasado, muchos de los mejores equipos preferían el control de Xbox 360"
+" al de Logitech F310. Esto se debe principalmente a que el control de Xbox "
+"tiene menos puntos muertos. Un punto muerto es básicamente la zona en la que"
+" el joystick puede moverse pero sin comunicar que el stick se ha desplazado "
+"ligeramente. Esto significa que cuando el joystick se mueve a una posición "
+"en la que el mando puede detectarlo, el robot a veces tiende a tambalearse "
+"hacia delante. Los puntos muertos dificultan al conductor la ejecución de "
+"movimientos afinados y precisos. **Es probable que esto no sea un problema "
+"para la gran mayoría de los equipos. Además, hay que tener en cuenta que hay"
+" modelos muy específicos del control de Xbox que son legales, por lo que "
+"pueden ser difíciles de encontrar nuevos.**"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:80
+msgid ""
+"Starting with the 2020-2021 season, the ETPark and Sony PS4 Controllers are "
+"legal and provide numerous advantages over Xbox 360 Controllers. Some of "
+"these advantages include, better trigger and bumper control, a more usable "
+"dpad, and trackpad support as of the 2021-2022 season. Use of the PS4 "
+"controller is slightly different because the locations of the Left Stick and"
+" DPAD are swapped and `some button names are different. "
+"<https://github.com/OpenFTC/OpenRC-"
+"Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_"
+" **Pro Tip: Make sure your drivers have experience with the controller they "
+"plan to use for competition.**"
+msgstr ""
+"A partir de la temporada 2020-2021, los controles ETPark y Sony PS4 son "
+"legales y ofrecen numerosas ventajas sobre los controles Xbox 360. Algunas "
+"de estas ventajas incluyen un mejor control del gatillo y el parachoques, un"
+" dpad más utilizable y compatibilidad con el trackpad a partir de la "
+"temporada 2021-2022. El uso del control de PS4 es ligeramente diferente "
+"porque las ubicaciones del Stick izquierdo y el DPAD están intercambiadas y "
+"`algunos nombres de botones son diferentes. "
+"<https://github.com/OpenFTC/OpenRC-"
+"Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>**Consejo"
+" profesional: Asegúrate de que tus conductores tienen experiencia con el "
+"mando que piensan usar en competición.**"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:82
+msgid ""
+"Generally it is the opinion that the PS4 controllers are better than the "
+"other options. Among the options for PS4 controllers, the choice is really "
+"up to you. The Sony controller has slightly better buttons, but the ETPark "
+"controller is half the cost and a more solid connecting wire. **Keep in mind"
+" that the drivers can use different controllers, so pick the one most "
+"comfortable to you.**"
+msgstr ""
+"Generalmente se opina que los controles de PS4 son mejores que las demás "
+"opciones. Entre las opciones de controles para PS4, la elección depende "
+"realmente de ti. El control de Sony tiene botones ligeramente mejores, pero "
+"el control de ETPark cuesta la mitad y tiene un cable de conexión más "
+"sólido. **Ten en cuenta que los controladores pueden usar diferentes mandos,"
+" así que elige el que te resulte más cómodo.**"
+
+#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:84
+msgid ""
+"A phone holder and :term:`OTG <Micro USB On The Go (OTG) Cable>` strain "
+"relief connector can be useful as it may help to prevent connections from "
+"loosening. Especially if teams are running dual controller configuration, "
+"ensuring that the USB hub is secure won't hurt."
+msgstr ""
+"Un soporte para el teléfono y un conector de alivio de tensión :term:`OTG "
+"<Micro USB On The Go (OTG) Cable>` pueden ser útiles, ya que pueden ayudar a"
+" evitar que las conexiones se aflojen. Especialmente si los equipos están "
+"ejecutando la configuración de controlador dual, asegurarse de que el "
+"concentrador USB está seguro no le hará daño."

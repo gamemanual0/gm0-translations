@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 04:15+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -21,3 +21,479 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:4
+msgid "Engineering Portfolio"
+msgstr "Portafolio de Ingeniería"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:6
+msgid ""
+"The engineering portfolio is a concise but detailed overview of your team "
+"and season. **It is required for all awards and is a critical part of the "
+"judging process**."
+msgstr ""
+"El portafolio de ingeniería es una descripción concisa pero detallada de tu "
+"equipo y temporada. **Es requerido para todos los premios y es una parte "
+"crítica del proceso de evaluación**."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:9
+msgid "Portfolio Requirements"
+msgstr "Requisitos del portafolio"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:11
+msgid "A detailed list of the requirements is listed in section 9.3 of |gm1|"
+msgstr ""
+"Una lista detallada de los requisitos se encuentra en la sección 9.3 de "
+"|gm1|"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:13
+msgid ""
+"The engineering portfolio is a 15 page document consisting of standard A4 or"
+" letter sized pages and a minimum 10 point font. However, despite the small "
+"number of pages, there is a lot of information that needs to be packed into "
+"the document to meet the requirements for all awards."
+msgstr ""
+"El portafolio de ingeniería es un documento de 15 páginas que consiste en "
+"páginas de tamaño estándar A4 o carta y una fuente mínima de 10 puntos. Sin "
+"embargo, a pesar del pequeño número de páginas, hay mucha información que "
+"debe ser incluida en el documento para cumplir con los requisitos de todos "
+"los premios."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:16
+msgid "Overall Tips"
+msgstr "Consejos generales"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:18
+msgid ""
+"Organize your portfolio clearly and carefully! Sections should be easy to "
+"follow and read, and have clear headings and explanations. Having your team "
+"number somewhere on the page is helpful for judges quickly reviewing "
+"portfolios."
+msgstr ""
+"Organiza tu portafolio de manera clara y cuidadosa. Las secciones deben ser "
+"fáciles de seguir y leer, y tener encabezados y explicaciones claras. Tener "
+"el número de equipo en alguna parte de la página es útil para que los jueces"
+" revisen rápidamente los portafolios."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:19
+msgid ""
+"Keep formatting and branding consistent, don't vary your design a ton from "
+"one page to another. Similar layouts can help with reading the portfolio."
+msgstr ""
+"Mantén la consistencia del formato y la marca, no varíes mucho tu diseño de "
+"una página a otra. Diseños similares pueden ayudar a leer el portafolio."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:20
+msgid ""
+"Make sure your text is readable! Color choices matter a lot, try to avoid "
+"similar color text on a background."
+msgstr ""
+"Asegúrate de que tu texto sea legible. La elección de colores es muy "
+"importante, trata de evitar texto de colores similares al fondo."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:21
+msgid "**Do not exceed 15 pages total, 16 with the cover page.**"
+msgstr "**No exceder las 15 páginas en total, 16 con la página de portada.**"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:22
+msgid ""
+"Less is more: Judges are going to lose interest in large unbroken blocks of "
+"text."
+msgstr ""
+"Menos es más: Los jueces perderán interés en grandes bloques de texto sin "
+"interrupciones."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:23
+msgid ""
+"Images, Images, Images: CAD Drawings and screenshots can be useful tools, "
+"but also have actual pictures of mechanisms and components. While renders "
+"can look impressive in covers, a lot of judges prefer actual CAD screenshots"
+" or pictures."
+msgstr ""
+"Imágenes, imágenes, imágenes: los dibujos CAD y las capturas de pantalla "
+"pueden ser herramientas útiles, pero también tener imágenes reales de "
+"mecanismos y componentes. Si bien las representaciones (renders) pueden "
+"lucir impresionantes en las portadas, muchos jueces prefieren capturas de "
+"pantalla CAD reales o imágenes."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:24
+msgid "**Make sure your team number is on the cover page of the portfolio.**"
+msgstr ""
+"Asegúrate de que el número de tu equipo esté en la página de portada del "
+"portafolio."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:25
+msgid ""
+"Don't over explain everything. You want to leave things for judges to ask "
+"questions about."
+msgstr ""
+"No expliques todo en exceso. Quieres dejar cosas para que los jueces hagan "
+"preguntas al respecto."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:26
+msgid ""
+"Remember that your portfolio isn't just for judges to read, its a good tool "
+"to have in judging as a quick reference to present to judges."
+msgstr ""
+"Recuerda que tu portafolio no es solo para que los jueces lo lean, es una "
+"buena herramienta para tener al tiempo de ser juzgados como una referencia "
+"rápida para presentar a los jueces."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:29
+msgid "Cover Page"
+msgstr "Página de portada"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:31
+msgid ""
+"In addition to the 15 pages, you are allowed one cover page. This should "
+"contain your team number and any relevant logos, and should also include a "
+"picture of your robot and/or team."
+msgstr ""
+"Además de las 15 páginas, se permite una página de portada. Esta debe "
+"contener el número de equipo y cualquier logotipo relevante, y también debe "
+"incluir una imagen de tu robot y/o equipo."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:33
+msgid ""
+"Generally, the required information for an engineering portfolio can be "
+"split into one of 3 categories."
+msgstr ""
+"Generalmente, la información requerida para un portafolio de ingeniería se "
+"puede dividir en una de 3 categorías."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:35
+#: ../../gm0/source/docs/awards/portfolio.rst:40
+msgid "Robot Information"
+msgstr "Información del Robot"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:36
+#: ../../gm0/source/docs/awards/portfolio.rst:73
+msgid "Team Information"
+msgstr "Información del equipo"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:37
+#: ../../gm0/source/docs/awards/portfolio.rst:92
+msgid "Outreach/Nontechnical Information"
+msgstr "Impacto/Información no técnica"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:42
+msgid ""
+"The season and robot overview is the core of your engineering portfolio. It "
+"contains an overview of your robot design, strategy, iterations, and shows "
+"off how your team has progressed so far throughout the season."
+msgstr ""
+"La descripción de la temporada y del robot es el núcleo de tu portafolio de "
+"ingeniería. Contiene una visión general del diseño de tu robot, estrategia, "
+"iteraciones y muestra cómo tu equipo ha progresado hasta ahora a lo largo de"
+" la temporada."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:45
+msgid "Robot"
+msgstr "Robot"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:47
+msgid ""
+"Your portfolio must contain an overview of your robot and its components. "
+"However, the portfolio should go a step beyond just describing the "
+"components of your robot. Generally, teams split up their robot into 3-4 "
+"parts, putting a different mechanism on a new page. The page should have "
+"pictures and descriptions of the mechanism, but should also have iterations "
+"and explanations of how the team arrived at that version of the mechanism or"
+" why that system was chosen, as well as why previous iterations didn't work "
+"and/or what was improved between iterations."
+msgstr ""
+"Tu portafolio debe contener una descripción general de tu robot y sus "
+"componentes. Sin embargo, el portafolio debe ir más allá de solo describir "
+"los componentes de tu robot. Generalmente, los equipos dividen su robot en "
+"3-4 partes, colocando un mecanismo diferente en una nueva página. La página "
+"debe tener imágenes y descripciones del mecanismo, pero también debe tener "
+"iteraciones y explicaciones de cómo el equipo llegó a esa versión del "
+"mecanismo o por qué se eligió ese sistema, así como también por qué las "
+"iteraciones anteriores no funcionaron y/o qué se mejoró entre iteraciones."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:49
+msgid ""
+"Get in the habit of taking photos of everything! Whether its a quick jig "
+"meant to test something or a full on prototype, you should have pictures to "
+"put in the portfolio as iterations."
+msgstr ""
+"¡Acostúmbrate a tomar fotos de todo! Ya sea una reunión rápida destinada a "
+"probar algo o un prototipo completo, debes tener fotos para incluir en el "
+"portafolio como iteraciones."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:51
+msgid ""
+"As a quick reference, robot mechanism pages should contain the following:"
+msgstr ""
+"Como referencia rápida, las páginas de mecanismos de robots deben contener "
+"lo siguiente:"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:53
+msgid "Explanation of why that mechanism was needed"
+msgstr "Explicación de por qué se necesitaba ese mecanismo"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:54
+msgid "Explanation of what the mechanism is"
+msgstr "Explicación de lo que es el mecanismo"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:55
+msgid ""
+"Description of iterations the mechanism went through (and a quick few words "
+"on WHY it had to go through those iterations)"
+msgstr ""
+"Descripción de las iteraciones que el mecanismo atravesó (y unas pocas "
+"palabras sobre POR QUÉ tuvo que pasar por esas iteraciones)"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:56
+msgid "Math/equations/sensors used with that mechanism"
+msgstr "Matemáticas/ecuaciones/sensores utilizados con ese mecanismo"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:57
+msgid "Pictures and/or CAD screenshots of the mechanism"
+msgstr "Imágenes y/o capturas de pantalla CAD del mecanismo"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:59
+msgid ""
+"In addition to mechanism-specific pages, a page or two dedicated to a high "
+"level overview of your bot and sensors can be beneficial as a quick "
+"reference, especially in judging."
+msgstr ""
+"Además de las páginas específicas del mecanismo, una o dos páginas dedicadas"
+" a una descripción general de tu bot y sensores pueden ser beneficiosas como"
+" una referencia rápida, especialmente al ser juzgado."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:62
+msgid "Season"
+msgstr "Temporada"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:64
+msgid ""
+"Your season overview is a higher level explanation of your robot design and "
+"how you have proceeded with the season. This doesn't have to be completely "
+"separated from mechanism pages, but should still provide an explanation of "
+"your overall approach to the season as well as your approach to robot design"
+" in general. This section should aim to cover the following:"
+msgstr ""
+"Tu resumen de la temporada es una explicación a un nivel más alto de tu "
+"diseño de robot y cómo has procedido con la temporada. Esto no tiene que "
+"estar completamente separado de las páginas de mecanismos, pero aún así debe"
+" proporcionar una explicación de tu enfoque general para la temporada, así "
+"como tu enfoque para el diseño de robots en general. Esta sección debe "
+"cubrir lo siguiente:"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:66
+msgid "The team's approach to game and strategy analysis"
+msgstr "El enfoque del equipo para el análisis de juegos y estrategias"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:67
+msgid ""
+"Overall approach to robot design (engineering design process, iteration, "
+"etc.)"
+msgstr ""
+"Enfoque general para el diseño de robots (proceso de diseño de ingeniería, "
+"iteración, etc.)"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:68
+msgid "Approach to problem solving and decision making"
+msgstr "Enfoque para resolver problemas y tomar decisiones"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:70
+msgid "Having specific examples for these sections is generally recommended."
+msgstr ""
+"Tener ejemplos específicos para estas secciones generalmente es recomendado."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:75
+msgid ""
+"An engineering portfolio needs to cover more then just the team's season and"
+" robot, it should cover details about the team itself. This doesn't just "
+"mean a list of team members. Topics covered in this section should include:"
+msgstr ""
+"Un portafolio de ingeniería debe abarcar más que solo la temporada y el "
+"robot del equipo, debe incluir detalles sobre el equipo en sí. Esto no "
+"significa simplemente una lista de miembros del equipo. Los temas cubiertos "
+"en esta sección deben incluir:"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:77
+msgid "Basic outline of team members and groups"
+msgstr "Esquema básico de los miembros del equipo y grupos"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:78
+msgid "Funding, sponsors, and expenses"
+msgstr "Financiamiento, patrocinadores y gastos"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:79
+msgid "Sustainability plans"
+msgstr "Planes de sostenibilidad"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:82
+msgid "Funding, Sponsors, and Expenses"
+msgstr "Financiamiento, Patrocinadores y Gastos"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:84
+msgid ""
+"An important part of your team is where you get money from and how you spend"
+" your money. While perfectly precise numbers aren't required, having an "
+"awareness of what your expenses are, and where you get money from can be "
+"useful information to have in a portfolio. The portfolio should definitely "
+"include a list of sponsors, but can also include other information like team"
+" dues and a rough breakdown of expenses."
+msgstr ""
+"Una parte importante de tu equipo es de dónde obtienes dinero y cómo gastas "
+"tu dinero. Si bien no se requieren números precisos, tener conciencia de "
+"cuáles son tus gastos y de dónde obtienes dinero puede ser información útil "
+"para tener en un portafolio. El portafolio definitivamente debe incluir una "
+"lista de patrocinadores, pero también puede incluir otra información como "
+"cuotas del equipo y un desglose aproximado de gastos."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:87
+msgid "Sustainability"
+msgstr "Sostenibilidad"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:89
+msgid ""
+"Sustainability is a very important part of an organization, and it is also a"
+" major part of judged awards. Sustainability doesn't just mean funding, it "
+"includes plans for recruiting new students and mentors, maintaining and "
+"growing connections with the community, and securing new sponsors. It is "
+"important to have a sustainability plan or report, an outline of how the "
+"team plans to recruit new students, mentors, and sponsors, as well as the "
+"progress the team has made on that plan. Specifically pointing out new "
+"members, sponsors, and mentors that have joined is important, so judges can "
+"see the results your team has had."
+msgstr ""
+"La sostenibilidad es una parte muy importante de una organización, y también"
+" es una parte importante de los premios juzgados. La sostenibilidad no solo "
+"significa financiamiento, incluye planes para reclutar nuevos estudiantes y "
+"mentores, mantener y fortalecer las conexiones con la comunidad y asegurar "
+"nuevos patrocinadores. Es importante tener un plan o informe de "
+"sostenibilidad, un resumen de cómo el equipo planea reclutar nuevos "
+"estudiantes, mentores y patrocinadores, así como el progreso que el equipo "
+"ha logrado en ese plan. Es importante señalar específicamente a los nuevos "
+"miembros, patrocinadores y mentores que se han unido, para que los jueces "
+"puedan ver los resultados que ha tenido tu equipo."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:94
+msgid ""
+"Outreach is the nontechnical aspect of your team, including connections with"
+" the general community, mentoring, and reaching out to the STEM Community. "
+"Due to how similar these things are, its tempting to combine them into one "
+"section, but there are distinctions that should be made between them."
+msgstr ""
+"Impacto es el aspecto no técnico de tu equipo, incluyendo conexiones con la "
+"comunidad en general, mentoría y acercamiento a la comunidad STEM. Debido a "
+"lo similares que son estas cosas, es tentador combinarlas en una sección, "
+"pero hay distinciones que deben hacerse entre ellas."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:97
+msgid "Connections with the STEM Community"
+msgstr "Conexiones con la comunidad STEM"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:99
+msgid ""
+"Connections with the STEM community are important to document. These should "
+"include basic details like who the person or organization is, and what they "
+"do. However, the portfolio should also explain what the team learned from "
+"the connection and why it was meaningful. Having a specific and applicable "
+"reason for a STEM connection is important, as in recent years judges have "
+"started becoming more critical of large numbers of connections that do not "
+"benefit the team."
+msgstr ""
+"Las conexiones con la comunidad STEM son importantes para documentar. Estas "
+"deben incluir detalles básicos como quién es la persona u organización y qué"
+" hacen. Sin embargo, el portafolio también debe explicar lo que el equipo "
+"aprendió de la conexión y por qué fue significativa. Tener una razón "
+"específica y aplicable para una conexión STEM es importante, ya que en los "
+"últimos años los jueces han comenzado a ser más críticos con grandes "
+"cantidades de conexiones que no benefician al equipo."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:101
+msgid ""
+"This should tie into your sustainability plan, as connections can often "
+"become mentors or sponsors."
+msgstr ""
+"Esto debería integrarse en tu plan de sustentabilidad, ya que las conexiones"
+" a menudo pueden convertirse en mentores o patrocinadores."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:104
+msgid "Outreaches with the General Community"
+msgstr "Alcances con la Comunidad General"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:106
+msgid ""
+"Often teams will host events or outreaches with the intent of spreading the "
+"idea of *FIRST*\\ |reg| and recruiting new members to their team. "
+"Documenting this correctly is important for some awards. Generally, these "
+"sections should contain details about the event such as when it took place, "
+"what your team did, and how many people you reached."
+msgstr ""
+"A menudo los equipos organizan eventos o actividades con la intención de "
+"difundir la idea de *FIRST*\\ |reg| y reclutar nuevos miembros para su "
+"equipo. Documentar esto correctamente es importante para algunos premios. En"
+" general, estas secciones deben contener detalles sobre el evento, como "
+"cuándo tuvo lugar, qué hizo tu equipo y cuántas personas alcanzaste."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:108
+msgid ""
+"Appendix F of |gm1| contains **very specific definitions of words like "
+"Mentored, Started, Reached, Ran, and more**. Misuse of these words can be "
+"held against you in judging, so make sure you meet the definitions of terms "
+"if you use them."
+msgstr ""
+"El Apéndice F de |gm1| contiene **definiciones muy específicas de palabras "
+"como Mentorear, Comenzar, Acercarnos, Dirigir y más**. El mal uso de estas "
+"palabras puede ser utilizado en tu contra en la evaluación con los jueces, "
+"así que asegúrate de cumplir con las definiciones de los términos si las "
+"utilizas."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:110
+msgid ""
+"When documenting how many people an event reached, it can be tempting to ask"
+" the organizers for an official head count and use that number. However, "
+"|gm1| specifically details that simply being at an event does not count "
+"someone as being reached by the team, they have to interact with your team "
+"in some way. Keeping a rough count of how many people you interact with can "
+"help you keep track of accurate numbers. **You may be questioned on how you "
+"know your numbers are accurate, so be ready to answer questions on how you "
+"kept track**."
+msgstr ""
+"Cuando se documenta cuántas personas impacto un evento, puede ser tentador "
+"pedir a los organizadores un recuento oficial y utilizar ese número. Sin "
+"embargo, |gm1| detalla específicamente que simplemente estar en un evento no"
+" cuenta a alguien como impactado por el equipo, tienen que interactuar de "
+"alguna manera con su equipo. Mantener un recuento aproximado de cuántas "
+"personas interactúas puede ayudarte a llevar un registro de números "
+"precisos. **Es posible que te cuestionen sobre cómo sabes que tus números "
+"son precisos, así que prepárate para responder preguntas sobre cómo llevaste"
+" el registro**."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:113
+msgid "Working with Other Teams"
+msgstr "Trabajando con otros equipos"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:115
+msgid ""
+"Mentoring, starting, and helping other teams is critical to the program "
+"itself as well as some awards. These interactions should be documented in "
+"the portfolio, as well as evidence that proves that you meet the definitions"
+" of Mentoring, Starting, and Assisting as outlined in |gm1|. In general, "
+"Mentoring requires regular, meaningful communication between you and a team,"
+" and Starting requires the new team agreeing that they were started by you."
+msgstr ""
+"Mentoría, iniciar y ayudar a otros equipos es fundamental para el programa "
+"en sí, así como para algunos premios. Estas interacciones deben documentarse"
+" en el portafolio, así como la evidencia que demuestre que cumples con las "
+"definiciones de Mentoría, Inicio y Asistencia establecidas en |gm1|. En "
+"general, la Mentoría requiere una comunicación regular y significativa entre"
+" tú y un equipo, y el Iniciar un equipo requiere que el nuevo equipo esté de"
+" acuerdo en que fueron iniciados por ti."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:117
+msgid ""
+"An easy way to prove you met the definitions is to have screenshots of "
+"emails from mentors on the teams you helped stating that you Mentored, "
+"Started, or Assisted that team."
+msgstr ""
+"Una forma fácil de demostrar que cumpliste con las definiciones es tener "
+"capturas de pantalla de correos electrónicos de mentores en los equipos a "
+"los que ayudaste, en los que se indique que mentoraste, iniciaste o "
+"asististe a ese equipo."

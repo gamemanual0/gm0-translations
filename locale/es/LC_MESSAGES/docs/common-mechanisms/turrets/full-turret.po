@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 04:16+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2023-08-04 04:15+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,211 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:2
+msgid "Full Turrets"
+msgstr "Torretas completas"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:4
+msgid ""
+"Listed below are different techniques to implement a full turret. These "
+"mechanisms are commonly located at the base of a robot and rotate slide, "
+"arm, or shooter assemblies mounted to them."
+msgstr ""
+"A continuación se enumeran diferentes técnicas para implementar una torreta "
+"completa. Estos mecanismos se encuentran comúnmente en la base de un robot y"
+" giran, montan ensamblajes de brazo, rieles o disparador sobre ellos."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:7
+msgid "Lazy Susan Turrets"
+msgstr "Torreta Lazy Susan"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:9
+msgid ""
+"Lazy susan turrets are based around a type of turntable called a lazy susan,"
+" which are available off the shelf."
+msgstr ""
+"Las torretas de Lazy Susan se basan en un tipo de plato giratorio llamado "
+"lazy susan, que están disponibles en el mercado."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:12
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:41
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:63
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:14
+msgid ""
+"Lazy susans come prebuilt, meaning you don't need to design or manufacture "
+"your own platform for your turret."
+msgstr ""
+"Las Lazy susans vienen preconstruidas, lo que significa que no necesitas "
+"diseñar ni fabricar tu propia plataforma para tu torreta."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:15
+msgid "Decent lazy susans are relatively cheap."
+msgstr "Las lazy susans decentes son relativamente baratas."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:18
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:47
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:69
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:20
+msgid ""
+"Lazy susans are prebuilt, meaning they're generally harder to customize than"
+" other options."
+msgstr ""
+"Las Lazy susans están preconstruidas, lo que significa que generalmente son "
+"más difíciles de personalizar que otras opciones."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:21
+msgid ""
+"Lazy susans aren't designed to handle lateral forces, which means that e.g. "
+"the reaction force from a shooter could damage it."
+msgstr ""
+"Las Lazy susans no están diseñadas para manejar fuerzas laterales, lo que "
+"significa que, por ejemplo, la fuerza de reacción de un tirador podría "
+"dañarla."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:26
+msgid "19818 Jade Innovations' Lazy Susan Turret"
+msgstr "19818 Lazy Susan Torreta de Jade Innovations"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:26
+msgid ""
+"19818 Jade Innovations, Power Play, **lazy susan turret rotating slides**"
+msgstr ""
+"19818 Jade Innovations, Power Play, **torreta de lazy susan rotando rieles**"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:30
+msgid "Bearing Stack Turret"
+msgstr "Torreta de Pila de Rodamientos"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:32
+msgid ""
+"Bearing stacks are stacks of bearings, usually consisting of a small bearing"
+" sandwiched between two large bearings on a screw shaft or standoff. A "
+"bearing stack turret has a disc that rotates smoothly because it is tangent "
+"to the small bearing on many bearing stacks, while the bigger bearings "
+"constrain the disc vertically. Usually, the small bearing is a radial "
+"bearing, while the big bearings may be thrust or radial bearings, depending "
+"on which loads the turret experiences."
+msgstr ""
+"Las pilas de rodamientos son pilas de rodamientos, generalmente compuestas "
+"por un rodamiento pequeño intercalado entre dos rodamientos grandes en un "
+"eje de tornillo o soporte. Una torreta de pila de rodamientos tiene un disco"
+" que gira suavemente porque es tangente al rodamiento pequeño en muchas "
+"pilas de rodamientos, mientras que los rodamientos más grandes limitan el "
+"disco verticalmente. Por lo general, el rodamiento pequeño es un rodamiento "
+"radial, mientras que los rodamientos grandes pueden ser rodamientos axiales "
+"o radiales, dependiendo de las cargas que experimente la torreta."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:38
+msgid "A sample bearing stack"
+msgstr "Una pila de rodamientos de muestra"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:38
+msgid ""
+"A sample bearing stack, with a radial bearing sandwiched between 2 thrust "
+"bearings on a shoulder screw. A plate (not pictured) rides on the radial "
+"bearing while being supported by the thrust bearings."
+msgstr ""
+"Una pila de rodamientos de muestra, con un rodamiento radial intercalado "
+"entre 2 rodamientos axiales en un tornillo de hombro. Una placa (no "
+"mostrada) se desliza sobre el rodamiento radial mientras es soportada por "
+"los rodamientos axiales."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:43
+msgid ""
+"Highly customizable, as the assembly can be designed specifically for your "
+"robot and mechanisms."
+msgstr ""
+"Altamente personalizable, ya que el ensamblaje puede ser diseñado "
+"específicamente para tu robot y mecanismos."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:49
+msgid ""
+"Requires a lot of design work and precision manufacturing capabilities to "
+"build."
+msgstr ""
+"Requiere mucho trabajo de diseño y capacidades de fabricación de precisión "
+"para construir."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:50
+msgid ""
+"Many potential points of failure, though some bearing stacks can fail "
+"without the entire turret failing with redundancy."
+msgstr ""
+"Muchos puntos potenciales de falla, aunque algunas pilas de rodamientos "
+"pueden fallar sin que toda la torreta falle con redundancia."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:55
+msgid "18219 Primitive Data's Bearing Stack Turret"
+msgstr "18219 Primitive Data's Torreta de Pila de Rodamientos"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:55
+msgid "18219 Primitive Data, Ultimate Goal, **bearing stack turret**"
+msgstr ""
+"18219 Primitive Data, Ultimate Goal, **Torreta de pila de rodamiento**"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:58
+msgid "Center-Bearing Turrets"
+msgstr "Torretas de rodamiento central"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:60
+msgid ""
+"Center-bearing turrets are based on a bearing (or bearings) coaxial with the"
+" turret's axis of rotation."
+msgstr ""
+"Los torretas con rodamientos centrales se basan en un rodamiento (o "
+"rodamientos) coaxial con el eje de rotación de la torreta."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:65
+msgid ""
+"These turrets are generally simpler than others, as they rotate similarly to"
+" any other mechanism on an axle."
+msgstr ""
+"Estas torretas son generalmente más simples que otras, ya que rotan de "
+"manera similar a cualquier otro mecanismo en un eje."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:66
+msgid "Do not require complex or custom-manufactured components."
+msgstr "No requiera componentes complejos o fabricados a medida."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:71
+msgid ""
+"If a radial bearing is used, thrust loads can cause significant problems. "
+"Thrust or x-contact bearings may be better suited for this task, especially "
+"in high load situations."
+msgstr ""
+"Si se utiliza un rodamiento radial, las cargas axiales pueden causar "
+"problemas significativos. Los rodamientos axiales o de contacto en x pueden "
+"ser más adecuados para esta tarea, especialmente en situaciones de carga "
+"alta."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:72
+msgid ""
+"Due to a bearing being in the center, unless you buy large diameter bearings"
+" (which can be very expensive), it may be hard to pass game elements (or "
+"other things) through the center. This is often relevant for shooters, where"
+" it may be desirable to load them in any orientation."
+msgstr ""
+"Debido a que un rodamiento se encuentra en el centro, a menos que compres "
+"rodamientos de gran diámetro (que pueden ser muy costosos), puede ser "
+"difícil pasar elementos del juego (u otras cosas) a través del centro. Esto "
+"suele ser relevante para los tiradores, donde puede ser deseable cargarlos "
+"en cualquier orientación."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:77
+msgid "16379 KookyBotz's Turret"
+msgstr "16379 KookyBotz's Torreta"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:77
+msgid ""
+"16379 KookyBotz, Freight Frenzy, **center-bearing turret using an x-contact "
+"bearing**"
+msgstr ""
+"16379 KookyBotz, Freight Frenzy, **torreta con rodamiento central usando un "
+"rodamiento de contacto en x**"

@@ -5,18 +5,236 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 04:16+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:4
+msgid "Computer Vision"
+msgstr "Visión computarizada"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:6
+msgid ""
+"Computer vision is the process of using computers to understand digital "
+"images, such as photographs and videos. Computer vision offers object "
+"detection which is commonly needed in FTC\\ |reg|."
+msgstr ""
+"La visión computarizada es el proceso de utilizar ordenadores para "
+"comprender imágenes digitales, como fotografías y vídeos. La visión "
+"computarizada ofrece la detección de objetos que suele ser necesaria en FTC "
+"|reg|."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:8
+msgid ""
+"Currently, there are 3 commonly used forms of computer vision: TensorFlow "
+"Lite, AprilTags, and OpenCV (via VisionPortal/EasyOpenCV)."
+msgstr ""
+"Actualmente, existen 3 formas de visión computarizada comúnmente utilizadas:"
+" TensorFlow Lite, AprilTags, y OpenCV (vía VisionPortal/EasyOpenCV)."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:11
+msgid "Officially Supported Solutions"
+msgstr "Soluciones con respaldo oficial"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:14
+msgid "TensorFlow"
+msgstr "TensorFlow"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:16
+msgid ""
+"TensorFlow is Google's machine learning technology, which can be trained to "
+"detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight "
+"version of Google's TensorFlow designed to run on mobile devices. Along with"
+" Android Studio and OnBot support, TensorFlow has block support which makes "
+"it a good choice for most teams."
+msgstr ""
+"TensorFlow es la tecnología de aprendizaje automático de Google, que puede "
+"entrenarse para detectar objetos. El SDK de FTC utiliza TensorFlow Lite, que"
+" es una versión ligera de TensorFlow de Google diseñada para ejecutarse en "
+"dispositivos móviles. Junto con la compatibilidad con Android Studio y "
+"OnBot, TensorFlow es compatible con bloques, lo que lo convierte en una "
+"buena opción para la mayoría de los equipos."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:18
+msgid ""
+"Sample OpModes for TensorFlow being used for pixel detection (CENTERSTAGE) "
+"can be found `here <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ "
+"(Blocks), and a Java example can be found `here <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__."
+msgstr ""
+"Ejemplos de OpModes para TensorFlow que se utilizan para la detección de "
+"píxeles (CENTERSTAGE) se pueden encontrar `aquí <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ "
+"(Bloques), y un ejemplo Java se puede encontrar `aquí "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-"
+"Sample-OpMode-for-TFOD>`__."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:20
+msgid ""
+"*FIRST*\\ |reg| has released a tool called FTC-ML to train your own "
+"TensorFlow Lite model for detecting custom objects. Details about FTC-ML can"
+" be found `on FTC Docs <https://ftc-"
+"docs.firstinspires.org/ftc_ml/index.html>`_."
+msgstr ""
+"*FIRST* |reg| ha lanzado una herramienta llamada FTC-ML para entrenar tu "
+"propio modelo TensorFlow Lite para detectar objetos personalizados. Los "
+"detalles sobre FTC-ML se pueden encontrar `en FTC Docs <https://ftc-"
+"docs.firstinspires.org/ftc_ml/index.html>`_."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:23
+msgid "AprilTags"
+msgstr "AprilTags"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:25
+msgid ""
+"AprilTags detect specific low-resolution, black-and-white images that are "
+"placed on various parts of the field. AprilTags are a great way to detect "
+"specific parts of the fields at wide angles, distances, and in a variety of "
+"lighting conditions. AprilTags are supported in OnBot Java, Android Studio, "
+"and Blocks."
+msgstr ""
+"Las AprilTags detectan imágenes específicas en blanco y negro de baja "
+"resolución que se colocan en diversas partes del campo. Los AprilTags son "
+"una gran manera de detectar partes específicas de los campos en ángulos "
+"amplios, distancias, y en una variedad de condiciones de iluminación. "
+"AprilTags es compatible con OnBot Java, Android Studio y Blocks."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:27
+msgid ""
+"You can learn more about implementing AprilTags `on FTC Docs <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
+"intro.html>`__. Supported AprilTag images are available on this `pdf "
+"<https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`__."
+msgstr ""
+"Puede obtener más información sobre la implementación de AprilTags `en FTC "
+"Docs <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
+"intro.html>`__. Las imágenes AprilTag compatibles están disponibles en este "
+"`pdf "
+"<https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`__."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:30
+msgid "VisionPortal"
+msgstr "VisionPortal"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:32
+msgid ""
+"Introduced with FTC SDK v8.2, the VisionPortal API integrates the "
+"`EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__ project into the FTC "
+"SDK. With VisionPortal, you can attach multiple VisionProcessors to a single"
+" camera. VisionProcessors are an easy way to create OpenCV pipelines, which "
+"allows for custom manipulation and processing to be applied to each incoming"
+" frame. VisionPortal is the most powerful form of computer vision, but it is"
+" also the hardest to use. Therefore, we can only recommend it to more "
+"advanced teams."
+msgstr ""
+"Introducida con FTC SDK v8.2, la API VisionPortal integra el proyecto "
+"`EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__ en FTC SDK. Con "
+"VisionPortal, puede adjuntar varios VisionProcessors a una sola cámara. Los "
+"VisionProcessors son una forma sencilla de crear pipelines OpenCV, que "
+"permiten aplicar manipulaciones y procesamientos personalizados a cada "
+"fotograma entrante. VisionPortal es la forma más potente de visión por "
+"computadora, pero también es la más difícil de usar. Por lo tanto, sólo "
+"podemos recomendarlo a los equipos más avanzados."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:35
+msgid "Additional Vision Resources"
+msgstr "Recursos adicionales sobre la visión"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:38
+msgid "EasyOpenCV Simulator"
+msgstr "Simulador EasyOpenCV"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:40
+msgid ""
+"EasyOpenCV Simulator is a straightforward way to test your pipelines "
+"directly on your computer. It supports Windows, macOS, and Linux, and "
+"simulates a portion of the FTC SDK structure including the VisionPortal API,"
+" allowing you to copy and paste pipelines."
+msgstr ""
+"EasyOpenCV Simulator es una forma sencilla de probar tus pipelines "
+"directamente en tu ordenador. Es compatible con Windows, macOS y Linux, y "
+"simula una parte de la estructura del SDK de FTC, incluida la API "
+"VisionPortal, lo que le permite copiar y pegar pipelines."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:42
+msgid ""
+"You can find EasyOpenCV Simulator `here <https://github.com/deltacv/EOCV-"
+"Sim>`__."
+msgstr ""
+"Puede encontrar EasyOpenCV Simulator `aquí <https://github.com/deltacv/EOCV-"
+"Sim>`__."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:45
+msgid "FTC\\ |reg| Dashboard"
+msgstr "FTC\\ |reg| Dashboard"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:47
+msgid ""
+"FTC Dashboard runs a dashboard webpage on the Control Hub that, among other "
+"things, streams a live preview of a connected camera. This is a very useful "
+"tool for testing and debugging vision applications."
+msgstr ""
+"FTC Dashboard ejecuta una página web en el Control Hub que, entre otras "
+"cosas, transmite una vista previa en directo de una cámara conectada. Se "
+"trata de una herramienta muy útil para probar y depurar aplicaciones de "
+"visión."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:49
+msgid ""
+"FTC Dashboard is not legal to run during matches, make sure it is disabled "
+"during a competition. More information can be found `here "
+"<https://acmerobotics.github.io/ftc-dashboard/competition>`__."
+msgstr ""
+"FTC Dashboard no es legal para ejecutar durante los partidos, asegúrese de "
+"que está desactivado durante una competencia. Puedes encontrar más "
+"información `aquí <https://acmerobotics.github.io/ftc-"
+"dashboard/competition>`__."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:51
+msgid ""
+"You can find FTC Dashboard `here <https://github.com/acmerobotics/ftc-"
+"dashboard>`__."
+msgstr ""
+"Puede encontrar el FTC Dashboard `aquí <https://github.com/acmerobotics/ftc-"
+"dashboard>`__."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:54
+msgid "Scrcpy"
+msgstr "Scrcpy"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:56
+msgid ""
+"Scrcpy is an easy way to display and control Android devices connected over "
+"USB. It supports Linux, Windows, and macOS, offers low latency, requires low"
+" resources, and has great performance. It is extremely useful for debugging "
+"vision code on a Control Hub, as it will enable you to see the camera output"
+" in near real time. It can also be used with a robot controller phone, "
+"however the camera output can be seen on the phone's screen."
+msgstr ""
+"Scrcpy es una forma sencilla de visualizar y controlar dispositivos Android "
+"conectados a través de USB. Es compatible con Linux, Windows y macOS, ofrece"
+" baja latencia, requiere pocos recursos y tiene un gran rendimiento. Es "
+"extremadamente útil para depurar código de visión en un Control Hub, ya que "
+"te permitirá ver la salida de la cámara casi en tiempo real. También se "
+"puede utilizar con un teléfono controlador de robot, sin embargo, la salida "
+"de la cámara se puede ver en la pantalla del teléfono."
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:58
+msgid "You can find scrcpy `here <https://github.com/Genymobile/scrcpy>`__."
+msgstr ""
+"Puedes encontrar scrcpy `aquí <https://github.com/Genymobile/scrcpy>`__."

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-17 04:17+0000\n"
+"POT-Creation-Date: 2024-01-29 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,545 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:4
+msgid "Wiring Guide"
+msgstr "Guía de cableado"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:7
+msgid "Why does wiring matter?"
+msgstr "¿Por qué es importante el cableado?"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:9
+msgid ""
+"Have you ever looked inside your robot and thought \"what a mess of wires\"?"
+" Wiring is extremely important in FTC\\ |reg|, but is often overlooked or "
+"hastily done the hour before competition starts. However, time spent in "
+"wiring the robot properly is crucial to the performance and maintenance of "
+"the robot."
+msgstr ""
+"¿Alguna vez has mirado dentro de tu robot y pensado \"¡qué desorden de "
+"cables\"? El cableado es extremadamente importante en FTC\\ |reg|, pero a "
+"menudo se pasa por alto o se hace apresuradamente una hora antes de que "
+"comience la competencia. Sin embargo, el tiempo invertido en cablear "
+"correctamente el robot es crucial para el rendimiento y mantenimiento del "
+"robot."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:11
+msgid ""
+"It is highly discouraged for teams to overlook wiring, but many new teams "
+"seem to disregard it or put little thought into wiring the robot properly."
+msgstr ""
+"Es muy desalentador que los equipos pasen por alto el cableado, pero muchos "
+"equipos nuevos parecen ignorarlo o darle poco pensamiento a cablear "
+"correctamente el robot."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:13
+msgid ""
+"While tedious and often no fun, wiring can mean the difference between a win"
+" and loss. The best robot in the world won't be able to work if a wire is "
+"loose or gets tangled up in the middle of a match. Thus it is imperative "
+"that wiring is purposefully thought out when designing and building a robot."
+msgstr ""
+"Aunque tedioso y a menudo no divertido, el cableado puede significar la "
+"diferencia entre una victoria y una derrota. El mejor robot del mundo no "
+"podrá funcionar si un cable está suelto o se enreda en medio de una partida."
+" Por lo tanto, es imperativo que el cableado se planifique cuidadosamente al"
+" diseñar y construir un robot."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:16
+msgid "*FIRST*\\ |reg| FTC Wiring Guide"
+msgstr "*FIRST*\\ |reg| Guía de cableado de FTC"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:18
+msgid ""
+"*FIRST*\\ |reg| has created a wiring guide to help teams with tasks like "
+"crimping cables, soldering connections, and ESD mitigation that won't be "
+"covered in this guide. Once you read up on electronics and wiring here, look"
+" at the `FTC Wiring Guide "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
+"wiring-guide.pdf>`_ for the best practices and more tips & tricks. In "
+"addition, *FIRST* has written an `ESD Mitigation Whitepaper "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
+"esd-mitigation-echin.pdf>`_ that is worth taking a look at."
+msgstr ""
+"*FIRST* ha creado una guía de cableado para ayudar a los equipos con tareas "
+"como el engarzado de cables, la soldadura de conexiones y la mitigación de "
+"ESD que no se cubrirán en esta guía. Una vez que hayas leído sobre "
+"electrónica y cableado aquí, consulta la `Guía de cableado de FTC "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
+"wiring-guide.pdf>`_ para conocer las mejores prácticas y más consejos y "
+"trucos. Además, *FIRST* ha escrito un `Whitepaper de mitigación de ESD "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
+"esd-mitigation-echin.pdf>`_ que vale la pena revisar."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:21
+msgid "General Advice"
+msgstr "Consejos generales"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:23
+msgid ""
+"**Always label wires! When bunched up, you may not know which wire goes into"
+" which port**."
+msgstr ""
+"**¡Siempre etiqueta los cables! Cuando están agrupados, es posible que no "
+"sepas qué cable va en qué puerto**."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:24
+msgid ""
+"Tie together loose wires, and better yet, tie that bunch of wires to a "
+"structural component. This will ensure that wires don't interfere with your "
+"mechanisms."
+msgstr ""
+"Amarra los cables sueltos, y aún mejor, amarra ese montón de cables a un "
+"componente estructural. Esto asegurará que los cables no interfieran con tus"
+" mecanismos."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:25
+msgid ""
+"**Pay attention to port numbers!** The rev hub will often have multiple "
+"ports per connector on the REV hub. `REV has a pinout guide to avoid "
+"confusion <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/port-pinouts>`_."
+msgstr ""
+"**¡Presta atención a los números de puerto!** El REV hub a menudo tendrá "
+"múltiples puertos por conector en el REV hub. `REV tiene una guía del "
+"esquema de conexiones para evitar confusiones "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/port-"
+"pinouts>`_."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:26
+msgid ""
+"**Treat every wire connection as a point of failure**. Therefore, use "
+"electrical tape to tape up and insulate connections and utilize strain "
+"relief as much as possible."
+msgstr ""
+"**Trata cada conexión de cable como un punto de falla**. Por lo tanto, "
+"utiliza cinta eléctrica para envolver e aislar las conexiones y utiliza "
+"alivio de tensión tanto como sea posible."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:27
+msgid ""
+"**Strain relief** should be used everywhere possible. It is highly "
+"recommended for teams to use products like the :term:`REV USB Retention "
+"Mount <USB Retention Mount>`, as well as 3D printing strain relief methods "
+"for devices such as the Expansion Hub and robot controller phones."
+msgstr ""
+"**El alivio de tensión** debe utilizarse en todas partes posible. Se "
+"recomienda encarecidamente que los equipos utilicen productos como el "
+":term:`REV Montaje de retención USB <USB Retention Mount>`, así como métodos"
+" de alivio de tensión de impresión 3D para dispositivos como el Expansion "
+"Hub y los teléfonos controladores de robots."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:28
+msgid ""
+"**DO NOT solder a wire before crimping it**. Solder can \"creep\" and losing"
+" connection is possible, possibly leading to fire."
+msgstr ""
+"**NO suelde un cable antes de engarzarlo**. La soldadura puede "
+"\"deslizarse\" y es posible perder la conexión, lo que podría provocar un "
+"incendio."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:29
+msgid ""
+"**Keep all wire runs as short as possible** to prevent entanglement and "
+"improve wire management."
+msgstr ""
+"**Mantenga todas las conexiones de cables lo más cortas posible** para "
+"evitar enredos y mejorar la gestión de cables."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:30
+msgid ""
+"**When using data/sensor cables, keep them away from motors.** This will "
+"reduce electromagnetic interference (EMI). Add a ferrite bead if possible."
+msgstr ""
+"**Cuando se utilizan cables de datos/sensores, manténgalos alejados de los "
+"motores.** Esto reducirá la interferencia electromagnética (EMI). Agregue un"
+" núcleo de ferrita si es posible."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:31
+msgid ""
+"**Crimped connectors are generally better than soldered connectors**, as "
+"solder joints can break easier than a crimped connection."
+msgstr ""
+"**Los conectores engarzados son generalmente mejores que los conectores "
+"soldados**, ya que las uniones soldadas pueden romperse más fácilmente que "
+"una conexión engarzada."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:32
+msgid ""
+"**Keep wires tucked away from moving mechanisms,** and ensure that you will "
+"not be at risk of a mechanism snagging a wire. This is a proper application "
+"of materials such as acrylic, which allow drivers to see inside the robot "
+"while keeping wires out of the way of other robots/game pieces. It is "
+"advised for teams to purchase removable velcro ties or cable ties to aid "
+"with cable management."
+msgstr ""
+"**Mantén los cables alejados de los mecanismos en movimiento,** y asegúrate "
+"de no correr el riesgo de que un mecanismo enganche un cable. Esta es una "
+"aplicación adecuada de materiales como el acrílico, que permite a los "
+"conductores del robot ver dentro del robot mientras mantiene los cables "
+"fuera del alcance de otros robots/piezas de juego. Se recomienda que los "
+"equipos adquieran sujetadores de velcro removibles o bridas/cinchos para "
+"ayudar con la gestión de cables."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:33
+msgid ""
+"**For power wires, lower** :term:`gauge <Gauge>` **(larger size) wires are "
+"preferable.** This means a lower resistance across the wire and higher power"
+" throughput. This is negligible for data wires, however."
+msgstr ""
+"**Para los cables de alimentación, es preferible utilizar cables de "
+":term:`calibre <Gauge>` más bajo (mayor tamaño)**. Esto significa una "
+"resistencia más baja a través del cable y un mayor flujo de energía. Sin "
+"embargo, esto es insignificante para los cables de datos."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:34
+msgid ""
+"**Small wires and cables are fragile.** Treat them as such, and don't put "
+"them in an area where they will constantly be hit by another object. Larger "
+"power cables can take much more abuse."
+msgstr ""
+"**Los cables y alambres pequeños son frágiles.** Trátalos como tal y no los "
+"coloques en un área donde constantemente sean golpeados por otro objeto. Los"
+" cables de alimentación más grandes pueden resistir mucho más abuso."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:35
+msgid ""
+"**Ensure that your wires are kept out of pinch points** where another "
+"mechanism could sandwich the wire. This is especially important in arms or "
+"mechanisms that are hinged."
+msgstr ""
+"**Asegúrese de que sus cables se mantengan alejados de los puntos de "
+"pellizco** donde otro mecanismo pueda atrapar el cable. Esto es "
+"especialmente importante en brazos o mecanismos articulados."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:40
+msgid "An example of poor wiring"
+msgstr "Un ejemplo de mala instalación eléctrica"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:40
+msgid "Bad example of wiring!"
+msgstr "¡Mal ejemplo de cableado!"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rstNone
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:48
+msgid "An example of good wiring by 731"
+msgstr "Un ejemplo de buena conexión eléctrica por 731"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:48
+msgid "Good example of wiring by 731 Wannabee Strange, Rover Ruckus"
+msgstr "Buen ejemplo de cableado por 731 Wannabee Strange, Rover Ruckus"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:53
+msgid "An example of good wiring by 8417"
+msgstr "Un ejemplo de buena conexión eléctrica por 8417"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:53
+msgid "Good example of wiring by 8417 'Lectric Legends"
+msgstr "Buen ejemplo de cableado por 8417 'Lectric Legends"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:58
+msgid "An example of good wiring by 7244"
+msgstr "Un ejemplo de buena conexión eléctrica por 7244"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:58
+msgid "Good example of wiring by 7244 Out of the Box Robotics"
+msgstr "Buen ejemplo de cableado por 7244 Out of the Box Robotics"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:60
+msgid ""
+"When wiring, also take the time to plan out a specific layout for your wires"
+" and how they will run throughout the robot. Take the time to lay out "
+"something like an electronics panel if necessary! When building the robot, "
+"devote adequate space to wiring. This could mean mounting a PVC pipe and "
+"running wires from the back end of the robot through it, or simply using "
+"velcro or zipties."
+msgstr ""
+"Cuando hagas la instalación eléctrica, también tómate el tiempo para "
+"planificar un diseño específico para tus cables y cómo se distribuirán por "
+"todo el robot. Dedica el tiempo necesario para organizar algo como un panel "
+"electrónico si es necesario. Al construir el robot, destina un espacio "
+"adecuado para la instalación eléctrica. Esto podría significar montar un "
+"tubo de PVC y hacer pasar los cables desde la parte trasera del robot a "
+"través de él, o simplemente usar velcro o sujetadores de plástico."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:62
+msgid ""
+"Make sure that wires are as short as possible to reduce the risk of "
+"entanglement."
+msgstr ""
+"Asegúrese de que los cables sean lo más cortos posible para reducir el "
+"riesgo de enredos."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:64
+msgid ""
+"However, as components move out of the robot, the wires move with it. Tying "
+"down every loose inch will result in wire disconnecting. Wiring is the art "
+"of finding the perfect balance between shortest length and allowing enough "
+"freedom as mechanisms need."
+msgstr ""
+"Sin embargo, a medida que los componentes se mueven fuera del robot, los "
+"cables se mueven con él. Atar cada pulgada suelta resultará en la "
+"desconexión del cable. El cableado es el arte de encontrar el equilibrio "
+"perfecto entre la longitud más corta y permitir la suficiente libertad que "
+"los mecanismos necesitan."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:66
+msgid ""
+"**It is also recommended for electronics to be mounted on a nonconductive "
+"material such as wood to prevent ESD**."
+msgstr ""
+"**También se recomienda que los dispositivos electrónicos se monten sobre un"
+" material no conductor, como la madera, para prevenir la ESD**."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:71
+msgid "An example of good wiring on a non-conductive surface by 3736"
+msgstr ""
+"Un ejemplo de buena conexión eléctrica en una superficie no conductora por "
+"3736"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:71
+msgid "3736 Serious Business"
+msgstr "3736 Serious Business"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:74
+msgid "Specific Recommendations"
+msgstr "Recomendaciones específicas"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:77
+msgid "Module Power"
+msgstr "Módulo de energía"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:79
+msgid ""
+"Be aware, :term:`XT30` connectors can wear out significantly faster than "
+":term:`PowerPole <Anderson PowerPole>` connectors. Additionally, because "
+":term:`XT30` connectors are soldered, they can break much easier than "
+":term:`PowerPole <Anderson PowerPole>` connections."
+msgstr ""
+"Ten en cuenta que los conectores :term:`XT30` pueden desgastarse "
+"significativamente más rápido que los conectores :term:`PowerPole <Anderson "
+"PowerPole>`. Además, debido a que los conectores :term:`XT30` están "
+"soldados, pueden romperse mucho más fácilmente que las conexiones "
+":term:`PowerPole <Anderson PowerPole>`."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:81
+msgid ""
+"Cabling for module power should be at least 14awg, if not 12awg. Keep in "
+"mind that it must be stranded, not solid, wire."
+msgstr ""
+"El cableado para la alimentación del módulo debe ser al menos de calibre "
+"14awg, si no es de calibre 12awg. Ten en cuenta que debe ser cable trenzado,"
+" no sólido."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:84
+msgid "Motor Power"
+msgstr "Energía del motor"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:86
+msgid ""
+"Cabling for motor power should be between 16awg and 12awg. Again, stranded, "
+"not solid, wire."
+msgstr ""
+"El cableado para la energía del motor debe ser entre 16awg y 12awg. "
+"Nuevamente, cable trenzado, no sólido."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:88
+msgid ""
+"Some motors (like the :term:`REV HD Hex <HD Hex Motor>` and :term:`Core Hex "
+"<Core Hex Motor>`) will have removable power connectors on the back, while "
+"other motors (like the :term:`Andymark NeveRests <NeveRest Motor>`) will "
+"have a cable permanently soldered on the back. It is much more convenient to"
+" have a connector on the back, or failing that, have a very short plug on "
+"the back of the motor. Once your wires are run and secured, taking them out "
+"won't be fun."
+msgstr ""
+"Algunos motores (como el :term:`REV HD Hex <HD Hex Motor>` y el :term:`Core "
+"Hex <Core Hex Motor>`) tendrán conectores de alimentación removibles en la "
+"parte posterior, mientras que otros motores (como el :term:`Andymark "
+"NeveRests <NeveRest Motor>`) tendrán un cable soldado permanentemente en la "
+"parte posterior. Es mucho más conveniente tener un conector en la parte "
+"posterior, o en su defecto, tener un enchufe muy corto en la parte posterior"
+" del motor. Una vez que los cables estén instalados y asegurados, sacarlos "
+"no será divertido."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:91
+msgid "Servo Wires"
+msgstr "Cables del servo"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:93
+msgid "Using heavy-duty extension wires are recommended."
+msgstr "Usar cables de extensión de alta resistencia es recomendado."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:95
+msgid ""
+"Tape the connections between extension wires and servo wires with electrical"
+" tape. This is as the connections can become loose over time and are easy to"
+" pull out."
+msgstr ""
+"Encinta las conexiones entre los cables de extensión y los cables del servo "
+"con cinta eléctrica. Esto se debe a que las conexiones pueden aflojarse con "
+"el tiempo y son fáciles de sacar."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:97
+msgid ""
+"The VEX Motor Controller 29 has the wrong gender connector on the 3-pin end."
+" You are required to either use an adapter cable, or add the right connector"
+" to the wires (recommended). **Be sure to protect the MC29, as it is fragile"
+" and prone to failure if it takes impact from another object**."
+msgstr ""
+"El Controlador de Motor VEX 29 tiene el conector de género incorrecto en el "
+"extremo de 3 pines. Se requiere que utilices un cable adaptador o agregues "
+"el conector correcto a los cables (recomendado). **Asegúrate de proteger el "
+"MC29, ya que es frágil y propenso a fallar si recibe impacto de otro "
+"objeto**."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:100
+msgid "USB"
+msgstr "USB"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:102
+msgid ""
+"USB is generally a strong connector, but is prone to wearing out over time. "
+"Refrain from plugging/unplugging these cables more than necessary, "
+"especially on the RC/DS phones."
+msgstr ""
+"Las USB son generalmente un conector resistente, pero tiende a desgastarse "
+"con el tiempo. Evita enchufar/desenchufar estos cables más de lo necesario, "
+"especialmente en los teléfonos RC/DS."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:104
+msgid ""
+"USB loves strain relief. To keep disconnects low, tie down cables to leave "
+"as little loose cabling on the robot as possible."
+msgstr ""
+"Las USB aman el alivio de tensión. Para mantener las desconexiones bajas, "
+"asegure los cables para dejar la menor cantidad de cables sueltos en el "
+"robot como sea posible."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:107
+msgid "Sensor Wires/Encoder Wires"
+msgstr "Cables del sensor / Cables del encoder"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:109
+msgid ""
+"Sensor wires and their connectors can be incredibly fragile. Use caution "
+"when routing, and keep slack on the connector end when adding strain relief "
+"to the cable."
+msgstr ""
+"Los cables del sensor y sus conectores pueden ser increíblemente frágiles. "
+"Tenga cuidado al enrutamiento y mantenga holgura en el extremo del conector "
+"al agregar alivio de tensión al cable."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:111
+msgid ""
+"The JST data connectors on the REV Expansion Hub and Control Hub have +5v, "
+"GND, and two data pins. If you are using a digital or analog sensor that "
+"does not use I2C, you can use a Y cable that gives two sensors off of one "
+"port."
+msgstr ""
+"Los conectores de datos JST en el REV Expansion Hub y Control Hub tienen "
+"+5v, GND y dos pines de datos. Si estás utilizando un sensor digital o "
+"analógico que no utiliza I2C, puedes usar un cable Y que permite conectar "
+"dos sensores a un solo puerto."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:114
+msgid "Miscellaneous"
+msgstr "Misceláneo"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:116
+msgid "REV Grounding Strap"
+msgstr "Correa de puesta a tierra REV"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:117
+msgid ""
+"The :term:`REV Grounding Strap <Grounding Strap>` is currently the only "
+"legal way to ground your robot. Attach the end to the metal part of your "
+"robot frame, and plug the :term:`XT30` connector end into a free "
+":term:`XT30` port on your robot."
+msgstr ""
+"La Correa de Puesta a Tierra REV <Grounding Strap> es actualmente la única "
+"forma legal de poner a tierra tu robot. Conecta el extremo al componente "
+"metálico del marco de tu robot y enchufa el extremo del conector XT30 en un "
+"puerto XT30 libre de tu robot."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:118
+msgid "Power distribution blocks/panels"
+msgstr "Bloques/paneles de distribución de energía"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:119
+msgid ""
+"The REV Power Distribution Block allows teams to have more than four "
+":term:`XT30` connectors (2 on each Expansion Hub). The block can be "
+"connected to the Servo Power Module to boost voltage for servos."
+msgstr ""
+"El Bloque de Distribución de Energía REV permite a los equipos tener más de "
+"cuatro conectores :term:`XT30` (2 en cada Expansion Hub). El bloque se puede"
+" conectar al Módulo de Energía del Servo para aumentar el voltaje de los "
+"servos."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:120
+msgid "Dryer sheets"
+msgstr "Hojas para secadora"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:121
+msgid ""
+"Dryer sheets can be used to wipe down the robot after every match in order "
+"to reduce static buildup. This is not directly recommended by *FIRST* or any"
+" vendor, but our empirical evidence throughout the years suggests that it "
+"helps, or at the very least, can't hurt to do so. However, dryer sheets may "
+"or may not be on the boundary of legality, as grounding the robot to the "
+"ground is illegal."
+msgstr ""
+"Las hojas para secadora se pueden usar para limpiar el robot después de cada"
+" partida con el fin de reducir la acumulación de estática. Esto no es "
+"recomendado directamente por *FIRST* o cualquier proveedor, pero nuestra "
+"evidencia empírica a lo largo de los años sugiere que ayuda, o al menos, no "
+"hace daño hacerlo. Sin embargo, las hojas para secadora pueden o no estar en"
+" el límite de la legalidad, ya que conectar el robot a tierra es ilegal."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:122
+msgid "Staticide/static spray"
+msgstr "Staticide/spray estático"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:123
+msgid ""
+"Staticide is a spray that helps to keep static off of the robot. Please be "
+"sure to spray your robot before an event and not during the event."
+msgstr ""
+"Staticide es un spray que ayuda a mantener la estática fuera del robot. Por "
+"favor, asegúrese de rociar su robot antes de un evento y no durante el "
+"evento."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:128
+msgid "Common causes of static"
+msgstr "Causas comunes de estática"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:125
+msgid ""
+"Every single contact point of your robot to the floor will increase the "
+"amount of static buildup."
+msgstr ""
+"Cada punto de contacto de tu robot con el piso aumentará la acumulación de "
+"estática."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:126
+msgid ""
+"Too much turning scrub (or traction when wheels try to turn). This is "
+"possible if a 4WD or 6WD (no center drop) with all traction wheels is used."
+msgstr ""
+"Demasiado desgaste al girar (o tracción cuando las ruedas intentan girar). "
+"Esto es posible si se utiliza un 4WD o un 6WD (sin caída central) con todas "
+"las ruedas de tracción."
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:127
+msgid ""
+"A conductive part dragging along the ground. For example, try not to have an"
+" intake touch the ground when the robot is moving as much as possible. Foam "
+"wheels and foam rollers are a common culprit."
+msgstr ""
+"Una parte conductora arrastrándose por el suelo. Por ejemplo, trata de "
+"evitar que el intake toque el suelo cuando el robot se esté moviendo tanto "
+"como sea posible. Las ruedas de espuma y los rodillos de espuma son un "
+"culpable común."
