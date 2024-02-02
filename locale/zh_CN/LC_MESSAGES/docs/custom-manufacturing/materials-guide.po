@@ -6,21 +6,224 @@
 # Translators:
 # DomnickJYH, 2023
 # Shawphy, 2023
+# wwsk2008sq, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-02 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: wwsk2008sq, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:4
+msgid "Materials Guide"
+msgstr "材料指南"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:6
+msgid ""
+"In FTC\\ |reg|, teams have design freedom in terms of what raw materials to "
+"use. However, there are definitely some important recommendations regarding "
+"material usage."
+msgstr "FTC，团队在使用什么原材料方面有设计自由。然而，关于材料的使用，肯定有一些重要的建议。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:8
+msgid ""
+"Common raw materials may be found at your local hardware store. McMaster-"
+"Carr and OnlineMetals are two frequently used online vendors. For more "
+"vendors, check the Appendix."
+msgstr ""
+"常见的原材料可以在您当地的五金店找到。McMaster-Carr和OnlineMetals是两个常用的在线供应商。有关更多供应商，请查看附录。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:10
+msgid "Here are recommended materials listed in order of importance."
+msgstr "以下是按重要性顺序列出的推荐材料。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:13
+msgid "Recommended Materials"
+msgstr "推荐材料"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:15
+msgid "Aluminum channel & angle"
+msgstr "铝通道和角度"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:16
+msgid "Aluminum extrusion (15 and 20 mm)"
+msgstr "铝挤压（15和20毫米）"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:17
+msgid "Polycarbonate (Lexan\\ |trade|)"
+msgstr "聚碳酸酯（Lexan™）"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:18
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:98
+msgid "ABS"
+msgstr "ABS"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:19
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:114
+msgid "Delrin"
+msgstr "Delrin 金属"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:20
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:125
+msgid "HDPE"
+msgstr "高密度聚乙烯（HDPE）"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:23
+msgid "Conditionally Recommended"
+msgstr "有条件推荐"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:25
+msgid "Aluminum sheet"
+msgstr "铝工作表"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:26
+msgid "Aluminum :term:`extrusion <Extrusion>` (1 inch)"
+msgstr "铝挤压（1英寸）"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:27
+msgid "Plywood"
+msgstr "胶合板"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:28
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:136
+msgid "Polyvinyl chloride (PVC)"
+msgstr "聚氯乙烯（PVC）"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:31
+msgid "Not Recommended"
+msgstr "不推荐"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:33
+msgid "Medium-density fiberboard (MDF)"
+msgstr "中密度纤维板（MDF）"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:34
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:72
+msgid "Steel"
+msgstr "钢"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:35
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:148
+msgid "Acrylic"
+msgstr "丙烯酸"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:38
+msgid "Metals"
+msgstr "金属"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:41
+msgid "Aluminum"
+msgstr "铝"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+msgid ""
+"Various aluminum items including extrusion, box tube, flat sheet, channel, "
+"and drawer slides"
+msgstr "各种铝制品，包括型材、箱管、平板、槽钢和抽屉滑轨"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:47
+msgid ""
+"A high strength, medium-high density material. Suitable for use in nearly "
+"every application; recommended in load-bearing applications."
+msgstr "一种高强度、中高密度的材料。几乎适用于所有应用；建议用于承重应用。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:48
+msgid ""
+"Aluminum comes in :term:`channel <Channel>`, :term:`extrusion <Extrusion>`, "
+"flat, angle, sheet/plate, and is used in some drawer slides."
+msgstr ""
+"铝有 :term:`channel <Channel>`、:term:`extrusion "
+"<Extrusion>`、扁平材、角材、板材，还用于某些抽屉滑轨。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:50
+msgid ""
+"Aluminum :term:`channel <Channel>` is used in many build system kits and is "
+"very popular among teams of various skill levels. :term:`channel <Channel>` "
+"is strong yet relatively lightweight, and offers many mounting options for "
+"teams."
+msgstr ""
+"铝材 :term:`channel <Channel>` 在许多构建系统套件中都有使用，在不同技术水平的团队中都很受欢迎。 :term:`channel"
+" <Channel>` 强度高，但重量相对较轻，可为团队提供多种安装选项。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:52
+msgid ""
+"15 mm :term:`extrusion <Extrusion>` is compatible with M3 hardware, allowing"
+" teams to slide in bolts to their desired location. REV and MiSUMI offer 15 "
+"mm :term:`extrusion <Extrusion>`. REV :term:`extrusion <Extrusion>` is not "
+"as great structurally, but is lighter than MiSUMI :term:`extrusion "
+"<Extrusion>`. MiSUMI is more resistant to :term:`flexing and/or twisting "
+"under load <Torsional Rigidity>`. Both REV and MiSUMI :term:`extrusion "
+"<Extrusion>` are sold in bulk, and MiSUMI has the option to cut to the half "
+"millimeter. Keep in mind that a lot of :term:`extrusion <Extrusion>` can add"
+" up quickly in terms of weight."
+msgstr ""
+"15 毫米 :term:`extrusion <Extrusion>` 与 M3 硬件兼容，允许团队将螺栓滑入所需位置。REV 和 MiSUMI 提供 "
+"15 毫米 :term:`extrusion <Extrusion>`。REV :term:`extrusion <Extrusion>` 在结构上不如"
+" MiSUMI :term:`extrusion <Extrusion>`轻。MiSUMI 更能抵抗 :term:` 负载下的弯曲和/或扭曲 "
+"<Torsional Rigidity>`。REV 和 MiSUMI :term:`extrusion <Extrusion>` "
+"都是批量销售，MiSUMI 还可以切割到半毫米。请记住，大量 :term:`extrusion <Extrusion>` 的重量会很快增加。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:54
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:57
+msgid "Torsional Rigidity"
+msgstr "扭转刚度"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:59
+msgid ""
+"Torsional rigidity refers to how difficult it is to twist an object due to "
+"an applied torque. This mainly refers to :term:`extrusion <Extrusion>`, as "
+"it is easier to twist extrusion than :term:`channel <Channel>` or an angle "
+"piece, for example."
+msgstr ""
+"扭转刚度是指施加扭矩后物体扭转的困难程度。这主要是指 :term:`extrusion <Extrusion>`，因为与 :term:`channel "
+"<Channel>`或角件相比，挤压件更容易扭转。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:61
+msgid ""
+"Torsional rigidity has consequences particularly in building drivetrains, as"
+" the drivetrain is the last mechanism on your robot that should flex or bend"
+" when weight or force is applied to it."
+msgstr "扭转刚度会产生后果，尤其是在构建动力传动系统时，因为动力传动系统是机器人上最后一个在施加重量或力时应该弯曲或弯曲的机构。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:63
+msgid ""
+"MiSUMI and 8020 also offer aluminum :term:`extrusions <Extrusion>` in other "
+"sizes, such as 20mm and 1\". 20 mm :term:`extrusion <Extrusion>` can be a "
+"good choice if you need a sturdier frame than provided by 15mm "
+":term:`extrusion <Extrusion>`. Note that then you would need to buy special "
+"nuts, as 20mm :term:`extrusion <Extrusion>` is not compatible with M3 nuts. "
+"1\" extrusion is regularly used as the primary building system in FRC\\ "
+"|reg|, but is definitely overkill for FTC."
+msgstr ""
+"MiSUMI和8020还提供其他尺寸的铝:term:`extrusion "
+"<Extrusion>`，如20毫米和1英寸。如果您需要比15毫米:term:`extrusion "
+"<Extrusion>`更坚固的框架，20毫米:term:`extrusion "
+"<Extrusion>`是一个不错的选择。请注意，您需要购买特殊螺母，因为20毫米:term:`extrusion "
+"<Extrusion>`与M3螺母不兼容。1英寸挤压材通常用作FRC||reg|中的主要建筑系统，但对于FTC而言绝对是过剩的。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:65
+msgid ""
+"Aluminum flat and aluminum angle is widely available at hardware stores. In "
+"certain applications, such as adapting from different build systems, it is "
+"possible to drill custom adapter plates to mount mechanisms to the "
+"drivetrain. Aluminum angle is also a very sturdy structural support piece "
+"that takes up relatively little space, and can adapt to any build system. We"
+" suggest using 1/8\" alumimum with drivetrain or mounting applications, and "
+"1/16\" aluminum for low-load situations."
+msgstr ""
+"铝扁平和铝角在五金店随处可见。在某些应用中，例如适应不同的构建系统，可以钻定制的适配器板将机构安装到传动系统。铝角也是一种非常坚固的结构支撑件，占用相对较小的空间，可以适应任何构建系统。我们建议在传动系统或安装应用中使用1/8\"铝，在低负载情况下使用1/16\"铝。"
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:67
 msgid ""
@@ -32,3 +235,329 @@ msgstr ""
 "与钢制抽屉滑轨相比，建议使用铝制抽屉滑轨，通常配有 :term:`ball bearings <Ball "
 "Bearing>`，以减轻重量。更多信息，请参阅 :doc:` 线性运动部分 </docs/common-mechanisms/linear-"
 "motion-guide/index>`。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:69
+msgid ""
+"Sheet aluminum is generally used for drivetrain plates on custom "
+"drivetrains. The recommended thickness is 1/8\" or 3/16\". Because it is a "
+"plate, sheet aluminum will bend if not supported correctly with "
+":term:`standoffs <Standoff>` or :term:`channel <Channel>`. Only load the "
+"sheet in the plane that it is in (if the sheet is vertical, then only put "
+"vertical load on it; do not load it horizontally). However, there may be "
+"some applications that would benefit from a slight bit of flex for "
+"adjustability - in those cases, use your judgment and test it out for "
+"yourself!"
+msgstr ""
+"铝板通常用于定制传动系统的传动板。建议厚度为 1/8\" 或 3/16\"。由于是板材，如果不使用 :term:`standoffs "
+"<Standoff>` 或 :term:`channel <Channel>` "
+"正确支撑，铝板会弯曲。只能在铝板所在的平面内对其进行加载（如果铝板是垂直的，则只能对其进行垂直加载；不要进行水平加载）。不过，在某些应用中，可能会因为可调节性而略有弯曲"
+"--在这种情况下，请自行判断并进行测试！"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:74
+msgid ""
+"Steel is unnecessarily heavy for FTC structure. Aluminum provides plenty of "
+"strength at a fraction of the weight, and doesn't require welding."
+msgstr "钢对于FTC结构来说是不必要的重。铝在重量的一小部分上提供了足够的强度，并且不需要焊接。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:75
+msgid ""
+"The proper uses of steel in FTC are in shafts (most are made out of "
+"precision-ground stainless steel) and gearboxes."
+msgstr "钢在 FTC 中的适当用途是轴（大部分由精密研磨的不锈钢制成）和齿轮箱。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:76
+msgid ""
+"Steel drawer slides can be used, but aluminum slides are highly recommended."
+msgstr "可以使用钢制抽屉滑轨，但强烈建议使用铝制滑轨。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:79
+msgid "Plastics"
+msgstr "塑料"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:82
+msgid "Lexan"
+msgstr "Lexan"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+msgid "Various polycarbonate plates, inlcuing one with a 90-degree bend"
+msgstr "各种聚碳酸酯板，包括一块 90 度弯曲的聚碳酸酯板"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:88
+msgid ""
+"Polycarbonate, commonly known by its brand name Lexan, is a material that is"
+" great for applications such as drivetrain plates or intake collector boxes."
+msgstr "聚碳酸酯，通常以其品牌名称Lexan而闻名，是一种非常适合动力传动系统板或进气收集箱等应用的材料。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:89
+msgid "Lexan can bear load and is very impact-resistant."
+msgstr "Lexan可以承受负载，并且非常耐冲击。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:90
+msgid ""
+"Lexan is commonly used in intake and deposit mechanisms as it is clear, "
+"allowing the drive team to see into the intake itself, an advantage over "
+"wood."
+msgstr "Lexan通常用于进气和沉积机制，因为它很清楚，允许驱动团队看到进气本身，这是木材的优势。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:91
+msgid ""
+"Thick Lexan can be used for drivetrain plates, though this is not "
+"recommended for inexperienced teams."
+msgstr "厚Lexan可用于传动系统板，但不推荐用于没有经验的团队。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:93
+msgid ""
+"Lexan is one of the most expensive materials per square foot, so make sure "
+"you have carefully planned out what you are cutting before doing so."
+msgstr "Lexan是每平方英尺最昂贵的材料之一，所以在这样做之前，确保你已经仔细计划好你要切割的东西。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:95
+msgid ""
+"Thin Lexan can be bent with a metal brake or sheet bender. It is recommended"
+" for teams to use bends instead of connecting with bolts - bending tends to "
+"be much stronger than bolting as it means the part stays in one continuous "
+"piece. If a sheet bender is out of the question, it is possible to use a "
+"heat gun or camping burners to heat up the Lexan in order to bend it. This "
+"is not recommended as it can cause injury and bubbling if the Lexan is "
+"overheated. Alternatively, \"cold bending\", bending along a straight edge "
+"without applying heat can work for thinner sheets."
+msgstr ""
+"薄的Lexan可以用金属制动器或工作表弯曲器弯曲。建议团队使用弯曲而不是用螺栓连接——弯曲往往比螺栓连接强得多，因为这意味着零件保持在一个连续的部件中。如果不可能使用工作表弯曲器，可以使用热枪或野营燃烧器加热Lexan以使其弯曲。不建议这样做，因为如果Lexan过热，它可能会导致受伤和起泡。或者，“冷弯曲”，即沿着直线边缘弯曲而不施加热量，也适用于较薄的工作表。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+msgid "Various ABS plates"
+msgstr "各种 ABS 板"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:104
+msgid "ABS is a hard low-friction plastic that is easily machinable."
+msgstr "ABS 是一种坚硬的低摩擦塑料，易于加工。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:105
+msgid ""
+"ABS sheet can be used for side panels, ramps, and even drivetrain plates."
+msgstr "ABS工作表可用于侧板、坡道，甚至传动系统板。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:106
+msgid "It is not as strong as Delrin, but strong enough for most purposes."
+msgstr "它不像Delrin那样坚固，但对于大多数用途来说足够坚固。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:107
+msgid "ABS is cheaper than Lexan and Delrin."
+msgstr "ABS 比 Lexan 和 Delrin 便宜。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:108
+msgid ""
+"ABS can be machined using hand tools or CNC. ABS sheets can be also bent "
+"using sheet bender (recommended) or a heat gun."
+msgstr "ABS可以用手工工具或数控加工。ABS工作表也可以使用工作表弯曲机（推荐）或热枪弯曲。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:109
+msgid "Thin (1/16 inch) ABS sheets can also be cut using shears."
+msgstr "薄（1/16英寸）ABS工作表也可以用剪刀切割。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+msgid "Various acetal/Delrin items, including plates and three sprockets"
+msgstr "各种乙缩醛/Delrin 项目，包括板和三个链轮"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:120
+msgid ""
+"Acetal, also known under brand name Delrin, is a low-friction strong "
+"plastic. It is a common plastic used for wheels, plastic gears, and "
+"sprockets (especially in the REV system)."
+msgstr "缩醛，也称为Delrin，是一种低摩擦强力塑料。它是一种常用于车轮、塑料齿轮和链轮（尤其是在REV系统中）的塑料。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:121
+msgid ""
+"It is a durable and strong plastic that is not easily cracked. Delrin can be"
+" used in drivetrain plates (use 1/4\" or 3/16\" thickness), but Delrin sheet"
+" is also quite expensive."
+msgstr "它是一种耐用且坚固的塑料，不易开裂。Delrin可用于传动系统板（使用1/4\"或3/16\"厚度），但Delrin工作表也相当昂贵"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:122
+msgid ""
+"Delrin can be machined in a variety of ways including laser cutting, CNC "
+"routing and hand sculpting. However, bending Delrin is much harder than "
+"bending Lexan or ABS."
+msgstr "Delrin可以通过多种方式进行加工，包括激光切割、CNC布线和手工雕刻。然而，弯曲Delrin比弯曲Lexan或ABS困难得多。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+msgid "Various HDPE plates"
+msgstr "各种高密度聚乙烯板"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:131
+msgid ""
+"HDPE stands for High Density Polyethylene and usually comes in opaque white "
+"or black sheets and plates"
+msgstr "HDPE 是高密度聚乙烯的缩写，通常为不透明的白色或黑色片材和板材。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:132
+msgid ""
+"HDPE is a cheaper alternative with low-friction characteristics similar to "
+"Delrin and flexibility/structure near polycarbonate."
+msgstr "HDPE是一种更便宜的替代品，具有与Delrin相似的低摩擦特性，flexibility/structure接近聚碳酸酯。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:133
+msgid ""
+"HDPE is easily machined by both hand tools and machine tools. However, it "
+"will burn in a laser cutter, so **do not laser cut HDPE.**"
+msgstr "HDPE很容易用手动工具和机床加工。然而，它会在激光切割机中燃烧，所以不要激光切割HDPE"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:138
+msgid "PVC is a common lightweight plastic ubiquitous at any hardware store."
+msgstr "PVC 是一种常见的轻质塑料，在五金店里随处可见。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:139
+msgid "PVC is most commonly sold as pipe, though PVC sheet does exist."
+msgstr "PVC 最常见的销售形式是管材，但也有 PVC 板材。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:140
+msgid ""
+"FTC teams generally use PVC in order to customize intake rollers, especially"
+" for surgical tubing intakes. Due to the soft plastic, it is very easy to "
+"drill through, so teams often attach the surgical tubing to a PVC pipe. The "
+"PVC roller will then be attached to the intake motor."
+msgstr ""
+"FTC 团队通常使用 PVC 来定制进气辊，尤其是手术管道进气辊。由于塑料较软，很容易钻透，因此参赛队通常会将手术管连接到 PVC 管上。然后将 PVC"
+" 滚筒连接到进气马达上。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:141
+msgid ""
+"Since PVC is cheap, teams can easily experiment with different mechanism "
+"configurations."
+msgstr "由于PVC很便宜，团队可以很容易地尝试不同的机制配置。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:142
+msgid ""
+"PVC pipe is sometimes used in cable management to run wires through, as it "
+"comes in different diameters and can easily be mounted."
+msgstr "PVC管有时用于电缆管理，使电线通过，因为它有不同的直径，可以很容易地安装"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:143
+msgid ""
+"PVC sheet can be bought or made by cutting vertically along the pipe so that"
+" the profile looks like a C. Bake in oven. PVC sheet is pliable yet sturdy, "
+"making it a good option for backstops or customizing connectors that require"
+" some sort of flex."
+msgstr ""
+"PVC板可以通过沿着管道垂直切割来购买或制作，这样轮廓看起来就像烤箱里的烤面包。PVC板柔韧而坚固，是需要某种弯曲的背挡或定制连接器的好选择。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:152
+msgid ""
+"Acrylic is not a load-bearing material. It will crack and possibly shatter "
+"under impact."
+msgstr "丙烯酸树脂不是承重材料。它在受到冲击时会开裂，甚至可能碎裂。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:154
+msgid "Do not use it on drivetrains by any means!"
+msgstr "无论如何都不要在传动系统上使用！"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:156
+msgid "Acrylic is a transparent thermoplastic commonly known as Plexiglass."
+msgstr "亚克力是一种透明的热塑性塑料，俗称有机玻璃。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:157
+msgid ""
+"As acrylic is not a structural material, it should only be used in "
+"mechanisms where there is no chance of shock impact."
+msgstr "由于亚克力不是结构性材料，因此只能用于不会受到冲击的装置中。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:158
+msgid ""
+"It may be used for aesthetic purposes or as shielding (to protect game "
+"elements from falling into the robot or from other robots tangling with "
+"wires, etc.)"
+msgstr "它可用于美观或屏蔽（防止游戏元素落入机器人或其他机器人与电线缠绕等）。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:159
+msgid ""
+"Treat acrylic as fancy clear cardboard - it cannot be loaded and should only"
+" be used in very specific circumstances."
+msgstr "丙烯酸树脂就像花哨的透明硬纸板一样，无法装载，只能在非常特殊的情况下使用。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:162
+msgid "Other"
+msgstr "其他"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:167
+msgid "Plywood and MDF"
+msgstr "胶合板和MDF"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:169
+msgid ""
+"A medium to high strength material suitable for use in a wide variety of "
+"applications. Keep in mind that wood cannot be exposed to water or excessive"
+" humidity, as lumber for use in FTC isn't treated and may warp or expand. Do"
+" not try to use laser cut wood for a drivetrain. This is especially "
+"important if you live in a humid region such as Florida - wood expanding can"
+" completely ruin a custom drivetrain."
+msgstr ""
+"这是一种中高强度的材料，适用于各种用途。请记住，木材不能接触水或过高的湿度，因为用于 FTC "
+"的木材未经处理，可能会变形或膨胀。不要尝试使用激光切割的木材制作传动系统。如果您居住在佛罗里达等潮湿地区，这一点尤为重要--"
+"木材膨胀会完全毁坏定制的传动系统。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:170
+msgid ""
+"Baltic Birch is the highest grade plywood, used in commercial applications "
+"and furniture. It contains 8+ layers (usually), is extremely dense, and is "
+"recommended for high-load applications or structure. It is quite an "
+"expensive material, so prototype and plan carefully before cutting."
+msgstr ""
+"波罗的海桦木是最高等级的胶合板，用于商业应用和家具。它包含8+层（通常），非常致密，推荐用于高负载应用或结构。它是一种相当昂贵的材料，因此在切割前仔细制作原型和计划。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:171
+msgid ""
+"Plywood is not recommended for final iterations, but can be a cheap "
+"prototyping material. It doesn't bear load especially well and can flex "
+"quite a bit."
+msgstr "胶合板不推荐用于最终迭代，但可以是一种廉价的原型材料。它不能很好地承受负载，并且可以弯曲相当大。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:172
+msgid ""
+"MDF is generally discouraged as there are better options and absorbs water "
+"easily."
+msgstr "MDF通常不被鼓励，因为有更好的选择，而且容易吸收水分。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:175
+msgid "Carbon Fiber"
+msgstr "碳纤维"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:177
+msgid ""
+"**Machining carbon fiber, like any fibrous substance, is a significant "
+"SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is "
+"incredibly dangerous. DO NOT MACHINE/CUT carbon fiber unless you know what "
+"you are doing. When you do, make sure to either use machinery that is "
+"designed to cut carbon fiber, or cut in a well ventilated area with "
+"sufficient respiratory protection and running water over the carbon fiber.**"
+msgstr ""
+"**加工碳纤维与加工任何纤维物质一样，都存在重大安全隐患！尤其是碳纤维粉尘会致癌，危险性极高。除非你知道自己在做什么，否则切勿加工/切割碳纤维。如果要切割碳纤维，请务必使用专门用于切割碳纤维的机器，或者在通风良好的地方切割，并配备足够的呼吸防护设备和流水冲刷碳纤维**。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:179
+msgid ""
+"Carbon fiber is one of the strongest materials for FTC use. For most teams, "
+"it is totally overkill, but it can be used in some specific applications."
+msgstr "碳纤维是FTC使用的最强材料之一，对于大多数团队来说，它完全是大材小用，但它可以用于一些特定的应用。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:181
+msgid ""
+"Carbon fiber rods are used in custom linear slide extensions or multi-axis "
+"arms."
+msgstr "碳纤维棒用于定制线性滑块延伸件或多轴臂。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:182
+msgid "It is probably the most expensive material to purchase."
+msgstr "它可能是最昂贵的材料。"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:185
+msgid "Cardboard"
+msgstr "纸板"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:187
+msgid ""
+"**Please do not use cardboard as a load-bearing material.** We have seen too"
+" many teams use cardboard in ways that it shouldn't be used. Treat cardboard"
+" as a sheet of paper: it has no structural rigidity and only should be used "
+"as guides to channel pieces from A to B."
+msgstr ""
+"**请勿将硬纸板用作承重材料。** 我们看到有太多的团队将硬纸板用在了不该用的地方。请将硬纸板当作一张纸：它没有结构刚度，只能用作将作品从 A 地传送到"
+" B 地的导轨。"

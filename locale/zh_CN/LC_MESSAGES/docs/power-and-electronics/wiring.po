@@ -6,15 +6,16 @@
 # Translators:
 # DomnickJYH, 2023
 # Shawphy, 2023
+# wwsk2008sq, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 04:15+0000\n"
+"POT-Creation-Date: 2024-02-02 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: wwsk2008sq, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,3 +26,114 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:4
 msgid "Wiring Guide"
 msgstr "布线指南"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:7
+msgid "Why does wiring matter?"
+msgstr "为什么布线很重要？"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:9
+msgid ""
+"Have you ever looked inside your robot and thought \"what a mess of wires\"?"
+" Wiring is extremely important in FTC\\ |reg|, but is often overlooked or "
+"hastily done the hour before competition starts. However, time spent in "
+"wiring the robot properly is crucial to the performance and maintenance of "
+"the robot."
+msgstr ""
+"您是否有过这样的经历：看着自己的机器人，心想 \"电线真乱\"？布线在 FTC\\ |reg| "
+"中极为重要，但往往被忽视或在比赛开始前一小时匆忙完成。然而，正确布线对机器人的性能和维护至关重要。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:11
+msgid ""
+"It is highly discouraged for teams to overlook wiring, but many new teams "
+"seem to disregard it or put little thought into wiring the robot properly."
+msgstr "我们非常不鼓励参赛队忽视布线工作，但许多新参赛队似乎忽视了这一点，或者很少考虑如何为机器人正确布线。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:13
+msgid ""
+"While tedious and often no fun, wiring can mean the difference between a win"
+" and loss. The best robot in the world won't be able to work if a wire is "
+"loose or gets tangled up in the middle of a match. Thus it is imperative "
+"that wiring is purposefully thought out when designing and building a robot."
+msgstr ""
+"布线工作虽然繁琐，而且往往毫无乐趣可言，但却能决定胜负。如果在比赛中电线松动或被缠住，再好的机器人也无法工作。因此，在设计和制造机器人时，必须有目的地考虑布线问题。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:16
+msgid "*FIRST*\\ |reg| FTC Wiring Guide"
+msgstr "*FIRST*\\ |reg| FTC 接线指南"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:18
+msgid ""
+"*FIRST*\\ |reg| has created a wiring guide to help teams with tasks like "
+"crimping cables, soldering connections, and ESD mitigation that won't be "
+"covered in this guide. Once you read up on electronics and wiring here, look"
+" at the `FTC Wiring Guide "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
+"wiring-guide.pdf>`_ for the best practices and more tips & tricks. In "
+"addition, *FIRST* has written an `ESD Mitigation Whitepaper "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
+"esd-mitigation-echin.pdf>`_ that is worth taking a look at."
+msgstr ""
+"*FIRST*\\ |reg| "
+"已创建了一个布线指南，以帮助团队完成本指南未涉及的压接电缆、焊接连接和防静电等任务。当您在这里阅读了电子和布线方面的知识后，请查看 \"FTC 布线指南"
+" "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
+"wiring-guide.pdf>`_\"，了解最佳实践和更多技巧。此外，*FIRST*还撰写了 \"ESD缓解白皮书 "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
+"esd-mitigation-echin.pdf>`_\"，值得一看。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:21
+msgid "General Advice"
+msgstr "一般建议"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:23
+msgid ""
+"**Always label wires! When bunched up, you may not know which wire goes into"
+" which port**."
+msgstr "**一定要给电线贴上标签！当电线捆绑在一起时，您可能不知道哪根电线通向哪个端口**。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:24
+msgid ""
+"Tie together loose wires, and better yet, tie that bunch of wires to a "
+"structural component. This will ensure that wires don't interfere with your "
+"mechanisms."
+msgstr "将松散的电线绑在一起，最好是将这些电线绑在结构部件上。这将确保电线不会干扰你的装置。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:25
+msgid ""
+"**Pay attention to port numbers!** The rev hub will often have multiple "
+"ports per connector on the REV hub. `REV has a pinout guide to avoid "
+"confusion <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/port-pinouts>`_."
+msgstr ""
+"**注意端口号！** REV 集线器上的每个连接器通常会有多个端口。`REV 有一个引脚分配指南，以避免混淆 "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/port-"
+"pinouts>`_。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:26
+msgid ""
+"**Treat every wire connection as a point of failure**. Therefore, use "
+"electrical tape to tape up and insulate connections and utilize strain "
+"relief as much as possible."
+msgstr "**将每个电线连接都视为可能故障的点**。因此，应使用电工胶带粘贴和绝缘连接，并尽可能使用应力消除装置。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:27
+msgid ""
+"**Strain relief** should be used everywhere possible. It is highly "
+"recommended for teams to use products like the :term:`REV USB Retention "
+"Mount <USB Retention Mount>`, as well as 3D printing strain relief methods "
+"for devices such as the Expansion Hub and robot controller phones."
+msgstr ""
+"**应尽可能在所有地方使用应力消除**。强烈建议参赛团队使用 :term:`REV USB 固定安装 <USB Retention Mount>` "
+"等产品，以及 3D 打印应力消除方法，用于扩展集线器和机器人控制器电话等设备。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:28
+msgid ""
+"**DO NOT solder a wire before crimping it**. Solder can \"creep\" and losing"
+" connection is possible, possibly leading to fire."
+msgstr "**在压接导线之前切勿焊接导线**。焊锡会 \"蠕变\"，可能会失去连接，并可能导致火灾。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:29
+msgid ""
+"**Keep all wire runs as short as possible** to prevent entanglement and "
+"improve wire management."
+msgstr "**尽可能缩短所有电线的长度**，以防止电线缠绕并改善电线管理。"

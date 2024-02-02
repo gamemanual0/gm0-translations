@@ -6,15 +6,16 @@
 # Translators:
 # DomnickJYH, 2023
 # Shawphy, 2023
+# wwsk2008sq, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-02 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: wwsk2008sq, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,9 +23,23 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:4
+msgid "Kit Glossary"
+msgstr "工具包词汇表"
+
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:7
 msgid "Channel"
 msgstr "频道"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:9
+msgid ""
+"Channel (more precisely called C-Channel) is aluminum that is in the profile"
+" of a C. (It is also sometimes called U-Channel.) Channel, along with "
+":term:`extrusion <Extrusion>`, is the most common structural build element "
+"in FTC\\ |reg|, and is found in Tetrix, REV, Actobotics, and goBILDA kits."
+msgstr ""
+"通道结构和 :term: `挤压结构 <Extrusion>` 是 FTC\\ |reg| 中最常见的结构构建元素，在 "
+"Tetrix、REV、Actobotics 和 goBILDA 套件中都能找到。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:11
 msgid ""
@@ -35,3 +50,407 @@ msgid ""
 msgstr ""
 "槽钢是固定间距的，这意味着预先钻好的孔将安装位置限制在有限范围内。它可用于轻松构建传动系统；但要注意，:term:`gear <Gear>` 和 "
 ":term:`chain <Chain>` 网格可能与槽钢不匹配。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A piece of tetrix channel"
+msgstr "一块四面体通道"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:16
+msgid "Extrusion"
+msgstr "挤压件"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:18
+msgid ""
+"Extrusion is aluminum shaped into slotted profiles able to accept certain "
+"types of hardware. For FTC, the most common is the 15mm extrusion, used in "
+"the REV and Misumi products. 15mm extrusion accepts M3 bolts and nuts (note "
+"that only regular M3 nuts can fit inside the slot, not :term:`locknuts "
+"<Locknut>`)."
+msgstr ""
+"挤压件是将铝材加工成开槽型材，以便安装某些类型的五金件。对于 FTC 而言，最常见的是 REV 和 Misumi 产品中使用的 15 毫米挤压型材。15"
+" 毫米挤压型材可容纳 M3 螺栓和螺母（注意，只有普通的 M3 螺母可以安装在槽内，而不是 :term:`locknuts <Locknut>`）。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:20
+msgid ""
+"Extrusion is not a fixed pitch system, allowing teams to adjust components "
+"as they wish. This makes it simple to achieve correct tension and put "
+"mechanisms where :term:`channel <Channel>` would limit mounting. The "
+"adjustability of extrusion is especially useful in precise situations, such "
+"as intake geometry. However, extra care must be taken to ensure components "
+"do not shift under load."
+msgstr ""
+"挤压不是一个固定间距的系统，团队可以根据需要调整组件。这样就可以轻松实现正确的张力，并将机械装置安装到 :term:`channel "
+"<Channel>` 会限制安装的地方。挤压的可调节性在精确情况下尤其有用，例如进气几何形状。但是，必须格外小心，以确保组件在负载下不会移动。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A piece of REV Robotics extrusion"
+msgstr "一块 REV 机器人的挤压件"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:25
+msgid "Ball Bearing"
+msgstr "球轴承"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:27
+msgid ""
+"Ball bearings refer to bearings with steel balls arranged in a circular "
+"fashion. This allows rotation of an element with less friction than a "
+"bushing, primarily because the surface area (or contact area) is much less "
+"than in a :term:`bushing <Bushing>`."
+msgstr ""
+"球轴承是指钢球呈圆形排列的轴承。与衬套相比，滚珠轴承的摩擦更小，这主要是因为表面积（或接触面积）远小于 :term:` 轴套  <Bushing>`。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:29
+msgid ""
+"Bearings are definitely recommended for drivetrain and high speed usage. "
+"Bearings are used in the Actobotics, goBILDA, and REV kits, and are commonly"
+" sold by most robotics vendors."
+msgstr "传动系统和高速运行时，建议使用轴承。Actobotics、goBILDA 和 REV 套件中都使用了轴承，而且大多数机器人供应商都有销售。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:35
+msgid "Actobotics dual ball bearing hub"
+msgstr "Actobotics 双滚珠轴承轮毂"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:36
+msgid "Servoblocks"
+msgstr "Servoblocks"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:38
+msgid ""
+"Servoblocks, sold by Servocity/Actobotics/goBILDA, are a way to mount "
+":term:`servos <Servo>` to the goBILDA and Actobotics systems. It is by far "
+"the best way to mount servos because it decreases the load on the servo "
+"spline, which is the weakest part of the servo. This is because under load, "
+"the servo spline teeth can easily become stripped, rendering the servo "
+"unusable. While Servoblocks are not cheap, they are one of the best "
+"investments for teams to pursue."
+msgstr ""
+"Servoblocks由Servocity/Actobotics/goBILDA销售，是一种将:term:` 舵机 "
+"<Servo>`安装到goBILDA和Actobotics系统的方法。这是迄今为止安装伺服器的最佳方式，因为它可以减少伺服器花键上的负荷，而花键是伺服器最薄弱的部分。这是因为在负载情况下，伺服花键齿很容易剥落，导致伺服无法使用。虽然"
+" Servoblocks 的价格并不便宜，但对于团队来说却是最好的投资之一。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "An Actobotics Servoblock"
+msgstr "Actobotics 所售的Servoblock"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "An example of a servoblock being used on a robot"
+msgstr "在机器人上使用Servoblock的示例"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:46
+msgid "10030 7 Sigma, Relic Recovery"
+msgstr "10030 7 Sigma, Relic Recovery"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:47
+msgid "Clamping Hub"
+msgstr "夹紧轮毂"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:49
+msgid ""
+"A clamping hub is used to fixate part such as :term:`sprockets <Sprocket>` "
+"or :term:`gears <Gear>` on shafts. It is also used to prevent shafts from "
+"moving laterally. Unlike shaft collars, clamping hubs use screws to apply "
+"clamping force around the entire shaft, giving a better hold. As a result, "
+"clamping hubs are recommended over shaft collars."
+msgstr ""
+"夹紧轮毂用于将 :term:`  链条  <Sprocket>` 或 :term:` 齿轮  <Gear>` "
+"等部件固定在轴上。它还用于防止轴横向移动。与轴环不同，夹紧轮毂使用螺钉对整个轴施加夹紧力，从而提供更好的固定。因此，建议使用夹紧轮毂而不是轴环。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "An Actobotics clamping hub"
+msgstr "Actobotics 所售的夹紧轮毂"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:54
+msgid "Bevel gear"
+msgstr "斜面齿轮"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:56
+msgid ""
+"Bevel gears are :term:`gears <Gear>` that transfer power along different "
+"axes, which are perpendicular to each other. Bevel gears are generally "
+"considered more inefficient than regular gears."
+msgstr "斜面齿轮是 :term:`齿轮  <Gear>` 沿相互垂直的不同轴线传递动力的齿轮。斜面齿轮通常被认为比普通齿轮效率更低。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:58
+msgid ""
+"However, bevel gears can be very useful, especially in areas of limited "
+"space where the motor can be placed perpendicular to the element it is "
+"driving, and not in the same plane."
+msgstr "不过，斜面齿轮也非常有用，尤其是在空间有限的地方，电机可以垂直于所驱动的元件，而不用在同一平面上。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "3736 Serious Business' use of bevel gears in Rover Ruckus"
+msgstr "3736 Serious Business 在 Rover Ruckus 中使用斜面齿轮"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:63
+msgid "3736 Serious Business, Rover Ruckus"
+msgstr "3736 Serious Business, Rover Ruckus"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:64
+msgid "Lead Screw"
+msgstr "丝杠"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:66
+msgid ""
+"A lead screw is very similar to a threaded rod. It is used for high load and"
+" high torque application such as hanging. However, due to the nature of the "
+"threaded rod, lead screws are generally quite slow compared to linear "
+"slides. The speed of a lead screw is determined by two factors. The first is"
+" how fast the motor outputs, and the second is the number of threads per "
+"inch (TPI)."
+msgstr ""
+"丝杠与螺纹杆非常相似。它用于高负载和高扭矩应用，如悬挂。不过，由于螺纹杆的性质，与线性滑轨相比，丝杠的速度通常很慢。丝杠的速度由两个因素决定。首先是电机的输出速度，其次是每英寸螺纹数（TPI）。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A leadscrew"
+msgstr "一个丝杠"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:71
+msgid "Shaft"
+msgstr "轴"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:73
+msgid ""
+"A shaft is a piece of shaped metal used in power transmission. Shafts are "
+"the primary method to transfer power from motor to wheel. Generally, shafts "
+"are made out of steel, so do not use a bandsaw to cut a shaft. Rather, use a"
+" hacksaw, as hacksaw blades can cut through steel. There are different kinds"
+" of bores in FTC, which are listed below."
+msgstr ""
+"轴是一种用于动力传输的异形金属。轴是将动力从电机传递到车轮的主要方法。一般来说，轴是由钢制成的，因此不要使用带锯来切割轴。相反，应使用钢锯，因为钢锯条可以切割钢材。FTC"
+" 有不同种类的镗孔，具体如下。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:75
+msgid "Round shaft"
+msgstr "圆轴"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:76
+msgid "D-shaft: has a flat part for set screws, otherwise round"
+msgstr "D 型轴：扁平部分用于固定螺钉，其他地方为圆形"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:77
+msgid "Hex shaft: six sided shaft"
+msgstr "六角轴：六面轴"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:78
+msgid ""
+"Rounded Hex shaft: hex shaft that's been rounded so that it can run in round"
+" bearings"
+msgstr "圆角六角轴：圆角六角轴，可在圆形轴承中运行"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:79
+msgid "Keyed shaft: round shaft which has a keyway (a slot) through the shaft"
+msgstr "带键轴：轴上有键槽（槽）的圆轴"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:80
+msgid "Locknut"
+msgstr "防松螺母"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:82
+msgid ""
+"A locknut is a nut that resists vibration by the nyloc inside. Nyloc is a "
+"type of plastic that holds the bolt securely on to the nut when it is "
+"screwed in. It is advised that teams purchase locknuts instead of regular "
+"nuts as FTC mechanisms often become loose over time."
+msgstr ""
+"防松螺母是一种通过内部的尼龙锁扣来防止振动的螺母。Nyloc 是一种塑料，拧入螺母后可将螺栓牢牢固定在螺母上。建议车队购买防松螺母，而不是普通螺母，因为"
+" FTC 的机械经常会随着时间的推移而松动。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:83
+msgid "Bushing"
+msgstr "轴套"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:85
+msgid ""
+"A bushing is primarily mounted on the outside of a :term:`shaft <Shaft>`. It"
+" rotates in a pillow block, which holds the bushing. Generally, both are "
+"made out of a low-friction material such as Delrin or bronze."
+msgstr ""
+"轴套主要安装在 :term:` 轴  <Shaft>` 的外部。它在固定衬套的枕块中旋转。一般来说，两者都由低摩擦材料制成，如 Delrin "
+"（美国杜邦公司开发的聚甲醛均聚物金属）或青铜。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:87
+msgid ""
+"Bushings are less efficient than :term:`ball bearings <Ball Bearing>` "
+"because they have a larger surface of contact, but are acceptable for low-"
+"load situations or low-budget teams."
+msgstr ""
+"轴套的效率低于 :term:` 滚珠轴承  <Ball Bearing>`，因为它们的接触面较大，但对于低负荷情况或低预算团队来说是可以接受的。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A REV Robotics bushing"
+msgstr "一个 REV 机器人轴套"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:93
+msgid "REV Bushing"
+msgstr "REV 轴套"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A REV Robotics pillow block"
+msgstr "一个 REV 机器人枕块"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:99
+msgid "REV Pillow Block"
+msgstr "REV 枕块"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:100
+msgid "Churro"
+msgstr "Churro 六角轴（Churro 意即西班牙油条，描述产品形态）"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:102
+msgid ""
+"Churro is a 1/2\" or 3/8\" hex product sold by AndyMark. It has a bore that "
+"is easily tapped to accommodate 1/4-20 and 1/4-28 bolts, and is commonly "
+"used as a large :term:`standoff <Standoff>`. It is light and cheap compared "
+"to other hex products."
+msgstr ""
+"Churro 是 AndyMark 销售的一种 1/2\" 或 3/8\" 六角产品。它的内孔易于攻丝，可安装 1/4-20 和 1/4-28 "
+"螺栓，通常用作大型 :term:`standoff <Standoff>`。与其他六角产品相比，它重量轻，价格便宜。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:104
+msgid ""
+"Using churro as :term:`shaft <Shaft>` is highly discouraged, as it is "
+"slightly undersized as well as prone to twisting."
+msgstr "非常不建议使用 Churro 作为 :term:` 轴  <Shaft>`，因为它的尺寸略小，而且容易扭曲。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A piece of churro"
+msgstr "一个 Churro 六角轴"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:109
+msgid "Set Screw"
+msgstr "固定螺钉"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:111
+msgid ""
+"A set screw is generally a hex socket screw that is used to fasten parts "
+"such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` to a "
+":term:`shaft <Shaft>`, or to fix a shaft in place so that it doesn't move "
+"around. Due to the hex socket, allen keys must be used to tighten and loosen"
+" set screws."
+msgstr ""
+"固定螺钉通常是内六角螺钉，用于将 :term:`SProckets <Sprocket>` 或 :term:`gears <Gear>` 等部件紧固到 "
+":term:`shaft <Shaft>` 上，或将轴固定到位，使其不会移动。由于使用六角套筒，必须使用内六角扳手来拧紧和拧松固定螺钉。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:113
+msgid ""
+"**Set screws are not recommended for drivetrain and high-load applications**"
+" since there is very little surface area in contact with the shaft (only the"
+" tip of the screw). This makes the set screw likely to damage the shaft. "
+"Therefore, set screws can become loose very easily."
+msgstr ""
+"**不建议在传动系统和高负荷应用中使用固定螺钉**，因为与轴接触的表面积很小（只有螺钉顶端）。这使得固定螺钉很容易损坏轴。因此，固定螺钉很容易松动。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:115
+msgid ""
+"If set screws must be used, then it is imperative to use :term:`Loctite` to "
+"reduce the chance of them shaking loose."
+msgstr "如果必须使用固定螺钉，则必须使用 :term:`Loctite` 以减少螺钉松动的机会。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:117
+msgid ""
+":term:`Clamping hubs <Clamping Hub>` are much preferred to set screws, as "
+"clamping hubs apply pressure to the whole diameter of the shaft, as opposed "
+"to just one point."
+msgstr ""
+":term:`Clamping hubs <Clamping Hub>` "
+"比起固定螺钉，夹紧轮毂更为可取，因为夹紧轮毂会对轴的整个直径施加压力，而不是只对一点施加压力。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A set screw"
+msgstr "一个固定螺钉"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:122
+msgid "Shaft Collar"
+msgstr "轴环"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:124
+msgid ""
+"A shaft collar, which has a :term:`set screw <Set Screw>`, is fitted on to a"
+" shaft in order to secure parts."
+msgstr "配备有 :term:` 固定螺钉 <Set Screw>` 的轴环可被安装在轴上以固定零件。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A shaft collar"
+msgstr "一个轴环"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:129
+msgid "Bore"
+msgstr "孔"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:131
+msgid ""
+"The bore refers to the shape of the opening that the shaft is inserted into."
+" For example, the bore for a 5 mm hex :term:`shaft <Shaft>` is the hexagonal"
+" shape."
+msgstr "孔是指轴插入开口的形状。例如，5 毫米六角 :term:`shaft <Shaft>` 的孔为六角形。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:133
+msgid ""
+"\"Stripping the bore\" means that over time, the bore will lose its "
+"hexagonal shape, and become close to a circular shape, rendering the bore "
+"(and subsequently, the part it is on) useless."
+msgstr "\"剥离内孔 \"是指随着时间的推移，内孔将失去六角形，变得接近圆形，从而使内孔（以及其上的部件）失去作用。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A bearing with a hex bore"
+msgstr "六角孔轴承"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:138
+msgid "Clamp Mounting"
+msgstr "夹具安装"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:140
+msgid ""
+"Clamp mounting refers to securing a motor primarily by using friction "
+"instead of screws attached to the motor itself. This is generally "
+"discouraged as the motor can become loosened over time."
+msgstr "夹钳安装是指主要通过摩擦力而不是电机本身的螺钉来固定电机。一般不鼓励采用这种方法，因为电机会随着时间的推移而松动。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:142
+msgid ""
+"Use friction tape around the surface of the motor that is clamped down so "
+"that it will have less chance of moving around."
+msgstr "在夹紧的电机表面使用摩擦胶带，以减少电机移动的机会。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A TETRIX v1 motor attached with a TETRIX Clamp Mount"
+msgstr "安装有 TETRIX 夹具的 TETRIX v1 电机"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:148
+msgid "TETRIX clamp mount and v1 motor"
+msgstr "TETRIX 夹具支架和 v1 电机"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:149
+msgid "Face Mounting"
+msgstr "面安装"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:151
+msgid ""
+"Face mounting refers to mounting the motor by affixing the motor directly to"
+" the mount using bolts. This is the preferable way of mounting the motor "
+"(compared to :term:`clamp mounting <Clamp Mounting>`) because it is less "
+"likely to loosen over time, especially with the use of :term:`Loctite` on "
+"the bolts."
+msgstr ""
+"端面安装是指使用螺栓将电机直接固定在支架上。与 :term:` 夹具式安装  <Clamp Mounting>` "
+"相比，这是一种较好的电机安装方式，因为随着时间的推移，尤其是在螺栓上使用 :term:` 乐泰胶水 ` 后，松动的可能性较小。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:153
+msgid "It is advisable that 4-6 bolts be used to face mount for redundancy."
+msgstr "建议使用 4-6 个螺栓进行端面安装，以保证冗余。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:155
+msgid ""
+"Additionally, there is no way that the motor might rotate and cause a loss "
+"of tension in :term:`belts <Timing Belt>` or :term:`chain <Chain>`."
+msgstr ""
+"此外，电机不可能旋转并导致 :term:`belts <Timing Belt>` 或 :term:`chain <Chain>` 失去张力。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+msgid "A REV Robotics v2 motor facemounted to a plate"
+msgstr "安装在平板上的 REV Robotics v2 电机"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:162
+msgid "REV v2 Motor Facemounted"
+msgstr "REV v2 面装式电机"

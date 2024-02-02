@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# wwsk2008sq, 2023
 # Shawphy, 2023
+# wwsk2008sq, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-02 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: wwsk2008sq, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,13 +22,563 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:4
+msgid "Rigging"
+msgstr "传动结构"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:6
+msgid ""
+"Rigging refers to the way that string, belt, or chain is set up to extend "
+"and retract a linear extension. This is an important and time-consuming "
+"requirement for any team that uses linear extension, so be sure to spend "
+"adequate time on it."
+msgstr ""
+"传动结构是指通过设置线缆、皮带或链条来伸展和缩回线缆性延伸器的一种结构设计方式。对于任何使用线缆性延伸器的团队来说，这是一项重要且耗时的要求，因此一定要花足够的时间来完成。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:12
+msgid "The rigging for 7236's elevator in Rover Ruckus"
+msgstr "Rover Ruckus项目中， 7236 队伍设计的升降器的传动结构"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:12
+msgid ""
+"Example rigging setup from team 7236 Recharged Green. This setup utilizes a "
+"continuous stringing setup for the first stage and a cascaded belt-driven "
+"second stage."
+msgstr "来自 7236 Recharged Green 参赛队伍的传动结构安装示例。该装置的第一级采用连续串接装置，第二级采用级联皮带驱动装置。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:17
+msgid "General Rigging Tips"
+msgstr "基本传动结构技巧"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:19
+msgid ""
+"Rig your extension string when the extension is retracted, and your retract "
+"string when the extension is at maximum extension"
+msgstr "在加长杆缩回时绑好加长杆绳，在加长杆处于最大加长状态时绑好缩回绳"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:20
+msgid ""
+"Clamping a string with a bolt instead of tying it around something makes it "
+"much easier to quickly change the tension of a string"
+msgstr "用螺栓夹住绳子，而不是把它绑在你的其他架构上，这样可以更容易地快速改变绳子的张力"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:21
+msgid ""
+"If tying an abrasive material string, like kevlar, around a plastic part, "
+"you can tie the string around a washer to distribute the loads across the "
+"hole in the pulley instead of tying it directly into a hole in the pulley"
+msgstr ""
+"如果在塑料部件上绑上凯夫拉纤维（由其同名公司研制的一种芳纶纤维——译者注）等磨蚀性材料线缆，可以将线缆绑在垫圈上，以分散滑轮孔中的载荷，而不是直接绑在滑轮孔中。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:22
+msgid ""
+"Its generally easier to start from the side with the pulley and go to the "
+"end of the slides then the other way around"
+msgstr "一般来说，从有滑轮的一侧开始绑，到滑道的末端，然后再反过来，会更容易些。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:25
+msgid "Continuous Rigging"
+msgstr "连续传动结构"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:27
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:58
+msgid "**Generally recommended**"
+msgstr "**一般建议**"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:29
+msgid ""
+"Continuous rigging entails rigging one long **extension string**, "
+"originating from a motor-powered spool, to the top of the base stage, then "
+"to the bottom of the first stage, then to the top of the first stage, then "
+"to the bottom of the second stage, etc. A **retraction string**, originating"
+" from a second spool on the same axis as the extension spool, is then "
+"anchored to the top stage. When the motor rotates one direction, the "
+"extension spool reels in the extension string, so it becomes shorter. In "
+"doing so, the distance between the top of one stage and the bottom of the "
+"next stage decreases, causing the system to extend."
+msgstr ""
+"连续传动结构需要将一根长长的**延长绳**，从一个马达驱动的线轴上拉出，拉到基础平台的顶部，然后拉到第一级平台的底部，再拉到第一级平台的顶部，然后拉到第二级平台的底部，等等。然后，从与延伸线轴处于同一轴线缆上的第二个线轴上引出的**收缩绳**被固定在顶级上。当电机向一个方向旋转时，延长线缆卷轴将延长线缆卷入，使其变短。这样，一级顶端与下一级底端之间的距离就会减小，从而使系统延伸。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:31
+msgid ""
+"The last stage always extends and retracts before the other stages (this can"
+" be either an advantage or a disadvantage, depending on the application)."
+msgstr "最后一级总是先于其他各级伸出和缩回（取决于应用情况不同，这可能带来优势，也可能带来劣势）。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:33
+msgid ""
+"Once the last stage hits its limit, the next to last stage extends outwards,"
+" and so on; the pattern repeats until every stage is fully extended. When "
+"the motor spins **in the opposite direction**, the retraction string is "
+"reeled in, pulling the top stage closer to its starting position until the "
+"system is back where it started. For the retraction string, it is often "
+"necessary to add an extra pulley near the back of the extension. This is "
+"because the retraction will only retract to the farthest point, which "
+"generally is the spool. However, the spool may not be mounted at the very "
+"back of the robot - thus an extra pulley is needed. Note that for this to "
+"work, the extension string should be wrapped around the spool in the "
+"opposite direction of the retraction string. Thus, if the extension is "
+"wrapped clockwise, the retraction must be wrapped counterclockwise."
+msgstr ""
+"一旦上一级达到极限，紧接着的下一级就会向外伸展，依此类推；这种模式不断重复，直到每一级都完全伸展为止。当电机**反向**旋转时，缩回绳被卷入，将顶级拉近其起始位置，直到系统回到起始位置。对于缩回绳，通常需要在伸展器后部附近增加一个额外的滑轮。这是因为缩回装置只能缩回到最远点，通常就是线轴。不过，线轴可能不会安装在机器人的最里面，因此需要额外的滑轮。需要注意的是，要想实现这一功能，延长线缆应绕在线轴上，方向与回缩线缆相反。因此，如果延长线缆按顺时针方向缠绕，则缩回线缆必须按逆时针方向缠绕。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:35
+msgid ""
+"Here are some additional considerations when rigging a continuous system."
+msgstr "以下是在装配连续系统时的一些额外注意事项。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:37
+msgid ""
+"As a general rule, continuous spools can be powered by a system with a "
+"relatively low gear ratio."
+msgstr "一般来说，连续线轴可由齿轮比相对较低的系统提供动力。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:39
+msgid ""
+"The extension string and retraction string **do not need to be separate "
+"strings, but it is much easier to tension the system if they are separate**."
+msgstr "拉伸绳和回缩绳**不需要分开，但如果分开，张紧这个架构会容易得多。**"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:41
+msgid "The extension spool and retraction spool should be the same diameter."
+msgstr "延伸线轴和缩回线轴的直径应相同。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:42
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:144
+msgid ""
+"You need to make sure, as with any time you work with strings and pulleys, "
+"that you are pulling the string straight. Any amount of misalignment can "
+"lead to the string coming off of your pulley."
+msgstr "与任何时候使用绳缆和滑轮一样，您需要确保您拉动的绳缆是直的。任何偏差都可能导致绳子从滑轮上脱落。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:44
+msgid ""
+"The width and diameter of your spool should be enough such that once fully "
+"wounded, your string never overlaps. The reason for this is because when the"
+" string starts to overlap, this can change the diameter of your spool, "
+"causing the tension in the string to change."
+msgstr "线轴的宽度和直径应足够大，这样一旦完全缠绕，线缆就不会重叠。这是因为当线缆开始重叠时，会改变线轴的直径，从而导致线缆的张力发生变化。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:53
+msgid "A diagram of continuous rigging"
+msgstr "一个连续传动结构的示意图"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:53
+msgid "Continuous rigging diagram"
+msgstr "连续传动结构图"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:56
+msgid "Cascade Rigging"
+msgstr "层叠式传动"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:60
+msgid ""
+"Cascade rigging is a bit more complicated than continuous rigging. Much like"
+" continuous rigging, an extension string originating from a spool is rigged "
+"to the top of the base, running down to the bottom of the first stage. "
+"However, instead of being rigged to the top of the stage, the extension "
+"string is anchored to the bottom of the first stage. A second extension "
+"string, anchored to the top of the base, is rigged to the top of the first "
+"stage and anchored at the bottom of the second stage. The pattern continues "
+"until all stages have been rigged."
+msgstr ""
+"层叠式传动结构比连续传动结构复杂一些。与连续式传动结构类似，从线轴开始的延伸线缆被固定在底座的顶部，然后向下延伸至第一级的底部。不过，延伸绳并不是固定在平台顶部，而是锚定在第一级的底部。锚定在底座顶部的第二根延伸线缆被固定在第一级的顶部，并锚定在第二级的底部。这种模式一直持续到所有阶段都安装完毕。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:62
+msgid ""
+"The number of strings required to extend is equal to the number of stages in"
+" the system."
+msgstr "扩展所需的联结数量等于系统中的级数。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:64
+msgid ""
+"When the motor rotates one direction, the extension spool reels in the first"
+" string, decreasing the distance between the base and the bottom of the "
+"first stage. This pushes the second string forward, decreasing the distance "
+"between the top of the first stage and the bottom of the second stage, and "
+"so on. Note that unlike continuous rigging, **every stage moves at the same "
+"time**. The second stage moves 2 times as fast as the first stage relative "
+"to the base, the third 3 times as fast, and so on."
+msgstr ""
+"当电机朝一个方向旋转时，延伸线轴卷入第一根线缆，减小第一级底座和底部之间的距离。这将推动第二根绳向前，减小第一级顶部和第二级底部之间的距离，依此类推。请注意，与连续索具不同的是，**每个级都同时移动**。第二级相对于底座的移动速度是第一级的"
+" 2 倍，第三级是第一级的 3 倍，以此类推。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:66
+msgid ""
+"A cascaded system can be retracted in three ways: using continuous "
+"retraction, elastic retraction, or reverse-cascade retraction."
+msgstr "建造成层叠式的传动系统可以通过三种方式缩回：连续缩回、弹性缩回或逆向层叠式缩回。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:71
+msgid "A diagram of cascade rigging"
+msgstr "一张层叠式传动的示意图"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:71
+msgid "Cascade rigging diagram"
+msgstr "层叠式传动结构的图片"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:74
+msgid "Retraction Options"
+msgstr "回缩选项"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:77
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:86
+msgid "Continuous Retraction"
+msgstr "连续回缩"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:79
+msgid ""
+"As the name suggests, continuous retraction utilizes inverted continuous "
+"rigging to retract the slides. There are two main methods of doing this, "
+"**free floating retraction** where a string is run from the last stage "
+"directly back to the spool, and **with slide retraction** where the string "
+"is run in an inverse continuous pattern. Generally, **with slide "
+"retraction** should be used with extensions going outside the robot frame to"
+" prevent entanglement, and **free floating retraction** should only be used "
+"with purely vertical slides."
+msgstr ""
+"顾名思义，连续缩回利用倒置的连续索具来缩回滑轨。主要有两种方法：**自由浮动回缩**，即绳子从最后一级直接回到线轴；**滑块附带回缩**，即绳子以反连续模式运行。一般来说，**滑块附带回缩**应与机器人框架外的延伸部分一起使用，以防止缠绕，而**自由浮动回缩**只能与纯垂直滑块一起使用。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:81
+msgid ""
+"If continuous retraction is being used with cascade extension, the two "
+"spools cannot be the same diameter. If the variable :math:`N` is the number "
+"of stages in the system, the diameter of the cascade extension spool must be"
+" :math:`N` **times smaller** than the continuous retraction spool."
+msgstr ""
+"如果连续缩回与级联延伸同时使用，则两个线轴的直径不能相同。如果变量 :math:`N` 是系统中的级数，则级联延伸线轴的直径必须 :math:`N` "
+"比连续缩回线轴小 ** 倍。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:86
+msgid "A diagram of continuous retraction"
+msgstr "连续回缩示意图"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:88
+msgid ""
+"If free floating retraction is used, **make sure your retract string is "
+"always parallel to the slides**. If the string is misaligned, it can pull on"
+" your slide and cause excess bending forces on the stages."
+msgstr "如果使用自由浮动缩放，**确保缩放绳始终与滑台平行**。如果线缆错位，就会拉扯滑块，导致平台产生过大的弯曲力。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:90
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:104
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:122
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:244
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:266
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:292
+msgid "Advantages:"
+msgstr "优点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:92
+msgid "Simplest retraction rigging"
+msgstr "缩回装置的结构最简单"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:94
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:109
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:127
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:250
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:271
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:297
+msgid "Disadvantages:"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:96
+msgid "Can become tangled if free floating"
+msgstr "如果自由漂浮，可能会缠结在一起"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:97
+msgid "Requires different sized spools if used with cascade retraction"
+msgstr "如果与层叠式缩回装置一起使用，则需要不同尺寸的线轴"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:100
+msgid "Elastic Retraction"
+msgstr "弹性回缩"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:102
+msgid ""
+"Instead of retracting using a retraction spool, one common way to retract is"
+" to attach a piece of elastic (commonly surgical tubing) to the last stage. "
+"The elastic applies a force on the last stage that is counteracted by the "
+"motor when extending. However, when retracting, the motor reels the last "
+"slide back in. While this is the retraction method recommended by many kit "
+"slide manuals, this method is not recommended."
+msgstr ""
+"一种常见的缩回方法是在最后一级上连接一段弹性材料（通常是手术用管），而不是使用缩回线轴。伸展时，松紧带对最后一级施加的力被电机抵消。不过，在缩回时，马达会将最后一个滑块卷回。虽然这是许多套件幻灯片手册推荐的缩回方法，但并不推荐使用这种方法。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:106
+msgid ""
+"There is only one string to tension, instead of multiple, so tensioning is "
+"simpler."
+msgstr "只有一根线缆需要张紧，而不是多根，因此张紧更简单。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:107
+msgid "The elastic automatically tensions the extension string."
+msgstr "松紧带会自动拉紧延长线缆。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:111
+msgid ""
+"Since the elastic applies a force to the slide at all times, this force "
+"opposes the force applied by the motor when extending the slides. **Thus, "
+"elastic retraction decreases extension speed considerably**."
+msgstr "由于弹性体在任何时候都会对滑块施加一个力，这个力与马达在拉伸滑块时施加的力相反。**因此，弹性回缩会大大降低伸出速度**。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:112
+msgid ""
+"The elastic does not apply a constant force at all times. It applies force "
+"proportional to the amount that the slide is extended, so retraction may not"
+" be smooth and controlled, like other rigging methods."
+msgstr "松紧带不会始终施加恒定的力。它所施加的力与滑块的伸出量成正比，因此缩回时可能不像其他索具方法那样平稳可控。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:113
+msgid ""
+"It is very easy to unwind your extension spool when using elastic "
+"retraction."
+msgstr "使用弹性回缩时，很容易松开加长卷轴。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:116
+msgid "Cascade Retraction"
+msgstr "层叠式回缩"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:118
+msgid ""
+"Cascade retraction entails simply rigging another set of cascade string that"
+" can retract the system when engaged (see the image below)."
+msgstr "级联式回缩只需简单地安装另一套级联线缆，在啮合时即可缩回系统（见下图）。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:120
+msgid ""
+"If cascade retraction is being used with continuous extension, the two "
+"spools cannot be the same diameter. If the variable :math:`N` is the number "
+"of stages in the system, the diameter of the continuous extension spool must"
+" be :math:`N` **times bigger** than the cascade retraction spool."
+msgstr ""
+"如果级联缩回与连续拉伸同时使用，则两个线轴的直径不能相同。如果变量 :math:`N` 是系统中的级数，则连续拉伸线轴的直径必须 "
+"比级联缩回线轴**大:math:`N` 倍**。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:124
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
+msgid "Very space-efficient"
+msgstr "非常节省空间"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:125
+msgid "All stages retract at the same speed at the same time"
+msgstr "所有阶段同时以相同速度缩回"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:129
+msgid ""
+"Requires more string (less strings to tension, less strings that can become "
+"loose)"
+msgstr "需要更多线缆（需要张紧的线缆更少，可能松动的线缆更少）。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:130
+msgid "Requires different sized spools if used with cascade extension"
+msgstr "如果与层叠式延长线一起使用，则需要不同尺寸的线轴"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:136
+msgid "A diagram of cascade retraction"
+msgstr "层叠式回缩示意图"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:136
+msgid "Cascade retraction"
+msgstr "层叠式回缩"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:138
+msgid "Additional Considerations:"
+msgstr "其他需考虑因素："
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:140
+msgid ""
+"If the system has only one stage, cascade rigging is **identical to "
+"continuous rigging**"
+msgstr "如果系统只有一个阶，则级联索具**与连续索具**相同。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:141
+msgid ""
+"Unlike continuous rigging, each time a new stage is added to a cascaded "
+"system, the gear ratio required to maintain the same extension speed "
+"increases. For instance, if 2 stages are added to a 1 stage cascaded lift "
+"that is geared at a ratio of 3:1, the ratio must increase by a factor of "
+":math:`\\frac{2+1}{1}` to maintain the same speed, changing the ratio to "
+"9:1."
+msgstr ""
+"与连续式索具不同的是，层叠系统每增加一级，保持相同延伸速度所需的齿轮比就会增加。例如，如果在齿轮比为 3:1 "
+"的一级级联移位机上增加两级，则齿轮比必须增加:math:`frac{2+1}{1}`的系数才能保持相同的速度，即齿轮比变为 9:1。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:142
+msgid ""
+"One disadvantage of cascade rigging is that each string must be kept "
+"tensioned. This is still the case with continuous rigging, but you have many"
+" more strings to keep track of, as tension must be maintained on all of "
+"them."
+msgstr "层叠索具的一个缺点是必须保持每根线缆的张力。连续式索具虽然也是如此，但需要跟踪的线缆更多，因为必须保持所有线缆的张力。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:147
+msgid "Belt-driven slides"
+msgstr "皮带驱动滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:149
+msgid ""
+"One increasingly popular alternative to traditional string-based rigging is "
+"belt-driven slides. This can be done continuously or using cascade rigging."
+msgstr "除传统的线缆索具外，皮带驱动滑轨也越来越受欢迎。这种方式可以使用连续结构，也可以使用层叠结构。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:152
+msgid "Advantages over string"
+msgstr "与线缆相比的优点"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:154
+msgid ""
+"Unlike string, belts used on slides never need to be tensioned. As discussed"
+" in the linear motion section, in order for string-driven slides to remain "
+"efficient, string tension must be maintained. Naturally, string loosens over"
+" time, so you either need a mechanism that can provide extra tension (a "
+"spring) or manually tighten string, which can get a bit tedious (especially "
+"for cascade rigging)."
+msgstr ""
+"与线缆不同，滑轨上使用的皮带无需张紧。正如线缆性运动部分所讨论的，为了让线缆驱动的滑轨保持高效，必须保持线缆的张力。随着时间的推移，线缆自然会松弛，因此您要么需要一个能提供额外张力的装置（弹簧），要么需要手动拉紧线缆，这可能会有点繁琐（尤其是在级联索具上）。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:156
+msgid ""
+"However, belts do not have this issue. They tend not to stretch over time, "
+"meaning complex external tensioners are rarely needed. Belts are also on an "
+"automatic one to one loop, meaning that for every inch you pull in on the "
+"extension side, you always feed back out that inch on the retraction side, "
+"and vise versa. While this might not seem like a big deal, if a string winds"
+" itself up on a spool and overlaps at any point, the diameter of the spool "
+"changes, making the two spools out of sync."
+msgstr ""
+"然而，皮带却没有这个问题。它们往往不会随着时间的推移而拉伸，这意味着很少需要复杂的外部张紧器。皮带也是一对一自动循环的，这意味着在拉伸侧每拉进一英寸，就会在缩回侧拉出一英寸，反之亦然。虽然这看起来不是什么大问题，但如果绳子在线轴上缠绕，并在任何一点上重叠，线轴的直径就会发生变化，从而使两个线轴不同步。"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:159
 msgid "Disadvantages over string"
 msgstr "与线缆相比的缺点"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
+msgid ""
+"The main disadvantage of belt-driven slides is the amount of space they take"
+" up. Simply put, belt pulleys take up much more room than the 4mm thick, "
+"12mm diameter pulley bearings REV sells. When using belt-driven slides, "
+"pulleys are at least double that thickness and have a considerably larger "
+"diameter, meaning each stage must be thicker."
+msgstr ""
+"皮带驱动滑轨的主要缺点是占用空间大。简而言之，皮带轮比 REV 出售的厚度为 4 毫米、直径为 12 "
+"毫米的皮带轮轴承占用的空间要大得多。使用皮带驱动滑轨时，滑轮的厚度至少是皮带驱动滑轨的两倍，直径也大得多，这意味着每个阶段都必须加厚。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:166
+msgid "7236's Rover Ruckus' robot's belt rigging"
+msgstr "7236 的 Rover Ruckus 机器人的皮带传动装置"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:166
+msgid "7236 Recharged Green, Rover Ruckus, **continuous** rig"
+msgstr "7236 Recharged Green，Rover Ruckus， **连续** 钻机"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:171
+msgid "11190's Relic Recovery robot's belt rigging"
+msgstr "11190 队伍在Relic Recovery任务中机器人的皮带传动装置"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:171
+msgid "11190 Mechadojos, Relic Recovery, continuous belt rig"
+msgstr "11190 Mechadojos，Relic Recovery，连续带式钻机"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:176
+msgid "5064's cascading belt rigging diagram"
+msgstr "5064 的级联皮带传动装置图"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:176
+msgid ""
+"5064 Aperture Science Rover Ruckus **cascade** belt-driven proof of concept "
+"drawing"
+msgstr "5064 光圈科学漫游车 Ruckus **级联**皮带驱动概念验证图"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
 msgid "5064's cascading belt rigging"
 msgstr "5064 队伍级联皮带传动装置"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
+msgid ""
+"5064 Aperture Science Rover Ruckus **cascade** belt-driven final version"
+msgstr "5064 光圈科学漫游车 Ruckus **级联**皮带驱动最终版"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:184
+msgid "Belt or chain driven elevators"
+msgstr "皮带或链条驱动升降机"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:186
+msgid ""
+"Almost ubiquitous in FRC\\ |reg|, belt and chain elevators have existed "
+"seemingly forever. The basic premise is to have sprockets or pulleys mounted"
+" at the top and bottom of the elevator to the robot superstructure. Then, "
+"the belt or chain is hard bolted to the elevator near the bottom sprocket or"
+" pulley. When the chain or belt is driven, the elevator will move up and "
+"down. It is possible for elevators to have multi stage designs, but powering"
+" them will be more complex."
+msgstr ""
+"皮带和链条升降机在 FRC |reg | "
+"中几乎无处不在，似乎一直存在。其基本前提是在升降器的顶部和底部安装链轮或滑轮，将其固定在机器人上部结构上。然后，用硬螺栓将皮带或链条固定在靠近底部链轮或滑轮的升降器上。当链条或皮带被驱动时，升降器将上下移动。升降器可以采用多级设计，但其动力装置将更为复杂。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:191
+msgid "7236's belt driven elevator"
+msgstr "7236 队伍设计的皮带传动升降机"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:191
+msgid "7236 Recharged Green, Rover Ruckus"
+msgstr "7236 Recharged Green, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:194
+msgid "Tensioners"
+msgstr "拉伸器"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:196
+msgid ""
+"Tensioning string is one of the most painstaking tasks for a builder in FTC."
+" Ensuring that both sets of slides are tensioned evenly can be an arduous "
+"and annoying job. However, adding tensioners to your strings can help solve "
+"the uneven tension and ensure that both sides of slides run together. The "
+"most common type of tensioner is a spring that can be purchased at a "
+"hardware store. It generally will be placed at the end of the string run, "
+"near the part that extends farthest out from the robot's center. By doing "
+"so, the string will stretch out when the spool extends the arm, keeping "
+"tension so that the string does not detach from the pulleys in the linear "
+"slide extension."
+msgstr ""
+"张紧线缆是 FTC "
+"建筑工人最辛苦的工作之一。确保两组滑轨张力均匀是一项艰巨而恼人的工作。不过，在线缆上安装张紧器可以帮助解决张力不均的问题，并确保两边的滑轨一起运行。最常见的张力器是一个弹簧，可以在五金店买到。一般来说，它会被放置在线缆的末端，靠近从机器人中心向外延伸最远的部分。这样，当线轴伸出机械臂时，线缆绳就会伸展开来，保持张力，从而避免线缆绳从线缆性滑轨延伸部分的滑轮上脱落。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:198
+msgid ""
+"Another form of tensioner can be a spring-loaded pulley. Since the pulley is"
+" spring-loaded, it will take up the slack in the string. Alternatively, it "
+"is possible to mount a pulley on a piece of extrusion, and slide it so the "
+"string is taut."
+msgstr "另一种张紧器是弹簧滑轮。由于滑轮是弹簧加载的，因此它可以承受绳子的松弛。另外，也可以将滑轮安装在一块挤压件上，然后滑动滑轮使绳子绷紧。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:200
+msgid ""
+"There are two main reasons that tensioners are highly recommended in string "
+"based linear slides, the first and oftentimes more important one, is that at"
+" its core, a run of string is a series of polygons, and as the slide extends"
+" the effective size of that polygon changes. Meaning that when fully "
+"extended, your slide may require more or less string compared to when "
+"halfway extended. Or partially extended. The closer each set of bearings "
+"are, the less this impracts string tension."
+msgstr ""
+"在基于线缆性滑轨的线缆中强烈推荐使用拉伸器有两个主要原因，第一个也是通常更重要的一个原因是，线缆的核心是一系列多边形，随着滑轨的延伸，多边形的有效尺寸也会发生变化。这意味着，当滑轨完全伸展时，与半伸展时相比，可能需要更多或更少的线缆。或部分伸展时。每组轴承的距离越近，对线缆张力的影响就越小。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:202
+msgid ""
+"Another (but less impactful) thing to keep in mind that spool size changes "
+"as string is added/removed from the spool. If the spool radius increases, "
+"the speed of the extension will also increase, and torque, which opposes "
+"speed, will decrease. Consequently, tension will change as well. Therefore, "
+"a bit of slack is inherent in all linear extension designs using string."
+msgstr ""
+"另一个（但影响较小）需要注意的问题是，线轴的尺寸会随着线缆绳从线轴上添加/移除而发生变化。如果线轴半径增大，延伸的速度也会增大，而与速度相反的扭矩会减小。因此，张力也会发生变化。因此，在所有使用线缆绳的线缆性延伸设计中，都会存在一定的松弛。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:204
+msgid ""
+"It is highly encouraged that teams have at least one spring tensioner per "
+"linear slide set."
+msgstr "强烈建议参赛队为每套线性滑块至少配备一个弹簧拉伸器。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
 msgid "An image of 13075 linear slides"
@@ -36,11 +586,104 @@ msgstr "13075 队伍制作线性滑轨的图像"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
 msgid "An image of 13075 linear slide's string tensioner"
-msgstr "13075 线性滑轨线缆张紧器的图像"
+msgstr "13075 线缆性滑轨线缆张紧器的图像"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
+msgid "13075 Coram Deo Robotics, Rover Ruckus, string tensioner"
+msgstr "13075 Coram Deo Robotics、Rover Ruckus、线缆张紧器"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:215
+msgid "Picking the right spool size"
+msgstr "选择合适的线轴尺寸"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:217
+msgid ""
+"Spools have a special property that isn't often discussed, but is extremely "
+"useful when creating linear slide systems. Just as the system's speed and "
+"torque can be changed by changing its gear ratio, speed and torque can also "
+"be changed by changing the spool size. The motor rotates the spool at a "
+"constant angular speed. Thus, the translational speed (the speed of the "
+"slide) is proportional to the radius of the spool, and since torque is "
+"inversely proportional to speed, changing the spool size changes torque as "
+"well."
+msgstr ""
+"线轴有一个不常被讨论的特殊属性，但在创建线性滑轨系统时却非常有用。正如系统的速度和扭矩可以通过改变齿轮比来改变一样，速度和扭矩也可以通过改变线轴尺寸来改变。电机以恒定的角速度旋转线轴。因此，平移速度（滑动速度）与转轴半径成正比，由于扭矩与速度成反比，因此改变转轴尺寸也会改变扭矩。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:219
+msgid ""
+"This is important to recognize, as changing spool size is often more "
+"convenient than changing gear ratio to get the desired combination of speed "
+"and torque. To illustrate this, say you have a linear extension system with "
+"a 3.7:1 gear ratio. You then decide that a 5:1 gear ratio would provide a "
+"more desirable combination of speed and torque than your current 3.7:1 "
+"ratio."
+msgstr ""
+"认识到这一点很重要，因为要获得所需的速度和扭矩组合，改变线轴尺寸往往比改变齿轮比更方便。例如，您有一个齿轮比为 3.7:1 的线性延伸系统。然后，您认为"
+" 5:1 的齿轮比比目前 3.7:1 的齿轮比更能提供理想的速度和扭矩组合。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:221
+msgid ""
+"In many cases, instead of swapping gearboxes, it makes more sense to swap "
+"out spools to a smaller one. If your spool is currently 2 inches, your new "
+"size should be :math:`\\frac{2*3.7}{5}` inches to achieve the same result."
+msgstr ""
+"在许多情况下，与其更换齿轮箱，不如将转轴更换为更小的转轴。如果目前的线轴是 2 英寸，那么新的线轴尺寸应该是 "
+":math:`\\frac{2*3.7}{5}` 英寸，这样才能达到相同的效果。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:223
+msgid ""
+"You also need to make sure that when fully wrapped on the spool, your cable "
+"or string doesn't overlap. Overlapping can result in a change in spool "
+"diameter, which will change the tension in your string."
+msgstr "您还需要确保线缆或线缆完全缠绕在线轴上时不会重叠。重叠会导致线轴直径发生变化，从而改变线缆的张力。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:226
+msgid "Cable management"
+msgstr "电缆管理"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:228
+msgid ""
+"When extending outwards, wire management becomes increasingly important. "
+"Obviously, it is a necessity to use wires slightly longer than the extension"
+" length. However, it is not recommended that these wires are left "
+"unprotected, as they can get tangled or caught in the slides much more "
+"easily than with protection."
+msgstr ""
+"向外延伸时，电线管理变得越来越重要。显然，必须使用比延伸长度稍长的电线。不过，我们不建议在没有保护措施的情况下使用这些电线，因为与有保护措施的电线相比，它们更容易缠绕或卡住滑轨。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:230
+msgid ""
+"In general, teams should ensure that wires never protrude outside the "
+"structural parts of the robot, because they can get caught on other robots "
+"or game pieces. This can be accomplished by cable ties or Velcro ties, or by"
+" using acrylic plate to keep wires inside."
+msgstr ""
+"一般来说，参赛队应确保电线永远不会伸出机器人的结构部分之外，因为它们可能会被其他机器人或游戏部件卡住。为此，可以使用扎线带或尼龙搭扣带，或使用丙烯酸板将电线固定在内部。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:232
+msgid ""
+"However, for linear extensions, other forms of cable management are needed. "
+"The two types of cable management recommended are cable carrier and "
+"retractable coil cord. Refer to the :doc:`Electronics and Wiring "
+"</docs/power-and-electronics/index>` section for more information."
+msgstr ""
+"不过，对于线性延长线，还需要其他形式的线缆管理。推荐的两种电缆管理方式是电缆支架和可伸缩卷线。有关详细信息，请参阅 :doc:`电元件与线缆 "
+"</docs/power-and-electronics/index>` 部分。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:235
 msgid "Cable Carrier/Drag Chain"
 msgstr "电缆架/拖链"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:237
+msgid ""
+"Cable carrier, the standard wire management method within industry, is "
+"plastic chain links with a hollow center. Cables are placed inside the "
+"chain, allowing the system to extend indefinitely. The links are somewhat "
+"stiff yet flexible, allowing cable chain to bend when the extension is "
+"retracted and straighten when extended. They typically are stiff enough not "
+"to sag excessively when retracted."
+msgstr ""
+"电缆架是工业领域的标准电线管理方法，是一种中心中空的塑料链节。电缆放置在链条内，使系统可以无限延伸。链节有一定的硬度，但又有一定的柔韧性，使电缆链在缩回时可以弯曲，在伸出时可以拉直。它们通常具有足够的硬度，在缩回时不会过度下垂。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:239
 msgid "Here are some links to various drag chain products:"
@@ -98,6 +741,28 @@ msgid ""
 "horizontal slides and the right side of vertical slides"
 msgstr "7236 Recharged Green，Rover Ruckus：水平滑道左侧和垂直滑道右侧的电缆支架"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:262
+msgid "Retractable Coil Cord"
+msgstr "可伸缩线圈"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:264
+msgid ""
+"While not common within industry, coil cords are still very common (coil "
+"cord is a nearly ubiquitous staple of older telephones). Retractable coil "
+"cord is more flexible than cable carriers, stretching when extended."
+msgstr "虽然线圈在工业中并不常见，但仍然非常普遍（线圈线几乎是老式电话中无处不在的主要部件）。伸缩式线圈电线比电缆载体更灵活，伸展时可以拉伸。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:269
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:295
+msgid ""
+"Flexible and can usually extend to any length needed (unlike cable carriers,"
+" no new links ever need to be added)"
+msgstr "灵活，通常可延伸至所需的任何长度（与电缆支架不同，无需添加新链路）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:273
+msgid "Can get tangled more easily, as it is less stiff than drag chain"
+msgstr "由于硬度低于拖链，因此更容易缠结"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:281
 msgid "10030's robot's coil cord"
@@ -109,6 +774,65 @@ msgid ""
 "mechanism"
 msgstr "10030 7 Sigma Robotics， Relic Recovery：水平延伸装置上的线圈绳"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:284
+msgid "Self-retracting Badge Holder"
+msgstr "自动伸缩支架"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:286
+msgid ""
+"While an uncommon technique, a self-retracting ID Badge holder can help "
+"manage wiring on an extension. These are common items; `here is one from "
+"Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-"
+"Alligator/dp/B07WPRJY9K/>`_."
+msgstr ""
+"虽然这种技术并不常见，但可自动伸缩支架可以帮助管理外部连接件上的接线。这些都是常见的物品； ` "
+"这里有一个来自亚马逊的购买链接。<https://www.amazon.com/OFES-Retractable-Holder-Swivel-"
+"Alligator/dp/B07WPRJY9K/>`_。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:288
+msgid ""
+"This really only works for vertical or near-vertical slides, as there is "
+"still some sag in the cable which can easily get entangled if it extends "
+"outside of the robot frame."
+msgstr "这实际上只适用于垂直或接近垂直的滑动，因为缆线仍会有一些下垂，如果延伸到机器人框架之外，就很容易缠绕在一起。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:290
+msgid ""
+"To rig a self-retracting badge holder to a wire, mount the hard plastic part"
+" of the badge holder to the base of the slides, and mount end of the "
+"holder's string to the wire. The wires should be hard-mounted (using zip "
+"ties or whatever your team uses) towards the top of the retracted slide with"
+" plenty of slack. For best results, the badge holder should be almost "
+"completely retracted (leave a centimeter or two to allow for some slack) "
+"when the slide is retracted."
+msgstr ""
+"要将自动伸缩式证章套安装到电线缆上，可将证章套的硬塑料部分安装到滑梯底座上，然后将证章套的线缆末端安装到电线缆上。电线缆应硬性安装（使用拉链或团队使用的其他工具）到缩回滑轨的顶部，并留有足够的松弛空间。为了达到最佳效果，当滑梯缩回时，证章套应几乎完全缩回（留出一两厘米的松弛空间）。"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:294
 msgid "Extremely simple and easy to implement"
 msgstr "极其简单，易于实施"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:299
+msgid ""
+"Similar to a coil, self-retracting cable management strings can get tangled "
+"more easily, as it is less stiff than drag chain"
+msgstr "与线圈类似，自动伸缩式线缆管理绳更容易缠绕在一起，因为它没有拖链那么硬"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:300
+msgid ""
+"Does not work well on long slides (over 2 stages) without substantial "
+"engineering work"
+msgstr "在没有大量工程设计的情况下，对长滑道（超过2级）效果不佳"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:308
+msgid "248's robot's badge retractor cable management"
+msgstr "248 号队伍的机器人徽章伸缩器电缆管理"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:308
+msgid ""
+"248 Fatal Error, Freight Frenzy: Badge retractor cable management on "
+"extension mechanism"
+msgstr ""
+"248 Fatal Error, Freight Frenzy: Badge retractor cable management on "
+"extension mechanism 扩展装置上的徽章伸缩器电缆管理"
