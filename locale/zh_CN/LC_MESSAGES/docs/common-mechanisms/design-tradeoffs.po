@@ -5,17 +5,17 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-03 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,9 +63,17 @@ msgstr "提高动力和加速度"
 msgid "**Pushbot**"
 msgstr "**Pushbot**"
 
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:16
+msgid "Poor agility/manuverability"
+msgstr "灵活性/操纵性差"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:17
+msgid "Poor top speed"
+msgstr "最高速度低"
+
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:14
 msgid "**Mecanum, 6WD, etc.**"
-msgstr "**Mecanum、六轮驱动等**"
+msgstr "**麦轮、六轮驱动等**"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:16
 msgid "More agile, higher top speed"
@@ -100,8 +108,98 @@ msgid "Much more efficient"
 msgstr "效率要高得多"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:24
+msgid "**Spur gear gearboxes**"
+msgstr "**正齿轮变速箱**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:26
+msgid "Not for high load use cases"
+msgstr "不适合高负载下情况"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:27
+msgid "Will break under shock load"
+msgstr "在冲击负荷下会断裂"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:24
 msgid "**Planetary gearboxes**"
 msgstr "**行星齿轮箱**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:26
+msgid "Better for drivetrains and high load"
+msgstr "更适合传动系统和高负载情况"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:27
+msgid "Resistant to shock loads"
+msgstr "具有抗冲击的负荷能力"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:29
+msgid "**Single/multi-axis arm**"
+msgstr "**单轴/多轴机械臂**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:31
+msgid "Often needs high gear ratio"
+msgstr "通常需要较高的传动比"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:32
+msgid "More complex than linear extension"
+msgstr "比线性延伸的设计更复杂"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:29
+msgid "**Linear extension**"
+msgstr "**线性延伸**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:31
+msgid "Generally faster than arms"
+msgstr "一般比机械臂快"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:32
+msgid "Much more precise"
+msgstr "精确得多"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:37
+msgid "2 Motor Drivetrain |rarr| 4 Motor Drivetrain"
+msgstr "2 发动机传动系统 |rarr| 4 发动机传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:39
+msgid ""
+"In general, it is not recommended for teams to use 2 motors on the "
+"drivetrain, but instead use 4. This is mainly due to the added power and "
+"increased acceleration 4 motors provide."
+msgstr "一般来说，不建议车队在动力传动系统上使用 2 个电机，而是使用 4 个电机。这主要是因为 4 个电机可提供更强的动力和更快的加速度。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:41
+msgid ""
+"Typically, top speed is determined by the gear ratio and the motor "
+"specifications, not the number of motors. **However**, acceleration is "
+"affected by the number of motors, and as FTC\\ |reg| robots need to change "
+"direction and accelerate numerous times per match, slow acceleration has a "
+"significant adverse effect on the competitiveness of the robot. In addition,"
+" 2 motor robots may struggle to get over obstacles or climb up ramps, due to"
+" less power. One question that often comes up is \"don't I need more motors "
+"for other things on the robot?\" This is a valid question, but the answer is"
+" generally no. It is possible to build a competitive robot with 4 motors "
+"allocated to drivetrain, and 4 motors for other mechanisms, so there should "
+"be no reason to skimp. Do remember that the drivetrain is the foundation of "
+"the robot. Your mechanisms will not be anywhere near optimized if the "
+"drivetrain can't get your robot from A to B quickly and efficiently. There "
+"has not been a game in FTC history where the top robots needed >4 motors for"
+" the drivetrain, so this is a pretty safe rule to follow."
+msgstr ""
+"通常情况下，最高速度取决于齿轮比和电机规格，而不是电机数量。**然而**，加速度会受到电机数量的影响，由于 FTC | reg| "
+"机器人在每场比赛中需要多次改变方向和加速，因此缓慢的加速度会对机器人的竞争力产生严重的不利影响。此外，由于功率较小，2电机的机器人在越过障碍或爬上斜坡时可能会比较吃力。一个经常出现的问题是：\"难道我不需要更多的电机来做机器人上的其他事情吗？这个问题很有道理，但答案通常是否定的。我们可以用分配给传动系统的"
+" 4 个电机和用于其他机构的 4 "
+"个电机来制造一个具有竞争力的机器人，因此没有理由吝啬。请记住，传动系统是机器人的基础。如果传动系统无法让机器人快速高效地从 A 地到达 B "
+"地，那么您的机械装置就无法达到最佳状态。在 FTC 的历史上，没有一场比赛的顶尖机器人的动力与传动系统需要大于4 个电机，因此这是一条非常安全的常规。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:44
+msgid "Pushbot |rarr| Mecanum, 6WD, Other Recommended Drivetrains"
+msgstr "Pushbot |rarr| 麦轮, 6WD, 其他推荐动力传动系统"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:46
+msgid ""
+"The pushbot drivetrain, commonly built by first-year teams using the "
+"*FIRST*\\ |reg|-provided guides, is not recommended as a competitive "
+"drivetrain."
+msgstr "一年级参赛队通常使用 *FIRST*\\ |reg| 提供的指南来构建 pushbot 传动系统，但不建议将其作为竞技传动系统。"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:48
 msgid ""
@@ -113,3 +211,146 @@ msgid ""
 msgstr ""
 "我们建议购买了 Tetrix 套件的参赛队仅出于教学目的制作该套件，即使用 :term:`channel-based <Channel>` "
 "套件熟悉零件和基本制作原理。但是，由于这种推杆传动机器人存在许多缺陷，我们不建议参赛队在比赛中使用。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:50
+msgid ""
+"The pushbot is powered by 2 motors, and as stated above, there isn't a "
+"reason to stay with 2 motors on drivetrain."
+msgstr "推动系统(事实上就是后驱，两个电机集中在底盘的某一边) 由 2 个电机驱动，如上所述，没有理由在传动系统上继续使用 2 个电机。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:51
+msgid ""
+"The pushbot has poor top speed and turning ability, given that the gear "
+"ratio (40:1 on 4 inch wheels) is half the speed that many teams use."
+msgstr "由于该设计的齿轮比（4 英寸车轮的齿轮比为 40:1）是许多车队使用的速度的一半，因此采用推动后驱方案的机器人的最高速度和转弯能力都很差。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:52
+msgid "It is not advisable to use direct drive."
+msgstr "不建议使用直驱。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:54
+msgid ""
+"However, most if not all of these problems will be solved by using a four-"
+"motor drivetrain such as the ones recommended in the drivetrain guide "
+"(mecanum, 6WD, etc.). Therefore, it is recommended for teams to refer to the"
+" :doc:`drivetrain </docs/common-mechanisms/drivetrains/index>` section and "
+"see which drivetrain would fit best for their overall game strategy."
+msgstr ""
+"不过，就算不能解决所有问题，使用四电机传动系统——如传动系统指南中推荐的传动系统（麦轮、6WD 等）也能解决绝大多数问题。因此，建议参赛队参考 "
+":doc:` 驱动系统</docs/common-mechanisms/drivetrains/index>` "
+"部分，看看哪种驱动系统最适合他们的整体游戏策略。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:57
+msgid "Passive Intake/Claw |rarr| Active Intake"
+msgstr "被动吸入拾取装置/爪子 |rarr| 主动吸入拾取装置"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:59
+msgid ""
+"Active intakes (ones with continuous rotational motion) should always be "
+"prioritized over passive intakes and grippers."
+msgstr "主动吸取装置（具有连续旋转运动的进料口）的设计应始终优先于被动吸取装置和夹子/爪子。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:61
+msgid ""
+"Active intakes are much more efficient and effective in picking up common "
+"game elements such as balls, cubes, and rectangular prisms than claws. This "
+"has been a widely accepted rule; many Worlds-level robots over the years use"
+" intakes. **The exception** is that a claw should be used for irregularly "
+"shaped objects that would be impossible to control via intake; for example, "
+"the relic in Relic Recovery."
+msgstr ""
+"在拾取球、立方体和矩形棱柱等常见游戏道具方面，主动式吸取装置要比爪子/夹子更有效率和效果。这是一条广为接受的规则；多年来，许多世界级机器人都使用吸取装置。**但是有一个例外**，那就是爪子应该用于夹取不规则形状的物体，因为这些物体不可能通过吸取装置来吸取；例如，比赛《Relic"
+" Recovery》中的遗物。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:63
+msgid "Intakes have two major advantages over claws."
+msgstr "与爪子相比，主动吸取装置有两大优势。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:65
+msgid "Intakes can control multiple game elements at a time."
+msgstr "主动吸取装置可以同时控制多个像素。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:66
+msgid ""
+"Intakes are indiscriminate at picking up objects, making them much more "
+"efficient."
+msgstr "主动吸取装置在拾取物体时不加区分，因此更为高效。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:68
+msgid ""
+"Claws can only pick up one object at a time, and the driver needs to aim the"
+" claw at that specific object to grab it. With an intake, the driver does "
+"not need to focus on one game element - instead; intakes will just pick up "
+"anything in its path, if designed properly. Claws are also prone to "
+"breakage, and thus suffer to defensive robots. They are also generally more "
+"fragile than intakes. Therefore, active intakes are as a result much more "
+"efficient than claws. Nearly every competitive robot from past years has "
+"used active intakes to great effect, so there is plenty of precedent to "
+"follow."
+msgstr ""
+"爪子/夹子一次只能抓取一个物体，驾驶员需要将爪子对准特定物体才能抓取。有了主动吸取装置，驾驶员就不需要专注于一个像素--"
+"相反，如果设计得当，吸入器会直接拾取路径上的任何东西。爪子也很容易损坏，因此对防御型机器人来说很不利。爪子一般也比吸取装置更脆弱。因此，主动吸取装置的效率要比爪子高得多。过去几年中，几乎所有的竞技机器人都使用了主动吸取装置，取得了很好的效果，因此现在的比赛机器有很多先例可循。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:71
+msgid "Spur Gear Gearboxes |rarr| Planetary Gearboxes"
+msgstr "正齿轮齿轮箱 |rarr| 行星齿轮箱"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:73
+msgid ""
+"Spur gear gearboxes are fine for most applications for a rookie team. We are"
+" not advocating necessarily having to upgrade to planetary motors, but there"
+" are some advantages which may become useful in more advanced use cases such"
+" as high-load systems."
+msgstr ""
+"对于新手团队来说，正齿轮变速箱在大多数应用中都没有问题。我们并不主张一定要升级到行星式齿轮箱，但在高负荷系统等更高级的应用案例中，这些优势可能会变得非常有用。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:75
+msgid ""
+"Spur gear gearboxes have inherent disadvantages to planetary gearboxes. Spur"
+" gear gearboxes should not be used in high-load situations, primarily "
+"because the gears can strip and destroy the gearbox."
+msgstr "与行星齿轮箱相比，正齿轮齿轮箱具有固有的缺点。正齿轮变速箱不应在高负荷情况下使用，这主要是因为齿轮可能会剥离并损坏变速箱。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:77
+msgid ""
+"An example would be a drivetrain that has to change directions repeatedly "
+"and quickly. Planetary gearboxes are much better suited for drivetrain and "
+"arms, due to the configuration of the sun and planet gears. In addition, "
+"spur gear gearboxes are prone to shock loads; therefore, direct drive is not"
+" advisable on drivetrains. Refer to the :doc:`gearbox anatomy </docs/power-"
+"and-electronics/motor-guide/gearbox-anatomy>` section for more complete "
+"information on gearboxes. **This refers to using spur gear gearboxes which "
+"are attached directly to the pinion gear of the motor. It does not mean "
+"external ratios outside of the motor gearbox, which will always be in a spur"
+" gear configuration.**"
+msgstr ""
+"例如，传动系统需要反复快速地改变方向。由于太阳齿轮和行星齿轮的构造，行星齿轮变速箱更适合用于传动系统和机械臂。此外，正齿轮变速箱容易受到冲击载荷的影响，因此不建议在传动系统上使用直接驱动。有关齿轮箱的更多完整信息，请参阅"
+" :doc:` 齿轮箱内部构造详解</docs/power-and-electronics/motor-guide/gearbox-anatomy>` "
+"部分。**这是指使用直接连接到电机小齿轮上的正齿轮变速箱。这并不意味着在电机齿轮箱之外使用外部传动比，因为外部传动比始终是正齿轮配置。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:80
+msgid "Single/multi axis arm |rarr| Linear extension"
+msgstr "单轴/多轴机械臂 |rarr| 直线延伸"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:82
+msgid ""
+"Teams are generally advised to stay away from arms and move in the direction"
+" of linear slides, primarily due to the issue of complexity. This is because"
+" arms typically are less effective than linear extensions and are harder to "
+"implement properly."
+msgstr "一般建议团队尽量避免使用过机械臂设计，而改用线性延伸架构，这主要是出于复杂性的考虑。这是因为机械臂通常不如线性滑轨有效，而且更难正确实施。"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:84
+msgid ""
+"Arms require a high gear ratio, so arms must be supported extremely well to "
+"bear the torque that the motor provides. A poorly supported and/or "
+"constructed arm will cause the driver needless pain as it is exceedingly "
+"difficult to line up an arm that constantly shakes. In contrast, linear "
+"extensions do not need to worry about gear ratios and gearboxes. They can be"
+" optimized to be more efficient than arms, and typically are more precise, "
+"as linear motion is easier to control than angular motion. Another positive "
+"is that linear slides can have more extension than arms, with some reaching "
+"5+ feet in length."
+msgstr ""
+"机械臂需要很高的齿轮比，因此必须对机械臂进行很好的支撑，以承受电机提供的扭矩。支撑和/或结构不良的机械臂会给操作手带来不必要的痛苦，因为要对准不断晃动的机械臂非常困难。相比之下，线性延伸器无需担心齿轮比和齿轮箱。由于线性运动比角度运动更容易控制，因此可以对其进行优化，使其比机械臂更高效，通常也更精确。另一个优点是，线性滑轨比机械臂有更大的伸展空间，有些长度可达"
+" 5 英尺以上。"

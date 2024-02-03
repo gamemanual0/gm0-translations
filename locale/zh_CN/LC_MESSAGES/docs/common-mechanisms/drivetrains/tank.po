@@ -4,20 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# wwsk2008sq, 2023
 # guluomagongchengshi, 2023
 # 芷晗 李, 2023
 # DomnickJYH, 2023
 # Shawphy, 2023
+# wwsk2008sq, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-03 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: wwsk2008sq, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -138,7 +138,7 @@ msgstr "包含在启动器 FTC\\ |reg| 指南中的 pushbot 传动系统示例"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:42
 msgid "4 Wheel Drive"
-msgstr "4轮驱动"
+msgstr "4轮驱动（即后文所述4WD方案，WD意即“Wheel Drive”）"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:44
 msgid ""
@@ -326,13 +326,274 @@ msgstr "7209 Tech Hogs, Relic Recovery"
 msgid "10641 Atomic Gear's 4WD on a table"
 msgstr "10641 Atomic Gear的 4WD 摆放在桌上"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
+msgid "10641 Atomic Gears, Rover Ruckus"
+msgstr "10641 Atomic Gears, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:133
+msgid "6 Wheel Drive (6WD)"
+msgstr "六轮驱动（6WD）"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:135
+msgid ""
+"A 6 wheel drivetrain is a common competitive drivetrain in FTC for multiple "
+"reasons: it has fantastic traction, great turning, and by having 6 wheels, "
+"the drivetrain has more contact with the ground, helping with stability and "
+"traction. There are two main types of 6 wheel drivetrains: ones with "
+"**corner omnis** and ones with a **drop center**."
+msgstr ""
+"六轮传动系统是 FTC "
+"中常见的竞技传动系统，原因有很多：它具有出色的牵引力和转弯性能，而且由于有六个车轮，传动系统与地面的接触更多，有助于提高稳定性和牵引力。6 "
+"轮传动系统主要有两种类型：**转角全向**和**投放中心**。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:140
+msgid "**Drop Center**"
+msgstr "**投放中心**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:142
+msgid ""
+"A drop center 6WD is a 6 wheel drive with the center wheel mounted slightly "
+"below the other two wheels. The drop should be anywhere from more than "
+"1/16\" up to 1/4\". However, the recommended drop is around 1/8\". "
+"Typically, lighter robots (<25 lbs.) can have less drop, while heavier "
+"robots (>25 lbs.) perform slightly better with more than 1/8\" drop."
+msgstr ""
+"中心下沉式 6WD 方案是一种 6 轮驱动装置，其中心轮安装在略低于其他两个车轮的位置。落差应在 1/16 英寸以上至 1/4 "
+"英寸之间。不过，建议的落差约为 1/8\"。通常情况下，轻型机器人（<25 lbs.)落差更小，而重型机器人 (>25 lbs.）的性能略好于 1/8 "
+"英寸以上的落差。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:144
+msgid ""
+"The purpose of dropping the middle wheel is to ensure that only 4 wheels are"
+" in contact with the ground at all times. This is because turning with 6 "
+"wheels on the ground introduces lots of friction, making it very difficult "
+"to turn quickly. Note that the **required drop may vary depending on both "
+"field condition and weight of the overall robot**."
+msgstr ""
+"放下中间车轮的目的是确保始终只有 4 个车轮与地面接触。这是因为在 6 "
+"个轮子着地的情况下转弯会产生很大的摩擦力，很难快速转弯。请注意，**所需的落差可能因场地条件和整个机器人的重量而异**。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:146
+msgid ""
+"Turning can drastically degrade due to a difference in material underneath "
+"the field, leading to the robot sinking down further than usual."
+msgstr "由于场地下方的材料不同，机器人的转弯性能会急剧下降，导致机器人比平时下沉得更多。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:148
+msgid ""
+"**Most drop center 6 wheel drives are made using custom drivetrains** "
+"because it is difficult to get the center wheel drop using a kit based build"
+" system (a notable exception being REV-based kit drivetrains). It is "
+"possible to execute a drop center using goBILDA and Actobotics using pillow "
+"blocks, but it is a little bit more awkward. However, with the new `goBILDA "
+"drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-"
+"bearing-plate-2mm-drop-4-pack/>`_, it is straightforward to make a drop "
+"center drivetrain on goBILDA channel."
+msgstr ""
+"**大多数降心六轮驱动装置都是使用定制的传动系统**制作的，因为使用基于套件的构建系统很难实现中心轮降心（基于 REV "
+"的套件传动系统是一个显著的例外）。使用 goBILDA 和 Actobotics 的枕木块可以实现中心下降，但会比较笨拙。不过，有了新的 "
+"`goBILDA 落心轴承板 <https://www.gobilda.com/1616-series-drop-center-bearing-"
+"plate-2mm-drop-4-pack/>`_，就可以在 goBILDA 通道上直接制作落心传动系统。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:150
+msgid ""
+"6 wheel drives with corner :term:`omni wheels <Omni Wheel>` do not need to "
+"have a center drop. It attempts to solve the issue of turning by replacing "
+"the corner traction wheels with omni wheels, allowing the drivetrain to "
+"achieve better turning, albeit with slightly less traction than a center-"
+"drop. This is very easily buildable in kits, and is a great all-around "
+"drivetrain. Drop center and corner omnis can be combined for maximum turning"
+" reliability, although this comes with side effects like rocking and reduced"
+" traction."
+msgstr ""
+"带有转角 :term: ` 全向轮<Omni Wheel>` 的 6 "
+"轮驱动装置不需要中心定位装置。它试图通过用全向轮取代转角牵引轮来解决转弯问题，从而使传动系统能够实现更好的转弯，尽管牵引力略低于中心定位轮。这很容易在套件中实现，是一种出色的全能传动系统。中心下压轮和转角全向轮可以结合使用，以获得最大的转弯可靠性，不过这也会带来易摇晃和牵引力降低等副作用。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:155
+msgid "Great traction and maneuverability"
+msgstr "强大的牵引力和可操作性"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:156
+msgid "Good acceleration, can have a high top speed"
+msgstr "加速性能好，速度上限高"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:157
+msgid "Great stability under all robot weights"
+msgstr "在所有机器人重量下都具有极高的稳定性"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:158
+msgid "Able to play defense"
+msgstr "能够进行防守"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:163
+msgid ""
+"Drop-center 6WD is tricky to build with :term:`channel <Channel>` based "
+"systems, though this has been partially mitigated with the `goBILDA drop-"
+"center bearing plate <https://www.gobilda.com/1616-series-drop-center-"
+"bearing-plate-2mm-drop-4-pack/>`_"
+msgstr ""
+"使用基于 :term: ` 通道 <Channel>` 的系统制造落心式 6WD 方案十分困难，不过使用  `goBILDA 落心式轴承板 "
+"<https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-"
+"drop-4-pack/>`_可以部分缓解这一问题。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:164
+msgid "Drop-center 6WD is slightly worse at turning, but has more traction"
+msgstr "落心式 6WD 方案转弯能力稍差，但牵引力更大"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:165
+msgid "Drop-center 6WD is dependent on field conditions"
+msgstr "下降中心 6WD 方案取决于现场条件"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:166
+msgid "Corner omni 6WD has less traction"
+msgstr "使用转角全向轮的 6WD 方案的牵引力较弱"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:167
+msgid ""
+"Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish"
+msgstr "慢 :term: ` 齿轮比 <Gear Reduction>`会使 6WD 方案感觉迟钝"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "CAD Examples of Six Wheel Drive (Click to expand)"
 msgstr "六轮驱动 CAD 示例（点击展开）"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:180
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/97e67997606a54fcabd367ac>`__"
+msgstr ""
+"点击此处在 OnShape 在线 CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/97e67997606a54fcabd367ac>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:188
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/a787322363f7646a8b7cb69e>`__"
+msgstr ""
+"点击此处在 OnShape 在线 CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/a787322363f7646a8b7cb69e>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:196
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/05fbe7b65c6c4be0b0cddabb>`__"
+msgstr ""
+"点击此处在 OnShape 在线 CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/05fbe7b65c6c4be0b0cddabb>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:204
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/258524b3c7582178ba684ac5>`__"
+msgstr ""
+"点击此处在 OnShape 在线 CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/258524b3c7582178ba684ac5>"
+" 中查看此模型 `__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:209
+msgid "7236 Recharged Green's 6wd"
+msgstr "7236 Recharged Green 队伍的6WD 方案"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:209
+msgid "7236 Recharged Green, Rover Ruckus; drop center 6WD"
+msgstr "7236 Recharged Green, Rover Ruckus; 的投放中心 6WD方案"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:214
 msgid "Ethan Doak's 6wd"
 msgstr "Ethan Doak's 6wd"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:214
+msgid "Ethan Doak, goBILDA 6 wheel drive with corner omni wheels"
+msgstr "Ethan Doak，goBILDA 6 轮驱动，带转角全向车轮"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:217
+msgid "8 Wheel Drive"
+msgstr "8 轮驱动"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:219
+msgid ""
+"An 8 wheel drivetrain is less common than its 6WD counterpart, combining "
+"elements found in both 4 wheel and 6 wheel drivetrains. For example, the 6 "
+"wheel drivetrain generally will have a dropped center wheel so that the "
+"robot turns on four wheels instead of six, reducing friction and increasing "
+"turning mobility."
+msgstr ""
+"八轮传动系统不如六轮传动系统常见，它结合了四轮和六轮传动系统中的元素。例如，6 轮传动系统通常会有一个下置的中心轮，这样机器人就可以用 4 个轮子而不是"
+" 6 个轮子来转动，从而减少摩擦，提高转弯机动性。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:221
+msgid ""
+"On an 8 wheel drive, the center four wheels are dropped. This means that "
+"when turning, only these middle four wheels are touching the ground. Thus, "
+"the 8 wheel drivetrain has slightly more stability while turning than a 6 "
+"wheel drive, whereas 6 wheel drives can turn more quickly. Furthermore, "
+"since the 8 wheel drive has wheels in the same place as a 4 wheel drive, it "
+"has the stability of a 4 wheel drive."
+msgstr ""
+"在 8 轮驱动的汽车上，中间的四个车轮是下置的。这意味着在转弯时，只有中间的四个车轮接触地面。因此，8 轮传动系统转弯时的稳定性比 6 "
+"轮传动系统略高，而 6 轮传动系统转弯速度更快。此外，由于 8 轮驱动的车轮与 4 轮驱动的车轮位于同一位置，因此它具有 4 轮驱动的稳定性。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:223
+msgid ""
+"It is suggested that all eight wheels should be powered, and "
+":term:`planetary <Planetary Gear>` motors should be used over a :term:`spur "
+"gear <Spur gearbox>` motor."
+msgstr ""
+"建议为所有八个车轮提供动力，并使用 :term: `planetary <Planetary Gear>` 电机，而不是 :term: `spur "
+"gear <Spur gearbox>` 电机。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:225
+msgid ""
+"Teams also have the option of using doubled omni wheels on the outer four "
+"wheels. Doing so will reduce traction/pushing power and increase mobility."
+msgstr "参赛队还可以选择在外侧四个车轮上使用双层全能轮。这样做可以减少牵引力/推力，提高机动性。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:230
+msgid "Combines the stability of 6WD with the agility of 4WD"
+msgstr "兼具 6WD  方案的稳定性和 4WD 的灵活性"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:231
+msgid "Even more stable than 6WD"
+msgstr "比 6WD  方案更稳定"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:232
+msgid "Fantastic traction and acceleration"
+msgstr "出色的牵引力和加速度"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:233
+msgid "Great for defense"
+msgstr "非常适合防御"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:238
+msgid "Takes up more space than 6WD"
+msgstr "比 6WD  方案占用更多空间"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:239
+msgid "Powering all 8 wheels can be tricky"
+msgstr "为所有 8 个车轮提供动力可能很棘手"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:240
+msgid "Without adequate center drop, turning can be drastically reduced"
+msgstr "如果没有足够的中心落差，转弯速度会大大降低"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:245
+msgid "3846 Maelstrom's 8WD"
+msgstr "3846 Maelstrom 的八轮驱动方案"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:245
+msgid "3846 Maelstrom, Rover Ruckus"
+msgstr "3846 Maelstrom, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rstNone
+msgid "A render of 13075 Coram Deo Academy Robotics' 8WD"
+msgstr "13075 Coram Deo Academy 8WD 机器人效果图"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:253
+msgid "13075 Coram Deo Academy Robotics' 8WD"
+msgstr "13075 Coram Deo Academy 8WD机器人"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:253
 msgid "13075 Coram Deo Academy Robotics, Rover Ruckus"
@@ -341,3 +602,60 @@ msgstr "13075 Coram Deo Academy Robotics, Rover Ruckus"
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:256
 msgid "Tread Drive"
 msgstr "胎面驱动"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:258
+msgid ""
+"Tread drive is the use of tank treads or wide belts to power movement, much "
+"like a real life tank. Unfortunately, in FTC, it is not a competitive "
+"drivetrain for a number of reasons."
+msgstr "履带驱动是指使用坦克履带或宽皮带为运动提供动力，就像现实中的坦克一样。遗憾的是，在 FTC 中，由于多种原因，这种传动系统并不具有竞争力。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:260
+msgid ""
+"Tread is complex, and has many points of failure. Treads are also very prone"
+" to defense, and a slight hit from another robot is enough to misalign the "
+"treads. :term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren't "
+"great either - TETRIX tracks have a tendency to snap and derail when used on"
+" robot drivetrains, making them not suitable for competition use."
+msgstr ""
+"胎面很复杂，有很多故障点。胎面也非常容易损坏，来自其他机器人的轻微撞击就足以使胎面错位。 :term: `Commercial Off-The-"
+"Shelf (COTS) <COTS>`胎面的选择也不多--TETRIX 履带在用于机器人传动系统时容易断裂和脱轨，因此不适合在比赛中使用。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:262
+msgid ""
+"While it is possible to implement tread drive successfully, such as in the "
+"example below, most inexperienced teams do not have the capability and know-"
+"how to do so. Tread drive has negligible traction improvements at the cost "
+"of maneuverability. There are better options to traverse terrain, such as a "
+"4WD."
+msgstr ""
+"虽然有可能成功实施履带式驱动，例如下面的例子，但大多数缺乏经验的团队并不具备这样做的能力和技术诀窍。胎面驱动对牵引力的改善微乎其微，但却牺牲了机动性。要穿越地形，还有更好的选择，例如"
+" 4WD 方案。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:267
+msgid "Very good at traversing terrain"
+msgstr "非常擅长穿越地形"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:268
+msgid "Fantastic traction and pushing power"
+msgstr "出色的牵引力和推动力"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:273
+msgid "Suffers in maneuverability and top speed"
+msgstr "机动性和最高速度较差"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:274
+msgid "Very complex to implement"
+msgstr "实施起来非常复杂"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:275
+msgid "Treads are prone to breakage and can fall off easily"
+msgstr "踏板容易破损和脱落"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:280
+msgid "5975 Cybots' Tread Drive Render"
+msgstr "5975 Cybots机器人的履带式驱动器效果图"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:280
+msgid "5975 Cybots, Res-Q"
+msgstr "5975 Cybots, Res-Q"

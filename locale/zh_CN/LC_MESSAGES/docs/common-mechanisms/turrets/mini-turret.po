@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-03 16:15+0000\n"
 "PO-Revision-Date: 2023-08-04 04:15+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,14 +22,59 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:2
+msgid "Mini Turrets"
+msgstr "小关节"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:4
+msgid ""
+"Mini turrets are turrets that pivot something small, typically an end "
+"effector. These are often at the end of a linear extension or arm. These are"
+" much simpler than full turrets, because they are physically smaller and "
+"deal with much smaller loads. There are many ways to implement a mini "
+"turret, and generally any of the methods mentioned on the :doc:`./full-"
+"turret` page will work, but the center-bearing technique is the most common,"
+" as it is the simplest."
+msgstr ""
+"小关节是一种可以驱动小型物体（通常是功能机构）的关节。它们通常位于伸缩结构或机械臂的末端。这些小关节比大云台简单得多，因为它们的物理尺寸更小，处理的负载也小得多。实现小关节的方法有很多，一般来说，:doc:`./full-"
+"turret` 页面上提到的任何方法都可以使用，但中心轴承技术是最常见的，因为它是最简单的。"
+
 #: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:8
 msgid "Advantages"
 msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:10
+msgid "Allows for accurate mechanism rotation, without drivetrain movement."
+msgstr "可在不移动传动系统的情况下实现精确的机构旋转。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:11
+msgid "Much simpler than a full turret."
+msgstr "比大云台简单得多。"
 
 #: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:14
 msgid "Disadvantages"
 msgstr "劣势"
 
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:16
+msgid ""
+"Heavier than just an end effector, which is especially important on the end "
+"of slides/arms because of mechanism speed and center of gravity."
+msgstr "比单纯的功能结构更重，这对滑轨/机械臂的末端尤为重要，因为机械装置的速度和重心决定了这一点。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:17
+msgid "More complex than no turret."
+msgstr "比没有关节更复杂。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:18
+msgid "Provide fairly limited range compared to full turrets."
+msgstr "与大云台相比，能够驱动的结构长度相当有限。"
+
 #: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:23
 msgid "12518 Almond Robotics' Mini Turret"
 msgstr "12518 Almond Robotics 的迷你转塔"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:23
+msgid ""
+"12518 Almond Robotics, Freight Frenzy, a **center-bearing mini turret** on "
+"the end of slides used to rotate a scoring mechanism with a servo"
+msgstr "12518 Almond Robotics，Freight Frenzy，滑轨末端的**中心轴承小关节**，用于利用舵机旋转得分结构"

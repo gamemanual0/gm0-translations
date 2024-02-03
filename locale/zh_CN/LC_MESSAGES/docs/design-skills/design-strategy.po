@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Shawphy, 2023
-# DomnickJYH, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 16:16+0000\n"
+"POT-Creation-Date: 2024-02-03 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -343,18 +343,363 @@ msgid ""
 msgstr ""
 "为最坏的情况而不是最好的情况而建造。在建造时，团队经常忽略一个关键原则：为可靠性而建造。团队经常在建造质量和材料上吝啬，这导致锦标赛不成功的最常见原因之一：零件故障。"
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:92
+msgid ""
+"Teams also do not take into account the rigors of competition and build as "
+"if the robot will not encounter opposing robots. Sufficient driver practice "
+"will be able to better simulate in-game conditions and test the reliability "
+"of the robot. To remedy this problem, refer to the :doc:`Materials Guide "
+"</docs/custom-manufacturing/materials-guide>` to gain a better understanding"
+" of what materials are recommended for use."
+msgstr ""
+"团队也不会考虑竞争的严酷性，就好像机器人不会遇到对立的机器人一样。足够的驾驶员练习将能够更好地模拟游戏中的条件并测试机器人的可靠性。要解决这个问题，请参阅材料指南以更好地了解推荐使用的材料。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:94
+msgid ""
+"If possible, teams should build with redundancy in mind. For example, if one"
+" set of linear slides fails due to a wire snapping, having a second set will"
+" still allow the robot to operate instead of sitting dead in the water. "
+"Practically, doubling mechanisms, motors, and servos is a common method to "
+"build for redundancy."
+msgstr ""
+"如果可能的话，团队应该在构建时考虑到冗余。例如，如果一组线性滑块因电线折断而失败，那么拥有第二组滑块仍然可以让机器人运行，而不是注定失败。实际上，加倍机制、电机和伺服系统是构建冗余的常用方法。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:96
+msgid ""
+"In addition, teams often forget to account for twisting or compression "
+"forces that may occur upon the mechanism."
+msgstr "此外，团队经常忘记考虑机制上可能发生的扭曲或压缩力。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:98
+msgid ""
+"While we cannot give any specific recommendations, do keep in mind what "
+"forces the support structure of your mechanism must bear along the full "
+"range of motion, and account for what occurs when it might hit another "
+"robot/field wall/field. Building more robustly is always worth the time "
+"spent. However, it is good to think about the extra weight that results."
+msgstr ""
+"虽然我们不能给出任何具体的建议，但请记住，在整个运动范围内，您的机械装置的支撑结构必须承受什么样的力，并说明当它可能撞击另一个机器人/场地墙/场地时会发生什么。花时间建造更坚固的建筑总是值得的。然而，考虑由此产生的额外重量是件好事。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:100
+msgid ""
+"Furthermore, a common cause of robot disconnect is wiring issues. Refer to "
+"the :doc:`Wiring section </docs/power-and-electronics/wiring>` for more "
+"information; in short, make sure to plan ahead and leave space for wires, "
+"and use strain relief whenever possible."
+msgstr ""
+"此外，机器人断开连接的一个常见原因是接线问题。有关详细信息，请参阅接线部分；简而言之，请确保提前计划并为电线留出空间，并尽可能使用应变消除。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:102
+msgid ""
+"All these tips combined will help your robot become more reliable, a key "
+"characteristic of all world-level robots."
+msgstr "所有这些技巧相结合将帮助您的机器人变得更加可靠，这是所有世界级机器人的一个关键特征。"
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:105
 msgid "Fretting about Design |rarr| Focusing on Execution"
 msgstr "为设计发愁 |rarr| 专注于执行"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:107
+msgid ""
+"A good execution of a bad design will beat a bad execution of good design."
+msgstr "糟糕设计的良好执行比好设计的糟糕执行更好。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:109
+msgid ""
+"FTC\\ |reg| is all about how well you execute in both the mechanical aspect "
+"and the driver aspect. If your goal is winning, then how mechanically "
+"beautiful your robot is doesn't matter. Your goal is less of impressing the "
+"judges but performing the best you possibly can on the field."
+msgstr ""
+"FTC是关于你在机械方面和驾驶员方面的表现如何。如果你的目标是获胜，那么你的机器人在机械方面有多漂亮并不重要。你的目标不是给评委留下深刻印象，而是在场上尽你所能表现最好。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:111
+msgid ""
+"It is very possible to take a bad design, execute it well, and still be "
+"competitive at a high level. Even though not many teams are able to do so, "
+"it still goes to show that the method of implementation is very important. "
+"When brainstorming designs, try not to get hung up on small details if "
+"possible."
+msgstr ""
+"一个不好的设计，但是有好的执行，还能在高水平上保持竞争力，这是很有可能的。即使能做到这一点的团队不多，但这仍然说明实现的方法非常重要。在头脑风暴设计时，如果可能的话，尽量不要在小细节上浪费太多时间。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:113
+msgid ""
+"It is important to discuss different designs and debate the pros & cons, but"
+" after a design has been picked, stay with it unless there are major flaws "
+"that were originally overlooked. Changing designs will throw away the time "
+"spent on the original design, when teams could have kept improving it or "
+"practiced more. It is possible to rebuild your robot mid-season, and many "
+"top teams have done so to great success."
+msgstr ""
+"讨论不同的设计并讨论利弊是很重要的，但是在选择了一个设计之后，除非有最初被忽视的重大缺陷，否则就坚持下去。改变设计会浪费花在原始设计上的时间，而团队本可以不断改进或练习更多。有可能在赛季中期重建你的机器人，许多顶级球队已经取得了巨大的成功。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:115
+msgid ""
+"However, this is not recommended for rookie and new teams due to the general"
+" lack of experience. Realistically, expect to spend 50-100+ hours to rebuild"
+" a robot from the ground up. Focus on how you can iterate your current "
+"design to be as effective, efficient, and refined as possible."
+msgstr ""
+"但是，由于普遍缺乏经验，这不建议用于新手和新团队。现实地说，期望花费50-100+小时从头开始重建一个机器人。专注于如何迭代您当前的设计以尽可能有效，高效和精细化。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:118
+msgid "Competition Tips and Mistakes"
+msgstr "比赛提示和错误"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:120
+msgid ""
+"Here are some good tips for teams to make decisions in the execution stage."
+msgstr "以下是团队在执行阶段做出决策的一些好建议。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+msgid "**Problem**"
+msgstr "问题"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+msgid "**Solution**"
+msgstr "解决方案"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+msgid "**Neglect drive practice**"
+msgstr "疏忽驾驶练习"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:127
+msgid "Drivers unfamiliar with robot"
+msgstr "不熟悉机器人的操作者"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+msgid "Robot reliability untested"
+msgstr "机器人可靠性未经测试"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+msgid "**Constant driver training**"
+msgstr "持续的驾驶员培训"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:127
+msgid "Drivers comfortable with controls"
+msgstr "驾驶员对控制感到舒适"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+msgid "Proven and tested robot"
+msgstr "经过验证和测试的机器人"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+msgid "**No game strategy**"
+msgstr "没有游戏策略"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:132
+msgid "Lack of contingency plans"
+msgstr "缺乏应急计划"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+msgid "Weakens alliance strength"
+msgstr "削弱团队的力量"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+msgid "**Strategical driving**"
+msgstr "有策略的驾驶"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:132
+msgid "Only purposeful actions taken"
+msgstr "只采取有目的的行动"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+msgid "Efficient and effective driving"
+msgstr "高效有效的驾驶"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+msgid "**Fully driver-controlled**"
+msgstr "完全由驾驶员控制"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:137
+msgid "Less efficient"
+msgstr "效率较低"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:138
+msgid "Requires more practice"
+msgstr "需要多练习"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+msgid "**Partially automated tasks**"
+msgstr "部分自动化任务"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:137
+msgid "Relieves stress on driver"
+msgstr "减轻操纵员的压力"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:138
+msgid "Removes human error"
+msgstr "消除人为错误"
 
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:142
 msgid "Neglecting driver practice |rarr| Constant driver training"
 msgstr "忽视驾驶实践 |rarr| 持续的驾驶培训"
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:144
+msgid ""
+"A persistent problem with new teams is neglecting driver practice. Drive "
+"practice is to be done throughout the season, **not the week before "
+"competition.**"
+msgstr "新队伍的一个持续问题是忽视操作手练习。驾驶练习将在整个赛季进行，而不是比赛前一周。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:146
+msgid ""
+"No matter how good your robot is, the robot is only 50% of the equation. The"
+" driver(s) are the other 50% which determine the success of the team as a "
+"whole. Even if your robot is the best in the world, an inferior robot with a"
+" competent drive team more than likely will beat your robot with a poor "
+"drive team. By April's world championships, most top teams have run hundreds"
+" of practice matches."
+msgstr ""
+"不管你的机器人有多好，机器人只是成功的一半。操作手是决定整个团队成功的另外一半。即使你的机器人是世界上最好的，一个拥有称职驱动团队的劣质机器人很可能会击败你的驱动团队差的机器人。到四月份的世界锦标赛，大多数顶级球队已经进行了数百场练习赛。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:148
+msgid ""
+"This gives some obvious advantages compared to a team with lesser practice."
+msgstr "与练习较少的团队相比，这带来了一些明显的优势。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:150
+msgid ""
+"The driver(s) are totally familiar with handling the robot in every "
+"situation."
+msgstr "操作手完全熟悉机器人在各种情况下的操作。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:152
+msgid ""
+"The robot is proven to be reliable enough to survive hours of operation."
+msgstr "该机器人被证明足够可靠，可以承受数小时的运行。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:153
+msgid ""
+"The immense data that teams gather from test runs are used to optimize every"
+" element of the robot."
+msgstr "团队从测试运行中收集的大量数据用于优化机器人的每个部分。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:155
+msgid ""
+"Driver practice not only familiarizes the driver(s) with the robot and "
+"serves as a test of robot reliability, it also simulates in-game conditions."
+" **Learning to push the limits of your robot should be done during practice,"
+" not at a competition.** This way, drivers will become more comfortable "
+"driving under stress and pressure. Teams with intensive driver practice will"
+" purposely make things more difficult (such as placing a disabled robot in "
+"the middle of the field or unplugging a drivetrain motor)."
+msgstr ""
+"操作手练习不仅使操作手熟悉机器人并测试机器人的可靠性，它还模拟游戏中的情况。学习推动机器人的极限应该在练习期间完成，而不是在比赛中。这样，操作手将在压力下更加舒适地驾驶。具有密集驾驶员练习的团队将故意使事情变得更加困难（例如将残疾机器人放在场地中间或拔掉传动系统电机）。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:157
+msgid ""
+"While this may seem extreme, it is really just a form of preparedness. If "
+"your driver doesn't know how to react, then you need more drive practice."
+msgstr "虽然这看起来很极端，但这只是一种准备。如果你的操作手不知道如何反应，那么你需要更多的驾驶练习。"
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:160
 msgid "No game strategy |rarr| Strategic driving"
 msgstr "没有游戏策略 |rarr| 有策略地驾驶"
 
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:162
+msgid ""
+"Similar to drive practice, this is something that many inexperienced teams "
+"ignore. A sports example is handy - even with the most talented players, a "
+"team won't go far without good game strategy."
+msgstr "类似于操纵练习，这是许多没有经验的团队忽略的事情。一个体育例子很方便——即使有最有天赋的球员，没有好的比赛策略，一个团队也不会走得很远。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:164
+msgid ""
+"A less capable team with better strategy execution can often pull off an "
+"upset. Planning a strategy ensures that every second in the 2:30 game time "
+"is used to maximum efficiency, which yields maximum points."
+msgstr "一个能力较差、策略执行能力较强的团队通常会带来挫折。规划策略可确保2:30比赛时间内的每一秒都被用于最大效率，从而获得最高分。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:166
+msgid ""
+"For example, drivers should know exactly where the robot needs to be "
+"positioned after the autonomous to tele-op switch. Practicing this switch "
+"will save a couple of seconds when drivers have to think \"what do I do "
+"now?\" In very competitive matches, these few seconds may be able to gain "
+"your team an extra cycle. Knowing when to transition from a tele-op to "
+"endgame objective is equally important (hint: perfect one first) and will "
+"save valuable time. Strategy should **always be used to maximize points** - "
+"whether this is a positioning strategy to access the game elements, or a "
+"defensive strategy to hinder the other alliance from scoring."
+msgstr ""
+"例如，驾驶员应该确切知道在自主到远程操作切换后机器人需要定位的位置。当驾驶员不得不思考“我现在该怎么办”时，练习这个切换将节省几秒钟？在竞争非常激烈的比赛中，这几秒钟可能能够为您的团队赢得一个额外的周期。知道何时从远程操作过渡到终局目标同样重要（提示：先完善一个），并将节省宝贵的时间。策略应该始终用于得分最大化-"
+"无论这是一种访问游戏元素的定位策略，还是一种阻碍另一个联盟得分的防御策略。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:168
+msgid ""
+"In most seasons, denying the other alliance 10 points is the same value as "
+"scoring 10 points in every match."
+msgstr "在大多数赛季中，阻止对方联盟得到10分与每场比赛得10分是一样的价值（防守和进攻同样重要）。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:170
+msgid ""
+"**However, it is not advisable for rookie teams to play defense** due to the"
+" specific rules surrounding this strategy. If a team wishes to execute a "
+"defensive strategy, be sure to read all the rules as defense can easily "
+"incur penalties/cards if done improperly."
+msgstr ""
+"然而，对于新手球队来说，玩防守是不可取的，因为围绕这一策略的具体规则。如果一个团队希望执行防守策略，请务必阅读所有规则，因为如果防守不当，很容易招致处罚/牌。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:172
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:175
+msgid "Defense"
+msgstr "防御"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:177
+msgid ""
+"Defense is a strategy employed with the goal of preventing the opposing "
+"alliance from scoring points, or at least significantly slowing the "
+"opposition's scoring."
+msgstr "防守是一种策略，目的是阻止对方联盟得分，或者至少显著减缓对方得分。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:179
+msgid ""
+"This strategy can backfire if drivers illegally play defense and incur "
+"penalties and/or cards for their alliance. Defense is usually played by "
+"obstructing the opposing alliance, either by strategically positioning the "
+"robot to obstruct access or pushing another team's robot into a "
+"disadvantageous position."
+msgstr ""
+"如果操纵手非法进行防守并为他们的联盟招致处罚和/或牌，这种策略可能会适得其反。防守通常是通过阻碍对方联盟来进行的，要么通过战略性地定位机器人来阻碍访问，要么将另一个团队的机器人推向不利位置。"
+
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:182
 msgid "Fully driver-controlled driving |rarr| Partially automated tasks"
 msgstr "完全由驾驶员控制的驾驶 |rarr| 部分自动化任务"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:184
+msgid ""
+"Autonomous should not be limited to only the autonomous mode. Automating "
+"simple tasks can be a real time-saver and efficiency boost to teams."
+msgstr "自主不应仅限于自主模式。将简单任务自动化可以真正节省时间并提高团队效率。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:186
+msgid ""
+"Automating tasks can save time and reduce the need for driver multi-tasking."
+" Drivers should always be controlling the robot with as few button presses "
+"as possible. For example, automatically stopping the intake mechanism when "
+"game elements have been collected saves a button press."
+msgstr ""
+"自动化任务可以节省时间并减少操作手处理多任务的需要。操作手应该始终以尽可能少的按钮按下来控制机器人。例如，在收集像素时自动停止吸取像素器可以节省一次按钮按下的时间。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:187
+msgid ""
+"Autonomously operating some mechanisms has the advantage of eliminating "
+"driver error and relieves stress. For example, if a lift has to extend to "
+"exactly 30 inches, a motor with an :term:`encoder <Encoder>` can complete "
+"that with 100% accuracy at full speed, compared to a human driver's minor "
+"error."
+msgstr ""
+"自动操作某些机制具有消除驾驶员错误和缓解压力的优势。例如，如果电梯必须精确延伸到30英寸，与人类驾驶员的微小错误相比，带有编码器的电机:term:`encoder"
+" <Encoder>`可以在全速下以100%的精度完成。"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:189
+msgid ""
+"Autonomous functions should be able to be overrided by manual input in case "
+"something goes wrong (e.g. encoder is unplugged, a part breaks, etc.) to "
+"prevent damage to the robot and to be compliant with game rules."
+msgstr "自主功能应该能够被手动输入覆盖，以防出现问题（例如编码器拔出、零件断裂等），以防止损坏机器人并符合游戏规则。"

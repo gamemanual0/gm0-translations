@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-03 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:4
 msgid "Dead Wheels"
-msgstr "惰轮"
+msgstr "无动力(全向)轮"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:6
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "general use of motion sensors for localization purposes. Meanwhile, dead "
 "wheels, tracking wheels, and odometry pods are all synonymous terms."
 msgstr ""
-"术语“惰轮”、“履带从动轮”、“编码器吊舱”和“编码器”在FTC社区中经常混淆使用。然而，必须记住几个关键区别。编码器是一个总称，指的是使用运动传感器进行定位目的的一般性使用。与此同时，“惰轮”、“履带从动轮”和“编码器吊舱”都是同义词。"
+"术语“无动力轮”、“跟踪轮”、“内置里程计轮”和“里程传感器”在FTC社区中经常混淆使用。然而，必须记住几个关键区别。里程计是一个总称，指的是使用运动传感器进行定位目的的一般性使用。与此同时，“无动力轮”、“跟踪轮”和“内置里程计轮”都是同义词。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:10
 msgid "Term"
@@ -50,7 +50,7 @@ msgstr "术语"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:13
 msgid "Dead Wheel"
-msgstr "惰轮"
+msgstr "无动力(全向)轮"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:15
 msgid ""
@@ -58,6 +58,78 @@ msgid ""
 "tracks the distance the robot has traveled through the encoder attached to "
 "the wheel's axle."
 msgstr "一个没有动力的小轮子 (通常是 :term:`万向轮 <Omni Wheel>`)，通过连接在轮轴上的编码器跟踪机器人行驶的距离。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:17
+msgid ""
+"Usually, there will be two or three wheels - one or two on the x and y axis "
+"each to track the front-back and left-right position relative to the "
+"starting point. Generally, odometry wheels are sprung so that the wheel is "
+"in contact with the floor tiles at all times to ensure accuracy."
+msgstr ""
+"通常，会有两个或三个轮子——x轴和y轴上各有一个或两个轮子来跟踪相对于起点的前后和左右位置。通常，里程计轮子会弹起，以便轮子始终与地面接触，以确保准确性。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:19
+msgid ""
+"Odometry refers to the use of motion sensors for localization. Localization "
+"is a means for being able to locate the position of the bot at some point in"
+" time. Localization is crucial in path following and advanced autonomous "
+"modes as one needs to know where they are to generate the necessary "
+"movements needed to reach a desired destination. :doc:`Localization software"
+" </docs/software/concepts/odometry>` plays a major role in odometry; "
+"however, in order to produce accurate results, reliable and accurate "
+"hardware design is a necessity."
+msgstr ""
+"里程计是指使用运动传感器进行定位。定位是一种能够在某个时间点确定机器人位置的方法。在路径跟踪和高级自主模式中，定位至关重要，因为人们需要知道自己在哪里，才能做出必要的动作，到达所需的目的地。"
+" :doc:`定位软件 </docs/software/concepts/odometry>` "
+"在测距中起着重要作用；但是，为了产生精确的结果，可靠和精确的硬件设计是必不可少的。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:21
+msgid ""
+"The simplest form of odometry is drive encoder localization. This is the use"
+" of encoders measuring the rotation of motors that power the drive train. "
+"One is able to read the encoder data and feed it through the kinematic "
+"equation for that specific drive train to derive the body's velocity. Drive "
+"encoder localization is generally quite simple and easy to setup as almost "
+"all of the FTC legal motors have built-in encoders. Getting drive encoder "
+"localization setup is simply a matter of plugging in wires, no additional "
+"hardware needed."
+msgstr ""
+"里程计最简单的形式是驱动编码器定位。这是使用编码器测量驱动传动系的电机的旋转。一个人能够读取编码器数据，并通过特定传动系的运动方程来获取身体的速度。驱动编码器定位通常非常简单，易于设置，因为几乎所有FTC的合法电机都有内置编码器。设置驱动编码器定位只需插入电线，无需额外的硬件。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:23
+msgid ""
+"Many teams in the community have converged on a unique solution that isn't "
+"seen very much outside of FTC: the use of \"dead wheels,\" \"tracking "
+"wheels,\" or \"odometry pods\" (these terms are all synonymous). These refer"
+" to small \"dead\" or non-driven (not powered by a motor) wheels attached to"
+" an `encoder sensor <#encoders>`_. Two or three dead wheel pods are often "
+"sprung to the ground to ensure accurate tracking. The two-wheel design "
+"utilizes one parallel and one perpendicular pod (parallel and perpendicular "
+"with respect to the drive wheel axis), measuring x and y movement "
+"respectively. Change in heading is measured via a gyroscope. The three-wheel"
+" design utilizes two parallel and one perpendicular pod, measuring x and y "
+"movement respectively. However, this design forgoes the gyroscope and "
+"instead measures heading via the difference with the two parallel wheels. "
+"This is often more accurate in the context of the FTC control system because"
+" the BNO055 IMU (used for the gyroscope in the two-wheel design) utilizes "
+"I2C which is slower than the rest of the I/O on the REV Hub and cannot be "
+"bulk read. These two issues lead to minute drift issues which can compound "
+"over time, thus leading to a more inaccurate localization system when using "
+"the two-wheel design."
+msgstr ""
+"社区中的许多团队已经聚集在一个独特的解决方案上，这个解决方案在FTC之外并不常见：使用“无动力全向轮”、“跟踪轮”或“内置里程传感器的全向轮”（这些术语都是同义词）。这些是指连接到编码器传感器上的小型“无动力全向轮”或非驱动（不是由电机驱动）车轮。两个或三个无动力全向轮的里程计通常会通过内置弹簧弹跳反应地面位置以确保准确的跟踪。两轮设计使用一个平行和一个垂直里程计（相对于驱动轮轴平行和垂直），分别测量x和y运动。航向的变化通过陀螺仪测量。三轮设计使用两个平行和一个垂直里程传感器，分别测量x和y运动。然而，这种设计放弃了陀螺仪，而是通过与两个平行车轮的差异来测量航向。这在FTC控制系统中通常更准确，因为BNO055IMU（用于两轮设计中的陀螺仪）使用I2C，其速度比REV集线器上的其余I/O慢，并且无法批量读取。这两个问题会导致微小的偏移问题，这些问题会随着时间的推移而加剧，从而在使用两轮设计时导致更不准确的定位系统。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:25
+msgid ""
+"However, designing consistently accurate dead wheels proves to be a "
+"difficult design challenge. It is often quite pricey. A set of three dead "
+"wheels will cost a minimum of $100 for the encoders alone, prior to any "
+"hardware."
+msgstr "然而，设计始终准确的无动力轮被证明是一项艰巨的设计挑战。它通常相当昂贵。一套三个死轮在任何硬件之前，仅编码器就至少要花费100美元。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:27
+msgid "Let's go through the advantages and disadvantages of each system."
+msgstr "让我们来回顾一下每个系统的优缺点。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:30
 msgid "Drive Encoder Localization"
@@ -94,6 +166,88 @@ msgid ""
 "lack on traction on mecanum wheels."
 msgstr "由于麦克纳姆轮缺乏牵引力，麦轮驱动装置上的编码器定位可能非常不准确。"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:40
+msgid ""
+"Will drift on high acceleration on mecanum drive. Accuracy will be good "
+"enough for basic autonomous modes if acceleration is limited"
+msgstr "会在麦轮驱动的高加速度下偏移。如果加速度有限，对于基本的自主模式，精度将足够好"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:43
+msgid "Two-Wheel Odometry Pods"
+msgstr "两轮内置里程计轮"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:47
+msgid "Cheaper than 3-wheel design"
+msgstr "比3轮设计便宜"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:48
+msgid "Pretty good accuracy"
+msgstr "相当准确"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:49
+msgid "No tuning of the heading necessary"
+msgstr "不需要调整航向"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:52
+msgid "Subject to more drift than the 3-wheel design"
+msgstr "比3轮设计更容易偏移"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:55
+msgid "Three-Wheel Odometry Pods"
+msgstr "三轮内置里程计轮"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:59
+msgid ""
+"Relatively accurate tracking. Great accuracy in a 30-second autonomous mode"
+msgstr "相对精确的跟踪。在30秒的自主模式下非常准确"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:62
+msgid "Quite pricey"
+msgstr "相当昂贵"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:63
+msgid "Tuning of the heading is very important"
+msgstr "调整机器朝向(事实上是我们操控机器时常用的‘头’)是非常重要的"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:66
+msgid "Encoders"
+msgstr "编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:68
+msgid ""
+"A lot of the localization done in software relies on readings from encoders."
+" :ref:`encoders` are sensors that track \"counts\" or \"ticks,\" which are "
+"values that represent a certain amount of a rotation. Different encoders "
+"might have a different number of counts per revolution (CPR), which is also "
+"sometimes also called ticks per revolution. The greater the number of "
+"counts, the more precise the data."
+msgstr ""
+"软件中完成的许多定位依赖于编码器的读数。编码器是跟踪“计数”或“滴答”的传感器，滴答是代表一定旋转量的值。不同的编码器每转可能有不同的计数（CPR），有时也称为每转滴答。计数数量越多，数据就越精确。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:70
+msgid ""
+"Encoders are plugged into the JST-PH ports in the REV hubs. These encoders "
+"can either be built-in to the motors or external. External encoders will "
+"still need to be plugged into an encoder port but are not related to the "
+"motor in that port. Through software, we can use the motor object to "
+"determine the position of the encoder. This should be done with motors that "
+"do not use encoders. If you're using dead wheels, you will not need the "
+"drive motor encoder ports, so those are potential ports you might want to "
+"use."
+msgstr ""
+"编码器插入REV集线器中的JSTPH端口。这些编码器可以内置在电机上，也可以是外部的。外部编码器仍然需要插入编码器端口，但与该端口中的电机无关。通过软件，我们可以使用电机对象来确定编码器的位置。这应该用不使用编码器的电机来完成。如果你使用无动力轮，你将不需要驱动电机编码器端口，所以这些是你可能想要使用的潜在端口。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:72
+msgid ""
+"If one chooses to design dead wheels, there are only two recommended "
+"encoders that one should use for FTC: REV Through-Bore Encoders and U.S. "
+"Digital S4T Encoders."
+msgstr "如果选择设计无动力轮，只有两种推荐的编码器可用于FTC：REV通孔编码器和美国数字S4T编码器。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:75
+msgid "REV Through-Bore"
+msgstr "REV通孔"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:77
 msgid ""
 "Often short-handed to \"REVcoders\" or \"revcoders,\" the `REV Through-Bore "
@@ -109,10 +263,22 @@ msgstr ""
 "<https://www.revrobotics.com/rev-11-1271/>`_ "
 "已迅速成为FTC社区事实上的选择。REV编码器因其相对便宜、可靠性大大提高和易用性而获得这样的声誉。通孔设计被证明是对以前光盘编码器设计的重大改进。光盘编码器非常脆弱，容易刮伤，并且对设计缺陷的容忍度要低得多。"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:83
+msgid "A REV Through-Bore Encoder"
+msgstr "REV 通孔编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:83
+msgid "REV Through-Bore Encoder"
+msgstr "REV 通孔编码器"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
 msgid "**Advantages:**"
 msgstr "优点："
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:87
+msgid "Through-bore design is very robust and easy to design with"
+msgstr "通孔设计非常坚固且易于设计"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:88
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:140
@@ -132,6 +298,28 @@ msgstr "接线简单"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:142
 msgid "**Disadvantages:**"
 msgstr "缺点："
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:94
+msgid ""
+"Quite large relative to other encoders. May be challenging to create a "
+"compact design"
+msgstr "相对于其他编码器相当大。创建紧凑的设计可能具有挑战性"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:95
+msgid ""
+"Many Through-Bores seem to experience slight, uneven resistance when "
+"rotating. REV says this is normal and will subside as the encoder wears in"
+msgstr "许多通孔在旋转时似乎遇到轻微的不均匀阻力。REV说这是正常的，随着编码器的磨损会消退"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:97
+msgid ""
+"To forcefully wear in a REV Through-Bore encoder a 1/2\" hex shaft can be "
+"spun on a drill through the encoder for a couple of minutes"
+msgstr "要在REV通孔编码器中强制磨损，可以在通过编码器的钻头上旋转1/2\"六角轴几分钟"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:98
+msgid "Odd mounting points"
+msgstr "刁钻的安装点"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:100
 msgid ""
@@ -156,6 +344,10 @@ msgstr ""
 "ftc/blob/e79f8a900f45c9058b67716b5289a52e17769e40/RoadRunner/src/main/java/com/acmerobotics/roadrunner/ftc/Encoders.kt#L66>`_"
 " 因此，这不是一个问题，也不应影响您的设计决策。一旦开始编程，请记住此细节。"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:103
+msgid "U.S. Digital S4T"
+msgstr "美国电子编码器S4T"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:105
 msgid ""
 "The `S4T "
@@ -167,6 +359,14 @@ msgid ""
 msgstr ""
 "在 `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_"
 " 微型轴编码器是死轮设计中使用的另一个可行的选择。这些编码器非常小，可以显著减少死轮设计的占地面积。传动这些编码器是防止冲击载荷的理想选择。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:111
+msgid "An US Digital S4T encoder"
+msgstr "一个 US 电子 S4T 编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:111
+msgid "S4T Encoder"
+msgstr "S4T 编码器"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
 msgid "*****Advantages:**"
@@ -185,6 +385,49 @@ msgstr "更贵（几乎是价格的两倍）"
 msgid "Less durable"
 msgstr "不太耐用"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:122
+msgid "Very thin wires. Prone to breaking easily if not secured properly"
+msgstr "非常细的电线。如果没有固定好很容易断裂"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:124
+msgid "Ideally requires external gearing"
+msgstr "理想情况下需要外部齿轮"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:127
+msgid "SRX Mag Encoder"
+msgstr "SRX Mag编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:129
+msgid ""
+"The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ "
+"from Cross The Road Electronics is a magnetic encoder. It is not used by "
+"many FTC teams due to its slightly higher complexity to use and lack of FTC "
+"centric documentation. It is more popular in FRC\\ |reg|."
+msgstr ""
+"Cross The Road Electronics 公司的 `SRX Mag Encoder<https://store.ctr-"
+"electronics.com/srx-mag-encoder/>`_是一种磁编码器。由于其使用复杂度稍高，而且缺乏以 FTC 为中心的文档，因此很多 "
+"FTC 团队都没有使用它。它在 FRC 中更受欢迎。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:135
+msgid "A CTRE SRX Mag encoder"
+msgstr "一个CTRE SRX Mag编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:135
+msgid "CTRE SRX Mag Encoder"
+msgstr "CTRE SRX Mag Encoder"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:144
+msgid "Requires assembly"
+msgstr "需要组装"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:145
+msgid "Not much information exists for use in FTC"
+msgstr "没有多少可用于FTC的信息"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:148
+msgid "U.S. Digital E8T (deprecated)"
+msgstr "美国电子E8T编码器（已弃用）"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:150
 msgid ""
 "Once the de facto option for most FTC teams, the `E8T "
@@ -199,9 +442,28 @@ msgstr ""
 "<https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ "
 "光学编码器不再被推荐，因为REV通孔是同等价格的卓越选择。这些编码器的开孔光盘设计面临许多令人沮丧的设计缺陷，这些缺陷使它们非常脆弱，容易断裂。与REV通孔相比，它们唯一的优势是占地面积更小。"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:156
+msgid "An US Digital E8T encoder"
+msgstr "一个 US 电子 E8T 编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:156
+msgid "E8T Encoder"
+msgstr "E8T 编码器"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:159
 msgid "Design"
 msgstr "设计"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:161
+msgid ""
+"There are few open source dead wheel designs. Dead wheels are often designed"
+" around a team's own drive train and FTC teams seldom publicly release their"
+" own robot CADs."
+msgstr "很少有开源的无动力轮设计。无动力轮通常是围绕团队自己的传动系统设计的，FTC团队很少公开发布自己的机器人CAD。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:163
+msgid "Here are a few publicly available dead wheel designs:"
+msgstr "以下是一些公开可用的无动力全向轮设计："
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:165
 msgid "**Open Odometry by 18219**"
@@ -211,6 +473,32 @@ msgstr "**18219 的开放式里程计**"
 msgid "https://openodometry.weebly.com"
 msgstr "https://openodometry.weebly.com"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:168
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:179
+msgid "Utilizes the REV Through-Bore Encoder"
+msgstr "利用REV通孔编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:169
+msgid "Most popular and robust publicly available design"
+msgstr "最流行和最强大的公开可用设计"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:170
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:180
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:200
+msgid "Compact enough to fit into a goBILDA channel"
+msgstr "紧凑到足以放入goBILDA通道"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:172
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:182
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:192
+msgid "**Things to consider**:"
+msgstr "**需要考虑的事项**："
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:174
+msgid ""
+"Utilizes Rotacaster 35mm wheels from Australia. Shipping may take a while"
+msgstr "使用来自澳大利亚的Rotacaster 35mm车轮。运输可能需要一段时间"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:176
 msgid "**goREVdometry**"
 msgstr "**goREVdometry**"
@@ -219,9 +507,29 @@ msgstr "**goREVdometry**"
 msgid "https://discord.com/invite/Cvz3MbM9dX"
 msgstr "https://discord.com/invite/Cvz3MbM9dX"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:184
+msgid "Information only available through their Discord channel"
+msgstr "信息只能通过他们的Discord频道获得"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:185
+msgid "Hasn't been iterated on in a while"
+msgstr "已经有一段时间没有迭代了"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:187
 msgid "**11115 Gluten Free Design - 2019**"
 msgstr "**11115 Gluten Free Design - 2019**"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:189
+msgid ""
+"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
+msgstr ""
+"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:190
+msgid ""
+"The above link the entire robot assembly for 11115's CAD for the 2018-19 "
+"season"
+msgstr "以上链接2018-19赛季11115的CAD的整个机器人组件"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:194
 msgid "Uses LEGO\\ |reg| gears"
@@ -229,7 +537,7 @@ msgstr "使用 LEGO\\ |reg| 齿轮"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:195
 msgid "Uses US Digital S4T's. Quite pricey"
-msgstr "用US数码S4T(相当昂贵)"
+msgstr "用US电子S4T(相当昂贵)"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:197
 msgid "**9794 Wizards.exe Design**"
@@ -247,6 +555,10 @@ msgstr ""
 msgid "**No longer recommended as it utilizes the E8T**"
 msgstr "**不再推荐使用E8T**"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
+msgid "Spring Tensioning"
+msgstr "弹簧绷紧"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
 msgid ""
 "It is *highly* recommended that your dead wheel design includes some form of"
@@ -257,15 +569,89 @@ msgid ""
 "drive train off the ground and disrupt driving."
 msgstr ""
 "*强烈* "
-"建议您的惰轮设计包括某种形式的弹簧张紧，将车轮推入地面。这确保车轮始终与地面接触并具有足够的牵引力。需要足够的力来确保恒定的牵引力以防止车轮打滑。请记住，太大的力可能会将轻型驱动列车抬离地面并扰乱驾驶。"
+"建议您的无动力全向轮设计包括某种形式的弹簧绷紧，将车轮推入地面。这确保车轮始终与地面接触并具有足够的牵引力。需要足够的力来确保恒定的牵引力以防止车轮打滑。请记住，太大的力可能会将轻型驱动列车抬离地面并扰乱驾驶。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:208
+msgid ""
+"The most popular method of spring tensioning is to pivot your pod around a "
+"point and provide a rotational force via a spring or rubber band."
+msgstr "最流行的弹簧绷紧方法是将里程计围绕一个点枢转，并通过弹簧或橡皮筋提供旋转力。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+msgid "A demonstration of pivoting spring tensioning"
+msgstr "一个用枢轴的弹簧绷紧演示"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
 msgid "FTC 14320's spring tensioning"
 msgstr "FTC 14320's spring tensioning"
 
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:216
+msgid ""
+"A much more niche option is to vertically spring odometry pods. The idea is "
+"that springing around a pivot will cause the dead wheels to move in the axis"
+" parallel to the ground if the height of the dead wheels relative to the "
+"ground changes. Vertically sprung odometry pods will not experience such an "
+"issue. However, this is not really an issue that most teams will experience."
+" Vertically springing is much harder to design well and is not recommended "
+"for the relatively minor improvement in accuracy it yields."
+msgstr ""
+"一个更小众的选择是垂直弹簧内置里程计轮。这个想法是，如果无动力全向轮相对于地面的高度发生变化，围绕枢轴弹出将导致无动力全向轮在平行于地面的轴上移动。垂直弹出的内置里程计轮不会遇到这样的问题。然而，这并不是大多数团队都会遇到的问题。垂直弹簧更难设计好，并且不建议在精度上相对较小的改进。"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
+msgid "An example of vertical spring tensioning"
+msgstr "一个垂直弹簧绷紧示例"
+
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
 msgid "FTC 18172's vertical springing"
 msgstr "FTC 18172's vertical springing"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:225
+msgid "Gallery"
+msgstr "画廊"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:228
+msgid "Open Odometry (REV Through Bore Encoder)"
+msgstr "开放式里程计（REV通孔编码器）"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "Exploded drawing of Open Odometry design"
+msgstr "开放式测距设计"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "Section view of Open Odometry"
+msgstr "开放式里程计的剖视视角"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:239
+msgid "FTC\\ |reg| Team 14310 (REV Through Bore Encoder)"
+msgstr "FTC\\ |reg| Team 14310（REV 通孔编码器）"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14130's odometry"
+msgstr "14130 的里程测量"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:246
+msgid "FTC Team 8802 (REV Through Bore Encoder)"
+msgstr "FTC团队8802（REV通过孔编码器）"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "8802's odometry"
+msgstr "8802 的里程测量"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:253
+msgid "FTC Team 14320 (US Digital S4T)"
+msgstr "FTC团队14320（US电子 S4T编码器）"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+msgid "14320's odometry"
+msgstr "14320 的里程测量"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:260
+msgid "FTC Team 11115 (US Digital S4T)"
+msgstr "FTC团队11115（US电子 S4T编码器）"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
+msgid "11115's odometry"
+msgstr "11115 的里程测量"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
 msgid ""

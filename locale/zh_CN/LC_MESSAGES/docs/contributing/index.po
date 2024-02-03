@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-03 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,4 +24,158 @@ msgstr ""
 
 #: ../../gm0/source/docs/contributing/index.rst:4
 msgid "Contributor's Guide"
-msgstr "贡献指南"
+msgstr "贡献者指南"
+
+#: ../../gm0/source/docs/contributing/index.rst:7
+msgid "Introduction"
+msgstr "导言"
+
+#: ../../gm0/source/docs/contributing/index.rst:9
+msgid ""
+"Hello, and thank you for taking the time to consider contributing to |gm0|. "
+"Your knowledge and contributions will help many other teams, and improve "
+"|gm0| as a universal resource. This document is designed to give a basic "
+"overview of contributing to |gm0|."
+msgstr ""
+"您好，感谢您花时间考虑为 |gm0| 做出贡献。您的知识和贡献将帮助许多其他团队，并使 |gm0| 成为一个通用资源。本文档旨在介绍为 |gm0| "
+"做出贡献的基本概况。"
+
+#: ../../gm0/source/docs/contributing/index.rst:12
+msgid "Who can contribute?"
+msgstr "谁能做出贡献？"
+
+#: ../../gm0/source/docs/contributing/index.rst:14
+msgid ""
+"|gm0| welcomes contributions from basically anybody. The majority of this "
+"guide was written by accomplished students of FTC\\ |reg| from a wide "
+"variety of teams, alongside mentors and alums. Our editorial control is "
+"based purely on content, as long as the content is good, it'll be added to "
+"|gm0|."
+msgstr ""
+"|gm0| 欢迎任何人投稿。本指南的大部分内容都是由 FTC\\ |reg| "
+"来自不同团队的优秀学生与导师和校友共同撰写的。我们的编辑控制完全基于内容，只要内容好，就会被添加到 |gm0|。"
+
+#: ../../gm0/source/docs/contributing/index.rst:17
+msgid "Goals of |gm0|"
+msgstr "|gm0| 的目标"
+
+#: ../../gm0/source/docs/contributing/index.rst:19
+msgid ""
+"Before writing, please take the time to familiarize yourself with the goals "
+"of |gm0|. The primary goals are:"
+msgstr "在撰写之前，请花点时间熟悉一下 |gm0| 的目标。主要目标是："
+
+#: ../../gm0/source/docs/contributing/index.rst:21
+msgid ""
+"To inform and guide newer teams, participants, and coaches of the *FIRST*\\ "
+"|reg| Tech Challenge and help them achieve their competitive goals."
+msgstr "向新团队、参赛者和教练介绍并指导 *FIRST*\\ |reg| 科技挑战赛，帮助他们实现竞赛目标。"
+
+#: ../../gm0/source/docs/contributing/index.rst:22
+msgid ""
+"To act as a living reference for mechanisms, techniques, and community "
+"knowledge pertinent to *FIRST* Tech Challenge."
+msgstr "作为与 *FIRST* 科技挑战赛相关的结构、技术和社区知识的活参考资料。"
+
+#: ../../gm0/source/docs/contributing/index.rst:24
+msgid ""
+"These goals may seem relatively self-explanatory, but they have several "
+"important takeaways."
+msgstr "这些目标看似不言自明，但却有几个重要的启示。"
+
+#: ../../gm0/source/docs/contributing/index.rst:26
+msgid ""
+"**These goals do not necessarily build upon each other.** For example, let's"
+" look at the :doc:`/docs/common-mechanisms/drivetrains/index` section. If we"
+" want to simply guide more rookie teams on a path to become successful, we "
+"would discuss the very popular drivetrains that teams may encounter (2WD, "
+"4WD, 6WD, mecanum, X-Drive, and H-Drive) so that teams can quickly get up to"
+" speed and choose a competitive drivetrain. However, if the goal is to be a "
+"comprehensive reference, we would include every single possible drivetrain "
+"ever created for FTC, even if they aren't very competitive or realistic for "
+"newer teams to build (swerve, ball, octocanum, etc)."
+msgstr ""
+"**这些目标并不一定相互依存。** 例如，让我们看看 :doc:`/docs/common-mechanisms/drivetrains/index` "
+"部分。如果我们只是想引导更多菜鸟车队走向成功，我们就会讨论车队可能会遇到的非常流行的动力传动系统（2WD、4WD、6WD、mecanum、X-Drive"
+" 和 H-Drive），这样车队就可以快速上手并选择有竞争力的动力传动系统。但是，如果我们的目标是成为一个全面的参考资料，那么我们就会包括所有可能的 "
+"FTC 传动系统，即使这些传动系统对于新车队来说不是很有竞争力或不现实（swerve、ball、octocanum 等）。"
+
+#: ../../gm0/source/docs/contributing/index.rst:28
+msgid ""
+"We are seeking to accomplish both goals with a new structure: there will be "
+"a \"For Rookies\" page, that will link to a list of curated pages designed "
+"for rookies, while pages outside this list can act as more comprehensive "
+"references."
+msgstr ""
+"我们希望通过一种新的结构来实现这两个目标：将会有一个“面向新手”页面，它将链接到一个专为新手设计的页面列表，而这个列表之外的页面可以作为更全面的参考。"
+
+#: ../../gm0/source/docs/contributing/index.rst:29
+msgid ""
+"Keep the goal of the page and whether it is designed to be kept on the \"For"
+" Rookies\" page in mind while writing, and adjust the content accordingly."
+msgstr "在撰写时要牢记页面的目标，以及是否要将其保留在“面向新手”页面上，并相应调整内容。"
+
+#: ../../gm0/source/docs/contributing/index.rst:31
+msgid ""
+"**Game Manual 0 is a guide from primarily a competitive standpoint.** In "
+"general our recommendations have the end goal of increasing the points "
+"scored by a team while working inside a team's limitations, and building "
+"good technical habits that will be useful in a future career."
+msgstr ""
+"**Game Manual 0 主要是从竞技角度出发的指南。** "
+"一般来说，我们建议的最终目标是在团队的限制范围内提高团队得分，并培养良好的技术习惯，这对未来的职业生涯非常有用。"
+
+#: ../../gm0/source/docs/contributing/index.rst:32
+msgid ""
+"**Game Manual 0 seeks to inform, not tell.** |gm0| does not wish to "
+"encourage one \"meta\" design or series of techniques, instead, the guide "
+"seeks to present teams with a variety of options, with a pros and cons list "
+"of each, and let teams make their own decisions for their own circumstances."
+" If recommendations are given, they must be based on objective, repeatable "
+"reasoning. For more information on this, read the :doc:`style-guide`."
+msgstr ""
+"**Game Manual 0 旨在提供信息，而不是告诉别人。** Game Manual 0 "
+"并不希望鼓励一种“元”设计或一系列技术，相反，本指南旨在为团队提供多种选择，并列出每种选择的利弊，让团队根据自身情况做出决定。如果要提出建议，则必须基于客观、可重复的推理。有关这方面的更多信息，请阅读"
+" :doc:`style-guide` 。"
+
+#: ../../gm0/source/docs/contributing/index.rst:34
+msgid ""
+"**Game Manual 0 is generally a high level concept guide.** This means that "
+"information is given in a way that is applicable to many situations, rather "
+"than a series of steps. However, when possible we link to external "
+"documentation to plug any knowledge gaps. For example: in the electronics "
+"sections, we do not discuss how to exactly wire the robot using the REV "
+"control system, instead we link to the REV documentation for exact wiring "
+"and discuss general wiring best practices."
+msgstr ""
+"**Game Manual 0 通常是一个高水平的概念指南。** "
+"这意味着所提供的信息适用于多种情况，而不是一系列步骤。不过，在可能的情况下，我们会链接到外部文档，以填补知识空白。例如：在电子部分，我们不讨论如何使用 "
+"REV 控制系统为机器人精确布线，而是链接到 REV 文档以了解精确布线，并讨论一般布线最佳实践。"
+
+#: ../../gm0/source/docs/contributing/index.rst:37
+msgid "Getting Started Contributing"
+msgstr "开始投稿"
+
+#: ../../gm0/source/docs/contributing/index.rst:39
+msgid "Read through this document"
+msgstr "通读本文件"
+
+#: ../../gm0/source/docs/contributing/index.rst:40
+msgid "Read through the :doc:`style-guide`"
+msgstr "阅读 :doc:`style-guide` 手册"
+
+#: ../../gm0/source/docs/contributing/index.rst:41
+msgid ""
+"Review the `Project List "
+"<https://docs.google.com/document/d/1_o7SoUFs6OznR0U07-Mxr5CLdYmKN-"
+"NuU7TiQX8nL6A/edit>`_ and `GitHub issues "
+"<https://github.com/gamemanual0/gm0/issues>`_"
+msgstr ""
+"查看 \"项目列表 "
+"<https://docs.google.com/document/d/1_o7SoUFs6OznR0U07-Mxr5CLdYmKN-"
+"NuU7TiQX8nL6A/edit>`_和 \"GitHub 问题 "
+"<https://github.com/gamemanual0/gm0/issues>`_。"
+
+#: ../../gm0/source/docs/contributing/index.rst:42
+msgid "Check out the :doc:`methods-of-contributing`"
+msgstr "查看 :doc:`methods-of-contributing` 文件"

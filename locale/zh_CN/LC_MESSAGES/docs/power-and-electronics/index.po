@@ -4,17 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# wwsk2008sq, 2023
 # Shawphy, 2023
+# wwsk2008sq, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-03 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,3 +26,68 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/index.rst:2
 msgid "Electronics and Motion Components"
 msgstr "电子和运动部件"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:4
+msgid ""
+"This chapter contains information on electric power and electronics of the "
+"robot, including information on wiring, batteries, motors, and control "
+"system."
+msgstr "本章包含机器人的电力和电子信息，包括布线、电池、电机和控制系统的信息。"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:19
+msgid "Glossary"
+msgstr "术语表"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:22
+msgid "Gauge"
+msgstr "规格"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:24
+msgid ""
+"Wire gauge refers to the diameter of wire. AWG stands for American Wire "
+"Gauge, the general system used in the US. The larger the gauge number, the "
+"smaller the wire diameter. Generally, :term:`servo <Servo>` wires are 22 AWG"
+" and motor wires are 18 AWG."
+msgstr ""
+"线规是指电线的直径。AWG 代表美国线规，是美国使用的通用系统。线规数字越大，导线直径越小。一般来说， :term:`servo <Servo>` "
+"导线为 22 AWG，电机线为 18 AWG。"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:25
+msgid "Grounding Strap"
+msgstr "接地带"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:27
+msgid ""
+"The REV Grounding Strap is used to ground the metal frame of the robot to "
+"the :term:`XT30` port of the Expansion Hub. It is currently the only legal "
+"way to ground your robot."
+msgstr ""
+"REV 接地带用于将机器人的金属框架与 Expansion Hub 的 :term:`XT30` 端口接地。这是目前唯一合法的机器人接地方式。"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:0
+msgid "A REV Robotics grounding strap"
+msgstr "REV 机器人接地带"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:32
+msgid "USB Retention Mount"
+msgstr "USB 固定支架"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:34
+msgid ""
+"The USB Retention Mount, sold by REV, is a plastic part affixed to the "
+"Expansion Hub that relieves stress on the USB Mini port. This is especially "
+"important because if the USB cable is loose or disconnected, the robot phone"
+" cannot communicate with the Expansion Hub, causing a disconnect."
+msgstr ""
+"由 REV 出售的 USB 固定支架是一种固定在扩展集线器上的塑料部件，可减轻 micro-USB 端口的压力。这一点尤为重要，因为如果 USB "
+"电缆松动或断开，机器人控制器就无法与 Expansion Hub 通信，从而导致断线。"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:36
+msgid ""
+"For teams using an expansion hub, it is highly recommended for teams to "
+"purchase the USB retention mount."
+msgstr "对于使用 Expansion Hub 的团队，强烈建议购买 USB 固定支架。"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:0
+msgid "A USB retention mount attached to a REV Expansion Hub"
+msgstr "连接到 REV Expansion Hub 的 USB 固定支架"
