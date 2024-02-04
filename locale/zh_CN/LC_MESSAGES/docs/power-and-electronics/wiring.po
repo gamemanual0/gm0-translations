@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
 # wwsk2008sq, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 16:14+0000\n"
+"POT-Creation-Date: 2024-02-04 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: wwsk2008sq, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr ""
 msgid ""
 "It is highly discouraged for teams to overlook wiring, but many new teams "
 "seem to disregard it or put little thought into wiring the robot properly."
-msgstr "我们非常不鼓励参赛队忽视布线工作，但许多新参赛队似乎忽视了这一点，或者很少考虑如何为机器人正确布线。"
+msgstr "我们非常不建议参赛队忽视布线工作，但许多新参赛队似乎忽视了这一点，或者很少考虑如何为机器人正确布线。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:13
 msgid ""
@@ -77,9 +77,9 @@ msgstr ""
 "已创建了一个布线指南，以帮助团队完成本指南未涉及的压接电缆、焊接连接和防静电等任务。当您在这里阅读了电子和布线方面的知识后，请查看 \"FTC 布线指南"
 " "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
-"wiring-guide.pdf>`_\"，了解最佳实践和更多技巧。此外，*FIRST*还撰写了 \"ESD缓解白皮书 "
+"wiring-guide.pdf>`_\"，了解最佳实践和更多技巧。此外，*FIRST*还撰写了 ` ESD缓解白皮书 "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
-"esd-mitigation-echin.pdf>`_\"，值得一看。"
+"esd-mitigation-echin.pdf>`_ ，值得一看。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:21
 msgid "General Advice"
@@ -137,3 +137,314 @@ msgid ""
 "**Keep all wire runs as short as possible** to prevent entanglement and "
 "improve wire management."
 msgstr "**尽可能缩短所有电线的长度**，以防止电线缠绕并改善电线管理。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:30
+msgid ""
+"**When using data/sensor cables, keep them away from motors.** This will "
+"reduce electromagnetic interference (EMI). Add a ferrite bead if possible."
+msgstr "**使用数据/传感器电缆时，应使其远离电机。** 这将减少电磁干扰 (EMI)。如有可能，请添加一个铁氧体磁珠。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:31
+msgid ""
+"**Crimped connectors are generally better than soldered connectors**, as "
+"solder joints can break easier than a crimped connection."
+msgstr "**压接连接器通常比焊接连接器**好，因为焊点比压接连接更容易断裂。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:32
+msgid ""
+"**Keep wires tucked away from moving mechanisms,** and ensure that you will "
+"not be at risk of a mechanism snagging a wire. This is a proper application "
+"of materials such as acrylic, which allow drivers to see inside the robot "
+"while keeping wires out of the way of other robots/game pieces. It is "
+"advised for teams to purchase removable velcro ties or cable ties to aid "
+"with cable management."
+msgstr ""
+"**确保电线远离移动的机械装置，**并确保不会出现机械装置卡住电线的危险。这是亚克力等材料的正确应用，既能让驾驶员看到机器人内部，又能使电线远离其他机器人/游戏部件。建议参赛队购买可拆卸的魔术贴绑带或电缆绑带来帮助管理电缆。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:33
+msgid ""
+"**For power wires, lower** :term:`gauge <Gauge>` **(larger size) wires are "
+"preferable.** This means a lower resistance across the wire and higher power"
+" throughput. This is negligible for data wires, however."
+msgstr ""
+"**对于电源线，最好使用较低** :term:`gauge "
+"<Gauge>`**（较大尺寸）的导线。**这意味着导线上的电阻较低，功率吞吐量较高。不过，这对数据线来说微不足道。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:34
+msgid ""
+"**Small wires and cables are fragile.** Treat them as such, and don't put "
+"them in an area where they will constantly be hit by another object. Larger "
+"power cables can take much more abuse."
+msgstr "**小电线和电缆很容易损坏。**请将它们视为易损坏的物品，不要将它们放在经常会被其他物体撞击的地方。较大的电源线可以承受更多的磨损。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:35
+msgid ""
+"**Ensure that your wires are kept out of pinch points** where another "
+"mechanism could sandwich the wire. This is especially important in arms or "
+"mechanisms that are hinged."
+msgstr "**确保电线远离夹点**，因为其他机械装置可能会夹住电线。这一点对于铰链式机械臂或机械装置尤为重要。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:40
+msgid "An example of poor wiring"
+msgstr "差的布线示例"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:40
+msgid "Bad example of wiring!"
+msgstr "很差的布线示例！"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rstNone
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:48
+msgid "An example of good wiring by 731"
+msgstr "队伍731 的良好布线范例"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:48
+msgid "Good example of wiring by 731 Wannabee Strange, Rover Ruckus"
+msgstr "731 Wannabee Strange、Rover Ruckus 的布线典范"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:53
+msgid "An example of good wiring by 8417"
+msgstr "队伍·8417 的良好布线范例"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:53
+msgid "Good example of wiring by 8417 'Lectric Legends"
+msgstr "队伍·8417'Lectric传奇'的良好布线范例"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:58
+msgid "An example of good wiring by 7244"
+msgstr "队伍·7244 的良好布线示例"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:58
+msgid "Good example of wiring by 7244 Out of the Box Robotics"
+msgstr "好的示例，由队伍7244 Out of the Box Robotics进行布线"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:60
+msgid ""
+"When wiring, also take the time to plan out a specific layout for your wires"
+" and how they will run throughout the robot. Take the time to lay out "
+"something like an electronics panel if necessary! When building the robot, "
+"devote adequate space to wiring. This could mean mounting a PVC pipe and "
+"running wires from the back end of the robot through it, or simply using "
+"velcro or zipties."
+msgstr ""
+"布线时，也要花时间规划出电线的具体布局，以及它们将如何贯穿整个机器人。如果有必要，还可以花时间布置类似电子面板的东西！在制作机器人时，要为布线留出足够的空间。这可能意味着要安装一个"
+" PVC 管，然后从机器人的后端穿线，或者干脆使用尼龙搭扣或拉链。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:62
+msgid ""
+"Make sure that wires are as short as possible to reduce the risk of "
+"entanglement."
+msgstr "尽量确保电线尽可能短，以减少缠绕的风险。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:64
+msgid ""
+"However, as components move out of the robot, the wires move with it. Tying "
+"down every loose inch will result in wire disconnecting. Wiring is the art "
+"of finding the perfect balance between shortest length and allowing enough "
+"freedom as mechanisms need."
+msgstr ""
+"然而，随着组件移出机器人，电线也会随之移动。将每一寸松散的电线束缚住将导致电线脱离连接。布线是在最短长度和允许机械部件需要足够自由的之间找到完美平衡的艺术。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:66
+msgid ""
+"**It is also recommended for electronics to be mounted on a nonconductive "
+"material such as wood to prevent ESD**."
+msgstr "**我们建议将电子设备安装在非导电材料上，如木材，以防止静电放电。**"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:71
+msgid "An example of good wiring on a non-conductive surface by 3736"
+msgstr "一个在非导电表面上进行良好布线的例子，由3736提供。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:71
+msgid "3736 Serious Business"
+msgstr "3736 Serious Business"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:74
+msgid "Specific Recommendations"
+msgstr "具体建议"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:77
+msgid "Module Power"
+msgstr "模块电源"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:79
+msgid ""
+"Be aware, :term:`XT30` connectors can wear out significantly faster than "
+":term:`PowerPole <Anderson PowerPole>` connectors. Additionally, because "
+":term:`XT30` connectors are soldered, they can break much easier than "
+":term:`PowerPole <Anderson PowerPole>` connections."
+msgstr ""
+"请注意，:term:`XT30`连接器的磨损速度比:term:`PowerPole <Anderson "
+"PowerPole>`连接器快得多。此外，由于:term:`XT30`连接器是焊接的，所以它们比:term:`PowerPole <Anderson "
+"PowerPole>`连接更容易断裂。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:81
+msgid ""
+"Cabling for module power should be at least 14awg, if not 12awg. Keep in "
+"mind that it must be stranded, not solid, wire."
+msgstr "模块电源的布线应至少为14awg，如果不是12awg。请记住，它必须是绞线，而不是实心线。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:84
+msgid "Motor Power"
+msgstr "电机功率"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:86
+msgid ""
+"Cabling for motor power should be between 16awg and 12awg. Again, stranded, "
+"not solid, wire."
+msgstr "电机电源的布线应该在16awg和12awg之间。同样，使用绞线而不是实心线。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:88
+msgid ""
+"Some motors (like the :term:`REV HD Hex <HD Hex Motor>` and :term:`Core Hex "
+"<Core Hex Motor>`) will have removable power connectors on the back, while "
+"other motors (like the :term:`Andymark NeveRests <NeveRest Motor>`) will "
+"have a cable permanently soldered on the back. It is much more convenient to"
+" have a connector on the back, or failing that, have a very short plug on "
+"the back of the motor. Once your wires are run and secured, taking them out "
+"won't be fun."
+msgstr ""
+"一些电机（如：term:`REV HD Hex <HD Hex Motor>`和：term:`Core Hex <Core Hex "
+"Motor>`）在背面上有可拆卸的电源连接器，而其他电机（如：term:`Andymark NeveRests <NeveRest "
+"Motor>`）在背面上有一个电缆永久焊接。在电机背面上有一个连接器或者在电机背面上有一个非常短的插头会更加方便，如果没有这样的话，一旦你的电线安装好并固定好，取出它们将不会很有趣。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:91
+msgid "Servo Wires"
+msgstr "舵机线"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:93
+msgid "Using heavy-duty extension wires are recommended."
+msgstr "推荐使用重型延长线。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:95
+msgid ""
+"Tape the connections between extension wires and servo wires with electrical"
+" tape. This is as the connections can become loose over time and are easy to"
+" pull out."
+msgstr "使用电子胶带将延长线和舵机线之间的连接点进行固定。这样做是因为连接点随着时间的推移可能会变松，并且很容易被拉出来。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:97
+msgid ""
+"The VEX Motor Controller 29 has the wrong gender connector on the 3-pin end."
+" You are required to either use an adapter cable, or add the right connector"
+" to the wires (recommended). **Be sure to protect the MC29, as it is fragile"
+" and prone to failure if it takes impact from another object**."
+msgstr ""
+"VEX Motor Controller "
+"29在3针端口上连接器的性别错误。您需要使用适配器电缆或者在线缆上添加正确的连接器（推荐）。**请务必保护MC29，因为它很脆弱，如果受到其他物体的冲击可能会导致故障**。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:100
+msgid "USB"
+msgstr "USB"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:102
+msgid ""
+"USB is generally a strong connector, but is prone to wearing out over time. "
+"Refrain from plugging/unplugging these cables more than necessary, "
+"especially on the RC/DS phones."
+msgstr "USB 通常是一种坚固的连接器，但随着时间的推移容易磨损。请避免在必要时插拔这些电缆，尤其是在遥控/DS 手机上。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:104
+msgid ""
+"USB loves strain relief. To keep disconnects low, tie down cables to leave "
+"as little loose cabling on the robot as possible."
+msgstr "USB 与夹线套的适配度相当高。为减少断开连接，应绑紧电缆，尽可能减少机器人上松动的电缆。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:107
+msgid "Sensor Wires/Encoder Wires"
+msgstr "传感器导线/编码器导线"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:109
+msgid ""
+"Sensor wires and their connectors can be incredibly fragile. Use caution "
+"when routing, and keep slack on the connector end when adding strain relief "
+"to the cable."
+msgstr "传感器电线及其连接器非常容易损坏。布线时要小心谨慎，在给电缆添加应力消除装置时，连接器端要保持松弛。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:111
+msgid ""
+"The JST data connectors on the REV Expansion Hub and Control Hub have +5v, "
+"GND, and two data pins. If you are using a digital or analog sensor that "
+"does not use I2C, you can use a Y cable that gives two sensors off of one "
+"port."
+msgstr ""
+"REV 扩展集线器和控制集线器上的 JST 数据连接器有 +5V、GND 和两个数据引脚。如果使用的是不使用 I2C 的数字或模拟传感器，则可以使用 Y"
+" 型电缆，通过一个端口连接两个传感器。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:114
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:116
+msgid "REV Grounding Strap"
+msgstr "REV 接地带"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:117
+msgid ""
+"The :term:`REV Grounding Strap <Grounding Strap>` is currently the only "
+"legal way to ground your robot. Attach the end to the metal part of your "
+"robot frame, and plug the :term:`XT30` connector end into a free "
+":term:`XT30` port on your robot."
+msgstr ""
+":term:`REV 接地带 <Grounding Strap>` 是目前唯一合法的机器人接地方式。将 :term:`XT30` "
+"接头的一端连接到机器人框架的金属部分，然后将 :term:`XT30` 接头的另一端插入机器人上空闲的 :term:`XT30` 端口。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:118
+msgid "Power distribution blocks/panels"
+msgstr "配电块/配电盘"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:119
+msgid ""
+"The REV Power Distribution Block allows teams to have more than four "
+":term:`XT30` connectors (2 on each Expansion Hub). The block can be "
+"connected to the Servo Power Module to boost voltage for servos."
+msgstr ""
+"REV 电源分配块允许团队拥有超过 4 个 :term:`XT30` 连接器（每个扩展集线器上有 2 "
+"个）。配电块可与伺服电源模块连接，为伺服器提升电压。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:120
+msgid "Dryer sheets"
+msgstr "干燥剂"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:121
+msgid ""
+"Dryer sheets can be used to wipe down the robot after every match in order "
+"to reduce static buildup. This is not directly recommended by *FIRST* or any"
+" vendor, but our empirical evidence throughout the years suggests that it "
+"helps, or at the very least, can't hurt to do so. However, dryer sheets may "
+"or may not be on the boundary of legality, as grounding the robot to the "
+"ground is illegal."
+msgstr ""
+"每次比赛结束后，可以用烘干纸擦拭机器人，以减少静电积累。这并不是*FIRST*或任何供应商的直接建议，但我们多年来的经验表明，这样做是有帮助的，至少不会有什么坏处。不过，干燥剂可能会也可能不会触犯法律，因为将机器人接地是违法的。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:122
+msgid "Staticide/static spray"
+msgstr "静电消除/静电喷雾"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:123
+msgid ""
+"Staticide is a spray that helps to keep static off of the robot. Please be "
+"sure to spray your robot before an event and not during the event."
+msgstr "Staticide 是一种喷雾剂，有助于防止机器人产生静电。请确保在比赛前而不是比赛中对机器人进行喷洒。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:128
+msgid "Common causes of static"
+msgstr "静电的常见原因"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:125
+msgid ""
+"Every single contact point of your robot to the floor will increase the "
+"amount of static buildup."
+msgstr "机器人与地面的每一个接触点都会增加静电积聚量。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:126
+msgid ""
+"Too much turning scrub (or traction when wheels try to turn). This is "
+"possible if a 4WD or 6WD (no center drop) with all traction wheels is used."
+msgstr "转弯擦痕过大（或车轮试图转弯时牵引力过大）。如果使用的是四轮驱动或六轮驱动（无中心点下降），且所有车轮都有牵引力，就有可能出现这种情况。"
+
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:127
+msgid ""
+"A conductive part dragging along the ground. For example, try not to have an"
+" intake touch the ground when the robot is moving as much as possible. Foam "
+"wheels and foam rollers are a common culprit."
+msgstr "沿地面拖动的导电部件。例如，当机器人移动时，尽量不要让进气口接触地面。泡沫轮和泡沫滚筒是常见的罪魁祸首。"

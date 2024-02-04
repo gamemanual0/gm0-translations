@@ -6,16 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # guluomagongchengshi, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-04 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,3 +56,7 @@ msgid ""
 msgstr ""
 "净空直径是包含整个滑轮、链轮或齿轮的假想圆的直径。对于滑轮和链轮，这包括部件上的皮带或链条。间隙直径用于检查是否与其他机构发生干涉。它通常大于 "
 ":term:`Pitch Diameter (PD)` 和 :term:`Outside Diameter (OD)` 。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:38
+msgid "GT2 Belt"
+msgstr "GT2 同步带"

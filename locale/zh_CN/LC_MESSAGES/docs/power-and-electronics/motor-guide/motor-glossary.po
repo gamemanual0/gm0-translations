@@ -6,15 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # Shawphy, 2023
+# HydrogenEight, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 04:15+0000\n"
+"POT-Creation-Date: 2024-02-04 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: HydrogenEight, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,3 +26,117 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:4
 msgid "Motor Glossary"
 msgstr "电机术语表"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:7
+msgid "Core Hex Motor"
+msgstr "Core Hex电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:9
+msgid ""
+"The Core Hex Motor, sold by REV, is different from the standard "
+":term:`RS-555 series motors <RS-550 Series Motor>` that are generally used "
+"by FTC\\ |reg| teams. It features a 90 degree orientation and does not "
+"contain an output shaft. Thus, teams will have to cut 5 mm hex shaft to "
+"length as needed. The Core Hex motor has a slow gear ratio (72:1), and is "
+"not as powerful as the RS-555 series motor."
+msgstr ""
+"REV 出售的 Core Hex 电机不同于 FTC | |reg| 队伍普遍使用的标准 :term:`RS-555 系列电机 <RS-550 "
+"Series Motor>`。它的特点是方向呈 90 度，不包含输出轴。因此，参赛队必须根据需要切割 5 毫米六角轴。Core Hex "
+"电机的齿轮比（72:1）较慢，功率不如 RS-555 系列电机大。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:11
+msgid ""
+"We advise teams to go against the Basic Bot Guide provided by *FIRST*\\ "
+"|reg|, as Core Hex Motors should NOT be used to power drivetrains."
+msgstr "我们建议参赛队不要使用 *FIRST*\\ |reg| 提供的《基本机器人指南》，因为 Core Hex 电机不应被用于驱动传动系统。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:0
+msgid "A REV Robotics Core Hex motor"
+msgstr "一个 REV 机器人 Core Hex 电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:16
+msgid "HD Hex Motor"
+msgstr "HD Hex电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:18
+msgid ""
+"The HD Hex motor, sold by REV Robotics, is a :term:`RS-555 series motor "
+"<RS-550 Series Motor>` with spur gear and planetary gearbox options. The "
+"motor has a 5mm hex output shaft compatible with REV's motion system."
+msgstr ""
+"REV Robotics 销售的 HD Hex 电机是一种 :term:`RS-555 系列电机 <RS-550 Series "
+"Motor>`，有正齿轮和行星齿轮箱可供选择。该电机的 5 毫米六角输出轴与 REV 运动系统兼容。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:0
+msgid "A REV Robotics HD Hex motor"
+msgstr "一个 REV Robotics HD Hex 电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:23
+msgid "NeveRest Motor"
+msgstr "NeveRest 电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:25
+msgid ""
+"The NeveRest Motor, sold by AndyMark, is a :term:`RS-555 series motor "
+"<RS-550 Series Motor>` that is available in spur gear and planetary options."
+" It has a 6mm D-shaft output compatible with Actobotics motion system."
+msgstr ""
+"由 AndyMark 销售的 NeveRest 电机是一种 :term:`RS-555 系列电机 <RS-550 Series "
+"Motor>`，有正齿轮和行星齿轮两种选择。它有一个与 Actobotics 运动系统兼容的 6 毫米 D 轴输出。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:26
+msgid "Yellow Jacket Motor"
+msgstr "Yellow Jacket电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:28
+msgid ""
+"Yellow Jacket motors are the :term:`RS-555 series motor <RS-550 Series "
+"Motor>` and :term:`planetary gearbox <Planetary Gear>` sold by goBILDA. It "
+"has a :term:`6mm D-shaft <Shaft>` and is available in many different "
+":term:`gear ratios <Gear Reduction>` from 3.7:1 up to 188:1."
+msgstr ""
+"Yellow Jacket 电机是 goBILDA 出售的 :term:`RS-555 系列电机 <RS-550 Series Motor>` 和 "
+":term:` 行星齿轮箱 <Planetary Gear>`。它有一个 :term:`6mm D 型轴 <Shaft>` 并有多种 :term:` "
+"齿轮比 <Gear Reduction>` 从 3.7:1 到 188:1。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:0
+msgid "A Yellow Jacket motor"
+msgstr "一个Yellow Jacket电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:33
+msgid "UltraHex"
+msgstr "UltraHex"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:35
+msgid ""
+"UltraHex is 1/2\" aluminum hex :term:`shafting <Shaft>` sold by REV "
+"Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, "
+"which allows compatibility with REV's 5 mm hex shaft motion system. The 5mm "
+"hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2\" "
+"hex is also compatible with many FRC\\ |reg| vendors."
+msgstr ""
+"UltraHex 是 REV Robotics 出售的 1/2\" 铝质六角 :term:`轴系 <Shaft>`。中间有一个 5 毫米内六角 "
+":term:`bore <Bore>`，可与 REV 的 5 毫米内六角轴运动系统兼容。5 毫米内六角孔还可在其中插入 1/4-20 或 M6 "
+"螺丝。1/2 \"内六角也与许多 FRC\\ |reg|供应商兼容。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:0
+msgid "A piece of ultrahex shaft"
+msgstr "一根UltraHex轴"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:40
+msgid "RS-550 Series Motor"
+msgstr "RS-550 系列电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:42
+msgid ""
+"The RS-555 series motor is the standard motor in FTC. It forms the base for "
+"the :term:`Andymark NeveRest <NeveRest Motor>`, :term:`REV HD Hex <HD Hex "
+"Motor>`, and :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>` motors."
+msgstr ""
+"RS-555 系列电机是 FTC 的标准电机。它是 :term:`Andymark NeveRest <NeveRest "
+"Motor>`、:term:`REV HD Hex <HD Hex Motor>` 和 :term:`goBILDA Yellow Jacket "
+"<Yellow Jacket Motor>` 电机的基础。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:0
+msgid "A RS-555 motor, in the form of a bare NeveRest motor"
+msgstr "一个 RS-555 马达，采用裸 NeveRest 马达的形式"

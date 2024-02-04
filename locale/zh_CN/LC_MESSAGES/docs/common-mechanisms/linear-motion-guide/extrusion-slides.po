@@ -6,15 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 04:15+0000\n"
+"POT-Creation-Date: 2024-02-04 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,4 +25,278 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:4
 msgid "Extrusion Slides"
-msgstr "铝型材滑轨"
+msgstr "挤压滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:6
+msgid ""
+"Extrusion slides are made up of a stack of extrusions that extend by sliding"
+" along each other. There are two ways to make this happen: bushings or "
+"V-wheels. Bushing slides connect the two slides with two self-lubricating "
+"plastic pieces that slide smoothly along the slots in the extrusion. V-wheel"
+" slides have V-shaped groove bearings on both sides of the extrusion that "
+"bite intro grooves on the extrusion, allowing the stages to slide smoothly."
+msgstr ""
+"挤压滑轨由一叠挤压件组成，这些挤压件通过相互滑动而延伸。有两种方法可以实现这种效果：衬套或 V "
+"形轮。衬套滑轨用两个自润滑塑料件连接两个滑轨，这些塑料件可沿着挤出件的槽顺利滑动。V 形轮滑轨在挤出件的两侧装有 V "
+"形槽轴承，可咬合挤出件上的导槽，使各级滑轨平稳滑动。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:8
+msgid ""
+"REV, Actobotics, and goBILDA all sell extrusion slide kits that integrate "
+"nicely with existing FTC\\ |reg| kit parts. Beyond this, OpenBuilds sells a "
+"V-wheel extrusion slide kit suitable for heavier loads, and Misumi offers a "
+"few different sizes of bushing-based extrusion slides. REV furthermore sells"
+" a 8020 V-groove bearing slide kit for FRC\\ |reg|, that is not recommended "
+"for FTC use cases."
+msgstr ""
+"REV、Actobotics 和 goBILDA 都在销售挤压滑轨套件，这些套件可以很好地与现有的 FTC\\ |reg| "
+"套件部件集成。除此之外，OpenBuilds 还销售适用于较重负载的 V 轮挤压滑块套件，Misumi 则提供几种不同尺寸的套管式挤压滑块。此外，REV"
+" 还销售一种 8020 V 形槽轴承滑块套件，适用于 FRC a||reg|，但不建议用于 FTC 使用情况。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:10
+msgid ""
+"We recommend that newer teams using extrusion slides stick to kits designed "
+"for FTC instead of making their own."
+msgstr "我们建议使用挤压式滑轨的新团队坚持使用为 FTC 设计的套件，而不是自己制作。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:13
+msgid "REV Robotics 15mm Linear Motion Kit"
+msgstr "REV 机器人 15 毫米线性运动套件"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:15
+msgid ""
+"The `REV 15mm Linear Motion Kit <https://www.revrobotics.com/rev-45-1507/>`_"
+" is based on the 15mm extrusion system. **This extrusion kit does not "
+"perform well without modification.** This has been partially remedied by REV"
+" as they have developed a second iteration of their slide kit, which has "
+"much better tolerances on the Delrin sliders."
+msgstr ""
+"REV 15 毫米线性运动套件 <https://www.revrobotics.com/rev-45-1507/>`_基于 15 "
+"毫米挤压系统。**REV公司开发了第二代滑动套件，该套件的 Delrin 滑块公差更小，因此部分弥补了这一缺陷。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:17
+msgid ""
+"Still, you'll see some competitive teams use this kit with multiple "
+"modifications, such as adding lots of lubricant and mounting the sliders "
+"differently. Teams have also 3D printed their own sliders, though this is "
+"not a great idea for teams without much 3D printing experience. One of the "
+"biggest issues with the stock REV kit is the tendency of the slides to bind."
+" Additionally, since the only thing attaching one extrusion to another is "
+"the plastic slider, the REV slides are not particularly sturdy, and require "
+"crossbeams to keep alignment."
+msgstr ""
+"不过，你还是会看到一些竞技团队在使用该套件时进行了多种改装，例如添加大量润滑剂和以不同的方式安装滑块。也有团队用 3D "
+"打印出了自己的滑块，不过对于没有太多 3D 打印经验的团队来说，这并不是一个好主意。原装 REV "
+"套件的最大问题之一是滑块容易卡住。此外，由于连接一个挤出件和另一个挤出件的唯一部件是塑料滑块，因此 REV 滑块并不特别坚固，需要横梁来保持对齐。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:19
+msgid ""
+"Overall, this kit is lightweight, simple, and cheap. It can be a good start "
+"for teams using REV and needing a linear extension, and is generally usable "
+"out of the box. However, it is not very smooth and only achieves its maximum"
+" potential when modified and tweaked."
+msgstr ""
+"总的来说，该套件轻便、简单、便宜。对于使用 REV "
+"和需要线性扩展的团队来说，它是一个良好的开端，开箱即可使用。不过，它并不十分顺畅，只有在修改和调整后才能发挥其最大潜力。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:22
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:55
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:89
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:24
+msgid "REV has complete guide on how to rig the linear slides"
+msgstr "REV 拥有关于如何安装线性滑轨的完整指南"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:25
+msgid "Easily interfaces with REV building system"
+msgstr "与 REV 系统轻松连接"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:26
+msgid "Lightweight, should be used for light/medium loads only"
+msgstr "重量轻，只能用于轻型/中型负载"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:27
+msgid "If tweaked, can be a very efficient linear slide"
+msgstr "如果加以调整，可以成为非常高效的线性滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:30
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:61
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:96
+msgid "Disadvantages"
+msgstr "劣势"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:32
+msgid "Does not perform well out of the box"
+msgstr "在箱子外面的使用场景下表现并不好"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:33
+msgid "Can flex under load, needs additional support"
+msgstr "在负载下会弯曲，需要额外的支撑"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:34
+msgid "May need some modifications such as custom sliders"
+msgstr "可能需要一些修改，如定制滑块"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rstNone
+msgid "11115 Gluten Free's Rover Ruckus robot with slides extended"
+msgstr "11115 Gluten Free的 Rover Ruckus 机器人，滑轨已加长"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:42
+msgid "11115 Gluten Free's custom Rev slider"
+msgstr "11115 Gluten Free 的定制 Rev 滑块"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:42
+msgid "11115 Gluten Free, Rover Ruckus, custom REV slides"
+msgstr "11115 Gluten Free，Rover Ruckus的定制 REV 滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:47
+msgid "8680 Kraken-Pinion's Rover Ruckus robot with slides extended"
+msgstr "8680 Kraken-Pinion 的 Rover Ruckus 机器人，滑轨已展开"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:47
+msgid "8680 Kraken-Pinion, Rover Ruckus, REV slides"
+msgstr "8680 Kraken-Pinion，Rover Ruckus，REV 滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:50
+msgid "OpenBuilds Mini V Gantry Kit"
+msgstr "OpenBuilds Mini V “龙门”式套件"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:52
+msgid ""
+"The `OpenBuilds Mini V Gantry Kit <https://openbuildspartstore.com/mini-v-"
+"gantry-kit/>`_ is designed for use with OpenBuilds' 20mm V-slot extrusion, "
+"which can be mounted to other build systems using M3 screws and sliding T "
+"nuts. OpenBuilds slides are used for high precision applications such as 3D "
+"printers and CNC machines and have a **much higher load capacity** than REV "
+"and Actobotics slides. OpenBuilds slides are also much heavier than REV and "
+"Actobotics slides, but because they are so strong they can be used in "
+"applications where two sets of lighter duty slides would otherwise be "
+"required. Out of the box, OpenBuilds slides are tailored to single-stage "
+"belt lifts, but they could easily be adapted to work for multi-stage or "
+"string lifts given some thought and additional parts."
+msgstr ""
+"OpenBuilds 迷你 V  “龙门”式套 <https://openbuildspartstore.com/mini-v-gantry-"
+"kit/>`_专为 OpenBuilds 的 20 毫米 V 型槽挤出机而设计，可使用 M3 螺钉和滑动 T "
+"型螺母安装到其他构建系统上。OpenBuilds 幻灯片可用于 3D 打印机和数控机床等高精度应用，与 REV 和 Actobotics "
+"幻灯片相比，具有**高的承载能力。OpenBuilds 幻灯片也比 REV 和 Actobotics "
+"幻灯片重得多，但由于它们非常坚固，因此可用于需要两套轻型滑轨的应用场合。开箱即用的 OpenBuilds "
+"滑轨专为单级皮带式升降结构量身定做，但只要花点心思并增加一些部件，就能轻松地将它们改装成多级或串式升降机。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:57
+msgid "Sturdy, doesn't flex even under a lot of load"
+msgstr "坚固耐用，即使负载很大也不会弯曲"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:58
+msgid "Interfaces with most other build systems thanks to sliding T nuts"
+msgstr "通过滑动 T 型螺母，可与大多数其他构建系统连接"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:63
+msgid "Not designed for multi-stage lifts right out of the box"
+msgstr "并非设计用于箱式结构外的多级升降结果"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:64
+msgid ""
+"**Heavy**, overkill for lifting lighter objects unless precision is "
+"important"
+msgstr "**很重**，除非精度要求很高，否则对于提升较轻的物体来说较为多余。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:65
+msgid ""
+"OpenBuilds only offers M3 and M5 T nuts, although other compatible sizes "
+"might be found on Amazon or McMaster-Carr"
+msgstr "OpenBuilds 只提供 M3 和 M5型号的T 型螺母，但在亚马逊或McMaster-Carr网站上可以找到其他兼容尺寸的螺母。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:70
+msgid "4997 Masquerade's Cascade Effect robot with lift extended"
+msgstr "4997  Masquerade's Cascade Effect的机器人，并配有一个加长的升降结构"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:70
+msgid "4997 Masquerade, Cascade Effect, OpenBuilds slides"
+msgstr "4997 Masquerade's Cascade Effect 的滑轨设计"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:73
+msgid "goBILDA goRAIL"
+msgstr "goBILDA · goRAIL"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:75
+msgid ""
+"`Linear motion guides <https://www.gobilda.com/gorail-based/>`_ are "
+"goBILDA's take on linear motion using goRAIL, which is a type of extrusion "
+"compatible with V-groove bearings. Similar to a standard 8020 V-groove "
+"carriage, used in FRC, goRAIL is a lighter option that is better suited for "
+"FTC."
+msgstr ""
+"线性运动导轨 <https://www.gobilda.com/gorail-based/>`_ 是 goBILDA 使用 goRAIL "
+"实现的线性运动，goRAIL 是一种与 V 型槽轴承兼容的挤压产品。goRAIL 与用于 FRC 的标准 8020 V "
+"型槽滑块类似，是一种更轻的选择，更适合用于 FTC。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:78
+msgid "Actobotics X-rail Slide Kit"
+msgstr "Actobotics X-rail 滑动套件"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:80
+msgid "ServoCity has discontinued the Actobotics X-rail Slide Kit."
+msgstr "请注意：ServoCity 已停产 Actobotics X-rail 滑动套件。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:82
+msgid ""
+"Actobotics' `X-rail Slide Kit <https://www.servocity.com/cascading-x-rail-"
+"slide-kit>`_ works well out of the box. However, the main caveat is that the"
+" kit has a **very low maximum load (2lb. at maximum extension)**."
+msgstr ""
+"Actobotics 的 \"X 导轨滑动套件 <https://www.servocity.com/cascading-x-rail-slide-"
+"kit>`_\"开箱即用，效果很好。不过，需要注意的是，该套件的**最大负载值非常非常低（最大伸展时仅为 2 磅）**。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:84
+msgid ""
+"Teams will have to keep their designs on this kit particularly lightweight. "
+"This slide uses elastic retraction through the use of surgical tubing, which"
+" means that instead of having both an extend and return string, there is a "
+"retraction force applied at all times. This helps simplify tensioning and "
+"spooling, however, limits how fast the slide can be run. Additionally, the "
+"plastic end caps have a reputation of breaking regularly because they endure"
+" shock load every time the slide extends to maximum. 3D printed alternatives"
+" may be more sturdy than the stock end caps."
+msgstr ""
+"参赛队在设计该套件时必须特别注意保持轻巧。这种滑梯通过使用外科手术管来实现弹性回缩，这意味着在任何时候都会有一个回缩力作用在滑梯上，而不是同时有一个伸展和回缩绳。这有助于简化张紧和绕线，但也限制了滑轨的运行速度。此外，由于塑料端盖在滑块每次伸展到最大限度时都要承受冲击负荷，因此经常会损坏。3D"
+" 打印的替代品可能比原装端盖更坚固。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:86
+msgid ""
+"It is highly recommended that teams add an additional set of v-groove "
+"bearings at the end of each piece of extrusion to give each stage an "
+"additional point of support. This will increase load capacity and possibly "
+"smoothness."
+msgstr "强烈建议团队在每块挤压件的末端增加一组 V 形槽支座，为每个阶段提供额外的支撑点。这将增加承载能力，并可能提高平稳性。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:91
+msgid "Easily interfaces with Actobotics building system"
+msgstr "与 Actobotics 系统轻松连接"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:92
+msgid "Elastic retraction is a simple way to retract"
+msgstr "弹性回缩是一种简单的回缩方式"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:93
+msgid "**Should be used for light/medium loads only**"
+msgstr "**仅适用于轻型/中型负载**"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:98
+msgid "Will flex under load, needs additional support"
+msgstr "负载时会弯曲，需要额外的支撑"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:99
+msgid ""
+"Elastic retraction slows down extension speed and retraction will be slower "
+"than string retraction"
+msgstr "弹性回缩会减慢伸展速度，回缩速度将慢于绳索回缩速度"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:104
+msgid "12599 Overcharged's Relic Recovery robot with relic slide extended"
+msgstr "12599  Overcharged's Relic Recovery 的机器人，文物回收滑轨已加长"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:104
+msgid "12599 Overcharged, Relic Recovery, Actobotics X-Rail slides"
+msgstr "12599  Overcharged's Relic Recovery ，Actobotics X-Rail 滑轨"

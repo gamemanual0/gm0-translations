@@ -5,16 +5,17 @@
 # 
 # Translators:
 # guluomagongchengshi, 2023
-# Shawphy, 2023
+# DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 04:15+0000\n"
+"POT-Creation-Date: 2024-02-04 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,3 +26,233 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:4
 msgid "Sensor Glossary"
 msgstr "传感器术语表"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:6
+msgid ""
+"Sensors are used in a variety of applications within FTC\\ |reg|. Sensors "
+"can give external feedback regarding the position of the robot (for example,"
+" relative to the field wall or to a vision target) or internal feedback "
+"(velocity, distance traveled, voltage, etc.). Sensors can also be used to "
+"determine the rotation of a mechanism and detect color."
+msgstr ""
+"传感器在 "
+"FTC中的应用多种多样。传感器可提供有关机器人位置的外部反馈（例如，相对于场地墙或视觉目标）或内部反馈（速度、行进距离、电压等）。传感器还可用于确定机械装置的旋转和检测颜色。"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:9
+msgid "Encoders/Potentiometers"
+msgstr "编码器/电位计"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
+msgid "Rotational"
+msgstr "旋转"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:13
+msgid "Absolute (+ Potentiometers)"
+msgstr "绝对式（+ 电位器）"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:13
+msgid ""
+"MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-"
+"cable>`_)"
+msgstr ""
+"MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-"
+"cable>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:14
+msgid ""
+"Potentiometer (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)"
+msgstr "电位器 (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
+msgid ""
+"E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-"
+"encoder-kit>`_)"
+msgstr ""
+"E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-"
+"encoder-kit>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:18
+msgid ""
+"Generic (`Sparkfun Rotary Encoder "
+"<https://www.sparkfun.com/products/9117>`_)"
+msgstr "通用 (`Sparkfun 旋转编码器 <https://www.sparkfun.com/products/9117>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:20
+msgid "Positional"
+msgstr "位置"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:20
+msgid ""
+"Linear Potentiometers Slide Pot (`Sparkfun Slide Pot "
+"<https://www.sparkfun.com/products/9119>`_)"
+msgstr ""
+"线性电位器滑动电位器（`Sparkfun 滑动电位器 <https://www.sparkfun.com/products/9119>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:23
+msgid "Contact"
+msgstr "联系"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:27
+msgid "Physical"
+msgstr "物理"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:26
+msgid ""
+"Limit Switches (`3103-0001-0001/3103-0001-0002 "
+"<https://www.gobilda.com/limit-switches/>`_)"
+msgstr ""
+"限位开关 (`3103-0001-0001/3103-0001-0002 <https://www.gobilda.com/limit-"
+"switches/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:27
+msgid ""
+"Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)"
+msgstr "通用 Endstops (`Sparkfun <https://www.sparkfun.com/products/13013>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:28
+msgid ""
+"Touch Sensor REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)"
+msgstr "触摸传感器 REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:30
+msgid "Magnetic"
+msgstr "磁性"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:30
+msgid ""
+"Hall Effect Sensor REV (`REV-31-1462 "
+"<https://www.revrobotics.com/rev-31-1462/>`_)"
+msgstr ""
+"霍尔效应传感器 REV (`REV-31-1462 <https://www.revrobotics.com/rev-31-1462/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:33
+msgid "Optical"
+msgstr "光学"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:37
+msgid "Color"
+msgstr "颜色"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:36
+msgid "Adafruit RGB"
+msgstr "Adafruit RGB"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:37
+msgid "REV Color"
+msgstr "REV 颜色"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:38
+msgid "MR Color"
+msgstr "MR 颜色"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:45
+msgid "Computer Vision"
+msgstr "计算机视觉"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:40
+msgid "Hardware"
+msgstr "硬件"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:41
+msgid "PixyCMU"
+msgstr "PixyCMU"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:45
+msgid "Software"
+msgstr "软件"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:43
+msgid "OpenCV (EasyOpenCV)"
+msgstr "OpenCV (EasyOpenCV)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:44
+msgid "Vuforia"
+msgstr "Vuforia"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:45
+msgid "TFLite"
+msgstr "TFLite"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:48
+msgid "Distance"
+msgstr "距离"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:50
+msgid "ToF"
+msgstr "ToF"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:51
+msgid "Ultrasonic"
+msgstr "超声波"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:54
+msgid "Other"
+msgstr "其他"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:60
+msgid "IMU"
+msgstr "IMU"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:57
+msgid "Accelerometer"
+msgstr "加速计"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:58
+msgid "Gyroscope"
+msgstr "陀螺仪"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:59
+msgid "Compass"
+msgstr "指南针"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:60
+msgid "Magnetometer"
+msgstr "磁力计"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:63
+msgid "Logic Level Converter"
+msgstr "逻辑电平转换器"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:65
+msgid ""
+"The old Modern Robotics system run on 5v sensor logic. The new REV Robotics "
+"system uses 3.3v. For most off the shelf sensors, this doesn't cause any "
+"problems, but for some existing FTC sensors it does. To solve this REV sells"
+" boards, called `logic level converters "
+"<https://www.revrobotics.com/rev-31-1389/>`_, that convert the sensor data "
+"to be readable by the REV hubs. The `REV Expansion Hub "
+"<https://docs.revrobotics.com/duo-control/sensors/5v-sensors#logic-level-"
+"converter>`_ guide has a chart detailing what adapters are needed for what "
+"sensors."
+msgstr ""
+"旧的 Modern Robotics 系统使用 5v 传感器逻辑。新的 REV Robotics 系统使用 3.3 "
+"伏电压。对于大多数现成的传感器来说，这不会造成任何问题，但对于某些现有的 FTC 传感器来说，就会造成问题。为了解决这个问题，REV 出售名为 "
+"\"逻辑电平转换器      <https://www.revrobotics.com/rev-31-1389/>`_\"的电路板，可将传感器数据转换为"
+" REV 集线器可读取的数据。REV Expansion Hub <https://docs.revrobotics.com/duo-"
+"control/sensors/5v-sensors#logic-level-"
+"converter>`_指南中有一张图表，详细说明了哪些传感器需要哪些适配器。"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:67
+msgid ""
+"According to REV testing, goBILDA, REV and TorqueNado motors don't need "
+"logic level converters, but only some NeveRest motors worked with no "
+"discernable reason why."
+msgstr ""
+"根据 REV 的测试，goBILDA、REV 和 TorqueNado 电机不需要逻辑电平转换器，但只有一些 NeveRest 电机可以工作，原因不明。"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:69
+msgid ""
+"It is ideal to not use logic level converters to simplify your wiring. If "
+"you need to, there is a best practice. Electrical tape the connectors on "
+"either end, this helps with static, and it keeps it from being physically "
+"disconnected. This does produce a very noticeable effect with encoders on "
+"fields with lots of static."
+msgstr ""
+"为了简化布线，最好不要使用逻辑电平转换器。如果需要，有一个最佳做法。在连接器的两端缠上电工胶带，这有助于消除静电，并防止物理断开。在有大量静电的区域使用编码器时，这确实会产生非常明显的效果。"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:71
+msgid ""
+"The second tip is to never tape over the middle or LED. The board generates "
+"a very small amount of heat, and it's very easy to overheat if it can't "
+"ventilate, also don't fully enclose it in any cases without holes."
+msgstr "第二个建议是不要在中间或 LED 上粘贴胶带。尽管电路板产生的热量非常小，但如果不能通风，依然很容易过热。"
