@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 04:15+0000\n"
+"POT-Creation-Date: 2024-02-04 04:14+0000\n"
 "PO-Revision-Date: 2023-08-04 04:15+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,4 +23,163 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:2
 msgid "Full Turrets"
-msgstr "全炮塔"
+msgstr "全方位发射结构"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:4
+msgid ""
+"Listed below are different techniques to implement a full turret. These "
+"mechanisms are commonly located at the base of a robot and rotate slide, "
+"arm, or shooter assemblies mounted to them."
+msgstr "下面列出了实现发射结构的不同技术。这些机构通常位于机器人的底部，可旋转安装在其上的滑块、机械臂或射击组件。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:7
+msgid "Lazy Susan Turrets"
+msgstr "转盘发射结构"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:9
+msgid ""
+"Lazy susan turrets are based around a type of turntable called a lazy susan,"
+" which are available off the shelf."
+msgstr "转盘发射结构以一种称为转盘的转台为基础，这种转台是买的到的的。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:12
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:41
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:63
+msgid "Advantages"
+msgstr "优势"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:14
+msgid ""
+"Lazy susans come prebuilt, meaning you don't need to design or manufacture "
+"your own platform for your turret."
+msgstr "转盘是为您制作好的，这意味着您无需为发射件设计或制造自己的平台。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:15
+msgid "Decent lazy susans are relatively cheap."
+msgstr "一个好的转盘事实上相当便宜。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:18
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:47
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:69
+msgid "Disadvantages"
+msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:20
+msgid ""
+"Lazy susans are prebuilt, meaning they're generally harder to customize than"
+" other options."
+msgstr "转盘是标准件，这意味着它们通常比其他选择更难定制。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:21
+msgid ""
+"Lazy susans aren't designed to handle lateral forces, which means that e.g. "
+"the reaction force from a shooter could damage it."
+msgstr "转盘的设计不能承受侧向力，这意味着，例如，射击件的反作用力可能会损坏转盘。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:26
+msgid "19818 Jade Innovations' Lazy Susan Turret"
+msgstr "19818 Jade Innovations' 转盘转塔"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:26
+msgid ""
+"19818 Jade Innovations, Power Play, **lazy susan turret rotating slides**"
+msgstr "19818 Jade Innovations, Power Play, **转盘发射结构 **"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:30
+msgid "Bearing Stack Turret"
+msgstr "轴承组转盘"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:32
+msgid ""
+"Bearing stacks are stacks of bearings, usually consisting of a small bearing"
+" sandwiched between two large bearings on a screw shaft or standoff. A "
+"bearing stack turret has a disc that rotates smoothly because it is tangent "
+"to the small bearing on many bearing stacks, while the bigger bearings "
+"constrain the disc vertically. Usually, the small bearing is a radial "
+"bearing, while the big bearings may be thrust or radial bearings, depending "
+"on which loads the turret experiences."
+msgstr ""
+"轴承组是轴承的组合，通常由夹在螺旋轴或支座上两个大轴承之间的一个小轴承组成。轴承堆转塔有一个圆盘，由于与许多轴承堆上的小轴承相切，圆盘可以平稳旋转，而大轴承则垂直限制圆盘。通常，小轴承是径向轴承，而大轴承可能是推力轴承或径向轴承，具体取决于转盘承受的载荷。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:38
+msgid "A sample bearing stack"
+msgstr "轴承组样本"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:38
+msgid ""
+"A sample bearing stack, with a radial bearing sandwiched between 2 thrust "
+"bearings on a shoulder screw. A plate (not pictured) rides on the radial "
+"bearing while being supported by the thrust bearings."
+msgstr "轴承组样本，一个向心轴承夹在肩螺杆上的两个推力轴承之间。一块板（图中未标出）位于径向轴承上，由推力轴承支撑。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:43
+msgid ""
+"Highly customizable, as the assembly can be designed specifically for your "
+"robot and mechanisms."
+msgstr "可高度定制，因为该组件可专门针对机器人和机械装置进行设计。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:49
+msgid ""
+"Requires a lot of design work and precision manufacturing capabilities to "
+"build."
+msgstr "这需要大量的设计工作和精密制造能力。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:50
+msgid ""
+"Many potential points of failure, though some bearing stacks can fail "
+"without the entire turret failing with redundancy."
+msgstr "潜在的故障点很多，但一些轴承组可以在不影响整个发射结构的情况下发生故障。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:55
+msgid "18219 Primitive Data's Bearing Stack Turret"
+msgstr "18219 原始数据队的轴承组转盘"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:55
+msgid "18219 Primitive Data, Ultimate Goal, **bearing stack turret**"
+msgstr "18219 原始数据，终极目标，**轴承组发射部**"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:58
+msgid "Center-Bearing Turrets"
+msgstr "中心轴承发射部"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:60
+msgid ""
+"Center-bearing turrets are based on a bearing (or bearings) coaxial with the"
+" turret's axis of rotation."
+msgstr "中心轴承发射部基于一个（或多个）与转盘旋转轴同轴的轴承。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:65
+msgid ""
+"These turrets are generally simpler than others, as they rotate similarly to"
+" any other mechanism on an axle."
+msgstr "这些发射部通常比其他发射部简单，因为它们的旋转方式与轴上的任何其他机构类似。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:66
+msgid "Do not require complex or custom-manufactured components."
+msgstr "不需要复杂或定制的组件。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:71
+msgid ""
+"If a radial bearing is used, thrust loads can cause significant problems. "
+"Thrust or x-contact bearings may be better suited for this task, especially "
+"in high load situations."
+msgstr "如果使用径向轴承，推力载荷可能会导致严重问题。推力轴承或 x 接触轴承可能更适合这项任务，尤其是在高负载情况下。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:72
+msgid ""
+"Due to a bearing being in the center, unless you buy large diameter bearings"
+" (which can be very expensive), it may be hard to pass game elements (or "
+"other things) through the center. This is often relevant for shooters, where"
+" it may be desirable to load them in any orientation."
+msgstr ""
+"由于轴承位于中心，除非购买大直径轴承（可能非常昂贵），否则可能很难将比赛道具（或其他东西）穿过中心。这通常与操作手有关，因为操作手可能希望以任何方向装载。"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:77
+msgid "16379 KookyBotz's Turret"
+msgstr "16379 KookyBotz 的发射部"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/full-turret.rst:77
+msgid ""
+"16379 KookyBotz, Freight Frenzy, **center-bearing turret using an x-contact "
+"bearing**"
+msgstr "16379 KookyBotz, Freight Frenzy, **使用 x 接触轴承的中心轴承转盘**"

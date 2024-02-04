@@ -5,16 +5,16 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-04 04:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,6 +26,16 @@ msgstr ""
 msgid "Drawer Slides"
 msgstr "抽屉滑轨"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:6
+msgid ""
+"You've *definitely* used a drawer slide before - at least two of them are "
+"mounted to almost any drawer that you've opened. Teams use these drawer "
+"slides for linear motion, often stacking them using 3D printed spacers to "
+"achieve plenty of extension."
+msgstr ""
+"你**肯定**用过抽屉滑轨--几乎所有你打开过的抽屉上都安装有至少两个抽屉滑轨。团队使用这些抽屉滑轨进行线性运动，通常使用 3D "
+"打印垫片将它们堆叠起来，以获得足够的伸展距离。"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:8
 msgid ""
 "These slides are available from a number of different vendors, and come in "
@@ -34,7 +44,7 @@ msgid ""
 "be stacked. Aluminum drawer slides, such as the MiSUMI slides, are generally"
 " the best option for teams."
 msgstr ""
-"这些滑轨有许多不同的供应商提供，而且种类繁多，因此选择合适的滑轨可能会让人不知所措。钢制抽屉滑轨很常见，但很难安装，因为它们不是用来堆叠的。铝制抽屉滑轨，如"
+"这些滑轨有许多不同的供应商提供，而且种类繁多，因此选择合适的滑轨可能会让人不知所措。钢制抽屉滑轨很常见，但很难安装，因为它们不是用来堆叠使用的。铝制抽屉滑轨，如"
 " MiSUMI 滑轨，通常是团队的最佳选择。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:10
@@ -45,7 +55,7 @@ msgid ""
 "in a `complete kit <https://www.gobilda.com/2-stage-viper-slide-kit/>`_"
 msgstr ""
 "** 我们向新团队推荐 Viper 滑轨或 MiSUMI 滑轨。** Viper 滑轨的价格便宜，与 goBILDA 产品的接口适配更好，而 "
-"MiSUMI 滑轨与 REV 产品的接口适配更好。Viper 滑轨也有 `\"完整套件\"可供购买 "
+"MiSUMI 滑轨与 REV 产品的安装孔位适配更好。Viper 滑轨也有 `\"完整套件\"可供购买 "
 "<https://www.gobilda.com/2-stage-viper-slide-kit/>`_。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:14
@@ -59,7 +69,7 @@ msgstr "当两组抽屉滑轨一起运行时，它们应面对面安装，以减
 msgid ""
 "7236 Recharged Green's Rover Ruckus robot with two sets of SAR3 slides both "
 "facing the ground on their horizontal extension."
-msgstr "7236 Recharged Green的 Rover Ruckus 机器人，拥有两套 SAR3 滑轨，都在水平延伸部分朝向地面。"
+msgstr "7236 Recharged Green的 Rover Ruckus 机器人，拥有两套 SAR3 滑轨，都在水平延伸的情况下朝向地面。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:19
 msgid "7236 Recharged Green, Rover Ruckus"
@@ -70,7 +80,7 @@ msgid ""
 "On 7236's robot, the slides are not facing each other. The sag caused by "
 "this is largely mitigated by supporting the extension at the end with omni "
 "wheels."
-msgstr "在 7236 的机器人上，滑轨不是面对面的。通过在末端使用万向轮支撑延伸部分，在很大程度上缓解了由此造成的下垂。"
+msgstr "在 7236 的机器人上，滑轨不是面对面的。但通过在末端使用万向轮支撑延伸部分，在很大程度上缓解了由此造成的下垂。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:0
 msgid ""
@@ -95,7 +105,7 @@ msgstr "以下是推荐的抽屉滑轨。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:33
 msgid "Steel-rolled cabinet drawer slides"
-msgstr "钢制橱柜式抽屉滑轨"
+msgstr "钢制橱柜抽屉滑轨"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:35
 msgid ""
@@ -108,7 +118,7 @@ msgid ""
 " the necessary parts for linear extension."
 msgstr ""
 "钢制滑轨可以在当地五金店买到，对于 FTC\\ |reg| "
-"团队来说，钢制滑梯也不失为一种好的选择，因为它们的重量足以满足大多数使用情况。不过，这种滑轨比其他铝制滑轨要重很多。此外，这些滑轨在设计上没有轴承或第二个滑轨，因为它们只包含一个标准抽屉的安装。因此，这些滑轨需要钻孔才能安装线性延伸所需的部件。"
+"团队来说，钢制滑轨也不失为一种好的选择，因为它们的重量足以满足大多数使用情况。不过，这种滑轨比其他铝制滑轨要重很多。此外，这些滑轨在设计上没有孔位安装轴承滑轮或第二个滑轨，因为它们只包含一个标准抽屉所需的的安装孔位。因此，这些滑轨需要钻孔才能安装线性延伸所需的部件。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:38
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:76
@@ -142,7 +152,7 @@ msgstr "滑动性能通常还不错，但不是非常好"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:48
 msgid "Hard to adapt to building systems"
-msgstr "难以适应仍在修建的系统"
+msgstr "难以适应仍在搭建的系统"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:49
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:88
@@ -153,10 +163,204 @@ msgstr "可能需要 3D 打印的垫片"
 msgid "MiSUMI Telescopic Slide Rails"
 msgstr "MiSUMI伸缩式滑轨"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:56
+msgid ""
+"They are also low-profile, and have a M3 mounting pattern, meaning they are "
+"easy to attach to REV components. However, MiSUMI slides have a slightly "
+"higher price point, and it is often difficult to attach one slide to the "
+"next. An easy solution is to attach the end of one slide piece to REV "
+"extrusion, and do the same with the next slide. Then attach the REV pulley "
+"bearing on the top of the extrusion piece for the string to run through."
+msgstr ""
+"它们的外形也很小巧，采用 M3 螺丝安装，这意味着它们很容易安装到 REV 套件上。不过，MiSUMI "
+"滑轨的价位略高，而且通常很难把一个滑轨接到另一个上面。一个简单的解决方案是将一个滑轨的末端连接到 REV 铝挤压型材上，然后将下一个滑轨也这样做。然后将"
+" REV 滑轮轴承安装在铝型材的顶部，让绳子穿过。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:58
+msgid ""
+"To save space, some teams have 3D printed an insert that goes between each "
+"slide instead of using the 15mm extrusion piece. In order to attach the "
+"slides to anything, teams will need to purchase **countersunk M3 screws** "
+"from McMaster-Carr. For attaching to REV extrusion, buy 6mm M3 screws with "
+"the M3 nut (**not locknut**) to insert inside the extrusion. As a tip, try "
+"to protect chips or sawdust from falling into the slides, as the sliding "
+"will have a noticeable difference."
+msgstr ""
+"为了节省空间，一些团队用 3D 打印技术在每个滑块之间制作了一个插入件，而不是使用 15 毫米宽的铝挤压型材。为了将滑轨固定到任何东西上，团队需要从 "
+"McMaster-Carr 购买 ** M3 沉头螺丝**。如果要固定到 REV 挤压件上，则需要购买 6 毫米 M3 螺丝，并将 M3 "
+"螺母（**不是防松螺母**）插入挤压件内部。提示：尽量防止切屑或锯末落入滑轨，这会导致滑轨变得不顺滑"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:60
+msgid ""
+"MiSUMI sells two different types of slides: SAR2 and SAR3. The SAR2 is a "
+"two-piece slide, while the the SAR3 is a three-stage slide (has intermediate"
+" slider to increase the extension of the slide). Teams have used both "
+"successfully, and there isn't neither option is clearly superior."
+msgstr ""
+"MiSUMI 销售两种不同类型的滑轨：SAR2 和 SAR3。SAR2 是一种二段式滑轨，而 SAR3 "
+"是一种三段式滑轨（具有中间段，可增加滑轨的延伸长度至约原长度的一倍）。我们的团队已经成功地使用了这两种滑轨，并没有明显的优劣之分。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:62
+msgid ""
+"Teams using SAR3 slides will generally need to buy low profile M3 jam nuts "
+"from McMaster-Carr to connect the slides together. These nuts fit inside the"
+" slides with a tiny bit of clearance when tightened."
+msgstr ""
+"使用 SAR3 滑轨的参赛队通常需要从 McMaster-Carr 购买低矮型 M3 "
+"防松螺母来将滑轨连接在一起。拧紧时，这些螺母与滑轨内部有微小的间隙。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:67
+msgid "A 3 stage lift using SAR2 slides and a 2 stage lift using SAR3 slides"
+msgstr "使用 SAR2 滑轨的 3 级伸缩结构和使用 SAR3 滑轨的 2 级伸缩结构"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:67
+msgid ""
+"Left: cross section of a 3 stage lift using 3D printed inserts (blue) and "
+"SAR2 slides; right: cross section of a 2 stage lift using a 3D printed "
+"insert and SAR3 slides. The left approach is also used for Long Robotics "
+"slides (discussed below)."
+msgstr ""
+"左图：使用 3D 打印嵌入件（蓝色）和 SAR2 滑轨的 3 级伸缩结构横截面图；右图：使用 3D 打印嵌入件和 SAR3 滑轨的 2 "
+"级伸缩结构横截面图。左边的方法也用于Long Robotics滑轨（下文将讨论）。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:69
+msgid "Rail length Options:"
+msgstr "滑轨的长度选项："
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:71
+msgid "200 mm, part number SAR220 (SAR2) or SAR320 (SAR3)"
+msgstr "200毫米，零件号SAR220（SAR2）或SAR320（SAR3）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:72
+msgid "300 mm, part number SAR230 (SAR2) or SAR330 (SAR3)"
+msgstr "300毫米，零件号SAR230（SAR2）或SAR330（SAR3）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:73
+msgid "400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)"
+msgstr "400毫米，零件号SAR240（SAR2）或SAR340（SAR3）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:78
+msgid "Best slide smoothness due to ball bearings"
+msgstr "滚珠轴承带来最佳的滑动顺滑度"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:80
+msgid "Can handle relatively heavy load use cases (within reason)"
+msgstr "可处理相对较重负载的工况（在合理范围内）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:81
+msgid "Compatible with REV 15mm extrusion system"
+msgstr "与 REV 15 毫米搭建体系兼容"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:86
+msgid "Not cheap"
+msgstr "不便宜"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:87
+msgid "Tricky to adapt if not using REV"
+msgstr "如果不使用 REV搭建体系，适应起来很困难"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:89
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:139
+msgid ""
+"Steel ball bearings wear into the aluminum rails over time, introducing play"
+msgstr "随着时间的推移，钢珠轴承会磨损铝制导轨，从而产生虚位"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:92
+msgid "Viper Slides"
+msgstr "goBILDA Viper 滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:94
+msgid ""
+"`goBILDA Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-"
+"carriage-336mm-length-244mm-travel/>`_ are a relatively new addition to the "
+"goBilda ecosystem. They are COTS steel drawer slides that can be purchased "
+"in `a kit with all the parts needed to assemble and rig them right away "
+"<https://www.gobilda.com/2-stage-viper-slide-kit/>`_."
+msgstr ""
+"goBILDA Viper 滑轨 <https://www.gobilda.com/steel-viper-slide-14-ball-"
+"carriage-336mm-length-244mm-travel/>`_是 goBilda 生态中相对较新的产品。它们是 COTS "
+"钢制抽屉滑轨，可在 \"套件 \"中购买，其中包含立即组装和安装所需的所有零件<https://www.gobilda.com/2-stage-"
+"viper-slide-kit/>`_。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:101
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:130
+msgid "Slide are smooth due to ball bearings"
+msgstr "采用滚珠轴承，滑动顺滑"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:102
 msgid "Compatible with goBILDA ecosystem"
 msgstr "与 goBILDA 生态兼容"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:103
+msgid ""
+"Steel slides can handle more load (can use one set of slides instead of two "
+"in many situations)"
+msgstr "钢制滑轨可承受更大的载荷（在许多情况下可使用一组滑轨而不是两组滑轨）"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:104
+msgid ""
+"Available in a kit with everything you need to start using in one purchase"
+msgstr "套装中包含一次购买即可开始使用的所有零件"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:115
 msgid "Long Robotics Slides"
 msgstr "Long Robotics 滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:117
+msgid ""
+"Due to the tendency of the endstops to fail, as well as inconsistent jamming"
+" issues on the slides, Long Robotics slides are no longer recommended to "
+"purchase"
+msgstr "由于末端限位装置容易失效，以及滑轨出现随机的卡顿问题，因此现已不再建议购买 Long Robotics 滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:119
+msgid ""
+"The `Long Robotics <https://longrobotics.com/>`_ slides are also used by "
+"teams because they are almost as smooth as MiSUMI slides due to the ball "
+"bearing system but slightly cheaper."
+msgstr ""
+"Long Robotics <https://longrobotics.com/>`_滑轨也被参赛队使用，因为它采用滚珠轴承系统，几乎与 MiSUMI "
+"滑轨一样顺滑，但价格略低。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:125
+msgid ""
+"These are available in both a `300 mm rail length option "
+"<https://longrobotics.com/product/lrs-300-aluminum-slide-300mm-black-"
+"anodized/>`_ and `400 mm rail length option "
+"<https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-"
+"anodized/>`_."
+msgstr ""
+"这些滑轨有长度为 300 毫米的 <https://longrobotics.com/product/lrs-300-aluminum-"
+"slide-300mm-black-anodized/>`_和长度为 400 毫米的 "
+"<https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-"
+"anodized/>`_。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:131
+msgid "Compatible with goBILDA channel"
+msgstr "与 goBILDA 生态兼容"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:132
+msgid "Cheaper than MiSUMI slides"
+msgstr "比 MiSUMI滑轨便宜"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:137
+msgid ""
+"3D Printed spacers are almost required; while other solutions exist, 3D "
+"Printed spacers are the simplest and lowest-risk"
+msgstr "3D 打印垫片几乎是必需的；虽然存在其他解决方案，但 3D 打印垫片是最简单、风险最低的解决方案"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:138
+msgid ""
+"Can be difficult to mount to kit systems which aren't :term:`extrusion "
+"<Extrusion>` based or don't have holes spaced at 8 mm apart"
+msgstr "可能难以安装到非 :term:`extrusion <Extrusion>` 型或孔距不是 8 毫米的套件系统上。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:140
+msgid ""
+"The endstops on the slides have been known to fail, spilling ball bearings "
+"out of the slide onto the field"
+msgstr "众所周知，滑轨上的限位装置会发生故障，导致滚珠轴承从滑轨中溢出，掉落到赛场上。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:141
+msgid "Slides have been known to seize and jam on occasion"
+msgstr "滑轨有时会卡住或卡死"
