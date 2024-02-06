@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 04:14+0000\n"
+"POT-Creation-Date: 2024-02-06 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -21,3 +21,207 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:2
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:7
+msgid "Direct Drive"
+msgstr "Transmisión Directa"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:4
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:17
+msgid "Term"
+msgstr "Término"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:9
+msgid ""
+"Powering a mechanical part (most commonly a drive wheel) directly from the "
+"motor axis. Many new and inexperienced teams will use this method to power "
+"their drivetrain as it is the simplest way to do so. However, there are "
+"significant drawbacks to this method."
+msgstr ""
+"Accionar una pieza mecánica (normalmente una rueda motriz) directamente "
+"desde el eje del motor. Muchos equipos nuevos e inexpertos utilizarán este "
+"método para alimentar su chasis, ya que es la forma más sencilla de hacerlo."
+" Sin embargo, este método presenta importantes inconvenientes."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:11
+msgid ""
+"Direct drive puts unnecessary load on the drive motor. This is because shock"
+" loads can destroy gearboxes, even :term:`planetary gearboxes <Planetary "
+"Gear>`. Gearboxes are able to withstand load along the axis of rotation, "
+"such as what occurs when the wheel changes direction. This is a normal "
+"situation of load. However, in direct drive, the gearbox shaft can be "
+"exposed to other shock loads outside of the normal axis. This happens when "
+"the wheel comes into contact with another robot or the field wall, which "
+"honestly happens more than you'd think. This can bend the motor shaft or "
+"permanently damage the gearbox."
+msgstr ""
+"La transmisión directa impone una carga innecesaria al motor de transmisión."
+" Esto se debe a que las cargas de choque pueden destruir las cajas de "
+"engranajes, incluso las :term:`cajas de engranajes planetarias <Planetary "
+"Gear>`. Las cajas de engranajes pueden soportar cargas a lo largo del eje de"
+" rotación, como las que se producen cuando la rueda cambia de dirección. "
+"Ésta es una situación normal de carga. Sin embargo, en la transmisión "
+"directa, el eje de la caja de engranajes puede estar expuesto a otras cargas"
+" de choque fuera del eje normal. Esto ocurre cuando la rueda entra en "
+"contacto con otro robot o con la pared del campo, lo que honestamente ocurre"
+" más de lo que se piensa. Esto puede doblar el eje del motor o dañar "
+"permanentemente la caja de engranajes."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:13
+msgid ""
+"It also limits the :term:`gear ratio <Gear Reduction>` to whatever ratio the"
+" motor gearbox is at. One advantage of all the other three transmission "
+"systems is the ability to gear up or down, based on a team's needs. Direct "
+"drive cannot do so, and if your drivetrain uses 40:1 gearboxes, there is no "
+"way to reduce this ratio to a faster 20:1 gearbox, for example."
+msgstr ""
+"También limita la :term:`relación de engranes <Gear Reduction>` a la "
+"relación que tenga la caja de engranajes del motor. Una de las ventajas de "
+"los otros tres sistemas de transmisión es la posibilidad de aumentar o "
+"reducir la velocidad en función de las necesidades del equipo. La "
+"transmisión directa no puede hacerlo, y si tu transmisión utiliza cajas de "
+"cambios de 40:1, no hay forma de reducir esta relación a una caja de cambios"
+" más rápida de 20:1, por ejemplo."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:15
+msgid ""
+"Motor shafts are not built to carry large amounts of downward load. This can"
+" lead to bending of the motor shaft, since in direct drive the shaft is only"
+" supported by one side, the gearbox. Generally, a principle among all "
+"engineers is to support the shaft on both sides, which isn't possible in "
+"this case. This leads to :term:`cantilevering <Cantilever>` the shaft, "
+"something that should be avoided in general. Thus, with a heavy robot the "
+"motor shafts can easily be bent due to a lack of support. (While typically "
+"it is impossible to support a motor shaft on both ends, it is a common rule "
+"of thumb to have dual support on wheels or other non-motor shafts.)"
+msgstr ""
+"Los ejes del motor no están diseñados para soportar grandes cargas "
+"descendentes. Esto puede provocar la flexión del eje del motor, ya que en la"
+" transmisión directa el eje sólo se apoya en un lado, la caja de engranajes."
+" Generalmente, un principio entre todos los ingenieros es apoyar el eje en "
+"ambos lados, lo que no es posible en este caso. Esto conduce al "
+":term:`voladizo <Cantilever>` del eje, algo que debería evitarse en general."
+" Así, con un robot pesado los ejes del motor pueden doblarse fácilmente "
+"debido a la falta de apoyo. (Aunque normalmente es imposible apoyar un eje "
+"de motor en ambos extremos, es una regla común tener doble apoyo en las "
+"ruedas u otros ejes no motores)."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:20
+msgid "Cantilever"
+msgstr "Voladizo"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:22
+msgid ""
+"A cantilever refers to when an object (usually a :term:`shaft <Shaft>`) is "
+"only supported on one side. While this provides theoretically less support, "
+"as long as the shaft is still supported at two points by :term:`bearings "
+"<Ball Bearing>` or :term:`bushings <Bushing>`, cantilever is still a sound "
+"building technique. Many drivetrains are cantilevered, which provides for "
+"easy access to wheels."
+msgstr ""
+"Se habla de voladizo cuando un objeto (normalmente un :term:`eje <Shaft>`) "
+"sólo está apoyado en un lado. Aunque en teoría esto proporciona menos apoyo,"
+" siempre que el eje siga apoyado en dos puntos sobre :term:`cojinetes <Ball "
+"Bearing>` o :term:`empotramientos <Bushing>`, el voladizo sigue siendo una "
+"buena técnica de construcción. Muchos chasises son en voladizo, lo que "
+"facilita el acceso a las ruedas."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:24
+msgid ""
+"Supporting a shaft on both sides is theoretically more structurally sound, "
+"although in most cases you won't notice a difference."
+msgstr ""
+"Apoyar un eje en ambos lados es teóricamente más sólido desde el punto de "
+"vista estructural, aunque en la mayoría de los casos no se notará la "
+"diferencia."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:0
+msgid "Sanford's cantilever 6WD prototype"
+msgstr "Prototipo 6WD en voladizo de Sanford"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:29
+msgid "Sanford's Prototype"
+msgstr "Prototipo de Sanford"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:32
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:34
+msgid "Saves space"
+msgstr "Ahorra espacio"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:35
+msgid "Easy to build; most simple form of transmission"
+msgstr "Fácil de construir; la forma de transmisión más sencilla"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:38
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:40
+msgid "Prone to shock loads which destroy the gearbox"
+msgstr "Propensos a cargas de choque que destruyen la caja de engranajes"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:41
+msgid "Limited gear ratio to the motor itself"
+msgstr "Relación de transmisión limitada al propio motor"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:42
+msgid "Wears the gearbox of the motor faster"
+msgstr "Desgasta más rápido la caja de engranajes del motor"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:43
+msgid "Can bend the motor shaft"
+msgstr "Puede doblar el eje del motor"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rstNone
+msgid ""
+"A drivetrain with the wheel directly driven, but with an externally "
+"supported shaft"
+msgstr ""
+"Una chasis con la rueda accionada directamente, pero con un eje apoyado "
+"externamente."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:48
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:62
+msgid "11316, Weapons of Mass Construction"
+msgstr "11316, Weapons of Mass Construction"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:50
+msgid ""
+"*Outside* Supported Direct Drive (**Preferred Version of Direct Drive**)"
+msgstr ""
+"*Exterior* Compatible con Transmisión Directa (**Versión preferida de "
+"Transmisión Directa**)"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rstNone
+msgid ""
+"A drivetrain with the wheel directly driven, but with an internally "
+"supported shaft"
+msgstr ""
+"Un chasis con la rueda accionada directamente, pero con un eje apoyado "
+"internamente."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:55
+msgid "Ethan Doak"
+msgstr "Ethan Doak"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:57
+msgid ""
+"*Inside* Supported Direct Drive (**Preferred Version of Direct Drive**)"
+msgstr ""
+"*Dentro* Compatible con Transmisión Directa (**Versión preferida de "
+"Transmisión Directa**)"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rstNone
+msgid ""
+"A drivetrain with the wheel direct mounted, but with an unsupported shaft"
+msgstr ""
+"Una transmisión con la rueda montada directamente, pero con un eje sin "
+"soporte."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:64
+msgid "Unsupported Direct Drive (**not recommended**)"
+msgstr "Transmisión Directa no compatible (**no recomendado**)"
