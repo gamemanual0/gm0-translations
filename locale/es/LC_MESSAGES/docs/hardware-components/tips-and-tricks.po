@@ -5,18 +5,200 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 04:16+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:4
+msgid "Tips and Tricks"
+msgstr "Trucos y consejos"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:6
+msgid ""
+"Below is a collection of tips and tricks on basic building. Some of them may"
+" seem obvious, but almost every FTC\\ |reg| newbie made these mistakes at "
+"least once."
+msgstr ""
+"A continuación encontrarás una recopilación de consejos y trucos sobre "
+"construcción básica. Algunos de ellos pueden parecer obvios, pero casi todos"
+" los novatos FTC\\ |reg| cometieron estos errores al menos una vez."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:8
+msgid ""
+"**Color code your tools**. If you are using several different sizes of hex "
+"drivers (e.g. 2.5 mm and 3 mm used in goBILDA), color code them, using "
+"different color electric tape for different sizes."
+msgstr ""
+"**Codifique por colores sus herramientas**. Si utiliza varios tamaños "
+"diferentes de destornilladores hexagonales (por ejemplo, los de 2,5 mm y 3 "
+"mm utilizados en goBILDA), codifíquelos por colores, utilizando cinta "
+"aislante de distinto color para los diferentes tamaños."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:9
+msgid ""
+"**Avoid set screws**. :term:`Set screws <Set Screw>` easily come loose, "
+"causing the hub to slip. In addition, :term:`set screws <Set Screw>` damage "
+"the :term:`axle <Shaft>`, sometimes making it very hard to remove the hub "
+"later. For these reasons, whenever possible, use :term:`clamping hubs "
+"<Clamping Hub>` and collars instead of :term:`set screw <Set Screw>` ones. "
+"If you must use set screw hubs, use a non-permanent threadlocker such as "
+"`Loctite blue <https://www.loctiteproducts.com/en/products/specialty-"
+"products/specialty/loctite_threadlockerblue242.html>`_ to prevent them from "
+"loosening."
+msgstr ""
+"**Evite los tornillos de fijación**. :term:`Tornillos de fijación <Set "
+"Screw>` se aflojan con facilidad, haciendo que el buje patine. Además, los "
+":term:`tornillos de fijación <Set Screw>` dañan el :term:`eje <Shaft>`, "
+"haciendo a veces muy difícil desmontar el buje posteriormente. Por estas "
+"razones, siempre que sea posible, utilice :term:`ejes de apriete <Clamping "
+"Hub>` y collarines en lugar de :term:`tornillos de fijación <Set Screw>`. Si"
+" no tiene más remedio que utilizar bujes con tornillos de fijación, utilice "
+"un fijador de roscas no permanente como `Loctite blue "
+"<https://www.loctiteproducts.com/en/products/specialty-"
+"products/specialty/loctite_threadlockerblue242.html>`_ para evitar que se "
+"aflojen."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:10
+msgid ""
+"**Only use locknuts**. Never use regular nuts in your builds - they easily "
+"come loose under vibration. Kep nuts used in TETRIX are better, but they are"
+" still prone to loosening. For best results, always use :term:`nylon "
+"locknuts <Locknut>`."
+msgstr ""
+"**Utilice sólo tuercas de seguridad**. Nunca utilice tuercas normales en sus"
+" construcciones - se aflojan fácilmente bajo vibración. Las tuercas Kep "
+"utilizadas en TETRIX son mejores, pero siguen siendo propensas a aflojarse. "
+"Para obtener los mejores resultados, utilice siempre :term:`tuercas de nylon"
+" <Locknut>`."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:11
+msgid ""
+"**Do not use socket head screws on plastic**. Using socket head screws for "
+"attaching plastic parts (in particular, for attaching servos) damages the "
+"plastic. Use button head screws instead, or use socket head screws with "
+"washers."
+msgstr ""
+"**No utilice tornillos de cabeza hueca en plástico**. El uso de tornillos de"
+" cabeza hueca para fijar piezas de plástico (en particular, para fijar "
+"servos) daña el plástico. Utilice en su lugar tornillos de cabeza de botón o"
+" tornillos de cabeza cilíndrica con arandelas."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:12
+msgid ""
+"**Make sure screws are not hitting anything**. When you are attaching a "
+"part, make sure the screw you are using is not longer than the depth of the "
+"threaded hole - otherwise, the screw will hit the bottom of the hole and you"
+" will be unable to tighten it properly."
+msgstr ""
+"**Asegúrese de que los tornillos no golpean nada**. Cuando fije una pieza, "
+"asegúrese de que el tornillo que utiliza no es más largo que la profundidad "
+"del orificio roscado; de lo contrario, el tornillo golpeará el fondo del "
+"orificio y no podrá apretarlo correctamente."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:14
+msgid ""
+"This situation commonly happens when attaching parts to a :term:`t-slot "
+"extrusion <Extrusion>` (Misumi, REV, goBILDA's goRAIL) - if the screw is too"
+" long, it will hit the bottom of the slot, and no matter how hard you try, "
+"you won't get a tight connection. Another case when this situation arises is"
+" when using attachment blocks where two screw holes intersect - if you are "
+"not careful, you could have one screw hitting another."
+msgstr ""
+"Esta situación suele producirse al fijar piezas a una extrusión con ranura "
+"en T <Extrusion>(Misumi, REV, goRAIL de goBILDA): si el tornillo es "
+"demasiado largo, golpeará la parte inferior de la ranura y, por mucho que lo"
+" intente, no conseguirá una unión firme. Otro caso en el que se da esta "
+"situación es cuando se utilizan bloques de fijación en los que se cruzan dos"
+" orificios para tornillos: si no se tiene cuidado, un tornillo puede chocar "
+"con otro."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:15
+msgid ""
+"**Do not connect two components which both have threaded holes**. To get "
+"tight connection, the screw should go through an **unthreaded** hole in one "
+"component into a **threaded** hole in another, or through two unthreaded "
+"holes into a nut."
+msgstr ""
+"**No conecte dos componentes que tengan agujeros roscados**. Para conseguir "
+"una conexión estanca, el tornillo debe pasar por un **agujero no roscado** "
+"de un componente a un **agujero roscado** de otro, o por dos agujeros no "
+"roscados a una tuerca."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:16
+msgid ""
+"**Removing stripped screws**. A common problem is removing a screw in which "
+"the hex socket head is damaged or worn out and thus the regular hex driver "
+"doesn't provide enough holding power to loosen the screw. Here are some ways"
+" to deal with the problem."
+msgstr ""
+"**Extracción de tornillos desgastados**. Un problema común es extraer un "
+"tornillo en el que la cabeza hexagonal está dañada o desgastada y, por "
+"tanto, el destornillador hexagonal normal no proporciona suficiente fuerza "
+"de sujeción para aflojar el tornillo. He aquí algunas formas de solucionar "
+"el problema."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:18
+msgid ""
+"Get a better hex driver. Hex drivers can also be worn out, especially ball "
+"head hex drivers. Get a new hex driver (not ball head), which is not yet "
+"worn out, and it might give you more traction with stubborn screws."
+msgstr ""
+"Consiga un destornillador hexagonal mejor. Los destornilladores hexagonales "
+"también pueden desgastarse, especialmente los de cabeza esférica. Consigue "
+"un destornillador hexagonal nuevo (no de cabeza esférica), que aún no esté "
+"desgastado, y puede que te dé más tracción con tornillos rebeldes."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:19
+msgid ""
+"Put a rubber band between the tip of the hex driver and the socket. This "
+"increases the traction."
+msgstr ""
+"Coloque una goma elástica entre la punta del destornillador hexagonal y el "
+"casquillo. Esto aumenta la tracción."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:20
+msgid ""
+"Use a hacksaw or a Dremel to cut a slot in the screw head, turning it into a"
+" slotted screw that can be removed using regular flat screwdriver."
+msgstr ""
+"Utiliza una sierra para metales o una Dremel para cortar una ranura en la "
+"cabeza del tornillo, convirtiéndolo en un tornillo ranurado que pueda "
+"extraerse con un destornillador plano normal."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:21
+msgid "Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_"
+msgstr ""
+"Utilice un `extractor de tornillos <https://www.amazon.com/dp/B07GZ17QD9/>`_"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:22
+msgid "If nothing works, drill it out."
+msgstr "Si nada funciona, taládralo."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:23
+msgid ""
+"If that doesn't work, remember that a screw is not a screw if it is liquid "
+"metal. This is obviously not a very good idea. :)"
+msgstr ""
+"Si eso no funciona, recuerda que un tornillo no es un tornillo si es metal "
+"líquido. Evidentemente, no es una buena idea :)"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:25
+msgid ""
+"Needless to say, once you removed the damaged screw, discard it immediately "
+"- do not put it back in the box with other screws."
+msgstr ""
+"Ni se tiene que mencionar, una vez retirado el tornillo dañado, deséchelo "
+"inmediatamente; no lo vuelva a meter en la caja con otros tornillos."

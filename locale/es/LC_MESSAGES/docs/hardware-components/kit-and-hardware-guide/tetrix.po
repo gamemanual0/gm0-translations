@@ -5,18 +5,352 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 04:15+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:2
+msgid "TETRIX"
+msgstr "TETRIX"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:5
+msgid ""
+"TETRIX is generally not recommended due to its restricted flexibility and "
+"low long-term reliability. This page serves as historical reference for "
+"teams that have and use TETRIX parts, but there is little reason to purchase"
+" them."
+msgstr ""
+"En general, no se recomienda el TETRIX debido a su restringida flexibilidad "
+"y a su escasa fiabilidad a largo plazo. Esta página sirve como referencia "
+"histórica para los equipos que tienen y utilizan piezas TETRIX, pero hay "
+"pocas razones para comprarlas."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:7
+msgid ""
+"The TETRIX build system is a fixed pitch, channel-based building system that"
+" uses both imperial and metric units."
+msgstr ""
+"El sistema de construcción TETRIX es un sistema de construcción basado en "
+"canales de paso fijo que utiliza unidades imperiales y métricas."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:10
+msgid "Special Considerations"
+msgstr "Consideraciones especiales"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:12
+msgid ""
+"The TETRIX build system revolves around 32 mm aluminum :term:`c-channels "
+"<Channel>` and a 16mm bolt circle, on 16mm spacing (centers of the circles "
+"are 16mm apart). TETRIX is patterned along these :term:`channels <Channel>` "
+"to create many mounting options for building structures."
+msgstr ""
+"El sistema de construcción TETRIX gira en torno a unos canales :term:`c` de "
+"aluminio de 32 mm <Channel>` y un círculo de pernos de 16 mm, con un "
+"espaciado de 16 mm (los centros de los círculos están separados 16 mm). "
+"TETRIX está diseñado a lo largo de estos :term:`canales <Channel>` para "
+"crear muchas opciones de montaje para estructuras de construcción."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:13
+msgid ""
+"These channels have a tendency to flex and bend under load, often requiring "
+"reinforcement using multiple :term:`channels <Channel>` to maintain their "
+"shape."
+msgstr ""
+"Estos canales tienden a flexionarse y doblarse bajo carga, por lo que a "
+"menudo es necesario reforzarlos con varios :term:`canales <Channel>` para "
+"mantener su forma."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:14
+msgid ""
+"While TETRIX :term:`channel <Channel>` is measured in metric units, the "
+"system employs Imperial (SAE) bolts and Imperial :term:`chain <Chain>`. This"
+" mix of units means that things often don't quite line up how they're "
+"supposed to, causing unforeseen problems."
+msgstr ""
+"Aunque TETRIX :term:`canal <Channel>` se mide en unidades métricas, el "
+"sistema emplea tornillos imperiales (SAE) y cadenas imperiales<Chain>`. Esta"
+" mezcla de unidades significa que las cosas a menudo no se alinean como "
+"deberían, causando problemas imprevistos."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:15
+msgid ""
+"Additional tensioners are often required when using :term:`chain <Chain>` on"
+" TETRIX."
+msgstr ""
+"A menudo se necesitan tensores adicionales cuando se utiliza :term:`cadena "
+"<Chain>` en TETRIX."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:16
+msgid ""
+"TETRIX :term:`gears <Gear>` and :term:`sprockets <Sprocket>` offer very "
+"limited options for creating ratios. The aluminum :term:`gears <Gear>` tend "
+"to grind away very quickly, especially if they are not supported correctly "
+"on both sides."
+msgstr ""
+"TETRIX :term:`engranes<Gear>` y :term:`piñones<Sprocket>` ofrecen opciones "
+"muy limitadas para crear ratios. Los :term:`engranes<Gear>` de aluminio "
+"tienden a desgastarse muy rápidamente, sobre todo si no se apoyan "
+"correctamente en ambos lados."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:17
+msgid ""
+"Tetrix parts generally do not have the best track record for reliability and"
+" longevity due to subpar material choices."
+msgstr ""
+"Por lo general, las piezas de Tetrix no tienen el mejor historial de "
+"fiabilidad y longevidad debido a la mala elección de los materiales."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:18
+msgid ""
+"Tetrix parts are slightly overpriced and lack bang-for-your-buck value found"
+" in kits such as REV and goBILDA."
+msgstr ""
+"Las piezas de Tetrix son un poco caras y carecen de la relación calidad-"
+"precio de kits como REV y goBILDA."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:21
+msgid "Verdict"
+msgstr "Veredicto"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:23
+msgid ""
+"While you may be considering TETRIX as a starter kit, we encourage you to "
+"explore your options before selecting a kit. While Tetrix does pick up quite"
+" a lot of flak from the community, it isn't a bad choice in terms of "
+"physical qualities such as strength, but the mounting options and hole "
+"patterns leave more to be desired and restrict teams in terms of "
+"flexibility."
+msgstr ""
+"Aunque puede que estés considerando TETRIX como kit de iniciación, te "
+"animamos a que explores tus opciones antes de seleccionar un kit. Aunque "
+"Tetrix recibe bastantes críticas de la comunidad, no es una mala opción en "
+"cuanto a cualidades físicas como la resistencia, pero las opciones de "
+"montaje y los patrones de orificios dejan más que desear y restringen los "
+"equipos en términos de flexibilidad."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:26
+msgid "Kit of Parts"
+msgstr "Kit de piezas"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:28
+msgid ""
+"`Kit of Parts <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-"
+"Tech-Challenge/TETRIX-FTC-Competition-Set>`_"
+msgstr ""
+"`Kit de piezas <https://www.pitsco.com/Competitions-Clubs-and-"
+"Programs/FIRST-Tech-Challenge/TETRIX-FTC-Competition-Set>`_"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:29
+msgid ""
+"`2020-2021 Kit of Parts BoM "
+"<https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf>`_"
+msgstr ""
+"`2020-2021 Kit de Piezas BoM "
+"<https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf>`_"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:32
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:34
+msgid ""
+"The TETRIX kit, being the most basic of all kit options, is easy to learn "
+"and provides a variety of options in building. The kit itself comes with "
+":term:`c-channel <Channel>`, which is aluminum shaped in a C. It has pre-cut"
+" holes so motors, :term:`gears <Gear>`, or :term:`drive shafts <Shaft>` can "
+"be seamlessly integrated into the channel. For a beginner team with little "
+"to no experience, a TETRIX kit allows you to assemble a working drivetrain "
+"in a couple of hours (Note: Most other kits allow you to do the same thing, "
+"but with more customization options)."
+msgstr ""
+"El kit TETRIX, siendo el más básico de todas las opciones de kit, es fácil "
+"de aprender y proporciona una variedad de opciones en la construcción. El "
+"kit en sí viene con :term:`c-canal <Channel>`, que es aluminio en forma de "
+"C. Tiene agujeros precortados para que los motores, :term:`engranes <Gear>`,"
+" o :term:`ejes <Shaft>` se puedan integrar perfectamente en el canal. Para "
+"un equipo de principiantes con poca o ninguna experiencia, un kit TETRIX "
+"permite montar un chasis funcional en un par de horas (Nota: La mayoría de "
+"los demás kits permiten hacer lo mismo, pero con más opciones de "
+"personalización)."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:35
+msgid ""
+"Furthermore, TETRIX is decent in terms of structural integrity, as long as "
+"the channels are loaded in the correct orientation. Typically, the "
+"orientation should be like an \"n\", with the top face upward. Connecting "
+"the channels with :term:`locknut <Locknut>` instead of regular nuts aids in "
+"longevity. However, TETRIX is the weakest of the build systems and is very "
+"prone to bending, especially with long pieces of channel that have multiple "
+"axes of load."
+msgstr ""
+"Además, TETRIX es decente en términos de integridad estructural, siempre que"
+" los canales se carguen con la orientación correcta. Normalmente, la "
+"orientación debe ser como una \"n\", con la cara superior hacia arriba. La "
+"conexión de los canales con :term:`tuercas de seguridad<Locknut>` en lugar "
+"de tuercas normales contribuye a la longevidad. Sin embargo, TETRIX es el "
+"más débil de los sistemas de construcción y es muy propenso a la flexión, "
+"especialmente con piezas largas de canal que tienen múltiples ejes de carga."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:36
+msgid ""
+"It is simple to build basic mechanisms such as an arm using the gears and "
+"d-shaft. However, there are potential drawbacks to doing so."
+msgstr ""
+"Es sencillo construir mecanismos básicos, como un brazo, utilizando los "
+"engranajes y el eje d. Sin embargo, hacerlo puede tener sus inconvenientes."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:39
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:41
+msgid ""
+"The TorqueNADO motors are comparable with :term:`NeveRest <NeveRest Motor>` "
+"60:1. They are usable, however have more limited uses due to their slow "
+":term:`gear ratio <Gear Reduction>`, which means high torque but relatively "
+"slow output speed. The TorqueNADO uses spur gearboxes, and will not handle "
+"as much shock load as other planetary options, namely :term:`AndyMark 20 "
+"Orbitals <NeveRest Motor>`, :term:`REV HD Planetary <HD Hex Motor>`, or the "
+":term:`goBILDA Yellow Jacket Planetaries <Yellow Jacket Motor>`."
+msgstr ""
+"Los motores TorqueNADO son comparables con :term:`NeveRest <NeveRest Motor>`"
+" 60:1. Son utilizables, sin embargo tienen usos más limitados debido a su "
+"lenta :term:`relacion de engranajes <Gear Reduction>`, lo que significa un "
+"alto torque pero una velocidad de salida relativamente lenta. El TorqueNADO "
+"utiliza engranajes rectos, y no soportará tanta carga de choque como otras "
+"opciones planetarias, a saber :term:`AndyMark 20 Orbitals <NeveRest Motor>`,"
+" :term:`REV HD Planetary <HD Hex Motor>`, o el :term:`goBILDA Yellow Jacket "
+"Planetaries <Yellow Jacket Motor>`."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:42
+msgid ""
+"The aluminum gears seem to grind against each other often, even with correct"
+" spacing, and do not last very long, especially under high torque "
+"situations."
+msgstr ""
+"Los engranajes de aluminio parecen rechinar unos contra otros con "
+"frecuencia, incluso con el espaciado correcto, y no duran mucho, "
+"especialmente en situaciones de torque elevado."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:43
+msgid ""
+"TETRIX hubs are :term:`6mm or 4.7mm round <Shaft>` and are based on "
+":term:`set screws <Set Screw>` which are torque transferring. These "
+":term:`set screws <Set Screw>` are notorious for coming loose under load, so"
+" special care must be taken to continuously tighten these screws. "
+"Additionally, it is highly recommended that teams use some sort of "
+"threadlocker on set screws, whether it be :term:`Loctite Blue (removable) or"
+" Loctite Red (nonremovable) <Loctite>`. A possible workaround is purchasing "
+"6mm D :term:`clamping hubs <Clamping Hub>` from goBILDA to use on TETRIX "
+":term:`shafts <Shaft>`, however, this also necessitates the use of a pattern"
+" adapter from the goBILDA pattern to TETRIX."
+msgstr ""
+"Los hubs TETRIX son :term:`redondos de 6 mm o 4,7 mm <Shaft>` y se basan en "
+":term:`tornillos de ajuste <Set Screw>` que transfieren el par de apriete. "
+"Estos :term:`tornillos de ajuste <Set Screw>` tienen fama de aflojarse bajo "
+"carga, por lo que debe prestarse especial atención a apretar continuamente "
+"estos tornillos. Además, se recomienda encarecidamente que los equipos "
+"utilicen algún tipo de fijador de roscas en los tornillos de fijación, ya "
+"sea :term:`Loctite Blue (extraíble) o Loctite Red (no extraíble) <Loctite>`."
+" Una posible solución es comprar cubos de sujeción de 6 mm D :term:` "
+"<Clamping Hub>` de goBILDA para utilizarlos en ejes TETRIX :term:` <Shaft>`,"
+" sin embargo, esto también requiere el uso de un adaptador de patrón de "
+"goBILDA a TETRIX."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:44
+msgid ""
+"Due to using a metric based pattern but using imperial based holes and "
+":term:`chain <Chain>` standards, :term:`chain <Chain>` will not have perfect"
+" tension when running from one hole in :term:`channel <Channel>` to another."
+" An external :term:`tensioner <Idler>` will be required to implement chain "
+"systems."
+msgstr ""
+"Debido a la utilización de un patrón basado en el sistema métrico pero con "
+"orificios basados en el sistema imperial y estándares en "
+":term:`cadenas<Chain>`,  Las :term:`cadenas<Chain>` no tendrá una tensión "
+"perfecta al pasar de un orificio del :term:`canal <Channel>` a otro. Será "
+"necesario un :term:`tensionador <Idler>` externo para implementar los "
+"sistemas de cadena."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:45
+msgid ""
+"TETRIX is also the most expensive kit on average while providing the most "
+"limited build options. Finally, the tight spacing and mix of units limits "
+"teams if they would want to integrate custom parts with TETRIX."
+msgstr ""
+"TETRIX es también el kit más caro por término medio, al tiempo que ofrece "
+"las opciones de construcción más limitadas. Por último, el reducido espacio "
+"y la mezcla de unidades limitan a los equipos a la hora de integrar piezas "
+"personalizadas con TETRIX."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:46
+msgid ""
+"Set screws on TETRIX hubs can mar motor :term:`shafts <Shaft>`, and the "
+":term:`bore <Bore>` of the hub itself can enlarge, leading to a wobbly or "
+"misaligned hub."
+msgstr ""
+"Los tornillos de ajuste de los hubs TETRIX pueden estropear los :term:`ejes "
+"del motor <Shaft>`, y el :term:`taladro <Bore>` del propio hub puede "
+"agrandarse, lo que provoca que el hub se tambalee o se desalinee."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:49
+msgid "Tips for use"
+msgstr "Consejos de uso"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:51
+msgid ""
+"In any build system, it is important to properly support the structure of "
+"your robot. This includes supporting axles at two or more points of contact,"
+" or having multiple points of support for a piece of :term:`channel "
+"<Channel>`. Due to TETRIX's relatively fragile nature, this advice goes "
+"double with TETRIX. Instead of just supporting a :term:`shaft <Shaft>` at "
+"two points, it is recommended to support the :term:`shaft <Shaft>` at 4 or "
+"more (if you are using a 4.7mm standard). When mounting motors, it is "
+"recommended that :term:`two clamping motor mounts <Clamp Mounting>` are used"
+" to mount one motor. Using :term:`standoffs <Standoff>` inside "
+":term:`channel <Channel>` to prevent the :term:`channel <Channel>` from "
+"bending inward or outward is also highly recommended."
+msgstr ""
+"En cualquier sistema de construcción, es importante apoyar adecuadamente la "
+"estructura de su robot. Esto incluye apoyar los ejes en dos o más puntos de "
+"contacto, o tener múltiples puntos de apoyo para una pieza de :term:`canal "
+"<Channel>`. Debido a la naturaleza relativamente frágil de TETRIX, este "
+"consejo es doble en el caso de TETRIX. En lugar de sólo apoyar un :term:`eje"
+" <Shaft>` en dos puntos, se recomienda apoyar el :term:`eje <Shaft>` en 4 o "
+"más (si está utilizando un estándar de 4,7 mm). Al montar motores, se "
+"recomienda utilizar :term:`dos soportes de motor de sujeción <Clamp "
+"Mounting>` para montar un motor. También es muy recomendable utilizar "
+":term:`standoffs <Standoff>` dentro del :term:`canal <Channel>` para evitar "
+"que el :term:`canal <Channel>` se doble hacia dentro o hacia fuera."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rstNone
+msgid "6022 To Be Determined's Velocity Vortex Robot"
+msgstr "Robot Velocity Vortex 6022 To Be Determined"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:56
+msgid ""
+"6022 To Be Determined: Worlds Semifinalist (St. Louis), Velocity Vortex"
+msgstr ""
+"6022 To Be Determined: Semifinalista de los Mundiales (St. Louis), Velocity "
+"Vortex"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:58
+msgid ""
+"TETRIX based robots have succeeded in competition, albeit it has become "
+"rarer in recent years."
+msgstr ""
+"Los robots basados en TETRIX han tenido éxito en competición, aunque en los "
+"últimos años se ha vuelto más raro."

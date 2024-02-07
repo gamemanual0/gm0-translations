@@ -5,16 +5,16 @@
 # 
 # Translators:
 # 芷晗 李, 2023
-# DomnickJYH, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-04 16:14+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +22,44 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:2
+msgid "Motion Mounting"
+msgstr "运动安装"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:4
+msgid ""
+"When mounting a mechanism, it is important to know how to transfer power to "
+"it. There are many ways of accomplishing this using an axle."
+msgstr "在安装机械装置时，了解如何将动力传递给机械装置非常重要。有许多方法可以利用轴来实现这一目的。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:7
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:12
+msgid "Live Axle"
+msgstr "活轴"
+
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:9
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:35
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:58
 msgid "Term"
 msgstr "术语"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:14
+msgid ""
+"The simplest method of power transmission is called \"Live Axle\". In this "
+"case, the mechanism is physically mounted on a powered axle: **when the axle"
+" turns, the mechanism turns with it**. The mechanism on the axle generally "
+"is mounted to a hub or pattern adaptor which transmits power from the axle. "
+"For this reason, live axle is generally recommended when powering multiple "
+"things together on one axle."
+msgstr ""
+"最简单的动力传输方式称为 "
+"\"活轴\"。在这种情况下，机械装置实际安装在动力轴上：当轴转动时，机械装置也随之转动。轮轴上的机械装置一般安装在轮毂或模式适配器上，由轮轴传输动力。因此，当在一根轴上为多个装置提供动力时，一般建议使用活轴。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:16
+msgid ""
+"This method of power transmission is most commonly used on mechanisms that "
+"are mounted directly on a motor, as well as some mechanisms like intakes."
+msgstr "这种动力传输方式最常用于直接安装在电机上的机械装置以及一些机械装置（如吸入拾取装置）。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:19
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:43
@@ -34,8 +67,108 @@ msgstr "术语"
 msgid "Advantages"
 msgstr "优势"
 
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:21
+msgid "Simplest power transmission to build"
+msgstr "最简单的动力传输系统"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:22
+msgid "Buildable with any COTS system"
+msgstr "可与任何 COTS 系统一起构建"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:23
+msgid "Can power several mechanisms on the same axle together easily"
+msgstr "可轻松为同一轴上的多个机构提供动力"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:24
+msgid "Can be used directly off of a motor shaft"
+msgstr "可直接在电机轴上使用"
+
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:27
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:50
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:71
 msgid "Disadvantages"
 msgstr "缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:29
+msgid ""
+"Can physically take up more space (bearings needed on either side of a "
+"shaft)"
+msgstr "实际占用空间较大（轴的两侧都需要轴承）"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:30
+msgid ""
+"Usually requires some form of shaft retention to prevent the shaft from "
+"moving"
+msgstr "通常需要某种形式的轴固定装置，以防止轴移动"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:33
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:38
+msgid "Dead Axle"
+msgstr "固定轴"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:40
+msgid ""
+"Another form of power transmission is called \"Dead Axle\". In a dead axle "
+"setup, the mechanism is mounted on a fixed axle via bearings: **it is free "
+"to spin around the axle**. This method requires the power transmission to be"
+" physically bolted to the mechanism, because the axle itself will not "
+"rotate. For this reason, dead axle is generally recommended when powering "
+"one thing that is between two plates, as the axle itself can serve as a "
+"standoff to provide support between the plates."
+msgstr ""
+"另一种动力传输方式称为 "
+"固定轴。在固定轴装置中，机械装置通过轴承安装在固定轴上：它可以绕轴自由旋转。这种方法需要将动力传动装置用螺栓固定在机械装置上，因为轴本身不会旋转。因此，位于两块板之间的一个物体提供动力时，通常建议使用固定轴，因为轴本身可以作为支座，为两块板之间提供支撑。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:45
+msgid "Simple power transmission with custom building"
+msgstr "简单的电力传输与定制建筑"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:46
+msgid "Axle can be used as a standoff support between different plates"
+msgstr "车轴可用作不同板之间的支架"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:47
+msgid "Can require less parts then a live axle setup"
+msgstr "可能需要比活轴设置更少的零件"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:52
+msgid "Harder to transmit power over a long shaft"
+msgstr "很难通过长轴传递能量"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:53
+msgid "Usually limited to powering mechanisms between two parallel plates"
+msgstr "通常仅限于两个平行板之间的动力机构"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:56
+msgid "Zombie Axle (Coaxial)"
+msgstr "僵尸轴（同轴）"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:61
+msgid "Zombie Axle"
+msgstr "僵尸车轴"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:63
+msgid ""
+"Zombie axle is when one shaft serves as a dead axle for one mechanism and a "
+"live axle for another mechanism. This means **one mechanism is mounted on "
+"the shaft via bearings, but the shaft is free to rotate independently to "
+"power a second mechanism**. This setup can be used to transmit power to two "
+"things using the same revolution point, making it easy to power mechanisms "
+"like arms with intakes, or suspension drivetrain pods. Zombie Axle is only "
+"recommended when two mechanisms must be powered coaxially to each other."
+msgstr ""
+"僵尸轴是指一个轴作为一个机构的死轴和另一个机构的活轴。这意味着一个机构通过轴承安装在轴上，但轴可以自由独立旋转以为第二个机构提供动力这种设置可用于使用相同的转点将动力传递给两个物体，从而很容易为带进气口的手臂或悬挂传动系统吊舱等机构提供动力。只有当两个机构必须相互同轴供电时，才建议使用僵尸轴。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:68
+msgid ""
+"Only power transmission method that can power two mechanisms on the same "
+"revolution point"
+msgstr "唯一能在同一旋转点为两个机构提供动力的动力传输方式"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:73
+msgid "Has the disadvantages of both live and dead axle"
+msgstr "有活轴和死轴的缺点"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:74
+msgid "More mechanically complex"
+msgstr "机械上更复杂"

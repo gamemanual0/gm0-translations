@@ -5,18 +5,258 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 04:16+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:2
+msgid "Finite State Machines"
+msgstr "Máquinas de Estados Finitos"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:4
+msgid ""
+"Finite State Machines (FSM) are often used while programming in order to "
+"allow for more complex series of actions. This is especially useful when one"
+" needs multiple tasks to run at the same time, because it allows for tasks "
+"to depend on each other's execution in a non-linear fashion."
+msgstr ""
+"Las máquinas de estados finitos (FSM) se utilizan a menudo en programación "
+"para permitir series de acciones más complejas. Esto es especialmente útil "
+"cuando se necesita que varias tareas se ejecuten al mismo tiempo, ya que "
+"permite que las tareas dependan de la ejecución de las demás de forma no "
+"lineal."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:7
+msgid "What is a Finite State Machine?"
+msgstr "¿Qué es una máquina de estados finitos?"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:9
+msgid ""
+"The name of a finite state machine is very descriptive; it's a state "
+"machine, with a finite number of states. It can be in one state at a time, "
+"and can transition to a different state once something happens. For example,"
+" see the example of a finite state machine that's on `Wikipedia "
+"<https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-"
+"operated_turnstile>`__ because a turnstile is a great example, and it is "
+"explained very well."
+msgstr ""
+"El nombre de una máquina de estados finitos es muy descriptivo: es una "
+"máquina de estados, con un número finito de estados. Puede estar en un "
+"estado a la vez, y puede pasar a un estado diferente una vez que algo "
+"sucede. Por ejemplo, ver el ejemplo de una máquina de estado finito que está"
+" en `Wikipedia <https://en.wikipedia.org/wiki/Finite-"
+"state_machine#Example:_coin-operated_turnstile>`__ porque un torniquete es "
+"un gran ejemplo, y se explica muy bien."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:12
+msgid "Implementation"
+msgstr "Aplicación"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:15
+msgid "Naive Implementation"
+msgstr "Aplicación ingenua"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:17
+msgid ""
+"When first learning about FSMs, it is quite common for programmers to try "
+"and use them. Often times, they try to apply an FSM to their autonomous "
+"programs by segmenting their autonomous into a giant ``switch`` statement, "
+"and it often looks something like this:"
+msgstr ""
+"Cuando se aprende por primera vez sobre los FSM, es bastante común que los "
+"programadores intenten utilizarlos. A menudo, intentan aplicar un FSM a sus "
+"programas autónomos segmentando sus autónomos en una declaración ``switch`` "
+"gigante, y a menudo se parece a esto:"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:56
+msgid ""
+"This however does not really have any benefits compared to if the programmer"
+" had simply put each of the code's segments into functions, and executed "
+"them in order. In fact, often times, programmers will structure their code "
+"like this instead of splitting their code up into functions. The result is "
+"an autonomous that's more difficult to debug, and ultimately harder to fix "
+"on the fly during a competition or other time crunch."
+msgstr ""
+"Esto, sin embargo, no tiene realmente ningún beneficio en comparación con si"
+" el programador simplemente hubiera puesto cada uno de los segmentos del "
+"código en funciones, y los hubiera ejecutado en orden. De hecho, muchas "
+"veces, los programadores estructuran su código así en lugar de dividirlo en "
+"funciones. El resultado es un código autónomo que es más difícil de depurar "
+"y, en última instancia, más difícil de arreglar sobre la marcha durante una "
+"competencia o en otro momento de apuro."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:58
+msgid ""
+"If one drew out the state transition diagram for each of the states, for the"
+" autonomus above it'd be very linear, and the state transitions always occur"
+" because the section of the code finished:"
+msgstr ""
+"Si uno dibujara el diagrama de transición de estado para cada uno de los "
+"estados, para el autónomo de arriba sería muy lineal, y las transiciones de "
+"estado siempre ocurren porque la sección del código terminó:"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:81
+msgid ""
+"In fact, in many implementations, making state transitions for any other "
+"reason is often difficult because the code executes linearly and is only in "
+"a loop to rerun the switch statements. (Often times, this means the code has"
+" a hard time reacting to a stop request in the middle of autonomous.)"
+msgstr ""
+"De hecho, en muchas implementaciones, hacer transiciones de estado por "
+"cualquier otra razón es a menudo difícil porque el código se ejecuta "
+"linealmente y sólo está en un bucle para volver a ejecutar las sentencias "
+"switch. (A menudo, esto significa que el código tiene dificultades para "
+"reaccionar ante una petición de parada en medio de la ejecución autónoma)."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:83
+msgid ""
+"It is unadvisable to write code like this. If your autonomous is "
+"synchronous, it is preferable to split your code up into functions and run "
+"them in order, as this will be easier to understand and edit on the fly."
+msgstr ""
+"No es aconsejable escribir código así. Si tu autónomo es síncrono, es "
+"preferible dividir tu código en funciones y ejecutarlas en orden, ya que así"
+" será más fácil de entender y editar sobre la marcha."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:86
+msgid "Useful Implementation"
+msgstr "Aplicación útil"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:88
+msgid ""
+"FSMs are the right tool to use when a robot needs to complete multiple tasks"
+" at once; a common example of this is when a robot should have automation in"
+" teleop, but still have control over the drivetrain."
+msgstr ""
+"Los FSM son la herramienta adecuada cuando un robot debe realizar varias "
+"tareas a la vez; un ejemplo habitual es cuando un robot debe automatizarse "
+"en teleoperación, pero sigue teniendo control sobre el chasis."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:90
+msgid ""
+"Often times, teams have issues because their teleop executes in a loop and "
+"their servo logic has sleeps in it. But, we can avoid this if we write code "
+"in an **asynchronous** fashion - where instead of waiting for a task to "
+"complete before doing the next one, tasks are performed at the same time, "
+"and each task's state is checked without stopping the other tasks from "
+"executing."
+msgstr ""
+"A menudo, los equipos tienen problemas porque su teleoperación se ejecuta en"
+" bucle y su lógica de servos tiene tiempos de espera. Pero podemos evitarlo "
+"si escribimos el código de forma **asíncrona**, es decir, en lugar de "
+"esperar a que se complete una tarea para realizar la siguiente, las tareas "
+"se ejecutan al mismo tiempo y se comprueba el estado de cada tarea sin "
+"detener la ejecución de las demás."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:92
+msgid ""
+"An example of this would be that if one had a robot similar to `Gluten "
+"Free's Rover Ruckus Robot <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__, "
+"and one wanted to automate the scoring lift so that the drivers don't have "
+"to think while the bot deposits the minerals. There are two parts of the bot"
+" that are relevant to us in this exercise: the angled scoring lift, and the "
+"servo that tips the dumper so the minerals fall out. The goal is to be able "
+"to push a button, and then the bot will:"
+msgstr ""
+"Un ejemplo de esto sería que si uno tuviera un robot similar al `Gluten "
+"Free's Rover Ruckus Robot <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__, "
+"y uno quisiera automatizar el elevador de puntuación para que los "
+"conductores no tengan que pensar mientras el bot deposita los minerales. Hay"
+" dos partes del robot que son relevantes para nosotros en este ejercicio: el"
+" elevador de puntuación en ángulo, y el servo que inclina el volquete para "
+"que los minerales caigan. El objetivo es poder pulsar un botón y que el bot "
+"lo haga:"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:94
+msgid "extend the lift,"
+msgstr "extender el ascensor,"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:95
+msgid ""
+"at full lift extension, angle the mineral bucket servo to deposit the "
+"minerals,"
+msgstr ""
+"en la extensión de elevación completa, incline el servo del cucharón de "
+"minerales para depositar los minerales,"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:96
+msgid "wait for the minerals to fall out,"
+msgstr "esperar a que se caigan los minerales,"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:97
+msgid "reset the servo to the original position"
+msgstr "restablecer el servo a la posición original"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:98
+msgid "retract the lift"
+msgstr "retraer el ascensor"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:100
+msgid ""
+"If the drivers press a specific other button, we will stop executing the "
+"actions above as a failsafe - in case the robot is breaking somehow and the "
+"drivers need to take manual control. All the while, the drivers should still"
+" be able to control our drivetrain so we can make adjustments. Now, of "
+"course, this is a bit simplified (and probably not entirely what GF did), "
+"but it will do for now."
+msgstr ""
+"Si los conductores pulsan otro botón específico, dejaremos de ejecutar las "
+"acciones anteriores como medida de seguridad, por si el robot se rompe de "
+"algún modo y los conductores tienen que tomar el control manual. Mientras "
+"tanto, los conductores deberían poder seguir controlando nuestro chasis para"
+" que podamos hacer ajustes. Ahora, por supuesto, esto es un poco "
+"simplificado (y probablemente no del todo lo que hizo GF), pero servirá por "
+"ahora."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:102
+msgid ""
+"Before anything is programmed, it may be useful draw out the state diagram "
+"for this to get a better understanding of what we the robot should actually "
+"be doing. This can also add to a Control Award submission."
+msgstr ""
+"Antes de programar nada, puede ser útil dibujar el diagrama de estados para "
+"obtener una mejor comprensión de lo que el robot debería estar haciendo. "
+"Esto también puede contribuir a la presentación de un Premio de Control."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:120
+msgid ""
+"Notice how resetting the dump servo and retracting the lift share a state. "
+"That's because the robot doesn't need to wait for the servo to reset before "
+"moving the lift down; they can both happen at once."
+msgstr ""
+"Observa cómo el restablecimiento del servo de descarga y la retracción del "
+"elevador comparten un estado. Esto se debe a que el robot no necesita "
+"esperar a que el servo se restablezca antes de mover el ascensor hacia "
+"abajo; ambos pueden ocurrir a la vez."
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:122
+msgid ""
+"Now, let's get into actually implementing the code for this. In a "
+"traditional ``OpMode``, which is commonly used for teleop, code runs "
+"repeatedly in a ``loop()`` function, so instead of waiting for a state "
+"transition to happen directly, the code will repeatedly check on each "
+"``loop()`` call if it should perform a state transition. This kind of "
+"\"update our state\" pattern keeps code from blocking the rest of the "
+"``loop()`` code from running, such as the drivetrain."
+msgstr ""
+"Ahora, pasemos a implementar el código para esto. En un ``OpMode`` "
+"tradicional, que se utiliza comúnmente para teleoperación, el código se "
+"ejecuta repetidamente en una función ``loop()``, por lo que en lugar de "
+"esperar a que una transición de estado suceda directamente, el código "
+"comprobará repetidamente en cada llamada ``loop()`` si debe realizar una "
+"transición de estado. Este tipo de patrón \"actualiza nuestro estado\" evita"
+" que el código bloquee la ejecución del resto del código del ``loop()``, "
+"como el chasis."

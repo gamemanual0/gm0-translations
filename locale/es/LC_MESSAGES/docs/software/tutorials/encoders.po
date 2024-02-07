@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 04:15+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -21,3 +21,455 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:4
+msgid "Encoders"
+msgstr "Codificadores"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:7
+msgid "What Are Encoders?"
+msgstr "¿Qué son los codificadores?"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:8
+msgid ""
+"Very commonly in FTC\\ |reg|, you want to know where something is. Whether "
+"that is how many times your drivetrain wheel has rotated, what angle your "
+"arm is at, or how far your string slides have gone, rotational encoders can "
+"help you. In FTC, an encoder refers to any sensor that tracks the rotational"
+" angle of a mechanism."
+msgstr ""
+"Muy a menudo, en FTC |reg|, quieres saber dónde está algo. Ya sea cuántas "
+"veces ha girado la rueda motriz, en qué ángulo se encuentra el brazo o hasta"
+" dónde han llegado las correderas de las cuerdas, los codificadores "
+"rotacionales pueden ayudarte. En FTC, un codificador es un sensor que "
+"registra el ángulo de rotación de un mecanismo."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:10
+msgid ""
+"There are two types of encoders commonly used in FTC, relative and absolute "
+"encoders. Relative encoders are the ones covered here as they are the more "
+"common type."
+msgstr ""
+"Existen dos tipos de encóderes utilizados habitualmente en FTC, los "
+"relativos y los absolutos. Los encóderes relativos son los que se tratan "
+"aquí, ya que son los más comunes."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:13
+msgid "Relative Encoders"
+msgstr "Codificadores relativos"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:14
+msgid ""
+"Ranging from the built in encoder in every FTC legal motor to common "
+"external encoders like the REV Through Bore encoder, these encoders track "
+"the relative position of the shaft or mechanism they are attached to. **What"
+" this means is that the position output is relative to the initial position "
+"at robot power on, meaning position information is lost between power "
+"cycles**."
+msgstr ""
+"Estos codificadores, que van desde el codificador integrado en todos los "
+"motores homologados por FTC hasta codificadores externos comunes como el "
+"codificador REV Through Bore, registran la posición relativa del eje o "
+"mecanismo al que están conectados. **Lo que esto significa es que la "
+"posición de salida es relativa a la posición inicial en el encendido del "
+"robot, lo que significa que la información de posición se pierde entre los "
+"ciclos de alimentación**."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:16
+msgid ""
+"Relative encoders don't reset to zero at the beginning of OpModes! You can "
+"use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero "
+"at the beginning of an OpMode (see below)."
+msgstr ""
+"Los encoders relativos no se ponen a cero al principio de los OpModes. "
+"Puedes utilizar STOP_AND_RESET_ENCODERS para asegurarte de que tus encoders "
+"están siempre a cero al principio de un OpMode (ver más abajo)."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:18
+msgid ""
+"All relative encoders in FTC use the \"quadrature\" protocol to send "
+"position information to the expansion hub. As a result, relative encoders "
+"must be plugged into the encoder ports located near the motor ports in order"
+" to function."
+msgstr ""
+"Todos los encoders relativos del FTC utilizan el protocolo \"cuadratura\" "
+"para enviar información de posición al expansion hub. Como resultado, los "
+"encoders relativos deben conectarse a los puertos de encoder situados cerca "
+"de los puertos de motor para poder funcionar."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:21
+msgid "Terminology"
+msgstr "Terminología"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:22
+msgid ""
+"**Count**: A \"count\" (sometimes referred to as a \"tick\") refers to one "
+"increment of the encoder's position. Relative encoders report their position"
+" as a number equal to the number of \"ticks\" or \"counts\" the encoder has "
+"moved from its starting angle."
+msgstr ""
+"**Recuento**: Un \"recuento\" (a veces denominado \"tic\") se refiere a un "
+"incremento de la posición del encoder. Los encoders relativos informan de su"
+" posición como un número igual al número de \"ticks\" o \"recuentos\" que el"
+" encoder se ha movido desde su ángulo inicial."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:24
+msgid ""
+"**Counts Per Revolution**: The number of \"counts\" that an encoder reports "
+"after it has gone exactly one revolution. This value is commonly used to "
+"convert encoder \"counts\" into degrees or revolutions."
+msgstr ""
+"**Recuentos por revolución**: El número de \"conteos\" que reporta un "
+"encoder después de haber dado exactamente una revolución. Este valor se "
+"utiliza habitualmente para convertir los \"recuentos\" del encoder en grados"
+" o revoluciones."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:26
+msgid ""
+"Quadrature terminology can get very confusing! Some encoders may report "
+"\"pulses per revolution.\" One pulse can either equal 1 or 4 counts. Other "
+"encoders may report \"cycles per revolution\", which confusingly have the "
+"same acronym as counts per revolution. The best way to check is to plug the "
+"encoder into the REV Hub and turn it 1 full revolution, then check what it "
+"reports."
+msgstr ""
+"La terminología de cuadratura puede ser muy confusa. Algunos encoderes "
+"pueden informar de \"pulsos por revolución\". Un pulso puede equivaler a 1 ó"
+" 4 recuentos. Otros encoders pueden informar de \"ciclos por revolución\", "
+"que confusamente tienen el mismo acrónimo que cuentas por revolución. La "
+"mejor manera de comprobarlo es enchufar el encoder al REV Hub y girarlo 1 "
+"revolución completa, luego comprobar lo que informa."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:29
+msgid "Programming Encoders"
+msgstr "Programación de codificadores"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:32
+msgid "Reading Encoders"
+msgstr "Lectura de codificadores"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:34
+msgid ""
+"In FTC software, quadrature encoders and motors are accessed with the same "
+"motor object. What this means is that we can access an encoder's position "
+"like so:"
+msgstr ""
+"En el software FTC, se accede a los encoders de cuadratura y a los motores "
+"con el mismo objeto motor. Esto significa que podemos acceder a la posición "
+"de un codificador de la siguiente manera:"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+msgid "Java"
+msgstr "Java"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
+msgid "Blocks"
+msgstr "Blocks"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:51
+msgid ""
+"While convenient if one uses the built-in motor encoder, this can easily "
+"become confusing if using external encoders. To use external encoders, you "
+"must use the motor object associated with the port. For example, if there is"
+" a motor in port 1 named \"Arm Motor\" and an external encoder plugged into "
+"encoder port 1, you must do the following to get the encoder's position:"
+msgstr ""
+"Aunque es conveniente si se utiliza el codificador del motor incorporado, "
+"esto puede llegar a ser confuso si se utilizan codificadores externos. Para "
+"utilizar encoders externos, debe utilizar el objeto motor asociado al "
+"puerto. Por ejemplo, si hay un motor en el puerto 1 llamado \"Arm Motor\" y "
+"un encoder externo conectado al puerto de encoder 1, debes hacer lo "
+"siguiente para obtener la posición del encoder:"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:69
+msgid ""
+"Great! We now have the relative position of our encoder, reported in the "
+"number of \"counts\" it is from what it considers to be zero. However, it is"
+" often convenient to have the encoder start at zero at the beginning of the "
+"OpMode. While it technically does not change anything, it can help with "
+"debugging and simplify future code. To do this, we can add a call to reset "
+"the encoders before we read them."
+msgstr ""
+"¡Estupendo! Ahora tenemos la posición relativa de nuestro encoder, informada"
+" en el número de \"cuentas\" que está desde lo que considera cero. Sin "
+"embargo, a menudo es conveniente que el codificador comience en cero al "
+"principio del OpMode. Aunque técnicamente no cambia nada, puede ayudar con "
+"la depuración y simplificar el código futuro. Para ello, podemos añadir una "
+"llamada para restablecer los codificadores antes de leerlos."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:89
+msgid ""
+"As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It instead "
+"tells the SDK not to use the motor encoder for built-in velocity control**. "
+"We will go over what this means in a later section, but for now, know that "
+"it turns the motor back on so we can use it after the encoder is reset."
+msgstr ""
+"Como nota, **RUN_WITHOUT_ENCODER no desactiva el encoder. Le dice al SDK que"
+" no use el codificador del motor para el control de velocidad integrado**. "
+"Repasaremos lo que esto significa en una sección posterior, pero por ahora, "
+"sepa que enciende el motor de nuevo para que podamos usarlo después de que "
+"el codificador se restablezca."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:91
+msgid ""
+"Now we have our position (in counts) relative to the starting angle of the "
+"encoder. We can make a quick program to see this in action. Here, we use a "
+"motor encoder plugged into a port named \"Arm Motor\" in the hardware "
+"configuration."
+msgstr ""
+"Ahora tenemos nuestra posición (en cuentas) relativa al ángulo inicial del "
+"encoder. Podemos hacer un programa rápido para ver esto en acción. Aquí, "
+"usamos un codificador de motor conectado a un puerto llamado \"Arm Motor\" "
+"en la configuración de hardware."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:138
+msgid ""
+"If you run the above OpMode and turn the encoder, you should see the values "
+"change as you move. If you rotate the shaft back to where it started, you "
+"will see the number return to (very close to) zero. As an exercise, rotate "
+"the shaft one full revolution (360) degrees and note down the number."
+msgstr ""
+"Si ejecuta el OpMode anterior y gira el codificador, debería ver que los "
+"valores cambian a medida que se mueve. Si gira el eje de vuelta a donde "
+"comenzó, verá que el número vuelve a (muy cerca de) cero. Como ejercicio, "
+"gire el eje una vuelta completa (360) grados y anote el número."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:140
+msgid ""
+"There is one more thing we can do with encoders. While knowing the number of"
+" counts something moved is useful, oftentimes one will need a different "
+"number, like the number of revolutions the encoder has turned or the angle "
+"it is at. To determine these, we need a constant, the encoders Counts Per "
+"Revolution or CPR. For external encoders, this number is often provided in a"
+" datasheet. For motors, it will generally be on the product page, although "
+"some motors (most notably the Rev Ultraplanetary Gearbox) do not provide it "
+"plainly."
+msgstr ""
+"Hay algo más que podemos hacer con los encoders. Aunque saber el número de "
+"cuentas que se ha movido algo es útil, a menudo necesitaremos un número "
+"diferente, como el número de revoluciones que ha girado el encoder o el "
+"ángulo en el que se encuentra. Para determinarlos, necesitamos una "
+"constante, los contadores por revolución del encoder o CPR. En el caso de "
+"los encoders externos, este número suele aparecer en la hoja de datos. En el"
+" caso de los motores, suele aparecer en la página del producto, aunque "
+"algunos motores (sobre todo el Rev Ultraplanetary Gearbox) no lo indican "
+"claramente."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:142
+msgid ""
+"You can calculate a motor's Counts Per Revolution by taking the base motor's"
+" Counts Per Revolution and multiplying it by the gearbox ratio. Be careful "
+"to use the actual gearbox ratio when doing this! For example, a 5:1 "
+"Ultraplanetary motor would have a count per revolution of 28 * (5.23) = "
+"146.44 because the base motor has 28 Counts Per Revolution and the 5:1 "
+"gearbox actually has a 5.23:1 gear ratio. Remember, when using two gearboxes"
+" on top of each other, you multiply the gear ratios together."
+msgstr ""
+"Puedes calcular los contadores por revolución de un motor tomando los "
+"contadores por revolución del motor base y multiplicándolos por el ratio de "
+"la caja de engranajes. Tenga cuidado de utilizar la relación real de la caja"
+" de engranajes cuando haga esto. Por ejemplo, un motor Ultraplanetario 5:1 "
+"tendría una cuenta por revolución de 28 * (5.23) = 146.44 porque el motor "
+"base tiene 28 Cuentas Por Revolución y la caja de cambios 5:1 en realidad "
+"tiene una relación de engranaje 5.23:1. Recuerde, cuando se utilizan dos "
+"cajas de engranajes una encima de la otra, se multiplican las relaciones de "
+"transmisión entre sí."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:144
+msgid ""
+"In the following example, we divide the encoder position by its counts per "
+"revolution to obtain the number of revolutions the encoder has rotated. You "
+"have to replace [Your Counts Per Revolution Here] with the counts per "
+"revolution of your motor, found on its product page or calculated using the "
+"above tip."
+msgstr ""
+"En el siguiente ejemplo, dividimos la posición del encoder por sus cuentas "
+"por revolución para obtener el número de revoluciones que ha girado el "
+"encoder. Tienes que sustituir [Your Counts Per Revolution Here] por los "
+"recuentos por revolución de tu motor, encontrados en su página de producto o"
+" calculados usando el consejo anterior."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:164
+msgid ""
+"There is one more number we can get: the angle of the shaft. Calculating "
+"this number is very simple. We can multiply the number of rotations by 360 "
+"(since there are 360 degrees in one revolution). You might notice that this "
+"number can go above 360 as the shaft rotates multiple times. As such, we "
+"introduce angleNormalized, which will always be between 0 and 360."
+msgstr ""
+"Hay un número más que podemos obtener: el ángulo del eje. Calcular este "
+"número es muy sencillo. Podemos multiplicar el número de rotaciones por 360 "
+"(ya que hay 360 grados en una revolución). Puedes notar que este número "
+"puede ir por encima de 360 ya que el eje rota varias veces. Por ello, "
+"introducimos angleNormalized, que siempre estará entre 0 y 360."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:186
+msgid "Putting it all together, we get the following testing program."
+msgstr "Juntándolo todo, obtenemos el siguiente programa de pruebas."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:238
+msgid ":download:`Blocks file download <block-code/encoder-opmode.blk>`"
+msgstr ""
+":download:` Archivo de blocks descarga <block-code/encoder-opmode.blk>` "
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:244
+msgid "Tracking Wheels and Spools"
+msgstr "Ruedas de seguimiento y carretes"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:246
+msgid ""
+"Up to this point, we have mostly been working with motors rotating "
+"something. However, many mechanisms in FTC are linear, and it can be "
+"desirable to measure these in a linear unit as well. Fortunately, this is "
+"very straightforward. All we need to know is the diameter of the object we "
+"are measuring."
+msgstr ""
+"Hasta ahora, hemos trabajado sobre todo con motores que hacen girar algo. "
+"Sin embargo, muchos mecanismos en FTC son lineales, y puede ser deseable "
+"medirlos también en una unidad lineal. Afortunadamente, esto es muy "
+"sencillo. Todo lo que necesitamos saber es el diámetro del objeto que "
+"estamos midiendo."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:248
+msgid ""
+"Be careful when selecting your diameter. For wheels, it is the outer "
+"diameter of the wheel, but for spools, it is the inner diameter of the "
+"spool, where the string rests. For chain and belts, it is the \"pitch "
+"diameter\" of the sprocket or pulley."
+msgstr ""
+"Tenga cuidado al seleccionar el diámetro. Para las ruedas, es el diámetro "
+"exterior de la rueda, pero para los carretes, es el diámetro interior del "
+"carrete, donde descansa la cuerda. Para cadenas y correas, es el \"diámetro "
+"de paso\" del piñón o la polea."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:250
+msgid ""
+"From here, we can calculate the circumference (the length of the arc of the "
+"circle, or the distance the wheel/spool will travel in one rotation)"
+msgstr ""
+"A partir de aquí, podemos calcular la circunferencia (la longitud del arco "
+"del círculo, o la distancia que recorrerá la rueda/carrete en una rotación)"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:269
+msgid ""
+"Units are very important when dealing with FTC programming, so make sure "
+"they are always consistent! Whatever units you use for the diameter are the "
+"units for your calculated distance. So if you measure your diameter in "
+"inches, the reported distance will also be in inches."
+msgstr ""
+"Las unidades son muy importantes cuando se trata de programación FTC, así "
+"que asegúrate de que siempre sean coherentes. Cualesquiera que sean las "
+"unidades que utilice para el diámetro serán las unidades para la distancia "
+"calculada. Por lo tanto, si mide el diámetro en pulgadas, la distancia "
+"calculada también será en pulgadas."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:271
+msgid "Putting this all together with our previous testing program, we get"
+msgstr ""
+"Si juntamos todo esto con nuestro programa de pruebas anterior, obtenemos"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:329
+msgid ":download:`Blocks file download <block-code/spool-encoder-opmode.blk>`"
+msgstr ""
+":download:`Archivo de blocks descarga <block-code/spool-encoder-opmode.blk>`"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:335
+msgid "Running Motors With Encoders"
+msgstr "Funcionamiento de motores con encoderes"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:336
+msgid ""
+"We've learned how to read encoder values, but how do you set where you want "
+"to go and tell the motor to go there?"
+msgstr ""
+"Hemos aprendido a leer los valores del encoder, pero ¿cómo se fija a dónde "
+"se quiere ir y se le dice al motor que vaya allí?"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:338
+msgid ""
+"Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can"
+" use another motor mode, RUN_TO_POSITION, to tell the motor to run to a "
+"specific position in ticks, like so:"
+msgstr ""
+"Anteriormente, aprendimos sobre el modo RUN_WITHOUT_ENCODER para el motor. "
+"Podemos usar otro modo de motor, RUN_TO_POSITION, para decirle al motor que "
+"corra a una posición específica en ticks, así:"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:356
+msgid ""
+"You can find out more about run modes at the `official REV Robotics "
+"Documentation page <https://docs.revrobotics.com/duo-"
+"control/programming/using-encoder-feedback>`_"
+msgstr ""
+"Puedes encontrar más información sobre los modos de ejecución en la `página "
+"oficial de documentación de REV Robotics <https://docs.revrobotics.com/duo-"
+"control/programming/using-encoder-feedback>`_"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:358
+msgid ""
+"However, before we tell the motor to go to a position, we have to tell the "
+"motor what position to run to. **Note that this value must be an integer**. "
+"Let's amend the above code to do that."
+msgstr ""
+"Sin embargo, antes de decirle al motor que vaya a una posición, tenemos que "
+"decirle a qué posición debe ir. **Nótese que este valor debe ser un "
+"entero**. Vamos a modificar el código anterior para hacer eso."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:360
+msgid ""
+"Setting the motor to RUN_TO_POSITION mode before setting a target position "
+"will throw an error. Be careful not to do that!"
+msgstr ""
+"Poner el motor en modo RUN_TO_POSITION, antes de fijar una posición objetivo"
+" arrojará un error. Tenga cuidado de no hacerlo."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:380
+msgid ""
+"This code tells the motor to move to 1000 ticks, using a PID loop to control"
+" the motor's position. You can read more about PID loops `here. "
+"<https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`_"
+msgstr ""
+"Este código le dice al motor que se mueva a 1000 ticks, usando un bucle PID "
+"para controlar la posición del motor. Puedes leer más sobre bucles PID "
+"`aquí. <https://gm0.org/en/latest/docs/software/concepts/control-"
+"loops.html#pid>`_"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:382
+msgid "We can cap the speed that the motor runs at using the following code:"
+msgstr ""
+"Podemos limitar la velocidad a la que funciona el motor utilizando el "
+"siguiente código:"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:403
+msgid "Now, let's use this information to control an arm in an OpMode."
+msgstr ""
+"Ahora, vamos a utilizar esta información para controlar un brazo en un "
+"OpMode."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:475
+msgid ":download:`Blocks file download <block-code/arm-opmode.blk>`"
+msgstr ":download:`Archive de blocks descarga <block-code/arm-opmode.blk>`"

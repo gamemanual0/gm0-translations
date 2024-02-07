@@ -6,15 +6,16 @@
 # Translators:
 # guluomagongchengshi, 2023
 # Shawphy, 2023
+# HydrogenEight, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 04:15+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: HydrogenEight, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,3 +32,68 @@ msgid ""
 "There are a few fundamental aspects of the design of any transfer that must "
 "be considered. Generally, the most important considerations are:"
 msgstr "任何传输装置的设计都必须考虑几个基本方面。一般来说，最重要的考虑因素是："
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:6
+msgid "What will be transferred?"
+msgstr "什么将被传输？"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:7
+msgid "Where will the item(s) be transferred?"
+msgstr "物品（们）将被传输到哪里？"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:8
+msgid "How will the item(s) be transferred?"
+msgstr "如何传输物品（们）？"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:11
+msgid "Object Considerations"
+msgstr "物品考虑因素"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:13
+msgid ""
+"One important thing to consider when designing a transfer is what object "
+"will be transferred by the mechanism. Any design must be able to physically "
+"hold the object being transferred, but it is also important to consider how "
+"many objects need to be held by the transfer or if different types of items "
+"need to be transferred."
+msgstr ""
+"在设计传输装置时，需要考虑的一个重要问题是该装置将传输什么物品。任何设计都必须能够实际容纳被传输的物品，但同样重要的是要考虑传输装置需要容纳多少物品，或者是否需要传输不同类型的物品。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:16
+msgid "Location Considerations"
+msgstr "位置考虑因素"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:18
+msgid ""
+"Another important consideration when designing a transfer is where the "
+"transfer will be moving items from and to. Moving objects in multiple axes "
+"is difficult and error-prone. When mechanisms are aligned, transfers only "
+"have to act in straight lines, avoiding unnecessary complexity. A very "
+"common use for a transfer mechanism is to move objects from the intake of "
+"the robot to a scoring mechanism. In this case, it can make sense to combine"
+" the transfer system with the intake system or scoring system, so only two "
+"mechanisms are needed."
+msgstr ""
+"在设计传输时，另一个重要的考虑因素是传输将从何处以及向何处传输物品。在多个轴上移动物品既困难又容易出错。当结构对齐时，传输装置只需直线移动，避免了不必要的复杂性。传输结构的一个非常常见的用途是将物体从机器人的拾取系统移至一个计分结构。在这种情况下，将传输系统与吸入拾取系统或计分系统结合在一起是非常合理的，因此只需要两个结构。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:21
+msgid ""
+"Generally, when designing transfers, you want to avoid as much mechanical "
+"complexity as possible. The less moving parts in a mechanism, the lower the "
+"chance something can fail."
+msgstr "一般来说，在设计传输装置时，要尽可能避免结构的复杂性。结构中的活动部件越少，出现故障的几率就越低。"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:24
+msgid "Transfer Type Considerations"
+msgstr "传输类型考虑因素"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-design.rst:26
+msgid ""
+"There are several different types of transfers, ranging from linear to "
+"rotational transfers, and different ways of actually moving objects inside "
+"the transfer mechanism. When designing a transfer, a design that has lower "
+"mechanical complexity will be prone to less mechanical failures. See "
+":doc:`transfer-types` for examples of common transfer types."
+msgstr ""
+"有几种不同类型的传输装置，从线性传输装置到旋转传输装置，以及在传输装置内实际移动物体的不同方式。在设计传输装置时，结构复杂度较低的设计会减少结构故障。请参阅"
+" : doc:`transfer-types` 获取常见传输类型的示例。"

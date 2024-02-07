@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-04 04:14+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -33,7 +33,7 @@ msgid ""
 "slides for linear motion, often stacking them using 3D printed spacers to "
 "achieve plenty of extension."
 msgstr ""
-"你**肯定**用过抽屉滑轨--几乎所有你打开过的抽屉上都安装有至少两个抽屉滑轨。团队使用这些抽屉滑轨进行线性运动，通常使用 3D "
+"你 *肯定* 用过抽屉滑轨--几乎所有你打开过的抽屉上都安装有至少两个抽屉滑轨。团队使用这些抽屉滑轨进行线性运动，通常使用 3D "
 "打印垫片将它们堆叠起来，以获得足够的伸展距离。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:8
@@ -54,8 +54,8 @@ msgid ""
 "slides interface better with REV products. Viper slides are also available "
 "in a `complete kit <https://www.gobilda.com/2-stage-viper-slide-kit/>`_"
 msgstr ""
-"** 我们向新团队推荐 Viper 滑轨或 MiSUMI 滑轨。** Viper 滑轨的价格便宜，与 goBILDA 产品的接口适配更好，而 "
-"MiSUMI 滑轨与 REV 产品的安装孔位适配更好。Viper 滑轨也有 `\"完整套件\"可供购买 "
+"**我们向新团队推荐 Viper 滑轨或 MiSUMI 滑轨。** Viper 滑轨的价格便宜，与 goBILDA 产品的接口适配更好，而 MiSUMI"
+" 滑轨与 REV 产品的安装孔位适配更好。Viper 滑轨也有 `\"完整套件\"可供购买 "
 "<https://www.gobilda.com/2-stage-viper-slide-kit/>`_。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:14
@@ -163,6 +163,18 @@ msgstr "可能需要 3D 打印的垫片"
 msgid "MiSUMI Telescopic Slide Rails"
 msgstr "MiSUMI伸缩式滑轨"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:54
+msgid ""
+"The `MiSUMI slide rails <https://us.misumi-"
+"ec.com/vona2/detail/110300072130/?HissuCode=SAR240>`_ are preferred by many "
+"top-tier teams because they are sturdy, very reliable, and ridiculously "
+"smooth due to the ball bearing system. **MiSUMI slides are able to withstand"
+" a significant amount of load with little flex**."
+msgstr ""
+"`MiSUMI 伸缩式滑轨 <https://us.misumi-"
+"ec.com/vona2/detail/110300072130/?HissuCode=SAR240>`_ "
+"是许多顶级团队的首选，因为它们坚固耐用、非常可靠，而且由于采用了滚珠轴承系统，顺滑得令人发指。**MiSUMI滑轨能够承受巨大的负荷，几乎没有弯曲。**"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:56
 msgid ""
 "They are also low-profile, and have a M3 mounting pattern, meaning they are "
@@ -243,6 +255,10 @@ msgstr "400毫米，零件号SAR240（SAR2）或SAR340（SAR3）"
 msgid "Best slide smoothness due to ball bearings"
 msgstr "滚珠轴承带来最佳的滑动顺滑度"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:79
+msgid "Very little slide flex, robust build quality"
+msgstr "滑动时弯曲极小，结构坚固，质量高"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:80
 msgid "Can handle relatively heavy load use cases (within reason)"
 msgstr "可处理相对较重负载的工况（在合理范围内）"
@@ -282,6 +298,11 @@ msgstr ""
 "钢制抽屉滑轨，可在 \"套件 \"中购买，其中包含立即组装和安装所需的所有零件<https://www.gobilda.com/2-stage-"
 "viper-slide-kit/>`_。"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:96
+msgid ""
+"They use M4 mounting bolts, and are on the standard 8 mm goBilda pattern."
+msgstr "它们使用 M4 安装螺栓，采用标准的 8 毫米 goBilda 模式。"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:101
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:130
 msgid "Slide are smooth due to ball bearings"
@@ -302,6 +323,22 @@ msgid ""
 "Available in a kit with everything you need to start using in one purchase"
 msgstr "套装中包含一次购买即可开始使用的所有零件"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:105
+msgid "Longer stroke (more extension) then the same length misumi slide"
+msgstr "与相同长度的 misumi 滑轨相比，伸展距离更长。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:106
+msgid "Cheaper then misumi slides"
+msgstr "比 misumi 滑轨便宜"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:111
+msgid "Twice as heavy per slide compared to misumi slides"
+msgstr "每个滑轨的重量是 misumi 滑轨的两倍"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:112
+msgid "Recommended to mount slides to channel to prevent bending"
+msgstr "建议将滑轨安装在通道上以防止弯曲"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:115
 msgid "Long Robotics Slides"
 msgstr "Long Robotics 滑轨"
@@ -321,6 +358,28 @@ msgid ""
 msgstr ""
 "Long Robotics <https://longrobotics.com/>`_滑轨也被参赛队使用，因为它采用滚珠轴承系统，几乎与 MiSUMI "
 "滑轨一样顺滑，但价格略低。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:121
+msgid ""
+"They utilize M4 mounting bolts, and can mount directly to goBILDA channel. "
+"They are virtually identical to the SAR2 series of MiSUMI slides."
+msgstr "它们使用 M4 安装螺栓，可直接安装到 goBILDA 通道上。它们与 SAR2 系列 MiSUMI 滑轨几乎完全相同。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:123
+msgid ""
+"The manufacturer website has CAD files for 3D printed inserts that go "
+"between the slides, which V-bearings are mounted to. V-bearings are "
+"`available from Long Robotics <https://longrobotics.com/product/3x12x4mm-v-"
+"bearing-10-pack/>`_. To attach slides, one will need to purchase "
+"**countersunk M4 screws**, which are `also available from Long Robotics "
+"<https://longrobotics.com/product/6mm-d-low-"
+"head-10mm-m4-screw-10-pack-t10-torx-drive/>`_."
+msgstr ""
+"制造商网站上有三维打印嵌入件的 CAD 文件，这些嵌入件用于安装滑块之间的轴承滑轮，轴承滑轮 `可从 Long Robotics 购买 "
+"<https://longrobotics.com/product/3x12x4mm-v-bearing-10-pack/>`_。要安装滑块，需要购买 "
+"** M4 沉头螺钉** ， `也可以从 Long Robotics 处购买 "
+"<https://longrobotics.com/product/6mm-d-low-"
+"head-10mm-m4-screw-10-pack-t10-torx-drive/>`_。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:125
 msgid ""

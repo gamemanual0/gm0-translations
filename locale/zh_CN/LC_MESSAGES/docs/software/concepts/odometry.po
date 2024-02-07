@@ -6,15 +6,16 @@
 # Translators:
 # DomnickJYH, 2023
 # Shawphy, 2024
+# HydrogenEight, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-04 16:14+0000\n"
+"POT-Creation-Date: 2024-02-07 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: HydrogenEight, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,9 +27,80 @@ msgstr ""
 msgid "Odometry"
 msgstr "里程计"
 
+#: ../../gm0/source/docs/software/concepts/odometry.rst:6
+msgid ""
+"Odometry is a form of localization that uses data from sensors like encoders"
+" to derive an estimated position relative to a starting point. Localization "
+"is a means for being able to locate the position of the bot at some point in"
+" time. Odometry is especially useful in autonomous programs because it "
+"allows for easier implementation of different tasks on the field due to "
+"understanding one's position."
+msgstr ""
+"里程计是一种定位形式，它使用来自编码器等传感器的数据来推导相对于起点的估计位置。定位是一种能够在某个时间点定位机器人位置的手段。里程计在自主程序中特别有用，因为它允许了解自己的位置而更容易地在场地上执行不同的任务。"
+
 #: ../../gm0/source/docs/software/concepts/odometry.rst:9
 msgid "Pose"
 msgstr "姿态"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:11
+msgid ""
+"We refer to pose, which is the position of some body (like a bot), normally "
+"in the context two-dimensional space, as the movement of the robot is "
+"generally constrained to a single plane. We notate the robot's pose as "
+":math:`\\vec{x}`. A pose contains two entries: the robot's position and "
+"heading; position is generally in Cartesian coordinates, so the pose can be "
+"represented with :math:`x`, :math:`y`, and :math:`\\theta`. A \"heading\" is"
+" a term for the direction towards which the front of the robot is facing. "
+"Because of this, the robot's coordinate frame is set up such that the global"
+" x-axis is lined up with the 0 heading."
+msgstr ""
+"我们所说的姿态是指某个物体（如机器人）的位置，通常是在二维空间中，因为机器人的运动通常受限于单一平面。我们将机器人的姿势记为 "
+":math:`\\vec{x}`。一个姿势包含两个条目：机器人的位置和方向；位置一般采用直角坐标，因此姿势可以用 :math:`x`, "
+":math:`y` 和 :math:`\\theta` 表示。方向 \"是指机器人前方所朝的方向。因此，机器人坐标系的全局 x 轴与 0 方向一致。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:18
+msgid "The directional axes of the robot with respect to its body"
+msgstr "机器人相对于本体的方向轴"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:18
+msgid ""
+"`Road Runner Coordinate Frame Documentation <https://acme-"
+"robotics.gitbook.io/road-runner/tour/coordinate-frame>`_"
+msgstr ""
+"`Road Runner 坐标框架文档<https://acme-robotics.gitbook.io/road-"
+"runner/tour/coordinate-frame>`_"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:20
+msgid ""
+"We can refer to the current pose (:math:`\\vec{x}_0`) of the robot as "
+":math:`\\begin{pmatrix} x_0 \\\\ y_0 \\\\ \\theta_0 \\end{pmatrix}`. This is"
+" just fancy notation for a point on the field :math:`(x_0, y_0)` with a "
+"specified orientation of the robot--the heading :math:`\\theta_0`. A pose "
+"generally has some beginning origin in the coordinate frame."
+msgstr ""
+"我们可以把机器人当前的姿态（:math:`\\vec{x}_0`）称为 :math:`begin{pmatrix} x_0 \\y_0 "
+"\\\\theta_0 \\end{pmatrix}`。这只是一个花哨的符号，表示在:math:`(x_0, "
+"y_0)`场上的一个点，机器人有一个指定的方向--标题:math:`theta_0`。一个姿态通常在坐标系中有一个起始原点。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:23
+msgid "Updating the Pose"
+msgstr "更新姿态"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:25
+msgid ""
+"The change in pose over some very small amount of time is :math:`\\Delta "
+"\\vec{x}`. The difference in time between the current pose and the last pose"
+" should be as small as possible to improve the approximations for the math. "
+"Teams should update their robot pose every cycle of their control loop."
+msgstr ""
+"在极短的时间内姿态的变化是 :math:`\\Delta "
+"\\vec{x}`。当前姿态与上次姿态之间的时间差应尽可能小，以改善数学近似值。参赛队应在控制循环的每个周期更新机器人姿态。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:27
+msgid ""
+"Updating the pose is as simple as adding the transformed change to the "
+"previous pose where :math:`\\varphi = \\Delta\\theta`"
+msgstr "更新姿态非常简单，只需将变换后的变化添加到之前的姿态中即可，其中 :math:`\\varphi = \\Delta\\theta`"
 
 #: ../../gm0/source/docs/software/concepts/odometry.rst:29
 msgid ""
@@ -64,6 +136,50 @@ msgstr ""
 "   \\varphi\n"
 "\\end{pmatrix}"
 
+#: ../../gm0/source/docs/software/concepts/odometry.rst:47
+msgid ""
+"The idea of odometry is to use sensor data and math to form an approximation"
+" for the robot's pose over time."
+msgstr "里程测量法的原理是利用传感器数据和数学运算，对机器人在一段时间内的姿态算出近似值。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:50
+msgid "Finding the Change in Position"
+msgstr "查找位置变化"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:52
+msgid ""
+"In order to determine the current location of the robot and update its pose,"
+" the change must be calculated using data read from the sensors. For a "
+"robot, there will be three possible sensors that you can use: two that are "
+"parallel with the robot's body in the :math:`x`-direction and one that is "
+"aligned with the :math:`y`-direction of movement (perpendicular to the drive"
+" wheels)."
+msgstr ""
+"为了确定机器人的当前位置并更新其姿态，必须使用从传感器读取的数据来计算变化。对于机器人来说，有三个传感器可供使用：两个在 :math:`x` "
+"方向上与机器人身体平行，一个与 :math:`y` 运动方向对齐（垂直于驱动轮）。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:55
+msgid "Angle and Displacement"
+msgstr "角度和位移"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:57
+msgid ""
+"The displacement (or change in position) of the left sensor is "
+":math:`\\Delta x_l` and the displacement of the right sensor is "
+":math:`\\Delta x_r`. The lateral distance between these two sensors is "
+"called the trackwidth, notated as :math:`L`. This is very important for "
+"determining angle for turning approximations. This value will need to be "
+"tuned, which means tested repeatedly and then brought to some converging "
+"value that is close to the actual measurement."
+msgstr ""
+"左边传感器的位移（或位置变化）为 :math:`\\Delta x_l`，右边传感器的位移为 :math:`\\Delta "
+"x_r`。这两个传感器之间的横向距离称为轨迹宽度，记为 "
+":math:`L`。这对于确定转弯近似角度非常重要。这个值需要调整，也就是反复测试，然后达到某个接近实际测量值的趋近值。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:62
+msgid "The lateral distance, forward offset, and location of the sensors"
+msgstr "传感器的横向距离、前偏和位置"
+
 #: ../../gm0/source/docs/software/concepts/odometry.rst:62
 msgid ""
 "`17508 Rising Tau's 2019/20 Skystone Bot <https://learnroadrunner.com/dead-"
@@ -71,6 +187,10 @@ msgid ""
 msgstr ""
 "`17508 Rising Tau's 2019/20 Skystone Bot <https://learnroadrunner.com/dead-"
 "wheels.html#three-wheel-odometry>`_"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:64
+msgid "Deriving the value of :math:`\\varphi` then becomes simple:"
+msgstr "因此，推导 :math:`\\varphi` 的值就变得简单了："
 
 #: ../../gm0/source/docs/software/concepts/odometry.rst:66
 msgid ""
@@ -80,6 +200,16 @@ msgstr ""
 "\\varphi = \\frac{\\Delta x_l - \\Delta x_r}{L}\n"
 "\n"
 
+#: ../../gm0/source/docs/software/concepts/odometry.rst:68
+msgid ""
+"To perform later calculations, we need to know the displacement of the robot"
+" in the x-direction relative to its center rather than the two parallel "
+"sensors. To do this, we take the average to derive :math:`\\Delta x_c`, or "
+"the center displacement:"
+msgstr ""
+"为了进行后面的计算，我们需要知道机器人在 x 方向上相对于其中心的位移，而不是两个平行传感器的位移。为此，我们取平均值得出 :math:`\\Delta"
+" x_c`，即中心位移："
+
 #: ../../gm0/source/docs/software/concepts/odometry.rst:70
 msgid ""
 "\\Delta x_c = \\frac{\\Delta x_l + \\Delta x_r}{2}\n"
@@ -88,6 +218,25 @@ msgstr ""
 "\\Delta x_c = \\frac{\\Delta x_l + \\Delta x_r}{2}\n"
 "\n"
 
+#: ../../gm0/source/docs/software/concepts/odometry.rst:72
+msgid ""
+"The final displacement we need before we can determine the change in pose is"
+" the horizontal displacement :math:`\\Delta x_\\perp`. This is the "
+"displacement of the perpendicular sensor :math:`\\Delta x_h` with a "
+"correction for forward offset :math:`F`. In order to get accurate "
+"approximations, the forward offset needs to be considered. When the sensor "
+"is closer to the back, the offset is negative, but when it is closer to the "
+"front, it is positive. This is to account for the change in its position "
+"based on point-turns."
+msgstr ""
+"在确定姿态变化之前，我们需要的最后一个位移是水平位移 :math:`\\Delta x_\\perp`。这是垂直传感器的位移 "
+":math:`\\Delta x_h` 加上前向偏移的修正 "
+":math:`F`。为了得到精确的近似值，需要考虑前向偏移。当传感器更靠近后方时，偏移量为负，但当传感器更靠近前方时，偏移量为正。这是为了考虑其位置在点转动时的变化。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:74
+msgid "As a result of this, we can define our horizontal displacement as:"
+msgstr "因此，我们可以将水平位移定义为"
+
 #: ../../gm0/source/docs/software/concepts/odometry.rst:76
 msgid ""
 "\\Delta x_\\perp = \\Delta x_h - (F * \\varphi)\n"
@@ -95,6 +244,33 @@ msgid ""
 msgstr ""
 "\\Delta x_\\perp = \\Delta x_h - (F * \\varphi)\n"
 "\n"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:80
+msgid ""
+"If you do not have perpendicular sensors, which are not required if the "
+"robot cannot move in the lateral direction, :math:`\\Delta x_\\perp` is not "
+"necessary."
+msgstr "如果没有垂直传感器（如果机器人不能横向移动，则不需要垂直传感器），则不需要 :math:`\\Delta x_\\perp`。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:82
+msgid "For this value, use 0 if you do not have a horizontal sensor."
+msgstr "如果没有水平传感器，该值应为 0。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:85
+msgid "Robot-Relative Deltas"
+msgstr "机器人相关变化量"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:87
+msgid ""
+"Let's come up with a simplified, nonoptimal way to calculate our robot-"
+"relative pose deltas which we can then transform into field-relative "
+"coordinate changes. To perform this we need to transform the robot-relative "
+"deltas via a rotation matrix where we rotate the relative pose difference by"
+" the original heading. We can derive the values of :math:`\\Delta x` and "
+":math:`\\Delta y`."
+msgstr ""
+"让我们用一种简化的、非最佳的方法来计算机器人相对姿态差，然后将其转换为相对场地坐标变化。为此，我们需要通过一个旋转矩阵来转换机器人的相对位置差，在这个矩阵中，我们用原始方向来旋转相对位置差。我们可以得出"
+" :math:`\\Delta x` 和 :math:`\\Delta y` 的值。"
 
 #: ../../gm0/source/docs/software/concepts/odometry.rst:89
 msgid ""
@@ -128,6 +304,10 @@ msgstr ""
 "   \\varphi\n"
 "\\end{pmatrix}"
 
+#: ../../gm0/source/docs/software/concepts/odometry.rst:106
+msgid "From this, we can calculate our field-relative change in pose:"
+msgstr "由此，我们可以计算出我们的姿态的相对场地变化："
+
 #: ../../gm0/source/docs/software/concepts/odometry.rst:108
 msgid ""
 "\\begin{pmatrix}\n"
@@ -151,6 +331,52 @@ msgstr ""
 "   \\Delta x_c \\sin(\\theta_0) + \\Delta x_\\perp \\cos(\\theta_0)\\\\\n"
 "   \\varphi\n"
 "\\end{pmatrix}"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:121
+msgid ""
+"This method of approximating position is known as Euler integration, but we "
+"are using it for strict pose deltas instead of integrating the velocity "
+"(essentially, this is a very simplified version of the original theory)."
+msgstr "这种近似位置的方法被称为欧拉积分法，但我们用它来计算精确的姿态变化量，而不是对速度进行积分（本质上，这是原始理论的一个非常简化的版本）。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:123
+msgid ""
+"This is for advanced programmers; while implementing this from scratch is a "
+"great learning exercise, it is likely not the optimal way to get the best "
+"auto. There are several `resources <#resources-for-odometry>`_ out there for"
+" producing great, well-tested, and easy-to-implement odometry."
+msgstr ""
+"这是为高级程序员准备的；虽然从头开始实施是一个很好的练习，但这可能不是获得最佳自动驾驶的最佳方法。现在有很多 \"资源 <#resources-for-"
+"odometry>`_\"可以制作出优秀的、经过良好测试的、易于实施的里程计。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:126
+msgid "Odometry Pseudocode"
+msgstr "里程计伪代码"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:151
+msgid "Using Pose Exponentials"
+msgstr "使用姿态指数"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:153
+msgid ""
+"This method uses differential equations to solve the nonlinear position of "
+"the robot given constant curvature. Euler integration assumes that the robot"
+" follows a straight path between updates, which can lead to inaccurate "
+"approximations when traveling around curves. If you are interested in the "
+"math itself, we recommend you check out `this book "
+"<https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ for "
+"FRC\\ |reg| controls."
+msgstr ""
+"在曲率不变的情况下，这种方法使用微分方程来求解机器人的非线性位置。欧拉积分法假定机器人在两次更新之间遵循直线路径，这可能会导致机器人在曲线上行驶时的近似值不准确。如果您对数学本身感兴趣，我们建议您查看"
+" \"这本书 <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_有关"
+" FRC\\ |reg| 控制的内容。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:155
+msgid ""
+"We'll treat the way it is solved in this page as a black box, and derive the"
+" formula by implementing a correction for this nonlinear curvature into our "
+"Euler integration robot-relative deltas equation:"
+msgstr "我们将把本页中的求解方式视为一个黑盒子，并通过在欧拉积分机器人相关三角方程中对非线性曲率进行修正来推导出公式："
 
 #: ../../gm0/source/docs/software/concepts/odometry.rst:157
 msgid ""
@@ -183,3 +409,43 @@ msgstr ""
 "\\begin{pmatrix}\n"
 "\\Delta x_c\\\\ \\Delta x_\\perp\\\\ \\varphi\n"
 "\\end{pmatrix}"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:175
+msgid "Resources for Odometry"
+msgstr "里程计资源"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:177
+msgid ""
+"There are several great resources out there for odometry. We highly "
+"recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_. "
+"For the math behind Road Runner (which utilizes pose exponentials), you can "
+"also read `Ryan's paper <https://github.com/acmerobotics/road-"
+"runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_. An "
+"additional resource for Road Runner is `Learn Road Runner "
+"<https://learnroadrunner.com/>`_ which is a step-by-step procedural guide "
+"that explains how to work with the `Road Runner quickstart "
+"<https://github.com/acmerobotics/road-runner-quickstart>`_."
+msgstr ""
+"在里程计方面，有几种很好的资源。我们强烈推荐 `Road Runner <https://acme-robotics.gitbook.io/road-"
+"runner/>`_。如需了解 Road Runner 背后的数学原理（它利用了姿态指数），您还可以阅读`Ryan 的论文 "
+"<https://github.com/acmerobotics/road-"
+"runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_。有关 Road "
+"Runner 的另一个资源是 `Learn Road Runner "
+"<https://learnroadrunner.com/>`_，这是一个分步骤的程序指南，解释了如何使用 `Road Runner "
+"quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:179
+msgid ""
+"We also recommend `Tyler's book <https://file.tavsys.net/control/controls-"
+"engineering-in-frc.pdf>`_ as it goes into great detail about various "
+"controls in *FIRST*\\ |reg| robotics."
+msgstr ""
+"我们还推荐泰勒的著作 <https://file.tavsys.net/control/controls-engineering-in-"
+"frc.pdf>`_，因为书中详细介绍了 *FIRST*\\ |reg| 机器人技术中的各种控制。"
+
+#: ../../gm0/source/docs/software/concepts/odometry.rst:181
+msgid ""
+"If you're using other resources, it is important that you do not use ones "
+"that utilize Euler integration as it is less optimal for real life "
+"approximations of robot pose."
+msgstr "如果您使用其他资源，请务必不要使用使用欧拉积分的资源，因为它对于现实生活中的机器人姿态近似不太理想。"
