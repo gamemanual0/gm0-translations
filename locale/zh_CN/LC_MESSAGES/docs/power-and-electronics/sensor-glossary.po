@@ -5,17 +5,17 @@
 # 
 # Translators:
 # guluomagongchengshi, 2023
-# DomnickJYH, 2024
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-04 16:14+0000\n"
+"POT-Creation-Date: 2024-02-08 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,8 +35,8 @@ msgid ""
 "(velocity, distance traveled, voltage, etc.). Sensors can also be used to "
 "determine the rotation of a mechanism and detect color."
 msgstr ""
-"传感器在 "
-"FTC中的应用多种多样。传感器可提供有关机器人位置的外部反馈（例如，相对于场地墙或视觉目标）或内部反馈（速度、行进距离、电压等）。传感器还可用于确定机械装置的旋转和检测颜色。"
+"传感器在 FTC "
+"中的应用多种多样。传感器可提供有关机器人位置的外部反馈（例如，相对于场地墙或视觉目标）或内部反馈（速度、行进距离、电压等）。传感器还可用于确定机械装置的旋转和检测颜色。"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:9
 msgid "Encoders/Potentiometers"
@@ -44,7 +44,7 @@ msgstr "编码器/电位计"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
 msgid "Rotational"
-msgstr "旋转"
+msgstr "旋转编码器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:13
 msgid "Absolute (+ Potentiometers)"
@@ -64,6 +64,20 @@ msgid ""
 msgstr "电位器 (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
+msgid "Relative"
+msgstr "相对式"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:16
+msgid ""
+"REV Through Bore Encoder (`REV-11-1271 "
+"<https://www.revrobotics.com/rev-11-1271/>`_). It has absolute support but "
+"over PWM, which is inaccessible within the FTC control system."
+msgstr ""
+"REV 通孔编码器 (`REV-11-1271 "
+"<https://www.revrobotics.com/rev-11-1271/>`_)。它支持绝对编码，但通过 PWM 编码，这在 FTC "
+"控制系统中是无法实现的。"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
 msgid ""
 "E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-"
 "encoder-kit>`_)"
@@ -75,11 +89,12 @@ msgstr ""
 msgid ""
 "Generic (`Sparkfun Rotary Encoder "
 "<https://www.sparkfun.com/products/9117>`_)"
-msgstr "通用 (`Sparkfun 旋转编码器 <https://www.sparkfun.com/products/9117>`_)"
+msgstr ""
+"通用编码器 (`Sparkfun Rotary Encoder <https://www.sparkfun.com/products/9117>`_)"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:20
 msgid "Positional"
-msgstr "位置"
+msgstr "位置编码器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:20
 msgid ""
@@ -90,11 +105,11 @@ msgstr ""
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:23
 msgid "Contact"
-msgstr "联系"
+msgstr "接触式传感器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:27
 msgid "Physical"
-msgstr "物理"
+msgstr "物理式"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:26
 msgid ""
@@ -116,7 +131,7 @@ msgstr "触摸传感器 REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-14
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:30
 msgid "Magnetic"
-msgstr "磁性"
+msgstr "磁感应式"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:30
 msgid ""
@@ -127,23 +142,23 @@ msgstr ""
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:33
 msgid "Optical"
-msgstr "光学"
+msgstr "光学传感器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:37
 msgid "Color"
-msgstr "颜色"
+msgstr "颜色式"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:36
 msgid "Adafruit RGB"
-msgstr "Adafruit RGB"
+msgstr "Adafruit RGB 传感器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:37
 msgid "REV Color"
-msgstr "REV 颜色"
+msgstr "REV 颜色传感器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:38
 msgid "MR Color"
-msgstr "MR 颜色"
+msgstr "MR 颜色传感器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:45
 msgid "Computer Vision"
@@ -175,7 +190,7 @@ msgstr "TFLite"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:48
 msgid "Distance"
-msgstr "距离"
+msgstr "距离传感器"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:50
 msgid "ToF"
@@ -227,8 +242,8 @@ msgid ""
 msgstr ""
 "旧的 Modern Robotics 系统使用 5v 传感器逻辑。新的 REV Robotics 系统使用 3.3 "
 "伏电压。对于大多数现成的传感器来说，这不会造成任何问题，但对于某些现有的 FTC 传感器来说，就会造成问题。为了解决这个问题，REV 出售名为 "
-"\"逻辑电平转换器      <https://www.revrobotics.com/rev-31-1389/>`_\"的电路板，可将传感器数据转换为"
-" REV 集线器可读取的数据。REV Expansion Hub <https://docs.revrobotics.com/duo-"
+"逻辑电平转换器 <https://www.revrobotics.com/rev-31-1389/>`_的电路板，可将传感器数据转换为 REV "
+"集线器可读取的数据。REV Expansion Hub <https://docs.revrobotics.com/duo-"
 "control/sensors/5v-sensors#logic-level-"
 "converter>`_指南中有一张图表，详细说明了哪些传感器需要哪些适配器。"
 

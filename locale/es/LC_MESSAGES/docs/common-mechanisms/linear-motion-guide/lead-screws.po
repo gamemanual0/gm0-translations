@@ -5,18 +5,102 @@
 # 
 # Translators:
 # Marianq Lujan, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-08 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Marianq Lujan, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:4
+msgid "Lead Screws"
+msgstr "Tornillos de Avance"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:6
+msgid ""
+"Lead screws use a threaded rod to create high-torque linear motion. Their "
+"primary advantage is being able to handle much higher loads than other "
+"unmodified kit options. While this option was popularized in Rover Ruckus "
+"for hanging robots, variations have been in use since as far back as Res-Q. "
+"Another use case for lead screws is to change the angle of an arm platform, "
+"though this is more common in FRC\\ |reg|. However, this ability to handle "
+"high loads comes at a cost: lead screws are extremely slow."
+msgstr ""
+"Los tornillos de avance utilizan una varilla roscada para crear un "
+"movimiento lineal de alto torque. Su principal ventaja es que pueden "
+"soportar cargas mucho mayores que otras opciones de kit sin modificar. "
+"Aunque esta opción se popularizó en el Rover Ruckus para robots colgantes, "
+"se han utilizado variaciones desde Res-Q. Otro caso de uso para los "
+"tornillos de avance es cambiar el ángulo de una plataforma de brazo, aunque "
+"esto es más común en FRC |reg|. Sin embargo, esta capacidad para soportar "
+"cargas elevadas tiene un coste: los tornillos de avance son extremadamente "
+"lentos."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:8
+msgid ""
+"By far the most popular lead screw option is the `ServoCity Linear Actuator "
+"kit <https://www.servocity.com/linear-actuator-kit-a-7-4-stroke-x-rail-"
+"piston/>`_. Overall, this kit is lightweight, simple, and cheap. It can be a"
+" good start for teams using REV and needing a linear extension, and is "
+"generally usable out of the box."
+msgstr ""
+"Con diferencia, la opción de tornillo de avance más popular es el `Kit de "
+"actuador lineal ServoCity <https://www.servocity.com/linear-actuator-"
+"kit-a-7-4-stroke-x-rail-piston/>`_. En general, este kit es ligero, sencillo"
+" y barato. Puede ser un buen comienzo para los equipos que utilizan REV y "
+"necesitan una extensión lineal, y es generalmente utilizable fuera de la "
+"caja."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:11
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:13
+msgid "Easy way for high-load, high-torque applications"
+msgstr "Manera fácil para aplicaciones de alta carga y alto torque"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:14
+msgid "Compact form factor"
+msgstr "Formato compacto"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:15
+msgid "Typically only requires one motor"
+msgstr "Normalmente sólo requiere un motor"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:18
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:20
+msgid "Not for quick linear extensions"
+msgstr "No para extensiones lineales rápidas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:21
+msgid "High torque translates to slow extension speed"
+msgstr "Un torque elevado se traduce en una velocidad de extensión lenta"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rstNone
+msgid "A lead screw with the object that rides It"
+msgstr "Un tornillo de avance con el objeto que lo monta"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:29
+msgid "A render of 11115's Rover Ruckus hang mechanism, using lead screws"
+msgstr ""
+"Un render del mecanismo de suspensión del Rover Ruckus 11115, con tornillos "
+"de avance"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:29
+msgid "11115 Gluten Free, Rover Ruckus, Actobotics lead screw used for hang"
+msgstr ""
+"11115 Gluten Free, Rover Ruckus, Actobotics tornillo de avance utilizado "
+"para colgar"
