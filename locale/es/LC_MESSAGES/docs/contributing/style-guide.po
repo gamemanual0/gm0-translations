@@ -5,18 +5,141 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
+# Yaretzi Lugo, 2024
+# Victoria Chacon, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-09 04:16+0000\n"
+"POT-Creation-Date: 2024-02-08 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Anthonella Contla, 2024\n"
+"Last-Translator: Victoria Chacon, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:4
+msgid "Style Guide"
+msgstr "Guía de estilo"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:6
+msgid "Don't deal in absolutes."
+msgstr "No trates con absolutos."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:8
+msgid "Only a Sith deals in absolutes"
+msgstr "Sólo un Sith trata con absolutos"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:9
+msgid "Use pros/cons lists to compare options"
+msgstr "Utilizar listas de pros y contras para comparar opciones"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:10
+msgid "Explain **WHY** something is good or bad"
+msgstr "Explicar **POR QUÉ** algo es bueno o malo"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:12
+msgid ""
+"For example, we all know Tetrix V2 Motors are bad. But don't just say "
+"they're bad, say: \"Tetrix V2 motors are underpowered and often burn in a "
+"few seconds under stall, which is why they are not generally recommended. "
+"They also do not have built in encoders. We would highly recommend "
+"purchasing RS-550/RS-555 class motors being sold by goBILDA, REV, and "
+"AndyMark instead.\""
+msgstr ""
+"Por ejemplo, todos sabemos que los motores Tetrix V2 son malos. Pero no se "
+"limiten a decir que son malos, digan: \"Los motores Tetrix V2 no tienen "
+"potencia suficiente y suelen quemarse en pocos segundos al entrar en puesta,"
+" por lo que no suelen recomendarse. Tampoco tienen codificadores integrados."
+" Recomendamos encarecidamente comprar motores de la clase RS-550/RS-555 "
+"vendidos por goBILDA, REV y AndyMark\"."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:13
+msgid ""
+"Similarly, we know the goBILDA motors are generally good. But *explain* why "
+"they are good, e.g. \"goBILDA Yellow Jacket Planetary motors are generally "
+"recommended if you need a 6mm D/8mm REX output shaft motor, and especially "
+"if you use goBILDA as your primary build system. These motors have a robust "
+"gearbox that generally can handle a decent amount of shock load (but they "
+"still must be supported in high torque situations) and conveniently face "
+"mount into goBILDA parts. Additionally, goBILDA motors do not require the "
+"use of a level shifter to use its encoders with the REV control system for "
+"flexibility. Please note that you will need to adapt the bullet connectors "
+"to the REV control system power cables, and the goBILDA motor power cables "
+"are not removable, unlike the REV Robotics motors.\""
+msgstr ""
+"Del mismo modo, sabemos que los motores goBILDA son generalmente buenos. "
+"Pero *explique* por qué son buenos, por ejemplo: \"Los motores planetarios "
+"Yellow Jacket de goBILDA se recomiendan generalmente si necesita un motor "
+"con eje de salida REX de 6 mm D/8 mm, y especialmente si utiliza goBILDA "
+"como sistema de construcción principal. Estos motores tienen una caja de "
+"engranajes robusta que por lo general puede manejar una cantidad decente de "
+"carga de choque (pero todavía debe ser apoyado en situaciones de alto "
+"torque) y convenientemente se monta frontalmente en piezas goBILDA. Además, "
+"los motores goBILDA no requieren el uso de un desplazador de nivel para "
+"utilizar sus codificadores con el sistema de control REV para mayor "
+"flexibilidad. Tenga en cuenta que tendrá que adaptar los conectores bullet a"
+" los cables de alimentación del sistema de control REV, y que los cables de "
+"alimentación de los motores goBILDA no son extraíbles, a diferencia de los "
+"motores REV Robotics.\""
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:14
+msgid ""
+"Still emphasize that teams are free to explore and innovate, but help set "
+"realistic expectations (see the following point)"
+msgstr ""
+"Siga insistiendo en que los equipos son libres de explorar e innovar, pero "
+"ayude a establecer expectativas realistas (véase el siguiente punto)"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:16
+msgid "|gm0| is a guide **from a competitive standpoint**."
+msgstr "|gm0| es una guía **desde un punto de vista competitivo**."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:18
+msgid ""
+"Try to leave out stuff that doesn't work well and is unpopular; if it is "
+"popular it is worth explaining the disadvantages (see H-drive vs ball drive;"
+" explaining H-drive, as a relatively popular and simple drivetrain makes "
+"sense, but ball drive, a drivetrain that barely exists and is ridiculously "
+"complicated makes no sense to bring up)"
+msgstr ""
+"Intenta omitir las cosas que no funcionan bien y no son populares; si son "
+"populares, vale la pena explicar las desventajas (por ejemplo, chasis en H "
+"vs chasis por bolas; explicar el chasis en H, como un chasis relativamente "
+"popular y sencillo, tiene sentido, pero el chasis por bolas, un chasis que "
+"apenas existe y que es ridículamente complicado, no tiene sentido "
+"mencionarlo)."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:19
+msgid ""
+"Try to leave opinions out as much as possible. Do not speak authoritatively "
+"on stuff you do not have first-hand experience with whenever possible"
+msgstr ""
+"Intente dejar de lado las opiniones en la medida de lo posible. Siempre que "
+"sea posible, no hables con autoridad sobre temas en los que no tengas "
+"experiencia de primera mano."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:20
+msgid "**Keep in mind that FTC design trends are temporary and transient**"
+msgstr ""
+"**Tenga en cuenta que las tendencias de diseño de FTC son temporales y "
+"transitorias**"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:22
+msgid ""
+"Just because something is popular one season doesn't mean it's the end all "
+"be all. There was a time when 6-wheel drives and coaxial swerve drives were "
+"all the rage, but that doesn't mean that we should recommend them in |gm0|. "
+"Try your best to think about why something is popular, and what benefits in "
+"design, function, and execution they actually bring to the table."
+msgstr ""
+"Sólo porque algo sea popular una temporada no significa que sea el fin de "
+"todo. Hubo un tiempo en el que las 6 ruedas motrices y los swerve drives "
+"coaxiales estaban de moda, pero eso no significa que debamos recomendarlos "
+"en |gm0|. Intenta pensar por qué algo es popular y qué ventajas de diseño, "
+"función y ejecución aportan."

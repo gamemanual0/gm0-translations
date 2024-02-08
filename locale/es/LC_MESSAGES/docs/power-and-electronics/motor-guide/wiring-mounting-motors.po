@@ -5,18 +5,285 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 16:16+0000\n"
+"POT-Creation-Date: 2024-02-08 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:2
+msgid "Motor Wiring And Mounting"
+msgstr "Cableado y montaje del motor"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:5
+msgid "Power Connections"
+msgstr "Conexiones de alimentación/poder"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:7
+msgid ""
+"Depending on the vendor, the motors can come with one of the following "
+"connectors:"
+msgstr ""
+"Dependiendo del proveedor, los motores pueden venir con uno de los "
+"siguientes conectores:"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:9
+msgid ":term:`JST-VH` connector (REV motors)"
+msgstr ":term:`Conector JST-VH` (motores REV)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:10
+msgid ":term:`Anderson PowerPole` (AndyMark's NeveRest)"
+msgstr ":term:`Anderson PowerPole` (NeveRest de AndyMark)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:11
+msgid "3.5mm Bullet connector (goBILDA)"
+msgstr "Conector Bullet de 3,5 mm (goBILDA)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:13
+msgid ""
+":term:`JST-VH` is probably easiest to use, as it is the same connector used "
+"by REV Expansion Hub. The :term:`JST-VH` connection has a locking mechanism "
+"for peace of mind. :term:`PowerPoles <Anderson PowerPole>` are very reliable"
+" and sturdy but somewhat bulky. Bullet connectors are very compact, making "
+"it easy to route the cable through openings, but can disconnect if someone "
+"pulls on the wire, so you need to be careful with them."
+msgstr ""
+":term:`JST-VH` es probablemente el más fácil de usar, ya que es el mismo "
+"conector utilizado por el REV Expansion Hub. La conexión :term:`JST-VH` "
+"tiene un mecanismo de bloqueo para mayor tranquilidad. :term:`PowerPoles "
+"<Anderson PowerPole>` son muy fiables y resistentes, pero algo voluminosos. "
+"Los conectores tipo bala son muy compactos y facilitan el paso del cable a "
+"través de aberturas, pero pueden desconectarse si alguien tira del cable, "
+"por lo que hay que tener cuidado con ellos."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:15
+msgid ""
+"Since REV Hubs use :term:`JST-VH` connectors, to connect a motor with "
+":term:`Anderson PowerPole` or bullet connectors you need adapters which you "
+"can purchase from REV Robotics and goBILDA."
+msgstr ""
+"Dado que los REV Hubs utilizan conectores :term:`JST-VH`, para conectar un "
+"motor con conectores :term:`Anderson PowerPole` o bullet necesitas "
+"adaptadores que puedes adquirir en REV Robotics y goBILDA."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:17
+msgid ""
+"You can extend or shorten motor power cables by soldering additional length "
+"of cable. This is legal as long as you use 18 gauge or thicker cables. Teams"
+" can also purchase extender cables to chain multiple pieces of cable "
+"together."
+msgstr ""
+"Puede alargar o acortar los cables de alimentación del motor soldando una "
+"longitud adicional de cable. Esto es legal siempre que se utilicen cables de"
+" calibre 18 o más gruesos. Los equipos también pueden comprar cables "
+"extensores para encadenar varios trozos de cable."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:19
+msgid ""
+"For more tips on wiring the robot, see :doc:`/docs/power-and-"
+"electronics/wiring`."
+msgstr ""
+"Para más consejos sobre el cableado del robot, consulte :doc:`/docs/power-"
+"and-electronics/wiring`."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:24
+msgid "Encoders"
+msgstr "Codificadores"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:26
+msgid ""
+"Encoder cables are very fragile. Take care to protect them from snagging and"
+" sharp impacts! It may be prudent to inspect encoder wires once in a while."
+msgstr ""
+"Los cables de los codificadores son muy frágiles. Tenga cuidado de "
+"protegerlos de enganches e impactos bruscos. Puede ser prudente inspeccionar"
+" los cables del codificador de vez en cuando."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:28
+msgid ""
+"If using encoders, you need to connect them to the REV hub by a 4-wire "
+"cable. REV Hub uses 4-pin :term:`JST-PH` connector for encoder ports. REV "
+"motors also use :term:`JST-PH` encoder ports, so you can connect them to the"
+" hub by :term:`JST-PH` 4-wire cable, available from REV Robotics."
+msgstr ""
+"Si utiliza codificadores, deberá conectarlos al concentrador REV mediante un"
+" cable de 4 hilos. El concentrador REV utiliza un conector :term:`JST-PH` de"
+" 4 patillas para los puertos de codificador. Los motores REV también "
+"utilizan puertos de encoder :term:`JST-PH`, por lo que puedes conectarlos al"
+" hub mediante un cable :term:`JST-PH` de 4 hilos, disponible en REV "
+"Robotics."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:30
+msgid ""
+"goBILDA motors use JST-XH 4-pin encoder port (**note the difference: XH vs "
+"PH**), so to connect them, you need a JST-PH to JST-XH cable, available from"
+" AndyMark or goBILDA."
+msgstr ""
+"Los motores goBILDA utilizan un puerto de codificador JST-XH de 4 pines "
+"(**nótese la diferencia: XH vs PH**), por lo que para conectarlos necesitas "
+"un cable JST-PH a JST-XH, disponible en AndyMark o goBILDA."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:32
+msgid ""
+"AndyMark also use JST-XH encoder port; however, an additional problem is "
+"that encoders of these motors require 5v power, whereas the encoder port of "
+"REV hub only provides 3.3v. Thus, it is recommended that you connect them "
+"using level shifters, available from REV Robotics. For details please check "
+"the `REV's documentation <https://docs.revrobotics.com/duo-"
+"control/sensors/5v-sensors#connecting-5v-encoder>`_."
+msgstr ""
+"AndyMark también utiliza el puerto de codificador JST-XH; sin embargo, un "
+"problema adicional es que los codificadores de estos motores requieren una "
+"alimentación de 5v, mientras que el puerto de codificador del hub REV sólo "
+"proporciona 3,3v. Por lo tanto, se recomienda que los conectes utilizando "
+"cambiadores de nivel, disponibles en REV Robotics. Para más detalles, "
+"consulta la documentación de `REV <https://docs.revrobotics.com/duo-"
+"control/sensors/5v-sensors#connecting-5v-encoder>`_."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:35
+msgid "Mounting Motors"
+msgstr "Montaje de motores"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:37
+msgid ""
+"There are two ways to mount a motor: using a :term:`clamping mount <Clamp "
+"Mounting>` (such as `32mm goBILDA clamping mount "
+"<https://www.gobilda.com/1400-series-1-side-2-post-clamping-mount-32mm-"
+"bore/>`_) or :term:`face mounting <Face Mounting>`, using threaded holes in "
+"the front face of the gearbox."
+msgstr ""
+"Hay dos formas de montar un motor: utilizando un soporte de sujeción<Clamp "
+"Mounting>` (como `32mm goBILDA clamping mount "
+"<https://www.gobilda.com/1400-series-1-side-2-post-clamping-mount-32mm-"
+"bore/>`_) o :term:`montaje frontal <Face Mounting>`, utilizando orificios "
+"roscados en la cara frontal de la caja de engranajes."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:40
+msgid "Clamping Mount"
+msgstr "Soporte de Sujeción/Montaje con abrazadera"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:42
+msgid "Easiest way to mount a motor, as only one screw is required."
+msgstr ""
+"La forma más fácil de montar un motor, ya que sólo se necesita un tornillo."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:43
+msgid ""
+"Not as secure as face mounting, as clamp friction is looser than face "
+"mounting using screws."
+msgstr ""
+"No es tan seguro como el montaje frontal, ya que la fricción de la "
+"abrazadera es menor que en el montaje frontal con tornillos."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:44
+msgid ""
+"Some gearboxes (particularly spur gear) do not place the output shaft in the"
+" center of the gearbox."
+msgstr ""
+"Algunas cajas de engranajes (especialmente las de engranajes rectos) no "
+"colocan el eje de salida en el centro de la caja."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:46
+msgid ""
+"Thus, motors with offset shafts are particularly sensitive to clamp mounts, "
+"as any rotation of the motor will alter the shaft position. This may have "
+"the consequence of losing :term:`chain <Chain>` or :term:`belt <HTD Belt>` "
+"tension."
+msgstr ""
+"Así, los motores con ejes desplazados son especialmente sensibles a los "
+"montajes de abrazaderas, ya que cualquier rotación del motor alterará la "
+"posición del eje. Esto puede tener como consecuencia la pérdida de tensión "
+"de :term:`cadena <Chain>` o :term:`correa <HTD Belt>`."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:47
+msgid ""
+"It is possible to double clamp a motor - one in front, and one in the back."
+msgstr "Es posible sujetar dos veces un motor: uno delante y otro detrás."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:48
+msgid ""
+"To increase friction and reduce the chance of loosening, one can wrap "
+"electrical tape around the area of the motor that will be clamped down. Use "
+"a couple wraps of tape."
+msgstr ""
+"Para aumentar la fricción y reducir la posibilidad de que se afloje, se "
+"puede envolver cinta aislante alrededor de la zona del motor que se va a "
+"sujetar. Utilice un par de vueltas de cinta."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:51
+msgid "Face Mount"
+msgstr "Montaje frontal"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:53
+msgid "Slightly more tedious and uses more screws."
+msgstr "Un poco más tedioso y utiliza más tornillos."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:54
+msgid ""
+"Repairing a broken gearbox or swapping a motor is slower than if using clamp"
+" mounting."
+msgstr ""
+"Reparar una caja de engranajes rota o cambiar un motor es más lento que si "
+"se utiliza el montaje con abrazaderas."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:55
+msgid ""
+"Face mounting is much more reliable than clamp mounting, as the screws hold "
+"the motor in place very tightly."
+msgstr ""
+"El montaje frontal es mucho más fiable que el montaje con abrazadera, ya que"
+" los tornillos sujetan el motor con mucha fuerza."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:56
+msgid ""
+"Teams can use **BLUE** :term:`Loctite` on high-vibration motors to ensure "
+"the motor does not jar loose."
+msgstr ""
+"Los equipos pueden utilizar **BLUE** :term:`Loctite` en motores de alta "
+"vibración para garantizar que el motor no se suelte."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:58
+msgid ""
+":term:`Face mounting <Face Mounting>` is recommended for high-load and/or "
+"high vibration use cases such as drivetrain. This is as :term:`clamp mounted"
+" <Clamp Mounting>` motors can shift and come loose easier than :term:`face "
+"mounted <Face Mounting>` motors. It is also recommended to use **BLUE** "
+":term:`Loctite` when :term:`face mounting <Face Mounting>`, if possible."
+msgstr ""
+":term:`Montaje frontal <Face Mounting>` se recomienda para casos de uso de "
+"alta carga y/o alta vibración, como él chasis. Esto se debe a que los "
+"motores :term:`montados en abrazadera <Clamp Mounting>` pueden desplazarse y"
+" aflojarse más fácilmente que los motores :term:`montados frontalmente <Face"
+" Mounting>`. También se recomienda utilizar **BLUE** :term:`Loctite` al "
+"montar :term:`frontalmente <Face Mounting>`, si es posible."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:60
+msgid ""
+"Note that the pattern of :term:`face mounting <Face Mounting>` holes is "
+"different for different vendors. For example, goBILDA uses 4 M4 holes in a "
+"square with side 16 mm, whereas AndyMark classic motors use 6 M3 holes on a "
+"31 mm diameter circle. Thus, face mounting NeveRest motors to goBILDA parts "
+"requires use of special adapters, and vice versa. Similarly, gearbox "
+"diameter also varies between motors, so when choosing a :term:`clamping hub "
+"<Clamping Hub>`, make sure to use the right diameter."
+msgstr ""
+"Tenga en cuenta que el patrón de agujeros del :term:`montaje frontal <Face "
+"Mounting>` es diferente para los distintos proveedores. Por ejemplo, goBILDA"
+" utiliza 4 orificios M4 en un cuadrado de 16 mm de lado, mientras que los "
+"motores clásicos AndyMark utilizan 6 orificios M3 en un círculo de 31 mm de "
+"diámetro. Por lo tanto, el montaje frontal de motores NeveRest en piezas "
+"goBILDA requiere el uso de adaptadores especiales, y viceversa. Del mismo "
+"modo, el diámetro de la caja de engranajes también varía entre motores, por "
+"lo que al elegir un :term:`clamping hub <Clamping Hub>`, asegúrese de "
+"utilizar el diámetro correcto."

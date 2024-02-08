@@ -5,18 +5,226 @@
 # 
 # Translators:
 # Ddino XD, 2024
+# Yaretzi Lugo, 2024
+# Anthonella Contla, 2024
+# Crackermi, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 04:17+0000\n"
+"POT-Creation-Date: 2024-02-08 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Ddino XD, 2024\n"
+"Last-Translator: Crackermi, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:4
+msgid "Kinematics"
+msgstr "Cinemáticas"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:6
+msgid ""
+"Kinematics is the application of geometry to the control of various robot "
+"mechanisms. Kinematics equations are used to control mechanisms by providing"
+" specific inputs to achieve a desired output."
+msgstr ""
+"La cinemática es la aplicación de la geometría al control de diversos "
+"mecanismos robóticos. Las ecuaciones cinemáticas se utilizan para controlar "
+"mecanismos proporcionando entradas específicas para lograr una salida "
+"deseada."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:8
+msgid ""
+"Many of the kinematics equations here were taken from `Controls Engineering "
+"in the FIRST Robotics Competition (book) "
+"<https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ and "
+"`Mobile Robot Kinematics for FTC (paper) "
+"<https://github.com/acmerobotics/road-"
+"runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_, which "
+"contain the relevant derivations. While only tank (differential drive) and "
+"mecanum kinematics equations are shown here, these sources also contain "
+"derivations for other mechanisms such as swerve and dead wheel odometry."
+msgstr ""
+"Muchas de las ecuaciones cinemáticas aquí fueron tomadas de `Controls "
+"Engineering in the FIRST Robotics Competition (libr) "
+"<https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ y "
+"`Mobile Robot Kinematics for FTC (paper) "
+"<https://github.com/acmerobotics/road-"
+"runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_, que "
+"contienen las derivaciones pertinentes. Aunque aquí sólo se muestran las "
+"ecuaciones de la cinemática del tanque (accionamiento diferencial) y del "
+"mecanum, estas fuentes también contienen derivaciones para otros mecanismos "
+"como el swerve y la odometría de la rueda muerta."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:11
+msgid "Forward vs Inverse Kinematics"
+msgstr "Cinemática directa e inversa"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:13
+msgid ""
+"Mechanisms may have different sets of equations for their forward and "
+"inverse kinematics. Forward kinematics are the equations used to determine "
+"the state of a system given the state of its outputs, whereas inverse "
+"kinematics determines the output of a system given the desired state. For "
+"example, in a drivetrain, forward kinematics would determine body velocity "
+"of the robot based on the individual velocities of the wheels, whereas "
+"inverse kinematics would determine the required wheel velocities for a "
+"desired body velocity."
+msgstr ""
+"Los mecanismos pueden tener diferentes conjuntos de ecuaciones para su "
+"cinemática directa e inversa. La cinemática directa son las ecuaciones "
+"utilizadas para determinar el estado de un sistema dado el estado de sus "
+"salidas, mientras que la cinemática inversa determina la salida de un "
+"sistema dado el estado deseado. Por ejemplo, en una cadena cinemática, la "
+"cinemática directa determinaría la velocidad del cuerpo del robot en función"
+" de las velocidades individuales de las ruedas, mientras que la cinemática "
+"inversa determinaría las velocidades necesarias de las ruedas para una "
+"velocidad del cuerpo deseada."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:17
+msgid "Tank (Differential Drive)"
+msgstr "Tanque (accionamiento diferencial)"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:19
+msgid ""
+"A tank, or differential drive, is a drivetrain consisting of two sets of "
+"wheels on either side of the robot that are independently driven. These are "
+"described under further detail in the :doc:`/docs/common-"
+"mechanisms/drivetrains/tank` section."
+msgstr ""
+"Un tanque, o diferencial, es un sistema de transmisión que consta de dos "
+"juegos de ruedas a cada lado del robot que se accionan de forma "
+"independiente. Se describen con más detalle en la sección "
+":doc:`/docs/common-mechanisms/drivetrains/tank`."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:22
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:64
+msgid "Variables"
+msgstr "Variables"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:24
+msgid "The following variables are used in this section."
+msgstr "En esta sección se utilizan las siguientes variables."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:26
+msgid ":math:`v_r` denotes the linear velocity of the right wheel(s)"
+msgstr ":math:`v_r` indica la velocidad lineal de la(s) rueda(s) derecha(s)"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:27
+msgid ":math:`v_l` denotes the linear velocity of the left wheel(s)"
+msgstr ":math:`v_l` indica la velocidad lineal de la(s) rueda(s) izquierda(s)"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:28
+msgid ""
+":math:`v_f` denotes the forward velocity of the robot, relative to itself"
+msgstr ""
+":math:`v_f` denota la velocidad de avance del robot, relativa a sí mismo"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:29
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:74
+msgid ""
+":math:`\\omega` denotes the rotational velocity of the robot in "
+"radians/second"
+msgstr ""
+":math:`\\omega` indica la velocidad de rotación del robot en "
+"radianes/segundo"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:30
+msgid ""
+":math:`r_b` denotes the base track radius, or the distance between the wheel"
+" and center of the robot (half of the distance between wheels)"
+msgstr ""
+":math:`r_b` indica el radio de la pista base, o la distancia entre la rueda "
+"y el centro del robot (la mitad de la distancia entre ruedas)"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:34
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:79
+msgid ""
+"These variables, with the exception of :math:`\\omega`, represent **linear**"
+" velocities NOT **rotational** velocities. Wheel rotational velocity in "
+"radians/second can be converted to linear velocity by multiplying by the "
+"wheel's radius."
+msgstr ""
+"Estas variables, con la excepción de :math:`\\omega`, representan "
+"**velocidades lineales** NO **velocidades de rotación**. La velocidad de "
+"rotación de la rueda en radianes/segundo puede convertirse en velocidad "
+"lineal multiplicándola por el radio de la rueda."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:36
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:81
+msgid ""
+"Positive rotational velocity (:math:`\\omega`) will spin the robot "
+"COUNTERCLOCKWISE when viewed from above."
+msgstr ""
+"La velocidad de rotación positiva (:math:`\\omega`) hará girar al robot en "
+"SENTIDO CONTRAHORARIO visto desde arriba."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:39
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:84
+msgid "Forward Kinematics"
+msgstr "Cinemática de avance"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:41
+msgid ""
+"The forward kinematics of a tank drive relate the velocity of the wheels to "
+"the forward and rotational velocities of the robot, relative to itself. The "
+"forward velocity :math:`v_f` and the rotational velocity :math:`v_{\\theta}`"
+" is:"
+msgstr ""
+"La cinemática de avance de la propulsión de un tanque relaciona la velocidad"
+" de las ruedas con las velocidades de avance y rotación del robot, respecto "
+"a sí mismo. La velocidad de avance :math:`v_f` y la velocidad de rotación "
+":math:`v_{\\theta}` son:"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:43
+msgid ""
+"v_f = \\frac{v_r + v_l}{2}\n"
+"\n"
+"\\omega = \\frac{v_r - v_l}{2 r_b}"
+msgstr ""
+"v_f = \\frac{v_r + v_l}{2}\n"
+"\n"
+"\\omega = \\frac{v_r - v_l}{2 r_b}"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:50
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:97
+msgid "Inverse Kinematics"
+msgstr "Cinemática inversa"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:54
+msgid ""
+"v_r = v_f + r_d \\cdot \\omega\n"
+"\n"
+"v_l = v_f - r_d \\cdot \\omega"
+msgstr ""
+"v_r = v_f + r_d \\cdot \\omega\n"
+"\n"
+"v_l = v_f - r_d \\cdot \\omega"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:61
+msgid "Mecanum Drive"
+msgstr "Mecanum Drive"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:101
+msgid ""
+"v_{fl} = v_f - v_s - (2r_b \\cdot \\omega)\n"
+"\n"
+"v_{rl} = v_f + v_s - (2r_b \\cdot \\omega)\n"
+"\n"
+"v_{br} = v_f - v_s + (2r_b \\cdot \\omega)\n"
+"\n"
+"v_{fr} = v_f + v_s + (2r_b \\cdot \\omega)"
+msgstr ""
+"v_{fl} = v_f - v_s - (2r_b \\cdot \\omega)\n"
+"\n"
+"v_{rl} = v_f + v_s - (2r_b \\cdot \\omega)\n"
+"\n"
+"v_{br} = v_f - v_s + (2r_b \\cdot \\omega)\n"
+"\n"
+"v_{fr} = v_f + v_s + (2r_b \\cdot \\omega)"
