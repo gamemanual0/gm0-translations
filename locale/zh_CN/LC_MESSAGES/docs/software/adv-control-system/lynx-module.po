@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-04 16:14+0000\n"
+"POT-Creation-Date: 2024-02-09 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -25,14 +25,63 @@ msgstr ""
 msgid "Lynx Module"
 msgstr "Lynx模块"
 
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:6
+msgid ""
+"The Lynx Module is an object that represents the Control Hub and Expansion "
+"Hub. One Lynx Module object is created per connected hub."
+msgstr "Lynx模块是一个代表控制中心和扩展中心的对象。每个连接的中心创建一个Lynx模块对象。"
+
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:9
 msgid "General Explanation"
 msgstr "一般解释"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:12
+msgid "Obtaining Lynx Module Object"
+msgstr "获取Lynx模块对象"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:14
+msgid ""
+"A list of connected Lynx Module objects can be obtained using "
+"``hardwareMap.getAll(LynxModule.class);``. The Control Hub or the Expansion "
+"Hub connected to the phone via USB will have ``isMaster()`` set to true, and"
+" the hub connected over RS-485 will have it set to false."
+msgstr ""
+"可以使用hardwareMap.getAll(LynxModule.class)；获取连接的Lynx模块对象列表。Control "
+"Hub或Expansion Hub通过USB连接到手机将isMaster()设置为true，通过RS-485连接的集线器将其设置为false。"
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:17
 msgid "LED"
 msgstr "LED"
 
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:19
+msgid ""
+"The REV hub's LED can be set using ``setConstant()`` or ``setPattern()``.  "
+"``setConstant()`` sets a constant color to the LED, and ``setPattern()`` "
+"allows the user to define a pattern of colors for the REV hub to follow."
+msgstr ""
+"REV中心的LED可以使用setConstant()或setPattern()设置。setConstant()为LED设置一个恒定的颜色，setPattern()允许用户定义REV中心遵循的颜色模式。"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:22
+msgid "Power"
+msgstr "电能"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:24
+msgid ""
+"The total amount of current that the REV hub is pulling can be measured "
+"using ``getCurrent()``. This is the current pull of the 12V input in the "
+"specified units, so it includes everything connected to the hub as well as "
+"the hub itself. In addition, the input voltage to the expansion hub can be "
+"measured using ``getInputVoltage()``, which returns the battery voltage in "
+"the specified units."
+msgstr ""
+"REV集线器拉动的总电流可以使用getCurrent()测量。这是指定单位12V输入的电流拉动，因此它包括连接到集线器的所有内容以及集线器本身。此外，扩展集线器的输入电压可以使用getInputVoltage()测量，它返回指定单位的电池电压。"
+
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:27
 msgid "Bulk Reads"
 msgstr "批量读取"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:29
+msgid ""
+"Bulk reads can also be managed through the lynx module object. See "
+":doc:`/docs/software/tutorials/bulk-reads` for more information on this."
+msgstr "批量读取也可以通过lynx模块对象进行管理。有关详细信息，请参阅批量读取。"

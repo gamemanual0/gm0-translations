@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-09 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,7 +128,7 @@ msgid ""
 "of the right motor is dictated by the gearbox: the :term:`gear ratio <Gear "
 "Reduction>`, output :term:`shaft <Shaft>` type, and ease of mounting."
 msgstr ""
-"由于裸电机与上面讨论的所有电机相似，因此正确电机的选择取决于变速箱：齿轮比 <Gear Reduction>、输出轴 <Shaft>类型和易于安装。"
+"由于裸电机与上面讨论的所有电机相似，因此正确电机的选择取决于变速箱：齿轮比 <Gear Reduction>、输出轴 <Shaft>类型和安装的简易。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:26
 msgid "Gearboxes"
@@ -144,7 +144,7 @@ msgid ""
 "wall), requiring you to replace the gearbox. For this reason, it is advised "
 "to use planetary gearbox in high-load use cases such as drivetrains."
 msgstr ""
-"齿轮箱有两种：直齿轮箱和行星齿轮箱（也称为轨道齿轮箱）。它们的内部结构和区别在齿轮箱内部部分有详细讨论。对于新团队来说，知道行星齿轮箱稍微贵一点就足够了，但更可靠。直齿轮箱可以在冲击载荷下脱落（例如，当你的机器人撞到墙上时），需要你更换齿轮箱。出于这个原因，建议在高负载用例中使用行星齿轮箱，例如传动系统。"
+"齿轮箱有两种：直齿轮箱和行星齿轮箱（也称为环形轨道齿轮箱）。它们的内部结构和区别在齿轮箱内部部分有详细讨论。对于新团队来说，知道行星齿轮箱稍微贵一点就足够了，但更可靠。直齿轮箱可以在冲击下脱落（例如，当你的机器人撞到墙上时），需要你更换齿轮箱。出于这个原因，建议在高负载高冲击情况中使用行星齿轮箱，例如传动系统。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:31
 msgid "Available Spur Gearboxes and Motors"
@@ -159,7 +159,7 @@ msgid ""
 "gearbox. In particular, spur gear motors should NOT be used in high load "
 "applications, such as a drivetrain"
 msgstr ""
-"与行星齿轮箱相比，正齿轮箱的寿命更短，机械弹性更低，因此不推荐（注意：不推荐）使用正齿轮箱。如果您正在购买新电机，强烈建议购买行星齿轮箱电机。应注意不要将负载放在正齿轮箱的输出轴上。特别是，正齿轮电机不应用于高负载应用，例如传动系统。"
+"与行星齿轮箱相比，正齿轮箱的寿命更短，机械塑性更低，因此不推荐使用正齿轮箱。如果您正在购买新电机，强烈建议购买行星齿轮箱电机。应注意不要将负载放在正齿轮箱的输出轴上。特别地，正齿轮电机不应用于高负载情况，例如传动系统。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:36
 msgid ""
@@ -174,7 +174,7 @@ msgid ""
 msgstr ""
 "带正齿轮箱的电机包括AndyMark NeveRest Classic电机 <NeveRest Motor>（40:1和60:1比例）、REVHDHex"
 " 40:1 <HD Hex Motor>正齿轮箱电机和goBILDA "
-"5201系列黄色夹克正齿轮箱电机。所有这些都提供类似的性能和可靠性，因此您的选择主要取决于安装和连接到设计其余部分的便利性（例如，如果您使用REV套件，您可能应该选择REVHD六角电机"
+"5201系列黄色夹克正齿轮箱电机。所有这些都提供类似的性能和可靠性，因此您的选择主要取决于安装和连接到设计其余部分的便利性（例如，如果您使用REV套件，您可能应该选择REVHD六角轴输出电机"
 " <HD Hex Motor>，因为它使用与REV系统其余部分相同的5毫米六角轴 <Shaft>）。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:38
@@ -184,7 +184,7 @@ msgid ""
 "the rather uncommon (in the FTC world) bullet connection for power. However,"
 " these are now discontinued. The output shaft is a 6mm D-shaft."
 msgstr ""
-"GoBILDA的5201系列直齿轮箱比REV或Andymark的便宜得多；这是好事还是坏事取决于你。他们利用相当罕见的（在FTC世界）子弹连接来提供动力。然而，这些现在已经停产了。输出轴是6毫米的D轴。"
+"GoBILDA的5201系列直齿轮箱比REV或Andymark的便宜得多；这是好事还是坏事取决于你。他们利用相当罕见的（在FTC世界）弹头式连接器(球头)来提供动力。然而，这些现在已经停产了。输出轴是6毫米的D轴。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:40
 msgid ""
@@ -197,10 +197,10 @@ msgid ""
 " to any length of :term:`UltraHex`, and by extension, 1/2\" hex :term:`shaft"
 " <Shaft>`, very easy."
 msgstr ""
-":term:`REV HD Hex Planetary <HD Hex Motor>` 40:1 马达 - 该马达的传动比仅为 40:1，但使用与 "
-"REV 扩展和控制集线器相同的连接方式（JST VH），这意味着无需转接电缆。输出 :term:`shaft <Shaft>` 是 5 毫米六角 "
-":term:`shaft <Shaft>`。:term:`REV UltraHex <UltraHex>` 有一个 5 毫米六角 :term:`bore"
-" <Bore>` 贯穿 1/2 英寸六角 :term:`shaft <Shaft>`的中间，这使得将此马达适配到任何长度的 "
+":term:`REV HD Hex Planetary <HD Hex Motor>` 40:1 电机 - 该电机的传动比仅为 40:1，但使用与 "
+"REV 扩展和Control Hub相同的连接方式（JST VH），这意味着无需转接电缆。输出 :term:`shaft <Shaft>` 是 5 "
+"毫米六角 :term:`shaft <Shaft>`。:term:`REV UltraHex <UltraHex>` 有一个 5 毫米六角 "
+":term:`bore <Bore>` 贯穿 1/2 英寸六角 :term:`shaft <Shaft>`的中间，这使得将此电机适配到任何长度的 "
 ":term:`UltraHex` 以及 1/2 英寸六角 :term:`shaft <Shaft>` 非常容易。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:41
@@ -211,9 +211,9 @@ msgid ""
 "PowerPole` to connect to power. This connector is perhaps the most robust of"
 " the ones listed here."
 msgstr ""
-":term:`Andymark NeveRest <NeveRest Motor>` 经典电机有几种不同的比例，分别为 40:1 和 60:1。输出轴是"
-" :term:`6mm D-shaft <Shaft>`，与所有 NeveRest 马达一样，使用 :term:`Anderson PowerPole`"
-" 连接电源。这种连接器可能是这里列出的连接器中最坚固的。"
+":term:`Andymark NeveRest <NeveRest Motor>` 经典电机有几种不同的减速比例，分别为 40:1 和 "
+"60:1。输出轴是 :term:`6mm D-shaft <Shaft>`，与所有 NeveRest 马达一样，使用 :term:`Anderson "
+"PowerPole` 连接电源。这种连接器可能是这里列出的连接器中最坚固的。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:44
 msgid "Planetary Gearboxes"
@@ -249,8 +249,8 @@ msgid ""
 "8 REX (7 mm hex rounded to 8 mm)."
 msgstr ""
 "GoBILDA Yellow Jacket电机 <https://www.gobilda.com/yellow-jacket-planetary-"
-"gear-motors/>`_具有最多样化的变速箱比例选择，这里列出了太多，但利用相当不常见的子弹头连接来提供动力。输出轴 <Shaft>是6毫米D轴 "
-"<Shaft>或8 REX（7毫米六角四舍五入到8毫米）。"
+"gear-motors/>`_具有最多样化的变速箱比例选择，这里列出了太多，但利用相当不常见的子弹头式连接器来提供动力。输出轴 "
+"<Shaft>是6毫米D轴 <Shaft>或8 REX（7毫米六角四舍五入到8毫米）。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:51
 msgid ""
@@ -263,9 +263,8 @@ msgid ""
 ":term:`1/2\" hex shaft <Shaft>` very easy. The ratio of the :term:`HD Hex "
 "Motor` is 20:1."
 msgstr ""
-"REVHD六角行星电机-该电机只有20:1的比例，但使用相同的连接（JST-"
-"VH）作为REV扩展和控制集线器的电源，这意味着没有适配器电缆。输出轴是一个5毫米六角轴 "
-"<Shaft>。REVUltraHex有一个5毫米六角孔，穿过1/2英寸六角轴 "
+"REVHD六角行星电机-该电机只有20:1的比例，但使用相同的连接器（JST-VH）作为REV扩展和Control "
+"Hub的电源，这意味着没有适配器电缆。输出轴是一个5毫米六角轴 <Shaft>。REVUltraHex有一个5毫米六角孔，穿过1/2英寸六角轴 "
 "<Shaft>的中间，这使得该电机适应任何长度的UltraHex，并通过扩展，适应1/2英寸六角轴也非常容易 "
 "<Shaft>。HD六角电机的比例为20:1。"
 
@@ -277,7 +276,7 @@ msgid ""
 ":term:`Anderson PowerPole` to connect to power. This connector is perhaps "
 "the most robust of the ones listed here."
 msgstr ""
-"Andymark NeveRest轨道电机有两种比例 <Gear Reduction>，3.7:1和20:1。输出轴是6毫米D轴 "
+"Andymark NeveRest行星齿轮箱电机有两种比例 <Gear Reduction>，3.7:1和20:1。输出轴是6毫米D轴 "
 "<Shaft>，像所有NeveRest电机 <NeveRest Motor>一样，使用Anderson "
 "PowerPole连接电源。这个连接器可能是这里列出的最坚固的。"
 
@@ -300,7 +299,7 @@ msgid ""
 "<https://docs.revrobotics.com/ultraplanetary/ultraplanetary-"
 "gearbox/cartridge-details>`_."
 msgstr ""
-"虽然REV将行星齿轮变速级列为3:1、4:1和5:1，但它们的实际传动比略有不同。请参阅REV行星齿轮变速箱用户手册以获取确切的传动比。 "
+"虽然REV将行星齿轮减速比例为3:1、4:1和5:1，但它们的实际传动比略有不同。请参阅REV行星齿轮变速箱用户手册以获取确切的传动比。 "
 "<https://docs.revrobotics.com/ultraplanetary/ultraplanetary-"
 "gearbox/cartridge-details>`_."
 

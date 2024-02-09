@@ -5,17 +5,16 @@
 # 
 # Translators:
 # 芷晗 李, 2023
-# DomnickJYH, 2023
-# Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-09 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,13 +94,13 @@ msgstr "电源问题：有团队报告称，若电池尺寸不合适，会导致
 msgid ""
 "Battery Issues: Teams have reported high battery drain in sleep mode, "
 "leading to hubs dying faster then expected"
-msgstr "电池问题：有团队报告称，睡眠模式下电池电量消耗很大，导致集线器比预期死机得更快"
+msgstr "电池问题：有团队报告称，睡眠模式下电池电量消耗很大，导致hub比预期死机得更快"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:27
 msgid ""
 "Wifi Issues: The wifi driver will occasionally crash when the device goes to"
 " sleep, requiring a device restart"
-msgstr "Wifi 问题：设备休眠时，WIFI 驱动程序偶尔会崩溃，需要重启设备"
+msgstr "Wifi 问题：设备睡眠模式时，WIFI 驱动程序偶尔会崩溃，需要重启设备"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:30
 msgid ""
@@ -111,9 +110,9 @@ msgid ""
 "The unexpected power off fix may be done preemptively to prevent a shutdown "
 "during a match."
 msgstr ""
-"如果您购买了驱动集线器并遇到问题，请参阅 \"REV 驱动集线器故障排除 \"页面 <https://docs.revrobotics.com/duo-"
-"control/troubleshooting-the-control-system/driver-hub-"
-"troubleshooting>`_。意外断电修复可能是为防止在比赛期间关机而预先进行的。"
+"如果您购买了Driver Hub并遇到问题，请参阅 \"REV Driver Hub排除 \"页面 "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting>`_。意外的断电修复可能是为防止在比赛期间关机而做的准备。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:33
 msgid "Android Phones"
@@ -135,12 +134,12 @@ msgstr "安卓手机一般开箱即可靠"
 msgid ""
 "The lack of a full size USB A port means that flimsy On The Go cables must "
 "be used"
-msgstr "没有全尺寸 USB A 端口意味着必须使用脆弱的 On The Go 电缆"
+msgstr "没有全尺寸 USB A 端口意味着必须使用易损的OTG电线"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:47
 msgid ""
 "The phones themselves should be protected with a case to prevent damage"
-msgstr "手机本身应该有保护套，以防损坏"
+msgstr "手机本身应该有保护壳，以防损坏"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:49
 msgid ""
@@ -152,8 +151,8 @@ msgid ""
 "and robot performance."
 msgstr ""
 "最好使用支持 5GHz 频段传输数据的手机，而不是标准的2.4 "
-"GHz频段传输数据手机，以减少延迟过高的问题。您是否曾注意到，您团队的机器人似乎只在比赛时才会出现滞后现象？这是因为大多数学校的 WiFi "
-"频段都是2.4GHz，这意味着比赛当天2.4GHz 频道会比较拥挤。这会导致明显的ping/lag，从而对驾驶员和机器人的性能产生不利影响。"
+"GHz频段传输数据手机，以减少延迟过高的问题。您是否曾注意到，您团队的机器人似乎只在比赛时才会出现延迟现象？这是因为大多数学校的 WiFi "
+"频段都是2.4GHz，这意味着比赛当天2.4GHz 频道会比较拥挤。这会导致明显的丢包或延迟现象，从而对操作员和机器人的性能产生不利影响。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:51
 msgid ""
@@ -164,19 +163,19 @@ msgid ""
 " opposed to the cheapest options.**"
 msgstr ""
 "USB 和 :term:`OTG <Micro USB On The Go (OTG) Cable>` "
-"连接可能是比赛中断开连接的原因之一。这通常是由驱动站和游戏手柄之间的劣质电缆/适配器造成的。**一般来说，值得购买质量较高的电缆和适配器，而不是最便宜的选择。"
+"连接可能是比赛中断开连接的原因之一。这通常是由驱动站和游戏手柄之间的劣质电线/排插(转接器)造成的。**一般来说，队伍应该购买质量较高的电线和排插(转接器)，而不是最便宜的选择。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:53
 msgid ""
 "`Recommended USB to OTG Cable "
 "<https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_"
 msgstr ""
-"推荐的 USB 转 OTG 电缆： "
+"推荐的 USB 转 OTG 电线： "
 "<https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:55
 msgid "Term"
-msgstr "提示"
+msgstr "术语"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:58
 msgid "Micro USB On The Go (OTG) Cable"
@@ -186,17 +185,17 @@ msgstr "micro-USB On The Go (OTG) 连接线"
 msgid ""
 "The Micro USB OTG cable connects the :term:`Driver Station` phone with the "
 "Logitech controller that the driver uses in order to control the robot."
-msgstr "Micro USB OTG 线缆将 :term:`Driver Station` 手机与罗技控制器连接起来。"
+msgstr "Micro USB OTG电线会将队伍的Driver Station或手机与驾驶员用于控制机器人的Logitech控制器所连接。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:62
 msgid ""
 "It is recommended that teams purchase a couple spares due to faulty OTG "
 "cable connections and their low price."
-msgstr "由于 OTG 线缆较易出现连接故障及其低廉的价格，建议团队购买几条备用线缆。"
+msgstr "由于 OTG 电线较易出现连接故障及其低廉的价格，建议团队购买几条备用电线。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:0
 msgid "A USB OTG Cable"
-msgstr "一条 USB OTG 线缆"
+msgstr "一条 USB OTG 电线"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:69
 msgid "Controllers"
@@ -209,7 +208,7 @@ msgid ""
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-"
 "illegal-parts-list.pdf>`_"
 msgstr ""
-"**合法控制器：** 自 2021-2022 赛季起，以下控制器为 \"合法比赛控制器\"： "
+"**合规控制器：** 自 2021-2022 赛季起，以下控制器为 \"合规的比赛控制器\"： "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-"
 "illegal-parts-list.pdf>`_"
 
@@ -219,7 +218,7 @@ msgstr "适用于 Windows 的 Xbox 360 手柄"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:74
 msgid "Logitech F310 Controller"
-msgstr "罗技 F310 手柄"
+msgstr "Logitech的 F310 手柄"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:75
 msgid "ETPark Wired Controller for PS4"
@@ -244,9 +243,9 @@ msgid ""
 "that there are very specific models of the Xbox controller that are legal, "
 "so they can be hard to find new.**"
 msgstr ""
-"过去，与罗技 F310 相比，Xbox 360 控制器是许多顶级团队的首选。这主要是因为 Xbox "
-"手柄的死点较少。死点基本上是指操纵杆可以移动，但无法传达操纵杆已轻微移动的区域。这意味着，当操纵杆移动到控制器可以检测到的位置时，机器人有时会有向前冲的趋势。死点使驾驶员难以执行微调和精确的动作。**对于大多数团队来说，这可能不是问题。此外，请记住，Xbox"
-" 控制器只有特定型号是合法的，因此很难找到新的型号。"
+"过去，与Logitech F310 相比，Xbox 360 控制器是许多顶级团队的首选。这主要是因为 Xbox "
+"手柄的盲点较少。盲点基本上是指摇杆可以微操，但手柄却无法传达遥杆微操的区域给机器人。这意味着，当摇杆移动到手柄可以检测到的位置时，机器人有时会有向前冲的趋势。盲点使驾驶员难以执行微调和精确的动作(编者注：事实上就是你的微操机器人无法行使)。**对于大多数团队来说，这可能不是问题。此外，请记住，Xbox"
+" 控制器只有特定型号是合规的，因此很难找到新的型号。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:80
 msgid ""
@@ -261,12 +260,12 @@ msgid ""
 " **Pro Tip: Make sure your drivers have experience with the controller they "
 "plan to use for competition.**"
 msgstr ""
-"从 2020-2021 赛季开始，ETPark 和索尼 PS4 手柄是合法的，与 Xbox 360 "
+"从 2020-2021 赛季开始，ETPark 和索尼 PS4 手柄是合规的，与 Xbox 360 "
 "控制器相比具有众多优势。其中一些优势包括：更好的扳机和保险杠控制、更实用的触控板以及从 2021-2022 赛季开始的触控板支持。PS4 "
-"控制器的使用略有不同，因为左摇杆和 Dpad 的位置互换了，而且 \"一些按钮的名称也不同\"。 "
+"手柄的使用略有不同，因为左摇杆和 Dpad 的位置互换了，而且 \"一些按钮的名称也不同\"。 "
 "<https://github.com/OpenFTC/OpenRC-"
 "Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_"
-" **专业提示：确保您的车手对他们计划在比赛中使用的控制器有使用经验。"
+" **专业提示：确保您的操纵手对他们计划在比赛中使用的操纵端有使用经验。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:82
 msgid ""
@@ -278,7 +277,7 @@ msgid ""
 "comfortable to you.**"
 msgstr ""
 "一般认为，PS4 手柄比其他选择更好。在 PS4 控制器的各种选择中，真正的选择取决于您。索尼手柄的按键略胜一筹，但 ETPark "
-"手柄的成本仅为索尼控制器的一半，而且连接线更牢固。**请记住，驱动程序可以使用不同的手柄，因此请选择最适合您的手柄。"
+"手柄的成本仅为索尼手柄的一半，而且连接线时更牢固。**请记住，操作手可以使用不同的手柄，因此请选择最适合您的手柄。"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:84
 msgid ""
@@ -288,4 +287,4 @@ msgid ""
 "ensuring that the USB hub is secure won't hurt."
 msgstr ""
 "手机支架和:term:`OTG <Micro USB On The Go (OTG) "
-"Cable>`应力消除连接器可能有助于防止连接松动。特别是在团队运行双控制器配置时，确保 USB 集线器的安全不会有任何问题。"
+"Cable>`电缆密封套可以有助于防止连接松动。特别是在团队运行双手柄配置时，确保 USB Hub的稳定不会有任何问题。"
