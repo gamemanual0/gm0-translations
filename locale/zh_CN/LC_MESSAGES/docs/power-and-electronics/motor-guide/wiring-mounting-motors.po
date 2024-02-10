@@ -6,15 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-10 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,13 +79,13 @@ msgid ""
 "together."
 msgstr ""
 "您可以通过焊接额外长度的电缆来延长或缩短电机电源电缆。只要使用 18 "
-"号或更粗的电缆，这种做法都是合法的。参赛队还可以购买延长电缆，将多根电缆连接在一起。"
+"号或更粗的电缆，这种做法都是合规的。参赛队还可以购买延长电缆，将多根电缆连接在一起。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:19
 msgid ""
 "For more tips on wiring the robot, see :doc:`/docs/power-and-"
 "electronics/wiring`."
-msgstr "有关机器人布线的更多提示，请参阅 :doc:`/docs/power-and-electronics/wiring` 。"
+msgstr "有关机器人接线的更多信息，请参阅 :doc:`/docs/power-and-electronics/wiring` 。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:24
 msgid "Encoders"
@@ -94,7 +95,7 @@ msgstr "编码器"
 msgid ""
 "Encoder cables are very fragile. Take care to protect them from snagging and"
 " sharp impacts! It may be prudent to inspect encoder wires once in a while."
-msgstr "编码器电缆非常脆弱。要小心保护，防止被卡住或受到尖锐撞击！为谨慎起见，应定期检查编码器电缆。"
+msgstr "编码器电缆非常脆弱。要小心保护，防止被钩住或受到猛烈撞击！为谨慎起见，应定期检查编码器电缆。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:28
 msgid ""
@@ -113,7 +114,7 @@ msgid ""
 "PH**), so to connect them, you need a JST-PH to JST-XH cable, available from"
 " AndyMark or goBILDA."
 msgstr ""
-"goBILDA 马达使用 JST-XH 4 针编码器端口（**注意区别：XH 与 PH**），因此要连接它们，需要 JST-PH 转 JST-XH "
+"goBILDA 电机使用 JST-XH 4 针编码器端口（**注意区别：XH 与 PH**），因此要连接它们，需要 JST-PH 转 JST-XH "
 "电缆，可从 AndyMark 或 goBILDA 购买。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:32
@@ -173,7 +174,7 @@ msgid ""
 "the consequence of losing :term:`chain <Chain>` or :term:`belt <HTD Belt>` "
 "tension."
 msgstr ""
-"因此，带偏置轴的电机对夹具特别敏感，因为电机的任何旋转都会改变轴的位置。这可能会导致 :term:`链条 <Chain>` 或 :term:`皮带 "
+"因此，带偏置轴的电机对夹具具有特别要求，因为电机的任何转动都会改变轴的位置。这可能会导致 :term:`链条 <Chain>` 或 :term:`皮带 "
 "<HTD Belt>` 张力损失。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:47
@@ -190,7 +191,7 @@ msgstr "为了增加摩擦力和减少松动的机会，可以在电机夹紧的
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:51
 msgid "Face Mount"
-msgstr "正面安装"
+msgstr "表面安装"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:53
 msgid "Slightly more tedious and uses more screws."
@@ -222,10 +223,9 @@ msgid ""
 "mounted <Face Mounting>` motors. It is also recommended to use **BLUE** "
 ":term:`Loctite` when :term:`face mounting <Face Mounting>`, if possible."
 msgstr ""
-":term:`Face mounting <Face Mounting>` 建议用于高负载和/或高振动的情况，如传动系统。这是因为 "
-":term:`clamp mounted <Clamp Mounting>` 电机比 :term:`face mounted <Face "
-"Mounting>` 电机更容易移位和松动。如果可能，还建议在 :term:` 表面安装 <Face Mounting>` 时使用 ** BLUE** "
-":term:`Loctite` 。"
+"表面安装<Face Mounting>` 建议用于高负载和/或高振动的情况，如传动系统。这是因为夹具安装 <Clamp Mounting>` "
+"电机比表面安装 <Face Mounting>` 电机更容易移位和松动。如果可能，还建议在 : 表面安装 <Face Mounting>` 时使用 **"
+" BLUE** :term:`乐泰胶水` 。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:60
 msgid ""
