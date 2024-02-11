@@ -5,18 +5,151 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Anthonella Contla, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:4
+msgid "SDK Sensors"
+msgstr "Sensores SDK"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:6
+msgid ""
+"The SDK offers several methods of controlling and communicating with "
+"sensors."
+msgstr ""
+"El SDK ofrece varios métodos de control y comunicación con los sensores."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:9
+msgid "General Explanation"
+msgstr "Explicación general"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:12
+msgid "I2C Explanation"
+msgstr "I2C Explicación"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:14
+msgid ""
+"I2C is a two wire serial communication bus that is designed to communicate "
+"with multiple devices. The two wires are the SCL, or clock line, and SDA, or"
+" data line. The REV hub connector also contains two more pins for 3.3v and "
+"GND. The protocol can address multiple devices using addresses, where the "
+"master device sends the address it is communicating with, then the data it "
+"wants to send. The device it is talking to then responds. This means any "
+"number of devices can be connected to one I2C port, so long as no two "
+"devices have the same I2C addresses."
+msgstr ""
+"I2C es un bus de comunicación serie de dos hilos que está diseñado para "
+"comunicarse con múltiples dispositivos. Los dos hilos son SCL, o línea de "
+"reloj, y SDA, o línea de datos. El REV hub connector también contiene dos "
+"pines más para 3,3v y GND. El protocolo puede dirigirse a varios "
+"dispositivos mediante direcciones, en las que el dispositivo maestro envía "
+"la dirección con la que se comunica y, a continuación, los datos que desea "
+"enviar. El dispositivo con el que se comunica responde. Esto significa que "
+"cualquier número de dispositivos pueden ser conectados a un puerto I2C, "
+"siempre y cuando no haya dos dispositivos con las mismas direcciones I2C."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:16
+msgid ""
+"I2C has multiple speed specifications, but the REV hub supports both 100khz "
+"and 400khz communication standards. The specification also requires the "
+"lines to be pulled up, so the REV hub has dual 2.49 k\\ |Omega| pull up "
+"resistors, negating the need for external pull up resistors."
+msgstr ""
+"I2C tiene múltiples especificaciones de velocidad, pero el hub REV soporta "
+"los estándares de comunicación de 100khz y 400khz. La especificación también"
+" requiere que las líneas sean pull up, por lo que el hub REV tiene "
+"resistencias pull up duales de 2,49 k\\ |Omega|, negando la necesidad de "
+"resistencias pull up externas."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:18
+msgid ""
+"Devices generally have their I2C addresses hard coded, meaning they cannot "
+"be changed. Check the devices data sheet to make sure addresses will not "
+"conflict if connecting multiple I2C devices together."
+msgstr ""
+"Los dispositivos suelen tener sus direcciones I2C codificadas, lo que "
+"significa que no se pueden cambiar. Comprueba la hoja de datos del "
+"dispositivo para asegurarte de que las direcciones no entran en conflicto si"
+" conectas varios dispositivos I2C."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:20
+msgid ""
+"I2C is often called slower than other forms of sensors. It is not inherently"
+" slower, but due to the way I2C communication works in the SDK it takes "
+"multiple commands to read one I2C sensor, which means one I2C read can take "
+"2-3x longer than one digital or analog read."
+msgstr ""
+"A menudo se dice que I2C es más lento que otras formas de sensores. No es "
+"intrínsecamente más lento, pero debido a la forma en que funciona la "
+"comunicación I2C en el SDK se necesitan varios comandos para leer un sensor "
+"I2C, lo que significa que una lectura I2C puede tardar 2-3 veces más que una"
+" lectura digital o analógica."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:23
+msgid "Analog Input"
+msgstr "Entrada analógica"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:25
+msgid ""
+"Reads the input voltage to the expansion hub. These ports are the ONLY "
+"sensor ports that are 5v tolerant."
+msgstr ""
+"Lee el voltaje de entrada al expansion hub. Estos puertos son los ÚNICOS "
+"puertos de sensor que toleran 5v."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:28
+msgid "Digital I/O"
+msgstr "Digital I/O"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:30
+msgid ""
+"Digital I/O can be configured to either act as an INPUT, reading whether the"
+" port is HIGH or LOW, or an OUTPUT, sending HIGH or LOW signals. The digital"
+" input is pulled HIGH to prevent floating."
+msgstr ""
+"Los digital I/O pueden configurarse para actuar como un INPUT, leyendo si el"
+" puerto está HIGH o LOW, o como un OUTPUT, enviando señales HIGH o LOW. La "
+"entrada digital se pone en HIGH para evitar la flotación."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:32
+msgid ""
+"Floating occurs when you attempt to read from a digital input pin but the "
+"signal is disconnected or not pulled HIGH or to ground. As a result, the pin"
+" is considered \"floating\" and can have inconsistent results. To prevent "
+"this, a resistor bridges between the port and 3.3V, so that instead of "
+"floating the pin instead reads HIGH when nothing is connected."
+msgstr ""
+"La flotación se produce cuando se intenta leer desde una entrada digital "
+"pero la señal está desconectada o no está en HIGH o a tierra. Como "
+"resultado, el pin se considera \"flotante\" y puede tener resultados "
+"inconsistentes. Para evitar esto, una resistencia puentea entre el puerto y "
+"3.3V, de modo que en lugar de flotar, el pin se lee en HIGH cuando no hay "
+"nada conectado."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-sensors.rst:34
+msgid ""
+"When wiring limit switches or other digital devices, DO NOT connect the "
+"limit switch to 3.3V and the digital port, like most datasheets recommend. "
+"Instead, the REV hub expects a connection between GROUND and the digital "
+"pin. **Connecting between 3.3V and the digital pin may cause instability or "
+"the hub to die.**"
+msgstr ""
+"Cuando cablee límites de switches u otros dispositivos digitales, NO conecte"
+" el límite del switch al 3,3V y al puerto digital, como recomiendan la "
+"mayoría de las hojas de datos. En su lugar, el REV hub espera una conexión "
+"entre TIERRA y el pin digital. **Conectar entre 3.3V y el pin digital puede "
+"causar inestabilidad o la muerte del hub."

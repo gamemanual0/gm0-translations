@@ -5,20 +5,1083 @@
 # 
 # Translators:
 # Marianq Lujan, 2024
-# Ariadna Moure Jáquez, 2024
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 16:16+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:4
+msgid "Rigging"
+msgstr "Rigging"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:6
+msgid ""
+"Rigging refers to the way that string, belt, or chain is set up to extend "
+"and retract a linear extension. This is an important and time-consuming "
+"requirement for any team that uses linear extension, so be sure to spend "
+"adequate time on it."
+msgstr ""
+"El rigging se refiere a la forma en que la cuerda, correa o cadena se "
+"configura para extender y retraer una extensión lineal. Se trata de un "
+"requisito importante y que requiere mucho tiempo para cualquier equipo que "
+"utilice una extensión lineal, así que asegúrese de dedicarle el tiempo "
+"adecuado."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:12
+msgid "The rigging for 7236's elevator in Rover Ruckus"
+msgstr "El rigging para el ascensor de 7236 en Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:12
+msgid ""
+"Example rigging setup from team 7236 Recharged Green. This setup utilizes a "
+"continuous stringing setup for the first stage and a cascaded belt-driven "
+"second stage."
+msgstr ""
+"Ejemplo de montaje del equipo 7236 Recharged Green. Este montaje utiliza una"
+" configuración de encuerdado continuo para la primera etapa y una segunda "
+"etapa accionada por correa en cascada."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:17
+msgid "General Rigging Tips"
+msgstr "Consejos generales sobre rigging"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:19
+msgid ""
+"Rig your extension string when the extension is retracted, and your retract "
+"string when the extension is at maximum extension"
+msgstr ""
+"Prepara tu cuerda de extensión cuando la extensión esté retraída, y tu "
+"cuerda de retracción cuando la extensión esté al máximo."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:20
+msgid ""
+"Clamping a string with a bolt instead of tying it around something makes it "
+"much easier to quickly change the tension of a string"
+msgstr ""
+"Sujetar una cuerda con un perno en lugar de atarla alrededor de algo hace "
+"que sea mucho más fácil cambiar rápidamente la tensión de una cuerda."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:21
+msgid ""
+"If tying an abrasive material string, like kevlar, around a plastic part, "
+"you can tie the string around a washer to distribute the loads across the "
+"hole in the pulley instead of tying it directly into a hole in the pulley"
+msgstr ""
+"Si se ata una cuerda de material abrasivo, como kevlar, alrededor de una "
+"pieza de plástico, se puede atar la cuerda alrededor de una arandela para "
+"distribuir las cargas a través del orificio de la polea en lugar de atarla "
+"directamente en un orificio de la polea."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:22
+msgid ""
+"Its generally easier to start from the side with the pulley and go to the "
+"end of the slides then the other way around"
+msgstr ""
+"Por lo general, es más fácil empezar por el lado de la polea e ir hasta el "
+"final de las guías que al revés."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:25
+msgid "Continuous Rigging"
+msgstr "Rigging continuo"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:27
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:58
+msgid "**Generally recommended**"
+msgstr "**Generalmente recomendado**"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:29
+msgid ""
+"Continuous rigging entails rigging one long **extension string**, "
+"originating from a motor-powered spool, to the top of the base stage, then "
+"to the bottom of the first stage, then to the top of the first stage, then "
+"to the bottom of the second stage, etc. A **retraction string**, originating"
+" from a second spool on the same axis as the extension spool, is then "
+"anchored to the top stage. When the motor rotates one direction, the "
+"extension spool reels in the extension string, so it becomes shorter. In "
+"doing so, the distance between the top of one stage and the bottom of the "
+"next stage decreases, causing the system to extend."
+msgstr ""
+"El rigging continuo consiste en aparejar una larga **cuerda de extensión**, "
+"procedente de un carrete accionado por motor, a la parte superior de la "
+"platina base, luego a la parte inferior de la primera platina, luego a la "
+"parte superior de la primera platina, luego a la parte inferior de la "
+"segunda platina, etc. Una **cuerda de retracción**, procedente de un segundo"
+" carrete situado en el mismo eje que el carrete de extensión, se ancla "
+"entonces a la etapa superior. Cuando el motor gira en una dirección, el "
+"carrete de extensión enrolla el hilo de extensión, de modo que éste se "
+"acorta. Al hacerlo, la distancia entre la parte superior de una etapa y la "
+"parte inferior de la siguiente disminuye, haciendo que el sistema se "
+"extienda."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:31
+msgid ""
+"The last stage always extends and retracts before the other stages (this can"
+" be either an advantage or a disadvantage, depending on the application)."
+msgstr ""
+"La última etapa siempre se extiende y repliega antes que las demás (esto "
+"puede ser una ventaja o un inconveniente, según la aplicación)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:33
+msgid ""
+"Once the last stage hits its limit, the next to last stage extends outwards,"
+" and so on; the pattern repeats until every stage is fully extended. When "
+"the motor spins **in the opposite direction**, the retraction string is "
+"reeled in, pulling the top stage closer to its starting position until the "
+"system is back where it started. For the retraction string, it is often "
+"necessary to add an extra pulley near the back of the extension. This is "
+"because the retraction will only retract to the farthest point, which "
+"generally is the spool. However, the spool may not be mounted at the very "
+"back of the robot - thus an extra pulley is needed. Note that for this to "
+"work, the extension string should be wrapped around the spool in the "
+"opposite direction of the retraction string. Thus, if the extension is "
+"wrapped clockwise, the retraction must be wrapped counterclockwise."
+msgstr ""
+"Una vez que la última etapa alcanza su límite, la penúltima etapa se "
+"extiende hacia fuera, y así sucesivamente; el patrón se repite hasta que "
+"todas las etapas están completamente extendidas. Cuando el motor gira **en "
+"sentido contrario**, la cuerda de retracción se enrolla, acercando la etapa "
+"superior a su posición inicial hasta que el sistema vuelve al punto de "
+"partida. Para la cuerda de retracción, a menudo es necesario añadir una "
+"polea adicional cerca de la parte posterior de la extensión. Esto se debe a "
+"que la retracción sólo se retraerá hasta el punto más lejano, que "
+"generalmente es el carrete. Sin embargo, el carrete puede no estar montado "
+"en la parte trasera del robot, por lo que se necesita una polea extra. Tenga"
+" en cuenta que para que esto funcione, la cuerda de extensión debe "
+"envolverse alrededor del carrete en la dirección opuesta a la cuerda de "
+"retracción. Así, si la extensión se enrolla en el sentido de las agujas del "
+"reloj, la retracción debe enrollarse en sentido contrario."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:35
+msgid ""
+"Here are some additional considerations when rigging a continuous system."
+msgstr ""
+"He aquí algunas consideraciones adicionales a la hora de aparejar un sistema"
+" continuo."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:37
+msgid ""
+"As a general rule, continuous spools can be powered by a system with a "
+"relatively low gear ratio."
+msgstr ""
+"Por regla general, los carretes continuos pueden accionarse mediante un "
+"sistema con una relación de engranajes relativamente baja."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:39
+msgid ""
+"The extension string and retraction string **do not need to be separate "
+"strings, but it is much easier to tension the system if they are separate**."
+msgstr ""
+"La cuerda de extensión y la cuerda de retracción **no necesitan ser cuerdas "
+"separadas, pero es mucho más fácil tensar el sistema si están separadas**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:41
+msgid "The extension spool and retraction spool should be the same diameter."
+msgstr ""
+"El carrete de extensión y el carrete de retracción deben tener el mismo "
+"diámetro."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:42
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:144
+msgid ""
+"You need to make sure, as with any time you work with strings and pulleys, "
+"that you are pulling the string straight. Any amount of misalignment can "
+"lead to the string coming off of your pulley."
+msgstr ""
+"Como siempre que trabajes con cuerdas y poleas, debes asegurarte de que "
+"tiras de la cuerda de forma recta. Cualquier desalineación puede hacer que "
+"la cuerda se salga de la polea."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:44
+msgid ""
+"The width and diameter of your spool should be enough such that once fully "
+"wounded, your string never overlaps. The reason for this is because when the"
+" string starts to overlap, this can change the diameter of your spool, "
+"causing the tension in the string to change."
+msgstr ""
+"La anchura y el diámetro de la bobina deben ser tales que, una vez "
+"enrollada, la cuerda nunca se empalme. Esto se debe a que, cuando la cuerda "
+"empieza a empalmarse, puede cambiar el diámetro del carrete y, por tanto, la"
+" tensión de la cuerda."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:53
+msgid "A diagram of continuous rigging"
+msgstr "Un diagrama de rigging continuo"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:53
+msgid "Continuous rigging diagram"
+msgstr "Esquema del rigging continuo"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:56
+msgid "Cascade Rigging"
+msgstr "Rigging en Cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:60
+msgid ""
+"Cascade rigging is a bit more complicated than continuous rigging. Much like"
+" continuous rigging, an extension string originating from a spool is rigged "
+"to the top of the base, running down to the bottom of the first stage. "
+"However, instead of being rigged to the top of the stage, the extension "
+"string is anchored to the bottom of the first stage. A second extension "
+"string, anchored to the top of the base, is rigged to the top of the first "
+"stage and anchored at the bottom of the second stage. The pattern continues "
+"until all stages have been rigged."
+msgstr ""
+"El rigging en cascada es un poco más complicado que el rigging continuo. Al "
+"igual que en el rigging continuo, una cuerda de extensión que se origina en "
+"un carrete se apareja en la parte superior de la base y desciende hasta la "
+"parte inferior de la primera etapa. Sin embargo, en lugar de fijarse a la "
+"parte superior de la plataforma, la extensión se ancla a la parte inferior "
+"de la primera plataforma. Una segunda cuerda de extensión, anclada a la "
+"parte superior de la base, se apareja a la parte superior de la primera "
+"etapa y se ancla a la parte inferior de la segunda etapa. El patrón continúa"
+" hasta que se han aparejado todas las etapas."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:62
+msgid ""
+"The number of strings required to extend is equal to the number of stages in"
+" the system."
+msgstr ""
+"El número de cuerdas necesarias para extenderse es igual al número de etapas"
+" del sistema."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:64
+msgid ""
+"When the motor rotates one direction, the extension spool reels in the first"
+" string, decreasing the distance between the base and the bottom of the "
+"first stage. This pushes the second string forward, decreasing the distance "
+"between the top of the first stage and the bottom of the second stage, and "
+"so on. Note that unlike continuous rigging, **every stage moves at the same "
+"time**. The second stage moves 2 times as fast as the first stage relative "
+"to the base, the third 3 times as fast, and so on."
+msgstr ""
+"Cuando el motor gira en una dirección, el carrete de extensión enrolla la "
+"primera cuerda, disminuyendo la distancia entre la base y la parte inferior "
+"de la primera etapa. Esto empuja la segunda cuerda hacia delante, "
+"disminuyendo la distancia entre la parte superior de la primera etapa y la "
+"parte inferior de la segunda, y así sucesivamente. Tenga en cuenta que, a "
+"diferencia del rigging continuo, **todas las etapas se mueven al mismo "
+"tiempo**. La segunda etapa se mueve 2 veces más rápido que la primera con "
+"respecto a la base, la tercera 3 veces más rápido, y así sucesivamente."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:66
+msgid ""
+"A cascaded system can be retracted in three ways: using continuous "
+"retraction, elastic retraction, or reverse-cascade retraction."
+msgstr ""
+"Un sistema en cascada puede retraerse de tres formas: mediante retracción "
+"continua, retracción elástica o retracción en cascada inversa."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:71
+msgid "A diagram of cascade rigging"
+msgstr "Un diagrama de rigging en cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:71
+msgid "Cascade rigging diagram"
+msgstr "Esquema de rigging en cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:74
+msgid "Retraction Options"
+msgstr "Opciones de retracción"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:77
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:86
+msgid "Continuous Retraction"
+msgstr "Retracción continua"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:79
+msgid ""
+"As the name suggests, continuous retraction utilizes inverted continuous "
+"rigging to retract the slides. There are two main methods of doing this, "
+"**free floating retraction** where a string is run from the last stage "
+"directly back to the spool, and **with slide retraction** where the string "
+"is run in an inverse continuous pattern. Generally, **with slide "
+"retraction** should be used with extensions going outside the robot frame to"
+" prevent entanglement, and **free floating retraction** should only be used "
+"with purely vertical slides."
+msgstr ""
+"Como su nombre indica, la retracción continua utiliza un rigging continuo "
+"invertido para retraer las rieles. Hay dos métodos principales para hacer "
+"esto, **retracción flotante libre** donde una cuerda se ejecuta desde la "
+"última etapa directamente de vuelta al carrete, y **con retracción de "
+"rieles** donde la cuerda se ejecuta en un patrón continuo inverso. "
+"Generalmente, **con retracción por deslizamiento** debería utilizarse con "
+"extensiones que van fuera de la estructura del robot para evitar enredos, y "
+"**retracción flotante libre** sólo debería utilizarse con rieles puramente "
+"verticales."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:81
+msgid ""
+"If continuous retraction is being used with cascade extension, the two "
+"spools cannot be the same diameter. If the variable :math:`N` is the number "
+"of stages in the system, the diameter of the cascade extension spool must be"
+" :math:`N` **times smaller** than the continuous retraction spool."
+msgstr ""
+"Si se utiliza retracción continua con extensión en cascada, los dos carretes"
+" no pueden tener el mismo diámetro. Si la variable :math:`N` es el número de"
+" etapas del sistema, el diámetro del carrete de extensión en cascada debe "
+"ser :math:`N` **veces menor** que el carrete de retracción continua."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:86
+msgid "A diagram of continuous retraction"
+msgstr "Un diagrama de retracción continua"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:88
+msgid ""
+"If free floating retraction is used, **make sure your retract string is "
+"always parallel to the slides**. If the string is misaligned, it can pull on"
+" your slide and cause excess bending forces on the stages."
+msgstr ""
+"Si se utiliza la retracción libre, **asegúrese de que la cuerda de "
+"retracción esté siempre paralela a los rieles**. Si la cuerda está "
+"desalineada, puede tirar del riel y provocar fuerzas de flexión excesivas en"
+" las etapas."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:90
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:104
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:122
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:244
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:266
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:292
+msgid "Advantages:"
+msgstr "Ventajas:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:92
+msgid "Simplest retraction rigging"
+msgstr "El rigging de retracción más sencillo"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:94
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:109
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:127
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:250
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:271
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:297
+msgid "Disadvantages:"
+msgstr "Desventajas:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:96
+msgid "Can become tangled if free floating"
+msgstr "Puede enredarse si flota libremente"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:97
+msgid "Requires different sized spools if used with cascade retraction"
+msgstr ""
+"Requiere carretes de tamaño diferente si se utiliza con retracción en "
+"cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:100
+msgid "Elastic Retraction"
+msgstr "Retracción elástica"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:102
+msgid ""
+"Instead of retracting using a retraction spool, one common way to retract is"
+" to attach a piece of elastic (commonly surgical tubing) to the last stage. "
+"The elastic applies a force on the last stage that is counteracted by the "
+"motor when extending. However, when retracting, the motor reels the last "
+"slide back in. While this is the retraction method recommended by many kit "
+"slide manuals, this method is not recommended."
+msgstr ""
+"En lugar de retraer utilizando un carrete de retracción, una forma común de "
+"retraer es adjuntar un trozo de elástico (comúnmente tubo quirúrgico) a la "
+"última etapa. El elástico aplica una fuerza sobre la última etapa que es "
+"contrarrestada por el motor cuando se extiende. Sin embargo, cuando se "
+"retrae, el motor vuelve a enrollar al último riel. Aunque este es el método "
+"de retracción recomendado por muchos manuales de guías de kit, este método "
+"no es recomendable."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:106
+msgid ""
+"There is only one string to tension, instead of multiple, so tensioning is "
+"simpler."
+msgstr ""
+"Sólo hay una cuerda que tensar, en lugar de varias, por lo que el tensado es"
+" más sencillo."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:107
+msgid "The elastic automatically tensions the extension string."
+msgstr "El elástico tensa automáticamente la cuerda extensible."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:111
+msgid ""
+"Since the elastic applies a force to the slide at all times, this force "
+"opposes the force applied by the motor when extending the slides. **Thus, "
+"elastic retraction decreases extension speed considerably**."
+msgstr ""
+"Dado que el elástico aplica una fuerza al riel en todo momento, esta fuerza "
+"se opone a la aplicada por el motor al extender los rieles. **De este modo, "
+"la retracción elástica disminuye considerablemente la velocidad de "
+"extensión**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:112
+msgid ""
+"The elastic does not apply a constant force at all times. It applies force "
+"proportional to the amount that the slide is extended, so retraction may not"
+" be smooth and controlled, like other rigging methods."
+msgstr ""
+"El elástico no aplica una fuerza constante en todo momento. Aplica una "
+"fuerza proporcional a la cantidad que se extiende el riel, por lo que la "
+"retracción puede no ser suave y controlada, como otros métodos de rigging."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:113
+msgid ""
+"It is very easy to unwind your extension spool when using elastic "
+"retraction."
+msgstr ""
+"Es muy fácil desenrollar el carrete de extensión cuando se utiliza la "
+"retracción elástica."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:116
+msgid "Cascade Retraction"
+msgstr "Retracción en cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:118
+msgid ""
+"Cascade retraction entails simply rigging another set of cascade string that"
+" can retract the system when engaged (see the image below)."
+msgstr ""
+"La retracción en cascada consiste simplemente en aparejar otro conjunto de "
+"cuerdas en cascada que puedan retraer el sistema cuando se enganche (véase "
+"la imagen siguiente)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:120
+msgid ""
+"If cascade retraction is being used with continuous extension, the two "
+"spools cannot be the same diameter. If the variable :math:`N` is the number "
+"of stages in the system, the diameter of the continuous extension spool must"
+" be :math:`N` **times bigger** than the cascade retraction spool."
+msgstr ""
+"Si se utiliza retracción en cascada con extensión continua, los dos carretes"
+" no pueden tener el mismo diámetro. Si la variable :math:`N` es el número de"
+" etapas del sistema, el diámetro de la bobina de extensión continua debe ser"
+" :math:`N` **veces mayor** que la bobina de retracción en cascada."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:124
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
+msgid "Very space-efficient"
+msgstr "Muy eficiente en cuanto a espacio"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:125
+msgid "All stages retract at the same speed at the same time"
+msgstr "Todas las etapas se retraen a la misma velocidad al mismo tiempo"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:129
+msgid ""
+"Requires more string (less strings to tension, less strings that can become "
+"loose)"
+msgstr ""
+"Requiere más cuerda (menos cuerdas que tensar, menos cuerdas que pueden "
+"aflojarse)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:130
+msgid "Requires different sized spools if used with cascade extension"
+msgstr ""
+"Requiere carretes de tamaño diferente si se utiliza con extensión en cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:136
+msgid "A diagram of cascade retraction"
+msgstr "Un diagrama de retracción en cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:136
+msgid "Cascade retraction"
+msgstr "Retracción en cascada"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:138
+msgid "Additional Considerations:"
+msgstr "Consideraciones adicionales:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:140
+msgid ""
+"If the system has only one stage, cascade rigging is **identical to "
+"continuous rigging**"
+msgstr ""
+"Si el sistema sólo tiene una etapa, el rigging en cascada es **idéntico al "
+"rigging continuo**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:141
+msgid ""
+"Unlike continuous rigging, each time a new stage is added to a cascaded "
+"system, the gear ratio required to maintain the same extension speed "
+"increases. For instance, if 2 stages are added to a 1 stage cascaded lift "
+"that is geared at a ratio of 3:1, the ratio must increase by a factor of "
+":math:`\\frac{2+1}{1}` to maintain the same speed, changing the ratio to "
+"9:1."
+msgstr ""
+"A diferencia del rigging continuo, cada vez que se añade una nueva etapa a "
+"un sistema en cascada, aumenta la relación de engranajes necesaria para "
+"mantener la misma velocidad de extensión. Por ejemplo, si se añaden 2 etapas"
+" a un elevador en cascada de 1 etapa que está engranado con una relación de "
+"3:1, la relación debe aumentar en un factor de :math:`\\frac{2+1}{1}` para "
+"mantener la misma velocidad, cambiando la relación a 9:1."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:142
+msgid ""
+"One disadvantage of cascade rigging is that each string must be kept "
+"tensioned. This is still the case with continuous rigging, but you have many"
+" more strings to keep track of, as tension must be maintained on all of "
+"them."
+msgstr ""
+"Una desventaja del rigging en cascada es que cada cuerda debe mantenerse "
+"tensada. Lo mismo ocurre con el rigging continuo, pero hay que controlar "
+"muchas más cuerdas, ya que hay que mantener la tensión en todas ellas."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:147
+msgid "Belt-driven slides"
+msgstr "Rieles accionados por correa"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:149
+msgid ""
+"One increasingly popular alternative to traditional string-based rigging is "
+"belt-driven slides. This can be done continuously or using cascade rigging."
+msgstr ""
+"Una alternativa cada vez más popular al rigging tradicional basado en "
+"cuerdas son las rieles accionados por correas. Esto puede hacerse de forma "
+"continua o utilizando rigging en cascada."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:152
+msgid "Advantages over string"
+msgstr "Ventajas sobre la cuerda"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:154
+msgid ""
+"Unlike string, belts used on slides never need to be tensioned. As discussed"
+" in the linear motion section, in order for string-driven slides to remain "
+"efficient, string tension must be maintained. Naturally, string loosens over"
+" time, so you either need a mechanism that can provide extra tension (a "
+"spring) or manually tighten string, which can get a bit tedious (especially "
+"for cascade rigging)."
+msgstr ""
+"A diferencia de la cuerda, las correas utilizadas en los rieles nunca "
+"necesitan tensarse. Como ya se ha comentado en la sección de movimiento "
+"lineal, para que las rieles accionados por cuerda sigan siendo eficientes, "
+"es necesario mantener la tensión de la cuerda. Naturalmente, la cuerda se "
+"afloja con el tiempo, por lo que o bien se necesita un mecanismo que "
+"proporcione tensión adicional (un resorte) o bien tensar manualmente la "
+"cuerda, lo que puede resultar un poco tedioso (especialmente para el rigging"
+" en cascada)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:156
+msgid ""
+"However, belts do not have this issue. They tend not to stretch over time, "
+"meaning complex external tensioners are rarely needed. Belts are also on an "
+"automatic one to one loop, meaning that for every inch you pull in on the "
+"extension side, you always feed back out that inch on the retraction side, "
+"and vise versa. While this might not seem like a big deal, if a string winds"
+" itself up on a spool and overlaps at any point, the diameter of the spool "
+"changes, making the two spools out of sync."
+msgstr ""
+"Sin embargo, las correas no tienen este problema. No tienden a estirarse con"
+" el tiempo, lo que significa que rara vez se necesitan tensores externos "
+"complejos. Las correas también tienen un bucle automático de uno a uno, lo "
+"que significa que por cada centímetro que se tira hacia dentro en el lado de"
+" extensión, siempre se retrocede ese centímetro en el lado de retracción, y "
+"viceversa. Aunque esto puede no parecer un gran problema, si una cuerda se "
+"enrolla en un carrete y se empalma en algún punto, el diámetro del carrete "
+"cambia, haciendo que los dos carretes no estén sincronizados."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:159
+msgid "Disadvantages over string"
+msgstr "Desventajas frente a la cuerda"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
+msgid ""
+"The main disadvantage of belt-driven slides is the amount of space they take"
+" up. Simply put, belt pulleys take up much more room than the 4mm thick, "
+"12mm diameter pulley bearings REV sells. When using belt-driven slides, "
+"pulleys are at least double that thickness and have a considerably larger "
+"diameter, meaning each stage must be thicker."
+msgstr ""
+"La principal desventaja de los rieles accionados por correa es la cantidad "
+"de espacio que ocupan. En pocas palabras, las poleas de correa ocupan mucho "
+"más espacio que los rodamientos de polea de 4 mm de grosor y 12 mm de "
+"diámetro que vende REV. Cuando se utilizan rieles accionados por correa, las"
+" poleas tienen al menos el doble de grosor y un diámetro considerablemente "
+"mayor, lo que significa que cada etapa debe ser más gruesa."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:166
+msgid "7236's Rover Ruckus' robot's belt rigging"
+msgstr "7236's Rover Ruckus' rigging de correa del robot"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:166
+msgid "7236 Recharged Green, Rover Ruckus, **continuous** rig"
+msgstr "7236 Recharged Green, Rover Ruckus, **rigging continuo**"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:171
+msgid "11190's Relic Recovery robot's belt rigging"
+msgstr "11190's Relic Recovery robot rigging de correa"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:171
+msgid "11190 Mechadojos, Relic Recovery, continuous belt rig"
+msgstr "11190 Mechadojos, Relic Recovey, rigging de correa continua"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:176
+msgid "5064's cascading belt rigging diagram"
+msgstr "Esquema de rigging de correa en cascada del 5064"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:176
+msgid ""
+"5064 Aperture Science Rover Ruckus **cascade** belt-driven proof of concept "
+"drawing"
+msgstr ""
+"5064 Aperture Science Rover Ruckus **cascada** dibujo de prueba de concepto "
+"accionado por correa"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
+msgid "5064's cascading belt rigging"
+msgstr "rigging de correa en cascada del 5064"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
+msgid ""
+"5064 Aperture Science Rover Ruckus **cascade** belt-driven final version"
+msgstr ""
+"5064 Aperture Science Rover Ruckus **cascada** versión final accionada por "
+"correa"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:184
+msgid "Belt or chain driven elevators"
+msgstr "Elevadores accionados por correa o cadena"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:186
+msgid ""
+"Almost ubiquitous in FRC\\ |reg|, belt and chain elevators have existed "
+"seemingly forever. The basic premise is to have sprockets or pulleys mounted"
+" at the top and bottom of the elevator to the robot superstructure. Then, "
+"the belt or chain is hard bolted to the elevator near the bottom sprocket or"
+" pulley. When the chain or belt is driven, the elevator will move up and "
+"down. It is possible for elevators to have multi stage designs, but powering"
+" them will be more complex."
+msgstr ""
+"Casi omnipresentes en FRC |reg|, los elevadores de correa y cadena han "
+"existido aparentemente desde siempre. La premisa básica es tener ruedas "
+"piñones o poleas montadas en la parte superior e inferior del elevador a la "
+"superestructura del robot. A continuación, la correa o cadena se atornilla "
+"al elevador cerca del piñon o polea inferior. Cuando se acciona la cadena o "
+"la correa, el elevador se mueve hacia arriba y hacia abajo. Es posible que "
+"los elevadores tengan diseños multietapa, pero su accionamiento será más "
+"complejo."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:191
+msgid "7236's belt driven elevator"
+msgstr "Elevador accionado por correa del 7236"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:191
+msgid "7236 Recharged Green, Rover Ruckus"
+msgstr "7236 Recharged Green, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:194
+msgid "Tensioners"
+msgstr "Tensores"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:196
+msgid ""
+"Tensioning string is one of the most painstaking tasks for a builder in FTC."
+" Ensuring that both sets of slides are tensioned evenly can be an arduous "
+"and annoying job. However, adding tensioners to your strings can help solve "
+"the uneven tension and ensure that both sides of slides run together. The "
+"most common type of tensioner is a spring that can be purchased at a "
+"hardware store. It generally will be placed at the end of the string run, "
+"near the part that extends farthest out from the robot's center. By doing "
+"so, the string will stretch out when the spool extends the arm, keeping "
+"tension so that the string does not detach from the pulleys in the linear "
+"slide extension."
+msgstr ""
+"Tensar la cuerda es una de las tareas más laboriosas para un constructor en "
+"FTC. Asegurarse de que ambos juegos de rieles estén tensados de manera "
+"uniforme puede ser un trabajo arduo y molesto. Sin embargo, añadir tensores "
+"a las cuerdas puede ayudar a resolver la tensión desigual y garantizar que "
+"ambos lados de las correderas funcionen juntos. El tipo más común de tensor "
+"es un resorte que se puede comprar en una ferretería. Generalmente se coloca"
+" al final del recorrido de la cuerda, cerca de la parte que se extiende más "
+"lejos del centro del robot. De este modo, la cuerda se estirará cuando el "
+"carrete extienda el brazo, manteniendo la tensión para que la cuerda no se "
+"suelte de las poleas en la extensión lineal del riel."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:198
+msgid ""
+"Another form of tensioner can be a spring-loaded pulley. Since the pulley is"
+" spring-loaded, it will take up the slack in the string. Alternatively, it "
+"is possible to mount a pulley on a piece of extrusion, and slide it so the "
+"string is taut."
+msgstr ""
+"Otra forma de tensor puede ser una polea accionada por resorte. Como la "
+"polea está cargada con un resorte, absorberá la holgura de la cuerda. Otra "
+"posibilidad es montar una polea en una pieza de extrusión y deslizarla para "
+"que la cuerda quede tensa."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:200
+msgid ""
+"There are two main reasons that tensioners are highly recommended in string "
+"based linear slides, the first and oftentimes more important one, is that at"
+" its core, a run of string is a series of polygons, and as the slide extends"
+" the effective size of that polygon changes. Meaning that when fully "
+"extended, your slide may require more or less string compared to when "
+"halfway extended. Or partially extended. The closer each set of bearings "
+"are, the less this impracts string tension."
+msgstr ""
+"Hay dos razones principales por las que los tensores son muy recomendables "
+"en los rieles lineales basadas en cuerdas: la primera, y a menudo la más "
+"importante, es que, en esencia, una riel de cuerda es una serie de polígonos"
+" y, a medida que el riel se extiende, el tamaño efectivo de ese polígono "
+"cambia. Esto significa que, cuando está totalmente extendida, el riel puede "
+"necesitar más o menos cuerda que cuando está medio extendida. O parcialmente"
+" extendida. Cuanto más cerca estén los rodamientos, menor será la tensión de"
+" la cuerda."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:202
+msgid ""
+"Another (but less impactful) thing to keep in mind that spool size changes "
+"as string is added/removed from the spool. If the spool radius increases, "
+"the speed of the extension will also increase, and torque, which opposes "
+"speed, will decrease. Consequently, tension will change as well. Therefore, "
+"a bit of slack is inherent in all linear extension designs using string."
+msgstr ""
+"Otra cosa (pero menos impactante) a tener en cuenta es que el tamaño del "
+"carrete cambia a medida que se añade/quita cuerda del carrete. Si el radio "
+"del carrete aumenta, la velocidad de la extensión también aumentará, y el "
+"torque, que se opone a la velocidad, disminuirá. En consecuencia, la tensión"
+" también cambiará. Por lo tanto, en todos los diseños de extensiones "
+"lineales que utilizan cuerda es inherente un poco de holgura."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:204
+msgid ""
+"It is highly encouraged that teams have at least one spring tensioner per "
+"linear slide set."
+msgstr ""
+"Se recomienda encarecidamente que los equipos dispongan de al menos un "
+"tensor de resortes por juego de rieles lineales."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
+msgid "An image of 13075 linear slides"
+msgstr "Una imagen de 13075 rieles lineales"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
+msgid "An image of 13075 linear slide's string tensioner"
+msgstr "Una imagen del tensor de cuerda del riel lineal 13075"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
+msgid "13075 Coram Deo Robotics, Rover Ruckus, string tensioner"
+msgstr "13075 Coram Deo Robotics, Rover Ruckus, tensor de cuerda"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:215
+msgid "Picking the right spool size"
+msgstr "Elegir el tamaño de carrete adecuado"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:217
+msgid ""
+"Spools have a special property that isn't often discussed, but is extremely "
+"useful when creating linear slide systems. Just as the system's speed and "
+"torque can be changed by changing its gear ratio, speed and torque can also "
+"be changed by changing the spool size. The motor rotates the spool at a "
+"constant angular speed. Thus, the translational speed (the speed of the "
+"slide) is proportional to the radius of the spool, and since torque is "
+"inversely proportional to speed, changing the spool size changes torque as "
+"well."
+msgstr ""
+"Los carretes tienen una propiedad especial de la que no se habla mucho, pero"
+" que resulta muy útil a la hora de crear sistemas de rieles lineales. Al "
+"igual que la velocidad y el torque del sistema pueden modificarse cambiando "
+"la relación de engranajes, la velocidad y el torque también pueden "
+"modificarse cambiando el tamaño del carrete. El motor hace girar el carrete "
+"a una velocidad angular constante. Por tanto, la velocidad de traslación (la"
+" velocidad del riel) es proporcional al radio del carrete y, puesto que el "
+"torque es inversamente proporcional a la velocidad, al cambiar el tamaño del"
+" carrete también cambia el torque."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:219
+msgid ""
+"This is important to recognize, as changing spool size is often more "
+"convenient than changing gear ratio to get the desired combination of speed "
+"and torque. To illustrate this, say you have a linear extension system with "
+"a 3.7:1 gear ratio. You then decide that a 5:1 gear ratio would provide a "
+"more desirable combination of speed and torque than your current 3.7:1 "
+"ratio."
+msgstr ""
+"Esto es importante de reconocer, ya que cambiar el tamaño del carrete es a "
+"menudo más conveniente que cambiar la relación de engranajes para obtener la"
+" combinación deseada de velocidad y torque. Para ilustrar esto, supongamos "
+"que tiene un sistema de extensión lineal con una relación de engranajes de "
+"3,7:1. Luego decide que una relación de engranajes de 5:1 proporcionaría una"
+" combinación más deseable de velocidad y torque. Entonces decide que una "
+"relación de engranajes de 5:1 proporcionaría una combinación más deseable de"
+" velocidad y torque que su relación actual de 3,7:1."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:221
+msgid ""
+"In many cases, instead of swapping gearboxes, it makes more sense to swap "
+"out spools to a smaller one. If your spool is currently 2 inches, your new "
+"size should be :math:`\\frac{2*3.7}{5}` inches to achieve the same result."
+msgstr ""
+"En muchos casos, en lugar de cambiar las cajas de engranajes, tiene más "
+"sentido cambiar los carretes por unos más pequeños. Si su carrete actual es "
+"de 2 pulgadas, el nuevo tamaño debería ser :math:`\\frac{2*3,7}{5}` pulgadas"
+" para obtener el mismo resultado."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:223
+msgid ""
+"You also need to make sure that when fully wrapped on the spool, your cable "
+"or string doesn't overlap. Overlapping can result in a change in spool "
+"diameter, which will change the tension in your string."
+msgstr ""
+"También debes asegurarte de que el cable o la cuerda no se empalmen  cuando "
+"estén completamente enrollados en el carrete. El empalmamiento puede "
+"provocar un cambio en el diámetro del carrete, lo que modificará la tensión "
+"de la cuerda."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:226
+msgid "Cable management"
+msgstr "Gestión de cables"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:228
+msgid ""
+"When extending outwards, wire management becomes increasingly important. "
+"Obviously, it is a necessity to use wires slightly longer than the extension"
+" length. However, it is not recommended that these wires are left "
+"unprotected, as they can get tangled or caught in the slides much more "
+"easily than with protection."
+msgstr ""
+"Cuando se extiende hacia el exterior, la gestión de los cables adquiere cada"
+" vez más importancia. Obviamente, es necesario utilizar cables ligeramente "
+"más largos que la longitud de la extensión. Sin embargo, no es recomendable "
+"dejar estos cables sin protección, ya que pueden enredarse o engancharse en "
+"las rieles con mucha más facilidad que con protección."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:230
+msgid ""
+"In general, teams should ensure that wires never protrude outside the "
+"structural parts of the robot, because they can get caught on other robots "
+"or game pieces. This can be accomplished by cable ties or Velcro ties, or by"
+" using acrylic plate to keep wires inside."
+msgstr ""
+"En general, los equipos deben asegurarse de que los cables nunca sobresalgan"
+" fuera de las partes estructurales del robot, ya que pueden engancharse en "
+"otros robots o piezas de juego. Esto puede conseguirse mediante cinchos para"
+" cables o tiras de velcro, o utilizando una placa acrílica para mantener los"
+" cables en el interior."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:232
+msgid ""
+"However, for linear extensions, other forms of cable management are needed. "
+"The two types of cable management recommended are cable carrier and "
+"retractable coil cord. Refer to the :doc:`Electronics and Wiring "
+"</docs/power-and-electronics/index>` section for more information."
+msgstr ""
+"Sin embargo, para las extensiones lineales, se necesitan otras formas de "
+"gestión de cables. Los dos tipos de organización de cables recomendados son "
+"el portacables y el cable en espiral retráctil. Consulte la sección "
+":doc:`Electrónica y cableado </docs/power-and-electronics/index>` para "
+"obtener más información."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:235
+msgid "Cable Carrier/Drag Chain"
+msgstr "Portacables/Cadena de arrastre"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:237
+msgid ""
+"Cable carrier, the standard wire management method within industry, is "
+"plastic chain links with a hollow center. Cables are placed inside the "
+"chain, allowing the system to extend indefinitely. The links are somewhat "
+"stiff yet flexible, allowing cable chain to bend when the extension is "
+"retracted and straighten when extended. They typically are stiff enough not "
+"to sag excessively when retracted."
+msgstr ""
+"Los portacables, el método estándar de gestión de cables en la industria, "
+"son eslabones de cadena de plástico con un centro hueco. Los cables se "
+"colocan dentro de la cadena, lo que permite que el sistema se extienda "
+"indefinidamente. Los eslabones son algo rígidos pero flexibles, lo que "
+"permite que la cadena portacables se doble cuando se retrae la extensión y "
+"se enderece cuando se extiende. Suelen ser lo suficientemente rígidos como "
+"para no encorvarse excesivamente cuando se retraen."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:239
+msgid "Here are some links to various drag chain products:"
+msgstr ""
+"Estos son algunos enlaces a diversos productos de cadenas de arrastre:"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:241
+msgid ""
+"`igus cable carrier <https://www.igus.com/info/energy-chains-e2-micro-small-"
+"cable-carrier>`_"
+msgstr ""
+"`portacables igus <https://www.igus.com/info/energy-chains-e2-micro-small-"
+"cable-carrier>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:242
+msgid ""
+"`uxcell 10x10mm drag chain, from Amazon <https://www.amazon.com/uxcell-"
+"InnerH-InnerW-Plastic-"
+"Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
+msgstr ""
+"`uxcell 10x10mm cadena de arrastre, de Amazon "
+"<https://www.amazon.com/uxcell-InnerH-InnerW-Plastic-"
+"Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:246
+msgid "Difficult to get tangled/hooked onto other objects or robots"
+msgstr "Difícil de enredarse/engancharse a otros objetos o robots"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:247
+msgid "Sturdy and durable"
+msgstr "Robusto y duradero"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:248
+msgid "Protects wires very well"
+msgstr "Protege muy bien los cables"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:252
+msgid "Large form factor, takes up a lot of space"
+msgstr "Factor de forma grande, ocupa mucho espacio"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:253
+msgid "Links need to be added if additional extension is needed"
+msgstr "Es necesario añadir enlaces si se necesita una extensión adicional"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:254
+msgid "Can be on the heavy side, especially with a long length of drag chain"
+msgstr ""
+"Puede resultar pesado, especialmente con una cadena de arrastre larga."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:259
+msgid "7236's Rover Ruckus robot with cable carriers visible"
+msgstr "El robot Rover Ruckus de 7236 con los portacables a la vista"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:259
+msgid ""
+"7236 Recharged Green, Rover Ruckus: Cable carrier on the left side of their "
+"horizontal slides and the right side of vertical slides"
+msgstr ""
+"7236 Recharged Green, Rover Ruckus: Portacables en el lado izquierdo de sus "
+"rieles horizontales y en el lado derecho de los rieles verticales."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:262
+msgid "Retractable Coil Cord"
+msgstr "Cable retráctil en espiral"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:264
+msgid ""
+"While not common within industry, coil cords are still very common (coil "
+"cord is a nearly ubiquitous staple of older telephones). Retractable coil "
+"cord is more flexible than cable carriers, stretching when extended."
+msgstr ""
+"Aunque no son habituales en la industria, los cables en espiral siguen "
+"siendo muy comunes (el cable en espiral es un elemento casi omnipresente de "
+"los teléfonos antiguos). El cable en espiral retráctil es más flexible que "
+"los portacables y se estira cuando se extiende."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:269
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:295
+msgid ""
+"Flexible and can usually extend to any length needed (unlike cable carriers,"
+" no new links ever need to be added)"
+msgstr ""
+"Flexible y, por lo general, puede ampliarse a cualquier longitud que se "
+"necesite (a diferencia de los soportes de cables, nunca es necesario añadir "
+"nuevos enlaces)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:273
+msgid "Can get tangled more easily, as it is less stiff than drag chain"
+msgstr ""
+"Puede enredarse más fácilmente, ya que es menos rígida que la cadena de "
+"arrastre"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:281
+msgid "10030's robot's coil cord"
+msgstr "Cable de la bobina del robot 10030"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:281
+msgid ""
+"10030 7 Sigma Robotics, Relic Recovery: Coil-cord on horizontal extension "
+"mechanism"
+msgstr ""
+"10030 7 Sigma Robotics, Relic Recovery: Cuerda helicoidal en mecanismo de "
+"extensión horizontal"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:284
+msgid "Self-retracting Badge Holder"
+msgstr "Portacredenciales autorretráctil"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:286
+msgid ""
+"While an uncommon technique, a self-retracting ID Badge holder can help "
+"manage wiring on an extension. These are common items; `here is one from "
+"Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-"
+"Alligator/dp/B07WPRJY9K/>`_."
+msgstr ""
+"Aunque se trata de una técnica poco común, un portacredenciales "
+"autorretráctil puede ayudar a gestionar el cableado en una extensión. Son "
+"artículos comunes; `aquí hay uno de Amazon <https://www.amazon.com/OFES-"
+"Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:288
+msgid ""
+"This really only works for vertical or near-vertical slides, as there is "
+"still some sag in the cable which can easily get entangled if it extends "
+"outside of the robot frame."
+msgstr ""
+"En realidad, esto sólo funciona para rieles verticales o casi verticales, ya"
+" que el cable sigue teniendo una cierta inflexion que puede enredarse "
+"fácilmente si se extiende fuera de la estructura del robot."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:290
+msgid ""
+"To rig a self-retracting badge holder to a wire, mount the hard plastic part"
+" of the badge holder to the base of the slides, and mount end of the "
+"holder's string to the wire. The wires should be hard-mounted (using zip "
+"ties or whatever your team uses) towards the top of the retracted slide with"
+" plenty of slack. For best results, the badge holder should be almost "
+"completely retracted (leave a centimeter or two to allow for some slack) "
+"when the slide is retracted."
+msgstr ""
+"Para fijar un portacredenciales autorretráctil a un cable, monte la parte de"
+" plástico duro del portacredenciales a la base de las rieles y monte el "
+"extremo de la cuerda del portacredenciales al cable. Los cables deben "
+"fijarse (con cinchos o lo que utilice su equipo) hacia la parte superior de "
+"la guía retráctil con suficiente holgura. Para obtener los mejores "
+"resultados, el portacredenciales debe estar casi completamente retraído "
+"(deje uno o dos centímetros para permitir cierta holgura) cuando la "
+"corredera esté retraída."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:294
+msgid "Extremely simple and easy to implement"
+msgstr "Extremadamente sencillo y fácil de aplicar"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:299
+msgid ""
+"Similar to a coil, self-retracting cable management strings can get tangled "
+"more easily, as it is less stiff than drag chain"
+msgstr ""
+"Al igual que una bobina, la cadena autorretráctil puede enredarse más "
+"fácilmente, ya que es menos rígida que la cadena de arrastre."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:300
+msgid ""
+"Does not work well on long slides (over 2 stages) without substantial "
+"engineering work"
+msgstr ""
+"No funciona bien en rieles largos (más de 2 etapas) sin un trabajo "
+"sustancial de ingeniería."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:308
+msgid "248's robot's badge retractor cable management"
+msgstr "Gestión de cables del retractor de portacredenciales del robot 248"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:308
+msgid ""
+"248 Fatal Error, Freight Frenzy: Badge retractor cable management on "
+"extension mechanism"
+msgstr ""
+"248 Fatal Error, Freight Frenzy: Gestión del cable del retractor del "
+"portacredenciales en el mecanismo de extensión"

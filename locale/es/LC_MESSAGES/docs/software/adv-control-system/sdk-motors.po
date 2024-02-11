@@ -5,18 +5,257 @@
 # 
 # Translators:
 # Tania Elizabeth Montana Alvarez, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Tania Elizabeth Montana Alvarez, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:4
+msgid "SDK Motors"
+msgstr "Motores SDK"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:6
+msgid ""
+"The SDK offers several methods of controlling and communicating with motors,"
+" as well as a couple of hidden methods that can be easily accessed."
+msgstr ""
+"El SDK ofrece varios métodos de control y comunicación con los motores, así "
+"como un par de métodos ocultos a los que se puede acceder fácilmente."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:9
+msgid "General Explanation"
+msgstr "Explicación general"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:12
+msgid "Motor Controller"
+msgstr "Controlador del motor"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:13
+msgid ""
+"All motor ports are controlled with what is called an H-bridge motor "
+"controller, a circuit that can be used to vary the output voltage as well as"
+" signage (negative or positive) of the voltage. Negative voltage through a "
+"DC Motor reverses a motor, whereas positive motor will make the motor go "
+"forward. SDK Motor power (from -1 to 1), represents a multiplier of the "
+"input voltage that is output through the motor port. The different voltages "
+"are created via PWM, where the port is turned on and off rapidly to create a"
+" lower average voltage."
+msgstr ""
+"Todos los puertos de motor se controlan con lo que se llama un controlador "
+"de motor de puente H, un circuito que se puede utilizar para variar la "
+"tensión de salida, así como la señalización (negativa o positiva) de la "
+"tensión. Un voltaje negativo a través de un motor DC invierte un motor, "
+"mientras que uno positivo hará que el motor vaya hacia delante. La potencia "
+"del Motor SDK (de -1 a 1), representa un multiplicador del voltaje de "
+"entrada que se emite a través del puerto del motor. Los diferentes voltajes "
+"son creados vía PWM, donde el puerto es encendido y apagado rápidamente para"
+" crear un voltaje promedio más bajo."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:15
+msgid ""
+"In addition, the zero power behavior of the motor, that is the behavior of "
+"the motor when no power is applied, can be configured. In FLOAT mode, the "
+"motor controller simply turns off, providing minimal additional resistance. "
+"In BRAKE mode, the two motor leads are shorted together internally. Due to "
+"the inherent property that all DC brushed motors generate electricity when "
+"the shaft spins, shorting the leads causes a reverse power that stops the "
+"motor quickly and is resistant to external forces."
+msgstr ""
+"Además, se puede configurar el comportamiento de potencia cero del motor, es"
+" decir, el comportamiento del motor cuando no se aplica potencia. En modo "
+"FLOAT, el controlador del motor simplemente se apaga, proporcionando una "
+"resistencia adicional mínima. En modo BRAKE, los dos cables del motor se "
+"cortocircuitan internamente. Debido a la propiedad inherente de que todos "
+"los motores de DC con escobillas generan electricidad cuando el eje gira, el"
+" cortocircuito de los cables provoca una potencia inversa que detiene el "
+"motor rápidamente y es resistente a las fuerzas externas."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:17
+msgid ""
+"The motor controller uses the input voltage, this means on a 13 volt "
+"battery, setting the power to 1 will create an output voltage of 13 volts. "
+"Similarly, on an 11 volt battery, a power of 1 will create an output voltage"
+" of 11 volts."
+msgstr ""
+"El controlador del motor utiliza la tensión de entrada, lo que significa que"
+" en una batería de 13 voltios, ajustar la potencia a 1 creará una tensión de"
+" salida de 13 voltios. Del mismo modo, en una batería de 11 voltios, una "
+"potencia de 1 creará una tensión de salida de 11 voltios."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:20
+msgid "Motor Encoder"
+msgstr "Codificador del motor"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:22
+msgid ""
+"There is no real standardized terminology when dealing with quadrature "
+"encoders. Here, we use the terms \"count\" and \"tick\" to represent a "
+"single rising or falling action in the quadrature wave. You may also see "
+"some datasheets list \"pulses\", which can indicate anything from 1 "
+"\"count\" to 4 \"counts\". Be careful when reading datasheets!"
+msgstr ""
+"No existe una terminología estandarizada real al tratar con codificadores de"
+" cuadratura. Aquí, usamos los términos \"conteo\" y \"tick\" para "
+"representar una sola acción ascendente o descendente en la onda de "
+"cuadratura. También puedes ver en algunas hojas de datos \"pulsos\", lo cual"
+" puede indicar desde 1 \"conteo\" hasta 4 \"conteos\". ¡Ten cuidado al leer "
+"hojas de datos!"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:24
+msgid ""
+"FTC\\ |reg| Encoders use the two wire quadrature format for transmitting "
+"relative encoder information. In quadrature, there are two signal wires, A "
+"and B. When moving, both A and B generate square waves that are 90 degrees "
+"apart, that is one square wave starts half way through the other square "
+"wave, and ends half way through the other square wave. When traveling in one"
+" direction, the A wire square wave leads the B wire square wave, and in the "
+"other direction the B wire square wave leads the A wire square wave. The two"
+" waves are combined in XOR to produce the output wave, where each rising and"
+" falling action is one \"tick\", and the faster the wave the faster the "
+"encoder is moving."
+msgstr ""
+"Los FTC\\ |reg| codificadores utilizan el formato de cuadratura de dos hilos"
+" para transmitir información relativa del codificador. En cuadratura, hay "
+"dos cables de señal, A y B. Al moverse, tanto A como B generan ondas "
+"cuadradas que están separadas por 90 grados, es decir, una onda cuadrada "
+"comienza a la mitad de la otra onda cuadrada y termina a la mitad de la otra"
+" onda cuadrada. Al viajar en una dirección, la onda cuadrada del cable A "
+"precede a la onda cuadrada del cable B, y en la otra dirección, la onda "
+"cuadrada del cable B precede a la onda cuadrada del cable A. Las dos ondas "
+"se combinan en XOR para producir la onda de salida, donde cada acción de "
+"subida y bajada es un \"tick\", y cuanto más rápido sea la onda, más rápido "
+"se mueve el codificador."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:26
+msgid ""
+"The REV hub counts the pulses and calculates velocity by using a 5 value "
+"\"ring buffer\", which has a new value added to it every 10 ms. These 5 "
+"values are then used to calculate the current velocity."
+msgstr ""
+"El concentrador REV cuenta los pulsos y calcula la velocidad utilizando un "
+"\"buffer de anillo\" de 5 valores, al cual se le agrega un nuevo valor cada "
+"10 ms. Estos 5 valores se utilizan para calcular la velocidad actual."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:28
+msgid ""
+"It is recommended that quadrature encoders be hooked up to special hardware "
+"decoded ports to allow them to be read correctly. The expansion hub contains"
+" special hardware for reading quadrature encoders, but because there are "
+"only two of those controllers, two of the pins are hooked up in \"software\""
+" instead (the ports are decoded in software instead of in hardware). "
+"Effectively, this means that ports 0 and 3, the two ports connected to the "
+"special quadrature ports, will always read accurately. **Ports 1 and 2 are "
+"connected to the less accurate \"software\" ports, meaning that with high "
+"CPR encoders (encoders that produce more than 4000 counts per revolution, "
+"such as the REV Through Bore Encoder or Talon SRX Encoder) they can \"lose "
+"steps\" and drift.**"
+msgstr ""
+"Se recomienda que los codificadores de cuadratura se conecten a puertos "
+"decodificados de hardware especial para permitir que se lean correctamente. "
+"El expansion hub contiene hardware especial para leer codificadores de "
+"cuadratura, pero debido a que solo hay dos de esos controladores, dos de los"
+" pines están conectados en \"software\" en su lugar (los puertos se "
+"decodifican en software en lugar de en hardware). Esto significa "
+"efectivamente que los puertos 0 y 3, los dos puertos conectados a los "
+"puertos de cuadratura especiales, siempre se leerán con precisión. **Los "
+"puertos 1 y 2 están conectados a los puertos \"software\" menos precisos, lo"
+" que significa que con codificadores de alta CPR (codificadores que producen"
+" más de 4000 cuentas por revolución, como el codificador REV Through Bore o "
+"el codificador Talon SRX), pueden \"perder pasos\" y desviarse.**"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:33
+msgid ""
+"An example of a quadrature wave, with the A channel, B channel. The wave is "
+"broken up into four sections, where each section constitutes a tick."
+msgstr ""
+"Un ejemplo de una onda de cuadratura, con el canal A, canal B. La onda se "
+"divide en cuatro secciones, donde cada sección constituye un tick."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:33
+msgid ""
+"An example of a quadrature wave, with channel A leading channel B. Each "
+"count is a \"count\" or \"tick\""
+msgstr ""
+"Un ejemplo de una onda de cuadratura, con el canal A adelantando al canal B."
+" Cada cuenta es un \"count\" o \"tick\"."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:36
+msgid "Hidden Methods"
+msgstr "Métodos Ocultos"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:39
+msgid "DcMotorEx"
+msgstr "DcMotorEx"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:40
+msgid ""
+"All REV hub DC motors are instances of ``DcMotorEx``, which exposes some "
+"more methods to the user, such as velocity control and current draw "
+"measurement."
+msgstr ""
+"Todos los motores de DC de REV hub son instancias de \"DcMotorEx\", que "
+"expone algunos métodos adicionales al usuario, como el control de velocidad "
+"y la medición de la corriente consumida."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:42
+msgid ""
+"There is no downside to using DcMotorEx, in order to convert a DcMotor to a "
+"DcMotorEx the user simply just needs to cast the DcMotor returned by the "
+"``hardwareMap`` to a DcMotorEx."
+msgstr ""
+"No hay ninguna desventaja en usar DcMotorEx, para convertir un DcMotor a un "
+"DcMotorEx, el usuario simplemente necesita convertir el DcMotor devuelto por"
+" \"hardwareMap\" a un DcMotorEx."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:45
+msgid "Tips"
+msgstr "Consejos"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:47
+msgid ""
+"While current readings are not bulk read, current alerts "
+"(``isMotorOverCurrent()``) is bulk read."
+msgstr ""
+"Mientras las lecturas actuales no se lean masivamente, las alertas actuales "
+"(``isMotorOverCurrent()``) se leen masivamente."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:48
+msgid ""
+"PID/PIDF coefficients use internal units for the output, a two byte short "
+"from -32767 to 32767, instead of the user -1 to 1."
+msgstr ""
+"Los coeficientes PID/PIDF utilizan unidades internas para la salida, un "
+"short de dos bytes de -32767 a 32767, en lugar del -1 a 1 del usuario."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:49
+msgid ""
+"The default ``getVelocity()`` method returns the encoder velocity in ticks "
+"per second."
+msgstr ""
+"El método predeterminado ``getVelocity()`` devuelve la velocidad del "
+"codificador en ticks por segundo."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:50
+msgid ""
+"The ``RunMode`` ``STOP_AND_RESET_ENCODERS`` is not actually a run mode. "
+"Instead, it just sets the power to zero and sends a "
+"``LynxResetMotorEncoderCommand``. This command can be issued manually if one"
+" wants to easy reset a motor encoder without changing the run mode."
+msgstr ""
+"El ``RunMode`` ``STOP_AND_RESET_ENCODERS`` en realidad no es un modo de "
+"ejecución. En cambio, simplemente establece la potencia en cero y envía un "
+"``LynxResetMotorEncoderCommand``. Este comando se puede emitir manualmente "
+"si se desea restablecer fácilmente un codificador de motor sin cambiar el "
+"modo de ejecución."

@@ -5,18 +5,279 @@
 # 
 # Translators:
 # Ariadna Moure Jáquez, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Ariadna Moure Jáquez, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:4
+msgid "Linear Bearing Slides"
+msgstr "Rieles de rodamientos lineales"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:6
+msgid ""
+"Linear bearings are specialty ball bearings. Unlike radial ball bearings, "
+"they run balls through cyclical tracks along the length of a rail or shaft "
+"to create smooth, stable, precise linear motion. They are used in many "
+"industrial automation systems, including 3D printers and CNC machines."
+msgstr ""
+"Los rodamientos lineales son rodamientos de bolas especiales. A diferencia "
+"de los rodamientos radiales de bolas, hacen pasar las bolas por pistas "
+"cíclicas a lo largo de un carril o eje para crear un movimiento lineal "
+"suave, estable y preciso. Se utilizan en muchos sistemas de automatización "
+"industrial, como impresoras 3D y máquinas CNC."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:8
+msgid ""
+"Unlike with most slides, the balls of linear bearings are not well retained "
+"when the bearings are removed from their rails. Linear bearings with a few "
+"balls missing have slightly decreased performance. Be sure to handle and "
+"store the bearings with care and to be prepared if their balls fall out."
+msgstr ""
+"A diferencia de lo que ocurre con la mayoría de los rieles, las bolas de los"
+" rodamientos lineales no quedan bien retenidas cuando éstos se extraen de "
+"sus carriles. Los rodamientos lineales a los que les faltan algunas bolas "
+"tienen un rendimiento ligeramente inferior. Asegúrese de manipular y "
+"almacenar los rodamientos con cuidado y de estar preparado por si se les "
+"caen las bolas."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:10
+msgid ""
+"There are two types of linear bearings generally used in FTC: round linear "
+"bearings and linear bearing blocks."
+msgstr ""
+"Existen dos tipos de rodamientos lineales generalmente utilizados en FTC: "
+"los rodamientos lineales redondos y los bloques de rodamientos lineales."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:13
+msgid "MGN Series Linear Bearing Blocks"
+msgstr "Bloques de rodamientos lineales de la serie MGN"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:15
+msgid ""
+"MGN linear bearing blocks are the most common linear bearing blocks in FTC. "
+"They are the smallest of a larger classification of slides made by HIWIN "
+"Corporation. They come in several sizes, the smallest being MGN7 and the "
+"largest being MGN15."
+msgstr ""
+"Los bloques de rodamientos lineales MGN son los bloques de rodamientos "
+"lineales más comunes en FTC. Son los más pequeños de una clasificación más "
+"amplia de rieles fabricados por HIWIN Corporation. Existen en varios "
+"tamaños, siendo el más pequeño el MGN7 y el más grande el MGN15."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:17
+msgid ""
+"It is **recommended that teams only use MGN7, MGN9, and MGN12 slides.** A "
+"pair of MGN12 slides is sufficient to lift a 40lb (20kg) robot. MGN9 slides "
+"are similar in weight and scale to MiSUMI drawer slides. MGN7 slides are "
+"smaller, but they are slightly more inconvenient to work with because they "
+"use smaller M2 screws for mounting."
+msgstr ""
+"Se **recomienda que los equipos sólo utilicen guías MGN7, MGN9 y MGN12.** Un"
+" par de rieles MGN12 es suficiente para levantar un robot de 20 kg (40 lb). "
+"Las rieles MGN9 son similares en peso y escala a las rieles de cajón MiSUMI."
+" Los rieles MGN7 son más pequeñas, pero son un poco más incómodos para "
+"trabajar porque utilizan tornillos M2 más pequeños para el montaje."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:19
+msgid ""
+"If ordered directly through industrial supply centers such as HIWIN, these "
+"slides can be expensive. For hobbyists, however, they are sold at more "
+"reasonable prices through sellers on Amazon and eBay, although these sellers"
+" may have questionable quality control. You can find more information with a"
+" Google search of \"improving cheap MGN slides\""
+msgstr ""
+"Si se piden directamente a través de centros de suministros industriales "
+"como HIWIN, estas rieles pueden resultar caros. Para los aficionados, sin "
+"embargo, se venden a precios más razonables a través de vendedores en Amazon"
+" y eBay, aunque estos vendedores pueden tener un control de calidad "
+"cuestionable. Puedes encontrar más información con una búsqueda en Google de"
+" \"mejorar rieles MGN baratos\""
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rstNone
+msgid "All different sizes of MGN slides"
+msgstr "Todos los tamaños de rieles MGN"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:25
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:27
+msgid "Extremely smooth thanks to usage of ball bearings"
+msgstr "Extremadamente suave gracias al uso de rodamientos de bolas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:28
+msgid "Stiffer and stronger than almost any other type of slide"
+msgstr "Más rígido y resistente que casi cualquier otro tipo de riel"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:29
+msgid "Steel rails don't wear out the way aluminum slides do"
+msgstr "Los rieles de acero no se desgastan como los de aluminio"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:32
+msgid "Disadvantages"
+msgstr "Desventajas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:34
+msgid ""
+"Because MGN rails and sliders are made entirely of steel, they are generally"
+" much heavier than aluminum drawer slides. This is not an issue with MGN9 "
+"slides, which are marginally heavier, and MGN7 slides, which are marginally "
+"lighter."
+msgstr ""
+"Dado que los carriles y rieles MGN están fabricados totalmente en acero, "
+"suelen ser mucho más pesados que las rieles de aluminio para cajones. Esto "
+"no es un problema con los rieles MGN9, que son marginalmente más pesadas, y "
+"las rieles MGN7, que son marginalmente más ligeras."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:35
+msgid ""
+"Simplest way to connect slides together and mount pulleys is using custom "
+"parts"
+msgstr ""
+"La forma más sencilla de conectar las rieles entre sí y montar las poleas es"
+" utilizando piezas a medida"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:36
+msgid "Cheap slides generally need some attention to clean and re-grease"
+msgstr ""
+"Los rieles baratos suelen necesitar un poco de atención para limpiarlas y "
+"volver a engrasarlas"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:42
+msgid "8813 The Winter Soldiers' Rover Ruckus robot with lift extended"
+msgstr "8813 The Winter Soldiers' Rover Ruckus robot con ascensor extendido"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:42
+msgid ""
+"8813 The Winter Soldiers, Rover Ruckus, MGN12 slides connected with custom "
+"box tubes"
+msgstr ""
+"8813 The Winter Soldiers, Rover Ruckus, rieles MGN12 conectados con tubos de"
+" caja personalizados"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:47
+msgid "8221 Cubix's Res-Q robot with deposit extended"
+msgstr "8221 Robot Res-Q de Cubix con depósito extendido"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:47
+msgid "8221 Cubix, Res-Q, MGN slides connected with 3D printed parts"
+msgstr "8221 Cubix, Res-Q, guías MGN conectados con piezas impresas en 3D"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:50
+msgid "Round Linear Bearings"
+msgstr "Rodamientos Lineales Redondos"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:52
+msgid ""
+"Round linear bearings are similar to bearing blocks and have similar "
+"properties, but they can be used on any round shaft rather than a "
+"specialized rail. They can also be used in applications where sliding "
+"mechanisms have to rotate on the same axis."
+msgstr ""
+"Los rodamientos lineales redondos son similares a los bloques de rodamientos"
+" y tienen propiedades parecidas, pero pueden utilizarse en cualquier eje "
+"redondo en lugar de en un carril especializado. También pueden utilizarse en"
+" aplicaciones en las que mecanismos deslizantes tienen que girar sobre el "
+"mismo eje."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:54
+msgid ""
+"Round linear bearings can easily be sourced from most robotics suppliers, "
+"including goBILDA and Actobotics. However, there are currently no out-of-"
+"the-box lift kits using these bearings available from these suppliers. It is"
+" difficult to make a compact slide setup using only kit parts, and for this "
+"reason most teams using round linear bearings use custom parts to mount "
+"them."
+msgstr ""
+"Los rodamientos lineales redondos pueden adquirirse fácilmente en la mayoría"
+" de los proveedores de robótica, incluidos goBILDA y Actobotics. Sin "
+"embargo, actualmente no hay kits de elevación listos para usar que utilicen "
+"estos rodamientos disponibles en estos proveedores. Es difícil hacer una "
+"configuración de deslizamiento compacta utilizando sólo piezas de kit, y por"
+" esta razón la mayoría de los equipos que utilizan rodamientos lineales "
+"redondos utilizan piezas personalizadas para montarlos."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:56
+msgid ""
+"Round linear bearings are often mounted with clamps, but they can also be "
+"mounted using inexpensive snap rings that snap onto the grooves on the "
+"outsides of the bearings."
+msgstr ""
+"Los rodamientos lineales redondos suelen montarse con abrazaderas, pero "
+"también pueden montarse con anillos elásticos baratos que encajan en las "
+"ranuras de la parte exterior de los rodamientos."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:58
+msgid ""
+"Many teams use round linear bearings with inexpensive aluminum and carbon "
+"fiber tubes instead of steel tubes to save weight. Although slide assemblies"
+" made this way are extremely light, they are prone to wearing out over time "
+"as the steel balls wear into the softer materials. Teams should keep this in"
+" mind and try to design their slide systems so that the tubes can easily be "
+"replaced."
+msgstr ""
+"Muchos equipos utilizan rodamientos lineales redondos con tubos económicos "
+"de aluminio y fibra de carbono en lugar de tubos de acero para ahorrar peso."
+" Aunque los conjuntos de rieles fabricados de esta forma son extremadamente "
+"ligeros, son propensos a desgastarse con el tiempo a medida que las bolas de"
+" acero se desgastan en los materiales más blandos. Los equipos deben tener "
+"esto en cuenta e intentar diseñar sus sistemas de deslizamiento de modo que "
+"los tubos puedan sustituirse fácilmente."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:63
+msgid "8417 'Lectric Legends' Rover Ruckus robot with slides extended"
+msgstr "8417 'Lectric Legends' Robot Rover Ruckus con rieles extendidos"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:63
+msgid ""
+"8417 'Lectric Legends, Rover Ruckus, round linear bearings and carbon fiber "
+"tubes with 3D printed mounts"
+msgstr ""
+"8417 'Lectric Legends, Rover Ruckus, rodamientos lineales redondos y tubos "
+"de fibra de carbono con soportes impresos en 3D"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:68
+msgid "5975 Cybots Relic Recovery robot with relic arm extended"
+msgstr "5975 Robot Relic Recovery de Cybots con brazo de reliquia extendido"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:68
+msgid ""
+"5975 Cybots, Relic Recovery, round linear bearings and carbon fiber tubes "
+"with 3D printed mounts"
+msgstr ""
+"5975 Cybots, Relic Recovery, rodamientos lineales redondos y tubos de fibra "
+"de carbono con soportes impresos en 3D"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:73
+msgid "11115 Gluten Free Skystone linear slide arm"
+msgstr "11115 Skystone Gluten Free brazo de deslizamiento lineal"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:73
+msgid ""
+"11115 Gluten Free, Skystone, round linear bearings and metal shafts with 3D "
+"printed mounts"
+msgstr ""
+"11115 Gluten Free, Skystone, rodamientos lineales redondos y ejes metálicos "
+"con soportes impresos en 3D"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:78
+msgid "goBILDA round linear bearing product insight"
+msgstr "goBILDA rodamiento lineal redondo visión del producto"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:78
+msgid "goBILDA, round linear bearings with metal clamps and shafts"
+msgstr ""
+"goBILDA, rodamientos lineales redondos con abrazaderas y ejes metálicos"

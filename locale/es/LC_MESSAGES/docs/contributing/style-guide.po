@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
-# Yaretzi Lugo, 2024
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -143,3 +143,141 @@ msgstr ""
 "coaxiales estaban de moda, pero eso no significa que debamos recomendarlos "
 "en |gm0|. Intenta pensar por qué algo es popular y qué ventajas de diseño, "
 "función y ejecución aportan."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:24
+msgid ""
+"Consider that not all teams have the resources to purchase the most optimal "
+"parts for their design."
+msgstr ""
+"Tenga en cuenta que no todos los equipos disponen de los recursos necesarios"
+" para adquirir las piezas más óptimas para su diseño."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:26
+msgid ""
+"This means that we should give recommendations on how to mitigate issues "
+"with poor quality parts."
+msgstr ""
+"Esto significa que debemos dar recomendaciones sobre cómo mitigar los "
+"problemas con piezas de mala calidad."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:28
+msgid ""
+"For example: TETRIX structure has a bad reputation for bending at times, at "
+"least compared to other build systems compared to REV, goBILDA and "
+"Actobotics. Therefore, we recommend adding extra support when building in "
+"TETRIX compared to other systems (this means including extra crossbars and "
+"adding standoffs inside channel to increase rigidity)."
+msgstr ""
+"Por ejemplo: La estructura TETRIX tiene mala reputación por doblarse a "
+"veces, al menos comparada con otros sistemas de construcción como REV, "
+"goBILDA y Actobotics. Por lo tanto, recomendamos añadir soporte adicional "
+"cuando se construye en TETRIX en comparación con otros sistemas (esto "
+"significa incluir travesaños adicionales y añadir separadores dentro del "
+"canal para aumentar la rigidez)."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:30
+msgid "Include pictures/videos whenever possible."
+msgstr "Incluya imágenes/vídeos siempre que sea posible."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:32
+msgid "Adding examples of mechanisms really helps with knowledge transfer."
+msgstr ""
+"Añadir ejemplos de mecanismos ayuda mucho a la transferencia de "
+"conocimientos."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:34
+msgid ""
+"Credit the teams: Caption Format is: [Team Number] [Team Name], (Relevant "
+"Accomplishment), [Season], (description)"
+msgstr ""
+"Créditos a los equipos: El formato del pie de foto es: [Número del equipo] "
+"[Nombre del equipo], (logro relevante), [temporada], (descripción)"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:36
+msgid "[]s mean all the time, ()s means when relevant"
+msgstr "[]s significa todo el tiempo, ()s significa cuando es relevante"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:37
+msgid ""
+"If you have multiple pictures by the same part from the same team only "
+"credit them on the last one to avoid repetition."
+msgstr ""
+"Si tiene varias fotos de la misma parte del mismo equipo, acredítelas sólo "
+"en la última para evitar repeticiones."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:38
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:40
+msgid ""
+"11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"11115 Gluten Free, Capitán de la Alianza Finalista (Detroit), Relic "
+"Recovery, equipado con resortes"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:41
+msgid "8417 'Lectric Legends, Rover Ruckus, TPU intake flaps"
+msgstr "8417 'Lectric Legends, Rover Ruckus, aletas de intake TPU"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:42
+msgid "7236 Recharged Green, Rover Ruckus, Misumi SAR3"
+msgstr "7236 Recharged Green, Rover Ruckus, Misumi SAR3"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:44
+msgid "Adhere to brand standards when possible."
+msgstr "Cumplir las normas de la marca siempre que sea posible."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:46
+msgid ""
+"Abide by *FIRST*\\ |reg| Trademark guidelines, available `here "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
+msgstr ""
+"Respete las directrices sobre marcas comerciales, disponibles en "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:48
+msgid ""
+"The first instance of *FIRST* and FTC on a page should include |reg| (i.e, "
+"*FIRST*\\ |reg|)"
+msgstr ""
+"La primera instancia de *FIRST* y FTC en una página debe incluir |reg| (es "
+"decir, *FIRST*\\ |reg|)"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:49
+msgid "Always capitalize and italize the name *FIRST*"
+msgstr "Escriba siempre el nombre *FIRST* en mayúsculas y cursiva"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:50
+msgid "Do NOT use a possessive on the *FIRST* name (e.g, *FIRST*'s)"
+msgstr "NO utilice un posesivo en el *FIRST* nombre (por ejemplo, *FIRST*'s)"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:52
+msgid "It's gm0 not GM0 damn it; look at the logo."
+msgstr "Es gm0 no GM0 maldita sea; mira el logo."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:54
+msgid ""
+"This also applies to team names: spell them how they are officially spelled"
+msgstr ""
+"Esto también se aplica a los nombres de los equipos: escríbelos como se "
+"escriben oficialmente."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:56
+msgid ""
+"Check `The Orange Alliance <https://theorangealliance.org/>`_ or `FTC Events"
+" <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a"
+" team's name."
+msgstr ""
+"Consulte `The Orange Alliance <https://theorangealliance.org/>`_ o `FTC "
+"Events <https://ftc-events.firstinspires.org/>`_ si no sabe cómo se escribe "
+"el nombre de un equipo."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:58
+msgid ""
+"You can use \"you\" when writing, when it makes writing less awkward. "
+"However, try avoiding excessively using it."
+msgstr ""
+"Puedes utilizar el \"tú\" al escribir, cuando haga que la redacción resulte "
+"menos incómoda. Sin embargo, intenta evitar utilizarlo en exceso."

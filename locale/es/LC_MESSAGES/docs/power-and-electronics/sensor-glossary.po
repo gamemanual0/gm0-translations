@@ -5,18 +5,292 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Victoria Chacon, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:4
+msgid "Sensor Glossary"
+msgstr "Glosario de sensores"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:6
+msgid ""
+"Sensors are used in a variety of applications within FTC\\ |reg|. Sensors "
+"can give external feedback regarding the position of the robot (for example,"
+" relative to the field wall or to a vision target) or internal feedback "
+"(velocity, distance traveled, voltage, etc.). Sensors can also be used to "
+"determine the rotation of a mechanism and detect color."
+msgstr ""
+"Los sensores se utilizan en diversas aplicaciones dentro FTC |reg|. Los "
+"sensores pueden proporcionar información externa sobre la posición del robot"
+" (por ejemplo, en relación con la pared del campo o con un objetivo de "
+"visión) o información interna (velocidad, distancia recorrida, voltaje, "
+"etc.). Los sensores también pueden utilizarse para determinar la rotación de"
+" un mecanismo y detectar el color."
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:9
+msgid "Encoders/Potentiometers"
+msgstr "Codificadores/Potenciómetros"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
+msgid "Rotational"
+msgstr "Rotacional"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:13
+msgid "Absolute (+ Potentiometers)"
+msgstr "Absoluto (+ Potenciómetros)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:13
+msgid ""
+"MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-"
+"cable>`_)"
+msgstr ""
+"MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-"
+"cable>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:14
+msgid ""
+"Potentiometer (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)"
+msgstr ""
+"Potenciómetro (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
+msgid "Relative"
+msgstr "Relativo"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:16
+msgid ""
+"REV Through Bore Encoder (`REV-11-1271 "
+"<https://www.revrobotics.com/rev-11-1271/>`_). It has absolute support but "
+"over PWM, which is inaccessible within the FTC control system."
+msgstr ""
+"Codificador pasante REV (`REV-11-1271 "
+"<https://www.revrobotics.com/rev-11-1271/>`_). Tiene soporte absoluto pero "
+"sobre PWM, que es inaccesible dentro del sistema de control FTC."
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
+msgid ""
+"E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-"
+"encoder-kit>`_)"
+msgstr ""
+"E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-"
+"encoder-kit>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:18
+msgid ""
+"Generic (`Sparkfun Rotary Encoder "
+"<https://www.sparkfun.com/products/9117>`_)"
+msgstr ""
+"Genérico (`Codificador giratorio Sparkfun "
+"<https://www.sparkfun.com/products/9117>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:20
+msgid "Positional"
+msgstr "Posicional"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:20
+msgid ""
+"Linear Potentiometers Slide Pot (`Sparkfun Slide Pot "
+"<https://www.sparkfun.com/products/9119>`_)"
+msgstr ""
+"Potenciómetros lineales Slide Pot (`Sparkfun Slide Pot "
+"<https://www.sparkfun.com/products/9119>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:23
+msgid "Contact"
+msgstr "Contacto"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:27
+msgid "Physical"
+msgstr "Físico"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:26
+msgid ""
+"Limit Switches (`3103-0001-0001/3103-0001-0002 "
+"<https://www.gobilda.com/limit-switches/>`_)"
+msgstr ""
+"Limit Switches (`3103-0001-0001/3103-0001-0002 "
+"<https://www.gobilda.com/limit-switches/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:27
+msgid ""
+"Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)"
+msgstr ""
+"Topes genéricos (`Sparkfun <https://www.sparkfun.com/products/13013>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:28
+msgid ""
+"Touch Sensor REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)"
+msgstr ""
+"Sensor táctil REV (`REV-31-1425 "
+"<https://www.revrobotics.com/rev-31-1425/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:30
+msgid "Magnetic"
+msgstr "Magnético"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:30
+msgid ""
+"Hall Effect Sensor REV (`REV-31-1462 "
+"<https://www.revrobotics.com/rev-31-1462/>`_)"
+msgstr ""
+"Sensor de efecto Hall REV (`REV-31-1462 "
+"<https://www.revrobotics.com/rev-31-1462/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:33
+msgid "Optical"
+msgstr "Óptico"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:37
+msgid "Color"
+msgstr "Color"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:36
+msgid "Adafruit RGB"
+msgstr "Adafruit RGB"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:37
+msgid "REV Color"
+msgstr "REV Color"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:38
+msgid "MR Color"
+msgstr "MR Color"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:45
+msgid "Computer Vision"
+msgstr "Visión computarizada"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:40
+msgid "Hardware"
+msgstr "Hardware"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:41
+msgid "PixyCMU"
+msgstr "PixyCMU"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:45
+msgid "Software"
+msgstr "Software"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:43
+msgid "OpenCV (EasyOpenCV)"
+msgstr "OpenCV (EasyOpenCV)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:44
+msgid "Vuforia"
+msgstr "Vuforia"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:45
+msgid "TFLite"
+msgstr "TFLite"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:48
+msgid "Distance"
+msgstr "Distancia"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:50
+msgid "ToF"
+msgstr "ToF"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:51
+msgid "Ultrasonic"
+msgstr "Ultrasonicos"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:54
+msgid "Other"
+msgstr "Otros"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:60
+msgid "IMU"
+msgstr "IMU"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:57
+msgid "Accelerometer"
+msgstr "Acelerómetro"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:58
+msgid "Gyroscope"
+msgstr "Giroscopio"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:59
+msgid "Compass"
+msgstr "Compas"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:60
+msgid "Magnetometer"
+msgstr "Magnetómetro"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:63
+msgid "Logic Level Converter"
+msgstr "Convertidor de nivel lógico"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:65
+msgid ""
+"The old Modern Robotics system run on 5v sensor logic. The new REV Robotics "
+"system uses 3.3v. For most off the shelf sensors, this doesn't cause any "
+"problems, but for some existing FTC sensors it does. To solve this REV sells"
+" boards, called `logic level converters "
+"<https://www.revrobotics.com/rev-31-1389/>`_, that convert the sensor data "
+"to be readable by the REV hubs. The `REV Expansion Hub "
+"<https://docs.revrobotics.com/duo-control/sensors/5v-sensors#logic-level-"
+"converter>`_ guide has a chart detailing what adapters are needed for what "
+"sensors."
+msgstr ""
+"El antiguo sistema Modern Robotics funcionaba con una lógica de sensor de "
+"5v. El nuevo sistema REV Robotics utiliza 3.3v. Para la mayoría de los "
+"sensores, esto no causa ningún problema, pero para algunos sensores FTC sí. "
+"Para solucionar esto REV vende placas, llamadas `convertidores de nivel "
+"lógico <https://www.revrobotics.com/rev-31-1389/>`_, que convierten los "
+"datos del sensor para que puedan ser leídos por los hubs REV. La guía `REV "
+"Expansion Hub <https://docs.revrobotics.com/duo-"
+"control/sensors/5v-sensors#logic-level-converter>`_ tiene una tabla que "
+"detalla qué adaptadores son necesarios para qué sensores."
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:67
+msgid ""
+"According to REV testing, goBILDA, REV and TorqueNado motors don't need "
+"logic level converters, but only some NeveRest motors worked with no "
+"discernable reason why."
+msgstr ""
+"Según las pruebas de REV, los motores goBILDA, REV y TorqueNado no necesitan"
+" convertidores de nivel lógico, pero sólo algunos motores NeveRest "
+"funcionaron sin razón discernible."
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:69
+msgid ""
+"It is ideal to not use logic level converters to simplify your wiring. If "
+"you need to, there is a best practice. Electrical tape the connectors on "
+"either end, this helps with static, and it keeps it from being physically "
+"disconnected. This does produce a very noticeable effect with encoders on "
+"fields with lots of static."
+msgstr ""
+"Lo ideal es no utilizar convertidores de nivel lógico para simplificar el "
+"cableado. Si lo necesitas, hay una mejor práctica. Ponga cinta aislante en "
+"los conectores de ambos extremos, esto ayuda con la estática, y evita que se"
+" desconecte físicamente. Esto produce un efecto muy notable con "
+"codificadores en los campos con mucha estática."
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:71
+msgid ""
+"The second tip is to never tape over the middle or LED. The board generates "
+"a very small amount of heat, and it's very easy to overheat if it can't "
+"ventilate, also don't fully enclose it in any cases without holes."
+msgstr ""
+"El segundo consejo es no poner nunca cinta adhesiva sobre el centro o el "
+"LED. La placa genera una cantidad muy pequeña de calor, y es muy fácil que "
+"se sobrecaliente si no puede ventilar, tampoco la encierres completamente en"
+" ningún caso sin agujeros."

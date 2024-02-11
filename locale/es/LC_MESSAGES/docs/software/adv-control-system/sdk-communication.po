@@ -5,18 +5,109 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Anthonella Contla, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:4
+msgid "SDK Communication"
+msgstr "Comunicación SDK"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:6
+msgid ""
+"When using any method in the FTC\\ |reg| SDK that accesses hardware, be that"
+" setting motor power, reading an encoder, a sensor, etc., a LynxCommand is "
+"sent."
+msgstr ""
+"Cuando se utiliza cualquier método en FTC\\ |reg| SDK que accede al "
+"hardware, ya sea el ajuste de la potencia del motor, la lectura de un "
+"codificador, un sensor, etc, se envía un LynxCommand."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:9
+msgid ""
+"LynxCommands are not sent directly from the Robot Controller to an Expansion"
+" Hub through USB; in an expansion hub they are sent through USB to an FTDI, "
+"which converts the USB signal to a UART one. In the control hub, this USB "
+"step is skipped, instead the control hub board sends the data directly over "
+"UART to the internal expansion hub."
+msgstr ""
+"Los LynxCommands no se envían directamente desde el controlador del robot a "
+"un Expansion Hub a través de USB; en un expansion hub se envían a través de "
+"USB a un FTDI, que convierte la señal USB en una UART. En el Control Hub, "
+"este paso USB se omite, en su lugar la placa del control hub envía los datos"
+" directamente a través de UART al Expansion hub interno."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:12
+msgid ""
+"LynxCommands being blocking (and more specifically a master lock being "
+"present on each usb device) means that multithreading hardware calls is at "
+"best not helpful and typically harmful to performance."
+msgstr ""
+"El hecho de que LynxCommands sea bloqueante (y más concretamente que haya un"
+" bloqueo maestro en cada dispositivo usb) significa que el "
+"multiaccionamiento en las llamadas de hardware no es útil en el mejor de los"
+" casos y suele ser perjudicial para el rendimiento."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:14
+msgid ""
+"If an Android phone and Expansion Hub is used, LynxCommands are sent over "
+"USB; however if a Control Hub is used, LynxCommands are sent over UART. This"
+" is very important, not just because of the increased reliability with UART "
+"instead of USB, but also because LynxCommands take approximately 3 "
+"milliseconds over USB and approximately 2 milliseconds over UART."
+msgstr ""
+"Si se utiliza un teléfono Android y un Hub de Expansión, los LynxCommands se"
+" envían a través de USB; sin embargo, si se utiliza un Hub de Control, los "
+"LynxCommands se envían a través de UART. Esto es muy importante, no sólo por"
+" la mayor fiabilidad con UART en lugar de USB, sino también porque los "
+"LynxCommands tardan aproximadamente 3 milisegundos a través de USB y "
+"aproximadamente 2 milisegundos a través de UART."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:16
+msgid ""
+"Any expansion hubs connected via RS485 receive their commands via that "
+"connector. Lynx hubs do not have to retransmit packets, so the added latency"
+" from this process isn't significant, but there will be some added latency. "
+"Up to 255 expansion hubs can be connected together in theory."
+msgstr ""
+"Cualquier expansion hub conectado a través de RS485 recibe sus comandos a "
+"través de ese conector. Los concentradores Lynx no tienen que retransmitir "
+"paquetes, por lo que la latencia añadida de este proceso no es "
+"significativa, pero habrá cierta latencia añadida. En teoría, se pueden "
+"conectar hasta 255 expansion hubs."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
+msgid ""
+"Interacting with I2C devices takes significantly longer; upwards of 7 "
+"milliseconds over USB. However, this is not because each LynxCommand takes "
+"longer, but because multiple LynxCommands must be sent to interact with I2C."
+msgstr ""
+"Interactuar con dispositivos I2C toma significativamente más tiempo; más de "
+"7 milisegundos sobre USB. Sin embargo, esto no se debe a que cada "
+"LynxCommand tarde más tiempo, sino a que se deben enviar múltiples "
+"LynxCommands para interactuar con I2C."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:22
+msgid ""
+"Please note that since version 5.5 of the SDK, I2C calls on the Control Hub "
+"are much faster than those on the Expansion Hub. This is because the polling"
+" rate was dramatically increased, which can cut down on unnecessary wasted "
+"time."
+msgstr ""
+"Tenga en cuenta que desde la versión 5.5 del SDK, las llamadas I2C en el "
+"Control Hub son mucho más rápidas que las del Expansion Hub. Esto se debe a "
+"que la tasa de sondeo se incrementó drásticamente, lo que puede reducir el "
+"tiempo perdido innecesario."

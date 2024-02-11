@@ -5,18 +5,342 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
-"Last-Translator: Anthonella Contla, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:4
+msgid "Linkages"
+msgstr "Enlaces"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:6
+msgid ""
+"There are many different types of linkages. Often, linkages are used to "
+"convert rotational motion, such as that from a servo or motor, to linear "
+"motion. Linkages can do this efficiently, and also have specialized movement"
+" patterns that can make them desirable for certain mechanisms."
+msgstr ""
+"Existen muchos tipos de enlaces. A menudo, se utilizan para convertir "
+"movimientos rotativos, como los de un servomotor, en movimientos lineales. "
+"Los enlaces pueden hacerlo de forma eficiente y también tienen patrones de "
+"movimiento especializados que pueden hacerlos deseables para ciertos "
+"mecanismos."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:8
+msgid "Term"
+msgstr "Término"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:11
+msgid "Linkage"
+msgstr "Enlace"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:13
+msgid ""
+"A system of solid links or bars connected to two or more other links by "
+"hinges, sliding joints, ball-and-socket joints, etc., so as to form a closed"
+" chain or a series of closed chains. Generally used to convert linear motion"
+" to rotational motion or vice versa."
+msgstr ""
+"Sistema de eslabones o barras sólidas conectadas a otros dos o más eslabones"
+" mediante bisagras, articulaciones deslizantes, rótulas, etc., para formar "
+"una cadena cerrada o una serie de cadenas cerradas. Generalmente se utiliza "
+"para convertir el movimiento lineal en movimiento de rotación o viceversa."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:16
+msgid "Considerations"
+msgstr "Consideraciones"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:18
+msgid "There are several things to consider when constructing a linkage."
+msgstr ""
+"Hay que tener en cuenta varias cosas a la hora de construir un enlace."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:20
+msgid ""
+"Over-centering is when a linkage is rotated past its center point (usually "
+"the point where both bars of the linkage are parallel). Driving a linkage "
+"over center can have some benefits, like making the linkage harder to "
+"backdrive. See this `informational youtube video "
+"<https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details on this. "
+"Essentially, linkages can form a structure where pushing on the linkage "
+"moves the robot instead of rotating the linkage."
+msgstr ""
+"El sobrecentrado se produce cuando un enlace se gira más allá de su punto "
+"central (normalmente el punto en el que ambas barras del enlace son "
+"paralelas). Sobrecentrar un enlace puede tener algunas ventajas, como hacer "
+"que el enlace sea más difícil de conducir hacia atrás. Vea este `video "
+"informativo de youtube <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ para "
+"más detalles sobre esto. Básicamente, los enlaces pueden formar una "
+"estructura en la que al empujar el enlace se mueve el robot en lugar de "
+"girar el enlace."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:21
+msgid ""
+"Linkages will not have a constant linear speed or force. They generally "
+"reach a maximum speed and force when the bars are perpendicular, and the "
+"speed and force will decrease as the linkage is rotated farther."
+msgstr ""
+"Los enlaces no tienen una velocidad o fuerza lineal constante. Por lo "
+"general, alcanzan una velocidad y una fuerza máximas cuando las barras están"
+" perpendiculares, y la velocidad y la fuerza disminuirán a medida que el "
+"enlace gire más."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:22
+msgid ""
+"Cadding the linkage can be useful to check if it will do what you want it to"
+" do. See this `youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_"
+" for an example of how to set up the mates in OnShape."
+msgstr ""
+"Puede ser útil para comprobar si el enlace hará lo que usted quiere que "
+"haga. Vea este `youtube video "
+"<https://www.youtube.com/watch?v=QsAC_seQHJY>`_ para un ejemplo de cómo "
+"configurar las relaciones de posición en OnShape."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:25
+msgid "Common Linkage Types"
+msgstr "Tipos de enlaces comunes"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:28
+msgid "Linkage Slides"
+msgstr "Rieles de enlace"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:30
+msgid ""
+"A common use for linkages is to drive a linear extension. This allows for a "
+"compact method of converting the rotational motion from a motor or servo "
+"into linear motion moving a mechanism like drawer slides. Generally, a two "
+"bar linkage with multi degree ball linkage components are used to construct "
+"these linkages."
+msgstr ""
+"Un uso común de los enlaces es accionar una extensión lineal. Esto permite "
+"un método compacto de convertir el movimiento de rotación de un motor o "
+"servo en movimiento lineal moviendo un mecanismo como los rieles de los "
+"cajones. Generalmente, para construir estos enlaces se utiliza una "
+"articulación de dos barras con componentes de articulación de bolas "
+"multigrado."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:35
+msgid "A picture of a 7236 Recharged Green linkage driven slides"
+msgstr "Una foto de un 7236 Recharged Green enlace accionado por rieles"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:35
+msgid "7236 Recharged Green, Skystone"
+msgstr "7236 Recharged Green, Skystone"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:39
+msgid "Four Bar"
+msgstr "Cuatro barras"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:41
+msgid ""
+"One type of linkage is called a four bar linkage. This is a linkage that "
+"keeps the end bar at the same angle to the ground at all times. For example,"
+" if the end bar of a virtual four bar is parallel to the ground when "
+"retracted, it will be parallel to the ground at all times, even when rotated"
+" fully out. This is beneficial for mechanisms like claws, which you want "
+"parallel to the ground during operation. In addition, four bars can provide "
+"extension outside of the robot frame, and generally provide both vertical "
+"and horizontal extension due to the \"arc\" that the arm follows. Also, the "
+"construction material of the four bar can be carefully selected to save "
+"weight."
+msgstr ""
+"Un tipo de enlace se denomina enlace de cuatro barras. Se trata de un enlace"
+" que mantiene la barra final en el mismo ángulo con respecto al suelo en "
+"todo momento. Por ejemplo, si la barra final de una barra virtual de cuatro "
+"está paralela al suelo cuando está retraída, estará paralela al suelo en "
+"todo momento, incluso cuando esté completamente girada. Esto es beneficioso "
+"para mecanismos como las garras, que se quieren paralelas al suelo durante "
+"su funcionamiento. Además, las cuatro barras pueden proporcionar extensión "
+"fuera del marco del robot, y generalmente proporcionan extensión tanto "
+"vertical como horizontal debido al \"arco\" que sigue el brazo. Además, el "
+"material de construcción de las cuatro barras puede seleccionarse "
+"cuidadosamente para ahorrar peso."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:43
+msgid ""
+"This mechanism is not widely used in FTC\\ |reg| due to the space "
+"requirements. The linkage bars that keep the end bar parallel restrict a "
+"four bar to under 180 degrees of travel (less then 90 degrees in either "
+"direction) without specialized mechanical construction, and the bars also "
+"take up space in the robot frame."
+msgstr ""
+"Este mecanismo no se utiliza mucho en los FTC debido a los requisitos de "
+"espacio. Las barras de acoplamiento que mantienen la barra final paralela "
+"limitan el recorrido de las cuatro barras a menos de 180 grados (menos de 90"
+" grados en cualquier dirección) sin una construcción mecánica especializada,"
+" y las barras también ocupan espacio en el marco del robot."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:0
+msgid "CAD Example of Four Bar (Click to expand)"
+msgstr "Ejemplo CAD de cuatro barras (Haga clic para ampliar)"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:52
+msgid ""
+"`Click here to open this example in Onshape Cad, where you can click and "
+"drag parts to see how they move! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
+msgstr ""
+"Haga clic aquí para abrir este ejemplo en Onshape Cad, donde puede hacer "
+"clic y arrastrar las piezas para ver cómo se mueven. "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rstNone
+msgid "A picture of a goBILDA Four Bar"
+msgstr "Una foto de un goBILDA Cuatro Barras"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:58
+msgid "Virtual Four Bar"
+msgstr "Cuatro Barras Virtual"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:60
+msgid ""
+"The more popular alternative to the Four Bar linkage is a Virtual Four Bar. "
+"While not technically a linkage, a virtual four bar uses chains or belts to "
+"create an effect similar to a four bar, where the end effector is kept at a "
+"fixed angle to the ground at all times. Because the need for additional bars"
+" are eliminated, this \"linkage\" can travel more then 180 degrees, and also"
+" can take up less space then a traditional four bar linkage."
+msgstr ""
+"La alternativa más popular al enlace de cuatro barras es un enlace de cuatro"
+" barras virtual. Aunque técnicamente no es un enlace, un cuatro barras "
+"virtual utiliza cadenas o correas para crear un efecto similar al de un "
+"cuatro barras, en el que el efector final se mantiene en un ángulo fijo con "
+"respecto al suelo en todo momento. Debido a que se elimina la necesidad de "
+"barras adicionales, este \"enlace\" puede desplazarse más de 180 grados, y "
+"también puede ocupar menos espacio que un enlace de cuatro barras "
+"tradicional."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:62
+msgid ""
+"This mechanism is more widely used in FTC, as it is an easy addition to an "
+"arm to maintain the end effector's angle relative to the ground."
+msgstr ""
+"Este mecanismo se utiliza más en FTC, ya que es una adición fácil a un brazo"
+" para mantener el ángulo del efector final en relación con el suelo."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:64
+msgid ""
+"Note: Both chain and belt can be used to construct a virtual four bar, and "
+"there isn't a specific benefit to using either. Due to the fact that the "
+"chain doesn't have to completely rotate around the sprocket, a zip-tie can "
+"be used to tension the chain, making construction easier."
+msgstr ""
+"Nota: Tanto la cadena como la correa pueden utilizarse para construir un "
+"cuatro barras virtual, y no hay ninguna ventaja específica en utilizar una u"
+" otra. Debido al hecho de que la cadena no tiene que girar completamente "
+"alrededor del piñon, un zip-tie se puede utilizar para tensar la cadena, por"
+" lo que la construcción más fácil."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:0
+msgid "CAD Example of Virtual Four Bar (Click to expand)"
+msgstr "Ejemplo CAD de cuatro barras virtuales (Haga clic para ampliar)"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:73
+msgid ""
+"`Click here to open this example in Onshape Cad, where you can click and "
+"drag parts to see how they move! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__."
+msgstr ""
+"Haga clic aquí para abrir este ejemplo en Onshape Cad, donde puede hacer "
+"clic y arrastrar las piezas para ver cómo se mueven. "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:78
+msgid "7244 OUT of the BOX Robotics Virtual Four Bar"
+msgstr "7244 OUT of the BOX Robotics Cuatro Barras Virtual"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:78
+msgid "7244 OUT of the BOX Robotics, Ultimate Goal"
+msgstr "7244 OUT of the BOX Robotics, Ultimate Goal"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:81
+msgid "Double-Reverse Four Bar"
+msgstr "Cuatro barras en Doble Invertido"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:83
+msgid ""
+"The double reverse four bar is an extension of the four bar linkage that "
+"allows for more extension. A double reverse four bar consists of a four bar "
+"linkage with a second four bar linkage mounted to the end of the first. This"
+" allows for purely linear extension, as opposed to the \"arc\" that a single"
+" four bar will take. The end effector will still stay at a fixed angle to "
+"the ground due to the purely linear extension."
+msgstr ""
+"El cuatro barras doble invertido es una extensión del enlace de cuatro "
+"barras que permite una mayor extensión. Un cuatro barras doble invertido "
+"consiste en un enlace de cuatro barras con un segundo enlace de cuatro "
+"barras montado en el extremo de la primera. Esto permite una extensión "
+"puramente lineal, a diferencia del \"arco\" que realiza un cuatro barras "
+"simple. El efector final permanecerá en un ángulo fijo respecto al suelo "
+"debido a la extensión puramente lineal."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:85
+msgid ""
+"This mechanism is not widely used in FTC due to the generally large space "
+"requirements needed, but is a fairly compact method of producing large "
+"amounts of linear extension. Care needs to be taken that each side of a "
+"double reverse four bar is driven equally so that issues do not arise from "
+"asymmetric lifting."
+msgstr ""
+"Este mecanismo no está muy usado en FTC debido al gran espacio que suele "
+"requerir, pero es un método bastante compacto para producir grandes "
+"cantidades de extensión lineal. Hay que tener cuidado de que cada lado de un"
+" cuatro barras doble invertido se accione por igual para que no surjan "
+"problemas de elevación asimétrica."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:90
+msgid "11115 Gluten Free Double Reverse Four Bar"
+msgstr "11115 Gluten Free Cuatro Barras Doble Invertido"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:90
+msgid "11115 Gluten Free, Skystone"
+msgstr "11115 Gluten Free, Skystone"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:93
+msgid "Virtual Double-Reverse Four Bar"
+msgstr "Cuatro Barras Doble Invertido Virtual"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:95
+msgid ""
+"Similar to the virtual four bar, the virtual double-reverse four bar is a "
+"linkage that uses belts or chains to replace the linkage bars of the double-"
+"reverse four bar. The virtual double-reverse four bar is simply a virtual "
+"four bar where the end effector sprocket/pulley is half the size of the "
+"static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is "
+"mounted to the end effector sprocket/pulley, and another chain/belt is run, "
+"which creates purely linear motion with an end effector that is always at "
+"the same angle to the ground. This creates much more compact linear motion "
+"then a double-reverse four bar, and can also extend in both directions."
+msgstr ""
+"Al igual que el cuatro barras virtual, el cuatro barras doble invertido "
+"virtual es un enlace que utiliza correas o cadenas para sustituir las barras"
+" del enlace del cuatro barras doble invertido virtual. El cuatro barras "
+"doble invertido virtual es simplemente un cuatro barras virtual en la que el"
+" piñón/polea del efector final tiene la mitad de tamaño que el piñón/polea "
+"estático, lo que da lugar a una relación de transmisión de 2:1. A "
+"continuación, se monta una barra en el piñón/polea del efector final y se "
+"hace funcionar otra cadena/correa, lo que crea un movimiento puramente "
+"lineal con un efector final que siempre está en el mismo ángulo con respecto"
+" al suelo. Esto crea un movimiento lineal mucho más compacto que un cuatro "
+"barras doble invertido, y también puede extenderse en ambas direcciones."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:100
+msgid "8644 Brainstormers Virtual Double Reverse Four Bar"
+msgstr "8644 Brainstormers Cuatro Barras Doble Invertido Virtual"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:100
+msgid "8644 Brainstormers, Freight Frenzy"
+msgstr "8644 Brainstormers, Freight Frenzy"

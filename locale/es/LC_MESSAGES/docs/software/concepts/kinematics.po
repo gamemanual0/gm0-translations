@@ -5,18 +5,18 @@
 # 
 # Translators:
 # Ddino XD, 2024
-# Yaretzi Lugo, 2024
 # Anthonella Contla, 2024
 # Crackermi, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2024-02-11 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Crackermi, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -197,6 +197,16 @@ msgstr ""
 msgid "Inverse Kinematics"
 msgstr "Cinemática inversa"
 
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:52
+msgid ""
+"The inverse kinematics of a tank drive relate the desired velocity of the "
+"robot to the velocity required of the wheels. These velocities are as "
+"follows:"
+msgstr ""
+"La cinemática inversa del accionamiento de un tanque relaciona la velocidad "
+"deseada del robot con la velocidad requerida de las ruedas. Estas "
+"velocidades son las siguientes"
+
 #: ../../gm0/source/docs/software/concepts/kinematics.rst:54
 msgid ""
 "v_r = v_f + r_d \\cdot \\omega\n"
@@ -210,6 +220,104 @@ msgstr ""
 #: ../../gm0/source/docs/software/concepts/kinematics.rst:61
 msgid "Mecanum Drive"
 msgstr "Mecanum Drive"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:66
+msgid ""
+"Mecanum kinematics uses the same variables as differential drive, except "
+"with four wheel velocity variables and an additional robot velocity vector "
+"for the left to right velocity."
+msgstr ""
+"La cinemática Mecanum utiliza las mismas variables que el accionamiento "
+"diferencial, excepto con cuatro variables de velocidad de las ruedas y un "
+"vector de velocidad adicional del robot para la velocidad de izquierda a "
+"derecha."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:68
+msgid ""
+":math:`v_\\mathrm{fr}` denotes the linear velocity of the front (leading) "
+"right wheel"
+msgstr ""
+":math:`v_\\mathrm{fr}` indica la velocidad lineal de la rueda delantera "
+"(delantera) derecha"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:69
+msgid ""
+":math:`v_\\mathrm{br}` denotes the linear velocity of the back (trailing) "
+"right wheel"
+msgstr ""
+":math:`v_\\mathrm{br}` indica la velocidad lineal de la rueda trasera "
+"(trasera) derecha"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:70
+msgid ""
+":math:`v_\\mathrm{fl}` denotes the linear velocity of the front (leading) "
+"left wheel(s)"
+msgstr ""
+":math:`v_\\mathrm{fl}` indica la velocidad lineal de la(s) rueda(s) "
+"delantera(s) izquierda(s)."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:71
+msgid ""
+":math:`v_\\mathrm{bl}` denotes the linear velocity of the back (trailing) "
+"left wheel(s)"
+msgstr ""
+":math:`v_\\mathrm{bl}` indica la velocidad lineal de la(s) rueda(s) "
+"trasera(s) izquierda(s)."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:72
+msgid ""
+":math:`v_f` denotes the forward velocity of the robot, relative to itself."
+msgstr ""
+":math:`v_f` denota la velocidad de avance del robot, relativa a sí mismo."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:73
+msgid ""
+":math:`v_s` denotes the strafe (sideways) velocity of the robot, relative to"
+" itself."
+msgstr ""
+":math:`v_s` indica la velocidad de desplazamiento (lateral) del robot "
+"respecto a sí mismo."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:75
+msgid ""
+":math:`r_b` represents the base track radius, or the distance between the "
+"wheel and center of the robot (half of the distance between wheels)"
+msgstr ""
+":math:`r_b` representa el radio de la pista base, o la distancia entre la "
+"rueda y el centro del robot (la mitad de la distancia entre ruedas)"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:86
+msgid ""
+"The forward kinematics of a mecanum drive relate the velocity of the wheels "
+"to the forward, strafe, and rotational velocities of the robot, relative to "
+"itself. These are as follows:"
+msgstr ""
+"La cinemática de avance de un accionamiento mecanum relaciona la velocidad "
+"de las ruedas con las velocidades de avance, derrape y rotación del robot "
+"respecto a sí mismo. Son las siguientes:"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:88
+msgid ""
+"v_f = \\frac{v_\\mathrm{fr} + v_\\mathrm{fl} + v_\\mathrm{br} + v_\\mathrm{bl}}{4}\n"
+"\n"
+"v_s = \\frac{v_\\mathrm{bl} + v_\\mathrm{fr} - v_\\mathrm{fl} - v_\\mathrm{br}}{4}\n"
+"\n"
+"\\omega = \\frac{v_\\mathrm{br} + v_\\mathrm{fr} - v_\\mathrm{fl} - v_\\mathrm{bl}}{4*2r_b}"
+msgstr ""
+"v_f = \\frac{v_\\mathrm{fr} + v_\\mathrm{fl} + v_\\mathrm{br} + v_\\mathrm{bl}}{4}\n"
+"\n"
+"v_s = \\frac{v_\\mathrm{bl} + v_\\mathrm{fr} - v_\\mathrm{fl} - v_\\mathrm{br}}{4}\n"
+"\n"
+"\\omega = \\frac{v_\\mathrm{br} + v_\\mathrm{fr} - v_\\mathrm{fl} - v_\\mathrm{bl}}{4*2r_b}"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:99
+msgid ""
+"The inverse kinematics of a mecanum drive relate the desired velocity of the"
+" robot to the velocity required on the wheels. These are as follows:"
+msgstr ""
+"La cinemática inversa de un accionamiento mecanum relaciona la velocidad "
+"deseada del robot con la velocidad requerida en las ruedas. Éstas son las "
+"siguientes:"
 
 #: ../../gm0/source/docs/software/concepts/kinematics.rst:101
 msgid ""
