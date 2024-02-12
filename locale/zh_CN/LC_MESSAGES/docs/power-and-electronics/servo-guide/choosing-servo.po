@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# guluomagongchengshi, 2023
 # Shawphy, 2023
-# DomnickJYH, 2023
+# guluomagongchengshi, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-25 04:16+0000\n"
+"POT-Creation-Date: 2024-02-12 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,8 +34,7 @@ msgid ""
 "point to compare different servo options, and also has some hand picked "
 "recommendations at the end."
 msgstr ""
-"鉴于需要考虑的选项众多，挑选 :term:`servo <Servo>` "
-"起初可能会令人望而生畏。本指南旨在为比较不同的舵机选项提供一个起点，并在最后提供一些精选建议。"
+"鉴于需要考虑的选项众多，挑选 舵机 <Servo>起初可能会令人望而生畏。本指南旨在为比较不同的舵机选项提供一个起点，并在最后提供一些精选建议。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:10
 msgid ""
@@ -46,7 +45,7 @@ msgid ""
 " recommendation only to vendors who historically have been reliable with "
 "publishing servo specifications."
 msgstr ""
-"在选择舵机时，牢记特定供应商的可靠性非常重要。亚马逊和其他类似网站上的制造商和经销商夸大其舵机规格或选择不切实际的最佳情况来衡量规格的做法并不少见。我们的推荐仅限于在发布舵机规格方面历来可靠的供应商。"
+"在选择舵机时，牢记特定供应商的产品信息可信性非常重要。亚马逊和其他类似网站上的制造商和经销商夸大其舵机规格或选择不切实际的最佳情况来衡量规格的做法并不少见。我们的推荐仅限于在发布舵机规格方面历来可靠的供应商。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:12
 msgid ""
@@ -60,7 +59,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:15
 msgid "Servo Type: Regular or Continuous"
-msgstr "伺服类型：常规或连续"
+msgstr "舵机类型：常规或连续旋转式"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:17
 msgid ""
@@ -70,8 +69,7 @@ msgid ""
 " :term:`servo <Servo>` form factor. They have no position control; instead, "
 "PWM signal is used to control their rotation speed."
 msgstr ""
-":term:`Servos <Servo>` 可以根据 PWM "
-"输入信号旋转到给定位置的舵机称为**常规舵机。此外，还有**连续旋转舵机**，它们实际上只是:term:`servo "
+"舵机 <Servo>` 可以根据 PWM 输入信号旋转到给定位置的舵机称为**常规舵机。此外，还有**连续旋转舵机**，它们实际上只是舵机 "
 "<Servo>`外形尺寸的小型电机。它们没有位置控制，而是使用 PWM 信号来控制转速。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:19
@@ -82,20 +80,18 @@ msgid ""
 "or regular servos."
 msgstr ""
 "FTC "
-"|reg|供应商的许多舵机都是双模式的，这意味着它们可以在连续模式和常规模式之间切换（通常需要使用单独出售的舵机编程器）。这些舵机既可用作连续舵机，也可用作常规舵机。"
+"|reg|供应商的许多舵机都是双模式的，这意味着它们可以在连续模式和常规模式之间切换（通常需要使用单独出售的舵机编程器）。这些舵机既可用作连续旋转舵机，也可用作常规舵机。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:22
 msgid "Servo Torque And Speed"
-msgstr "伺服扭矩和速度"
+msgstr "舵机扭矩和速度"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:24
 msgid ""
 ":term:`Servo` output power is measured in both **speed** and **torque**. "
 "Speed (normally in seconds per 60\\ |deg|) refers to how fast the "
 ":term:`servo <Servo>` turns 60 degrees in Standard Rotation mode."
-msgstr ""
-" :term:`Servo` 输出功率以速度和扭矩来衡量。速度（通常以秒/60度为单位）是指在标准旋转模式下，: term:`servo "
-"<Servo>`转动 60 度的速度。"
+msgstr "舵机输出功率以速度和扭矩来衡量。速度（通常以秒/60度为单位）是指在标准旋转模式下，舵机 <Servo>`转动 60 度的速度。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:26
 msgid "Why seconds per 60 degrees?"
@@ -108,7 +104,7 @@ msgid ""
 "maximum side to side travel of 60 degrees so manufacturers would often "
 "advertise their servos using seconds for 60 degrees."
 msgstr ""
-"从历史上看，FTC 中常用的伺服器是为 RC（无线电遥控）汽车设置的。这些汽车的转向连杆的最大侧向行程通常为 60 度，因此制造商通常会用 60 "
+"从历史上看，FTC 中常用的舵机是为 RC（无线电遥控）汽车设置的。这些汽车的转向连杆的最大侧向行程通常为 60 度，因此制造商通常会用 60 "
 "度的秒数来宣传他们的舵机。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:30
@@ -118,8 +114,8 @@ msgid ""
 " 1\" bar on a servo, then put a force gauge on the end, the torque rating of"
 " the servo (in oz-in) will be measured."
 msgstr ""
-"扭矩（通常以 oz-in 或 kg-cm 为单位）是指 :term:`servo <Servo>` "
-"可以施加到杠杆上的力的大小。作为参考，如果在伺服器上安装一根 1 英寸的杆，然后在杆端安装测力计，就能测出伺服器的额定扭矩（单位为 oz-in）。"
+"扭矩（通常以 oz-in 或 kg-cm 为单位）是指 舵机 <Servo>` 可以施加到杠杆上的力的大小。作为参考，如果在伺服器上安装一根 1 "
+"英寸的杆，然后在杆端安装测力计，就能测出舵机的额定扭矩（单位为 oz-in）。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:32
 msgid ""
@@ -137,12 +133,12 @@ msgid ""
 "but a good way is trying to decide if you need more speed or torque, and if "
 "your :term:`servo <Servo>` will experience shock loads or not."
 msgstr ""
-"为您的应用找到合适的 :term:`servo <Servo>` 可能很难，但一个好方法是尝试决定您是否需要更高的速度或扭矩，以及您的 "
-":term:`servo <Servo>` 是否会承受冲击负荷。"
+"为您的应用找到合适的 舵机 <Servo>` 可能很难，但一个好方法是尝试决定您是否需要更高的速度或扭矩，以及您的 舵机<Servo>` "
+"是否会承受冲击负荷。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:37
 msgid "Durability and Servo Gear Material"
-msgstr "耐用性和伺服齿轮材料"
+msgstr "耐用性和舵机齿轮材料"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:39
 msgid ""
@@ -152,20 +148,19 @@ msgid ""
 "uncommon, but it can happen under large loads for a prolonged amount of "
 "time."
 msgstr ""
-"威胁 :term:`servo's <Servo>` 寿命的两件事是内部电机烧毁和更常见的 :term:`gears <Gear>` 在 "
-":term:`servo <Servo>` 内部剥离。电机烧毁的情况并不常见，但在长时间大负载的情况下也会发生。"
+"威胁 舵机<Servo>` 寿命的两件事是内部电机烧毁和更常见的齿轮 <Gear>` 在舵机 <Servo>` "
+"内部剥离。电机烧毁的情况并不常见，但在长时间大负载的情况下也会发生。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:41
 msgid "You should **never** stall a servo against an immovable object."
-msgstr "永远不要将伺服器停在不动物体上。"
+msgstr "永远不要将舵机安装在不动的模块上。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:43
 msgid ""
 "Gear stripping is a very common problem which occurs when the torque needed "
 "to actuate a component exceeds that of the :term:`servo's <Servo>` maximum "
 "torque. There are two main cases when this can occur."
-msgstr ""
-"当驱动部件所需的扭矩超过 :term:`servo's <Servo>` 最大扭矩时，就会出现齿轮剥离这一非常常见的问题。这种情况主要有两种。"
+msgstr "当驱动部件所需的扭矩超过舵机的<Servo>` 最大扭矩时，就会出现齿轮剥离这一非常常见的问题。这种情况主要有两种。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:45
 msgid ""
@@ -173,9 +168,7 @@ msgid ""
 "regardless of which material the :term:`gears <Gear>` are made from. An "
 "example could be the component slamming into the field wall or another "
 "robot."
-msgstr ""
-"无论 :term:`gears <Gear>` 是由哪种材料制成，外力造成的冲击负荷都会轻易剥离 :term:`gears "
-"<Gear>`。例如，部件撞上场地墙壁或其他机器人。"
+msgstr "无论 齿轮 <Gear>` 是由哪种材料制成，外力造成的冲击负荷都会轻易剥离 齿轮 <Gear>`。例如，部件撞上场地墙壁或其他机器人。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:46
 msgid ""
@@ -187,17 +180,16 @@ msgid ""
 "require more torque. Thus, the principle is that components should be light "
 "and not reverse direction suddenly to prolong :term:`servo <Servo>` life."
 msgstr ""
-"太重的物体在反转时产生的冲击负荷会使 :term:`gears <Gear>` 齿轮脱落。扭矩随质量和与旋转中心的距离而增加。如果被驱动的部件远离 "
-":term:`servo "
+"太重的物体在反转时产生的冲击负荷会使  <Gear>` 齿轮脱落。扭矩随质量和与旋转中心的距离而增加。如果被驱动的部件远离 舵机 "
 "<Servo>`，则杠杆臂长意味着扭矩大。此外，如果部件在移动，反转方向也需要更大的扭矩。因此，原则是部件要轻，不要突然反向，以延长 "
-":term:`servo <Servo>` 的使用寿命。"
+"舵机<Servo>` 的使用寿命。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:48
 msgid ""
 "Shock load resistance is impacted directly by the material the :term:`gears "
 "<Gear>` are made from. This ranges from plastic to titanium, so let's go "
 "down the list, starting from the weakest."
-msgstr "抗冲击负荷能力直接受到 :term:`gears <Gear>` 所用材料的影响。材料范围从塑料到钛，让我们从最弱的开始往下看。"
+msgstr "抗冲击负荷能力直接受到齿轮 <Gear>` 所用材料的影响。材料范围从塑料到钛，让我们从最弱的开始往下看。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:50
 msgid ""
@@ -207,7 +199,7 @@ msgid ""
 "contact with any game elements or the field. An example could be a servo "
 "that opens a trapdoor or moves game elements within the robot."
 msgstr ""
-"**塑料**：使用低功率 :term:`servos <Servo>`时，通常没有问题。一般用于模型飞机，如副翼。FTC "
+"**塑料**：使用低功率舵机<Servo>`时，通常没有问题。一般用于模型飞机，如副翼。FTC "
 "应用包括不会直接接触任何游戏元素或场地的轻负载机构。例如，用于打开活板门或移动机器人内游戏元素的舵机。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:51
@@ -217,8 +209,8 @@ msgid ""
 "that it can strip easily under the shock loads found in FTC. Karbonite is "
 "more durable than plastic but still suffers from shock loads."
 msgstr ""
-"碳化：Hitec 的 :term:`gear <Gear>` 塑料非常耐用，使用寿命长，在长期使用和低负荷的情况下性能非常好。需要注意的是，它在 FTC"
-" 中的冲击负荷下很容易剥落。Karbonite 比塑料更耐用，但仍会受到冲击负荷的影响。"
+"碳化：Hitec 的齿轮 <Gear>` 塑料非常耐用，使用寿命长，在长期使用和低负荷的情况下性能非常好。需要注意的是，它在 FTC "
+"中的冲击负荷下很容易剥落。Karbonite 比塑料更耐用，但仍会受到冲击负荷的影响。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:52
 msgid ""
@@ -227,8 +219,8 @@ msgid ""
 "deposit buckets. It's found on slightly higher end servos such as the REV "
 "Smart Servo."
 msgstr ""
-"**黄铜**：黄铜 :term:`gears <Gear>` 比塑料更坚固，但在 "
-"FTC，如进气腕和存款桶，中面对冲击负荷时也会受到很大影响。REV智能舵机等稍高端的舵机都采用了这种材料。"
+"**黄铜**：黄铜 齿轮 <Gear>` 比塑料更坚固，但在 "
+"FTC，如吸取装置和存放装置，中面对冲击负荷时也会受到很大影响。REV智能舵机等稍高端的舵机都采用了这种材料。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:53
 msgid ""
@@ -237,8 +229,8 @@ msgid ""
 "expect to pay a premium. The goBILDA Dual mode servos (v2) is an example of "
 "steel :term:`gear <Gear>` :term:`servo <Servo>`."
 msgstr ""
-"钢铁：这就是我们开始大干一场的地方。钢材 :term:`gears <Gear>`非常耐用，你很难剥离它们。一般来说，需要支付更高的价格。goBILDA"
-" 双模式伺服器 (v2) 是钢制 :term:`gear <Gear>` :term:`servo <Servo>` 的典范。"
+"钢铁：这就是我们开始需要研究的地方。钢材 齿轮 <Gear>`非常耐用，你很难剥离它们。一般来说，需要支付更高的价格。goBILDA 双模式伺服器 "
+"(v2) 是钢制 齿轮 <Gear>` 舵机 <Servo>` 的典范。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:54
 msgid ""
@@ -248,12 +240,12 @@ msgid ""
 "however its advantage is in strength to weight ratio (as in, titanium "
 "gearboxes will often be lighter then steel gearboxes)."
 msgstr ""
-"钛：钛是真正的高端产品，几乎牢不可破的 :term:`舵机 <Servo>`.。起价从75 美元到150 "
+"钛：钛是真正的高端产品，几乎牢不可破的 舵机 <Servo>`.。起价从75 美元到150 "
 "美元不等。一个常见的误解是，钛比钢更坚固，但其优势在于强度与重量比（例如，钛齿轮箱通常比钢齿轮箱更轻）。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:57
 msgid "Servo Size"
-msgstr "伺服电机尺寸"
+msgstr "舵机尺寸"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:59
 msgid ""
@@ -264,10 +256,9 @@ msgid ""
 "Servos) and *large size* (also known as quarter-scale) :term:`servos "
 "<Servo>`. However, large :term:`servos <Servo>` are quite uncommon."
 msgstr ""
-":term:`Servos <Servo>` 有不同的尺寸。幸运的是，几乎所有制造商都使用同一套标准的 :term:`servo <Servo>` "
-"尺寸，从超小型到大型不等。FTC 中常用的两种尺寸是 * 标准尺寸*（包括 REV Smart Servo 和 goBILDA Dual Mode "
-"Servo）和 * 大尺寸*（也称为四分之一尺寸） :term:`servos <Servo>`。不过，大型 :term:`servos "
-"<Servo>` 并不常见。"
+"舵机<Servo>` 有不同的尺寸。幸运的是，几乎所有制造商都使用同一套标准的 舵机<Servo>` 尺寸，从超小型到大型不等。FTC "
+"中常用的两种尺寸是 * 标准尺寸*（包括 REV Smart Servo 和 goBILDA Dual Mode Servo）和 * "
+"大尺寸*（也称为四分之一尺寸） 舵机 <Servo>`。不过，大型 舵机 <Servo>` 并不常见。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:61
 msgid ""
@@ -275,12 +266,12 @@ msgid ""
 ":term:`servo <Servo>`, it is not a strict rule. You can buy very powerful "
 "standard size :term:`servos <Servo>` - just expect to pay more for them."
 msgstr ""
-"请注意，一般来说，尺寸越大， :term:`servo <Servo>` 功能越强，但这并不是严格的规则。您可以购买功能非常强大的标准尺寸 "
-":term:`servos <Servo>`，只是需要支付更高的价格。"
+"请注意，一般来说，尺寸越大，舵机<Servo>` 功能越强，但这并不是严格的规则。您可以购买功能非常强大的标准尺寸舵机 "
+"<Servo>`，只是需要支付更高的价格。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:64
 msgid "Servo Spline"
-msgstr "伺服花键"
+msgstr "舵机花键轴"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:66
 msgid ""
@@ -290,8 +281,8 @@ msgid ""
 "goBILDA Dual Mode servos. However, Hitec servos using 24 tooth spline are "
 "also very popular."
 msgstr ""
-":term:`舵机 <Servo>` 的输出轴通常称为花键。大多数舵机采用行业标准的 25 齿花键（也称为 F3）；特别是 REV Smart "
-"Servo 和 goBILDA Dual Mode 舵机使用的就是这种花键。不过，使用 24 齿花键的 Hitec 舵机也很受欢迎。"
+"舵机 <Servo>` 的输出轴通常称为花键轴。大多数舵机采用行业标准的 25 齿花键（也称为 F3）；特别是 REV Smart Servo 和 "
+"goBILDA Dual Mode 舵机使用的就是这种花键。不过，使用 24 齿花键的 Hitec 舵机也很受欢迎。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:68
 msgid ""
@@ -303,8 +294,7 @@ msgstr "Andymark伺服器是个例外，因为它们使用5毫米六角轴作为
 msgid ""
 "Please check the spline type before you buy the :term:`servo <Servo>` - "
 "otherwise, your :term:`servo <Servo>` attachments will not fit."
-msgstr ""
-"请在购买 :term:`servo <Servo>` 前检查花键类型 - 否则，您的 :term:`servo <Servo>` 附件将无法安装。"
+msgstr "请在购买舵机<Servo>` 前检查花键类型 - 否则，您的 舵机<Servo>` 附件将无法安装。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:72
 msgid ""
@@ -314,15 +304,14 @@ msgstr "有关伺服花键的更多信息，请访问 https://www.servocity.com/
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:75
 msgid "Servo Range"
-msgstr "伺服电机范围"
+msgstr "舵机范围"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:77
 msgid ""
 "The angle over which a non-continuous :term:`servo <Servo>` can rotate while"
 " retaining position feedback is called the range. When choosing a servo, it "
 "is important to make sure you have enough range for the movement you need."
-msgstr ""
-"非连续 :term:`servo <Servo>` 在保持位置反馈的同时可以旋转的角度称为量程。在选择舵机时，必须确保有足够的量程来满足运动需求。"
+msgstr "非连续 式舵机 <Servo>` 在保持位置反馈的同时可以旋转的角度称为量程。在选择舵机时，必须确保有足够的量程来满足运动需求。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:79
 msgid ""
@@ -341,8 +330,8 @@ msgid ""
 " Smart Robot Servo have less range then advertised. You can use the "
 "following code to expand the range to 500-2500 microseconds."
 msgstr ""
-"FTC 扩展集线器和 FTC 控制集线器的默认范围为 600-2400 微秒，这可能会导致 goBILDA 双模式伺服器和 REV "
-"智能机器人伺服器等常用伺服器的范围比宣传的要小。您可以使用以下代码将范围扩大到 500-2500 微秒。"
+"FTC Expansion Hub和 FTC Control Hub的默认范围为 600-2400 微秒，这可能会导致 goBILDA 双模式舵机和 "
+"REV 智能机器人舵机等常用伺服器的范围比宣传的要小。您可以使用以下代码将范围扩大到 500-2500 微秒。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:92
 msgid "Cost"
@@ -354,8 +343,7 @@ msgid ""
 "applications, all the way up to some Hitec or Savox :term:`servos <Servo>` "
 "for close to $200."
 msgstr ""
-":term:`Servos <Servo>`范围从廉价的 7 美元 :term:`Servos <Servo>`轻型应用，一直到一些近 200 美元的 "
-"Hitec 或 Savox :term:`servos <Servo>`。"
+"舵机 <Servo>`范围从廉价的 7 美元舵机<Servo>`轻型应用，一直到一些近 200 美元的 Hitec 或 Savox舵机<Servo>`。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:96
 msgid ""
@@ -364,7 +352,7 @@ msgid ""
 "**Andymark High Torque/Speed** servos on paper are the best bang for your "
 "buck servo, but at the time of writing have not been released and tested."
 msgstr ""
-"到目前为止，性价比最高的 :term:`servos <Servo>` 是 **goBILDA dual mode** 和 **REV SRS** "
+"到目前为止，性价比最高的 舵机 <Servo>` 是 **goBILDA dual mode** 和 **REV SRS** "
 "舵机。此外，**Andymark 高扭矩/高速**舵机在纸面上是性价比最高的舵机，但在撰写本文时尚未发布和测试。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:98
@@ -372,9 +360,7 @@ msgid ""
 "The biggest downside to the REV SRS are their brass :term:`gears <Gear>`. "
 "Coupled with high output power, this meant that stripping :term:`gears "
 "<Gear>` with any shock load was commonplace."
-msgstr ""
-"REV SRS 最大的缺点是其黄铜 :term:`gears <Gear>`。再加上高输出功率，这意味着在任何冲击负荷下剥离 :term:`gears "
-"<Gear>` 是家常便饭。"
+msgstr "REV SRS 最大的缺点是其黄铜 齿轮 <Gear>`。再加上高输出功率，这意味着在任何冲击负荷下剥离齿轮<Gear>` 是家常便饭。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:100
 msgid ""
@@ -382,8 +368,8 @@ msgid ""
 " in hobby :term:`servos <Servo>` for decades and are very well trusted. "
 "Their low end :term:`servos <Servo>` are inexpensive but easily broken."
 msgstr ""
-"FTC :term:`Servos <Servo>` 的下一个大品牌是 Hitec，该公司在业余 :term:`Servos <Servo>` "
-"中大名鼎鼎，几十年来一直深受信赖。他们的低端 :term:`servos <Servo>` 价格低廉，但容易损坏。"
+"FTC 舵机<Servo>` 的下一个大品牌是 Hitec，该公司在业余 舵机 <Servo>` 中大名鼎鼎，几十年来一直深受信赖。他们的低端 舵机 "
+"<Servo>` 价格低廉，但容易损坏。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:102
 msgid ""
@@ -392,9 +378,9 @@ msgid ""
 "applications, it is fine for general use such as claws or trapdoors. 485HB "
 "uses 24 tooth spline; 488 HB uses 25 tooth spline (recommended)."
 msgstr ""
-"价格中等的 Hitec :term:`servo <Servo>` 是 HS 485-HB/488-HB伺服器，配有Karbonite "
-":term:`gears <Gear>`。虽然它不应该用于高负荷应用，但对于爪子或活门等一般应用来说，它还是可以胜任的。485HB 使用 24 "
-"齿花键；488 HB 使用 25 齿花键（推荐）。"
+"价格中等的 Hitec舵机 <Servo>` 是 HS 485-HB/488-HB舵机，配有Karbonite齿轮s "
+"<Gear>`。虽然它不应该用于高负荷应用，但对于爪子或活门等一般应用来说，它还是可以胜任的。485HB 使用 24 齿花键；488 HB 使用 25 "
+"齿花键（推荐）。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:104
 msgid ""
@@ -403,8 +389,8 @@ msgid ""
 " have titanium :term:`gears <Gear>` and are programmable, so you can dial in"
 " the performance and range to exactly what you need."
 msgstr ""
-"Hitec 真正的亮点在于高端市场。如果您的预算超过 100 美元，您可以购买一些功能非常强大的 Hitec :term:`servos "
-"<Servo>`。大多数都有钛 :term:`gears <Gear>`，并且可以编程，因此您可以根据自己的需要调节性能和范围。"
+"Hitec 真正的亮点在于高端市场。如果您的预算超过 100 美元，您可以购买一些功能非常强大的 Hitec 舵机 <Servo>`。大多数都有钛 齿轮"
+" <Gear>`，并且可以编程，因此您可以根据自己的需要调节性能和范围。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:106
 msgid ""
@@ -421,13 +407,13 @@ msgid ""
 "brushless and coreless, so they do tend to scream a little under load, but "
 "they're definitely worth it if your budget allows for it."
 msgstr ""
-"在 FTC 的 :term:`servo <Servo>` 市场上，最后一个大玩家是 Savox，它生产的中高端 :term:`servos "
-"<Servo>`（60-100 美元以上）产品非常出色。它们使用钛制造 :term:`gears <Gear>`（接近防弹），速度快。Savox "
-":term:`servos <Servo>`主要是无刷和无芯的，所以它们在负载情况下确实会有点尖叫，但如果你的预算允许的话，它们绝对值得购买。"
+"在 FTC 的舵机 <Servo>` 市场上，最后一个大厂是 Savox，它生产的中高端舵机 <Servo>`（60-100 "
+"美元以上）产品非常出色。它们使用钛制造齿轮s <Gear>`（接近防弹），速度快。Savox 舵机 "
+"<Servo>`主要是无刷和无芯的，所以它们在负载情况下确实会有点尖叫，但如果你的预算允许的话，它们绝对值得购买。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:111
 msgid "Recommended Servos"
-msgstr "推荐的伺服系统"
+msgstr "推荐的舵机"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:113
 msgid ""
@@ -438,7 +424,7 @@ msgstr "我们不再推荐低价伺服器。由于其强度低，随着时间的
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:116
 msgid "Bang for Your Buck"
-msgstr "高性价比伺服系统"
+msgstr "高性价比舵机"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:118
 msgid ""
@@ -511,7 +497,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:136
 msgid "Specialty Servos"
-msgstr "特种伺服系统"
+msgstr "特种舵机"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:139
 msgid ""
@@ -529,7 +515,7 @@ msgid ""
 "with external gearboxes, but are more expensive and have a lower precision "
 "then the normal varients."
 msgstr ""
-"goBILDA 生产的所有三种双模式伺服器（速度、超速、扭矩）都有 5 转变体，可以旋转 5 "
+"goBILDA 生产的所有三种双模式舵机（速度、超速、扭矩）都有 5 转变体，可以旋转 5 "
 "转，同时仍能跟踪位置。这些伺服器具有较高的量程，非常适合与外部齿轮箱配合使用，但价格较高，精度也比普通伺服器低。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:141
@@ -539,6 +525,5 @@ msgid ""
 "`ServoCity <https://www.servocity.com/>`_ or `Amazon "
 "<https://www.amazon.com/>`_."
 msgstr ""
-"REV 和 goBILDA :term:`servos <Servo>`可分别从 REV 和 goBILDA 网站购买。对于所有其他舵机，一些好的来源是"
-" `ServoCity <https://www.servocity.com/>`_ 或 `Amazon "
-"<https://www.amazon.com/>`_。"
+"REV 和 goBILDA 舵机 <Servo>`可分别从 REV 和 goBILDA 网站购买。对于所有其他舵机，一些好的来源是 `ServoCity"
+" <https://www.servocity.com/>`_ 或 `Amazon <https://www.amazon.com/>`_。"
