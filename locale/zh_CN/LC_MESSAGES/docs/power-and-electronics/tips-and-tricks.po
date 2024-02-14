@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-14 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,11 +44,11 @@ msgid ""
 "Thingiverse or through this `link "
 "<https://www.thingiverse.com/thing:2887045>`_."
 msgstr ""
-"用于 REV 的传统 :term:`XT30` 连接器容易断裂。强烈建议参赛队用 :term:`Anderson PowerPole` 替换 "
-":term:`XT30` 连接器，或在现有电线上安装适配器。转接器的一个例子是 `这个 "
-"<https://www.servocity.com/anderson-powerpole-to-female-"
-"xt30-adaptor>`_。除此之外，团队还可以在扩展集线器上 3D 打印应力消除连接器，以防止 :term:`XT30` 断开。该文件可在 "
-"Thingiverse 上找到，也可通过 `链接 <https://www.thingiverse.com/thing:2887045>`_找到。"
+"用于 REV 的传统XT30` 接口容易断裂。强烈建议参赛队用 Anderson PowerPole` 替换 XT30` "
+"连接器，或在现有电线上安装适配器。转接器的一个例子是 `这个 <https://www.servocity.com/anderson-"
+"powerpole-to-female-xt30-adaptor>`_。除此之外，团队还可以在扩展集线器上 3D 打印软管固定接头，以防止`XT30` "
+"断开。该文件可在 Thingiverse 上找到，也可通过 `链接 "
+"<https://www.thingiverse.com/thing:2887045>`_找到。"
 
 #: ../../gm0/source/docs/power-and-electronics/tips-and-tricks.rst:13
 msgid "An example Anderson Powerpole to XT30 adapter"
@@ -72,7 +72,7 @@ msgid ""
 "cycles. It is recommended that teams crimp new :term:`Anderson PowerPole` "
 "connectors onto the battery."
 msgstr ""
-"在许多 FTC\\ |reg| 合法电池上发现的田宫连接器非常脆弱，在多次重复插拔后容易变得不可靠。建议各小组将新的 :term:`Anderson "
+"在许多 FTC\\ |reg| 合法电池上发现的小田宫接口非常脆弱，在多次重复插拔后容易变得不可靠。建议各小组将新的 :term:`Anderson "
 "PowerPole` 连接器压接到电池上。"
 
 #: ../../gm0/source/docs/power-and-electronics/tips-and-tricks.rst:17
@@ -82,7 +82,7 @@ msgid ""
 "<https://www.revrobotics.com/rev-41-1214/>`_ to help prevent disconnections."
 msgstr ""
 "强烈建议团队使用 `REV 接地带 <https://www.revrobotics.com/rev-31-1269/>`_和 `REV USB "
-"应力消除 <https://www.revrobotics.com/rev-41-1214/>`_，以帮助防止断开连接。"
+"软管固定接口<https://www.revrobotics.com/rev-41-1214/>`_，以帮助防止断开连接。"
 
 #: ../../gm0/source/docs/power-and-electronics/tips-and-tricks.rst:19
 msgid ""
@@ -92,5 +92,5 @@ msgid ""
 " and to help wires extend far, teams often use cable carrier (also known as "
 "cable chain)."
 msgstr ""
-"为了保护电线，团队通常使用 `wire loom <https://www.amazon.com/Black-Split-Tubing-Cover-"
+"为了保护电线，团队通常使用绳束器 <https://www.amazon.com/Black-Split-Tubing-Cover-"
 "Marine/dp/B00J7RD6ZI/ref=sr_1_13?keywords=wire+loom&qid=1562452458&s=gateway&sr=8-13>`_，为了帮助电线延伸得更远，团队通常使用电缆载体（也称为电缆链）。"
