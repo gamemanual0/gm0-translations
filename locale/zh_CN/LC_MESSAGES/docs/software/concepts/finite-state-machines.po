@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 04:15+0000\n"
+"POT-Creation-Date: 2024-02-16 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +38,19 @@ msgstr ""
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:7
 msgid "What is a Finite State Machine?"
 msgstr "什么是有限状态机？"
+
+#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:9
+msgid ""
+"The name of a finite state machine is very descriptive; it's a state "
+"machine, with a finite number of states. It can be in one state at a time, "
+"and can transition to a different state once something happens. The "
+"`Wikipedia <https://en.wikipedia.org/wiki/Finite-"
+"state_machine#Example:_coin-operated_turnstile>`__ example of a turnstile "
+"explains the concept very well."
+msgstr ""
+"有限状态机的名称非常具有描述性；它是一种状态机，具有有限个状态。它可以同时处于一种状态，一旦有事情发生，就可以过渡到另一种状态。`维基百科 "
+"<https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-"
+"operated_turnstile>`__ 旋转门的例子很好地解释了这个概念。"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:12
 msgid "Implementation"
