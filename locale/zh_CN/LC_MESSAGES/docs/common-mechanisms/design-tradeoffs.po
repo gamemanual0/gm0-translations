@@ -5,17 +5,17 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 16:15+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,18 +228,6 @@ msgstr "由于该设计的齿轮比（4 英寸车轮的齿轮比为 40:1）是�
 msgid "It is not advisable to use direct drive."
 msgstr "不建议使用直驱。"
 
-#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:54
-msgid ""
-"However, most if not all of these problems will be solved by using a four-"
-"motor drivetrain such as the ones recommended in the drivetrain guide "
-"(mecanum, 6WD, etc.). Therefore, it is recommended for teams to refer to the"
-" :doc:`drivetrain </docs/common-mechanisms/drivetrains/index>` section and "
-"see which drivetrain would fit best for their overall game strategy."
-msgstr ""
-"不过，就算不能解决所有问题，使用四电机传动系统——如传动系统指南中推荐的传动系统（麦轮、6WD 等）也能解决绝大多数问题。因此，建议参赛队参考 "
-":doc:` 驱动系统</docs/common-mechanisms/drivetrains/index>` "
-"部分，看看哪种驱动系统最适合他们的整体游戏策略。"
-
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:57
 msgid "Passive Intake/Claw |rarr| Active Intake"
 msgstr "被动吸入拾取装置/爪子 |rarr| 主动吸入拾取装置"
@@ -310,23 +298,6 @@ msgid ""
 " gear gearboxes should not be used in high-load situations, primarily "
 "because the gears can strip and destroy the gearbox."
 msgstr "与行星齿轮箱相比，正齿轮齿轮箱具有固有的缺点。正齿轮变速箱不应在高负荷情况下使用，这主要是因为齿轮可能会剥离并损坏变速箱。"
-
-#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:77
-msgid ""
-"An example would be a drivetrain that has to change directions repeatedly "
-"and quickly. Planetary gearboxes are much better suited for drivetrain and "
-"arms, due to the configuration of the sun and planet gears. In addition, "
-"spur gear gearboxes are prone to shock loads; therefore, direct drive is not"
-" advisable on drivetrains. Refer to the :doc:`gearbox anatomy </docs/power-"
-"and-electronics/motor-guide/gearbox-anatomy>` section for more complete "
-"information on gearboxes. **This refers to using spur gear gearboxes which "
-"are attached directly to the pinion gear of the motor. It does not mean "
-"external ratios outside of the motor gearbox, which will always be in a spur"
-" gear configuration.**"
-msgstr ""
-"例如，传动系统需要反复快速地改变方向。由于太阳齿轮和行星齿轮的构造，行星齿轮变速箱更适合用于传动系统和机械臂。此外，正齿轮变速箱容易受到冲击载荷的影响，因此不建议在传动系统上使用直接驱动。有关齿轮箱的更多完整信息，请参阅"
-" :doc:` 齿轮箱内部构造详解</docs/power-and-electronics/motor-guide/gearbox-anatomy>` "
-"部分。**这是指使用直接连接到电机小齿轮上的正齿轮变速箱。这并不意味着在电机齿轮箱之外使用外部传动比，因为外部传动比始终是正齿轮配置。"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:80
 msgid "Single/multi axis arm |rarr| Linear extension"

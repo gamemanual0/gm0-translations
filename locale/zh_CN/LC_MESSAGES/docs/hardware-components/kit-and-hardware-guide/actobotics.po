@@ -6,16 +6,16 @@
 # Translators:
 # 芷晗 李, 2023
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,13 +52,6 @@ msgstr ""
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
 msgid "Special Considerations"
 msgstr "特殊考虑因素"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:13
-msgid ""
-"Actobotics' :term:`channel <Channel>` hole pattern has many more mounting "
-"holes than a Tetrix channel, so it offers more flexibility in terms of "
-"mounting."
-msgstr "Actobotics的:term:`channel <Channel>`孔型比Tetrix通道多出许多安装孔，因此在安装方面更具灵活性。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:14
 msgid ""
@@ -110,14 +103,6 @@ msgid ""
 "The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to build "
 "extending mechanisms."
 msgstr "线性运动套件使用X-rail:term:`extrusion <Extrusion>`来构建延伸机构。"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:25
-msgid ""
-"The :term:`Servoblocks`, which prolongs the life of a servo, are recommended"
-" for all teams, regardless of kit. However, :term:`Servoblocks` seamlessly "
-"interface with the Actobotics ecosystem."
-msgstr ""
-":term:`Servoblocks`可延长舵机的使用寿命，建议所有队伍使用，无论套件如何。不过，:term:`Servoblocks`能与Actobotics生态系统无缝对接。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:26
 msgid ""
@@ -184,19 +169,6 @@ msgid ""
 "more support options to prevent structural bending."
 msgstr "Actobotics在传动系统弯曲方面比TETRIX更为坚固，并有更多的支撑选项来防止结构弯曲。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:45
-msgid ""
-"The :term:`clamping hubs <Clamping Hub>` offered are more reliable than "
-":term:`set screws <Set Screw>`, as clamping engages the shaft in more places"
-" than a :term:`set screw <Set Screw>` (one face). As discussed in the "
-":doc:`TETRIX section <tetrix>`, set screws in particular are vulnerable to "
-"loosening, especially without application of Loctite."
-msgstr ""
-"与:term:`set screws <Set Screw>`相比，:term:`clamping hubs <Clamping "
-"Hub>`提供的:term:`clamping hubs更可靠，因为与:term:`set screw <Set "
-"Screw>`（单面）相比，clamping hubs与轴啮合的位置更多。正如在:doc:`TETRIX部分 "
-"<tetrix>`中所讨论的，固定螺钉尤其容易松动，特别是在没有涂抹粘合剂的情况下。"
-
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:46
 msgid ""
 "Actobotics' motion system is **very** robust and relies on :term:`ball "
@@ -233,17 +205,6 @@ msgid ""
 msgstr ""
 "Actobotics的价格并不便宜，因此它的成本可能会让一些预算较低的团队望而却步。请注意，在FTC\\|reg|团队七五折优惠的情况下，Actobotics可能比"
 " TETRIX更便宜。唯一便宜的构建系统是REV。"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:54
-msgid ""
-"The XL :term:`belts <Timing Belt>` from ServoCity are not great. It is "
-"recommended that :term:`belts <HTD Belt>` are purchased from ServoCity "
-"instead, which may necessitate the use of 3d printed pulleys. There also "
-"isn't a large amount of space inside the channel for a belt or chain run, "
-"vastly limiting the size of the pulleys."
-msgstr ""
-"来自ServoCity的XL:term:`belts <Timing Belt>`并不好。建议从ServoCity购买:term:`belts <HTD"
-" Belt>`，这样可能需要使用3d打印的滑轮。此外，通道内没有足够的空间供皮带或链条运行，这大大限制了滑轮的尺寸。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:55
 msgid ""

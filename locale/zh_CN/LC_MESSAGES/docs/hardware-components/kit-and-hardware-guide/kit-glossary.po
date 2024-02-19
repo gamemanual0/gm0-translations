@@ -5,17 +5,17 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
 # wwsk2008sq, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 16:14+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: wwsk2008sq, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -114,20 +114,6 @@ msgstr "Actobotics 双滚珠轴承轮毂"
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:36
 msgid "Servoblocks"
 msgstr "Servoblocks"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:38
-msgid ""
-"Servoblocks, sold by Servocity/Actobotics/goBILDA, are a way to mount "
-":term:`servos <Servo>` to the goBILDA and Actobotics systems. It is by far "
-"the best way to mount servos because it decreases the load on the servo "
-"spline, which is the weakest part of the servo. This is because under load, "
-"the servo spline teeth can easily become stripped, rendering the servo "
-"unusable. While Servoblocks are not cheap, they are one of the best "
-"investments for teams to pursue."
-msgstr ""
-"Servoblocks由Servocity/Actobotics/goBILDA销售，是一种将:term:` 舵机 "
-"<Servo>`安装到goBILDA和Actobotics系统的方法。这是迄今为止安装伺服器的最佳方式，因为它可以减少伺服器花键上的负荷，而花键是伺服器最薄弱的部分。这是因为在负载情况下，伺服花键齿很容易剥落，导致伺服无法使用。虽然"
-" Servoblocks 的价格并不便宜，但对于团队来说却是最好的投资之一。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
 msgid "An Actobotics Servoblock"

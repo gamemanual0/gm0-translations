@@ -6,16 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -283,16 +283,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
 msgid "Digital IO"
 msgstr "数字IO"
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:121
-msgid ""
-"A DigitalChannel has a couple main methods. ``setMode()`` is used to set the"
-" port as either an OUTPUT or INPUT port, ``getState()`` returns the current "
-"state of the port (only works in INPUT mode), and ``setState()`` sets the "
-"state of the port (only works in OUTPUT mode)"
-msgstr ""
-"数字通道有几个主要方法。``setMode()`` 用于将端口设置为输出或输入端口，``getState()`` "
-"返回端口的当前状态（仅在输入模式下有效），``setState()`` 设置端口的状态（仅在输出模式下有效）。"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:123
 msgid "Digital ports start by default in INPUT mode"

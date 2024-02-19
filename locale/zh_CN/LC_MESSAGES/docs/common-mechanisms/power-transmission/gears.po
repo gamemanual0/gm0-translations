@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 16:15+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,22 +25,6 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:2
 msgid "Gears"
 msgstr "齿轮"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:4
-msgid ""
-"Gears, like sprockets and pulleys, are used in power transmission for three "
-"common applications: changing the direction of power, changing the amount of"
-" torque, and changing RPM. Gears are a less common transmission option than "
-"chain, but are still very viable for most use cases. Gears are equally as "
-"reliable as chain, but can't be used for transferring power over long "
-"distances. Many teams dislike gears when using kit-based channels because "
-"the hole pattern limits which combinations of gears can be used. "
-"Consequently, it may be difficult to achieve a desired specific gear ratio. "
-"However, with :term:`extrusion <Extrusion>` systems, it's very easy to use "
-"different ratios, since the gears can be moved around in extrusion."
-msgstr ""
-"齿轮与链轮和皮带轮一样，在动力传输中用于三种常见应用：改变动力方向、改变扭矩大小和改变转速。与链条相比，齿轮传动是一种不太常见的传动方式，但在大多数情况下仍然非常可行。齿轮传动与链条传动同样可靠，但不能用于长距离动力传输。许多车队在使用套件通道时不喜欢齿轮，因为孔型限制了齿轮的组合。因此，可能很难达到理想的特定齿轮比。但是，使用"
-" :term:`extrusion <Extrusion>` 系统时，由于齿轮可以在挤压过程中移动，因此可以很容易地使用不同的齿轮比。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:6
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:38
@@ -234,15 +218,6 @@ msgid ""
 msgstr ""
 "齿轮是一种可靠且经过验证的动力传动方法。齿轮的早期例子可以追溯到4世纪BC，所以你使用的技术背后有几千年的发展。说到齿轮，我们没有什么不知道的。"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:72
-msgid ""
-"**Gears are simple to use with both channel and extrusion**. On channel, "
-"your gears are already spaced correctly - you just need to choose the right "
-"pair of gears. Extrusion gives you even more flexibility - just slide your "
-"gears into mesh, and you can have whatever ratio you want."
-msgstr ""
-"齿轮很容易与通道和挤压一起使用。在通道上，你的齿轮已经间隔正确——你只需要选择合适的齿轮对。挤压给你更大的灵活性——只需将齿轮滑入啮合，你就可以拥有任何你想要的比例。"
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:73
 msgid ""
 "**Gears can give you big reductions in small areas**. Depending on the gear "
@@ -266,28 +241,12 @@ msgstr ""
 msgid "Disadvantages"
 msgstr "缺点"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:79
-msgid ""
-"**Sometimes, the ratio you want might not be easy to build**. Channel "
-"spacing limits gear ratios, but this can be circumvented with compound "
-"ratios and a bit of creativity."
-msgstr "有时，您想要的比率可能不容易建立。通道行间距限制了齿轮比率，但这可以通过复合比率和一点创造力来规避。"
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:80
 msgid ""
 "**Long distance power transfer is impractical with gears**. If you need to "
 "transfer power long distances, gear combinations can become complicated very"
 " quickly, so belt/chain is preferrable."
 msgstr "远距离动力传递使用齿轮是不切实际的，如果你需要传递动力远距离，齿轮组合可以变得非常复杂，所以皮带/链条是首选。"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:81
-msgid ""
-"**Meshing gears can be tricky**. It's only made worse by the sensitivity of "
-"a gear mesh. However, channels do solve this problem, providing pre-spaced "
-"holes to easily mesh your gears. Do keep in mind that gear mesh may not be "
-"perfect, even with channel."
-msgstr ""
-"啮合齿轮可能很棘手。齿轮啮合的灵敏度只会让情况变得更糟。然而，通道确实解决了这个问题，提供了预间隔的孔来轻松啮合你的齿轮。请记住，齿轮啮合可能并不完美，即使有通道。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:82
 msgid ""

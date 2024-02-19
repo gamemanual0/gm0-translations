@@ -6,15 +6,16 @@
 # Translators:
 # DomnickJYH, 2023
 # norman zhou, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 16:17+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: norman zhou, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,27 +55,6 @@ msgstr "FTC中一般使用的直线轴承有两种：圆形直线轴承和直线
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:13
 msgid "MGN Series Linear Bearing Blocks"
 msgstr "MGN 系列直线轴承座"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:15
-msgid ""
-"MGN linear bearing blocks are the most common linear bearing blocks in FTC. "
-"They are the smallest of a larger classification of slides made by HIWIN "
-"Corporation. They come in several sizes, the smallest being MGN7 and the "
-"largest being MGN15."
-msgstr ""
-"MGN 直线轴承座是 FTC 中最常见的直线轴承座。它们是 HIWIN 公司生产的滑块较大分类中最小的一种。它们有多种尺寸，最小的是 MGN7，最大的是"
-" MGN15。"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:17
-msgid ""
-"It is **recommended that teams only use MGN7, MGN9, and MGN12 slides.** A "
-"pair of MGN12 slides is sufficient to lift a 40lb (20kg) robot. MGN9 slides "
-"are similar in weight and scale to MiSUMI drawer slides. MGN7 slides are "
-"smaller, but they are slightly more inconvenient to work with because they "
-"use smaller M2 screws for mounting."
-msgstr ""
-"**建议参赛队只使用 MGN7、MGN9 和 MGN12 滑轨。**一对 MGN12 滑轨足以提升一个 40 磅（20 千克）的机器人。MGN9 "
-"滑轨的重量和规模与 MiSUMI 抽屉滑轨相似。MGN7 滑轨的尺寸较小，但由于使用较小的 M2 螺钉进行安装，因此使用起来稍有不便。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:19
 msgid ""
@@ -119,12 +99,6 @@ msgid ""
 "lighter."
 msgstr ""
 "由于 MGN 导轨和滑轨完全由钢制成，因此通常比铝制抽屉滑轨重得多。但 MGN9 滑轨和 MGN7 滑轨不存在这个问题，前者稍重，后者稍轻。"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:35
-msgid ""
-"Simplest way to connect slides together and mount pulleys is using custom "
-"parts"
-msgstr "将滑块连接在一起并安装滑轮的最简单方法是使用定制部件"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:36
 msgid "Cheap slides generally need some attention to clean and re-grease"

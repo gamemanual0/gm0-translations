@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
-# DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 16:16+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +47,7 @@ msgid ""
 "state_machine#Example:_coin-operated_turnstile>`__ example of a turnstile "
 "explains the concept very well."
 msgstr ""
-"有限状态机的名称非常具有描述性；它是一种状态机，具有有限个状态。它可以同时处于一种状态，一旦有事情发生，就可以过渡到另一种状态。`维基百科 "
+"有限状态机的名称非常具有描述性；它是一种状态机，具有有限个状态。它一次只能处于一种状态，一旦有事情发生，就可以过渡到另一种状态。`维基百科 "
 "<https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-"
 "operated_turnstile>`__ 旋转门的例子很好地解释了这个概念。"
 

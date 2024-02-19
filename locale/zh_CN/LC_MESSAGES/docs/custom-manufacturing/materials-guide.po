@@ -5,17 +5,17 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
 # wwsk2008sq, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 16:14+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: wwsk2008sq, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,10 +49,6 @@ msgstr "以下是按重要性顺序列出的推荐材料。"
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:13
 msgid "Recommended Materials"
 msgstr "推荐材料"
-
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:15
-msgid "Aluminum channel & angle"
-msgstr "铝通道和角度"
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:16
 msgid "Aluminum extrusion (15 and 20 mm)"
@@ -154,24 +150,6 @@ msgstr ""
 "铝材 :term:`channel <Channel>` 在许多构建系统套件中都有使用，在不同技术水平的团队中都很受欢迎。 :term:`channel"
 " <Channel>` 强度高，但重量相对较轻，可为团队提供多种安装选项。"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:52
-msgid ""
-"15 mm :term:`extrusion <Extrusion>` is compatible with M3 hardware, allowing"
-" teams to slide in bolts to their desired location. REV and MiSUMI offer 15 "
-"mm :term:`extrusion <Extrusion>`. REV :term:`extrusion <Extrusion>` is not "
-"as great structurally, but is lighter than MiSUMI :term:`extrusion "
-"<Extrusion>`. MiSUMI is more resistant to :term:`flexing and/or twisting "
-"under load <Torsional Rigidity>`. Both REV and MiSUMI :term:`extrusion "
-"<Extrusion>` are sold in bulk, and MiSUMI has the option to cut to the half "
-"millimeter. Keep in mind that a lot of :term:`extrusion <Extrusion>` can add"
-" up quickly in terms of weight."
-msgstr ""
-"15 毫米 :term:`extrusion <Extrusion>` 与 M3 硬件兼容，允许团队将螺栓滑入所需位置。REV 和 MiSUMI 提供 "
-"15 毫米 :term:`extrusion <Extrusion>`。REV :term:`extrusion <Extrusion>` 在结构上不如"
-" MiSUMI :term:`extrusion <Extrusion>`轻。MiSUMI 更能抵抗 :term:` 负载下的弯曲和/或扭曲 "
-"<Torsional Rigidity>`。REV 和 MiSUMI :term:`extrusion <Extrusion>` "
-"都是批量销售，MiSUMI 还可以切割到半毫米。请记住，大量 :term:`extrusion <Extrusion>` 的重量会很快增加。"
-
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:54
 msgid "Term"
 msgstr "术语"
@@ -179,16 +157,6 @@ msgstr "术语"
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:57
 msgid "Torsional Rigidity"
 msgstr "扭转刚度"
-
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:59
-msgid ""
-"Torsional rigidity refers to how difficult it is to twist an object due to "
-"an applied torque. This mainly refers to :term:`extrusion <Extrusion>`, as "
-"it is easier to twist extrusion than :term:`channel <Channel>` or an angle "
-"piece, for example."
-msgstr ""
-"扭转刚度是指施加扭矩后物体扭转的困难程度。这主要是指 :term:`extrusion <Extrusion>`，因为与 :term:`channel "
-"<Channel>`或角件相比，挤压件更容易扭转。"
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:61
 msgid ""
@@ -310,19 +278,6 @@ msgid ""
 "Lexan is one of the most expensive materials per square foot, so make sure "
 "you have carefully planned out what you are cutting before doing so."
 msgstr "Lexan是每平方英尺最昂贵的材料之一，所以在这样做之前，确保你已经仔细计划好你要切割的东西。"
-
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:95
-msgid ""
-"Thin Lexan can be bent with a metal brake or sheet bender. It is recommended"
-" for teams to use bends instead of connecting with bolts - bending tends to "
-"be much stronger than bolting as it means the part stays in one continuous "
-"piece. If a sheet bender is out of the question, it is possible to use a "
-"heat gun or camping burners to heat up the Lexan in order to bend it. This "
-"is not recommended as it can cause injury and bubbling if the Lexan is "
-"overheated. Alternatively, \"cold bending\", bending along a straight edge "
-"without applying heat can work for thinner sheets."
-msgstr ""
-"薄的Lexan可以用金属制动器或工作表弯曲器弯曲。建议团队使用弯曲而不是用螺栓连接——弯曲往往比螺栓连接强得多，因为这意味着零件保持在一个连续的部件中。如果不可能使用工作表弯曲器，可以使用热枪或野营燃烧器加热Lexan以使其弯曲。不建议这样做，因为如果Lexan过热，它可能会导致受伤和起泡。或者，“冷弯曲”，即沿着直线边缘弯曲而不施加热量，也适用于较薄的工作表。"
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
 msgid "Various ABS plates"
@@ -537,12 +492,6 @@ msgid ""
 "Carbon fiber is one of the strongest materials for FTC use. For most teams, "
 "it is totally overkill, but it can be used in some specific applications."
 msgstr "碳纤维是FTC使用的最强材料之一，对于大多数团队来说，它完全是大材小用，但它可以用于一些特定的应用。"
-
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:181
-msgid ""
-"Carbon fiber rods are used in custom linear slide extensions or multi-axis "
-"arms."
-msgstr "碳纤维棒用于定制线性滑块延伸件或多轴臂。"
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:182
 msgid "It is probably the most expensive material to purchase."

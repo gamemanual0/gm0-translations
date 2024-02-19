@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 16:15+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,21 +25,6 @@ msgstr ""
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:4
 msgid "Design Strategy"
 msgstr "设计策略"
-
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:6
-msgid ""
-"A useful resource is the championship conference presentation from Karthik "
-"Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame "
-"team FRC\\ |reg| 1114, Simbotics, on effective design and competition "
-"strategies: `Effective FIRST Strategies. "
-"<https://www.youtube.com/watch?v=5fifL47TvzE>`_ See also the `slideshow from"
-" the presentation "
-"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
-msgstr ""
-"著名团队 FRC\\ |reg| 1114、Simbotics 的前任首席导师（现任顾问）Karthik Kanagasabapathy "
-"在冠军会议上就有效的设计和竞赛策略发表了演讲，这是一个非常有用的资源：有效的 FIRST "
-"战略。<https://www.youtube.com/watch?v=5fifL47TvzE>另请参阅 \"演讲幻灯片 "
-"\"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_。"
 
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:9
 msgid "General Design Tips and Mistakes"
@@ -353,16 +338,6 @@ msgid ""
 " of what materials are recommended for use."
 msgstr ""
 "团队也不会考虑竞争的严酷性，就好像机器人不会遇到对立的机器人一样。足够的驾驶员练习将能够更好地模拟游戏中的条件并测试机器人的可靠性。要解决这个问题，请参阅材料指南以更好地了解推荐使用的材料。"
-
-#: ../../gm0/source/docs/design-skills/design-strategy.rst:94
-msgid ""
-"If possible, teams should build with redundancy in mind. For example, if one"
-" set of linear slides fails due to a wire snapping, having a second set will"
-" still allow the robot to operate instead of sitting dead in the water. "
-"Practically, doubling mechanisms, motors, and servos is a common method to "
-"build for redundancy."
-msgstr ""
-"如果可能的话，团队应该在构建时考虑到冗余。例如，如果一组线性滑块因电线折断而失败，那么拥有第二组滑块仍然可以让机器人运行，而不是注定失败。实际上，加倍机制、电机和伺服系统是构建冗余的常用方法。"
 
 #: ../../gm0/source/docs/design-skills/design-strategy.rst:96
 msgid ""

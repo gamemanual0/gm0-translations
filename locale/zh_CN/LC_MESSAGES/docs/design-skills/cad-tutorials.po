@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 16:15+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -304,19 +304,6 @@ msgid ""
 msgstr ""
 "然而，如果你需要像在速度涡流中那样捡起一个球，吸入拾取装置越大，你就有更好的机会抓住球。在设计驱动吊舱时请记住这一点——尽量保持它们薄，而不牺牲刚性和强度，以最大限度地增加其他机构和布线的空间。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:86
-msgid ""
-"Connecting your two plates together is really simple. Some standoffs or "
-"churro extrusion from AndyMark is a relatively easy way to connect them "
-"together with a few bolts. Just make a few 1/4 in. holes in your sketch "
-"where you want the churro tube to be. Decide how long the churro needs to "
-"be. Remember to leave enough space between the plates for your wheels, "
-"pulleys, sprockets, and spacers. You don't need to go overkill on how many "
-"standoffs you need in between your plates; however, put them in strategic "
-"places where support is needed."
-msgstr ""
-"将两个板连接在一起非常简单。AndyMark的一些支架或油条挤压是一种相对简单的方法，可以用几个螺栓将它们连接在一起。只需在你的草图中做几个1/4英寸的孔。你想让油条管在哪里。决定油条需要多长时间。记住在板之间留出足够的空间来放你的轮子、滑轮、链轮和垫片。你不需要在板之间需要多少支架；然而，把它们放在需要支持的战略位置。"
-
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:88
 msgid ""
 "Shown below is a drive pod, which is one half of the drivetrain, including "
@@ -432,26 +419,6 @@ msgid ""
 "are one of less than 4 sizes to keep the pocketing consistent and simple."
 msgstr ""
 "每个板/管上都可以绘制几个参考，分别是螺丝孔、轴承孔和角。每个参考都将获得自己的构造/草图圆或两个。理想情况下，所有的构造圆都小于4个尺寸之一，以保持口袋的一致性和简单性。"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:129
-msgid ""
-"First are the screw hole construction circles with radius of the screw hole "
-"radius plus the offset value. Next are bearing holes with radius of bearing "
-"hole radius plus offset value. Then are edges with construction circles with"
-" the radius of an offset value. Then the most important circles are at each "
-"of the screw and bearing holes, which will define the strut thickness."
-msgstr ""
-"首先是螺丝孔半径加偏移值的螺丝孔构造圆。接下来是轴承孔半径加偏移值的轴承孔。然后是具有偏移值半径的构造圆的边缘。然后最重要的圆位于每个螺钉和轴承孔，这将定义支柱厚度。"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:131
-msgid ""
-"The circles at the center of each screw and bearing hole will have the "
-"diameter of an offset value. After all of the construction circles are "
-"drawn, tangent lines can be drawn to create the pocketing geometry. Using "
-"the parametric offset value will make it easy to adjust strut thickness by "
-"just changing one or two values."
-msgstr ""
-"每个螺钉和轴承孔中心的圆圈将具有偏移值的直径。绘制所有构造圆圈后，可以绘制切线来创建口袋几何形状。使用参数偏移值将很容易通过更改一个或两个值来调整支柱厚度。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:133
 msgid ""

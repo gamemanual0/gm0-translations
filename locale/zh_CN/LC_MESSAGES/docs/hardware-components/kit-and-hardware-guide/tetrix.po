@@ -6,16 +6,16 @@
 # Translators:
 # guluomagongchengshi, 2023
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,25 +37,9 @@ msgstr ""
 "由于 TETRIX 灵活性有限且长期可靠性低，一般不推荐使用。本页可作为拥有和使用 TETRIX "
 "部件的车队的历史参考资料，但购买这些部件的理由并不充分。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:7
-msgid ""
-"The TETRIX build system is a fixed pitch, channel-based building system that"
-" uses both imperial and metric units."
-msgstr "TETRIX 建筑系统是一种固定间距、基于通道的建筑系统，同时使用英制和公制单位。"
-
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:10
 msgid "Special Considerations"
 msgstr "特殊考虑因素"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:12
-msgid ""
-"The TETRIX build system revolves around 32 mm aluminum :term:`c-channels "
-"<Channel>` and a 16mm bolt circle, on 16mm spacing (centers of the circles "
-"are 16mm apart). TETRIX is patterned along these :term:`channels <Channel>` "
-"to create many mounting options for building structures."
-msgstr ""
-"TETRIX 建筑系统围绕 32 毫米铝质 :term:`c-channels <Channel>` 和 16 毫米螺栓圆圈展开，间距为 16 "
-"毫米（圆圈中心相距 16 毫米）。TETRIX 沿着这些 :term:`channels <Channel>` 模板，为建筑结构提供多种安装选择。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:13
 msgid ""
@@ -63,16 +47,6 @@ msgid ""
 "reinforcement using multiple :term:`channels <Channel>` to maintain their "
 "shape."
 msgstr "这些槽钢在荷载作用下容易弯曲，通常需要使用多个 :term:`nels <Channel>` 来加固，以保持其形状。"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:14
-msgid ""
-"While TETRIX :term:`channel <Channel>` is measured in metric units, the "
-"system employs Imperial (SAE) bolts and Imperial :term:`chain <Chain>`. This"
-" mix of units means that things often don't quite line up how they're "
-"supposed to, causing unforeseen problems."
-msgstr ""
-"虽然 TETRIX :term:`channel <Channel>` 以公制单位测量，但系统采用英制（SAE）螺栓和英制 :term:`chain "
-"<Chain>`。这种混合使用单位的情况意味着经常会出现排列不整齐的情况，从而造成无法预料的问题。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:15
 msgid ""
@@ -142,35 +116,6 @@ msgstr ""
 msgid "Advantages"
 msgstr "优势"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:34
-msgid ""
-"The TETRIX kit, being the most basic of all kit options, is easy to learn "
-"and provides a variety of options in building. The kit itself comes with "
-":term:`c-channel <Channel>`, which is aluminum shaped in a C. It has pre-cut"
-" holes so motors, :term:`gears <Gear>`, or :term:`drive shafts <Shaft>` can "
-"be seamlessly integrated into the channel. For a beginner team with little "
-"to no experience, a TETRIX kit allows you to assemble a working drivetrain "
-"in a couple of hours (Note: Most other kits allow you to do the same thing, "
-"but with more customization options)."
-msgstr ""
-"TETRIX 套件是所有套件中最基本的一种，易于学习，并提供多种制作选择。套件本身带有 :term:`C-channel <Channel>`，它是一个"
-" C 形的铝制材料。它有预切割孔，因此可以将电机、:term:`齿轮 <Gear>`或:term:`传动轴 "
-"<Shaft>`无缝集成到通道中。对于几乎没有经验的初学者来说，TETRIX "
-"套件可以让您在几个小时内组装出一个可以工作的传动系统（注：大多数其他套件也可以让您做同样的事情，但有更多的定制选项）。"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:35
-msgid ""
-"Furthermore, TETRIX is decent in terms of structural integrity, as long as "
-"the channels are loaded in the correct orientation. Typically, the "
-"orientation should be like an \"n\", with the top face upward. Connecting "
-"the channels with :term:`locknut <Locknut>` instead of regular nuts aids in "
-"longevity. However, TETRIX is the weakest of the build systems and is very "
-"prone to bending, especially with long pieces of channel that have multiple "
-"axes of load."
-msgstr ""
-"此外，只要以正确的方向装载通道，TETRIX 的结构完整性也是不错的。通常情况下，方向应像 \"n\"，顶部朝上。用 :term:`locknut "
-"<Locknut>` 代替普通螺母连接槽钢可以延长使用寿命。不过，TETRIX 是构建系统中最薄弱的一种，非常容易弯曲，尤其是对于有多个负载轴的长槽钢。"
-
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:36
 msgid ""
 "It is simple to build basic mechanisms such as an arm using the gears and "
@@ -204,26 +149,6 @@ msgid ""
 "situations."
 msgstr "即使间距正确，铝制齿轮似乎也会经常相互磨擦，使用寿命不长，尤其是在高扭矩情况下。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:43
-msgid ""
-"TETRIX hubs are :term:`6mm or 4.7mm round <Shaft>` and are based on "
-":term:`set screws <Set Screw>` which are torque transferring. These "
-":term:`set screws <Set Screw>` are notorious for coming loose under load, so"
-" special care must be taken to continuously tighten these screws. "
-"Additionally, it is highly recommended that teams use some sort of "
-"threadlocker on set screws, whether it be :term:`Loctite Blue (removable) or"
-" Loctite Red (nonremovable) <Loctite>`. A possible workaround is purchasing "
-"6mm D :term:`clamping hubs <Clamping Hub>` from goBILDA to use on TETRIX "
-":term:`shafts <Shaft>`, however, this also necessitates the use of a pattern"
-" adapter from the goBILDA pattern to TETRIX."
-msgstr ""
-"TETRIX 轮毂为 :term:`6mm 或 4.7mm 圆形 <Shaft>`，基于 :term:`set screws <Set "
-"Screw>`，可传递扭矩。这些 :term:`set screws <Set Screw>` "
-"在负载情况下会松动，因此必须特别注意持续拧紧这些螺丝。此外，强烈建议团队在固定螺钉上使用某种螺纹锁固剂，无论是 :term:`Loctite "
-"Blue（可拆卸）还是 Loctite Red（不可拆卸） <Loctite>`。一种可能的变通方法是从 goBILDA 购买 6mm D "
-":term:` 夹紧轮毂 <Clamping Hub>`，用于 TETRIX :term:` 轴 <Shaft>`，但这也需要使用从 goBILDA "
-"模式到 TETRIX 模式的模式转换器。"
-
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:44
 msgid ""
 "Due to using a metric based pattern but using imperial based holes and "
@@ -244,15 +169,6 @@ msgid ""
 msgstr ""
 "TETRIX 也是平均价格最昂贵的套件，同时提供的构建选项也最有限。最后，如果团队想将定制部件与 TETRIX "
 "集成在一起，那么紧凑的间距和单元组合也会限制他们。"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:46
-msgid ""
-"Set screws on TETRIX hubs can mar motor :term:`shafts <Shaft>`, and the "
-":term:`bore <Bore>` of the hub itself can enlarge, leading to a wobbly or "
-"misaligned hub."
-msgstr ""
-"TETRIX 轮毂上的固定螺钉会损坏电机 :term:`shafts <Shaft>`，轮毂本身的 :term:`bore <Bore>` "
-"内孔也会变大，导致轮毂摇摆或错位。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:49
 msgid "Tips for use"

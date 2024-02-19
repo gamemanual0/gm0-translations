@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 16:15+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,14 +35,6 @@ msgstr "REV 套件是一种无限间距、基于 :term:`挤压式 <Extrusion>` �
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:9
 msgid "Special Considerations"
 msgstr "特殊考虑因素"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:11
-msgid ""
-"The REV ecosystem is based upon 15x15mm aluminum :term:`extrusion "
-"<Extrusion>` and is complemented by 45x45mm :term:`channels <Channel>`."
-msgstr ""
-"REV 生态系统以 15x15mm 铝 :term:`extrusion <Extrusion>` 为基础，辅以 45x45mm "
-":term:`channels <Channel>`。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:12
 msgid ""
@@ -333,12 +325,6 @@ msgstr "需要预先考虑和规划 :term:`铝型材 <Extrusion>` 长度和位�
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:91
 msgid "Parts loosen over time (to remediate: use punch tubing)"
 msgstr "部件随着时间的推移而松动（补救措施：使用冲压管）"
-
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:92
-msgid ""
-"M3 bolts, especially those sold directly by REV, are prone to bending under "
-"higher load (such as when used as an :term:`axle <Shaft>` for a pulley)"
-msgstr "M3 螺栓，尤其是 REV 直接出售的那些，在较大负载下容易弯曲（例如用作 :term:`axle <Shaft>` 滑轮的轴时）"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:93
 msgid ""

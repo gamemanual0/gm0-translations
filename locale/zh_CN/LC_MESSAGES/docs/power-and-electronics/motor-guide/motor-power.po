@@ -5,17 +5,17 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# Shawphy, 2023
 # HydrogenEight, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-04 16:14+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-11-22 04:17+0000\n"
-"Last-Translator: HydrogenEight, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,19 +75,6 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:18
 msgid "Peak Power and Motor Curves"
 msgstr "峰值功率和电机曲线"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:20
-msgid ""
-"In order to figure out how much power your motor will be consuming or "
-"outputting, its helpful to reference a motor curve. These are data sheets "
-"that plot the motor's output speed, output torque, output power, and "
-"efficiency all on one graph. Every FTC legal motor except the Core Hex has "
-"been dyno tested, and their data are below. It is safe to assume other non-"
-"current limited motors (such as servos) follow similarly-shaped curves, "
-"although with different speed, torque, and power outputs."
-msgstr ""
-"为了弄清电机将消耗或输出多少功率，参考电机曲线很有帮助。这些数据表将电机的输出速度、输出扭矩、输出功率和效率都绘制在一张图表上。除 Core Hex "
-"外，所有 FTC 合法电机都经过了动态测试，其数据如下。可以肯定的是，其他非限流电机（如伺服电机）也遵循类似的曲线，只是速度、扭矩和功率输出不同而已。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:23
 msgid "Free Speed (RPM)"
@@ -295,17 +282,3 @@ msgid ""
 msgstr ""
 "在处理机械传动系统时，您可以忽略这一例外情况，因为它们通常会在电机实际达到堵转电流之前打滑。不过，在牵引传动系统上安装极低的齿轮比或 4 "
 "个以上的电机可能会超过 FTC 电池的电流限制。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:78
-msgid ""
-"Motors can pull \"transient current\" where they pull a large amount of "
-"current for extremely brief amounts of time. This often happens when the "
-"motor starts moving or when a momentary load is placed on it. While "
-"transients generally cannot cause a fuse to pop, they can cause other "
-"issues, such as sluggish control if pulled by a motor, or low voltage if the"
-" transient is pulled by a servo (goBILDA Super Speed servos have been "
-"observed to do this occasionally)."
-msgstr ""
-"电机可能会产生 "
-"\"瞬时电流\"，即在极短的时间内产生大量电流。这种情况通常发生在电机开始运转或瞬间加载负载时。虽然瞬时电流一般不会导致保险丝熔断，但会引起其他问题，例如，如果瞬时电流是由电机产生的，则会导致控制迟缓；如果瞬态电流是由伺服产生的，则会导致低电压（goBILDA"
-" 超高速伺服偶尔会出现这种情况）。"

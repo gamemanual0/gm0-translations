@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 04:16+0000\n"
+"POT-Creation-Date: 2024-02-19 04:15+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,16 +116,6 @@ msgid ""
 msgstr ""
 "FTC中最简单的手臂类型，单臂是指一个旋转轴上的手臂。虽然有可能成功建造这种手臂，但通常单轴手臂只能承受15-16\"左右的延伸，这几乎不适合所有游戏。"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:35
-msgid ""
-"The reason for this is that the longest a channel can be is 18\" "
-"(technically you could have a longer channel by placing it diagonally, but "
-"this complicates matters). Thus, with a maximum of 18\" of extension, a "
-"couple inches must be subtracted, since the point of rotation is inside the "
-"18\" sizing cube; therefore the extension is around 15-16\"."
-msgstr ""
-"这样做的原因是通道最长可以是18英寸（从技术上讲，您可以通过对角线放置通道来获得更长的通道，但这会使问题复杂化）。因此，最大18英寸的延伸，必须减去几英寸，因为旋转点在18英寸的尺寸立方体内；因此延伸约为15-16英寸。"
-
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:37
 msgid ""
 "Therefore, a single arm with further linear extension is optimal. For "
@@ -138,13 +128,6 @@ msgid ""
 "The advantages of a single arm are that it is relatively easy to build, and "
 "can be a quick way to gain some form of extension outside of the robot cube."
 msgstr "单臂的优点是它相对容易构建，并且可以成为在机器人立方体之外获得某种形式的延伸的快速方法。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
-msgid ""
-"However, there are many disadvantages such as having a high gear ratio, "
-"requiring much more support than a linear slide, and being hard to control "
-"without the proper software."
-msgstr "然而，它有许多缺点，例如具有高传动比，需要比线性滑块更多的支撑，并且在没有适当软件的情况下难以控制。"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid "8103's single arm attached to a belt driven linear extension"
