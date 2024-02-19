@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-19 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -283,6 +283,16 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
 msgid "Digital IO"
 msgstr "数字IO"
+
+#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:121
+msgid ""
+"A DigitalChannel has a couple main methods. ``setMode()`` is used to set the"
+" port as either an OUTPUT or INPUT port, ``getState()`` returns the current "
+"state of the port (only works in INPUT mode), and ``setState()`` sets the "
+"state of the port (only works in OUTPUT mode)"
+msgstr ""
+"数字C形梁有几个主要方法。``setMode()`` 用于将端口设置为输出或输入端口，``getState()`` "
+"返回端口的当前状态（仅在输入模式下有效），``setState()`` 设置端口的状态（仅在输出模式下有效）。"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:123
 msgid "Digital ports start by default in INPUT mode"

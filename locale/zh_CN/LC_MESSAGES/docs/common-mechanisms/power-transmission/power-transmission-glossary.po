@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-04 16:14+0000\n"
+"POT-Creation-Date: 2024-02-19 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -60,3 +60,51 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:38
 msgid "GT2 Belt"
 msgstr "GT2 同步带"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:40
+msgid ""
+"GT2 belt is a type of synchronous timing belt commonly used on drivetrains "
+"and other mechanisms. Its available in different widths and pitches, "
+"although the most common is GT2 3mm (3mm :term:`Pitch`), compatible with REV"
+" Robotics :term:`COTS` Pulleys. See :term:`Timing Belt`"
+msgstr ""
+"GT2 皮带是一种同步定时皮带，常用于传动系统和其他机构。它有不同的宽度和间距，但最常见的是 GT2 3mm（3mm :term: `间距`），与 "
+"REV Robotics 的 :term: `COTS`滑轮兼容。请参阅 :term: `定时皮带` 。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:35
+msgid "HTD Belt"
+msgstr "HTD 同步带"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:21
+msgid "Idler"
+msgstr "转向器"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:23
+msgid ""
+"An idler :term:`gear <Gear>`, :term:`sprocket <Sprocket>`, or pulley is one "
+"that is purposely not used for driving anything else on the :term:`shaft "
+"<Shaft>`. The purpose of this idler is, in the case of gears, to transfer "
+"power to another direction."
+msgstr ""
+"转向器 :term:` gear <Gear>`、:term:` sprocket <Sprocket>` 或滑轮是特意不用于驱动 "
+":term:`shaft <Shaft>` 上任何其他东西的装置。就齿轮而言，惰轮的作用是将动力传递到另一个方向。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:25
+msgid ""
+"For :term:`chain <Chain>` and :term:`belt <Timing Belt>`, idlers are more "
+"common, and are usually adjustable to maintain tension."
+msgstr ""
+"对于 :term:`chain <Chain>` 和 :term:`belt <Timing Belt>`，转向器更为常见，通常可调节以保持张力。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:41
+msgid "Loctite"
+msgstr "乐泰胶"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:43
+msgid ""
+"Loctite is thread locking fluid used so that bolts do not come loose under "
+"use and vibration. Loctite should be applied to the threads of the bolts. "
+"There are two types of Loctite: blue, which is removable, and red, which is "
+"permanent (and we mean it)."
+msgstr ""
+"乐泰胶是一种螺纹锁固液，用于防止螺栓在使用和振动时松动。乐泰胶应涂在螺栓的螺纹上。乐泰胶有两种类型：蓝色，可拆卸；红色，永久性（我们是认真的）。"

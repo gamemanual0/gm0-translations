@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-19 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -106,6 +106,19 @@ msgstr "通常需要某种形式的轴固定装置，以防止轴移动"
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:38
 msgid "Dead Axle"
 msgstr "固定轴"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:40
+msgid ""
+"Another form of power transmission is called \"Dead Axle\". In a dead axle "
+"setup, the mechanism is mounted on a fixed axle via bearings: **it is free "
+"to spin around the axle**. This method requires the power transmission to be"
+" physically bolted to the mechanism, because the axle itself will not "
+"rotate. For this reason, dead axle is generally recommended when powering "
+"one thing that is between two plates, as the axle itself can serve as a "
+"standoff to provide support between the plates."
+msgstr ""
+"另一种动力传输方式称为 "
+"固定轴。在固定轴装置中，机械装置通过轴承安装在固定轴上：它可以绕轴自由旋转。这种方法需要将动力传动装置用螺丝固定在机械装置上，因为轴本身不会旋转。因此，位于两块板之间的一个物体提供动力时，通常建议使用固定轴，因为轴本身可以作为支座，为两块板之间提供支撑。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:45
 msgid "Simple power transmission with custom building"
