@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
-# Shawphy, 2024
+# Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-20 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -384,6 +384,18 @@ msgid ""
 msgstr ""
 "几乎没有理由使用这些麦克纳姆轮--它们的性能非常差，而且价格也不比 \"推荐 \"部分的机械轮便宜多少。我们不建议在 FTC "
 "机器人上使用这些轮子，如果可能的话，请更换为 \"推荐 \"部分中的轮子。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:127
+msgid ""
+"`TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ "
+"($149.00): These mecanums are designed with a bushing based, hard plastic "
+"roller which in turn creates poor strafing performance. The integrated hub "
+"is a set screw based design with a round bore, causing unreliability as well"
+" as taking up extra space."
+msgstr ""
+"TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-"
+"Wheels>`_（149.00 "
+"美元）：这些麦轮采用基于衬套的硬塑料滚轮设计，因此平移性能较差。集成式轮毂是一种基于固定螺丝的圆孔设计，不仅不可靠，而且占用额外空间。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:128
 msgid ""

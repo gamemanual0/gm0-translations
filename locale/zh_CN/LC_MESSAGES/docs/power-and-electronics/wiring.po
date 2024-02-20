@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Shawphy, 2023
 # wwsk2008sq, 2024
 # DomnickJYH, 2024
-# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-20 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -392,6 +392,15 @@ msgstr ""
 msgid "Power distribution blocks/panels"
 msgstr "配电块/配电盘"
 
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst:119
+msgid ""
+"The REV Power Distribution Block allows teams to have more than four "
+":term:`XT30` connectors (2 on each Expansion Hub). The block can be "
+"connected to the Servo Power Module to boost voltage for servos."
+msgstr ""
+"REV 电源分配模块允许团队拥有超过 4 个 :term:`XT30` 连接器（每个扩展集线器上有 2 "
+"个）。配电模块可与舵机电源模块连接，为舵机提升电压。"
+
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:120
 msgid "Dryer sheets"
 msgstr "干燥剂"
@@ -405,7 +414,7 @@ msgid ""
 "or may not be on the boundary of legality, as grounding the robot to the "
 "ground is illegal."
 msgstr ""
-"每次比赛结束后，可以用烘干纸擦拭机器人，以减少静电积累。这并不是*FIRST*或任何供应商的直接建议，但我们多年来的经验表明，这样做是有帮助的，至少不会有什么坏处。不过，干燥剂可能会也可能不会触犯法律，因为将机器人接地是违法的。"
+"每次比赛结束后，可以用烘干纸擦拭机器人，以减少静电积累。这并不是*FIRST*或任何供应商的直接建议，但我们多年来的经验表明，这样做是有帮助的，至少不会有什么坏处。不过，干燥剂可能会也可能不会触犯规则，因为将机器人接地是违规的。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:122
 msgid "Staticide/static spray"

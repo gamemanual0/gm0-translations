@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-20 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -396,6 +396,17 @@ msgstr "理想情况下需要外部齿轮"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:127
 msgid "SRX Mag Encoder"
 msgstr "SRX Mag编码器"
+
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:129
+msgid ""
+"The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ "
+"from Cross The Road Electronics is a magnetic encoder. It is not used by "
+"many FTC teams due to its slightly higher complexity to use and lack of FTC "
+"centric documentation. It is more popular in FRC\\ |reg|."
+msgstr ""
+"Cross The Road Electronics 公司的 `SRX Mag Encoder <https://store.ctr-"
+"electronics.com/srx-mag-encoder/>`_是一种磁编码器。由于其使用复杂度稍高，而且缺乏以 FTC 为中心的文档，因此很多 "
+"FTC 团队都没有使用它。它在 FRC 中更受欢迎。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:135
 msgid "A CTRE SRX Mag encoder"

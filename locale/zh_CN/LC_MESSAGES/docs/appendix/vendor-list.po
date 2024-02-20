@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-20 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,6 +100,16 @@ msgstr "紧固件/其他硬件（包括工具）的中档供应商。"
 msgid "`goBILDA <https://www.gobilda.com/>`_"
 msgstr "`goBILDA <https://www.gobilda.com/>`_"
 
+#: ../../gm0/source/docs/appendix/vendor-list.rst:30
+msgid ""
+"goBILDA sells its own build system, complete with Yellow Jacket motors, "
+"channel, motion components, and battery. Note that the cheapest batteries "
+"are found here, the MATRIX 12V Batteries are $39.99, with the team discount "
+"they are $29.99, nearly half the price of the $50 batteries sold elsewhere."
+msgstr ""
+"goBILDA销售自己的搭建系统，包括小蜜蜂电机、套件C形梁、运动组件和电池。请注意，最便宜的电池可以在这里找到，MATRIX "
+"12V电池是39.99美元，团队折扣是29.99美元，几乎是其他地方销售的50美元电池价格的一半。"
+
 #: ../../gm0/source/docs/appendix/vendor-list.rst:31
 msgid "Teams can get a 25% Team Discount from goBILDA."
 msgstr "团队可以从goBILDA获得25%的团队折扣。"
@@ -107,6 +117,16 @@ msgstr "团队可以从goBILDA获得25%的团队折扣。"
 #: ../../gm0/source/docs/appendix/vendor-list.rst:32
 msgid "`McMaster-Carr <https://www.mcmaster.com>`_"
 msgstr "`McMaster-Carr <https://www.mcmaster.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:34
+msgid ""
+"McMaster-Carr sells hardware and raw materials in bulk quantities. They "
+"stock nearly every type of bolt, screw, and nut possible, as well as "
+"washers, bearings, springs, etc. Purchase from them for bulk quantities of "
+"hardware, as well as the times you need a very obscure part."
+msgstr ""
+"McMaster-"
+"Carr大量销售硬件和原材料。他们几乎储存了所有型号的螺丝、螺丝和螺母，以及垫圈、轴承、弹簧等。如果你需要大宗的五金配件，或者你需要一些非常冷门的零件，都可以从他们这里购买。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:35
 msgid ""
@@ -158,6 +178,17 @@ msgstr "Pitsco销售带有槽道的Tetrix套件、TorqueNado电机和自己的�
 #: ../../gm0/source/docs/appendix/vendor-list.rst:46
 msgid "`REV Robotics <https://www.revrobotics.com>`_"
 msgstr "`REV Robotics <https://www.revrobotics.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:48
+msgid ""
+"REV Robotics sells the REV build system, which is an :term:`extrusion "
+"<Extrusion>`-based ecosystem complete with motors (HD Hex, HD Planetary, "
+"Core HEX), :term:`extrusion <Extrusion>`, :term:`servos <Servo>` (Smart "
+"Robot Servo), brackets, and battery."
+msgstr ""
+"REV Robotics 销售 REV 构建系统，这是一个基于 :term:`extrusion <Extrusion>` "
+"的搭建体系系统，配有电机（HD Hex、HD Planetary、Core HEX）、 :term:`extrusion <Extrusion>`、 "
+":term:`servos <Servo>`(Smart Robot Servo)、支架和电池。"
 
 #: ../../gm0/source/docs/appendix/vendor-list.rst:49
 msgid ""
