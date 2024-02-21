@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-21 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -27,6 +27,32 @@ msgstr ""
 msgid "Extrusion Slides"
 msgstr "挤压滑轨"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:6
+msgid ""
+"Extrusion slides are made up of a stack of extrusions that extend by sliding"
+" along each other. There are two ways to make this happen: bushings or "
+"V-wheels. Bushing slides connect the two slides with two self-lubricating "
+"plastic pieces that slide smoothly along the slots in the extrusion. V-wheel"
+" slides have V-shaped groove bearings on both sides of the extrusion that "
+"bite intro grooves on the extrusion, allowing the stages to slide smoothly."
+msgstr ""
+"挤压滑轨由一叠铝挤压型材组成，这些铝挤压型材通过相互滑动而延伸。有两种方法可以实现这种效果：衬套或 V "
+"形轮。衬套滑轨用两个自润滑塑料件连接两个滑轨，这些塑料件可沿着挤出件的槽顺利滑动。V 形轮滑轨在挤出件的两侧装有 V "
+"形槽轴承，可咬合挤出件上的导槽，使各级滑轨平稳滑动。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:8
+msgid ""
+"REV, Actobotics, and goBILDA all sell extrusion slide kits that integrate "
+"nicely with existing FTC\\ |reg| kit parts. Beyond this, OpenBuilds sells a "
+"V-wheel extrusion slide kit suitable for heavier loads, and Misumi offers a "
+"few different sizes of bushing-based extrusion slides. REV furthermore sells"
+" a 8020 V-groove bearing slide kit for FRC\\ |reg|, that is not recommended "
+"for FTC use cases."
+msgstr ""
+"REV、Actobotics 和 goBILDA 都在销售挤压滑轨套件，这些套件可以很好地与现有的 FTC\\ |reg| "
+"套件部件集成。除此之外，OpenBuilds 还销售适用于较重负载的 V 轮挤压滑轨套件，Misumi 则提供几种不同尺寸的套管式挤压滑轨。此外，REV"
+" 还销售一种 8020 V 形槽轴承滑轨套件，适用于 FRC a||reg|，但不建议用于 FTC 使用情况。"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:10
 msgid ""
 "We recommend that newer teams using extrusion slides stick to kits designed "
@@ -36,6 +62,17 @@ msgstr "我们建议使用挤压式滑轨的新团队坚持使用为 FTC 设计�
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:13
 msgid "REV Robotics 15mm Linear Motion Kit"
 msgstr "REV 机器人 15 毫米线性运动套件"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:15
+msgid ""
+"The `REV 15mm Linear Motion Kit <https://www.revrobotics.com/rev-45-1507/>`_"
+" is based on the 15mm extrusion system. **This extrusion kit does not "
+"perform well without modification.** This has been partially remedied by REV"
+" as they have developed a second iteration of their slide kit, which has "
+"much better tolerances on the Delrin sliders."
+msgstr ""
+"REV 15 毫米线性运动套件 <https://www.revrobotics.com/rev-45-1507/>`_基于 15 "
+"毫米挤压系统。**REV公司开发了第二代滑动套件，该套件的 Delrin 滑轨公差更小，因此部分弥补了这一缺陷。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:19
 msgid ""

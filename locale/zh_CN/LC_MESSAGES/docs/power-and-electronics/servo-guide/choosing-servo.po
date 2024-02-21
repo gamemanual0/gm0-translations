@@ -5,17 +5,17 @@
 # 
 # Translators:
 # guluomagongchengshi, 2023
-# DomnickJYH, 2024
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 16:17+0000\n"
+"POT-Creation-Date: 2024-02-21 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,8 @@ msgid ""
 "point to compare different servo options, and also has some hand picked "
 "recommendations at the end."
 msgstr ""
-"鉴于需要考虑的选项众多，挑选 舵机 <Servo>起初可能会令人望而生畏。本指南旨在为比较不同的舵机选项提供一个起点，并在最后提供一些精选建议。"
+"鉴于需要考虑的选项众多，挑选 :term:`servo <Servo>` "
+"舵机起初可能会令人望而生畏。本指南旨在为比较不同的舵机选项提供一个起点，并在最后提供一些精选建议。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:10
 msgid ""
@@ -69,8 +70,9 @@ msgid ""
 " :term:`servo <Servo>` form factor. They have no position control; instead, "
 "PWM signal is used to control their rotation speed."
 msgstr ""
-"舵机 <Servo>` 可以根据 PWM 输入信号旋转到给定位置的舵机称为**常规舵机。此外，还有**连续旋转舵机**，它们实际上只是舵机 "
-"<Servo>`外形尺寸的小型电机。它们没有位置控制，而是使用 PWM 信号来控制转速。"
+":term:`Servos <Servo>` 舵机可以根据 PWM "
+"输入信号旋转到给定位置的舵机称为**常规舵机。此外，还有**连续旋转舵机**，它们实际上只是:term:`servo "
+"<Servo>`舵机外形尺寸的小型电机。它们没有位置控制，而是使用 PWM 信号来控制转速。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:19
 msgid ""
