@@ -7,15 +7,16 @@
 # wwsk2008sq, 2023
 # guluomagongchengshi, 2023
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 16:17+0000\n"
+"POT-Creation-Date: 2024-02-22 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,6 +76,18 @@ msgstr ""
 msgid "HTD Belt"
 msgstr "HTD 同步带"
 
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:37
+msgid ""
+"HTD belt is a type of synchronous timing belt commonly used on drivetrains. "
+"It is available in different widths to accommodate different sized pulleys. "
+"The most common is HTD3 (3mm :term:`Pitch`) and HTD5 (5mm :term:`Pitch`) "
+"belts, as these are compatible with goBILDA :term:`COTS` pulleys. See "
+":term:`Timing Belt`"
+msgstr ""
+"HTD 皮带是一种同时同步带，通常用于传动系统。它有不同的宽度，以适应不同尺寸的带轮。最常见的是 HTD3（3 毫米 :term:`Pitch`) 和 "
+"HTD5（5 毫米 :term:`Pitch`) 皮带，因为它们与 goBILDA :term:` COTS` 滑轮兼容。请参阅 :term:` "
+"定时皮带` 。"
+
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:21
 msgid "Idler"
 msgstr "转向器"
@@ -108,3 +121,94 @@ msgid ""
 "permanent (and we mean it)."
 msgstr ""
 "乐泰胶是一种螺纹锁固液，用于防止螺栓在使用和振动时松动。乐泰胶应涂在螺栓的螺纹上。乐泰胶有两种类型：蓝色，可拆卸；红色，永久性（我们是认真的）。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:45
+msgid ""
+"It is highly recommended that teams use Loctite on all motor and "
+":term:`servo <Servo>` mounts, as well as any mechanism prone to vibration."
+msgstr "强烈建议车队在所有电机和 :term: ` 舵机 <Servo>` 支架以及任何易振动的机构上使用 乐泰胶。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:47
+msgid ""
+"**THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "
+"\"color\", we mean the fluid color. Blue loctite usually comes in a red "
+"bottle."
+msgstr "** 当我们提到 \"颜色 \"时，我们指的是液体的颜色。**蓝色乐泰胶通常装在红色瓶子里。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:0
+msgid ""
+"A red bottle containing blue (removable) loctite, and a blue bottle "
+"containing red (permament) loctite"
+msgstr "一个红色瓶子装有蓝色（可拆卸）乐泰胶，一个蓝色瓶子装有红色（永久型）乐泰胶"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:52
+msgid ""
+"Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)"
+msgstr "蓝色乐泰胶（可拆卸，装在红色管中），红色乐泰胶（永久性，装在蓝色管中）"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:12
+msgid "Outside Diameter (OD)"
+msgstr "外径（OD）"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:14
+msgid ""
+"The diameter of the imaginary circle traced by the outermost face of the "
+"teeth on a gear, sprocket, or pulley. This will be larger then the "
+":term:`Pitch Diameter (PD)` for a gear, but smaller then the :term:`Pitch "
+"Diameter (PD)` for a pulley or sprocket."
+msgstr ""
+"齿轮、链轮或滑轮最外侧齿面所描绘的假想圆的直径。它大于齿轮的 :term: `Pitch Diameter (PD)`，但小于滑轮或链轮的 :term:"
+" `Pitch Diameter (PD)`。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:9
+msgid "Pitch"
+msgstr "间距"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:11
+msgid ""
+"Pitch refers to the distance between the center of one tooth of a gear, "
+"sprocket, or pulley to another. In chains it refers to the distance from one"
+" pin to another, and in belts it refers to the distance betewen one groove "
+"to another."
+msgstr ""
+"间距是指齿轮、链轮或滑轮的一个齿中心到另一个齿中心之间的距离。在链条中，它指一个销轴到另一个销轴之间的距离；在皮带中，它指一个槽到另一个槽之间的距离。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:6
+msgid "Pitch Diameter (PD)"
+msgstr "间距直径 (PD)"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:8
+msgid ""
+"An imaginary circle around a component used for various calculations. For "
+"gears, it is the imaginary circle that mates with any other gear's pitch "
+"diameter when the gears are properly spaced. For chain and belt, it is the "
+"circle which is traced by the middle of the belt or chain as the pulley or "
+"sprocket rotates. For gears, the pitch diameter will be smaller then the "
+":term:`Outside Diameter (OD)`, but with chain and belts, the pitch diameter "
+"will be larger. :math:`PD = (tooth * pitch)/\\pi`"
+msgstr ""
+"用于各种计算的部件周围的假想圆。对于齿轮来说，当齿轮间距适当时，它是与任何其他齿轮的节圆直径相匹配的假想圆。对于链条和皮带，它是皮带轮或链轮旋转时，皮带或链条中间所划过的圆。对于齿轮，节圆直径会小于"
+" :term: `Outside Diameter (OD)`，但是对于链条和皮带，节圆直径会大一些。 :math: `PD = (tooth * "
+"pitch)/\\pi`"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:26
+msgid "Sprocket"
+msgstr "链轮"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:28
+msgid ""
+"A sprocket is a mechanical part that transfers power through its cogs, which"
+" fit into chain. It is similar to a :term:`gear <Gear>`, except that instead"
+" of meshing with another gear, the sprocket meshes with chain. See "
+":term:`Chain`"
+msgstr ""
+"链轮是一种机械部件，通过与链条配合的齿轮传递动力。它类似于 :term: `齿轮 <Gear>`，只不过链轮不是与另一个齿轮啮合，而是与链条啮合。参见 "
+":term: `Chain"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:0
+msgid "A REV Robotics Delrin 20 Tooth #25 sprocket"
+msgstr "一个 REV Robotics Delrin 20 齿 #25 链轮"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:34
+msgid "Delrin  20 Tooth #25 sprocket"
+msgstr "Delrin 20 齿 #25 链轮"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-22 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -243,6 +243,12 @@ msgid ""
 msgstr ""
 "最常用的技术是上升沿检测器。它允许代码在最初按下按钮时只运行一次，而不是在按下按钮时运行每个循环。它的工作原理是检查按钮当前是否被按下，但在上一个循环中没有被按下。例如，在TeleOp循环内部："
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:143
+msgid ""
+"This will increase the servo position by 0.1 exactly once per press of "
+"``a``."
+msgstr "这将使每按 ``a`` 一次，舵机位置正好增加0.1。"
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:146
 msgid "Falling Edge Detector"
 msgstr "下降沿检测器"
@@ -256,6 +262,12 @@ msgid ""
 "TeleOp loop:"
 msgstr ""
 "一种非常相似的技术是下降沿检测器。它允许代码在按钮释放时只运行一次，而不是在按下按钮时运行每个循环。它的工作原理是检查按钮当前是否未被按下，而是在前一个循环中被按下。例如，在TeleOp循环内部："
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:156
+msgid ""
+"This will decrease the servo position by 0.1 exactly once per release of "
+"``b``."
+msgstr "这将减少舵机位置0.1正好每释放一次 ``b`` 。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:158
 msgid ""

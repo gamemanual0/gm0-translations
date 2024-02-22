@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-22 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -221,6 +221,12 @@ msgstr ""
 "goBILDA 的低边 U 型槽因其灵活性和紧凑性而开辟了许多新的可能性。例如，现在人们可以制作 :term:`parallel plate "
 "drivetrain <Parallel Plate Drivetrain>`，而无需进行定制加工，或者制作定制宽度的 :term:`U-channel"
 " <Channel>`。"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:64
+msgid ""
+"goBILDA also has :term:`Servoblocks` (identical to Actobotics other than "
+"hole pattern) which drastically increase servo life."
+msgstr "goBILDA 还有 :term:`Servoblocks`（除孔型外与 Actobotics 相同），可大幅延长舵机的使用寿命。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:65
 msgid ""

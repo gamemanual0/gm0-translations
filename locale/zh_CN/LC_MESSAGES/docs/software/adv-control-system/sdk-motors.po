@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 04:15+0000\n"
+"POT-Creation-Date: 2024-02-22 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -135,6 +135,12 @@ msgid ""
 "An example of a quadrature wave, with the A channel, B channel. The wave is "
 "broken up into four sections, where each section constitutes a tick."
 msgstr "正交波的一个示例，包括 A 频道和 B 频道。波被分成四段，每段为一个tick。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:33
+msgid ""
+"An example of a quadrature wave, with channel A leading channel B. Each "
+"count is a \"count\" or \"tick\""
+msgstr "正交波的一个例子，C形梁 A 领先于C形梁 B，每个计数都是一个 \"count \"或 \"tick\"。"
 
 #: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:36
 msgid "Hidden Methods"
