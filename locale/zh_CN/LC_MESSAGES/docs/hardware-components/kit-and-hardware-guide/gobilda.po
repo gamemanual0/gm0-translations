@@ -5,17 +5,17 @@
 # 
 # Translators:
 # guluomagongchengshi, 2023
-# DomnickJYH, 2023
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 16:16+0000\n"
+"POT-Creation-Date: 2024-02-24 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +51,7 @@ msgstr "goBILDA 使用 M4 硬件以公制为基础进行测量。孔型为 4 毫
 msgid ""
 "The kit is primarily structured around :term:`U-channel <Channel>`, which is"
 " strong and durable."
-msgstr "该套件主要由 :term:`U-channel <Channel>` 构成，坚固耐用。"
+msgstr "该套件主要由 :term:C形梁 <Channel>` 构成，坚固耐用。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:13
 msgid ""
@@ -90,15 +90,15 @@ msgid ""
 "goBILDA uses :term:`8mm pitch chain <Chain>` and HTD 3 or HTD 5 :term:`belts"
 " <HTD Belt>` for motion."
 msgstr ""
-"goBILDA 使用 :term:`8mm pitch chain <Chain>` 和 HTD 3 或 HTD 5 :term:`belts <HTD"
-" Belt>` 进行运动。"
+"goBILDA 使用 :term:`8mm 链条 <Chain>` 和 HTD 3 或 HTD 5 :term:`同步带 <HTD Belt>` "
+"进行运动。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:23
 msgid ""
 "goBILDA mostly uses :term:`clamping hubs <Clamping Hub>` (called Sonic "
 "hubs), eliminating the unreliable :term:`set screws <Set Screw>`."
 msgstr ""
-"goBILDA 主要使用 :term:`clamping hubs <Clamping Hub>`（称为 Sonic hubs），省去了不可靠的 "
+"goBILDA 主要使用 :term:`clamping hubs <Clamping Hub>` （称为 Sonic hubs），省去了不可靠的 "
 ":term:`set screws <Set Screw>`。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:24
@@ -117,7 +117,7 @@ msgstr "主要结构部件是 48 毫米铝质 :term:`U-channel <Channel>`，如�
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
 msgid "goBILDA U-channel"
-msgstr "goBILDA U 型通道"
+msgstr "goBILDA C形梁"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
 msgid "goBILDA :term:`U-channel <Channel>` (48x48 mm)"

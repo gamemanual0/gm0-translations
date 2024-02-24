@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-24 16:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,7 +157,7 @@ msgstr "舵机"
 msgid ""
 "Closed-loop :term:`servo-motors <Servo>` used for precise movement. "
 "Controlled by PWM signals. Max of 12."
-msgstr "闭环控制 :term:`舵机 <Servo>`用于精确运动。由PWM信号控制。最多 12个。"
+msgstr "闭环控制 :term:`舵机 <Servo>` 用于精确运动。由PWM信号控制。最多 12个。"
 
 #: ../../gm0/source/docs/know-your-lingo.rst:40
 msgid "Drivetrain (DT)"
