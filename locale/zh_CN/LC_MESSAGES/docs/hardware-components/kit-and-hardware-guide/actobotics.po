@@ -5,17 +5,17 @@
 # 
 # Translators:
 # 芷晗 李, 2023
-# DomnickJYH, 2023
-# Shawphy, 2024
+# Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 16:17+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,9 +45,9 @@ msgid ""
 "bearing <Ball Bearing>` based motion system allows teams to iterate and "
 "build mechanisms entirely from kit parts."
 msgstr ""
-"来自ServoCity(https://www.servocity.com/actobotics)的Actobotics套件是一个固定间距、:term:`channel-"
-"based <Channel>`使用英制单位的构建系统。其1.5英寸:term:`c-channel <Channel>`和:term:`ball-"
-"bearing <Ball Bearing>`运动系统使团队能够完全利用套件部件进行迭代和构建机械装置。"
+"来自ServoCity(https://www.servocity.com/actobotics)的Actobotics套件是一个固定间距、:term:`基于链条"
+" <Channel>` 使用英制单位的构建系统。其 1.5英寸:term:`链条 <Channel>` 和 :term:`滚珠 <Ball "
+"Bearing>` 运动系统使团队能够完全利用套件部件进行迭代和构建机械装置。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
 msgid "Special Considerations"
@@ -58,7 +58,7 @@ msgid ""
 "Actobotics' :term:`channel <Channel>` hole pattern has many more mounting "
 "holes than a Tetrix channel, so it offers more flexibility in terms of "
 "mounting."
-msgstr "Actobotics的:term:`channel <Channel>`孔型比TetrixC形梁多出许多安装孔，因此在安装方面更具灵活性。"
+msgstr "Actobotics的 :term:`链条 <Channel>` 孔型比TetrixC形梁多出许多安装孔，因此在安装方面更具灵活性。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:14
 msgid ""
@@ -88,7 +88,7 @@ msgstr "特殊组件"
 msgid ""
 "Mini-channel is offered in addition to the standard size :term:`channel "
 "<Channel>` for non-structural components."
-msgstr "除了用于非结构部件的标准尺寸:term:`channel <Channel>`之外，还提供微型槽钢。"
+msgstr "除了用于非结构部件的标准尺寸 :term:`链条 <Channel>` 之外，还提供微型槽钢。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:22
 msgid ""
@@ -96,20 +96,20 @@ msgid ""
 "adjustability and flexibility as it adds a :term:`extrusion <Extrusion>` "
 "component to a :term:`channel-based <Channel>` kit."
 msgstr ""
-"Actobotics的X-rail:term:`extrusion <Extrusion>`系统在:term:`channel-based "
-"<Channel>`套件的基础上增加了一个:term:`extrusion <Extrusion>`组件，具有极大的可调性和灵活性。"
+"Actobotics的X-rail :term:`铝型材 <Extrusion>` 系统在 :term:`基于链条的 <Channel>` "
+"套件的基础上增加了一个 :term:`铝型材 <Extrusion>` 组件，具有极大的可调性和灵活性。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:23
 msgid ""
 "To complement the structural offerings, Actobotics uses a series of clamping"
 " hubs and a robust 1/4\" steel :term:`D-shaft <Shaft>`."
-msgstr "作为结构产品的补充，Actobotics使用了一系列夹紧轮胎和坚固的1/4英寸钢:term:`D-shaft <Shaft>`。"
+msgstr "作为结构产品的补充，Actobotics使用了一系列夹紧轮胎和坚固的1/4英寸钢 :term:`D形轴 <Shaft>`。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:24
 msgid ""
 "The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to build "
 "extending mechanisms."
-msgstr "线性运动套件使用X-rail:term:`extrusion <Extrusion>`来构建延伸机构。"
+msgstr "线性运动套件使用X-rail :term:`铝型材 <Extrusion>` 来构建延伸机构。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:25
 msgid ""
@@ -117,7 +117,8 @@ msgid ""
 " for all teams, regardless of kit. However, :term:`Servoblocks` seamlessly "
 "interface with the Actobotics ecosystem."
 msgstr ""
-":term:`Servoblocks`可延长舵机的使用寿命，建议所有队伍使用，无论套件如何。不过，:term:`Servoblocks`能与Actobotics搭建体系系统无缝对接。"
+":term:`舵机座` 可延长舵机的使用寿命，建议所有队伍使用，无论套件如何。不过，:term:`舵机座` "
+"能与Actobotics搭建体系系统无缝对接。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:26
 msgid ""
@@ -125,8 +126,8 @@ msgid ""
 "<Bevel gear>` and Linear Actuator kits (using :term:`lead screws <Lead "
 "Screw>`) for specific use cases."
 msgstr ""
-"Actobotics还提供运动选项，如:term:`bevel gears <Bevel gear>`和线性执行器套件（使用:term:`lead "
-"screws <Lead Screw>`），以满足特定的使用情况。"
+"Actobotics还提供运动选项，如 :term:`圆锥齿轮 <Bevel gear>` 和线性执行器套件（使用 :term:`导螺杆 <Lead "
+"Screw>`），以满足特定的使用情况。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:29
 msgid "Verdict"
@@ -162,15 +163,16 @@ msgid ""
 " easier to assemble than :term:`extrusion-based <Extrusion>` systems which "
 "require cutting :term:`extrusion <Extrusion>` to length."
 msgstr ""
-"Actobotics提供了一种超值的固定间距构建系统，通常比:term:`extrusion-based "
-"<Extrusion>`系统更容易组装，后者需要将:term:`extrusion <Extrusion>`切成一定长度。"
+"Actobotics提供了一种超值的固定间距构建系统，通常比 :term:`基于铝型材 <Extrusion>` 的系统更容易组装，后者需要将 "
+":term:`铝型材 <Extrusion>` 切成一定长度。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:42
 msgid ""
 "Actobotics has the patented :term:`Servoblocks`, which help drastically "
 "increase servo life by protecting it from shock loads. More information may "
 "be found in the glossary."
-msgstr "Actobotics拥有专利术语:\"Servoblocks\"，通过保护舵机免受冲击载荷，大大延长了舵机的使用寿命。更多信息请参见术语表。"
+msgstr ""
+"Actobotics拥有专利术语:\":term:`Servoblocks`\"，通过保护舵机免受冲击载荷，大大延长了舵机的使用寿命。更多信息请参见术语表。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:43
 msgid ""
@@ -192,10 +194,9 @@ msgid ""
 ":doc:`TETRIX section <tetrix>`, set screws in particular are vulnerable to "
 "loosening, especially without application of Loctite."
 msgstr ""
-"与:term:`set screws <Set Screw>`相比，:term:`clamping hubs <Clamping "
-"Hub>`提供的:term:`clamping hubs更可靠，因为与:term:`set screw <Set "
-"Screw>`（单面）相比，clamping hubs与轴啮合的位置更多。正如在:doc:`TETRIX部分 "
-"<tetrix>`中所讨论的，固定螺丝尤其容易松动，特别是在没有涂抹粘合剂的情况下。"
+"与 :term:`固定螺钉 <Set Screw>` 相比，:term:`夹紧轮毂 <Clamping Hub>` 更可靠，因为与 "
+":term:`固定螺钉 <Set Screw>` （单面）相比，夹紧轮毂与轴啮合的位置更多。正如在 :doc:`TETRIX部分 <tetrix>` "
+"中所讨论的，固定螺钉尤其容易松动，特别是在没有涂抹粘合剂的情况下。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:46
 msgid ""
@@ -204,16 +205,16 @@ msgid ""
 "bushings. Actobotics is compatible with the 5mm hex used by REV with their "
 "adaptable hubs."
 msgstr ""
-"Actobotics的运动系统非常非常坚固，依靠的是:term:`ball bearings <Ball "
-"Bearing>`，这种轴承的摩擦系数比衬套低。Actobotics与REV使用的5毫米六角适配轮胎兼容。"
+"Actobotics的运动系统非常非常坚固，依靠的是 :term:`滚珠轴承 <Ball "
+"Bearing>`，这种轴承的摩擦系数比轴衬低。Actobotics与REV使用的5毫米六角适配轮胎兼容。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:47
 msgid ""
 "Actobotics also allows for :term:`face mounting <Face Mounting>` of motors "
 "as opposed to :term:`clamp mounting <Clamp Mounting>`."
 msgstr ""
-"Actobotics还允许电机:term:`face mounting <Face Mounting>`，而不是:term:`clamp "
-"mounting <Clamp Mounting>`。"
+"Actobotics还允许 :term:`正面安装 <Face Mounting>` 电机，而不是使用 :term:`垫圈 <Clamp "
+"Mounting>` 固定。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:50
 msgid "Disadvantages"
@@ -242,8 +243,8 @@ msgid ""
 "isn't a large amount of space inside the channel for a belt or chain run, "
 "vastly limiting the size of the pulleys."
 msgstr ""
-"来自ServoCity的XL:term:`belts <Timing Belt>`并不好。建议从ServoCity购买:term:`belts <HTD"
-" Belt>`，这样可能需要使用3d打印的滑轮。此外，C形梁内没有足够的空间供皮带或链条运行，这大大限制了滑轮的尺寸。"
+"来自ServoCity的XL :term:`同步带 <Timing Belt>` 并不好。建议从ServoCity购买 :term:`HTD同步带 "
+"<HTD Belt>`，这样可能需要使用3d打印的滑轮。此外，C形梁内没有足够的空间供皮带或链条运行，这大大限制了滑轮的尺寸。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:55
 msgid ""
@@ -252,9 +253,9 @@ msgid ""
 "issue, ServoCity sells :term:`mini-channel <Channel>` which is a similar "
 "size as :term:`extrusion <Extrusion>`."
 msgstr ""
-":term:`Channel`比:term:`extrusion "
-"<Extrusion>`占用更多空间，因此Actobotics套件的机构可能会稍大一些。为了解决这个问题，ServoCity销售:term:`mini-"
-"channel <Channel>`，其大小与:term:`extrusion <Extrusion>`相似。"
+":term:`C形梁` 比 :term:`铝型材 <Extrusion>` "
+"占用更多空间，因此Actobotics套件的机构可能会稍大一些。为了解决这个问题，ServoCity销售 :term:`微型梁 "
+"<Channel>`，其大小与 :term:`铝型材 <Extrusion>` 相似。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:60
 msgid "8644 Brainstormers' Relic Recovery robot"
@@ -288,5 +289,5 @@ msgid ""
 "9794 Wizards.exe used both Actobotics and REV :term:`extrusion <Extrusion>` "
 "to build their Rover Ruckus robot"
 msgstr ""
-"9794 Wizards.exe 使用Actobotics和REV:term:`extrusion <Extrusion>`来制造他们的 Rover "
+"9794 Wizards.exe 使用Actobotics和REV :term:`铝型材 <Extrusion>` 来制造他们的 Rover "
 "Ruckus 机器人"

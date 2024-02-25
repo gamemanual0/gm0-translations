@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
-# Shawphy, 2024
+# Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 16:16+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +41,7 @@ msgid ""
 "The REV ecosystem is based upon 15x15mm aluminum :term:`extrusion "
 "<Extrusion>` and is complemented by 45x45mm :term:`channels <Channel>`."
 msgstr ""
-"REV 搭建体系系统以 15x15mm 铝 :term:`铝型材 <Extrusion>` 为基础，辅以 45x45mm :term:`C型槽 "
+"REV 搭建体系系统以 15x15mm :term:`铝型材 <Extrusion>` 为基础，辅以 45x45mm :term:`C型槽 "
 "<Channel>`。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:12
@@ -51,8 +51,8 @@ msgid ""
 ":term:`chain <Chain>` is simple when sliding the mount or bracket increases "
 "tension."
 msgstr ""
-"使用 :term:`extrusion <Extrusion>` 时，没有固定的安装孔，增加了可调节性和灵活性。例如，当滑动安装座或支架增加张力时，张紧"
-" :term:`chain <Chain>` 非常简单。"
+"使用 :term:`铝型材 <Extrusion>` 时，没有固定的安装孔，增加了可调节性和灵活性。例如，当滑动安装座或支架增加张力时，张紧 "
+":term:`chain <Chain>` 非常简单。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:13
 msgid ""
@@ -60,7 +60,7 @@ msgid ""
 "the exception of #25 roller :term:`chain <Chain>` (FTC\\ |reg| standard, "
 "imperial)."
 msgstr ""
-"REV 系统使用公制尺寸（15 毫米铝型材，M3 硬件），但 #25 滚轮 :term:`chain <Chain>`（FTC\\ |reg| "
+"REV 系统使用公制尺寸（15 毫米铝型材，M3 硬件），但 #25 滚轮 :term:`链条 <Chain>` （FTC\\ |reg| "
 "标准，英制）除外。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:14
@@ -82,7 +82,7 @@ msgid ""
 "build systems, owing to the fact that constructing structurally sound "
 "mechanisms requires just a little more thought."
 msgstr ""
-"与基于 :term:`channel <Channel>` 的构建系统相比，REV 的学习曲线确实要陡峭一些，因为构建结构合理的机构需要更多的思考。"
+"与基于 :term:`C形梁 <Channel>` 的构建系统相比，REV 的学习曲线确实要陡峭一些，因为构建结构合理的机构需要更多的思考。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:19
 msgid "Notable components"
@@ -147,14 +147,14 @@ msgid ""
 ":term:`extrusion <Extrusion>`. REV offers the option to upgrade parts for "
 "those wanting a further investment into the REV building system."
 msgstr ""
-"**REV套件适合愿意在挤压成型建筑系统上投入时间的团队。** 它是最灵活的套件，因为它以挤压成型为基础，但也可以集成:term:`channel "
-"<Channel>`和:term:`extrusion <Extrusion>`。REV 为希望进一步投资 REV 建筑系统的用户提供升级部件的选择。"
+"**REV套件适合愿意在挤压成型建筑系统上投入时间的团队。** 它是最灵活的套件，因为它以挤压成型为基础，但也可以集成 :term:`C形梁 "
+"<Channel>` 和 :term:`铝型材 <Extrusion>` 。REV 为希望进一步投资 REV 建筑系统的用户提供升级部件的选择。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:33
 msgid ""
 "One advantage to the REV kit is the compatibility of 15x15mm MiSUMI "
 ":term:`extrusion <Extrusion>`."
-msgstr "REV 套件的一个优势是兼容 15x15mm MiSUMI :term:`extrusion <Extrusion>`。"
+msgstr "REV 套件的一个优势是兼容 15x15mm MiSUMI :term:`铝型材 <Extrusion>`。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:35
 msgid ""
@@ -186,7 +186,7 @@ msgid ""
 "mechanisms that will be under low to medium load."
 msgstr ""
 "MiSUMI 以更低的批量成本提供更高的强度。此外，MiSUMI 还可以免费切割到半毫米，这对于需要精确切割的团队来说是个不错的选择。MiSUMI "
-"的缺点是比 REV :term:`铝型材 <Extrusion>`重一些。我们鼓励参赛队将 MiSUMI 用于传动系统和结构支撑，而将 REV "
+"的缺点是比 REV :term:`铝型材 <Extrusion>` 重一些。我们鼓励参赛队将 MiSUMI 用于传动系统和结构支撑，而将 REV "
 "用于承受中低负荷的机构。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:43
@@ -256,14 +256,14 @@ msgid ""
 ":term:`Extrusion` allows teams to save space as opposed to :term:`channel "
 "<Channel>`, and is lighter than aluminum :term:`channel <Channel>`."
 msgstr ""
-"与:term:`channel <Channel>`相比，:term:`Extrusion`可以让团队节省空间，而且比铝制:term:`channel "
+"与 :term:`C形梁 <Channel>` 相比， :term:`铝型材 可以让团队节省空间，而且比铝制:term:`C形梁 "
 "<Channel>`更轻。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:76
 msgid ""
 ":term:`Extrusion` allows infinite positioning options instead of being "
 "locked in to a specific distance - useful for fine-tuning a mechanism."
-msgstr ":term:`Extrusion` 允许无限的定位选项，而不是锁定在一个特定的距离 - 这对微调机构非常有用。"
+msgstr ":term:`铝型材` 允许无限的定位选项，而不是锁定在一个特定的距离 - 这对微调机构非常有用。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:77
 msgid "Delrin products are inexpensive yet durable for most use cases."
@@ -281,8 +281,8 @@ msgid ""
 "adaptable to :term:`UltraHex` 1/2\" hex :term:`shaft <Shaft>`. Other "
 "companies have adapting options with 5 mm hex."
 msgstr ""
-"5 毫米六角是一种坚固的 :term:`shaft <Shaft>` 和运动系统，可轻松与 :term:`UltraHex` 1/2\" hex "
-":term:`shaft <Shaft>` 适配。其他公司也有 5 毫米六角的适配选项。"
+"5 毫米六角是一种坚固的 :term:`轴 <Shaft>` 和运动系统，可轻松与 :term:`UltraHex` 1/2\" :term:`六角轴 "
+"<Shaft>` 适配。其他公司也有 5 毫米六角轴的适配选项。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:80
 msgid ""
@@ -295,7 +295,7 @@ msgid ""
 ":term:`Channel` complements extrusion extremely well - having the "
 "adjustability of extrusion and the rigidity of channel makes it a very solid"
 " build system."
-msgstr ":term:`Channel` 与挤出系统相得益彰--挤出系统的可调节性和槽钢的坚固性使其成为非常稳固的构建系统。"
+msgstr ":term:`C形梁` 与挤出系统相得益彰--挤出系统的可调节性和槽钢的坚固性使其成为非常稳固的构建系统。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:82
 msgid ""
@@ -311,8 +311,7 @@ msgstr "缺点"
 msgid ""
 "15x15mm :term:`extrusion <Extrusion>` is not as sturdy as   :term:`channel "
 "<Channel>` options under high stress loads."
-msgstr ""
-"15x15mm :term:`铝型材 <Extrusion>` 在高应力负荷下不如 :term:`channel <Channel>` 坚固。"
+msgstr "15x15mm :term:`铝型材 <Extrusion>` 在高应力负荷下不如 :term:`C形梁 <Channel>` 坚固。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:88
 msgid ""
@@ -338,13 +337,13 @@ msgstr "部件随着时间的推移而松动（补救措施：使用冲压管）
 msgid ""
 "M3 bolts, especially those sold directly by REV, are prone to bending under "
 "higher load (such as when used as an :term:`axle <Shaft>` for a pulley)"
-msgstr "M3 螺丝，尤其是 REV 直接出售的那些，在较大负载下容易弯曲（例如用作 :term:`axle <Shaft>` 滑轮的轴时）"
+msgstr "M3 螺丝，尤其是 REV 直接出售的那些，在较大负载下容易弯曲（例如用作滑轮的 :term:`轴 <Shaft>` 时）"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:93
 msgid ""
 "5 mm hex :term:`shaft <Shaft>` is also prone to bending, especially if the "
 ":term:`shaft <Shaft>` is long."
-msgstr "5 毫米六角 :term:`shaft <Shaft>` 也容易弯曲，尤其是在 :term:`shaft <Shaft>` 较长的情况下。"
+msgstr "5 毫米六角 :term:`轴 <Shaft>` 也容易弯曲，尤其是在 :term:`轴 <Shaft>` 较长的情况下。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:98
 msgid "7161 ViperBots Hydra's Relic Recovery robot"

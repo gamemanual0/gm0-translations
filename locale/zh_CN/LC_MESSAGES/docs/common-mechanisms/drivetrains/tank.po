@@ -6,18 +6,18 @@
 # Translators:
 # guluomagongchengshi, 2023
 # 芷晗 李, 2023
-# DomnickJYH, 2023
+# Shawphy, 2023
 # wwsk2008sq, 2024
-# Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-20 16:16+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -176,7 +176,7 @@ msgid ""
 " tank drivetrains that do not have a :term:`center drop <Drop Center>`."
 msgstr ""
 "车轮摩擦是指车轮侧面与地砖之间的摩擦。由于传动系统必须克服这种摩擦力才能使机器人转动，因此这种摩擦力会抑制机器人的转动。车轮摩擦最常见于没有 "
-":term:`中心落差 <Drop Center>`的 4 轮或 6 轮坦克驱动系统。"
+":term:`中心落差 <Drop Center>` 的 4 轮或 6 轮坦克驱动系统。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:55
 msgid ""
@@ -344,7 +344,7 @@ msgid ""
 msgstr ""
 "六轮传动系统是 FTC "
 "中常见的竞技传动系统，原因有很多：它具有出色的牵引力和转弯性能，而且由于有六个车轮，传动系统与地面的接触更多，有助于提高稳定性和牵引力。6 "
-"轮传动系统主要有两种类型：**转角全向**和**投放中心**。"
+"轮传动系统主要有两种类型：**转角全向** 和 **投放中心**。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:140
 msgid "**Drop Center**"
@@ -390,7 +390,7 @@ msgid ""
 "bearing-plate-2mm-drop-4-pack/>`_, it is straightforward to make a drop "
 "center drivetrain on goBILDA channel."
 msgstr ""
-"**大多数降心六轮驱动装置都是使用定制的传动系统**制作的，因为使用基于套件的构建系统很难实现中心轮降心（基于 REV "
+"**大多数降心六轮驱动装置都是使用定制的传动系统** 制作的，因为使用基于套件的构建系统很难实现中心轮降心（基于 REV "
 "的套件传动系统是一个显著的例外）。使用 goBILDA 和 Actobotics 的枕木块可以实现中心下降，但会比较笨拙。不过，有了新的 "
 "`goBILDA 落心轴承板 <https://www.gobilda.com/1616-series-drop-center-bearing-"
 "plate-2mm-drop-4-pack/>`_，就可以在 goBILDA 通道上直接制作落心传动系统。"
@@ -406,7 +406,7 @@ msgid ""
 " reliability, although this comes with side effects like rocking and reduced"
 " traction."
 msgstr ""
-"带有转角 :term: `全向轮 <Omni Wheel>` 的 6 "
+"带有转角 :term:`全向轮 <Omni Wheel>` 的 6 "
 "轮驱动装置不需要中心定位装置。它试图通过用全向轮取代转角牵引轮来解决转弯问题，从而使传动系统能够实现更好的转弯，尽管牵引力略低于中心定位轮。这很容易在套件中实现，是一种出色的全能传动系统。中心下压轮和转角全向轮可以结合使用，以获得最大的转弯可靠性，不过这也会带来易摇晃和牵引力降低等副作用。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:155
@@ -432,7 +432,7 @@ msgid ""
 "center bearing plate <https://www.gobilda.com/1616-series-drop-center-"
 "bearing-plate-2mm-drop-4-pack/>`_"
 msgstr ""
-"使用基于 :term: ` 通道 <Channel>` 的系统制造落心式 6WD 方案十分困难，不过使用  `goBILDA 落心式轴承板 "
+"使用基于 :term:`C形梁 <Channel>` 的系统制造落心式 6WD 方案十分困难，不过使用  `goBILDA 落心式轴承板 "
 "<https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-"
 "drop-4-pack/>`_可以部分缓解这一问题。"
 
@@ -451,7 +451,7 @@ msgstr "使用转角全向轮的 6WD 方案的牵引力较弱"
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:167
 msgid ""
 "Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish"
-msgstr "慢 :term: ` 齿轮比 <Gear Reduction>`会使 6WD 方案感觉迟钝"
+msgstr "慢 :term:`齿轮比 <Gear Reduction>` 会使 6WD 方案感觉迟钝"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "CAD Examples of Six Wheel Drive (Click to expand)"
@@ -542,8 +542,8 @@ msgid ""
 ":term:`planetary <Planetary Gear>` motors should be used over a :term:`spur "
 "gear <Spur gearbox>` motor."
 msgstr ""
-"建议为所有八个车轮提供动力，并使用 :term: `planetary <Planetary Gear>` 电机，而不是 :term: `spur "
-"gear <Spur gearbox>` 电机。"
+"建议为所有八个车轮提供动力，并使用 :term:`行星齿轮 <Planetary Gear>` 电机，而不是 :term:`正齿轮 <Spur "
+"gearbox>` 电机。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:225
 msgid ""
@@ -618,8 +618,8 @@ msgid ""
 "great either - TETRIX tracks have a tendency to snap and derail when used on"
 " robot drivetrains, making them not suitable for competition use."
 msgstr ""
-"胎面很复杂，有很多故障点。胎面也非常容易损坏，来自其他机器人的轻微撞击就足以使胎面错位。 :term: `Commercial Off-The-"
-"Shelf (COTS) <COTS>`胎面的选择也不多--TETRIX 履带在用于机器人传动系统时容易断裂和脱轨，因此不适合在比赛中使用。"
+"胎面很复杂，有很多故障点。胎面也非常容易损坏，来自其他机器人的轻微撞击就足以使胎面错位。 :term: `商用现货 (COTS) <COTS>` "
+"胎面的选择也不多--TETRIX 履带在用于机器人传动系统时容易断裂和脱轨，因此不适合在比赛中使用。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:262
 msgid ""

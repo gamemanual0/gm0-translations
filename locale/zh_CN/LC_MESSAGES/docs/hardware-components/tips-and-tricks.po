@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2024
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 16:16+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,8 +55,8 @@ msgid ""
 "loosening."
 msgstr ""
 "**避免使用固定螺丝**。:term:`固定螺丝 <Set Screw>` 容易松动，导致轮毂打滑。此外，:term:`固定螺丝 <Set "
-"Screw>` 会损坏:term:`车轴 <Shaft>`，有时会导致以后很难拆卸轮毂。因此，尽可能使用 :term:` 夹紧轮毂 <Clamping "
-"Hub>` 和轴环，而不是 :term:` 固定螺丝 <Set Screw>`。如果您必须使用固定螺丝轮毂，请使用非永久性螺纹锁固剂，如\" "
+"Screw>` 会损坏 :term:`车轴 <Shaft>`，有时会导致以后很难拆卸轮毂。因此，尽可能使用 :term:`夹紧轮毂 <Clamping "
+"Hub>` 和轴环，而不是 :term:`固定螺丝 <Set Screw>`。如果您必须使用固定螺丝轮毂，请使用非永久性螺纹锁固剂，如\" "
 "`Loctite blue <https://www.loctiteproducts.com/en/products/specialty-"
 "products/specialty/loctite_threadlockerblue242.html>`_\"，以防止其松动。"
 
@@ -96,7 +96,7 @@ msgid ""
 " when using attachment blocks where two screw holes intersect - if you are "
 "not careful, you could have one screw hitting another."
 msgstr ""
-"这种情况通常发生在将部件连接到 :term:`T型挤压螺丝 <Extrusion>`（Misumi、REV、goBILDA 的 goRAIL）时--"
+"这种情况通常发生在将部件连接到 :term:`T型挤压螺丝 <Extrusion>` （Misumi、REV、goBILDA 的 goRAIL）时--"
 "如果螺丝太长，就会碰到槽底，无论如何努力都无法实现紧密连接。出现这种情况的另一种情况是在使用两个螺丝孔相交的连接块时--"
 "如果不小心，可能会出现一个螺丝撞到另一个螺丝的情况。"
 
@@ -107,7 +107,8 @@ msgid ""
 "component into a **threaded** hole in another, or through two unthreaded "
 "holes into a nut."
 msgstr ""
-"**不要连接两个都有螺纹孔的部件**。要实现紧密连接，螺丝应穿过一个部件上的**无螺纹**孔进入另一个部件上的**有螺纹**孔，或穿过两个无螺纹孔进入一个螺母。"
+"**不要连接两个都有螺纹孔的部件**。要实现紧密连接，螺丝应穿过一个部件上的 **无螺纹** 孔进入另一个部件上的 **有螺纹** "
+"孔，或穿过两个无螺纹孔进入一个螺母。"
 
 #: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:16
 msgid ""
@@ -140,7 +141,7 @@ msgstr "用钢锯或电磨在螺丝头上开一个槽，把它变成一个开槽
 
 #: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:21
 msgid "Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_"
-msgstr "使用 `螺丝拔出器 <https://www.amazon.com/dp/B07GZ17QD9/>`_"
+msgstr "使用 `螺丝取出器 <https://www.amazon.com/dp/B07GZ17QD9/>`_"
 
 #: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:22
 msgid "If nothing works, drill it out."

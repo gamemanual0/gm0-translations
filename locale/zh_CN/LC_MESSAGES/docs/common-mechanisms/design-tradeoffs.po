@@ -5,7 +5,7 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# Shawphy, 2024
+# Shawphy, 2023
 # DomnickJYH, 2024
 # 
 #, fuzzy
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-20 16:16+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -209,7 +209,7 @@ msgid ""
 "However, we do not advise that teams use that pushbot at a competition due "
 "to its many flaws."
 msgstr ""
-"我们建议购买了 Tetrix 套件的参赛队仅出于教学目的制作该套件，即使用 :term:`channel-based <Channel>` "
+"我们建议购买了 Tetrix 套件的参赛队仅出于教学目的制作该套件，即使用 :term:`C形梁 <Channel>` "
 "套件熟悉零件和基本制作原理。但是，由于这种推杆传动机器人存在许多缺陷，我们不建议参赛队在比赛中使用。"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:50
@@ -325,8 +325,8 @@ msgid ""
 " gear configuration.**"
 msgstr ""
 "例如，传动系统需要反复快速地改变方向。由于太阳齿轮和行星齿轮的构造，行星齿轮变速箱更适合用于传动系统和机械臂。此外，正齿轮变速箱容易受到冲击载荷的影响，因此不建议在传动系统上使用直接驱动。有关齿轮箱的更多完整信息，请参阅"
-" :doc:` 齿轮箱内部构造详解 </docs/power-and-electronics/motor-guide/gearbox-anatomy>`"
-" 部分。**这是指使用直接连接到电机小齿轮上的正齿轮变速箱。这并不意味着在电机齿轮箱之外使用外部传动比，因为外部传动比始终是正齿轮配置。"
+" :doc:`齿轮箱内部构造详解 </docs/power-and-electronics/motor-guide/gearbox-anatomy>` "
+"部分。**这是指使用直接连接到电机小齿轮上的正齿轮变速箱。这并不意味着在电机齿轮箱之外使用外部传动比，因为外部传动比始终是正齿轮配置。**"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:80
 msgid "Single/multi axis arm |rarr| Linear extension"

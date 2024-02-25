@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
-# Shawphy, 2024
+# Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 16:16+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2023-06-18 04:15+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +60,7 @@ msgstr "激光切割机的常见类型"
 msgid ""
 "In general, there are three types of laser cutters FTC teams may have access"
 " to: **diode lasers**, **CO2 lasers**, and **fiber lasers**."
-msgstr "一般来说，FTC 团队可以使用三种类型的激光切割机：**二极管激光器**、二氧化碳激光器**和光纤激光器**。"
+msgstr "一般来说，FTC 团队可以使用三种类型的激光切割机：**二极管激光器**、**二氧化碳激光器** 和 **光纤激光器**。"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:16
 msgid "Diode"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:43
 msgid "Acrylic"
-msgstr "丙烯酸"
+msgstr "丙烯酸纤维"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:45
 msgid ""
@@ -147,8 +147,8 @@ msgid ""
 " on using acrylic in FTC, see :ref:`the material guide <materials-guide-"
 "acrylic>`."
 msgstr ""
-"亚克力是一种非常常用的激光切割材料。由于它在负载下容易断裂，因此在 FTC 机器人上主要用作装饰板或漏斗游戏元素的导轨。有关在 FTC "
-"中使用亚克力的更多信息，请参阅 :ref:`the material guide <materials-guide-acrylic>`。"
+"丙烯酸纤维是一种非常常用的激光切割材料。由于它在负载下容易断裂，因此在 FTC 机器人上主要用作装饰板或输送比赛元素的导轨。有关在 FTC "
+"中使用亚克力的更多信息，请参阅 :ref:`材料指南 <materials-guide-acrylic>`。"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:48
 msgid "Delrin"
@@ -163,8 +163,8 @@ msgid ""
 "guide-delrin>`."
 msgstr ""
 "Delrin 又称缩醛，在适当通风的情况下，可以在大多数 CO2 激光器上安全切割。激光切割的 Delrin "
-"可用于制造从电机支架、线性滑轨插入件到整个传动系统板的所有部件。有关 Delrin 的更多信息，请参阅 :ref:`the material guide"
-" <materials-guide-delrin>`。"
+"可用于制造从电机支架、线性滑轨插入件到整个传动系统板的所有部件。有关 Delrin 的更多信息，请参阅 :ref:`材料指南 <materials-"
+"guide-delrin>`。"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:53
 msgid "What Can't You Cut?"

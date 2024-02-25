@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2023
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,8 +80,8 @@ msgid ""
 "of thumb to have dual support on wheels or other non-motor shafts.)"
 msgstr ""
 "电机轴的构造不能承受较大的向下负荷。这可能会导致电机轴弯曲，因为在直接驱动中，轴仅由一侧（即变速箱）支撑。一般来说，所有工程师的原则都是在两侧支撑轴，但在这种情况下是不可能的。这将导致:"
-" term:`cantilevering "
-"<Cantilever>`轴的倾斜，而这在一般情况下是应该避免的。因此，对于重型机器人来说，由于缺乏支撑，电机轴很容易弯曲。(虽然电机轴的两端通常不可能都有支撑，但通常的经验法则是在轮子或其他非电机轴上设置双重支撑）。"
+" term:`悬臂 <Cantilever>` "
+"轴的倾斜，而这在一般情况下是应该避免的。因此，对于重型机器人来说，由于缺乏支撑，电机轴很容易弯曲。(虽然电机轴的两端通常不可能都有支撑，但通常的经验法则是在轮子或其他非电机轴上设置双重支撑）。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:20
 msgid "Cantilever"
@@ -96,8 +96,8 @@ msgid ""
 "building technique. Many drivetrains are cantilevered, which provides for "
 "easy access to wheels."
 msgstr ""
-"悬臂是指一个物体（通常是一根 :term:` 轴 <Shaft>`）只有一侧有支撑。虽然从理论上讲，悬臂提供的支撑较少，但只要轴的两点仍由 "
-":term:`bearings <Ball Bearing>` 或 :term:`bushings <Bushing>` "
+"悬臂是指一个物体（通常是一根 :term:`轴 <Shaft>`）只有一侧有支撑。虽然从理论上讲，悬臂提供的支撑较少，但只要轴的两点仍由 "
+":term:`球承轴 <Ball Bearing>` 或 :term:`轴套 <Bushing>` "
 "支撑，悬臂仍不失为一种合理的建筑技术。许多传动系统都是悬臂式的，这样可以方便地接触车轮。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:24

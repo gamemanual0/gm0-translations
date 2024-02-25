@@ -5,7 +5,7 @@
 # 
 # Translators:
 # guluomagongchengshi, 2023
-# Shawphy, 2024
+# Shawphy, 2023
 # DomnickJYH, 2024
 # 
 #, fuzzy
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-24 16:14+0000\n"
+"POT-Creation-Date: 2024-02-25 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -34,8 +34,8 @@ msgid ""
 "released in the 2018-2019 season and is made by the same company as "
 "Actobotics."
 msgstr ""
-"goBILDA (https://www.gobilda.com/) 是一种基于固定间距、:term:`channel "
-"<Channel>`的建筑系统，使用公制单位。它最近于 2018-2019 赛季发布，与 Actobotics 由同一家公司制造。"
+"goBILDA (https://www.gobilda.com/) 是一种基于固定间距、 :term:`C形梁 <Channel>` "
+"的建筑系统，使用公制单位。它最近于 2018-2019 赛季发布，与 Actobotics 由同一家公司制造。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:9
 msgid "Special Considerations"
@@ -51,7 +51,7 @@ msgstr "goBILDA 使用 M4 硬件以公制为基础进行测量。孔型为 4 毫
 msgid ""
 "The kit is primarily structured around :term:`U-channel <Channel>`, which is"
 " strong and durable."
-msgstr "该套件主要由 :term:C形梁 <Channel>` 构成，坚固耐用。"
+msgstr "该套件主要由 :term:`U形梁 <Channel>` 构成，坚固耐用。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:13
 msgid ""
@@ -113,15 +113,15 @@ msgstr ""
 msgid ""
 "The primary structural component is the 48mm aluminum :term:`U-channel "
 "<Channel>`, shown below."
-msgstr "主要结构部件是 48 毫米铝质 :term:`U-channel <Channel>`，如下图所示。"
+msgstr "主要结构部件是 48 毫米铝质 :term:`U形梁 <Channel>`，如下图所示。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
 msgid "goBILDA U-channel"
-msgstr "goBILDA C形梁"
+msgstr "goBILDA U形梁"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
 msgid "goBILDA :term:`U-channel <Channel>` (48x48 mm)"
-msgstr "goBILDA :term:`U-channel <Channel>` (48x48 mm)"
+msgstr "goBILDA :term:`U形梁 <Channel>` (48x48 mm)"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:32
 msgid ""
@@ -218,15 +218,15 @@ msgid ""
 " plate drivetrain <Parallel Plate Drivetrain>` without custom machining, or "
 "make custom width :term:`U-channel <Channel>`."
 msgstr ""
-"goBILDA 的低边 U 型槽因其灵活性和紧凑性而开辟了许多新的可能性。例如，现在人们可以制作 :term:`parallel plate "
-"drivetrain <Parallel Plate Drivetrain>`，而无需进行定制加工，或者制作定制宽度的 :term:`U-channel"
-" <Channel>`。"
+"goBILDA 的低边 U 形梁因其灵活性和紧凑性而开辟了许多新的可能性。例如，现在人们可以制作 :term:`parallel plate "
+"drivetrain <Parallel Plate Drivetrain>`，而无需进行定制加工，或者制作定制宽度的 :term:`U形梁 "
+"<Channel>`。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:64
 msgid ""
 "goBILDA also has :term:`Servoblocks` (identical to Actobotics other than "
 "hole pattern) which drastically increase servo life."
-msgstr "goBILDA 还有 :term:`Servoblocks`（除孔型外与 Actobotics 相同），可大幅延长舵机的使用寿命。"
+msgstr "goBILDA 还有 :term:`Servoblocks` （除孔型外与 Actobotics 相同），可大幅延长舵机的使用寿命。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:65
 msgid ""
@@ -318,9 +318,9 @@ msgid ""
 "introduction of mini-low-side channel allows for more compact builds where "
 "needed"
 msgstr ""
-"goBILDA 的 :term:`U-channels <Channel>` 比 Tetrix 的 :term:`channels <Channel>`"
-" 要大，导致构建量较大。不过，这一点可以通过在 :term:`channel <Channel>` 内放置 :term:`goBILDA 电机 "
-"<Yellow Jacket Motor>` 来弥补。此外，迷你低侧通道的引入可在必要时实现更紧凑的构造"
+"goBILDA 的 :term:`U形梁 <Channel>` 比 Tetrix 的 :term:`C形梁 <Channel>` "
+"要大，导致构建量较大。不过，这一点可以通过在 :term:`C形梁 <Channel>` 内放置 :term:`goBILDA 电机 <Yellow "
+"Jacket Motor>` 来弥补。此外，迷你低侧通道的引入可在必要时实现更紧凑的构造"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:81
 msgid ""
