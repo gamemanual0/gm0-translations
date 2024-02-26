@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 04:15+0000\n"
+"POT-Creation-Date: 2024-02-26 16:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -99,8 +99,8 @@ msgid ""
 msgstr ""
 "连续传动结构需要将一根长长的 "
 "**延长绳**，从一个马达驱动的线轴上拉出，拉到基础平台的顶部，然后拉到第一级平台的底部，再拉到第一级平台的顶部，然后拉到第二级平台的底部，等等。然后，从与延伸线轴处于同一轴线缆上的第二个线轴上引出的"
-" "
-"**收缩绳**被固定在顶级上。当电机向一个方向旋转时，延长线缆卷轴将延长线缆卷入，使其变短。这样，一级顶端与下一级底端之间的距离就会减小，从而使系统延伸。"
+" **收缩绳** "
+"被固定在顶级上。当电机向一个方向旋转时，延长线缆卷轴将延长线缆卷入，使其变短。这样，一级顶端与下一级底端之间的距离就会减小，从而使系统延伸。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:31
 msgid ""
@@ -242,8 +242,8 @@ msgid ""
 "with purely vertical slides."
 msgstr ""
 "顾名思义，连续缩回利用倒置的连续索具来缩回滑轨。主要有两种方法：**自由浮动回缩** ，即绳子从最后一级直接回到线轴； **滑块附带回缩** "
-"，即绳子以反连续模式运行。一般来说， **滑块附带回缩** "
-"应与机器人框架外的延伸部分一起使用，以防止缠绕，而**自由浮动回缩**只能与纯垂直滑块一起使用。"
+"，即绳子以反连续模式运行。一般来说， **滑块附带回缩** 应与机器人框架外的延伸部分一起使用，以防止缠绕，而 **自由浮动回缩** "
+"只能与纯垂直滑块一起使用。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:81
 msgid ""
@@ -252,8 +252,8 @@ msgid ""
 "of stages in the system, the diameter of the cascade extension spool must be"
 " :math:`N` **times smaller** than the continuous retraction spool."
 msgstr ""
-"如果连续缩回与级联延伸同时使用，则两个线轴的直径不能相同。如果变量 :math:`N` 是系统中的级数，则级联延伸线轴的直径必须 :math:`N` "
-"比连续缩回线轴小 ** 倍。"
+"如果连续缩回与级联延伸同时使用，则两个线轴的直径不能相同。如果变量 :math:`N` 是系统中的级数，则级联延伸线轴的直径必须比连续缩回线轴 "
+"**小** :math:`N` **倍** 。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:86
 msgid "A diagram of continuous retraction"
@@ -396,7 +396,7 @@ msgstr "其他需考虑因素："
 msgid ""
 "If the system has only one stage, cascade rigging is **identical to "
 "continuous rigging**"
-msgstr "如果系统只有一个阶，则级联索具**与连续索具**相同。"
+msgstr "如果系统只有一个阶，则级联索具 **与连续索具** 相同。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:141
 msgid ""
@@ -494,7 +494,7 @@ msgstr "5064 的级联皮带传动装置图"
 msgid ""
 "5064 Aperture Science Rover Ruckus **cascade** belt-driven proof of concept "
 "drawing"
-msgstr "5064 光圈科学漫游车 Ruckus **级联**皮带驱动概念验证图"
+msgstr "5064 光圈科学漫游车 Ruckus **级联** 皮带驱动概念验证图"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
 msgid "5064's cascading belt rigging"
@@ -503,7 +503,7 @@ msgstr "5064 队伍级联皮带传动装置"
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
 msgid ""
 "5064 Aperture Science Rover Ruckus **cascade** belt-driven final version"
-msgstr "5064 光圈科学漫游车 Ruckus **级联**皮带驱动最终版"
+msgstr "5064 光圈科学漫游车 Ruckus **级联** 皮带驱动最终版"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:184
 msgid "Belt or chain driven elevators"
