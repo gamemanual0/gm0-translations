@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 16:16+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,7 +71,7 @@ msgid ""
 "moves the robot instead of rotating the linkage."
 msgstr ""
 "过中心是指连杆旋转时超过其中心点（通常是连杆两杆平行的点）。将连杆机构转过中心点有一些好处，例如可以使连杆机构更难反向驱动。有关这方面的更多详情，请参阅此"
-" youtube 信息视频 <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ "
+" `youtube 信息视频 <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ "
 "。从本质上讲，连杆可以形成一种结构，在这种结构中，推动连杆可以移动机器人，而不是旋转连杆。"
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:21
@@ -133,7 +133,7 @@ msgid ""
 "construction material of the four bar can be carefully selected to save "
 "weight."
 msgstr ""
-"一种类型的连杆称为四杆连杆。这是一种使端杆始终与地面保持相同角度的连杆。例如，如果虚拟四杆的端杆在缩回时与地面平行，则它将始终与地面平行，即使完全旋转出去。这对于像爪子这样的机构是有益的，您希望在操作过程中与地面平行。此外，四杆可以在机器人框架之外提供延伸，并且由于手臂跟随的“弧线”，通常提供垂直和水平延伸。此外，可以仔细选择杆的构造材料以节省重量。"
+"一种类型的连杆称为四杆连杆。这是一种使端杆始终与地面保持相同角度的连杆。例如，如果虚拟四杆的端杆在缩回时与地面平行，则它将始终与地面平行，即使完全旋转出去。这对于像爪子这样的机构是有益的，您希望在操作过程中与地面平行。此外，四杆可以在机器人框架之外提供延伸，并且由于机械臂跟随的“弧线”，通常提供垂直和水平延伸。此外，可以仔细选择杆的构造材料以节省重量。"
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:43
 msgid ""

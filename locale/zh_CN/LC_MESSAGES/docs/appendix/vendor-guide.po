@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2023
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 16:17+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,11 +99,12 @@ msgstr "正齿轮电机"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:31
 msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
-msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
+msgstr "经典的 :term:`AndyMark NeveRest 电机 <NeveRest Motor>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:32
 msgid ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
-msgstr ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
+msgstr ""
+":term:`REV HD Hex 电机 <HD Hex Motor>` & :term:`Core Hex 电机 <Core Hex Motor>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:33
 msgid "goBILDA 5201 Spur Gear"
@@ -119,11 +120,11 @@ msgstr "行星齿轮箱电机（推荐）"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:38
 msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Orbital"
-msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Orbital"
+msgstr ":term:`AndyMark NeveRest 电机 <NeveRest Motor>` Orbital"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:39
 msgid ":term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*"
-msgstr ":term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*"
+msgstr ":term:`REV HD Hex 电机 <HD Hex Motor>` Planetary & *UltraPlanetary*"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:40
 msgid ""
@@ -210,27 +211,26 @@ msgid ""
 "Actobotics :term:`channel <Channel>`, mini :term:`channel <Channel>`, X-rail"
 " :term:`extrusion <Extrusion>`"
 msgstr ""
-"Actobotics :term:`channel <Channel>`, 微型 :term:`channel <Channel>`, X-rail "
-":term:`extrusion <Extrusion>`"
+"Actobotics :term:`C形梁 <Channel>`, :term:`微型梁 <Channel>`, X-rail :term:`铝型材 "
+"<Extrusion>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:68
 msgid ""
 "REV extrusion, C :term:`channel <Channel>`, U :term:`channel <Channel>`"
-msgstr "REV 铝型材, C型 :term:`channel <Channel>`, U型 :term:`channel <Channel>`"
+msgstr "REV 铝型材,  :term:`C型梁 <Channel>`, :term:`U型梁 <Channel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:69
 msgid ""
 "goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`"
-msgstr ""
-"goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`"
+msgstr "goBILDA :term:`C形梁 <Channel>`, goRAIL :term:`铝型材 <Extrusion>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:70
 msgid "TETRIX :term:`channel <Channel>`"
-msgstr "TETRIX :term:`channel <Channel>` C形梁梁"
+msgstr "TETRIX :term:`C形梁 <Channel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:71
 msgid "MiSUMI :term:`extrusion <Extrusion>`"
-msgstr "MiSUMI :term:`extrusion <Extrusion>` 铝型材"
+msgstr "MiSUMI :term:`铝型材 <Extrusion>` "
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:73
 msgid "Gears/Sprockets/Pulleys"
@@ -238,23 +238,23 @@ msgstr "齿轮/链轮/滑轮"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:75
 msgid "REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
-msgstr "REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, 滑轮"
+msgstr "REV :term:`齿轮 <Gear>`, :term:`链轮 <Sprocket>`, 滑轮"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:76
 msgid "Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
-msgstr "Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, 滑轮"
+msgstr "Actobotics :term:`齿轮 <Gear>`, :term:`链轮 <Sprocket>`, 滑轮"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:77
 msgid "goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
-msgstr "goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, 滑轮"
+msgstr "goBILDA :term:`齿轮 <Gear>`, :term:`链轮 <Sprocket>`, 滑轮"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:78
 msgid "TETRIX :term:`gears <Gear>` and pulleys"
-msgstr "TETRIX :term:`gears <Gear>` 以及滑轮"
+msgstr "TETRIX :term:`齿轮 <Gear>` 以及滑轮"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:79
 msgid "AndyMark :term:`gears <Gear>` and pulleys"
-msgstr "AndyMark :term:`gears <Gear>` 以及滑轮"
+msgstr "AndyMark :term:`齿轮 <Gear>` 以及滑轮"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:81
 msgid "Wheels"
@@ -264,40 +264,33 @@ msgstr "车轮"
 msgid ""
 "AndyMark traction, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel"
 " <Mecanum Wheel>`"
-msgstr ""
-"AndyMark 橡胶轮, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel "
-"<Mecanum Wheel>`"
+msgstr "AndyMark :term:`橡胶轮 <Compliant Wheel>`, :term:`麦克纳姆轮 <Mecanum Wheel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:84
 msgid ""
 "REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum"
 " Wheel>`"
-msgstr ""
-"REV 硅胶轮, 橡胶轮, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
-"Wheel>`"
+msgstr "REV 硅胶轮, 橡胶轮, :term:`全向轮 <Omni Wheel>`, :term:`麦克纳姆轮 <Mecanum Wheel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:85
 msgid "ServoCity traction, :term:`omni wheel <Omni Wheel>`"
-msgstr "ServoCity 橡胶轮， :term:`omni wheel <Omni Wheel>`"
+msgstr "ServoCity 橡胶轮， :term:`全向轮 wheel <Omni Wheel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:86
 msgid ""
 "goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
 "Wheel>`"
-msgstr ""
-"goBILDA 橡胶轮, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
-"Wheel>`"
+msgstr "goBILDA 橡胶轮, :term:`全向轮 <Omni Wheel>`, :term:`麦克纳姆轮 <Mecanum Wheel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:87
 msgid ""
 "TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
 "Wheel>`"
-msgstr ""
-"TETRIX 橡胶轮, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`"
+msgstr "TETRIX 橡胶轮, :term:`全向轮 <Omni Wheel>`, :term:`麦克纳姆轮 <Mecanum Wheel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:88
 msgid "Nexus :term:`mecanum wheel <Mecanum Wheel>`"
-msgstr "Nexus :term:`mecanum wheel <Mecanum Wheel>`"
+msgstr "Nexus :term:`麦克纳姆轮 <Mecanum Wheel>`"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:90
 msgid "Linear Slide Kits"
@@ -305,7 +298,7 @@ msgstr "直线滑台"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:92
 msgid "REV 15 mm :term:`extrusion <Extrusion>` slide kit"
-msgstr "REV 15 mm 铝型材 :term:`extrusion <Extrusion>` 滑轨"
+msgstr "REV 15 mm :term:`铝型材 <Extrusion>` 滑轨"
 
 #: ../../gm0/source/docs/appendix/vendor-guide.rst:93
 msgid "Actobotics linear slide kit"

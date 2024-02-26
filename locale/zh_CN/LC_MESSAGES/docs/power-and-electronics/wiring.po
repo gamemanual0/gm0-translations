@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # wwsk2008sq, 2024
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-20 16:16+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,10 +74,9 @@ msgid ""
 "esd-mitigation-echin.pdf>`_ that is worth taking a look at."
 msgstr ""
 "*FIRST*\\ |reg| "
-"已创建了一个布线指南，以帮助团队完成本指南未涉及的压接电缆、焊接连接和防静电等任务。当您在这里阅读了电子和布线方面的知识后，请查看 \"FTC 布线指南"
-" "
+"已创建了一个布线指南，以帮助团队完成本指南未涉及的压接电缆、焊接连接和防静电等任务。当您在这里阅读了电子和布线方面的知识后，请查看 `FTC 布线指南 "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
-"wiring-guide.pdf>`_\"，了解最佳实践和更多技巧。此外，*FIRST*还撰写了 ` ESD缓解白皮书 "
+"wiring-guide.pdf>`_ ，了解最佳实践和更多技巧。此外，*FIRST* 还撰写了 `ESD缓解白皮书 "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
 "esd-mitigation-echin.pdf>`_ ，值得一看。"
 
@@ -148,7 +147,7 @@ msgstr "**使用数据/传感器电缆时，应使其远离电机。** 这将减
 msgid ""
 "**Crimped connectors are generally better than soldered connectors**, as "
 "solder joints can break easier than a crimped connection."
-msgstr "**压接连接器通常比焊接连接器**好，因为焊点比压接连接更容易断裂。"
+msgstr "**压接连接器通常比焊接连接器** 好，因为焊点比压接连接更容易断裂。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:32
 msgid ""
@@ -159,7 +158,8 @@ msgid ""
 "advised for teams to purchase removable velcro ties or cable ties to aid "
 "with cable management."
 msgstr ""
-"**确保电线远离移动的机械装置，**并确保不会出现机械装置卡住电线的危险。这是亚克力等材料的正确应用，既能让驾驶员看到机器人内部，又能使电线远离其他机器人/游戏部件。建议参赛队购买可拆卸的魔术贴绑带或电缆绑带来帮助管理电缆。"
+"**确保电线远离移动的机械装置，** "
+"并确保不会出现机械装置卡住电线的危险。这是亚克力等材料的正确应用，既能让驾驶员看到机器人内部，又能使电线远离其他机器人/游戏部件。建议参赛队购买可拆卸的魔术贴绑带或电缆绑带来帮助管理电缆。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:33
 msgid ""
@@ -167,15 +167,15 @@ msgid ""
 "preferable.** This means a lower resistance across the wire and higher power"
 " throughput. This is negligible for data wires, however."
 msgstr ""
-"**对于电源线，最好使用较低** :term:`gauge "
-"<Gauge>`**（较大尺寸）的导线。**这意味着导线上的电阻较低，功率吞吐量较高。不过，这对数据线来说微不足道。"
+"**对于电源线，最好使用较低** :term:`gauge <Gauge>` ** （较大尺寸）的导线。** "
+"这意味着导线上的电阻较低，功率吞吐量较高。不过，这对数据线来说微不足道。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:34
 msgid ""
 "**Small wires and cables are fragile.** Treat them as such, and don't put "
 "them in an area where they will constantly be hit by another object. Larger "
 "power cables can take much more abuse."
-msgstr "**小电线和电缆很容易损坏。**请将它们视为易损坏的物品，不要将它们放在经常会被其他物体撞击的地方。较大的电源线可以承受更多的磨损。"
+msgstr "**小电线和电缆很容易损坏。** 请将它们视为易损坏的物品，不要将它们放在经常会被其他物体撞击的地方。较大的电源线可以承受更多的磨损。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:35
 msgid ""
@@ -273,9 +273,9 @@ msgid ""
 ":term:`XT30` connectors are soldered, they can break much easier than "
 ":term:`PowerPole <Anderson PowerPole>` connections."
 msgstr ""
-"请注意，:term:`XT30`连接器的磨损速度比:term:`PowerPole <Anderson "
-"PowerPole>`连接器快得多。此外，由于:term:`XT30`连接器是焊接的，所以它们比:term:`PowerPole <Anderson "
-"PowerPole>`连接更容易断裂。"
+"请注意， :term:`XT30` 连接器的磨损速度比 :term:`PowerPole <Anderson PowerPole>` "
+"连接器快得多。此外，由于 :term:`XT30` 连接器是焊接的，所以它们比 :term:`PowerPole <Anderson "
+"PowerPole>` 连接更容易断裂。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:81
 msgid ""
@@ -303,9 +303,9 @@ msgid ""
 "the back of the motor. Once your wires are run and secured, taking them out "
 "won't be fun."
 msgstr ""
-"一些电机（如：term:`REV HD Hex <HD Hex Motor>`和：term:`Core Hex <Core Hex "
-"Motor>`）在背面上有可拆卸的电源连接器，而其他电机（如：term:`Andymark NeveRests <NeveRest "
-"Motor>`）在背面上有一个电缆永久焊接。在电机背面上有一个连接器或者在电机背面上有一个非常短的插头会更加方便，如果没有这样的话，一旦你的电线安装好并固定好，取出它们将不会很有趣。"
+"一些电机（如 :term:`REV HD Hex <HD Hex Motor>` 和 :term:`Core Hex <Core Hex Motor>`"
+" ）在背面上有可拆卸的电源连接器，而其他电机（如 :term:`Andymark NeveRests <NeveRest Motor>` "
+"）在背面上有一个电缆永久焊接。在电机背面上有一个连接器或者在电机背面上有一个非常短的插头会更加方便，如果没有这样的话，一旦你的电线安装好并固定好，取出它们将不会很有趣。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:91
 msgid "Servo Wires"
@@ -414,7 +414,8 @@ msgid ""
 "or may not be on the boundary of legality, as grounding the robot to the "
 "ground is illegal."
 msgstr ""
-"每次比赛结束后，可以用烘干纸擦拭机器人，以减少静电积累。这并不是*FIRST*或任何供应商的直接建议，但我们多年来的经验表明，这样做是有帮助的，至少不会有什么坏处。不过，干燥剂可能会也可能不会触犯规则，因为将机器人接地是违规的。"
+"每次比赛结束后，可以用烘干纸擦拭机器人，以减少静电积累。这并不是 *FIRST* "
+"或任何供应商的直接建议，但我们多年来的经验表明，这样做是有帮助的，至少不会有什么坏处。不过，干燥剂可能会也可能不会触犯规则，因为将机器人接地是违规的。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:122
 msgid "Staticide/static spray"

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
-# DomnickJYH, 2024
+# DomnickJYH, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -250,7 +250,7 @@ msgid ""
 " bearings <Ball Bearing>`. Mecanums which use ball bearings strafe better "
 "than those which use bushings, as the rollers can spin with less friction."
 msgstr ""
-"麦克纳姆轮最重要的特征之一是让滚子旋转的装置--:term:`bushings <Bushing>`或:term:`ball bearings "
+"麦克纳姆轮最重要的特征之一是让滚子旋转的装置-- :term:`bushings <Bushing>`或 :term:`ball bearings "
 "<Ball Bearing>`。使用滚珠轴承的机械轮比使用衬套的机械轮更能飞，因为滚轮旋转时的摩擦更小。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:102
@@ -331,7 +331,7 @@ msgid ""
 "However, they are more expensive, take up more space, have less traction, "
 "and are harder to mount to than the recommended wheels."
 msgstr ""
-"Nexus 滚珠轴承 麦轮 <https://www.robotshop.com/en/100mm-mecanum-wheel-"
+"`Nexus 滚珠轴承 麦轮 <https://www.robotshop.com/en/100mm-mecanum-wheel-"
 "set.html>`_（134.00 美元）：这些轮子直径 100 毫米，宽 59 "
 "毫米。由于使用了滚珠轴承，它们的平移性能非常出色。不过，它们比推荐的轮子更贵，占用空间更大，牵引力更小，而且更难安装。"
 
@@ -355,7 +355,7 @@ msgid ""
 "perform worse than bearing based ones. They have a good amount of traction, "
 "more than the Nexus bearing or bushing wheels."
 msgstr ""
-"Andymark Heavy Duty Mecanum Wheels <https://www.andymark.com/products/4-in-"
+"`Andymark Heavy Duty Mecanum Wheels <https://www.andymark.com/products/4-in-"
 "hd-mecanum-wheel-set-options>`_（225 美元）：这些轮子是清单上最昂贵的轮子。这些轮子直径为 4 英寸，宽 1.65 "
 "英寸。这些轮子就是基于衬套的麦轮，因此虽然它们的打击性能不错，但仍然比基于轴承的轮子差。它们有很好的牵引力，比 Nexus 轴承或衬套车轮更大。"
 
@@ -367,7 +367,7 @@ msgid ""
 " them except that they strafe decently but worse than the ball bearing based"
 " equivalent."
 msgstr ""
-"Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-"
+"`Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-"
 "mecanum-wheel-set.html>`_（80.00 美元）：这是使用衬套而不是滚珠轴承的 Nexus Ball Bearing "
 "Mecanum Wheel。除了扫射效果不错，但比滚珠轴承的同类产品差一些之外，没有什么可说的。"
 
@@ -393,7 +393,7 @@ msgid ""
 "is a set screw based design with a round bore, causing unreliability as well"
 " as taking up extra space."
 msgstr ""
-"TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-"
+"`TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-"
 "Wheels>`_（149.00 "
 "美元）：这些麦轮采用基于衬套的硬塑料滚轮设计，因此平移性能较差。集成式轮毂是一种基于固定螺丝的圆孔设计，不仅不可靠，而且占用额外空间。"
 
@@ -403,7 +403,7 @@ msgid ""
 "<https://www.andymark.com/products/4-in-standard-mecanum-wheel-set>`_ "
 "($77.00): These wheels barely strafe and are super fragile."
 msgstr ""
-"Andymark Standard Duty Mecanum Wheels "
+"`Andymark Standard Duty Mecanum Wheels "
 "<https://www.andymark.com/products/4-in-standard-mecanum-wheel-"
 "set>（$77.00）：这些轮子几乎不能平移，而且非常脆弱。"
 
@@ -422,7 +422,7 @@ msgstr "731 Wannabee Strange 的 mecanum 传动系统效果图"
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:138
 msgid ""
 "731 Wannabee Strange, Rover Ruckus, using **AndyMark HD mecanum wheels**"
-msgstr "731 Wannabee Strange，Rover Ruckus，使用 **AndyMark HD mecanum 车轮**。"
+msgstr "731 Wannabee Strange，Rover Ruckus，使用 **AndyMark HD mecanum 车轮** 。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:141
 msgid "X-Drive"

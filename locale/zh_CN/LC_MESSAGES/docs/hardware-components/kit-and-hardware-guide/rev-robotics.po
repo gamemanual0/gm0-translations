@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,7 +101,7 @@ msgid ""
 " <Extrusion>` and provides stiffness and support when needed."
 msgstr ""
 "此外，REV 还提供 45x45mm :term:`U-channel <Channel>` 和 45x45mm :term:`C-channel "
-"<Channel>`，其强度高于 :term:`extrusion <Extrusion>`，并在需要时提供刚度和支撑。"
+"<Channel>`，其强度高于 :term:`铝型材 <Extrusion>`，并在需要时提供刚度和支撑。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:23
 msgid ""
@@ -160,14 +160,14 @@ msgstr "REV 套件的一个优势是兼容 15x15mm MiSUMI :term:`铝型材 <Extr
 msgid ""
 "15x15mm REV :term:`extrusion <Extrusion>` isn't as structurally strong as "
 "MiSUMI for two reasons."
-msgstr "15x15mm REV :term:`extrusion <Extrusion>` 结构强度不如 MiSUMI，原因有二。"
+msgstr "15x15mm REV :term:`铝型材 <Extrusion>` 结构强度不如 MiSUMI，原因有二。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:37
 msgid ""
 "REV extrusion is 6063 aluminum, while MiSUMI :term:`extrusion <Extrusion>` "
 "is made out of A6N01SS-T5 aluminum, a stronger and stiffer alloy."
 msgstr ""
-"REV 型材是 6063 铝，而 MiSUMI :term:`extrusion <Extrusion>` 是由 A6N01SS-T5 "
+"REV 型材是 6063 铝，而 MiSUMI :term:`铝型材 <Extrusion>` 是由 A6N01SS-T5 "
 "铝制成，这是一种强度更高、硬度更大的合金。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:39
@@ -256,7 +256,7 @@ msgid ""
 ":term:`Extrusion` allows teams to save space as opposed to :term:`channel "
 "<Channel>`, and is lighter than aluminum :term:`channel <Channel>`."
 msgstr ""
-"与 :term:`C形梁 <Channel>` 相比， :term:`铝型材 可以让团队节省空间，而且比铝制:term:`C形梁 "
+"与 :term:`C形梁 <Channel>` 相比， :term:`铝型材 可以让团队节省空间，而且比铝制 :term:`C形梁 "
 "<Channel>`更轻。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:76

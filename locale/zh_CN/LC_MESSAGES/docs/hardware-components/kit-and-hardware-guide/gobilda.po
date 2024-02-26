@@ -5,17 +5,17 @@
 # 
 # Translators:
 # guluomagongchengshi, 2023
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -106,7 +106,7 @@ msgid ""
 "goBILDA :term:`shafts <Shaft>` are metric (:term:`6mm D <Shaft>` and "
 ":term:`8mm rounded hex <Shaft>`)."
 msgstr ""
-"goBILDA :term:`shafts <Shaft>` 是公制（:term:`6mm D <Shaft>` 和 :term:`8mm "
+"goBILDA :term:`shafts <Shaft>` 是公制（ :term:`6mm D <Shaft>` 和 :term:`8mm "
 "rounded hex <Shaft>`）。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:25
@@ -180,8 +180,8 @@ msgid ""
 "<Channel>` offerings well. goRAIL is used in the linear actuator kit for "
 "extending mechanisms."
 msgstr ""
-"goRAIL 是 :term:`extrusion <Extrusion>`，与 :term:`channel <Channel>` "
-"的产品相得益彰。goRAIL 用于线性推杆套件中的延伸机构。"
+"goRAIL 是 :term:`铝型材 <Extrusion>`，与 :term:`channel <Channel>` 的产品相得益彰。goRAIL "
+"用于线性推杆套件中的延伸机构。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:51
 msgid "Verdict"
@@ -246,7 +246,8 @@ msgid ""
 "REV's ecosystem."
 msgstr ""
 "goBILDA 也能与 TETRIX :term:`channel <Channel>` 接口，因为它们共享一些漏洞。有关 TETRIX-goBILDA"
-" 兼容性的更多信息，请访问 <https://gobildatetrix.blogspot.com/> 。它与 REV 的生态系统也相当兼容。"
+" 兼容性的更多信息，请访问 `这个网站 <https://gobildatetrix.blogspot.com/>`_。它与 REV "
+"的生态系统也相当兼容。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:67
 msgid ""
@@ -271,7 +272,7 @@ msgid ""
 "goBILDA has plenty of :term:`shaft <Shaft>`, :term:`ball bearing <Ball "
 "Bearing>`, and pillow block options."
 msgstr ""
-"goBILDA 有大量 :term:`shaft <Shaft>`、:term:`ball bearing <Ball Bearing>` "
+"goBILDA 有大量 :term:`shaft <Shaft>`、 :term:`ball bearing <Ball Bearing>` "
 "和枕式轴承可供选择。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:72

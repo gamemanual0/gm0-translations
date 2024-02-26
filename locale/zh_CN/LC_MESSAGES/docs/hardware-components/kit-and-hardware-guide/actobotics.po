@@ -5,17 +5,17 @@
 # 
 # Translators:
 # 芷晗 李, 2023
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,8 +34,9 @@ msgid ""
 "goBILDA. We are retaining these pages as historical reference for teams that"
 " continue to have and use Actobotics parts."
 msgstr ""
-"自2023年6月起，ServoCity将停止Actobotics产品 <https://www.servocity.com/blog/farewell-"
-"to-actobotics/>`_，专注于 goBILDA。我们将保留这些页面，作为继续拥有和使用Actobotics零件的队伍的历史参考。"
+"自2023年6月起，ServoCity将 `停止Actobotics产品 "
+"<https://www.servocity.com/blog/farewell-to-actobotics/>`_，专注于 "
+"goBILDA。我们将保留这些页面，作为继续拥有和使用Actobotics零件的队伍的历史参考。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:8
 msgid ""
@@ -45,9 +46,9 @@ msgid ""
 "bearing <Ball Bearing>` based motion system allows teams to iterate and "
 "build mechanisms entirely from kit parts."
 msgstr ""
-"来自ServoCity(https://www.servocity.com/actobotics)的Actobotics套件是一个固定间距、:term:`基于链条"
-" <Channel>` 使用英制单位的构建系统。其 1.5英寸:term:`链条 <Channel>` 和 :term:`滚珠 <Ball "
-"Bearing>` 运动系统使团队能够完全利用套件部件进行迭代和构建机械装置。"
+"来自ServoCity(https://www.servocity.com/actobotics)的Actobotics套件是一个固定间距、 "
+":term:`基于链条 <Channel>` 使用英制单位的构建系统。其 1.5英寸 :term:`链条 <Channel>` 和 :term:`滚珠 "
+"<Ball Bearing>` 运动系统使团队能够完全利用套件部件进行迭代和构建机械装置。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
 msgid "Special Considerations"
@@ -77,7 +78,7 @@ msgid ""
 "ServoCity offers a 25% off discount for all *FIRST*\\ |reg| teams making, "
 "pricing competitive: https://www.servocity.com/first_team_discounts"
 msgstr ""
-"ServoCity 为所有*FIRST*\\|reg|团队提供七五折优惠，价格极具竞争力： "
+"ServoCity 为所有*FIRST*\\ |reg|团队提供七五折优惠，价格极具竞争力： "
 "https://www.servocity.com/first_team_discounts"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:19
@@ -117,7 +118,7 @@ msgid ""
 " for all teams, regardless of kit. However, :term:`Servoblocks` seamlessly "
 "interface with the Actobotics ecosystem."
 msgstr ""
-":term:`舵机座` 可延长舵机的使用寿命，建议所有队伍使用，无论套件如何。不过，:term:`舵机座` "
+":term:`舵机座` 可延长舵机的使用寿命，建议所有队伍使用，无论套件如何。不过， :term:`舵机座` "
 "能与Actobotics搭建体系系统无缝对接。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:26
@@ -172,7 +173,7 @@ msgid ""
 "increase servo life by protecting it from shock loads. More information may "
 "be found in the glossary."
 msgstr ""
-"Actobotics拥有专利术语:\":term:`Servoblocks`\"，通过保护舵机免受冲击载荷，大大延长了舵机的使用寿命。更多信息请参见术语表。"
+"Actobotics拥有专利:\":term:`Servoblocks`\"，通过保护舵机免受冲击载荷，大大延长了舵机的使用寿命。更多信息请参见术语表。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:43
 msgid ""
@@ -194,7 +195,7 @@ msgid ""
 ":doc:`TETRIX section <tetrix>`, set screws in particular are vulnerable to "
 "loosening, especially without application of Loctite."
 msgstr ""
-"与 :term:`固定螺钉 <Set Screw>` 相比，:term:`夹紧轮毂 <Clamping Hub>` 更可靠，因为与 "
+"与 :term:`固定螺钉 <Set Screw>` 相比， :term:`夹紧轮毂 <Clamping Hub>` 更可靠，因为与 "
 ":term:`固定螺钉 <Set Screw>` （单面）相比，夹紧轮毂与轴啮合的位置更多。正如在 :doc:`TETRIX部分 <tetrix>` "
 "中所讨论的，固定螺钉尤其容易松动，特别是在没有涂抹粘合剂的情况下。"
 

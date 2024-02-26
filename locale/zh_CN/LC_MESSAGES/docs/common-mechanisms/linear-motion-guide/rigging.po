@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 16:17+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -97,7 +97,10 @@ msgid ""
 "doing so, the distance between the top of one stage and the bottom of the "
 "next stage decreases, causing the system to extend."
 msgstr ""
-"连续传动结构需要将一根长长的**延长绳**，从一个马达驱动的线轴上拉出，拉到基础平台的顶部，然后拉到第一级平台的底部，再拉到第一级平台的顶部，然后拉到第二级平台的底部，等等。然后，从与延伸线轴处于同一轴线缆上的第二个线轴上引出的**收缩绳**被固定在顶级上。当电机向一个方向旋转时，延长线缆卷轴将延长线缆卷入，使其变短。这样，一级顶端与下一级底端之间的距离就会减小，从而使系统延伸。"
+"连续传动结构需要将一根长长的 "
+"**延长绳**，从一个马达驱动的线轴上拉出，拉到基础平台的顶部，然后拉到第一级平台的底部，再拉到第一级平台的顶部，然后拉到第二级平台的底部，等等。然后，从与延伸线轴处于同一轴线缆上的第二个线轴上引出的"
+" "
+"**收缩绳**被固定在顶级上。当电机向一个方向旋转时，延长线缆卷轴将延长线缆卷入，使其变短。这样，一级顶端与下一级底端之间的距离就会减小，从而使系统延伸。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:31
 msgid ""
@@ -120,7 +123,8 @@ msgid ""
 "opposite direction of the retraction string. Thus, if the extension is "
 "wrapped clockwise, the retraction must be wrapped counterclockwise."
 msgstr ""
-"一旦上一级达到极限，紧接着的下一级就会向外伸展，依此类推；这种模式不断重复，直到每一级都完全伸展为止。当电机**反向**旋转时，缩回绳被卷入，将顶级拉近其起始位置，直到系统回到起始位置。对于缩回绳，通常需要在伸展器后部附近增加一个额外的滑轮。这是因为缩回装置只能缩回到最远点，通常就是线轴。不过，线轴可能不会安装在机器人的最里面，因此需要额外的滑轮。需要注意的是，要想实现这一功能，延长线缆应绕在线轴上，方向与回缩线缆相反。因此，如果延长线缆按顺时针方向缠绕，则缩回线缆必须按逆时针方向缠绕。"
+"一旦上一级达到极限，紧接着的下一级就会向外伸展，依此类推；这种模式不断重复，直到每一级都完全伸展为止。当电机 **反向** "
+"旋转时，缩回绳被卷入，将顶级拉近其起始位置，直到系统回到起始位置。对于缩回绳，通常需要在伸展器后部附近增加一个额外的滑轮。这是因为缩回装置只能缩回到最远点，通常就是线轴。不过，线轴可能不会安装在机器人的最里面，因此需要额外的滑轮。需要注意的是，要想实现这一功能，延长线缆应绕在线轴上，方向与回缩线缆相反。因此，如果延长线缆按顺时针方向缠绕，则缩回线缆必须按逆时针方向缠绕。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:35
 msgid ""
@@ -137,7 +141,7 @@ msgstr "一般来说，连续线轴可由齿轮比相对较低的系统提供动
 msgid ""
 "The extension string and retraction string **do not need to be separate "
 "strings, but it is much easier to tension the system if they are separate**."
-msgstr "拉伸绳和回缩绳**不需要分开，但如果分开，张紧这个架构会容易得多。**"
+msgstr "拉伸绳和回缩绳 **不需要分开，但如果分开，张紧这个架构会容易得多。** "
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:41
 msgid "The extension spool and retraction spool should be the same diameter."
@@ -200,8 +204,8 @@ msgid ""
 "time**. The second stage moves 2 times as fast as the first stage relative "
 "to the base, the third 3 times as fast, and so on."
 msgstr ""
-"当电机朝一个方向旋转时，延伸线轴卷入第一根线缆，减小第一级底座和底部之间的距离。这将推动第二根绳向前，减小第一级顶部和第二级底部之间的距离，依此类推。请注意，与连续索具不同的是，**每个级都同时移动**。第二级相对于底座的移动速度是第一级的"
-" 2 倍，第三级是第一级的 3 倍，以此类推。"
+"当电机朝一个方向旋转时，延伸线轴卷入第一根线缆，减小第一级底座和底部之间的距离。这将推动第二根绳向前，减小第一级顶部和第二级底部之间的距离，依此类推。请注意，与连续索具不同的是，"
+" **每个级都同时移动** 。第二级相对于底座的移动速度是第一级的 2 倍，第三级是第一级的 3 倍，以此类推。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:66
 msgid ""
@@ -237,7 +241,9 @@ msgid ""
 " prevent entanglement, and **free floating retraction** should only be used "
 "with purely vertical slides."
 msgstr ""
-"顾名思义，连续缩回利用倒置的连续索具来缩回滑轨。主要有两种方法：**自由浮动回缩**，即绳子从最后一级直接回到线轴；**滑块附带回缩**，即绳子以反连续模式运行。一般来说，**滑块附带回缩**应与机器人框架外的延伸部分一起使用，以防止缠绕，而**自由浮动回缩**只能与纯垂直滑块一起使用。"
+"顾名思义，连续缩回利用倒置的连续索具来缩回滑轨。主要有两种方法：**自由浮动回缩** ，即绳子从最后一级直接回到线轴； **滑块附带回缩** "
+"，即绳子以反连续模式运行。一般来说， **滑块附带回缩** "
+"应与机器人框架外的延伸部分一起使用，以防止缠绕，而**自由浮动回缩**只能与纯垂直滑块一起使用。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:81
 msgid ""
@@ -258,7 +264,7 @@ msgid ""
 "If free floating retraction is used, **make sure your retract string is "
 "always parallel to the slides**. If the string is misaligned, it can pull on"
 " your slide and cause excess bending forces on the stages."
-msgstr "如果使用自由浮动缩放，**确保缩放绳始终与滑台平行**。如果线缆错位，就会拉扯滑块，导致平台产生过大的弯曲力。"
+msgstr "如果使用自由浮动缩放， **确保缩放绳始终与滑台平行** 。如果线缆错位，就会拉扯滑块，导致平台产生过大的弯曲力。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:90
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:104
@@ -352,8 +358,8 @@ msgid ""
 "of stages in the system, the diameter of the continuous extension spool must"
 " be :math:`N` **times bigger** than the cascade retraction spool."
 msgstr ""
-"如果级联缩回与连续拉伸同时使用，则两个线轴的直径不能相同。如果变量 :math:`N` 是系统中的级数，则连续拉伸线轴的直径必须 "
-"比级联缩回线轴**大:math:`N` 倍**。"
+"如果级联缩回与连续拉伸同时使用，则两个线轴的直径不能相同。如果变量 :math:`N` 是系统中的级数，则连续拉伸线轴的直径必须 比级联缩回线轴 "
+"**大** :math:`N` **倍**。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:124
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
@@ -402,7 +408,7 @@ msgid ""
 "9:1."
 msgstr ""
 "与连续式索具不同的是，层叠系统每增加一级，保持相同延伸速度所需的齿轮比就会增加。例如，如果在齿轮比为 3:1 "
-"的一级级联移位机上增加两级，则齿轮比必须增加:math:`frac{2+1}{1}`的系数才能保持相同的速度，即齿轮比变为 9:1。"
+"的一级级联移位机上增加两级，则齿轮比必须增加 :math:`\\frac{2+1}{1}` 的系数才能保持相同的速度，即齿轮比变为 9:1。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:142
 msgid ""
@@ -513,7 +519,7 @@ msgid ""
 "down. It is possible for elevators to have multi stage designs, but powering"
 " them will be more complex."
 msgstr ""
-"皮带和链条升降机在 FRC |reg | "
+"皮带和链条升降机在 FRC\\ |reg| "
 "中几乎无处不在，似乎一直存在。其基本前提是在升降器的顶部和底部安装链轮或滑轮，将其固定在机器人上部结构上。然后，用硬螺栓将皮带或链条固定在靠近底部链轮或滑轮的升降器上。当链条或皮带被驱动时，升降器将上下移动。升降器可以采用多级设计，但其动力装置将更为复杂。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:191
@@ -703,9 +709,8 @@ msgid ""
 "InnerH-InnerW-Plastic-"
 "Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
 msgstr ""
-"uxcell 10x10mm 拖链，来自亚马逊 <https://www.amazon.com/uxcell-InnerH-InnerW-"
-"Plastic-"
-"Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
+"`uxcell 10x10mm 拖链，来自亚马逊 <https://www.amazon.com/uxcell-InnerH-InnerW-"
+"Plastic-`_Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:246
 msgid "Difficult to get tangled/hooked onto other objects or robots"
@@ -785,7 +790,7 @@ msgid ""
 "Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-"
 "Alligator/dp/B07WPRJY9K/>`_."
 msgstr ""
-"虽然这种技术并不常见，但可自动伸缩支架可以帮助管理外部连接件上的接线。这些都是常见的物品； ` 这里有一个来自亚马逊的购买链接。 "
+"虽然这种技术并不常见，但可自动伸缩支架可以帮助管理外部连接件上的接线。这些都是常见的物品； `这里有一个来自亚马逊的购买链接。 "
 "<https://www.amazon.com/OFES-Retractable-Holder-Swivel-"
 "Alligator/dp/B07WPRJY9K/>`_。"
 

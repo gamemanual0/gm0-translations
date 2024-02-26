@@ -5,17 +5,17 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# Shawphy, 2024
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 16:16+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:4
 msgid "Extrusion Slides"
-msgstr "挤压滑轨"
+msgstr "铝型材滑轨"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:6
 msgid ""
@@ -51,7 +51,7 @@ msgid ""
 msgstr ""
 "REV、Actobotics 和 goBILDA 都在销售挤压滑轨套件，这些套件可以很好地与现有的 FTC\\ |reg| "
 "套件部件集成。除此之外，OpenBuilds 还销售适用于较重负载的 V 轮挤压滑轨套件，Misumi 则提供几种不同尺寸的套管式挤压滑轨。此外，REV"
-" 还销售一种 8020 V 形槽轴承滑轨套件，适用于 FRC a||reg|，但不建议用于 FTC 使用情况。"
+" 还销售一种 8020 V 形槽轴承滑轨套件，适用于 FRC\\ |reg|，但不建议用于 FTC 使用情况。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:10
 msgid ""
@@ -71,8 +71,8 @@ msgid ""
 " as they have developed a second iteration of their slide kit, which has "
 "much better tolerances on the Delrin sliders."
 msgstr ""
-"REV 15 毫米线性运动套件 <https://www.revrobotics.com/rev-45-1507/>`_基于 15 "
-"毫米挤压系统。**REV公司开发了第二代滑动套件，该套件的 Delrin 滑轨公差更小，因此部分弥补了这一缺陷。"
+"`REV 15 毫米线性运动套件 <https://www.revrobotics.com/rev-45-1507/>`_ 基于 15 毫米挤压系统。 "
+"**这个铝型材套件必须经过精修才好用** REV公司开发了第二代滑动套件，该套件的 Delrin 滑轨公差更小，因此部分弥补了这一缺陷。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:17
 msgid ""
@@ -177,7 +177,7 @@ msgid ""
 "belt lifts, but they could easily be adapted to work for multi-stage or "
 "string lifts given some thought and additional parts."
 msgstr ""
-"OpenBuilds 迷你 V  “龙门”式套 <https://openbuildspartstore.com/mini-v-gantry-"
+"`OpenBuilds 迷你 V  “龙门”式套 <https://openbuildspartstore.com/mini-v-gantry-"
 "kit/>`_专为 OpenBuilds 的 20 毫米 V 型槽挤出机而设计，可使用 M3 螺丝和滑动 T "
 "型螺母安装到其他构建系统上。OpenBuilds 滑轨可用于 3D 打印机和数控机床等高精度应用，与 REV 和 Actobotics "
 "滑轨相比，具有**高的承载能力。OpenBuilds 滑轨也比 REV 和 Actobotics "
@@ -228,7 +228,7 @@ msgid ""
 "carriage, used in FRC, goRAIL is a lighter option that is better suited for "
 "FTC."
 msgstr ""
-"线性运动导轨 <https://www.gobilda.com/gorail-based/>`_ 是 goBILDA 使用 goRAIL "
+"`线性运动导轨 <https://www.gobilda.com/gorail-based/>`_ 是 goBILDA 使用 goRAIL "
 "实现的线性运动，goRAIL 是一种与 V 型槽轴承兼容的挤压产品。goRAIL 与用于 FRC 的标准 8020 V "
 "型槽滑轨类似，是一种更轻的选择，更适合用于 FTC。"
 
@@ -246,8 +246,8 @@ msgid ""
 "slide-kit>`_ works well out of the box. However, the main caveat is that the"
 " kit has a **very low maximum load (2lb. at maximum extension)**."
 msgstr ""
-"Actobotics 的 \"X 导轨滑动套件 <https://www.servocity.com/cascading-x-rail-slide-"
-"kit>`_\"开箱即用，效果很好。不过，需要注意的是，该套件的**最大负载值非常非常低（最大伸展时仅为 2 磅）**。"
+"Actobotics 的 `X 导轨滑动套件 <https://www.servocity.com/cascading-x-rail-slide-"
+"kit>`_ 开箱即用，效果很好。不过，需要注意的是，该套件的**最大负载值非常非常低（最大伸展时仅为 2 磅）**。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:84
 msgid ""

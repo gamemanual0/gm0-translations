@@ -6,18 +6,18 @@
 # Translators:
 # guluomagongchengshi, 2023
 # 芷晗 李, 2023
-# Shawphy, 2023
 # wwsk2008sq, 2024
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,9 +46,9 @@ msgid ""
 "driven <Direct Drive>` :term:`traction wheels <Traction wheel>` with "
 "unpowered :term:`omni wheels <Omni Wheel>`."
 msgstr ""
-"这种新手传动系统被认为是低级传动系统之一，尽管它在低级比赛中也能使用。这是许多新手的入门传动系统类型，因为*FIRST*/|reg|出版的官方指南中推广了这种传动系统（给它起了个名字叫pushbot）。它通常有"
-" :term:`直接驱动 <Direct Drive>` :term:`牵引轮 <Traction wheel>` 和无动力的 :term:`全向轮 "
-"<Omni Wheel>`。"
+"这种新手传动系统被认为是低级传动系统之一，尽管它在低级比赛中也能使用。这是许多新手的入门传动系统类型，因为 *FIRST*\\ |reg| "
+"出版的官方指南中推广了这种传动系统（给它起了个名字叫pushbot）。它通常有 :term:`直接驱动 <Direct Drive>` "
+":term:`牵引轮 <Traction wheel>` 和无动力的 :term:`全向轮 <Omni Wheel>`。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:13
 msgid ""
@@ -344,7 +344,7 @@ msgid ""
 msgstr ""
 "六轮传动系统是 FTC "
 "中常见的竞技传动系统，原因有很多：它具有出色的牵引力和转弯性能，而且由于有六个车轮，传动系统与地面的接触更多，有助于提高稳定性和牵引力。6 "
-"轮传动系统主要有两种类型：**转角全向** 和 **投放中心**。"
+"轮传动系统主要有两种类型：**转角全向** 和 **投放中心** 。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:140
 msgid "**Drop Center**"
@@ -618,7 +618,7 @@ msgid ""
 "great either - TETRIX tracks have a tendency to snap and derail when used on"
 " robot drivetrains, making them not suitable for competition use."
 msgstr ""
-"胎面很复杂，有很多故障点。胎面也非常容易损坏，来自其他机器人的轻微撞击就足以使胎面错位。 :term: `商用现货 (COTS) <COTS>` "
+"胎面很复杂，有很多故障点。胎面也非常容易损坏，来自其他机器人的轻微撞击就足以使胎面错位。 :term:`商用现货 (COTS) <COTS>` "
 "胎面的选择也不多--TETRIX 履带在用于机器人传动系统时容易断裂和脱轨，因此不适合在比赛中使用。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:262

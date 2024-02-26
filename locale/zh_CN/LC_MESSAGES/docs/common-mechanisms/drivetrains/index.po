@@ -5,17 +5,17 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,7 +104,8 @@ msgid ""
 "the optimal choice for drivetrain, especially if the robot is projected to "
 "be on the heavy side (30+ pounds)."
 msgstr ""
-"**可靠性**：可靠性是*FIRST**\\|reg|科技挑战赛成功的关键，它始于任何机器人的基础传动系统。可靠性需要考虑的一个方面是传动系统中使用的电机和变速箱的类型。例如，与行星齿轮箱相比，正齿轮箱在负载下更容易损坏。(详见"
+"**可靠性** ：可靠性是 **FIRST**\\|reg| "
+"科技挑战赛成功的关键，它始于任何机器人的基础传动系统。可靠性需要考虑的一个方面是传动系统中使用的电机和变速箱的类型。例如，与行星齿轮箱相比，正齿轮箱在负载下更容易损坏。(详见"
 " :doc:`/docs/power-and-electronics/motor-guide/index` "
 "章节）。因此，正齿轮电机并非传动系统的最佳选择，尤其是当机器人预计偏重（30 磅以上）时。"
 
@@ -124,7 +125,8 @@ msgid ""
 "the drivetrain. Generally, a solid drivetrain should have a free speed "
 "(speed under no load) in the range of 4.5-6 feet/second."
 msgstr ""
-"**灵活性**：灵活性有许多因素：最高速度、加速度、转弯半径、转弯速度和转向能力。请注意，转弯半径是一个经常被忽视的特性，它对动力传动系统的整体灵活性至关重要。一般来说，牢靠的传动系统的自由速度（空载时的速度）应在"
+"**灵活性** "
+"：灵活性有许多因素：最高速度、加速度、转弯半径、转弯速度和转向能力。请注意，转弯半径是一个经常被忽视的特性，它对动力传动系统的整体灵活性至关重要。一般来说，牢靠的传动系统的自由速度（空载时的速度）应在"
 " 4.5-6 英尺/秒之间。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:30
@@ -137,8 +139,9 @@ msgid ""
 ":term:`defense <Defense>`, but in general, maneuverability and speed are the"
 " main factors to a successful drivetrain."
 msgstr ""
-"**电机数量和齿轮比**：一般来说，新参赛队可能会尝试在传动系统上只使用两个电机。虽然这是可行的，但不建议这样做，因为所有有竞争力的团队都在传动系统上使用"
-" 4 个以上的电机。另一个经验问题是，大多数参赛队的传动系统速度太慢。更高级的团队可能会注重 :term:`防御性 "
+"**电机数量和齿轮比** "
+"：一般来说，新参赛队可能会尝试在传动系统上只使用两个电机。虽然这是可行的，但不建议这样做，因为所有有竞争力的团队都在传动系统上使用 4 "
+"个以上的电机。另一个经验问题是，大多数参赛队的传动系统速度太慢。更高级的团队可能会注重 :term:`防御性 "
 "<Defense>`的能力，但一般来说，机动性和速度是驱动系统成功的主要因素。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:32
@@ -194,8 +197,8 @@ msgid ""
 "and belt. More detail about each option can be found in the power "
 "transmission section."
 msgstr ""
-"**动力传动系统**：一般来说，动力传输有四种选择：直接驱动、:term:`链式传动 <Sprocket>`、:term:`齿轮传动 <Gear>` "
-"和皮带传动。有关每种选择的更多详情，请参阅动力传动部分。"
+"**动力传动系统**：一般来说，动力传输有四种选择：直接驱动、 :term:`链式传动 <Sprocket>`、 :term:`齿轮传动 <Gear>`"
+" 和皮带传动。有关每种选择的更多详情，请参阅动力传动部分。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:48
 msgid ""

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -205,10 +205,10 @@ msgid ""
 " <Shaft>`, very easy."
 msgstr ""
 ":term:`REV HD Hex Planetary <HD Hex Motor>`  40:1 电机 - 该电机的传动比仅为 40:1，但使用与 "
-"REV Expansion和Control Hub相同的连接方式（JST VH），这意味着无需转接电缆。输出:term:`轴<Shaft>` 是 5 "
-"毫米六角:term:`轴<Shaft>`。:term:`REV UltraHex <UltraHex>` 有一个 5 毫米六角:term:`孔 "
+"REV Expansion和Control Hub相同的连接方式（JST VH），这意味着无需转接电缆。输出:term:`轴 <Shaft>` 是 5 "
+"毫米六角:term:`轴 <Shaft>`。:term:`REV UltraHex <UltraHex>` 有一个 5 毫米六角:term:`孔 "
 "<Bore>`  贯穿 1/2 英寸六角 :term:`轴 <Shaft>`的中间，这使得将此电机适配到任何长度的 :term:`UltraHex`以及"
-" 1/2 英寸六角 :term:`轴<Shaft>` 非常容易。"
+" 1/2 英寸六角 :term:`轴 <Shaft>` 非常容易。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:41
 msgid ""
@@ -219,7 +219,7 @@ msgid ""
 " the ones listed here."
 msgstr ""
 ":term:`Andymark NeveRest <NeveRest Motor>`  经典电机有几种不同的减速比例，分别为 40:1 和 "
-"60:1。输出轴是 :term:`6mm D-轴<Shaft>`，与所有 NeveRest 马达一样，使用:term:`Anderson "
+"60:1。输出轴是 :term:`6mm D-轴 <Shaft>`，与所有 NeveRest 马达一样，使用:term:`Anderson "
 "PowerPole` 连接电源。这种连接器可能是这里列出的连接器中最坚固的。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:44
@@ -233,7 +233,7 @@ msgid ""
 ":term:`goBILDA's 5202/5203/5204 Series Yellow Jacket Motors <Yellow Jacket "
 "Motor>`."
 msgstr ""
-"标准行星变速箱包括:term:`Andymark NeveRest Orbital 电机<NeveRest Motor>`、:term:`REV "
+"标准行星变速箱包括:term:`Andymark NeveRest Orbital 电机 <NeveRest Motor>`、:term:`REV "
 "20:1 Planetary motor <HD Hex Motor>`和:term:`goBILDA 的 5202/5203/5204 Series "
 "Yellow Jacket 电机 <Yellow Jacket Motor>`。"
 
@@ -245,8 +245,8 @@ msgid ""
 " main thing to consider here is your desired reduction, your desired motor "
 "connections, and your desired output :term:`shaft <Shaft>` type."
 msgstr ""
-"这些“标准”变速箱中的任何一个都比直齿轮箱更坚固。像直齿轮箱一样，来自不同供应商的变速箱虽然不能互换，但在稳健性方面非常具有可比性。同样，这里要考虑的主要问题是您想要的减速、想要的电机连接和想要的输出:term:`轴<Shaft>`"
-" 类型。"
+"这些“标准”变速箱中的任何一个都比直齿轮箱更坚固。像直齿轮箱一样，来自不同供应商的变速箱虽然不能互换，但在稳健性方面非常具有可比性。同样，这里要考虑的主要问题是您想要的减速、想要的电机连接和想要的输出:term:`轴"
+" <Shaft>` 类型。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:50
 msgid ""
@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 "GoBILDA Yellow Jacket电机 <https://www.gobilda.com/yellow-jacket-planetary-"
 "gear-motors/>`_具有最多样化的变速箱比例选择，这里列出了太多，但利用相当不常见的子弹头式连接器来提供动力。输出:term:`轴 "
-"<Shaft>` 是:term:`6mm D轴<Shaft>`或8 REX（7毫米六角四舍五入到8毫米）。"
+"<Shaft>` 是:term:`6mm D轴 <Shaft>`或8 REX（7毫米六角四舍五入到8毫米）。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:51
 msgid ""

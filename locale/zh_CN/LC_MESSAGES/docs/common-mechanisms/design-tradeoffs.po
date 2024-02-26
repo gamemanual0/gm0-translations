@@ -5,17 +5,17 @@
 # 
 # Translators:
 # wwsk2008sq, 2023
-# Shawphy, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -184,7 +184,7 @@ msgid ""
 "has not been a game in FTC history where the top robots needed >4 motors for"
 " the drivetrain, so this is a pretty safe rule to follow."
 msgstr ""
-"通常情况下，最高速度取决于齿轮比和电机规格，而不是电机数量。**然而**，加速度会受到电机数量的影响，由于 FTC | reg| "
+"通常情况下，最高速度取决于齿轮比和电机规格，而不是电机数量。 **然而** ，加速度会受到电机数量的影响，由于 FTC | reg| "
 "机器人在每场比赛中需要多次改变方向和加速，因此缓慢的加速度会对机器人的竞争力产生严重的不利影响。此外，由于功率较小，2电机的机器人在越过障碍或爬上斜坡时可能会比较吃力。一个经常出现的问题是：\"难道我不需要更多的电机来做机器人上的其他事情吗？这个问题很有道理，但答案通常是否定的。我们可以用分配给传动系统的"
 " 4 个电机和用于其他机构的 4 "
 "个电机来制造一个具有竞争力的机器人，因此没有理由吝啬。请记住，传动系统是机器人的基础。如果传动系统无法让机器人快速高效地从 A 地到达 B "
@@ -259,8 +259,9 @@ msgid ""
 "shaped objects that would be impossible to control via intake; for example, "
 "the relic in Relic Recovery."
 msgstr ""
-"在拾取球、立方体和矩形棱柱等常见游戏道具方面，主动式吸取装置要比爪子/夹子更有效率和效果。这是一条广为接受的规则；多年来，许多世界级机器人都使用吸取装置。**但是有一个例外**，那就是爪子应该用于夹取不规则形状的物体，因为这些物体不可能通过吸取装置来吸取；例如，比赛《Relic"
-" Recovery》中的遗物。"
+"在拾取球、立方体和矩形棱柱等常见游戏道具方面，主动式吸取装置要比爪子/夹子更有效率和效果。这是一条广为接受的规则；多年来，许多世界级机器人都使用吸取装置。"
+" **但是有一个例外**，那就是爪子应该用于夹取不规则形状的物体，因为这些物体不可能通过吸取装置来吸取；例如，比赛《Relic "
+"Recovery》中的遗物。"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:63
 msgid "Intakes have two major advantages over claws."
@@ -326,7 +327,7 @@ msgid ""
 msgstr ""
 "例如，传动系统需要反复快速地改变方向。由于太阳齿轮和行星齿轮的构造，行星齿轮变速箱更适合用于传动系统和机械臂。此外，正齿轮变速箱容易受到冲击载荷的影响，因此不建议在传动系统上使用直接驱动。有关齿轮箱的更多完整信息，请参阅"
 " :doc:`齿轮箱内部构造详解 </docs/power-and-electronics/motor-guide/gearbox-anatomy>` "
-"部分。**这是指使用直接连接到电机小齿轮上的正齿轮变速箱。这并不意味着在电机齿轮箱之外使用外部传动比，因为外部传动比始终是正齿轮配置。**"
+"部分。 **这是指使用直接连接到电机小齿轮上的正齿轮变速箱。这并不意味着在电机齿轮箱之外使用外部传动比，因为外部传动比始终是正齿轮配置。**"
 
 #: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:80
 msgid "Single/multi axis arm |rarr| Linear extension"

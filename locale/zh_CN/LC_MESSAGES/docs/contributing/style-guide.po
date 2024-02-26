@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-21 16:16+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -32,7 +32,7 @@ msgstr "不要绝对化。"
 
 #: ../../gm0/source/docs/contributing/style-guide.rst:8
 msgid "Only a Sith deals in absolutes"
-msgstr "只有西斯才会绝对地交易"
+msgstr "只有西斯才会绝对地交易(译者注：星球大战的梗)"
 
 #: ../../gm0/source/docs/contributing/style-guide.rst:9
 msgid "Use pros/cons lists to compare options"
@@ -40,7 +40,7 @@ msgstr "使用优点/缺点列表来比较各种选择"
 
 #: ../../gm0/source/docs/contributing/style-guide.rst:10
 msgid "Explain **WHY** something is good or bad"
-msgstr "解释**为什么**某事是好的或坏的"
+msgstr "解释 **为什么** 某事是好的或坏的"
 
 #: ../../gm0/source/docs/contributing/style-guide.rst:12
 msgid ""
@@ -69,8 +69,8 @@ msgid ""
 "to the REV control system power cables, and the goBILDA motor power cables "
 "are not removable, unlike the REV Robotics motors.\""
 msgstr ""
-"同样，我们知道 goBILDA 电机一般都不错。但请*解释*它们为什么好，例如：\"如果您需要 6mm D/8mm REX 输出轴电机，尤其是如果您将 "
-"goBILDA 作为您的主要构建系统，一般推荐使用 goBILDA Yellow Jacket "
+"同样，我们知道 goBILDA 电机一般都不错。但请 *解释* 它们为什么好，例如：\"如果您需要 6mm D/8mm REX "
+"输出轴电机，尤其是如果您将 goBILDA 作为您的主要构建系统，一般推荐使用 goBILDA Yellow Jacket "
 "行星电机。这些电机有一个坚固的齿轮箱，通常可以承受相当大的冲击负荷（但在高扭矩情况下仍必须有支撑），而且可以方便地安装到 goBILDA "
 "部件上。此外，goBILDA 电机在使用其编码器和 REV 控制系统时不需要使用水平移动器，因此灵活性很高。请注意，您需要将子弹头连接器改装成 REV "
 "控制系统电源线，而且 goBILDA 电机电源线与 REV 机器人电机不同，是不可拆卸的。\""
@@ -196,14 +196,14 @@ msgid ""
 "Abide by *FIRST*\\ |reg| Trademark guidelines, available `here "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
 msgstr ""
-"遵守 *FIRST*\\ |reg| 商标指南，可从这里获取 "
+"遵守 *FIRST*\\ |reg| 商标指南， `可从这里获取 "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
 
 #: ../../gm0/source/docs/contributing/style-guide.rst:48
 msgid ""
 "The first instance of *FIRST* and FTC on a page should include |reg| (i.e, "
 "*FIRST*\\ |reg|)"
-msgstr "页面上 *FIRST* 和 FTC 的第一个实例应包括 |reg|（即 *FIRST*\\ |reg|）。"
+msgstr "页面上 *FIRST* 和 FTC 的第一个实例应包括 |reg| (即 *FIRST*\\ |reg|)。"
 
 #: ../../gm0/source/docs/contributing/style-guide.rst:49
 msgid "Always capitalize and italize the name *FIRST*"
@@ -228,8 +228,8 @@ msgid ""
 " <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a"
 " team's name."
 msgstr ""
-"如果不知道团队名称的拼写，请查看 `The Orange Alliance <https://theorangealliance.org/>`_或 "
-"`FTC Events <https://ftc-events.firstinspires.org/>`_。"
+"如果不知道团队名称的拼写，请查看 `The Orange Alliance <https://theorangealliance.org/>`_ 或 "
+"`FTC Events <https://ftc-events.firstinspires.org/>`_ 。"
 
 #: ../../gm0/source/docs/contributing/style-guide.rst:58
 msgid ""

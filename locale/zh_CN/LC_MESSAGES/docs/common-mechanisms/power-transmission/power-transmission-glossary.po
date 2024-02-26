@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -55,7 +55,7 @@ msgid ""
 ":term:`Pitch Diameter (PD)` and :term:`Outside Diameter (OD)`"
 msgstr ""
 "净空直径是包含整个滑轮、链轮或齿轮的假想圆的直径。对于滑轮和链轮，这包括部件上的皮带或链条。间隙直径用于检查是否与其他机构发生干涉。它通常大于 "
-":term:`Pitch Diameter (PD)` 和 :term:`Outside Diameter (OD)` 。"
+":term:`间距直径 (PD)` 和 :term:`外径 (OD)` 。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:38
 msgid "GT2 Belt"
@@ -69,7 +69,7 @@ msgid ""
 " Robotics :term:`COTS` Pulleys. See :term:`Timing Belt`"
 msgstr ""
 "GT2 皮带是一种同步定时皮带，常用于传动系统和其他机构。它有不同的宽度和间距，但最常见的是 GT2 3mm（3mm :term:`间距`），与 REV"
-" Robotics 的 :term:`COTS` 滑轮兼容。请参阅 :term:`定时皮带`。"
+" Robotics 的 :term:`COTS` 滑轮兼容。请参阅 :term:`Timing Belt`。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:35
 msgid "HTD Belt"
@@ -84,7 +84,8 @@ msgid ""
 ":term:`Timing Belt`"
 msgstr ""
 "HTD 皮带是一种同时同步带，通常用于传动系统。它有不同的宽度，以适应不同尺寸的带轮。最常见的是 HTD3（3 毫米 :term:`间距`) 和 "
-"HTD5（5 毫米 :term:`间距`) 皮带，因为它们与 goBILDA :term:`COTS` 滑轮兼容。请参阅 :term:`定时皮带`。"
+"HTD5（5 毫米 :term:`间距`) 皮带，因为它们与 goBILDA :term:`COTS` 滑轮兼容。请参阅 :term:`Timing "
+"Belt`。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:21
 msgid "Idler"
@@ -97,7 +98,7 @@ msgid ""
 "<Shaft>`. The purpose of this idler is, in the case of gears, to transfer "
 "power to another direction."
 msgstr ""
-"转向器 :term:`齿轮 <Gear>`、:term:`链轮 <Sprocket>` 或滑轮是特意不用于驱动 :term:`轴 <Shaft>` "
+"转向器 :term:`齿轮 <Gear>`、 :term:`链轮 <Sprocket>` 或滑轮是特意不用于驱动 :term:`轴 <Shaft>` "
 "上任何其他东西的装置。就齿轮而言，惰轮的作用是将动力传递到另一个方向。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:25
@@ -123,7 +124,7 @@ msgstr ""
 msgid ""
 "It is highly recommended that teams use Loctite on all motor and "
 ":term:`servo <Servo>` mounts, as well as any mechanism prone to vibration."
-msgstr "强烈建议车队在所有电机和 :term: `舵机 <Servo>` 支架以及任何易振动的机构上使用乐泰胶。"
+msgstr "强烈建议车队在所有电机和 :term:`舵机 <Servo>` 支架以及任何易振动的机构上使用乐泰胶。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:47
 msgid ""
@@ -198,7 +199,7 @@ msgid ""
 " of meshing with another gear, the sprocket meshes with chain. See "
 ":term:`Chain`"
 msgstr ""
-"链轮是一种机械部件，通过与链条配合的齿轮传递动力。它类似于 :term: `齿轮 <Gear>`，只不过链轮不是与另一个齿轮啮合，而是与链条啮合。参见 "
+"链轮是一种机械部件，通过与链条配合的齿轮传递动力。它类似于 :term:`齿轮 <Gear>`，只不过链轮不是与另一个齿轮啮合，而是与链条啮合。参见 "
 ":term:`链条`。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:0

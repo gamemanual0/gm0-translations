@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2024
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 16:15+0000\n"
+"POT-Creation-Date: 2024-02-26 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,8 +36,8 @@ msgid ""
 ":term:`servo <Servo>` away from its position risks damaging the internal "
 ":term:`gears <Gear>`."
 msgstr ""
-"请勿反向驱动:term:`舵机 <Servo>`。强行将电动:term:`舵机 <Servo>` 从其位置上旋转可能会损坏舵机内部的:term:` 齿轮"
-" <Gear>`。"
+"请勿反向驱动 :term:`舵机 <Servo>`。强行将电动 :term:`舵机 <Servo>` 从其位置上旋转可能会损坏舵机内部的 "
+":term:`齿轮 <Gear>`。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:9
 msgid ""
@@ -59,7 +59,7 @@ msgid ""
 " check it again."
 msgstr ""
 ":term:`舵机` 接线通常是黑-红-白。匹配颜色是检查舵机是否正确插入的简便方法。`舵机`连接器不提供插错的保护：如果您将其旋转 180 "
-"度，它仍然可以插入 - 但:term:`舵机 <Servo>`将无法工作。(但不会损坏）。因此，如果您的:term:`舵机 <Servo>` "
+"度，它仍然可以插入 - 但 :term:`舵机 <Servo>`将无法工作。(但不会损坏）。因此，如果您的 :term:`舵机 <Servo>` "
 "不工作，请首先检查它们是否正确接线。然后再检查一次。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:17
@@ -88,9 +88,9 @@ msgid ""
 " first time you drive into the wall with the arm extended (and this will "
 "inevitably happen)."
 msgstr ""
-":term:`舵机 <Servo>` 在承受横向负载或 :term:`轴 <Shaft>` "
-"弯曲时很容易断裂。例如，如果不采取任何额外的预防措施，直接在:term:`舵机 <Servo>` "
-"上安装机械臂或机械爪，很可能在机械臂伸长后第一次撞墙时就会折断:term:`舵机 <Servo>`（这种情况不可避免地会发生）。"
+":term:`舵机 <Servo>` 在承受横向负载或 :term:`轴 <Shaft>` 弯曲时很容易断裂。例如，如果不采取任何额外的预防措施，直接在"
+" :term:`舵机 <Servo>` 上安装机械臂或机械爪，很可能在机械臂伸长后第一次撞墙时就会折断 :term:`舵机 "
+"<Servo>`（这种情况不可避免地会发生）。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:21
 msgid ""
@@ -104,7 +104,7 @@ msgid ""
 msgstr ""
 "为了避免这种情况，需要使用额外的支持。最简单的方法是使用 Actobotics 或 goBILDA 的 舵机输出安装座 。这些组件就像 "
 ":term:`舵机 <Servo>` 的外骨骼，提供额外的支撑。它们价格昂贵，但物有所值。此外，REV 还提供内外通道 :term:`舵机 "
-"<Servo>` 支架，与铝制舵机输出:term:`轴 <Shaft>` 适配器和:term:`支座 <Ball Bearing>` "
+"<Servo>` 支架，与铝制舵机输出 :term:`轴 <Shaft>` 适配器和 :term:`支座 <Ball Bearing>` "
 "组件搭配使用，可实现相同的功能。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:0
@@ -123,7 +123,7 @@ msgid ""
 "<https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_"
 " is also available):"
 msgstr ""
-"舵机支架也有一些替代设计；其中一种强度不如最初的:term:`舵机输出座 <Servoblocks>`，但更紧凑，如下图所示（`CAD "
+"舵机支架也有一些替代设计；其中一种强度不如最初的 :term:`舵机输出座 <Servoblocks>`，但更紧凑，如下图所示（`CAD "
 "<https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_也可用）："
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:33
@@ -140,7 +140,7 @@ msgid ""
 ":term:`servo <Servo>`, mount it so it can rotate around a pivot point and "
 "then connect it to the :term:`servo <Servo>` using linkage as shown below:"
 msgstr ""
-"使用连接件。与其将旋转部件直接安装在:term:`舵机 <Servo>`上，不如将其安装为可绕支点旋转，然后使用连杆将其连接到:term:`舵机 "
+"使用连接件。与其将旋转部件直接安装在 :term:`舵机 <Servo>`上，不如将其安装为可绕支点旋转，然后使用连杆将其连接到 :term:`舵机 "
 "<Servo>`上，如下图所示："
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:0
@@ -175,7 +175,7 @@ msgid ""
 "Expansion Hub's output for servos is 5V at 6 amps, and the SPM boosts the "
 "voltage to 6V and up to 15amps."
 msgstr ""
-"舵机电源模块 (SPM) 是 REV Robotics 生产的一种设备，用于提升Expansion Hub 为:term:`舵机 <Servo>` "
+"舵机电源模块 (SPM) 是 REV Robotics 生产的一种设备，用于提升Expansion Hub 为 :term:`舵机 <Servo>` "
 "提供的电压。Expansion Hub 的舵机输出为 5V 6 安培，而 SPM 可将电压提升至 6V，最大可达 15 安培。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:51
