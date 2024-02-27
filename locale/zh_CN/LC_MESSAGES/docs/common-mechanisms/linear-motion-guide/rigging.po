@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -153,7 +153,7 @@ msgid ""
 "You need to make sure, as with any time you work with strings and pulleys, "
 "that you are pulling the string straight. Any amount of misalignment can "
 "lead to the string coming off of your pulley."
-msgstr "与任何时候使用绳缆和滑轮一样，您需要确保您拉动的绳缆是直的。任何偏差都可能导致绳子从滑轮上脱落。"
+msgstr "与任何时候使用绳缆和滑轮一样，你需要确保你拉动的绳缆是直的。任何偏差都可能导致绳子从滑轮上脱落。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:44
 msgid ""
@@ -441,7 +441,7 @@ msgid ""
 "spring) or manually tighten string, which can get a bit tedious (especially "
 "for cascade rigging)."
 msgstr ""
-"与线缆不同，滑轨上使用的皮带无需张紧。正如线缆性运动部分所讨论的，为了让线缆驱动的滑轨保持高效，必须保持线缆的张力。随着时间的推移，线缆自然会松弛，因此您要么需要一个能提供额外张力的装置（弹簧），要么需要手动拉紧线缆，这可能会有点繁琐（尤其是在级联索具上）。"
+"与线缆不同，滑轨上使用的皮带无需张紧。正如线缆性运动部分所讨论的，为了让线缆驱动的滑轨保持高效，必须保持线缆的张力。随着时间的推移，线缆自然会松弛，因此你要么需要一个能提供额外张力的装置（弹簧），要么需要手动拉紧线缆，这可能会有点繁琐（尤其是在级联索具上）。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:156
 msgid ""
@@ -548,7 +548,7 @@ msgid ""
 "slide extension."
 msgstr ""
 "张紧线缆是 FTC "
-"建筑工人最辛苦的工作之一。确保两组滑轨张力均匀是一项艰巨而恼人的工作。不过，在线缆上安装张紧器可以帮助解决张力不均的问题，并确保两边的滑轨一起运行。最常见的张力器是一个弹簧，可以在五金店买到。一般来说，它会被放置在线缆的末端，靠近从机器人中心向外延伸最远的部分。这样，当线轴伸出机械臂时，线缆绳就会伸展开来，保持张力，从而避免线缆绳从线缆性滑轨延伸部分的滑轮上脱落。"
+"结构组人员最辛苦的工作之一。确保两组滑轨张力均匀是一项艰巨而恼人的工作。不过，在线缆上安装张紧器可以帮助解决张力不均的问题，并确保两边的滑轨一起运行。最常见的张力器是一个弹簧，可以在五金店买到。一般来说，它会被放置在线缆的末端，靠近从机器人中心向外延伸最远的部分。这样，当线轴伸出机械臂时，线缆绳就会伸展开来，保持张力，从而避免线缆绳从线缆性滑轨延伸部分的滑轮上脱落。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:198
 msgid ""
@@ -624,7 +624,7 @@ msgid ""
 "more desirable combination of speed and torque than your current 3.7:1 "
 "ratio."
 msgstr ""
-"认识到这一点很重要，因为要获得所需的速度和扭矩组合，改变线轴尺寸往往比改变齿轮比更方便。例如，您有一个齿轮比为 3.7:1 的线性延伸系统。然后，您认为"
+"认识到这一点很重要，因为要获得所需的速度和扭矩组合，改变线轴尺寸往往比改变齿轮比更方便。例如，你有一个齿轮比为 3.7:1 的线性延伸系统。然后，你认为"
 " 5:1 的齿轮比比目前 3.7:1 的齿轮比更能提供理想的速度和扭矩组合。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:221
@@ -641,7 +641,7 @@ msgid ""
 "You also need to make sure that when fully wrapped on the spool, your cable "
 "or string doesn't overlap. Overlapping can result in a change in spool "
 "diameter, which will change the tension in your string."
-msgstr "您还需要确保线缆或线缆完全缠绕在线轴上时不会重叠。重叠会导致线轴直径发生变化，从而改变线缆的张力。"
+msgstr "你还需要确保线缆或线缆完全缠绕在线轴上时不会重叠。重叠会导致线轴直径发生变化，从而改变线缆的张力。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:226
 msgid "Cable management"

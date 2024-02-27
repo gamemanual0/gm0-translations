@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 04:16+0000\n"
+"POT-Creation-Date: 2024-02-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,7 +98,7 @@ msgid ""
 "user side, one does not need to manually flush the bulk read cache; however,"
 " this means you lose some control."
 msgstr ""
-"总的来说，这是推荐的，因为它不太可能搞砸任何事情，并且可以不费吹灰之力就显著提高性能。在用户方面，不需要手动刷新批量读取缓存；但是，这意味着您失去了一些控制权。"
+"总的来说，这是推荐的，因为它不太可能搞砸任何事情，并且可以不费吹灰之力就显著提高性能。在用户方面，不需要手动刷新批量读取缓存；但是，这意味着你失去了一些控制权。"
 
 #: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:64
 msgid "Manual Mode"
@@ -122,7 +122,7 @@ msgid ""
 "performance improvements if ``AUTO`` mode is not used optimally, it has less"
 " room for catastrophic error."
 msgstr ""
-"在 ``MANUAL`` 模式下，如果没有适当地清除缓存，就会返回过时的值。因此，如果您不太确定自己在做什么，我们建议您使用 ``AUTO`` "
+"在 ``MANUAL`` 模式下，如果没有适当地清除缓存，就会返回过时的值。因此，如果你不太确定自己在做什么，我们建议你使用 ``AUTO`` "
 "模式；如果没有最佳地使用 ``AUTO`` 模式，虽然 ``MANUAL`` 模式可以在一定程度上提高性能，但它发生灾难性错误的可能性较小。"
 
 #: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:89

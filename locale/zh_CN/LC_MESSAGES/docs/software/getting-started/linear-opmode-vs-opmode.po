@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -35,7 +35,7 @@ msgid ""
 "Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_."
 msgstr ""
 "FTC\\ |reg| SDK中有两个OpMode类： ``OpMode`` 和 ``LinearOpMode`` "
-"。您使用的类会影响您编写程序的方式。有关如何使用OpMode和LinearOpMode的示例， `请参阅SDK中的OpModes示例 "
+"。你使用的类会影响你编写程序的方式。有关如何使用OpMode和LinearOpMode的示例， `请参阅SDK中的OpModes示例 "
 "<https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_"
 " 。"
@@ -48,13 +48,13 @@ msgstr "LinearOpMode方法"
 msgid ""
 "``runOpMode()``: Code inside this method will run exactly once after you "
 "press the INIT button. This is where you should put all code for the OpMode."
-msgstr "``runOpMode()``：按下INIT按钮后，此方法中的代码将只运行一次。这是您应该放置OpMode的所有代码的地方。"
+msgstr "``runOpMode()``：按下INIT按钮后，此方法中的代码将只运行一次。这是你应该放置OpMode的所有代码的地方。"
 
 #: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:12
 msgid ""
 "``waitForStart()``: This method pauses the Op-Mode until you press the START"
 " button on the driver station."
-msgstr "``waitForStart()``：此方法暂停操作模式，直到您按下驱动程序站上的START按钮。"
+msgstr "``waitForStart()``：此方法暂停操作模式，直到你按下驱动程序站上的START按钮。"
 
 #: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:13
 msgid ""
@@ -96,7 +96,7 @@ msgstr "OpMode方法"
 msgid ""
 "``init()``: Code inside this method will run exactly once after you press "
 "the INIT button on the driver station."
-msgstr "``init()``：在您按下驱动程序站上的INIT按钮后，此方法中的代码将只运行一次。"
+msgstr "``init()``：在你按下驱动程序站上的INIT按钮后，此方法中的代码将只运行一次。"
 
 #: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:23
 msgid ""
@@ -109,7 +109,7 @@ msgstr "``init_loop()``：运行 ``init()`` 中的代码后，此方法中的代
 msgid ""
 "``start()``: Code inside this method will run exactly once after you press "
 "the START button on the driver station."
-msgstr "``start()``：此方法中的代码将在您按下驱动程序站上的START按钮后运行一次。"
+msgstr "``start()``：此方法中的代码将在你按下驱动程序站上的START按钮后运行一次。"
 
 #: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:25
 msgid ""
@@ -122,7 +122,7 @@ msgstr "``loop()``：一旦运行 ``start()`` 中的代码，此方法中的代�
 msgid ""
 "``stop()``: Code inside this method will run exactly once after you press "
 "the STOP button on the driver station."
-msgstr "``stop()``：此方法中的代码将在您按下驱动程序站上的STOP按钮后运行一次。"
+msgstr "``stop()``：此方法中的代码将在你按下驱动程序站上的STOP按钮后运行一次。"
 
 #: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:28
 msgid ""

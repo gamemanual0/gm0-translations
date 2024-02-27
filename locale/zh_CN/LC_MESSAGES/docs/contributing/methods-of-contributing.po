@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-13 16:16+0000\n"
+"POT-Creation-Date: 2024-02-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +38,7 @@ msgid ""
 "during the development process. It also means that the CI can run."
 msgstr ""
 "拉取请求应提交到 GitHub 上的 `gm0 <https://github.com/gamemanual0/gm0>`_ "
-"仓库。我们会对这些请求进行审核，并提出意见。我们强烈建议您在开发过程中提出拉取请求草案，因为这样可以在开发过程中获得反馈。这也意味着 CI "
+"仓库。我们会对这些请求进行审核，并提出意见。我们强烈建议你在开发过程中提出拉取请求草案，因为这样可以在开发过程中获得反馈。这也意味着 CI "
 "可以运行。中文翻译的问题也可以在上述 Github 仓库中开新的 "
 "issue，我们会持续关注。虽然我们已经花了上百小时翻译和润色，但总免不了还会有些错误，欢迎提出指正。"
 
@@ -53,12 +53,12 @@ msgid ""
 " only works for adding **new pages**; you **cannot** edit current pages "
 "using this method."
 msgstr ""
-"此方法旨在帮助不了解 git 和 reStructuredText 的贡献者开始贡献。此方法仅适用于添加 **新页面** ；您 **不能** "
+"此方法旨在帮助不了解 git 和 reStructuredText 的贡献者开始贡献。此方法仅适用于添加 **新页面** ；你 **不能** "
 "使用此方法编辑当前页面。"
 
 #: ../../gm0/source/docs/contributing/methods-of-contributing.rst:14
 msgid "Write your intended content in a Google Doc"
-msgstr "在 Google 文档中撰写您的预期内容"
+msgstr "在 Google 文档中撰写你的预期内容"
 
 #: ../../gm0/source/docs/contributing/methods-of-contributing.rst:15
 msgid ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 16:17+0000\n"
 "PO-Revision-Date: 2023-06-18 04:15+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -33,7 +33,7 @@ msgid ""
 "cutting in FTC, common types of laser cutters, and how to optimize your "
 "design for laser cutting."
 msgstr ""
-"激光切割可以成为一种有用的工具，使FTC团队能够快速生产复杂的定制零件。本指南将涵盖激光切割在FTC中的用途、激光切割机的常见类型以及如何优化您的激光切割设计。"
+"激光切割可以成为一种有用的工具，使FTC团队能够快速生产复杂的定制零件。本指南将涵盖激光切割在FTC中的用途、激光切割机的常见类型以及如何优化你的激光切割设计。"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:8
 msgid ""
@@ -105,7 +105,7 @@ msgid ""
 "These are generalizations, and are not always true. For example, some diode "
 "cutters can cut thin metals. For more information, always research your "
 "specific laser cutter."
-msgstr "这些都是概括，并不总是正确的。例如，一些二极管切割机可以切割薄金属。要了解更多信息，请始终研究您的特定激光切割机。"
+msgstr "这些都是概括，并不总是正确的。例如，一些二极管切割机可以切割薄金属。要了解更多信息，请始终研究你的特定激光切割机。"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:33
 msgid "What Can You Cut?"
@@ -230,13 +230,13 @@ msgid ""
 " parts may be adjusted by the vendor for you. Check with the service you are"
 " using before you make these adjustments!"
 msgstr ""
-"使用赞助商、机械车间或Fabworks或SendCutsend等服务时，供应商可能会为您调整零件。在进行这些调整之前，请咨询您正在使用的服务！"
+"使用赞助商、机械车间或Fabworks或SendCutsend等服务时，供应商可能会为你调整零件。在进行这些调整之前，请咨询你正在使用的服务！"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:84
 msgid ""
 "There are a few quirks of laser cut parts that you should keep in mind when "
 "designing them"
-msgstr "有几个少见的激光切割零件您应该牢记当设计他们"
+msgstr "有几个少见的激光切割零件你应该牢记当设计他们"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:87
 msgid "Kerf"
@@ -247,7 +247,7 @@ msgid ""
 "Most laser cutting software does not account for the width of the laser beam"
 " when cutting. This means if you require precise outer dimensions or hole "
 "diameters, you need to manually offset your paths in CAD."
-msgstr "大多数激光切割软件在切割时不会考虑激光束的宽度。这意味着如果您需要精确的外形尺寸或孔直径，您需要在CAD中手动偏移路径。"
+msgstr "大多数激光切割软件在切割时不会考虑激光束的宽度。这意味着如果你需要精确的外形尺寸或孔直径，你需要在CAD中手动偏移路径。"
 
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:92
 msgid "Taper"

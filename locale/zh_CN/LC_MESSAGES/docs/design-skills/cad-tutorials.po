@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -41,7 +41,7 @@ msgid ""
 " current game. Teams should shoot for the wheelbase that works the best in "
 "that specific field's layout."
 msgstr ""
-"在学习了您选择的计算机辅助设计 :term:`CAD <Computer-aided design (CAD)>` "
+"在学习了你选择的计算机辅助设计 :term:`CAD <Computer-aided design (CAD)>` "
 "程序后，根据当前游戏确定动力传动系统的必要要求。团队应该寻找在特定领域布局中效果最好的轴距。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:14
@@ -66,7 +66,7 @@ msgid ""
 "rule of thumb."
 msgstr ""
 "选择驱动基座后，确定电机数量。请记住，八个电机的限制是一个不容忽视的问题。一个好的经验法则是四个电机用于驱动，四个电机用于其他机构（如吸入拾取装置、线性滑轨、机械臂等）。对于大多数现代"
-" FTC\\ |reg| 比赛来说，您至少需要 7 个电机才能具有较强的竞争力，尽管 8 个电机也是一个好的经验法则。"
+" FTC\\ |reg| 比赛来说，你至少需要 7 个电机才能具有较强的竞争力，尽管 8 个电机也是一个好的经验法则。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:19
 msgid "Designing the Drivetrain Plates"
@@ -153,7 +153,7 @@ msgid ""
 "The next step will be making the outer plate for the drivebase. It is even "
 "faster to do than the inner. To do this, simply create a new part. Go back "
 "to your inner plate and start a 2D sketch."
-msgstr "下一步将是为驱动底座制作外板。它比内部更快。为此，只需创建一个新零件。回到您的内板并开始2D草图。"
+msgstr "下一步将是为驱动底座制作外板。它比内部更快。为此，只需创建一个新零件。回到你的内板并开始2D草图。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
 msgid "Drivetrain Plate, with entire face seleected"
@@ -208,7 +208,7 @@ msgid ""
 " much material; if done, the plates become less sturdy. More about pocketing"
 " is in the next section."
 msgstr ""
-"请注意，当使用自定义动力传动系统时，您可以从动力传动系统板上切割材料。这个过程称为装袋。虽然装袋不是重要的一步，但它可以帮助您减轻重量。但是，注意不要移除太多材料；如果这样做，板会变得不那么坚固。更多关于装袋的信息在下一节中。"
+"请注意，当使用自定义动力传动系统时，你可以从动力传动系统板上切割材料。这个过程称为装袋。虽然装袋不是重要的一步，但它可以帮助你减轻重量。但是，注意不要移除太多材料；如果这样做，板会变得不那么坚固。更多关于装袋的信息在下一节中。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:64
 msgid "Additional Considerations"
@@ -277,7 +277,7 @@ msgid ""
 "Something you can do is set the robot in CAD onto a field. Set up obstacles "
 "such as the crater and simulate driving over the crater by moving it across "
 "like you think it would in the real world."
-msgstr "您可以做的事情是将CAD中的机器人设置到一个地面上。设置陨石坑等障碍物，并通过像您在现实世界中想象的那样移动它来模拟在陨石坑上行驶。"
+msgstr "你可以做的事情是将CAD中的机器人设置到一个地面上。设置陨石坑等障碍物，并通过像你在现实世界中想象的那样移动它来模拟在陨石坑上行驶。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:80
 msgid ""
@@ -337,7 +337,7 @@ msgid ""
 "After mirroring the drive pod to make your opposite side, connect those two "
 "halves together and you're done with the drivetrain. Below is a rendering of"
 " the complete drivetrain in CAD."
-msgstr "在镜像驱动吊舱以制作您的另一侧后，将这两半连接在一起，您就完成了动力传动系统。下面是CAD中完整动力传动系统的渲染。"
+msgstr "在镜像驱动吊舱以制作你的另一侧后，将这两半连接在一起，你就完成了动力传动系统。下面是CAD中完整动力传动系统的渲染。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:99
 msgid "CAD Tutorial Part 2 - Pocketing Guide"
@@ -373,7 +373,7 @@ msgid ""
 "There are several ways to machine pockets into material including milling, "
 "routing, water jet cutting, laser cutting and even hand drilling. Depending "
 "on your access to tooling, pocketing can be more or less difficult for you."
-msgstr "有几种方法可以将口袋加工成材料，包括铣削、布线、喷水切割、激光切割甚至手工钻孔。根据您获得工具的情况，装袋对您来说或多或少是困难的。"
+msgstr "有几种方法可以将口袋加工成材料，包括铣削、布线、喷水切割、激光切割甚至手工钻孔。根据你获得工具的情况，装袋对你来说或多或少是困难的。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:112
 msgid ""
@@ -524,7 +524,7 @@ msgid ""
 "Although this is the simplest form of pocketing, there is a straightforward "
 "way to optimize the circular drill method."
 msgstr ""
-"如果您无法获得任何精密工具，手钻/钻床和大钻头/平底钻头可以在材料中创建口袋。虽然这是最简单的口袋形式，但有一种直接的方法可以优化圆形钻孔方法。"
+"如果你无法获得任何精密工具，手钻/钻床和大钻头/平底钻头可以在材料中创建口袋。虽然这是最简单的口袋形式，但有一种直接的方法可以优化圆形钻孔方法。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:159
 msgid ""

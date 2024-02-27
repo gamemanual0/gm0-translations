@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -144,7 +144,7 @@ msgstr "**优点**:"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:34
 msgid ""
 "Cheap (the motors you're using most likely already have encoders built in)"
-msgstr "便宜（您使用的电机很可能已经内置了编码器）"
+msgstr "便宜（你使用的电机很可能已经内置了编码器）"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:35
 msgid "Accessible"
@@ -342,7 +342,7 @@ msgstr ""
 "。这主要是处理运动剖面时的一个问题。流行的现有工具（Road Runner和FTCLib）具有 `处理此问题的机制 "
 "<https://github.com/acmerobotics/road-runner-"
 "ftc/blob/e79f8a900f45c9058b67716b5289a52e17769e40/RoadRunner/src/main/java/com/acmerobotics/roadrunner/ftc/Encoders.kt#L66>`_"
-" 因此，这不是一个问题，也不应影响您的设计决策。一旦开始编程，请记住此细节。"
+" 因此，这不是一个问题，也不应影响你的设计决策。一旦开始编程，请记住此细节。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:103
 msgid "U.S. Digital S4T"
@@ -569,7 +569,7 @@ msgid ""
 "drive train off the ground and disrupt driving."
 msgstr ""
 "*强烈* "
-"建议您的无动力全向轮设计包括某种形式的弹簧绷紧，将车轮推入地面。这确保车轮始终与地面接触并具有足够的牵引力。需要足够的力来确保恒定的牵引力以防止车轮打滑。请记住，太大的力可能会将轻型驱动列车抬离地面并扰乱驾驶。"
+"建议你的无动力全向轮设计包括某种形式的弹簧绷紧，将车轮推入地面。这确保车轮始终与地面接触并具有足够的牵引力。需要足够的力来确保恒定的牵引力以防止车轮打滑。请记住，太大的力可能会将轻型驱动列车抬离地面并扰乱驾驶。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:208
 msgid ""
