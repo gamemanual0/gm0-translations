@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 04:13+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2023\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -105,7 +105,7 @@ msgid ""
 "<https://www.w3schools.com/java/java_try_catch.asp>`_:"
 msgstr ""
 "处理方法是用一个 `try catch 代码块 "
-"<https://www.w3schools.com/java/java_try_catch.asp>`_，将可能抛出此类异常的代码包围起来："
+"<https://www.w3schools.com/java/java_try_catch.asp>`_ ，将可能抛出此类异常的代码包围起来："
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:116
 msgid "**InterruptedException**"
@@ -188,8 +188,8 @@ msgstr ""
 "OpModes是 *严格控制的程序* ，SDK要求它们以一定的方式与 ``init()`` 、 ``loop()`` "
 "等方法一起运行。如果您执行这些方法中的任何一个操作的时间超过了特定的时间（`5 秒，或停止命令中的 900 毫秒 "
 "<https://github.com/OpenFTC/Extracted-"
-"RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_），SDK"
-" 就会执行之前解释过的 \"紧急停止 \"例程，并显示 \"卡在`操作`中`\"的错误信息。"
+"RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_"
+" ），SDK 就会执行之前解释过的 \"紧急停止 \"例程，并显示 \"卡在`操作`中`\"的错误信息。"
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:170
 msgid ""

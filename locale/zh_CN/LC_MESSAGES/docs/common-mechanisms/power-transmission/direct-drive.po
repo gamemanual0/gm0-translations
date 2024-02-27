@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2024
+# DomnickJYH, 2023
 # Shawphy, 2024
 # 
 #, fuzzy
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 16:16+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -54,7 +54,8 @@ msgid ""
 "permanently damage the gearbox."
 msgstr ""
 "直接驱动会给驱动电机带来不必要的负载。这是因为冲击负荷会破坏齿轮箱，即使是 :term:`planetary gearboxes <Planetary "
-"Gear>`。齿轮箱能够承受沿旋转轴方向的负载，例如车轮改变方向时的负载。这是正常的负载情况。但是，在直接驱动中，齿轮箱轴可能会受到正常轴以外的其他冲击载荷。当车轮接触到另一个机器人或场地墙壁时，就会发生这种情况。这会导致电机轴弯曲或永久性损坏齿轮箱。"
+"Gear>` "
+"。齿轮箱能够承受沿旋转轴方向的负载，例如车轮改变方向时的负载。这是正常的负载情况。但是，在直接驱动中，齿轮箱轴可能会受到正常轴以外的其他冲击载荷。当车轮接触到另一个机器人或场地墙壁时，就会发生这种情况。这会导致电机轴弯曲或永久性损坏齿轮箱。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/direct-drive.rst:13
 msgid ""
@@ -96,7 +97,7 @@ msgid ""
 "building technique. Many drivetrains are cantilevered, which provides for "
 "easy access to wheels."
 msgstr ""
-"悬臂是指一个物体（通常是一根 :term:`轴 <Shaft>`）只有一侧有支撑。虽然从理论上讲，悬臂提供的支撑较少，但只要轴的两点仍由 "
+"悬臂是指一个物体（通常是一根 :term:`轴 <Shaft>` ）只有一侧有支撑。虽然从理论上讲，悬臂提供的支撑较少，但只要轴的两点仍由 "
 ":term:`球承轴 <Ball Bearing>` 或 :term:`轴套 <Bushing>` "
 "支撑，悬臂仍不失为一种合理的建筑技术。许多传动系统都是悬臂式的，这样可以方便地接触车轮。"
 

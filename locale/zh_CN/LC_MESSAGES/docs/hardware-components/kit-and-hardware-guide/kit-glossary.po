@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -38,7 +38,7 @@ msgid ""
 ":term:`extrusion <Extrusion>`, is the most common structural build element "
 "in FTC\\ |reg|, and is found in Tetrix, REV, Actobotics, and goBILDA kits."
 msgstr ""
-"通道结构和 :term:`挤压结构 <Extrusion>` 是 FTC\\ |reg| 中最常见的结构构建元素，在 "
+"通道结构和 :term:`铝型材 <Extrusion>` 是 FTC\\ |reg| 中最常见的结构构建元素，在 "
 "Tetrix、REV、Actobotics 和 goBILDA 套件中都能找到。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:11
@@ -57,7 +57,7 @@ msgstr "一块四面体通道"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:16
 msgid "Extrusion"
-msgstr "铝挤压型材"
+msgstr "铝型材"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:18
 msgid ""
@@ -67,8 +67,8 @@ msgid ""
 "that only regular M3 nuts can fit inside the slot, not :term:`locknuts "
 "<Locknut>`)."
 msgstr ""
-"铝型材是将铝材加工成开槽型材，以便安装某些类型的五金件。对于 FTC 而言，最常见的是 REV 和 Misumi 产品中使用的 15 毫米挤压型材。15"
-" 毫米挤压型材可容纳 M3 螺栓和螺母（注意，只有普通的 M3 螺母可以安装在槽内，而不是 :term:`防松螺母 <Locknut>`）。"
+"铝型材是将铝材加工成开槽型材，以便安装某些类型的五金件。对于 FTC 而言，最常见的是 REV 和 Misumi 产品中使用的 15 毫米铝型材。15 "
+"毫米铝型材可容纳 M3 螺栓和螺母（注意，只有普通的 M3 螺母可以安装在槽内，而不是 :term:`防松螺母 <Locknut>` ）。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:20
 msgid ""
@@ -79,12 +79,12 @@ msgid ""
 "as intake geometry. However, extra care must be taken to ensure components "
 "do not shift under load."
 msgstr ""
-"挤压不是一个固定间距的系统，团队可以根据需要调整组件。这样就可以轻松实现正确的张力，并将机械装置安装到 :term:`C形梁 <Channel>` "
-"会限制安装的地方。挤压的可调节性在精确情况下尤其有用，例如进气几何形状。但是，必须格外小心，以确保组件在负载下不会移动。"
+"铝型材不是一个固定间距的系统，团队可以根据需要调整组件。这样就可以轻松实现正确的张力，并将机械装置安装到 :term:`C形梁 <Channel>` "
+"会限制安装的地方。铝型材的可调节性在精确情况下尤其有用，例如进气几何形状。但是，必须格外小心，以确保组件在负载下不会移动。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
 msgid "A piece of REV Robotics extrusion"
-msgstr "一块 REV 机器人的铝挤压型材"
+msgstr "一块 REV 机器人的铝型材"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:25
 msgid "Ball Bearing"
@@ -97,7 +97,7 @@ msgid ""
 "bushing, primarily because the surface area (or contact area) is much less "
 "than in a :term:`bushing <Bushing>`."
 msgstr ""
-"球轴承是指钢球呈圆形排列的轴承。与衬套相比，滚珠轴承的摩擦更小，这主要是因为表面积（或接触面积）远小于 :term:`轴套  <Bushing>`。"
+"球轴承是指钢球呈圆形排列的轴承。与衬套相比，滚珠轴承的摩擦更小，这主要是因为表面积（或接触面积）远小于 :term:`轴套  <Bushing>` 。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:29
 msgid ""
@@ -305,13 +305,13 @@ msgid ""
 "to other hex products."
 msgstr ""
 "Churro 是 AndyMark 销售的一种 1/2\" 或 3/8\" 六角产品。它的内孔易于攻丝，可安装 1/4-20 和 1/4-28 "
-"螺栓，通常用作大型 :term:`支座 <Standoff>`。与其他六角产品相比，它重量轻，价格便宜。"
+"螺栓，通常用作大型 :term:`支座 <Standoff>` 。与其他六角产品相比，它重量轻，价格便宜。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:104
 msgid ""
 "Using churro as :term:`shaft <Shaft>` is highly discouraged, as it is "
 "slightly undersized as well as prone to twisting."
-msgstr "非常不建议使用 Churro 作为 :term:`轴 <Shaft>`，因为它的尺寸略小，而且容易扭曲。"
+msgstr "非常不建议使用 Churro 作为 :term:`轴 <Shaft>` ，因为它的尺寸略小，而且容易扭曲。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
 msgid "A piece of churro"

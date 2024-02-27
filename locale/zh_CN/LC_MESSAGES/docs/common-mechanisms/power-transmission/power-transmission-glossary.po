@@ -6,17 +6,17 @@
 # Translators:
 # wwsk2008sq, 2023
 # guluomagongchengshi, 2023
-# Shawphy, 2024
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,14 +98,15 @@ msgid ""
 "<Shaft>`. The purpose of this idler is, in the case of gears, to transfer "
 "power to another direction."
 msgstr ""
-"转向器 :term:`齿轮 <Gear>`、 :term:`链轮 <Sprocket>` 或滑轮是特意不用于驱动 :term:`轴 <Shaft>` "
+"转向器 :term:`齿轮 <Gear>` 、 :term:`链轮 <Sprocket>` 或滑轮是特意不用于驱动 :term:`轴 <Shaft>` "
 "上任何其他东西的装置。就齿轮而言，惰轮的作用是将动力传递到另一个方向。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:25
 msgid ""
 "For :term:`chain <Chain>` and :term:`belt <Timing Belt>`, idlers are more "
 "common, and are usually adjustable to maintain tension."
-msgstr "对于 :term:`链条 <Chain>` 和 :term:`同步带 <Timing Belt>`，转向器更为常见，通常可调节以保持张力。"
+msgstr ""
+"对于 :term:`链条 <Chain>` 和 :term:`同步带 <Timing Belt>` ，转向器更为常见，通常可调节以保持张力。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:41
 msgid "Loctite"
@@ -199,7 +200,7 @@ msgid ""
 " of meshing with another gear, the sprocket meshes with chain. See "
 ":term:`Chain`"
 msgstr ""
-"链轮是一种机械部件，通过与链条配合的齿轮传递动力。它类似于 :term:`齿轮 <Gear>`，只不过链轮不是与另一个齿轮啮合，而是与链条啮合。参见 "
+"链轮是一种机械部件，通过与链条配合的齿轮传递动力。它类似于 :term:`齿轮 <Gear>` ，只不过链轮不是与另一个齿轮啮合，而是与链条啮合。参见 "
 ":term:`链条`。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:0

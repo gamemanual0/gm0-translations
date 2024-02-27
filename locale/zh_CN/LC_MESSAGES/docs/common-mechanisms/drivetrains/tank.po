@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -35,7 +35,7 @@ msgstr "2轮驱动（推杆驱动）"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:9
 msgid "**Recommended only for first drivetrain, not for competitions**"
-msgstr " **建议仅用于你的团队入门用的动力系统，而不用于比赛** "
+msgstr "**建议仅用于你的团队入门用的动力系统，而不用于比赛**"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:11
 msgid ""
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 "这种新手传动系统被认为是低级传动系统之一，尽管它在低级比赛中也能使用。这是许多新手的入门传动系统类型，因为 *FIRST*\\ |reg| "
 "出版的官方指南中推广了这种传动系统（给它起了个名字叫pushbot）。它通常有 :term:`直接驱动 <Direct Drive>` "
-":term:`牵引轮 <Traction wheel>` 和无动力的 :term:`全向轮 <Omni Wheel>`。"
+":term:`牵引轮 <Traction wheel>` 和无动力的 :term:`全向轮 <Omni Wheel>` 。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:13
 msgid ""
@@ -126,7 +126,7 @@ msgstr "2 个电机导致加速性能差"
 msgid ""
 "Often :term:`direct driven <Direct Drive>`, which is highly discouraged for "
 "drivetrains"
-msgstr "通常使用 :term:`直接驱动 <Direct Drive>`，就传动系统而言，非常不推荐这么搭建"
+msgstr "通常使用 :term:`直接驱动 <Direct Drive>` ，就传动系统而言，非常不推荐这么搭建"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
 msgid "Tetrix pushbot"
@@ -393,7 +393,7 @@ msgstr ""
 "**大多数降心六轮驱动装置都是使用定制的传动系统** 制作的，因为使用基于套件的构建系统很难实现中心轮降心（基于 REV "
 "的套件传动系统是一个显著的例外）。使用 goBILDA 和 Actobotics 的枕木块可以实现中心下降，但会比较笨拙。不过，有了新的 "
 "`goBILDA 落心轴承板 <https://www.gobilda.com/1616-series-drop-center-bearing-"
-"plate-2mm-drop-4-pack/>`_，就可以在 goBILDA 通道上直接制作落心传动系统。"
+"plate-2mm-drop-4-pack/>`_ ，就可以在 goBILDA 通道上直接制作落心传动系统。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:150
 msgid ""
@@ -434,7 +434,7 @@ msgid ""
 msgstr ""
 "使用基于 :term:`C形梁 <Channel>` 的系统制造落心式 6WD 方案十分困难，不过使用  `goBILDA 落心式轴承板 "
 "<https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-"
-"drop-4-pack/>`_可以部分缓解这一问题。"
+"drop-4-pack/>`_ 可以部分缓解这一问题。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:164
 msgid "Drop-center 6WD is slightly worse at turning, but has more traction"

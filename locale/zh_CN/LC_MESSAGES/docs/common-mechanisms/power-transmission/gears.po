@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2024
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 16:15+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,7 @@ msgid ""
 "different ratios, since the gears can be moved around in extrusion."
 msgstr ""
 "齿轮与链轮和皮带轮一样，在动力传输中用于三种常见应用：改变动力方向、改变扭矩大小和改变转速。与链条相比，齿轮传动是一种不太常见的传动方式，但在大多数情况下仍然非常可行。齿轮传动与链条传动同样可靠，但不能用于长距离动力传输。许多车队在使用套件C形梁时不喜欢齿轮，因为孔型限制了齿轮的组合。因此，可能很难达到理想的特定齿轮比。但是，使用"
-" :term:`铝型材 <Extrusion>` 系统时，由于齿轮可以在挤压过程中移动，因此可以很容易地使用不同的齿轮比。"
+" :term:`铝型材 <Extrusion>` 系统时，由于齿轮可以很方便在铝型材中随意移动位置，因此可以很容易地使用不同的齿轮比。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:6
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:38
@@ -213,7 +213,7 @@ msgid ""
 "not be perfectly in line with one another. It is imperative that the gear be"
 " lined up as straight as possible to prevent damage or gear binding."
 msgstr ""
-"与链轮一样，重要的是要将齿轮排成直线，以免意外打滑。特别是在使用挤压时，齿轮可能与挤压不平行，因为两个支撑端可能不完全一致。齿轮必须尽可能排成直线，以防止损坏或齿轮间形成高度差。"
+"与链轮一样，重要的是要将齿轮排成直线，以免意外打滑。特别是在使用铝型材时，齿轮可能与铝型材不平行，因为两个支撑端可能不完全一致。齿轮必须尽可能排成直线，以防止损坏或齿轮间形成高度差。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:66
 msgid ""
@@ -241,7 +241,7 @@ msgid ""
 "pair of gears. Extrusion gives you even more flexibility - just slide your "
 "gears into mesh, and you can have whatever ratio you want."
 msgstr ""
-"齿轮很容易与C形梁和挤压一起使用。在C形梁上，你的齿轮已经间隔正确——你只需要选择合适的齿轮对。挤压给你更大的灵活性——只需将齿轮滑入啮合，你就可以拥有任何你想要的比例。"
+"齿轮很容易与C形梁和铝型材一起使用。在C形梁上，你的齿轮已经间隔正确——你只需要选择合适的齿轮对。铝型材给你更大的灵活性——只需将齿轮滑入啮合，你就可以拥有任何你想要的比例。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:73
 msgid ""

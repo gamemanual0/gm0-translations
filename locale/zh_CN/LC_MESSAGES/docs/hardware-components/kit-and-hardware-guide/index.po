@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
-# DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-24 16:14+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +39,7 @@ msgid ""
 " REV Starter kit from REV Robotics. However, teams should carefully consider"
 " other options, such as goBILDA, before selecting a kit."
 msgstr ""
-"在赛季开始前，您的团队将面临一个至关重要的决定--这个决定无疑将在很大程度上影响团队至少第一年的硬件设计方向。*FIRST*\\ |reg| "
+"在赛季开始前，您的团队将面临一个至关重要的决定--这个决定无疑将在很大程度上影响团队至少第一年的硬件设计方向。 *FIRST*\\ |reg| "
 "商店目前为新团队提供两种套件：Pitsco 的 TETRIX 套件和 REV Robotics 的 REV "
 "入门套件。不过，参赛队在选择套件之前，应仔细考虑其他选项，如 goBILDA。"
 
@@ -116,8 +115,8 @@ msgid ""
 "available from the *FIRST* storefront, which might be convenient for teams "
 "doing their purchasing through official school procurement systems."
 msgstr ""
-"REV Robotics（公制）略微便宜一些，但学习曲线一般比其他大多数套件要高一些，因为它是基于 :term:`铝挤压型材 <Extrusion>` "
-"而不是 :term:`C形梁 <Channel>` 的。 :term:`铝挤压型材` "
+"REV Robotics（公制）略微便宜一些，但学习曲线一般比其他大多数套件要高一些，因为它是基于 :term:`铝型材 <Extrusion>` "
+"而不是 :term:`C形梁 <Channel>` 的。 :term:`铝型材` "
 "需要更多的精力来操作（你需要将铝型材切割成一定的长度）；但是，它允许最大的设计自由度和可调整性。REV也可从 *FIRST* "
 "店面购买，这对于通过学校官方采购系统进行采购的团队来说可能比较方便。"
 
@@ -129,7 +128,7 @@ msgid ""
 "hubs <Clamping Hub>` used in other systems."
 msgstr ""
 "Tetrix（公制和英制）可能是最简单的系统，但其零件选择有限，使用 :term:`4.7mm 轴 <Shaft>` 和 :term:`固定螺钉 "
-"<Set Screw>` 时不如其他系统中使用的 :term:`夹紧轮毂 <Clamping Hub>`。"
+"<Set Screw>` 时不如其他系统中使用的 :term:`夹紧轮毂 <Clamping Hub>` 。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/index.rst:24
 msgid ""

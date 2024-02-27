@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 04:15+0000\n"
+"POT-Creation-Date: 2024-02-27 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -30,7 +30,7 @@ msgstr "REV 机器人"
 msgid ""
 "The REV kit is an infinite-pitch, :term:`extrusion <Extrusion>` based "
 "building system which uses the metric system and M3 hardware."
-msgstr "REV 套件是一种无限间距、基于 :term:`挤压式 <Extrusion>` 的建筑系统，使用公制系统和 M3 硬件。"
+msgstr "REV 套件是一种无限间距、基于 :term:`基于铝型材 <Extrusion>` 的搭建体系，使用公制系统和 M3 硬件。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:9
 msgid "Special Considerations"
@@ -42,7 +42,7 @@ msgid ""
 "<Extrusion>` and is complemented by 45x45mm :term:`channels <Channel>`."
 msgstr ""
 "REV 搭建体系系统以 15x15mm :term:`铝型材 <Extrusion>` 为基础，辅以 45x45mm :term:`C型槽 "
-"<Channel>`。"
+"<Channel>` 。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:12
 msgid ""
@@ -92,7 +92,7 @@ msgstr "重要组件"
 msgid ""
 "REV's bread and butter is the 15x15mm aluminum :term:`extrusion "
 "<Extrusion>`. It accepts M3 hex screws which slide along the grooves."
-msgstr "REV 的基础必需品是 15x15mm 铝型材 :term:`铝型材 <Extrusion>`。它可以使用 M3 六角螺丝沿着凹槽滑动。"
+msgstr "REV 的基础必需品是 15x15mm 铝型材 :term:`铝型材 <Extrusion>` 。它可以使用 M3 六角螺丝沿着凹槽滑动。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:22
 msgid ""
@@ -101,13 +101,13 @@ msgid ""
 " <Extrusion>` and provides stiffness and support when needed."
 msgstr ""
 "此外，REV 还提供 45x45mm :term:`U-channel <Channel>` 和 45x45mm :term:`C-channel "
-"<Channel>`，其强度高于 :term:`铝型材 <Extrusion>`，并在需要时提供刚度和支撑。"
+"<Channel>` ，其强度高于 :term:`铝型材 <Extrusion>` ，并在需要时提供刚度和支撑。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:23
 msgid ""
 "REV also offers punch tubing for teams wanting a more permanent mounting "
 "system while having the flexibility of extrusion."
-msgstr "REV 还提供冲压管，供需要更永久性安装系统的团队使用，同时具有挤压的灵活性。"
+msgstr "REV 还提供冲压管，供需要更永久性安装系统的团队使用，同时具有铝型材的灵活性。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:24
 msgid ""
@@ -147,14 +147,14 @@ msgid ""
 ":term:`extrusion <Extrusion>`. REV offers the option to upgrade parts for "
 "those wanting a further investment into the REV building system."
 msgstr ""
-"**REV套件适合愿意在挤压成型建筑系统上投入时间的团队。** 它是最灵活的套件，因为它以挤压成型为基础，但也可以集成 :term:`C形梁 "
+"**REV套件适合愿意在铝型材搭建体系上投入时间的团队。** 它是最灵活的套件，因为它以铝型材为基础，但也可以集成 :term:`C形梁 "
 "<Channel>` 和 :term:`铝型材 <Extrusion>` 。REV 为希望进一步投资 REV 建筑系统的用户提供升级部件的选择。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:33
 msgid ""
 "One advantage to the REV kit is the compatibility of 15x15mm MiSUMI "
 ":term:`extrusion <Extrusion>`."
-msgstr "REV 套件的一个优势是兼容 15x15mm MiSUMI :term:`铝型材 <Extrusion>`。"
+msgstr "REV 套件的一个优势是兼容 15x15mm MiSUMI :term:`铝型材 <Extrusion>` 。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:35
 msgid ""
@@ -202,7 +202,7 @@ msgstr ""
 msgid ""
 "With punch tubing, teams must pre-drill holes and attach, unlike extrusion, "
 "where teams can slide and adjust mechanisms."
-msgstr "使用冲压管时，团队必须预先钻孔并安装，而挤压则不同，团队可以滑动和调整机制。"
+msgstr "使用冲压管时，团队必须预先钻孔并安装，而铝型材则不同，团队可以滑动和调整机制。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:47
 msgid ""
@@ -211,7 +211,7 @@ msgid ""
 "money. Punch tubing is compatible with the Metric Step Drill and 1/8\" or "
 "3.2mm pop-rivets."
 msgstr ""
-"因此，建议参赛队在原型/迭代设计中使用挤压，在机器人的最终迭代中使用冲压管，以节省成本。冲压管与公制阶梯钻和 1/8 英寸或 3.2 毫米弹铆钉兼容。"
+"因此，建议参赛队在原型/迭代设计中使用铝型材，在机器人的最终迭代中使用冲压管，以节省成本。冲压管与公制阶梯钻和 1/8 英寸或 3.2 毫米弹铆钉兼容。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rstNone
 msgid "A piece of REV Robotics 15mm punch tubing"
@@ -223,15 +223,15 @@ msgstr "一片 rev 型材"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:56
 msgid "REV 15x15mm Extrusion"
-msgstr "REV 15x15mm 挤压"
+msgstr "REV 15x15mm 铝型材"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:61
 msgid "A technical drawing of MiSUMI Extrusion's profile"
-msgstr "米苏米挤压型材的技术图纸"
+msgstr "米苏米铝型材的技术图纸"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:61
 msgid "MiSUMI 15x15mm Extrusion Profile"
-msgstr "MiSUMI 15x15mm 挤压型材"
+msgstr "MiSUMI 15x15mm 铝型材"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:64
 msgid "Kit of Parts"
@@ -256,8 +256,8 @@ msgid ""
 ":term:`Extrusion` allows teams to save space as opposed to :term:`channel "
 "<Channel>`, and is lighter than aluminum :term:`channel <Channel>`."
 msgstr ""
-"与 :term:`C形梁 <Channel>` 相比， :term:`铝型材 可以让团队节省空间，而且比铝制 :term:`C形梁 "
-"<Channel>`更轻。"
+"与 :term:`C形梁 <Channel>` 相比， :term:`铝型材 可以让团队节省空间，而且比铝制 :term:`C形梁 <Channel>`"
+" 更轻。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/rev-robotics.rst:76
 msgid ""
