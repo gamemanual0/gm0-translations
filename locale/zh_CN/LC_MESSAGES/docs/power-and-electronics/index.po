@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2023
 # wwsk2008sq, 2023
 # DomnickJYH, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 16:15+0000\n"
+"POT-Creation-Date: 2024-03-05 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,7 @@ msgstr "术语表"
 
 #: ../../gm0/source/docs/power-and-electronics/index.rst:22
 msgid "Gauge"
-msgstr "规格"
+msgstr "线规"
 
 #: ../../gm0/source/docs/power-and-electronics/index.rst:24
 msgid ""
@@ -49,8 +49,8 @@ msgid ""
 "smaller the wire diameter. Generally, :term:`servo <Servo>` wires are 22 AWG"
 " and motor wires are 18 AWG."
 msgstr ""
-"线规是指电线的直径。AWG 代表美国线规，是美国使用的通用系统。线规数字越大，导线直径越小。一般来说， :term:`servo <Servo>` "
-"导线为 22 AWG，电机线为 18 AWG。"
+"线规是指电线的直径。AWG 代表美国线规，是美国使用的通用系统。线规数字越大，导线直径越小。一般来说， :term:`舵机 <Servo>` 导线为 "
+"22 AWG，电机线为 18 AWG。"
 
 #: ../../gm0/source/docs/power-and-electronics/index.rst:25
 msgid "Grounding Strap"

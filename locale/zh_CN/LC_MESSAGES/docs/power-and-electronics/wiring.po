@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2024-03-05 16:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -147,7 +147,7 @@ msgstr "**使用数据/传感器电缆时，应使其远离电机。** 这将减
 msgid ""
 "**Crimped connectors are generally better than soldered connectors**, as "
 "solder joints can break easier than a crimped connection."
-msgstr "**压接连接器通常比焊接连接器** 好，因为焊点比压接连接更容易断裂。"
+msgstr "**压接连接器通常比焊接连接器好** ，因为焊点比压接连接更容易断裂。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:32
 msgid ""
@@ -167,7 +167,7 @@ msgid ""
 "preferable.** This means a lower resistance across the wire and higher power"
 " throughput. This is negligible for data wires, however."
 msgstr ""
-"**对于电源线，最好使用较低** :term:`gauge <Gauge>` **（较大尺寸）的导线。** "
+"**对于电源线，最好使用较低** :term:`线规 <Gauge>` **（较大尺寸）的导线。** "
 "这意味着导线上的电阻较低，功率吞吐量较高。不过，这对数据线来说微不足道。"
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:34
