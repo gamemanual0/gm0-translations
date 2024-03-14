@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = ja_JP: ja, fr_CA: fr, es_MX: es, ro_RO: ro
+lang_map = ro_RO: ro, ja_JP: ja, fr_CA: fr, es_MX: es
 
 [o:gamemanual0:p:gm0:r:docs--appendix--gallery]
 file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/gallery.po
@@ -349,6 +349,14 @@ keep_translations      = false
 [o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--power-transmission-glossary]
 file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/power-transmission-glossary.po
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/power-transmission-glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:gamemanual0:p:gm0:r:docs--common-mechanisms--power-transmission--shaft-retention]
+file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-transmission/shaft-retention.po
+source_file            = locale/pot/docs/common-mechanisms/power-transmission/shaft-retention.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
