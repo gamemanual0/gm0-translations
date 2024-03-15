@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-14 04:15+0000\n"
+"POT-Creation-Date: 2024-03-15 04:15+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -95,6 +95,14 @@ msgid ""
 "Can physically take up more space (bearings needed on either side of a "
 "shaft)"
 msgstr "实际占用空间较大（轴的两侧都需要轴承）"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:30
+msgid ""
+"Usually requires some form of :doc:`/docs/common-mechanisms/power-"
+"transmission/shaft-retention` to prevent the shaft from moving"
+msgstr ""
+"通常需要某种形式的 :doc:`/docs/common-mechanisms/power-transmission/shaft-retention` "
+"来防止轴移动"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:33
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:38

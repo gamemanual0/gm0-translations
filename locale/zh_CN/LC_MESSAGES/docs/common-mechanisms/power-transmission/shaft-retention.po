@@ -3,16 +3,134 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Shawphy, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-14 04:15+0000\n"
+"POT-Creation-Date: 2024-03-15 04:15+0000\n"
 "PO-Revision-Date: 2024-03-14 04:15+0000\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:2
+msgid "Shaft Retention"
+msgstr "轴固定"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:4
+msgid ""
+"If you are powering any mechanism with a :term:`live axle <Live Axle>` "
+"system, you will need a way to retain the shaft so that it does not move "
+"axially (along its length). It is necessary to constrain movement in both "
+"directions, and two methods can be mixed and matched on one shaft. "
+"Generally, this is done by having something contact the bearing's inner race"
+" that is constrained axially on the shaft. It is important to make sure the "
+"bearings themselves are also constrained."
+msgstr ""
+"如果使用 :term:`live axle<Live Axle>` "
+"系统为任何机构提供动力，则需要一种方法来固定轴，使其不会沿轴向（其长度方向）移动。有必要对两个方向的运动进行限制，可以在一根轴上混合使用两种方法。一般来说，要做到这一点，需要有东西接触轴上轴向受限的轴承内圈。重要的是要确保轴承本身也受到约束。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:6
+msgid ""
+"Make sure to use an appropriately sized shim/washer between the thing "
+"retaining the shaft and the bearing, such that it only touches the bearings "
+"inner race. Otherwise, the rubbing will lead to inefficiency."
+msgstr "确保在固定轴和轴承之间使用适当尺寸的垫片/垫圈，使其仅接触轴承内圈。否则，摩擦将导致效率低下。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:8
+msgid ""
+"Outlined below are some common methods FTC teams use for shaft retention."
+msgstr "下面概述了 FTC 团队用于固定轴的一些常用方法。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:11
+msgid "Shaft Collars"
+msgstr "轴环"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:13
+msgid ""
+"Shaft collars are fitted onto a shaft in order to secure it. There are two "
+"primary types: set screw collars and clamping collars."
+msgstr "轴环安装在轴上以固定轴。主要有两种类型：固定螺丝轴环和夹紧轴环。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:16
+msgid "Set Screw Collars"
+msgstr "固定螺丝轴环"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+msgid "A set screw collar with a grub screw."
+msgstr "固定螺丝轴环，带一个防松螺丝。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:21
+msgid ""
+"Set screw collars use a set screw (typically a grub screw) to tighten down "
+"onto the shaft. While set screw collars are cheap and readily available, "
+"there are some disadvantages. The screw digs into the shaft, creating a "
+"raised burr, making it difficult to remove/adjust the collar or to use the "
+"shaft for something else in the future."
+msgstr ""
+"固定螺丝轴环使用一个固定螺丝（通常是一个防松螺丝）来拧紧轴。虽然固定螺丝轴环既便宜又容易获得，但也有一些缺点。螺丝会钻入轴中，形成一个凸起的毛刺，导致难以移除/调整轴环或将来将轴用于其他用途。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:24
+msgid "Clamping Collars"
+msgstr "夹紧环"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+msgid "A clamping shaft collar."
+msgstr "夹紧轴环。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:29
+msgid ""
+"A clamping shaft collar uses typical bolts to clamp the shaft, applying "
+"force all around the shaft instead of just in one place. They may or may not"
+" have a built-in shim to rest against a bearing race. They are generally "
+"recommended over set screw collars, especially for high-load applications. "
+"However, they do tend to be more expensive and larger."
+msgstr ""
+"夹紧轴环使用典型的螺栓夹紧轴，在轴的四周而不仅仅是一个地方施加力。这种轴环可能有内置垫片，也可能没有内置垫片，用于靠在轴承滚道上。一般推荐使用这种轴环，而不是固定螺钉轴环，尤其是在高负荷应用中。不过，它们往往更贵、更大。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:32
+msgid "Shaft Retaining Rings"
+msgstr "轴固定环"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+msgid "a shaft with a shaft retaining ring"
+msgstr "带轴卡环的轴"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:38
+msgid ""
+"Shaft retaining rings clip into a groove in a shaft and provide a simple and"
+" compact way to retain it. Unlike collars, they cannot be moved along the "
+"shaft and are reliant on having a machined groove in the correct location. "
+"Many teams use E-clips, a type of retaining ring, with goBILDA's 8mm REX "
+"shafting, as it can be bought with an E-clip preinstalled."
+msgstr ""
+"轴用卡环夹在轴的凹槽中，提供了一种简单紧凑的固定方式。与轴环不同的是，轴环不能沿轴移动，必须在正确的位置加工出凹槽。许多车队在使用 goBILDA 的 "
+"8 毫米 REX 传动轴时都会使用 E 形夹（一种卡环），因为在购买时已经预装了 E 形夹。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:41
+msgid "Bolts and Washers"
+msgstr "螺栓和垫圈"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:43
+msgid ""
+"When using a shaft with a threaded bore, you can use a bolt and washer on "
+"each end to retain it. It is important to use a thread locking compound to "
+"prevent the bolts from loosening over time."
+msgstr "使用带螺纹孔的轴时，可以在两端各使用一个螺栓和垫圈来固定。重要的是要使用螺纹锁紧剂，以防止螺栓随着时间的推移而松动。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:48
+msgid "9804 Bomb Squad's H-Drive"
+msgstr "9804 Bomb Squad 的 H 型底盘"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:48
+msgid ""
+"9804 Bomb Squad's Relic Recovery bot used bolts to retain its wheel shafts."
+msgstr "9804 Bomb Squad 在 Relic Recovery 赛季的机器人使用螺丝固定轮轴。"
