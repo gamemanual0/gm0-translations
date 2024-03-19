@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2024
 # Shawphy, 2024
+# DomnickJYH, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-19 04:15+0000\n"
+"POT-Creation-Date: 2024-03-19 16:17+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -239,6 +239,17 @@ msgstr ""
 "非常耐用，你很难剥离它们。一般来说，需要支付更高的价格。goBILDA 双模式舵机 (v2) 是钢制 :term:`齿轮 <Gear>` "
 ":term:`舵机 <Servo>` 的典范。"
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:54
+msgid ""
+"**Titanium**: Titanium is where you get into really high end, virtually "
+"unbreakable :term:`servos <Servo>`. Starting from $75, they can reach over "
+"$150. A common misconception is that titanium is stronger than steel, "
+"however its advantage is in strength to weight ratio (as in, titanium "
+"gearboxes will often be lighter than steel gearboxes)."
+msgstr ""
+"**钛** ：钛是真正的高端产品，几乎不会损坏 :term:`servos <Servo>`· 。起价从 75 美元到 150 "
+"美元不等。一个常见的误解是，钛比钢更坚固，但其优势在于强度与重量比（例如，钛齿轮箱通常比钢齿轮箱更轻）。"
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:57
 msgid "Servo Size"
 msgstr "舵机尺寸"
@@ -317,8 +328,19 @@ msgid ""
 "microseconds. When choosing a servo, it is important to make sure that its "
 "range will be usable for your application inside of 500-2500 microseconds."
 msgstr ""
-"默认情况下，FTC 控制集线器和 FTC 扩展集线器输出 600-2400 微秒信号。不过，这一范围可扩展至 500-2500 "
-"微秒。在选择舵机时，必须确保其量程在 500-2500 微秒范围内适用于您的应用。"
+"默认情况下，FTC Control Hub 和 FTC Expansion Hub 输出 600-2400 微秒信号。不过，这一范围可扩展至 "
+"500-2500 微秒。在选择舵机时，必须确保其量程在 500-2500 微秒范围内适用于您的应用。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:83
+msgid ""
+"The default 600-2400 range of the FTC Expansion Hub and FTC Control Hub can "
+"make it appear that popular servos like the goBILDA Dual Mode servos and REV"
+" Smart Robot Servo have less range than advertised. You can use the "
+"following code to expand the range to 500-2500 microseconds."
+msgstr ""
+"FTC Expansion Hub 和 FTC Control Hub 的默认范围为 600-2400 微秒，这可能会导致 goBILDA Dual "
+"Mode Servo 和 REV Smart Robot Servo 等常用舵机的范围比产品介绍中的要小。您可以使用以下代码将范围扩大到 "
+"500-2500 微秒。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:92
 msgid "Cost"
@@ -416,6 +438,55 @@ msgstr "我们不再推荐低价舵机。由于其强度低，随着时间的推
 msgid "Bang for Your Buck"
 msgstr "高性价比舵机"
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:118
+msgid ""
+"`goBILDA Dual Mode Servo (Torque) (25-2-torque) "
+"<https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_ - A "
+"very good price to performance servo. It is dual mode, has a higher than "
+"average output torque (and correspondingly lower speed), and steel gearbox."
+msgstr ""
+"`goBILDA Dual Mode Servo (Torque) (25-2-torque) "
+"<https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_ - "
+"性价比非常高的舵机。它采用双模式，输出扭矩高于平均水平（速度相应较低），采用钢制齿轮箱。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:120
+msgid ""
+"`goBILDA Dual Mode Servo (Speed) (25-3) "
+"<https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_ - A very"
+" good price to performance servo. It is dual mode, has a higher than average"
+" output speed (and correspondingly lower torque), and steel gearbox."
+msgstr ""
+"`goBILDA Dual Mode Servo (Speed) (25-3) "
+"<https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_ - "
+"性价比极高的舵机。它采用双模式，输出速度高于平均水平（扭矩相应较低），采用钢制齿轮箱。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:122
+msgid ""
+"`REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_ - While very "
+"good price to performance, its brass gearbox makes it less recommended than "
+"goBILDA Dual Mode Servos"
+msgstr ""
+"`REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_ - "
+"虽然性价比很高，但它的黄铜齿轮箱使其不如 goBILDA 双模式舵机值得推荐。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:124
+msgid ""
+"`Andymark High Speed/Torque Servo "
+"<https://www.andymark.com/products/programmable-servos>`_ - A newcomer to "
+"the market, this servo is extremely promising as a price to performance "
+"servo, with a unique 5mm hex output and imperial half inch mounting pattern."
+" The high speed variant has more power output than the commonly used goBILDA"
+" Dual Mode servo. The high torque servo has a higher efficiency than the "
+"goBILDA Dual Mode servo. **It is unreleased at the time of writing, so these"
+" claims have not been verified.** This servo has been included due to "
+"Andymark's historical reliability."
+msgstr ""
+"`Andymark High Speed/Torque Servo "
+"<https://www.andymark.com/products/programmable-servos>`_ - "
+"作为市场新秀，这款舵机性价比极高，具有独特的 5 毫米六角输出和英制半英寸安装模式。与常用的 goBILDA "
+"双模式舵机相比，Andymark高速舵机的输出功率更大。Andymark高扭矩舵机的效率高于 goBILDA 双模式舵机。 "
+"**在撰写本文时，该产品尚未发布。** 因此这些说法尚未得到证实。"
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:128
 msgid "Premium Options"
 msgstr "高级选项"
@@ -450,6 +521,17 @@ msgid ""
 msgstr ""
 "`goBILDA 5 Turn Servo <https://www.gobilda.com/2000-series-5-turn-dual-mode-"
 "servo-25-2-torque/>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:139
+msgid ""
+"goBILDA manufactures all three of their Dual Mode servos (Speed, Super "
+"Speed, Torque) in 5 turn varients, which can rotate 5 turns while still "
+"tracking position. These servos have high range, making them ideal for use "
+"with external gearboxes, but are more expensive and have a lower precision "
+"than the normal varients."
+msgstr ""
+"goBILDA 生产的所有三种双模式舵机（速度型、超高速型、扭矩型）都有 5 转变体，可以旋转 5 "
+"转，同时仍能跟踪位置。这些舵机具有较高的量程，非常适合与外部齿轮箱配合使用，但价格较高，精度也比普通舵机低。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:141
 msgid ""
