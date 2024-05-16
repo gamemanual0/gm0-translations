@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 16:16+0000\n"
+"POT-Creation-Date: 2024-05-16 04:14+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:4
 msgid "Linear Bearing Slides"
-msgstr "直线轴承滑轨"
+msgstr "线性轴承滑轨"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:6
 msgid ""
@@ -34,7 +34,7 @@ msgid ""
 "to create smooth, stable, precise linear motion. They are used in many "
 "industrial automation systems, including 3D printers and CNC machines."
 msgstr ""
-"直线轴承是特种球轴承。与向心球轴承不同，它们通过沿着轨道或轴的长度的循环轨道运行球来产生平滑、稳定、精确的直线运动。它们用于许多工业自动化系统，包括 "
+"线性轴承是特种球轴承。与向心球轴承不同，它们通过沿着轨道或轴的长度的循环轨道运行球来产生平滑、稳定、精确的线性运动。它们用于许多工业自动化系统，包括 "
 "3D 打印机和 数控机床。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:8
@@ -44,17 +44,17 @@ msgid ""
 "balls missing have slightly decreased performance. Be sure to handle and "
 "store the bearings with care and to be prepared if their balls fall out."
 msgstr ""
-"与大多数滑轨不同，当轴承从导轨上取下时，直线轴承的滚珠不能很好地保留。缺少一些滚珠的直线轴承性能会略有下降。请务必小心处理和储存轴承，并在滚珠脱落时做好准备。"
+"与大多数滑轨不同，当轴承从导轨上取下时，线性轴承的滚珠不能很好地保留。缺少一些滚珠的线性轴承性能会略有下降。请务必小心处理和储存轴承，并在滚珠脱落时做好准备。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:10
 msgid ""
 "There are two types of linear bearings generally used in FTC: round linear "
 "bearings and linear bearing blocks."
-msgstr "FTC中一般使用的直线轴承有两种：圆形直线轴承和直线轴承块。"
+msgstr "FTC中一般使用的线性轴承有两种：圆形线性轴承和线性轴承块。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:13
 msgid "MGN Series Linear Bearing Blocks"
-msgstr "MGN 系列直线轴承座"
+msgstr "MGN 系列线性轴承座"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:15
 msgid ""
@@ -63,7 +63,7 @@ msgid ""
 "Corporation. They come in several sizes, the smallest being MGN7 and the "
 "largest being MGN15."
 msgstr ""
-"MGN 直线轴承座是 FTC 中最常见的直线轴承座。它们是 HIWIN 公司生产的滑轨较大分类中最小的一种。它们有多种尺寸，最小的是 MGN7，最大的是"
+"MGN 线性轴承座是 FTC 中最常见的线性轴承座。它们是 HIWIN 公司生产的滑轨较大分类中最小的一种。它们有多种尺寸，最小的是 MGN7，最大的是"
 " MGN15。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:17
@@ -151,7 +151,7 @@ msgstr "8221 Cubix、Res-Q、MGN 滑轨与 3D 打印部件相连接"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:50
 msgid "Round Linear Bearings"
-msgstr "圆形直线轴承"
+msgstr "圆形线性轴承"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:52
 msgid ""
@@ -159,7 +159,7 @@ msgid ""
 "properties, but they can be used on any round shaft rather than a "
 "specialized rail. They can also be used in applications where sliding "
 "mechanisms have to rotate on the same axis."
-msgstr "圆形直线轴承与轴承座相似，也具有类似的特性，但它们可用于任何圆形轴，而非专用导轨。它们还可用于滑动机构必须在同一轴上旋转的应用场合。"
+msgstr "圆形线性轴承与轴承座相似，也具有类似的特性，但它们可用于任何圆形轴，而非专用导轨。它们还可用于滑动机构必须在同一轴上旋转的应用场合。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:54
 msgid ""
@@ -170,15 +170,15 @@ msgid ""
 "reason most teams using round linear bearings use custom parts to mount "
 "them."
 msgstr ""
-"圆形直线轴承可以很容易地从大多数机器人供应商处获得，包括 goBILDA 和 "
-"Actobotics。不过，这些供应商目前还没有使用这些轴承的开箱即用升降机套件。因此，大多数使用圆形直线轴承的团队都使用定制部件来安装它们。"
+"圆形线性轴承可以很容易地从大多数机器人供应商处获得，包括 goBILDA 和 "
+"Actobotics。不过，这些供应商目前还没有使用这些轴承的开箱即用升降机套件。因此，大多数使用圆形线性轴承的团队都使用定制部件来安装它们。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:56
 msgid ""
 "Round linear bearings are often mounted with clamps, but they can also be "
 "mounted using inexpensive snap rings that snap onto the grooves on the "
 "outsides of the bearings."
-msgstr "圆形直线轴承通常用夹具安装，但也可以用便宜的卡环安装，卡环卡在轴承外侧的凹槽上。"
+msgstr "圆形线性轴承通常用夹具安装，但也可以用便宜的卡环安装，卡环卡在轴承外侧的凹槽上。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:58
 msgid ""
@@ -189,7 +189,7 @@ msgid ""
 " mind and try to design their slide systems so that the tubes can easily be "
 "replaced."
 msgstr ""
-"为了减轻重量，许多团队使用价格低廉的铝管和碳纤维管代替钢管制作圆形直线轴承。虽然这样制作的滑动组件非常轻便，但随着时间的推移，钢珠会磨损到较软的材料，因此容易磨损。参赛队应牢记这一点，在设计滑轨系统时尽量使管易于更换。"
+"为了减轻重量，许多团队使用价格低廉的铝管和碳纤维管代替钢管制作圆形线性轴承。虽然这样制作的滑动组件非常轻便，但随着时间的推移，钢珠会磨损到较软的材料，因此容易磨损。参赛队应牢记这一点，在设计滑轨系统时尽量使管易于更换。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:63
 msgid "8417 'Lectric Legends' Rover Ruckus robot with slides extended"
@@ -199,7 +199,7 @@ msgstr "8417 'Lectric Legends Rover Ruckus 机器人，滑轨加长"
 msgid ""
 "8417 'Lectric Legends, Rover Ruckus, round linear bearings and carbon fiber "
 "tubes with 3D printed mounts"
-msgstr "8417 'Lectric Legends，Rover Ruckus，圆形直线轴承和碳纤维管，带 3D 打印支架"
+msgstr "8417 'Lectric Legends，Rover Ruckus，圆形线性轴承和碳纤维管，带 3D 打印支架"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:68
 msgid "5975 Cybots Relic Recovery robot with relic arm extended"
@@ -209,22 +209,22 @@ msgstr "5975 Cybots ，Relic Recovery机器人，伸展机械臂"
 msgid ""
 "5975 Cybots, Relic Recovery, round linear bearings and carbon fiber tubes "
 "with 3D printed mounts"
-msgstr "5975 Cybots，Relic Recovery，圆形直线轴承和碳纤维管，带 3D 打印支架"
+msgstr "5975 Cybots，Relic Recovery，圆形线性轴承和碳纤维管，带 3D 打印支架"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:73
 msgid "11115 Gluten Free Skystone linear slide arm"
-msgstr "11115 Gluten Free  Skystone 直线滑臂"
+msgstr "11115 Gluten Free  Skystone 线性滑臂"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:73
 msgid ""
 "11115 Gluten Free, Skystone, round linear bearings and metal shafts with 3D "
 "printed mounts"
-msgstr "11115 Gluten Free， Skystone、圆形直线轴承和带 3D 打印支架的金属轴"
+msgstr "11115 Gluten Free， Skystone、圆形线性轴承和带 3D 打印支架的金属轴"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:78
 msgid "goBILDA round linear bearing product insight"
-msgstr "goBILDA 圆形直线轴承产品洞察"
+msgstr "goBILDA 圆形线性轴承产品洞察"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst:78
 msgid "goBILDA, round linear bearings with metal clamps and shafts"
-msgstr "goBILDA，带金属夹具和轴的圆形直线轴承"
+msgstr "goBILDA，带金属夹具和轴的圆形线性轴承"
