@@ -5,17 +5,17 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# wwsk2008sq, 2023
 # Shawphy, 2024
+# wwsk2008sq, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2024-06-01 16:15+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: wwsk2008sq, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,18 +25,20 @@ msgstr ""
 
 #: ../../gm0/source/docs/awards/award-types.rst:4
 msgid "Award Categories"
-msgstr "奖项类别"
+msgstr "奖项设置与类别"
 
 #: ../../gm0/source/docs/awards/award-types.rst:7
 msgid "Advancing Awards"
-msgstr "晋级奖"
+msgstr "可晋级奖项"
 
 #: ../../gm0/source/docs/awards/award-types.rst:9
 msgid ""
 "There are 7 awards for FTC\\ |reg| teams (excluding optional awards). For "
 "more information on the exact requirements for these awards, see |gm1|. In "
 "order of advancement priority, these are:"
-msgstr "FTC\\ |reg| 团队有 7 个奖项（不包括可选奖项）。有关这些奖项具体要求的详细信息，请参阅 |gm1| 。按晋级优先顺序排列，它们是"
+msgstr ""
+"FTC\\ |reg| 团队可以获得 7 个奖项（不包括可选奖项）。有关这些奖项具体要求的详细信息，请参阅 |gm1| "
+"。下列奖项按晋级优先顺序排列，它们是："
 
 #: ../../gm0/source/docs/awards/award-types.rst:12
 msgid "Inspire Award"
@@ -51,7 +53,7 @@ msgid ""
 " level in most scenarios, unlike the winning alliance captain in some "
 "states."
 msgstr ""
-"启发奖是FTC团队的最高奖项。它授予在其他奖项类别中持续上升到顶部的团队。它也是（除非东道主团队晋级），晋级列表中的第一个晋级位置。这意味着在大多数情况下，获胜者可以保证晋级到下一个级别，这与某些州的获胜联盟队长不同。"
+"启发奖是一支FTC团队可获得的最高奖项。它授予在其他奖项类别中表现非常突出、登峰造极的团队。它也是（除非东道主团队晋级）FTC比赛晋级列表中的第一个晋级位置。这意味着在大多数情况下，获胜者可以保证晋级到下一个级别，这与某些州的获胜联盟队长不同。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:16
 msgid ""
@@ -60,14 +62,14 @@ msgid ""
 " Award has given much more weight to awards performance, but it seems as if "
 "the judges are now taking robot performance into consideration more."
 msgstr ""
-"为了赢得激励奖，你的团队应该专注于其他所有奖项类别，并在机器人游戏中表现出色。过去，激励奖对奖项表现的重视程度要高得多，但现在评委似乎更多地考虑机器人的表现。"
+"为了赢得启发奖，你的团队应该专注于其他所有奖项类别，并在机器人比赛中表现出色。过去，启发奖对奖项表现的重视程度要高得多，但现在评委似乎更多地考虑机器人在赛场上的表现。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:18
 msgid ""
 "Of all the awards, this one is arguably the most subjective, as it is about "
 "how good does a team does overall, including and how much they weigh "
 "outreach as compared to robot performance along with documentation."
-msgstr "在所有奖项中，这个可以说是最主观的，因为它是关于一个团队整体做得有多好，包括与机器人表现和留档相比，他们在多大程度上权衡了外展。"
+msgstr "在所有奖项中，这个可以说是最主观的，因为它是关于一个团队整体做得有多好，包括与机器人表现和留档相比，他们在多大程度上权衡了外联。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:21
 #: ../../gm0/source/docs/awards/award-types.rst:31
@@ -152,7 +154,7 @@ msgid ""
 "Unfortunately, the line between the Connect and Motivate award can be vague,"
 " and judges may not differentiate which outreach falls under which award."
 msgstr ""
-"联结奖是两个外展奖之一。该奖项授予与当地STEM社区和企业社区合作的团队。不幸的是，连接奖和激励奖之间的界限可能很模糊，评委可能无法区分哪些外展属于哪个奖项。"
+"联结奖是两个外联类奖项之一。该奖项授予与当地STEM社区和企业社区合作的团队。令人遗憾的是，联结奖和激励奖之间的界限可能很模糊，评委可能无法区分哪些外联活动属于哪个奖项。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:36
 #: ../../gm0/source/docs/awards/award-types.rst:82
@@ -160,7 +162,7 @@ msgid ""
 "Look at the section about differentiating connect and motivate for more "
 "advice on this. For both outreach awards, a Team Plan is required. Refer to "
 "the section about writing a team plan for advice."
-msgstr "查看有关区分连接和激励的部分，以获取更多相关建议。对于两个外展奖项，都需要团队计划。请参阅有关编写团队计划的部分以获取建议。"
+msgstr "请在下文查看有关区分联结和激励的部分，以获取更多相关建议。对于两个外联类奖项，都需要团队计划。请参阅有关编写团队计划的部分以获取建议。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:38
 msgid ""
@@ -170,7 +172,7 @@ msgid ""
 "recruitment of mentors as well as how the team plans to meaningfully develop"
 " their STEM connections."
 msgstr ""
-"该奖项还需要一个工笔摘要，并应包含对外联的描述以及团队从外联中获得的收获。此外，工笔摘要还应包含有关招聘导师计划以及团队计划如何有意义地发展其STEM联系的信息。"
+"该奖项还需要一个工笔摘要，并应包含对外联的描述以及团队从外联中获得的收获。此外，工笔摘要还应包含有关招聘导师的计划以及团队计划如何有意义地发展其STEM联系的信息。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:40
 msgid ""
@@ -182,7 +184,7 @@ msgid ""
 "If you are struggling to find STEM outreaches, local colleges and businesses"
 " are a good start."
 msgstr ""
-"准备好让评委问你的外展有什么意义，尽量避免仅仅为了说你做了STEM外展而做STEM外展。成功的STEM外展是为特定目的进行的，有明确的意图和目标，例如会见计算机视觉专家，就游戏的视觉任务征求建议。如果你很难找到STEM外展，当地的大学和企业是一个好的开始。"
+"准备好让评委问你的外联活动有什么意义，尽量避免仅仅为了说你做了STEM外联而做STEM外联。成功的STEM外联是为特定目的进行的，有明确的意图和目标，例如会见计算机视觉专家，就游戏的视觉任务征求建议。如果你很难找到STEM外联，可以从当地的高校和科技企业开始找起。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:43
 msgid ""
@@ -209,7 +211,7 @@ msgstr "创新奖"
 msgid ""
 "The Innovate award is what it sounds like - it's for teams with innovative "
 "robots or robot mechanisms."
-msgstr "创新奖就是它听起来的样子——它是针对具有创新机器人或机器人机制的团队。"
+msgstr "创新奖奖如其名——它是针对具有创新机器人或创新的机器人设计的团队。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:48
 msgid ""
@@ -217,7 +219,7 @@ msgid ""
 "also present software as innovative. Some judges think it's great to present"
 " software as part of innovation, but others feel that software only fits "
 "under Control."
-msgstr "创新奖主要针对硬件，但一些团队也能够将软件展示为创新。一些评委认为展示软件作为创新的一部分很棒，但其他人认为软件只适合控制。"
+msgstr "创新奖主要针对硬件，但一些团队也能够将软件展示为创新。一些评委认为展示软件作为创新的一部分很棒，但其他评委或许认为软件只适合控制。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:50
 msgid ""
@@ -279,7 +281,7 @@ msgid ""
 "Don't be tempted to overlook the control award even though it doesn't "
 "advance at most competitions. The control award counts for the inspire "
 "award, and strong performance in control counts towards inspire ranking."
-msgstr "不要被诱惑忽视控制奖，即使它在大多数比赛中没有进步。控制奖计入激励奖，控制方面的强劲表现计入激励排名。"
+msgstr "不要被诱惑忽视控制奖，即使它在大多数比赛中可能无法晋级。控制奖计入启发奖，控制方面的强劲表现也计入启发奖的评选。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:62
 msgid ""
@@ -310,7 +312,7 @@ msgid ""
 "In addition, control award software is more then just your autonomous mode "
 "programs. Driver assistance, feedback, and automation all are vital to the "
 "control award."
-msgstr "此外，控制奖励软件不仅仅是你的自主模式程序。驾驶员辅助、反馈和自动化对于控制奖励都至关重要。"
+msgstr "此外，能获得控制奖的软件不仅仅是你的自动程序。操作手辅助、反馈和自动化对于控制奖都至关重要。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:67
 msgid ""
@@ -397,8 +399,8 @@ msgid ""
 "and most judges don't know how to differentiate which outreach falls under "
 "which award."
 msgstr ""
-"激励奖是两个外联奖之一。它针对的是与当地和 *FIRST* 社区合作的团队。遗憾的是， :term:`connect award <Connect "
-"Award>` 与激励奖之间的界限可能比较模糊，大多数评委不知道如何区分哪些外联活动属于哪个奖项。"
+"激励奖是两个外联奖之一。它针对的是与当地和 *FIRST* 社区合作的团队。遗憾的是， :term:` 控制奖 <Connect Award>` "
+"与激励奖之间的界限可能比较模糊，大多数评委不知道如何区分哪些外联活动属于哪个奖项。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:84
 msgid ""
@@ -443,7 +445,7 @@ msgid ""
 " drawings in your portfolio, and your design should be consistent with any "
 "team goals listed."
 msgstr ""
-"为了被考虑获得设计奖，建议你的团队使用计算机辅助设计并在机器人建造前对其进行设计，并通过工程设计过程的迭代对机器人的开发进行工笔摘要部分。在你的作品集中包含计算机辅助设计屏幕截图和图纸很重要，你的设计应与列出的任何团队目标保持一致。"
+"为了被评上设计奖，建议你的团队使用CAD，并在搭建机器人前前对其进行建模，并把工程设计过程的迭代、对机器人的开发写入工笔摘要部分。在你的作品集中包含CAD的屏幕截图和图样很重要，你的设计应与列出的任何团队目标保持一致。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:94
 msgid ""
@@ -452,7 +454,7 @@ msgid ""
 " ugly robot for this award (no cardboard on the robot!), so make sure your "
 "robot looks presentable."
 msgstr ""
-"虽然功能是大多数团队关注的，但设计奖也考虑了美学，大多数评委通常会被这个奖项的丑陋机器人拒之门外（机器人上没有纸板！），所以确保你的机器人看起来像样。"
+"虽然设计的功能性是大多数团队关注的，但设计奖也考虑了美学，大多数评委通常会被本有可能获得这个奖项的机器人的样貌之丑陋拒之门外（机器人上不该有纸板！），所以确保你的机器人看起来漂漂亮亮。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:97
 msgid ""
@@ -468,7 +470,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/awards/award-types.rst:100
 msgid "Connect vs Motivate"
-msgstr "联结vs激励"
+msgstr "联结奖V.S.激励奖"
 
 #: ../../gm0/source/docs/awards/award-types.rst:102
 msgid ""
@@ -482,17 +484,17 @@ msgid ""
 "though make sure to do your research before trying a strategy like this."
 msgstr ""
 "这两个外联奖项可能很难区分，因为官方的描述非常模糊，大多数评委并不完全清楚其中的区别。由于描述非常含糊，因此要由你来决定哪些内容可以获得哪个奖项。通常，参赛队会在"
-" :term:`Connect <Connect Award>` 中投入更多的外联活动，而不是 :term:`Motivate <Motivate "
-"Award>` ，因为 \"Connect \"在晋级名单上的排名与 \"Motivate \"不同，\"Connect "
-"\"在晋级名单上的排名相当靠前，因此，在 \"Connect \"中投入更多并赢得 \"Connect \"的参赛队可能会晋级。"
+" :term:` 联结奖 <Connect Award>` 中投入更多的外联活动，而不是 :term:` 激励奖 <Motivate Award>` "
+"，因为 \"联结奖\"在晋级名单上的排名与 \"激励奖\"不同，\"联结奖\"在晋级名单上的排名相当靠前，因此，在 \"联结\"中投入更多并赢得 "
+"\"联结奖\"的参赛队可能会晋级。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:104
 msgid "What Falls Under Connect?"
-msgstr "什么属于Connect？"
+msgstr "什么属于“联结”？"
 
 #: ../../gm0/source/docs/awards/award-types.rst:106
 msgid "Developing relationships with companies"
-msgstr "发展与公司的关系"
+msgstr "和公司接洽、发展关系"
 
 #: ../../gm0/source/docs/awards/award-types.rst:107
 msgid "Getting external mentors (not parents)"
@@ -502,15 +504,15 @@ msgstr "聘请外部导师（不能是父母）"
 msgid ""
 "Fundraising from companies (other methods may fall under motivate on a case "
 "by case basis)"
-msgstr "从公司筹集资金（其他方法可能根据具体情况属于激励）"
+msgstr "获得公司的赞助（其他方法可能根据具体情况属于激励）"
 
 #: ../../gm0/source/docs/awards/award-types.rst:110
 msgid "What Falls Under Motivate?"
-msgstr "什么是Motivate？"
+msgstr "什么是激励？"
 
 #: ../../gm0/source/docs/awards/award-types.rst:112
 msgid "Starting/Mentoring *FIRST* Teams"
-msgstr "启动/指导 *FIRST* 团队"
+msgstr "创建/指导 *FIRST* 团队"
 
 #: ../../gm0/source/docs/awards/award-types.rst:113
 msgid "Community Demos"
@@ -518,12 +520,12 @@ msgstr "社区演示"
 
 #: ../../gm0/source/docs/awards/award-types.rst:115
 msgid "Tips for Both"
-msgstr "两方面的提示"
+msgstr "对两个奖项的小贴士"
 
 #: ../../gm0/source/docs/awards/award-types.rst:117
 msgid ""
 "Present numbers, but only emphasize them if they're large with a wow factor"
-msgstr "展示数字，但只有在它们很大且有令人惊叹的因素时才强调它们"
+msgstr "展示数字，但仅当其数额巨大且包含令人称奇的元素时强调数字。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:118
 msgid ""
@@ -531,7 +533,7 @@ msgid ""
 "you can get a rough headcount from the organizers, but its generally better "
 "to know roughly how many people actually stopped and looked at your team."
 msgstr ""
-"确保你的数字有些准确！如果你参加了一个大型活动，你可以从组织者那里得到一个粗略的人数统计，但是通常最好知道大约有多少人真正停下来看着你的团队。"
+"确保你的数字在某些方面是准确的！如果你参加了一个大型活动，你可以从组织者那里得到一个粗略的人数统计，但是通常最好知道大约有多少人真正停下来看着你的团队。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:119
 msgid ""
@@ -545,7 +547,7 @@ msgid ""
 "easier to compile total numbers and shows the judges every outreach "
 "activity/event in one place."
 msgstr ""
-"记录你所有的外展活动，与谁一起去，每个人在自己的地方做了多少小时，与工程笔记本分开。这使得汇编总数变得更加容易，并在一个地方向评委展示每个外展活动/事件。"
+"记录你们团队所有的外联活动，外联的对象是谁，每个人在自己的地方做了多少小时，与工程笔记本分开。这使得汇编总数变得更加容易，并在一个地方向评委展示每个外展活动/事件。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:121
 msgid ""
@@ -563,7 +565,7 @@ msgid ""
 "student expresses interest, it doesn't hurt to follow up if they don't reach"
 " out as promised. People can forget or get busy, sometimes a reminder is "
 "useful!"
-msgstr "跟进，跟进，跟进！如果一个人给你名片或学生表示感兴趣，如果他们没有如约伸出手，跟进也无妨。人们可以忘记或忙碌，有时提醒是有用的！"
+msgstr "提醒，提醒，提醒！如果一个人给你名片或学生表示感兴趣，如果他们没有如约伸出手，提醒一下他们也无妨。人们可以忘记或忙碌，有时提醒是有用的！"
 
 #: ../../gm0/source/docs/awards/award-types.rst:125
 msgid "Optional Awards"
@@ -588,7 +590,7 @@ msgid ""
 "optional to give at every competition, but in some regions given at every "
 "competition unless the judges don't find a deserving team."
 msgstr ""
-"评委选择奖旨在表彰一个不适合任何现有奖项类别的团队，但评委仍然认为该团队应该因其杰出的努力或其他经验而获奖。这个奖项非常主观，不会提升团队。在每场比赛中给予也是可选的，但在某些地区，除非评委没有找到一个值得的团队。"
+"评委选择奖旨在表彰一个不符合任何现有奖项的评判标准的团队，但评委仍然认为该团队应该因其杰出的努力或其他经验而获奖。这个奖项非常主观，不会提升团队。该奖项可以每场比赛都给予，但在某些地区，当评委没有找到合适的团队时，该奖项也不会被授予。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:133
 msgid "Promote Award and Compass Award"
