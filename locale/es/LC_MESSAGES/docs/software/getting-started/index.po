@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-06 16:16+0000\n"
+"POT-Creation-Date: 2024-07-07 04:16+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Anthonella Contla, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -20,3 +20,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/getting-started/index.rst:4
+msgid "Getting Started"
+msgstr "Primeros pasos"
+
+#: ../../gm0/source/docs/software/getting-started/index.rst:6
+msgid "Basic information for starting out on your programming journey."
+msgstr "Información básica para iniciar en programación."
+
+#: ../../gm0/source/docs/software/getting-started/index.rst:8
+msgid ""
+"`Check out the official FTC\\ |reg| SDK Example Programs here! "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_"
+msgstr ""
+"Consulta los programas de ejemplo del SDK oficial de FTC aquí. "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_"

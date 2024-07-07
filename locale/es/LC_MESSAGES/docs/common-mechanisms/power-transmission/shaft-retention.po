@@ -5,18 +5,166 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
+# Yaretzi Lugo, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-06 16:16+0000\n"
+"POT-Creation-Date: 2024-07-07 04:16+0000\n"
 "PO-Revision-Date: 2024-03-14 04:15+0000\n"
-"Last-Translator: Anthonella Contla, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:2
+msgid "Shaft Retention"
+msgstr "Retención del eje"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:4
+msgid ""
+"If you are powering any mechanism with a :term:`live axle <Live Axle>` "
+"system, you will need a way to retain the shaft so that it does not move "
+"axially (along its length). It is necessary to constrain movement in both "
+"directions, and two methods can be mixed and matched on one shaft. "
+"Generally, this is done by having something contact the bearing's inner race"
+" that is constrained axially on the shaft. It is important to make sure the "
+"bearings themselves are also constrained."
+msgstr ""
+"Si va a accionar cualquier mecanismo con un sistema :term:`eje vivo<Live "
+"Axle>`, necesitará una forma de retener el eje para que no se mueva "
+"axialmente (a lo largo de su longitud). Es necesario restringir el "
+"movimiento en ambas direcciones, y se pueden mezclar y combinar dos métodos "
+"en un eje. Generalmente, esto se consigue haciendo que algo entre en "
+"contacto con el anillo interior del rodamiento que está limitado axialmente "
+"en el eje. Es importante asegurarse de que los propios rodamientos también "
+"están limitados."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:6
+msgid ""
+"Make sure to use an appropriately sized shim/washer between the thing "
+"retaining the shaft and the bearing, such that it only touches the bearings "
+"inner race. Otherwise, the rubbing will lead to inefficiency."
+msgstr ""
+"Asegúrese de utilizar una cuña/arandela del tamaño adecuado entre el "
+"elemento que sujeta el eje y el rodamiento, de forma que sólo toque el "
+"anillo interior del rodamiento. De lo contrario, el rozamiento provocará "
+"ineficacia."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:8
+msgid ""
+"Outlined below are some common methods FTC teams use for shaft retention."
+msgstr ""
+"A continuación se describen algunos métodos comunes que utilizan los equipos"
+" de la FTC para la retención de los ejes."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:11
+msgid "Shaft Collars"
+msgstr "Collares de eje"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:13
+msgid ""
+"Shaft collars are fitted onto a shaft in order to secure it. There are two "
+"primary types: set screw collars and clamping collars."
+msgstr ""
+"Los collarines se colocan en un eje para fijarlo. Existen dos tipos "
+"principales: los collarines con tornillos de fijación y los collarines de "
+"sujeción."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:16
+msgid "Set Screw Collars"
+msgstr "Collares roscados"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+msgid "A set screw collar with a grub screw."
+msgstr "Un collarín con tornillo prisionero."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:21
+msgid ""
+"Set screw collars use a set screw (typically a grub screw) to tighten down "
+"onto the shaft. While set screw collars are cheap and readily available, "
+"there are some disadvantages. The screw digs into the shaft, creating a "
+"raised burr, making it difficult to remove/adjust the collar or to use the "
+"shaft for something else in the future."
+msgstr ""
+"Los collares roscados utilizan un tornillo de fijación (normalmente un "
+"tornillo prisionero) para apretar el eje. Aunque son baratos y fáciles de "
+"conseguir, presentan algunas desventajas. El tornillo se clava en el eje, "
+"creando una rebaba, lo que dificulta la extracción/ajuste del collar o el "
+"uso del eje para otra cosa en el futuro."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:24
+msgid "Clamping Collars"
+msgstr "Collares de sujeción"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+msgid "A clamping shaft collar."
+msgstr "Un collar de sujeción del eje."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:29
+msgid ""
+"A clamping shaft collar uses typical bolts to clamp the shaft, applying "
+"force all around the shaft instead of just in one place. They may or may not"
+" have a built-in shim to rest against a bearing race. They are generally "
+"recommended over set screw collars, especially for high-load applications. "
+"However, they do tend to be more expensive and larger."
+msgstr ""
+"Un collarín de sujeción del eje utiliza pernos típicos para sujetar el eje, "
+"aplicando fuerza alrededor de todo el eje en lugar de sólo en un lugar. "
+"Pueden tener o no una cuña incorporada para apoyarse en el anillo de "
+"rodadura del rodamiento. Por lo general, se recomiendan más que los "
+"collarines con tornillos de fijación, especialmente para aplicaciones con "
+"cargas elevadas. Sin embargo, suelen ser más caros y grandes."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:32
+msgid "Shaft Retaining Rings"
+msgstr "Anillos de retención del eje"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+msgid "a shaft with a shaft retaining ring"
+msgstr "un eje con un anillo de retención del eje"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:38
+msgid ""
+"Shaft retaining rings clip into a groove in a shaft and provide a simple and"
+" compact way to retain it. Unlike collars, they cannot be moved along the "
+"shaft and are reliant on having a machined groove in the correct location. "
+"Many teams use E-clips, a type of retaining ring, with goBILDA's 8mm REX "
+"shafting, as it can be bought with an E-clip preinstalled."
+msgstr ""
+"Los anillos de retención del eje se encajan en una ranura del eje y "
+"proporcionan una forma sencilla y compacta de retenerlo. A diferencia de los"
+" collares, no se pueden mover a lo largo del eje y dependen de tener una "
+"ranura mecanizada en la ubicación correcta. Muchos equipos utilizan E-clips,"
+" un tipo de anillo de retención, con el eje REX de 8 mm de goBILDA, ya que "
+"se puede comprar con un E-clip preinstalado."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:41
+msgid "Bolts and Washers"
+msgstr "Pernos y arandelas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:43
+msgid ""
+"When using a shaft with a threaded bore, you can use a bolt and washer on "
+"each end to retain it. It is important to use a thread locking compound to "
+"prevent the bolts from loosening over time."
+msgstr ""
+"Si utiliza un eje con rosca, puede utilizar un perno y una arandela en cada "
+"extremo para retenerlo. Es importante utilizar un compuesto de bloqueo de "
+"roscas para evitar que los pernos se aflojen con el tiempo."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:48
+msgid "9804 Bomb Squad's H-Drive"
+msgstr "9804 Bomb Squad's H-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:48
+msgid ""
+"9804 Bomb Squad's Relic Recovery bot used bolts to retain its wheel shafts."
+msgstr ""
+"El robot de Relic Recovery del Bomb Squad 9804 utilizaba pernos para sujetar"
+" los ejes de sus ruedas."
