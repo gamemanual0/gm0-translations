@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 04:15+0000\n"
+"POT-Creation-Date: 2024-07-18 04:18+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -97,7 +97,7 @@ msgstr ""
 " robot FTC."
 
 #: ../../gm0/source/docs/power-and-electronics/control-system.rst:18
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:24
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:22
 msgid "REV Control Hub + REV Expansion Hub"
 msgstr "REV Control Hub + REV Expansion Hub"
 
@@ -105,19 +105,8 @@ msgstr "REV Control Hub + REV Expansion Hub"
 msgid ":term:`RC Phone <Robot Controller>` + REV Expansion Hub(s)"
 msgstr ":term:`RC Teléfono <Robot Controller>` + REV Expansion Hub(s) "
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:21
-msgid ""
-"Beginning in the 2024-2025 season, an :term:`RC Phone <Robot Controller>` "
-"will no longer be legal to use as a Robot Controller. Teams will be required"
-" to use a REV Control Hub as their :term:`Robot Controller`."
-msgstr ""
-"A partir de la temporada 2024-2025, un :term:`RC Teléfono <Robot "
-"Controller>` ya no será legal para usar como Controlador de Robot. Los "
-"equipos deberán usar un REV Control Hub como su :term:`Controlador de "
-"Robot`."
-
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:26
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:41
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:24
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:39
 msgid ""
 "It is of vital importance to update the firmware on REV Expansion hubs to at"
 " least version 1.8.2. It includes better protection against disconnects and "
@@ -129,12 +118,12 @@ msgstr ""
 " y mejora el rendimiento del programa. Consulta la documentación de "
 "actualización del firmware del `REV Expansion Hub`_."
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:28
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:26
 msgid "This is the standard control system for teams starting out in FTC."
 msgstr ""
 "Este es el sistema de control estándar para equipos que comienzan en FTC."
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:30
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:28
 msgid ""
 "The Control Hub connects to the Expansion Hub through either a RS-485 "
 "connection, or a USB-A (Control Hub side) to mini-USB (Expansion Hub-side) "
@@ -146,7 +135,7 @@ msgstr ""
 "Hub). En ambos casos, se debe utilizar un alivio de tensión y una gestión de"
 " cables adecuado."
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:32
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:30
 msgid ""
 "For more information on setting up the Control Hub and configuring the "
 "robot, head to `REV Robotics' Technical Resources Control Hub Guide "
@@ -161,11 +150,11 @@ msgstr ""
 msgid "A diagram of the Control Hub + Expansion Hub control system"
 msgstr "Un diagrama del sistema de control del Control Hub + Expansion Hub."
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:39
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:37
 msgid "RC Phone + REV Expansion Hub(s)"
 msgstr "RC Teléfono + REV Expansion Hub(s)"
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:43
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:41
 msgid ""
 "The Expansion Hub connects to the :term:`Robot Controller` phone through its"
 " mini USB port. The REV Expansion Hub is reliable, as long as proper strain "
@@ -178,7 +167,7 @@ msgstr ""
 "incluye el :term:`USB Montaje de Retención`, así como los soportes de alivio"
 " de tensión :term:`XT30` de impresión 3D."
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:45
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:43
 msgid ""
 "For more information on setting up the Expansion Hub and configuring the "
 "robot, head to `REV Robotics' Technical Resources Expansion Hub Guide "
@@ -189,13 +178,13 @@ msgstr ""
 "Técnicos de REV Robotics <https://docs.revrobotics.com/duo-"
 "control/legacy/expansion-hub-gs>."
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:47
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:45
 msgid "`USB Retention Mount <https://www.revrobotics.com/rev-41-1214/>`_"
 msgstr ""
 "USB Retention Mount/Montaje de retención USB  "
 "<https://www.revrobotics.com/rev-41-1214/>"
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:48
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:46
 msgid "`XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_"
 msgstr "XT30 Alivio del Estrés <https://www.thingiverse.com/thing:2887045>"
 
