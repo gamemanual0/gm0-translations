@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = es_MX: es, ro_RO: ro, ja_JP: ja, fr_CA: fr
+lang_map = fr_CA: fr, es_MX: es, ro_RO: ro, ja_JP: ja
 
 [o:gamemanual0:p:gm0:r:docs--appendix--gallery]
 file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/gallery.po
@@ -85,6 +85,14 @@ keep_translations      = false
 [o:gamemanual0:p:gm0:r:docs--being-a-team--collaboration-and-efficiency]
 file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/collaboration-and-efficiency.po
 source_file            = locale/pot/docs/being-a-team/collaboration-and-efficiency.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:gamemanual0:p:gm0:r:docs--being-a-team--how-to-ask-effective-questions]
+file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/how-to-ask-effective-questions.po
+source_file            = locale/pot/docs/being-a-team/how-to-ask-effective-questions.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
