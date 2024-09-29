@@ -3,16 +3,290 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kentaro Wilson Tanaka, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-12 17:55+0000\n"
+"POT-Creation-Date: 2024-09-29 21:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Kentaro Wilson Tanaka, 2024\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/gamemanual0/teams/148648/ja_JP/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:4
+msgid "3D Printing"
+msgstr "3Dプリンティング"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:7
+msgid "Kinds of 3D Printing"
+msgstr "3Dプリンティングの種類"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:9
+msgid ""
+"There are a few different kinds of 3D printing. FDM (Fused Deposition "
+"Modeling) (also known as Fused Filament Fabrication) extrudes a melted "
+"filament to create a part and is the most common type and the one we'll "
+"focus on in this guide. SLA (stereolithography) and SLS (Selective Laser "
+"Sintering) are both options for 3D printing plastics, but they are generally"
+" more complex, expensive, or hold other disadvantages in FTC\\ |reg| "
+"applications. For those reasons, they are not recommended."
+msgstr ""
+"3Dプリントにはいくつかの種類があります。FDM（Fused Deposition Modeling / Fused Filament "
+"Fabrication) ( "
+"熱溶解積層方式）は、フィラメントを溶かし、押出成形でパーツを造形する方法です。FDMはよく使われるプリント方法であるため、gm0ではFDM方式を取り上げ説明します。他にも、SLA（ステレオリソグラフィー)、SLS（粉末焼結積層造形）という3Dプリントの手法が存在します。しかし、一般的にこれらの手法は複雑・高価であったり、FTC\\"
+" |reg|の用途には適さない場合があります。そのため、SLA,SLSはFTCの仕様には推奨されません。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:11
+msgid ""
+"Metal 3D printing (SLS and others) is also becoming more and more available,"
+" but is not in the scope of this guide."
+msgstr "金属3Dプリンティング（SLSなど）も近年利用可能になってきていますが、現在gm0では触れていません。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:13
+msgid ""
+"Consider checking out `the FTC docs 3D printing section <https://ftc-"
+"docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>`_, a "
+"guide for FDM 3D printing within the scope of FTC. It covers topics such as:"
+" bed adhesion, tolerances, designing for 3D printing, tuning, and hardware "
+"choices."
+msgstr ""
+"必要に応じて `FTC docs 3D printing section<https://ftc-docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>`_を参照してください。\n"
+"このページはFTC用途のFDM 3Dプリントを行うためのガイドになっています。ベッドの接着、トレランス、3Dプリントするパーツのデザイン、チューニング、環境に応じた3Dプリンターの選択などのトピックをカバーしています。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:16
+msgid "Advantages of 3D Printing"
+msgstr "3Dプリントのメリット"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:18
+msgid ""
+"3D printing allows for customizable sizing and perfect optimization; for "
+"example, teams can print a spool of the exact diameter needed for optimal "
+"speed, or a belt pulley with a certain number of teeth."
+msgstr ""
+"3Dプリントにより、任意のサイズのパーツの作成や、ロボットごとに最適なパーツの作成が可能になる。例えば、最適な速度に必要な正確な直径のスプールや、特定の歯数のベルトプーリーを印刷することができる。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:19
+msgid ""
+"3D printing allows teams to adapt between kits and individual parts easily, "
+"as not all kits have adaptable mounts or brackets. A good example of this "
+"are the Nexus :term:`mecanum <Mecanum Wheel>` bore adapters that teams 3D "
+"print."
+msgstr ""
+"すべてのキットに適応可能なマウントやブラケットがあるわけではない。3Dプリントによってチームはキットや個々のパーツを簡単に適応させることができる。その良い例として、チームが3DプリントするNexus"
+" :term:`メカナム<Mecanum Wheel>`ボアアダプターがある。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:20
+msgid ""
+"3D printing allows teams to fabricate parts that would otherwise be "
+"impossible with materials such as aluminum due to machining restrictions."
+msgstr "3Dプリントにより、アルミニウムなどの素材では加工上の制約から制作不可能なパーツを製作することができる。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:21
+msgid ""
+"3D printing allows teams to have customizable strain relief on wires and "
+"connections. This is a great project and well worth your time."
+msgstr ""
+"3Dプリントにより、チームはワイヤーや接続部のカスタムストレインリリーフを制作することができる。カスタムストレインリリーフは3Dプリントの練習に素晴らしいプロジェクトであり、時間を費やす価値がある。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:24
+msgid "Disadvantages of 3D Printing"
+msgstr "3Dプリントのデメリット"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:26
+msgid ""
+"**If you are out of 3D printed spares at a competition, you're probably out "
+"of luck. Teams are advised to print at least one set of every single 3D "
+"printed part as spares for competition**."
+msgstr ""
+"**大会で3Dプリントのスペアが切れたら運の尽きです。チームは、3Dプリントされたすべてのパーツに対して少なくとも1セットを、競技用のスペアとしてプリントすることをお勧めします**。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:27
+msgid ""
+"3D printed components are generally weaker than other materials such as "
+"aluminum. However, printing in the proper orientation can be very strong - "
+"teams have 3D printed hooks and other parts to support their FRC\\ |reg| "
+"robot (120 pounds) and FTC robots (40 pounds)."
+msgstr ""
+"3Dプリントされた部品は、一般的にアルミニウムなどの他の材料よりも強度が低い。しかし、プリン方向を適切に調整することによって、十分な強度の部品をつくることができる。現に3DプリントされたフックでFRC｜reg｜ロボット（120ポンド）やFTCロボット（40ポンド）を支えているチームも存在する。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:28
+msgid ""
+"3D printed parts should only be loaded in one orientation. That is, if the "
+"robot is hanging from a hook, the only load should be on the bottom face of "
+"the curved part of the hook. Try to eliminate side loads as much as possible"
+" to avoid part failure."
+msgstr ""
+"3Dプリントされた部品は、1つの方向にのみ負荷をかけれる。ロボットが3Dプリントされたフックにぶら下がっている場合、フックの湾曲した部分の底面にのみ荷重がかかるようにし、パーツの故障を避けるため、側面からの荷重はできるだけ排除しなくてはならない。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:29
+msgid "The size of 3D printed parts is limited by the size of your print bed."
+msgstr "3Dプリントで作れるパーツのサイズは、プリントベッドのサイズによって制限される。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:30
+msgid ""
+"Large and thick prints can take a long time (overnight) to print and can run"
+" the risk of failure."
+msgstr "大きい・厚みがあるパーツのプリントは、プリントに長時間（一晩中）かかり、その上で失敗する危険性がある。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:31
+msgid ""
+"3D printing can end up quite expensive, though filament can be found for a "
+"reasonable price on online vendors such as Amazon."
+msgstr ""
+"プリント用のフィラメントはAmazonなどのオンライン販売でリーズナブルな価格で手に入る。しかし、それでも3Dプリンティングはかなり高価になる可能性がある。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:34
+msgid "Common Filaments"
+msgstr "3Dプリントに用いられる一般的なフィラメント"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:36
+msgid ""
+"For almost every part that needs to be 3D printed for FTC, **PLA (or PLA+, "
+"Pro, etc) and/or PETG will meet all the needs for strength, durability, and "
+"aesthetics.** These two filament types are by far the easiest to print, and "
+"are sold by many manufacturers for reasonable prices. Most of the other "
+"filaments here offer very specific advantages (like TPU) that come at the "
+"cost of effort, time, and money."
+msgstr ""
+"FTCのために3Dプリントする必要があるほとんどのパーツは、**PLA（またはPLA+、Pro、その他)・ "
+"PETGは、強度、耐久性、外観のすべてのニーズを満たすでしょう。**この2種類のフィラメントは、プリントするのが圧倒的に簡単で、多くのメーカーからリーズナブルな価格で販売されています。ここで紹介する他のフィラメントのほとんどは、（TPUのような）非常に特殊な利点を提供するが、その代償として労力と時間とお金がかかる。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
+msgid ""
+"If your printer's hotend (the part that melts the filament) has a PTFE "
+"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
+"(common in lower price printers like the Ender 3 and its variants), then you"
+" **should not be printing at or above 250 degrees Celsius**. Doing so will "
+"cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need "
+"to print at these temperatures and you have a PTFE lined hotend, you can "
+"look at upgrading to an all-metal hotend."
+msgstr ""
+"使っているプリンターのホットエンド（フィラメントを溶かす部分）にPTFE（テフロン）ライニングが施され、PTFEチューブがヒートブロックまで続いている場合（エンダー3やその亜種のような低価格プリンターに多い）、**摂氏250度**以上でプリントしてはいけません。高温でプリントすると、PTFEチューブが劣化して溶け、有毒ガスが発生します。高温で印刷する必要があり、PTFEライニングのホットエンドを使用している場合は、オールメタルホットエンドへのアップグレードを検討してください。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
+msgid "PLA (Polylactic Acid)"
+msgstr "PLA（ポリ乳酸）"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:43
+msgid ""
+"The most common 3D Printing filament is polylactic acid, or PLA. It is a "
+"plastic made from biological sources like corn starch and sugar cane. PLA is"
+" stiff but more brittle than other filament options and tends to have little"
+" to no warp when printing. PLA is well suited to the majority of robot "
+"parts, but it may not hold up well to shock loads (impacts to parts), and as"
+" such parts should be designed accordingly."
+msgstr ""
+"最も一般的な3Dプリント用フィラメントは、PLA（ポリ乳酸）である。PLAは、トウモロコシの澱粉やサトウキビなどの生物由来の原料から作られたプラスチックです。PLAは硬いが、他のフィラメントよりも脆く、プリント時の反りがほとんどない傾向にある。PLAは大半のロボット部品の作成に適しているが、衝撃荷重には耐えられない可能性があるため、プリントされる部品は用途に合わせて設計する必要があります。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
+msgid "PLA hotend temperatures range from 190\\ |deg|-230\\ |deg| C"
+msgstr "PLAホットエンドの温度範囲は190〜230℃。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
+msgid ""
+"PLA bed temperatures range from 20\\ |deg|-60\\ |deg| C, but a heated bed "
+"isn't strictly required for PLA"
+msgstr "PLAのベッド温度は20～60℃だが、PLAを用いたプリントでは加熱ベッドは厳密には必要ない"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
+msgid ""
+"Due to the relatively low melting point of PLA, it is not advisable to leave"
+" PLA parts in locations such as a hot car, as this can produce severe "
+"warping in those parts."
+msgstr ""
+"PLAの融点は比較的低いため、高温の車内などにPLAパーツを放置しないようにしましょう。高温での放置はフィラメントが反ることにつながります。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:50
+msgid ""
+"There are many variations of PLA sold by different manufacturers, like PLA+ "
+"or PLA Pro. These filaments have various additives in them to improve "
+"strength, printability, and other properties. While more expensive, these "
+"products can greatly improve the performance of PLA and cover its "
+"weaknesses."
+msgstr ""
+"PLAには、PLA+やPLA "
+"Proのように、さまざまなメーカーから多くのフィラメントのバリエーションが販売されています。これらのフィラメントには、強度や印刷適性、その他の特性を向上させるためのさまざまな添加剤が含まれています。高価ではあるものの、これらの製品はPLAの性能を大幅に向上させ、その弱点をカバーすることができます。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:53
+msgid "PETG (Polyethylene Terephthalate Glycol)"
+msgstr "PETG（グリコール変性ポリエチレンテレフタレート）"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:55
+msgid ""
+"PETG can be described as a strength upgrade to PLA. It is not difficult to "
+"print, but often has noticeably more stringing and other minor artifacts. "
+"While it technically has a lower tensile strength than PLA, it is far less "
+"brittle and withstands impacts better, through slight flexing. It is a great"
+" option for FTC parts which need to be impact resistant where PLA will not "
+"suffice. Its higher temperature resistance also means it won't warp in a "
+"high ambient temperature such as a hot car."
+msgstr ""
+"PETGはPLAの強度アップグレードと言えます。印刷は難しくありませんが、ささくれやその他の小さな遺物が目立ちます。技術的にはPLAより抗張力（引張強さ）は低いものの、はるかに堅く、たわむことで衝撃に耐える特徴を持ちます。PLAでは不十分な耐衝撃性が必要なFTC部品には最適な選択肢です。また、耐熱性が高いため、高温の車内などの高い周囲温度でもフィラメントが反ることはありません。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:57
+msgid ""
+"PETG is known for bonding very well to print beds, **especially glass and "
+"PEI**, and is known to rip chunks out of the bed. It is a good idea to add "
+"some glue stick or hairspray before printing it."
+msgstr ""
+"PETGはプリントベッド、**特にガラスとPEI**に非常によく接着することで知られており、ベッドの表面を引きはがすことで知られています。印刷する前にスティックのりやヘアスプレーをベッドに吹きかけるとよいでしょう。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
+msgid "PETG hotend temperatures range from 230\\ |deg|-260\\ |deg| C"
+msgstr "PETGプリントのホットエンドの温度範囲は230-260℃。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
+msgid "PETG bed temperatures range from 60\\ |deg|-80\\ |deg| C"
+msgstr "PETGプリントのベッド温度は60-80℃。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
+msgid "Less Common Filaments"
+msgstr "その他のフィラメント"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:65
+msgid ""
+"These filaments are less used than those listed above, but can still find "
+"plenty of use cases on an FTC robot. These usually are used due to specific "
+"material properties such as flexibility or durability. These often come "
+"however, with substantial obstacles for printing that prevent some printers "
+"from printing them out of the box, along with sometimes being significantly "
+"more expensive."
+msgstr ""
+"ここで紹介するフィラメントは、上記のフィラメントに比べ使用頻度は低いが、FTCロボットで使用されるケースはたくさんある。これらのフィラメントは通常、柔軟性や耐久性といった特定の材料特性があるため使用される。しかし、これらのフィラメントは、印刷の際に大きな障害が伴うことが多く、プリンターによってはすぐに印刷できないことがある。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
+msgid "ABS (Acrylonitrile Butadiene Styrene)"
+msgstr "ABS（アクリロニトリル・ブタジエン・スチレン）"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:70
+msgid ""
+"ABS used to be the standard filament for printing before PLA became "
+"commercially available. You've probably used ABS before in LEGO\\ |reg| "
+"pieces. It can withstand high loads and is quite ductile. This comes at the "
+"cost of printing difficulty, where an enclosure is often necessary to raise "
+"the ambient temperature and prevent severe part warping. The strength "
+"improvements over PLA can be more easily found in PETG, so ABS parts are not"
+" as common in FTC. ABS is quite affordable though, sold at the same prices "
+"as PLA."
+msgstr ""
+"PLAが市販される前は、ABSがプリント用の標準フィラメントだった。LEGO｜reg｜の部品でABSを使ったことがあるだろう。ABSは高荷重に耐えることができ、非常に延性が大きい。この性質は印刷が難しいという代償を伴う。時に、プリントパーツの激しい反りを防ぐために囲いを用いて周囲温度を高く保つ必要がある。PLAよりも強度の高いフィラメントを求める際、ABSよりもPETGの方が扱いやすいため、FTCでABSの部品はそれほど使われていない。しかし、ABSはPLAと同じ価格で販売されており、かなり手頃だ。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
+msgid "ABS hotend temperatures range from 230\\ |deg|-250\\ |deg| C"
+msgstr "ABSプリントのホットエンドの温度範囲は230-250℃。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
+msgid "ABS bed temperatures range from 100\\ |deg|-120\\ |deg| C"
+msgstr "ABSプリントのベッド温度は100-120℃。"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
+msgid "Enclosure highly recommended to prevent warping"
+msgstr "反りを防ぐため、エンクロージャーを強く推奨"

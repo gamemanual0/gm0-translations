@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2024
+# shaw phy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-10 16:17+0000\n"
+"POT-Creation-Date: 2024-09-29 21:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: shaw phy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,3 +28,12 @@ msgstr "入门"
 #: ../../gm0/source/docs/software/getting-started/index.rst:4
 msgid "Basic information for starting out on your programming journey."
 msgstr "开始编程之旅的基本信息。"
+
+#: ../../gm0/source/docs/software/getting-started/index.rst:6
+msgid ""
+"`Check out the official FTC SDK Example Programs here! "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_"
+msgstr ""
+"`在这查看 FTC SDK 官方示例程序 <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_"

@@ -3,16 +3,258 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# zhenyi li, 2024
+# shaw phy, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-15 04:18+0000\n"
+"POT-Creation-Date: 2024-09-29 21:29+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
+"Last-Translator: shaw phy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:2
+msgid "The Judging Process and Presentation"
+msgstr "评审过程和演示"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:4
+msgid ""
+"At the beginning of a competition, teams will have a 5 minute presentation "
+"followed by a brief Q&A period where judges can ask questions about the "
+"portfolio and presentation. Following this, judges may sometimes do follow "
+"up interviews in the pits where they ask teams more questions about specific"
+" things to help in their deliberations. This process is as important as your"
+" written documentation when it comes to the success of your team in awards."
+msgstr ""
+"评审环节开始时，参赛队将进行 5 "
+"分钟的陈述演示，随后是简短的问答时间，评委可就工笔摘要和陈述演示提问。之后，评委有时会在pit区进行后续采访，就具体问题向参赛队提出更多问题，以帮助他们进行审议。这个过程与参赛队的书面材料一样重要，关系到团队能否成功获奖。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:7
+msgid "Overall Tips"
+msgstr "总体建议"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:9
+msgid ""
+"**You are a team, act like one**. You should practice multiple times with "
+"each other and act as a team. Don't talk over each other, let everyone have "
+"a chance to respond. You should know each other's scripts and also how to "
+"answer a broad range of questions."
+msgstr ""
+"**你们是一个团队，所以要表现得像一个团队。** "
+"你们应该在相互间多练习几次，表现出你们是一个团队的样子。不要交头接耳，让每个人都有机会回答。你们应该了解对方的讲稿，也应该知道如何回答各种问题。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:10
+msgid ""
+"Be professional. Always assume a judge is watching you. While you don't have"
+" to abstain from fun, be careful of how you act. When you encounter judges, "
+"be on your best behavior and be as professional as you can."
+msgstr ""
+"要专业。总是设想有一个评委在看着你。虽然你不必讳疾忌医（译者注：过于严肃不展示出任何笑容），但也要注意自己的言行举止。遇到评委时，要表现出最好的一面，尽可能专业。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:11
+msgid ""
+"**Be Consistent!** If you say something during the beginning Q&A, make sure "
+"you say the same thing during pit judging. If you call out one specific "
+"mechanism as innovative, don't talk about a different mechanism when "
+"questioned. Always be consistent."
+msgstr ""
+"**保持一致！** "
+"如果你在开始问答时说了什么，确保你在pit区时说了同样的话。如果你称一个特定的结构为创新，那么在接受提问时就不要谈论另一个结构。始终保持一致性。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:12
+msgid ""
+"Vary who answers the questions. **Make sure everybody has an opportunity to "
+"speak.**"
+msgstr "由不同的人回答问题。 **确保每个人都有机会发言。**"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:13
+msgid ""
+"Use your portfolio! You can use it to reference things or point to various "
+"sections, especially if you can't remember something in the moment."
+msgstr "使用你的工笔摘要！你可以用它来参考事物或指出各个部分，尤其是当你一时想不起来的时候。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:14
+msgid ""
+"Don't ramble but also don't cut it short. Answer questions fully, but there "
+"is no benefit to wasting judges time. **Most of the time, judges have a set "
+"time allotment with each team so wasting time may decrease the number of "
+"questions you can answer.**"
+msgstr ""
+"不要漫无边际，但也不要缩短时间。充分回答问题，但浪费评委的时间没有任何好处。 "
+"**大多数时候，评委对每个团队都有固定的时间分配，所以浪费时间可能会减少你能回答的问题数量。**"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:15
+msgid ""
+"Try not to go off topic. If a judge asks about outreach, don't talk about "
+"robot design too much. Judges are usually asking things for a specific "
+"purpose and other information may get wasted."
+msgstr "尽量不要跑题。如果评委询问外联方面事务，不要过多谈论机器人设计。评委通常会出于特定目的询问事物，其他信息可能会被浪费。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:18
+msgid "The Presentation"
+msgstr "陈述演示"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:20
+msgid ""
+"The presentation is a 5 minute presentation during which judges are not "
+"allowed to interrupt. At the end of 5 minutes, you will either be asked to "
+"stop or be interrupted by the judges. There is no set format for this "
+"period, so your team can figure out how they want to present. Generally, "
+"most teams will do scripted formal presentations, often with each student "
+"tackling a different part of information about the team, robot, outreaches, "
+"etc. Its recommended teams cover topics from every award topic."
+msgstr ""
+"陈述演示的时间为 5 分钟，期间评委不得打断。5 "
+"分钟结束时，评委要么要求你们停止，要么打断你们。这段时间没有固定格式，因此你的团队可以自行决定展示方式。一般来说，大多数参赛队都会按脚本（译者注：陈述演讲稿）进行正式陈述，通常每个学生都会介绍有关参赛队、机器人、外联活动等不同方面的信息。建议参赛队涵盖每个奖项的主题。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:22
+msgid ""
+"While it may be tempting to do something unique, like singing or performing "
+"your presentation, be aware that this is usually difficult for little "
+"benefit. Unless you know you can pull it off very well, you probably "
+"shouldn't try it."
+msgstr "虽然做一些独特的事情可能很诱人，比如在陈述时唱歌或表演，但要意识到这通常很难有什么好处。除非你知道你能做得很好，否则你不应该尝试这么做。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:24
+msgid ""
+"There is generally no penalty for using scripts, so it is highly recommended"
+" they are used. In addition, you should practice the judging period "
+"repeatedly before the competition. Practice everything from walking in and "
+"giving your portfolio to the judges to the question and answer period. "
+"**Make sure you are comfortable with your script and with answering "
+"questions**."
+msgstr ""
+"使用讲稿一般不会有问题，所以强烈建议使用它们。此外，你应该在比赛前反复练习评审阶段。从进场、向评委递交工笔摘要到提问和回答问题，都要进行练习。 "
+"**确保你能自如地使用讲稿和回答问题** 。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:27
+msgid "Presentation Tips"
+msgstr "答辩展示建议"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:29
+msgid ""
+"Practice speaking clearly and precisely. You should practice multiple times "
+"and not only know your lines, but what people around you are going to say."
+msgstr "练习清晰准确地说话。你应该多次练习，不仅要知道自己的台词，还要知道周围的人要说什么。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:30
+msgid ""
+"Use the robot! Have other team members point and move things on the robot as"
+" you speak to demonstrate."
+msgstr "使用机器人！让其他团队成员在你陈述时指向并移动机器人上的东西进行演示。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:31
+msgid ""
+"While having a script won't be held against you, try to avoid gluing your "
+"eyes to your script and looking down. Looking at the judges occasionally "
+"will go a long way in making your presentation more professional"
+msgstr "虽然有讲稿不会对你不利，但要尽量避免把眼睛盯着讲稿和低头看。偶尔看看评委会让你的演讲更加专业。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:32
+msgid ""
+"**Make sure everybody gets a chance to say something or answer a question**."
+" Having students say nothing during judging can look bad."
+msgstr "**确保每个人都有机会发言或回答问题。** 让学生在评审过程中一言不发会显得很糟糕。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:35
+msgid "Q&A Period"
+msgstr "问答环节"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:37
+msgid ""
+"The Q&A period is just as important as the presentation and should be "
+"practiced multiple times until the team is comfortable answering impromptu "
+"questions. A good idea is to practice the `sample judges questions (Appendix"
+" B) "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/judge-"
+"manual.pdf>`_. Mentors should ask questions similar to those in the sample "
+"judges question, in addition to difficult to answer questions (\"What award "
+"do you think you deserve?\" is an example of a question that is incredibly "
+"difficult to answer on the spot)."
+msgstr ""
+"问答环节和陈述演示一样重要，应该多次练习，直到团队对回答即兴问题的效果感到满意为止。一个好主意是练习 `示例评审问题（附录B ） "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/judge-"
+"manual.pdf>`_ "
+"。除了难以回答的问题（“你认为你应该得到什么奖项？”是现场难以回答的问题的一个例子）之外，导师还应该提出类似于示例评委问题中的问题。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:39
+msgid ""
+"Judges almost always ask something along the lines of \"Is there anything "
+"else that you want us to know that was not covered?\" Make sure you have a "
+"response to this question! The best strategy is usually to answer with "
+"something that wasn't asked about or covered as well, so pay attention to "
+"what topics have been covered during the Q&A."
+msgstr ""
+"评委们几乎总是会问一些类似“你还有什么想让我们知道的没有涵盖的吗？”确保你对这个问题有回应！最好的策略通常是回答一些没有被问到或也没有被覆盖的问题，所以要注意问答中涵盖了哪些主题。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:42
+msgid "Pit Judging"
+msgstr "Pit区评审"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:44
+msgid ""
+"During the competition, secondary groups of judges may be walking around "
+"pits to ask more questions about specific components of the team, robot, or "
+"outreach. These questions are an important part of judging deliberation, and"
+" should be treated similarly to the Q&A in the beginning of the competition."
+msgstr ""
+"在比赛过程中，另一组评委可能会在pit区里走来走去，询问更多关于团队、机器人或外联的特定方面的问题。这些问题是评判审议的重要组成部分，应该像评审时的问答一样对待。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:46
+msgid ""
+"Pit judging can be difficult sometimes since judges might want to talk to "
+"your team as you are heading out to a match. While some judges may offer to "
+"come back at a different time, often it is better to have your teammates not"
+" driving talk to the judge if possible. This can ensure they don't run out "
+"of time to talk to you."
+msgstr ""
+"有时，pit区评审可能会很难做，因为裁判可能会在你前往比赛时与你的团队交谈。虽然有些裁判可能会提出换个时间再来，但如果可能的话，最好还是让不操作机器的队友和评委谈谈通常会更好。这样可以确保他们不会没有时间与你交谈。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:48
+msgid ""
+"When pit judges arrive, one should try to determine roughly what they are "
+"there for. Judges will make it clear pretty quickly if they are there for "
+"control, robot-based awards, outreach, etc. If a judge is there to talk to "
+"you about the robot, don't waste their time with outreach. Similarly, if a "
+"judge is asking about your outreach don't divert to talking about the robot."
+" Judges are there for a specific purpose, other information may essentially "
+"be discarded by them."
+msgstr ""
+"当评委到达时，应尽量确定他们的大致目的。评委们会很快明确他们是来控制比赛、颁发机器人奖项还是进行宣传等。如果评委是来和你讨论机器人的，那就不要浪费他们的时间讨论外联。同样的，如果评委询问你的外联活动，也不要转而谈论机器人。评委的目的很明确，其他信息可能会被他们弃之不顾。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:50
+msgid ""
+"When judges come near your pits, STAND UP and PUT THE PHONES DOWN. "
+"Uninterested students can cause a judge's opinion of your team to quickly "
+"sour. All students should try to look interested and should participate, get"
+" as many different people speaking as you can."
+msgstr ""
+"当评委走近你的座位时， **请站起来并放下手机。** "
+"如果学生对评委不够热情，会导致评委对你的团队失去好感。所有学生都应尽量表现出感兴趣的样子，并参与其中，让尽可能多的人发言。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:53
+msgid "Pit Judging Tips"
+msgstr "Pit 区评审建议"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:55
+msgid ""
+"Judges have limited amounts of time, don't waste it! Answer questions "
+"thoroughly but consciously."
+msgstr "评委的时间有限，不要浪费！回答问题要全面，但要有意识。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:56
+msgid "Have a portfolio or notebook ready for quick reference as needed."
+msgstr "准备一个工笔摘要或笔记本，以备不时之需。"
+
+#: ../../gm0/source/docs/awards/judging-presentation.rst:57
+msgid "Try to vary who answers questions, getting everyone involved."
+msgstr "尝试切换回答问题的人，让每个人都参与进来。"

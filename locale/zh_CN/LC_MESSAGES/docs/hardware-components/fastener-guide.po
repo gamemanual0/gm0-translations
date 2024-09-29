@@ -3,16 +3,511 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# wwsk2008sq, 2024
+# zhenyi li, 2024
+# shaw phy, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-07 16:17+0000\n"
+"POT-Creation-Date: 2024-09-29 21:29+0000\n"
 "PO-Revision-Date: 2024-06-07 16:17+0000\n"
+"Last-Translator: shaw phy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:4
+msgid "Fastener Guide"
+msgstr "紧固件指南"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:5
+msgid ""
+"If you want your robot to stay in one piece, you will need fasteners. "
+"Fasteners are any pieces of hardware that mechanically join parts. This "
+"guide will discuss common types of fasteners, and how to use them on your "
+"robot."
+msgstr "如果您想让机器人保持一体，就需要紧固件。紧固件是机械连接部件的任何硬件。本指南将讨论常见的紧固件类型，以及如何在机器人上使用它们。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:8
+msgid "Threaded Fasteners"
+msgstr "螺纹紧固件"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:9
+msgid ""
+"Bolts, screws and nuts are all threaded fasteners -- meaning they use a "
+"helical thread to join parts."
+msgstr "螺栓、螺钉和螺母都是螺纹类紧固件，即使用螺旋螺纹连接部件。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:12
+msgid "Thread Basics"
+msgstr "螺纹固定件的基础知识"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:13
+msgid ""
+"To understand threaded fasteners, you will need to know some basic "
+"terminology"
+msgstr "要了解螺纹紧固件，您需要知道一些基本术语"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid ""
+"Diagram displaying thread pitch and the difference between internal/external"
+" threads and major/minor diameters."
+msgstr "显示螺纹间距以及内螺纹/外螺纹和大直径/小直径之间区别的示意图。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:19
+msgid "External Thread"
+msgstr "外螺纹"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:20
+msgid ""
+"A thread on an outside surface. For example, bolts have external threads."
+msgstr "即在固定件外表面的螺纹。例如，螺栓就有外螺纹。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:21
+msgid "Internal Thread"
+msgstr "内螺纹"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:22
+msgid ""
+"A thread on an inside surface. For example, nuts have internal threads."
+msgstr "即在固定件内表面的螺纹。例如，螺母有内螺纹。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:23
+msgid "Thread Pitch"
+msgstr "螺纹间距"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:24
+msgid ""
+"The distance from one thread to another, measured along the length of the "
+"thread. This can also be expressed as the number of threads per unit of "
+"length, for example threads per inch."
+msgstr "沿着螺纹的长度测量，从一圈螺纹线到另一圈螺纹线的距离。也可以表示为单位长度上的螺纹数，例如每英寸螺纹数。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:25
+msgid "Major Diameter"
+msgstr "最大直径"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:26
+msgid "The largest diameter of the thread profile."
+msgstr "螺纹轮廓的最大直径，一般指的是外凸的螺纹线的直径。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:28
+msgid "Minor Diameter"
+msgstr "最小直径"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:28
+msgid "The smallest diameter of the thread profile."
+msgstr "螺纹轮廓的最小直径，一般指的是螺纹线间的直径。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:31
+msgid "Thread Standards and Naming"
+msgstr "螺纹标准和命名"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:32
+msgid ""
+"There are two main systems of naming and sizing threads that you will "
+"encounter in FTC: UTS imperial sizing and ISO metric sizing."
+msgstr "在 FTC 中，您会遇到两种主要的螺纹命名和尺寸系统：UTS英制尺寸和ISO公制尺寸。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:35
+msgid "Imperial (UTS)"
+msgstr "英制单位（UTS）"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:37
+msgid ""
+"The universal thread standard (UTS) is based on the imperial system and "
+"commonly used to size threads in the US and Canada. A UTS thread is named by"
+" a number indicating the major diameter of the thread, followed by the "
+"thread's pitch measured in threads per inch."
+msgstr "通用螺纹标准（UTS）以英制为基础，通常用于美国和加拿大的螺纹尺寸。UTS螺纹的名称由表示螺纹大直径的数字和以每英寸螺纹为单位的螺距组成。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:39
+msgid ""
+"For major diameters of |frac14|\" or greater, first number is simply the "
+"major diameter in inches. For those smaller than |frac14|\", the following "
+"code is used:"
+msgstr "对于 |frac14|\" 或更大的主直径，第一个数字就是以英寸为单位的主直径。对于小于 |frac14|\"，则使用以下代码："
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:45
+msgid "no."
+msgstr "编号no."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:45
+msgid "Major Diameter (inches)"
+msgstr "最大直径（英寸）"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:47
+msgid "#0"
+msgstr "#0"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:47
+msgid "0.0600"
+msgstr "0.0600"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:48
+msgid "#1"
+msgstr "#1"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:48
+msgid "0.0730"
+msgstr "0.0730"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:49
+msgid "#2"
+msgstr "#2"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:49
+msgid "0.0860"
+msgstr "0.0860"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:50
+msgid "#3"
+msgstr "#3"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:50
+msgid "0.0990"
+msgstr "0.0990"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:51
+msgid "#4"
+msgstr "#4"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:51
+msgid "0.1120"
+msgstr "0.1120"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:52
+msgid "#5"
+msgstr "#5"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:52
+msgid "0.1250"
+msgstr "0.1250"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:53
+msgid "#6"
+msgstr "#6"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:53
+msgid "0.1380"
+msgstr "0.1380"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:54
+msgid "#8"
+msgstr "#8"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:54
+msgid "0.1640"
+msgstr "0.1640"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:55
+msgid "#10"
+msgstr "#10"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:55
+msgid "0.1900"
+msgstr "0.1900"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:56
+msgid "#12"
+msgstr "#12"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:56
+msgid "0.2160"
+msgstr "0.2160"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:60
+msgid ""
+"Some common imperial thread sizes in FTC include |frac14|-20 (one quarter "
+"inch major diameter, 20 threads per inch) and #6-32 (0.138 inch major "
+"diameter, 32 threads per inch)"
+msgstr ""
+"FTC 中一些常见的英制螺纹尺寸包括 |frac14|-20（四分之一英寸大直径，每英寸 20 个螺纹）和 #6-32（0.138 英寸大直径，每英寸 "
+"32 个螺纹）。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:63
+msgid "Metric (ISO)"
+msgstr "公制单位（ISO）"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:65
+msgid ""
+"The ISO metric thread standard is commonly used worldwide, and for many "
+"products sold by FTC vendors."
+msgstr "ISO 公制螺纹标准在全球范围内普遍使用，FTC 供应商销售的许多产品也采用该标准。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:67
+msgid ""
+"A metric thread is designated by the letter M followed by the outer diameter"
+" in millimeters, for example M4 for a 4 mm major diameter bolt. This is then"
+" followed by a \"x\" and the pitch, also in millimeters. For example, "
+"\"M4X0.7\" means a M4 thread with a 0.7 mm pitch."
+msgstr ""
+"公制螺纹用字母 M 表示，后面跟以毫米为单位的外径，例如 M4 表示主直径为 4 毫米的螺栓。然后是 \"x "
+"\"和螺距，单位也是毫米。例如，\"M4X0.7 \"表示螺距为 0.7 毫米的 M4 螺纹。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:70
+msgid "Bolts"
+msgstr "螺栓"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:72
+msgid "Bolts are the most commonly used fastener in FTC."
+msgstr "螺栓是 FTC 中最常用的紧固件。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:74
+msgid "There are several types of bolts you may encounter, such as:"
+msgstr "您可能会遇到几种类型的螺栓，例如"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:76
+msgid "**Socket Head Bolts**"
+msgstr "**内六角螺栓**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a socket head bolt"
+msgstr "内六角螺栓图片"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:82
+msgid ""
+"These bolts have a cylindrical head and are tightened and loosened with a "
+"hexagonal recess."
+msgstr "这些螺栓的头部为圆柱形，用一个六角形凹槽来拧紧和松开。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:84
+msgid "**Button Head Bolts**"
+msgstr "**钮扣头螺栓**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a button head bolt"
+msgstr "扣头螺栓图片"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:90
+msgid ""
+"These bolts have a domed head, in contrast to the flat top of a standard "
+"socket bolt."
+msgstr "这些螺栓的头部呈圆弧形，与标准套筒螺栓的平顶形成鲜明对比。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:92
+msgid "**Countersunk Head Bolts**"
+msgstr "**沉头螺栓**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a countersunk head bolt"
+msgstr "沉头螺栓图片"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:98
+msgid ""
+"These bolts have a cone-shaped head, and can be used in countersunk (cone-"
+"shaped) holes to achieve a flush surface finish."
+msgstr "这些螺栓的头部呈锥形，可用于沉头（锥形）孔，以达到平齐的表面效果。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:100
+msgid "**Grub Screws**"
+msgstr "**无头螺丝**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a grub screw"
+msgstr "无头螺丝图片"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:106
+msgid ""
+"These bolts have no head, the recess is instead embedded within the threads."
+" They are primarily used as set screws."
+msgstr "这些螺栓没有头部，凹槽嵌入螺纹中。它们主要用作固定螺钉。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:108
+msgid "**Hex Bolts**"
+msgstr "**六角螺栓**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a hex head bolt"
+msgstr "六角螺栓图"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:115
+msgid ""
+"The bolts are tightened with an external hex-shaped head. When designing for"
+" these bolts, it is important to allow clearance on the side of the head for"
+" tightening."
+msgstr "螺栓用外六角头拧紧。在设计这些螺栓时，必须在头部一侧留出拧紧的间隙。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:118
+msgid ""
+"Every bolt requires a \"drive\" -- meaning the geometry which is used to "
+"turn and install it. Each of the bolts listed above can have a variety of "
+"different types of drives:"
+msgstr "每个螺栓都需要一个 \"驱动装置\"，即用于旋转和安装螺栓的几何形状。上面列出的每种螺栓都有各种不同类型的驱动装置："
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "diagram showing thread terminology"
+msgstr "螺纹术语图"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:124
+msgid "Nuts"
+msgstr "螺母"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:126
+msgid ""
+"A nut is a fastener with an internally threaded hole. Together with a bolt, "
+"they're used to join parts together."
+msgstr "螺母是一种带有内螺纹孔的紧固件。它们与螺栓一起用于将零件连接在一起。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:128
+msgid "Here are some types of nuts you may encounter in FTC:"
+msgstr "以下是您在 FTC 可能会遇到的几种坚果："
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:131
+msgid "**Hex Nuts**"
+msgstr "**六角螺母**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a hex nut"
+msgstr "六角螺母图"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:137
+msgid ""
+"These most common type of nut. They can be tightened with a socket hex "
+"wrench."
+msgstr "这是最常见的螺母类型。可以用套筒六角扳手拧紧。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:139
+msgid "**Square Nuts**"
+msgstr "**方形螺母**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a square nut"
+msgstr "方螺母图"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:145
+msgid ""
+"These are four-sided nuts. They work well in small spaces and can be easily "
+"inset into square pockets to keep from rotating."
+msgstr "这是四面螺母。它们在狭小的空间内也能很好地工作，而且可以很容易地嵌入方形缺口，以防止旋转。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:147
+msgid "**T-slot Nuts**"
+msgstr "**T型槽螺母**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a T-slot nut"
+msgstr "T 型槽螺母图片"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:153
+msgid "These can be inserted into t-slot extrusion to tighten parts onto it."
+msgstr "这些部件可插入 T 形槽挤压件，将部件紧固在上面。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:155
+msgid "**Wing Nuts**"
+msgstr "**翼形螺母**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a wing nut"
+msgstr "翼形螺母图片"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:161
+msgid "These nuts can be easily tightened without a wrench."
+msgstr "这些螺母无需扳手即可轻松拧紧。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:163
+msgid "**Nyloc Nuts**"
+msgstr "**尼龙螺母**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a nyloc nut"
+msgstr "尼龙螺母图片"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:169
+msgid ""
+"These nuts contain a nylon ring which prevents loosening by increasing "
+"friction on the bolt thread. We recommend using these wherever possible."
+msgstr "这些螺母含有一个尼龙环，通过增加螺栓螺纹的摩擦力来防止松动。我们建议不管在哪里都尽可能使用这种螺母。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:172
+msgid "Making Threads"
+msgstr "制作螺纹"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:174
+msgid ""
+"Sometimes, you will want to create new threads. This process is called "
+"threading. To create internal threads, you can use a cutting tool called a "
+"tap -- essentially a sharper version of a screw."
+msgstr "有时，您需要创建新螺纹。这个过程叫做螺纹加工。要制造内螺纹，可以使用一种叫做丝锥的切割工具，它本质上是一种更锋利的螺丝钉。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:177
+msgid "To create external threads, you use a tool called a die."
+msgstr "要制作外螺纹，需要使用一种叫做板牙的工具。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "diagram showing a tap and die"
+msgstr "丝锥及板牙示意图"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:184
+msgid "Threadlocker"
+msgstr "螺丝胶"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:186
+msgid ""
+"Bolts on your robot may loosen over time, especially if there are heavy "
+"vibrations. To prevent this you may use locking nuts or lock washers, which "
+"mechanically press against the thread. Another solution is to use a "
+"threadlocker, which is an adhesive compound that -- as it's name suggests --"
+" locks threads in place."
+msgstr ""
+"随着时间的推移，机器人上的螺栓可能会松动，尤其是在剧烈振动的情况下。为了防止这种情况，您可以使用锁紧螺母或锁紧垫圈，它们可以机械地压紧螺纹。另一种解决方案是使用螺丝胶，这是一种粘合剂化合物，顾名思义，可以将螺纹锁紧。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:189
+msgid "Loctite"
+msgstr "乐泰胶（Loctite）"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:192
+msgid ""
+"The most popular threadlocker among FTC teams is loctite. There are two "
+"types of Loctite: blue, which is removable, and red, which is permanent (and"
+" we mean it). To use loctite, apply it to the thread of the bolts."
+msgstr "FTC 团队最常用的螺纹锁固剂是乐泰胶。乐泰胶有两种类型：蓝色，可拆卸；红色，永久性（我们是认真的）。使用乐泰胶时，将其涂在螺栓的螺纹上。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:194
+msgid ""
+"It is highly recommended that teams use Loctite on all motor and "
+":term:`servo <Servo>` mounts, as well as any mechanism prone to vibration."
+msgstr "强烈建议在所有电机和 :term:`servo<Servo>` 支架以及任何易振动的机构上使用乐泰胶。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:198
+msgid ""
+"Blue or red Loctite should not be used with brittle plastics such as "
+"polycarbonate. This is known to cause the plastic to crack. Instead, either "
+"use a `cyanoacrolate based glue "
+"<https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-"
+"pro-gel/SAP_0201DGL029Z5.html>`_ or use a `screw with a nylon patch "
+"<https://www.mcmaster.com/products/screws/socket-head-"
+"screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ as this "
+"will not damage the plastic."
+msgstr ""
+"蓝色或红色乐泰胶不能用于聚碳酸酯等脆性塑料。众所周知，这会导致塑料开裂。取而代之的是使用 `氰基乙酸酯胶水 "
+"<https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-"
+"pro-gel/SAP_0201DGL029Z5.html>`_ 或使用 `带尼龙贴片的螺钉 "
+"<https://www.mcmaster.com/products/screws/socket-head-"
+"screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ "
+"，因为这不会损坏塑料。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:200
+msgid ""
+"Also note: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we "
+"refer to the \"color\", we mean the fluid color. Blue loctite usually comes "
+"in a red bottle."
+msgstr "另请注意： **瓶子的颜色和液体的颜色是相反的。** 当我们提到 \"颜色 \"时，我们指的是液体的颜色。蓝色乐泰胶通常装在红色瓶子里。"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:205
+msgid ""
+"A red bottle containing blue (removable) loctite, and a blue bottle "
+"containing red (permament) loctite"
+msgstr "一个红色瓶子装有蓝色（可移除型）乐泰胶，一个蓝色瓶子装有红色（永久型）乐泰胶"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:205
+msgid ""
+"Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)"
+msgstr "蓝色 乐泰胶（可拆卸，装在红色管中），红色 乐泰胶（永久性，装在蓝色管中）"

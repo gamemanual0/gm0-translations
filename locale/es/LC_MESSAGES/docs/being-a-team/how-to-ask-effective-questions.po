@@ -3,16 +3,317 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Yaretzi Lugo, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 16:19+0000\n"
+"POT-Creation-Date: 2024-09-29 21:29+0000\n"
 "PO-Revision-Date: 2024-07-29 16:19+0000\n"
+"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:4
+msgid "How to Ask Effective Questions"
+msgstr "Cómo formular preguntas eficaces"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:6
+msgid ""
+"Asking questions effectively is one of the most important skills to develop,"
+" especially for your life outside of robotics. Being able to learn from your"
+" questions properly is crucial and as such, you should be able to ask good "
+"questions, help those who want to help you, and make the most of what you "
+"are taught."
+msgstr ""
+"Hacer preguntas de forma eficaz es una de las habilidades más importantes "
+"que debes desarrollar, especialmente para tu vida fuera de la robótica. Ser "
+"capaz de aprender de tus preguntas adecuadamente es crucial y, como tal, "
+"debes ser capaz de hacer buenas preguntas, ayudar a los que quieren ayudarte"
+" y sacar el máximo de lo que te enseñan."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:9
+msgid "Research First"
+msgstr "Primero la investigación"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:11
+msgid ""
+"Before you ask a question, you should do your own research to find the "
+"answer. This will take more time and more effort, but it is crucial to learn"
+" to find solutions on your own, and learn how to research effectively to "
+"find solutions to your problems. In the end, this research will pay off in "
+"the long run, helping you to learn about topics relevant to your question, "
+"and often helping you to understand the roots of the problems you encounter."
+msgstr ""
+"Antes de hacer una pregunta, debes investigar por tu cuenta para encontrar "
+"la respuesta. Esto te llevará más tiempo y más esfuerzo, pero es crucial "
+"para aprender a encontrar soluciones por ti mismo, y aprender a investigar "
+"eficazmente para encontrar soluciones a tus problemas. Al final, esta "
+"investigación te compensará a largo plazo, ya que te ayudará a aprender "
+"sobre temas relevantes para tu pregunta y, a menudo, te ayudará a comprender"
+" las raíces de los problemas que encuentres."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:13
+msgid "Here are some steps that you could take to research your problem:"
+msgstr "He aquí algunos pasos que podrías dar para investigar tu problema:"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:15
+msgid ""
+"**Checking Official Documentation** - If documentation or instructions are "
+"available, make sure to carefully examine the relevant sections of them. "
+"Your problem may already be addressed, or may be caused by you misreading "
+"something."
+msgstr ""
+"**Checando documentación oficial** - Si dispone de documentación o "
+"instrucciones, asegúrese de examinar detenidamente las secciones pertinentes"
+" de las mismas. Es posible que su problema ya esté resuelto o que se deba a "
+"que ha leído algo mal."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:17
+msgid ""
+"**Google** - Simply search your problem. You will be surprised by how often "
+"this solves the issue. Try word the question in many different ways to find "
+"similar questions that may have already been asked. Focus on including "
+"keywords about your problem and if it is about programming, include relevant"
+" error messages and codes."
+msgstr ""
+"**Google** - Simplemente busque su problema. Te sorprenderá la frecuencia "
+"con la que esto resuelve la cuestión. Intenta redactar la pregunta de muchas"
+" formas diferentes para encontrar preguntas similares que puede que ya se "
+"hayan planteado. Céntrate en incluir palabras clave sobre tu problema y, si "
+"es sobre programación, incluye mensajes de error y códigos relevantes."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:20
+msgid ""
+"When looking for past documents or sections of textbooks, add "
+"\"filetype:pdf\" to the beginning of your search to filter the search "
+"results into only .pdf documents."
+msgstr ""
+"Cuando busque documentos anteriores o secciones de libros de texto, añada "
+"\"filetype:pdf\" al principio de la búsqueda para filtrar los resultados de "
+"la búsqueda en sólo documentos .pdf."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:22
+msgid ""
+"**YouTube** - There are many great resources on YouTube which can help with "
+"even obscure problems."
+msgstr ""
+"**YouTube** - Hay muchos recursos en YouTube que pueden ayudar incluso con "
+"problemas poco conocidos."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:24
+msgid ""
+"**Reddit and Discord** - The `FTC Subreddit "
+"<https://www.reddit.com/r/ftc/>`_ and Discord Server (:doc:`../useful-"
+"resources`) can also be useful places to find previous answers or to ask "
+"your own. Try searching through the past questions with keywords relating to"
+" your own."
+msgstr ""
+"**Reddit y Discord** - `FTC Subreddit <https://www.reddit.com/r/ftc/>`_ y "
+"Discord Server (:doc:`../useful-resources`) también pueden ser lugares "
+"útiles para encontrar respuestas anteriores o para preguntar las tuyas "
+"propias. Intenta buscar entre las preguntas anteriores con palabras clave "
+"relacionadas con la tuya."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:26
+msgid ""
+"**Past Examples** - Try find past implementations of whatever problem you "
+"are trying to solve. This step may take more time, as it requires finding "
+"the example, and then deciphering how someone else figured out the solution,"
+" but this process can be super valuable. For programming, digging through "
+"another person's repository can be very insightful. Likewise, for mechanical"
+" design, taking a look at a teams technical binder or CAD release."
+msgstr ""
+"**Ejemplos anteriores** - Intenta encontrar implementaciones anteriores del "
+"problema que intentas resolver. Este paso puede tomar más tiempo, ya que "
+"requiere encontrar el ejemplo, y luego descifrar cómo alguien más encontró "
+"la solución, pero este proceso puede ser muy valioso. Para la programación, "
+"escarbar en el repositorio de otra persona puede ser muy revelador. Del "
+"mismo modo, para el diseño mecánico, echar un vistazo a la carpeta técnica "
+"de un equipo o a una publicación CAD."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:29
+msgid ""
+"For programming questions, it can sometimes be helpful to find past "
+"implementations through `GitHub Code Search "
+"<https://github.com/search?type=code>`_. Note this currently requires a "
+"GitHub account. Even if you don't find the solution, examining other "
+"codebases can teach you a lot about general strategies and functions you may"
+" not have seen before."
+msgstr ""
+"Para cuestiones de programación, a veces puede ser útil encontrar "
+"implementaciones anteriores a través de `GitHub Code Search "
+"<https://github.com/search?type=code>`_. Tenga en cuenta que esto requiere "
+"actualmente una cuenta de GitHub. Incluso si no encuentras la solución, "
+"examinar otras bases de código puede enseñarte mucho sobre estrategias "
+"generales y funciones que puede que no hayas visto antes."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:32
+msgid "Be Specific"
+msgstr "Sea específico"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:34
+msgid ""
+"For others to be able to provide a good solution to your problem, they need "
+"the specifics. This means doing the following:"
+msgstr ""
+"Para que otros puedan ofrecer una buena solución a tu problema, necesitan "
+"los datos concretos. Esto significa hacer lo siguiente:"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:36
+msgid "**Break down the problem.**"
+msgstr "**Desglosa el problema."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:38
+msgid ""
+"You should try to pinpoint the problem as much as possible. For example, "
+"when encountering robot crashes, try to collect as much data as possible "
+"around the times when your robot crashes. You may not understand this "
+"information yourself, but it may allow others to solve your issue. It can "
+"also be useful to explain why you're asking. It can be easy to get stuck on "
+"a specific solution to a problem when it would be better solved in an "
+"entirely different way; this is known as the `XY Problem "
+"<https://xyproblem.info/>`_."
+msgstr ""
+"Debes intentar localizar el problema en la medida de lo posible. Por "
+"ejemplo, si el robot se bloquea, intenta recopilar todos los datos posibles "
+"sobre los momentos en los que se bloquea. Puede que tú mismo no entiendas "
+"esta información, pero puede que permita a otros resolver tu problema. "
+"También puede ser útil explicar por qué preguntas. Puede ser fácil atascarse"
+" en una solución específica a un problema cuando éste se resolvería mejor de"
+" una manera totalmente diferente; esto se conoce como el `Problema XY "
+"<https://xyproblem.info/>`_."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:40
+msgid "**Provide some context.**"
+msgstr "**Proporciona algo de contexto.**"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:42
+msgid ""
+"It is often helpful to provide context for example, what skills you are new "
+"to and hence, could be the root of the issues. Furthermore, information "
+"about your resources can help others to determine solutions which are "
+"feasible and effective within your own constraints. For example, you might "
+"be competing within a week and looking for a quick fix; make sure to mention"
+" this in your question if so."
+msgstr ""
+"Suele ser útil contextualizar, por ejemplo, qué habilidades son nuevas para "
+"usted y, por tanto, podrían ser la raíz de los problemas. Además, la "
+"información sobre tus recursos puede ayudar a los demás a determinar "
+"soluciones viables y eficaces dentro de tus propias limitaciones. Por "
+"ejemplo, es posible que tengas que competir en una semana y busques una "
+"solución rápida; asegúrate de mencionarlo en tu pregunta si es así."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:44
+msgid "**Share your progress.**"
+msgstr "**Comparte tus progresos.**"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:46
+msgid ""
+"Explain the steps you have already taken to address the problem. This may "
+"include specific troubleshooting methods, or examples of what you have been "
+"changing to try solve the issue. This helps others to gain a better "
+"understanding of the problem and avoid suggesting solutions that you have "
+"already tried."
+msgstr ""
+"Explica los pasos que ya has dado para solucionar el problema. Esto puede "
+"incluir métodos específicos de solución de problemas o ejemplos de lo que "
+"has ido cambiando para intentar resolver el problema. Esto ayuda a los demás"
+" a comprender mejor el problema y evita sugerir soluciones que tú ya has "
+"probado."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:48
+msgid "**Don't just use words.**"
+msgstr "**No uses sólo palabras.**"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:50
+msgid ""
+"You should always try to provide some additional media related to the "
+"problem. This may be relevant sections of code, CAD files, images or videos."
+" All of these provide others with a much better understanding of your "
+"problem."
+msgstr ""
+"Siempre debe intentar proporcionar algún medio adicional relacionado con el "
+"problema. Puede tratarse de secciones relevantes del código, archivos CAD, "
+"imágenes o vídeos. Todo ello permite a los demás comprender mejor el "
+"problema."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:54
+msgid "Understand the Solution"
+msgstr "Comprender la solución"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:56
+msgid ""
+"The final step for asking a question is understanding the solution. This is "
+"your own responsibility. No matter how good a teacher is, if you do not ask "
+"clarifying questions, you limit your own learning. To really understand the "
+"solution, you should do the following."
+msgstr ""
+"El último paso para formular una pregunta es comprender la solución. Esto es"
+" responsabilidad tuya. Por muy bueno que sea un profesor, si no haces "
+"preguntas aclaratorias, limitas tu propio aprendizaje. Para comprender "
+"realmente la solución, debes hacer lo siguiente."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:58
+msgid ""
+"**Understand why the problem is solved.** How was your problem fixed? Why "
+"does this fix work?"
+msgstr ""
+"**Entiende por qué se ha solucionado el problema.** ¿Cómo se solucionó tu "
+"problema? ¿Por qué funciona esta solución?"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:59
+msgid ""
+"**Figure out why the problem occurred.** What was the root cause of the "
+"problem? How can you stop it happening again?"
+msgstr ""
+"**Averigua por qué se ha producido el problema. ¿Cuál ha sido la causa "
+"principal del problema? ¿Cómo puedes evitar que se repita?"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:60
+msgid ""
+"**Ask for an outline of someone else's problem solving process.** How did "
+"someone else solve the problem? How can you use this process to solve more "
+"of your own problems in the future?"
+msgstr ""
+"**Pide un resumen del proceso de resolución de problemas de otra persona.** "
+"¿Cómo resolvió el problema otra persona? ¿Cómo puedes utilizar este proceso "
+"para resolver tus propios problemas en el futuro?"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:61
+msgid ""
+"**Find gaps in your knowledge.** What information were you missing that led "
+"to the problem? How can you develop this area of your knowledge?"
+msgstr ""
+"**¿Qué información te faltaba para resolver el problema? ¿Cómo puedes "
+"desarrollar esta área de tus conocimientos?"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:64
+msgid ""
+"If the answer to one of these questions is not apparent, ask the person who "
+"helped you and have them provide some more insight. If they were willing to "
+"help you figure out the initial problem, they will probably help you to "
+"understand the solution as well."
+msgstr ""
+"Si la respuesta a una de estas preguntas no es evidente, pregúntele a la "
+"persona que le ayudó y pídale que le proporcione más información. Si "
+"estuvieron dispuestos a ayudarte a resolver el problema inicial, "
+"probablemente también te ayudarán a entender la solución."
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:67
+msgid ""
+"If you solve the problem on your own but already posted a question, post a "
+"response which describes how you solved the issue. This clarification can "
+"help someone in the future solve the problem in much less time."
+msgstr ""
+"Si resuelves el problema por tu cuenta pero ya has publicado una pregunta, "
+"publica una respuesta en la que describas cómo resolviste el problema. Esta "
+"aclaración puede ayudar a alguien en el futuro a resolver el problema en "
+"mucho menos tiempo."

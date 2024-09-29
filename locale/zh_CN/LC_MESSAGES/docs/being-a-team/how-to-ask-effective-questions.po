@@ -3,16 +3,246 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# zhenyi li, 2024
+# shaw phy, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 16:19+0000\n"
+"POT-Creation-Date: 2024-09-29 21:29+0000\n"
 "PO-Revision-Date: 2024-07-29 16:19+0000\n"
+"Last-Translator: shaw phy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:4
+msgid "How to Ask Effective Questions"
+msgstr "如何提出有效的问题"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:6
+msgid ""
+"Asking questions effectively is one of the most important skills to develop,"
+" especially for your life outside of robotics. Being able to learn from your"
+" questions properly is crucial and as such, you should be able to ask good "
+"questions, help those who want to help you, and make the most of what you "
+"are taught."
+msgstr "有效提问是最重要的技能之一，尤其是在机器人学习以外的生活中。因此，你应该能够提出好问题，帮助那些想帮助你的人，并充分利用所学知识。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:9
+msgid "Research First"
+msgstr "第一步：研究"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:11
+msgid ""
+"Before you ask a question, you should do your own research to find the "
+"answer. This will take more time and more effort, but it is crucial to learn"
+" to find solutions on your own, and learn how to research effectively to "
+"find solutions to your problems. In the end, this research will pay off in "
+"the long run, helping you to learn about topics relevant to your question, "
+"and often helping you to understand the roots of the problems you encounter."
+msgstr ""
+"在你提出问题之前，你应该自己研究，找到答案。这需要花费更多的时间和精力，但关键是要学会自己寻找解决方案，学会如何有效地进行研究，找到解决问题的办法。从长远来看，这种研究最终会给你带来回报，帮助你了解与你的问题相关的主题，并经常帮助你了解你所遇到的问题的根源。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:13
+msgid "Here are some steps that you could take to research your problem:"
+msgstr "以下是您可以采取的一些研究问题的步骤："
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:15
+msgid ""
+"**Checking Official Documentation** - If documentation or instructions are "
+"available, make sure to carefully examine the relevant sections of them. "
+"Your problem may already be addressed, or may be caused by you misreading "
+"something."
+msgstr "**检查官方文档** - 如果有文档或说明，请务必仔细检查其中的相关部分。您的问题可能已经得到解决，也可能是您误读了某些内容。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:17
+msgid ""
+"**Google** - Simply search your problem. You will be surprised by how often "
+"this solves the issue. Try word the question in many different ways to find "
+"similar questions that may have already been asked. Focus on including "
+"keywords about your problem and if it is about programming, include relevant"
+" error messages and codes."
+msgstr ""
+"**谷歌** - "
+"只需搜索您的问题。你会惊讶地发现，这样做往往能解决问题。尝试用多种不同的方式来表达问题，以找到可能已经有人问过的类似问题。重点包含与您的问题有关的关键词，如果问题与编程有关，则包含相关的错误信息和代码。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:20
+msgid ""
+"When looking for past documents or sections of textbooks, add "
+"\"filetype:pdf\" to the beginning of your search to filter the search "
+"results into only .pdf documents."
+msgstr "在查找过去的文件或教科书章节时，请在搜索开头添加 \"filetype:pdf\"，以便将搜索结果过滤为仅 .pdf 文件。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:22
+msgid ""
+"**YouTube** - There are many great resources on YouTube which can help with "
+"even obscure problems."
+msgstr "**YouTube** - YouTube 上有许多很好的资源，甚至可以帮助解决一些晦涩难懂的问题。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:24
+msgid ""
+"**Reddit and Discord** - The `FTC Subreddit "
+"<https://www.reddit.com/r/ftc/>`_ and Discord Server (:doc:`../useful-"
+"resources`) can also be useful places to find previous answers or to ask "
+"your own. Try searching through the past questions with keywords relating to"
+" your own."
+msgstr ""
+"**Reddit 和 Discord** - `FTC Subreddit<https://www.reddit.com/r/ftc/>`_ 和 "
+"Discord 服务器（:doc:`.../useful-"
+"resources`）也是查找以前的答案或提出自己的问题的有用场所。请尝试用与您的问题相关的关键字搜索过去的问题。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:26
+msgid ""
+"**Past Examples** - Try find past implementations of whatever problem you "
+"are trying to solve. This step may take more time, as it requires finding "
+"the example, and then deciphering how someone else figured out the solution,"
+" but this process can be super valuable. For programming, digging through "
+"another person's repository can be very insightful. Likewise, for mechanical"
+" design, taking a look at a teams technical binder or CAD release."
+msgstr ""
+"**过去的例子** - "
+"无论你想解决什么问题，都要尝试找到过去的实现方法。这一步可能需要花费更多时间，因为它需要找到示例，然后解读别人是如何找出解决方案的，但这个过程可能非常有价值。对于编程来说，从别人的资料库中挖掘出的东西会让你受益匪浅。同样，对于机械设计来说，看看团队的技术资料夹或"
+" CAD 版本也是很有帮助的。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:29
+msgid ""
+"For programming questions, it can sometimes be helpful to find past "
+"implementations through `GitHub Code Search "
+"<https://github.com/search?type=code>`_. Note this currently requires a "
+"GitHub account. Even if you don't find the solution, examining other "
+"codebases can teach you a lot about general strategies and functions you may"
+" not have seen before."
+msgstr ""
+"对于编程问题，通过 `GitHub 代码搜索<https://github.com/search?type=code>`_ "
+"查找过去的实现有时会有所帮助。请注意，这目前需要一个 GitHub "
+"账户。即使找不到解决方案，研究其他代码库也能让你学到很多以前可能没见过的一般策略和功能。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:32
+msgid "Be Specific"
+msgstr "问题要具体"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:34
+msgid ""
+"For others to be able to provide a good solution to your problem, they need "
+"the specifics. This means doing the following:"
+msgstr "要让其他人能够为您的问题提供好的解决方案，他们需要了解具体情况。这意味着要做到以下几点："
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:36
+msgid "**Break down the problem.**"
+msgstr "**分解问题。**"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:38
+msgid ""
+"You should try to pinpoint the problem as much as possible. For example, "
+"when encountering robot crashes, try to collect as much data as possible "
+"around the times when your robot crashes. You may not understand this "
+"information yourself, but it may allow others to solve your issue. It can "
+"also be useful to explain why you're asking. It can be easy to get stuck on "
+"a specific solution to a problem when it would be better solved in an "
+"entirely different way; this is known as the `XY Problem "
+"<https://xyproblem.info/>`_."
+msgstr ""
+"您应尽可能找出问题所在。例如，在遇到机器人崩溃时，应尽量收集机器人崩溃前后的数据。您自己可能不了解这些信息，但这些信息可能会让其他人解决您的问题。解释您提出问题的原因也很有用。您可能很容易被某个问题的具体解决方案所困扰，而这个问题最好用完全不同的方法来解决；这就是所谓的"
+" `XY 问题<https://xyproblem.info/>`_。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:40
+msgid "**Provide some context.**"
+msgstr "**提供一些背景情况。**"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:42
+msgid ""
+"It is often helpful to provide context for example, what skills you are new "
+"to and hence, could be the root of the issues. Furthermore, information "
+"about your resources can help others to determine solutions which are "
+"feasible and effective within your own constraints. For example, you might "
+"be competing within a week and looking for a quick fix; make sure to mention"
+" this in your question if so."
+msgstr ""
+"提供背景信息通常很有帮助，例如，你刚掌握哪些技能，因此可能是问题的根源。此外，有关您的资源的信息可以帮助他人确定在您自身限制条件下可行且有效的解决方案。例如，您可能要在一周内参加比赛，并寻求快速解决方案；如果是这样，请确保在问题中提及这一点。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:44
+msgid "**Share your progress.**"
+msgstr "**分享你的进展。**"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:46
+msgid ""
+"Explain the steps you have already taken to address the problem. This may "
+"include specific troubleshooting methods, or examples of what you have been "
+"changing to try solve the issue. This helps others to gain a better "
+"understanding of the problem and avoid suggesting solutions that you have "
+"already tried."
+msgstr ""
+"解释您为解决问题已经采取的步骤。这可能包括具体的故障排除方法，或举例说明您为尝试解决问题而做出的改变。这有助于他人更好地了解问题，避免提出您已经尝试过的解决方案。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:48
+msgid "**Don't just use words.**"
+msgstr "**不要只用语言。**"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:50
+msgid ""
+"You should always try to provide some additional media related to the "
+"problem. This may be relevant sections of code, CAD files, images or videos."
+" All of these provide others with a much better understanding of your "
+"problem."
+msgstr "您应尽量提供与问题相关的其他媒体。这可以是相关的代码段、CAD 文件、图片或视频。所有这些都能让他人更好地了解您的问题。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:54
+msgid "Understand the Solution"
+msgstr "了解解决方案"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:56
+msgid ""
+"The final step for asking a question is understanding the solution. This is "
+"your own responsibility. No matter how good a teacher is, if you do not ask "
+"clarifying questions, you limit your own learning. To really understand the "
+"solution, you should do the following."
+msgstr ""
+"提出问题的最后一步是了解解决方案。这是你自己的责任。无论老师有多好，如果你不提出明确的问题，就会限制自己的学习。要真正理解解题思路，你应该做到以下几点。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:58
+msgid ""
+"**Understand why the problem is solved.** How was your problem fixed? Why "
+"does this fix work?"
+msgstr "**了解问题解决的原因。** 你的问题是如何解决的？为什么这种修复方法有效？"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:59
+msgid ""
+"**Figure out why the problem occurred.** What was the root cause of the "
+"problem? How can you stop it happening again?"
+msgstr "**找出问题发生的原因** 问题的根本原因是什么？如何防止问题再次发生？"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:60
+msgid ""
+"**Ask for an outline of someone else's problem solving process.** How did "
+"someone else solve the problem? How can you use this process to solve more "
+"of your own problems in the future?"
+msgstr "**询问别人解决问题的过程大纲。** 别人是如何解决问题的？今后如何利用这一过程来解决自己的更多问题？"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:61
+msgid ""
+"**Find gaps in your knowledge.** What information were you missing that led "
+"to the problem? How can you develop this area of your knowledge?"
+msgstr "**找出你的知识空白** 你缺少哪些信息导致了问题的出现？如何发展这方面的知识？"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:64
+msgid ""
+"If the answer to one of these questions is not apparent, ask the person who "
+"helped you and have them provide some more insight. If they were willing to "
+"help you figure out the initial problem, they will probably help you to "
+"understand the solution as well."
+msgstr ""
+"如果其中一个问题的答案不明显，请询问帮助过您的人，让他们提供更多的见解。如果他们愿意帮你找出最初的问题，那么他们很可能也会帮助你了解解决方案。"
+
+#: ../../gm0/source/docs/being-a-team/how-to-ask-effective-questions.rst:67
+msgid ""
+"If you solve the problem on your own but already posted a question, post a "
+"response which describes how you solved the issue. This clarification can "
+"help someone in the future solve the problem in much less time."
+msgstr "如果您自行解决了问题，但已经发布了问题，请在回复中说明您是如何解决问题的。这样的说明可以帮助其他人在更短的时间内解决问题。"
