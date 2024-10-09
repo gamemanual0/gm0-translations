@@ -9,6 +9,7 @@ This conf.py does:
 - Specify `locale_dirs` and `gettext_compact`.
 - Overrides source directory as 'sphinx/doc/`.
 """
+from pathlib import Path
 import os
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
@@ -23,7 +24,7 @@ setup_original = setup
 
 
 def setup(app):
-    app.srcdir = os.path.join(BASEDIR, "gm0/source/")
+    app.srcdir = Path(os.path.join(BASEDIR, "gm0/source/"))
     app.confdir = app.srcdir
 
     tags.add("translation")
