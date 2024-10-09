@@ -7,6 +7,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/gallery.po
 source_file            = locale/pot/docs/appendix/gallery.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--appendix--gallery
 replace_edited_strings = false
 keep_translations      = false
 
@@ -15,6 +16,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/index.po
 source_file            = locale/pot/docs/appendix/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--appendix--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -23,6 +25,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/license.po
 source_file            = locale/pot/docs/appendix/license.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--appendix--license
 replace_edited_strings = false
 keep_translations      = false
 
@@ -31,6 +34,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/vendor-guide.po
 source_file            = locale/pot/docs/appendix/vendor-guide.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--appendix--vendor-guide
 replace_edited_strings = false
 keep_translations      = false
 
@@ -39,6 +43,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/vendor-list.po
 source_file            = locale/pot/docs/appendix/vendor-list.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--appendix--vendor-list
 replace_edited_strings = false
 keep_translations      = false
 
@@ -47,6 +52,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/award-types.po
 source_file            = locale/pot/docs/awards/award-types.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--awards--award-types
 replace_edited_strings = false
 keep_translations      = false
 
@@ -55,6 +61,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/index.po
 source_file            = locale/pot/docs/awards/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--awards--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -63,6 +70,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/judging-presentat
 source_file            = locale/pot/docs/awards/judging-presentation.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--awards--judging-presentation
 replace_edited_strings = false
 keep_translations      = false
 
@@ -71,6 +79,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/notebook.po
 source_file            = locale/pot/docs/awards/notebook.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--awards--notebook
 replace_edited_strings = false
 keep_translations      = false
 
@@ -79,6 +88,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/awards/portfolio.po
 source_file            = locale/pot/docs/awards/portfolio.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--awards--portfolio
 replace_edited_strings = false
 keep_translations      = false
 
@@ -87,6 +97,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/collaborati
 source_file            = locale/pot/docs/being-a-team/collaboration-and-efficiency.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--being-a-team--collaboration-and-efficiency
 replace_edited_strings = false
 keep_translations      = false
 
@@ -95,6 +106,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/how-to-ask-
 source_file            = locale/pot/docs/being-a-team/how-to-ask-effective-questions.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--being-a-team--how-to-ask-effective-questions
 replace_edited_strings = false
 keep_translations      = false
 
@@ -103,6 +115,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/index.po
 source_file            = locale/pot/docs/being-a-team/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--being-a-team--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -111,6 +124,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/outreach-ba
 source_file            = locale/pot/docs/being-a-team/outreach-basics.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--being-a-team--outreach-basics
 replace_edited_strings = false
 keep_translations      = false
 
@@ -119,6 +133,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/pitching-yo
 source_file            = locale/pot/docs/being-a-team/pitching-your-team.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--being-a-team--pitching-your-team
 replace_edited_strings = false
 keep_translations      = false
 
@@ -127,6 +142,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/starting-a-
 source_file            = locale/pot/docs/being-a-team/starting-a-team.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--being-a-team--starting-a-team
 replace_edited_strings = false
 keep_translations      = false
 
@@ -135,6 +151,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/being-a-team/team-organi
 source_file            = locale/pot/docs/being-a-team/team-organization.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--being-a-team--team-organization
 replace_edited_strings = false
 keep_translations      = false
 
@@ -143,6 +160,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active
 source_file            = locale/pot/docs/common-mechanisms/active-intake/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--active-intake--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -151,6 +169,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active
 source_file            = locale/pot/docs/common-mechanisms/active-intake/principles-of-an-intake.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--active-intake--principles-of-an-intake
 replace_edited_strings = false
 keep_translations      = false
 
@@ -159,6 +178,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/active
 source_file            = locale/pot/docs/common-mechanisms/active-intake/types-of-intakes.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--active-intake--types-of-intakes
 replace_edited_strings = false
 keep_translations      = false
 
@@ -167,6 +187,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/arms.p
 source_file            = locale/pot/docs/common-mechanisms/arms.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--arms
 replace_edited_strings = false
 keep_translations      = false
 
@@ -175,6 +196,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/dead-w
 source_file            = locale/pot/docs/common-mechanisms/dead-wheels.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--dead-wheels
 replace_edited_strings = false
 keep_translations      = false
 
@@ -183,6 +205,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/design
 source_file            = locale/pot/docs/common-mechanisms/design-tradeoffs.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--design-tradeoffs
 replace_edited_strings = false
 keep_translations      = false
 
@@ -191,6 +214,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivet
 source_file            = locale/pot/docs/common-mechanisms/drivetrains/drivetrain-gallery.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--drivetrains--drivetrain-gallery
 replace_edited_strings = false
 keep_translations      = false
 
@@ -199,6 +223,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivet
 source_file            = locale/pot/docs/common-mechanisms/drivetrains/holonomic.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--drivetrains--holonomic
 replace_edited_strings = false
 keep_translations      = false
 
@@ -207,6 +232,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivet
 source_file            = locale/pot/docs/common-mechanisms/drivetrains/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--drivetrains--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -215,6 +241,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/drivet
 source_file            = locale/pot/docs/common-mechanisms/drivetrains/tank.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--drivetrains--tank
 replace_edited_strings = false
 keep_translations      = false
 
@@ -223,6 +250,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/index.
 source_file            = locale/pot/docs/common-mechanisms/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -231,6 +259,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/custom.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--custom
 replace_edited_strings = false
 keep_translations      = false
 
@@ -239,6 +268,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/drawer-slides.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--drawer-slides
 replace_edited_strings = false
 keep_translations      = false
 
@@ -247,6 +277,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/extrusion-slides.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--extrusion-slides
 replace_edited_strings = false
 keep_translations      = false
 
@@ -255,6 +286,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -263,6 +295,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/lead-screws.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--lead-screws
 replace_edited_strings = false
 keep_translations      = false
 
@@ -271,6 +304,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--linear-bearing-slides
 replace_edited_strings = false
 keep_translations      = false
 
@@ -279,6 +313,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--rack-and-pinion
 replace_edited_strings = false
 keep_translations      = false
 
@@ -287,6 +322,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linear
 source_file            = locale/pot/docs/common-mechanisms/linear-motion-guide/rigging.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linear-motion-guide--rigging
 replace_edited_strings = false
 keep_translations      = false
 
@@ -295,6 +331,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/linkag
 source_file            = locale/pot/docs/common-mechanisms/linkages.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--linkages
 replace_edited_strings = false
 keep_translations      = false
 
@@ -303,6 +340,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/passiv
 source_file            = locale/pot/docs/common-mechanisms/passive-intake-claw.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--passive-intake-claw
 replace_edited_strings = false
 keep_translations      = false
 
@@ -311,6 +349,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/belt.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--belt
 replace_edited_strings = false
 keep_translations      = false
 
@@ -319,6 +358,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/chain.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--chain
 replace_edited_strings = false
 keep_translations      = false
 
@@ -327,6 +367,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/direct-drive.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--direct-drive
 replace_edited_strings = false
 keep_translations      = false
 
@@ -335,6 +376,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/gears.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--gears
 replace_edited_strings = false
 keep_translations      = false
 
@@ -343,6 +385,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -351,6 +394,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/motion-mounting.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--motion-mounting
 replace_edited_strings = false
 keep_translations      = false
 
@@ -359,6 +403,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/power-transmission-glossary.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--power-transmission-glossary
 replace_edited_strings = false
 keep_translations      = false
 
@@ -367,6 +412,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/power-
 source_file            = locale/pot/docs/common-mechanisms/power-transmission/shaft-retention.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--power-transmission--shaft-retention
 replace_edited_strings = false
 keep_translations      = false
 
@@ -375,6 +421,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transf
 source_file            = locale/pot/docs/common-mechanisms/transfers/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--transfers--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -383,6 +430,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transf
 source_file            = locale/pot/docs/common-mechanisms/transfers/transfer-design.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--transfers--transfer-design
 replace_edited_strings = false
 keep_translations      = false
 
@@ -391,6 +439,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/transf
 source_file            = locale/pot/docs/common-mechanisms/transfers/transfer-types.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--transfers--transfer-types
 replace_edited_strings = false
 keep_translations      = false
 
@@ -399,6 +448,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/turret
 source_file            = locale/pot/docs/common-mechanisms/turrets/full-turret.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--turrets--full-turret
 replace_edited_strings = false
 keep_translations      = false
 
@@ -407,6 +457,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/turret
 source_file            = locale/pot/docs/common-mechanisms/turrets/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--turrets--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -415,6 +466,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/common-mechanisms/turret
 source_file            = locale/pot/docs/common-mechanisms/turrets/mini-turret.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--common-mechanisms--turrets--mini-turret
 replace_edited_strings = false
 keep_translations      = false
 
@@ -423,6 +475,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/contributor
 source_file            = locale/pot/docs/contributing/contributors.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--contributing--contributors
 replace_edited_strings = false
 keep_translations      = false
 
@@ -431,6 +484,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/index.po
 source_file            = locale/pot/docs/contributing/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--contributing--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -439,6 +493,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/methods-of-
 source_file            = locale/pot/docs/contributing/methods-of-contributing.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--contributing--methods-of-contributing
 replace_edited_strings = false
 keep_translations      = false
 
@@ -447,6 +502,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/contributing/style-guide
 source_file            = locale/pot/docs/contributing/style-guide.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--contributing--style-guide
 replace_edited_strings = false
 keep_translations      = false
 
@@ -455,6 +511,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/3d-
 source_file            = locale/pot/docs/custom-manufacturing/3d-printing.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--custom-manufacturing--3d-printing
 replace_edited_strings = false
 keep_translations      = false
 
@@ -463,6 +520,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/ind
 source_file            = locale/pot/docs/custom-manufacturing/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--custom-manufacturing--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -471,6 +529,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/las
 source_file            = locale/pot/docs/custom-manufacturing/laser-cutting.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--custom-manufacturing--laser-cutting
 replace_edited_strings = false
 keep_translations      = false
 
@@ -479,6 +538,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/mac
 source_file            = locale/pot/docs/custom-manufacturing/machining.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--custom-manufacturing--machining
 replace_edited_strings = false
 keep_translations      = false
 
@@ -487,6 +547,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/man
 source_file            = locale/pot/docs/custom-manufacturing/manufacturing-glossary.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--custom-manufacturing--manufacturing-glossary
 replace_edited_strings = false
 keep_translations      = false
 
@@ -495,6 +556,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/custom-manufacturing/mat
 source_file            = locale/pot/docs/custom-manufacturing/materials-guide.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--custom-manufacturing--materials-guide
 replace_edited_strings = false
 keep_translations      = false
 
@@ -503,6 +565,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/cad.po
 source_file            = locale/pot/docs/design-skills/cad.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--design-skills--cad
 replace_edited_strings = false
 keep_translations      = false
 
@@ -511,6 +574,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/cad-tutori
 source_file            = locale/pot/docs/design-skills/cad-tutorials.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--design-skills--cad-tutorials
 replace_edited_strings = false
 keep_translations      = false
 
@@ -519,6 +583,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/design-glo
 source_file            = locale/pot/docs/design-skills/design-glossary.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--design-skills--design-glossary
 replace_edited_strings = false
 keep_translations      = false
 
@@ -527,6 +592,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/design-str
 source_file            = locale/pot/docs/design-skills/design-strategy.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--design-skills--design-strategy
 replace_edited_strings = false
 keep_translations      = false
 
@@ -535,6 +601,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/engineerin
 source_file            = locale/pot/docs/design-skills/engineering-design-process.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--design-skills--engineering-design-process
 replace_edited_strings = false
 keep_translations      = false
 
@@ -543,6 +610,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/design-skills/index.po
 source_file            = locale/pot/docs/design-skills/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--design-skills--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -551,6 +619,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/fast
 source_file            = locale/pot/docs/hardware-components/fastener-guide.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--fastener-guide
 replace_edited_strings = false
 keep_translations      = false
 
@@ -559,6 +628,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/inde
 source_file            = locale/pot/docs/hardware-components/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -567,6 +637,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-
 source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/actobotics.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--kit-and-hardware-guide--actobotics
 replace_edited_strings = false
 keep_translations      = false
 
@@ -575,6 +646,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-
 source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/custom.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--kit-and-hardware-guide--custom
 replace_edited_strings = false
 keep_translations      = false
 
@@ -583,6 +655,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-
 source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/gobilda.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--kit-and-hardware-guide--gobilda
 replace_edited_strings = false
 keep_translations      = false
 
@@ -591,6 +664,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-
 source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--kit-and-hardware-guide--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -599,6 +673,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-
 source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/kit-glossary.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--kit-and-hardware-guide--kit-glossary
 replace_edited_strings = false
 keep_translations      = false
 
@@ -607,6 +682,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-
 source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/rev-robotics.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--kit-and-hardware-guide--rev-robotics
 replace_edited_strings = false
 keep_translations      = false
 
@@ -615,6 +691,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/kit-
 source_file            = locale/pot/docs/hardware-components/kit-and-hardware-guide/tetrix.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--kit-and-hardware-guide--tetrix
 replace_edited_strings = false
 keep_translations      = false
 
@@ -623,6 +700,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/tips
 source_file            = locale/pot/docs/hardware-components/tips-and-tricks.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--tips-and-tricks
 replace_edited_strings = false
 keep_translations      = false
 
@@ -631,6 +709,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/hardware-components/tool
 source_file            = locale/pot/docs/hardware-components/tools-list.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--hardware-components--tools-list
 replace_edited_strings = false
 keep_translations      = false
 
@@ -639,6 +718,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/know-your-lingo.po
 source_file            = locale/pot/docs/know-your-lingo.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--know-your-lingo
 replace_edited_strings = false
 keep_translations      = false
 
@@ -647,6 +727,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/mission-statement.po
 source_file            = locale/pot/docs/mission-statement.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--mission-statement
 replace_edited_strings = false
 keep_translations      = false
 
@@ -655,6 +736,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/co
 source_file            = locale/pot/docs/power-and-electronics/connectors-and-wires.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--connectors-and-wires
 replace_edited_strings = false
 keep_translations      = false
 
@@ -663,6 +745,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/co
 source_file            = locale/pot/docs/power-and-electronics/control-system.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--control-system
 replace_edited_strings = false
 keep_translations      = false
 
@@ -671,6 +754,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/dr
 source_file            = locale/pot/docs/power-and-electronics/driver-station-guide.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--driver-station-guide
 replace_edited_strings = false
 keep_translations      = false
 
@@ -679,6 +763,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/in
 source_file            = locale/pot/docs/power-and-electronics/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -687,6 +772,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/mo
 source_file            = locale/pot/docs/power-and-electronics/motor-guide/choosing-motor.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--motor-guide--choosing-motor
 replace_edited_strings = false
 keep_translations      = false
 
@@ -695,6 +781,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/mo
 source_file            = locale/pot/docs/power-and-electronics/motor-guide/gearbox-anatomy.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--motor-guide--gearbox-anatomy
 replace_edited_strings = false
 keep_translations      = false
 
@@ -703,6 +790,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/mo
 source_file            = locale/pot/docs/power-and-electronics/motor-guide/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--motor-guide--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -711,6 +799,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/mo
 source_file            = locale/pot/docs/power-and-electronics/motor-guide/motor-glossary.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--motor-guide--motor-glossary
 replace_edited_strings = false
 keep_translations      = false
 
@@ -719,6 +808,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/mo
 source_file            = locale/pot/docs/power-and-electronics/motor-guide/motor-power.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--motor-guide--motor-power
 replace_edited_strings = false
 keep_translations      = false
 
@@ -727,6 +817,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/mo
 source_file            = locale/pot/docs/power-and-electronics/motor-guide/wiring-mounting-motors.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--motor-guide--wiring-mounting-motors
 replace_edited_strings = false
 keep_translations      = false
 
@@ -735,6 +826,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/se
 source_file            = locale/pot/docs/power-and-electronics/sensor-glossary.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--sensor-glossary
 replace_edited_strings = false
 keep_translations      = false
 
@@ -743,6 +835,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/se
 source_file            = locale/pot/docs/power-and-electronics/servo-guide/choosing-servo.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--servo-guide--choosing-servo
 replace_edited_strings = false
 keep_translations      = false
 
@@ -751,6 +844,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/se
 source_file            = locale/pot/docs/power-and-electronics/servo-guide/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--servo-guide--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -759,6 +853,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/se
 source_file            = locale/pot/docs/power-and-electronics/servo-guide/usage-tips.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--servo-guide--usage-tips
 replace_edited_strings = false
 keep_translations      = false
 
@@ -767,6 +862,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/ti
 source_file            = locale/pot/docs/power-and-electronics/tips-and-tricks.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--tips-and-tricks
 replace_edited_strings = false
 keep_translations      = false
 
@@ -775,6 +871,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/power-and-electronics/wi
 source_file            = locale/pot/docs/power-and-electronics/wiring.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--power-and-electronics--wiring
 replace_edited_strings = false
 keep_translations      = false
 
@@ -783,6 +880,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-sys
 source_file            = locale/pot/docs/software/adv-control-system/control-system-internals.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--adv-control-system--control-system-internals
 replace_edited_strings = false
 keep_translations      = false
 
@@ -791,6 +889,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-sys
 source_file            = locale/pot/docs/software/adv-control-system/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--adv-control-system--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -799,6 +898,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-sys
 source_file            = locale/pot/docs/software/adv-control-system/lynx-module.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--adv-control-system--lynx-module
 replace_edited_strings = false
 keep_translations      = false
 
@@ -807,6 +907,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-sys
 source_file            = locale/pot/docs/software/adv-control-system/sdk-communication.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--adv-control-system--sdk-communication
 replace_edited_strings = false
 keep_translations      = false
 
@@ -815,6 +916,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-sys
 source_file            = locale/pot/docs/software/adv-control-system/sdk-motors.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--adv-control-system--sdk-motors
 replace_edited_strings = false
 keep_translations      = false
 
@@ -823,6 +925,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-sys
 source_file            = locale/pot/docs/software/adv-control-system/sdk-sensors.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--adv-control-system--sdk-sensors
 replace_edited_strings = false
 keep_translations      = false
 
@@ -831,6 +934,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/adv-control-sys
 source_file            = locale/pot/docs/software/adv-control-system/sdk-servos.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--adv-control-system--sdk-servos
 replace_edited_strings = false
 keep_translations      = false
 
@@ -839,6 +943,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/contro
 source_file            = locale/pot/docs/software/concepts/control-loops.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--concepts--control-loops
 replace_edited_strings = false
 keep_translations      = false
 
@@ -847,6 +952,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/finite
 source_file            = locale/pot/docs/software/concepts/finite-state-machines.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--concepts--finite-state-machines
 replace_edited_strings = false
 keep_translations      = false
 
@@ -855,6 +961,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/index.
 source_file            = locale/pot/docs/software/concepts/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--concepts--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -863,6 +970,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/kinema
 source_file            = locale/pot/docs/software/concepts/kinematics.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--concepts--kinematics
 replace_edited_strings = false
 keep_translations      = false
 
@@ -871,6 +979,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/concepts/odomet
 source_file            = locale/pot/docs/software/concepts/odometry.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--concepts--odometry
 replace_edited_strings = false
 keep_translations      = false
 
@@ -879,6 +988,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started
 source_file            = locale/pot/docs/software/getting-started/common-hardware-components.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--getting-started--common-hardware-components
 replace_edited_strings = false
 keep_translations      = false
 
@@ -887,6 +997,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started
 source_file            = locale/pot/docs/software/getting-started/common-issues.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--getting-started--common-issues
 replace_edited_strings = false
 keep_translations      = false
 
@@ -895,6 +1006,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started
 source_file            = locale/pot/docs/software/getting-started/fundamental-concepts.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--getting-started--fundamental-concepts
 replace_edited_strings = false
 keep_translations      = false
 
@@ -903,6 +1015,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started
 source_file            = locale/pot/docs/software/getting-started/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--getting-started--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -911,6 +1024,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started
 source_file            = locale/pot/docs/software/getting-started/linear-opmode-vs-opmode.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--getting-started--linear-opmode-vs-opmode
 replace_edited_strings = false
 keep_translations      = false
 
@@ -919,6 +1033,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started
 source_file            = locale/pot/docs/software/getting-started/options-for-programming.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--getting-started--options-for-programming
 replace_edited_strings = false
 keep_translations      = false
 
@@ -927,6 +1042,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/getting-started
 source_file            = locale/pot/docs/software/getting-started/using-android-studio.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--getting-started--using-android-studio
 replace_edited_strings = false
 keep_translations      = false
 
@@ -935,6 +1051,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/index.po
 source_file            = locale/pot/docs/software/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -943,6 +1060,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/software-glossa
 source_file            = locale/pot/docs/software/software-glossary.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--software-glossary
 replace_edited_strings = false
 keep_translations      = false
 
@@ -951,6 +1069,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/bulk-
 source_file            = locale/pot/docs/software/tutorials/bulk-reads.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--tutorials--bulk-reads
 replace_edited_strings = false
 keep_translations      = false
 
@@ -959,6 +1078,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/encod
 source_file            = locale/pot/docs/software/tutorials/encoders.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--tutorials--encoders
 replace_edited_strings = false
 keep_translations      = false
 
@@ -967,6 +1087,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/gamep
 source_file            = locale/pot/docs/software/tutorials/gamepad.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--tutorials--gamepad
 replace_edited_strings = false
 keep_translations      = false
 
@@ -975,6 +1096,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/index
 source_file            = locale/pot/docs/software/tutorials/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--tutorials--index
 replace_edited_strings = false
 keep_translations      = false
 
@@ -983,6 +1105,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/mecan
 source_file            = locale/pot/docs/software/tutorials/mecanum-drive.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--tutorials--mecanum-drive
 replace_edited_strings = false
 keep_translations      = false
 
@@ -991,6 +1114,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/using
 source_file            = locale/pot/docs/software/tutorials/using-telemetry.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--tutorials--using-telemetry
 replace_edited_strings = false
 keep_translations      = false
 
@@ -999,6 +1123,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/software/tutorials/visio
 source_file            = locale/pot/docs/software/tutorials/vision.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--software--tutorials--vision
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1007,6 +1132,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/start-here.po
 source_file            = locale/pot/docs/start-here.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--start-here
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1015,6 +1141,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/docs/useful-resources.po
 source_file            = locale/pot/docs/useful-resources.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = docs--useful-resources
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1023,6 +1150,7 @@ file_filter            = locale/<lang>/LC_MESSAGES/index.po
 source_file            = locale/pot/index.pot
 type                   = PO
 minimum_perc           = 0
+resource_name          = index
 replace_edited_strings = false
 keep_translations      = false
 
