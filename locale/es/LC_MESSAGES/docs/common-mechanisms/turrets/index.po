@@ -1,60 +1,6 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) Game Manual 0 Contributors |  Hosting Graciously Provided By //Copperforge
-# This file is distributed under the same license as the Game Manual 0 package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Yaretzi Lugo, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Game Manual 0 0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 16:18+0000\n"
-"PO-Revision-Date: 2023-08-04 04:15+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
-
-#: ../../gm0/source/docs/common-mechanisms/turrets/index.rst:4
-msgid "Turrets"
-msgstr "Torretas"
-
-#: ../../gm0/source/docs/common-mechanisms/turrets/index.rst:6
-msgid ""
-"In FTC\\ |reg|, turrets refer to mechanisms that allow for yaw (side-to-"
-"side) rotation of another mechanism. This is typically done for the purpose "
-"of positioning an intake or scoring mechanism. For example, a shooter could "
-"be mounted on a turret to allow for aiming without turning the robot. "
-"Turrets typically have a gear, sprocket, or pulley mounted to them, which "
-"motors and servos use to rotate them."
-msgstr ""
-"En FTC, las torretas se refieren a mecanismos que permiten la rotación de "
-"otro mecanismo en el eje de guiñada (de lado a lado). Esto se hace "
-"típicamente con el propósito de posicionar un mecanismo de admisión o "
-"puntuación. Por ejemplo, un lanzador podría ser montado en una torreta para "
-"permitir apuntar sin girar el robot. Las torretas típicamente tienen un "
-"engranaje, rueda dentada o polea montada en ellas, que los motores y servos "
-"utilizan para rotarlas."
-
-#: ../../gm0/source/docs/common-mechanisms/turrets/index.rst:8
-msgid ""
-"The FTC community often splits these turrets into 2 categories, \"full "
-"turrets\" and \"mini turrets.\" Full turrets are typically those powered by "
-"motors or multiple servos at the base of the robot, and move large "
-"mechanism(s), and what the lone word \"turret\" generally refers to. Mini "
-"turrets are typically powered by one or two servos, are located at the end "
-"of an extension of some sort, and only pivot an end effector."
-msgstr ""
-"La comunidad de FTC a menudo divide estas torretas en 2 categorías, "
-"\"torretas completas\" y \"torretas mini\". Las torretas completas son "
-"típicamente aquellas alimentadas por motores o múltiples servos en la base "
-"del robot, y mueven mecanismos grandes, y a lo que generalmente se refiere "
-"la palabra \"torreta\" sola. Las torretas mini son típicamente alimentadas "
-"por uno o dos servos, se encuentran en el extremo de una extensión de algún "
-"tipo, y solo pivotan un efector final."
