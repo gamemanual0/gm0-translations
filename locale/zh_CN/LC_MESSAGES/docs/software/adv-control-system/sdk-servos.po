@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2024
+# shaw phy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2024-12-09 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: shaw phy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,8 +123,8 @@ msgid ""
 "the range to 500-2500 can give more range when controlling servos that use "
 "500-2500 PWM Range, such as goBILDA servos and REV Smart Robot Servo**"
 msgstr ""
-"你可以使用 ``setPwmRange()`` 将伺服范围增加到最大 500 至 2500 微秒。这将改变 SDK 映射，0 变为最小微秒，1 "
-"变为最大微秒。 **当控制使用 500-2500 PWM 范围的伺服系统（如 goBILDA 伺服系统和 REV 智能机器人伺服系统）时，将范围增加到 "
+"你可以使用 ``setPwmRange()`` 将舵机范围增加到最大 500 至 2500 微秒。这将改变 SDK 映射，0 变为最小微秒，1 "
+"变为最大微秒。 **当控制使用 500-2500 PWM 范围的舵机系统（如 goBILDA 舵机系统和 REV 智能机器人舵机系统）时，将范围增加到 "
 "500-2500 可以提供更大的范围** 。"
 
 #: ../../gm0/source/docs/software/adv-control-system/sdk-servos.rst:40
