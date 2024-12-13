@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2024
-# Shawphy, 2024
+# shaw phy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2024-12-13 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: shaw phy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:4
 msgid "Dead Wheels"
-msgstr "无动力(全向)轮"
+msgstr "无动力全向轮(惰轮)"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:6
 msgid ""
@@ -50,7 +50,7 @@ msgstr "术语"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:13
 msgid "Dead Wheel"
-msgstr "无动力(全向)轮"
+msgstr "无动力全向轮(惰轮)"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:15
 msgid ""
@@ -259,7 +259,7 @@ msgid ""
 "encoders are very fragile, prone to scratching, and are much less tolerant "
 "to design flaws."
 msgstr ""
-"通常缺乏“REVcoders”或“recoders”， `REV通孔编码器 "
+"通简写成 “REVcoders” 或 “recoders”， `REV通孔编码器 "
 "<https://www.revrobotics.com/rev-11-1271/>`_ "
 "已迅速成为FTC社区事实上的选择。REV编码器因其相对便宜、可靠性大大提高和易用性而获得这样的声誉。通孔设计被证明是对以前光盘编码器设计的重大改进。光盘编码器非常脆弱，容易刮伤，并且对设计缺陷的容忍度要低得多。"
 
@@ -274,7 +274,7 @@ msgstr "REV 通孔编码器"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
 msgid "**Advantages:**"
-msgstr "优点："
+msgstr "**优点**:"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:87
 msgid "Through-bore design is very robust and easy to design with"
@@ -297,7 +297,7 @@ msgstr "接线简单"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:117
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:142
 msgid "**Disadvantages:**"
-msgstr "缺点："
+msgstr "**缺点**:"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:94
 msgid ""
@@ -370,7 +370,7 @@ msgstr "S4T 编码器"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
 msgid "*****Advantages:**"
-msgstr "*****优点:**"
+msgstr "**优点**:"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:115
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:139
@@ -613,11 +613,11 @@ msgstr "画廊"
 msgid "Open Odometry (REV Through Bore Encoder)"
 msgstr "开放式里程计（REV通孔编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst-1
 msgid "Exploded drawing of Open Odometry design"
 msgstr "开放式测距设计"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst-1
 msgid "Section view of Open Odometry"
 msgstr "开放式里程计的剖视视角"
 
@@ -625,7 +625,7 @@ msgstr "开放式里程计的剖视视角"
 msgid "FTC\\ |reg| Team 14310 (REV Through Bore Encoder)"
 msgstr "FTC\\ |reg| Team 14310（REV 通孔编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst-1
 msgid "14130's odometry"
 msgstr "14130 的里程测量"
 
@@ -633,7 +633,7 @@ msgstr "14130 的里程测量"
 msgid "FTC Team 8802 (REV Through Bore Encoder)"
 msgstr "FTC团队8802（REV通过孔编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst-1
 msgid "8802's odometry"
 msgstr "8802 的里程测量"
 
@@ -641,7 +641,7 @@ msgstr "8802 的里程测量"
 msgid "FTC Team 14320 (US Digital S4T)"
 msgstr "FTC团队14320（US电子 S4T编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst-1
 msgid "14320's odometry"
 msgstr "14320 的里程测量"
 
@@ -667,7 +667,7 @@ msgstr ""
 msgid "FTC Team 14481 (REV Through Bore Encoder)"
 msgstr "FTC团队14481（REV通过孔编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst-1
 msgid "14481's odometry"
 msgstr "14481 的里程测量"
 
@@ -677,7 +677,7 @@ msgstr "FTC队3658（REV通过孔编码器）"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
 msgid "Render of 3658's odometry"
-msgstr "提供3658的里程图"
+msgstr "提供3658的里程计"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
 msgid "FTC Team 3658 CAD"
@@ -695,6 +695,6 @@ msgstr "7236 的里程计剖视图"
 msgid "FTC Team 7236 CAD"
 msgstr "FTC 7236 CAD队伍"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rstNone
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst-1
 msgid "7236's odometry"
 msgstr "7236 的里程计"
