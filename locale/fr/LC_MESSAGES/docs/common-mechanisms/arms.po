@@ -5,15 +5,17 @@
 # 
 # Translators:
 # Martin Sorto-Ventura, 2023
+# Lyna Alem, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2025-03-29 04:28+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
-"Last-Translator: Martin Sorto-Ventura, 2023\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +25,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:4
 msgid "Arms"
-msgstr "Bras"
+msgstr "Bras "
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:6
 msgid ""
@@ -35,8 +37,8 @@ msgid ""
 msgstr ""
 "Les bras sont un autre moyen d'obtenir une extension au-delà de la dimension"
 " 18\" x 18\" du robot. Contrairement aux extensions linéaires, les bras "
-"nécessitent beaucoup de couple - une boîte de vitesses standard de 40:1 ou "
-"même 60:1 ne conviendra pas à la plupart des applications. Par exemple, de "
+"nécessitent un plus grand couple - une boîte de vitesses standard de 40:1 ou"
+" même 60:1 ne conviendra pas à la plupart des applications. Par exemple, de "
 "nombreuses équipes utiliseront un réducteur 256:1 pour leur moteur de "
 "rotation."
 
@@ -46,7 +48,7 @@ msgid ""
 " free from its mount."
 msgstr ""
 "Ces moteurs doivent être très bien soutenus, sinon le couple engendré risque"
-" de les faire détacher de leur support."
+" de les faire détacher de leur support. "
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:10
 msgid ""
@@ -77,12 +79,12 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:17
 msgid "Advantages"
-msgstr "Avantages"
+msgstr "Avantages "
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:19
 msgid "Single bar arms can be relatively simple to build."
 msgstr ""
-"Les bras à barre unique peuvent être relativement simples à construire."
+"Les bras à barre unique peuvent être relativement simples à construire. "
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:20
 msgid ""
@@ -90,7 +92,7 @@ msgid ""
 " are not very light."
 msgstr ""
 "Les bras peuvent être utiles dans les applications à faible charge ; "
-"cependant, la plupart des mécanismes en FTC ne sont pas très légers."
+"cependant, la plupart des mécanismes en FTC ne sont pas très légers. "
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:24
 msgid "Disadvantages"
