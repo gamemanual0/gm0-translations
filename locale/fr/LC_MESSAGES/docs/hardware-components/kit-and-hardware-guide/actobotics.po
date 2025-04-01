@@ -5,18 +5,55 @@
 # 
 # Translators:
 # Nathalie bambelle kambanck, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-04-01 16:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Nathalie bambelle kambanck, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:4
+msgid "Actobotics (Discontinued)"
+msgstr "Actobotics (abandonner)"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:6
+msgid ""
+"As of June 2023, ServoCity is `discontinuing the Actobotics line "
+"<https://www.servocity.com/blog/farewell-to-actobotics/>`_ to focus on "
+"goBILDA. We are retaining these pages as historical reference for teams that"
+" continue to have and use Actobotics parts."
+msgstr ""
+"À compter de juin 2023, ServoCity cessera la gamme Actobotics "
+"<https://www.servocity.com/blog/farewell-to-actobotics/>`_  pour se "
+"concentrer sur goBILDA. Nous conservons ces pages comme référence historique"
+" pour les équipes qui continuent de posséder et d'utiliser des pièces "
+"Actobotics."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:8
+msgid ""
+"The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is "
+"a fixed-pitch, :term:`channel-based <Channel>` building system using "
+"imperial units. Its 1.5\" :term:`c-channel <Channel>` and :term:`ball-"
+"bearing <Ball Bearing>` based motion system allows teams to iterate and "
+"build mechanisms entirely from kit parts."
+msgstr ""
+"Le kit Actobotics de ServoCity (https://www.servocity.com/actobotics) est un"
+" kit à pas fixe, basé sur les canaux<Channel>Construction de systèmes "
+"utilisant des unités impériales. Ce sont des systèmes utilisant des profilés"
+" de 1,5\" :term:`c-channel<Channel>` et :term:` des roulements à billesLe "
+"système de mouvement basé sur <Ball Bearing> permet aux équipes d'itérer et "
+"de construire des mécanismes entièrement à partir de pièces de kit."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
+msgid "Special Considerations"
+msgstr "Considérations particulières"
