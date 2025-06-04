@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-16 04:28+0000\n"
+"POT-Creation-Date: 2025-06-04 04:32+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -28,6 +28,165 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:4
 msgid "3D Printing"
 msgstr "Impression 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:7
+msgid "Kinds of 3D Printing"
+msgstr "Les sortes d'impressions 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:9
+msgid ""
+"There are a few different kinds of 3D printing. FDM (Fused Deposition "
+"Modeling) (also known as Fused Filament Fabrication) extrudes a melted "
+"filament to create a part and is the most common type and the one we'll "
+"focus on in this guide. SLA (stereolithography) and SLS (Selective Laser "
+"Sintering) are both options for 3D printing plastics, but they are generally"
+" more complex, expensive, or hold other disadvantages in FTC\\ |reg| "
+"applications. For those reasons, they are not recommended."
+msgstr ""
+"Il existe plusieurs types d'impression 3D. La FDM (modélisation par fil "
+"fondu) (également appelée fabrication de filaments fondus) consiste à "
+"extruder un filament fondu pour créer une pièce. c'est le type le plus "
+"courant et celui que nous aborderons dans ce guide. La SLA "
+"(stréréolithographie) et le SLS (frittage sélectif par laser) sont deux "
+"options pour l'impression 3D de plastique, mais elles sont généralement plus"
+" complexes, plus coûteuses FTC/ lregl. Pour ces raisons, elles ne sont pas "
+"recommandées. "
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:11
+msgid ""
+"Metal 3D printing (SLS and others) is also becoming more and more available,"
+" but is not in the scope of this guide."
+msgstr ""
+"L’impression 3D métal (SLS et autres) devient également de plus en plus "
+"disponible, mais n’entre pas dans le cadre de ce guide."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:13
+msgid ""
+"Consider checking out `the FTC docs 3D printing section <https://ftc-"
+"docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>`_, a "
+"guide for FDM 3D printing within the scope of FTC. It covers topics such as:"
+" bed adhesion, tolerances, designing for 3D printing, tuning, and hardware "
+"choices."
+msgstr ""
+"N'hésitez pas à consulter la section « Impression 3D » de la documentation "
+"FTC <https://ftc-"
+"docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>, un "
+"guide sur l'impression 3D FDM dans le cadre de la FTC. Il aborde des sujets "
+"tels que l'adhérence du plateau, les tolérances, la conception pour "
+"l'impression 3D, le réglage et le choix du matériel."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:16
+msgid "Advantages of 3D Printing"
+msgstr "Avantages de l'impression 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:18
+msgid ""
+"3D printing allows for customizable sizing and perfect optimization; for "
+"example, teams can print a spool of the exact diameter needed for optimal "
+"speed, or a belt pulley with a certain number of teeth."
+msgstr ""
+"L'impression 3D permet un dimensionnement personnalisable et une "
+"optimisation parfaite ; par exemple, les équipes peuvent imprimer une bobine"
+" du diamètre exact nécessaire pour une vitesse optimale, ou une poulie à "
+"courroie avec un certain nombre de dents."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:19
+msgid ""
+"3D printing allows teams to adapt between kits and individual parts easily, "
+"as not all kits have adaptable mounts or brackets. A good example of this "
+"are the Nexus :term:`mecanum <Mecanum Wheel>` bore adapters that teams 3D "
+"print."
+msgstr ""
+"L'impression 3D permet aux équipes de s'adapter facilement aux différents "
+"kits et pièces individuelles, car tous les kits ne disposent pas de supports"
+" ou de supports adaptables. Le Nexus :term:`mecanum en est un bon "
+"exemple.<Mecanum Wheel>` adaptateurs d'alésage que les équipes impriment en "
+"3D."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:20
+msgid ""
+"3D printing allows teams to fabricate parts that would otherwise be "
+"impossible with materials such as aluminum due to machining restrictions."
+msgstr ""
+"L’impression 3D permet aux équipes de fabriquer des pièces qui seraient "
+"autrement impossibles avec des matériaux tels que l’aluminium en raison de "
+"restrictions d’usinage."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:21
+msgid ""
+"3D printing allows teams to have customizable strain relief on wires and "
+"connections. This is a great project and well worth your time."
+msgstr ""
+"L'impression 3D permet aux équipes de personnaliser les serre-câbles sur les"
+" fils et les connexions. C'est un excellent projet qui vaut vraiment le "
+"coup."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:24
+msgid "Disadvantages of 3D Printing"
+msgstr "Inconvénients de l'impression 3D"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:26
+msgid ""
+"**If you are out of 3D printed spares at a competition, you're probably out "
+"of luck. Teams are advised to print at least one set of every single 3D "
+"printed part as spares for competition**."
+msgstr ""
+"**Si vous n'avez plus de pièces supplémentaires imprimées en 3D lors d'une "
+"compétition, vous n'avez probablement pas de chance. Il est conseillé aux "
+"équipes d'imprimer au moins un exemplaire de chaque pièce imprimée en 3D "
+"comme pièces de rechange pour la compétition**."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:27
+msgid ""
+"3D printed components are generally weaker than other materials such as "
+"aluminum. However, printing in the proper orientation can be very strong - "
+"teams have 3D printed hooks and other parts to support their FRC\\ |reg| "
+"robot (120 pounds) and FTC robots (40 pounds)."
+msgstr ""
+"Les composants imprimés en 3D sont généralement plus fragiles que d'autres "
+"matériaux comme l'aluminium. Cependant, une impression correctement orientée"
+" peut s'avérer très solide. Des équipes ont imprimé en 3D des crochets et "
+"d'autres pièces pour soutenir leurs robots FRC\\ |reg| (120 lb) et FTC (40 "
+"lb)."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:28
+msgid ""
+"3D printed parts should only be loaded in one orientation. That is, if the "
+"robot is hanging from a hook, the only load should be on the bottom face of "
+"the curved part of the hook. Try to eliminate side loads as much as possible"
+" to avoid part failure."
+msgstr ""
+"Les pièces imprimées en 3D ne doivent être chargées que dans une seule "
+"orientation. Par exemple, si le robot est suspendu à un crochet, la seule "
+"charge doit s'exercer sur la face inférieure de la partie incurvée du "
+"crochet. Essayez d'éliminer autant que possible les charges latérales afin "
+"d'éviter toute défaillance de la pièce."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:29
+msgid "The size of 3D printed parts is limited by the size of your print bed."
+msgstr ""
+"La taille des pièces imprimées en 3D est limitée par la taille de votre lit "
+"d'impression."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:30
+msgid ""
+"Large and thick prints can take a long time (overnight) to print and can run"
+" the risk of failure."
+msgstr ""
+"Les impressions de grande taille et épaisses peuvent prendre beaucoup de "
+"temps (une nuit) et risquent d'échouer."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:31
+msgid ""
+"3D printing can end up quite expensive, though filament can be found for a "
+"reasonable price on online vendors such as Amazon."
+msgstr ""
+"L'impression 3D peut s'avérer assez coûteuse, même si le filament peut être "
+"trouvé à un prix raisonnable sur des sites de vente en ligne tels qu'Amazon."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:34
+msgid "Common Filaments"
+msgstr "Filaments communs"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
 msgid "Less Common Filaments"
