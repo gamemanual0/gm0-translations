@@ -5,18 +5,182 @@
 # 
 # Translators:
 # Соня Либерман, 2025
+# mikhaillav, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-13 16:31+0000\n"
+"POT-Creation-Date: 2025-06-14 04:29+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
-"Last-Translator: Соня Либерман, 2025\n"
+"Last-Translator: mikhaillav, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:4
+msgid "Team Organization"
+msgstr "Организация команды"
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:6
+msgid ""
+"A group of individuals is nothing without structure and organization. "
+"Learning the individual strengths of each of your teammates to create robots"
+" together will turn you into a force fit to conquer even the toughest game "
+"challenges. This article covers team organization and collaboration, "
+"knowledge sharing, gracious professionalism, and fostering a safe team "
+"environment."
+msgstr ""
+"Группа людей - ничто без структуры и организации. Изучение индивидуальных "
+"сильных сторон каждого из участников команды для совместного создания "
+"роботов превратит вас в силу, способную победить даже самые сложные игровые "
+"задачи. В этой статье речь пойдет об организации и сотрудничестве в команде,"
+" обмене знаниями, благородном профессионализме и создании безопасной "
+"командной среды."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:9
+msgid "Team Structure"
+msgstr "Структура команды"
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:13
+msgid ""
+"To effectively manage these squads, you will need to set a carefully chosen "
+"leadership structure - leads should possess good delegation skills and be "
+"willing to facilitate learning experiences for those assigned to their "
+"squad. Optionally, a captain can be chosen as well to oversee squad leads."
+msgstr ""
+"Для более эффективного процесса и отслеживания работы в этих группах "
+"необходимо тщательно продумать систему управления командой - лидеры должны "
+"обладать хорошими навыками делегирования полномочий и быть готовыми "
+"содействовать обучению тех, кто входит в их группу и/или можно выбрать "
+"капитана, который будет контролировать работу всех групп."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:15
+msgid ""
+"Each individual member should decide which squad they would like to "
+"participate in, as people work better on tasks they care about! In addition,"
+" each member should be involved with outreach in some form, to get them "
+"involved in the community and teach them the importance of service. In "
+"addition, this will improve your judged presentations."
+msgstr ""
+"Каждый участник команды должен высказать, кем именно он хочет быть в "
+"команде, так как любое дело выходит намного лучше, когда оно тебе интересно!"
+" Кроме того, все должны быть вовлечены в развитие социальной жизни команды в"
+" той или иной форме, чтобы приобщиться к работе в нашем обществе, также это "
+"улучшит качество выступлений вашей команды на собеседовании."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:20
+msgid "Obtaining Knowledge"
+msgstr "Получение знаний"
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:25
+msgid "Practice over the summer."
+msgstr "Работа в летнее время"
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:27
+msgid ""
+"Summer projects are a great way to explore robot concepts and start "
+"outreach. For instance, your team could research different lift designs and "
+"create a decision matrix of strengths and weaknesses. More often than not, "
+"the designs you research will make it onto your competition robot in the "
+"upcoming season - and regardless, the mechanical techniques you learn will "
+"be helpful. Reaching out to STEM businesses before the season will help you "
+"gain insights that could be helpful for the upcoming year, and planning and "
+"implementing outreach initiatives in your community will give you a "
+"headstart for the season."
+msgstr ""
+"Летние проекты - это отличная возможность изучить новые механизмы или "
+"библиотеки для улучшения программной части робота и начать распространять "
+"свои идеи в сообществе. Например, ваша команда может изучить различные "
+"конструкции подъемных механизмов и сравнить сильные и слабые стороны каждой "
+"из них. Чаще всего изученные конструкции будут использоваться в предстоящем "
+"сезоне на соревнованиях, и в любом случае полученные знания по механике "
+"будут полезны. Обращение к STEM-компаниям до начала сезона поможет вам "
+"получить информацию, которая может пригодиться в следующем году, а "
+"планирование и реализация инициатив по распространению ваших идей и "
+"направлений даст вам преимущество перед началом сезона."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:30
+msgid "Create and utilize resources."
+msgstr "Создание и использование новых источников информации."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:37
+msgid ""
+"This is the most important knowledge-related pointer, in my opinion. Having "
+"all your members learn at least one skill outside of their expertise will go"
+" a long way towards increasing collaboration and efficiency. Programmers who"
+" CAD will be able to design and integrate their own sensor cases, reducing "
+"design team workload. Designers who know outreach will be able to write "
+"their parts and speak to their designs more effectively in judging. Outreach"
+" people who know the mechanical and software processes on their robot are "
+"more effective."
+msgstr ""
+"По нашему мнению, это самый важный пункт в мануале, связанный с получением "
+"новых знаний. Если все члены вашей команды освоят хотя бы один навык, "
+"выходящий за рамки их основной деятельности, это значительно повысит "
+"эффективность вашей командной работы. Программисты, владеющие САПР, смогут "
+"разрабатывать и интегрировать свои собственные корпуса датчиков, что снизит "
+"нагрузку на группу инженеров. Инженеры, имеющие какие-либо навыки в "
+"медиасфере, смогут эффективнее писать про свои детали и рассказывать о своих"
+" разработках на собеседовании. Ребята из медиа-команды, знающие основы "
+"механики и программирования, работают над портфолио команды намного "
+"эффективнее."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:40
+msgid "Create a training program for your recruits."
+msgstr "Создайте программу обучения для новичков."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:47
+msgid ""
+"Teams should be gracious and professional both at practice and events - "
+"stress to your members that each of them is a representative of your team. "
+"Encourage them to actively assist other teams both at events and online. "
+"Finally, keep an eye on your team and ensure everyone is getting along well "
+"and being respectful."
+msgstr ""
+"Команды должны вести себя благородно и профессионально как на тренировках, "
+"так и на мероприятиях - подчеркните своим участникам, что каждый из них "
+"является представителем вашей команды. Поощряйте их активно помогать другим "
+"командам как на соревнованиях, так и в интернете. Наконец, следите за своей "
+"командой и убедитесь, что все хорошо ладят друг с другом и уважают друг "
+"друга."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:50
+msgid "Fostering a Safe Environment"
+msgstr "Создание комфортной среды для совместной работы"
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:52
+msgid ""
+"Your team should strive to be as inclusive as possible. Ensure other members"
+" are not making homophobic, sexist, racist and/or transphobic jokes, and "
+"educate them on why they should refrain from doing so. Be actively mindful "
+"to not create a \"boys club\" culture where women are objectified and "
+"sidelined, and make sure every member feels comfortable in their position. "
+"Everyone should feel comfortable in your team environment."
+msgstr ""
+"Ваша команда должна стремиться быть максимально всесторонней. Нужно следить "
+"за тем, чтобы другие члены команды не отпускали гомофобных, сексистских, "
+"расистских и/или трансфобных шуток, и объяснять им, почему следует "
+"воздерживаться от них. Активно следите за тем, чтобы не создавать "
+"\"мальчишеский клуб\", в котором девушки объективируются и отодвигаются на "
+"второй план, и следите за тем, чтобы каждому было приятно находиться на "
+"своем месте. Каждый должен чувствовать себя комфортно в коллективе."
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:55
+msgid "Team Identity"
+msgstr "Особенности вашей команды"
+
+#: ../../gm0/source/docs/being-a-team/team-organization.rst:57
+msgid ""
+"Create a logo design for your team, and a corresponding style guide on fonts"
+" and colors to keep consistency when creating marketing materials. This will"
+" make it easier for you to design posters, flyers, t-shirts, stickers, and "
+"even branded plates for your robot!"
+msgstr ""
+"Придумайте логотип и выберите основные цвета, вашей команды и выберите ваш "
+"стиль для документации. Также мы советуем всем командам обзавестись своим "
+"мерчем: делайте свои футболки, наклейки, магниты - все что захотите!"

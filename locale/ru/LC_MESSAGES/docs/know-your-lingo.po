@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Sofiia Liberman, 2025
+# Соня Либерман, 2025
 # mikhaillav, 2025
 # 
 #, fuzzy
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 17:46+0000\n"
+"POT-Creation-Date: 2025-06-14 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: mikhaillav, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -21,3 +21,288 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:2
+msgid "Know Your Lingo"
+msgstr "Знайте ваш язык!"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:4
+msgid ""
+"Many teams may be unfamiliar with the various terms and slang that are often"
+" thrown around at competitions and meets. Here we have compiled a guide of "
+"some commonly used terms to get you up to speed."
+msgstr ""
+"Многие команды могут быть незнакомы с различными терминами и сленгом, "
+"которые часто используются на соревнованиях и встречах. Мы составили "
+"справочник некоторых часто используемых терминов, чтобы ввести вас в курс "
+"дела."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:7
+msgid "Competitions"
+msgstr "Соревнования"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:9
+msgid "Program Delivery Partner (PDP)"
+msgstr "Партнер по реализации программы (PDP)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:10
+msgid ""
+"Director or directors for events and activities in a region. Used to be "
+"referred to as the Affiliate Partner (AP)."
+msgstr ""
+"Директор или директора по проведению мероприятий в регионе. Раньше его "
+"называли реферальным партнером (AP)."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:11
+msgid "Qualifier"
+msgstr "Отборочный турнир"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:12
+msgid ""
+"Tournament with 5-6 qualifying matches and best-of-three alliance "
+"elimination matches. Judging included. Will advance to States/Regional "
+"level."
+msgstr ""
+"Турнир, состоящий из 5-6 отборочных матчей и трех матчей лучших на "
+"выбывание. Собеседования включены. Дает продвижение на уровень "
+"штата/региона."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:13
+msgid "League Meet"
+msgstr "Встреча Лиги"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:14
+msgid ""
+"Low-stress competition with matches counting towards league rank at a League"
+" Tournament. No judging."
+msgstr ""
+"Соревнование с низким уровнем стресса, матчи которого засчитываются в зачет "
+"рейтинга лиги на турнире лиги. Собеседований нет."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:15
+msgid "League Tournament"
+msgstr "Турнир лиги"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:16
+msgid ""
+"Tournament with ranked matches and alliance elimination matches for teams "
+"participating in that League. Judging included. Will advance to "
+"States/Regional level. Sometimes called a \"League Championship\"."
+msgstr ""
+"Турнир с рейтинговыми матчами и матчами на выбывание для команд, участвующих"
+" в данной лиге. Собеседования включены. Продвижение на уровень "
+"штата/региона. Иногда называется \"чемпионатом лиги\"."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:17
+msgid "Alliance"
+msgstr "Альянс"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:18
+msgid ""
+"Group of two or, in eliminations, two or three teams that compete. In "
+"elimination matches each team must play at least once."
+msgstr ""
+"Группа из двух или, в случае отборочных матчей, двух или трех команд, "
+"которые участвуют в соревнованиях. В матчах на выбывание каждая команда "
+"должна сыграть хотя бы один раз."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:19
+msgid "Ranking Points (RP)"
+msgstr "Рейтинговые очки (ranking points - RP) "
+
+#: ../../gm0/source/docs/know-your-lingo.rst:20
+msgid ""
+"Primary basis in rankings at traditional events. For the Power Play season, "
+"each team receives 2 RP for winning a qualification match, 1 for tieing, and"
+" 0 for losing."
+msgstr ""
+"Основной фактор для определения рейтинга в традиционных соревнованиях. В "
+"сезоне Power Play, к примеру, каждая команда получала 2 RP за победу в "
+"квалификационном матче, 1 - за ничью и 0 - за поражение."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:22
+msgid "TieBreaker Points (TBP)"
+msgstr "TieBreaker Points (TBP)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:22
+msgid ""
+"Secondary determinant in team rankings for traditional events, primary "
+"determinant for remote events. For the Power Play season, this is split up "
+"into two parts; TBP1 and TBP2. TBP1 is used before TBP2, and is the "
+"alliances/teams autonomous period score. TBP2 is the alliances/teams end "
+"game score. (Whether it is alliances/teams depends on if the team is at "
+"traditional events, respectively.)"
+msgstr ""
+"Вторичный фактор, определяющий рейтинг команд на традиционных соревнованиях,"
+" основной - на дистанционных. В сезоне Power Play он был разделен на две "
+"части: TBP1 и TBP2. TBP1 считается важнее TBP2 и представляет собой счет "
+"альянса/команды за автономный период. TBP2 - это счет альянса/команды в "
+"конце игры. (Принадлежность к альянсам/командам зависит от того, участвует "
+"ли команда в традиционных соревнованиях, соответственно)."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:25
+msgid "Qualification Match"
+msgstr "Квалификационный матч"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:25
+msgid ""
+"Qualifying matches (generally 5) with random alliance partners and opponents"
+" will be played to determine team rankings."
+msgstr ""
+"Для определения рейтинга команд будут сыграны отборочные матчи (обычно по 5 "
+"на каждую команду) со случайными партнерами по альянсу и соперниками."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:29
+msgid "Elimination Match"
+msgstr "Матч на выбывание"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:28
+msgid ""
+"2 alliances of 2 or 3 teams each compete in best of 3 matches to determine "
+"winning alliance. Also known as elim matches, or just elims."
+msgstr ""
+"Два альянса, состоящие из 2 или 3 команд, соревнуются в 2-3 матчей для "
+"определения альянса-победителя до двух побед."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:32
+msgid "Robot Components"
+msgstr "Составляющие робота"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:35
+msgid "DC Motor"
+msgstr "Бесколлекторный мотор"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:35
+msgid ""
+"Open-loop :term:`RS-555 series <RS-550 Series Motor>` 12 volt motors used to"
+" power mechanisms. Max of 8."
+msgstr ""
+"12-вольтовые двигатели  :term:`серии RS-555 <RS-550 Series Motor>`  с "
+"открытым контуром, используемые для приведения в действие механизмов. "
+"Максимальное количество в роботе - 8."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:38
+msgid "Servo"
+msgstr "Сервопривод"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:38
+msgid ""
+"Closed-loop :term:`servo-motors <Servo>` used for precise movement. "
+"Controlled by PWM signals. Max of 12."
+msgstr ""
+":term:`Серводвигатели <Servo>` с замкнутым контуром, используемые для "
+"точного перемещения. Управляются ШИМ-сигналами. Не более 12 штук."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:40
+msgid "Drivetrain (DT)"
+msgstr "Колесная база"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:41
+msgid "Mechanism responsible for the movement of the robot."
+msgstr "Механизм, отвечающий за движение робота."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:43
+msgid "Intake"
+msgstr "Активный захват"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:43
+msgid ""
+"Mechanism responsible for picking up game elements from the field by using "
+"rotational motion."
+msgstr ""
+"Механизм, отвечающий за захват игровых элементов с поля с помощью "
+"вращательного движения."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:45
+msgid "Claw"
+msgstr "Клешня"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:48
+msgid "Linear Extension/Slide"
+msgstr "Механизм линейного выдвижения/скольжения"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:48
+msgid ""
+"Mechanism responsible for extending parts beyond the starting configuration "
+"of the robot in a linear fashion."
+msgstr ""
+"Механизм, отвечающий за линейное выдвижение элементов за пределы начальной "
+"конфигурации робота."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:50
+msgid "Arm"
+msgstr "Манипулятор"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:51
+msgid ""
+"Mechanism responsible for extending the reach of the robot through "
+"rotational motion or multi-axis movement."
+msgstr ""
+"Механизм, отвечающий за расширение зоны действия робота за счет вращательных"
+" или многоосевых движений."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:56
+msgid "REV Expansion Hub"
+msgstr "REV Expansion Hub"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:53
+msgid ""
+"Hardware controller for the robot, connected to :term:`Robot Controller` "
+"phone. Controls 4 motor and encoders, 6 servos, and various sensors via "
+"digital, analog, and I2C ports. Maximum of 2 hubs."
+msgstr ""
+"Электроника для управления роботом подключаемый к :term:`Robot Controller` ."
+" Управляет 4 моторами и энкодерами, 6 сервоприводами и различными датчиками "
+"через цифровые, аналоговые и I2C-порты. Максимум в роботе может быть 2 "
+"Expansion Hub."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:61
+msgid "REV Control Hub"
+msgstr "REV Control Hub"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:59
+msgid ""
+"Integrated Expansion Hub + :term:`Robot Controller` phone. It serves many of"
+" the same purposes as the Expansion Hub but eliminates the need for a "
+":term:`Robot Controller` phone. 1 Expansion Hub may be used along side 1 "
+"Control Hub."
+msgstr ""
+"Совмещение Expansion Hub и :term:`Robot Controller` . Он выполняет те же "
+"функции, что и Expansion Hub, но не требует использования Robot Controller. "
+"1 Control Hub может использоваться вместе с только 1 Expansion Hub."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:64
+msgid "Driver Station (DS)"
+msgstr "Driver Station (DS)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:64
+msgid ""
+"Android phone connected to the gamepad controller. Drivers interact with the"
+" DS phone to start/stop robot."
+msgstr ""
+"Android-телефон подключенный к геймпаду. Операторы взаимодействуют с "
+"телефоном DS для запуска/остановки робота."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:67
+msgid "Robot Controller"
+msgstr "Robot Controller (RC)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:67
+msgid ""
+"Android phone connected to the Expansion Hub. Connects to DS phone via WiFi-"
+"Direct."
+msgstr ""
+"Android-телефон, подключенный к Expansion Hub. Подключается к Driver Station"
+" через WiFi-Direct."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:72
+msgid "Gamepad Controller"
+msgstr "Геймпад"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:70
+msgid ""
+"An Xbox or PS4 style controller which the driver uses to control the robot "
+"during driver-control period. Maximum of 2."
+msgstr ""
+"Геймпад Xbox или PS4, с помощью которого оператор управляет роботом в "
+"управляемом Периоде. Максимум 2 на 1 команду в матче."
