@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 04:29+0000\n"
+"POT-Creation-Date: 2025-06-16 16:32+0000\n"
 "PO-Revision-Date: 2022-08-15 03:16+0000\n"
 "Last-Translator: mikhaillav, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../gm0/source/index.rst:105
 msgid "Game Manual 0 Table of Contents"
-msgstr "Содержание |gm0|"
+msgstr "Содержание Game Manual 0"
 
 #: ../../gm0/source/index.rst:4
 msgid "Index"
@@ -101,6 +101,10 @@ msgstr ""
 "захваты и одометрию. Также рассматриваются некоторые конкретные рекомендации"
 " по улучшениям при проектировании и передаче мощности."
 
+#: ../../gm0/source/index.rst:61
+msgid "Custom Manufacturing"
+msgstr "Кастомное производство"
+
 #: ../../gm0/source/index.rst:63
 msgid ""
 "Covers which materials are appropriate to use when and specifics to 3D "
@@ -108,6 +112,10 @@ msgid ""
 msgstr ""
 "Рассказывается о том, какие материалы целесообразно использовать в тех или "
 "иных случаях, а также о специфике 3D-печати и механической обработки."
+
+#: ../../gm0/source/index.rst:69
+msgid "Electronics and Motion Components"
+msgstr "Электроника и компоненты движения"
 
 #: ../../gm0/source/index.rst:71
 msgid "Covers wiring, the control system, motors, servos, and sensors."
