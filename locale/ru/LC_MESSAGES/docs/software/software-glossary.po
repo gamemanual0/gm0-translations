@@ -20,3 +20,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:5
+msgid "Disconnect"
+msgstr "Отключение"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:9
+msgid ""
+"Generally, most DCs are caused by improper wiring, so wire stress relief is "
+"encouraged for all teams (:term:`USB Retention Mount`). They can also be "
+"caused by WiFi disconnects, or an ESD (electrostatic discharge) shock to the"
+" electronics."
+msgstr ""
+"В основном большинство отключений вызываются неправильной проводкой, поэтому"
+" всем командам рекомендуется использовать средства защиты проводов от "
+"натяжения (:term:USB Retention Mount). Также отключения могут быть вызваны "
+"потерей Wi-Fi-соединения или электростатическим разрядом (ESD), "
+"воздействующим на электронику."
