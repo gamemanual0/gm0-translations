@@ -5,15 +5,16 @@
 # 
 # Translators:
 # wwsk2008sq, 2024
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-29 21:29+0000\n"
+"POT-Creation-Date: 2025-08-02 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: wwsk2008sq, 2024\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,8 +48,8 @@ msgid ""
 "``caption : value``. These lines are keyed, so adding a secondary "
 "``addData()`` with the same caption will override the value set."
 msgstr ""
-"有两种主要方法用于向遥测中添加内容。`addData()`` 接受两个参数，一个是标题字符串，另一个是可以是任何对象的值。然后会以 ``caption "
-": value`` 的格式打印在手机屏幕上。这些行都是键控的，因此添加具有相同标题的第二个 ``adData()`` 会覆盖所设置的值。"
+"有两种主要方法用于向遥测中添加内容。``addData()`` 接受两个参数，一个是标题字符串，另一个是可以是任何对象的值。然后会以 ``caption"
+" : value`` 的格式打印在手机屏幕上。这些行都是键控的，因此添加具有相同标题的第二个 ``adData()`` 会覆盖所设置的值。"
 
 #: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:16
 msgid ""
@@ -56,7 +57,7 @@ msgid ""
 " can be used to add a line with no parameters, or can take a single string "
 "to add as a line."
 msgstr ""
-"第二个用于向遥测添加内容的方法是 ``addLine()``。Add line 可以用来添加一行而不带参数，也可以使用单个字符串来添加一行。"
+"第二个用于向遥测添加内容的方法是 ``addLine()`` 。Add line 可以用来添加一行而不带参数，也可以使用单个字符串来添加一行。"
 
 #: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:23
 msgid "Updating Telemetry"
@@ -70,9 +71,9 @@ msgid ""
 "the phone screen. Note that ``OpMode`` will call ``telemetry.update()`` "
 "automatically once per call of its ``loop``."
 msgstr ""
-"一旦添加了所有遥测项目（通常是在 opmode 循环的末尾），就必须调用 "
-"``telemetry.update()``。调用该方法可将数值推送到手机，因此没有该方法，遥测信息将不会显示在手机屏幕上。请注意，``OpMode``"
-" 会在每次调用其``loop``时自动调用一次``telemetry.update()``。"
+"一旦添加了所有遥测项目（通常是在 opmode 循环的末尾），就必须调用 ``telemetry.update()`` "
+"。调用该方法可将数值推送到手机，因此没有该方法，遥测信息将不会显示在手机屏幕上。请注意，``OpMode`` "
+"会在每次调用其``loop``时自动调用一次 ``telemetry.update()`` 。"
 
 #: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:27
 msgid ""
@@ -83,5 +84,5 @@ msgid ""
 " SDK will wait between sending updates to the driver station."
 msgstr ""
 "默认情况下，遥测数据每 250 毫秒刷新一次。在此窗口期间对 ``telemetry.update()`` 的任何调用都将被保存，如果在 250 "
-"毫秒过后再次调用 update() 会被覆盖。`setMsTransmissionInterval()`` 可用来更改 SDK "
+"毫秒过后再次调用 update() 会被覆盖。``setMsTransmissionInterval()`` 可用来更改 SDK "
 "向驱动站发送更新的等待时间。"

@@ -5,15 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 16:16+0000\n"
+"POT-Creation-Date: 2025-08-02 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,13 +24,13 @@ msgstr ""
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:4
 msgid "Lynx Module"
-msgstr "Lynx模块"
+msgstr "Lynx 模块"
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:6
 msgid ""
 "The Lynx Module is an object that represents the Control Hub and Expansion "
 "Hub. One Lynx Module object is created per connected hub."
-msgstr "Lynx模块是一个代表控制中心和扩展中心的对象。每个连接的中心创建一个Lynx模块对象。"
+msgstr "Lynx 模块是一个代表 Control Hub 和 Expansion Hub 的对象。每个连接的 hub 创建一个Lynx模块对象。"
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:9
 msgid "General Explanation"
@@ -46,8 +47,9 @@ msgid ""
 "Hub connected to the phone via USB will have ``isMaster()`` set to true, and"
 " the hub connected over RS-485 will have it set to false."
 msgstr ""
-"可以使用hardwareMap.getAll(LynxModule.class)；获取连接的Lynx模块对象列表。Control "
-"Hub或Expansion Hub通过USB连接到手机将isMaster()设置为true，通过RS-485连接的集线器将其设置为false。"
+"可以使用 ``hardwareMap.getAll(LynxModule.class);`` 获取连接的 Lynx 模块对象列表。Control Hub"
+"  或 Expansion Hub 通过USB连接到手机将 ``isMaster()`` 设置为 true ，通过 RS-485 "
+"连接的集线器将其设置为false。"
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:17
 msgid "LED"
@@ -59,11 +61,12 @@ msgid ""
 "``setConstant()`` sets a constant color to the LED, and ``setPattern()`` "
 "allows the user to define a pattern of colors for the REV hub to follow."
 msgstr ""
-"REV中心的LED可以使用setConstant()或setPattern()设置。setConstant()为LED设置一个恒定的颜色，setPattern()允许用户定义REV中心遵循的颜色模式。"
+"REV hub 的 LED 可以使用 ``setConstant()`` 或 ``setPattern()`` 设置。``setConstant()``"
+" 为LED设置一个恒定的颜色， ``setPattern()`` 允许用户定义 REV hub 遵循的颜色模式。"
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:22
 msgid "Power"
-msgstr "电能"
+msgstr "电源"
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:24
 msgid ""
@@ -74,7 +77,9 @@ msgid ""
 "measured using ``getInputVoltage()``, which returns the battery voltage in "
 "the specified units."
 msgstr ""
-"REV集线器拉动的总电流可以使用getCurrent()测量。这是指定单位12V输入的电流拉动，因此它包括连接到集线器的所有内容以及集线器本身。此外，扩展集线器的输入电压可以使用getInputVoltage()测量，它返回指定单位的电池电压。"
+"REV hub上的总电流可以使用 ``getCurrent()`` "
+"测量。这是指定单位12V输入的电流，因此它包括连接到集线器的所有内容以及集线器本身。此外，expansion hub 的输入电压可以使用 "
+"``getInputVoltage()`` 测量，它返回指定单位的电池电压。"
 
 #: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:27
 msgid "Bulk Reads"
@@ -84,4 +89,6 @@ msgstr "批量读取"
 msgid ""
 "Bulk reads can also be managed through the lynx module object. See "
 ":doc:`/docs/software/tutorials/bulk-reads` for more information on this."
-msgstr "批量读取也可以通过lynx模块对象进行管理。有关详细信息，请参阅批量读取。"
+msgstr ""
+"批量读取也可以通过lynx模块对象进行管理。有关详细信息，请参阅 :doc:`/docs/software/tutorials/bulk-reads` "
+"。"

@@ -6,16 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # DomnickJYH, 2023
-# Shawphy, 2024
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 16:16+0000\n"
+"POT-Creation-Date: 2025-08-02 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -240,7 +240,7 @@ msgstr "舵机"
 msgid ""
 "After instantiating a ``Servo``, there are two main functions that can be "
 "called: ``setPosition()`` and ``getPosition()``. ::"
-msgstr "在实例化 ``Servo`` 后，可以调用两个主要函数：``setPosition()`` 和``getPosition()`` ::"
+msgstr "在实例化 ``Servo`` 后，可以调用两个主要函数： ``setPosition()`` 和 ``getPosition()`` ::"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:99
 msgid ""
@@ -278,8 +278,8 @@ msgid ""
 "passing it 1 makes it go forward at full speed, passing it -1 makes it go "
 "backwards at full speed, and everything in between. ::"
 msgstr ""
-"CRServo 有一个主要方法： ``setPower()`` 。其工作原理与 ``DcMotor`` 的 ``setPower()``非常相似，即传入"
-" 0 会使其停止，传入 1 会使其全速前进，传入 -1 会使其全速后退，以及介于两者之间的所有情况。::"
+"CRServo 有一个主要方法： ``setPower()`` 。其工作原理与 ``DcMotor`` 的 ``setPower()`` "
+"非常相似，即传入 0 会使其停止，传入 1 会使其全速前进，传入 -1 会使其全速后退，以及介于两者之间的所有情况。 ::"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
 msgid "Digital IO"
@@ -292,7 +292,7 @@ msgid ""
 "state of the port (only works in INPUT mode), and ``setState()`` sets the "
 "state of the port (only works in OUTPUT mode)"
 msgstr ""
-"数字C形梁有几个主要方法。``setMode()`` 用于将端口设置为输出或输入端口，``getState()`` "
+"数字信号通道有几个主要方法。``setMode()`` 用于将端口设置为输出或输入端口，``getState()`` "
 "返回端口的当前状态（仅在输入模式下有效），``setState()`` 设置端口的状态（仅在输出模式下有效）。"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:123
