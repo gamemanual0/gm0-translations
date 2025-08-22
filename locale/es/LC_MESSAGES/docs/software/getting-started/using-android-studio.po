@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2025-08-22 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -283,7 +283,7 @@ msgstr ""
 "Android Studio puede parecer intimidante a primera vista, pero sólo se "
 "necesitan unas pocas funciones para utilizarlo correctamente."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Android Studio layout"
 msgstr "Diseño de Android Studio"
 
@@ -303,7 +303,7 @@ msgstr ""
 "directorios de Gradle. Navega hasta la carpeta TeamCode. En la carpeta "
 "teamcode verás un paquete :code:`org.firstinspires.ftc.teamcode`."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "TeamCode > src > main > java > org.firstinspires.ftc.teamcode"
 msgstr ""
 "TeamCode &gt; src &gt; main &gt; java &gt; org.firstinspires.ftc.teamcode"
@@ -318,7 +318,7 @@ msgstr ""
 "Java, haga clic con el botón derecho del ratón en el paquete, seleccione "
 "Nuevo y, a continuación, elija \"Clase Java\"."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "New > Java Class"
 msgstr "Nuevo > Clase de Java"
 
@@ -345,7 +345,7 @@ msgstr ""
 "para el terminal local y logcat. Son herramientas útiles para trabajar con "
 "tu programa."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Terminal and logcat tabs near the bottom left"
 msgstr "Pestañas terminal y logcat en la parte inferior izquierda"
 
@@ -382,7 +382,7 @@ msgstr ""
 "reproducción situado en la parte superior derecha de la ventana de la "
 "aplicación."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Play button next to device dropdown"
 msgstr "Botón de reproducción junto al menú desplegable de dispositivos"
 
@@ -447,14 +447,6 @@ msgstr ""
 "Desplegando código de forma inalámbrica <https://docs.revrobotics.com/duo-"
 "control/programming/android-studio-using-wireless-adb>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:158
-msgid ""
-"If you're still stuck you can ask for help in the `FTC\\ |reg| Discord "
-"<https://discord.com/invite/first-tech-challenge>`_."
-msgstr ""
-"Si sigues atascado puedes pedir ayuda en el Discord de FTC: `FTC\\ |reg| "
-"Discord <https://discord.com/invite/first-tech-challenge>`_."
-
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:161
 msgid "Gradle"
 msgstr "Gradle"
@@ -490,7 +482,7 @@ msgstr ""
 "Puedes reconstruir tu proyecto fácilmente con el desplegable de "
 "construcción."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "The build dropdown at the top of the screen"
 msgstr ""
 "El menú desplegable de construcción en la parte superior de la pantalla"
@@ -659,21 +651,10 @@ msgstr ""
 "continuación, selecciona la aplicación de la que quieres ver los registros. "
 "La ventana debería tener este aspecto."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "A selected device and app with the error messages"
 msgstr ""
 "Un dispositivo y una aplicación seleccionados con los mensajes de error"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:261
-msgid ""
-"If you have an issue you don't understand, you can take a screenshot of the "
-"log or select and copy the error and ask a question in the `FTC discord "
-"<https://discord.com/invite/first-tech-challenge>`_."
-msgstr ""
-"Si tienes un problema que no entiendes, puedes hacer una captura de pantalla"
-" del registro o seleccionar y copiar el error y hacer una pregunta en el "
-"Discord de FTC: `FTC discord <https://discord.com/invite/first-tech-"
-"challenge>`_."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:264
 msgid "Wireless Communication"
@@ -915,7 +896,7 @@ msgstr ""
 "Puedes encontrar el gestor de SDK en la esquina superior derecha de tu "
 "Android Studio."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "A box with a down-facing arrow"
 msgstr "Una caja con una flecha hacia abajo"
 

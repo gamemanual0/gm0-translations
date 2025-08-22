@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-29 21:29+0000\n"
+"POT-Creation-Date: 2025-08-22 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Kentaro Wilson Tanaka, 2024\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/gamemanual0/teams/148648/ja_JP/)\n"
@@ -207,14 +207,6 @@ msgid ""
 msgstr ""
 "SolidWorksの使用経験があるメンターやチームメンバーがいる場合、または学校でSolidWorksを教えるエンジニアリングクラスがある場合は、SolidWorksが最適のオプションだろう。"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:58
-msgid ""
-"`Inventor <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
-msgstr ""
-"`Inventor <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
-
 #: ../../gm0/source/docs/design-skills/cad.rst:60
 msgid ""
 "Autodesk's industrial CAD offering. It offers many similar features to "
@@ -244,14 +236,6 @@ msgid ""
 "best choice."
 msgstr ""
 "Inventorの使用経験があるメンターやチームメンバーがいる場合、または学校でInventorを使うエンジニアリングクラスがある場合は、Inventorが最適のオプションだろう。"
-
-#: ../../gm0/source/docs/design-skills/cad.rst:71
-msgid ""
-"`Fusion 360 <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
-msgstr ""
-"`Fusion 360 <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
 
 #: ../../gm0/source/docs/design-skills/cad.rst:73
 msgid ""
@@ -296,15 +280,6 @@ msgstr ""
 msgid ""
 "If one is careful to follow good design practices, Fusion is a solid option."
 msgstr "優れた設計手法に注意深く従えば、Fusion 360は堅実な選択肢だ。"
-
-#: ../../gm0/source/docs/design-skills/cad.rst:84
-msgid ""
-"`Creo (formerly known as Pro/E) "
-"<https://www.ptc.com/en/products/education/free-software/standalone-"
-"educator>`_"
-msgstr ""
-"`Creo (旧 Pro/E) <https://www.ptc.com/en/products/education/free-"
-"software/standalone-educator>`_"
 
 #: ../../gm0/source/docs/design-skills/cad.rst:86
 msgid ""
@@ -376,31 +351,7 @@ msgstr ""
 msgid "Vendor CAD Libraries"
 msgstr "ベンダーCADライブラリ"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:103
-msgid "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
-msgstr "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
-
-#: ../../gm0/source/docs/design-skills/cad.rst:104
-msgid ""
-"`REV Robotics "
-"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
-msgstr ""
-"`REV Robotics "
-"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
-
 #: ../../gm0/source/docs/design-skills/cad.rst:106
-msgid ""
-"`10650 Hazmat Robotics CAD Library "
-"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
-"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
-"Pzynwsq/folder/6578524>`_"
-msgstr ""
-"`10650 Hazmat Robotics CAD Library "
-"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
-"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
-"Pzynwsq/folder/6578524>`_"
-
-#: ../../gm0/source/docs/design-skills/cad.rst:107
 msgid ""
 "`FTC Onshape Parts Library (contains a majority of parts from most major "
 "vendors) <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_"
@@ -408,11 +359,11 @@ msgstr ""
 "`FTC Onshape Parts Library (ほとんどの主要ベンダーのパーツが含まれている) "
 "<https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:110
+#: ../../gm0/source/docs/design-skills/cad.rst:109
 msgid "File sharing"
 msgstr "ファイル共有"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:112
+#: ../../gm0/source/docs/design-skills/cad.rst:111
 msgid ""
 "Teams often have multiple members working on CAD models, and thus require a "
 "file sharing system for ensuring that each person has up-to-date files. Some"
@@ -421,17 +372,17 @@ msgstr ""
 "チームでは、複数のメンバーでCADモデルを作業することが多い。そのため、各自が最新のファイルを持つためのファイル共有システムが必要になる。ファイル共有にはGrabCAD、Box、Google"
 " Drive、Dropboxなどがおすすめだ。"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:114
+#: ../../gm0/source/docs/design-skills/cad.rst:113
 msgid ""
 "It is also a good idea that one team member work on the model at a time to "
 "prevent confusion."
 msgstr "また、混乱を防ぐために、一度に一人のチームメンバーのみがモデルの設計に取り組むようにする方が良いだろう。"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:117
+#: ../../gm0/source/docs/design-skills/cad.rst:116
 msgid "Useful Resources"
 msgstr "有用な参考資料"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:119
+#: ../../gm0/source/docs/design-skills/cad.rst:118
 msgid ""
 "More CAD resources can be found in the :ref:`CAD section of the Useful "
 "Resources page <useful-resources-cad>`."

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2025-08-22 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Bianca Carstea, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -283,7 +283,7 @@ msgstr ""
 "Android Studio poate arăta intimidant la prima vedere, însă sunt doar câteva"
 " caracteristici necesare pentru a-l folosi corect."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Android Studio layout"
 msgstr "Aspectul Android Studio"
 
@@ -303,7 +303,7 @@ msgstr ""
 "registrele. Navighează la folder-ul TeamCode, unde vei vedea un pachet "
 ":code:`org.firstinspires.ftc.teamcode`."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "TeamCode > src > main > java > org.firstinspires.ftc.teamcode"
 msgstr "TeamCode > src > main > java > org.firstinspires.ftc.teamcode"
 
@@ -316,7 +316,7 @@ msgstr ""
 "Aici este locul unde vei crea cod pentru robot. Pentru a crea o clasă nouă "
 "Java, click-dreapta pe pachet, selectează New, și apoi alege \"Java Class\"."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "New > Java Class"
 msgstr "New > Java Class"
 
@@ -343,7 +343,7 @@ msgstr ""
 "terminalul local și logcat-ul. Acestea sunt unelte folositoare pentru "
 "programul tău."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Terminal and logcat tabs near the bottom left"
 msgstr "Tab-ul terminalului și logcat-ul aproape de colțul din stânga-jos"
 
@@ -380,7 +380,7 @@ msgstr ""
 "butonul \"play\" localizat aproape de colțul din dreapta sus al ferestrei "
 "aplicației."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Play button next to device dropdown"
 msgstr "Butonul \"play\" de lângă lista de device-uri"
 
@@ -477,7 +477,7 @@ msgstr "Reconstruirea"
 msgid "You can rebuild your project easily with the build dropdown."
 msgstr "Îți poți reconstrui proiectul cu ușurință în meniul \"build\"."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "The build dropdown at the top of the screen"
 msgstr "Meniul \"build\" în partea superioară a ecranului"
 
@@ -634,7 +634,7 @@ msgstr ""
 "Apoi, selectează aplicația pentru care vrei să vizualizezi istoricul (log). "
 "Fereastra ta ar trebui să arate așa:"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "A selected device and app with the error messages"
 msgstr "Un dispozitiv selectat și aplicația cu mesajele de erori"
 
@@ -879,7 +879,7 @@ msgstr ""
 "Poți găsi administatorul SDK-ului (SDK manager) în meniul din colțul din "
 "dreapta-sus în Android Studio."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rstNone
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "A box with a down-facing arrow"
 msgstr "Un meniu cu o sageată îndreptată în jos"
 

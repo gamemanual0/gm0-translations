@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 16:16+0000\n"
+"POT-Creation-Date: 2025-08-22 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -44,22 +44,6 @@ msgstr ""
 #: ../../gm0/source/docs/useful-resources.rst:17
 msgid "General Resources"
 msgstr "Recursos generales"
-
-#: ../../gm0/source/docs/useful-resources.rst:19
-msgid ""
-"`FTC Discord <https://discord.com/invite/first-tech-"
-"challenge>`_:highlight:`*` --- The **unofficial** FTC\\ |reg| Discord server"
-" is a discussion-based community server. It is the most active FTC "
-"community, which means it generally has the most up-to-date information, and"
-" is the easiest way to get quick answers to questions. It also has a channel"
-" with direct access to vendors."
-msgstr ""
-"FTC Discord <https://discord.com/invite/first-tech-"
-"challenge>`_:highlight:`*` --- El **no oficial** servidor de Discord de "
-"FTC\\ |reg| es una comunidad basada en discusiones. Es la comunidad de FTC "
-"más activa, lo que significa que generalmente tiene la información más "
-"actualizada y es la forma más fácil de obtener respuestas rápidas a "
-"preguntas. También tiene un canal con acceso directo a proveedores."
 
 #: ../../gm0/source/docs/useful-resources.rst:21
 msgid ""
@@ -104,22 +88,6 @@ msgstr ""
 "info>`_:highlight:`*` --- Dónde encuentras la información de la temporada "
 "actual, incluyendo los Manuales del Juego."
 
-#: ../../gm0/source/docs/useful-resources.rst:29
-msgid ""
-"`FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- The official FTC "
-"blog; important updates are typically posted here."
-msgstr ""
-"FTC Blog <https://firsttechchallenge.blogspot.com/> --- El blog oficial de "
-"FTC; las actualizaciones importantes suelen publicarse aquí."
-
-#: ../../gm0/source/docs/useful-resources.rst:31
-msgid ""
-"`FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, "
-"covering the robot, competitions, and team management."
-msgstr ""
-"FTC Tutoriales <http://ftctutorials.com> --- (No oficial) Tutoriales de FTC,"
-" que cubren el robot, las competencias y la gestión del equipo."
-
 #: ../../gm0/source/docs/useful-resources.rst:33
 msgid ""
 "`FIRST Resource Library <https://www.firstinspires.org/resource-"
@@ -145,16 +113,6 @@ msgstr ""
 "<https://portfolios.hivemindrobotics.net>`_ --- Una biblioteca de "
 "portafolios de ingeniería premiados en el pasado. Creada por Polar del "
 "equipo FTC 23396 y administrada por la comunidad."
-
-#: ../../gm0/source/docs/useful-resources.rst:37
-msgid ""
-"`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/rev-"
-"duo>`_ --- Covers REV's hardware and software. The control system "
-"documentation includes an introductory FTC programming tutorial."
-msgstr ""
-"REV Robotics FTC Documentación <https://docs.revrobotics.com/docs/rev-duo>`_"
-" --- Cubre el hardware y software de REV. La documentación del sistema de "
-"control incluye un tutorial introductorio de programación FTC."
 
 #: ../../gm0/source/docs/useful-resources.rst:39
 msgid ""
@@ -236,16 +194,6 @@ msgstr ""
 "software/overview>`_ --- Registro de cuenta educativa de Autodesk. Una "
 "cuenta educativa brinda acceso tanto a Fusion 360 como a Inventor."
 
-#: ../../gm0/source/docs/useful-resources.rst:60
-msgid ""
-"`Creo Education License <https://www.ptc.com/en/products/education/free-"
-"software/standalone-educator>`_ --- Creo's education license application "
-"form."
-msgstr ""
-"Creo Education License <https://www.ptc.com/en/products/education/free-"
-"software/standalone-educator>`_ --- Formulario de solicitud de licencia "
-"educativa de Creo."
-
 #: ../../gm0/source/docs/useful-resources.rst:62
 msgid ""
 "`Onshape Education Account <https://www.onshape.com/en/education/>`_ --- "
@@ -270,21 +218,6 @@ msgstr ""
 msgid "Part Libraries"
 msgstr "Bibliotecas de partes"
 
-#: ../../gm0/source/docs/useful-resources.rst:69
-msgid ""
-"`10650 Hazmat Robotics Public CAD Library "
-"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
-"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
-"Pzynwsq/folder/6578524>`_ --- A multi-vendor part library that works across "
-"CAD software due to its use of STEP files."
-msgstr ""
-"10650 Biblioteca Pública de CAD de Robótica Hazmat "
-"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
-"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
-"Pzynwsq/folder/6578524>`_ --- Una biblioteca de piezas de múltiples "
-"proveedores que funciona en diferentes software de CAD debido a su uso de "
-"archivos STEP."
-
 #: ../../gm0/source/docs/useful-resources.rst:71
 msgid ""
 "`2901 Purple Gears Onshape Parts Library "
@@ -295,30 +228,11 @@ msgstr ""
 "<https://ftconshape.com/introduction-to-the-ftc-parts-library/> --- Una "
 "biblioteca de piezas de múltiples proveedores específicamente para Onshape."
 
-#: ../../gm0/source/docs/useful-resources.rst:73
-msgid ""
-"`REV Robotics Official CAD Library "
-"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
-" --- REV's official CAD library for its FTC parts."
-msgstr ""
-"La biblioteca CAD oficial de REV Robotics "
-"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
-" --- La biblioteca CAD oficial de REV para sus piezas FTC."
-
-#: ../../gm0/source/docs/useful-resources.rst:75
-msgid ""
-"`ServoCity Official CAD Library <https://www.servocity.com/step-files>`_ ---"
-" ServoCity's entire STEP file catalog. This includes Actobotics parts."
-msgstr ""
-"ServoCity Biblioteca CAD Oficial <https://www.servocity.com/step-files> --- "
-"Catálogo completo de archivos STEP de ServoCity. Esto incluye piezas de "
-"Actobotics."
-
-#: ../../gm0/source/docs/useful-resources.rst:78
+#: ../../gm0/source/docs/useful-resources.rst:76
 msgid "Generators"
 msgstr "Generadores"
 
-#: ../../gm0/source/docs/useful-resources.rst:80
+#: ../../gm0/source/docs/useful-resources.rst:78
 msgid ""
 "`Belt Generator "
 "<https://cad.onshape.com/documents/c163c756b5096bcd95e5692a/w/44c5f14084d55dd0388345f0/e/cf391d827826f30c60340bcc>`_"
@@ -332,7 +246,7 @@ msgstr ""
 "permite crear correas con dientes para CAD y calcular la tensión requerida "
 "para correas más complejas. Hecho por Jeremiah de FTC 10641."
 
-#: ../../gm0/source/docs/useful-resources.rst:82
+#: ../../gm0/source/docs/useful-resources.rst:80
 msgid ""
 "`HTD Pulley Generator "
 "<https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_"
@@ -346,7 +260,7 @@ msgstr ""
 "permite crear poleas personalizadas que puedes imprimir en 3D. Creado por "
 "Henopied del FTC 18255."
 
-#: ../../gm0/source/docs/useful-resources.rst:84
+#: ../../gm0/source/docs/useful-resources.rst:82
 msgid ""
 "`GT2 3mm Pulley Generator "
 "<https://cad.onshape.com/documents/a0b589f74b21e8886d697efc/w/55a240a887adfa7bff84d0b2/e/fa7ce89bdce08e7313f9580b>`_"
@@ -358,11 +272,11 @@ msgstr ""
 " --- Un generador de poleas GT2 de paso de 3 mm con muchas opciones. Esto te"
 " permite hacer poleas personalizadas que puedes imprimir en 3D."
 
-#: ../../gm0/source/docs/useful-resources.rst:87
+#: ../../gm0/source/docs/useful-resources.rst:85
 msgid "Rendering"
 msgstr "Renderización"
 
-#: ../../gm0/source/docs/useful-resources.rst:89
+#: ../../gm0/source/docs/useful-resources.rst:87
 msgid ""
 "`Blender4FTC <https://ryanhcode.gitbook.io/blender4ftc/>`_ --- A Blender "
 "addon and material library designed to make CAD rendering simple and easy, "
@@ -373,7 +287,7 @@ msgstr ""
 "renderización de CAD sea simple y fácil, al mismo tiempo que es "
 "completamente personalizable para usuarios avanzados."
 
-#: ../../gm0/source/docs/useful-resources.rst:91
+#: ../../gm0/source/docs/useful-resources.rst:89
 msgid ""
 "`FTC Rendering in Fusion 360 <https://renders360.gitbook.io/ftc-rendering-"
 "in-fusion-360/>`_ --- A guide to rendering FTC robots in Fusion 360, "
@@ -383,11 +297,11 @@ msgstr ""
 "in-fusion-360/> --- Una guía para renderizar robots FTC en Fusion 360, "
 "asumiendo poca experiencia en Fusion 360."
 
-#: ../../gm0/source/docs/useful-resources.rst:94
+#: ../../gm0/source/docs/useful-resources.rst:92
 msgid "Mechanical Design and Build"
 msgstr "Diseño y Construcción Mecánica"
 
-#: ../../gm0/source/docs/useful-resources.rst:96
+#: ../../gm0/source/docs/useful-resources.rst:94
 msgid ""
 "`Mechatronics <https://raw.githubusercontent.com/Thaddeus-"
 "Maximus/mechatronics_book/master/mechatronics.pdf>`_:highlight:`*` --- A "
@@ -403,7 +317,7 @@ msgstr ""
 "fabricación, paradigmas de fabricación, transmisión de potencia, mecanismos,"
 " principios de diseño y más."
 
-#: ../../gm0/source/docs/useful-resources.rst:98
+#: ../../gm0/source/docs/useful-resources.rst:96
 msgid ""
 "`8644 Brainstormers Tips and Tricks "
 "<https://www.youtube.com/playlist?list=PLoX10e-f5UgIWtNA3mlb_SSozS5w-eAlB>`_"
@@ -416,7 +330,7 @@ msgstr ""
 "implementaciones de varios mecanismos, engranajes y cadenas, y otros temas "
 "relacionados con robots FTC."
 
-#: ../../gm0/source/docs/useful-resources.rst:100
+#: ../../gm0/source/docs/useful-resources.rst:98
 msgid ""
 "`9794 Wizards.exe <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-"
 "wjQ/featured>`_ --- A channel containing many useful FTC videos, especially "
@@ -426,7 +340,7 @@ msgstr ""
 "wjQ/featured>`_ --- Un canal que contiene muchos videos útiles de FTC, "
 "especialmente para novatos."
 
-#: ../../gm0/source/docs/useful-resources.rst:102
+#: ../../gm0/source/docs/useful-resources.rst:100
 msgid ""
 "`COREFTC <https://www.coreftc.org/>`_ --- A complete guide for FDM 3D "
 "printing within the scope of FTC, providing answers to a lot of the basic "
@@ -439,7 +353,7 @@ msgstr ""
 " a la cama, tolerancias, diseño para impresión 3D, ajustes y opciones de "
 "hardware."
 
-#: ../../gm0/source/docs/useful-resources.rst:104
+#: ../../gm0/source/docs/useful-resources.rst:102
 msgid ""
 "`Designing Competitive FTC Robots (paid) "
 "<https://www.amazon.com/dp/B09DN3999Y>`_ --- This book describes the overall"
@@ -451,7 +365,7 @@ msgstr ""
 "general para diseñar un robot, incluyendo estrategia, lluvia de ideas y "
 "prototipado."
 
-#: ../../gm0/source/docs/useful-resources.rst:106
+#: ../../gm0/source/docs/useful-resources.rst:104
 msgid ""
 "`Fastener Guide <https://www.boltdepot.com/fastener-information/printable-"
 "tools/printable-fastener-tools.pdf>`_ --- A guide explaining the different "
@@ -464,7 +378,7 @@ msgstr ""
 "incluye impresiones con dibujos de varios sujetadores a escala para ayudar a"
 " identificarlos."
 
-#: ../../gm0/source/docs/useful-resources.rst:108
+#: ../../gm0/source/docs/useful-resources.rst:106
 msgid ""
 "`FIRST Robot Building Resources <https://www.firstinspires.org/resource-"
 "library/ftc/robot-building-resources>`_ --- A collection of official *FIRST*"
@@ -475,7 +389,7 @@ msgstr ""
 "oficiales de diseño y construcción de *FIRST*, incluyendo guías de "
 "construcción de TETRIX/REV."
 
-#: ../../gm0/source/docs/useful-resources.rst:110
+#: ../../gm0/source/docs/useful-resources.rst:108
 msgid ""
 "`goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- "
 "Documentation covering how to use goBILDA together with TETRIX."
@@ -483,7 +397,7 @@ msgstr ""
 "goBILDA con TETRIX <https://gobildatetrix.blogspot.com> --- Documentación "
 "que cubre cómo utilizar goBILDA junto con TETRIX."
 
-#: ../../gm0/source/docs/useful-resources.rst:112
+#: ../../gm0/source/docs/useful-resources.rst:110
 msgid ""
 "`NASA RAP Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-"
 "guide/>`_ --- A guide for competitive robotics covering topics such as "
@@ -495,7 +409,7 @@ msgstr ""
 "fabricación, estilos de diseño, transmisión de potencia, diseño de "
 "mecanismos y más."
 
-#: ../../gm0/source/docs/useful-resources.rst:114
+#: ../../gm0/source/docs/useful-resources.rst:112
 msgid ""
 "`The Unofficial FRC Mechanism Encyclopedia "
 "<https://www.projectb.net.au/resources/robot-mechanisms/>`_ --- A page "
@@ -507,11 +421,11 @@ msgstr ""
 " contiene ejemplos de video de varios mecanismos FRC y FTC categorizados por"
 " tipo."
 
-#: ../../gm0/source/docs/useful-resources.rst:117
+#: ../../gm0/source/docs/useful-resources.rst:115
 msgid "Power Transmission"
 msgstr "Transmisión de potencia"
 
-#: ../../gm0/source/docs/useful-resources.rst:119
+#: ../../gm0/source/docs/useful-resources.rst:117
 msgid ""
 "`SDP-SI Timing Belt and Pulley Handbook <https://www.sdp-"
 "si.com/PDFS/Technical-Section-Timing.pdf>`_:highlight:`*` --- A detailed "
@@ -522,7 +436,7 @@ msgstr ""
 "Section-Timing.pdf>`_:highlight:`*` --- Un manual detallado sobre correas y "
 "poleas. Algunas de las cosas mencionadas también se aplican a las cadenas."
 
-#: ../../gm0/source/docs/useful-resources.rst:121
+#: ../../gm0/source/docs/useful-resources.rst:119
 msgid ""
 "`SDP-SI Timing Belt Drive Design Guide <https://www.sdp-si.com/Belt-"
 "Drive/Designing-a-miniature-belt-drive.pdf>`_:highlight:`*` --- A one-page "
@@ -533,7 +447,7 @@ msgstr ""
 "Una guía de una página para diseñar sistemas de transmisión por correa y "
 "polea."
 
-#: ../../gm0/source/docs/useful-resources.rst:123
+#: ../../gm0/source/docs/useful-resources.rst:121
 msgid ""
 "`Gears Educational Systems Guide to Chain Drive Systems "
 "<https://web.archive.org/web/20191020193018/http://gearseds.com/documentation/deb%20holmes/2.5_Chain_drive_systems.pdf>`_"
@@ -544,7 +458,7 @@ msgstr ""
 " --- Una guía sobre cadenas de rodillos, que incluye algunas ecuaciones "
 "útiles."
 
-#: ../../gm0/source/docs/useful-resources.rst:125
+#: ../../gm0/source/docs/useful-resources.rst:123
 msgid ""
 "`Gear Efficiency Comparisons <https://www.meadinfo.org/2008/11/gear-"
 "efficiency-spur-helical-bevel-worm.html>`_ --- A comparison between "
@@ -555,7 +469,7 @@ msgstr ""
 "worm.html> --- Una comparación entre diferentes tipos de engranajes (rectos,"
 " cónicos, de tornillo sin fin, etc)."
 
-#: ../../gm0/source/docs/useful-resources.rst:127
+#: ../../gm0/source/docs/useful-resources.rst:125
 msgid ""
 "`How Gears Work <https://ciechanow.ski/gears/>`_ --- An interactive visual "
 "guide to how gears work."
@@ -563,7 +477,7 @@ msgstr ""
 "Cómo funcionan los engranajes <https://ciechanow.ski/gears/> --- Una guía "
 "visual interactiva sobre cómo funcionan los engranajes."
 
-#: ../../gm0/source/docs/useful-resources.rst:129
+#: ../../gm0/source/docs/useful-resources.rst:127
 msgid ""
 "`KHK Introduction to Gears "
 "<https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_ "
@@ -573,11 +487,11 @@ msgstr ""
 "<https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf> "
 "--- Un manual que cubre los fundamentos sobre la mecánica de los engranajes."
 
-#: ../../gm0/source/docs/useful-resources.rst:132
+#: ../../gm0/source/docs/useful-resources.rst:130
 msgid "Calculators"
 msgstr "Calculadoras"
 
-#: ../../gm0/source/docs/useful-resources.rst:134
+#: ../../gm0/source/docs/useful-resources.rst:132
 msgid ""
 "`ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-"
 "drivetrain-simulator-v2020/369188>`_ --- A drivetrain calculator that puts "
@@ -595,7 +509,7 @@ msgstr ""
 " estimado de sprint, el voltaje mínimo del sistema y el voltaje máximo "
 "mientras el chasis está a máxima velocidad."
 
-#: ../../gm0/source/docs/useful-resources.rst:136
+#: ../../gm0/source/docs/useful-resources.rst:134
 msgid ""
 "`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-"
 "url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator."
@@ -610,23 +524,13 @@ msgstr ""
 
 #: ../../gm0/source/docs/useful-resources.rst:138
 msgid ""
-"`Pulley Center-to-Center Calculator <https://sdp-"
-"si.com/eStore/CenterDistanceDesigner>`_ --- A fully featured belt pulley "
-"center-to-center distance calculator."
-msgstr ""
-"Calculadora de distancia entre centros de poleas <https://sdp-"
-"si.com/eStore/CenterDistanceDesigner>`_ --- Una calculadora de distancia "
-"entre centros de poleas con todas las funciones."
-
-#: ../../gm0/source/docs/useful-resources.rst:140
-msgid ""
 "`ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design "
 "calculator, currently in alpha, which provides sharable links."
 msgstr ""
 "ReCalc <https://reca.lc/> --- Una calculadora de diseño mecánico enfocada en"
 " la colaboración, actualmente en alfa, que proporciona enlaces compartibles."
 
-#: ../../gm0/source/docs/useful-resources.rst:142
+#: ../../gm0/source/docs/useful-resources.rst:140
 msgid ""
 "`Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical "
 "design calculator which covers a wide variety of mechanisms, while also "
@@ -638,11 +542,11 @@ msgstr ""
 " que proporciona algunas utilidades como el dimensionamiento de correas, una"
 " calculadora de trayectorias y más."
 
-#: ../../gm0/source/docs/useful-resources.rst:145
+#: ../../gm0/source/docs/useful-resources.rst:143
 msgid "Programming"
 msgstr "Programación"
 
-#: ../../gm0/source/docs/useful-resources.rst:147
+#: ../../gm0/source/docs/useful-resources.rst:145
 msgid ""
 "`Learn Java for FTC "
 "<https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`"
@@ -654,7 +558,7 @@ msgstr ""
 " --- Una introducción a la programación de FTC, asumiendo que no se tiene "
 "conocimiento previo de Java."
 
-#: ../../gm0/source/docs/useful-resources.rst:149
+#: ../../gm0/source/docs/useful-resources.rst:147
 msgid ""
 "`FTC Robot Controller Repository <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. "
@@ -668,7 +572,7 @@ msgstr ""
 "Challenge/FtcRobotController/wiki/>`_ y los `JavaDocs "
 "<https://javadoc.io/doc/org.firstinspires.ftc>`_."
 
-#: ../../gm0/source/docs/useful-resources.rst:151
+#: ../../gm0/source/docs/useful-resources.rst:149
 msgid ""
 "`REV's Introduction to Programming <https://docs.revrobotics.com/duo-"
 "control/programming/hello-robot-introduction-to-programming>`_:highlight:`*`"
@@ -682,7 +586,7 @@ msgstr ""
 "programación en Blocks como en Java. Aquí también se encuentra el resto de "
 "la documentación de REV para el sistema de control."
 
-#: ../../gm0/source/docs/useful-resources.rst:153
+#: ../../gm0/source/docs/useful-resources.rst:151
 msgid ""
 "`Controls Engineering in the FIRST Robotics Competition "
 "<https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ --- A "
@@ -693,7 +597,7 @@ msgstr ""
 "libro que introduce a los estudiantes al campo más amplio de la teoría de "
 "control."
 
-#: ../../gm0/source/docs/useful-resources.rst:155
+#: ../../gm0/source/docs/useful-resources.rst:153
 msgid ""
 "`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- A guide to control theory "
 "created by FTC #19376 Thermal Equilibrium."
@@ -701,7 +605,7 @@ msgstr ""
 "`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- Una guía de teoría de "
 "control creada por FTC #19376 Thermal Equilibrium."
 
-#: ../../gm0/source/docs/useful-resources.rst:157
+#: ../../gm0/source/docs/useful-resources.rst:155
 msgid ""
 "`FIRST Programming Resources <https://www.firstinspires.org/resource-"
 "library/ftc/technology-information-and-resources>`_ --- A collection of "
@@ -713,7 +617,7 @@ msgstr ""
 "recursos oficiales de programación de *FIRST*, que incluye introducciones a "
 "cada herramienta de programación."
 
-#: ../../gm0/source/docs/useful-resources.rst:159
+#: ../../gm0/source/docs/useful-resources.rst:157
 msgid ""
 "`FRC 4613 Software Workshops "
 "<https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ --- FRC "
@@ -727,7 +631,7 @@ msgstr ""
 " Java y programación FTC. Va desde lo más básico de los datos hasta "
 "conceptos más complejos como la Polimorfismo y las Interfaces Funcionales."
 
-#: ../../gm0/source/docs/useful-resources.rst:161
+#: ../../gm0/source/docs/useful-resources.rst:159
 msgid ""
 "`Intro to Control Theory <https://blog.wesleyac.com/posts/intro-to-control-"
 "part-zero-whats-this>`_ --- A series of blog posts about control theory."
@@ -736,11 +640,11 @@ msgstr ""
 "control-part-zero-whats-this>`_ --- Una serie de publicaciones de blog sobre"
 " teoría de control."
 
-#: ../../gm0/source/docs/useful-resources.rst:164
+#: ../../gm0/source/docs/useful-resources.rst:162
 msgid "Libraries"
 msgstr "Bibliotecas"
 
-#: ../../gm0/source/docs/useful-resources.rst:166
+#: ../../gm0/source/docs/useful-resources.rst:164
 msgid ""
 "`Easy Open CV <https://github.com/OpenFTC/EasyOpenCV>`_ --- A "
 "straightforward way to use openCV on an FTC robot. With this library, you "
@@ -752,7 +656,7 @@ msgstr ""
 "básico a ejecutar un ejemplo de openCV OpMode, ya sea con una cámara interna"
 " o externa, ¡en solo unos minutos!"
 
-#: ../../gm0/source/docs/useful-resources.rst:168
+#: ../../gm0/source/docs/useful-resources.rst:166
 msgid ""
 "`FTC Dashboard <https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC "
 "Dashboard is a websocket-based React dashboard designed for FTC. It is very "
@@ -766,7 +670,7 @@ msgstr ""
 "mostrar y graficar telemetría en vivo, así como ajustar variables de "
 "configuración en tiempo real mientras se ejecutan los opmodes."
 
-#: ../../gm0/source/docs/useful-resources.rst:170
+#: ../../gm0/source/docs/useful-resources.rst:168
 msgid ""
 "`FTCLib <https://github.com/FTCLib/FTCLib>`_ --- A fairly comprehensive FTC "
 "library, notably providing a command-based programming paradigm and vision "
@@ -776,7 +680,7 @@ msgstr ""
 " completa, que proporciona notablemente un paradigma de programación basado "
 "en comandos y canalizaciones de visión."
 
-#: ../../gm0/source/docs/useful-resources.rst:172
+#: ../../gm0/source/docs/useful-resources.rst:170
 msgid ""
 "`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner"
 " is a motion planning library. Designed primarily for autonomous robotic "
@@ -794,11 +698,11 @@ msgstr ""
 "trayectorias más precisas y avanzadas. También consulta `Aprende Road Runner"
 " <https://www.learnroadrunner.com/>`_, una guía para configurar Road Runner."
 
-#: ../../gm0/source/docs/useful-resources.rst:175
+#: ../../gm0/source/docs/useful-resources.rst:173
 msgid "Electronics"
 msgstr "Electrónica"
 
-#: ../../gm0/source/docs/useful-resources.rst:177
+#: ../../gm0/source/docs/useful-resources.rst:175
 msgid ""
 "`Robot Wiring Guide "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
@@ -810,7 +714,7 @@ msgstr ""
 "wiring-guide.pdf>`_:highlight:`*` --- *FIRST* guía para el cableado de "
 "robots FTC, incluyendo opciones de mitigación de ESD."
 
-#: ../../gm0/source/docs/useful-resources.rst:179
+#: ../../gm0/source/docs/useful-resources.rst:177
 msgid ""
 "`An Analysis of ESD Mitigation for the FIRST Tech Challenge "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
@@ -826,11 +730,11 @@ msgstr ""
 "robots se desconecten. El documento tiene excelentes recomendaciones sobre "
 "qué hacer para ayudar a mitigar estos problemas en su conclusión."
 
-#: ../../gm0/source/docs/useful-resources.rst:182
+#: ../../gm0/source/docs/useful-resources.rst:180
 msgid "Team/Event Results"
 msgstr "Resultados del equipo/evento"
 
-#: ../../gm0/source/docs/useful-resources.rst:184
+#: ../../gm0/source/docs/useful-resources.rst:182
 msgid ""
 "`FTC Events <https://ftc-events.firstinspires.org/>`_ --- Official *FIRST* "
 "team and event result database for FTC."
@@ -838,7 +742,7 @@ msgstr ""
 "FTC Eventos <https://ftc-events.firstinspires.org/> --- Base de datos "
 "oficial de resultados de equipos y eventos de *FIRST* para FTC."
 
-#: ../../gm0/source/docs/useful-resources.rst:186
+#: ../../gm0/source/docs/useful-resources.rst:184
 msgid ""
 "`FTC Scout <https://ftcscout.org>`_ --- A community FTC Events frontend with"
 " more features and a more slick UI."
@@ -846,7 +750,7 @@ msgstr ""
 "FTC Scout <https://ftcscout.org> --- Una interfaz de usuario más elegante y "
 "con más características para los eventos de la comunidad FTC."
 
-#: ../../gm0/source/docs/useful-resources.rst:188
+#: ../../gm0/source/docs/useful-resources.rst:186
 msgid ""
 "`The Orange Alliance <https://theorangealliance.org/>`_ --- A community-run "
 "team and event result database, primarily useful for its more comprehensive "

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-07 04:16+0000\n"
+"POT-Creation-Date: 2025-08-22 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Anthonella Contla, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -258,14 +258,6 @@ msgstr ""
 " o una clase de ingeniería en su escuela que enseñe SolidWorks, será su "
 "mejor opción."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:58
-msgid ""
-"`Inventor <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
-msgstr ""
-"`Inventor <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
-
 #: ../../gm0/source/docs/design-skills/cad.rst:60
 msgid ""
 "Autodesk's industrial CAD offering. It offers many similar features to "
@@ -304,14 +296,6 @@ msgstr ""
 "Si tienes mentores o miembros del equipo con experiencia previa en Inventor "
 "o una clase de ingeniería en tu escuela que enseñe Inventor, será tu mejor "
 "opción."
-
-#: ../../gm0/source/docs/design-skills/cad.rst:71
-msgid ""
-"`Fusion 360 <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
-msgstr ""
-"`Fusion 360 <https://www.autodesk.com/education/edu-"
-"software/overview?sorting=featured&page=1>`_"
 
 #: ../../gm0/source/docs/design-skills/cad.rst:73
 msgid ""
@@ -368,16 +352,6 @@ msgid ""
 msgstr ""
 "Si se tienen en cuenta las buenas prácticas de diseño, Fusion es una opción "
 "sólida."
-
-#: ../../gm0/source/docs/design-skills/cad.rst:84
-msgid ""
-"`Creo (formerly known as Pro/E) "
-"<https://www.ptc.com/en/products/education/free-software/standalone-"
-"educator>`_"
-msgstr ""
-"`Creo (antes conocido como Pro/E) "
-"<https://www.ptc.com/en/products/education/free-software/standalone-"
-"educator>`_"
 
 #: ../../gm0/source/docs/design-skills/cad.rst:86
 msgid ""
@@ -469,31 +443,7 @@ msgstr ""
 msgid "Vendor CAD Libraries"
 msgstr "Bibliotecas CAD de proveedores"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:103
-msgid "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
-msgstr "`Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_"
-
-#: ../../gm0/source/docs/design-skills/cad.rst:104
-msgid ""
-"`REV Robotics "
-"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
-msgstr ""
-"`REV Robotics "
-"<https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_"
-
 #: ../../gm0/source/docs/design-skills/cad.rst:106
-msgid ""
-"`10650 Hazmat Robotics CAD Library "
-"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
-"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
-"Pzynwsq/folder/6578524>`_"
-msgstr ""
-"`10650 Biblioteca CAD de Hazmat Robotics "
-"<https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-"
-"lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-"
-"Pzynwsq/folder/6578524>`_"
-
-#: ../../gm0/source/docs/design-skills/cad.rst:107
 msgid ""
 "`FTC Onshape Parts Library (contains a majority of parts from most major "
 "vendors) <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_"
@@ -502,11 +452,11 @@ msgstr ""
 "principales proveedores) <https://ftconshape.com/introduction-to-the-ftc-"
 "parts-library/>`_"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:110
+#: ../../gm0/source/docs/design-skills/cad.rst:109
 msgid "File sharing"
 msgstr "Compartir archivos"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:112
+#: ../../gm0/source/docs/design-skills/cad.rst:111
 msgid ""
 "Teams often have multiple members working on CAD models, and thus require a "
 "file sharing system for ensuring that each person has up-to-date files. Some"
@@ -517,7 +467,7 @@ msgstr ""
 "persona dispone de archivos actualizados. Algunas recomendaciones son "
 "GrabCAD, Box, Google Drive o Dropbox."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:114
+#: ../../gm0/source/docs/design-skills/cad.rst:113
 msgid ""
 "It is also a good idea that one team member work on the model at a time to "
 "prevent confusion."
@@ -525,11 +475,11 @@ msgstr ""
 "También es buena idea que un miembro del equipo trabaje en el modelo a la "
 "vez para evitar confusiones."
 
-#: ../../gm0/source/docs/design-skills/cad.rst:117
+#: ../../gm0/source/docs/design-skills/cad.rst:116
 msgid "Useful Resources"
 msgstr "Recursos útiles"
 
-#: ../../gm0/source/docs/design-skills/cad.rst:119
+#: ../../gm0/source/docs/design-skills/cad.rst:118
 msgid ""
 "More CAD resources can be found in the :ref:`CAD section of the Useful "
 "Resources page <useful-resources-cad>`."
