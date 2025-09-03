@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# shaw phy, 2023
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2025-09-03 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2023\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,6 +74,18 @@ msgstr ""
 "（块）中找到，Java 示例可在 `此处 <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__ 中找到。"
 
+#: ../../gm0/source/docs/software/tutorials/vision.rst:20
+msgid ""
+"*FIRST*\\ |reg| has released a tool called FTC-ML to train your own "
+"TensorFlow Lite model for detecting custom objects. Details about FTC-ML can"
+" be found `on FTC Docs <https://ftc-docs.firstinspires.org/projects/ftcdocs-"
+"archive/en/latest/ftc_ml/index.html>`_."
+msgstr ""
+"*FIRST*\\ |reg| 发布了一款名为 FTC-ML 的工具，用于训练自己的 TensorFlow Lite 模型，以检测自定义对象。有关 "
+"FTC-ML 的详细信息，请访问 `FTC 文档 <https://ftc-"
+"docs.firstinspires.org/projects/ftcdocs-"
+"archive/en/latest/ftc_ml/index.html>`_ 。"
+
 #: ../../gm0/source/docs/software/tutorials/vision.rst:23
 msgid "AprilTags"
 msgstr "AprilTags"
@@ -88,6 +100,20 @@ msgid ""
 msgstr ""
 "AprilTags检测可以放置在自定义元素上的特定低分辨率黑白图像。Apriltags是在各种照明条件下检测自定义元素的好方法。由于AprilTags是EasyOpenCV的插件，因此团队必须已经在他们的机器人上安装了EasyOpenCV。AprilTags仅在Android"
 " Studio中受支持。"
+
+#: ../../gm0/source/docs/software/tutorials/vision.rst:27
+msgid ""
+"You can learn more about implementing AprilTags `on FTC Docs <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
+"intro.html>`__. Supported AprilTag images are available on this `PDF "
+"<https://ftc-"
+"docs.firstinspires.org/en/latest/_downloads/ba0d87cc0d392ad0bad054d4b81e9077/AprilTag_0-20_family36h11.pdf>`__."
+msgstr ""
+"有关 AprilTag 的更多信息，请访问 `FTC 文档 <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
+"intro.html>`__ 。支持的 AprilTag 图像可在此 `PDF <https://ftc-"
+"docs.firstinspires.org/en/latest/_downloads/ba0d87cc0d392ad0bad054d4b81e9077/AprilTag_0-20_family36h11.pdf>`__"
+" 上获取。"
 
 #: ../../gm0/source/docs/software/tutorials/vision.rst:30
 msgid "VisionPortal"

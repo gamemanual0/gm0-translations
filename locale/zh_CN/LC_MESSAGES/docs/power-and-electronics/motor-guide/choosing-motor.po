@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2024
-# shaw phy, 2024
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2025-09-03 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2024\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,6 +45,14 @@ msgstr ""
 "TETRIX 12VDC电机（ `常规版 <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_ ， "
 "`Torquenado版 <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-"
 "Encoder/>`_ ）"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:12
+msgid ""
+"`AndyMark NeveRest series 12V DC Motors "
+"<https://andymark.com/collections/neverest>`_"
+msgstr ""
+"`AndyMark NeveRest 系列 12V DC 电机： "
+"<https://andymark.com/collections/neverest>`_"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:13
 msgid ""
@@ -290,6 +298,17 @@ msgid ""
 msgstr ""
 "`REV行星齿轮变速箱 <https://www.revrobotics.com/rev-41-1600/>`_ "
 "——行星齿轮变速箱是一款可定制的行星变速箱，专为FTC而设计。三个变速箱选项是3:1、4:1和5:1，可以混合搭配以创建自定义比例。可以使用一到三个变速箱，最小比例为3:1，最大比例为125:1。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:56
+msgid ""
+"While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual"
+" gear ratios are slightly different. Consult the `REV UltraPlanetary User's "
+"Manual for the exact gear ratios <https://docs.revrobotics.com/rev-"
+"crossover-products/ultraplanetary/cartridge-details>`_."
+msgstr ""
+"虽然REV将行星齿轮减速比例为3:1、4:1和5:1，但它们的实际传动比略有不同。请参阅 `REV行星齿轮变速箱用户手册以获取确切的传动比 "
+"<https://docs.revrobotics.com/rev-crossover-"
+"products/ultraplanetary/cartridge-details>`_ 。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:58
 msgid ""

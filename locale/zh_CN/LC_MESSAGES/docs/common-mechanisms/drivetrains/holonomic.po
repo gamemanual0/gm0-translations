@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2024
-# shaw phy, 2024
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2025-09-03 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2024\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -342,6 +342,19 @@ msgstr ""
 "set-70a-durometer-bearing-supported-rollers/>`_ （已停产）：这些轮子与 Nexus Ball "
 "Bearing Mecanum Wheels 非常相似，但配色不同，安装方式也更好。"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:119
+msgid ""
+"`Andymark Heavy Duty Mecanum Wheels <https://andymark.com/products/4-in-hd-"
+"mecanum-wheels>`_ ($225): These are easily the most expensive mecanums on "
+"the list. These wheels are 4\" in diameter and 1.65\" wide. These are "
+"bushing based mecanums, so while they strafe decently they still perform "
+"worse than bearing based ones. They have a good amount of traction, more "
+"than the Nexus bearing or bushing wheels."
+msgstr ""
+"`Andymark Heavy Duty Mecanum Wheels <https://andymark.com/products/4-in-hd-"
+"mecanum-wheels>`_ （225 美元）：这些轮子是清单上最昂贵的轮子。这些轮子直径为 4 英寸，宽 1.65 "
+"英寸。这些轮子就是基于衬套的麦轮，因此虽然它们的打击性能不错，但仍然比基于轴承的轮子差。它们有很好的牵引力，比 Nexus 轴承或衬套车轮更大。"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:120
 msgid ""
 "`Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-"
@@ -378,6 +391,15 @@ msgid ""
 msgstr ""
 "`TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ "
 "（149.00 美元）：这些麦轮采用基于衬套的硬塑料滚轮设计，因此平移性能较差。集成式轮毂是一种基于固定螺丝的圆孔设计，不仅不可靠，而且占用额外空间。"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:128
+msgid ""
+"`Andymark Standard Duty Mecanum Wheels <https://andymark.com/products/4-in-"
+"sd-mecanum-wheel>`_ ($77.00): These wheels barely strafe and are super "
+"fragile."
+msgstr ""
+"`Andymark Standard Duty Mecanum Wheels <https://andymark.com/products/4-in-"
+"sd-mecanum-wheel>`_ （$77.00）：这些轮子几乎不能平移，而且非常脆弱。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:133
 msgid "8103 Null Robotics's mecanum drivetrain render"

@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# shaw phy, 2024
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2025-09-03 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2024\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,6 +41,18 @@ msgstr "带星号 (:highlight:`*`) 的链接是特别相关或有帮助的资源
 #: ../../gm0/source/docs/useful-resources.rst:17
 msgid "General Resources"
 msgstr "常规资源"
+
+#: ../../gm0/source/docs/useful-resources.rst:19
+msgid ""
+"`FTC Discord <https://discord.com/invite/ftc>`_:highlight:`*` --- The "
+"**unofficial** FTC\\ |reg| Discord server is a discussion-based community "
+"server. It is the most active FTC community, which means it generally has "
+"the most up-to-date information, and is the easiest way to get quick answers"
+" to questions. It also has a channel with direct access to vendors."
+msgstr ""
+"`FTC Discord <https://discord.com/invite/ftc>`_:highlight:`*` --- **非官方** "
+"FTC Discord 服务器是一个基于讨论的社区服务器。它是最活跃的 FTC "
+"社区，这意味着它通常拥有最新的信息，也是快速获得问题答案的最简单方法。它还有一个可以直接访问供应商的频道。"
 
 #: ../../gm0/source/docs/useful-resources.rst:21
 msgid ""
@@ -79,6 +91,25 @@ msgstr ""
 "`游戏和赛季资料 <https://www.firstinspires.org/resource-library/ftc/game-and-"
 "season-info>`_:highlight:`*` --- 在这里可以找到当前赛季的资料，包括游戏手册。"
 
+#: ../../gm0/source/docs/useful-resources.rst:29
+msgid ""
+"`FTC Blog <https://community.firstinspires.org/topic/ftc>`_ --- The official"
+" FTC blog; important updates are typically posted here."
+msgstr ""
+"`FTC 博客 <https://community.firstinspires.org/topic/ftc>`_ ---FTC "
+"官方博客；重要更新通常在此发布。"
+
+#: ../../gm0/source/docs/useful-resources.rst:31
+msgid ""
+"`FTC Tutorials "
+"<https://web.archive.org/web/20231203044359/https://ftctutorials.com/en/>`_ "
+"--- (Unofficial) FTC Tutorials, covering the robot, competitions, and team "
+"management."
+msgstr ""
+"`FTC教程 "
+"<https://web.archive.org/web/20231203044359/https://ftctutorials.com/en/>`_ "
+"--- （非官方）FTC教程，内容包括机器人、比赛和团队管理。"
+
 #: ../../gm0/source/docs/useful-resources.rst:33
 msgid ""
 "`FIRST Resource Library <https://www.firstinspires.org/resource-"
@@ -99,6 +130,15 @@ msgid ""
 msgstr ""
 "`工程笔记库 <https://portfolios.hivemindrobotics.net>`_ --- 过去获奖的工程作品集库。由来自 FTC "
 "23396 的 Polar 创建，并由社区管理。"
+
+#: ../../gm0/source/docs/useful-resources.rst:37
+msgid ""
+"`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/duo>`_ "
+"--- Covers REV's hardware and software. The control system documentation "
+"includes an introductory FTC programming tutorial."
+msgstr ""
+"`REV Robotics FTC 文档 <https://docs.revrobotics.com/docs/duo>`_ --- "
+"涵盖REV的硬件和软件。控制系统文档包括FTC编程入门教程。"
 
 #: ../../gm0/source/docs/useful-resources.rst:39
 msgid ""
@@ -172,6 +212,15 @@ msgstr ""
 "`Autodesk教育账户 <https://www.autodesk.com/education/edu-software/overview>`_ "
 "--- Autodesk教育账户注册。教育帐户可同时访问 Fusion 360 和Inventor。"
 
+#: ../../gm0/source/docs/useful-resources.rst:60
+msgid ""
+"`Creo Education License <https://www.ptc.com/en/education/free-"
+"software/creo-standalone-educator>`_ --- Creo's education license "
+"application form."
+msgstr ""
+"`Creo教育账户 <https://www.ptc.com/en/education/free-software/creo-standalone-"
+"educator>`_ --- Creo 的教育许可证申请表。"
+
 #: ../../gm0/source/docs/useful-resources.rst:62
 msgid ""
 "`Onshape Education Account <https://www.onshape.com/en/education/>`_ --- "
@@ -194,6 +243,16 @@ msgstr ""
 msgid "Part Libraries"
 msgstr "零件库"
 
+#: ../../gm0/source/docs/useful-resources.rst:69
+msgid ""
+"`10650 Hazmat Robotics Public CAD Library + MiSUMI Parts "
+"<https://grabcad.com/library/ftc-cad-files-w-misumi-parts-1>`_ --- A multi-"
+"vendor part library that works across CAD software due to its use of STEP "
+"files."
+msgstr ""
+"`10650 Hazmat Robotics CAD 文件库 + MiSUMI 零件 <https://grabcad.com/library/ftc-"
+"cad-files-w-misumi-parts-1>`_ --- 一个多供应商零件库，由于使用STEP文件，因此可跨CAD软件使用。"
+
 #: ../../gm0/source/docs/useful-resources.rst:71
 msgid ""
 "`2901 Purple Gears Onshape Parts Library "
@@ -202,6 +261,16 @@ msgid ""
 msgstr ""
 "`2901 Purple Gears Onshape 零件库 <https://ftconshape.com/introduction-to-the-"
 "ftc-parts-library/>`_ --- 专为 Onshape 设计的多供应商零件库。"
+
+#: ../../gm0/source/docs/useful-resources.rst:73
+msgid ""
+"`ServoCity Official CAD Library "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_ --- "
+"ServoCity's entire STEP file catalog. This includes Actobotics parts."
+msgstr ""
+"`ServoCity 官方CAD库 "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_ --- "
+"ServoCity 的整个STEP文件目录。其中包括Actobotics部件。"
 
 #: ../../gm0/source/docs/useful-resources.rst:76
 msgid "Generators"
@@ -460,6 +529,15 @@ msgstr ""
 "`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-"
 "url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- "
 "一个电子表格设计计算器。但是，它不包括FTC电机数据，因此你需要使用峰值功率和电机曲线部分的数据手动添加。"
+
+#: ../../gm0/source/docs/useful-resources.rst:136
+msgid ""
+"`Pulley Center-to-Center Calculator <https://sdp-si.com/tools/center-"
+"distance-designer.php>`_ --- A fully featured belt pulley center-to-center "
+"distance calculator."
+msgstr ""
+"`Pulley Center-to-Center Calculator <https://sdp-si.com/tools/center-"
+"distance-designer.php>`_ --- 功能齐全的皮带轮中心距计算器。"
 
 #: ../../gm0/source/docs/useful-resources.rst:138
 msgid ""

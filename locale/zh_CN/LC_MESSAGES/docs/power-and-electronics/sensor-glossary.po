@@ -6,16 +6,16 @@
 # Translators:
 # guluomagongchengshi, 2023
 # DomnickJYH, 2024
-# shaw phy, 2024
+# shaw phy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2025-09-03 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2024\n"
+"Last-Translator: shaw phy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,6 +50,14 @@ msgstr "旋转编码器"
 msgid "Absolute (+ Potentiometers)"
 msgstr "绝对式（+ 电位器）"
 
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:13
+msgid ""
+"MA3 (`am-2899 <https://andymark.com/products/ma3-absolute-encoder-with-"
+"cable>`_)"
+msgstr ""
+"MA3 (`am-2899 <https://andymark.com/products/ma3-absolute-encoder-with-"
+"cable>`_)"
+
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:14
 msgid ""
 "Potentiometer (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)"
@@ -68,6 +76,14 @@ msgstr ""
 "REV 通孔编码器 (`REV-11-1271 "
 "<https://www.revrobotics.com/rev-11-1271/>`_)。它支持绝对编码，但通过 PWM 编码，这在 FTC "
 "控制系统中是无法实现的。"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:17
+msgid ""
+"E4T (`am-3132 <https://andymark.com/products/e4t-oem-miniature-optical-"
+"encoder-kit>`_)"
+msgstr ""
+"E4T (`am-3132 <https://andymark.com/products/e4t-oem-miniature-optical-"
+"encoder-kit>`_)"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:18
 msgid ""
@@ -102,6 +118,11 @@ msgid ""
 msgstr ""
 "限位开关 (`3103-0001-0001/3103-0001-0002 <https://www.gobilda.com/limit-"
 "switches/>`_)"
+
+#: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:27
+msgid ""
+"Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13014>`_)"
+msgstr "通用 Endstops (`Sparkfun <https://www.sparkfun.com/products/13014>`_)"
 
 #: ../../gm0/source/docs/power-and-electronics/sensor-glossary.rst:28
 msgid ""
