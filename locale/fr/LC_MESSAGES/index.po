@@ -5,18 +5,159 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-15 03:16+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/index.rst:105
+msgid "Game Manual 0 Table of Contents"
+msgstr "table des matières de Game Manual 0"
+
+#: ../../gm0/source/index.rst:4
+msgid "Index"
+msgstr "Annexe"
+
+#: ../../gm0/source/index.rst:8
+msgid ""
+"This content is translated from English, and as such may include some "
+"English phrases for technical terms."
+msgstr ""
+"Ce contenu est traduit de l'anglais, et peut donc inclure certains termes "
+"techniques en anglais."
+
+#: ../../gm0/source/index.rst:19
+msgid "Start Here"
+msgstr "Commencer Ici"
+
+#: ../../gm0/source/index.rst:21
+msgid ""
+"Are you a rookie team? Are you new to FTC\\ |reg|? Are you just looking for "
+"a refresher? Check out this section for a curated list of the most pertinent"
+" pages!"
+msgstr ""
+"Êtes-vous une équipe débutante ? Êtes-vous nouveau dans le Défi Techno FTC\\"
+" |reg|? Ou cherchez-vous simplement à réviser ? Consultez cette section pour"
+" une liste sélectionnée des pages les plus pertinentes !"
+
+#: ../../gm0/source/index.rst:28
+msgid "Being a Team"
+msgstr "Être une Équipe"
+
+#: ../../gm0/source/index.rst:30
+msgid "Covers how to start, organize, and run an effective team."
+msgstr "Couvre comment démarrer, organiser et diriger une équipe efficace."
+
+#: ../../gm0/source/index.rst:36
+msgid "Design Skills"
+msgstr "Compétences en Conception"
+
+#: ../../gm0/source/index.rst:38
+msgid ""
+"Covers generic design skills, including the engineering design process, "
+"design strategy, and CAD."
+msgstr ""
+"Couvre les compétences de conception génériques, y compris le processus de "
+"conception ingénierie, la stratégie de conception et le CAD"
+
+#: ../../gm0/source/index.rst:44
+msgid "Hardware Components"
+msgstr "Composants matériels"
+
+#: ../../gm0/source/index.rst:46
+msgid ""
+"Compares the kit options, has a list of useful tools, and some general "
+"advice."
+msgstr ""
+"Compare des options de trousse, liste d'outils utiles et conseils généraux"
+
+#: ../../gm0/source/index.rst:53
+msgid "Common Mechanisms"
+msgstr "Mécanismes communs"
+
+#: ../../gm0/source/index.rst:55
+msgid ""
+"Contains descriptions, advantages/disadvantages, and examples of common "
+"mechanisms, including: drivetrains, arms, linear motion, intakes, and dead "
+"wheels. Also covers some specific common design tradeoff recommendations and"
+" power transmission."
+msgstr ""
+"Contient des descriptions, avantages/désavantages, et des exemples de "
+"mécanismes communs, incluant; châssis, bras, le mouvement linéaire, "
+"l'aspiration, et les roues mortes. Cela couvre également certaines "
+"recommandations spécifiques sur les compromis de conception courants et la "
+"transmission de puissance."
+
+#: ../../gm0/source/index.rst:61
+msgid "Custom Manufacturing"
+msgstr "Fabrication sur mesure"
+
+#: ../../gm0/source/index.rst:63
+msgid ""
+"Covers which materials are appropriate to use when and specifics to 3D "
+"printing and machining."
+msgstr ""
+"Couvre les matériaux appropriés à utiliser selon les situations et les "
+"spécificités de l'impression 3D et de l'usinage."
+
+#: ../../gm0/source/index.rst:69
+msgid "Electronics and Motion Components"
+msgstr "Composants Électroniques et de Mouvement"
+
+#: ../../gm0/source/index.rst:71
+msgid "Covers wiring, the control system, motors, servos, and sensors."
+msgstr ""
+"Couvre le câblage, le système de contrôle, les moteurs, les servomoteurs et "
+"les capteurs."
+
+#: ../../gm0/source/index.rst:77
+msgid "Software"
+msgstr "Logiciel"
+
+#: ../../gm0/source/index.rst:79
+msgid "Covers a range of software topics."
+msgstr "Couvre un éventail de sujets liés au logiciel."
+
+#: ../../gm0/source/index.rst:85
+msgid "Useful Resources"
+msgstr "Ressources utiles"
+
+#: ../../gm0/source/index.rst:87
+msgid ""
+"A list of useful resources and accompanying descriptions, with especially "
+"pertinent ones marked."
+msgstr ""
+"Une liste de ressources utiles avec des descriptions accompagnantes, avec "
+"des éléments particulièrement pertinents."
+
+#: ../../gm0/source/index.rst:93
+msgid "Know Your Lingo"
+msgstr "Connaissez votre jargon"
+
+#: ../../gm0/source/index.rst:95
+msgid "A list of commonly used FTC slang and their meanings."
+msgstr "Une liste d’argot couramment utilisé en FTC et leurs significations."
+
+#: ../../gm0/source/index.rst:101
+msgid "Appendix"
+msgstr "Annexe"
+
+#: ../../gm0/source/index.rst:103
+msgid ""
+"Contains a glossary, a robot design gallery, and information about specific "
+"vendors."
+msgstr ""
+"Contient un glossaire, une galerie de conceptions de robots et des "
+"informations sur des fournisseurs spécifiques."

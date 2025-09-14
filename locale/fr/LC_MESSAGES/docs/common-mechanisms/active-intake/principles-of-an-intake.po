@@ -5,18 +5,222 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 04:28+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:4
+msgid "Principles of an Intake"
+msgstr "Principes d'un ramasseur"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:7
+msgid "Reliability"
+msgstr "Fiabilité"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:9
+msgid ""
+"An intake must be reliable, as picking up and scoring game elements is the "
+"primary method to gain points in all FTC\\ |reg| games."
+msgstr ""
+"Un ramasseur doit être fiable, car ramasser et marquer des éléments de jeu "
+"est la principale méthode pour gagner des points dans tous les jeux de FTC\\"
+" |reg|."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:11
+msgid ""
+"Intakes have many moving parts and are susceptible to breaking, especially "
+"at high RPM. Thus, the intake material must be durable to withstand long "
+"periods of operation."
+msgstr ""
+"Les ramassuers comportent de nombreuses pièces mobiles et sont susceptibles "
+"de se briser, en particulier à haut régime. Le matériau de l'admission doit "
+"donc être durable pour résister à de longues périodes de fonctionnement."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:13
+msgid ""
+"Intakes often stick outside of the robot frame perimeter. In this case, "
+"durability becomes extremely important; the intake must be built so that "
+"they can withstand impacts/collisions with other robots or parts of the "
+"field."
+msgstr ""
+"Les ramasseurs se trouvent souvent à l'extérieur du périmètre du châssis du "
+"robot. Dans ce cas, la durabilité devient extrêmement importante ; les "
+"ramasseurs doivent être construits de manière à résister aux "
+"impacts/collisions avec d'autres robots ou des parties du terrain."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:15
+msgid ""
+"There are two ways to accomplish this - either by building the intake very "
+"robustly (lots of support so it doesn't break), or making the intake "
+"flexible (for example out of lexan or spring loading it) so that even though"
+" it may bend due to impacts, it will always spring back into place."
+msgstr ""
+"Il y a deux façons d'y parvenir : soit en construisant le ramasseur de "
+"manière très robuste (beaucoup de support pour qu'elle ne se casse pas), "
+"soit en rendant l'admission flexible (par exemple en lexan ou en la "
+"chargeant de ressorts) de sorte que même si elle se plie à cause des chocs, "
+"elle se remettra toujours en place."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:17
+msgid ""
+"Another way to prevent intake breaking is to make a fully retractable intake"
+" that won't protrude outside the 18\" cube, though this is seldom needed."
+msgstr ""
+"Un autre moyen d'éviter la rupture du ramasseur est de fabriquer une "
+"admission entièrement rétractable qui ne dépasse pas le cube de 18 pouces, "
+"bien que cela soit rarement nécessaire."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
+msgid "Consistency"
+msgstr "Cohérence"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:22
+msgid ""
+"The intake **must** be able to pick up game elements consistently and "
+"quickly. For example, in Rover Ruckus each robot could only possess 2 "
+"minerals at a time. Therefore, the intake should only pick up two pieces at "
+"a time, not zero, one, or three."
+msgstr ""
+"Le ramasseur **doit** être capable d'assimiler des éléments de jeu de "
+"manière cohérente et rapide. Par exemple, dans Rover Ruckus, chaque robot ne"
+" peut posséder que 2 minéraux à la fois. Par conséquent, le ramasseur ne "
+"doit ramasser que deux pièces à la fois, et non pas zéro, un ou trois."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:24
+msgid ""
+"This is a common mistake that many inexperienced teams fail to take into "
+"account."
+msgstr ""
+"Il s'agit d'une erreur courante que de nombreuses équipes inexpérimentées ne"
+" prennent pas en compte."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:26
+msgid ""
+"Another component is the varying angles that the game objects can be located"
+" in. This was especially apparent in the Relic Recovery season, where the "
+"\"glyphs\" (foam cubes) could be oriented in many directions."
+msgstr ""
+"Un autre élément est la diversité des angles dans lesquels les objets du jeu"
+" peuvent être placés. C'était particulièrement évident dans la saison Relic "
+"Recovery, où les \"glyphes\" (cubes de mousse) pouvaient être orientés dans "
+"de nombreuses directions."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:28
+msgid ""
+"Even though it was relatively easy to make a compliant wheel intake that "
+"could effectively intake glyphs in one direction, it was hard to make an "
+"intake that could deal with angled glyphs. Being able to intake glyphs in "
+"all orientations was especially important for multi-glyph autonomous modes."
+msgstr ""
+"Bien qu'il ait été relativement facile de fabriquer un ramasseur à roue "
+"conforme capable d'aspirer efficacement les glyphes dans une direction, il a"
+" été difficile de fabriquer une prise d'air capable d'aspirer les glyphes en"
+" angle. La possibilité d'aspirer des glyphes dans toutes les orientations "
+"était particulièrement importante pour les modes autonomes à plusieurs "
+"glyphes."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
+msgid "Controllability"
+msgstr "Contrôlabilité"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:33
+msgid ""
+"The intake must be able to consistently control the game elements. For "
+"example, if the intake is too fast and the collection box is not well "
+"designed, then game pieces might fly out. If the intake is too slow, it may "
+"jam itself when contacting the game elements."
+msgstr ""
+"Le ramasseur doit permettre de contrôler de manière cohérente les éléments "
+"du jeu. Par exemple, si l'admission est trop rapide et que la boîte de "
+"collecte n'est pas bien conçue, les pièces de jeu risquent de s'envoler. Si "
+"le ramasseur est trop lente, elle risque de se bloquer lorsqu'elle entre en "
+"contact avec les éléments du jeu."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:34
+msgid ""
+"It is possible for pieces to get jammed at an unreachable angle, especially "
+"when using wheeled intakes. If this occurs, ensure that the driver can jar "
+"the stuck element loose to avoid having a disabled robot."
+msgstr ""
+"Il est possible que des pièces se coincent à un angle inaccessible, en "
+"particulier lors de l'utilisation du ramasseur à roues. Si cela se produit, "
+"assurez-vous que le conducteur peut dégager l'élément coincé pour éviter "
+"d'avoir un robot handicapé."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:35
+msgid ""
+"Optimally, the game elements should follow a certain path each time if "
+"funneling is done correctly."
+msgstr ""
+"Dans le meilleur des cas, les éléments du jeu devraient suivre un certain "
+"chemin à chaque fois si l'entonnoir est correctement mis en place."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:36
+msgid ""
+"It is best practice that the driver can see the game elements which are "
+"being controlled. This can be done through using clear plating such as "
+"Lexan."
+msgstr ""
+"La meilleure pratique consiste à faire en sorte que le conducteur puisse "
+"voir les éléments du jeu qui sont contrôlés. Pour ce faire, on peut utiliser"
+" un revêtement transparent tel que le Lexan."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
+msgid "Efficiency"
+msgstr "Efficacité"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:41
+msgid ""
+"The key to any successful robot is cycle time. Reducing cycle time by having"
+" an efficient intake will lead to major improvements in score. A good intake"
+" should take no more than a few seconds to successfully collect the needed "
+"elements."
+msgstr ""
+"La clé de la réussite d'un robot est le temps de cycle. La réduction de la "
+"durée du cycle grâce à un ramasseur efficace permettra d'améliorer "
+"considérablement le score. Un bon ramasseur ne devrait pas prendre plus de "
+"quelques secondes pour collecter les éléments nécessaires."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:43
+msgid ""
+"For example, in Relic Recovery, the best intakes often had a <3 second "
+"collection time for two game elements, and in Rover Ruckus a 1 second "
+"collection time was desired at the highest level."
+msgstr ""
+"Par exemple, dans Relic Recovery, les meilleurs ramasseurs avaient souvent "
+"un temps de collecte de <3 secondes pour deux éléments de jeu, et dans Rover"
+" Ruckus, un temps de collecte de 1 seconde était souhaité au niveau le plus "
+"élevé."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:44
+msgid ""
+"A key rule to remember in FTC is the shortest distance rule: how can you get"
+" scoring elements from A to B in the shortest distance?"
+msgstr ""
+"La règle de la distance la plus courte est une règle clé dont il faut se "
+"souvenir en matière de FTC : comment obtenir des éléments de notation de A à"
+" B en parcourant la distance la plus courte ?"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:46
+msgid ""
+"The answer is usually one or two straight lines. The closer the scoring "
+"elements follow this path, the faster they will go from collection to "
+"deposit. Don't make overly long routes unless needed."
+msgstr ""
+"La réponse est généralement une ou deux lignes droites. Plus les éléments de"
+" notation sont proches de cette trajectoire, plus ils passeront rapidement "
+"de la collecte au dépôt. Ne créez pas d'itinéraires trop longs si cela n'est"
+" pas nécessaire."

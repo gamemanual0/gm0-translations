@@ -6,18 +6,281 @@
 # Translators:
 # Sara Kaidi, 2025
 # Manuela Christy Nzali Wakem, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-13 16:28+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
-"Last-Translator: Manuela Christy Nzali Wakem, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:4
+msgid "Collaboration and Efficiency"
+msgstr "Collaboration et efficacité"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:6
+msgid ""
+"FTC\\ |reg| is built on collaboration, and there are several ways to make "
+"collaborating as efficient as possible. Here's how!"
+msgstr ""
+"La collaboration est au cœur de la vie de FTC. Il existe plusieurs façons de"
+" la rendre aussi efficace que possible. Voici comment!"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:9
+msgid "Why Collaborate?"
+msgstr "Pourquoi collaborer?"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:11
+msgid ""
+"The benefit of collaboration is expanded creativity. Your team members "
+"aren't identical - each one has a different method of approaching problems. "
+"Combining these unique mindsets often leads to creative, efficient, and "
+"effective solutions to software and mechanical issues."
+msgstr ""
+"La collaboration a pour avantage de développer la créativité. Les membres de"
+" votre équipe ne sont pas identiques - chacun a une méthode différente "
+"d'aborder les problèmes. La combinaison de ces mentalités uniques permet "
+"souvent de trouver des solutions créatives, efficaces et efficientes aux "
+"problèmes logiciels et mécaniques."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:14
+msgid "General Collaboration"
+msgstr "Collaboration générale"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:16
+msgid ""
+"Your team's leadership should communicate daily about the status of their "
+"squads - it's imperative to ensure smooth team operations. You can use "
+"platforms like Discord and Slack to facilitate organized conversations. In "
+"addition, collaborative platforms like Canva and Google Drive are ideal for "
+"hosting engineering documentation, judging presentations, and marketing "
+"materials. The more material your members can access, the more they can "
+"contribute to."
+msgstr ""
+"Les responsables de votre équipe doivent communiquer quotidiennement sur "
+"l'état de leurs sous équipes - c'est impératif pour assurer le bon "
+"fonctionnement de l'équipe. Vous pouvez utiliser des plateformes telles que "
+"Discord et Slack pour faciliter les conversations organisées. En outre, les "
+"plateformes collaboratives telles que Canva et Google Drive sont idéales "
+"pour héberger la documentation technique, les présentations aux juges et le "
+"matériel de marketing. Plus vos membres ont accès à du matériel, plus ils "
+"peuvent y contribuer."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:18
+msgid ""
+"Ideally, every member will also be openly documenting the projects they work"
+" on. This way, if another member needs to take over or work to improve a "
+"project, they can utilize publicly available documentation to work "
+"effectively."
+msgstr ""
+"Idéalement, chaque membre documentera ouvertement les projets sur lesquels "
+"il travaille. Ainsi, si un autre membre doit reprendre ou améliorer un "
+"projet, il pourra utiliser la documentation publiquement disponible pour "
+"travailler efficacement."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:21
+msgid ""
+"Host mandatory team meetings at least once a week, and share each squad's "
+"progress. This will give your team up-to-date knowledge about your robot and"
+" allow everyone to offer ideas at every stage of the design, programming, "
+"and outreach process."
+msgstr ""
+"Organisez des réunions d'équipe obligatoires au moins une fois par semaine "
+"et partagez les progrès de chaque équipe. Cela permettra à votre équipe "
+"d'avoir des connaissances actualisées sur votre robot et à chacun de "
+"proposer des idées à chaque étape de la conception, de la programmation et "
+"du processus de sensibilisation."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:24
+msgid "Design Collaboration"
+msgstr "Collaboration en matière de conception"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:26
+msgid ""
+"Your designers probably have different styles of design and mechanical "
+"preferences, and their unique preferences can improve each of the different "
+"mechanisms on your robot."
+msgstr ""
+"Vos concepteurs ont probablement des styles de conception et des préférences"
+" mécaniques différents, et leurs préférences uniques peuvent améliorer "
+"chacun des différents mécanismes de votre robot."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:29
+msgid "Competitive Design"
+msgstr "Conception compétitive"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:31
+msgid ""
+"One way to maximize your designers' creativity is to competitively "
+"prototype. 2-3 designers pick a mechanism and develop their own take on the "
+"design, then physically prototype them to test against certain criteria. The"
+" most successful design integrates the most successful components of each "
+"and is iteratively improved by a singular designer."
+msgstr ""
+"L'un des moyens de maximiser la créativité de vos concepts est de procéder à"
+" un prototypage compétitif. 2-3 concepteurs choisissent un mécanisme et "
+"développent leur propre conception, puis réalisent un prototype physique "
+"pour le tester en fonction de certains critères. La conception la plus "
+"réussie intègre les éléments les plus performants de chacun et est améliorée"
+" de manière itérative par un seul concept."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:33
+msgid ""
+"The biggest benefit to this approach is that you can integrate aspects of "
+"each designers' personal techniques."
+msgstr ""
+"Le plus grand avantage de cette approche est qu'elle permet d'intégrer des "
+"aspects des techniques personnelles de chaque concepteur."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:38
+msgid ""
+"7149 Enforcers, PowerPlay, Example of Competitive Prototyping. Two of their "
+"designers built an intake, with the final optimized design utilizing the "
+"best aspects from each prototype."
+msgstr ""
+"7149 Enforcers, PowerPlay, exemple de prototypage compétitif. Deux de leurs "
+"concepteurs ont construit une prise d'air, le design final optimisé "
+"utilisant les meilleurs aspects de chaque prototype."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:41
+msgid "Cloud CAD"
+msgstr "Nuage informatique CAO"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:43
+msgid ""
+"Your design team (and the rest of the team, if possible) should have access "
+"to your full suite of designs. Sharing your designs allows for teammates to "
+"help each other improve by sharing techniques and tricks, and allows your "
+"outreach team to easily create renders for presentations and marketing."
+msgstr ""
+"Votre équipe de conception (et le reste de l'équipe, si possible) doit avoir"
+" accès à l'ensemble de vos conceptions. Le partage de vos créations permet à"
+" vos coéquipiers de s'aider mutuellement à s'améliorer en échangeant des "
+"techniques et des astuces, et à votre équipe de sensibilisation de créer "
+"facilement des rendus pour les présentations et le marketing."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:45
+msgid ""
+"This can be accomplished by using CAD software built around shared folders "
+"like Onshape or Fusion 360. It can also be accomplished with other CAD "
+"software, like Solidworks or Inventor, but this is generally significantly "
+"more complicated to set up."
+msgstr ""
+"Pour ce faire, il est possible d'utiliser un logiciel de CAO basé sur des "
+"dossiers partagés, comme Onshape ou Fusion 360. Il est également possible "
+"d'utiliser d'autres logiciels de CAO, tels que Solidworks ou Inventor, mais "
+"leur mise en place est généralement beaucoup plus compliquée."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:48
+msgid "Software Collaboration"
+msgstr "Collaboration logicielle"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:50
+msgid ""
+"Software collaboration is easier to facilitate. Robot code should be version"
+" controlled regardless of the size of your software squad, so teaching your "
+"members how to share a team Github is an easy way to collaborate. "
+"Additionally, you can utilize pair programming (multiple members writing "
+"software together on one computer) to help catch bugs."
+msgstr ""
+"La collaboration logicielle est plus facile à faciliter. Le code du robot "
+"doit être contrôlé par version, quelle que soit la taille de votre équipe "
+"logicielle. Apprendre à vos membres à partager un Github d'équipe est donc "
+"un moyen facile de collaborer. En outre, vous pouvez utiliser la "
+"programmation en binôme (plusieurs membres qui écrivent un logiciel ensemble"
+" sur un ordinateur) pour aider à détecter les bogues."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:53
+msgid "Efficiency"
+msgstr "Efficacité"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:54
+msgid "Collaboration only works if exercised efficiently. Here are some tips!"
+msgstr ""
+"La collaboration ne fonctionne que si elle est exercée de manière efficace. "
+"Voici quelques conseils !"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:56
+msgid ""
+"**Work from home.** Team meetings should be used as time to catch up between"
+" squads, make decisions, and physically test parts of the robot. CAD design "
+"iterations can be created and reviewed at home, and software can be written "
+"outside of practice hours. This will allow you more time to test and "
+"reflect."
+msgstr ""
+"**Travaillez de la maison**Les réunions d'équipe devraient être utilisées "
+"pour rattraper le temps perdu entre les sous-équipes, prendre des décisions "
+"et tester physiquement certaines parties du robot. Les itérations de "
+"conception CAO peuvent être créées et révisées à la maison, et les logiciels"
+" peuvent être écrits en dehors des heures de pratiques. Vous aurez ainsi "
+"plus de temps pour tester et réfléchir."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:57
+msgid ""
+"**Delegate tasks effectively.** Squad leads should serve as facilitators, "
+"assigning tasks to squad members depending on their ability. If work is "
+"hoarded by one or two people, the overall workflow is slowed down immensely."
+" Trust your teammates."
+msgstr ""
+"**Séparez les tâches de manière efficace**Les chefs d'équipe doivent jouer "
+"le rôle de facilitateurs et assigner des tâches aux membres de l'équipe en "
+"fonction de leurs capacités. Si le travail est accaparé par une ou deux "
+"personnes, le flux de travail global est considérablement ralenti. Faites "
+"confiance à vos coéquipiers."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:58
+msgid ""
+"**Follow deadlines and don't procrastinate.** Setting deadlines allows you "
+"to plan your season, and the earlier you start before a deadline, the more "
+"time you have to ask for help, tackle unexpected problems, and iterate more."
+msgstr ""
+"**Respectez les délais et ne procrastinez pas**Fixer des échéances vous "
+"permet de planifier votre saison, et plus vous commencez tôt avant une "
+"échéance, plus vous avez le temps de demander de l'aide, de résoudre des "
+"problèmes inattendus et d'itérer davantage."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:59
+msgid ""
+"**Share.** If a team member has to search for documentation you were "
+"supposed to complete or an email you were supposed to send out, it creates a"
+" massive amount of administrative headache. Make sure you CC the correct "
+"people on emails and share your work with your entire team."
+msgstr ""
+"**Partagez**Si un membre de l'équipe doit rechercher une documentation que "
+"vous étiez censé compléter ou un courriel que vous étiez censé envoyer, cela"
+" crée un énorme casse-tête administratif. Veillez à indiquer les bonnes "
+"personnes sur les courriels et à partager votre travail avec l'ensemble de "
+"votre équipe."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:60
+msgid ""
+"**Don't hide problems.** If you broke something or calculated something "
+"incorrectly, don't shove it under the rug. Your teammates should (and will) "
+"be incredibly understanding and will help to fix the problem. Being correct "
+"all the time is impossible, and everyone makes mistakes!"
+msgstr ""
+"**Ne cachez pas vos problèmes**Si vous avez cassé quelque chose ou calculé "
+"quelque chose de manière incorrecte, ne le cachez pas. Vos coéquipiers "
+"devraient être (et seront) incroyablement compréhensifs et vous aideront à "
+"résoudre le problème. Il est impossible d'être toujours correct, et tout le "
+"monde fait des erreurs !"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:61
+msgid ""
+"**Communicate often** with your squad and your team. Communicating is "
+"incredibly important on a team, as you can get fast feedback on problems, "
+"spark new ideas, and leverage the creativity of everyone on your team."
+msgstr ""
+"**Communiquez souvent** avec votre groupe et votre équipe. La communication "
+"est extrêmement importante au sein d'une équipe, car elle permet d'obtenir "
+"rapidement des informations sur les problèmes, de susciter de nouvelles "
+"idées et de tirer parti de la créativité de tous les membres de l'équipe."

@@ -7,18 +7,299 @@
 # Lyna Alem, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-11 04:29+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:2
+msgid "Know Your Lingo"
+msgstr "Connaître votre vocabulaire"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:4
+msgid ""
+"Many teams may be unfamiliar with the various terms and slang that are often"
+" thrown around at competitions and meets. Here we have compiled a guide of "
+"some commonly used terms to get you up to speed."
+msgstr ""
+"De nombreuses équipes peuvent ne pas être familières avec les différents "
+"termes et expressions utilisés fréquemment lors des compétitions et des "
+"rencontres hors saison. Voici un guide que nous avons compilé avec certains "
+"termes couramment utilisés pour vous aider à vous familiariser."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:7
+msgid "Competitions"
+msgstr "Compétitions"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:9
+msgid "Program Delivery Partner (PDP)"
+msgstr "Partenaire d'exécution du programme (PDP)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:10
+msgid ""
+"Director or directors for events and activities in a region. Used to be "
+"referred to as the Affiliate Partner (AP)."
+msgstr ""
+"Directeur ou directeurs d'événements et d'activités dans une région. On "
+"l'appelait auparavant le partenaire affilié (PA)."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:11
+msgid "Qualifier"
+msgstr "Qualification"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:12
+msgid ""
+"Tournament with 5-6 qualifying matches and best-of-three alliance "
+"elimination matches. Judging included. Will advance to States/Regional "
+"level."
+msgstr ""
+"Tournoi avec 5-6 matchs de qualification et des matchs d'élimination par "
+"alliance en ''best-of-three''. Les rencontres avec les juges sont inclus. "
+"Les équipes se qualifieront pour le niveau régional/étatique."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:13
+msgid "League Meet"
+msgstr "Rencontre de ligue"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:14
+msgid ""
+"Low-stress competition with matches counting towards league rank at a League"
+" Tournament. No judging."
+msgstr ""
+"Compétition peu stressante avec des matchs comptant pour le classement de la"
+" ligue lors d'un tournoi de ligue. Pas de jugement."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:15
+msgid "League Tournament"
+msgstr "Tournoi de la Ligue"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:16
+msgid ""
+"Tournament with ranked matches and alliance elimination matches for teams "
+"participating in that League. Judging included. Will advance to "
+"States/Regional level. Sometimes called a \"League Championship\"."
+msgstr ""
+"Tournoi avec des matchs classés et des matchs d'élimination par alliance "
+"pour les équipes participant à cette ligue. L'évaluation avec les juges est "
+"incluse. Les équipes se qualifient pour le niveau national/régional. Parfois"
+" appelé \"Championnat de ligue\"."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:17
+msgid "Alliance"
+msgstr "Alliance"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:18
+msgid ""
+"Group of two or, in eliminations, two or three teams that compete. In "
+"elimination matches each team must play at least once."
+msgstr ""
+"Groupe de deux équipes ou, lors des éliminations, de deux ou trois équipes "
+"qui compétitionnent. Dans les matchs d’élimination, chaque équipe doit jouer"
+" au moins une fois."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:19
+msgid "Ranking Points (RP)"
+msgstr "Points de classement (RP)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:20
+msgid ""
+"Primary basis in rankings at traditional events. For the Power Play season, "
+"each team receives 2 RP for winning a qualification match, 1 for tieing, and"
+" 0 for losing."
+msgstr ""
+"Base principale des classements lors des événements traditionnels. Pour la "
+"saison Power Play, chaque équipe reçoit 2 RP pour avoir gagné un match de "
+"qualification, 1 pour un match nul, et 0 pour une défaite."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:22
+msgid "TieBreaker Points (TBP)"
+msgstr "Points de départage (TBP)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:22
+msgid ""
+"Secondary determinant in team rankings for traditional events, primary "
+"determinant for remote events. For the Power Play season, this is split up "
+"into two parts; TBP1 and TBP2. TBP1 is used before TBP2, and is the "
+"alliances/teams autonomous period score. TBP2 is the alliances/teams end "
+"game score. (Whether it is alliances/teams depends on if the team is at "
+"traditional events, respectively.)"
+msgstr ""
+"Déterminant secondaire dans le classement des équipes pour les événements "
+"traditionnels, déterminant principal pour les événements à distance. Pour la"
+" saison de jeu Power Play, il est divisé en deux parties : TBP1 et TBP2. Le "
+"TBP1 est utilisé avant le TBP2 et correspond au score de la période autonome"
+" des alliances/équipes. Le TBP2 est le score de fin de match des "
+"alliances/équipes. (Le fait qu'il s'agisse d'alliances ou d'équipes dépend "
+"de la participation de l'équipe à des événements traditionnels)."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:25
+msgid "Qualification Match"
+msgstr "Match de qualification"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:25
+msgid ""
+"Qualifying matches (generally 5) with random alliance partners and opponents"
+" will be played to determine team rankings."
+msgstr ""
+"Des matchs de qualification (généralement 5) avec des partenaires et des "
+"adversaires d’alliance tirés au sort seront joués pour déterminer les "
+"classements des équipes."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:29
+msgid "Elimination Match"
+msgstr "Match d'élimination"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:32
+msgid "Robot Components"
+msgstr "Composantes du robot"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:35
+msgid "DC Motor"
+msgstr "Moteur à courant continu DC"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:35
+msgid ""
+"Open-loop :term:`RS-555 series <RS-550 Series Motor>` 12 volt motors used to"
+" power mechanisms. Max of 8."
+msgstr ""
+"Open-loop :term:`RS-555 series <RS-550 Series Motor>` 12 volt motors used to"
+" power mechanisms. Max of 8."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:38
+msgid "Servo"
+msgstr "Servomoteur"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:38
+msgid ""
+"Closed-loop :term:`servo-motors <Servo>` used for precise movement. "
+"Controlled by PWM signals. Max of 12."
+msgstr ""
+"Closed-loop :term:`servo-motors <Servo>` used for precise movement. "
+"Controlled by PWM signals. Max of 12."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:40
+msgid "Drivetrain (DT)"
+msgstr "Châssis (DT)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:41
+msgid "Mechanism responsible for the movement of the robot."
+msgstr "Mécanisme responsable pour le mouvement du robot. "
+
+#: ../../gm0/source/docs/know-your-lingo.rst:43
+msgid ""
+"Mechanism responsible for picking up game elements from the field by using "
+"rotational motion."
+msgstr ""
+"Mécanisme chargé de ramasser les éléments de jeu sur le terrain en utilisant"
+" un mouvement de rotation."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:45
+msgid "Claw"
+msgstr "Pince"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:46
+msgid "Mechanism responsible for picking up game elements by grasping."
+msgstr ""
+"Mécanisme responsable de la prise des éléments de jeu en les saisissant."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:48
+msgid "Linear Extension/Slide"
+msgstr "Extension linéaire/Glissière"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:48
+msgid ""
+"Mechanism responsible for extending parts beyond the starting configuration "
+"of the robot in a linear fashion."
+msgstr ""
+"Mécanisme responsable de l'extension de pièces au-delà de la configuration "
+"de départ du robot de manière linéaire."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:50
+msgid "Arm"
+msgstr "Bras"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:51
+msgid ""
+"Mechanism responsible for extending the reach of the robot through "
+"rotational motion or multi-axis movement."
+msgstr ""
+"Mécanisme responsable de l'extension de la portée du robot par mouvement "
+"rotatif ou mouvement à axes multiples."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:56
+msgid "REV Expansion Hub"
+msgstr "Expansion Hub REV "
+
+#: ../../gm0/source/docs/know-your-lingo.rst:53
+msgid ""
+"Hardware controller for the robot, connected to :term:`Robot Controller` "
+"phone. Controls 4 motor and encoders, 6 servos, and various sensors via "
+"digital, analog, and I2C ports. Maximum of 2 hubs."
+msgstr ""
+"Contrôleur matériel du robot, connecté au téléphone :term:`Robot "
+"Controller`. Contrôle 4 moteurs et encodeurs, 6 servos et divers capteurs "
+"via des ports numériques, analogiques et I2C. Maximum de 2 hubs."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:61
+msgid "REV Control Hub"
+msgstr "Control Hub REV "
+
+#: ../../gm0/source/docs/know-your-lingo.rst:59
+msgid ""
+"Integrated Expansion Hub + :term:`Robot Controller` phone. It serves many of"
+" the same purposes as the Expansion Hub but eliminates the need for a "
+":term:`Robot Controller` phone. 1 Expansion Hub may be used along side 1 "
+"Control Hub."
+msgstr ""
+"Hub d'Expansion intégré + téléphone :term:`Robot Controller`. Il remplit les"
+" mêmes fonctions que le Hub d'Expansion, mais ne nécessite pas de téléphone "
+":term:`Robot Controller`. 1 l'Expansion Hub peut être utilisé avec 1 Control"
+" Hub."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:64
+msgid "Driver Station (DS)"
+msgstr "Station de pilotage (DS)"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:64
+msgid ""
+"Android phone connected to the gamepad controller. Drivers interact with the"
+" DS phone to start/stop robot."
+msgstr ""
+"Téléphone Android connecté à la manette de jeu. Les conducteurs "
+"interagissent avec le téléphone DS pour démarrer/arrêter le robot."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:67
+msgid "Robot Controller"
+msgstr "Controleur de robot"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:67
+msgid ""
+"Android phone connected to the Expansion Hub. Connects to DS phone via WiFi-"
+"Direct."
+msgstr ""
+"Téléphone Android connecté au Expansion Hub. Se connecte au téléphone DS via"
+" Wi-FiDirect."
+
+#: ../../gm0/source/docs/know-your-lingo.rst:72
+msgid "Gamepad Controller"
+msgstr "Manette de jeu"
+
+#: ../../gm0/source/docs/know-your-lingo.rst:70
+msgid ""
+"An Xbox or PS4 style controller which the driver uses to control the robot "
+"during driver-control period. Maximum of 2."
+msgstr ""
+"Une manette de type Xbox ou PS4 que le pilote utilise pour contrôler le "
+"robot pendant la période de contrôle par le conducteur. Maximum de 2."

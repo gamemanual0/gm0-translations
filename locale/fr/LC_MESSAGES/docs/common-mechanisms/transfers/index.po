@@ -5,18 +5,35 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/index.rst:2
+msgid "Transfers"
+msgstr "Transferts "
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/index.rst:4
+msgid ""
+"It is useful to consider how items will be moved inside the robot from one "
+"mechanism to another. This is typically done with a \"transfer\", which "
+"moves something from one mechanism (such as an intake) to another (such as "
+"an arm on a deposit)."
+msgstr ""
+"Il est utile de considérer comment les éléments seront déplacés à "
+"l'intérieur du robot d'un mécanisme à un autre. Cela se fait généralement à "
+"l'aide d'un \"transfert\", qui déplace quelque chose d'un mécanisme (comme "
+"une prise) vers un autre (comme un bras pour un dépôt)."

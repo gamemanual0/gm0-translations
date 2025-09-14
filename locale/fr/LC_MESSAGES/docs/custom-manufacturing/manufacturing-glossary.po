@@ -7,18 +7,95 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:2
+msgid "Manufacturing Glossary"
+msgstr "Glossaire de la fabrication"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:5
+msgid "Laser Cutter"
+msgstr "Découpeur laser"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:7
+msgid ""
+"A laser cutter is a tool that uses a high-power laser to cut through sheet "
+"metal or similar material. The laser is guided by CNC to cut preprogrammed "
+"patterns into the sheet."
+msgstr ""
+"Un découpeur laser est un outil qui utilise un laser de forte puissance pour"
+" découper une feuille de métal ou un matériau similaire. Le laser est guidé "
+"par la commande numérique pour découper des motifs préprogrammés dans la "
+"tôle."
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:8
+msgid "Waterjet Cutter"
+msgstr "Découpeur à jet d'eau"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:10
+msgid ""
+"A waterjet cutter is a tool which cuts sheet metal and other materials via "
+"extremely high pressure water focused into a small stream. Waterjet cutters "
+"are commonly used in industrial fabrication and can follow preprogrammed "
+"instructions to cut patterns, similar to a CNC system."
+msgstr ""
+"Une découpeuse à jet d'eau est un outil qui découpe des tôles et d'autres "
+"matériaux à l'aide d'eau à très haute pression concentrée dans un petit "
+"courant. Les découpeurs à jet d'eau sont couramment utilisés dans la "
+"fabrication industrielle et peuvent suivre des instructions préprogrammées "
+"pour découper des modèles, à l'instar d'un système CNC."
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:11
+msgid "Standoff"
+msgstr "Entretoise"
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:13
+msgid ""
+"A standoff is a fastener with two threaded ends and usually has a hex "
+"profile to be used with a wrench. These ends are usually female threaded, "
+"meaning that they can have a screw threaded into them."
+msgstr ""
+"Une entretoise est une fixation à deux extrémités filetées, généralement "
+"dotée d'un profil hexagonal permettant de l'utiliser avec une clé. Ces "
+"extrémités sont généralement filetées femelles, ce qui signifie qu'une vis "
+"peut y être vissée."
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:15
+msgid ""
+"This is usually a more compact alternative to a long screw and spacers, and "
+"can be used to space things out as well as fasten them. Custom standoffs can"
+" be made out of hex stock, such as :term:`AndyMark Churro <Churro>`."
+msgstr ""
+"Il s'agit généralement d'une alternative plus compacte qu'une longue vis et "
+"des entretoises, et elle peut être utilisée pour espacer les objets ainsi "
+"que pour les fixer. Des supports personnalisés peuvent être fabriqués à "
+"partir d'hexagones, comme :term:`AndyMark Churro <Churro>`."
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst:17
+msgid ""
+"Standoffs are usually used in drivetrain purposes, such as in parallel plate"
+" drivetrains, where the plates must be separated and supported by standoffs "
+"at equal distances."
+msgstr ""
+"Les entretoises sont généralement utilisées dans les transmissions, par "
+"exemple dans les transmissions à plaques parallèles, où les plaques doivent "
+"être séparées et soutenues par des entretoises à des distances égales."
+
+#: ../../gm0/source/docs/custom-manufacturing/manufacturing-glossary.rst-1
+msgid "A couple of standoffr"
+msgstr "Un couple d'entretoises"

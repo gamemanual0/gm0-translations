@@ -5,19 +5,31 @@
 # 
 # Translators:
 # Martin Sorto-Ventura, 2025
-# Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 04:28+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/appendix/license.rst:2
+msgid "License"
+msgstr "License"
+
+#: ../../gm0/source/docs/appendix/license.rst:4
+msgid ""
+"Game Manual 0 is licensed under `CC BY-NC 2.0 "
+"<https://github.com/gamemanual0/gm0/blob/main/LICENSE>`_."
+msgstr ""
+"Game Manual 0 est sous licence `CC BY-NC 2.0 "
+"<https://github.com/gamemanual0/gm0/blob/main/LICENSE>`_."

@@ -9,18 +9,531 @@
 # Lyna Alem, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:5
+#: ../../gm0/source/docs/design-skills/cad.rst:13
+msgid "Computer-aided design (CAD)"
+msgstr "Conception assistée par ordinateur (CAO)"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:8
+msgid "Introduction"
+msgstr "Introduction"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:10
+msgid "Term"
+msgstr "Définition"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:15
+msgid ""
+"CAD is software most commonly used to aid the design and drafting of parts "
+"and assemblies in engineering. In FTC\\ |reg|, CAD is used to make 3D models"
+" of robots as well as design custom parts."
+msgstr ""
+"La CAO est un logiciel couramment utilisé pour faciliter la conception et le"
+" dessin de pièces et d'assemblages dans le domaine de l'ingénierie. En FTC, "
+"la CAO est utilisée pour créer des modèles 3D de robots et concevoir des "
+"pièces personnalisées."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:17
+msgid ""
+"**CAD is not necessary in FTC to build a successful robot.** Many successful"
+" teams didn't CAD their robot at all. Other successful teams only made parts"
+" of their robot in CAD. Still other teams fully designed their robot in CAD."
+msgstr ""
+"**La CAO n'est pas nécessaire en FTC pour construire un robot réussi.** De "
+"nombreuses équipes gagnantes n'ont pas du tout utilisé la CAO pour leur "
+"robot. D'autres équipes n'ont fait que des parties de leur robot en CAO. "
+"D'autres encore ont entièrement conçu leur robot en CAO."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:19
+msgid ""
+"So, what's the point of CAD, then? It is encouraged that new teams try their"
+" hand at CAD, especially if you have a mentor or parent who is experienced "
+"in such an area. CAD is beneficial for multiple reasons."
+msgstr ""
+"Alors, quel est l'intérêt de la CAO ? Les nouvelles équipes sont encouragées"
+" à s'essayer à la CAO, surtout si elles ont un mentor ou un parent qui a de "
+"l'expérience dans ce domaine. La CAO est bénéfique pour de multiples "
+"raisons."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:21
+msgid ""
+"CAD solves a lot of preventable headaches, such as spacing issues. Thus, it "
+"will save time when you discover problems in CAD that you can remediate "
+"before you build your robot."
+msgstr ""
+"La CAO permet de résoudre de nombreux problèmes évitables, tels que les "
+"problèmes d'espacement. Ainsi, vous gagnerez du temps lorsque vous "
+"découvrirez des problèmes dans la CAO auxquels vous pourrez remédier avant "
+"de construire votre robot."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:22
+msgid ""
+"CAD is a professional tool that is used in many STEM fields. Having CAD "
+"knowledge and skills will be beneficial in your future career, should you "
+"study and work in those fields."
+msgstr ""
+"La CAO est un outil professionnel utilisé dans de nombreux domaines des "
+"STIM. Avoir des connaissances et des compétences en CAO sera bénéfique pour "
+"votre future carrière, si vous étudiez et travaillez dans ces domaines."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:23
+msgid ""
+"If you desire to create 3D-printed or machined parts, CAD will be necessary "
+"to do so."
+msgstr ""
+"Si vous souhaitez créer des pièces imprimées en 3D ou usinées, la CAO sera "
+"nécessaire."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:24
+msgid ""
+"CAD can reduce the cost of building a robot by helping to determine which "
+"parts you need for a robot before actually spending the money to buy those "
+"parts."
+msgstr ""
+"La CAO peut réduire le coût de construction d'un robot en aidant à "
+"déterminer les pièces dont vous avez besoin pour le robot avant de dépenser "
+"l'argent pour acheter ces pièces."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:26
+msgid ""
+"**However, CAD is not the magic genie that will guarantee you success in "
+"FTC.** When used properly, it is a great tool to aid teams in building their"
+" robot. Keep in mind, though, that many teams have had success without CAD."
+msgstr ""
+"**Cependant, la CAO n'est pas le génie magique qui vous garantira le succès "
+"en FTC.** Lorsqu'elle est utilisée correctement, c'est un outil formidable "
+"pour aider les équipes à construire leur robot. N'oubliez pas, cependant, "
+"que de nombreuses équipes ont réussi sans CAO."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:28
+msgid ""
+"Starting off, choose a CAD program and learn it as well as possible. It may "
+"be a good idea to spend a few weeks just finding objects lying around, sit "
+"down with a ruler or calipers, and make a quick CAD model. A good way to "
+"test accuracy is to choose a solid object made up of one known material. "
+"Weigh the object and make the model in CAD, apply that material to it, and "
+"see what the weight difference is. This is a good way to test how accurate "
+"the CAD model is to the real part. It really doesn't matter what object it "
+"is - just find something and make it to the best of your abilities. There "
+"are also tons of videos on YouTube; a good one is TFI who makes detailed "
+"tutorials for Autodesk Inventor."
+msgstr ""
+"Pour commencer, choisissez un programme de CAO et apprenez-le aussi bien que"
+" possible. Il peut être judicieux de passer quelques semaines à trouver des "
+"objets qui traînent, de s'asseoir avec une règle ou un pied à coulisse et de"
+" réaliser un modèle CAO rapide. Un bon moyen de tester la précision consiste"
+" à choisir un objet solide composé d'un matériau connu. Pesez l'objet, "
+"réalisez le modèle en CAO, appliquez-y le matériau en question et voyez "
+"quelle est la différence de poids. C'est un bon moyen de tester la précision"
+" du modèle CAO par rapport à la pièce réelle. Peu importe l'objet, il suffit"
+" de trouver quelque chose et de le fabriquer au mieux de ses capacités. Il "
+"existe également des tonnes de vidéos sur YouTube ; un bon exemple est celui"
+" de TFI, qui réalise des tutoriels détaillés pour Autodesk Inventor."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:31
+msgid "Overview of CAD Programs"
+msgstr "Aperçu des programmes de CAD"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:33
+msgid ""
+"There are many possible CAD programs that teams can learn, all of which can "
+"be downloaded for free under a student or FTC team license. You'll have to "
+"do a bit of research here, as the requirements for free copies vary based on"
+" the program. Here are a couple suggestions to consider:"
+msgstr ""
+"Il existe de nombreux programmes de CAO que les équipes peuvent apprendre et"
+" qui peuvent tous être téléchargés gratuitement sous une licence d'étudiant "
+"ou d'équipe FTC. Vous devrez faire quelques recherches à ce sujet, car les "
+"conditions d'obtention de copies gratuites varient en fonction du programme."
+" Voici quelques suggestions à prendre en considération :"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:36
+msgid "`Onshape <https://www.onshape.com/en/education/>`_"
+msgstr "`Onshape <https://www.onshape.com/en/education/>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:38
+msgid ""
+"A fully-featured CAD package, but it runs entirely in the cloud. It can run "
+"on any computer (even Chromebooks!) and has iOS, iPadOS, and Android apps as"
+" well."
+msgstr ""
+"Un logiciel de CAO complet, mais qui fonctionne entièrement dans le nuage "
+"informatique. Il peut fonctionner sur n'importe quel ordinateur (même les "
+"Chromebooks !) et dispose également d'applications iOS, iPadOS et Android."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:40
+msgid ""
+"It has all of the same core features as SolidWorks and Inventor, as well as "
+"the best collaboration workflow in the industry - many people call it \"the "
+"Google Docs of CAD.\" Onshape allows multiple people to work on the same "
+"document at the same time, and allows users to \"follow\" each other and see"
+" what's on another user's screen."
+msgstr ""
+"Il possède toutes les mêmes fonctionnalités de base que SolidWorks et "
+"Inventor, ainsi que le meilleur flux de travail collaboratif de l'industrie "
+"- de nombreuses personnes l'appellent \"le Google Docs de la CAO\". Onshape "
+"permet à plusieurs personnes de travailler sur le même document en même "
+"temps, et permet aux utilisateurs de se \"suivre\" mutuellement et de voir "
+"ce qui se passe sur l'écran d'un autre utilisateur."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:42
+msgid ""
+"OnShape also has FeatureScript, a programming language where you can write "
+"custom features. The community has created a lot of very useful "
+"FeatureScripts already which you can use completely for free."
+msgstr ""
+"OnShape dispose également de FeatureScript, un langage de programmation qui "
+"permet d'écrire des fonctionnalités personnalisées. La communauté a déjà "
+"créé de nombreux FeatureScripts très utiles que vous pouvez utiliser "
+"gratuitement."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:44
+msgid ""
+"Onshape also has a comprehensive tutorial system (https://learn.onshape.com)"
+" that will not only teach you how to use their software, but how to approach"
+" design problems."
+msgstr ""
+"Onshape dispose également d'un système de tutorat complet "
+"(https://learn.onshape.com) qui vous apprendra non seulement à utiliser le "
+"logiciel, mais aussi à aborder les problèmes de conception."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:46
+msgid ""
+"If you're just starting out with CAD, or you don't have access to powerful "
+"computers, Onshape is the software for you."
+msgstr ""
+"Si vous débutez dans la CAD ou si vous n'avez pas accès à des ordinateurs "
+"puissants, Onshape est le logiciel qu'il vous faut."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:49
+msgid ""
+"`SolidWorks "
+"<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
+msgstr ""
+"`SolidWorks "
+"<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:51
+msgid ""
+"An industry standard CAD package made by Dassault Syst\\ |egrave|\\ mes. "
+"It's as fully featured as CAD software gets, including great simulation "
+"features and a very robust assembly environment. It's used widely in "
+"industry and is also the program of choice for most college-level "
+"engineering classes."
+msgstr ""
+"Il s'agit d'un logiciel de CAD standard fabriqué par Dassault Syst\\ "
+"|egrave|\\ mes. Il s'agit d'un logiciel de CAD aussi complet que possible, "
+"qui comprend d'excellentes fonctions de simulation et un environnement "
+"d'assemblage très robuste. Il est largement utilisé dans l'industrie et "
+"constitue également le programme de choix pour la plupart des cours "
+"d'ingénierie au niveau universitaire."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:53
+msgid ""
+"However, **it isn't available for Mac users**, and you'll need a pretty "
+"beefy computer to run it (16GB RAM is standard). SolidWorks also comes with "
+"a solid simulation program if you wish to test the structural properties of "
+"your robot or a custom-designed part."
+msgstr ""
+"Cependant, **il n'est pas disponible pour les utilisateurs de Mac**, et vous"
+" aurez besoin d'un ordinateur assez puissant pour le faire fonctionner (16 "
+"Go de RAM en standard). SolidWorks est également livré avec un programme de "
+"simulation des solides si vous souhaitez tester les propriétés structurelles"
+" de votre robot ou d'une pièce conçue sur mesure."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:55
+msgid ""
+"If you have mentors or team members with previous experience in SolidWorks "
+"or an engineering class at your school that teaches SolidWorks, it will be "
+"your best choice."
+msgstr ""
+"Si vous avez des mentors ou des membres de l'équipe qui ont déjà une "
+"expérience de SolidWorks ou un cours d'ingénierie dans votre école qui "
+"enseigne SolidWorks, ce sera votre meilleur choix."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:58
+msgid "`Inventor <https://www.autodesk.com/education/edu-software/overview>`_"
+msgstr ""
+"`Inventor <https://www.autodesk.com/education/edu-software/overview>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:60
+msgid ""
+"Autodesk's industrial CAD offering. It offers many similar features to "
+"SolidWorks, but has a different UI and three distinct assembly modes."
+msgstr ""
+"L'offre de CAD industrielle d'Autodesk. Elle offre de nombreuses "
+"fonctionnalités similaires à celles de SolidWorks, mais dispose d'une "
+"interface utilisateur différente et de trois modes d'assemblage distincts."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:62
+msgid ""
+"While it's used by many companies in the industry, it doesn't appear in very"
+" many college curriculums. Inventor is generally the second choice for "
+"companies who don't use SolidWorks but instead are based around the Autodesk"
+" universe."
+msgstr ""
+"Bien qu'il soit utilisé par de nombreuses entreprises du secteur, il ne "
+"figure pas dans beaucoup de programmes d'études universitaires. Inventor est"
+" généralement le deuxième choix pour les entreprises qui n'utilisent pas "
+"SolidWorks mais sont plutôt basées sur l'univers Autodesk."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:64
+msgid ""
+"**Inventor is also not available for Mac**, but it may run better on lower-"
+"spec PCs."
+msgstr ""
+"**Inventor n'est pas non plus disponible pour Mac**, mais il fonctionnera "
+"peut-être mieux sur des PC moins performants."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:66
+msgid ""
+"If you have mentors or team members with previous experience in Inventor or "
+"an engineering class at your school that teaches Inventor, it will be your "
+"best choice."
+msgstr ""
+"Si vous avez des mentors ou des membres de l'équipe qui ont déjà une "
+"expérience d'Inventor ou si vous avez une classe d'ingénierie dans votre "
+"école qui enseigne Inventor, ce sera votre meilleur choix."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:71
+msgid ""
+"`Fusion 360 <https://www.autodesk.com/education/edu-software/overview>`_"
+msgstr ""
+"`Fusion 360 <https://www.autodesk.com/education/edu-software/overview>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:73
+msgid ""
+"A cloud-based all-in-one CAD/CAM package, also made by Autodesk. Fusion 360 "
+"is cross platform compatible, although it doesn't run very well on low-spec "
+"computers."
+msgstr ""
+"Un logiciel de CAO/FAO tout-en-un basé sur le nuage informatique, également "
+"fabriqué par Autodesk. Fusion 360 est compatible avec toutes les "
+"plateformes, bien qu'il ne fonctionne pas très bien sur les ordinateurs de "
+"faible puissance."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:75
+msgid ""
+"It has a powerful CAM environment for machining your parts, and it has "
+"intuitive and easy cloud rendering that gives the heavy lifting to "
+"Autodesk's servers. To maintain a simpler UI, Fusion skips out on a lot of "
+"the more advanced features found in SolidWorks and Inventor, although this "
+"isn't really much of a problem."
+msgstr ""
+"Il dispose d'un puissant environnement de FAO pour l'usinage de vos pièces "
+"et d'un rendu intuitif et facile dans le nuage informatique qui confie le "
+"gros du travail aux serveurs d'Autodesk. Pour conserver une interface "
+"utilisateur plus simple, Fusion ne dispose pas d'un grand nombre de "
+"fonctionnalités plus avancées que l'on trouve dans SolidWorks et Inventor, "
+"mais ce n'est pas vraiment un problème."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:77
+msgid ""
+"However, a more noteworthy difference is that Fusion ignores every single "
+"industry standard, creating its own structure and organizational system. "
+"Beyond simple sketches and extrude features, Fusion's modeling and assembly "
+"system is unique and not compatible with any other CAD software, making it "
+"hard to switch away from Fusion."
+msgstr ""
+"Cependant, la différence la plus notable est que Fusion ignore toutes les "
+"normes industrielles et crée sa propre structure et son propre système "
+"d'organisation. Au-delà des simples esquisses et des fonctions d'extrusion, "
+"le système de modélisation et d'assemblage de Fusion est unique et n'est "
+"compatible avec aucun autre logiciel de CAD, ce qui fait qu'il est difficile"
+" de se passer de Fusion."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:79
+msgid ""
+"Because of this, if you aren't careful, Fusion's file hierarchy can actively"
+" encourage bad design habits and discourages reusability by allowing users "
+"to create new parts without designing them individually first."
+msgstr ""
+"C'est pourquoi, si vous n'y prenez pas garde, la hiérarchie des fichiers de "
+"Fusion peut encourager activement les mauvaises habitudes de conception et "
+"décourager la réutilisation en permettant aux utilisateurs de créer de "
+"nouvelles pièces sans les concevoir d'abord individuellement."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:81
+msgid ""
+"If one is careful to follow good design practices, Fusion is a solid option."
+msgstr ""
+"Si l'on veille à respecter les bonnes pratiques de conception, Fusion est "
+"une option solide."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:84
+msgid ""
+"`Creo (formerly known as Pro/E) <https://www.ptc.com/en/education/free-"
+"software/creo-standalone-educator>`_"
+msgstr ""
+"`Creo (formerly known as Pro/E) <https://www.ptc.com/en/education/free-"
+"software/creo-standalone-educator>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:86
+msgid ""
+"A family of CAD/CAM applications developed by PTC (Parametric Technology "
+"Corporation). Creo parametric is the main CAD package that includes robust "
+"assembly and part modeling similar to Solidworks."
+msgstr ""
+"Famille d'applications de CAD/FAO développée par PTC (Parametric Technology "
+"Corporation). Creo parametric est le principal logiciel de CAD qui comprend "
+"des fonctions robustes d'assemblage et de modélisation de pièces similaires "
+"à celles de Solidworks."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:88
+msgid ""
+"The main advantage of Creo compared to other CAD software is the complex "
+"part relations and constraints, however, most new users find this aspect "
+"difficult to grasp completely. The Creo package includes an integrated local"
+" rendering engine and thorough simulation system. The rendering engine can "
+"be used to create photo-realistic renders of anything between single-part "
+"simple to multi-component complex designs. Design enhancements can be "
+"directly integrated into parts from materials/geometry simulations in Creo "
+"Simulate."
+msgstr ""
+"Le principal avantage de Creo par rapport à d'autres logiciels de CAD réside"
+" dans les relations et les contraintes complexes entre les pièces, mais la "
+"plupart des nouveaux utilisateurs ont du mal à saisir complètement cet "
+"aspect. Le logiciel Creo comprend un moteur de rendu local intégré et un "
+"système de simulation complet. Le moteur de rendu peut être utilisé pour "
+"créer des rendus photoréalistes de n'importe quel type de conception, qu'il "
+"s'agisse de pièces simples ou de conceptions complexes à plusieurs "
+"composants. Les améliorations apportées à la conception peuvent être "
+"directement intégrées aux pièces à partir de simulations de "
+"matériaux/géométrie dans Creo Simulate."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:90
+msgid ""
+"Creo has many features, but the general 80-20 rule applies - 20% of the "
+"features will create 80% of the designs. The Creo package also includes a "
+"version based file sharing system called Windchill which most professional "
+"companies use, but for FTC purposes Grabcad will suffice."
+msgstr ""
+"Creo possède de nombreuses fonctionnalités, mais la règle générale des 80-20"
+" s'applique - 20 % des fonctionnalités créeront 80 % des conceptions. "
+"L'ensemble Creo comprend également un système de partage de fichiers basé "
+"sur les versions, appelé Windchill, que la plupart des entreprises "
+"professionnelles utilisent, mais pour les besoins en FTC, Grabcad suffira."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:92
+msgid ""
+"Learning Creo can be more of a challenge than other CAD software, because of"
+" the limited available tutorials online in addition to the complex relations"
+" and constraints structure. Our recommendation is to learn Creo from someone"
+" who already has experience with the software."
+msgstr ""
+"L'apprentissage de Creo peut s'avérer plus difficile que celui d'autres "
+"logiciels de CAO, en raison du nombre limité de tutoriels disponibles en "
+"ligne et de la structure complexe des relations et des contraintes. Nous "
+"vous recommandons d'apprendre Creo avec quelqu'un qui a déjà de l'expérience"
+" avec le logiciel."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:94
+msgid ""
+"College-level engineering classes as well as numerous companies in the "
+"automotive, aerospace and consumer industry use Creo. Since Creo makes use "
+"of Windows OS file system it will not run on Mac. However, a Windows "
+"emulator can be installed to run Creo on Mac."
+msgstr ""
+"Des classes d'ingénieurs de niveau universitaire ainsi que de nombreuses "
+"entreprises des secteurs de l'automobile, de l'aérospatiale et des biens de "
+"consommation utilisent Creo. Comme Creo utilise le système de fichiers du "
+"système d'exploitation Windows, il ne fonctionnera pas sur Mac. Toutefois, "
+"un émulateur Windows peut être installé pour faire fonctionner Creo sur Mac."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:97
+msgid "Getting Parts"
+msgstr "Obtention de pièces"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:99
+msgid ""
+"All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models "
+"of the parts they sell in STEP format, which can be imported by any of the "
+"CAD programs above. Some vendors also offer repositories or zip files "
+"containing :term:`STEP file` of all the models they sell."
+msgstr ""
+"Tous les fournisseurs (REV, goBILDA, Actobotics, AndyMark, Tetrix) "
+"fournissent des modèles 3D des pièces qu'ils vendent au format STEP, qui "
+"peuvent être importés par n'importe lequel des programmes de CAO ci-dessus. "
+"Certains fournisseurs proposent également des référentiels ou des fichiers "
+"zip contenant :term:`STEP file` de tous les modèles qu'ils vendent."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:101
+msgid "Vendor CAD Libraries"
+msgstr "Bibliothèques des fournisseurs CAD"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:103
+msgid ""
+"`Actobotics (ServoCity) "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_"
+msgstr ""
+"`Actobotics (ServoCity) "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:105
+msgid ""
+"`10650 Hazmat Robotics CAD Library + MiSUMI Parts "
+"<https://grabcad.com/library/ftc-cad-files-w-misumi-parts-1>`_"
+msgstr ""
+"`10650 Hazmat Robotics CAD Library + MiSUMI Parts "
+"<https://grabcad.com/library/ftc-cad-files-w-misumi-parts-1>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:106
+msgid ""
+"`FTC Onshape Parts Library (contains a majority of parts from most major "
+"vendors) <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_"
+msgstr ""
+"`FTC Onshape Parts Library (contient une majorité de pièces de la plupart "
+"des grands fournisseurs) <https://ftconshape.com/introduction-to-the-ftc-"
+"parts-library/>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:109
+msgid "File sharing"
+msgstr "Partage de fichiers"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:111
+msgid ""
+"Teams often have multiple members working on CAD models, and thus require a "
+"file sharing system for ensuring that each person has up-to-date files. Some"
+" recommendations include GrabCAD, Box, Google Drive, or Dropbox."
+msgstr ""
+"Les équipes comptent souvent plusieurs membres travaillant sur des modèles "
+"de CAO et ont donc besoin d'un système de partage de fichiers pour s'assurer"
+" que chaque personne dispose de fichiers à jour. Nous recommandons notamment"
+" GrabCAD, Box, Google Drive ou Dropbox."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:113
+msgid ""
+"It is also a good idea that one team member work on the model at a time to "
+"prevent confusion."
+msgstr ""
+"Il est également souhaitable qu'un seul membre de l'équipe travaille sur le "
+"modèle à la fois afin d'éviter toute confusion."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:116
+msgid "Useful Resources"
+msgstr "Ressources utiles"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:118
+msgid ""
+"More CAD resources can be found in the :ref:`CAD section of the Useful "
+"Resources page <useful-resources-cad>`."
+msgstr ""
+"D'autres ressources CAO sont disponibles dans la section :ref:`CAD de la "
+"page Ressources utiles <useful-resources-cad>`."

@@ -7,18 +7,168 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-13 04:40+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/start-here.rst:2
+msgid "Start Here"
+msgstr "Commencer ici"
+
+#: ../../gm0/source/docs/start-here.rst:12
+msgid "Useful Resources"
+msgstr "Ressources utiles"
+
+#: ../../gm0/source/docs/start-here.rst:14
+msgid ""
+"A list of useful resources and accompanying descriptions, with especially "
+"pertinent ones marked."
+msgstr ""
+"Liste de ressources utiles et descriptions correspondantes, avec indication "
+"des ressources les plus pertinentes."
+
+#: ../../gm0/source/docs/start-here.rst:20
+msgid "Being a Team"
+msgstr "Être une équipe"
+
+#: ../../gm0/source/docs/start-here.rst:22
+msgid "Covers how to start, organize, and run an effective team."
+msgstr ""
+"Couvre la façon de créer, d'organiser et de diriger une équipe efficace."
+
+#: ../../gm0/source/docs/start-here.rst:25
+msgid "Hardware"
+msgstr "Matériel"
+
+#: ../../gm0/source/docs/start-here.rst:35
+msgid "Design Strategy"
+msgstr "Stratégie de conception"
+
+#: ../../gm0/source/docs/start-here.rst:37
+msgid "A list of general tips for your team's design process."
+msgstr ""
+"Une liste de conseils généraux pour le processus de conception de votre "
+"équipe."
+
+#: ../../gm0/source/docs/start-here.rst:43
+msgid "Design Tradeoffs"
+msgstr "Compromis de conception"
+
+#: ../../gm0/source/docs/start-here.rst:45
+msgid ""
+"Goes over some common robot design decisions and typically superior "
+"alternatives to them."
+msgstr ""
+"Passe en revue certaines décisions courantes en matière de conception de "
+"robots et les solutions de rechange typiquement supérieures."
+
+#: ../../gm0/source/docs/start-here.rst:51
+msgid "Drivetrains"
+msgstr "Châssis"
+
+#: ../../gm0/source/docs/start-here.rst:53
+msgid ""
+"Because it doesn't matter how good the rest of your mechanisms are if the "
+"robot cannot get to where it needs to be (except maybe if you're 8813 in "
+"Relic Recovery)."
+msgstr ""
+"Car peu importe la qualité du reste de vos mécanismes si le robot ne peut "
+"pas se rendre là où il doit être (sauf peut-être si vous êtes 8813 en Relic "
+"Recovery)."
+
+#: ../../gm0/source/docs/start-here.rst:61
+msgid "Because you want to be able to pick stuff up. Touch it, own it."
+msgstr ""
+"Parce que vous voulez pouvoir prendre les choses en main. Les toucher, se "
+"les approprier."
+
+#: ../../gm0/source/docs/start-here.rst:67
+msgid "Linear Motion Guide"
+msgstr "Guide du mouvement linéaire"
+
+#: ../../gm0/source/docs/start-here.rst:69
+msgid ""
+"Moving things further than the constraints of the robot is an extremely "
+"common task, and linear motion is often one of the best ways to do this."
+msgstr ""
+"Déplacer des objets au-delà des contraintes du robot est une tâche "
+"extrêmement courante, et le mouvement linéaire est souvent l'un des "
+"meilleurs moyens d'y parvenir."
+
+#: ../../gm0/source/docs/start-here.rst:75
+msgid "Power Transmission"
+msgstr "Transmission de puissance"
+
+#: ../../gm0/source/docs/start-here.rst:77
+msgid "Different ways to get rotation from point A to point B."
+msgstr "Différentes façons d'obtenir une rotation d'un point A à un point B."
+
+#: ../../gm0/source/docs/start-here.rst:80
+msgid "Programming/Control System"
+msgstr "Système de programmation/contrôle"
+
+#: ../../gm0/source/docs/start-here.rst:91
+msgid "Options for Programming"
+msgstr "Options de programmation"
+
+#: ../../gm0/source/docs/start-here.rst:93
+msgid "Because without programming, the robot is just an expensive brick."
+msgstr "Car sans programmation, le robot n'est qu'une brique coûteuse."
+
+#: ../../gm0/source/docs/start-here.rst:99
+msgid "Control Systems"
+msgstr "Systèmes de contrôle"
+
+#: ../../gm0/source/docs/start-here.rst:101
+msgid ""
+"Because without a control system, the robot is just a (significantly less) "
+"expensive brick."
+msgstr ""
+"En effet, sans système de contrôle, le robot n'est qu'une brique (nettement "
+"moins chère)."
+
+#: ../../gm0/source/docs/start-here.rst:107
+msgid "Wiring Guide"
+msgstr "Guide de câblage"
+
+#: ../../gm0/source/docs/start-here.rst:109
+msgid "Because disconnects are no fun."
+msgstr "Parce que les déconnexions ne sont pas amusantes."
+
+#: ../../gm0/source/docs/start-here.rst:115
+msgid "Programming Tutorial - Mecanum Drivetrain"
+msgstr "Tutoriel de programmation - Moteurs Mecanum"
+
+#: ../../gm0/source/docs/start-here.rst:117
+msgid ""
+"Because mecanum wheels without the right code are some very expensive "
+"questionable quality traction wheels."
+msgstr ""
+"En effet, les roues Mécanum sans le bon code sont des roues de traction très"
+" chères et de qualité douteuse."
+
+#: ../../gm0/source/docs/start-here.rst:123
+msgid "Computer Vision"
+msgstr "Vision par ordinateur"
+
+#: ../../gm0/source/docs/start-here.rst:125
+msgid ""
+"Explains the different common computer vision systems and how to use them "
+"(hopefully this doesn't end with a robot uprising)."
+msgstr ""
+"Explique les différents systèmes courants de vision par ordinateur et "
+"comment les utiliser (en espérant que cela ne se termine pas par un "
+"soulèvement des robots)."

@@ -5,18 +5,102 @@
 # 
 # Translators:
 # Sara Kaidi, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-13 04:50+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Sara Kaidi, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:4
+msgid "Lead Screws"
+msgstr "Système vis-écrou"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:6
+msgid ""
+"Lead screws use a threaded rod to create high-torque linear motion. Their "
+"primary advantage is being able to handle much higher loads than other "
+"unmodified kit options. While this option was popularized in Rover Ruckus "
+"for hanging robots, variations have been in use since as far back as Res-Q. "
+"Another use case for lead screws is to change the angle of an arm platform, "
+"though this is more common in FRC\\ |reg|. However, this ability to handle "
+"high loads comes at a cost: lead screws are extremely slow."
+msgstr ""
+"Les système vis-écrou utilisent une tige filetée pour créer un mouvement "
+"linéaire à couple élevé. Leur principal avantage est de pouvoir supporter "
+"des charges beaucoup plus élevées que d'autres options de kit non modifiées."
+" Cette option a été popularisée par Rover Ruckus pour les robots suspendus, "
+"mais des variantes sont utilisées depuis Res-Q. Un autre cas d'utilisation "
+"vis-écrou est la modification de l'angle d'une plate-forme de bras, bien que"
+" cela soit plus courant en FRC. Toutefois, cette capacité à supporter des "
+"charges élevées a un coût : les vis à plomb sont extrêmement lentes."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:8
+msgid ""
+"By far the most popular lead screw option is the `ServoCity Linear Actuator "
+"kit <https://www.servocity.com/linear-actuator-kit-a-7-4-stroke-x-rail-"
+"piston/>`_. Overall, this kit is lightweight, simple, and cheap. It can be a"
+" good start for teams using REV and needing a linear extension, and is "
+"generally usable out of the box."
+msgstr ""
+"Le kit d'actionneur linéaire ServoCity <https://www.servocity.com/linear-"
+"actuator-kit-a-7-4-stroke-x-rail-piston/>`_ est de loin l'option la plus "
+"populaire. Dans l'ensemble, ce kit est léger, simple et bon marché. Il peut "
+"constituer un bon point de départ pour les équipes utilisant REV et ayant "
+"besoin d'une extension linéaire, et il est généralement utilisable dès sa "
+"sortie de l'emballage."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:11
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:13
+msgid "Easy way for high-load, high-torque applications"
+msgstr ""
+"Une solution simple pour les applications à forte charge et à couple élevé"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:14
+msgid "Compact form factor"
+msgstr "Facteur de forme compact"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:15
+msgid "Typically only requires one motor"
+msgstr "Ne nécessite généralement qu'un seul moteur"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:18
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:20
+msgid "Not for quick linear extensions"
+msgstr "Pas pour les extensions linéaires rapides"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:21
+msgid "High torque translates to slow extension speed"
+msgstr "Un couple élevé se traduit par une vitesse d'extension lente"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst-1
+msgid "A lead screw with the object that rides It"
+msgstr "Une vis sans fin avec l'objet qui la chevauche"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:29
+msgid "A render of 11115's Rover Ruckus hang mechanism, using lead screws"
+msgstr ""
+"Un rendu du mécanisme d'accrochage du Rover Ruckus de 11115, utilisant des "
+"système vis-écrou."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/lead-screws.rst:29
+msgid "11115 Gluten Free, Rover Ruckus, Actobotics lead screw used for hang"
+msgstr ""
+"11115 Sans gluten, Rover Ruckus, Actobotics système vis-écrou utilisée pour "
+"l'accrochage"

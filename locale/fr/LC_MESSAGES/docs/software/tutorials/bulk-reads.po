@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-12 16:27+0000\n"
+"POT-Creation-Date: 2025-09-14 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Josue Jimenez, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -20,3 +20,139 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:4
+msgid "Bulk Reads"
+msgstr "Bulk Reads"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:6
+msgid ""
+"Bulk reads are a LynxCommand that reads all sensor values (except I2C) on a "
+"hub at once. This takes the same amount of time to execute as any other "
+"LynxCommand, and can therefore save a lot of time in the execution loop; "
+"with a bulk read, reading ten sensors takes as much time as reading one "
+"sensor (if they are not I2C and are on the same hub)."
+msgstr ""
+"Les \"Bulk reads\" sont une LynxCommand qui lit toutes les valeurs des "
+"capteurs (sauf I2C) sur un hub en une seule fois. Cela prend le même temps "
+"d'exécution que n'importe quelle autre LynxCommand, et peut donc sauver "
+"beaucoup de temps dans la boucle d'exécution ; avec une lecture en bloc, la "
+"lecture de dix capteurs prend autant de temps que la lecture d'un seul "
+"capteur (s'ils ne sont pas I2C et se trouvent sur le même hub)."
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:8
+msgid ""
+"This became much simpler to do with SDK versions 5.4 and above, with a "
+"built-in way to easily access it. Here is `the official example "
+"<https://github.com/first-tech-"
+"challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java>`_"
+" on how to use bulk reads."
+msgstr ""
+"Cela est devenu beaucoup plus simple à faire avec les versions 5.4 et "
+"supérieures du SDK, avec un moyen intégré d'y accéder facilement. Voici "
+"l'exemple officiel <https://github.com/first-tech-"
+"challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java>`_"
+" sur la façon d'utiliser les Bulk reads."
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:11
+msgid "Off Mode"
+msgstr "Off Mode"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:13
+msgid ""
+"This is the default, and the most boring; it means bulk reads are not used "
+"by the SDK when calling normal hardware-access methods."
+msgstr ""
+"C'est la valeur par défaut, et la plus ennuyeuse ; elle signifie que les "
+"Bulk reads ne sont pas utilisées par le SDK lors de l'appel des méthodes "
+"normales d'accès au matériel."
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:15
+msgid ""
+"Bulk reads can still be accessed by calling the "
+"``LynxModule.getBulkInputData()`` method, however if one wishes to use bulk "
+"reads (which we highly recommend) using ``AUTO`` or ``MANUAL`` modes is "
+"simpler."
+msgstr ""
+"Les Bulk reads sont toujours accessibles en appelant la méthode "
+"``LynxModule.getBulkInputData()``, cependant si l'on souhaite utiliser les "
+"Bulk reads (ce que nous recommandons fortement) il est plus simple "
+"d'utiliser les modes ``AUTO`` ou ``MANUAL``."
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:17
+msgid "To manually set ``OFF`` mode, you need to run ::"
+msgstr "Pour activer manuellement le mode ``OFF``, vous devez lancer : :"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:26
+msgid "Auto Mode"
+msgstr "Mode Auto"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:28
+msgid ""
+"This is the simplest mode to use that utilizes bulk reads; a new bulk read "
+"is done when a hardware read is repeated. As an example of this ::"
+msgstr ""
+"C'est le mode le plus simple à utiliser pour les Bulk reads ; une nouvelle "
+"Bulk reads est effectuée lorsqu'une lecture matérielle est répétée. En voici"
+" un exemple : :"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:46
+msgid ""
+"However, this can be problematic, if the same hardware read is called more "
+"than once in a given loop; an example of this ::"
+msgstr ""
+"Cependant, cela peut être problématique si la même lecture matérielle est "
+"appelée plus d'une fois dans une boucle donnée ; un exemple de ceci : :"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:61
+msgid ""
+"Overall, this is recommended, as it is very unlikely to mess anything up and"
+" can give significant performance improvements for little effort. On the "
+"user side, one does not need to manually flush the bulk read cache; however,"
+" this means you lose some control."
+msgstr ""
+"En général, cette méthode est recommandée, car il est très peu probable "
+"qu'elle provoque des problèmes et qu'elle permette d'améliorer "
+"considérablement les performances pour un effort minime. Du côté de "
+"l'utilisateur, il n'est pas nécessaire de vider manuellement le cache de "
+"Bulk reads ; cependant, cela signifie que vous perdez un certain contrôle."
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:64
+msgid "Manual Mode"
+msgstr "Mode manuel"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:66
+msgid ""
+"In manual mode the cache for bulk reads is only reset once manually reset. "
+"This can be useful, as it is the way to absolutely minimize extraneous "
+"reads, however if the cache is not reset, stale values will be returned. "
+"That being said, here's a proper implementation of ``MANUAL`` mode ::"
+msgstr ""
+"En mode manuel, le cache des Bulk reads n’est réinitialisé que lorsqu’on le "
+"fait manuellement. Cela peut être utile, car c’est la méthode la plus "
+"efficace pour minimiser les lectures superflues. Toutefois, si le cache "
+"n’est pas réinitialisé, des valeurs obsolètes seront renvoyées. Ceci étant "
+"dit, voici une implémentation correcte du mode ``MANUEL`` : :"
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:87
+msgid ""
+"When in ``MANUAL`` mode, if the cache is not cleared appropriately, stale "
+"values will be returned. For that reason, if you are not quite sure what you"
+" are doing, we recommend ``AUTO`` mode; while ``MANUAL`` mode can have some "
+"performance improvements if ``AUTO`` mode is not used optimally, it has less"
+" room for catastrophic error."
+msgstr ""
+"En mode ``MANUEL'', si le cache n'est pas vidé de façon appropriée, des "
+"Valeurs obsolètes seront retournées. Pour cette raison, si vous n'êtes pas "
+"tout à fait sûr de ce que vous faites, nous recommandons le mode ``AUTO`` ; "
+"bien que le mode ``MANUEL`` puisse améliorer les performances si le mode "
+"``AUTO`` n'est pas utilisé de manière optimale, il y a moins de place pour "
+"des erreurs catastrophiques."
+
+#: ../../gm0/source/docs/software/tutorials/bulk-reads.rst:89
+msgid ""
+"Bulk reads are issued per hub, so you don't necessarily need to bulk read "
+"both hubs at the same time or every loop."
+msgstr ""
+"Les Bulk reads sont effectuées par hub, vous n'avez donc pas nécessairement "
+"besoin de lire en bloc les deux hub en même temps ou à chaque boucle."
