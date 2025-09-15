@@ -6,15 +6,16 @@
 # Translators:
 # Nathalie bambelle kambanck, 2025
 # Lyna Alem, 2025
+# Martin Sorto-Ventura, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 16:29+0000\n"
+"POT-Creation-Date: 2025-09-15 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Lyna Alem, 2025\n"
+"Last-Translator: Martin Sorto-Ventura, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +49,7 @@ msgid ""
 "build mechanisms entirely from kit parts."
 msgstr ""
 "Le kit Actobotics de ServoCity (https://www.servocity.com/actobotics) est un"
-" kit à pas fixe, basé sur les canaux<Channel>Construction de systèmes "
+" kit à pas fixe, basé sur les profilés<Channel>Construction de systèmes "
 "utilisant des unités impériales. Ce sont des systèmes utilisant des profilés"
 " de 1,5\" :term:`c-channel<Channel>` et :term:` des roulements à billesLe "
 "système de mouvement basé sur <Ball Bearing> permet aux équipes d'itérer et "
@@ -57,3 +58,289 @@ msgstr ""
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:11
 msgid "Special Considerations"
 msgstr "Considérations particulières"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:13
+msgid ""
+"Actobotics' :term:`channel <Channel>` hole pattern has many more mounting "
+"holes than a Tetrix channel, so it offers more flexibility in terms of "
+"mounting."
+msgstr ""
+"Profilé d'Actobotics<Channel> : Le modèle de trou comporte beaucoup plus de "
+"trous de montage qu'un profilé Tetrix, il offre donc plus de flexibilité en "
+"termes de montage."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:14
+msgid ""
+"Actobotics uses imperial units across the board, allowing for clean spacing "
+"and fitting. However, most other kits use metric."
+msgstr ""
+"Actobotics utilise systématiquement les unités impériales, ce qui permet un "
+"espacement et un ajustement précis. Cependant, la plupart des autres kits "
+"utilisent le système métrique."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:15
+msgid ""
+"Actobotics can interface with other kits such as REV through a variety of "
+"Pattern Adapters."
+msgstr ""
+"Actobotics peut s'interfacer avec d'autres kits tels que REV via une variété"
+" d'adaptateurs de modèles."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:16
+msgid ""
+"ServoCity offers a 25% off discount for all *FIRST*\\ |reg| teams making, "
+"pricing competitive: https://www.servocity.com/first_team_discounts"
+msgstr ""
+"ServoCity offre une réduction de 25 % pour toutes les équipes *FIRST*\\ "
+"|reg|, ce qui rend les prix compétitifs : "
+"https://www.servocity.com/first_team_discounts"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:19
+msgid "Notable Components"
+msgstr "Composants notables"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:21
+msgid ""
+"Mini-channel is offered in addition to the standard size :term:`channel "
+"<Channel>` for non-structural components."
+msgstr ""
+"Un mini profilé est proposée en plus de la taille standard "
+":term:`channel<Channel>` pour les composants non structurels."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:22
+msgid ""
+"Actobotics' X-rail :term:`extrusion <Extrusion>` system offers immense "
+"adjustability and flexibility as it adds a :term:`extrusion <Extrusion>` "
+"component to a :term:`channel-based <Channel>` kit."
+msgstr ""
+"Rail X d'Actobotics :term:`extrusion<Extrusion>` Le système offre une "
+"immense adaptabilité et flexibilité car il ajoute une "
+":term:`extrusion<Extrusion>` composant vers un :term:`basé sur un kit de "
+"profilés<Channel>` ."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:23
+msgid ""
+"To complement the structural offerings, Actobotics uses a series of clamping"
+" hubs and a robust 1/4\" steel :term:`D-shaft <Shaft>`."
+msgstr ""
+"Pour compléter les offres structurelles, Actobotics utilise une série de "
+"moyeux de serrage et un arbre en D robuste en acier de 1/4\"<Shaft>`."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:24
+msgid ""
+"The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to build "
+"extending mechanisms."
+msgstr ""
+"Le kit de mouvement linéaire utilise l'extrusion X-rail :term:`<Extrusion>` "
+"pour construire des mécanismes d'extension."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:25
+msgid ""
+"The :term:`Servoblocks`, which prolongs the life of a servo, are recommended"
+" for all teams, regardless of kit. However, :term:`Servoblocks` seamlessly "
+"interface with the Actobotics ecosystem."
+msgstr ""
+"Les Servoblocks, qui prolongent la durée de vie d'un servomoteur, sont "
+"recommandés pour toutes les équipes, quel que soit leur équipement. "
+"Cependant, ils s'intègrent parfaitement à l'écosystème Actobotics."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:26
+msgid ""
+"Actobotics furthermore offers motion options such as :term:`bevel gears "
+"<Bevel gear>` and Linear Actuator kits (using :term:`lead screws <Lead "
+"Screw>`) for specific use cases."
+msgstr ""
+"Actobotics propose en outre des options de mouvement telles que "
+":term:`engrenages coniques<Bevel gear>` et kits d'actionneurs linéaires "
+"(utilisant :term:`vis mères<Lead Screw>`) pour des cas d'utilisation "
+"spécifiques."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:29
+msgid "Verdict"
+msgstr "Verdict"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:31
+msgid ""
+"Prior to being discontinued, Actobotics was a solid choice for new teams, "
+"offering a reliable base kit with many options to expand upon.  Because it "
+"is no longer being produced we recommend teams consider other kits instead."
+msgstr ""
+"Avant son arrêt, Actobotics était un choix judicieux pour les nouvelles "
+"équipes, offrant un kit de base fiable avec de nombreuses options "
+"d'extension. N'étant plus produit, nous recommandons aux équipes d'envisager"
+" d'autres kits."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:34
+msgid "Kit of Parts"
+msgstr "Kit de pièces"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:36
+msgid ""
+"`2020-2021 Kit Parts <https://www.servocity.com/ftc-competition-"
+"kit-20-21-season/>`_"
+msgstr ""
+"`Pièces du kit 2020-2021 <https://www.servocity.com/ftc-competition-"
+"kit-20-21-season/>`_"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:39
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:41
+msgid ""
+"Actobotics provides a great value fixed pitch build system that is generally"
+" easier to assemble than :term:`extrusion-based <Extrusion>` systems which "
+"require cutting :term:`extrusion <Extrusion>` to length."
+msgstr ""
+"Actobotics fournit un système de construction à pas fixe de grande valeur "
+"qui est généralement plus facile à assembler que :term:`basé sur "
+"l'extrusion<Extrusion>` systèmes qui nécessitent une découpe "
+":term:`extrusion<Extrusion>` à la longueur."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:42
+msgid ""
+"Actobotics has the patented :term:`Servoblocks`, which help drastically "
+"increase servo life by protecting it from shock loads. More information may "
+"be found in the glossary."
+msgstr ""
+"Actobotics possède les Servoblocks brevetés, qui contribuent à augmenter "
+"considérablement la durée de vie du servomoteur en le protégeant des chocs. "
+"Plus d'informations sont disponibles dans le glossaire."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:43
+msgid ""
+"Actobotics is easily compatible with other build systems such as REV's kit "
+"using adapters which can be found on the Servocity website."
+msgstr ""
+"Actobotics est facilement compatible avec d'autres systèmes de construction "
+"tels que le kit REV utilisant des adaptateurs qui peuvent être trouvés sur "
+"le site Web de Servocity."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:44
+msgid ""
+"Actobotics is more sturdy than TETRIX in terms of drivetrain flex and has "
+"more support options to prevent structural bending."
+msgstr ""
+"Actobotics est plus robuste que TETRIX en termes de flexibilité de la "
+"transmission et dispose de plus d'options de support pour éviter la flexion "
+"structurelle."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:45
+msgid ""
+"The :term:`clamping hubs <Clamping Hub>` offered are more reliable than "
+":term:`set screws <Set Screw>`, as clamping engages the shaft in more places"
+" than a :term:`set screw <Set Screw>` (one face). As discussed in the "
+":doc:`TETRIX section <tetrix>`, set screws in particular are vulnerable to "
+"loosening, especially without application of Loctite."
+msgstr ""
+"Les moyeux de serrage<Clamping Hub>` proposés sont plus fiables que "
+":term:`les vis sans tête<Set Screw>`, car le serrage engage l'arbre à plus "
+"d'endroits qu'une :term:`vis de réglage<Set Screw>(une face). Comme indiqué "
+"dans la section TETRIX<tetrix>Les vis de réglage sont particulièrement "
+"vulnérables au desserrage, surtout sans application de Loctite."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:46
+msgid ""
+"Actobotics' motion system is **very** robust and relies on :term:`ball "
+"bearings <Ball Bearing>`, which have a lower coefficient of friction than "
+"bushings. Actobotics is compatible with the 5mm hex used by REV with their "
+"adaptable hubs."
+msgstr ""
+"Le système de mouvement d'Actobotics est **très** robuste et repose sur des "
+":term:`roulements à billes<Ball Bearing>`, dont le coefficient de frottement"
+" est inférieur à celui des bagues. Actobotics est compatible avec l'hexagone"
+" de 5 mm utilisé par REV grâce à ses moyeux adaptables."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:47
+msgid ""
+"Actobotics also allows for :term:`face mounting <Face Mounting>` of motors "
+"as opposed to :term:`clamp mounting <Clamp Mounting>`."
+msgstr ""
+"Actobotics permet également le :term:`montage facial<Face Mounting>` des "
+"moteurs par opposition au :term:`montage par pince<Clamp Mounting>`."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:50
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:52
+msgid ""
+"Actobotics is no longer being produced by ServoCity, so it may be difficult "
+"to locate some parts."
+msgstr ""
+"Actobotics n'est plus produit par ServoCity, il peut donc être difficile de "
+"localiser certaines pièces."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:53
+msgid ""
+"Actobotics is not very cheap, so its cost may be prohibitive for some teams "
+"with a low budget. Note that with the 25% off FTC\\ |reg| team discount, "
+"Actobotics can be cheaper than TETRIX. The only cheaper build system is REV."
+msgstr ""
+"Actobotics n'est pas très bon marché, son prix peut donc être un obstacle "
+"pour certaines équipes à petit budget. Notez qu'avec la réduction de 25 % "
+"sur les équipes FTC\\ |reg|, Actobotics peut être moins cher que TETRIX. Le "
+"seul système de construction moins cher est REV."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:54
+msgid ""
+"The XL :term:`belts <Timing Belt>` from ServoCity are not great. It is "
+"recommended that :term:`belts <HTD Belt>` are purchased from ServoCity "
+"instead, which may necessitate the use of 3d printed pulleys. There also "
+"isn't a large amount of space inside the channel for a belt or chain run, "
+"vastly limiting the size of the pulleys."
+msgstr ""
+"Les ceintures XL :term:`<Timing Belt>Les courroies ServoCity ne sont pas "
+"très performantes. Il est recommandé d'utiliser des courroies<HTD Belt>` "
+"sont achetés chez ServoCity, ce qui peut nécessiter l'utilisation de poulies"
+" imprimées en 3D. De plus, l'espace à l'intérieur du canal pour une courroie"
+" ou une chaîne est limité, ce qui limite considérablement la taille des "
+"poulies."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:55
+msgid ""
+":term:`Channel` takes up more space than :term:`extrusion <Extrusion>`, so "
+"mechanisms can be a bit larger with the Actobotics kit. To remediate this "
+"issue, ServoCity sells :term:`mini-channel <Channel>` which is a similar "
+"size as :term:`extrusion <Extrusion>`."
+msgstr ""
+":term:`Channel` prend plus de place que :term:`extrusion<Extrusion>`, les "
+"mécanismes peuvent donc être un peu plus grands avec le kit Actobotics. Pour"
+" remédier à ce problème, ServoCity vend des mini-canaux<Channel>` qui est "
+"une taille similaire à :term:`extrusion<Extrusion>`."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:60
+msgid "8644 Brainstormers' Relic Recovery robot"
+msgstr "Robot de 8644 Brainstormers de Relic Recovery"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:60
+msgid ""
+"An example of a successful Actobotics based robot, 8644 Brainstormers: 2018 "
+"Winning Alliance Captain (Detroit), Relic Recovery"
+msgstr ""
+"Un exemple de robot basé sur Actobotics réussi, 8644 Brainstormers : 2018 "
+"Capitaine de l'alliance gagnante (Detroit), Relic Recovery"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:65
+msgid "9971 LanBros' Rover Ruckus robot"
+msgstr "9971 par LanBros pour Robot Rover Ruckus "
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:65
+msgid ""
+"Another successful Actobotics based robot, 9971 LanBros: 2019 Winning "
+"Alliance Captain (Detroit), Rover Ruckus"
+msgstr ""
+"Un autre robot basé sur Actobotics à succès, 9971 LanBros : Capitaine de "
+"l'Alliance gagnante 2019 (Détroit), Rover Ruckus"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:70
+msgid "9794 Wizards.exe's Rover Ruckus robot"
+msgstr "9794 de Wizards.exe pour Robot Rover Ruckus"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/actobotics.rst:70
+msgid ""
+"9794 Wizards.exe used both Actobotics and REV :term:`extrusion <Extrusion>` "
+"to build their Rover Ruckus robot"
+msgstr ""
+"9794 Wizards.exe utilisait à la fois Actobotics et REV "
+":term:`extrusion<Extrusion>` pour construire leur robot Rover Ruckus"
