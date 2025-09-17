@@ -7,18 +7,288 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-13 04:40+0000\n"
+"POT-Creation-Date: 2025-09-17 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:4
+msgid "Style Guide"
+msgstr "Guide de style"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:6
+msgid "Don't deal in absolutes."
+msgstr "Ne vous contentez pas d'absolus."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:8
+msgid "Only a Sith deals in absolutes"
+msgstr "Seul un Sith traite des absolus"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:9
+msgid "Use pros/cons lists to compare options"
+msgstr ""
+"Utiliser des listes d'avantages et d'inconvénients pour comparer les options"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:10
+msgid "Explain **WHY** something is good or bad"
+msgstr "Expliquer **POURQUOI** une chose est bonne ou mauvaise"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:12
+msgid ""
+"For example, we all know Tetrix V2 Motors are bad. But don't just say "
+"they're bad, say: \"Tetrix V2 motors are underpowered and often burn in a "
+"few seconds under stall, which is why they are not generally recommended. "
+"They also do not have built in encoders. We would highly recommend "
+"purchasing RS-550/RS-555 class motors being sold by goBILDA, REV, and "
+"AndyMark instead.\""
+msgstr ""
+"Par exemple, nous savons tous que les moteurs Tetrix V2 sont mauvais. Mais "
+"ne vous contentez pas de dire qu'ils sont mauvais, dites plutôt : \"Les "
+"moteurs Tetrix V2 sont sous-puissants et brûlent souvent en quelques "
+"secondes en cas de décrochage, c'est pourquoi ils ne sont généralement pas "
+"recommandés. Ils n'ont pas non plus d'encodeurs intégrés. Nous recommandons "
+"fortement l'achat de moteurs de classe RS-550/RS-555 vendus par goBILDA, "
+"REV, et AndyMark.\""
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:13
+msgid ""
+"Similarly, we know the goBILDA motors are generally good. But *explain* why "
+"they are good, e.g. \"goBILDA Yellow Jacket Planetary motors are generally "
+"recommended if you need a 6mm D/8mm REX output shaft motor, and especially "
+"if you use goBILDA as your primary build system. These motors have a robust "
+"gearbox that generally can handle a decent amount of shock load (but they "
+"still must be supported in high torque situations) and conveniently face "
+"mount into goBILDA parts. Additionally, goBILDA motors do not require the "
+"use of a level shifter to use its encoders with the REV control system for "
+"flexibility. Please note that you will need to adapt the bullet connectors "
+"to the REV control system power cables, and the goBILDA motor power cables "
+"are not removable, unlike the REV Robotics motors.\""
+msgstr ""
+"De même, nous savons que les moteurs goBILDA sont généralement bons. Mais "
+"*expliquez* pourquoi ils sont bons, par exemple \"Les moteurs planétaires "
+"goBILDA Yellow Jacket sont généralement recommandés si vous avez besoin d'un"
+" moteur à arbre de sortie 6mm D/8mm REX, et spécialement si vous utilisez "
+"goBILDA comme votre système de construction principal. Ces moteurs ont un "
+"réducteur robuste qui peut généralement supporter une quantité décente de "
+"chocs (mais ils doivent toujours être soutenus dans des situations de couple"
+" élevé) et se montent commodément dans les pièces goBILDA. De plus, les "
+"moteurs goBILDA ne nécessitent pas l'utilisation d'un correcteur de niveau "
+"pour utiliser ses encodeurs avec le système de contrôle REV pour plus de "
+"flexibilité. Veuillez noter que vous devrez adapter les connecteurs bullet "
+"aux câbles d'alimentation du système de contrôle REV, et que les câbles "
+"d'alimentation des moteurs goBILDA ne sont pas amovibles, contrairement aux "
+"moteurs REV Robotics\"."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:14
+msgid ""
+"Still emphasize that teams are free to explore and innovate, but help set "
+"realistic expectations (see the following point)"
+msgstr ""
+"Insistez toujours sur le fait que les équipes sont libres d'explorer et "
+"d'innover, mais aidez-les à fixer des attentes réalistes (voir le point "
+"suivant)."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:16
+msgid "|gm0| is a guide **from a competitive standpoint**."
+msgstr "|gm0| est un guide **d'un point de vue concurrentiel**."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:18
+msgid ""
+"Try to leave out stuff that doesn't work well and is unpopular; if it is "
+"popular it is worth explaining the disadvantages (see H-drive vs ball drive;"
+" explaining H-drive, as a relatively popular and simple drivetrain makes "
+"sense, but ball drive, a drivetrain that barely exists and is ridiculously "
+"complicated makes no sense to bring up)"
+msgstr ""
+"Essayez de laisser de côté les éléments qui ne fonctionnent pas bien et qui "
+"sont impopulaires ; s'ils sont populaires, cela vaut la peine d'en expliquer"
+" les inconvénients (voir la transmission en H par rapport à la transmission "
+"à billes ; expliquer la transmission en H, en tant que transmission "
+"relativement populaire et simple, a du sens, mais la transmission à billes, "
+"une transmission qui existe à peine et qui est ridiculement compliquée, n'a "
+"pas de sens)."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:19
+msgid ""
+"Try to leave opinions out as much as possible. Do not speak authoritatively "
+"on stuff you do not have first-hand experience with whenever possible"
+msgstr ""
+"Essayez de laisser les opinions de côté autant que possible. Dans la mesure "
+"du possible, ne vous prononcez pas de manière autoritaire sur des sujets "
+"dont vous n'avez pas une expérience directe"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:20
+msgid "**Keep in mind that FTC design trends are temporary and transient**"
+msgstr ""
+"**Gardez à l'esprit que les tendances en matière de design de FTC sont "
+"temporaires et éphémères**."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:22
+msgid ""
+"Just because something is popular one season doesn't mean it's the end all "
+"be all. There was a time when 6-wheel drives and coaxial swerve drives were "
+"all the rage, but that doesn't mean that we should recommend them in |gm0|. "
+"Try your best to think about why something is popular, and what benefits in "
+"design, function, and execution they actually bring to the table."
+msgstr ""
+"Ce n'est pas parce qu'une chose est populaire pendant une saison qu'elle "
+"l'est pour toujours. Il fut un temps où les châssis à 6 roues motrices et "
+"les châssis à embardée coaxiale faisaient fureur, mais cela ne veut pas dire"
+" que nous devrions les recommander dans le |gm0|. Essayez de réfléchir aux "
+"raisons de la popularité d'un produit et aux avantages qu'il présente en "
+"termes de conception, de fonction et d'exécution."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:24
+msgid ""
+"Consider that not all teams have the resources to purchase the most optimal "
+"parts for their design."
+msgstr ""
+"Il faut tenir compte du fait que toutes les équipes n'ont pas les moyens "
+"d'acheter les pièces les plus optimales pour leur projet."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:26
+msgid ""
+"This means that we should give recommendations on how to mitigate issues "
+"with poor quality parts."
+msgstr ""
+"Cela signifie que nous devrions donner des recommandations sur la manière "
+"d'atténuer les problèmes liés à des pièces de mauvaise qualité."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:28
+msgid ""
+"For example: TETRIX structure has a bad reputation for bending at times, at "
+"least compared to other build systems compared to REV, goBILDA and "
+"Actobotics. Therefore, we recommend adding extra support when building in "
+"TETRIX compared to other systems (this means including extra crossbars and "
+"adding standoffs inside channel to increase rigidity)."
+msgstr ""
+"Par exemple : La structure TETRIX a la mauvaise réputation de se plier "
+"parfois, du moins par rapport à d'autres systèmes de construction tels que "
+"REV, goBILDA et Actobotics. Par conséquent, nous recommandons d'ajouter un "
+"soutien supplémentaire lors de la construction en TETRIX par rapport à "
+"d'autres systèmes (cela signifie inclure des barres transversales "
+"supplémentaires et ajouter des entretoises à l'intérieur du canal pour "
+"augmenter la rigidité)."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:30
+msgid "Include pictures/videos whenever possible."
+msgstr "Inclure des photos/vidéos dans la mesure du possible."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:32
+msgid "Adding examples of mechanisms really helps with knowledge transfer."
+msgstr ""
+"L'ajout d'exemples de mécanismes contribue réellement au transfert de "
+"connaissances."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:34
+msgid ""
+"Credit the teams: Caption Format is: [Team Number] [Team Name], (Relevant "
+"Accomplishment), [Season], (description)"
+msgstr ""
+"Créditer les équipes : Le format de la légende est le suivant : [Numéro de "
+"l'équipe] [Nom de l'équipe], (réalisation pertinente), [Saison], "
+"(description)"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:36
+msgid "[]s mean all the time, ()s means when relevant"
+msgstr "[]s signifie tout le temps, ()s signifie lorsque c'est pertinent"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:37
+msgid ""
+"If you have multiple pictures by the same part from the same team only "
+"credit them on the last one to avoid repetition."
+msgstr ""
+"Si vous avez plusieurs photos de la même partie de la même équipe, ne les "
+"créditez que sur la dernière afin d'éviter les répétitions."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:38
+msgid "Examples"
+msgstr "Exemples"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:40
+msgid ""
+"11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
+"springloaded"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:41
+msgid "8417 'Lectric Legends, Rover Ruckus, TPU intake flaps"
+msgstr "8417 'Lectric Legends, Rover Ruckus, TPU intake flaps"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:42
+msgid "7236 Recharged Green, Rover Ruckus, Misumi SAR3"
+msgstr "7236 Recharged Green, Rover Ruckus, Misumi SAR3"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:44
+msgid "Adhere to brand standards when possible."
+msgstr "Respecter les normes de la marque dans la mesure du possible."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:46
+msgid ""
+"Abide by *FIRST*\\ |reg| Trademark guidelines, available `here "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
+msgstr ""
+"Se conformer aux directives de *FIRST*\\ |reg| sur les marques déposées, "
+"disponibles `ici "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:48
+msgid ""
+"The first instance of *FIRST* and FTC on a page should include |reg| (i.e, "
+"*FIRST*\\ |reg|)"
+msgstr ""
+"La première occurrence de *FIRST* et FTC sur une page doit inclure |reg| "
+"(c'est-à-dire *FIRST*\\ |reg|)."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:49
+msgid "Always capitalize and italize the name *FIRST*"
+msgstr "Le nom doit toujours être écrit en majuscules et en italique *FIRST*."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:50
+msgid "Do NOT use a possessive on the *FIRST* name (e.g, *FIRST*'s)"
+msgstr ""
+"N'utilisez PAS de possessif pour le nom *FIRST* (par exemple, *FIRST*'s)."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:52
+msgid "It's gm0 not GM0 damn it; look at the logo."
+msgstr "C'est gm0 et non GM0, bon sang, regardez le logo."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:54
+msgid ""
+"This also applies to team names: spell them how they are officially spelled"
+msgstr ""
+"Il en va de même pour les noms des équipes : il convient de les "
+"orthographier comme ils le sont officiellement."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:56
+msgid ""
+"Check `The Orange Alliance <https://theorangealliance.org/>`_ or `FTC Events"
+" <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a"
+" team's name."
+msgstr ""
+"Vérifiez `The Orange Alliance <https://theorangealliance.org/>`_ ou `FTC "
+"Events <https://ftc-events.firstinspires.org/>`_ si vous ne savez pas "
+"comment épeler le nom d'une équipe."
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:58
+msgid ""
+"You can use \"you\" when writing, when it makes writing less awkward. "
+"However, try avoiding excessively using it."
+msgstr ""
+"Vous pouvez utiliser le \"vous\" lorsque vous écrivez, lorsque cela rend "
+"l'écriture moins gênante. Cependant, essayez d'éviter d'en faire un usage "
+"excessif."

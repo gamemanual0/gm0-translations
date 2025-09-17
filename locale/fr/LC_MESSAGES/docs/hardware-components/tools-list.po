@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-12 04:29+0000\n"
+"POT-Creation-Date: 2025-09-17 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Justine, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -21,3 +21,190 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:2
+msgid "Tools List"
+msgstr "Liste des outils"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:4
+msgid ""
+"Here are a selection of necessary and useful tools for your team. You'll "
+"obviously need to purchase the basics such as the right screwdriver, hex "
+"keys, and drill bits. For a bit more precision and the ability to dabble in "
+"custom, opt for a drill press and bandsaw. A router might be useful for "
+"teams interested in working with wood, a great material for prototyping (and"
+" also for final iterations!)"
+msgstr ""
+"Voici une sélection d'outils nécessaires et utiles pour votre équipe. Vous "
+"devrez évidemment acheter les éléments de base tels que le bon tournevis, "
+"les clés hexagonales et les mèches. Pour un peu plus de précision et la "
+"possibilité de faire du sur-mesure, optez pour une perceuse à colonne et une"
+" scie à ruban. Une défonceuse peut être utile pour les équipes intéressées "
+"par le travail du bois, un matériau idéal pour le prototypage (et aussi pour"
+" les itérations finales !)."
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:7
+msgid "Necessary"
+msgstr "Nécessaire"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:9
+msgid ""
+"**Safety glasses. Wear them when you're using power tools. Seriously.**"
+msgstr ""
+"**Lunettes de sécurité. Portez-les lorsque vous utilisez des outils "
+"électriques. Sérieusement."
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:10
+msgid "Philips screwdrivers, assorted sizes"
+msgstr "Tournevis , tailles assorties"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:13
+msgid "Hex drivers and hex L-keys"
+msgstr "Tournevis hexagonaux et clés L hexagonales"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:12
+msgid "7/64\" hex (Actobotics and TETRIX)"
+msgstr "Hexagone 7/64\" (Actobotics et TETRIX)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:13
+msgid "3/32\", ball head for set screws is discouraged (TETRIX)"
+msgstr ""
+"3/32\", la tête à bille pour les vis de réglage est déconseillée (TETRIX)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:14
+msgid "2.5/3mm hex (goBILDA)"
+msgstr "2.5/3mm hexagonal (goBILDA)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:16
+msgid "Nut drivers and wrenches"
+msgstr "Tournevis et clés à molette"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:16
+msgid "5.5 mm hex nut driver/wrench (REV)"
+msgstr "Tournevis/clé à écrou hexagonal de 5,5 mm (REV)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:17
+msgid "7 mm hex nut driver/wrench (goBILDA)"
+msgstr "Tournevis/clé à écrous hexagonaux de 7 mm (goBILDA)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:18
+msgid "Drill and drill bits"
+msgstr "Perceuse et mèches"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:19
+msgid "Pliers, needle-nose and locking"
+msgstr "Pince à bec effilé et pince à bec effilé"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:20
+msgid "Metal file (sandpaper not recommended, you're not working with wood)"
+msgstr ""
+"Lime à métaux (le papier de verre n'est pas recommandé, vous ne travaillez "
+"pas avec du bois)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:21
+msgid "Quick lock clamps (2+) or vise"
+msgstr "Pinces à verrouillage rapide (2+) ou étau"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:22
+msgid "Hammer and mallet"
+msgstr "Marteau et maillet"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:23
+msgid "Centerpunch"
+msgstr "Coup de poing central"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:24
+msgid "Hacksaw (cuts through steel shafts)"
+msgstr "Scie à métaux (coupe les arbres en acier)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:25
+msgid "Wire stripper/wire cutter"
+msgstr "Pince à dénuder/coupe-fil"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:26
+msgid "Zip ties/Velcro ties"
+msgstr "Liens à glissière/liens velcro"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:27
+msgid "Electrical tape"
+msgstr "Ruban adhésif électrique"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:28
+msgid "Stainless steel ruler and rafter square"
+msgstr "Règle et équerre à chevrons en acier inoxydable"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:29
+msgid "Sharp pencil or very fine permanent marker"
+msgstr "Crayon bien taillé ou marqueur permanent très fin"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:32
+msgid "Helpful"
+msgstr "Utile"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:34
+msgid "Bandsaw"
+msgstr "Scie à ruban"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:36
+msgid "A bandsaw **cannot** cut through steel :term:`shafts <Shaft>`!"
+msgstr ""
+"Une scie à ruban **ne peut pas** couper des :terme:`arbres <Shaft>` en acier"
+" !"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:38
+msgid "Impact driver"
+msgstr "Conducteur à percussion"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:39
+msgid "Drill press"
+msgstr "Perceuse à colonne"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:40
+msgid "Miter saw with non-ferrous metal cutting blade"
+msgstr "Scie à onglet avec lame de coupe en métal non ferreux"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:41
+msgid "Dremel (use sparingly; Dremel =/= bandsaw)"
+msgstr "Dremel (à utiliser avec parcimonie ; Dremel =/= scie à ruban)"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:42
+msgid "Grip tape"
+msgstr "Ruban adhésif"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:43
+msgid "Caliper"
+msgstr "Etrier"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:44
+msgid "Soldering iron"
+msgstr "Fer à souder"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:45
+msgid "Heat gun"
+msgstr "Pistolet thermique"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:47
+msgid "Jigsaw"
+msgstr "Scie sauteuse"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:48
+msgid "Metal brake"
+msgstr "Frein métallique"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:49
+msgid "3d printer"
+msgstr "Imprimante 3d"
+
+#: ../../gm0/source/docs/hardware-components/tools-list.rst:51
+msgid ""
+"A 3d printer, CNC machine, or laser cutter greatly increases your ability to"
+" create custom robot designs. For most teams, buying a CNC or laser cutter "
+"is way beyond their budget, but you might be able to get access to one "
+"through school, local college, or nearby makerspace."
+msgstr ""
+"Une imprimante 3D, une machine à commande numérique ou une découpeuse laser "
+"augmentent considérablement votre capacité à créer des robots personnalisés."
+" Pour la plupart des équipes, l'achat d'une machine à commande numérique ou "
+"d'une découpeuse laser dépasse largement leur budget, mais vous pouvez peut-"
+"être y avoir accès par l'intermédiaire de votre école, d'un établissement "
+"d'enseignement supérieur local ou d'un makerspace proche."
