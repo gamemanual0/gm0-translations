@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# shaw phy, 2025
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 04:28+0000\n"
+"POT-Creation-Date: 2025-09-17 16:32+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2025\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,3 +24,94 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:4
 msgid "Principles of an Intake"
 msgstr "拾取装置原理"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:7
+msgid "Reliability"
+msgstr "可靠性"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:9
+msgid ""
+"An intake must be reliable, as picking up and scoring game elements is the "
+"primary method to gain points in all FTC\\ |reg| games."
+msgstr "拾取装置必须可靠，因为在所有 FTC\\ |reg| 游戏中，拾取游戏元素和得分是获得分数的主要方法。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:11
+msgid ""
+"Intakes have many moving parts and are susceptible to breaking, especially "
+"at high RPM. Thus, the intake material must be durable to withstand long "
+"periods of operation."
+msgstr "拾取装置有许多活动部件，很容易损坏，尤其是在高转速时。因此，进气道材料必须经久耐用，能够承受长时间运行。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:13
+msgid ""
+"Intakes often stick outside of the robot frame perimeter. In this case, "
+"durability becomes extremely important; the intake must be built so that "
+"they can withstand impacts/collisions with other robots or parts of the "
+"field."
+msgstr "拾取装置通常位于机器人框架外围。在这种情况下，耐用性就变得极为重要；拾取装置的构造必须能够承受与其他机器人或场地部分的撞击/碰撞。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:17
+msgid ""
+"Another way to prevent intake breaking is to make a fully retractable intake"
+" that won't protrude outside the 18\" cube, though this is seldom needed."
+msgstr "防止拾取装置破损的另一种方法是制作一个完全可伸缩的拾取装置，使其不会伸出 18 英寸立方体之外，不过这种方法很少用到。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
+msgid "Consistency"
+msgstr "一致性"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:22
+msgid ""
+"The intake **must** be able to pick up game elements consistently and "
+"quickly. For example, in Rover Ruckus each robot could only possess 2 "
+"minerals at a time. Therefore, the intake should only pick up two pieces at "
+"a time, not zero, one, or three."
+msgstr ""
+"拾取装置“必须”能够持续、快速地拾取游戏元素。例如，在 Rover Ruckus 中，每个机器人一次只能拥有 2 "
+"块矿石。因此，拾取器一次只能拾取两块，而不是零块、一块或三块。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:24
+msgid ""
+"This is a common mistake that many inexperienced teams fail to take into "
+"account."
+msgstr "这是一个常见的错误，许多缺乏经验的团队都没有考虑到这一点。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:28
+msgid ""
+"Even though it was relatively easy to make a compliant wheel intake that "
+"could effectively intake glyphs in one direction, it was hard to make an "
+"intake that could deal with angled glyphs. Being able to intake glyphs in "
+"all orientations was especially important for multi-glyph autonomous modes."
+msgstr ""
+"尽管制作一个能有效摄取单向字形的顺滑轮摄取装置相对容易，但要制作一个能处理倾斜字形的摄取装置却很难。对于多符文自主模式来说，能够吸入所有方向的符文尤为重要。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
+msgid "Controllability"
+msgstr "可控性"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:33
+msgid ""
+"The intake must be able to consistently control the game elements. For "
+"example, if the intake is too fast and the collection box is not well "
+"designed, then game pieces might fly out. If the intake is too slow, it may "
+"jam itself when contacting the game elements."
+msgstr ""
+"拾取装置必须能够始终如一地控制游戏元素。例如，如果进气孔的速度太快，而收集箱又设计得不好，那么游戏碎片就可能飞出来。如果吸入器速度太慢，在接触游戏元素时可能会卡住。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:36
+msgid ""
+"It is best practice that the driver can see the game elements which are "
+"being controlled. This can be done through using clear plating such as "
+"Lexan."
+msgstr "最好的做法是让操作手能够看到所控制的游戏元素。这可以通过使用 Lexan 等透明镀层来实现。"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
+msgid "Efficiency"
+msgstr "效率"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:46
+msgid ""
+"The answer is usually one or two straight lines. The closer the scoring "
+"elements follow this path, the faster they will go from collection to "
+"deposit. Don't make overly long routes unless needed."
+msgstr "答案通常是一条或两条直线。计分元素越靠近这条路径，它们从收集到存入的速度就越快。除非需要，否则不要设置过长的路线。"

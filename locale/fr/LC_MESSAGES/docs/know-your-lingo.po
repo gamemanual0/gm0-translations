@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-14 04:26+0000\n"
+"POT-Creation-Date: 2025-09-17 16:32+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -161,6 +161,15 @@ msgstr ""
 msgid "Elimination Match"
 msgstr "Match d'élimination"
 
+#: ../../gm0/source/docs/know-your-lingo.rst:28
+msgid ""
+"2 alliances of 2 or 3 teams each compete in best of 3 matches to determine "
+"winning alliance. Also known as elim matches, or just elims."
+msgstr ""
+"Deux alliances de 2 ou 3 équipes chacune s'affrontent dans des matchs en "
+"''best-of-three'' pour déterminer l'alliance gagnante. Ces matchs sont "
+"également appelés matchs d'élimination, ou simplement \"elims\"."
+
 #: ../../gm0/source/docs/know-your-lingo.rst:32
 msgid "Robot Components"
 msgstr "Composantes du robot"
@@ -196,6 +205,10 @@ msgstr "Châssis (DT)"
 #: ../../gm0/source/docs/know-your-lingo.rst:41
 msgid "Mechanism responsible for the movement of the robot."
 msgstr "Mécanisme responsable pour le mouvement du robot. "
+
+#: ../../gm0/source/docs/know-your-lingo.rst:43
+msgid "Intake"
+msgstr "Ramasseur"
 
 #: ../../gm0/source/docs/know-your-lingo.rst:43
 msgid ""
