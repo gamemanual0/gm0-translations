@@ -5,18 +5,216 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 04:28+0000\n"
+"POT-Creation-Date: 2025-09-18 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:4
+msgid "Servo Usage Tips"
+msgstr "Conseils d'Utilisation des Servos"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:6
+msgid "Below are some tips on using servos in FTC\\ |reg|."
+msgstr "Voici quelques conseils sur l'utilisation des servos dans FTC\\ |reg|."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:8
+msgid ""
+"Do not backdrive :term:`servos <Servo>`. Forcibly rotating a powered "
+":term:`servo <Servo>` away from its position risks damaging the internal "
+":term:`gears <Gear>`."
+msgstr ""
+"Ne pas faire reculer les :term:`servos <Servo>`. La rotation forcée d'un "
+":term:`servo <Servo>` motorisé hors de sa position risque d'endommager les "
+":term:`engrenages <Gear>` internes."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:9
+msgid ""
+"Pay attention to a servo's travel range! The FTC API, by default, outputs "
+"600-2400 |micro|\\ s. ``ServoImplEx`` can be used to increase the range to a"
+" maximum of 500-2500 |micro|\\ s."
+msgstr ""
+"Faites attention à la plage de déplacement d'un servo ! L'API FTC, par "
+"défaut, fournit 600-2400 |micro|\\ s. ``ServoImplEx`` peut être utilisé pour"
+" augmenter la plage jusqu'à un maximum de 500-2500 |micro|\\ s."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:16
+msgid ""
+":term:`Servo` wires usually are black-red-white. Matching the colors is an "
+"easy way to check if the servo is plugged in correctly. :term:`Servo` "
+"connectors provide no protection from plugging them the wrong way: if you "
+"rotate it 180 degrees, it will still fit - but the :term:`servo <Servo>` "
+"would not work. (It wouldn't be damaged, though). Thus, if your :term:`servo"
+" <Servo>` is not working, first check if they are plugged in correctly. Then"
+" check it again."
+msgstr ""
+":term:`Servo` fils sont généralement noirs et rouges. Les connecteurs "
+":term:`Servo` ne fournissent aucune protection contre le branchement dans le"
+" mauvais sens : si vous le tournez de 180 degrés, il tiendra toujours - mais"
+" le :term:`servo <Servo>` ne fonctionnera pas. (Il ne sera cependant pas "
+"endommagé). Par conséquent, si votre :term:`servo <Servo>` ne fonctionne "
+"pas, vérifiez d'abord s'il est correctement branché. Puis vérifiez à "
+"nouveau."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:17
+msgid ""
+"When using :term:`servo <Servo>` wire extensions, use `retaining clips "
+"<https://www.gobilda.com/servo-connector-clip-yellow-6-pack/>`_ to prevent "
+"the connection from coming apart when someone pulls on the wire. "
+"Alternatively, electrical tape will work in a pinch."
+msgstr ""
+"Lorsque vous utilisez des rallonges de fil :term:`servo <Servo>`, utilisez "
+"des `clips de maintien <https://www.gobilda.com/servo-connector-clip-"
+"yellow-6-pack/>`_ pour éviter que la connexion ne se sépare lorsque "
+"quelqu'un tire sur le fil. Une autre solution consiste à utiliser du ruban "
+"adhésif électrique."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:18
+msgid ""
+"Do not use socket head screws to attach :term:`servos <Servo>` - when "
+"tightened, they will damage the plastic. Use button head screws or socket "
+"heads with a washer."
+msgstr ""
+"N'utilisez pas de vis à tête creuse pour fixer les :term:`servos <Servo>` - "
+"elles endommageront le plastique lorsqu'elles seront serrées. Utilisez des "
+"vis à tête cylindrique ou à tête cylindrique avec une rondelle."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:19
+msgid ""
+":term:`Servos <Servo>` break very easily when subjected to lateral loads or "
+"bending of the :term:`shaft <Shaft>`. For example, if you mount an arm or a "
+"claw directly on the :term:`servo <Servo>` without any additional "
+"precautions, it is very likely that you will break the :term:`servo <Servo>`"
+" first time you drive into the wall with the arm extended (and this will "
+"inevitably happen)."
+msgstr ""
+"Les :term:`Servos <Servo>` se cassent très facilement lorsqu'ils sont soumis"
+" à des charges latérales ou à la flexion de l' :term:`arbre <Shaft>`. Par "
+"exemple, si vous montez un bras ou une pince directement sur le :term:`servo"
+" <Servo>` sans aucune précaution supplémentaire, il est très probable que "
+"vous casserez le :term:`servo <Servo>` la première fois que vous foncerez "
+"dans le mur avec le bras déployé (et cela se produira inévitablement)."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:21
+msgid ""
+"To avoid that, use additional supports. The easiest way to do it is by using"
+" :term:`Servoblocks` from Actobotics or goBILDA. These assemblies act as "
+"exoskeletons for the :term:`servo <Servo>`, providing additional support. "
+"They are expensive, but worth every penny. Additionally, REV offers the "
+"inside and outside channel :term:`servo <Servo>` bracket, which when paired "
+"with the aluminum servo :term:`shaft <Shaft>` adapter and :term:`bearing "
+"<Ball Bearing>` assembly, fulfills the same function."
+msgstr ""
+"Pour éviter cela, utilisez des supports supplémentaires. Le moyen le plus "
+"simple est d'utiliser les :term:`Servoblocks` d'Actobotics ou de goBILDA. "
+"Ces assemblages agissent comme des exosquelettes pour le :term:`servo "
+"<Servo>`, en fournissant un support supplémentaire. Ils sont coûteux, mais "
+"valent chaque centime. En outre, REV propose le support :term:`servo "
+"<Servo>` à canal intérieur et extérieur qui, associé à l'adaptateur "
+":term:`arbre <Shaft>` et au :term:`roulement à billes <Ball Bearing>` de "
+"servo en aluminium, remplit la même fonction."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:0
+msgid "servoblock"
+msgstr "servoblock"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:26
+msgid "A servo in a ServoBlock"
+msgstr "Un servo dans un ServoBlock"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:28
+msgid ""
+"There are also some alternative designs of servo supports; one of them, "
+"which is not as strong as the original :term:`Servoblock <Servoblocks>` but "
+"much more compact, is shown below (`CAD "
+"<https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_"
+" is also available):"
+msgstr ""
+"Il existe également d'autres modèles de supports de servo ; l'un d'entre "
+"eux, qui n'est pas aussi solide que le :term:`Servoblock <Servoblocks>` "
+"original mais beaucoup plus compact, est illustré ci-dessous (`CAD "
+"<https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_"
+" est également disponible) :"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:33
+msgid "compact servoblock"
+msgstr "servobloc compact"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:33
+msgid "Alternative :term:`servo <Servo>` support block"
+msgstr "Alternative :terme:`servo <Servo>` bloc de soutien"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:35
+msgid ""
+"Use linkages. Instead of mounting some rotating piece directly on a "
+":term:`servo <Servo>`, mount it so it can rotate around a pivot point and "
+"then connect it to the :term:`servo <Servo>` using linkage as shown below:"
+msgstr ""
+"Utilisez des liaisons. Au lieu de monter une pièce rotative directement sur "
+"un :term:`servo <Servo>`, montez-la de manière à ce qu'elle puisse tourner "
+"autour d'un point de pivot, puis reliez-la au :term:`servo <Servo>` à l'aide"
+" d'une tringlerie, comme indiqué ci-dessous :"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:0
+msgid "linkage"
+msgstr "lien"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:40
+msgid ""
+"Linkage example, courtesy of team 4137 Islandbots. A goBILDA flat beam is "
+"used as the link."
+msgstr ""
+"Exemple de liaison, avec l'aimable autorisation de l'équipe 4137 Islandbots."
+" Une poutre plate goBILDA est utilisée comme lien."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:42
+msgid ""
+"If you need more power, use a `REV Servo Power Module "
+"<https://www.revrobotics.com/rev-11-1144/>`_."
+msgstr ""
+"Si vous avez besoin de plus de puissance, utilisez un `REV Servo Power "
+"Module <https://www.revrobotics.com/rev-11-1144/>`_."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:44
+msgid "Term"
+msgstr "Durée"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:47
+msgid "Servo Power Module"
+msgstr "Module d'Alimentation Servo"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:49
+msgid ""
+"A Servo Power Module (SPM) is a device made by REV Robotics that boosts the "
+"voltage that the Expansion Hub provides to a :term:`servo <Servo>`. The "
+"Expansion Hub's output for servos is 5V at 6 amps, and the SPM boosts the "
+"voltage to 6V and up to 15amps."
+msgstr ""
+"Un module de puissance servo (SPM) est un dispositif fabriqué par REV "
+"Robotics qui augmente la tension que le Hub d'expansion fournit à un "
+":term:`servo <Servo>`. La sortie de l'Expansion Hub pour les servos est de "
+"5V à 6 ampères, et le SPM augmente la tension à 6V et jusqu'à 15 ampères."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:51
+msgid ""
+"**This is important for servos under high load conditions such as the Savox "
+"servo.**"
+msgstr ""
+"**Ceci est important pour les servos soumis à des conditions de charge "
+"élevées, comme le servo Savox.**"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst-1
+msgid "A REV Robotics Servo Power Module"
+msgstr "Un Module d'Alimentation Servo REV Robotics"

@@ -4,27 +4,237 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Lyna Alem, 2025
 # Aaraf Chy, 2025
 # Donnovon M, 2025
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-09-18 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:4
+msgid "CAD Tutorials"
+msgstr "Tutoriels CAO"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:7
+msgid "CAD Tutorial Part 1 - Drivetrain in an Hour"
+msgstr "Tutoriel CAO Partie 1 - Châssis en une heure"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:10
+msgid "Choosing the Drivetrain"
+msgstr "Choisir le châssis"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:12
+msgid ""
+"After learning your :term:`CAD <Computer-aided design (CAD)>` program of "
+"choice, determine the necessary requirements for the drivetrain based on the"
+" current game. Teams should shoot for the wheelbase that works the best in "
+"that specific field's layout."
+msgstr ""
+"Après avoir appris le programme :term:`CAD <Computer-aided design (CAD)>` de"
+" votre choix, déterminez les exigences nécessaires pour le châssis en "
+"fonction du jeu en cours. Les équipes doivent viser l'empattement qui "
+"fonctionne le mieux dans la configuration du terrain en question."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:14
+msgid ""
+"For instance, in Relic Recovery (2017-2018) a drivetrain required precision "
+"to not only grab glyphs from the center pit, but also to line up against the"
+" cryptobox. Thus, mecanum wheels and a wide center section of the robot "
+"proved an advantage over a 6 wheel tank drive. (However, it should be noted "
+"that with sufficient practice and competent drivers, any drive base can be "
+"competitive up to a certain extent)."
+msgstr ""
+"Par exemple, dans Relic Recovery (2017-2018), une chaîne cinématique "
+"exigeait de la précision non seulement pour saisir les glyphes dans la fosse"
+" centrale, mais aussi pour s'aligner contre la cryptobox. Ainsi, les roues "
+"mecanum et une large section centrale du robot se sont révélées être un "
+"avantage par rapport à une transmission de tank à 6 roues. (Toutefois, il "
+"convient de noter qu'avec une pratique suffisante et des pilotes compétents,"
+" n'importe quelle base d'entraînement peut être compétitive jusqu'à un "
+"certain point)."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:16
+msgid ""
+"After selecting a drivebase, determine the number of motors. Keep in mind "
+"the eight motor limit is a pain that shouldn't be ignored. A good rule of "
+"thumb is four motors for driving and four motors for the other mechanisms "
+"(e.g. intakes, linear slides, arm, etc.) For most modern FTC\\ |reg| games, "
+"you need minimum 7 motors to be highly competitive, although 8 is a good "
+"rule of thumb."
+msgstr ""
+"Après avoir choisi un châssis, déterminez le nombre de moteurs. Gardez à "
+"l'esprit que la limite de huit moteurs est une contrainte qu'il ne faut pas "
+"ignorer. Une bonne règle générale est d’utiliser quatre moteurs pour la "
+"propulsion et quatre moteurs pour les autres mécanismes (par exemple : les "
+"systèmes de ramassage, les glissières linéaires, le bras, etc.). Pour la "
+"plupart des jeux modernes FTC\\ |reg|, vous avez besoin d'au moins 7 moteurs"
+" pour être très compétitif, bien que 8 soit une bonne règle de base."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:19
+msgid "Designing the Drivetrain Plates"
+msgstr "Conception des plaques du châssis"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:21
+msgid ""
+"After learning the CAD software, it's time to start the actual design. Here "
+"are some things to figure out before starting:"
+msgstr ""
+"Après avoir appris à utiliser le logiciel de CAO, il est temps de commencer "
+"la conception proprement dite. Voici quelques points à prendre en compte "
+"avant de commencer :"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:23
+msgid "Drive Type (mecanum, 6wd, 8wd, etc.)"
+msgstr ""
+"Type de transmission (mecanum, 6 roues motrices, 8 roues motrices, etc.)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:24
+msgid "Number of Motors (four motors recommended in most cases)"
+msgstr ""
+"Nombre de moteurs (quatre moteurs recommandés dans la plupart des cas)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:25
+msgid ""
+"Type of wheels (:term:`Traction <Traction Wheel>`, :term:`omni <Omni "
+"Wheel>`, etc.)"
+msgstr ""
+"Type de roues (:term:`Traction <Traction Wheel>`, :term:`omni <Omni Wheel>`,"
+" etc.)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:26
+msgid ""
+"Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, :term:`gear "
+"<Gear>`)"
+msgstr ""
+"Puissance d'entraînement (:term:`courroie <HTD Belt>`, :term:`chaîne "
+"<Sprocket>`, :term:`engrenage <Gear>`)"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:28
+msgid ""
+"To keep it simple, this example uses a 4 wheel tank drive using four motors."
+" The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to "
+"aid in turning."
+msgstr ""
+"Pour rester simple, cet exemple utilise une traction à 4 roues utilisant 4 "
+"moteurs. Les roues sélectionnées sont 2 roues Colson pour la traction, et 2 "
+"roues omni pour aider à tourner."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:30
+msgid ""
+"First, make the left side of the drivebase. After completing it, all you "
+"have to do is mirror the left side to the right, so you don't have to do "
+"each side individually. Start with a 2D sketch of everything before trying "
+"to extrude and make actual 3D objects."
+msgstr ""
+"Commencez par faire le côté gauche de la base d'entraînement. Après l'avoir "
+"terminé, il vous suffira de refléter le côté gauche sur le côté droit, de "
+"sorte que vous n'aurez pas à faire chaque côté individuellement. Commencez "
+"par une esquisse en 2D avant d'essayer d'extruder et de créer des objets en "
+"3D."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
+msgid "Drivetrain Plate Technical Drawing"
+msgstr "Dessin technique de la plaque de transmission"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:36
+msgid ""
+"This is a sketch of the inner plate of the drive base. Everything should be "
+"laid out in a 2D sketch to determine the mounting holes, :term:`bore "
+"<Bore>`, :term:`center-to-center distance <C2C>`, etc. 2D sketches are "
+"extremely helpful and are highly recommended in any project. After the "
+"sketch is completed, everything else falls into place and becomes pretty "
+"simple."
+msgstr ""
+"Voici un croquis de la plaque intérieure de la base d'entraînement. Tout "
+"doit être représenté sur un croquis en 2D afin de déterminer les trous de "
+"montage, :term:`ennui <Bore>`, :term:`distance centre à centre <C2C>`, etc. "
+"Les croquis en 2D sont extrêmement utiles et vivement recommandés dans tout "
+"projet. Une fois le croquis réalisé, tout le reste se met en place et "
+"devient très simple."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:38
+msgid ""
+"After this, extrude that sketch into the first plate of the drivetrain. "
+"Typically, a standard thickness of aluminum plate is 1/8\". Thinner plate "
+"(3/32\") can be used as well, but generally most teams stick to 1/8\". "
+"Extrude the plate to that thickness. Below is the sketch after extruding."
+msgstr ""
+"Ensuite, cette esquisse est extrudée dans la première plaque de la "
+"transmission. L'épaisseur standard d'une plaque d'aluminium est de 1/8\". "
+"Des plaques plus fines (3/32\") peuvent également être utilisées, mais la "
+"plupart des équipes s'en tiennent généralement à 1/8\". Extrudez la plaque à"
+" cette épaisseur. Vous trouverez ci-dessous le croquis après l'extrusion."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
+msgid "Inner Drivetrain Plate"
+msgstr "Plaque intérieure du châssis"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:43
+msgid ""
+"The next step will be making the outer plate for the drivebase. It is even "
+"faster to do than the inner. To do this, simply create a new part. Go back "
+"to your inner plate and start a 2D sketch."
+msgstr ""
+"L'étape suivante consistera à fabriquer la plaque extérieure du châssis. "
+"Elle est encore plus rapide à réaliser que la plaque intérieure. Pour ce "
+"faire, il suffit de créer une nouvelle pièce. Revenez à votre plaque "
+"intérieure et commencez un croquis en 2D."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
+msgid "Drivetrain Plate, with entire face seleected"
+msgstr "Plaque de transmission, avec la face entière sélectionnée"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:49
+msgid ""
+"After starting the new sketch on the inner plate, hit \"Project Geometry\" "
+"and just click anywhere on the part. It should highlight every outline of "
+"the part. (Shown here is a yellow line; yours might be red, blue or some "
+"other color.) Now click and drag across the part selecting every line on the"
+" screen. Now go hit CTRL + C, then go to the new part and hit create 2D "
+"Sketch. Next hit CTRL + V."
+msgstr ""
+"Après avoir commencé la nouvelle esquisse sur la plaque intérieure, appuyez "
+"sur \"Projeter la géométrie\" et cliquez n'importe où sur la pièce. Tous les"
+" contours de la pièce doivent être mis en évidence. (Ici, la ligne est jaune"
+" ; la vôtre peut être rouge, bleue ou d'une autre couleur.) Cliquez ensuite "
+"sur la pièce et faites-la glisser en sélectionnant toutes les lignes à "
+"l'écran. Appuyez sur CTRL + C, puis allez sur la nouvelle pièce et appuyez "
+"sur Créer un croquis 2D. Appuyez ensuite sur CTRL + V."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
+msgid ""
+"Drivetrain inner plate with the parts specific to the inner plate selected"
+msgstr ""
+"Plaque intérieure du châssis avec les pièces spécifiques à la plaque "
+"intérieure sélectionnée"
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:54
+msgid ""
+"It should look like an exact copy of the inner plate but now as a sketch. "
+"Delete your motor mounts out of the middle, then extrude the outer plate."
+msgstr ""
+"Elle devrait ressembler à une copie exacte de la plaque intérieure, mais "
+"sous forme  de croquis. Supprimez vos supports de moteur au milieu, puis "
+"extrudez la plaque extérieure."
+
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
+msgid "Outer Drivetrain Plate"
+msgstr "Plaque extérieure du châssis"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:121
 msgid "731 Wannabee Strange, Rover Ruckus, FEA of inner drivetrain plate"

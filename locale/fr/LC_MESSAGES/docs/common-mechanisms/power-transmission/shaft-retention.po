@@ -6,18 +6,168 @@
 # Translators:
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-13 04:40+0000\n"
+"POT-Creation-Date: 2025-09-18 04:28+0000\n"
 "PO-Revision-Date: 2024-03-14 04:15+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:2
+msgid "Shaft Retention"
+msgstr "Rétention de l'arbre"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:4
+msgid ""
+"If you are powering any mechanism with a :term:`live axle <Live Axle>` "
+"system, you will need a way to retain the shaft so that it does not move "
+"axially (along its length). It is necessary to constrain movement in both "
+"directions, and two methods can be mixed and matched on one shaft. "
+"Generally, this is done by having something contact the bearing's inner race"
+" that is constrained axially on the shaft. It is important to make sure the "
+"bearings themselves are also constrained."
+msgstr ""
+"Si vous alimentez un mécanisme avec un système :term:`axe vivant <Live "
+"Axle>`, vous aurez besoin d'un moyen de retenir l'arbre afin qu'il ne se "
+"déplace pas axialement (sur sa longueur). Il est nécessaire de limiter les "
+"mouvements dans les deux sens, et deux méthodes peuvent être combinées sur "
+"un même arbre. En général, il faut que quelque chose entre en contact avec "
+"la bague intérieure du roulement qui est contraint axialement sur l'arbre. "
+"Il est important de s'assurer que les roulements eux-mêmes sont également "
+"contraints."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:6
+msgid ""
+"Make sure to use an appropriately sized shim/washer between the thing "
+"retaining the shaft and the bearing, such that it only touches the bearings "
+"inner race. Otherwise, the rubbing will lead to inefficiency."
+msgstr ""
+"Veillez à utiliser une cale/rondelle de taille appropriée entre l'élément "
+"qui retient l'arbre et le roulement, de manière à ce qu'elle n'entre en "
+"contact qu'avec la bague intérieure du roulement. Dans le cas contraire, le "
+"frottement entraînera un manque d'efficacité."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:8
+msgid ""
+"Outlined below are some common methods FTC teams use for shaft retention."
+msgstr ""
+"Voici quelques méthodes couramment utilisées par les équipes de la FTC pour "
+"conserver les arbres."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:11
+msgid "Shaft Collars"
+msgstr "Colliers d’arbre"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:13
+msgid ""
+"Shaft collars are fitted onto a shaft in order to secure it. There are two "
+"primary types: set screw collars and clamping collars."
+msgstr ""
+"Les colliers d'arbre sont montés sur un arbre afin de le sécuriser. Il en "
+"existe deux types principaux : les colliers à vis de réglage et les colliers"
+" de serrage."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:16
+msgid "Set Screw Collars"
+msgstr "Colliers à vis de réglage"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
+msgid "A set screw collar with a grub screw."
+msgstr "Un collier à vis de réglage avec une vis sans tête."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:21
+msgid ""
+"Set screw collars use a set screw (typically a grub screw) to tighten down "
+"onto the shaft. While set screw collars are cheap and readily available, "
+"there are some disadvantages. The screw digs into the shaft, creating a "
+"raised burr, making it difficult to remove/adjust the collar or to use the "
+"shaft for something else in the future."
+msgstr ""
+"Les colliers à vis de réglage utilisent une vis de réglage (généralement une"
+" vis sans tête) pour serrer l'arbre. Bien que les colliers à vis de blocage "
+"soient bon marché et facilement disponibles, ils présentent certains "
+"inconvénients. La vis s'enfonce dans l'arbre, créant une bavure, ce qui rend"
+" difficile le retrait/ajustement du collier ou l'utilisation ultérieure de "
+"l'arbre pour un autre usage."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:24
+msgid "Clamping Collars"
+msgstr "Colliers de serrage"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
+msgid "A clamping shaft collar."
+msgstr "Un collier de serrage du manche."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:29
+msgid ""
+"A clamping shaft collar uses typical bolts to clamp the shaft, applying "
+"force all around the shaft instead of just in one place. They may or may not"
+" have a built-in shim to rest against a bearing race. They are generally "
+"recommended over set screw collars, especially for high-load applications. "
+"However, they do tend to be more expensive and larger."
+msgstr ""
+"Un collier de serrage utilise des boulons typiques pour serrer l'arbre, "
+"appliquant une force tout autour de l'arbre au lieu d'un seul endroit. Il "
+"peut ou non comporter une cale intégrée pour s'appuyer sur la bague d'un "
+"roulement. Ils sont généralement recommandés par rapport aux colliers à vis "
+"de blocage, en particulier pour les applications à forte charge. Cependant, "
+"ils ont tendance à être plus chers et plus grands."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:32
+msgid "Shaft Retaining Rings"
+msgstr "Bagues de retenue du manche"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
+msgid "a shaft with a shaft retaining ring"
+msgstr "un arbre avec une bague de retenue de l'arbre"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:38
+msgid ""
+"Shaft retaining rings clip into a groove in a shaft and provide a simple and"
+" compact way to retain it. Unlike collars, they cannot be moved along the "
+"shaft and are reliant on having a machined groove in the correct location. "
+"Many teams use E-clips, a type of retaining ring, with goBILDA's 8mm REX "
+"shafting, as it can be bought with an E-clip preinstalled."
+msgstr ""
+"Les bagues de retenue d'arbre se clipsent dans une rainure de l'arbre et "
+"constituent un moyen simple et compact de le retenir. Contrairement aux "
+"colliers, elles ne peuvent pas être déplacées le long de l'arbre et "
+"dépendent de la présence d'une rainure usinée au bon endroit. De nombreuses "
+"équipes utilisent des E-clips, un type d'anneau de retenue, avec l'arbre REX"
+" de 8 mm de goBILDA, car il peut être acheté avec un E-clip préinstallé."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:41
+msgid "Bolts and Washers"
+msgstr "Boulons et rondelles"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:43
+msgid ""
+"When using a shaft with a threaded bore, you can use a bolt and washer on "
+"each end to retain it. It is important to use a thread locking compound to "
+"prevent the bolts from loosening over time."
+msgstr ""
+"Lorsque vous utilisez un arbre avec un alésage fileté, vous pouvez utiliser "
+"un boulon et une rondelle à chaque extrémité pour le retenir. Il est "
+"important d'utiliser un produit de blocage des filets pour éviter que les "
+"boulons ne se desserrent avec le temps."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:48
+msgid "9804 Bomb Squad's H-Drive"
+msgstr "Le H-Drive de Bomb Squad 9804"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:48
+msgid ""
+"9804 Bomb Squad's Relic Recovery bot used bolts to retain its wheel shafts."
+msgstr ""
+"9804 Bomb Squad's robot Relic Recovery utilisait des boulons pour maintenir "
+"ses arbres de roue. "

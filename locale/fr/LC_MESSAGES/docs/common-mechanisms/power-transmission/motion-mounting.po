@@ -8,18 +8,205 @@
 # Aaraf Chy, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-09-18 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:2
+msgid "Motion Mounting"
+msgstr "Système de transmission"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:4
+msgid ""
+"When mounting a mechanism, it is important to know how to transfer power to "
+"it. There are many ways of accomplishing this using an axle."
+msgstr ""
+"Lors du montage d'un mécanisme, il est important de savoir comment lui "
+"transférer de la puissance. Il existe de nombreuses façons d'y parvenir à "
+"l'aide d'un essieu."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:7
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:12
+msgid "Live Axle"
+msgstr "Essieu moteur"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:9
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:35
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:58
+msgid "Term"
+msgstr "Définition"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:14
+msgid ""
+"The simplest method of power transmission is called \"Live Axle\". In this "
+"case, the mechanism is physically mounted on a powered axle: **when the axle"
+" turns, the mechanism turns with it**. The mechanism on the axle generally "
+"is mounted to a hub or pattern adaptor which transmits power from the axle. "
+"For this reason, live axle is generally recommended when powering multiple "
+"things together on one axle."
+msgstr ""
+"La méthode la plus simple de transmission de la puissance est appelée "
+"\"essieu moteur\". Dans ce cas, le mécanisme est physiquement monté sur un "
+"essieu moteur : **lorsque l'essieu tourne, le mécanisme tourne avec lui**. "
+"Le mécanisme sur l'essieu est généralement monté sur un moyeu ou un "
+"adaptateur de modèle qui transmet la puissance à partir de l'essieu. C'est "
+"pourquoi il est généralement recommandé d'utiliser un essieu moteur pour "
+"alimenter plusieurs éléments sur un même essieu."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:16
+msgid ""
+"This method of power transmission is most commonly used on mechanisms that "
+"are mounted directly on a motor, as well as some mechanisms like intakes."
+msgstr ""
+"Cette méthode de transmission de la puissance est le plus souvent utilisée "
+"sur les mécanismes qui sont montés directement sur un moteur, ainsi que sur "
+"certains mécanismes comme les prises d'air."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:19
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:43
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:66
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:21
+msgid "Simplest power transmission to build"
+msgstr "La transmission de puissance la plus simple à construire"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:22
+msgid "Buildable with any COTS system"
+msgstr "Constructible avec n'importe quel système COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:23
+msgid "Can power several mechanisms on the same axle together easily"
+msgstr "Peut facilement alimenter plusieurs mécanismes sur le même axe"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:24
+msgid "Can be used directly off of a motor shaft"
+msgstr "Peut être utilisé directement sur l'arbre d'un moteur"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:27
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:50
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:71
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:29
+msgid ""
+"Can physically take up more space (bearings needed on either side of a "
+"shaft)"
+msgstr ""
+"Peut prendre physiquement plus de place (roulements nécessaires de part et "
+"d'autre d'un arbre)"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:30
+msgid ""
+"Usually requires some form of :doc:`/docs/common-mechanisms/power-"
+"transmission/shaft-retention` to prevent the shaft from moving"
+msgstr ""
+"Il faut généralement une forme de :doc:`/docs/common-mechanisms/power-"
+"transmission/shaft-retention` pour empêcher l'arbre de bouger"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:33
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:38
+msgid "Dead Axle"
+msgstr "Essieu mort"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:40
+msgid ""
+"Another form of power transmission is called \"Dead Axle\". In a dead axle "
+"setup, the mechanism is mounted on a fixed axle via bearings: **it is free "
+"to spin around the axle**. This method requires the power transmission to be"
+" physically bolted to the mechanism, because the axle itself will not "
+"rotate. For this reason, dead axle is generally recommended when powering "
+"one thing that is between two plates, as the axle itself can serve as a "
+"standoff to provide support between the plates."
+msgstr ""
+"Une autre forme de transmission de puissance est appelée \"Essieu Mort\". "
+"Dans une configuration d'essieu mort, le mécanisme est monté sur un essieu "
+"fixe par l'intermédiaire de roulements : **il est libre de tourner autour de"
+" l'axe**. Cette méthode exige que la transmission de puissance soit "
+"physiquement boulonnée au mécanisme, car l'essieu lui-même ne tourne pas. "
+"Pour cette raison, l'axe mort est généralement recommandé lorsqu'il s'agit "
+"d'alimenter un élément situé entre deux plaques, car l'axe lui-même peut "
+"servir de support entre les plaques."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:45
+msgid "Simple power transmission with custom building"
+msgstr "Une transmission de puissance simple avec une construction sur mesure"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:46
+msgid "Axle can be used as a standoff support between different plates"
+msgstr ""
+"L'axe peut être utilisé comme support d'écartement entre différentes "
+"plaques."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:47
+msgid "Can require less parts then a live axle setup"
+msgstr "Peut nécessiter moins de pièces qu'une configuration d'essieu vivant"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:52
+msgid "Harder to transmit power over a long shaft"
+msgstr "Difficile de transmettre la puissance sur un arbre long"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:53
+msgid "Usually limited to powering mechanisms between two parallel plates"
+msgstr ""
+"Généralement limité à l'alimentation de mécanismes entre deux plaques "
+"parallèles"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:56
+msgid "Zombie Axle (Coaxial)"
+msgstr "Essieu zombie (coaxial)"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:61
+msgid "Zombie Axle"
+msgstr "Essieu zombie"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:63
+msgid ""
+"Zombie axle is when one shaft serves as a dead axle for one mechanism and a "
+"live axle for another mechanism. This means **one mechanism is mounted on "
+"the shaft via bearings, but the shaft is free to rotate independently to "
+"power a second mechanism**. This setup can be used to transmit power to two "
+"things using the same revolution point, making it easy to power mechanisms "
+"like arms with intakes, or suspension drivetrain pods. Zombie Axle is only "
+"recommended when two mechanisms must be powered coaxially to each other."
+msgstr ""
+"L’axe Zombie correspond à un arbre qui sert d’axe mort pour un mécanisme et "
+"d’axe moteur pour un autre mécanisme. Cela signifie **qu’un mécanisme est "
+"monté sur l’arbre via des roulements, mais que l’arbre peut tourner "
+"librement pour entraîner un second mécanisme.** Cette configuration permet "
+"de transmettre la puissance à deux éléments en utilisant le même point de "
+"rotation, ce qui facilite l’alimentation de mécanismes comme des bras avec "
+"des intakes ou des modules de suspension du train de roulement. L’axe zombie"
+" n’est recommandé que lorsque deux mécanismes doivent être entraînés "
+"coaxialement."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:68
+msgid ""
+"Only power transmission method that can power two mechanisms on the same "
+"revolution point"
+msgstr ""
+"Seule méthode de transmission de puissance permettant d'alimenter deux "
+"mécanismes sur le même point de révolution"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:73
+msgid "Has the disadvantages of both live and dead axle"
+msgstr "Présente les inconvénients de l'essieu moteur et de l'essieu traîné."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/motion-mounting.rst:74
+msgid "More mechanically complex"
+msgstr "Plus complexe sur le plan mécanique"
