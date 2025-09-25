@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# shaw phy, 2025
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 16:31+0000\n"
+"POT-Creation-Date: 2025-09-25 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2025\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,46 +26,22 @@ msgstr ""
 msgid "Control System Electronics"
 msgstr "控制系统电子"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:6
-msgid ""
-"This page contains a breakdown of the known electronics in the control "
-"system, as well as any notes regarding them"
-msgstr "本页包含控制系统中已知电子设备的故障，以及有关它们的任何注释"
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
 msgid "Expansion Hub Internals"
 msgstr "Expansion Hub内部"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:11
-msgid ""
-"Don't take apart a Control or Expansion Hub unless you really know what you "
-"are doing. They can be damaged in the process, especially if one does not "
-"know how to properly reassemble it. THIS WILL VOID YOUR WARRANTY!"
-msgstr ""
-"除非你真的知道你在做什么，否则不要拆开控制或扩展集线器。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。这将使你的保修无效！"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
-msgid "Lynx Board"
-msgstr "Lynx 板"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
-msgid ""
-"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
-"Hub that interacts with hardware. References to \"Lynx\" are made in the "
-"FTC\\ |reg| SDK refer to this board. It appears to have been developed by "
-"both REV and DEKA, possibly for use in *FIRST*\\ |reg| Global (judging by "
-"the *FIRST* Global silkscreen on the PCB)."
-msgstr ""
-"“Lynx”是扩展集线器和控制集线器中与硬件交互的电路板的代号。FTC\\ |reg| SDK 中提到的“Lynx”就是指这块板。它似乎是由 REV 和"
-" DEKA 共同开发的，可能用于 *FIRST*\\ |reg| Global（根据PCB上的FIRST Global丝网印刷判断）。"
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:18
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:80
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:104
 msgid ""
 "Don't take apart a Control or Expansion Hub unless you really know what you "
 "are doing. They can be damaged in the process, especially if one does not "
 "know how to properly reassemble it."
 msgstr "除非你真的知道你在做什么，否则不要拆开控制或扩展集线器。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
+msgid "Lynx Board"
+msgstr "Lynx 板"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
 msgid "A Lynx board that was removed from its case"
@@ -174,35 +150,9 @@ msgid ""
 "momentum in the motor."
 msgstr "电流受限，芯片上有过温保护。在PWM关闭周期期间，输出不会制动h桥。这意味着由于电机中的动量，在减速时可能会出现线性问题。"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:58
-msgid ""
-"The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is "
-"capabile of handling well over the maximum amount of current an FTC motor "
-"can draw. It has integrated current sensing and has been used since the "
-"modern robotics era. It has built in thermal and current safety limits. This"
-" motor controller has been used for years, and may even date back to the "
-"early HiTechnic based control system."
-msgstr ""
-"电机驱动器是ST微电子VNH5050电机驱动器IC，能够很好地处理FTC电机可以消耗的最大电流。它集成了电流传感，自现代机器人时代以来一直在使用。它内置了热和电流安全限制。这种电机控制器已经使用多年，甚至可以追溯到早期基于HiTechnic的控制系统。"
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
 msgid "Four Encoder Ports"
 msgstr "四个编码器端口"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:61
-msgid ""
-"**IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be "
-"connected via hardware and are reliable at high speed**. There are two "
-"methods of connecting an encoder internally to the texas instruments "
-"microprocessor, through hardware and software. Hardware ports use the "
-"integrated quadrature decoder chip and are extremely accurate at high speed,"
-" whereas encoders decoded in software are not reliable at high speeds. As a "
-"result, high Count Per Revolution (CPR) encoders, those with more than 4000 "
-"counts per revolution, should NOT be used on ports 1 and 2, the ports "
-"connected in software."
-msgstr ""
-"**重要提示：只有两个编码器端口（端口0和3）似乎是通过硬件连接的，并且在高速下是可靠的** "
-"有两种方法可以通过硬件和软件将编码器内部连接到德克萨斯仪器的微处理器。硬件端口使用集成的正交解码器芯片，在高速下非常准确，而在软件中解码的编码器在高速下并不可靠。因此，每转计数超过4000次的高计数（CPR）编码器不应用于软件连接的端口1和2。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:62
 msgid "Two XT30 Connectors"
@@ -214,16 +164,6 @@ msgid ""
 " known to fail and break off the board."
 msgstr "在电缆周围移动时应小心，因为已知这些连接器会出现故障并从电路板上脱落。"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:65
-msgid ""
-"In addition, XT30s will wear and get loose with time. Hot glue is "
-"recommended if cables come loose."
-msgstr "此外，XT30s会随着时间的推移而磨损和松动。如果电缆松动，建议使用热胶。"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:66
-msgid "Mini USB B Connector"
-msgstr "USB B连接器"
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:68
 msgid ""
 "Capable of full speed USB 2.0, and 5V output to charge a phone. The 5v "
@@ -234,46 +174,10 @@ msgstr "能够全速USB 2.0和5V输出为手机充电。5v输出可能不可靠�
 msgid "Internal Connector"
 msgstr "内部连接器"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
-msgid ""
-"This connector is what is used to connect to the android daughterboard. It "
-"presumably has UART capability as well as power and ground. All expansion "
-"hubs have this connector, whether or not they are a control hub. Presumably "
-"this is because the control hub and REV hub were developed together at the "
-"same time."
-msgstr ""
-"这个连接器是用来连接android子板的。据推测，它具有通用异步收发设备功能以及电源和接地功能。所有扩展集线器都有这个连接器，无论它们是否是控制集线器。据推测，这是因为控制集线器和REV集线器是同时开发的。"
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:74
 msgid "Control Hub"
 msgstr "Control Hub"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:76
-msgid ""
-"The Control Hub is an Expansion Hub with an embedded Android single-board "
-"computer daughterboard connected to it. This enables it to not need a "
-"separate Robot Controller phone, as the daughterboard functions as the Robot"
-" Controller. Internally, LynxCommands are sent over from the daughterboard "
-"to the Lynx board over an internal UART connection."
-msgstr ""
-"Control Hub 是一个带有嵌入式 Android 单板计算机子板的 Expansion Hub。由于内置了 Android "
-"子板，所以它不再需要单独的手机作为 RC 。在其内部，通过内置的 UART 连接从 Android 子板发送 LynxCommand 到 Lynx 板。"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:78
-msgid ""
-"The control hub daughterboard contains a RK3328 Quad-core ARM Cortex-A53 "
-"running a custom version of Android/Linux. This software is open source, but"
-" has nothing notible except for some software that manages the wifi access "
-"point. It has no thermal spreading, such as heat sinks, on the chip, which "
-"can cause thermal throttling when heavy applications such as tensorflow are "
-"used."
-msgstr ""
-"控制集线器子板包含一个RK3328四核ARMCortex-A53，运行一个定制版本的安卓/Linux。这个软件是开源的，但是除了一些管理wifi接入点的软件之外，没有什么重要的东西。它在芯片上没有热扩散，比如散热器，当使用像tenorflow这样的重型应用程序时，会导致热节流。"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:114
 msgid "The single board computer and Lynx board from a Control Hub"
 msgstr "Control Hub的单板计算机和 Lynx 板"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:89
-msgid "The android board, removed from a control hub"
-msgstr "从Control Hub拆下的安卓板"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2025-09-25 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Bianca Carstea, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -27,27 +27,9 @@ msgstr ""
 msgid "Control System Electronics"
 msgstr "Electronice ale Sistemului de Control"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:6
-msgid ""
-"This page contains a breakdown of the known electronics in the control "
-"system, as well as any notes regarding them"
-msgstr ""
-"Această pagină conține un rezumat al tuturor electronicelor cunoscute din "
-"sistemul de control."
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
 msgid "Expansion Hub Internals"
 msgstr "Electronicele Expansion Hub-ului"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:11
-msgid ""
-"Don't take apart a Control or Expansion Hub unless you really know what you "
-"are doing. They can be damaged in the process, especially if one does not "
-"know how to properly reassemble it. THIS WILL VOID YOUR WARRANTY!"
-msgstr ""
-"Nu desface Control Hub-ul sau Expansion Hub-ul decât dacă știi ce faci. Hub-"
-"urile pot fi deterioare în proces, în special dacă nu știi cum să îl "
-"reasamblezi corect la loc. ÎTI VEI PIERDE GARANȚIA DE FABRICĂ!"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
 msgid "Lynx Board"
