@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 04:28+0000\n"
+"POT-Creation-Date: 2025-09-25 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -25,6 +25,12 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:4
 msgid "Control System Electronics"
 msgstr "控制系统电子"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:6
+msgid ""
+"This page contains a breakdown of the known electronics in the control "
+"system, as well as any notes regarding them."
+msgstr "本页包含控制系统中已知电子设备的故障，以及有关它们的任何注释。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
 msgid "Expansion Hub Internals"
@@ -163,6 +169,10 @@ msgid ""
 "Care should be taken when moving around cables as these connectors have been"
 " known to fail and break off the board."
 msgstr "在电缆周围移动时应小心，因为已知这些连接器会出现故障并从电路板上脱落。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:66
+msgid "USB Mini-B Connector"
+msgstr "USB Mini-B连接器"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:68
 msgid ""
