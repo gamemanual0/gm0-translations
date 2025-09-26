@@ -8,18 +8,283 @@
 # Luis Pena, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:4
+msgid "Common Issues"
+msgstr "Problèmes communs"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:6
+msgid ""
+"Be careful what code you take as a reference from this page! Some of it is "
+"intentionally buggy to demonstrate potential easy-to-make errors."
+msgstr ""
+"Faites attention au code que vous prenez comme référence sur cette page ! "
+"Certains codes sont volontairement bogués afin de montrer les erreurs "
+"potentielles faciles à commettre."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:9
+msgid "Exceptions"
+msgstr "Exceptions"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:11
+msgid ""
+"Exceptions are events that occur during the execution of a program, "
+"disrupting the normal flow of instructions, used in error events or problems"
+" that arise during runtime. A exception can be catched to avoid propagation,"
+" otherwise any exception that's not handled will cause the program flow to "
+"stop immediately."
+msgstr ""
+"Les exceptions sont des événements qui se produisent au cours de l'exécution"
+" d'un programme, perturbant le flux normal des instructions, utilisées dans "
+"les événements d'erreur ou les problèmes qui surviennent au cours de "
+"l'exécution. Une exception peut être capturée pour éviter la propagation, "
+"sinon toute exception qui n'est pas gérée entraînera l'arrêt immédiat du "
+"programme."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:13
+msgid "Some common types of exceptions include:"
+msgstr "Les exceptions les plus courantes sont les suivantes"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:15
+msgid "**NullPointerException**"
+msgstr "**NullPointerException**"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:17
+msgid ""
+"It occurs when trying to call a method or getting a property of an object "
+"from a variable with a *null* value, which basically means that the variable"
+" doesn't hold a value *yet*, or the value doesn't exist."
+msgstr ""
+"Il se produit lorsqu'on essaie d'appeler une méthode ou d'obtenir une "
+"propriété d'un objet à partir d'une variable ayant une valeur *nulle*, ce "
+"qui signifie essentiellement que la variable ne contient pas encore de "
+"valeur ou que la valeur n'existe pas."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:18
+msgid ""
+"This exception is one of the most common in FTC\\ |reg|, below is an example"
+" that throws a NullPointerException:"
+msgstr ""
+"Cette exception est l'une des plus courantes en FTC\\ |reg|, voici un "
+"exemple qui lance une NullPointerException :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:44
+msgid ""
+"This can be fixed moving the \"Servo\" variable value definition to the init"
+" (or ``runOpMode()`` in LinearOpModes) method as follows:"
+msgstr ""
+"Ceci peut être corrigé en déplaçant la définition de la valeur de la "
+"variable \"Servo\" dans la méthode init (ou ``runOpMode()`` dans les "
+"LinearOpModes) comme suit :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:72
+msgid "**TargetPositionNotSetException**"
+msgstr "**TargetPositionNotSetException**"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:74
+msgid ""
+"This exception type is a custom one from the SDK. It means you changed the "
+"motor ``RunMode`` to RUN_TO_POSITION before setting a target position:"
+msgstr ""
+"Ce type d'exception est une exception personnalisée du SDK. Il signifie que "
+"vous avez changé le ``RunMode`` du moteur en RUN_TO_POSITION avant de "
+"définir une position cible :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:84
+msgid ""
+"It is fixed by simply switching the order of the statements; setting target "
+"position first, then changing the ``RunMode``:"
+msgstr ""
+"Pour y remédier, il suffit d'intervertir l'ordre des instructions : définir "
+"d'abord la position de la cible, puis modifier le ``RunMode`` :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:94
+msgid "**ArithmeticException**"
+msgstr "**Exception arithmétique**"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:96
+msgid ""
+"Occurs when performing any illegal arithmetic operations such as dividing by"
+" zero:"
+msgstr ""
+"Se produit lors de l'exécution d'opérations arithmétiques illégales telles "
+"que la division par zéro :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:102
+msgid ""
+"It can be handled by enclosing the code likely to throw this type of "
+"exception with a `try catch block "
+"<https://www.w3schools.com/java/java_try_catch.asp>`_:"
+msgstr ""
+"Elle peut être gérée en entourant le code susceptible de lancer ce type "
+"d'exception d'un \"bloc de capture d'essai\" "
+"<https://www.w3schools.com/java/java_try_catch.asp>`_ :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:116
+msgid "**InterruptedException**"
+msgstr "**Exception interrompue**"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:118
+msgid ""
+"It means that the SDK requested the OpMode to stop, and it's considered part"
+" of normal operation. An interrupt means that the current thread has been "
+"requested to end, so don't panic when you see a spam of those in "
+":ref:`logcat <logcat>`!"
+msgstr ""
+"Cela signifie que le SDK a demandé à l'OpMode de s'arrêter, et c'est "
+"considéré comme faisant partie du fonctionnement normal. Une interruption "
+"signifie qu'il a été demandé au thread en cours de se terminer, alors ne "
+"paniquez pas lorsque vous voyez un spam de ce type dans :ref:`logcat "
+"<logcat>` !"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:120
+msgid ""
+"If you call a method that possibly throws an InterruptedException (such as "
+"``Thread.sleep()``) it should be handled like this, with the try catch "
+"syntax mentioned before:"
+msgstr ""
+"Si vous appelez une méthode qui peut lancer une exception "
+"InterruptedException (comme ``Thread.sleep()``), elle doit être traitée "
+"comme ceci, avec la syntaxe try catch mentionnée plus haut :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:133
+msgid ""
+"Note that LinearOpMode already contains a shorthand `sleep() "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java#L96>`_"
+" method that does this under the hood. (And you shouldn't be using sleeps in"
+" OpMode since they're more strictly controlled. Read next sections for "
+"further information)"
+msgstr ""
+"Notez que LinearOpMode contient déjà une méthode raccourcie `sleep() "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java#L96>`_"
+" qui fait cela sous le capot. (Et vous ne devriez pas utiliser les sleeps en"
+" OpMode puisqu'ils sont plus strictement contrôlés. Lisez les sections "
+"suivantes pour plus d'informations)"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:136
+msgid "How the SDK handles exceptions"
+msgstr "Comment le SDK gère les exceptions"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:138
+msgid ""
+"Except for InterruptedExceptions and some other internal special cases, "
+"which simply cause the OpMode to end, the FTC SDK performs an \"emergency "
+"stop\" routine when an exception is thrown and not handled properly. This "
+"halts the OpMode and displays the full stacktrace on screen. The stacktrace "
+"can also be viewed through :ref:`logcat` when using Android Studio."
+msgstr ""
+"À l'exception des exceptions interrompues et de certains autres cas spéciaux"
+" internes, qui entraînent simplement la fin du mode Op, le SDK FTC exécute "
+"une routine d'\"arrêt d'urgence\" lorsqu'une exception est déclenchée et "
+"n'est pas traitée correctement. Cette routine arrête le mode OpMode et "
+"affiche l'intégralité de la trace de la pile à l'écran. La trace de la pile "
+"peut également être visualisée via :ref:`logcat` lorsque vous utilisez "
+"Android Studio."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:140
+msgid ""
+"Before SDK 8.0, only the first line of the error would be displayed and "
+"selecting \"Restart Robot\" from the menu would be required before running "
+"an OpMode again."
+msgstr ""
+"Avant le SDK 8.0, seule la première ligne de l'erreur s'affichait et il "
+"fallait sélectionner \"Redémarrer le robot\" dans le menu avant d'exécuter à"
+" nouveau un mode Op."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:142
+msgid ""
+"It's generally a good idea to debug all OpModes extensively before any "
+"official match, as these exceptions are disruptive."
+msgstr ""
+"Il est généralement conseillé de déboguer tous les OpModes de manière "
+"approfondie avant tout match officiel, car ces exceptions sont perturbantes."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:147
+msgid "Stuck in start, loop, stop..."
+msgstr "Coincé dans le démarrage, boucle, arrêt ..."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:149
+msgid ""
+"OpModes are *strictly controlled programs*, in the sense that the SDK "
+"requires them to flow in a certain way with the methods ``init()``, "
+"``loop()``, etc. If you take more than a specific time (`5 seconds, or 900 "
+"milliseconds in stop commands <https://github.com/OpenFTC/Extracted-"
+"RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_)"
+" executing an action in any of these methods, the SDK will perform the "
+"\"emergency stop\" routine explained before, with the \"stuck in "
+"``action``\" error message."
+msgstr ""
+"Les OpModes sont des programmes *strictement contrôlés*, dans le sens où le "
+"SDK exige qu'ils se déroulent d'une certaine manière avec les méthodes "
+"``init()``, ``loop()``, etc. Si vous prenez plus d'un certain temps (`5 "
+"secondes, ou 900 millisecondes dans les commandes d'arrêt "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_)"
+" à exécuter une action dans l'une de ces méthodes, le SDK exécutera la "
+"routine d'\"arrêt d'urgence\" expliquée précédemment, avec le message "
+"d'erreur \"stuck in ``action``\" (bloqué dans l'action)."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:170
+msgid ""
+"If you need to run any sort of lenghty action in your OpMode, another option"
+" would be using a LinearOpMode instead."
+msgstr ""
+"Si vous avez besoin d'exécuter une action longue dans votre OpMode, une "
+"autre option serait d'utiliser un LinearOpMode à la place."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:172
+msgid ""
+"LinearOpModes are less strict since their single ``runOpMode()`` method can "
+"flow more freely, but they still need to be cooperative to stop requests. "
+"Take the following code as an example:"
+msgstr ""
+"Les LinearOpModes sont moins stricts puisque leur unique méthode "
+"``runOpMode()`` peut circuler plus librement, mais ils ont toujours besoin "
+"d'être coopératifs pour arrêter les requêtes. Prenons l'exemple du code "
+"suivant :"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:190
+msgid ""
+"This code isn't cooperative to stop requests, since the ``while`` loop "
+"doesn't have an exit condition to cooperate with the OpMode stopping, "
+"therefore, this code will cause a \"stuck in stop\" error once it's stopped "
+"in the Driver Station."
+msgstr ""
+"Ce code n'est pas coopératif avec les demandes d'arrêt, puisque la boucle "
+"``while`` n'a pas de condition de sortie pour coopérer avec l'arrêt de "
+"l'OpMode, par conséquent, ce code provoquera une erreur \"coincé dans "
+"l'arrêt\" une fois qu'il sera arrêté dans la Driver Station."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:192
+msgid ""
+"To cooperate with the stopping of the OpMode, an ``opModeIsActive()`` or "
+"``!isStopRequested()`` condition is required to be added to all the blocking"
+" loops executed in the ``runOpMode()`` method. Consult the :doc:`linear-"
+"opmode-vs-opmode` page for more information about these methods."
+msgstr ""
+"Pour coopérer avec l'arrêt de l'OpMode, une condition ``opModeIsActive()`` "
+"ou ``!isStopRequested()`` doit être ajoutée à toutes les boucles bloquantes "
+"exécutées dans la méthode ``runOpMode()`. Consultez la page :doc:`linear-"
+"opmode-vs-opmode` pour plus d'informations sur ces méthodes."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:194
+msgid "An example for a cooperative LinearOpMode would be as follows:"
+msgstr "Voici un exemple de mode de coopération LinearOpMode :"

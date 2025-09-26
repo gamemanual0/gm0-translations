@@ -6,18 +6,191 @@
 # Translators:
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:4
+msgid "goBILDA"
+msgstr "goBILDA"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:6
+msgid ""
+"goBILDA (https://www.gobilda.com/) is a fixed-pitch, :term:`channel "
+"<Channel>` based building system using metric units. It was recently "
+"released in the 2018-2019 season and is made by the same company as "
+"Actobotics."
+msgstr ""
+"goBILDA (https://www.gobilda.com/) est un système de construction à pas "
+"fixe, :term:`canal <Channel>` basé sur des unités métriques. Il a été "
+"récemment publié dans la saison 2018-2019 et est fabriqué par la même "
+"société qu'Actobotics."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:9
+msgid "Special Considerations"
+msgstr "Considérations particulières"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:11
+msgid ""
+"goBILDA is based on metric measurements using M4 hardware. The hole pattern "
+"has 4mm holes on 8mm grid."
+msgstr ""
+"goBILDA est basé sur des mesures métriques utilisant du matériel M4. Le "
+"schéma de perçage comporte des trous de 4 mm sur une grille de 8 mm."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:12
+msgid ""
+"The kit is primarily structured around :term:`U-channel <Channel>`, which is"
+" strong and durable."
+msgstr ""
+"Le kit est principalement structuré autour de :term:`extrusion en U "
+"<Channel>`, qui est solide et durable."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:13
+msgid ""
+"goBILDA's robust motion system allows teams to easily build drivetrains and "
+"mechanisms without worrying about placement and tensioning."
+msgstr ""
+"Le système de mouvement robuste de goBILDA permet aux équipes de construire "
+"facilement des châssis et des mécanismes sans se soucier du placement et de "
+"la tension."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:14
+msgid ""
+"It is arguable, but goBILDA has likely a low learning curve due to its "
+"simple yet extremely functional catalog of parts."
+msgstr ""
+"C'est discutable, mais goBILDA a probablement une courbe d'apprentissage "
+"faible en raison de son catalogue de pièces simple mais extrêmement "
+"fonctionnel."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:15
+msgid ""
+"goBILDA parts can generally be easily adapted to other kit parts such as "
+"REV."
+msgstr ""
+"Les pièces de goBILDA peuvent généralement être facilement adaptées à "
+"d'autres pièces de kit telles que REV."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:16
+msgid ""
+"Additionally, goBILDA is still being developed at a quick pace and is "
+"responsive to the needs of the FTC\\ |reg| community."
+msgstr ""
+"En outre, goBILDA continue d'être développé à un rythme rapide et répond aux"
+" besoins de la communauté de FTC\\ |reg|."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:17
+msgid "**goBILDA offers a 25% discount for** *FIRST*\\ |reg| **teams**."
+msgstr ""
+"**goBILDA offre une réduction de 25% pour** **les équipes** *FIRST*\\ |reg| "
+"."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:20
+msgid "Notable components"
+msgstr "Composants remarquables"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:22
+msgid ""
+"goBILDA uses :term:`8mm pitch chain <Chain>` and HTD 3 or HTD 5 :term:`belts"
+" <HTD Belt>` for motion."
+msgstr ""
+"goBILDA utilise :term:`chaîne à pas de 8 mm <Chain>` et HTD 3 ou des "
+":term:`courroies <HTD Belt>` HTD 5 pour le mouvement."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:23
+msgid ""
+"goBILDA mostly uses :term:`clamping hubs <Clamping Hub>` (called Sonic "
+"hubs), eliminating the unreliable :term:`set screws <Set Screw>`."
+msgstr ""
+"goBILDA utilise principalement :term:`moyens de serrage <Clamping Hub>` "
+"(appelés moyeux Sonic), éliminant les :term:`vis de réglage <Set Screw>` peu"
+" fiables."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:24
+msgid ""
+"goBILDA :term:`shafts <Shaft>` are metric (:term:`6mm D <Shaft>` and "
+":term:`8mm rounded hex <Shaft>`)."
+msgstr ""
+"goBILDA :term:`arbres <Shaft>` sont métriques (:term:`6mm D <Shaft>` et "
+":term:`8mm hexagonaux arrondis <Shaft>`)."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
+msgid "goBILDA U-channel"
+msgstr "Profilés en U goBILDA"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:30
+msgid "goBILDA :term:`U-channel <Channel>` (48x48 mm)"
+msgstr "goBILDA :terme:`profilé en U <Channel>` (48x48 mm)"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:32
+msgid ""
+"Low-Side channel (smaller profile :term:`channel <Channel>`) complements "
+"full size channel. Low-Side channel is just 12mm in height and allows for "
+"more compact builds. Additionally, Low-Side channel opens up possibilities "
+"such as a kit-based :term:`parallel plate drivetrain <Parallel Plate "
+"Drivetrain>`. Low-Side channel also forms the basis of the cascading kit "
+"with a 2 or 4 stage option."
+msgstr ""
+"Le rail Low-Side (profil plus petit :term:`profilé<Channel>`) complète le "
+"rail de taille normale. Le profilé Low-Side ne mesure que 12 mm de hauteur "
+"et permet des constructions plus compactes. En outre, le canal Low-Side "
+"ouvre des possibilités telles qu'une transmission à plaques parallèles en "
+"kit :term:` châssis à plaques parallèles <Parallel Plate Drivetrain>`. Le "
+"canal Low-Side constitue également la base du kit de mise en cascade avec "
+"une option à 2 ou 4 étages."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:37
+msgid "goBILDA low-side channel"
+msgstr "goBILDA profilé en U"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:37
+msgid "goBILDA low-side channel (12x48 mm)"
+msgstr "goBILDA profilé en U (12x48 mm)"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:77
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:79
+msgid ""
+"goBILDA is not the cheapest build system; it is relatively equivalent in "
+"pricing to Actobotics, but REV is cheaper."
+msgstr ""
+"goBILDA n'est pas le système de construction le moins cher ; son prix est "
+"relativement équivalent à celui d'Actobotics, mais REV est moins cher."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst-1
+msgid ""
+"7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the lander"
+msgstr ""
+"7182 Le robot Rover Ruckus de Mechanical Paradox Cubed accroché à "
+"l'atterrisseur"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:89
+msgid ""
+"7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the field"
+msgstr ""
+"7182 Le robot Rover Ruckus de Mechanical Paradox Cubed suspendu sur le "
+"terrain"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:89
+msgid ""
+"An example of a successful goBILDA based robot, 7182 Mechanical Paradox "
+"Cubed: Finalist Alliance 1st Pick (Detroit), Rover Ruckus"
+msgstr ""
+"Un exemple de robot réussi basé sur goBILDA, 7182 Mechanical Paradox Cubed :"
+" Finaliste Alliance 1st Pick (Detroit), Rover Ruckus"

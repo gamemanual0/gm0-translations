@@ -7,18 +7,94 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2023-06-18 04:15+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:4
+msgid "Laser Cutting"
+msgstr "Découpe au laser"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:6
+msgid ""
+"Laser cutting can be a useful tool that allows FTC\\ |reg| teams to quickly "
+"produce complex custom parts. This guide will cover the uses of laser "
+"cutting in FTC, common types of laser cutters, and how to optimize your "
+"design for laser cutting."
+msgstr ""
+"La découpe laser peut être un outil utile qui permet aux équipes FTC\\ |reg|"
+" de produire rapidement des pièces complexes sur mesure. Ce guide aborde les"
+" utilisations de la découpe laser en FTC, les types de découpeurs laser les "
+"plus courants et la manière d'optimiser votre conception pour la découpe "
+"laser."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:8
+msgid ""
+"If your team does not have access to a laser cutter, consider checking with "
+"sponsors or local makerspaces, or using a service like `Fabworks "
+"<https://www.fabworks.com/>`_ or `SendCutSend <https://sendcutsend.com/>`_. "
+"These may have access to laser cutters that can cut more exotic materials. "
+"For example, Fabworks and SendCutSend both cut metals such as aluminum and "
+"steel, and SendCutSend specifically offers a wide variety of woods, "
+"plastics, metals, and composites. These services may also offer post-"
+"processing such as bending, tapping, and powder coating."
+msgstr ""
+"Si votre équipe n'a pas accès à une découpeuse laser, renseignez-vous auprès"
+" de sponsors ou de makerspaces locaux, ou utilisez un service comme "
+"`Fabworks <https://www.fabworks.com/>`_ ou `SendCutSend "
+"<https://sendcutsend.com/>`_. Ces services peuvent avoir accès à des "
+"découpeurs laser capables de découper des matériaux plus exotiques. Par "
+"exemple, Fabworks et SendCutSend découpent tous deux des métaux tels que "
+"l'aluminium et l'acier, et SendCutSend propose spécifiquement une grande "
+"variété de bois, de plastiques, de métaux et de composites. Ces services "
+"peuvent également proposer des opérations de post-traitement telles que le "
+"pliage, le taraudage et le revêtement par poudre."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:11
+msgid "Common Types of Laser Cutters"
+msgstr "Types courants de découpeurs laser"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:13
+msgid ""
+"In general, there are three types of laser cutters FTC teams may have access"
+" to: **diode lasers**, **CO2 lasers**, and **fiber lasers**."
+msgstr ""
+"En général, il existe trois types de découpeurs laser auxquels les équipes "
+"de FTC peuvent avoir accès : **les lasers à diode**, **les lasers à CO2** et"
+" **les lasers à fibre**."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:16
+msgid "Diode"
+msgstr "Diode"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:18
+msgid ""
+"These tend to be the smallest, cheapest, and lightest duty. They move around"
+" a small (<20 watts) laser diode on an exposed gantry. Usually they can only"
+" cut paper, cardboard or thin wood. In FTC, these can be useful for quick "
+"cardboard prototypes and for engraving decorative items such as team numbers"
+" and sponsor logos."
+msgstr ""
+"Ce sont généralement les plus petits, les moins chers et les plus légers. "
+"Ils déplacent une petite diode laser (<20 watts) sur un portique exposé. En "
+"général, ils ne peuvent découper que du papier, du carton ou du bois fin. En"
+" FTC, elles peuvent être utiles pour réaliser rapidement des prototypes en "
+"carton et pour graver des éléments décoratifs tels que des numéros d'équipe "
+"et des logos de sponsors."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:21
+msgid "CO2"
+msgstr "CO2"

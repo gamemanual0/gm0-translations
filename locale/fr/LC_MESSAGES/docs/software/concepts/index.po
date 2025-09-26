@@ -5,19 +5,33 @@
 # 
 # Translators:
 # Lyna Alem, 2025
-# Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/concepts/index.rst:4
+msgid "Programming Concepts"
+msgstr "Concepts en programmation"
+
+#: ../../gm0/source/docs/software/concepts/index.rst:5
+msgid ""
+"Many of the pages here are on concepts that are not necessarily FTC\\ |reg| "
+"specific, and are generally more theoretical then actual tutorials on FTC "
+"specific concepts."
+msgstr ""
+"Beaucoup des pages ici portent sur des concepts qui ne sont pas "
+"nécessairement spécifiques à FTC\\ |reg| et sont généralement plus "
+"théoriques que des tutoriels pratiques sur des concepts spécifiques à FTC®."

@@ -5,18 +5,101 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:2
+msgid "Electronics and Motion Components"
+msgstr "Composants Électroniques et de Mouvement"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:4
+msgid ""
+"This chapter contains information on electric power and electronics of the "
+"robot, including information on wiring, batteries, motors, and control "
+"system."
+msgstr ""
+"Ce chapitre contient des informations sur l'alimentation électrique et "
+"l'électronique du robot, y compris des informations sur le câblage, les "
+"batteries, les moteurs et le système de contrôle."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:19
+msgid "Glossary"
+msgstr "Glossaire"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:22
+msgid "Gauge"
+msgstr "Calibre"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:24
+msgid ""
+"Wire gauge refers to the diameter of wire. AWG stands for American Wire "
+"Gauge, the general system used in the US. The larger the gauge number, the "
+"smaller the wire diameter. Generally, :term:`servo <Servo>` wires are 22 AWG"
+" and motor wires are 18 AWG."
+msgstr ""
+"Le calibre du fil fait référence au diamètre du fil. AWG signifie American "
+"Wire Gauge, le système général utilisé aux États-Unis. Plus le numéro du "
+"calibre est grand, plus le diamètre du fil est petit. En général, <Servo>les"
+" fils des servos sont du calibre 22 AWG et les fils des moteurs sont du "
+"calibre 18 AWG."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:25
+msgid "Grounding Strap"
+msgstr "Bracelet de mise au sol"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:27
+msgid ""
+"The REV Grounding Strap is used to ground the metal frame of the robot to "
+"the :term:`XT30` port of the Expansion Hub. It is currently the only legal "
+"way to ground your robot."
+msgstr ""
+"Le REV Grounding Strap est utilisé pour mettre au sol le cadre métallique du"
+" robot via le port XT30 du Expansion Hub. C'est actuellement la seule "
+"méthode légale pour mettre au sol votre robot."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst-1
+msgid "A REV Robotics grounding strap"
+msgstr "Bracelet de mise au sol REV Robotics"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:32
+msgid "USB Retention Mount"
+msgstr "Support de Rétention USB"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:34
+msgid ""
+"The USB Retention Mount, sold by REV, is a plastic part affixed to the "
+"Expansion Hub that relieves stress on the USB Mini port. This is especially "
+"important because if the USB cable is loose or disconnected, the robot phone"
+" cannot communicate with the Expansion Hub, causing a disconnect."
+msgstr ""
+"Le Support de Rétention USB, vendu par REV, est une pièce en plastique fixée"
+" au Expansion Hub qui réduit la tension sur le port USB Mini. Cela est "
+"particulièrement important, car si le câble USB est lâche ou déconnecté, le "
+"téléphone du robot ne peut pas communiquer avec l'Expansion Hub, ce qui "
+"entraîne une perte de connexion."
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst:36
+msgid ""
+"For teams using an expansion hub, it is highly recommended for teams to "
+"purchase the USB retention mount."
+msgstr ""
+"Pour les équipes utilisant un Expansion Hub, il est fortement recommandé "
+"d'acheter le Support de Rétention USB"
+
+#: ../../gm0/source/docs/power-and-electronics/index.rst-1
+msgid "A USB retention mount attached to a REV Expansion Hub"
+msgstr "un Support de Rétention USB attché a un Expansion Hub"

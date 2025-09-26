@@ -7,18 +7,199 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:2
+msgid "Power Transmission Glossary"
+msgstr "Glossaire de la transmission de puissance"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:18
+msgid "C2C"
+msgstr "C2C"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:20
+msgid ""
+"Center to center (C2C) refers to the distance between the centers of a pair "
+"of :term:`sprockets <Sprocket>`, pulleys or :term:`gears <Gear>`. This will "
+"affect :term:`chain <Chain>`/:term:`belt <Timing Belt>` tension and gear "
+"meshing, so calculating this correctly is essential."
+msgstr ""
+"L'entraxe (C2C) désigne la distance entre les centres d'une paire de "
+":term:`pignons <Sprocket>`, de poulies ou de :term:`engrenages <Gear>`. "
+"Cette distance affecte la tension de la :term:`chaîne "
+"<Chain>`/:term:`courroie <Timing Belt>` et l'engrènement des engrenages, "
+"c'est pourquoi il est essentiel de la calculer correctement."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:15
+msgid "Clearance Diameter"
+msgstr "Diamètre de dégagement"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:17
+msgid ""
+"The clearance diameter is the diameter of the imaginary circle that contains"
+" the entire pulley, sprocket, or gear. For pulleys and sprockets, this "
+"includes the belt or chain on the component. Clearance diameter is used to "
+"check for interferences with other mechanisms. It is usually larger then "
+":term:`Pitch Diameter (PD)` and :term:`Outside Diameter (OD)`"
+msgstr ""
+"Le diamètre de dégagement est le diamètre du cercle imaginaire qui contient "
+"l'ensemble de la poulie, du pignon ou de l'engrenage. Pour les poulies et "
+"les pignons, ce diamètre inclut la courroie ou la chaîne du composant. Le "
+"diamètre de dégagement est utilisé pour vérifier l'absence d'interférences "
+"avec d'autres mécanismes. Il est généralement plus grand que :term:`Diamètre"
+" primitif (PD)` et :term:`Diamètre extérieur (OD)`"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:38
+msgid "GT2 Belt"
+msgstr "Courroie GT2"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:40
+msgid ""
+"GT2 belt is a type of synchronous timing belt commonly used on drivetrains "
+"and other mechanisms. Its available in different widths and pitches, "
+"although the most common is GT2 3mm (3mm :term:`Pitch`), compatible with REV"
+" Robotics :term:`COTS` Pulleys. See :term:`Timing Belt`"
+msgstr ""
+"La courroie GT2 est un type de courroie synchronisée couramment utilisée sur"
+" les chaînes cinématiques et autres mécanismes. Elle est disponible en "
+"différentes largeurs et pas, mais la plus courante est la GT2 3mm (3mm "
+":term:`Pas`), compatible avec les poulies REV Robotics :term:`COTS`. Voir "
+":term:`Courroie de réglage`"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:35
+msgid "HTD Belt"
+msgstr "Courroie HTD"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:37
+msgid ""
+"HTD belt is a type of synchronous timing belt commonly used on drivetrains. "
+"It is available in different widths to accommodate different sized pulleys. "
+"The most common is HTD3 (3mm :term:`Pitch`) and HTD5 (5mm :term:`Pitch`) "
+"belts, as these are compatible with goBILDA :term:`COTS` pulleys. See "
+":term:`Timing Belt`"
+msgstr ""
+"La courroie HTD est un type de courroie de distribution synchrone couramment"
+" utilisé sur les chaînes cinématiques. Elle est disponible en différentes "
+"largeurs pour s'adapter à des poulies de différentes tailles. Les courroies "
+"HTD3 (3mm :term:`Pitch`) et HTD5 (5mm :term:`Pitch`) sont les plus "
+"courantes, car elles sont compatibles avec les poulies goBILDA :term:`COTS`."
+" Voir :term:`Courroie de réglage`"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:21
+msgid "Idler"
+msgstr "Roue libre"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:23
+msgid ""
+"An idler :term:`gear <Gear>`, :term:`sprocket <Sprocket>`, or pulley is one "
+"that is purposely not used for driving anything else on the :term:`shaft "
+"<Shaft>`. The purpose of this idler is, in the case of gears, to transfer "
+"power to another direction."
+msgstr ""
+"Un :term:`engrenage <Gear>`, :term:`pignon <Sprocket>` ou poulie libre est "
+"une poulie qui n'est volontairement pas utilisée pour entraîner quoi que ce "
+"soit d'autre sur l' :term:`arbre <Shaft>`. Dans le cas des engrenages, "
+"l'objectif de cette poulie est de transférer la puissance dans une autre "
+"direction."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:25
+msgid ""
+"For :term:`chain <Chain>` and :term:`belt <Timing Belt>`, idlers are more "
+"common, and are usually adjustable to maintain tension."
+msgstr ""
+"Pour :term:`chaîne <Chain>` et :term:`courroie <Timing Belt>`, les rouleaux "
+"sont plus courants et sont généralement réglables pour maintenir la tension."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:12
+msgid "Outside Diameter (OD)"
+msgstr "Diamètre extérieur (OD)"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:14
+msgid ""
+"The diameter of the imaginary circle traced by the outermost face of the "
+"teeth on a gear, sprocket, or pulley. This will be larger then the "
+":term:`Pitch Diameter (PD)` for a gear, but smaller then the :term:`Pitch "
+"Diameter (PD)` for a pulley or sprocket."
+msgstr ""
+"Le diamètre du cercle imaginaire tracé par la face extérieure des dents d'un"
+" engrenage, d'un pignon ou d'une poulie. Ce diamètre est plus grand que le "
+":term:`Diamètre primitif (PD)` d'un engrenage, mais plus petit que le "
+":term:`Diamètre primitif (PD)` d'une poulie ou d'un pignon."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:9
+msgid "Pitch"
+msgstr "Pas"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:11
+msgid ""
+"Pitch refers to the distance between the center of one tooth of a gear, "
+"sprocket, or pulley to another. In chains it refers to the distance from one"
+" pin to another, and in belts it refers to the distance betewen one groove "
+"to another."
+msgstr ""
+"Le pas désigne la distance entre le centre d'une dent d'un engrenage, d'un "
+"pignon ou d'une poulie et celui d'une autre dent. Dans les chaînes, il "
+"s'agit de la distance entre un axe et un autre, et dans les courroies, de la"
+" distance entre une rainure et une autre."
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:6
+msgid "Pitch Diameter (PD)"
+msgstr "Diamètre primitif (PD)"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:8
+msgid ""
+"An imaginary circle around a component used for various calculations. For "
+"gears, it is the imaginary circle that mates with any other gear's pitch "
+"diameter when the gears are properly spaced. For chain and belt, it is the "
+"circle which is traced by the middle of the belt or chain as the pulley or "
+"sprocket rotates. For gears, the pitch diameter will be smaller then the "
+":term:`Outside Diameter (OD)`, but with chain and belts, the pitch diameter "
+"will be larger. :math:`PD = (tooth * pitch)/\\pi`"
+msgstr ""
+"Un cercle imaginaire autour d'un composant utilisé pour divers calculs. Pour"
+" les engrenages, il s'agit du cercle imaginaire qui correspond au diamètre "
+"primitif de tout autre engrenage lorsque les engrenages sont correctement "
+"espacés. Pour les chaînes et les courroies, il s'agit du cercle tracé par le"
+" milieu de la courroie ou de la chaîne lorsque la poulie ou le pignon "
+"tourne. Pour les engrenages, le diamètre primitif sera plus petit que le "
+":term:`Diamètre extérieur (DO)`, mais pour les chaînes et les courroies, le "
+"diamètre primitif sera plus grand. :math:`PD = (dent * pas)/\\pi`"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:26
+msgid "Sprocket"
+msgstr "Pignon"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:28
+msgid ""
+"A sprocket is a mechanical part that transfers power through its cogs, which"
+" fit into chain. It is similar to a :term:`gear <Gear>`, except that instead"
+" of meshing with another gear, the sprocket meshes with chain. See "
+":term:`Chain`"
+msgstr ""
+"Un pignon est une pièce mécanique qui transfère la puissance par "
+"l'intermédiaire de ses dents, qui s'insèrent dans une chaîne. Il est "
+"similaire à un :term:`engrenage <Gear>`, sauf qu'au lieu de s'engrener avec "
+"un autre engrenage, le pignon s'engrène avec une chaîne. Voir :term:`Chaîne`"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:34
+msgid "A REV Robotics Delrin 20 Tooth #25 sprocket"
+msgstr "Un pignon REV Robotics Delrin 20 dents #25"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:34
+msgid "Delrin  20 Tooth #25 sprocket"
+msgstr "Pignon Delrin 20 dents #25"

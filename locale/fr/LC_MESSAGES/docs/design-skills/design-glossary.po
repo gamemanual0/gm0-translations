@@ -5,18 +5,86 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:4
+msgid "Design Glossary"
+msgstr "Glossaire de conception"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:7
+msgid "COTS"
+msgstr "COTS"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:9
+msgid ""
+"COTS (Commercial Off the Shelf) parts refer to parts that teams can purchase"
+" physically or through an online retailer."
+msgstr ""
+"Les pièces COTS (Commercial Off the Shelf) désignent des pièces que les "
+"équipes peuvent acheter physiquement ou auprès d’un détaillant en ligne."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:11
+msgid ""
+"FTC\\ |reg| teams are limited to one degree of freedom (with some "
+"exceptions) to COTS parts. Therefore, buying a drawer slide is an allowable "
+"part, as there is only one degree of freedom, but purchasing a multi-axis "
+"arm isn't."
+msgstr ""
+"Les équipes FTC\\ |reg| sont limitées à un seul degré de liberté (avec "
+"quelques exceptions) pour les pièces COTS. Ainsi, l'achat d'une glissière de"
+" tiroir est autorisé, car elle ne possède qu’un seul degré de liberté, mais "
+"l’achat d’un bras multi-axes ne l’est pas."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:13
+msgid ""
+"However, teams can buy individual parts and assemble them together into a "
+"mechanism that has more than one degree of freedom. This doesn't apply to "
+"drivetrain kits."
+msgstr ""
+"Cependant, les équipes peuvent acheter des pièces individuelles et les "
+"assembler pour former un mécanisme ayant plus d’un degré de liberté. Cela ne"
+" s’applique pas aux kits de châssis."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:14
+msgid "Packaging"
+msgstr "L'emballage"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:16
+msgid ""
+"Packaging refers to the relative size and location of components on the "
+"robot. Generally, you want to design and locate (or package) components in "
+"the most space-efficient way you can."
+msgstr ""
+"L'emballage fait référence à la taille relative et à l’emplacement des "
+"composants sur le robot. En général, il est préférable de concevoir et de "
+"positionner (ou emballé) les composants de la manière la plus efficace "
+"possible en termes d’espace."
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:17
+msgid "STEP file"
+msgstr "Fichier STEP"
+
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:19
+msgid ""
+"A STEP file is a filetype used to store 3D data about a part. It is "
+"recognized by different CAD softwares including SolidWorks, Inventor, Creo, "
+"etc."
+msgstr ""
+"Un fichier STEP est un type de fichier utilisé pour stocker des données 3D "
+"sur une pièce. Il est reconnu par différents logiciels de CAO, notamment "
+"SolidWorks, Inventor, Creo, etc."

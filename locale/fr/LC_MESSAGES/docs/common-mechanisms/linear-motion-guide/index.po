@@ -5,18 +5,62 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/index.rst:2
+msgid "Linear Motion Guide"
+msgstr "Guide de mouvement linéaire"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/index.rst:4
+msgid ""
+"Linear motion is one of the most important components of a successful robot."
+" In most games, teams are required to reach into an area that the drivetrain"
+" cannot access in order to pick up or deposit game elements. For example, in"
+" 2017-2018, Relic Recovery, teams needed to extend an arm of some sort to "
+"grab the Relic that was placed in the corner of the playing field. This area"
+" of the game field was nearly impossible for a robot to drive to, so a "
+"linear extension was necessary."
+msgstr ""
+"Le mouvement linéaire est l'un des composants les plus importants d'un robot"
+" réussi. Dans la plupart des jeux, les équipes doivent atteindre une zone "
+"que le système de transmission ne peut pas accéder pour saisir ou déposer "
+"des éléments de jeu. Par exemple, en 2017-2018, dans le jeu Relic Recovery, "
+"les équipes devaient étendre un bras de quelque sorte pour saisir le Relic "
+"placé dans le coin du terrain de jeu. Cette zone du terrain était presque "
+"inaccessible pour un robot, donc une extension linéaire était nécessaire."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/index.rst:6
+msgid ""
+"Access of > 18\" is necessary for nearly all games; >24\" is preferred. In "
+"some games, an extension of 36\" or more may be needed."
+msgstr ""
+"Un accès de > 18\" est nécessaire pour presque tous les jeux ; > 24\" est "
+"préférable. Dans certains jeux, une extension de 36\" ou plus peut être "
+"nécessaire."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/index.rst:8
+msgid ""
+"It is possible to achieve extension with an arm, but since this guide is "
+"geared toward newer teams, linear extensions should be prioritized over "
+"arms. Refer to the :doc:`Arm Guide </docs/common-mechanisms/arms>` for more "
+"information."
+msgstr ""
+"Il est possible d'obtenir une extension avec un bras, mais étant donné que "
+"ce guide est destiné aux équipes plus récentes, les extensions linéaires "
+"doivent être privilégiées par rapport aux bras. Consultez le :doc:`guide des"
+" bras </docs/common-mechanisms/arms>` pour plus d'informations."

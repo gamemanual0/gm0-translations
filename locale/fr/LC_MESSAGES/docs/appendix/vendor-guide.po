@@ -6,18 +6,358 @@
 # Translators:
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 04:28+0000\n"
+"POT-Creation-Date: 2025-09-26 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:2
+msgid "Vendor Guide"
+msgstr "Guide du vendeur"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:5
+msgid "Vendor Identification"
+msgstr "Identification du fournisseur"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:7
+msgid ""
+"When you read some Bill of Materials (BOMs) or part numbers that are "
+"references in this guide, it might be confusing to find what vendor the part"
+" you need comes from. The obvious thing to do is Google the part number, and"
+" generally it can identify what you want and where it comes from. But if "
+"that fails, here are some quick tips to identify the vendor selling what you"
+" need."
+msgstr ""
+"Lorsque vous lisez certaines nomenclatures ou certains numéros de pièces "
+"mentionnés dans ce guide, il peut être difficile de savoir de quel "
+"fournisseur provient la pièce dont vous avez besoin. La chose la plus "
+"évidente à faire est de rechercher le numéro de la pièce sur Google, ce qui "
+"permet généralement d'identifier ce que vous voulez et d'où il provient. En "
+"cas d'échec, voici quelques conseils rapides pour identifier le fournisseur "
+"qui vend la pièce dont vous avez besoin."
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:10
+msgid "Prefix Identification"
+msgstr "Identification du préfixe"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:12
+msgid "AM- signifies AndyMark (i.e. AM-0447)"
+msgstr "AM- signifie AndyMark (i.e. AM-0447)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:13
+msgid "REV- signifies REV Robotics (i.e. REV-31-1155)"
+msgstr "REV- signifie REV Robotics (i.e. REV-31-1155)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:14
+msgid "WCP- signifies West Coast Products (i.e. WCP-0117)"
+msgstr "WCP- signifie West Coast Products (i.e. WCP-0117)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:17
+msgid "SKU Identification"
+msgstr "Identification SKU"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:19
+msgid ""
+"Actuonix: 3-4 digit SKU, alphanumeric, in the form of XX00 or X00 (i.e. "
+"PQ12)"
+msgstr ""
+"Actuonix : UGS de 3-4 chiffres, alphanumérique, sous la forme XX00 ou X00 "
+"(c'est-à-dire PQ12)."
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:20
+msgid ""
+"goBILDA: 12 digit SKU, numerical, in the form of 0000-0000-0000 (i.e. "
+"3213-3606-0001)"
+msgstr ""
+"goBILDA : UGS à 12 chiffres, numérique, sous la forme 0000-0000-0000 (c'est-"
+"à-dire 3213-3606-0001)."
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:21
+msgid ""
+"Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000 (i.e. "
+"W44260)"
+msgstr ""
+"Pitsco/Tetrix : UGS à 6 chiffres, W + 5 chiffres, sous la forme W00000 "
+"(c'est-à-dire W44260)."
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:22
+msgid ""
+"Servocity/Actobotics: 6 digit SKU, numerical, in the form of 000000 (i.e. "
+"615190)"
+msgstr ""
+"Servocity/Actobotics : UGS à 6 chiffres, numérique, sous la forme de 000000 "
+"(c'est-à-dire 615190)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:25
+msgid "Where can I get ...?"
+msgstr "Où puis-je me procurer ... ?"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:27
+msgid "Motors and Gearboxes"
+msgstr "Moteurs et réducteurs"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:29
+msgid "Spur Gear Motors"
+msgstr "Moteurs à engrenages droits"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:31
+msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
+msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Classic"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:32
+msgid ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
+msgstr ":term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:33
+msgid "goBILDA 5201 Spur Gear"
+msgstr "goBILDA 5201 Engrenage droit"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:34
+msgid "TETRIX TorqueNado"
+msgstr "TETRIX TorqueNado"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:36
+msgid "Planetary Gearbox Motors (recommended)"
+msgstr "Moteurs à réducteur planétaire (recommandé)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:38
+msgid ":term:`AndyMark NeveRest <NeveRest Motor>` Orbital"
+msgstr ":term:`AndyMark NeveRest <NeveRest Motor>` Orbital"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:39
+msgid ":term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*"
+msgstr ":term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:40
+msgid ""
+":term:`goBILDA 5202/5203 Yellow Jacket Planetary <Yellow Jacket Motor>`"
+msgstr ""
+":term:`goBILDA 5202/5203 Yellow Jacket Planetary <Yellow Jacket Motor>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:41
+msgid "(*italicized* = customizable gearbox ratio)"
+msgstr "(*en italique* = rapport de boîte de vitesses personnalisable)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:43
+msgid "Servos"
+msgstr "Servomoteurs"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:45
+msgid "HiTec (from ServoCity); 24 tooth spline"
+msgstr "HiTec (de ServoCity) ; 24 dents cannelées"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:46
+msgid "REV Smart Robot Servo; 25 tooth spline"
+msgstr "REV Smart Robot Servo ; 25 dents cannelées"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:47
+msgid "Axon Mini & Max; 25 tooth spline"
+msgstr "Axon Mini & Max ; 25 dents cannelées"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:48
+msgid "goBILDA Dual Mode Servo; 25 tooth spline"
+msgstr "goBILDA Dual Mode Servo ; 25 dents cannelées"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:49
+msgid ""
+"Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth "
+"spline"
+msgstr ""
+"Futaba (les servos Futaba sont largement utilisés dans les avions RC et de "
+"loisir) ; 25 dents cannelées"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:50
+msgid "Savox heavy-duty servos; 25 tooth spline"
+msgstr "Servos Savox à usage intensif ; 25 dents cannelées"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:51
+msgid "Actuonix (linear actuators)"
+msgstr "Actuonix (actionneurs linéaires)"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:53
+msgid "Sensors"
+msgstr "Capteurs"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:55
+msgid "AndyMark"
+msgstr "AndyMark"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:56
+msgid "REV"
+msgstr "REV"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:58
+msgid "Hardware & Raw Materials"
+msgstr "Matériel et matières premières"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:60
+msgid "McMaster-Carr"
+msgstr "McMaster-Carr"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:61
+msgid "OnlineMetals"
+msgstr "Métaux en ligne"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:62
+msgid "Amazon"
+msgstr "Amazon"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:63
+msgid "Local hardware store"
+msgstr "Magasins locaux"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:65
+msgid "Aluminum Components"
+msgstr "Composants en aluminium"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:67
+msgid ""
+"Actobotics :term:`channel <Channel>`, mini :term:`channel <Channel>`, X-rail"
+" :term:`extrusion <Extrusion>`"
+msgstr ""
+"Actobotics :term:`profilé <Channel>`, mini :term:`profilé <Channel>`, X-rail"
+" :term:`extrusion <Extrusion>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:68
+msgid ""
+"REV extrusion, C :term:`channel <Channel>`, U :term:`channel <Channel>`"
+msgstr ""
+"REV extrusion, :term:`profilé en C <Channel>`, :term:`profilé en U "
+"<Channel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:69
+msgid ""
+"goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`"
+msgstr ""
+"goBILDA :term:`profilé <Channel>`, goRAIL :term:`extrusion <Extrusion>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:70
+msgid "TETRIX :term:`channel <Channel>`"
+msgstr "TETRIX :term:`profilé <Channel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:71
+msgid "MiSUMI :term:`extrusion <Extrusion>`"
+msgstr "MiSUMI :term:`extrusion <Extrusion>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:73
+msgid "Gears/Sprockets/Pulleys"
+msgstr "Engrenages/pignons/poulies"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:75
+msgid "REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
+msgstr ""
+"REV :term:`engrenages <Gear>`, :term:`pignons <Sprocket>`, :term:`poulies"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:76
+msgid "Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
+msgstr ""
+"Actobotics :term:`engrenages <Gear>`, :term:`pignons <Sprocket>`, poulies"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:77
+msgid "goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys"
+msgstr ""
+"goBILDA :term:`engrenages <Gear>`, :term:`pignons <Sprocket>`, poulies"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:78
+msgid "TETRIX :term:`gears <Gear>` and pulleys"
+msgstr "TETRIX :term:`engrenages <Gear>` et poulies"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:79
+msgid "AndyMark :term:`gears <Gear>` and pulleys"
+msgstr "AndyMark :term:`engrenages <Gear>` and poulies"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:81
+msgid "Wheels"
+msgstr "Roues"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:83
+msgid ""
+"AndyMark traction, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel"
+" <Mecanum Wheel>`"
+msgstr ""
+"AndyMark traction, :term:`compliant <Compliant Wheel>`, :term:`roue "
+"mecanum<Mecanum Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:84
+msgid ""
+"REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum"
+" Wheel>`"
+msgstr ""
+"REV grip, traction, :term:`omni <Omni Wheel>`, :term:` roue mecanum <Mecanum"
+" Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:85
+msgid "ServoCity traction, :term:`omni wheel <Omni Wheel>`"
+msgstr "ServoCity traction, :term:`roue omni <Omni Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:86
+msgid ""
+"goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
+"Wheel>`"
+msgstr ""
+"goBILDA traction, :term:`omni <Omni Wheel>`, :term:`roue mecanum <Mecanum "
+"Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:87
+msgid ""
+"TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum "
+"Wheel>`"
+msgstr ""
+"TETRIX traction, :term:`omni <Omni Wheel>`, :term:`roue mecanum <Mecanum "
+"Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:88
+msgid "Nexus :term:`mecanum wheel <Mecanum Wheel>`"
+msgstr "Nexus :term:`roue mecanum<Mecanum Wheel>`"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:90
+msgid "Linear Slide Kits"
+msgstr "Kits de glissières linéaires"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:92
+msgid "REV 15 mm :term:`extrusion <Extrusion>` slide kit"
+msgstr "REV 15 mm :term:`extrusion <Extrusion>` kit de glissières"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:93
+msgid "Actobotics linear slide kit"
+msgstr "Kit de glissière linéaire Actobotics"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:94
+msgid "goBILDA linear slide kit"
+msgstr "Kit de diapositives linéaires goBILDA"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:96
+msgid "Drawer Slides"
+msgstr "Glissières de tiroir"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:98
+msgid "MiSUMI SAR2 or SAR3 aluminum slide"
+msgstr "glissière en aluminium, MiSUMI SAR2 ou SAR3"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:99
+msgid "Long Robotics Slides"
+msgstr "Glissières Long Robotics"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:100
+msgid "Hafele cabinet slide"
+msgstr "Glissière d'armoire Hafele"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:101
+msgid "Steel-rolled drawer slide"
+msgstr "Glissière de tiroir roulée en acier"
+
+#: ../../gm0/source/docs/appendix/vendor-guide.rst:102
+msgid "Igus"
+msgstr "Igus"

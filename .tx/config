@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = es_MX: es, ru_RU: ru, ro_RO: ro, ja_JP: ja, fr_CA: fr
+lang_map = ja_JP: ja, fr_CA: fr, es_MX: es, ru_RU: ru, ro_RO: ro
 
 [o:gamemanual0:p:gm0:r:docs--appendix--gallery]
 file_filter            = locale/<lang>/LC_MESSAGES/docs/appendix/gallery.po
