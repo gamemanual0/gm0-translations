@@ -5,18 +5,66 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-12 04:29+0000\n"
+"POT-Creation-Date: 2025-09-27 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:4
+msgid "Drivetrains"
+msgstr "Châssis"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:6
+msgid ""
+"This section will cover the heart of any robot, the drivetrain. The purpose "
+"of the drivetrain is to facilitate the movement of the robot, and thus is "
+"crucial to the overall function of the robot. If the drivetrain doesn't "
+"work, the rest of the robot won't work either. There are many possible types"
+" of drivetrains in FTC\\ |reg|, which we have covered in the guide. "
+"Drivetrains are split into two main types: tank (skid-steer) and holonomic."
+msgstr ""
+"Cette section couvrira le cœur de tout robot, le châssis. Le but du châssis "
+"est de faciliter le mouvement du robot, et il est donc crucial pour le bon "
+"fonctionnement global du robot. Si le châssis ne fonctionne pas, le reste du"
+" robot ne fonctionnera pas non plus. Il existe de nombreux types de châssis "
+"possibles en FTC®, que nous avons abordés dans le guide. Les châssis se "
+"divisent en deux types principaux : tank (skid-steer) et holonomique."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:9
+msgid "Drivetrain types"
+msgstr "Types de châssis"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:12
+msgid "Tank Drivetrain"
+msgstr "Châssis Tank"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:15
+msgid "Holonomic Drivetrain"
+msgstr "Châssis Holonomic"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:20
+msgid "Drivetrain selection"
+msgstr "Sélection de châssis"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:22
+msgid ""
+"When building any mechanism, teams must list out some necessities or desired"
+" features. Here are some priorities for that we think are important for each"
+" drivetrain:"
+msgstr ""
+"Lors de la construction de tout mécanisme, les équipes doivent établir une "
+"liste de nécessités ou de fonctionnalités souhaitées. Voici quelques "
+"priorités que nous considérons comme importantes pour chaque type de châssis"
+" :"
