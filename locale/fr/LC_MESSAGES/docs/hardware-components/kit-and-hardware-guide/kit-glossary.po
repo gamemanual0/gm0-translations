@@ -6,18 +6,294 @@
 # Translators:
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-12 04:29+0000\n"
+"POT-Creation-Date: 2025-09-29 16:25+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:4
+msgid "Kit Glossary"
+msgstr "Glossaire du kit"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:7
+msgid "Channel"
+msgstr "Profilé"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:9
+msgid ""
+"Channel (more precisely called C-Channel) is aluminum that is in the profile"
+" of a C. (It is also sometimes called U-Channel.) Channel, along with "
+":term:`extrusion <Extrusion>`, is the most common structural build element "
+"in FTC\\ |reg|, and is found in Tetrix, REV, Actobotics, and goBILDA kits."
+msgstr ""
+"Le profilé (plus précisément appelé profilé en C) est de l'aluminium qui a "
+"le profil d'un C. (Il est aussi parfois appelé profilé en U.) Le profilé, "
+"avec :term:`extrusion <Extrusion>`, est l'élément de construction "
+"structurelle le plus courant dans les kits FTC, et on le trouve dans les "
+"kits Tetrix, REV, Actobotics, et goBILDA."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:11
+msgid ""
+"Channel is fixed pitch, which means that there are pre-drilled holes that "
+"limit mounting to finite locations. It can be used to easily construct "
+"drivetrains; however, be aware that :term:`gear <Gear>` and :term:`chain "
+"<Chain>` mesh may not be with channel."
+msgstr ""
+"Le profilé est à pas fixe, ce qui signifie qu'il comporte des trous pré-"
+"percés qui limitent le montage à des emplacements finis. Il peut être "
+"utilisé pour construire facilement des châssis ; cependant, il faut savoir "
+"que les maillages des :term:`engrenages <Gear>` et des "
+":term:`chaines<Chain>` peuvent ne pas être compatibles avec le profilé."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "A piece of tetrix channel"
+msgstr "Un morceau de profilé tétrix"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:16
+msgid "Extrusion"
+msgstr "Extrusion"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:18
+msgid ""
+"Extrusion is aluminum shaped into slotted profiles able to accept certain "
+"types of hardware. For FTC, the most common is the 15mm extrusion, used in "
+"the REV and Misumi products. 15mm extrusion accepts M3 bolts and nuts (note "
+"that only regular M3 nuts can fit inside the slot, not :term:`locknuts "
+"<Locknut>`)."
+msgstr ""
+"L'extrusion est de l'aluminium façonné en profils fendus capables d'accepter"
+" certains types de matériel. Pour FTC, l'extrusion la plus courante est "
+"celle de 15 mm, utilisée dans les produits REV et Misumi. L'extrusion de 15 "
+"mm accepte les boulons et les écrous M3 (notez que seuls les écrous M3 "
+"ordinaires peuvent s'insérer dans la fente, et non les :term:`locknuts "
+"<Locknut>`)."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:20
+msgid ""
+"Extrusion is not a fixed pitch system, allowing teams to adjust components "
+"as they wish. This makes it simple to achieve correct tension and put "
+"mechanisms where :term:`channel <Channel>` would limit mounting. The "
+"adjustability of extrusion is especially useful in precise situations, such "
+"as intake geometry. However, extra care must be taken to ensure components "
+"do not shift under load."
+msgstr ""
+"L'extrusion n'est pas un système à pas fixe, ce qui permet aux équipes "
+"d'ajuster les composants comme elles le souhaitent. Il est ainsi facile "
+"d'obtenir une tension correcte et de placer des mécanismes là où le "
+":term:`profilé <Channel>` limiterait le montage. L'ajustabilité de "
+"l'extrusion est particulièrement utile dans des situations précises, telles "
+"que la géométrie de l'admission. Toutefois, il faut veiller à ce que les "
+"composants ne se déplacent pas sous l'effet de la charge."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "A piece of REV Robotics extrusion"
+msgstr "Un morceau d'extrusion REV Robotics"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:25
+msgid "Ball Bearing"
+msgstr "Roulement à billes"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:27
+msgid ""
+"Ball bearings refer to bearings with steel balls arranged in a circular "
+"fashion. This allows rotation of an element with less friction than a "
+"bushing, primarily because the surface area (or contact area) is much less "
+"than in a :term:`bushing <Bushing>`."
+msgstr ""
+"Les roulements à billes sont des roulements dont les billes en acier sont "
+"disposées de manière circulaire. Cela permet la rotation d'un élément avec "
+"moins de frottement qu'une bague, principalement parce que la surface (ou "
+"zone de contact) est beaucoup plus petite que dans une :term:`bague "
+"<Bushing>`."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:29
+msgid ""
+"Bearings are definitely recommended for drivetrain and high speed usage. "
+"Bearings are used in the Actobotics, goBILDA, and REV kits, and are commonly"
+" sold by most robotics vendors."
+msgstr ""
+"Les roulements sont absolument recommandés pour la transmission et "
+"l'utilisation à grande vitesse. Les roulements sont utilisés dans les kits "
+"Actobotics, goBILDA et REV, et sont vendus par la plupart des vendeurs de "
+"robots."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:35
+msgid "Actobotics dual ball bearing hub"
+msgstr "Moyeu à double roulement à billes Actobotics"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:36
+msgid "Servoblocks"
+msgstr "Servoblocks"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:38
+msgid ""
+"Servoblocks, sold by Servocity/Actobotics/goBILDA, are a way to mount "
+":term:`servos <Servo>` to the goBILDA and Actobotics systems. It is by far "
+"the best way to mount servos because it decreases the load on the servo "
+"spline, which is the weakest part of the servo. This is because under load, "
+"the servo spline teeth can easily become stripped, rendering the servo "
+"unusable. While Servoblocks are not cheap, they are one of the best "
+"investments for teams to pursue."
+msgstr ""
+"Les Servoblocks, vendus par Servocity/Actobotics/goBILDA, sont un moyen de "
+"monter :term:`servos <Servo>` sur les systèmes goBILDA et Actobotics. C'est "
+"de loin la meilleure façon de monter les servos car elle diminue la charge "
+"sur la cannelure du servo, qui est la partie la plus faible du servo. En "
+"effet, sous l'effet de la charge, les dents de la cannelure du servo peuvent"
+" facilement se dénuder, ce qui rend le servo inutilisable. Bien que les "
+"Servoblocks ne soient pas bon marché, ils constituent l'un des meilleurs "
+"investissements pour les équipes."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "An Actobotics Servoblock"
+msgstr "Un Servoblock d'Actobotics"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:46
+msgid "An example of a servoblock being used on a robot"
+msgstr "Exemple d'utilisation d'un servoblock sur un robot"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:46
+msgid "10030 7 Sigma, Relic Recovery"
+msgstr "10030 7 Sigma, Relic Recovery"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:47
+msgid "Clamping Hub"
+msgstr "Moyeu de serrage"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:49
+msgid ""
+"A clamping hub is used to fixate part such as :term:`sprockets <Sprocket>` "
+"or :term:`gears <Gear>` on shafts. It is also used to prevent shafts from "
+"moving laterally. Unlike shaft collars, clamping hubs use screws to apply "
+"clamping force around the entire shaft, giving a better hold. As a result, "
+"clamping hubs are recommended over shaft collars."
+msgstr ""
+"Un moyeu de serrage est utilisé pour fixer des pièces telles que des "
+":term:`pignons <Sprocket>` ou des :term:`engrenages <Gear>` sur des arbres. "
+"Il est également utilisé pour empêcher les arbres de se déplacer "
+"latéralement. Contrairement aux collets d'arbre, les moyeux de serrage "
+"utilisent des vis pour appliquer une force de serrage autour de l'ensemble "
+"de l'arbre, ce qui permet un meilleur maintien. Par conséquent, les moyeux "
+"de serrage sont recommandés par rapport aux collets d'arbre."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "An Actobotics clamping hub"
+msgstr "Un moyeu de serrage Actobotics"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:54
+msgid "Bevel gear"
+msgstr "Engrenage conique"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:56
+msgid ""
+"Bevel gears are :term:`gears <Gear>` that transfer power along different "
+"axes, which are perpendicular to each other. Bevel gears are generally "
+"considered more inefficient than regular gears."
+msgstr ""
+"Les engrenages coniques sont des :term:`engrenages <Gear>` qui transmettent "
+"la puissance le long de différents axes, qui sont perpendiculaires l'un à "
+"l'autre. Les engrenages coniques sont généralement considérés comme plus "
+"inefficaces que les engrenages ordinaires."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:58
+msgid ""
+"However, bevel gears can be very useful, especially in areas of limited "
+"space where the motor can be placed perpendicular to the element it is "
+"driving, and not in the same plane."
+msgstr ""
+"Cependant, les engrenages coniques peuvent être très utiles, en particulier "
+"dans les zones où l'espace est limité et où le moteur peut être placé "
+"perpendiculairement à l'élément qu'il entraîne, et non dans le même plan."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:63
+msgid "3736 Serious Business' use of bevel gears in Rover Ruckus"
+msgstr ""
+"3736 Serious Business' utilise les engrenages conique dans Rover Ruckus"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:63
+msgid "3736 Serious Business, Rover Ruckus"
+msgstr "3736 Serious Business, Rover Ruckus"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "A leadscrew"
+msgstr "Une vis sans fin"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:71
+msgid "Shaft"
+msgstr "Arbre"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:73
+msgid ""
+"A shaft is a piece of shaped metal used in power transmission. Shafts are "
+"the primary method to transfer power from motor to wheel. Generally, shafts "
+"are made out of steel, so do not use a bandsaw to cut a shaft. Rather, use a"
+" hacksaw, as hacksaw blades can cut through steel. There are different kinds"
+" of bores in FTC, which are listed below."
+msgstr ""
+"Un arbre est une pièce métallique façonnée utilisée dans la transmission de "
+"puissance. Les arbres constituent la principale méthode de transfert de la "
+"puissance du moteur à la roue. En général, les arbres sont fabriqués en "
+"acier, il ne faut donc pas utiliser une scie à ruban pour couper un arbre. "
+"Utilisez plutôt une scie à métaux, car les lames de cette dernière peuvent "
+"couper l'acier. Il existe différents types d'alésages dans la FTC, qui sont "
+"énumérés ci-dessous."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:75
+msgid "Round shaft"
+msgstr "Arbre rond"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:76
+msgid "D-shaft: has a flat part for set screws, otherwise round"
+msgstr ""
+"Arbre en D : comporte une partie plate pour les vis de réglage, sinon il est"
+" rond."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:77
+msgid "Hex shaft: six sided shaft"
+msgstr "Arbre hexagonal : arbre à six côtés"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:78
+msgid ""
+"Rounded Hex shaft: hex shaft that's been rounded so that it can run in round"
+" bearings"
+msgstr ""
+"Arbre hexagonal arrondi : arbre hexagonal arrondi pour pouvoir fonctionner "
+"dans des roulements ronds."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:79
+msgid "Keyed shaft: round shaft which has a keyway (a slot) through the shaft"
+msgstr ""
+"Arbre claveté : arbre rond traversé par une rainure de clavette (une fente)."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:80
+msgid "Locknut"
+msgstr "Contre-écrou"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:82
+msgid ""
+"A locknut is a nut that resists vibration by the nyloc inside. Nyloc is a "
+"type of plastic that holds the bolt securely on to the nut when it is "
+"screwed in. It is advised that teams purchase locknuts instead of regular "
+"nuts as FTC mechanisms often become loose over time."
+msgstr ""
+"Un contre-écrou est un écrou qui résiste aux vibrations grâce au nyloc qu'il"
+" contient. Le nyloc est un type de plastique qui maintient fermement le "
+"boulon sur l'écrou lorsqu'il est vissé. Il est conseillé aux équipes "
+"d'acheter des contre-écrous plutôt que des écrous ordinaires, car les "
+"mécanismes FTC se desserrent souvent avec le temps."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:83
+msgid "Bushing"
+msgstr "Bague"

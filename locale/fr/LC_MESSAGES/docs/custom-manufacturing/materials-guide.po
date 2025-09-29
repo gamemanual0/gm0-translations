@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-09-29 16:25+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Justine, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -23,3 +23,614 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:4
+msgid "Materials Guide"
+msgstr "Guide des matériaux"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:6
+msgid ""
+"In FTC\\ |reg|, teams have design freedom in terms of what raw materials to "
+"use. However, there are definitely some important recommendations regarding "
+"material usage."
+msgstr ""
+"Dans FTC |reg|, les équipes sont libres de choisir les matières premières "
+"qu'elles souhaitent utiliser. Toutefois, il existe des recommandations "
+"importantes concernant l'utilisation des matériaux."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:8
+msgid ""
+"Common raw materials may be found at your local hardware store. McMaster-"
+"Carr and OnlineMetals are two frequently used online vendors. For more "
+"vendors, check the Appendix."
+msgstr ""
+"Les matières premières courantes peuvent être trouvées dans votre "
+"quincaillerie locale. McMaster-Carr et OnlineMetals sont deux vendeurs en "
+"ligne fréquemment utilisés. Vous trouverez d'autres fournisseurs dans "
+"l'annexe."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:10
+msgid "Here are recommended materials listed in order of importance."
+msgstr "Voici les matériaux recommandés, classés par ordre d'importance."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:13
+msgid "Recommended Materials"
+msgstr "Matériaux recommandés"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:15
+msgid "Aluminum channel & angle"
+msgstr "Profilés et cornières en aluminium"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:16
+msgid "Aluminum extrusion (15 and 20 mm)"
+msgstr "Extrusion d'aluminium (15 et 20 mm)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:17
+msgid "Polycarbonate (Lexan\\ |trade|)"
+msgstr "Polycarbonate (Lexan)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:18
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:98
+msgid "ABS"
+msgstr "ABS"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:19
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:114
+msgid "Delrin"
+msgstr "Delrin"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:20
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:125
+msgid "HDPE"
+msgstr "HDPE"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:23
+msgid "Conditionally Recommended"
+msgstr "Recommandé sous conditions"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:25
+msgid "Aluminum sheet"
+msgstr "Tôle d'aluminium"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:26
+msgid "Aluminum :term:`extrusion <Extrusion>` (1 inch)"
+msgstr "Aluminium :terme:`extrusion <Extrusion>` (1 pouce)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:27
+msgid "Plywood"
+msgstr "Contreplaqué"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:28
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:136
+msgid "Polyvinyl chloride (PVC)"
+msgstr "Chlorure de polyvinyle (PVC)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:31
+msgid "Not Recommended"
+msgstr "Non recommandé"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:33
+msgid "Medium-density fiberboard (MDF)"
+msgstr "Panneau de fibres de densité moyenne (MDF)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:34
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:72
+msgid "Steel"
+msgstr "Acier"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:35
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:148
+msgid "Acrylic"
+msgstr "Acrylique"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:38
+msgid "Metals"
+msgstr "Métaux"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:41
+msgid "Aluminum"
+msgstr "Aluminium"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
+msgid ""
+"Various aluminum items including extrusion, box tube, flat sheet, channel, "
+"and drawer slides"
+msgstr ""
+"Divers articles en aluminium, notamment des extrusions, des tubes, des tôles"
+" plates, des profilés et des glissières de tiroir."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:47
+msgid ""
+"A high strength, medium-high density material. Suitable for use in nearly "
+"every application; recommended in load-bearing applications."
+msgstr ""
+"Matériau de haute résistance et de densité moyenne à élevée. Convient à "
+"presque toutes les applications ; recommandé pour les applications "
+"porteuses."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:52
+msgid ""
+"15 mm :term:`extrusion <Extrusion>` is compatible with M3 hardware, allowing"
+" teams to slide in bolts to their desired location. REV and MiSUMI offer 15 "
+"mm :term:`extrusion <Extrusion>`. REV :term:`extrusion <Extrusion>` is not "
+"as great structurally, but is lighter than MiSUMI :term:`extrusion "
+"<Extrusion>`. MiSUMI is more resistant to :term:`flexing and/or twisting "
+"under load <Torsional Rigidity>`. Both REV and MiSUMI :term:`extrusion "
+"<Extrusion>` are sold in bulk, and MiSUMI has the option to cut to the half "
+"millimeter. Keep in mind that a lot of :term:`extrusion <Extrusion>` can add"
+" up quickly in terms of weight."
+msgstr ""
+"15 mm :term:`extrusion <Extrusion>` est compatible avec le matériel M3, ce "
+"qui permet aux équipes de glisser les boulons à l'endroit souhaité. REV et "
+"MiSUMI proposent des :term:`extrusion <Extrusion>` de 15 mm. REV "
+":term:`extrusion <Extrusion>` n'est pas aussi performant sur le plan "
+"structurel, mais il est plus léger que MiSUMI :term:`extrusion <Extrusion>`."
+" MiSUMI est plus résistant :term:`à la flexion et/ou à la torsion sous "
+"charge <Torsional Rigidity>`. Le REV et le MiSUMI :term:`extrusion "
+"<Extrusion>` sont tous deux vendus en vrac, et le MiSUMI peut être coupé au "
+"demi-millimètre près. N'oubliez pas qu'une grande quantité de "
+":term:`extrusion <Extrusion>` peut rapidement peser lourd."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:54
+msgid "Term"
+msgstr "Définition"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:57
+msgid "Torsional Rigidity"
+msgstr "Rigidité torsionnelle"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:63
+msgid ""
+"MiSUMI and 8020 also offer aluminum :term:`extrusions <Extrusion>` in other "
+"sizes, such as 20mm and 1\". 20 mm :term:`extrusion <Extrusion>` can be a "
+"good choice if you need a sturdier frame than provided by 15mm "
+":term:`extrusion <Extrusion>`. Note that then you would need to buy special "
+"nuts, as 20mm :term:`extrusion <Extrusion>` is not compatible with M3 nuts. "
+"1\" extrusion is regularly used as the primary building system in FRC\\ "
+"|reg|, but is definitely overkill for FTC."
+msgstr ""
+"MiSUMI et 8020 proposent également des :term:`extrusions <Extrusion>` en "
+"aluminium dans d'autres dimensions, telles que 20 mm et 1\". Les "
+":term:`extrusions <Extrusion>` de 20 mm peuvent être un bon choix si vous "
+"avez besoin d'un cadre plus solide que celui fourni par les "
+":term:`extrusions <Extrusion>` de 15 mm. Notez que vous devrez alors acheter"
+" des écrous spéciaux, car l'extrusion :term:`extrusion <Extrusion>` de 20 mm"
+" n'est pas compatible avec les écrous M3. L'extrusion de 1\" est "
+"régulièrement utilisée comme système de construction principal en FRC, mais "
+"elle est certainement excessive pour le FTC."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:65
+msgid ""
+"Aluminum flat and aluminum angle is widely available at hardware stores. In "
+"certain applications, such as adapting from different build systems, it is "
+"possible to drill custom adapter plates to mount mechanisms to the "
+"drivetrain. Aluminum angle is also a very sturdy structural support piece "
+"that takes up relatively little space, and can adapt to any build system. We"
+" suggest using 1/8\" alumimum with drivetrain or mounting applications, and "
+"1/16\" aluminum for low-load situations."
+msgstr ""
+"L'aluminium plat et l'aluminium angulaire sont largement disponibles dans "
+"les quincailleries. Dans certaines applications, telles que l'adaptation de "
+"différents systèmes de construction, il est possible de percer des plaques "
+"d'adaptation personnalisées pour monter des mécanismes sur le groupe "
+"motopropulseur. La cornière en aluminium est également une pièce de support "
+"structurel très solide qui prend relativement peu de place et qui peut "
+"s'adapter à n'importe quel système de construction. Nous suggérons "
+"d'utiliser de l'aluminium de 1/8\" au maximum pour les applications de "
+"transmission ou de montage, et de l'aluminium de 1/16\" pour les situations "
+"de faible charge."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:67
+msgid ""
+"Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are"
+" recommended over steel drawer slides due to weight savings. Refer to the "
+":doc:`Linear Motion section </docs/common-mechanisms/linear-motion-"
+"guide/index>` for more information."
+msgstr ""
+"Les glissières de tiroir en aluminium, souvent équipées de :term:`roulements"
+" à billes <Ball Bearing>`, sont recommandées par rapport aux glissières de "
+"tiroir en acier en raison du gain de poids. Pour plus d'informations, "
+"consultez la section :doc:`Mouvement linéaire </docs/common-"
+"mechanisms/linear-motion-guide/index>`."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:74
+msgid ""
+"Steel is unnecessarily heavy for FTC structure. Aluminum provides plenty of "
+"strength at a fraction of the weight, and doesn't require welding."
+msgstr ""
+"L'acier est inutilement lourd pour une structure FTC. L'aluminium offre une "
+"grande résistance pour une fraction du poids et ne nécessite pas de soudure."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:75
+msgid ""
+"The proper uses of steel in FTC are in shafts (most are made out of "
+"precision-ground stainless steel) and gearboxes."
+msgstr ""
+"Les utilisations appropriées de l'acier dans les FTC sont les arbres (la "
+"plupart sont fabriqués en acier inoxydable rectifié avec précision) et les "
+"boîtes de vitesses."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:76
+msgid ""
+"Steel drawer slides can be used, but aluminum slides are highly recommended."
+msgstr ""
+"Les glissières de tiroir en acier peuvent être utilisées, mais les "
+"glissières en aluminium sont fortement recommandées."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:79
+msgid "Plastics"
+msgstr "Plastiques"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:82
+msgid "Lexan"
+msgstr "Lexan"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
+msgid "Various polycarbonate plates, inlcuing one with a 90-degree bend"
+msgstr "Diverses plaques en polycarbonate, dont une avec un coude à 90 degrés"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:88
+msgid ""
+"Polycarbonate, commonly known by its brand name Lexan, is a material that is"
+" great for applications such as drivetrain plates or intake collector boxes."
+msgstr ""
+"Le polycarbonate, plus connu sous le nom de marque Lexan, est un matériau "
+"qui convient parfaitement à des applications telles que les plaques de "
+"transmission ou les collecteurs d'admission."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:89
+msgid "Lexan can bear load and is very impact-resistant."
+msgstr "Lexan peut supporter des charges et est très résistant aux chocs."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:90
+msgid ""
+"Lexan is commonly used in intake and deposit mechanisms as it is clear, "
+"allowing the drive team to see into the intake itself, an advantage over "
+"wood."
+msgstr ""
+"Le Lexan est couramment utilisé dans les mécanismes d'admission et de dépôt,"
+" car il est transparent et permet à l'équipe de conduite de voir à "
+"l'intérieur de l'admission elle-même, ce qui est un avantage par rapport au "
+"bois."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:91
+msgid ""
+"Thick Lexan can be used for drivetrain plates, though this is not "
+"recommended for inexperienced teams."
+msgstr ""
+"Du Lexan épais peut être utilisé pour les plaques de transmission, bien que "
+"cela ne soit pas recommandé pour les équipes inexpérimentées."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:93
+msgid ""
+"Lexan is one of the most expensive materials per square foot, so make sure "
+"you have carefully planned out what you are cutting before doing so."
+msgstr ""
+"Le Lexan est l'un des matériaux les plus chers au mètre carré. Assurez-vous "
+"donc d'avoir bien planifié ce que vous allez découper avant de le faire."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:95
+msgid ""
+"Thin Lexan can be bent with a metal brake or sheet bender. It is recommended"
+" for teams to use bends instead of connecting with bolts - bending tends to "
+"be much stronger than bolting as it means the part stays in one continuous "
+"piece. If a sheet bender is out of the question, it is possible to use a "
+"heat gun or camping burners to heat up the Lexan in order to bend it. This "
+"is not recommended as it can cause injury and bubbling if the Lexan is "
+"overheated. Alternatively, \"cold bending\", bending along a straight edge "
+"without applying heat can work for thinner sheets."
+msgstr ""
+"Le Lexan fin peut être plié à l'aide d'un frein à métaux ou d'une cintreuse "
+"de feuilles. Il est recommandé aux équipes d'utiliser des cintrages plutôt "
+"que des assemblages par boulons - le cintrage tend à être beaucoup plus "
+"solide que le boulonnage, car la pièce reste d'un seul tenant. S'il n'est "
+"pas possible d'utiliser une cintreuse, il est possible d'utiliser un "
+"pistolet thermique ou des brûleurs de camping pour chauffer le Lexan afin de"
+" le plier. Cette méthode n'est pas recommandée car elle peut provoquer des "
+"blessures et des bulles si le Lexan est surchauffé. Une autre solution "
+"consiste à plier à froid, c'est-à-dire à plier le long d'un bord droit sans "
+"appliquer de chaleur, ce qui peut fonctionner pour les feuilles plus fines."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
+msgid "Various ABS plates"
+msgstr "Diverses plaques ABS"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:104
+msgid "ABS is a hard low-friction plastic that is easily machinable."
+msgstr ""
+"L'ABS est un plastique dur à faible frottement qui peut être facilement "
+"usiné."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:105
+msgid ""
+"ABS sheet can be used for side panels, ramps, and even drivetrain plates."
+msgstr ""
+"La feuille ABS peut être utilisée pour les panneaux latéraux, les rampes et "
+"même les plaques de transmission."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:106
+msgid "It is not as strong as Delrin, but strong enough for most purposes."
+msgstr ""
+"Il n'est pas aussi résistant que le Delrin, mais il l'est suffisamment pour "
+"la plupart des usages."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:107
+msgid "ABS is cheaper than Lexan and Delrin."
+msgstr "L'ABS est moins cher que le Lexan et le Delrin."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:108
+msgid ""
+"ABS can be machined using hand tools or CNC. ABS sheets can be also bent "
+"using sheet bender (recommended) or a heat gun."
+msgstr ""
+"L'ABS peut être usiné à l'aide d'outils manuels ou CNC. Les feuilles d'ABS "
+"peuvent également être pliées à l'aide d'une cintreuse (recommandée) ou d'un"
+" pistolet thermique."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:109
+msgid "Thin (1/16 inch) ABS sheets can also be cut using shears."
+msgstr ""
+"Les feuilles d'ABS minces (1/16 de pouce) peuvent également être coupées à "
+"l'aide d'une cisaille."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
+msgid "Various acetal/Delrin items, including plates and three sprockets"
+msgstr ""
+"Diverses pièces en acétal/Delrin, y compris des plaques et trois pignons"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:120
+msgid ""
+"Acetal, also known under brand name Delrin, is a low-friction strong "
+"plastic. It is a common plastic used for wheels, plastic gears, and "
+"sprockets (especially in the REV system)."
+msgstr ""
+"L'acétal, également connu sous le nom de marque Delrin, est un plastique "
+"résistant à faible frottement. C'est un plastique couramment utilisé pour "
+"les roues, les engrenages en plastique et les pignons (en particulier dans "
+"le système REV)."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:121
+msgid ""
+"It is a durable and strong plastic that is not easily cracked. Delrin can be"
+" used in drivetrain plates (use 1/4\" or 3/16\" thickness), but Delrin sheet"
+" is also quite expensive."
+msgstr ""
+"Il s'agit d'un plastique durable et solide qui ne se fissure pas facilement."
+" Le Delrin peut être utilisé pour les plaques de transmission (épaisseur de "
+"1/4\" ou 3/16\"), mais les plaques de Delrin sont également assez chères."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:122
+msgid ""
+"Delrin can be machined in a variety of ways including laser cutting, CNC "
+"routing and hand sculpting. However, bending Delrin is much harder than "
+"bending Lexan or ABS."
+msgstr ""
+"Le Delrin peut être usiné de diverses manières, notamment par découpe laser,"
+" routage CNC et sculpture manuelle. Cependant, le cintrage du Delrin est "
+"beaucoup plus difficile que celui du Lexan ou de l'ABS."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
+msgid "Various HDPE plates"
+msgstr "Diverses plaques HDPE"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:131
+msgid ""
+"HDPE stands for High Density Polyethylene and usually comes in opaque white "
+"or black sheets and plates"
+msgstr ""
+"Le PEHD polyéthylène haute densité se présente généralement sous la forme de"
+" feuilles et de plaques opaques blanches ou noires."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:132
+msgid ""
+"HDPE is a cheaper alternative with low-friction characteristics similar to "
+"Delrin and flexibility/structure near polycarbonate."
+msgstr ""
+"Le PEHD est une alternative moins coûteuse qui présente des caractéristiques"
+" de faible friction similaires à celles du Delrin et une "
+"flexibilité/structure proche de celle du polycarbonate."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:133
+msgid ""
+"HDPE is easily machined by both hand tools and machine tools. However, it "
+"will burn in a laser cutter, so **do not laser cut HDPE.**"
+msgstr ""
+"Le HDPE se travaille facilement à la main comme à la machine-outil. "
+"Cependant, il brûle dans une découpeuse laser, donc **ne pas découper le "
+"HDPE au laser.**"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:138
+msgid "PVC is a common lightweight plastic ubiquitous at any hardware store."
+msgstr ""
+"Le PVC est un plastique léger courant que l'on trouve dans toutes les "
+"quincailleries."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:139
+msgid "PVC is most commonly sold as pipe, though PVC sheet does exist."
+msgstr ""
+"Le PVC est le plus souvent vendu sous forme de tuyaux, bien qu'il existe des"
+" feuilles de PVC."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:140
+msgid ""
+"FTC teams generally use PVC in order to customize intake rollers, especially"
+" for surgical tubing intakes. Due to the soft plastic, it is very easy to "
+"drill through, so teams often attach the surgical tubing to a PVC pipe. The "
+"PVC roller will then be attached to the intake motor."
+msgstr ""
+"Les équipes de FTC utilisent généralement du PVC pour personnaliser les "
+"rouleaux d'admission, en particulier pour les tubulures chirurgicales. En "
+"raison de la souplesse du plastique, il est très facile de le percer, de "
+"sorte que les équipes fixent souvent le tube chirurgical à un tuyau en PVC. "
+"Le rouleau en PVC est ensuite fixé au moteur d'admission."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:141
+msgid ""
+"Since PVC is cheap, teams can easily experiment with different mechanism "
+"configurations."
+msgstr ""
+"Le PVC étant bon marché, les équipes peuvent facilement expérimenter "
+"différentes configurations de mécanismes."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:142
+msgid ""
+"PVC pipe is sometimes used in cable management to run wires through, as it "
+"comes in different diameters and can easily be mounted."
+msgstr ""
+"Les tuyaux en PVC sont parfois utilisés pour le passage des câbles, car ils "
+"sont disponibles en différents diamètres et peuvent être facilement montés."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:143
+msgid ""
+"PVC sheet can be bought or made by cutting vertically along the pipe so that"
+" the profile looks like a C. Bake in oven. PVC sheet is pliable yet sturdy, "
+"making it a good option for backstops or customizing connectors that require"
+" some sort of flex."
+msgstr ""
+"La feuille de PVC peut être achetée ou fabriquée en coupant verticalement le"
+" long du tuyau de manière à ce que le profil ressemble à un C. Cuire au "
+"four. La feuille de PVC est souple mais solide, ce qui en fait une bonne "
+"option pour les butées arrière ou la personnalisation des connecteurs qui "
+"nécessitent une certaine flexibilité."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:152
+msgid ""
+"Acrylic is not a load-bearing material. It will crack and possibly shatter "
+"under impact."
+msgstr ""
+"L'acrylique n'est pas un matériau porteur. Il se fissure et peut même se "
+"briser en cas d'impact."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:154
+msgid "Do not use it on drivetrains by any means!"
+msgstr "Ne l'utilisez en aucun cas sur les transmissions !"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:156
+msgid "Acrylic is a transparent thermoplastic commonly known as Plexiglass."
+msgstr ""
+"L'acrylique est un thermoplastique transparent communément appelé plexiglas."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:157
+msgid ""
+"As acrylic is not a structural material, it should only be used in "
+"mechanisms where there is no chance of shock impact."
+msgstr ""
+"L'acrylique n'étant pas un matériau structurel, il ne doit être utilisé que "
+"dans des mécanismes où il n'y a pas de risque de choc."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:158
+msgid ""
+"It may be used for aesthetic purposes or as shielding (to protect game "
+"elements from falling into the robot or from other robots tangling with "
+"wires, etc.)"
+msgstr ""
+"Il peut être utilisé à des fins esthétiques ou comme bouclier (pour protéger"
+" les éléments du jeu de la chute dans le robot ou de l'enchevêtrement des "
+"fils par d'autres robots, etc.)"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:159
+msgid ""
+"Treat acrylic as fancy clear cardboard - it cannot be loaded and should only"
+" be used in very specific circumstances."
+msgstr ""
+"L'acrylique est considéré comme du carton transparent : il ne peut pas être "
+"chargé et ne doit être utilisé que dans des circonstances très spécifiques."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:162
+msgid "Other"
+msgstr "Autres"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:167
+msgid "Plywood and MDF"
+msgstr "Contreplaqué et MDF"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:170
+msgid ""
+"Baltic Birch is the highest grade plywood, used in commercial applications "
+"and furniture. It contains 8+ layers (usually), is extremely dense, and is "
+"recommended for high-load applications or structure. It is quite an "
+"expensive material, so prototype and plan carefully before cutting."
+msgstr ""
+"Le bouleau baltique est le contreplaqué de la plus haute qualité, utilisé "
+"dans les applications commerciales et l'ameublement. Il contient plus de 8 "
+"couches (en général), est extrêmement dense et est recommandé pour les "
+"applications ou les structures à forte charge. Il s'agit d'un matériau assez"
+" coûteux, c'est pourquoi il convient d'établir un prototype et de planifier "
+"soigneusement la découpe."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:171
+msgid ""
+"Plywood is not recommended for final iterations, but can be a cheap "
+"prototyping material. It doesn't bear load especially well and can flex "
+"quite a bit."
+msgstr ""
+"Le contreplaqué n'est pas recommandé pour les itérations finales, mais il "
+"peut constituer un matériau de prototypage bon marché. Il ne supporte pas "
+"particulièrement bien les charges et peut se déformer assez rapidement."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:172
+msgid ""
+"MDF is generally discouraged as there are better options and absorbs water "
+"easily."
+msgstr ""
+"Le MDF est généralement déconseillé car il existe de meilleures options et "
+"il absorbe facilement l'eau."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:175
+msgid "Carbon Fiber"
+msgstr "Fibre de carbone"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:177
+msgid ""
+"**Machining carbon fiber, like any fibrous substance, is a significant "
+"SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is "
+"incredibly dangerous. DO NOT MACHINE/CUT carbon fiber unless you know what "
+"you are doing. When you do, make sure to either use machinery that is "
+"designed to cut carbon fiber, or cut in a well ventilated area with "
+"sufficient respiratory protection and running water over the carbon fiber.**"
+msgstr ""
+"**L'usinage de la fibre de carbone, comme toute substance fibreuse, présente"
+" un risque important pour la sécurité ! La poussière de fibre de carbone, en"
+" particulier, peut provoquer un cancer et est incroyablement dangereuse. NE "
+"PAS USINER/COUPER la fibre de carbone à moins de savoir ce que l'on fait. Si"
+" vous le faites, veillez à utiliser des machines conçues pour couper la "
+"fibre de carbone ou à couper dans un endroit bien ventilé, avec une "
+"protection respiratoire suffisante et de l'eau courante sur la fibre de "
+"carbone.**"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:179
+msgid ""
+"Carbon fiber is one of the strongest materials for FTC use. For most teams, "
+"it is totally overkill, but it can be used in some specific applications."
+msgstr ""
+"La fibre de carbone est l'un des matériaux les plus résistants pour le FTC. "
+"Pour la plupart des équipes, elle est totalement surdimensionnée, mais elle "
+"peut être utilisée dans certaines applications spécifiques."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:181
+msgid ""
+"Carbon fiber rods are used in custom linear slide extensions or multi-axis "
+"arms."
+msgstr ""
+"Les tiges en fibre de carbone sont utilisées dans les extensions de "
+"glissières linéaires ou les bras multi-axes personnalisés."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:182
+msgid "It is probably the most expensive material to purchase."
+msgstr "C'est probablement le matériau le plus cher à l'achat."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:185
+msgid "Cardboard"
+msgstr "Carton"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:187
+msgid ""
+"**Please do not use cardboard as a load-bearing material.** We have seen too"
+" many teams use cardboard in ways that it shouldn't be used. Treat cardboard"
+" as a sheet of paper: it has no structural rigidity and only should be used "
+"as guides to channel pieces from A to B."
+msgstr ""
+"**Veuillez ne pas utiliser le carton comme matériau porteur.** Nous avons vu"
+" trop d’équipes utiliser le carton de manière inappropriée. Traitez le "
+"carton comme une feuille de papier : il n’a aucune rigidité structurelle et "
+"ne doit être utilisé que comme guide pour diriger les pièces de A à B."
