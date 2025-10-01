@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 04:19+0000\n"
+"POT-Creation-Date: 2025-10-01 04:28+0000\n"
 "PO-Revision-Date: 2024-06-07 16:17+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -62,7 +62,7 @@ msgstr ""
 "Para comprender los sujetadores enroscados, deberás conocer algunos términos"
 " básicos"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid ""
 "Diagram displaying thread pitch and the difference between internal/external"
 " threads and major/minor diameters."
@@ -298,7 +298,7 @@ msgstr "Hay varios tipos de pernos que puede encontrar, como:"
 msgid "**Socket Head Bolts**"
 msgstr "**Tornillos de cabeza cilíndrica.**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a socket head bolt"
 msgstr "imagen de un tornillo de cabeza hueca"
 
@@ -314,7 +314,7 @@ msgstr ""
 msgid "**Button Head Bolts**"
 msgstr "**Tornillos de cabeza de botón.**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a button head bolt"
 msgstr "imagen de un tornillo de cabeza de botón"
 
@@ -330,7 +330,7 @@ msgstr ""
 msgid "**Countersunk Head Bolts**"
 msgstr "**Tornillos de cabeza avellanada**."
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a countersunk head bolt"
 msgstr "imagen de un tornillo de cabeza avellanada"
 
@@ -347,7 +347,7 @@ msgstr ""
 msgid "**Grub Screws**"
 msgstr "**Tornillos Prisionero**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a grub screw"
 msgstr "imagen de un tornillo prisionero"
 
@@ -363,7 +363,7 @@ msgstr ""
 msgid "**Hex Bolts**"
 msgstr "**Pernos hexagonales.**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a hex head bolt"
 msgstr "imagen de un tornillo de cabeza hexagonal"
 
@@ -387,7 +387,7 @@ msgstr ""
 "utiliza para girarlo e instalarlo. Cada uno de los tornillos mencionados "
 "anteriormente puede tener diferentes tipos de accionamiento:"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "diagram showing thread terminology"
 msgstr "diagrama que muestra la terminología de la rosca"
 
@@ -411,7 +411,7 @@ msgstr "Estos son algunos tipos de tuercas que se pueden encontrar en FTC:"
 msgid "**Hex Nuts**"
 msgstr "*Tuercas Hexagonales**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a hex nut"
 msgstr "imagen de una tuerca hexagonal"
 
@@ -426,7 +426,7 @@ msgstr ""
 msgid "**Square Nuts**"
 msgstr "**Tuercas cuadradas**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a square nut"
 msgstr "imagen de una tuerca cuadrada"
 
@@ -442,7 +442,7 @@ msgstr ""
 msgid "**T-slot Nuts**"
 msgstr "**Tuercas de ranura en T**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a T-slot nut"
 msgstr "imagen de una tuerca de ranura en T"
 
@@ -456,7 +456,7 @@ msgstr ""
 msgid "**Wing Nuts**"
 msgstr "*Tuercas mariposa**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a wing nut"
 msgstr "imagen de una tuerca de mariposa"
 
@@ -468,7 +468,7 @@ msgstr "Estas tuercas pueden apretarse fácilmente sin llave."
 msgid "**Nyloc Nuts**"
 msgstr "**Tuercas Nyloc**"
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "picture of a nyloc nut"
 msgstr "imagen de una tuerca nyloc"
 
@@ -500,7 +500,7 @@ msgid "To create external threads, you use a tool called a die."
 msgstr ""
 "Para crear roscas externas, se utiliza una herramienta llamada matriz."
 
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rstNone
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
 msgid "diagram showing a tap and die"
 msgstr "diagrama de un macho de roscar"
 
@@ -575,18 +575,3 @@ msgstr ""
 "Nota: ** EL COLOR DE LA BOTELLA Y EL COLOR DEL FLUIDO ESTÁN REVERTIDOS** "
 "Cuando nos referimos al \"color\", nos referimos al color del fluido. El "
 "loctite azul suele venir en una botella roja."
-
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:0
-msgid ""
-"A red bottle containing blue (removable) loctite, and a blue bottle "
-"containing red (permament) loctite"
-msgstr ""
-"Una botella roja que contiene loctite azul (removible), y una botella azul "
-"que contiene loctite rojo (permanente)."
-
-#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:205
-msgid ""
-"Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)"
-msgstr ""
-"Loctite azul (removible, en tubo rojo), Loctite rojo (permanente, en tubo "
-"azul)"

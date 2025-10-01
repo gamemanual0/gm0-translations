@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 04:28+0000\n"
+"POT-Creation-Date: 2025-10-01 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -41,21 +41,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:9
 msgid "Exceptions"
 msgstr "Exceptions"
-
-#: ../../gm0/source/docs/software/getting-started/common-issues.rst:11
-msgid ""
-"Exceptions are events that occur during the execution of a program, "
-"disrupting the normal flow of instructions, used in error events or problems"
-" that arise during runtime. A exception can be catched to avoid propagation,"
-" otherwise any exception that's not handled will cause the program flow to "
-"stop immediately."
-msgstr ""
-"Les exceptions sont des événements qui se produisent au cours de l'exécution"
-" d'un programme, perturbant le flux normal des instructions, utilisées dans "
-"les événements d'erreur ou les problèmes qui surviennent au cours de "
-"l'exécution. Une exception peut être capturée pour éviter la propagation, "
-"sinon toute exception qui n'est pas gérée entraînera l'arrêt immédiat du "
-"programme."
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:13
 msgid "Some common types of exceptions include:"
@@ -241,14 +226,6 @@ msgstr ""
 " à exécuter une action dans l'une de ces méthodes, le SDK exécutera la "
 "routine d'\"arrêt d'urgence\" expliquée précédemment, avec le message "
 "d'erreur \"stuck in ``action``\" (bloqué dans l'action)."
-
-#: ../../gm0/source/docs/software/getting-started/common-issues.rst:170
-msgid ""
-"If you need to run any sort of lenghty action in your OpMode, another option"
-" would be using a LinearOpMode instead."
-msgstr ""
-"Si vous avez besoin d'exécuter une action longue dans votre OpMode, une "
-"autre option serait d'utiliser un LinearOpMode à la place."
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:172
 msgid ""

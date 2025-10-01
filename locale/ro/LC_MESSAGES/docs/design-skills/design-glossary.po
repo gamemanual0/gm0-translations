@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2025-10-01 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -21,15 +21,15 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/design-skills/design-glossary.rst:2
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:4
 msgid "Design Glossary"
 msgstr "Dicționarul de Design"
 
-#: ../../gm0/source/docs/design-skills/design-glossary.rst:5
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:7
 msgid "COTS"
 msgstr "COTS"
 
-#: ../../gm0/source/docs/design-skills/design-glossary.rst:7
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:9
 msgid ""
 "COTS (Commercial Off the Shelf) parts refer to parts that teams can purchase"
 " physically or through an online retailer."
@@ -38,11 +38,11 @@ msgstr ""
 " referă la piesele pe care echipele le pot achiziționa fizic sau printr-un "
 "vânzător online."
 
-#: ../../gm0/source/docs/design-skills/design-glossary.rst:12
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:14
 msgid "Packaging"
 msgstr "Ambalarea"
 
-#: ../../gm0/source/docs/design-skills/design-glossary.rst:14
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:16
 msgid ""
 "Packaging refers to the relative size and location of components on the "
 "robot. Generally, you want to design and locate (or package) components in "
@@ -52,16 +52,6 @@ msgstr ""
 "robot. În general, vrei să schițezi (sau să ambalezi) componentele în cel "
 "mai eficient mod posibil din punct de vedere al spațiului."
 
-#: ../../gm0/source/docs/design-skills/design-glossary.rst:15
+#: ../../gm0/source/docs/design-skills/design-glossary.rst:17
 msgid "STEP file"
 msgstr "Fișierul STEP"
-
-#: ../../gm0/source/docs/design-skills/design-glossary.rst:17
-msgid ""
-"A STEP file is a filetype used to store 3D data about a part. It is "
-"recognized by different CAD softwares including SolidWorks, Inventor, Creo, "
-"etc."
-msgstr ""
-"Un fișier STEP este un tip de fișier folosit pentru a stoca date 3D despre o"
-" piesă. Este recunoscut de diverse programe CAD precum SolidWorks, Inventor,"
-" Creo, etc."

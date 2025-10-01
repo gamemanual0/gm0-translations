@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# shaw phy, 2025
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 16:31+0000\n"
+"POT-Creation-Date: 2025-10-01 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2025\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,16 +34,6 @@ msgstr "请小心参考本页中的代码！其中有些代码是故意写错的
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:9
 msgid "Exceptions"
 msgstr "异常处理"
-
-#: ../../gm0/source/docs/software/getting-started/common-issues.rst:11
-msgid ""
-"Exceptions are events that occur during the execution of a program, "
-"disrupting the normal flow of instructions, used in error events or problems"
-" that arise during runtime. A exception can be catched to avoid propagation,"
-" otherwise any exception that's not handled will cause the program flow to "
-"stop immediately."
-msgstr ""
-"异常是在程序执行过程中发生的事件，会扰乱正常的指令流程，用于错误事件或运行时出现的问题。异常可以被捕获以避免传播，否则任何未处理的异常都会导致程序流程立即停止。"
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:13
 msgid "Some common types of exceptions include:"
@@ -190,12 +180,6 @@ msgstr ""
 "<https://github.com/OpenFTC/Extracted-"
 "RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_"
 " ），SDK 就会执行之前解释过的 \"紧急停止 \"例程，并显示 \"卡在`操作`中`\"的错误信息。"
-
-#: ../../gm0/source/docs/software/getting-started/common-issues.rst:170
-msgid ""
-"If you need to run any sort of lenghty action in your OpMode, another option"
-" would be using a LinearOpMode instead."
-msgstr "如果需要在 OpMode 中运行任何较长的操作，另一种方法是使用 LinearOpMode。"
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:172
 msgid ""

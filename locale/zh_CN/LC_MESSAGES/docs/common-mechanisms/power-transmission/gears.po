@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2025-10-01 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "齿轮是具有切齿的机器部件，通常以“numberT”（例如32T、86T）的形式书写。它是一种动力传输形式，在使用时可以逆转旋转方向。齿轮最常见的材料是铝或聚甲醛树脂塑料。"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:0
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:16
 msgid "A 56T REV aluminum gear"
 msgstr "56TREV铝齿轮"
 
@@ -286,13 +286,6 @@ msgid ""
 "spacing limits gear ratios, but this can be circumvented with compound "
 "ratios and a bit of creativity."
 msgstr "**有时，您想要的传动比可能不容易制造** 。通道间距限制了齿轮传动比，但这可以通过复合传动比和一些创造力来规避。"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:80
-msgid ""
-"**Long distance power transfer is impractical with gears**. If you need to "
-"transfer power long distances, gear combinations can become complicated very"
-" quickly, so belt/chain is preferrable."
-msgstr "**使用齿轮进行长距离动力传输是不切实际的** 。如果需要长距离传递动力，齿轮组合很快就会变得复杂，因此皮带/链条是首选。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:81
 msgid ""
