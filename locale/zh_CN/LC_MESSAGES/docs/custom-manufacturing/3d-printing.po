@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 04:15+0000\n"
+"POT-Creation-Date: 2025-10-05 04:26+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -293,10 +293,6 @@ msgid ""
 "printability."
 msgstr "由于打印ABS的困难和局限性，人们可能会考虑ASA等替代品，它们具有更好的打印性能。"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:79
-msgid "TPU/TPE (Themoplastic polyurethane/Thermoplastic elastomer)"
-msgstr "TPU/TPE（polyurethane/Thermoplastic弹性体）"
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:81
 msgid ""
 "TPU and TPE are both common printing filaments that are widely used for "
@@ -501,7 +497,7 @@ msgid ""
 msgstr ""
 "如果零件不可能有平坦的一面可以打印，一个简单的解决方案是沿着平面将零件分成多个部分。例如，下面的变速箱板没有平坦的一面可以打印，所以它被分成两半。这个零件后来被夹在许多螺丝和塑料胶水中。如果这个板是作为一个零件打印的，而不是分成两半，就必须使用支架来制造所有必要的孔。不使用支撑材料的零件可以确保浪费最少的塑料。"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst-1
 msgid "A 3D printed gearbox, printed in 2 parts, cut along a plane"
 msgstr "一个 3D 打印的齿轮箱，分为2部分打印，沿平面切割"
 
@@ -566,11 +562,11 @@ msgid ""
 msgstr ""
 "该零件可以很容易地作为单个零件打印，但当向上施加应力时，它会相当弱。拆分零件并创建新的平坦表面来打印将加强每个轴。如果一个小零件发生故障，机器人可能仍然能够发挥一定的作用。这比整个零件一次发生故障要好。在这个例子中，侧件作为单独的零件打印在互补轴上，以加强组件。"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst-1
 msgid "A multipart assembly 3D printing"
 msgstr "多部件组装3D打印"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst-1
 msgid "An assembled version of what was printing in the previous image"
 msgstr "上一张图片中打印内容的组装版本"
 
