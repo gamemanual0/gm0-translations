@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 04:26+0000\n"
+"POT-Creation-Date: 2025-10-06 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Darya Tepysheva, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -20,3 +20,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:4
+msgid "3D Printing"
+msgstr "3D-печать"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:7
+msgid "Kinds of 3D Printing"
+msgstr "Виды 3D печати"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:16
+msgid "Advantages of 3D Printing"
+msgstr "Преимущества 3D-печати"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:20
+msgid ""
+"3D printing allows teams to fabricate parts that would otherwise be "
+"impossible with materials such as aluminum due to machining restrictions."
+msgstr ""
+"3D-печать позволяет изготавливать детали, которые в противном случае было бы"
+" невозможно сделать из таких материалов, как алюминий, из-за ограничений в "
+"механической обработке."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:24
+msgid "Disadvantages of 3D Printing"
+msgstr "Недостатки 3D-печати"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:26
+msgid ""
+"**If you are out of 3D printed spares at a competition, you're probably out "
+"of luck. Teams are advised to print at least one set of every single 3D "
+"printed part as spares for competition**."
+msgstr ""
+"** Если на соревнованиях у вас закончились запасные части, напечатанные на "
+"3D-принтере, скорее всего, вам не повезло. Командам рекомендуется "
+"распечатать как минимум по одному комплекту каждой детали, напечатанной на "
+"3D-принтере, в качестве запасных частей для соревнований **."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:28
+msgid ""
+"3D printed parts should only be loaded in one orientation. That is, if the "
+"robot is hanging from a hook, the only load should be on the bottom face of "
+"the curved part of the hook. Try to eliminate side loads as much as possible"
+" to avoid part failure."
+msgstr ""
+"Детали, напечатанные на 3D-принтере, должны быть нагружены только в одной "
+"ориентации. То есть, если робот подвешен на крюке, нагрузка должна "
+"приходиться только на нижнюю часть изогнутого крюка. Старайтесь по "
+"возможности исключить боковые нагрузки, чтобы избежать поломки детали."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
+msgid "PLA (Polylactic Acid)"
+msgstr "PLA (Полимолочная Кислота)"
