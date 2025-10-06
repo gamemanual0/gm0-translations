@@ -5,16 +5,15 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: DomnickJYH, 2023\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,108 +37,18 @@ msgstr ""
 "安德森动力杆\n"
 " "
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:11
-msgid ""
-"Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest "
-"motors <NeveRest Motor>`. PowerPole connectors are very reliable and "
-"recommended for teams. In addition, there are adapters available to other "
-"systems."
-msgstr ""
-"Anderson PowerPole是AndyMark在其 :term:`NeveRest电机 <NeveRest Motor>` "
-"上使用的连接器。PowerPole连接器非常可靠，推荐用于团队。此外，还有其他系统可用的适配器。"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "A powerpole connector"
-msgstr "一个PowerPole连接器"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:16
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:44
 msgid "XT30"
 msgstr "XT30"
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:18
-msgid ""
-"The XT30 connector is used in the REV ecosystem through the Expansion or "
-"Control Hub. The XT30 through the REV Slim Battery provides power to the "
-"Expansion Hub, and teams will need an XT30 cable to transfer power from the "
-"main hub to a secondary hub. This is also the connector used on the "
-":term:`REV Grounding Strap <Grounding Strap>`."
-msgstr ""
-"XT30连接器通过扩展或控制集线器用于REV生态系统。通过REV超薄电池的XT30为扩展集线器供电，团队将需要一根XT30电缆将电力从主集线器传输到辅助集线器。这也是REV接地带上使用的连接器。"
-" :term:`REV Grounding Strap <Grounding Strap>` 。"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A XT30 connector"
 msgstr "一个XT30连接器"
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:23
-msgid "JST-VH"
-msgstr "JST-VH"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:25
-msgid ""
-"JST-VH is a type of connector used by FTC motors to interface with the REV "
-"Expansion Hub. It is keyed and locks into place for improved reliability."
-msgstr "JST-VH是一种用于FTC电机与REV扩展集线器接口的连接器。它是键控和锁定到位的，以提高可靠性。"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "A JST-VH connector"
-msgstr "一个 JST-VH 连接器"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:30
-msgid "Dupont 0.1\""
-msgstr "杜邦0.1\"连接器"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "A Dupont 0.1\" connector"
-msgstr "一个杜邦0.1\"连接器"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:37
-msgid ""
-"A small pinheader connector commonly used on servos and on some sensors."
-msgstr "小型针头连接器，通常用于舵机系统和某些传感器。"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:38
-msgid "JST-PH"
-msgstr "JST-PH连接器"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:40
-msgid ""
-"JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be "
-"used most often. On the REV Control/Expansion Hubs, the 4-pin connector is "
-"used for encoder, I2C, analog, and digital connections. The 3-pin connector "
-"is used for the RS-485 connection between the Control Hub and Expansion Hub."
-msgstr ""
-"JST-PH是一种连接器。FTC，最常使用3pin和4pin选项。在REV Control/Expansion "
-"Hub上，4pin连接器用于编码器、I2C、模拟和数字连接。3pin连接器用于Control Hub和Expansion Hub之间的RS-485连接。"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "JST-PH and JST-XH connectors"
-msgstr "JST-PH和JST-XH连接器"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:45
-msgid "JST-XH"
-msgstr "JST-X连接器"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:47
-msgid ""
-"JST-XH connectors are used for the encoder connections on goBILDA (MATRIX) "
-"and Andymark NeveRest motors. Both vendors sell adapters from JST-XH to the "
-":term:`JST-PH` encoder ports on the REV Control/Expansion Hubs. These "
-"connectors are also occasionally found on some third party sensors."
-msgstr ""
-"JST-XH 连接器用于 goBILDA (MATRIX) 和 Andymark NeveRest 电机的编码器连接。这两家供应商都出售从 JST-XH"
-" 到 REV 控制/扩展集线器上的 :term:`JST-PH` 编码器端口的适配器。这些连接器偶尔也会出现在一些第三方传感器上。"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:48
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:71
 msgid "Tamiya"
 msgstr "Tamiya连接器"
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:50
-msgid ""
-"Used in some third party boards. Do not use these connectors! The metal "
-"connectors are fragile and will lead to random disconnects."
-msgstr "在某些第三方电路板上，请勿使用这些连接器！金属连接器很脆弱，会导致随机断开。"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A Tamiya connector"
 msgstr "一个Tamiya连接器"

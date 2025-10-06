@@ -6,14 +6,13 @@
 # Translators:
 # Martin Sorto-Ventura, 2023
 # Lyna Alem, 2025
-# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 16:29+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -27,191 +26,13 @@ msgstr ""
 msgid "Arms"
 msgstr "Bras "
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:6
-msgid ""
-"Arms are another way to achieve extension past the 18\" x 18\" dimension of "
-"the robot. Unlike linear extensions, arms require lots of torque - a "
-"standard 40:1 or even 60:1 gearbox will not be suitable in most "
-"applications. For example, many teams will run a 256:1 gearbox for their "
-"rotation motor."
-msgstr ""
-"Les bras sont un autre moyen d'obtenir une extension au-delà de la dimension"
-" 18\" x 18\" du robot. Contrairement aux extensions linéaires, les bras "
-"nécessitent un plus grand couple - une boîte de vitesses standard de 40:1 ou"
-" même 60:1 ne conviendra pas à la plupart des applications. Par exemple, de "
-"nombreuses équipes utiliseront un réducteur 256:1 pour leur moteur de "
-"rotation."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:8
-msgid ""
-"Such motors must be very well supported, or else the motor may torque itself"
-" free from its mount."
-msgstr ""
-"Ces moteurs doivent être très bien soutenus, sinon le couple engendré risque"
-" de les faire détacher de leur support. "
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:10
-msgid ""
-"Rarely should an arm be directly mounted to the driving motor. Instead, "
-"torque should be transferred via gear, chain, or belt. Large arms can also "
-"be hard to control (with the addition of momentum adding load to the "
-"gearbox, it is hard to stop a three-foot arm that weighs five pounds quickly"
-" without breaking a gearbox). In many cases, this issue can be mitigated "
-"with software (see the :doc:`/docs/software/concepts/control-loops` "
-"section)."
-msgstr ""
-"Il est rare qu'un bras soit monté directement sur le moteur. Le couple "
-"devrait plutôt être transféré par l'intermédiaire d'un engrenage, d'une "
-"chaîne ou d'une courroie. Les bras de grande taille peuvent également être "
-"difficiles à contrôler (avec l'élan qui ajoute une charge à la boîte de "
-"vitesses, il est difficile d'arrêter rapidement un bras de trois pieds qui "
-"pèse cinq livres sans casser la boîte de vitesses). Dans de nombreux cas, ce"
-" problème peut être atténué avec la programmation (voir la section "
-":doc:`/docs/software/concepts/control-loops`)."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:12
-msgid ""
-"Depending on the application and implementation, arms can be either faster "
-"or slower than extension options."
-msgstr ""
-"Selon l'application et la mise en œuvre, les bras peuvent être plus rapides "
-"ou plus lents que d'autres options d'extension."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:14
-msgid ""
-"The different types of arms in FTC\\ |reg| include single arm and multi-axis"
-" arms."
-msgstr ""
-"Les différents types de bras dans FTC\\ |reg| incluent les bras à un seul "
-"axe et les bras à axes multiples."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:17
-msgid "Advantages"
-msgstr "Avantages "
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:19
-msgid "Single bar arms can be relatively simple to build."
-msgstr ""
-"Les bras à barre unique peuvent être relativement simples à construire. "
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:20
-msgid ""
-"Arms can be useful in low-load applications; however, most mechanisms in FTC"
-" are not very light."
-msgstr ""
-"Les bras peuvent être utiles dans les applications à faible charge ; "
-"cependant, la plupart des mécanismes en FTC ne sont pas très légers. "
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:24
-msgid "Disadvantages"
-msgstr "Désavantages"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
-msgid ""
-"Arms require a large amount of torque, and in order to do so, teams must "
-"purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV "
-"<https://www.revrobotics.com/rev-41-1600/>`_ or the high gear ratio `goBILDA"
-" planetary gearbox motors <https://www.gobilda.com/yellow-jacket-planetary-"
-"gear-motors>`_."
-msgstr ""
-"Les bras ont besoin d'une grande quantité de couple, et pour ce faire, les "
-"équipes doivent acheter des boîtes de vitesses à couple élevé, telles que "
-"`UltraPlanetary gearbox from REV <https://www.revrobotics.com/rev-41-1600/> "
-"`_ ou la boîte de vitesses à rapport élevé `goBILDA planetary gearbox motors"
-" <https://www.gobilda.com/yellow-jacket-planetary-gear-motors> `_."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:28
-msgid ""
-"While single arms may be more simple, they cannot provide enough extension "
-"for most games."
-msgstr ""
-"Bien que les bras à un seul axe soient plus simples, ils n'offrent pas une "
-"extension suffisante pour la plupart des jeux."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:31
-msgid "Single Arms"
-msgstr "Bras simples"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:33
-msgid ""
-"The most simple type of arm in FTC, a single arm refers to an arm on one "
-"axis of rotation. While it is possible to successfully build this kind of "
-"arm, generally a single axis arm will only afford around 15-16\" of "
-"extension, which is inadequate for nearly every game."
-msgstr ""
-"Le type de bras le plus simple en FTC, un bras à axe unique se réfère à un "
-"bras sur un seul axe de rotation. Bien qu'il soit possible de construire ce "
-"type de bras avec succès, un bras à axe unique ne permet généralement qu'une"
-" extension de 15-16 pouces, ce qui peut être insuffisant pour la plupart des"
-" jeux."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:35
-msgid ""
-"The reason for this is that the longest a channel can be is 18\" "
-"(technically you could have a longer channel by placing it diagonally, but "
-"this complicates matters). Thus, with a maximum of 18\" of extension, a "
-"couple inches must be subtracted, since the point of rotation is inside the "
-"18\" sizing cube; therefore the extension is around 15-16\"."
-msgstr ""
-"La raison est que la longueur maximale d'un profilé est de 18 pouces "
-"(techniquement, on peut avoir un profilé plus long en le plaçant en "
-"diagonale, mais cela complique les choses). Ainsi, avec une extension "
-"maximale de 18 pouces, il faut soustraire quelques centimètres, puisque le "
-"point de rotation se trouve à l'intérieur du cube de dimensionnement de 18 "
-"pouces ; l'extension est donc d'environ 15-16 pouces."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:37
-msgid ""
-"Therefore, a single arm with further linear extension is optimal. For "
-"example, some teams built a single arm with an added linear extension "
-"mechanism to reach the desired extension length, which is generally >24\"."
-msgstr ""
-"Par conséquent, un bras unique avec une extension linéaire supplémentaire "
-"est optimal. Par exemple, certaines équipes ont construit un bras unique "
-"avec un mécanisme d'extension linéaire supplémentaire pour atteindre la "
-"longueur d'extension souhaitée, qui est généralement supérieure à 24 pouces."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:39
-msgid ""
-"The advantages of a single arm are that it is relatively easy to build, and "
-"can be a quick way to gain some form of extension outside of the robot cube."
-msgstr ""
-"L'avantage d'un bras unique est qu'il est relativement facile à construire "
-"et qu'il peut constituer un moyen rapide d'obtenir une forme d'extension en "
-"dehors du cube du robot."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
-msgid ""
-"However, there are many disadvantages such as having a high gear ratio, "
-"requiring much more support than a linear slide, and being hard to control "
-"without the proper software."
-msgstr ""
-"Cependant, ils présentent de nombreux inconvénients tels qu'un ratio de "
-"réduction élevé, la nécessité d'un support beaucoup plus important qu'un "
-"mécanisme linéaire et la difficulté de les contrôler sans le logiciel "
-"approprié."
-
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:46
-msgid "8103's single arm attached to a belt driven linear extension"
-msgstr ""
-"Le bras unique de 8103 est fixé à une extension linéaire entraînée par une "
-"courroie."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
-msgid ""
-"8103 Null Robotics, Rover Ruckus, single arm + custom belt driven linear "
-"extension"
-msgstr ""
-"8103 Null Robotics, Rover Ruckus, bras simple + extension linéaire à "
-"courroie personnalisée "
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
 msgid "8417's single arm attached to a belt driven linear extension"
 msgstr ""
 "Le bras unique de 8417 est fixé à une extension linéaire entraînée par une "
 "courroie."
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid ""
 "8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick (Ochoa), "
 "single arm + custom belt driven linear extension"
@@ -220,50 +41,10 @@ msgstr ""
 "(Ochoa), bras simple + extension linéaire personnalisée entraînée par "
 "courroie"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:55
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:49
 msgid "Multi-Axis Arms"
 msgstr "Bras multi-axes"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:57
-msgid ""
-"A multi-axis arm is an arm which has multiple points of rotation. Multi-axis"
-" arms introduce many variables that exponentially complicate matters and can"
-" really only be modeled through complex kinematic equations."
-msgstr ""
-"Un bras multi-axes est un bras qui possède plusieurs points de rotation. Les"
-" bras multi-axes introduisent de nombreuses variables qui compliquent les "
-"choses de manière exponentielle et ne peuvent être modélisées qu'à l'aide "
-"d'équations cinématiques complexes."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:59
-msgid ""
-"This is highly discouraged for inexperienced FTC teams due to the difficulty"
-" of building as well as the need for machine tools."
-msgstr ""
-"Cette solution est fortement déconseillée aux équipes FTC inexpérimentées en"
-" raison de la difficulté de construction et de la nécessité de disposer de "
-"machines-outils."
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:64
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:63
 msgid "20700's multi-axis arm"
 msgstr "Bras multi-axes de 20700"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:64
-msgid "20700 Snap, Freight Frenzy"
-msgstr "20700 Snap, Frêt en folie"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:69
-msgid "8148's multi-axis arm"
-msgstr "Le bras multi-axes de 8148"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:69
-msgid "8148 Aleph Bots, Relic Recovery"
-msgstr "8148 Bots Aleph, Relic Recovery"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
-msgid "15692's multi-axis arm"
-msgstr "Le bras multi-axes de 15692"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
-msgid "15692 Rust In Pieces, Rover Ruckus"
-msgstr "15692 Rust In Pieces, Rover Ruckus"

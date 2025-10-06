@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 16:16+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -26,183 +26,20 @@ msgstr ""
 msgid "Arms"
 msgstr "机械臂"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:6
-msgid ""
-"Arms are another way to achieve extension past the 18\" x 18\" dimension of "
-"the robot. Unlike linear extensions, arms require lots of torque - a "
-"standard 40:1 or even 60:1 gearbox will not be suitable in most "
-"applications. For example, many teams will run a 256:1 gearbox for their "
-"rotation motor."
-msgstr ""
-"机械臂是机器人延伸超过18\"x "
-"18\"尺寸的另一种方式。与线性延伸不同，机械臂需要很大的扭矩——标准的40:1甚至60:1变速箱不适合大多数应用。例如，许多团队将为他们的旋转电机运行256:1变速箱。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:8
-msgid ""
-"Such motors must be very well supported, or else the motor may torque itself"
-" free from its mount."
-msgstr "这样的电机必须有很好的支撑，否则电机可能会从支架上自由扭矩。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:10
-msgid ""
-"Rarely should an arm be directly mounted to the driving motor. Instead, "
-"torque should be transferred via gear, chain, or belt. Large arms can also "
-"be hard to control (with the addition of momentum adding load to the "
-"gearbox, it is hard to stop a three-foot arm that weighs five pounds quickly"
-" without breaking a gearbox). In many cases, this issue can be mitigated "
-"with software (see the :doc:`/docs/software/concepts/control-loops` "
-"section)."
-msgstr ""
-"机械臂很少应该直接安装在驱动电机上。相反，扭矩应该通过齿轮、链条或皮带传递。大型机械臂也很难控制（随着动量的增加，变速箱的负载增加，很难在不破坏变速箱的情况下快速停止一个三英尺重的机械臂）。在许多情况下，这个问题可以通过软件来缓解（参见控制回路部分）。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:12
-msgid ""
-"Depending on the application and implementation, arms can be either faster "
-"or slower than extension options."
-msgstr "根据应用和实现，臂可能比扩展选项更快或更慢。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:14
-msgid ""
-"The different types of arms in FTC\\ |reg| include single arm and multi-axis"
-" arms."
-msgstr "FTC\\ |reg| 中不同类型的机械臂包括单臂和多轴机械臂。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:17
-msgid "Advantages"
-msgstr "优点"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:19
-msgid "Single bar arms can be relatively simple to build."
-msgstr "单条臂可以相对简单地构建。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:20
-msgid ""
-"Arms can be useful in low-load applications; however, most mechanisms in FTC"
-" are not very light."
-msgstr "臂在低负载应用中很有用；然而，FTC中的大多数机械结构都不是很轻。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:24
-msgid "Disadvantages"
-msgstr "缺点"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
-msgid ""
-"Arms require a large amount of torque, and in order to do so, teams must "
-"purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV "
-"<https://www.revrobotics.com/rev-41-1600/>`_ or the high gear ratio `goBILDA"
-" planetary gearbox motors <https://www.gobilda.com/yellow-jacket-planetary-"
-"gear-motors>`_."
-msgstr ""
-"机械臂需要很大的扭矩，为此，团队必须购买大扭矩齿轮箱，如 `REV的行星齿轮变速箱 "
-"<https://www.revrobotics.com/rev-41-1600/>`_ 或高齿轮比的 `goBILDA 行星齿轮箱电机 "
-"<https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_ 。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:28
-msgid ""
-"While single arms may be more simple, they cannot provide enough extension "
-"for most games."
-msgstr "机械臂需要大量的扭矩，为了做到这一点，团队必须购买高扭矩变速箱，如超行星变速箱从REV或高传动比goBILDA行星变速箱电机。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:31
-msgid "Single Arms"
-msgstr "单臂"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:33
-msgid ""
-"The most simple type of arm in FTC, a single arm refers to an arm on one "
-"axis of rotation. While it is possible to successfully build this kind of "
-"arm, generally a single axis arm will only afford around 15-16\" of "
-"extension, which is inadequate for nearly every game."
-msgstr ""
-"FTC中最简单的机械臂类型，单臂是指一个旋转轴上的机械臂。虽然有可能成功建造这种机械臂，但通常单轴机械臂只能承受15-16\"左右的延伸，这几乎不适合所有游戏。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:35
-msgid ""
-"The reason for this is that the longest a channel can be is 18\" "
-"(technically you could have a longer channel by placing it diagonally, but "
-"this complicates matters). Thus, with a maximum of 18\" of extension, a "
-"couple inches must be subtracted, since the point of rotation is inside the "
-"18\" sizing cube; therefore the extension is around 15-16\"."
-msgstr ""
-"这样做的原因是C形梁最长可以是18英寸（从技术上讲，你可以通过对角线放置C形梁来获得更长的C形梁，但这会使问题复杂化）。因此，最大18英寸的延伸，必须减去几英寸，因为旋转点在18英寸的尺寸立方体内；因此延伸约为15-16英寸。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:37
-msgid ""
-"Therefore, a single arm with further linear extension is optimal. For "
-"example, some teams built a single arm with an added linear extension "
-"mechanism to reach the desired extension length, which is generally >24\"."
-msgstr "因此，具有进一步线性延伸的单臂是最优的。例如，一些团队构建了具有附加线性延伸机制的单臂以达到所需的延伸长度，一般为>24\"。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:39
-msgid ""
-"The advantages of a single arm are that it is relatively easy to build, and "
-"can be a quick way to gain some form of extension outside of the robot cube."
-msgstr "单臂的优点是它相对容易构建，并且可以成为在机器人立方体之外获得某种形式的延伸的快速方法。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
-msgid ""
-"However, there are many disadvantages such as having a high gear ratio, "
-"requiring much more support than a linear slide, and being hard to control "
-"without the proper software."
-msgstr "然而，它有许多缺点，例如具有高传动比，需要比线性滑轨更多的支撑，并且在没有适当软件的情况下难以控制。"
-
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:46
-msgid "8103's single arm attached to a belt driven linear extension"
-msgstr "8103队伍的单臂连接到皮带驱动的线性延伸装置上"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
-msgid ""
-"8103 Null Robotics, Rover Ruckus, single arm + custom belt driven linear "
-"extension"
-msgstr "8103 Null Robotics, Rover Ruckus, 单臂 + 定制皮带驱动线性延长杆"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
 msgid "8417's single arm attached to a belt driven linear extension"
 msgstr "8417队伍的单臂连接到皮带驱动的线性延伸装置上"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid ""
 "8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick (Ochoa), "
 "single arm + custom belt driven linear extension"
 msgstr "8417 'Lectric Legends，Rover Ruckus，入围联盟第一名（于奥乔亚举办），单臂 + 定制皮带驱动线性延长杆"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:55
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:49
 msgid "Multi-Axis Arms"
 msgstr "多轴臂"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:57
-msgid ""
-"A multi-axis arm is an arm which has multiple points of rotation. Multi-axis"
-" arms introduce many variables that exponentially complicate matters and can"
-" really only be modeled through complex kinematic equations."
-msgstr "多轴臂是有多个旋转点的臂。多轴臂引入了许多变量，这些变量使事情呈指数级复杂化，实际上只能通过复杂的运动学方程来建模。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:59
-msgid ""
-"This is highly discouraged for inexperienced FTC teams due to the difficulty"
-" of building as well as the need for machine tools."
-msgstr "由于建造的难度以及对机床的需求，对于没有经验的FTC队伍来说，这是非常不鼓励的。"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:64
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:63
 msgid "20700's multi-axis arm"
 msgstr "20700队伍的多轴机械臂"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:64
-msgid "20700 Snap, Freight Frenzy"
-msgstr "20700 Snap, Freight Frenzy"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:69
-msgid "8148's multi-axis arm"
-msgstr "8148队伍的多轴机械臂"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:69
-msgid "8148 Aleph Bots, Relic Recovery"
-msgstr "8148 Aleph Bots, Relic Recovery"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
-msgid "15692's multi-axis arm"
-msgstr "15692队伍的多轴机械臂"
-
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
-msgid "15692 Rust In Pieces, Rover Ruckus"
-msgstr "15692 RustIn Pieces, Rover Ruckus"

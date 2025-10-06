@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 16:16+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -68,8 +68,8 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:16
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:46
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:67
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:103
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:128
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:97
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:122
 msgid "Advantages"
 msgstr "Ventajas"
 
@@ -101,9 +101,9 @@ msgstr "No requiere conexión Wi-Fi externa"
 
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:26
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:55
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:88
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:116
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:134
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:82
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:110
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:128
 msgid "Disadvantages"
 msgstr "Desventajas"
 
@@ -231,19 +231,7 @@ msgstr ""
 msgid "Much greater flexibility than Blocks."
 msgstr "Mucha más flexibilidad que Blocks."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:71
-msgid ""
-"Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_, "
-"`FTCLib`_, and `Road Runner`_."
-msgstr ""
-"Mucho más fácil de integrar bibliotecas como `EasyOpenCV`_, `FTC "
-"Dashboard`_, `FTCLib`_, y `Road Runner`_."
-
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:72
-msgid "Can use plugins like `Road Runner`_."
-msgstr "Se pueden usar plugins como `Road Runner`_."
-
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:73
 msgid ""
 "Can use either a USB connection to the :term:`RC <Robot Controller>` phone, "
 "or a wireless connection to upload code."
@@ -251,24 +239,19 @@ msgstr ""
 "Puede utilizar una conexión USB con el teléfono :term:`RC <Robot "
 "Controller>` o una conexión inalámbrica para cargar el código."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:75
-msgid "Deploy times can be sped up by using `OpenRC Turbo`_."
-msgstr ""
-"Los tiempos de despliegue pueden acelerarse utilizando `OpenRC Turbo`_."
-
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:77
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:73
 msgid "Can debug in real-time"
 msgstr "Pueden depurarse en tiempo real"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:78
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:74
 msgid "Many resources for Java, Android Studio, and IDEA"
 msgstr "Muchos recursos para Java, Android Studio e IDEA"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:79
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:75
 msgid "Can use other programming languages"
 msgstr "Puede utilizar otros lenguajes de programación"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:90
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:84
 msgid ""
 "Connecting to the robot controller's Wi-Fi network will prevent you from "
 "using anything on the internet including video tutorials and online "
@@ -279,28 +262,19 @@ msgstr ""
 "comunicación en línea, a menos que tenga un segundo adaptador Wifi (barato y"
 " fácil)."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:91
-msgid ""
-"Relatively easy setup process, but time consuming and is a hefty install "
-"(3GB of files between Android Studio, ftc_app, and other libraries)"
-msgstr ""
-"El proceso de instalación es relativamente sencillo, pero requiere tiempo y "
-"es una instalación pesada (3 GB de archivos entre Android Studio, ftc_app y "
-"otras bibliotecas)."
-
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:92
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:86
 msgid "Issues can be difficult to diagnose and solve"
 msgstr "Los problemas pueden ser difíciles de diagnosticar y resolver"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:95
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:89
 msgid "Other Programming Languages"
 msgstr "Otros Lenguajes de Programación"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:98
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:92
 msgid "Kotlin"
 msgstr "Kotlin"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:100
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:94
 msgid ""
 "Kotlin is a relatively new and rapidly growing programming language from "
 "Jetbrains, the creator of the IntelliJ IDE, which Android Studio is based "
@@ -316,61 +290,61 @@ msgstr ""
 "lenguaje oficial de Android, y luego anunció que \"Kotlin first\", pero "
 "manteniendo la compatibilidad con Java."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:105
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:99
 msgid "Concise, readable, easy to edit code"
 msgstr "Código conciso, legible y fácil de editar"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:107
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:101
 msgid "Easy to write as it takes much less code to do the same thing"
 msgstr ""
 "Fácil de escribir, ya que se necesita mucho menos código para hacer lo "
 "mismo."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:108
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:102
 msgid "Both optional type inference and a stronger type system than Java"
 msgstr ""
 "Inferencia de tipos opcional y un sistema de tipos más potente que Java"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:109
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:103
 msgid "Null safety"
 msgstr "Seguridad nula"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:110
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:104
 msgid "Thread safety"
 msgstr "Seguridad"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:111
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:105
 msgid "Functional programming"
 msgstr "Programación funcional"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:112
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:106
 msgid "Seamless integration with Java code and libraries"
 msgstr "Integración perfecta con código y bibliotecas Java"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:113
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:107
 msgid "Very easy to transition from Java"
 msgstr "Muy fácil pasar a Java"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:118
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:112
 msgid "Not widely used in FTC\\ |reg| yet"
 msgstr "Todavía no se utiliza mucho en FTC\\ |reg|."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:119
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:113
 msgid "New and has fewer community resources for training"
 msgstr "Es nuevo y tiene menos recursos comunitarios para la formación"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:120
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:114
 msgid ""
 "Not recommended for programmers who need large amounts of help from other "
 "teams"
 msgstr ""
 "No recomendado para programadores que necesitan mucha ayuda de otros equipos"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:123
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:117
 msgid "C and C++"
 msgstr "C y C++"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:125
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:119
 msgid ""
 "C and C++ are native programming languages compatible with Android. Very few"
 " teams have used C++. This is typically used for only part of the code, with"
@@ -380,30 +354,30 @@ msgstr ""
 "pocos equipos han utilizado C++. Este suele utilizarse solo para una parte "
 "del código, siendo la mayor parte en Java o Kotlin."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:130
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:124
 msgid "Fast execution for extremely resource-intensive applications."
 msgstr "Ejecución rápida para aplicaciones que consumen muchos recursos."
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:131
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:125
 msgid "Supports more libraries"
 msgstr "Admite más bibliotecas"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:136
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:130
 msgid "Rarely needed"
 msgstr "Raramente necesario"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:137
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:131
 msgid "Very difficult to set up"
 msgstr "Muy difícil de instalar"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:138
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:132
 msgid "Difficult to debug code"
 msgstr "Código difícil de depurar"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:139
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:133
 msgid "Very few teams can help you"
 msgstr "Muy pocos equipos pueden ayudarte"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:140
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:134
 msgid "Very few online resources"
 msgstr "Muy pocos recursos en línea"

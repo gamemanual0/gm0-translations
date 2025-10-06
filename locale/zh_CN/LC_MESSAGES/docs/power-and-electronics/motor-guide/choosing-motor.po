@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2024
-# shaw phy, 2025
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 04:28+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2025\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,62 +30,7 @@ msgstr "选择电机"
 msgid "Legal Motors"
 msgstr "合规的电机"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:9
-msgid ""
-"12 V motors are strictly controlled by FTC\\ |reg| rules. As of 2020-2021 "
-"season, the only FTC legal motors are the following ones:"
-msgstr "12 V电机受FTC规则严格控制，截至2020-2021赛季，FTC合法电机仅有以下几种："
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:11
-msgid ""
-"TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-"
-"Motor>`_, `Torquenado <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-"
-"with-Encoder/>`_)"
-msgstr ""
-"TETRIX 12VDC电机（ `常规版 <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_ ， "
-"`Torquenado版 <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-"
-"Encoder/>`_ ）"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:12
-msgid ""
-"`AndyMark NeveRest series 12V DC Motors "
-"<https://andymark.com/collections/neverest>`_"
-msgstr ""
-"`AndyMark NeveRest 系列 12V DC 电机： "
-"<https://andymark.com/collections/neverest>`_"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:13
-msgid ""
-"Modern Robotics/MATRIX 12V DC Motors (this also includes `goBILDA motors "
-"<https://www.gobilda.com/motors/>`_, which are MATRIX motors with a "
-"different gearbox)"
-msgstr ""
-"Modern Robotics/MATRIX 12VDC电机（这还包括 `goBILDA电机 "
-"<https://www.gobilda.com/motors/>`_ ，这是具有不同变速箱的MATRIX电机）"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:14
-msgid ""
-"`REV Robotics HD Hex 12V DC Motor "
-"<https://www.revrobotics.com/rev-41-1301/>`_"
-msgstr "`REV机器人HD六角12VDC电机 <https://www.revrobotics.com/rev-41-1301/>`_"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:15
-msgid ""
-"`REV Robotics Core Hex 12V DC Motor "
-"<https://www.revrobotics.com/rev-41-1300/>`_"
-msgstr ""
-"`REV Robotics Core Hex 12VDC电机 <https://www.revrobotics.com/rev-41-1300/>`_"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:17
-msgid ""
-"With the exception of :term:`REV Core Hex Motor <Core Hex Motor>`, which is "
-"discussed separately, all other motors above have very similar structures. "
-"They consist of the following components."
-msgstr ""
-"除了单独讨论的 :term:`REV Core Hex Motor <Core Hex Motor>` "
-"电机外，上述所有其他电机都具有非常相似的结构。它们由以下组件组成。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:19
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:37
 msgid ""
 "**Bare motor**. In all cases above, this is a 12V motor of :term:`RS-555 "
 "type <RS-550 Series Motor>`, with free speed around 6,000 RPM and stall "
@@ -102,21 +47,7 @@ msgstr ""
 "电机 <HD Hex Motor>` 和 :term:`goBILDA 电机 <Yellow Jacket Motor>` "
 "使用的裸电机几乎相同。最可靠的规格可以在峰值功率和电机曲线部分找到。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:20
-msgid ""
-"**Gearbox**. The gearbox is attached to the front of the motor and reduces "
-"the speed while increasing the torque. For example, a 20:1 gearbox reduces "
-"the speed by a factor of 20, resulting in a no-load speed of around 300RPM. "
-"See :term:`Gear Reduction`. A gearbox also contains the output :term:`shaft "
-"<Shaft>` (typically 6mm D profile; REV motors use 5mm hex shafts) and "
-"mounting holes. The gearbox can also be replaced; this is FTC legal but "
-"requires some skill."
-msgstr ""
-"**变速箱** 。变速箱安装在电机的前面，降低速度的同时增加扭矩。例如，20:1 的变速箱将速度降低20倍，导致空载速度约为300RPM。参见 "
-":term:`Gear Reduction`。变速箱还包含输出 :term:`轴 <Shaft>` （通常为6mm "
-"D型；REV电机使用5mm六角轴）和安装孔。变速箱也可以更换；这符合FTC规则，但需要一些技巧"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:21
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:39
 msgid ""
 "**Encoder**. Attached to the back of the motor and protected by a plastic "
 "cap, the :term:`encoder <Encoder>` contains a sensor registering motor "
@@ -126,7 +57,7 @@ msgstr ""
 "**编码器** 。编码器安装在电机背面，由塑料盖保护， :term:`编码器 <Encoder>` 包含一个记录电机 :term:`轴 <Shaft>`"
 " 旋转的传感器 它可以连接到REV hub，用于精确控制电机速度或旋转到特定位置。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:23
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:41
 msgid ""
 "Since the bare motor is similar for all motors discussed above, the choice "
 "of the right motor is dictated by the gearbox: the :term:`gear ratio <Gear "
@@ -135,108 +66,15 @@ msgstr ""
 "由于裸电机与上面讨论的所有电机相似，因此正确电机的选择取决于变速箱：齿轮比 :term:`齿轮减速箱 <Gear Reduction>` 、输出 "
 ":term:`轴 <Shaft>` 类型和安装的简易。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:26
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:44
 msgid "Gearboxes"
 msgstr "齿轮箱"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:28
-msgid ""
-"There are two kinds of gearboxes: spur and planetary (also known as "
-"orbital). Their inner structure and difference is discussed in detail in "
-":doc:`gearbox-anatomy` section. For new teams, it suffices to know that "
-"planetary gearboxes are slightly more expensive, but more reliable. Spur "
-"gearboxes can strip under shock loads (for example, when your robot hits a "
-"wall), requiring you to replace the gearbox. For this reason, it is advised "
-"to use planetary gearbox in high-load use cases such as drivetrains."
-msgstr ""
-"齿轮箱有两种：直齿轮箱和行星齿轮箱（也称为环形轨道齿轮箱）。它们的内部结构和区别在齿轮箱内部部分有详细讨论。对于新团队来说，知道行星齿轮箱稍微贵一点就足够了，但更可靠。直齿轮箱可以在冲击下脱落（例如，当你的机器人撞到墙上时），需要你更换齿轮箱。出于这个原因，建议在高负载高冲击情况中使用行星齿轮箱，例如传动系统。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:31
-msgid "Available Spur Gearboxes and Motors"
-msgstr "可用的正齿轮箱和电机"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:34
-msgid ""
-"Spur gearboxes are NOT recommended due to their shorter lifespan and lower "
-"mechanical resilience compared to planetary gearboxes. If you are purchasing"
-" new motors, it is highly suggested to purchase planetary gearbox motors "
-"instead. Care should be taken to not put load on the output shaft of a spur "
-"gearbox. In particular, spur gear motors should NOT be used in high load "
-"applications, such as a drivetrain"
-msgstr ""
-"与行星齿轮箱相比，正齿轮箱的寿命更短，机械塑性更低，因此不推荐使用正齿轮箱。如果您正在购买新电机，强烈建议购买行星齿轮箱电机。应注意不要将负载放在正齿轮箱的输出轴上。特别地，正齿轮电机不应用于高负载情况，例如传动系统。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:36
-msgid ""
-"Motors with spur gearboxes include :term:`AndyMark NeveRest Classic motors "
-"<NeveRest Motor>` (in 40:1 and 60:1 ratios), the :term:`REV HD Hex 40:1 Spur"
-" motor <HD Hex Motor>`, and goBILDA 5201 Series Yellow Jacket Spur Gear "
-"Motors. All of them offer similar performance and reliability, so your "
-"choice is primarily dictated by the convenience of mounting and connecting "
-"to the rest of your design (e.g., if you use REV kit, you should probably "
-"choose :term:`REV HD Hex motor <HD Hex Motor>`, as it uses the same "
-":term:`5mm hex shaft <Shaft>` as the rest of REV system)."
-msgstr ""
-"带正齿轮箱的电机包括 :term:`AndyMark NeveRest Classic 电机 <NeveRest Motor>` "
-"（40:1和60:1比例）、 :term:`REV HD Hex 40:1 正齿轮电机 <HD Hex Motor>`,和goBILDA "
-"5201系列黄色正齿轮箱电机。所有这些都提供类似的性能和可靠性，因此您的选择主要取决于安装和连接到设计其余部分的便利性（例如，如果您使用REV套件，您可能应该选择"
-" :term:`REV HD Hex 六角轴输出电机 <HD Hex Motor>` ，因为它使用与REV系统其余部分相同的 :term:`5mm "
-"六角轴 <Shaft>` ）。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:38
-msgid ""
-"goBILDA's 5201 series spur gearboxes are much cheaper than either REV's or "
-"Andymark's; whether that's a good or bad thing is up to you. They utilize "
-"the rather uncommon (in the FTC world) bullet connection for power. However,"
-" these are now discontinued. The output shaft is a 6mm D-shaft."
-msgstr ""
-"GoBILDA的5201系列直齿轮箱比REV或Andymark的便宜得多；这是好事还是坏事取决于你。他们利用相当罕见的（在FTC世界）弹头式连接器(球头)来提供动力。然而，这些现在已经停产了。输出轴是6毫米的D轴。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:40
-msgid ""
-":term:`REV HD Hex Planetary <HD Hex Motor>` 40:1 motor - This motor comes "
-"only in a 40:1 ratio, but does use the same connections (JST VH) as the REV "
-"Expansion and Control Hub for power which means no adapter cables. The "
-"output :term:`shaft <Shaft>` is a 5mm hex :term:`shaft <Shaft>`. :term:`REV "
-"UltraHex <UltraHex>` has a 5mm hex :term:`bore <Bore>` running through the "
-"middle of a 1/2\" hex :term:`shaft <Shaft>`, which makes adapting this motor"
-" to any length of :term:`UltraHex`, and by extension, 1/2\" hex :term:`shaft"
-" <Shaft>`, very easy."
-msgstr ""
-":term:`REV HD Hex Planetary <HD Hex Motor>`  40:1 电机 - 该电机的传动比仅为 40:1，但使用与 "
-"REV Expansion和Control Hub相同的连接方式（JST VH），这意味着无需转接电缆。输出 :term:`轴 <Shaft>` 是 5"
-" 毫米六角 :term:`轴 <Shaft>` 。 :term:`REV UltraHex <UltraHex>` 有一个 5 毫米六角 "
-":term:`孔 <Bore>` 贯穿 1/2 英寸六角 :term:`轴 <Shaft>` 的中间，这使得将此电机适配到任何长度的 "
-":term:`UltraHex` 以及 1/2 英寸六角 :term:`轴 <Shaft>` 非常容易。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:41
-msgid ""
-":term:`Andymark NeveRest <NeveRest Motor>` Classic motors come in a few "
-"different ratios, which are 40:1 and 60:1. The output shaft is a :term:`6mm "
-"D-shaft <Shaft>`, and like all NeveRest motors use the :term:`Anderson "
-"PowerPole` to connect to power. This connector is perhaps the most robust of"
-" the ones listed here."
-msgstr ""
-":term:`Andymark NeveRest <NeveRest Motor>`  经典电机有几种不同的减速比例，分别为 40:1 和 "
-"60:1。输出轴是 :term:`6mm D-轴 <Shaft>` ，与所有 NeveRest 马达一样，使用 :term:`Anderson "
-"PowerPole` 连接电源。这种连接器可能是这里列出的连接器中最坚固的。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:44
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:49
 msgid "Planetary Gearboxes"
 msgstr "行星齿轮箱"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:46
-msgid ""
-"Standard planetary gearboxes include :term:`Andymark NeveRest Orbital motors"
-" <NeveRest Motor>`, :term:`REV 20:1 Planetary motor <HD Hex Motor>`, and "
-":term:`goBILDA's 5202/5203/5204 Series Yellow Jacket Motors <Yellow Jacket "
-"Motor>`."
-msgstr ""
-"标准行星变速箱包括 :term:`Andymark NeveRest Orbital 电机 <NeveRest Motor>` 、 :term:`REV"
-" 20:1 Planetary motor <HD Hex Motor>` 和 :term:`goBILDA 的 5202/5203/5204 "
-"Series Yellow Jacket 电机 <Yellow Jacket Motor>` 。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:48
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:53
 msgid ""
 "Any of these \"standard\" gearboxes are more robust than spur gearboxes. "
 "Like the spur gearboxes, the gearboxes from different vendors, while not "
@@ -247,59 +85,7 @@ msgstr ""
 "这些“标准”变速箱中的任何一个都比直齿轮箱更坚固。像直齿轮箱一样，来自不同供应商的变速箱虽然不能互换，但在稳健性方面非常具有可比性。同样，这里要考虑的主要问题是您想要的减速、想要的电机连接和想要的输出"
 " :term:`轴 <Shaft>` 类型。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:50
-msgid ""
-"`goBILDA Yellow Jacket <https://www.gobilda.com/yellow-jacket-planetary-"
-"gear-motors/>`_ has the most varied selection of gearbox ratios with too "
-"many to list here, but utilize the rather uncommon bullet connection for "
-"power. The output :term:`shaft <Shaft>` is a :term:`6mm D-shaft <Shaft>` or "
-"8 REX (7 mm hex rounded to 8 mm)."
-msgstr ""
-"`goBILDA Yellow Jacket电机 <https://www.gobilda.com/yellow-jacket-planetary-"
-"gear-motors/>`_ 具有最多样化的变速箱比例选择，这里列出了太多，但利用相当不常见的子弹头式连接器来提供动力。输出 :term:`轴 "
-"<Shaft>` 是 :term:`6mm D轴 <Shaft>` 或8 REX（7毫米六角四舍五入到8毫米）。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:51
-msgid ""
-"REV HD Hex Planetary motor - This motor comes only in a 20:1 ratio, but uses"
-" the same connections (:term:`JST-VH`) as the REV Expansion and Control hub "
-"for power which means no adapter cables. The output shaft is a :term:`5mm "
-"hex shaft <Shaft>`. REV :term:`UltraHex` has a 5mm hex :term:`Bore` running "
-"through the middle of a :term:`1/2\" hex shaft <Shaft>`, which makes "
-"adapting this motor to any length of :term:`UltraHex`, and by extension, "
-":term:`1/2\" hex shaft <Shaft>` very easy. The ratio of the :term:`HD Hex "
-"Motor` is 20:1."
-msgstr ""
-"REV HD 六角行星电机-该电机只有20:1的比例，但使用相同的连接器（ :term:`JST-VH`）作为REV扩展和Control "
-"Hub的电源，这意味着没有适配器电缆。输出轴是一个 :term:`5mm 六角轴 <Shaft>` 。REV :term:`UltraHex` "
-"有一个5毫米六角 :term:`Bore`，穿过1/2英寸 :term:`1/2英寸六角轴 <Shaft>` 的中间，这使得该电机适应任何长度的 "
-":term:`UltraHex`，并通过扩展，适应 :term:`1/2英寸六角轴 <Shaft>` 也非常容易 。 :term:`HD Hex "
-"Motor` 的比例为20:1。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:52
-msgid ""
-"Andymark NeveRest Orbital motors come in two :term:`ratios <Gear "
-"Reduction>`, 3.7:1 and 20:1. The output shaft is a :term:`6mm D-shaft "
-"<Shaft>`, and like all :term:`NeveRest motors <NeveRest Motor>` use the "
-":term:`Anderson PowerPole` to connect to power. This connector is perhaps "
-"the most robust of the ones listed here."
-msgstr ""
-"Andymark NeveRest行星齿轮箱电机有两种 :term:`比例 <Gear Reduction>` ，3.7:1 和 20:1。输出轴是 "
-":term:`6mm D轴 <Shaft>` ，像所有 :term:`NeveRest 电机 <NeveRest Motor>` 一样，使用 "
-":term:`Anderson PowerPole` 连接电源。这个连接器可能是这里列出的最坚固的。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:53
-msgid ""
-"`REV UltraPlanetary <https://www.revrobotics.com/rev-41-1600/>`_ gearbox - "
-"The UltraPlanetary is a customizable planetary gearbox that is designed for "
-"FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mix & "
-"matched to create a custom ratio. It is possible to use from one to three "
-"gearboxes for a minimum ratio of 3:1 and a maximum of 125:1."
-msgstr ""
-"`REV行星齿轮变速箱 <https://www.revrobotics.com/rev-41-1600/>`_ "
-"——行星齿轮变速箱是一款可定制的行星变速箱，专为FTC而设计。三个变速箱选项是3:1、4:1和5:1，可以混合搭配以创建自定义比例。可以使用一到三个变速箱，最小比例为3:1，最大比例为125:1。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:56
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:59
 msgid ""
 "While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual"
 " gear ratios are slightly different. Consult the `REV UltraPlanetary User's "
@@ -310,7 +96,7 @@ msgstr ""
 "<https://docs.revrobotics.com/rev-crossover-"
 "products/ultraplanetary/cartridge-details>`_ 。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:58
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:61
 msgid ""
 "The UltraPlanetary was intended to give teams maximum customization without "
 "the typical limiting factor - high cost. The total cost for the three stage "
@@ -321,11 +107,11 @@ msgstr ""
 "行星齿轮变速箱旨在为团队提供最大的定制，而没有典型的限制因素——高成本。三级变速箱和电机的总成本对于可定制的电机来说非常划算。此外，行星齿轮变速箱有一个5毫米六角输出"
 " :term:`轴 <Shaft>` ，允许团队定制轴长度。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:61
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:80
 msgid "Choosing The Right Gearbox"
 msgstr "选择合适的齿轮箱"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:63
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:82
 msgid ""
 "For regular use, any of the planetary gearboxes will fit your needs. "
 "Planetary gearboxes are just a tiny bit more expensive, but boast better "
@@ -335,19 +121,13 @@ msgid ""
 msgstr ""
 "对于常规使用，任何行星齿轮箱都能满足您的需求。行星齿轮箱价格稍贵，但与正齿轮箱相比，具有更好的反向间隙和效率、更高的负载能力和更强的抗冲击能力。成本和机械噪音几乎从来不是取舍的因素。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:65
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:84
 msgid ""
 "Because both gearbox types are so similar in price for similar ratios, we "
 "generally recommend the use of a planetary over a spur gearbox."
 msgstr "由于这两种类型的变速箱在类似传动比下的价格非常接近，因此我们通常建议使用行星齿轮变速箱而不是正齿轮变速箱。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:67
-msgid ""
-"If you already own spur gearboxes, try to use them in lower-load situations "
-"and use planetary motors on your drivetrain."
-msgstr "如果您已经拥有正齿轮变速箱，请尽量在较低负载情况下使用，并在传动系统中使用行星电机。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:69
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:88
 msgid ""
 "For small reductions, it may be more economical to choose a motor you "
 "already own and build an external reduction using gears, chain, or belts. It"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 04:15+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -38,127 +38,18 @@ msgstr ""
 msgid "Anderson PowerPole"
 msgstr "Anderson PowerPole"
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:11
-msgid ""
-"Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest "
-"motors <NeveRest Motor>`. PowerPole connectors are very reliable and "
-"recommended for teams. In addition, there are adapters available to other "
-"systems."
-msgstr ""
-"Anderson PowerPole es un conector utilizado por AndyMark en sus motores "
-":termino: `NeveRest <NeveRest Motor>`. Los conectores PowerPole son muy "
-"fiables y recomendados para equipos. Además, hay adaptadores disponibles "
-"para otros sistemas."
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "A powerpole connector"
-msgstr "Un conector powerpole"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:16
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:44
 msgid "XT30"
 msgstr "XT30"
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:18
-msgid ""
-"The XT30 connector is used in the REV ecosystem through the Expansion or "
-"Control Hub. The XT30 through the REV Slim Battery provides power to the "
-"Expansion Hub, and teams will need an XT30 cable to transfer power from the "
-"main hub to a secondary hub. This is also the connector used on the "
-":term:`REV Grounding Strap <Grounding Strap>`."
-msgstr ""
-"El conector XT30 se utiliza en el ecosistema REV a través del Expansion y "
-"Control hub. El XT30 a través de la Batería REV Slim proporciona energía al "
-"Expansion Hub, y los equipos necesitarán un cable XT30 para transferir "
-"energía desde el hub principal a un hub secundario. Este es también el "
-"conector utilizado en el :término: `REV Correa de puesta a tierra <Grounding"
-" Strap>`."
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A XT30 connector"
 msgstr "Un conector XT30"
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:23
-msgid "JST-VH"
-msgstr "JST-VH"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:25
-msgid ""
-"JST-VH is a type of connector used by FTC motors to interface with the REV "
-"Expansion Hub. It is keyed and locks into place for improved reliability."
-msgstr ""
-"JST-VH es un tipo de conector utilizado por los motores FTC para interactuar"
-" con el REV Expansion Hub. Está codificado y se bloquea en su lugar para "
-"mejorar la fiabilidad."
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "A JST-VH connector"
-msgstr "Un conector JST-VH"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:30
-msgid "Dupont 0.1\""
-msgstr "Dupont 0.1\""
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "A Dupont 0.1\" connector"
-msgstr "Un conector Dupont de 0,1''"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:37
-msgid ""
-"A small pinheader connector commonly used on servos and on some sensors."
-msgstr ""
-"Un pequeño conector de cabeza de alfiler utilizado habitualmente en servos y"
-" en algunos sensores."
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:38
-msgid "JST-PH"
-msgstr "JST-PH"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:40
-msgid ""
-"JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be "
-"used most often. On the REV Control/Expansion Hubs, the 4-pin connector is "
-"used for encoder, I2C, analog, and digital connections. The 3-pin connector "
-"is used for the RS-485 connection between the Control Hub and Expansion Hub."
-msgstr ""
-"JST-PH es un tipo de conector. Para FTC, las opciones de 3 pines y 4 pines "
-"se utilizarán con mayor frecuencia. En los Hubs de Control/Expansión REV, el"
-" conector de 4 pines se utiliza para conexiones de encoder, I2C, analógicas "
-"y digitales. El conector de 3 pines se utiliza para la conexión RS-485 entre"
-" el Hub de Control y el Hub de Expansión."
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
-msgid "JST-PH and JST-XH connectors"
-msgstr "Conectores JST-PH y JST-XH"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:45
-msgid "JST-XH"
-msgstr "JST-XH"
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:47
-msgid ""
-"JST-XH connectors are used for the encoder connections on goBILDA (MATRIX) "
-"and Andymark NeveRest motors. Both vendors sell adapters from JST-XH to the "
-":term:`JST-PH` encoder ports on the REV Control/Expansion Hubs. These "
-"connectors are also occasionally found on some third party sensors."
-msgstr ""
-"Los conectores JST-XH se utilizan para las conexiones de codificador en los "
-"motores goBILDA (MATRIX) y Andymark NeveRest. Ambos vendedores venden "
-"adaptadores de JST-XH a los puertos de codificador :término: `JST-PH` en los"
-" REV Control/Expansion Hubs. Estos conectores también se encuentran "
-"ocasionalmente en algunos sensores de terceros."
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:48
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:71
 msgid "Tamiya"
 msgstr "Tamiya"
 
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:50
-msgid ""
-"Used in some third party boards. Do not use these connectors! The metal "
-"connectors are fragile and will lead to random disconnects."
-msgstr ""
-"Utilizado en algunas placas de terceros. ¡No utilice estos conectores! Los "
-"conectores metálicos son frágiles y provocarán desconexiones aleatorias."
-
-#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A Tamiya connector"
 msgstr "Un conector Tamiya"

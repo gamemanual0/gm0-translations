@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 04:15+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:8
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:26
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:54
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:57
 msgid "Term"
 msgstr "术语"
 
@@ -67,39 +67,11 @@ msgstr ""
 "例如，一个 NeveRest 20 齿轮减速电机由一个未修改的 :term:`NeveRest Motor` "
 "和一个齿轮比为20:1（或称\"20比1\"）的行星齿轮箱组成。这意味着，为了使齿轮箱的输出轴旋转1次，电机的输入轴必须旋转20次。齿轮比是动力传输组件最重要的设计考虑因素之一。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:17
-msgid ""
-"Any FTC motor or servo has two properties: speed and torque (or rotational "
-"force). These two properties are inversely proportional, meaning that "
-"increasing speed decreases torque, and vice versa. For instance, if one "
-"wishes to make a mechanism faster at the expense of torque by doubling the "
-"speed of that 20:1 gearbox, they would decrease the gear ratio by a factor "
-"of 2. Since 20 divided by 2 is 10, the new desired ratio would be 10:1 (this"
-" is referred to as gearing up). However, if one wishes to double torque "
-"instead, making the system more powerful and robust at the expense of speed,"
-" they would increase the gear ratio by a factor of 2, leaving them with a "
-"40:1 ratio (this is referred to as gearing down)."
-msgstr ""
-"任何 FTC "
-"马达或舵机都有两个特性：速度和扭矩（或旋转力）。这两种特性成反比，即速度增加扭矩减小，反之亦然。例如，如果有人希望通过将20:1变速箱的速度提高一倍来加快机械装置的速度，但却牺牲了扭矩，那么他就会将齿轮比降低2倍。由于20除以2等于0，因此新的理想齿轮比将是10:1（这被称为齿轮升速）。但是，如果希望将扭矩增加一倍，在牺牲速度的情况下使系统更强大、更坚固，则需要将齿轮比增加2倍，使齿轮比为40:1（这被称为降档）。"
-
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:19
 msgid ""
 "The most common ways of gearing up or down are using gearboxes, gears, "
 "sprockets and belt-driven pulleys, all of which exist in various sizes."
 msgstr "最常见的升档或降档方法是使用齿轮箱、齿轮、链轮和皮带驱动轮，所有这些都有不同的尺寸。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:21
-msgid ""
-"In FTC, gearboxes may be more common than you think - every motor has a "
-"gearbox attached to it. These gearboxes are one of the following two types: "
-"spur or planetary. Below we give a detailed analysis of each of these "
-"gearbox types. **Just for clarification, the gearboxes below are separate "
-"from the base motor.**"
-msgstr ""
-"在 FTC 中，齿轮箱可能比你想象的还要常见--"
-"每台电机上都有一个齿轮箱。这些齿轮箱有以下两种类型：正齿轮箱或行星齿轮箱。下面我们将对每种齿轮箱类型进行详细分析。 "
-"**为说明起见，以下齿轮箱与基本电机是分开的。**"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:24
 msgid "Spur Gearboxes"
@@ -115,26 +87,6 @@ msgid ""
 "reduction is achieved through different size gears on the same plane."
 msgstr "正齿轮变速箱的正齿轮相互叠加。通过同一平面上不同尺寸的齿轮实现齿轮减速。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:33
-msgid ""
-"Spur gearboxes are an arrangement of :term:`gear ratios <Gear Reduction>`, "
-"often stacked to achieve a large compound ratio (e.g. 40:1). Each individual"
-" ratio only has two :term:`gears <Gear>`- one may be 8:1, another may be "
-"5:1, but the final ratio will be 40:1. These gearboxes are used in the "
-"Andymark NeveRest Classic series and goBILDA's 5201 series motors, as well "
-"as :term:`REV HD Hex Motors <HD Hex Motor>`. Due to the nature of how these "
-"gearboxes are built, each reduction only has a few teeth from each "
-":term:`gear <Gear>` engaged, and those teeth carry the entire load of the "
-"gearbox. It's easy to damage a spur gearbox from shock load, and if one "
-":term:`gear <Gear>` breaks, the entire gearbox will stop functioning."
-msgstr ""
-"正齿轮箱由 :term:`齿轮比 <Gear Reduction>` 排列而成，通常叠加以实现较大的复合比（例如 40:1）。每个单独的传动比只有两个 "
-":term:`gear <Gear>` ，一个可能是 8:1，另一个可能是 5:1，但最终传动比为 40:1。这些齿轮箱用于 Andymark "
-"NeveRest Classic 系列和 goBILDA 的 5201 系列电机，以及 :term:`REV HD Hex Motors <HD Hex"
-" Motor>` 。由于这些变速箱的构造性质，每个减速机只有 :term:`gear <Gear>` "
-"的几个齿啮合，而这些齿承受着变速箱的全部负荷。正齿轮箱很容易因冲击负荷而损坏，如果一个 :term:`gear <Gear>` "
-"坏了，整个齿轮箱就会停止工作。"
-
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:35
 msgid ""
 "Using spur gearboxes on high-load applications such as drivetrains or arms "
@@ -145,24 +97,11 @@ msgstr "不建议在传动系统或机械臂等高负荷应用中使用正齿轮
 msgid "An example spur gearbox"
 msgstr "正齿轮箱示例"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:40
-msgid ""
-"Example of a spur gearbox. Note how all gears mesh with only one other gear."
-msgstr "正齿轮箱示例。请注意所有齿轮都只与一个齿轮啮合。"
-
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:43
 msgid "Advantages of Spur Gearboxes"
 msgstr "正齿轮箱的优点"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:45
-msgid ""
-"Generally, spur gearboxes are cheaper than planetary gearboxes. However, in "
-"FTC that price change is often minimal. A 20:1 planetary gearbox from REV is"
-" only $4 more than a spur 20:1"
-msgstr ""
-"一般来说，正齿轮变速箱比行星齿轮变速箱便宜。然而，在 FTC 中，这种价格变化往往微乎其微。REV 的20:1行星齿轮箱只比20:1正齿轮箱贵4美元。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:47
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:50
 msgid ""
 "Spur gearboxes from different vendors are not interchangeable. However, they"
 " are comparable and practically indistinguishable in performance. The main "
@@ -172,11 +111,11 @@ msgstr ""
 "不同供应商生产的正齿轮箱不能互换。不过，它们的性能相当，几乎没有差别。这里需要考虑的主要因素是 **所需的减速器、所需的电机连接和所需的输出轴类型** "
 "。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:50
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:53
 msgid "Planetary Gearboxes"
 msgstr "行星齿轮箱"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:52
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:55
 msgid ""
 "Planetary gearboxes use a more complex system of gears to achieve a robust "
 "reduction in a compact space. In automotive engineering, planetary gear sets"
@@ -186,45 +125,32 @@ msgstr ""
 "行星齿轮箱使用更复杂的齿轮系统，在紧凑的空间内实现强劲的减速。在汽车工程中，行星齿轮组可以在不改变齿轮尺寸的情况下实现几种不同的传动比，但你在 FTC "
 "中看到的所有行星齿轮箱都只能实现一种传动比。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:57
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:60
 msgid "Planetary Gear"
 msgstr "行星齿轮"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:59
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:62
 msgid ""
 "Planetary gearing consists of a center gear (sun gear) which has smaller "
 "gears (planet gears) revolving around it. The outer radius has a ring gear "
 "which holds the other gears in place."
 msgstr "行星齿轮传动由一个中心齿轮（太阳齿轮）和围绕其旋转的较小齿轮（行星齿轮）组成。外半径有一个环形齿轮，用于固定其他齿轮。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:61
-msgid ""
-"Planetary gearboxes are used in the Andymark Orbital series, some REV HD Hex"
-" Planetary and UltraPlanetary Motors and goBILDA's wide selection of "
-":term:`planetary gear motors <Yellow Jacket Motor>`. Additionally, AndyMark "
-"sells a few aftermarket planetary gearboxes called NeveRest Sport and 57 "
-"Sport. As you can see from the graphic below, there are more teeth meshing "
-"per stage than in the spur gearbox."
-msgstr ""
-"行星齿轮箱用于 Andymark Orbital 系列、一些 REV HD Hex 行星和 UltraPlanetary 电机以及 goBILDA "
-"的多种 :term:`planetary gear motors <Yellow Jacket Motor>` 。此外，AndyMark 还销售一些名为"
-" NeveRest Sport 和 57 Sport 的售后行星齿轮箱。从下图中可以看出，每级啮合的齿数多于正齿轮变速箱。"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:66
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:69
 msgid "A planetary gearbox diagram"
 msgstr "行星齿轮箱示意图"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:66
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:69
 msgid ""
 "Example of a planetary gearbox stage. Note how the sun gear meshes with more"
 " than one gear."
 msgstr "行星齿轮箱级示例。请注意太阳齿轮如何与多个齿轮啮合。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:69
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:72
 msgid "Advantages of Planetary Gearboxes"
 msgstr "行星齿轮箱的优势"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:71
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:74
 msgid ""
 "Backlash is lower than spur gearbox equivalents. Backlash is defined as the "
 "clearance or lost motion caused by gaps between parts. This can easily be "
@@ -240,20 +166,20 @@ msgstr ""
 " :term:`chain <Chain>` 和 :term:`sprockets <Sprocket>` "
 "或任何其他形式的动力传输都是一样的。不过，行星齿轮箱的齿轮级数较少，因此反向间隙较小。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:72
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:75
 msgid ""
 "Efficiency is better than spur gearboxes. A typical two-stage spur gearbox "
 "is about 85% efficient, whereas most two stage planetary gearboxes are 94% "
 "efficient."
 msgstr "效率优于正齿轮齿轮箱。典型的两级正齿轮箱效率约为 85%，而大多数两级行星齿轮箱的效率为 94%。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:73
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:76
 msgid ""
 "Load capacity is higher for planetary gearboxes. This is due to having "
 "multiple teeth engaged per stage, which spreads the load."
 msgstr "行星齿轮箱的负载能力更高。这是由于每级有多个齿啮合，从而分散了负载。"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:75
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:78
 msgid ""
 "This means planetary gearboxes will not break as easily when used in high-"
 "load applications such as drivetrains."

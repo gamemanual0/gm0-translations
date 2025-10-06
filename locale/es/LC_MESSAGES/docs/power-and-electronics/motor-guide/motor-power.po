@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 16:16+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-11-22 04:17+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -45,30 +45,6 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:9
 msgid "What is Power?"
 msgstr "¿Qué es la potencia?"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:11
-msgid ""
-"Fundamentally, power is defined as the amount of energy transferred in a "
-"given time period. Practically, this means power is how much \"energy\" you "
-"can get out of the motor. **The output power of a motor varies depending on "
-"how much load is on it, but does not change as the gear ratio of the motor "
-"changes**. What this means is that a free-spinning 1:1 motor will output the"
-" same amount of power as a free spinning 100:1 motor, but the actual speed "
-"and torque will be different. Output power is proportional to speed times "
-"torque, so as speed and torque are changed with a gearbox, the output power "
-"must remain the same."
-msgstr ""
-"Fundamentalmente, la potencia se define como la cantidad de energía "
-"transferida en un periodo de tiempo determinado. En la práctica, esto "
-"significa que la potencia es la cantidad de \"energía\" que se puede obtener"
-" del motor. **La potencia de salida de un motor varía en función de la "
-"carga, pero no varía con la relación de engranajes del motor**. Esto "
-"significa que un motor de giro libre 1:1 producirá la misma potencia que un "
-"motor de giro libre 100:1, pero la velocidad y el torque real serán "
-"diferentes. La potencia de salida es proporcional a la velocidad "
-"multiplicada por el torque, por lo que al cambiar la velocidad y el torque "
-"con una caja de engranajes, la potencia de salida debe seguir siendo la "
-"misma."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:13
 msgid ""
@@ -132,8 +108,8 @@ msgstr "Stall Torque  (N*m)"
 msgid "Stall Current (A)"
 msgstr "Corriente de Calado (A)"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
 msgid "goBILDA (MATRIX)"
 msgstr "goBILDA (MATRIX)"
 
@@ -160,8 +136,8 @@ msgstr "0.19"
 msgid "11"
 msgstr "11"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
 msgid "NeveRest"
 msgstr "NeveRest"
 
@@ -213,8 +189,8 @@ msgstr "3.2"
 msgid "4.4"
 msgstr "4.4"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
 msgid "REV HD Hex"
 msgstr "REV HD Hex"
 
@@ -230,8 +206,8 @@ msgstr "28"
 msgid "0.18"
 msgstr "0.18"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
 msgid "TorqueNado"
 msgstr "TorqueNado"
 
@@ -252,7 +228,6 @@ msgstr "Una curva de motor para un motor goBILDA (MATRIX)"
 msgid "A motor curve for a NeveRest motor"
 msgstr "Una curva de motor para un motor NeveRest"
 
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
 msgid "A motor curve for a REV HD Hex motor"
 msgstr "Una curva de motor para un motor REV HD Hex"
@@ -314,36 +289,6 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:72
 msgid "Note on Current Consumption"
 msgstr "Nota sobre el Consumo de Corriente"
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:74
-msgid ""
-"You may see while looking at motor curves that the stall current of FTC "
-"motors can be as high as 11 amps per motor. FTC batteries can only provide "
-"20 A of current output before blowing the fuse. However, even if the 20 A "
-"limit isn't reached, drawing too much current can cause other motors to feel"
-" sluggish or unresponsive. Care should be taken that more then two motors "
-"are never stalled at the same time."
-msgstr ""
-"Al mirar las curvas de los motores, puede ver que la corriente de calado de "
-"los motores FTC puede llegar a 11 amperios por motor. Las baterías FTC sólo "
-"pueden proporcionar 20 A de corriente de salida antes de fundir el fusible. "
-"Sin embargo, incluso si no se alcanza el límite de 20 A, el consumo de "
-"demasiada corriente puede hacer que otros motores se sientan lentos o no "
-"respondan. Hay que tener cuidado de que no se paren más de dos motores al "
-"mismo tiempo."
-
-#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:76
-msgid ""
-"You may ignore this exception when dealing with mecanum drivetrains, as they"
-" will generally slip before the motors actually reach their stall current. "
-"However, placing very low gear ratios or more than 4 motors on traction "
-"drivetrains can exceed the current limit of an FTC Battery."
-msgstr ""
-"Puede ignorar esta excepción cuando se trate de chasises mecánicos, ya que "
-"generalmente patinarán antes de que los motores alcancen su corriente de "
-"calado. Sin embargo, colocar relaciones de engranajes muy bajos o más de 4 "
-"motores en chasises de tracción puede superar el límite de corriente de una "
-"batería FTC."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:78
 msgid ""

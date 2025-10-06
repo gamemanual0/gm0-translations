@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -26,29 +26,9 @@ msgstr ""
 msgid "Using Android Studio"
 msgstr "Uso de Android Studio"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:6
-msgid ""
-"`Android Studio <https://developer.android.com/studio/intro>`_ is an "
-"integrated development environment (IDE) for Android app development based "
-"on IntelliJ. It compiles your code to an apk which is then installed onto "
-"the Robot Controller: either the Control Hub or a legal Android phone."
-msgstr ""
-"`Android Studio <https://developer.android.com/studio/intro>`_ es un entorno"
-" de desarrollo integrado (IDE) para el desarrollo de aplicaciones Android "
-"basado en IntelliJ. Compila tu código en un apk que luego se instala en el "
-"Robot Controller: el Control Hub o un teléfono Android legal."
-
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:9
 msgid "Downloading Android Studio"
 msgstr "Descarga de Android Studio"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:11
-msgid ""
-"If you've already downloaded Android Studio, you can move on to the next "
-"step, which is `setting up the SDK <#setting-up-the-sdk>`_."
-msgstr ""
-"Si ya has descargado Android Studio, puedes pasar al siguiente paso, que es "
-"`configurar el SDK <#setting-up-the-sdk>`_."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:13
 msgid "The steps to download and setup Android Studio are:"
@@ -62,14 +42,6 @@ msgstr ""
 "Compruebe que su sistema cumple los `requisitos necesarios "
 "<https://developer.android.com/studio#Requirements>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:16
-msgid ""
-"Install the *latest* version of Android Studio from "
-"https://developer.android.com/studio/index.html"
-msgstr ""
-"Instala la *última* versión de Android Studio desde "
-"https://developer.android.com/studio/index.html"
-
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:17
 msgid ""
 "Run the executable, follow the setup wizard, and use any and all recommended"
@@ -82,132 +54,9 @@ msgstr ""
 msgid "Setting up the SDK"
 msgstr "Configuración del SDK"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:22
-msgid ""
-"Now that you have Android Studio installed, you're going to want to use the "
-"current season's SDK (software development kit) where you will create your "
-"team's code."
-msgstr ""
-"Ahora que tienes instalado Android Studio, vas a querer utilizar el SDK (kit"
-" de desarrollo de software) de la temporada actual, donde crearás el código "
-"de tu equipo."
-
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:25
 msgid "Downloading the SDK"
 msgstr "Descarga del SDK"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:27
-msgid ""
-"The SDK is publicly released to a GitHub repository every season. The "
-"current season's SDK can be found in the `FtcRobotController "
-"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository."
-msgstr ""
-"El SDK se publica en un repositorio de GitHub cada temporada. El SDK de la "
-"temporada actual se encuentra en el repositorio `FtcRobotController "
-"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:30
-msgid "Downloading the ZIP"
-msgstr "Descargar el archivo ZIP"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:32
-msgid ""
-"When you're at the repository, click the green \"code\" button. Then, select"
-" \"Download ZIP.\""
-msgstr ""
-"Cuando estés en el repositorio, haz clic en el botón verde \"código\". A "
-"continuación, selecciona \"Descargar ZIP\"."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
-msgid "Click the Download ZIP option"
-msgstr "Haga clic en la opción Descargar ZIP"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:38
-msgid "Then, save it to the desired location in your computer."
-msgstr "A continuación, guárdelo en la ubicación deseada de su ordenador."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
-msgid "The ZIP file should be called FtcRobotController-master"
-msgstr "El archivo ZIP debe llamarse FtcRobotController-master"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:44
-msgid ""
-"After it is saved, extract the contents of the ZIP and place them into "
-"whatever desired location. You should see the contents of the SDK inside of "
-"the folder location."
-msgstr ""
-"Una vez guardado, extraiga el contenido del ZIP y colóquelo en la ubicación "
-"que desee. Debería ver el contenido del SDK dentro de la ubicación de la "
-"carpeta."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:47
-msgid "Using GitHub Desktop"
-msgstr "Uso de GitHub Desktop"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:49
-msgid ""
-"`Install GitHub Desktop <https://docs.github.com/en/desktop/installing-and-"
-"configuring-github-desktop/installing-and-authenticating-to-github-"
-"desktop>`_"
-msgstr ""
-"`Instalar GitHub Desktop <https://docs.github.com/en/desktop/installing-and-"
-"configuring-github-desktop/installing-and-authenticating-to-github-"
-"desktop>`_"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:50
-msgid ""
-"Open the `SDK repository <https://github.com/FIRST-Tech-"
-"Challenge/FTCRobotController>`_ in a browser."
-msgstr ""
-"Abra el repositorio `SDK <https://github.com/FIRST-Tech-"
-"Challenge/FTCRobotController>`_ en un navegador."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:51
-msgid "Click the green \"code\" button, and then select \"Open with GitHub Desktop.\""
-msgstr ""
-"Haz clic en el botón verde \"código\" y selecciona \"Abrir con GitHub "
-"Desktop\"."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
-msgid "Click the Open with GitHub Desktop option"
-msgstr "Haz clic en la opción Abrir con GitHub Desktop"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:56
-msgid "Clone the project."
-msgstr "Clona el proyecto."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
-msgid "Clone the repository to your resource folder"
-msgstr "Clona el repositorio en tu carpeta de recursos"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:62
-msgid "From the Command Line"
-msgstr "Desde la Línea de Comandos"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:64
-msgid "`Install git <https://github.com/git-guides/install-git>`_"
-msgstr "`Instalar git <https://github.com/git-guides/install-git>`_"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:65
-msgid "Open the terminal (probably bash) in the desired resource location."
-msgstr ""
-"Abra la terminal (probablemente bash) en la ubicación de recursos deseada."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:66
-msgid ""
-"Use :code:`$ git clone https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController.git`"
-msgstr ""
-"Usa :code:`$ git clone https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController.git``"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:69
-msgid "Opening the SDK on Android Studio"
-msgstr "Abrir el SDK en Android Studio"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:71
-msgid "Open Android Studio. If you have another project open, close it."
-msgstr "Abre Android Studio. Si tienes otro proyecto abierto, ciérralo."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
 msgid ""
@@ -217,49 +66,7 @@ msgstr ""
 "Debería aparecer una pantalla con una opción para configurar los ajustes e "
 "importar un proyecto"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:77
-msgid ""
-"Check for updates. Click on the \"configure\" dropdown and select \"check "
-"for updates.\" If you do not have the latest version, download the updates."
-msgstr ""
-"Buscar actualizaciones. Haz clic en el desplegable \"configurar\" y "
-"selecciona \"buscar actualizaciones\". Si no tienes la última versión, "
-"descarga las actualizaciones."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
-msgid ""
-"If you have no new updates, it should say that you have the latest version "
-"installed"
-msgstr ""
-"Si no tiene nuevas actualizaciones, quiere decir que tiene instalada la "
-"última versión"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:82
-msgid ""
-"Select \"Import Project.\" Navigate to where you have the SDK saved on your "
-"computer. Choose the directory that has the Android logo."
-msgstr ""
-"Seleccione \"Importar proyecto\". Navega hasta donde tengas el SDK guardado "
-"en tu ordenador. Elige el directorio que tiene el logo de Android."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
-msgid "Only select the folder with the Android logo"
-msgstr "Seleccione sólo la carpeta con el logotipo de Android"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:87
-msgid ""
-"Change to project view. In the top left corner should be a dropdown that "
-"allows you to change the way you are looking at your project."
-msgstr ""
-"Cambie a la vista del proyecto. En la esquina superior izquierda debe haber "
-"un menú desplegable que le permite cambiar la forma en que está viendo su "
-"proyecto."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
-msgid "Change to project view"
-msgstr "Cambiar a vista de proyecto"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:92
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:57
 msgid ""
 "Wait for `Gradle`_ to complete the build. This indicator should be located "
 "at the bottom of the window by default."
@@ -271,11 +78,11 @@ msgstr ""
 msgid "An in-progress Gradle build"
 msgstr "Una compilación Gradle en curso"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:99
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:64
 msgid "Layout"
 msgstr "Diseño"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:101
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:66
 msgid ""
 "Android Studio can look intimidating at first glance, but there are only a "
 "few features needed to use it properly."
@@ -287,28 +94,11 @@ msgstr ""
 msgid "Android Studio layout"
 msgstr "Diseño de Android Studio"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:108
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:73
 msgid "Creating Classes"
 msgstr "Creación de clases"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:110
-msgid ""
-"The first thing to note in the project view is the dropdown with the name of"
-" the project. If you drop that down, you will see all of the Gradle files "
-"and directories. Navigate to the TeamCode folder. In the teamcode folder you"
-" will see an :code:`org.firstinspires.ftc.teamcode` package."
-msgstr ""
-"Lo primero que hay que observar en la vista del proyecto es el desplegable "
-"con el nombre del proyecto. Si lo despliegas, verás todos los archivos y "
-"directorios de Gradle. Navega hasta la carpeta TeamCode. En la carpeta "
-"teamcode verás un paquete :code:`org.firstinspires.ftc.teamcode`."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
-msgid "TeamCode > src > main > java > org.firstinspires.ftc.teamcode"
-msgstr ""
-"TeamCode &gt; src &gt; main &gt; java &gt; org.firstinspires.ftc.teamcode"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:115
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:80
 msgid ""
 "This is where you will create your code for the robot. To create a new Java "
 "class, right click on the package, select New, and then choose \"Java "
@@ -322,106 +112,15 @@ msgstr ""
 msgid "New > Java Class"
 msgstr "Nuevo > Clase de Java"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:121
-msgid ""
-"Alternatively, you can select the \"Package\" option if you want to create a"
-" subfolder for organization purposes. Then, you can create classes in those "
-"packages."
-msgstr ""
-"Alternativamente, puede seleccionar la opción \"Paquete\" si desea crear una"
-" subcarpeta con fines de organización. A continuación, puede crear clases en"
-" esos paquetes."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:124
-msgid "Terminal and Logcat"
-msgstr "Terminal y Logcat"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:126
-msgid ""
-"Near the bottom left of the application, you will find tabs for the local "
-"terminal and logcat. These are useful tools for working with your program."
-msgstr ""
-"Cerca de la parte inferior izquierda de la aplicación, encontrarás pestañas "
-"para el terminal local y logcat. Son herramientas útiles para trabajar con "
-"tu programa."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
-msgid "Terminal and logcat tabs near the bottom left"
-msgstr "Pestañas terminal y logcat en la parte inferior izquierda"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:131
-msgid ""
-"Some useful information on using the logcat can be found `here "
-"<https://developer.android.com/studio/debug/am-logcat>`_."
-msgstr ""
-"Puede encontrar información útil sobre el uso de logcat `aquí "
-"<https://developer.android.com/studio/debug/am-logcat>`_."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:133
-msgid ""
-"You can build your program through the commandline via the local terminal. "
-"Click on the terminal tab and then input :code:`gradlew :TeamCode:clean "
-":TeamCode:build`. This will delete the previously compiled files and build "
-"your TeamCode module."
-msgstr ""
-"Puede construir su programa a través de la línea de comandos mediante el "
-"terminal local. Haga clic en la pestaña terminal y luego introduzca "
-":code:`gradlew :TeamCode:clean :TeamCode:build`. Esto borrará los archivos "
-"previamente compilados y construirá su módulo TeamCode."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:136
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:92
 msgid "Installing Your Program"
 msgstr "Instalación del programa"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:138
-msgid ""
-"To install your program onto the Robot Controller, you will use the play "
-"button located near the top right of the application window."
-msgstr ""
-"Para instalar su programa en el Robot Controller, utilice el botón de "
-"reproducción situado en la parte superior derecha de la ventana de la "
-"aplicación."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Play button next to device dropdown"
 msgstr "Botón de reproducción junto al menú desplegable de dispositivos"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:143
-msgid ""
-"Next to it you will see a dropdown for devices. When you connect your Robot "
-"Controller to your computer (using the correct cable), the device should "
-"appear in the dropdown after some time. Then, click the play button and your"
-" program will install onto the device."
-msgstr ""
-"Junto a él verás un desplegable de dispositivos. Cuando conectes tu Robot "
-"Controller al ordenador (utilizando el cable correcto), el dispositivo "
-"debería aparecer en el desplegable al cabo de un rato. A continuación, haz "
-"clic en el botón de reproducción y tu programa se instalará en el "
-"dispositivo."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:147
-msgid ""
-"Occasionally the app will fail to start on the robot controller, leaving the"
-" driver station in a disconnected state. If this occurs you can open the "
-"terminal and run"
-msgstr ""
-"Ocasionalmente, la aplicación no se iniciará en el controlador del robot, "
-"dejando la estación del conductor en un estado desconectado. Si esto ocurre "
-"puedes abrir el terminal y ejecutar"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:149
-msgid ""
-":code:`adb shell am start -n "
-"com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`"
-msgstr ""
-":code:`adb shell am start -n "
-"com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:151
-msgid "to remotely start the Robot Controller app."
-msgstr "para iniciar de forma remota la aplicación Robot Controller."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:153
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:101
 msgid ""
 "If you run into any problems with this process, refer to the official `REV "
 "documentation <https://docs.revrobotics.com/duo-control/>`_. Some useful "
@@ -431,7 +130,7 @@ msgstr ""
 "de `REV <https://docs.revrobotics.com/duo-control/>`_. Algunas páginas "
 "útiles del sitio REV son:"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:155
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:103
 msgid ""
 "`Troubleshooting the Control System <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_"
@@ -439,7 +138,7 @@ msgstr ""
 "`Solución de problemas del sistema de control <https://github.com/FIRST-"
 "Tech-Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:156
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:104
 msgid ""
 "`Deploying Code Wirelessly <https://docs.revrobotics.com/duo-"
 "control/programming/android-studio-using-wireless-adb>`_"
@@ -447,11 +146,11 @@ msgstr ""
 "Desplegando código de forma inalámbrica <https://docs.revrobotics.com/duo-"
 "control/programming/android-studio-using-wireless-adb>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:161
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:109
 msgid "Gradle"
 msgstr "Gradle"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:163
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:111
 msgid ""
 "Gradle is a build tool for software development. In the scope of FTC, it is "
 "used to build and manage dependencies for your project."
@@ -460,7 +159,7 @@ msgstr ""
 "el ámbito de FTC, se utiliza para construir y gestionar las dependencias de "
 "su proyecto."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:165
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:113
 msgid ""
 "When you update any of your Gradle files you will need to perform a Gradle "
 "sync, which syncs your project to the changes and rebuilds it. In your "
@@ -472,73 +171,19 @@ msgstr ""
 "reconstruye. En tu :code:`build.common.gradle`, encontrarás información "
 "sobre cómo se construye tu aplicación de controlador de robot."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:168
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:116
 msgid "Rebuilding"
 msgstr "Reconstrucción"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:170
-msgid "You can rebuild your project easily with the build dropdown."
-msgstr ""
-"Puedes reconstruir tu proyecto fácilmente con el desplegable de "
-"construcción."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
-msgid "The build dropdown at the top of the screen"
-msgstr ""
-"El menú desplegable de construcción en la parte superior de la pantalla"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:175
-msgid ""
-"To rebuild from a clean project, press the clean project option. This "
-"removes old compiled files from your project so you can completely rebuild "
-"your project. It clears any production files, generated files, etc. This is "
-"useful for making sure old artifacts don't break anything when you build "
-"your code. When you next build your project, it will do so from scratch with"
-" no old compiled files to which it can refer. To rebuild your project, press"
-" the rebuild option."
-msgstr ""
-"Para reconstruir a partir de un proyecto limpio, pulse la opción de proyecto"
-" limpio. Esto elimina los archivos compilados antiguos de su proyecto para "
-"que pueda reconstruirlo completamente. Borra cualquier archivo de "
-"producción, archivos generados, etc. Esto es útil para asegurarse de que los"
-" viejos artefactos no rompen nada cuando se construye el código. La próxima "
-"vez que reconstruya su proyecto, lo hará desde cero sin archivos compilados "
-"antiguos a los que pueda hacer referencia. Para reconstruir tu proyecto, "
-"pulsa la opción reconstruir."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:178
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:128
 msgid "Invalidate and Restart"
 msgstr "Invalidar y reiniciar"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:180
-msgid ""
-"Sometimes you can get errors after moving things around, refactoring, etc. "
-"The first step is to try cleaning the project and doing a rebuild. If this "
-"doesn't work, you might have confused Android Studio because it caches "
-"information about your project structure."
-msgstr ""
-"A veces pueden aparecer errores después de mover cosas, refactorizar, etc. "
-"El primer paso es intentar limpiar el proyecto y hacer una reconstrucción. "
-"Si esto no funciona, es posible que hayas confundido Android Studio porque "
-"almacena en caché información sobre la estructura de tu proyecto."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:182
-msgid ""
-"The most common way to fix these errors is to do an invalidate and restart. "
-"In the file dropdown, there will be an option for this and then you will "
-"choose Invalidate and Restart. This clears the cache and restarts your "
-"Android Studio, which then should perform a Gradle rebuild."
-msgstr ""
-"La forma más común de solucionar estos errores es invalidar y reiniciar. En "
-"el menú desplegable de archivos, habrá una opción para esto y luego elegirás"
-" Invalidar y Reiniciar. Esto limpia la caché y reinicia tu Android Studio, "
-"que entonces debería realizar una reconstrucción de Gradle."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:185
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:133
 msgid "Adding Dependencies"
 msgstr "Añadir dependencias"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:187
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:135
 msgid ""
 "If you want to add dependencies to your project, you can do so in the "
 ":code:`build.gradle` file in the TeamCode directory."
@@ -546,11 +191,11 @@ msgstr ""
 "Si quieres añadir dependencias a tu proyecto, puedes hacerlo en el archivo "
 ":code:`build.gradle` en el directorio TeamCode."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:189
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:137
 msgid "There should be a dependencies block at the bottom of the file."
 msgstr "Debería haber un bloque de dependencias al final del archivo."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:202
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:145
 msgid ""
 "Some dependencies require changes to your other Gradle files. Make sure to "
 "read the installation instructions for whatever dependency you want to add."
@@ -559,16 +204,7 @@ msgstr ""
 "Asegúrate de leer las instrucciones de instalación de la dependencia que "
 "quieras añadir."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:204
-msgid ""
-"Next, you add a line in the dependencies block to implement the dependency. "
-"This is generally done with :code:`implementation 'com.package.name'`."
-msgstr ""
-"A continuación, añada una línea en el bloque de dependencias para "
-"implementar la dependencia. Esto se hace generalmente con "
-":code:`implementation 'com.package.name'."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:215
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:157
 msgid ""
 "Refer to the instructions of whatever library you are using for the correct "
 "package name and version."
@@ -576,91 +212,15 @@ msgstr ""
 "Consulte las instrucciones de la biblioteca que esté utilizando para conocer"
 " el nombre y la versión correcta del paquete."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:217
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:159
 msgid "Finally, perform a Gradle sync."
 msgstr "Por último, realice una sincronización Gradle."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:220
-msgid "Upgrading to Java 8"
-msgstr "Actualización a Java 8"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:222
-msgid ""
-"By default, the SDK's version of Java is set to 7. Java 8 is also supported."
-" You might want to upgrade your version of Java from 7 to 8 if you want to "
-"use features such as lambdas or generics. Some libraries may also require "
-"you to change your Java version."
-msgstr ""
-"Por defecto, la versión de Java del SDK es la 7. Java 8 también es "
-"compatible. Es posible que desee actualizar su versión de Java de 7 a 8 si "
-"desea utilizar funciones como lambdas o genéricos. Algunas bibliotecas "
-"también pueden requerir que cambie su versión de Java."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:224
-msgid ""
-"To upgrade to Java 8, navigate to your :code:`build.common.gradle` file. "
-"Scroll down until you find this block:"
-msgstr ""
-"Para actualizar a Java 8, vaya a su archivo :code:`build.common.gradle`. "
-"Desplácese hacia abajo hasta encontrar este bloque:"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:233
-msgid "Change the :code:`7` to :code:`8`, like so:"
-msgstr "Cambia el :code:`7` por :code:`8`, así:"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:242
-msgid "Then, perform a Gradle sync."
-msgstr "A continuación, realice una sincronización Gradle."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:245
-msgid "Android Debug Bridge"
-msgstr "Puente de Depuración Android"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:247
-msgid ""
-"On macOS, Linux, or using PowerShell you will have to change any commands "
-"that start with :code:`adb` to start with :code:`./adb` if you are in the "
-":code:`platform-tools` directory."
-msgstr ""
-"En macOS, Linux o usando PowerShell tendrás que cambiar cualquier comando "
-"que empiece por :code:`adb` para que empiece por :code:`./adb` si estás en "
-"el directorio :code:`platform-tools`."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:252
-msgid "Logcat"
-msgstr "Logcat"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:254
-msgid ""
-"Logcat is extremely useful for debugging issues with your code at runtime or"
-" figuring out what went wrong. For example, if your app activity crashes and"
-" you pull up the log seeing 5000 lines of the same error, there is probably "
-"infinite recursion in your code!"
-msgstr ""
-"Logcat es extremadamente útil para depurar problemas con tu código en tiempo"
-" de ejecución o para averiguar qué ha ido mal. Por ejemplo, si la actividad "
-"de tu aplicación se bloquea y consultas el registro y ves 5000 líneas con el"
-" mismo error, ¡probablemente haya una recursividad infinita en tu código!"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:256
-msgid ""
-"To use logcat, plug in your device (or connect via ADB). Then, select the "
-"app you want to view the logs for. Your window should look like this."
-msgstr ""
-"Para utilizar logcat, conecta tu dispositivo (o conéctalo mediante ADB). A "
-"continuación, selecciona la aplicación de la que quieres ver los registros. "
-"La ventana debería tener este aspecto."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
-msgid "A selected device and app with the error messages"
-msgstr ""
-"Un dispositivo y una aplicación seleccionados con los mensajes de error"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:264
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:167
 msgid "Wireless Communication"
 msgstr "Comunicación Inalámbrica"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:266
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:169
 msgid ""
 "Android Debug Bridge (ADB) is a command-line tool that allows for wireless "
 "communication between the robot controller (phone or Control Hub)."
@@ -669,7 +229,7 @@ msgstr ""
 "permite la comunicación inalámbrica entre el controlador del robot (teléfono"
 " o Control Hub)."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:268
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:171
 msgid ""
 "ADB should come with the platform tools in Android Studio. Navigate to your "
 ":code:`local.properties` file in the root of your project and you should see"
@@ -687,26 +247,18 @@ msgstr ""
 "Para usarlo, abra CLI (como PowerShell o símbolo del sistema) y ejecute "
 ":code:`adb devices` o :code:`./adb devices`."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:270
-msgid ""
-"For more information on ADB, you can look at the `developers page "
-"<https://developer.android.com/studio/command-line/adb>`_."
-msgstr ""
-"Para más información sobre ADB, puede consultar la `página para "
-"desarrolladores <https://developer.android.com/studio/command-line/adb>`_."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:273
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:176
 msgid "Setting Up ADB"
 msgstr "Configuración de ADB"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:275
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:178
 msgid ""
 "Ensure USB debugging is enabled on your device and it is in developer mode."
 msgstr ""
 "Asegúrate de que la depuración USB está activada en tu dispositivo y de que "
 "está en modo desarrollador."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:276
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:179
 msgid ""
 "Make sure you have ADB installed. If you do not, follow the instructions at "
 "`this link <https://www.xda-developers.com/install-adb-windows-macos-"
@@ -716,7 +268,7 @@ msgstr ""
 "instrucciones de `este enlace <https://www.xda-developers.com/install-adb-"
 "windows-macos-linux/>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:278
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:181
 msgid ""
 "You can use logcat via ADB with the :code:`adb logcat` command. This is "
 "extremely useful for debugging as it allows you to look at the logs "
@@ -728,15 +280,15 @@ msgstr ""
 "registros de forma inalámbrica, lo que ahorra tiempo. Recuerda, logcat es la"
 " *mejor* manera de depurar tu software."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:281
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:184
 msgid "Add ADB To PATH"
 msgstr "Añadir ADB a PATH"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:283
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:188
 msgid "Adding variables to PATH:"
 msgstr "Añadir variables a PATH:"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:285
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:190
 msgid ""
 "`Windows <https://docs.alfresco.com/content-"
 "services/latest/admin/troubleshoot/>`_"
@@ -744,7 +296,7 @@ msgstr ""
 "`Windows <https://docs.alfresco.com/content-"
 "services/latest/admin/troubleshoot/>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:286
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:191
 msgid ""
 "`Linux/Unix (bash) <https://unix.stackexchange.com/questions/26047/how-to-"
 "correctly-add-a-path-to-path>`_"
@@ -752,31 +304,31 @@ msgstr ""
 "`Linux/Unix (bash) <https://unix.stackexchange.com/questions/26047/how-to-"
 "correctly-add-a-path-to-path>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:287
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:192
 msgid "`macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_"
 msgstr "`macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:289
-msgid ""
-"If you want to use ADB from any directory, add it to PATH. Follow an online "
-"tutorial for adding to PATH and set the PATH to the :code:`platform-tools` "
-"directory. Once you do that, you can run ADB commands from anywhere on your "
-"system."
-msgstr ""
-"Si quieres usar ADB desde cualquier directorio, añádelo a PATH. Sigue un "
-"tutorial online para añadirlo al PATH y establece el PATH al directorio "
-":code:`platform-tools`. Una vez hecho esto, podrás ejecutar comandos ADB "
-"desde cualquier parte de tu sistema."
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:195
+msgid "Connecting to a Control Hub Wirelessly"
+msgstr "Conexión Inalámbrica a un Control Hub"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:292
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:198
+msgid ""
+"Once you're connected to a Control Hub's network, you simply need to connect"
+" to it using :code:`adb connect 192.168.43.1:5555`."
+msgstr ""
+"Una vez conectado a la red de un Control Hub, sólo tienes que conectarte a "
+"él utilizando :code:`adb connect 192.168.43.1:5555`."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:203
 msgid "Connecting to a Phone Wirelessly"
 msgstr "Conexión Inalámbrica a un Teléfono"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:294
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:205
 msgid "Plug the robot controller phone into your computer."
 msgstr "Conecta el teléfono controlador del robot al ordenador."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:295
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:206
 msgid ""
 "Run the command :code:`adb devices` in the :code:`platform-tools` directory "
 "and see if the phone shows up."
@@ -784,7 +336,7 @@ msgstr ""
 "Ejecute el comando :code:`adb devices` en el directorio :code:`platform-"
 "tools` y compruebe si aparece el teléfono."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:296
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:207
 msgid ""
 "Run :code:`adb usb` and then :code:`adb tcpip 5555`. You can then unplug the"
 " phone."
@@ -792,21 +344,7 @@ msgstr ""
 "Ejecute :code:`adb usb` y luego :code:`adb tcpip 5555`. A continuación, "
 "puede desenchufar el teléfono."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:297
-msgid ""
-"Connect to the same WiFi network the device is either hosting or on. The "
-"WiFi direct network created by the phone should be called \"TEAMNUMBER-RC\" "
-"or some small derivation of that. It may include extra letters if you have "
-"multiple devices per team. Refer to RS01 in |gm1| for further details on the"
-" network naming scheme."
-msgstr ""
-"Conéctese a la misma red WiFi que aloja o en la que se encuentra el "
-"dispositivo. La red WiFi directa creada por el teléfono debe llamarse "
-"\"TEAMNUMBER-RC\" o alguna pequeña derivación de eso. Puede incluir letras "
-"adicionales si tiene varios dispositivos por equipo. Consulte RS01 en |gm1| "
-"para más detalles sobre el esquema de nomenclatura de redes."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:298
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:209
 msgid ""
 "Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this "
 "doesn't work, recheck the IP address of the phone and try again with that IP"
@@ -816,43 +354,36 @@ msgstr ""
 "esto no funciona, vuelva a comprobar la dirección IP del teléfono e "
 "inténtelo de nuevo con esa dirección IP si es diferente."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:301
-msgid "Connecting to a Control Hub Wirelessly"
-msgstr "Conexión Inalámbrica a un Control Hub"
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:216
+msgid "Logcat"
+msgstr "Logcat"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:303
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:218
 msgid ""
-"Connect to the WiFi hotspot hosted by the Control Hub. The hotspot should be"
-" called \"TEAMNUMBER-RC\" or some small derivation of that. It may include "
-"extra letters if you have multiple devices per team. Refer to RS01 in |gm1| "
-"for further details on the network naming scheme."
+"Logcat is extremely useful for debugging issues with your code at runtime or"
+" figuring out what went wrong. For example, if your app activity crashes and"
+" you pull up the log seeing 5000 lines of the same error, there is probably "
+"infinite recursion in your code!"
 msgstr ""
-"Conéctese al punto de acceso WiFi alojado en el Control Hub. El hotspot debe"
-" llamarse \"TEAMNUMBER-RC\" o alguna pequeña derivación de eso. Puede "
-"incluir letras adicionales si tiene varios dispositivos por equipo. Consulte"
-" RS01 en |gm1| para más detalles sobre el esquema de nomenclatura de la red."
+"Logcat es extremadamente útil para depurar problemas con tu código en tiempo"
+" de ejecución o para averiguar qué ha ido mal. Por ejemplo, si la actividad "
+"de tu aplicación se bloquea y consultas el registro y ves 5000 líneas con el"
+" mismo error, ¡probablemente haya una recursividad infinita en tu código!"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:304
-msgid ""
-"Once you're connected to a Control Hub's network, you simply need to connect"
-" to it using :code:`adb connect 192.168.43.1:5555`."
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
+msgid "Terminal and logcat tabs near the bottom left"
+msgstr "Pestañas terminal y logcat en la parte inferior izquierda"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
+msgid "A selected device and app with the error messages"
 msgstr ""
-"Una vez conectado a la red de un Control Hub, sólo tienes que conectarte a "
-"él utilizando :code:`adb connect 192.168.43.1:5555`."
+"Un dispositivo y una aplicación seleccionados con los mensajes de error"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:306
-msgid ""
-"Once a connection is established, it should appear in the device dropdown in"
-" Android Studio."
-msgstr ""
-"Una vez establecida la conexión, debería aparecer en el desplegable de "
-"dispositivos de Android Studio."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:309
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:233
 msgid "Wireless Configuration"
 msgstr "Configuración Inalámbrica"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:311
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:235
 msgid ""
 "You can set up a configuration on the Driver Station or Robot Controller "
 "like usual. However, you can also create a valid configuration XML file in "
@@ -867,7 +398,7 @@ msgstr ""
 "configuración en la carpeta :code:`/sdcard/FIRST` como un archivo XML con el"
 " mismo nombre que la configuración."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:313
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:237
 msgid ""
 "To get these XML files wirelessly, you can use :code:`adb pull "
 "/sdcard/FIRST/config.xml /fully/qualified/path/res/xml`."
@@ -875,7 +406,7 @@ msgstr ""
 "Para obtener estos archivos XML de forma inalámbrica, puede utilizar "
 ":code:`adb pull /sdcard/FIRST/config.xml /fully/qualified/path/res/xml`."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:315
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:239
 msgid ""
 "If a valid configuration XML file is in :code:`res/xml` it will show up as a"
 " configuration you can use for the robot when you push it to the Robot "
@@ -885,78 +416,11 @@ msgstr ""
 "como una configuración que puede utilizar para el robot cuando lo envíe al "
 "controlador del robot o a un Control Hub."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:318
-msgid "SDK Manager"
-msgstr "Gestor de SDK"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:320
-msgid ""
-"You can find the SDK manager in the top right corner of your Android Studio."
-msgstr ""
-"Puedes encontrar el gestor de SDK en la esquina superior derecha de tu "
-"Android Studio."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
-msgid "A box with a down-facing arrow"
-msgstr "Una caja con una flecha hacia abajo"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:326
-msgid "Accepting Licenses"
-msgstr "Aceptación de Licencias"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:328
-msgid ""
-"If you get a warning complaining about licenses not being accepted, follow "
-"these steps:"
-msgstr ""
-"Si recibes un aviso quejándote de que no se aceptan licencias, sigue estos "
-"pasos:"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:330
-msgid "Go to the SDK manager and under SDK Platforms."
-msgstr "Vaya al gestor de SDK y en Plataformas SDK."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:331
-msgid "Select the version with the API level specified by the warning."
-msgstr ""
-"Seleccione la versión con el nivel de API especificado por la advertencia."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:332
-msgid "Click \"Apply\" and wait for the components to install."
-msgstr "Haga clic en \"Aplicar\" y espere a que se instalen los componentes."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:333
-msgid ""
-"Once this finishes, press \"Finish,\" then \"Ok.\" Wait for Android Studio "
-"to index if it is."
-msgstr ""
-"Una vez que esto termine, presione \"Finalizar\" y luego \"Ok\". Espera a "
-"que Android Studio indeque si es así."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:334
-msgid "Restart Android Studio."
-msgstr "Reinicia Android Studio."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:337
-msgid "Installing SDK Tools"
-msgstr "Instalación de las herramientas del SDK"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:339
-msgid ""
-"To install any SDK tools such as platform tools or build tools, open the SDK"
-" manager and go to SDK Tools. Select the tools you want to install and "
-"install them the same way you would for the SDK platforms."
-msgstr ""
-"Para instalar cualquier herramienta del SDK, como herramientas de plataforma"
-" o herramientas de compilación, abra el gestor del SDK y vaya a Herramientas"
-" del SDK. Seleccione las herramientas que desee instalar e instálelas del "
-"mismo modo que lo haría para las plataformas SDK."
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:342
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:242
 msgid "Version Control"
 msgstr "Control de Versiones"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:344
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:244
 msgid ""
 "Version control is an extremely useful tool. It allows for looking at (and "
 "reverting to) previous versions of code, easy collaboration, having multiple"
@@ -967,7 +431,7 @@ msgstr ""
 "colaboración, disponer de varias versiones del código que pueden fusionarse,"
 " etc."
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:346
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:246
 msgid ""
 "As far as version control systems go, we strongly recommend git, especially "
 "when used with a GUI like Android Studio's built in VCS tools or Github "
@@ -980,19 +444,11 @@ msgstr ""
 "Github Desktop. Mientras que un tutorial de git está fuera del alcance de "
 "|gm0|, aquí hay algunos recursos de git:"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:348
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:248
 msgid "`The official git tutorial <https://git-scm.com/docs/gittutorial>`_"
 msgstr "`El tutorial oficial de git <https://git-scm.com/docs/gittutorial>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:349
-msgid ""
-"`GitHub's collection of git resources <https://docs.github.com/en/get-"
-"started/quickstart/set-up-git>`_"
-msgstr ""
-"`La colección de recursos git de GitHub <https://docs.github.com/en/get-"
-"started/quickstart/set-up-git>`_"
-
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:350
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:250
 msgid ""
 "`GitHub's guide to installing git <https://github.com/git-guides/install-"
 "git>`_"
@@ -1000,12 +456,12 @@ msgstr ""
 "`Guía de GitHub para instalar git <https://github.com/git-guides/install-"
 "git>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:351
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:251
 msgid "`GitHub Desktop, a git GUI <https://desktop.github.com/>`_"
 msgstr ""
 "`GitHub Desktop, una interfaz gráfica de git <https://desktop.github.com/>`_"
 
-#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:352
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:252
 msgid ""
 "`Android Studio's/IntelliJ's git integration documentation "
 "<https://www.jetbrains.com/help/idea/version-control-integration.html>`_"

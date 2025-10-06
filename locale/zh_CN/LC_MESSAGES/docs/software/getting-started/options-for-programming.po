@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 04:15+0000\n"
+"POT-Creation-Date: 2025-10-06 04:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -59,8 +59,8 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:16
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:46
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:67
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:103
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:128
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:97
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:122
 msgid "Advantages"
 msgstr "优势"
 
@@ -88,9 +88,9 @@ msgstr "不需要外部Wi-Fi连接"
 
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:26
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:55
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:88
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:116
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:134
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:82
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:110
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:128
 msgid "Disadvantages"
 msgstr "缺点"
 
@@ -199,64 +199,44 @@ msgstr ""
 msgid "Much greater flexibility than Blocks."
 msgstr "比图形化编程有更大的灵活性。"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:71
-msgid ""
-"Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_, "
-"`FTCLib`_, and `Road Runner`_."
-msgstr "更容易集成库，如 `EasyOpenCV`_, `FTC Dashboard`_, `FTCLib`_ 和 `Road Runner`_。"
-
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:72
-msgid "Can use plugins like `Road Runner`_."
-msgstr "可以使用插件，如 `Road Runner`_。"
-
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:73
 msgid ""
 "Can use either a USB connection to the :term:`RC <Robot Controller>` phone, "
 "or a wireless connection to upload code."
 msgstr "可使用 USB 连接到 :term:`RC <Robot Controller>` 手机，或使用无线连接上传代码。"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:75
-msgid "Deploy times can be sped up by using `OpenRC Turbo`_."
-msgstr "使用 `OpenRC Turbo`_ 可以加快部署时间。"
-
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:77
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:73
 msgid "Can debug in real-time"
 msgstr "可以实时调试"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:78
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:74
 msgid "Many resources for Java, Android Studio, and IDEA"
 msgstr "Java、Android Studio和IDEA的许多资源"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:79
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:75
 msgid "Can use other programming languages"
 msgstr "可以使用其他编程语言"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:90
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:84
 msgid ""
 "Connecting to the robot controller's Wi-Fi network will prevent you from "
 "using anything on the internet including video tutorials and online "
 "communication, unless you have a second Wifi adapter (cheap and easy)"
 msgstr "连接到机器人控制器的Wi-Fi网络将阻止你使用互联网上的任何内容，包括视频教程和在线通信，除非你有第二个Wifi适配器（便宜且简单）"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:91
-msgid ""
-"Relatively easy setup process, but time consuming and is a hefty install "
-"(3GB of files between Android Studio, ftc_app, and other libraries)"
-msgstr "相对容易的安装过程，但耗时，有一个庞大的安装量（Android Studio，ftc_app和其他库之间的3GB文件）"
-
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:92
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:86
 msgid "Issues can be difficult to diagnose and solve"
 msgstr "问题可能难以诊断和解决"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:95
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:89
 msgid "Other Programming Languages"
 msgstr "其他编程语言"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:98
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:92
 msgid "Kotlin"
 msgstr "Kotlin静态编程语言"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:100
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:94
 msgid ""
 "Kotlin is a relatively new and rapidly growing programming language from "
 "Jetbrains, the creator of the IntelliJ IDE, which Android Studio is based "
@@ -268,87 +248,87 @@ msgstr ""
 "Kotlin静态编程语言是一种相对较新且发展迅速的编程语言，来自Jetbrains，它是IntelliJIDE的创建者，Android "
 "Studio就是基于它。Kotlin静态编程语言被设计成与Java完全兼容，但更容易使用。谷歌最近宣布它为官方安卓语言，然后宣布他们将“使Kotlin静态编程语言优先”，但仍保持Java支持。"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:105
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:99
 msgid "Concise, readable, easy to edit code"
 msgstr "简洁、易读、易于编辑的代码"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:107
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:101
 msgid "Easy to write as it takes much less code to do the same thing"
 msgstr "易于编写，因为做同样的事情所需的代码要少得多"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:108
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:102
 msgid "Both optional type inference and a stronger type system than Java"
 msgstr "可选类型推断和比Java更强大的类型系统"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:109
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:103
 msgid "Null safety"
 msgstr "Null安全"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:110
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:104
 msgid "Thread safety"
 msgstr "线程安全"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:111
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:105
 msgid "Functional programming"
 msgstr "函数式编程"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:112
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:106
 msgid "Seamless integration with Java code and libraries"
 msgstr "与Java代码和库无缝衔接"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:113
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:107
 msgid "Very easy to transition from Java"
 msgstr "很容易从Java转移过来"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:118
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:112
 msgid "Not widely used in FTC\\ |reg| yet"
 msgstr "尚未广泛应用于FTC\\ |reg| "
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:119
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:113
 msgid "New and has fewer community resources for training"
 msgstr "是新加入的语言，用于培训的社区资源较少"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:120
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:114
 msgid ""
 "Not recommended for programmers who need large amounts of help from other "
 "teams"
 msgstr "不推荐给需要其他团队大量帮助的程序员"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:123
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:117
 msgid "C and C++"
 msgstr "C 和 C++"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:125
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:119
 msgid ""
 "C and C++ are native programming languages compatible with Android. Very few"
 " teams have used C++. This is typically used for only part of the code, with"
 " the majority being Java or Kotlin."
 msgstr "C和C++是与Android兼容的本地编程语言。很少有团队使用C++。这通常仅用于部分代码，大多数是Java或Kotlin静态编程语言。"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:130
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:124
 msgid "Fast execution for extremely resource-intensive applications."
 msgstr "快速执行资源密集型应用程序。"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:131
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:125
 msgid "Supports more libraries"
 msgstr "支持更多库"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:136
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:130
 msgid "Rarely needed"
 msgstr "很少需要或使用"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:137
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:131
 msgid "Very difficult to set up"
 msgstr "设置起来非常困难"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:138
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:132
 msgid "Difficult to debug code"
 msgstr "难以调试代码"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:139
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:133
 msgid "Very few teams can help you"
 msgstr "很少有团队可以帮助你"
 
-#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:140
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:134
 msgid "Very few online resources"
 msgstr "很少的在线资源"
