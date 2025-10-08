@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 04:28+0000\n"
+"POT-Creation-Date: 2025-10-08 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -20,3 +20,396 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:4
+msgid "Design Strategy"
+msgstr "Стратегия Проектирования"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:6
+msgid ""
+"A useful resource is the championship conference presentation from Karthik "
+"Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame "
+"team FRC\\ |reg| 1114, Simbotics, on effective design and competition "
+"strategies: `Effective FIRST Strategies. "
+"<https://www.youtube.com/watch?v=5fifL47TvzE>`_ See also the `slideshow from"
+" the presentation "
+"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
+msgstr ""
+"Полезным ресурсом является презентация Картика Канагасабапати, бывшего "
+"главного наставника (и нынешнего стороннего эксперта) команды Hall of Fame  "
+"FRC\\ |reg| 1114, Simbotics, на конференции по эффективным стратегиям "
+"проектирования и соревнований: `Effective FIRST Strategies. "
+"<https://www.youtube.com/watch?v=5fifL47TvzE>`_ Смотрите также слайд-шоу из "
+"презентации "
+"<https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:9
+msgid "General Design Tips and Mistakes"
+msgstr "Общие Советы и Ошибки при Проектировании"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:11
+msgid ""
+"Here are some good tips for teams to make decisions in the high-level design"
+" and strategic planning stages."
+msgstr ""
+"Вот несколько полезных советов для команд по принятию решений на этапах "
+"разработки и стратегического планирования на высоком уровне."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+msgid "Problem"
+msgstr "Проблема"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:14
+msgid "Solution"
+msgstr "Решение"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+msgid "**Do everything at once**"
+msgstr "**Делать все сразу**."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:18
+msgid "Robot becomes half-baked"
+msgstr "Робот становится полуфабрикатом"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+msgid "Cannot excel in one area"
+msgstr "Невозможно преуспеть в одной области"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:16
+msgid "**Perfect one objective first**"
+msgstr "**Сначала выполните одну цель**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:18
+msgid "Robot is highly optimized"
+msgstr "Робот очень оптимизирован"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:19
+msgid "Consistently excels in one area"
+msgstr "Постоянно преуспевает в одной области"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+msgid "**Overcomplicate**"
+msgstr "**Сверхусложнение**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:23
+msgid "More time needed to iterate"
+msgstr "Требуется больше времени на доработку"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+msgid "Less reliable"
+msgstr "Менее надежно"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:21
+msgid "**Simplify**"
+msgstr "**Упрощение**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:23
+msgid "Best designs are usually simplest"
+msgstr "Лучшие дизайны обычно самые простые"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:24
+msgid "Less moving parts"
+msgstr "Меньше движущихся частей"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+msgid "**Score-first design**"
+msgstr "**Дизайн ориентированный на результат**."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:28
+msgid "Neglect proper principles"
+msgstr "Пренебрежение принципами"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+msgid "Often wildly inconsistent"
+msgstr "Часто бывает непоследовательным"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:26
+msgid "**Design for consistency**"
+msgstr "**Проектирование для последовательности**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:28
+msgid "Usually reliability > scoring ability"
+msgstr "Обычно надежность > способность набирать очки"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:29
+msgid "Great plus for alliance selection"
+msgstr "Большой плюс при выборе альянса"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+msgid "**Build haphazardly**"
+msgstr "**Собирать бессистемно**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:33
+msgid "Build with subpar materials"
+msgstr "Сборка из некачественных материалов"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+msgid "Inadequate support structure"
+msgstr "Неадекватная структура поддержки"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:31
+msgid "**Build for reliability**"
+msgstr "**Собирать надежно**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:33
+msgid "Remove unneeded moving parts"
+msgstr "Убирает ненужные движущиеся части"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:34
+msgid "Eliminate single points of failure"
+msgstr "Убирает отдельные неработающие части"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+msgid "**Fret about design**"
+msgstr "**Волнение по поводу проектирования**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:38
+msgid "Wastes testing time"
+msgstr "Трата времени на тестирование"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:39
+msgid "Design alone is not enough"
+msgstr "Одного дизайна недостаточно"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:36
+msgid "**Focus on execution**"
+msgstr "**Сфокусируйтесь на выполнении**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:38
+msgid "Make a decision, then stick to it"
+msgstr "Примите решение и придерживайтесь его"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:39
+msgid "Execution often beats design"
+msgstr "Исполнение часто побеждает дизайн"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:43
+msgid "Doing Everything At Once |rarr| Perfecting One Objective First"
+msgstr "Делать все и сразу |rarr| Сначала довести до совершенства одну цель"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:45
+msgid "**Consistency is king.**"
+msgstr "**Последовательность - король.**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:47
+msgid ""
+"A common pitfall for first year teams is trying to accomplish all the game "
+"objectives at once, especially in tele-op and endgame."
+msgstr ""
+"Распространенный подводный камень для команд первого года обучения - попытка"
+" выполнить все игровые задачи сразу, особенно в Управляемом периоде и "
+"Эндгейме."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:49
+msgid ""
+"**This is highly discouraged** because oftentimes new teams do not have the "
+"experience to do so. It is no small achievement to have a consistent robot "
+"that completes all objectives in competition, even at the higher levels."
+msgstr ""
+"**Это крайне не рекомендуется**, так как зачастую у новых команд нет "
+"достаточного опыта для этого. Это немалое достижение, когда робот "
+"последовательно выполняет все задачи на соревнованиях, даже на высоких "
+"уровнях."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:51
+msgid ""
+"Too often, we see teams bring half-baked robots that will attempt to do "
+"everything in a match, but excel at nothing. Even if they succeed, it is "
+"often by thin margins and cannot be repeated. This robot could be much more "
+"successful if the team spent their time to perfect one mechanism first."
+msgstr ""
+"Слишком часто мы видим, как команды привозят полуживых роботов, которые "
+"пытаются сделать в матче все, но не преуспевают ни в чем. Даже если они и "
+"добиваются успеха, то зачастую с небольшим отрывом и не могут повторить его."
+" Этот робот мог бы быть гораздо успешнее, если бы команда потратила время на"
+" совершенствование одного механизма."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:53
+msgid ""
+"Teams should always remember the principle that a robot that can complete "
+"one thing consistently will likely be more competitive than the robot that "
+"does everything inconsistently. We recommend teams focus on one objective "
+"during tele-op/endgame and perfect it."
+msgstr ""
+"Команды должны всегда помнить принцип: робот, который может выполнить одну "
+"задачу последовательно, скорее всего, будет более конкурентоспособным, чем "
+"робот, который делает все непоследовательно. Мы рекомендуем командам "
+"сосредоточиться на одной задаче во время Управляемого периода/Эндгейма и "
+"довести ее до совершенства."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:55
+msgid ""
+"Typically, teams which have a solid autonomous and consistent endgame can be"
+" competitive at the Qualifier level. This is a recommended goal for new "
+"teams."
+msgstr ""
+"Как правило, команды, имеющие хороший Автономный период и Эндгейм, могут "
+"быть конкурентоспособными на уровне Отборочных соревнований. Это "
+"рекомендуемая цель для новых команд."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:58
+msgid "Overcomplex |rarr| Simple"
+msgstr "Сложный |rarr| Простой"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:60
+msgid ""
+"Another common trap that teams fall into is to overcomplicate needlessly. "
+"Simplifying your robot simplifies possible headaches later."
+msgstr ""
+"Еще одна распространенная ловушка, в которую попадают команды, - излишнее "
+"усложнение. Упрощение робота упрощает возможную головную боль в дальнейшем."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:62
+msgid ""
+"While some robots are very complicated, keep in mind that those teams are "
+"generally experienced, have some sort of machining capability, and fully "
+"design their robot in CAD. However, many world-class teams often build "
+"designs that are ingenious yet ridiculously simple."
+msgstr ""
+"Хотя некоторые роботы очень сложны, имейте в виду, что такие команды, как "
+"правило, имеют опыт, обладают определенными возможностями для изготовления "
+"деталей и полностью проектируют своего робота в САПР-системах. Однако многие"
+" команды мирового уровня часто создают гениальные, но до смешного простые "
+"конструкции."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:64
+msgid ""
+"Some advantages to simplicity are that the robot has less points of failure,"
+" given that the robot has less moving parts. Additionally, it takes much "
+"less time to iterate through and perfect a simple mechanism as opposed to a "
+"complicated one. The reasoning is that a complicated system has many more "
+"variables that need to be adjusted/could cause problems."
+msgstr ""
+"Некоторые преимущества простоты заключаются в том, что у робота меньше "
+"вещей, которые могут сломаться, поскольку в нем меньше движущихся частей. "
+"Кроме того, на отработку и совершенствование простого механизма уходит "
+"гораздо меньше времени, чем сложного. Это объясняется тем, что в сложной "
+"системе гораздо больше переменных, которые нужно регулировать и которые "
+"могут вызвать проблемы."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:66
+msgid ""
+"Keeping things simple can be practically achieved through a couple of ways."
+msgstr "Простота может быть достигнута несколькими способами."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:68
+msgid ""
+"Limit the degrees of motion that the mechanism operates in. For example, a "
+"linear slide goes in and out in a straight line, as opposed to an arm, which"
+" rotates along an axis. Doing so will serve to eliminate forces that "
+"otherwise could adversely affect the mechanism."
+msgstr ""
+"Ограничьте количество степеней свободы, в которых работает механизм. "
+"Например, линейная система движется по прямой линии, в отличие от "
+"манипулятора, который вращается вокруг оси. Это позволит устранить силы, "
+"которые в противном случае могли бы негативно повлиять на механизм."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:70
+msgid ""
+"Another way to simplify is to build for the shortest travel distance. "
+"Obviously, the shortest distance from A to B is in a straight line, so teams"
+" should strive to keep the game elements approximately within a reasonably "
+"straight line. This can help in solving possible problems if the game "
+"elements need to change direction too many times."
+msgstr ""
+"Еще один способ упростить игру - построить ее с учетом кратчайшего "
+"расстояния. Очевидно, что кратчайшее расстояние от точки А до точки Б "
+"проходит по прямой, поэтому команды должны стремиться к тому, чтобы игровые "
+"элементы располагались примерно на одной прямой. Это поможет решить "
+"возможные проблемы, если игровым элементам придется слишком часто менять "
+"направление."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:73
+msgid "Score-first Designing |rarr| Designing for Consistency"
+msgstr ""
+"Проектирование, ориентированное на результат |rarr| Проектирование, "
+"ориентированное на стабильность"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:75
+msgid "Teams should prioritize consistency over scoring ability."
+msgstr ""
+"Команды должны отдавать предпочтение стабильности, а не способности набирать"
+" очки."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:77
+msgid ""
+"The tortoise beats the rabbit. An overused parable, but it still holds a "
+"kernel of truth. Why? Because the tortoise, which plodded along "
+"consistently, beat the rabbit, which had hot and cold streaks."
+msgstr ""
+"Черепаха побеждает кролика. Избитая притча, но в ней все равно есть доля "
+"истины. Почему? Потому что черепаха, которая упорно шла вперед, победила "
+"кролика, у которого были то горячие, то холодные полосы."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:79
+msgid ""
+"A hallmark of any successful team is consistency and reliability throughout "
+"the competition season and even across seasons. Sports dynasties are "
+"dynasties for the reason that they compete at a high level not for a couple "
+"games, but for multiple seasons. Without the power of consistency, it will "
+"be nearly impossible to win games, let alone a tournament."
+msgstr ""
+"Отличительной чертой любой успешной команды является стабильность и "
+"надежность на протяжении всего сезона соревнований и даже межсезонья. "
+"Спортивные династии потому и династии, что они выступают на высоком уровне "
+"не в течение пары игр, а на протяжении нескольких сезонов. Без силы "
+"стабильности практически невозможно выигрывать игры, не говоря уже о "
+"турнирах."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:81
+msgid ""
+"Too many teams fall into the pit of prioritizing scoring ability more than "
+"anything else, which is a grave error. In keeping with the first tip, to "
+"perfect one objective first, this practice will serve to increase "
+"consistency."
+msgstr ""
+"Многие команды совершают грубую ошибку, концентрируясь исключительно на "
+"способности робота зарабатывать очки, забывая о других аспектах. Следуя "
+"первому правилу — сначала доведи до совершенства один элемент, — такой "
+"подход позволит добиться стабильности работы."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:83
+msgid ""
+"While scoring ability should be a priority and objective when designing "
+"mechanisms, it is not everything in this game. We advise being consistent at"
+" low and medium scoring levels than inconsistently scoring at a high level."
+msgstr ""
+"Хотя способность набирать очки должна быть приоритетом и целью при "
+"разработке механизмов, это не все в этой игре. Мы советуем скорее быть "
+"последовательными на низких и средних уровнях, чем непоследовательно "
+"набирать очки на высоком уровне."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:85
+msgid ""
+"Focus on being able to do that one thing every single time throughout your "
+"matches, and you will begin to see how important consistency is. **This tip "
+"is equally as important during alliance selections. Top teams will "
+"prioritize teams that are consistent far more than scoring ability.** They "
+"are not afraid to look at teams who can't score much, but can contribute "
+"every time to the alliance score, rather than selecting a boom-or-bust pick."
+msgstr ""
+"Сосредоточьтесь на том, чтобы выполнять это одно действие стабильно в "
+"течение всех матчей, и вы увидите, насколько важна стабильность. Этот совет "
+"столь же важен на этапе формирования альянсов. Сильнейшие команды будут "
+"отдавать приоритет стабильным командам, а не тем, кто просто умеет разово "
+"набирать много очков. Они не побоятся обратить внимание на команды, которые "
+"не показывают высоких результатов в матче, но могут стабильно приносить очки"
+" альянсу — вместо выбора непредсказуемого партнера."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:88
+msgid "Building haphazardly |rarr| Building for reliability"
+msgstr "Бессистемная сборка |rarr| Сборка для надежности"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:90
+msgid ""
+"Build for the worst case scenario, not the best case scenario. When "
+"building, teams often overlook a key principle: build for reliability. All "
+"too often, teams skimp on the quality of construction as well as materials, "
+"which leads to one of the most common reasons for unsuccessful tournaments: "
+"part failure."
+msgstr ""
+"Собирайте с расчетом на худший, а не на лучший сценарий. При сборке команды "
+"часто упускают из виду ключевой принцип: делать с расчетом на надежность. "
+"Слишком часто команды экономят на качестве конструкции и материалов, что "
+"приводит к одной из самых распространенных причин неудачных турниров - "
+"поломке деталей."

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-08 04:28+0000\n"
+"POT-Creation-Date: 2025-10-08 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Darya Tepysheva, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -91,3 +91,38 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:107
 msgid "Carbon Fiber-filled"
 msgstr "Наполненный углеродным волокном"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:147
+msgid "Draft Angle"
+msgstr "Угол Наклона"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:152
+msgid "Stress Vectors"
+msgstr "Векторы Напряжения"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:156
+msgid ""
+"It might seem counterintuitive to split up a part into multiple parts to "
+"increase strength, but there is a logic behind it."
+msgstr ""
+"Может показаться нелогичным разбивать деталь на несколько частей для "
+"увеличения прочности, но в этом есть логика."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst-1
+msgid "A multipart assembly 3D printing"
+msgstr "3D-печать сборки из нескольких частей"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst-1
+msgid "An assembled version of what was printing in the previous image"
+msgstr "Собранная версия того, что было напечатано на предыдущем изображении"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:168
+msgid ""
+"This assembly is a good example of considering part orientation, draft "
+"angles, and stress vectors in each part of the design. Complex parts can be "
+"made strong and without any support by simply splitting it up in the right "
+"way."
+msgstr ""
+"Эта сборка является хорошим примером учета ориентации деталей, углов наклона"
+" и векторов напряжений в каждой детали конструкции. Сложные детали можно "
+"сделать прочными и без какой-либо поддержки, просто правильно разделив их."

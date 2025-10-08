@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-13 16:31+0000\n"
+"POT-Creation-Date: 2025-10-08 16:30+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
 "Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -20,3 +20,262 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:4
+msgid "Collaboration and Efficiency"
+msgstr "Сотрудничество и Эффективность"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:6
+msgid ""
+"FTC\\ |reg| is built on collaboration, and there are several ways to make "
+"collaborating as efficient as possible. Here's how!"
+msgstr ""
+"FTC\\|reg| основаны на сотрудничестве, и существует несколько способов "
+"сделать совместную работу максимально эффективной. Вот как этого добиться!"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:9
+msgid "Why Collaborate?"
+msgstr "Зачем Сотрудничать?"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:11
+msgid ""
+"The benefit of collaboration is expanded creativity. Your team members "
+"aren't identical - each one has a different method of approaching problems. "
+"Combining these unique mindsets often leads to creative, efficient, and "
+"effective solutions to software and mechanical issues."
+msgstr ""
+"Преимущество совместной работы заключается в расширении творческого "
+"потенциала. Участники вашей команды совсем не похожи друг на друга - у "
+"каждого из них свой метод решения проблем. Их объединение часто приводит к "
+"творческим, эффективным и результативным решениям проблем в инженерии и "
+"программировании."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:14
+msgid "General Collaboration"
+msgstr "Общее Взаимодействие"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:16
+msgid ""
+"Your team's leadership should communicate daily about the status of their "
+"squads - it's imperative to ensure smooth team operations. You can use "
+"platforms like Discord and Slack to facilitate organized conversations. In "
+"addition, collaborative platforms like Canva and Google Drive are ideal for "
+"hosting engineering documentation, judging presentations, and marketing "
+"materials. The more material your members can access, the more they can "
+"contribute to."
+msgstr ""
+"Ответственные за каждую из групп вашей команды должны ежедневно сообщать о "
+"состоянии дел и прогрессе в своей сфере для обеспечения непрерывной работы "
+"команды. Для организации дистанционных собраний команды можно использовать "
+"такие платформы, как Discord и Slack. Кроме того, такие платформы для "
+"совместной работы, как Canva и Google Drive, идеально подходят для "
+"размещения инженерной документации, презентаций для экспертов и других "
+"материалов. Чем больше их будет доступно другим участникам команды, тем "
+"больший вклад они смогут внести."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:18
+msgid ""
+"Ideally, every member will also be openly documenting the projects they work"
+" on. This way, if another member needs to take over or work to improve a "
+"project, they can utilize publicly available documentation to work "
+"effectively."
+msgstr ""
+"В идеале каждый участник должен документировать и загружать в открытый "
+"доступ проекты, над которыми он работает. Таким образом, если другому "
+"человеку потребуется взять на себя ответственность за модуль или внести "
+"какие-либо доработки, он сможет воспользоваться общедоступной документацией "
+"для более быстрого и эффективного начала работы."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:21
+msgid ""
+"Host mandatory team meetings at least once a week, and share each squad's "
+"progress. This will give your team up-to-date knowledge about your robot and"
+" allow everyone to offer ideas at every stage of the design, programming, "
+"and outreach process."
+msgstr ""
+"Проводите обязательные для всех собрания команды не реже одного раза в "
+"неделю и делитесь информацией о прогрессе по каждому модулю. Это позволит "
+"команде вовремя получать актуальную информацию о роботе и предлагать свои "
+"идеи на всех этапах работы с ним."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:24
+msgid "Design Collaboration"
+msgstr "Совместная Инженерная Работа"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:26
+msgid ""
+"Your designers probably have different styles of design and mechanical "
+"preferences, and their unique preferences can improve each of the different "
+"mechanisms on your robot."
+msgstr ""
+"Ваши инженеры, вероятно, имеют разные стили проектирования и мнения при "
+"выборе механизма. Индивидуальный подход каждого участника может сильно "
+"улучшить модули вашего робота."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:29
+msgid "Competitive Design"
+msgstr "Параллельная Разработка"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:31
+msgid ""
+"One way to maximize your designers' creativity is to competitively "
+"prototype. 2-3 designers pick a mechanism and develop their own take on the "
+"design, then physically prototype them to test against certain criteria. The"
+" most successful design integrates the most successful components of each "
+"and is iteratively improved by a singular designer."
+msgstr ""
+"Одним из способов использования творческого потенциала каждого из инженеров "
+"по максимуму является параллельное проектирование. 2-3 инженера выбирают "
+"механизм и разрабатывают свой собственный вариант конструкции, а затем "
+"создают физические прототипы для их проверки на соответствие определенным "
+"критериям. Итоговый механизм обычно объединяет в себе наиболее эффективные "
+"компоненты каждого из прототипов, а также постепенно совершенствуется одним "
+"из инженеров."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:33
+msgid ""
+"The biggest benefit to this approach is that you can integrate aspects of "
+"each designers' personal techniques."
+msgstr ""
+"Самое большое преимущество такого подхода заключается в объединении сильных "
+"сторон каждого инженера."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:38
+msgid ""
+"7149 Enforcers, PowerPlay, Example of Competitive Prototyping. Two of their "
+"designers built an intake, with the final optimized design utilizing the "
+"best aspects from each prototype."
+msgstr ""
+"7149 Enforcers, PowerPlay, пример параллельного проектирования. Два инженера"
+" сконструировали свои захваты, при этом в окончательном оптимизированном "
+"варианте были использованы наилучшие стороны каждого из прототипов."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:41
+msgid "Cloud CAD"
+msgstr "Облачный САПР"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:43
+msgid ""
+"Your design team (and the rest of the team, if possible) should have access "
+"to your full suite of designs. Sharing your designs allows for teammates to "
+"help each other improve by sharing techniques and tricks, and allows your "
+"outreach team to easily create renders for presentations and marketing."
+msgstr ""
+"Ваша команда инженеров (и, по возможности, остальные участники команды) "
+"должна иметь доступ ко всем вашим 3D-моделям. Общий доступ к проектам "
+"позволяет участникам команды помогать друг другу в их совершенствовании, "
+"обмениваясь разными методиками и приемами, а также дает быстрый доступ "
+"медиа-команде к рендеру моделей."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:45
+msgid ""
+"This can be accomplished by using CAD software built around shared folders "
+"like Onshape or Fusion 360. It can also be accomplished with other CAD "
+"software, like Solidworks or Inventor, but this is generally significantly "
+"more complicated to set up."
+msgstr ""
+"Для этого можно использовать облачные программные обеспечения САПР, такие "
+"как Onshape или Fusion 360. Можно также использовать другие программы, "
+"например Solidworks и Inventor, но настраивать их обычно значительно "
+"сложнее."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:48
+msgid "Software Collaboration"
+msgstr "Совместная Работа над Программным Кодом"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:50
+msgid ""
+"Software collaboration is easier to facilitate. Robot code should be version"
+" controlled regardless of the size of your software squad, so teaching your "
+"members how to share a team Github is an easy way to collaborate. "
+"Additionally, you can utilize pair programming (multiple members writing "
+"software together on one computer) to help catch bugs."
+msgstr ""
+"Организовать совместную работу над кодом намного проще. Код робота должен "
+"иметь некую версионность независимо от количества программистов, поэтому "
+"легче всего просто научить всех пользоваться GitHub. Кроме того, можно "
+"применять парное программирование (когда несколько участников совместно "
+"пишут код на одном компьютере) — это помогает выявлять ошибки."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:53
+msgid "Efficiency"
+msgstr "Эффективность"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:54
+msgid "Collaboration only works if exercised efficiently. Here are some tips!"
+msgstr ""
+"Совместная работа хороша только в том случае, если она осуществляется "
+"эффективно. Поэтому вот несколько советов!"
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:56
+msgid ""
+"**Work from home.** Team meetings should be used as time to catch up between"
+" squads, make decisions, and physically test parts of the robot. CAD design "
+"iterations can be created and reviewed at home, and software can be written "
+"outside of practice hours. This will allow you more time to test and "
+"reflect."
+msgstr ""
+"**Работайте из дома.** Встречи команды должны использоваться как время для "
+"общения между участниками, принятия решений и тестирования модулей робота. "
+"САПР-проекты можно создавать и просматривать дома, а программный код можно "
+"писать в нерабочее время. Это позволит вам получить больше времени для "
+"тестирования и размышлений над возникающими проблемами."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:57
+msgid ""
+"**Delegate tasks effectively.** Squad leads should serve as facilitators, "
+"assigning tasks to squad members depending on their ability. If work is "
+"hoarded by one or two people, the overall workflow is slowed down immensely."
+" Trust your teammates."
+msgstr ""
+"**Распределяйте задачи между участниками равномерно и эффективно.** Лидеры "
+"каждой из групп должны выступать в роли координаторов, раздавая задания в "
+"своей части команды в зависимости от их способностей. Если работа "
+"перекладывается на одного-двух человек, то общий рабочий процесс сильно "
+"замедляется. Доверяйте своим товарищам по команде."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:58
+msgid ""
+"**Follow deadlines and don't procrastinate.** Setting deadlines allows you "
+"to plan your season, and the earlier you start before a deadline, the more "
+"time you have to ask for help, tackle unexpected problems, and iterate more."
+msgstr ""
+"**Соблюдайте сроки и не откладывайте работу на потом.** Установка дедлайнов "
+"позволяет эффективно планировать работу на сезон, и чем раньше вы приступите"
+" к выполнению задачи, тем больше времени у вас будет, чтобы попросить помощи"
+" или решить неожиданно появившиеся проблемы."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:59
+msgid ""
+"**Share.** If a team member has to search for documentation you were "
+"supposed to complete or an email you were supposed to send out, it creates a"
+" massive amount of administrative headache. Make sure you CC the correct "
+"people on emails and share your work with your entire team."
+msgstr ""
+"**Делитесь .** Если участнику команды приходится тратить время на поиск "
+"документации, которую вы должны были написать, или электронное письмо, "
+"которое должны были отправить, это создает множество проблем. Убедитесь в "
+"том, что отправляете всю нужную информацию правильным людям и делитесь своей"
+" работой со всей командой."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:60
+msgid ""
+"**Don't hide problems.** If you broke something or calculated something "
+"incorrectly, don't shove it under the rug. Your teammates should (and will) "
+"be incredibly understanding and will help to fix the problem. Being correct "
+"all the time is impossible, and everyone makes mistakes!"
+msgstr ""
+"**Не скрывайте возникнувшие проблемы.** Если вы что-то сломали или "
+"неправильно рассчитали, ни в коем случае не молчите об этом! Ваши "
+"сокомандники должны (и будут) с пониманием отнестись к проблеме и помочь ее "
+"решить. Делать все идеально невозможно, а ошибки бывают у всех."
+
+#: ../../gm0/source/docs/being-a-team/collaboration-and-efficiency.rst:61
+msgid ""
+"**Communicate often** with your squad and your team. Communicating is "
+"incredibly important on a team, as you can get fast feedback on problems, "
+"spark new ideas, and leverage the creativity of everyone on your team."
+msgstr ""
+"**Общайтесь чаще между собой.** Коммуникация невероятно важна в команде, так"
+" как позволяет быстро получать обратную связь по проблемам, придумывать "
+"новые идеи и использовать творческий потенциал каждого участника команды."
