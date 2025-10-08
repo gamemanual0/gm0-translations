@@ -5,13 +5,14 @@
 # 
 # Translators:
 # Lyna Alem, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-10-08 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -20,3 +21,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/getting-started/index.rst:2
+msgid "Getting Started"
+msgstr "Premiers pas"
+
+#: ../../gm0/source/docs/software/getting-started/index.rst:4
+msgid "Basic information for starting out on your programming journey."
+msgstr "Informations de base pour débuter votre parcours en programmation."
+
+#: ../../gm0/source/docs/software/getting-started/index.rst:6
+msgid ""
+"`Check out the official FTC SDK Example Programs here! "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_"
+msgstr ""
+"`Découvrez les exemples de programmes officiels de FTC SDK ici ! "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_"

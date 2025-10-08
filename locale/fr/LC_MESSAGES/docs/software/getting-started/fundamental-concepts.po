@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-10-08 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Justine, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -22,3 +22,210 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:4
+msgid "Fundamental Concepts of Programming"
+msgstr "Concepts fondamentaux de la programmation"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:6
+msgid ""
+"For almost any programming language, whether it's Java, Python, or Blocks, "
+"there are concepts in coding that transfer across languages. These ideas are"
+" foundational when learning to program and should be applicable in FTC\\ "
+"|reg| and beyond."
+msgstr ""
+"Pour presque tous les langages de programmation, que ce soit Java, Python ou"
+" Blocks, il existe des concepts de codage qui sont transférables d'un "
+"langage à l'autre. Ces idées sont fondamentales lors de l'apprentissage de "
+"la programmation et devraient s'appliquer à FTC\\ |reg| et au-delà."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:8
+msgid ""
+"This section is primarily for people with limited Java experience. However, "
+"even if you are more experienced, it may still be helpful to skim through "
+"the section, as you might find concepts that have not yet been introduced to"
+" you."
+msgstr ""
+"Cette section s'adresse principalement aux personnes ayant une expérience "
+"limitée de Java. Toutefois, même si vous êtes plus expérimenté, il peut être"
+" utile de parcourir cette section, car vous pourriez y trouver des concepts "
+"qui ne vous ont pas encore été présentés."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:10
+msgid ""
+"Examples will mostly be in Java, where ``//`` indicates a comment which the "
+"program ignores and is used for people to read."
+msgstr ""
+"Les exemples seront principalement en Java, où ``//`` indique un commentaire"
+" que le programme ignore et qui est utilisé pour que les gens puissent le "
+"lire."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:23
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:50
+msgid "Java-Specific Exploratory Questions"
+msgstr "Questions exploratoires spécifiques à Java"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:25
+msgid ""
+"If I didn't set a value for number and then I printed it, what would it "
+"print?"
+msgstr ""
+"Si je n'ai pas défini de valeur pour le nombre et que je l'imprime ensuite, "
+"qu'est-ce qui s'imprimerait ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:26
+msgid "What other operations can I do with number and secondNumber?"
+msgstr ""
+"Quelles autres opérations puis-je effectuer avec number et secondNumber ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:27
+msgid "Can I set a decimal to number? If not, what happens?"
+msgstr ""
+"Puis-je attribuer une décimale à un nombre ? Si ce n'est pas le cas, que se "
+"passe-t-il ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:28
+msgid "What is ``System.out.println();``?"
+msgstr "Qu'est-ce que ``System.out.println();`` ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:29
+msgid ""
+"Delete one character in the code. Remember the error (if any), and then undo"
+" it. Delete another part. How many different errors can you get?"
+msgstr ""
+"Supprimez un caractère dans le code. Se souvenir de l'erreur (s'il y en a "
+"une), puis l'annuler. Supprimez une autre partie. Combien d'erreurs "
+"différentes pouvez-vous obtenir ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:32
+msgid "There are different types of variables"
+msgstr "Il existe différents types de variables"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:34
+msgid "Numbers (Integers, Floats, Doubles)"
+msgstr "Nombres (entiers, flottants, doubles)"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:35
+msgid "Strings (Text) or characters"
+msgstr "Chaînes (texte) ou caractères"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:36
+msgid "And a lot more depending on the language (Ex: Arrays)"
+msgstr ""
+"Et bien d'autres choses encore en fonction du langage (ex : tableaux)."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:37
+msgid ""
+"They help tell the program know the basis of what it should do with a "
+"variable."
+msgstr ""
+"Ils permettent au programme de savoir ce qu'il doit faire avec une variable."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:52
+msgid ""
+"Replace the text in ``coolName`` to something else. Your name, a phone "
+"number, your favorite anime. What about emotes and copypastas? What about "
+"characters in other languages?"
+msgstr ""
+"Remplacez le texte de ``coolName`` par quelque chose d'autre. Votre nom, un "
+"numéro de téléphone, votre anime préféré. Qu'en est-il des emotes et des "
+"copypastas ? Qu'en est-il des caractères dans d'autres langues ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:53
+msgid "Try adding a number and a string, what happens?"
+msgstr ""
+"Essayez d'ajouter un nombre et une chaîne de caractères, que se passe-t-il ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:54
+msgid "Is it possible to add multiple strings and numbers together?"
+msgstr ""
+"Est-il possible d'additionner plusieurs chaînes de caractères et plusieurs "
+"nombres ?"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:57
+msgid "Important Control Structures"
+msgstr "Structures de contrôle importantes"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:59
+msgid ""
+"Be sure to familiarize yourself with basic control structures (if/else "
+"statements, for loops, while loops, and for-each loops). These control "
+"structures are by far the most commonly encountered, and thus, familiarizing"
+" yourself with these principles is extremely important (not just for FTC, "
+"but programming in general). However, there are a few control structures "
+"that are far less common that are extremely useful in FTC; namely "
+":doc:`/docs/software/concepts/finite-state-machines`."
+msgstr ""
+"Veillez à vous familiariser avec les structures de contrôle de base "
+"(instructions if/else, boucles for, boucles while et boucles for-each). Ces "
+"structures de contrôle sont de loin les plus couramment rencontrées, et il "
+"est donc extrêmement important de se familiariser avec ces principes (non "
+"seulement pour le FTC, mais aussi pour la programmation en général). "
+"Cependant, il existe quelques structures de contrôle beaucoup moins "
+"courantes qui sont extrêmement utiles en FTC, à savoir "
+":doc:`/docs/software/concepts/finite-state-machines`."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:62
+msgid "Data Structures (Arrays)"
+msgstr "Structures de données (tableaux)"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:64
+msgid ""
+"Data structures are a method of organizing and storing large amounts of "
+"data. There are a lot of different types of data structures that mostly "
+"differ in the relationships between data points, and we would recommend that"
+" you read into them. We will only go over a few here."
+msgstr ""
+"Les structures de données sont une méthode d'organisation et de stockage de "
+"grandes quantités de données. Il existe de nombreux types de structures de "
+"données qui diffèrent principalement par les relations entre les points de "
+"données, et nous vous recommandons de les étudier. Nous n'en aborderons que "
+"quelques-unes ici."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:71
+msgid "`Arrays <https://www.geeksforgeeks.org/arrays-in-java/>`_"
+msgstr "`Arrays <https://www.geeksforgeeks.org/arrays-in-java/>`_"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:67
+msgid ""
+"Arrays are the most basic and simple data structure. When an array is "
+"initialized, its size must be set, and it cannot be changed."
+msgstr ""
+"Les tableaux constituent la structure de données la plus simple et la plus "
+"élémentaire. Lorsqu'un tableau est initialisé, sa taille doit être définie "
+"et elle ne peut pas être modifiée."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:69
+msgid ""
+"If you wish to expand an array, a new one must be created and all of the old"
+" data copied over. Elements of an array are stored adjacent to each other in"
+" memory, so when they are accessed the number you want to access times the "
+"amount of bits in the object in the array is added to the starting address, "
+"and data is accessed from there."
+msgstr ""
+"Si vous souhaitez étendre un tableau, il faut en créer un nouveau et copier "
+"toutes les anciennes données. Les éléments d'un tableau sont stockés les uns"
+" à côté des autres dans la mémoire, de sorte que lorsqu'on y accède, le "
+"nombre auquel on veut accéder multiplié par le nombre de bits de l'objet "
+"dans le tableau est ajouté à l'adresse de départ, et c'est à partir de là "
+"que l'on accède aux données."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:71
+msgid ""
+"This means that arrays are incredibly efficient at reading data in a "
+"nonlinear order."
+msgstr ""
+"Cela signifie que les tableaux sont incroyablement efficaces pour lire des "
+"données dans un ordre non linéaire."
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:73
+msgid "`ArrayList <https://www.geeksforgeeks.org/arraylist-in-java/>`_"
+msgstr "`ArrayList <https://www.geeksforgeeks.org/arraylist-in-java/>`_"
+
+#: ../../gm0/source/docs/software/getting-started/fundamental-concepts.rst:75
+msgid ""
+"`Object Oriented Programming in Java <https://www.geeksforgeeks.org/classes-"
+"objects-java/>`_"
+msgstr ""
+"`Object Oriented Programming in Java <https://www.geeksforgeeks.org/classes-"
+"objects-java/>`_"

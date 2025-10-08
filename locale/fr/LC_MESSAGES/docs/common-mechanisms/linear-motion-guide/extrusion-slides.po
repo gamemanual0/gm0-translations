@@ -6,18 +6,363 @@
 # Translators:
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-10-08 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:4
+msgid "Extrusion Slides"
+msgstr "Glissières d'extrusion"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:6
+msgid ""
+"Extrusion slides are made up of a stack of extrusions that extend by sliding"
+" along each other. There are two ways to make this happen: bushings or "
+"V-wheels. Bushing slides connect the two slides with two self-lubricating "
+"plastic pieces that slide smoothly along the slots in the extrusion. V-wheel"
+" slides have V-shaped groove bearings on both sides of the extrusion that "
+"bite intro grooves on the extrusion, allowing the stages to slide smoothly."
+msgstr ""
+"Les glissières d'extrusion sont constituées d'une pile d'extrusions qui "
+"s'étendent en glissant l'une sur l'autre. Il y a deux façons d'y parvenir : "
+"les bagues ou les roues en V. Les glissières à bagues relient les deux "
+"glissières à l'aide de deux pièces en plastique autolubrifiantes qui "
+"glissent en douceur le long des fentes de l'extrusion. Les glissières à "
+"roues en V ont des roulements à rainures en forme de V des deux côtés de "
+"l'extrusion qui s'insèrent dans les rainures de l'extrusion, ce qui permet "
+"aux étages de glisser en douceur."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:8
+msgid ""
+"REV, Actobotics, and goBILDA all sell extrusion slide kits that integrate "
+"nicely with existing FTC\\ |reg| kit parts. Beyond this, OpenBuilds sells a "
+"V-wheel extrusion slide kit suitable for heavier loads, and Misumi offers a "
+"few different sizes of bushing-based extrusion slides. REV furthermore sells"
+" a 8020 V-groove bearing slide kit for FRC\\ |reg|, that is not recommended "
+"for FTC use cases."
+msgstr ""
+"REV, Actobotics et goBILDA vendent tous des kits de glissières d'extrusion "
+"qui s'intègrent bien aux pièces existantes du kit FTC\\ |reg|. En outre, "
+"OpenBuilds vend un kit de glissière d'extrusion à roue en V adapté aux "
+"charges plus lourdes, et Misumi propose quelques tailles différentes de "
+"glissières d'extrusion à douille. REV vend en outre un kit de glissières à "
+"roulements en V 8020 pour FRC\\ |reg|, qui n'est pas recommandé pour les cas"
+" d'utilisation de FTC."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:10
+msgid ""
+"We recommend that newer teams using extrusion slides stick to kits designed "
+"for FTC instead of making their own."
+msgstr ""
+"Nous recommandons aux nouvelles équipes qui utilisent des glissières "
+"d'extrusion de s'en tenir aux kits conçus pour le FTC plutôt que de "
+"fabriquer leurs propres kits."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:13
+msgid "REV Robotics 15mm Linear Motion Kit"
+msgstr "REV Robotics Kit de mouvement linéaire de 15 mm"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:15
+msgid ""
+"The `REV 15mm Linear Motion Kit <https://www.revrobotics.com/rev-45-1507/>`_"
+" is based on the 15mm extrusion system. **This extrusion kit does not "
+"perform well without modification.** This has been partially remedied by REV"
+" as they have developed a second iteration of their slide kit, which has "
+"much better tolerances on the Delrin sliders."
+msgstr ""
+"Le kit de mouvement linéaire REV 15mm "
+"<https://www.revrobotics.com/rev-45-1507/>`_ est basé sur le système "
+"d'extrusion 15mm. **Ce kit d'extrusion ne fonctionne pas bien sans "
+"modification, ce à quoi REV a partiellement remédié en développant une "
+"seconde itération de son kit de glissière, qui a de bien meilleures "
+"tolérances sur les glissières en Delrin."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:17
+msgid ""
+"Still, you'll see some competitive teams use this kit with multiple "
+"modifications, such as adding lots of lubricant and mounting the sliders "
+"differently. Teams have also 3D printed their own sliders, though this is "
+"not a great idea for teams without much 3D printing experience. One of the "
+"biggest issues with the stock REV kit is the tendency of the slides to bind."
+" Additionally, since the only thing attaching one extrusion to another is "
+"the plastic slider, the REV slides are not particularly sturdy, and require "
+"crossbeams to keep alignment."
+msgstr ""
+"Néanmoins, certaines équipes compétitives utilisent ce kit en y apportant de"
+" nombreuses modifications, comme l'ajout d'une grande quantité de lubrifiant"
+" et un montage différent des curseurs. Des équipes ont également imprimé en "
+"3D leurs propres glissières, mais ce n'est pas une bonne idée pour les "
+"équipes qui n'ont pas une grande expérience de l'impression 3D. L'un des "
+"principaux problèmes du kit REV de série est que les glissières ont tendance"
+" à se coincer. De plus, comme la seule chose qui attache une extrusion à une"
+" autre est la glissière en plastique, les glissières REV ne sont pas "
+"particulièrement robustes et nécessitent des traverses pour maintenir "
+"l'alignement."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:19
+msgid ""
+"Overall, this kit is lightweight, simple, and cheap. It can be a good start "
+"for teams using REV and needing a linear extension, and is generally usable "
+"out of the box. However, it is not very smooth and only achieves its maximum"
+" potential when modified and tweaked."
+msgstr ""
+"Dans l'ensemble, ce kit est léger, simple et bon marché. Il peut constituer "
+"un bon point de départ pour les équipes utilisant le système REV et ayant "
+"besoin d'une extension linéaire, et il est généralement utilisable dès sa "
+"sortie de l'emballage. Cependant, il n'est pas très fluide et n'atteint son "
+"potentiel maximum que lorsqu'il est modifié et ajusté."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:22
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:55
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:89
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:24
+msgid "REV has complete guide on how to rig the linear slides"
+msgstr ""
+"REV propose un guide complet sur l'installation des glissières linéaires."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:25
+msgid "Easily interfaces with REV building system"
+msgstr "Interfaces faciles avec le système de construction REV"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:26
+msgid "Lightweight, should be used for light/medium loads only"
+msgstr "Léger, ne doit être utilisé que pour des charges légères/moyennes"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:27
+msgid "If tweaked, can be a very efficient linear slide"
+msgstr "S'il est adapté, il peut être un toboggan linéaire très efficace."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:30
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:61
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:96
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:32
+msgid "Does not perform well out of the box"
+msgstr "N'est pas très performant dès sa sortie de l'emballage"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:33
+msgid "Can flex under load, needs additional support"
+msgstr "Peut fléchir sous la charge, nécessite un soutien supplémentaire"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:34
+msgid "May need some modifications such as custom sliders"
+msgstr ""
+"Peut nécessiter quelques modifications telles que des curseurs personnalisés"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst-1
+msgid "11115 Gluten Free's Rover Ruckus robot with slides extended"
+msgstr "11115 Robot Rover Ruckus de Gluten Free avec glissières déployées"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:42
+msgid "11115 Gluten Free's custom Rev slider"
+msgstr "11115 Gluten Free's glissière personnalisée de REV"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:42
+msgid "11115 Gluten Free, Rover Ruckus, custom REV slides"
+msgstr "11115 Gluten Free, Rover Ruckus, glissière personnalisée de REV"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:47
+msgid "8680 Kraken-Pinion's Rover Ruckus robot with slides extended"
+msgstr ""
+"8680 Le robot Rover Ruckus de Kraken-Pinion avec les glissières déployées"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:47
+msgid "8680 Kraken-Pinion, Rover Ruckus, REV slides"
+msgstr "8680 Kraken-Pinion, Rover Ruckus, glissière REV"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:50
+msgid "OpenBuilds Mini V Gantry Kit"
+msgstr "OpenBuilds Mini V Gantry Kit"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:52
+msgid ""
+"The `OpenBuilds Mini V Gantry Kit <https://openbuildspartstore.com/mini-v-"
+"gantry-kit/>`_ is designed for use with OpenBuilds' 20mm V-slot extrusion, "
+"which can be mounted to other build systems using M3 screws and sliding T "
+"nuts. OpenBuilds slides are used for high precision applications such as 3D "
+"printers and CNC machines and have a **much higher load capacity** than REV "
+"and Actobotics slides. OpenBuilds slides are also much heavier than REV and "
+"Actobotics slides, but because they are so strong they can be used in "
+"applications where two sets of lighter duty slides would otherwise be "
+"required. Out of the box, OpenBuilds slides are tailored to single-stage "
+"belt lifts, but they could easily be adapted to work for multi-stage or "
+"string lifts given some thought and additional parts."
+msgstr ""
+"Le `OpenBuilds Mini V Gantry Kit <https://openbuildspartstore.com/mini-v-"
+"gantry-kit/>`_ est conçu pour être utilisé avec l'extrusion en V de 20mm "
+"d'OpenBuilds, qui peut être montée sur d'autres systèmes de construction à "
+"l'aide de vis M3 et d'écrous en T coulissants. Les glissières OpenBuilds "
+"sont utilisées pour des applications de haute précision telles que les "
+"imprimantes 3D et les machines CNC et ont une capacité de charge **beaucoup "
+"plus élevée** que les glissières REV et Actobotics. Les glissières "
+"OpenBuilds sont également beaucoup plus lourdes que les glissières REV et "
+"Actobotics, mais grâce à leur solidité, elles peuvent être utilisées dans "
+"des applications où deux jeux de glissières plus légères seraient autrement "
+"nécessaires. Les glissières OpenBuilds sont conçues pour des élévateurs à "
+"bande à un étage, mais elles peuvent facilement être adaptées à des "
+"élévateurs à plusieurs étages ou à des élévateurs à cordes, moyennant une "
+"certaine réflexion et des pièces supplémentaires."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:57
+msgid "Sturdy, doesn't flex even under a lot of load"
+msgstr "Robuste, ne fléchit pas même sous une charge importante"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:58
+msgid "Interfaces with most other build systems thanks to sliding T nuts"
+msgstr ""
+"S'adapte à la plupart des autres systèmes de construction grâce aux écrous "
+"en T coulissants"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:63
+msgid "Not designed for multi-stage lifts right out of the box"
+msgstr ""
+"N'est pas conçu pour les ascenseurs à plusieurs étages dès la sortie de la "
+"boîte"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:64
+msgid ""
+"**Heavy**, overkill for lifting lighter objects unless precision is "
+"important"
+msgstr ""
+"**Lourd**, inutile de soulever des objets plus légers à moins que la "
+"précision ne soit importante"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:65
+msgid ""
+"OpenBuilds only offers M3 and M5 T nuts, although other compatible sizes "
+"might be found on Amazon or McMaster-Carr"
+msgstr ""
+"OpenBuilds ne propose que des écrous en T M3 et M5, bien que d'autres "
+"tailles compatibles puissent être trouvées sur Amazon ou McMaster-Carr."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:70
+msgid "4997 Masquerade's Cascade Effect robot with lift extended"
+msgstr "4997 Le robot Cascade Effect de Masquerade avec l'ascenseur déployé"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:70
+msgid "4997 Masquerade, Cascade Effect, OpenBuilds slides"
+msgstr "4997 Masquerade, Cascade Effect, glissières OpenBuilds"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:73
+msgid "goBILDA goRAIL"
+msgstr "goBILDA goRAIL"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:75
+msgid ""
+"`Linear motion guides <https://www.gobilda.com/gorail-based/>`_ are "
+"goBILDA's take on linear motion using goRAIL, which is a type of extrusion "
+"compatible with V-groove bearings. Similar to a standard 8020 V-groove "
+"carriage, used in FRC, goRAIL is a lighter option that is better suited for "
+"FTC."
+msgstr ""
+"`Linear motion guides <https://www.gobilda.com/gorail-based/>`_ sont le "
+"point de vue de goBILDA sur le mouvement linéaire en utilisant goRAIL, qui "
+"est un type d'extrusion compatible avec les roulements à rainure en V. "
+"Semblable à un chariot standard 8020 à rainure en V, utilisé en FRC, goRAIL "
+"est une option plus légère qui convient mieux au FTC."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:78
+msgid "Actobotics X-rail Slide Kit"
+msgstr "Actobotics X-rail Slide Kit"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:80
+msgid "ServoCity has discontinued the Actobotics X-rail Slide Kit."
+msgstr "ServoCity ne propose plus le kit Actobotics X-rail Slide Kit."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:82
+msgid ""
+"Actobotics' `X-rail Slide Kit <https://www.servocity.com/cascading-x-rail-"
+"slide-kit>`_ works well out of the box. However, the main caveat is that the"
+" kit has a **very low maximum load (2lb. at maximum extension)**."
+msgstr ""
+"Le kit de glissière pour rail en X d'Actobotics "
+"<https://www.servocity.com/cascading-x-rail-slide-kit>`_ fonctionne bien. "
+"Cependant, la principale mise en garde est que le kit a une **charge "
+"maximale très faible (2lb. à l'extension maximale)**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:84
+msgid ""
+"Teams will have to keep their designs on this kit particularly lightweight. "
+"This slide uses elastic retraction through the use of surgical tubing, which"
+" means that instead of having both an extend and return string, there is a "
+"retraction force applied at all times. This helps simplify tensioning and "
+"spooling, however, limits how fast the slide can be run. Additionally, the "
+"plastic end caps have a reputation of breaking regularly because they endure"
+" shock load every time the slide extends to maximum. 3D printed alternatives"
+" may be more sturdy than the stock end caps."
+msgstr ""
+"Les équipes devront veiller à ce que leurs conceptions sur ce kit soient "
+"particulièrement légères. Ce toboggan utilise une rétraction élastique grâce"
+" à l'utilisation de tubes chirurgicaux, ce qui signifie qu'au lieu d'avoir "
+"une corde d'extension et de retour, il y a une force de rétraction appliquée"
+" à tout moment. Cela permet de simplifier la tension et l'enroulement, mais "
+"limite la vitesse à laquelle le toboggan peut être utilisé. En outre, les "
+"embouts en plastique ont la réputation de se casser régulièrement car ils "
+"subissent des chocs à chaque fois que la glissière se déploie au maximum. "
+"Les alternatives imprimées en 3D peuvent être plus robustes que les embouts "
+"de série."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:86
+msgid ""
+"It is highly recommended that teams add an additional set of v-groove "
+"bearings at the end of each piece of extrusion to give each stage an "
+"additional point of support. This will increase load capacity and possibly "
+"smoothness."
+msgstr ""
+"Il est fortement recommandé aux équipes d'ajouter un jeu supplémentaire de "
+"roulements à gorge en V à l'extrémité de chaque pièce d'extrusion afin de "
+"donner à chaque étage un point d'appui supplémentaire. Cela augmentera la "
+"capacité de charge et éventuellement la fluidité."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:91
+msgid "Easily interfaces with Actobotics building system"
+msgstr "Interfaces faciles avec le système de construction Actobotics"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:92
+msgid "Elastic retraction is a simple way to retract"
+msgstr "La rétraction élastique est un moyen simple de rétracter"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:93
+msgid "**Should be used for light/medium loads only**"
+msgstr "**Ne doit être utilisé que pour des charges légères/moyennes**"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:98
+msgid "Will flex under load, needs additional support"
+msgstr ""
+"Fléchit sous l'effet de la charge, nécessite un support supplémentaire"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:99
+msgid ""
+"Elastic retraction slows down extension speed and retraction will be slower "
+"than string retraction"
+msgstr ""
+"La rétraction élastique ralentit la vitesse d'extension et la rétraction "
+"sera plus lente que la rétraction de la corde."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:104
+msgid "12599 Overcharged's Relic Recovery robot with relic slide extended"
+msgstr ""
+"12599 Robot de Relic Recovery Overcharged avec glissière de reliques "
+"déployée"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:104
+msgid "12599 Overcharged, Relic Recovery, Actobotics X-Rail slides"
+msgstr "12599 Surcharge, Relic Recovery, glissières Actobotics X-Rail"

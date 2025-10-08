@@ -8,18 +8,405 @@
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-08 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:4
+msgid "Options for Programming"
+msgstr "Options de Programmation"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:6
+msgid ""
+"There are three recommended options for teams to use when programming a "
+"robot to do various tasks: Blocks, OnBot Java, and Android Studio."
+msgstr ""
+"Il existe trois options recommandées pour les équipes lorsqu'elles "
+"programment un robot pour accomplir diverses tâches : Blocs, OnBot Java et "
+"Android Studio."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:9
+msgid "Blocks"
+msgstr "Blocs"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:11
+msgid ""
+"The Blocks Programming Tool is a simple way to code simple actions for the "
+"robot. It has a colorful and lego-like design and includes sounds of block "
+"pieces of snapping together."
+msgstr ""
+"L'outil de programmation Blocs est un moyen simple de coder des actions "
+"simples pour le robot. Il possède une conception colorée et ressemble à des "
+"Legos, et inclut des sons de blocs qui s'emboîtent."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:13
+msgid ""
+"Using a device and a robot controller phone, connect your device to the "
+"phone's Wi-Fi by clicking the three dots in the top right of the :term:`RC "
+"<Robot Controller>` and select \"Program & Manage\". This will display the "
+"WiFi SSID and password for you to connect to. Go onto your browser "
+"(preferably Chrome, though other modern browser will likely work) and enter "
+"the address shown on the :term:`RC <Robot Controller>`."
+msgstr ""
+"À l'aide d'un appareil et d'un téléphone contrôleur de robot, connectez "
+"votre appareil au Wi-Fi du téléphone en cliquant sur les trois points en "
+"haut à droite du :term:`RC <Robot Controller>` et sélectionnez \"Program & "
+"Manage\". Cela affichera le SSID WiFi et le mot de passe pour que vous "
+"puissiez vous connecter. Allez dans votre navigateur (de préférence Chrome, "
+"bien qu'un autre navigateur moderne puisse fonctionner) et entrez l'adresse "
+"indiquée dans le :term:`RC <Robot Controller>`."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:16
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:46
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:67
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:97
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:122
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:18
+msgid "Good for beginners: one of the easiest and simplest options to use."
+msgstr ""
+"Idéal pour les débutants : l'une des options les plus faciles et les plus "
+"simples à utiliser."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:19
+msgid ""
+"Easy to set up: requires a device (laptop, chromebook, tablet) and a phone "
+"in the Program & Manage screen"
+msgstr ""
+"Facile à mettre en place : nécessite un appareil (ordinateur portable, "
+"Chromebook, tablette) et un téléphone dans l'écran Programmer & Gérer"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:20
+msgid "Programs can be saved directly to the phone"
+msgstr "Les programmes peuvent être enregistrés directement sur le téléphone"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:22
+msgid "Changes can be made quickly"
+msgstr "Les changements peuvent être effectués rapidement"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:23
+msgid "Doesn't require an external Wi-Fi connection"
+msgstr "Ne nécessite pas de connexion Wi-Fi externe"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:26
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:55
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:82
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:110
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:128
+msgid "Disadvantages"
+msgstr "Désavantages"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:28
+msgid ""
+"Not recommended if you're already familiar with some type of programming"
+msgstr ""
+"Non recommandé si vous êtes déjà familiarisé avec un certain type de "
+"programmation."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:30
+msgid "Primarily a teaching tool for people with no programming experience"
+msgstr ""
+"Il s'agit avant tout d'un outil pédagogique destiné aux personnes n'ayant "
+"aucune expérience en matière de programmation."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:31
+msgid ""
+"This will change your primary Wi-Fi network to the :term:`Robot Controller's"
+" <Robot Controller>` Direct Wi-Fi network, and as such, you will be unable "
+"to access the internet while connected to this particular network."
+msgstr ""
+"Cela changera votre réseau Wi-Fi principal en réseau Wi-Fi direct "
+":term:`Robot Controller's <Robot Controller>` et vous ne pourrez donc pas "
+"accéder à Internet lorsque vous serez connecté à ce réseau particulier."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:33
+msgid ""
+"Teams can get around this by purchasing an external Wi-Fi module that allows"
+" computers to run 2 Wi-Fi networks at once."
+msgstr ""
+"Les équipes peuvent contourner ce problème en achetant un module Wi-Fi "
+"externe qui permet aux ordinateurs de gérer 2 réseaux Wi-Fi à la fois."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:35
+msgid "Sacrifices flexibility and application for simplicity"
+msgstr "Sacrifie la flexibilité et l'application à la simplicité"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:36
+msgid ""
+"Don't ever use it on a phone, unless you're out of options. (Not phone-"
+"friendly)"
+msgstr ""
+"Ne l'utilisez jamais sur un téléphone, sauf si vous êtes à court d'options. "
+"(Pas adapté aux téléphones)"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:38
+msgid "You may make a bigger mess if you try to."
+msgstr ""
+"Vous risquez de faire un plus grand gâchis si vous essayez de le faire."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:41
+msgid "OnBot Java"
+msgstr "OnBot Java"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:43
+msgid ""
+"OnBot Java uses a similar method of using a browser to code and save "
+"directly to the phone. The difference being that a programming language "
+"called Java is used instead."
+msgstr ""
+"OnBot Java utilise une méthode similaire qui consiste à utiliser un "
+"navigateur pour coder et enregistrer directement sur le téléphone. La "
+"différence est que c'est un langage de programmation appelé Java qui est "
+"utilisé."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:48
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:69
+msgid ""
+"Recommended if you're learning or have learned some programming, even better"
+" if you know a little Java."
+msgstr ""
+"Recommandé si vous apprenez ou avez appris à programmer, encore mieux si "
+"vous connaissez un peu Java."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:49
+msgid "Greater flexibility than Blocks"
+msgstr "Une plus grande flexibilité que les Blocs"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:50
+msgid "There are a lot more resources available in case you need help"
+msgstr ""
+"De nombreuses autres ressources sont disponibles si vous avez besoin d'aide."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:51
+msgid "More applicable to the real-world than Blocks"
+msgstr "Plus applicable au monde réel que les Blocs"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:52
+msgid "Maintains most of the advantages of Blocks"
+msgstr "Maintient la plupart des avantages des Blocs"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:57
+msgid ""
+"Connecting to the robot controller's Wi-Fi network will prevent you from "
+"using anything on the internet including video tutorials and online "
+"communication"
+msgstr ""
+"La connexion au réseau Wi-Fi du contrôleur du robot vous empêchera "
+"d'utiliser tout ce qui se trouve sur Internet, y compris les didacticiels "
+"vidéo et les communications en ligne."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:58
+msgid "Using external libraries is difficult and borderline impossible"
+msgstr ""
+"L'utilisation de bibliothèques externes est difficile, voire impossible"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:59
+msgid "Steeper learning curve than Blocks"
+msgstr "Courbe d'apprentissage plus raide que celle des Blocs"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:62
+msgid "Android Studio"
+msgstr "Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:64
+msgid ""
+"Android Studio is a comprehensive Integrated Development Environment (IDE) "
+"that uses Java to program the phones. Instead of using a browser to upload "
+"code, Android Studio will compile your Robot Controller code into a .apk "
+"file (an app installer), and install that on the phone."
+msgstr ""
+"Android Studio est un environnement de développement intégré (IDE) complet "
+"qui utilise Java pour programmer les téléphones. Au lieu d'utiliser un "
+"navigateur pour télécharger le code, Android Studio compilera le code de "
+"votre Robot Controller dans un fichier .apk (un programme d'installation "
+"d'application) et l'installera sur le téléphone."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:70
+msgid "Much greater flexibility than Blocks."
+msgstr "Beaucoup plus de flexibilité que les Blocs."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:71
+msgid ""
+"Much easier to integrate libraries like `FTC Dashboard`_, `FTCLib`_, and "
+"`Road Runner`_."
+msgstr ""
+"Beaucoup plus facile d'intégrer des bibliothèques comme `FTC Dashboard`_, "
+"`FTCLib`_, et `Road Runner`_."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:72
+msgid ""
+"Can use either a USB connection to the :term:`RC <Robot Controller>` phone, "
+"or a wireless connection to upload code."
+msgstr ""
+"Il est possible d'utiliser une connexion USB au téléphone :term:`RC <Robot "
+"Controller>` ou une connexion sans fil pour télécharger le code."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:73
+msgid "Can debug in real-time"
+msgstr "Débogage en temps réel"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:74
+msgid "Many resources for Java, Android Studio, and IDEA"
+msgstr "Nombreuses ressources pour Java, Android Studio et IDEA"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:75
+msgid "Can use other programming languages"
+msgstr "Peut utiliser d'autres langages de programmation"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:84
+msgid ""
+"Connecting to the robot controller's Wi-Fi network will prevent you from "
+"using anything on the internet including video tutorials and online "
+"communication, unless you have a second Wifi adapter (cheap and easy)"
+msgstr ""
+"La connexion au réseau Wi-Fi du contrôleur du robot vous empêchera "
+"d'utiliser tout ce qui se trouve sur Internet, y compris les tutoriels vidéo"
+" et la communication en ligne, à moins que vous ne disposiez d'un second "
+"adaptateur Wifi (facile et peu cher)."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:85
+msgid ""
+"Relatively easy setup process, but time consuming and is a hefty install "
+"(3GB of files between Android Studio, FtcRobotController, and other "
+"libraries)"
+msgstr ""
+"Processus d'installation relativement facile, mais long et lourd (3 Go de "
+"fichiers entre Android Studio, FtcRobotController et d'autres "
+"bibliothèques)."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:86
+msgid "Issues can be difficult to diagnose and solve"
+msgstr "Les problèmes peuvent être difficiles à diagnostiquer et à résoudre"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:89
+msgid "Other Programming Languages"
+msgstr "Autres langages de programmation"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:92
+msgid "Kotlin"
+msgstr "Kotlin"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:94
+msgid ""
+"Kotlin is a relatively new and rapidly growing programming language from "
+"Jetbrains, the creator of the IntelliJ IDE, which Android Studio is based "
+"off. Kotlin was made to be completely compatible with Java but be easier to "
+"work with. Google recently announced it as an official Android language, "
+"then announced they are going \"Kotlin first\" but still keeping Java "
+"support."
+msgstr ""
+"Kotlin est un langage de programmation relativement nouveau et en pleine "
+"expansion, développé par Jetbrains, le créateur de l'IDE IntelliJ, sur "
+"lequel est basé Android Studio. Kotlin a été conçu pour être totalement "
+"compatible avec Java, tout en étant plus facile à utiliser. Google l'a "
+"récemment annoncé comme langage officiel d'Android, puis a annoncé qu'il "
+"allait passer à \"Kotlin first\" tout en conservant le support de Java."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:99
+msgid "Concise, readable, easy to edit code"
+msgstr "Code concis, lisible et facile à modifier"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:101
+msgid "Easy to write as it takes much less code to do the same thing"
+msgstr ""
+"Facile à écrire car il faut beaucoup moins de code pour faire la même chose."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:102
+msgid "Both optional type inference and a stronger type system than Java"
+msgstr ""
+"L'inférence de type optionnelle et un système de type plus fort que Java"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:103
+msgid "Null safety"
+msgstr "Sécurité nulle"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:104
+msgid "Thread safety"
+msgstr "Sécurité des fils"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:105
+msgid "Functional programming"
+msgstr "Programmation fonctionnelle"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:106
+msgid "Seamless integration with Java code and libraries"
+msgstr "Intégration transparente avec le code et les bibliothèques Java"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:107
+msgid "Very easy to transition from Java"
+msgstr "Transition très facile à partir de Java"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:112
+msgid "Not widely used in FTC\\ |reg| yet"
+msgstr "Pas encore largement utilisé dans FTC\\ |reg|"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:113
+msgid "New and has fewer community resources for training"
+msgstr ""
+"Nouveau et disposant de moins de ressources communautaires pour la formation"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:114
+msgid ""
+"Not recommended for programmers who need large amounts of help from other "
+"teams"
+msgstr ""
+"Non recommandé pour les programmeurs qui ont besoin d'une aide importante de"
+" la part d'autres équipes."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:117
+msgid "C and C++"
+msgstr "C et C++"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:119
+msgid ""
+"C and C++ are native programming languages compatible with Android. Very few"
+" teams have used C++. This is typically used for only part of the code, with"
+" the majority being Java or Kotlin."
+msgstr ""
+"C et C++ sont des langages de programmation natifs compatibles avec Android."
+" Très peu d'équipes ont utilisé le C++. Il n'est généralement utilisé que "
+"pour une partie du code, la majeure partie étant composée de Java ou de "
+"Kotlin."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:124
+msgid "Fast execution for extremely resource-intensive applications."
+msgstr "Exécution rapide pour les applications très gourmandes en ressources."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:125
+msgid "Supports more libraries"
+msgstr "Prise en charge d'un plus grand nombre de bibliothèques"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:130
+msgid "Rarely needed"
+msgstr "Rarement nécessaire"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:131
+msgid "Very difficult to set up"
+msgstr "Très difficile à mettre en place"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:132
+msgid "Difficult to debug code"
+msgstr "Code difficile à déboguer"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:133
+msgid "Very few teams can help you"
+msgstr "Très peu d'équipes peuvent vous aider"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:134
+msgid "Very few online resources"
+msgstr "Très peu de ressources en ligne"

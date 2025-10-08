@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-13 04:40+0000\n"
+"POT-Creation-Date: 2025-10-08 04:28+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
 "Last-Translator: Justine, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -22,3 +22,545 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:4
+msgid "Starting a Team"
+msgstr "Création d'une équipe"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:6
+msgid ""
+"So you want to start an FTC\\ |reg| team - here's how! Here's a few tips on "
+"how to get up and running. This article covers recruiting members and "
+"mentors, structuring your team, and pitching your budget."
+msgstr ""
+"Vous voulez créer une équipe FTC\\ |reg| - voici comment ! Voici quelques "
+"conseils pour vous aider à démarrer. Cet article traite du recrutement des "
+"membres et des mentors, de la structuration de votre équipe et de la "
+"présentation de votre budget."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:9
+msgid "Reach out locally to recruit members."
+msgstr "S'adresser au niveau local pour recruter des membres."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:11
+msgid ""
+"Chances are, if you're interested in robotics, you'll find quite a few "
+"people in your area interested in the same thing! Recruiting them is all "
+"about spreading your message and sparking interest in your team, and for "
+"that, advertising is everything. Make a catchy flyer and hold a couple "
+"interest meetings! A handy tip to get people to attend is to bring food - "
+"people love free food..."
+msgstr ""
+"Si vous vous intéressez à la robotique, il y a de fortes chances que vous "
+"trouviez dans votre région un grand nombre de personnes intéressées par la "
+"même chose ! Pour les recruter, il faut diffuser votre message et susciter "
+"l'intérêt pour votre équipe, et pour cela, la publicité est essentielle. "
+"Faites un prospectus accrocheur et organisez quelques réunions d'intérêt ! "
+"Un conseil pratique pour inciter les gens à participer est d'apporter de la "
+"nourriture - les gens aiment la nourriture gratuite..."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:13
+msgid ""
+"At these interest events, discuss how FTC is interesting and beneficial to "
+"those who participate. Make sure to have information for both parents and "
+"students! While you're recruiting, make sure to be inclusive - people may "
+"not have figured out that their passions lie within the scope of *FIRST*\\ "
+"|reg|, and they may do so in creative ways when given the opportunity!"
+msgstr ""
+"Lors de ces manifestations d'intérêt, expliquez en quoi FTC est intéressant "
+"et bénéfique pour ceux qui y participent. Veillez à fournir des informations"
+" aux parents et aux élèves ! Pendant que vous recrutez, assurez-vous d'être "
+"inclusif - les gens n'ont peut-être pas encore compris que leurs passions "
+"s'inscrivent dans le cadre de *FIRST*\\ |reg|, et ils peuvent le faire de "
+"manière créative lorsqu'on leur en donne l'occasion !"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:15
+msgid ""
+"To ensure a sustainable team, you should recruit from grades 7 upwards if "
+"possible to allow for a constant flow of members. The key to sustainability "
+"is new faces!"
+msgstr ""
+"Pour assurer la pérennité de l'équipe, vous devez recruter à partir de la 7e"
+" année, si possible, afin d'assurer un flux constant de membres. La clé de "
+"la durabilité, c'est l'arrivée de nouveaux visages !"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:17
+msgid ""
+"Make sure to get everyone's contact information so you can reach out to keep"
+" them interested."
+msgstr ""
+"Veillez à obtenir les coordonnées de tous les participants afin de pouvoir "
+"les contacter pour maintenir leur intérêt."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:20
+msgid "Find mentors."
+msgstr "Trouver des mentors."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:22
+msgid ""
+"It's understandable if you have difficulty with this step, but it is "
+"critically important: good mentors can make the difference between a great "
+"season and a horrible one! Note the phrase mentors, rather than mentor. A "
+"strong structure of facilitators can assist you with the wide variety of the"
+" engineering and business problems you will be tackling throughout the "
+"season, while a single mentor can be a valuable asset but only has so much "
+"time and expertise to give."
+msgstr ""
+"Il est compréhensible que vous ayez du mal à franchir cette étape, mais elle"
+" est d'une importance capitale : de bons mentors peuvent faire la différence"
+" entre une bonne et une mauvaise saison ! Notez l'expression \"mentors\" "
+"plutôt que \"mentor\". Une structure solide de facilitateurs peut vous aider"
+" à résoudre la grande variété de problèmes techniques et commerciaux "
+"auxquels vous serez confrontés tout au long de la saison, tandis qu'un seul "
+"mentor peut être un atout précieux, mais il n'a que peu de temps et "
+"d'expertise à offrir."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:24
+msgid ""
+"Now, to find mentors: reaching out to STEM teachers in your area is a great "
+"way to find interest, but you can also reach out to local businesses to see "
+"if any of their employees would be interested in lending a hand! (See the "
+"email guide for more tips.) New recruits can ease this process a little, and"
+" if a new mentor knows a team member it'll make it easier for them to mesh "
+"with the rest of the team. Receiving mentorship over text and video is "
+"generally less recommended, as in-person mentors can communicate and "
+"demonstrate mechanical and software concepts more efficiently."
+msgstr ""
+"Maintenant, pour trouver des mentors : tendre la main aux professeurs de "
+"STEM de votre région est un excellent moyen de trouver de l'intérêt, mais "
+"vous pouvez également tendre la main aux entreprises locales pour voir si "
+"l'un de leurs employés serait intéressé à donner un coup de main ! (Les "
+"nouvelles recrues peuvent faciliter ce processus, et si un nouveau mentor "
+"connaît un membre de l'équipe, il lui sera plus facile de s'intégrer au "
+"reste de l'équipe.) Il est généralement moins recommandé de recevoir un "
+"mentorat par texte ou par vidéo, car les mentors en personne peuvent "
+"communiquer et démontrer les concepts mécaniques et logiciels plus "
+"efficacement."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:27
+msgid ""
+"To compete, teams are required to have at least two mentors over the age of "
+"18. Additional mentors can be younger than 18. All mentors must pass the "
+"*FIRST* Youth Protection Screening, a once-per-year background check for "
+"mentors and volunteers. This is all handled by *FIRST*, and is free."
+msgstr ""
+"Pour concourir, les équipes doivent avoir au moins deux mentors âgés de plus"
+" de 18 ans. Les mentors supplémentaires peuvent être âgés de moins de 18 "
+"ans. Tous les mentors doivent passer le *FIRST* Youth Protection Screening, "
+"une vérification annuelle des antécédents des mentors et des bénévoles. "
+"Cette vérification est effectuée par *FIRST* et est gratuite."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:29
+msgid ""
+"While parents and other family members can be helpful mentors in a pinch, "
+"it's important to have outside mentorship so that your team can survive even"
+" after you graduate."
+msgstr ""
+"Si les parents et les autres membres de la famille peuvent être des mentors "
+"utiles en cas de besoin, il est important de bénéficier d'un mentorat "
+"extérieur pour que votre équipe puisse survivre même après l'obtention de "
+"votre diplôme."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:31
+msgid ""
+"Generally mentors fall into a few primary roles. Some mentors may be purely "
+"technical, offering advice on your robot and engineering documentation; some"
+" mentors focus on \"soft skills\" such as leadership, fundraising, "
+"marketing, and team logistics. Many mentors blur the lines between these "
+"roles, but some prefer to stick to one area or another."
+msgstr ""
+"En général, les mentors ont plusieurs rôles principaux. Certains mentors "
+"peuvent être purement techniques, offrant des conseils sur votre robot et la"
+" documentation technique ; d'autres mentors se concentrent sur les "
+"\"compétences non techniques\" telles que le leadership, la collecte de "
+"fonds, le marketing et la logistique de l'équipe. De nombreux mentors font "
+"la distinction entre ces rôles, mais certains préfèrent se cantonner à l'un "
+"ou l'autre domaine."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:33
+msgid ""
+"Don't be afraid to involve mentors who aren't self proclaimed as highly "
+"\"technical\". They're sometimes the best ones."
+msgstr ""
+"N'ayez pas peur de faire appel à des mentors qui ne se proclament pas "
+"hautement \"techniques\". Ce sont parfois les meilleurs."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:36
+msgid "Pick a comfortable structure for your team."
+msgstr "Choisissez une structure confortable pour votre équipe."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:38
+msgid ""
+"There are 3 common team structures, each with advantages and disadvantages:"
+msgstr ""
+"Il existe 3 structures d'équipe courantes, chacune présentant des avantages "
+"et des inconvénients :"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:0
+msgid "School Team"
+msgstr "Équipe de l'école"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:44
+msgid ""
+"Run as a school-affiliated team/club with school funding. Watch for red tape"
+" regarding funds and parts. Also watch for it on the field :)"
+msgstr ""
+"Organiser une équipe/un club affilié à l'école et financé par l'école. "
+"Attention aux formalités administratives concernant les fonds et les pièces."
+" Surveillez-les également sur le terrain :)"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:46
+msgid ""
+"If starting a school team, make sure you figure out whether you can accept "
+"external sponsorships. This can affect your financial planning and "
+"fundraising."
+msgstr ""
+"Si vous créez une équipe scolaire, assurez-vous de savoir si vous pouvez "
+"accepter des parrainages extérieurs. Cela peut avoir une incidence sur la "
+"planification financière et la collecte de fonds."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:48
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:64
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:80
+msgid "Advantages:"
+msgstr "Avantages :"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:50
+msgid "Easier to sustain"
+msgstr "Plus facile à soutenir"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:51
+msgid "Potential for consistent funding"
+msgstr "Possibilité d'un financement cohérent"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:53
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:69
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:87
+msgid "Disadvantages:"
+msgstr "Inconvénients :"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:55
+msgid "Less practice schedule freedom"
+msgstr "Moins de liberté dans les horaires d'entraînement"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:56
+msgid "Arbitrary part sourcing restrictions"
+msgstr "Restrictions arbitraires en matière d'approvisionnement en pièces"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:57
+msgid "Competing for funding yearly"
+msgstr "En concurrence chaque année pour l'obtention d'un financement"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:58
+msgid "Limited/no summer practice"
+msgstr "Pas ou peu d'entraînement d'été"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:0
+msgid "Home Team"
+msgstr "Équipe locale"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:62
+msgid ""
+"Run out of a house or garage. Budget is whatever fundraising you can "
+"acquire."
+msgstr ""
+"L'activité se déroule dans une maison ou un garage. Le budget correspond à "
+"la collecte de fonds que vous pouvez acquérir."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:66
+msgid "Freer practice schedule"
+msgstr "Horaire d'entraînement plus libre"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:67
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:84
+msgid "No part sourcing constraints"
+msgstr "Pas de contraintes d'approvisionnement en pièces"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:71
+msgid "Harder to obtain sponsorships"
+msgstr "Plus difficile d'obtenir des parrainages"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:72
+msgid "Space/residential constraints"
+msgstr "Contraintes spatiales/résidentielles"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:0
+msgid "Community Team"
+msgstr "Équipe communautaire"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:76
+msgid ""
+"Run out of a 501(c)3. Generally the hardest to set up, but offers the most "
+"flexibility."
+msgstr ""
+"Géré par un organisme de type 501(c)3. C'est généralement la plus difficile "
+"à mettre en place, mais c'est celle qui offre le plus de flexibilité."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:78
+msgid ""
+"If going the community team route, consider finding a local nonprofit to "
+"work with. This can greatly reduce the work and time required compared to "
+"starting your own, and many are happy to expand into STEM if you pitch it "
+"convincingly! Some common nonprofits include 4-H groups, Scout posts, "
+"homeschool groups, and libraries."
+msgstr ""
+"Si vous optez pour l'équipe communautaire, envisagez de trouver une "
+"association locale à but non lucratif avec laquelle travailler. Cela peut "
+"réduire considérablement le travail et le temps nécessaires par rapport à la"
+" création de votre propre équipe, et beaucoup d'entre elles sont heureuses "
+"d'étendre leurs activités aux STIM si vous les présentez de manière "
+"convaincante ! Parmi les organisations à but non lucratif les plus "
+"courantes, citons les groupes 4-H, les postes de scouts, les groupes "
+"d'enseignement à domicile et les bibliothèques."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:82
+msgid "Potential dedicated practice space"
+msgstr "Possibilité d'un espace dédié à l'exercice de la profession"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:83
+msgid "Freedom of practice schedule"
+msgstr "Liberté de l'horaire de pratique"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:85
+msgid "Lucrative for donors (through tax write-offs!)"
+msgstr "Lucrative pour les donateurs (grâce aux déductions fiscales !)"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:89
+msgid "Harder to sustain"
+msgstr "Plus difficile à maintenir"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:90
+msgid "Many administrative tasks"
+msgstr "Nombreuses tâches administratives"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:93
+msgid "Find funding and create your team!"
+msgstr "Trouvez des financements et créez votre équipe !"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:94
+msgid ""
+"Ultimately, the way you fund your team is dependent on which team structure "
+"you use."
+msgstr ""
+"En fin de compte, la manière dont vous financez votre équipe dépend de la "
+"structure de l'équipe que vous utilisez."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:100
+msgid ""
+"If you decide to run a school team, you should reach out to your "
+"superintendent, school board, and principal. Make sure to loop in a STEM "
+"teacher or two, and maybe even a curriculum administrator."
+msgstr ""
+"Si vous décidez de diriger une équipe scolaire, vous devez prendre contact "
+"avec le directeur de l'école, le conseil scolaire et le directeur de "
+"l'école. Assurez-vous d'y associer un ou deux professeurs de STIM et peut-"
+"être même un administrateur du programme scolaire."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:104
+msgid ""
+"For home teams, pitch to your parents or guardians! They'll probably be "
+"dealing with a majority of the headache anyways so be nice :)"
+msgstr ""
+"Pour les équipes à domicile, présentez votre projet à vos parents ou à vos "
+"tuteurs ! Ils auront probablement à faire face à la majorité des maux de "
+"tête de toute façon, alors soyez gentils :)"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:108
+msgid ""
+"If you're pitching to a community nonprofit, make sure you highlight how "
+"*FIRST* will help them grow. Offer to volunteer your and your teammates' "
+"time to help the organization with their programs, especially STEM ones, to "
+"create a mutually beneficial relationship."
+msgstr ""
+"Si vous vous adressez à un organisme communautaire à but non lucratif, "
+"assurez-vous de souligner comment *FIRST* l'aidera à se développer. Proposez"
+" à vos coéquipiers et à vous-même de donner de votre temps pour aider "
+"l'organisation à mettre en œuvre ses programmes, en particulier les "
+"programmes STIM, afin de créer une relation mutuellement bénéfique."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:110
+msgid ""
+"All 3 pitches should follow a similar structure; the easiest and most "
+"efficient involves a slide deck presentation. Make sure you highlight the "
+"value proposition (benefits that will be delivered) by starting an FTC team:"
+" educational experience, building future STEM professionals, increasing the "
+"potential of the area's technology economy, etc. You may not think it's "
+"important, but many decision-makers take these factors into account when "
+"deciding to approve your FTC team!"
+msgstr ""
+"Les 3 présentations doivent suivre une structure similaire ; la plus simple "
+"et la plus efficace consiste à présenter un jeu de diapositives. Veillez à "
+"mettre en évidence la proposition de valeur (les avantages qui seront "
+"offerts) en débutant une équipe FTC: expérience éducative, formation de "
+"futurs professionnels des STIM, augmentation du potentiel de l'économie "
+"technologique de la région, etc. Vous ne pensez peut-être pas que c'est "
+"important, mais de nombreux décideurs prennent ces facteurs en compte "
+"lorsqu'ils décident d'approuver votre équipe de FTC !"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:113
+msgid "Don't underpitch your budget needs!"
+msgstr "Ne sous-estimez pas vos besoins budgétaires !"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:114
+msgid "Here's a breakdown of a typical FTC season budget:"
+msgstr "Voici la répartition d'un budget type pour une saison de FTC :"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:116
+msgid ""
+"*FIRST* Registration is $295, and allows you to obtain your team number and "
+"compete."
+msgstr ""
+"*FIRST* inscription est 295 $ et vous permet d'obtenir votre numéro d'équipe"
+" et de participer à la compétition."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:117
+msgid ""
+"Region and competition costs vary depending on your region, ranging from "
+"$250 to $800 or more. Check with your region's Program Delivery Partner for "
+"more information."
+msgstr ""
+"Les coûts liés à la région et au concours varient en fonction de votre "
+"région, allant de 250 $ à 800 $ ou plus. Pour plus d'informations, veuillez "
+"vous adresser au partenaire de votre région chargé de la mise en œuvre du "
+"programme."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:118
+msgid "A full competition game set will run you $450 / season."
+msgstr "Un jeu de compétition complet vous coûtera 450 $ / saison."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:119
+msgid ""
+"A competition field will also run you $659, and - unless you take care with "
+"the tiles that make it up - it will cost you additional money to replace "
+"every 2-3 years."
+msgstr ""
+"Un terrain de compétition vous coûtera également 659 $, et - à moins que "
+"vous ne preniez soin des tuiles qui le composent - il vous en coûtera "
+"davantage pour le remplacer tous les 2-3 ans."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:120
+msgid ""
+"The *FIRST* Control and Communication set will cost you $265, and their "
+"Electronics set will cost $282. Buying an additional Expansion Hub to "
+"maximize your robot's actuation will cost another $250. If you're careful, "
+"these are one-time purchases."
+msgstr ""
+"L'ensemble *FIRST* de contrôle et de communication vous coûtera 265 $, et "
+"l'ensemble électronique 282 $. L'achat d'un Hub d'expansion supplémentaire "
+"pour maximiser l'actionnement de votre robot vous coûtera 250 $ de plus. Si "
+"vous faites attention, il s'agit d'achats uniques."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:121
+msgid ""
+"The goBILDA FTC Starter Kit, which is recommended to start you with basic "
+"hardware, will run you $600 (with the FTC discount). If you CAD design your "
+"robot in advance, you can go cheaper."
+msgstr ""
+"Le kit de démarrage goBILDA FTC, qui est recommandé pour commencer avec le "
+"matériel de base, vous coûtera 600 $ (avec la réduction FTC). Si vous "
+"concevez votre robot en CAD à l'avance, vous pouvez faire moins cher."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:122
+msgid ""
+"Extra money for sensors and servos - each can run you up to $100 each! "
+"Assuming 2 servos and 3 sensors, that's $500."
+msgstr ""
+"Il faut prévoir de l'argent supplémentaire pour les capteurs et les servos -"
+" qui peuvent coûter jusqu'à 100 $ chacun ! En supposant 2 servos et 3 "
+"capteurs, cela fait 500 $."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:124
+msgid ""
+"The above budget adds up to $4,000 in startup costs, and roughly $2,500 per "
+"year. You can definitely start a team on a budget much cheaper than this, "
+"but if you have the opportunity to pitch a larger budget, seize it!"
+msgstr ""
+"Le budget ci-dessus s'élève à 4 000 $ pour les frais de démarrage et à "
+"environ 2 500 $ par an. Il est tout à fait possible de créer une équipe avec"
+" un budget bien inférieur, mais si vous avez l'occasion de présenter un "
+"budget plus important, saisissez-la !"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:127
+msgid ""
+"If you are unable to achieve this amount of funding, you can make this "
+"budget more manageable through several methods:"
+msgstr ""
+"Si vous n'êtes pas en mesure d'atteindre ce montant, vous pouvez rendre ce "
+"budget plus gérable grâce à plusieurs méthodes :"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:129
+msgid ""
+"**Fundraising and sponsorship** are essential ways to ensure a team's "
+"survival. See the fundraising guide (coming soon) for more."
+msgstr ""
+"**La collecte de fonds et le parrainage** sont des moyens essentiels pour "
+"assurer la survie d'une équipe. Pour en savoir plus, consultez le guide de "
+"la collecte de fonds (à venir)."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:135
+msgid ""
+"Several general **cost-saving measures** can be employed throughout the "
+"season. These include:"
+msgstr ""
+"Plusieurs **mesures générales d'économie** peuvent être appliquées tout au "
+"long de la saison. Il s'agit notamment de:"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:131
+msgid "Keeping stock of your inventory and not over-ordering parts."
+msgstr ""
+"Garder l'inventaire de votre stock et ne pas commander trop de pièces."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:132
+msgid "Treating your parts well."
+msgstr "Bien traiter ses pièces."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:133
+msgid "Using #black-market on the FTC Discord to obtain used parts."
+msgstr ""
+"Utilisation de #black-market sur le Discord de FTC pour obtenir des pièces "
+"d'occasion."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:134
+msgid "Applying for seasonal FTC grants and the goBILDA FTC Discount."
+msgstr ""
+"Demande de subventions saisonnières de FTC et de la réduction goBILDA FTC."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:135
+msgid "Investing in a 3D printer to fabricate your own parts."
+msgstr "Investir dans une imprimante 3D pour fabriquer ses propres pièces."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:136
+msgid ""
+"If using custom metal parts, utilizing SendCutSend or Fabworks, which are "
+"generally more financially viable than in-house CNC machining."
+msgstr ""
+"En cas d'utilisation de pièces métalliques personnalisées, utiliser "
+"SendCutSend ou Fabworks, qui sont généralement plus viables financièrement "
+"que l'usinage CNC en interne."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:137
+msgid ""
+"As a last resort, **team fees** can be collected from members as a "
+"requirement to participate. These can bar less fortunate individuals from "
+"participating, so they are not recommended. **Minimum fundraising "
+"requirements** for your members can boost your budget similarly and without "
+"hardship for these members."
+msgstr ""
+"En dernier recours, des **cotisations d'équipe** peuvent être perçues auprès"
+" des membres comme condition de participation. Ces frais peuvent empêcher "
+"des personnes moins fortunées de participer et ne sont donc pas recommandés."
+" Les **exigences minimales de collecte de fonds** pour vos membres peuvent "
+"augmenter votre budget de manière similaire et sans que ces membres ne "
+"subissent de difficultés."
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:140
+msgid "Now what?"
+msgstr "Et maintenant ?"
+
+#: ../../gm0/source/docs/being-a-team/starting-a-team.rst:142
+msgid ""
+"You have your team, you have mentors, and you have a budget. Now it's time "
+"to be a team!"
+msgstr ""
+"Vous avez votre équipe, vous avez des mentors et vous avez un budget. Il est"
+" maintenant temps de former une équipe !"

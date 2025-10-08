@@ -6,18 +6,248 @@
 # Translators:
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-10-08 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:4
+msgid "Contributors"
+msgstr "Les contributeurs du gm0 original"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:6
+msgid ""
+"|gm0| would not have been possible without the many contributors who have "
+"sacrificed their precious freetime (or merely found another excuse to "
+"procrastinate their work). I am especially grateful to Ben and Abi for "
+"helping port over |gm0| to Copperforge, and for all those who have continued"
+" to add and revise |gm0| during the busy school year. |gm0| had been my "
+"dream for quite some time, and as an alum tremendously grateful for all that"
+" *FIRST*\\ |reg| has taught me, I wanted to create |gm0| to preserve and "
+"spread the knowledge base that might have been lost with the FTC\\ |reg| "
+"class of 2019 and beyond. For this reason, I wanted to recognize all the "
+"contributors who have helped to make |gm0| a great resource for *FIRST* Tech"
+" Challenge teams. Feel free to contact any of the names listed below via the"
+" email (gamemanual0@gmail.com) or through the other contact emails - I'm "
+"sure that they would be more than willing to help you out!"
+msgstr ""
+"|gm0| n'aurait pas été possible sans les nombreux contributeurs qui ont "
+"sacrifié leur précieux temps libre (ou simplement trouvé une autre excuse "
+"pour procrastiner leur travail). Je suis particulièrement reconnaissant à "
+"Ben et Abi d'avoir aidé à porter |gm0| sur Copperforge, et à tous ceux qui "
+"ont continué à ajouter et à réviser |gm0| pendant l'année scolaire. |gm0| "
+"était mon rêve depuis un certain temps, et en tant qu'ancien élève "
+"extrêmement reconnaissant pour tout ce que *FIRST*\\ |reg| m'a appris, je "
+"voulais créer |gm0| pour préserver et répandre la base de connaissances qui "
+"aurait pu être perdue avec la classe FTC\\ |reg| de 2019 et au-delà. C'est "
+"pourquoi j'ai voulu reconnaître tous les contributeurs qui ont aidé à faire "
+"de |gm0| une grande ressource pour les équipes *FIRST* Tech Challenge. "
+"N'hésitez pas à contacter l'un des noms énumérés ci-dessous par courriel "
+"(gamemanual0@gmail.com) ou par l'intermédiaire des autres courriels de "
+"contact - je suis sûr qu'ils seront tout à fait disposés à vous aider !"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:8
+msgid "**Kleptomaniac**"
+msgstr "**Kleptomaniac**"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:11
+msgid "Managing Editors"
+msgstr "Rédacteurs en chef"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:13
+msgid "Tom - FTC Alum - 3736 Serious Business- seminole3736@gmail.com"
+msgstr "Tom - Ancien du FTC - 3736 Serious Business - seminole3736@gmail.com"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:14
+msgid "Abigail - FTC 7026 JDroids - gm0@dogbuilt.net"
+msgstr "Abigail - FTC 7026 JDroids - gm0@dogbuilt.net"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:15
+msgid "Frank - FTC 8581 Aedificatores - fgportman00@gmail.com"
+msgstr "Frank - FTC 8581 Aedificatores - fgportman00@gmail.com"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:16
+msgid "Justin - FTC 9656 Omega - ftc9656omega@gmail.com"
+msgstr "Justin - FTC 9656 Omega - ftc9656omega@gmail.com"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:17
+msgid ""
+"Nathanael/Kleptomaniac - FTC Alum - 13075 Coram Deo Robotics - "
+"nathanchu@utexas.edu"
+msgstr ""
+"Nathanael/Kleptomaniac - FTC Alum - 13075 Coram Deo Robotics - "
+"nathanchu@utexas.edu"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:18
+msgid "Davy - FTC 16461 Infinite Turtles - davy@mcr.club"
+msgstr "Davy - FTC 16461 Infinite Turtles - davy@mcr.club"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:21
+msgid "Other Contributors"
+msgstr "Autres contributeurs"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:23
+msgid "Adham - FTC 14875 LightSpeed"
+msgstr "Adham - FTC 14875 LightSpeed"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:24
+msgid "Akshara - FTC 23292 SuperPowered Jalapenos"
+msgstr "Akshara - FTC 23292 SuperPowered Jalapenos"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:25
+msgid "Allison - FTC 24158 Green Gang/FTC 6417 Blu Cru"
+msgstr "Allison - FTC 24158 Green Gang/FTC 6417 Blu Cru"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:26
+msgid "Arjun - FTC 9794 Wizards.exe"
+msgstr "Arjun - FTC 9794 Wizards.exe"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:27
+msgid "Baylor - FTC 10641 Atomic Gears"
+msgstr "Baylor - FTC 10641 Atomic Gears"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:28
+msgid "Cole - FTC 7548 SPAREPARTS"
+msgstr "Cole - FTC 7548 SPAREPARTS"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:29
+msgid "Cooper - FTC 19458 Equilibrium.exe"
+msgstr "Cooper - FTC 19458 Equilibrium.exe"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:30
+msgid "David - FTC 2753 Team Overdrive"
+msgstr "David - FTC 2753 Team Overdrive"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:31
+msgid "David - FTC 7236 Recharged Green"
+msgstr "David - FTC 7236 Recharged Green"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:32
+msgid "David - FTC 8680 Kraken Pinion"
+msgstr "David - Pignon Kraken FTC 8680"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:33
+msgid "Dom - FTC 15692 Rust in Pieces"
+msgstr "Dom - FTC 15692 Rust in Pieces"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:34
+msgid "Eric - FTC Alum - 8417 'Lectric Legends"
+msgstr "Eric - FTC Alum - 8417 'Lectric Legends"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:35
+msgid "Ethan - FTC 7236 Recharged Green - goBILDA"
+msgstr "Ethan - FTC 7236 Recharged Green - goBILDA"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:36
+#: ../../gm0/source/docs/contributing/contributors.rst:37
+msgid "Frank - FTC 8581 Aedificatores"
+msgstr "Frank - FTC 8581 Aedificatores"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:38
+msgid "Fulton - FTC 5143 Xcentrics"
+msgstr "Fulton - FTC 5143 Xcentrics"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:39
+msgid "Guineawheek - FTC Alum"
+msgstr "Guineawheek - Ancien du FTC"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:40
+msgid "Ian - FTC 7842 Browncoats"
+msgstr "Ian - FTC 7842 Browncoats"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:41
+msgid "Jackson - FTC/FRC\\ |reg| Mentor/Alum"
+msgstr "Jackson - Mentor/Alumni FTC/FRC\\ |reg|"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:42
+msgid "James - FTC 14298 Lincoln Robotics"
+msgstr "James - FTC 14298 Lincoln Robotics"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:43
+msgid "Justin - FTC 9656 Omega"
+msgstr "Justin - FTC 9656 Omega"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:44
+msgid "Karter - FTC 5975 Cybots"
+msgstr "Karter - FTC 5975 Cybots"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:45
+msgid "Kelvin - FTC 731 Wannabee Strange"
+msgstr "Kelvin - FTC 731 Wannabee Strange"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:46
+msgid "Keval - FTC 731 Wannabee Strange/FTC 10195 Night Owls"
+msgstr "Keval - FTC 731 Wannabee Strange/FTC 10195 Night Owls"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:47
+msgid "Kevin - FTC 9048 Philobots"
+msgstr "Kevin - FTC 9048 Philobots"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:48
+msgid "Nate - FTC 12897 Newton's Law of Mass"
+msgstr "Nate - FTC 12897 Newton's Law of Mass"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:49
+msgid "Navya - FTC 7149 ENFORCERS"
+msgstr "Navya - FTC 7149 ENFORCERS"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:50
+msgid "Neo - FTC 6710 Sigmas"
+msgstr "Neo - FTC 6710 Sigmas"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:51
+msgid "Oscar - FTC 6460 RoboWarriors"
+msgstr "Oscar - FTC 6460 RoboWarriors"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:52
+msgid "Peter - FTC 12533 Inception"
+msgstr "Peter - FTC 12533 Inception"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:53
+msgid "Sam - FTC 2753 Team Overdrive"
+msgstr "Sam - FTC 2753 Team Overdrive"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:54
+msgid "Shurik - FTC 4137 Islandbots mentor"
+msgstr "Shurik - FTC 4137 Islandbots mentor"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:55
+msgid "Tom - FTC 3736 Serious Business"
+msgstr "Tom - FTC 3736 Serious Business"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:56
+msgid "Tyler - FRC 3184 Blaze Robotics"
+msgstr "Tyler - FRC 3184 Blaze Robotics"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:57
+msgid "Wes - FTC 3658 Bosons"
+msgstr "Wes - FTC 3658 Bosons"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:58
+msgid "Whimsy - FTC 8417 'Lectric Legends"
+msgstr "Whimsy - FTC 8417 'Lectric Legends"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:61
+msgid "Hosting"
+msgstr "Hébergement"
+
+#: ../../gm0/source/docs/contributing/contributors.rst:63
+msgid "Benjamin Ward - FRC/FTC Alum - Copperforge - blward@copperforge.cc"
+msgstr ""
+"Benjamin Ward - Ancien du FRC ET FTC - Copperforge - blward@copperforge.cc"
+
+#: ../../gm0/source/docs/contributing/contributors.rst-1
+msgid "Copperforge Logo"
+msgstr "Logo Copperforge"

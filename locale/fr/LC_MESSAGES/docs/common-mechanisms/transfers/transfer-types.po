@@ -7,18 +7,178 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 04:28+0000\n"
+"POT-Creation-Date: 2025-10-08 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:4
+msgid "Types of Transfers"
+msgstr "Types de transferts"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:6
+msgid ""
+"There are a lot of different styles and types of transfers, but most are a "
+"form of Direct Transfer, Flip Up Transfer, Grate Transfer, or Conveyor "
+"Transfer."
+msgstr ""
+"Il existe de nombreux styles et types de transferts, mais la plupart d'entre"
+" eux sont des transferts directs, des transferts par retournement, des "
+"transferts par grille ou des transferts par convoyeur."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:9
+msgid "Direct Transfer"
+msgstr "Transfert direct"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:11
+msgid ""
+"The simplest form of transfer is a direct transfer. This is the term for "
+"when the mechanism that an item is being moved to is simply placed directly "
+"behind whatever is gathering the item. The most common form of this is "
+"putting an arm or bucket directly behind the intake to collect the item as "
+"soon as it enters the intake. Since there is no mechanism between the intake"
+" and the outtake system, this is also referred to as a \"transferless\" "
+"system."
+msgstr ""
+"La forme la plus simple de transfert est le transfert direct. Ce terme "
+"désigne le fait que le mécanisme vers lequel un objet est déplacé est "
+"simplement placé directement derrière ce qui recueille l'objet. La forme la "
+"plus courante consiste à placer un bras ou un seau directement derrière le "
+"ramasseur pour collecter l'objet dès qu'il entre dans le ramasseur. Étant "
+"donné qu'il n'y a pas de mécanisme entre le ramsseur et le système "
+"d'évacuation, on parle également de système \"sans transfert\"."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:14
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:37
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:86
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:117
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:16
+msgid "Least mechanical complexity of any transfer system"
+msgstr ""
+"La complexité mécanique la plus faible de tous les systèmes de transfert"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:17
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:39
+msgid "Doesn't take up much space"
+msgstr "Peu encombrant"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:18
+msgid "Fastest transfer system"
+msgstr "Système de transfert le plus rapide"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:21
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:44
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:93
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:124
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:23
+msgid "Doesn't actually move the item internally"
+msgstr "Ne déplace pas réellement l'objet en interne"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:24
+msgid ""
+"Requires the scoring mechanism to be able to go both behind the intake as "
+"well as into whatever position is needed for scoring"
+msgstr ""
+"Le mécanisme de marquage doit pouvoir être placé à la fois derrière le "
+"ramasseur et dans n'importe quelle position nécessaire pour le marquage."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:29
+msgid ""
+"A picture of a direct transfer intake from FTC\\ |reg| 16461, where the "
+"collection bucket is behind the intake"
+msgstr ""
+"Photo d'une prise d'un ramasseur direct de FTC\\ |reg| 16461, où le seau de "
+"collecte se trouve derrière le ramasseur."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:29
+msgid ""
+"16461 Infinite Turtles, Freight Frenzy, Direct transfer intake, where the "
+"collection bucket is right behind the intake"
+msgstr ""
+"16461 Infinite Turtles, Freight Frenzy, ramasseur direct, où le seau de "
+"collecte se trouve juste derrière le ramasseur."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:32
+msgid "Flip Up Transfer"
+msgstr "Transfert Flip Up"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:34
+msgid ""
+"Flip up transfers are a form of transfer where the mechanism holding the "
+"item is rotated around a pivot point to align with a second mechanism that "
+"then collects the item. This mechanism is very commonly used on intakes to "
+"gain vertical height as well as some horizontal distance. In this use case, "
+"the intake can simply be mounted onto the transfer system, then spun in "
+"reverse to eject the item from the transfer mechanism into the scoring "
+"mechanism."
+msgstr ""
+"Les transferts par retournement sont une forme de transfert où le mécanisme "
+"qui tient l'objet est tourné autour d'un point de pivot pour s'aligner sur "
+"un second mécanisme qui recueille alors l'objet. Ce mécanisme est très "
+"souvent utilisé sur les ramasseurs pour gagner en hauteur et en distance "
+"horizontale. Dans ce cas d'utilisation, le ramasseur peut simplement être "
+"monté sur le système de transfert, puis tourner en sens inverse pour éjecter"
+" l'objet du mécanisme de transfert dans le mécanisme de marquage de point."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:40
+msgid ""
+"Intake can be run co-axially to the flip up system so the motor doesn't have"
+" to be moved with the mechanism"
+msgstr ""
+"Le ramasseur peut être placé dans le même axe que le système de basculement,"
+" de sorte que le moteur n'a pas à être déplacé avec le mécanisme."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:41
+msgid ""
+"Allows intake to stick outside of the robot and start rotated up to fit "
+"inside the 18 inch sizing cube, enabling more flexibility"
+msgstr ""
+"Permet au ramasseur de rester à l'extérieur du robot et de commencer à "
+"tourner vers le haut pour s'adapter au cube de taille de 18 pouces, ce qui "
+"permet une plus grande flexibilité."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:47
+msgid "Care must be taken that mechanisms align properly to each other"
+msgstr ""
+"Il faut veiller à ce que les mécanismes s'alignent correctement les uns par "
+"rapport aux autres."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:48
+msgid "Slower form of transfer then grate or direct"
+msgstr "Forme de transfert plus lente que la grille ou le transfert direct"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:49
+msgid "Mechanism can be hit by other robots when outside the robot frame"
+msgstr ""
+"Le mécanisme peut être heurté par d'autres robots lorsqu'il se trouve à "
+"l'extérieur du cadre du robot."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst-1
+msgid "6165 extending and flip up intake"
+msgstr "6165 ramasseur extensible et rabattable"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:63
+msgid ""
+"6165 MSET Cuttlefish, Freight Frenzy, Flip up intake, mounted on linear "
+"slides for increased horizontal reach"
+msgstr ""
+"6165 MSET Cuttlefish, Freight Frenzy, ramasseur monté sur glissières "
+"linéaires pour une plus grande portée horizontale"
