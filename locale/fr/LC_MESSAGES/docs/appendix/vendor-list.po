@@ -7,18 +7,304 @@
 # Sara Kaidi, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 04:28+0000\n"
+"POT-Creation-Date: 2025-10-09 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:4
+msgid "Vendor List"
+msgstr "Liste des fournisseurs"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:6
+msgid "`Actuonix <https://www.actuonix.com/>`_"
+msgstr "`Actuonix <https://www.actuonix.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:8
+msgid ""
+"Actuonix sells linear actuators and linear motion components. Expensive, but"
+" robust. Teams can apply for a *FIRST*\\ |reg| sponsorship."
+msgstr ""
+"Actuonix vend des actionneurs linéaires et des composants de mouvement "
+"linéaire. Ils sont chers, mais robustes. Les équipes peuvent demander un "
+"parrainage *FIRST*\\ |reg|."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:10
+msgid "`AndyMark <https://andymark.com>`_"
+msgstr "`AndyMark <https://andymark.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:12
+msgid ""
+"AndyMark sells the official game field and game sets, as well as individual "
+"game parts and the SoftTiles foam tiles."
+msgstr ""
+"AndyMark vend le terrain de jeu officiel et les sets de jeu, ainsi que des "
+"pièces de jeu individuelles et les tuiles en mousse SoftTiles."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:13
+msgid ""
+"AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner, "
+"compliant, stealth, and mecanum wheels, as well as many other items."
+msgstr ""
+"AndyMark vend également des moteurs NeveRest et NeveRest Sport, des roues "
+"TileRunner, compliant, stealth et mecanum, ainsi que de nombreux autres "
+"articles."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:14
+msgid ""
+"AndyMark sells the Robits build system, which uses non-metric components "
+"similar to the Tetrix build system."
+msgstr ""
+"AndyMark vend le système de construction Robits, qui utilise des composants "
+"non métriques similaires au système de construction Tetrix."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:17
+msgid "`Axon Robotics <https://axon-robotics.com/>`_"
+msgstr "`Axon Robotics <https://axon-robotics.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:17
+msgid ""
+"Vendor for highly customizable servos, with software functionality for range"
+" increases to switch between positional mode and continuous rotation mode."
+msgstr ""
+"Fournisseur de servos hautement personnalisables, avec une fonctionnalité "
+"logicielle permettant d'augmenter la portée et de basculer entre le mode "
+"positionnel et le mode rotation continue."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:19
+msgid "`CopperState <https://www.copperstate.com/>`_"
+msgstr "`CopperState <https://www.copperstate.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:21
+msgid "Cheap vendor for fasteners/other hardware."
+msgstr "Vendeur bon marché d'attaches et d'autres articles de quincaillerie."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:22
+msgid "`eplastics <https://www.eplastics.com/>`_"
+msgstr "`eplastics <https://www.eplastics.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:24
+msgid "Vendor for raw plastics, such as polycarbonate, acetal, HDPE, etc."
+msgstr ""
+"Vendeur de matières plastiques brutes, telles que le polycarbonate, "
+"l'acétal, le PEHD, etc."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:25
+msgid "`estreetplastics <https://www.estreetplastics.com/Default.asp>`_"
+msgstr "`estreetplastics <https://www.estreetplastics.com/Default.asp>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:27
+msgid "Vendor for raw plastics, including smoked polycarbonate."
+msgstr ""
+"Vendeur de matières plastiques brutes, y compris le polycarbonate fumé."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:28
+msgid "`Fastenal <https://www.fastenal.com/>`_"
+msgstr "`Fastenal <https://www.fastenal.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:30
+msgid "Mid-range vendor for fasteners/other hardware, including tools."
+msgstr ""
+"Fournisseur de milieu de gamme pour les fixations/autres matériels, y "
+"compris les outils."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:31
+msgid "`goBILDA <https://www.gobilda.com/>`_"
+msgstr "`goBILDA <https://www.gobilda.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:33
+msgid ""
+"goBILDA sells its own build system, complete with Yellow Jacket motors, "
+"channel, motion components, and battery. Note that the cheapest batteries "
+"are found here, the MATRIX 12V Batteries are $39.99, with the team discount "
+"they are $29.99, nearly half the price of the $50 batteries sold elsewhere."
+msgstr ""
+"goBILDA vend son propre système de construction, complet avec les moteurs "
+"Yellow Jacket, le canal, les composants de mouvement et la batterie. Notez "
+"que les batteries les moins chères se trouvent ici, les batteries MATRIX 12V"
+" sont à $39.99, avec la réduction de l'équipe elles sont à $29.99, presque "
+"la moitié du prix des batteries à $50 vendues ailleurs."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:34
+msgid "Teams can get a 25% Team Discount from goBILDA."
+msgstr ""
+"Les équipes peuvent bénéficier d'une réduction de 25 % auprès de goBILDA."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:35
+msgid "`McMaster-Carr <https://www.mcmaster.com>`_"
+msgstr "McMaster-Carr <https://www.mcmaster.com>__"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:37
+msgid ""
+"McMaster-Carr sells hardware and raw materials in bulk quantities. They "
+"stock nearly every type of bolt, screw, and nut possible, as well as "
+"washers, bearings, springs, etc. Purchase from them for bulk quantities of "
+"hardware, as well as the times you need a very obscure part."
+msgstr ""
+"McMaster-Carr vend de la quincaillerie et des matières premières en grandes "
+"quantités. On y trouve pratiquement tous les types de boulons, vis et écrous"
+" possibles, ainsi que des rondelles, des roulements, des ressorts, etc. "
+"Achetez chez eux des quantités importantes de quincaillerie, ainsi que des "
+"pièces très obscures."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:38
+msgid ""
+"Don't be turned off by the hidden shipping. Generally, McMaster-Carr's "
+"shipping is around the same price as other vendors, and shipping is usually "
+"next-day."
+msgstr ""
+"Ne vous laissez pas décourager par les frais de port cachés. En général, les"
+" frais de port de McMaster-Carr sont à peu près les mêmes que ceux des "
+"autres vendeurs, et l'expédition se fait généralement le lendemain."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:39
+msgid "`MiSUMI <https://us.misumi-ec.com/>`_"
+msgstr "MiSUMI <https://us.misumi-ec.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:41
+msgid ""
+"MiSUMI is a Japanese company specializing in industrial and manufacturing "
+"components. They sell bulk 15mm anodized :term:`extrusion <Extrusion>` "
+"similar to the REV Robotics :term:`extrusion <Extrusion>`. The 15mm "
+":term:`extrusion <Extrusion>` can be cut to length as well."
+msgstr ""
+"MiSUMI est une société japonaise spécialisée dans les composants industriels"
+" et de fabrication. Elle vend des :term:`extrusion <Extrusion>` anodisés de "
+"15 mm en vrac, similaires aux :term:`extrusion <Extrusion>` de REV Robotics."
+" Le :term:`extrusion <Extrusion>` de 15 mm peut également être coupé à la "
+"longueur voulue."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:42
+msgid ""
+"MiSUMI also sells aluminum drawer slides that are popular for linear "
+"extensions. They are available in different lengths, but the most common is "
+"400mm."
+msgstr ""
+"MiSUMI vend également des glissières de tiroir en aluminium qui sont "
+"populaires pour les extensions linéaires. Elles sont disponibles en "
+"différentes longueurs, mais la plus courante est de 400 mm."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:43
+msgid "`OnlineMetals <https://www.onlinemetals.com/>`_"
+msgstr "`OnlineMetals <https://www.onlinemetals.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:45
+msgid "A common vendor for purchasing various raw metals."
+msgstr "Un fournisseur commun pour l'achat de divers métaux bruts."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:46
+msgid "`Pitsco <https://www.pitsco.com>`_"
+msgstr "`Pitsco <https://www.pitsco.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:48
+msgid ""
+"Pitsco sells the Tetrix kit with channels, TorqueNado motors, and their own "
+"motion system."
+msgstr ""
+"Pitsco vend le kit Tetrix avec des canaux, des moteurs TorqueNado et son "
+"propre système de mouvement."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:49
+msgid "`REV Robotics <https://www.revrobotics.com>`_"
+msgstr "`REV Robotics <https://www.revrobotics.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:51
+msgid ""
+"REV Robotics sells the REV build system, which is an :term:`extrusion "
+"<Extrusion>`-based ecosystem complete with motors (HD Hex, HD Planetary, "
+"Core HEX), :term:`extrusion <Extrusion>`, :term:`servos <Servo>` (Smart "
+"Robot Servo), brackets, and battery."
+msgstr ""
+"REV Robotics vend le système de construction REV, qui est un écosystème basé"
+" sur :term:`extrusion <Extrusion>` complet avec des moteurs (HD Hex, HD "
+"Planetary, Core HEX), :term:`extrusion <Extrusion>`, :term:`servos <Servo>` "
+"(Smart Robot Servo), des supports et une batterie."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:52
+msgid ""
+"REV also sells the control system for FTC\\ |reg| (Expansion Hub and Control"
+" Hub)."
+msgstr ""
+"REV vend également le système de contrôle pour FTC (Expansion Hub et Control"
+" Hub)."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:54
+msgid ""
+"REV offers various sensors (Magnetic Limit Switch, Color Sensor, Touch "
+"Sensor, Distance Sensor, Potentiometer, etc.)"
+msgstr ""
+"REV propose différents capteurs (interrupteur de fin de course magnétique, "
+"capteur de couleur, capteur tactile, capteur de distance, potentiomètre, "
+"etc.)"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:55
+msgid ""
+"Additionally, electronic components such as the Servo Power Module, "
+"SPARKmini, or Blinkin may be purchased."
+msgstr ""
+"En outre, des composants électroniques tels que le Servo Power Module, "
+"SPARKmini ou Blinkin peuvent être achetés."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:56
+msgid "`Servocity <https://www.servocity.com>`_"
+msgstr "`Servocity <https://www.servocity.com>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:58
+msgid ""
+"Servocity sells a wide range of :term:`servos <Servo>`, from Hitec to "
+"Futaba, at all price points."
+msgstr ""
+"Servocity vend une large gamme de :term:`servos <Servo>`, de Hitec à Futaba,"
+" à tous les prix."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:59
+msgid "Teams can get a 25% team discount from Servocity"
+msgstr ""
+"Les équipes peuvent bénéficier d'une réduction de 25 % auprès de Servocity."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:61
+msgid "`Studica <https://www.studica.com/first-tech-challenge>`_"
+msgstr "`Studica <https://www.studica.com/first-tech-challenge>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:63
+msgid ""
+"Studica sells the Studica build system, which has hole patterns compatible "
+"with most systems."
+msgstr ""
+"Studica vend le système de construction Studica, dont les schémas de perçage"
+" sont compatibles avec la plupart des systèmes."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:64
+msgid ""
+"Additionally Studica owns and sells the navX product, a higher-end IMU than "
+"what is provided in the Control Hub."
+msgstr ""
+"En outre, Studica possède et vend le produit navX, un IMU plus haut de gamme"
+" que celui fourni par le Control Hub."
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:66
+msgid "`West Coast Products <https://wcproducts.com/>`_"
+msgstr "`West Coast Products <https://wcproducts.com/>`_"
+
+#: ../../gm0/source/docs/appendix/vendor-list.rst:68
+msgid ""
+"Also known as WCP, West Coast Products sells products exclusively aimed "
+"toward FRC\\ |reg| use. However many of their parts can be used in FTC, "
+"especially in custom robots."
+msgstr ""
+"Également connu sous le nom de WCP, West Coast Products vend des produits "
+"exclusivement destinés à être utilisés dans le cadre du programme FRC. "
+"Cependant, beaucoup de leurs pièces peuvent être utilisées en FTC, en "
+"particulier dans les robots personnalisés."

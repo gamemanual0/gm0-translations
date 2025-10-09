@@ -7,18 +7,152 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-09 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:4
+msgid "Motor Glossary"
+msgstr "Glossaire des moteurs"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:7
+msgid "Core Hex Motor"
+msgstr "Moteur hexagonal à noyau"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:9
+msgid ""
+"The Core Hex Motor, sold by REV, is different from the standard "
+":term:`RS-555 series motors <RS-550 Series Motor>` that are generally used "
+"by FTC\\ |reg| teams. It features a 90 degree orientation and does not "
+"contain an output shaft. Thus, teams will have to cut 5 mm hex shaft to "
+"length as needed. The Core Hex motor has a slow gear ratio (72:1), and is "
+"much less powerful than the RS-555 series motors."
+msgstr ""
+"Le Core Hex Motor, vendu par REV, est différent des moteurs standard "
+":term:`RS-555 series <RS-550 Series Motor>` généralement utilisés par les "
+"équipes FTC. Il est orienté à 90 degrés et ne contient pas d'arbre de "
+"sortie. Les équipes devront donc couper un arbre hexagonal de 5 mm à la "
+"longueur voulue. Le moteur Core Hex a un rapport de démultiplication lent "
+"(72:1) et est beaucoup moins puissant que les moteurs de la série RS-555."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:11
+msgid ""
+"We advise teams to go against the Basic Bot Guide provided by *FIRST*\\ "
+"|reg|, as Core Hex Motors should NOT be used to power drivetrains."
+msgstr ""
+"Nous conseillons aux équipes d'aller à l'encontre du Basic Bot Guide fourni "
+"par *FIRST*\\ |reg|, car les Core Hex Motors ne doivent PAS être utilisés "
+"pour alimenter les châssis."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst-1
+msgid "A REV Robotics Core Hex motor"
+msgstr "Un moteur REV Robotics Core Hex"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:16
+msgid "HD Hex Motor"
+msgstr "Moteur hexagonal HD"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:18
+msgid ""
+"The HD Hex motor, sold by REV Robotics, is a :term:`RS-555 series motor "
+"<RS-550 Series Motor>` with spur gear and planetary gearbox options. The "
+"motor has a 5mm hex output shaft compatible with REV's motion system."
+msgstr ""
+"Le moteur HD Hex, vendu par REV Robotics, est un :term:`moteur de la série "
+"RS-555 <RS-550 Series Motor>` avec des options d'engrenage droit et "
+"d'engrenage planétaire. Le moteur possède un arbre de sortie hexagonal de 5 "
+"mm compatible avec le système de mouvement REV."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst-1
+msgid "A REV Robotics HD Hex motor"
+msgstr "Un moteur REV Robotics HD Hex"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:23
+msgid "NeveRest Motor"
+msgstr "Moteur NeveRest"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:25
+msgid ""
+"The NeveRest Motor, sold by AndyMark, is a :term:`RS-555 series motor "
+"<RS-550 Series Motor>` that is available in spur gear and planetary options."
+" It has a 6 mm D-shaft output."
+msgstr ""
+"Le moteur NeveRest, vendu par AndyMark, est un :term:`moteur de la série "
+"RS-555 <RS-550 Series Motor>` disponible en version à engrenage droit et en "
+"version planétaire. Il est doté d'un arbre de sortie en D de 6 mm."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:26
+msgid "Yellow Jacket Motor"
+msgstr "Moteur Yellow Jacket"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:28
+msgid ""
+"Yellow Jacket motors are the :term:`RS-555 series motor <RS-550 Series "
+"Motor>` and :term:`planetary gearbox <Planetary Gear>` sold by goBILDA. They"
+" come with a 6 mm D-shaft (5202 series) or 8 mm REX shaft (5203/5204 series)"
+" and are available in many different :term:`gear ratios <Gear Reduction>` "
+"from 3.7:1 up to 188:1."
+msgstr ""
+"Les moteurs Yellow Jacket sont les :term:`moteurs de la série RS-555 <RS-550"
+" Series Motor>` et les :term:`réducteurs planétaires <Planetary Gear>` "
+"vendus par goBILDA. Ils sont livrés avec un arbre D de 6 mm (série 5202) ou "
+"un arbre REX de 8 mm (série 5203/5204) et sont disponibles dans de nombreux "
+":term:`rapports d'engrenage <Gear Reduction>` différents, de 3,7:1 à 188:1."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst-1
+msgid "A Yellow Jacket motor"
+msgstr "Un moteur Yellow Jacket"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:33
+msgid "UltraHex"
+msgstr "UltraHex"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:35
+msgid ""
+"UltraHex is 1/2\" aluminum hex :term:`shafting <Shaft>` sold by REV "
+"Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, "
+"which allows compatibility with REV's 5 mm hex shaft motion system. The 5mm "
+"hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2\" "
+"hex is also compatible with many FRC\\ |reg| vendors."
+msgstr ""
+"UltraHex est un :term:`shafting <Shaft>` hexagonal en aluminium de 1/2\" "
+"vendu par REV Robotics. Il comporte un :term:`alésage hexagonal de 5 mm "
+"<Bore>` au milieu, qui permet la compatibilité avec le système de mouvement "
+"de l'arbre hexagonal de 5 mm de REV. L'alésage hexagonal de 5 mm permet "
+"également le taraudage d'une vis 1/4-20 ou M6. L'alésage hexagonal de 1/2\" "
+"est également compatible avec de nombreux fournisseurs de FRC\\ |reg|."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst-1
+msgid "A piece of ultrahex shaft"
+msgstr "Un morceau de manche ultrahex"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:40
+msgid "RS-550 Series Motor"
+msgstr "Moteur de la série RS-550"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:42
+msgid ""
+"The RS-555 series motor is the standard motor in FTC. It forms the base for "
+"the :term:`AndyMark NeveRest <NeveRest Motor>`, :term:`REV HD Hex <HD Hex "
+"Motor>`, and :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>` motors."
+msgstr ""
+"Le moteur de la série RS-555 est le moteur standard de FTC. Il constitue la "
+"base des moteurs :term:`AndyMark NeveRest <NeveRest Motor>`, :term:`REV HD "
+"Hex <HD Hex Motor>`, et :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>`."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst-1
+msgid "A RS-555 motor, in the form of a bare NeveRest motor"
+msgstr "Un moteur RS-555, sous la forme d'un moteur NeveRest nu"

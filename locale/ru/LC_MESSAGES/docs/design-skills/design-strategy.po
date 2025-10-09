@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-08 16:30+0000\n"
+"POT-Creation-Date: 2025-10-09 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -413,3 +413,477 @@ msgstr ""
 "Слишком часто команды экономят на качестве конструкции и материалов, что "
 "приводит к одной из самых распространенных причин неудачных турниров - "
 "поломке деталей."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:92
+msgid ""
+"Teams also do not take into account the rigors of competition and build as "
+"if the robot will not encounter opposing robots. Sufficient driver practice "
+"will be able to better simulate in-game conditions and test the reliability "
+"of the robot. To remedy this problem, refer to the :doc:`Materials Guide "
+"</docs/custom-manufacturing/materials-guide>` to gain a better understanding"
+" of what materials are recommended for use."
+msgstr ""
+"Команды также не учитывают суровые условия соревнований и собирают робота "
+"так, будто он не столкнется с роботами соперников. Достаточная количество "
+"тренировок операторов позволит лучше смоделировать игровые условия и "
+"проверить надежность робота. Чтобы решить эту проблему, обратитесь к "
+":doc:`Руководство по материалам </docs/custom-manufacturing/materials-"
+"guide>`, чтобы лучше понять, какие материалы рекомендуется использовать."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:94
+msgid ""
+"If possible, teams should build with redundancy in mind. For example, if one"
+" set of linear slides fails due to a wire snapping, having a second set will"
+" still allow the robot to operate instead of sitting dead in the water. "
+"Practically, doubling mechanisms, motors, and servos is a common method to "
+"build for redundancy."
+msgstr ""
+"По возможности, команды должны собирать роботов с учетом поломок. Например, "
+"если один комплект линейных направляющих выйдет из строя из-за обрыва "
+"провода, наличие второго комплекта позволит роботу работать, а не "
+"бездействовать. Практически, удвоение механизмов, моторов и сервоприводов "
+"является распространенным методом создания резерва."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:96
+msgid ""
+"In addition, teams often forget to account for twisting or compression "
+"forces that may occur upon the mechanism."
+msgstr ""
+"Кроме того, команды часто забывают учесть силы скручивания или сжатия, "
+"которые могут возникнуть в механизме."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:98
+msgid ""
+"While we cannot give any specific recommendations, do keep in mind what "
+"forces the support structure of your mechanism must bear along the full "
+"range of motion, and account for what occurs when it might hit another "
+"robot/field wall/field. Building more robustly is always worth the time "
+"spent. However, it is good to think about the extra weight that results."
+msgstr ""
+"Хотя мы не можем дать никаких конкретных рекомендаций, помните о том, какие "
+"силы должна выдерживать несущая конструкция вашего механизма во время всего "
+"диапазона движения, и учитывайте, что он может удариться о другого "
+"робота/борт поля/поле. Более надежная конструкция всегда стоит потраченного "
+"времени. Однако стоит подумать и о дополнительном весе."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:100
+msgid ""
+"Furthermore, a common cause of robot disconnect is wiring issues. Refer to "
+"the :doc:`Wiring section </docs/power-and-electronics/wiring>` for more "
+"information; in short, make sure to plan ahead and leave space for wires, "
+"and use strain relief whenever possible."
+msgstr ""
+"Кроме того, частой причиной отключения робота являются проблемы с проводкой."
+" Более подробную информацию см. в разделе :doc:`Проводка </docs/power-and-"
+"electronics/wiring>`; вкратце, убедитесь, что вы планируете заранее и "
+"оставляете место для проводов, и используйте разгрузку от натяжения, когда "
+"это возможно."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:102
+msgid ""
+"All these tips combined will help your robot become more reliable, a key "
+"characteristic of all world-level robots."
+msgstr ""
+"Все эти советы в совокупности помогут вашему роботу стать более надежным, "
+"что является ключевой характеристикой всех роботов мирового уровня."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:105
+msgid "Fretting about Design |rarr| Focusing on Execution"
+msgstr "Беспокоиться о Дизайне |rarr| Сосредоточиться на Выполнении"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:107
+msgid ""
+"A good execution of a bad design will beat a bad execution of good design."
+msgstr ""
+"Хорошее исполнение плохого дизайна победит плохое исполнение хорошего "
+"дизайна."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:109
+msgid ""
+"FTC\\ |reg| is all about how well you execute in both the mechanical aspect "
+"and the driver aspect. If your goal is winning, then how mechanically "
+"beautiful your robot is doesn't matter. Your goal is less of impressing the "
+"judges but performing the best you possibly can on the field."
+msgstr ""
+"В FTC\\ |reg| все зависит от того, насколько хорошо вы выполняете как "
+"механическую часть, так и работу оператора. Если ваша цель - победа, то "
+"неважно, насколько механически красив ваш робот. Ваша цель - не столько "
+"произвести впечатление на экспертов, сколько выступить на поле как можно "
+"лучше."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:111
+msgid ""
+"It is very possible to take a bad design, execute it well, and still be "
+"competitive at a high level. Even though not many teams are able to do so, "
+"it still goes to show that the method of implementation is very important. "
+"When brainstorming designs, try not to get hung up on small details if "
+"possible."
+msgstr ""
+"Вполне возможно взять плохой дизайн, хорошо его реализовать и при этом быть "
+"конкурентоспособным на высоком уровне. И хотя не многим командам это "
+"удается, это все равно говорит о том, что метод реализации очень важен. Во "
+"время мозгового штурма старайтесь не зацикливаться на мелких деталях, если "
+"это возможно."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:113
+msgid ""
+"It is important to discuss different designs and debate the pros & cons, but"
+" after a design has been picked, stay with it unless there are major flaws "
+"that were originally overlooked. Changing designs will throw away the time "
+"spent on the original design, when teams could have kept improving it or "
+"practiced more. It is possible to rebuild your robot mid-season, and many "
+"top teams have done so to great success."
+msgstr ""
+"Важно обсуждать различные концепции и анализировать их плюсы и минусы, но "
+"после выбора окончательного варианта следует придерживаться его, если только"
+" не обнаружатся изначально упущенные критические недостатки. Постоянная "
+"смена концепций сводит на нет все усилия, затраченные на первоначальную "
+"разработку — время, которое можно было бы направить на совершенствование "
+"конструкции или дополнительные тренировки. При этом следует помнить, что "
+"возможна и пересборка робота в середине сезона, что не раз успешно "
+"демонстрировали ведущие команды."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:115
+msgid ""
+"However, this is not recommended for rookie and new teams due to the general"
+" lack of experience. Realistically, expect to spend 50-100+ hours to rebuild"
+" a robot from the ground up. Focus on how you can iterate your current "
+"design to be as effective, efficient, and refined as possible."
+msgstr ""
+"Однако это не рекомендуется для новичков и новых команд из-за общего "
+"недостатка опыта. Реально можно рассчитывать на 50-100+ часов, чтобы "
+"переделать робота с нуля. Сосредоточьтесь на том, как можно итерационно "
+"изменить текущую конструкцию, чтобы сделать ее максимально эффективной, "
+"действенной и совершенной."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:118
+msgid "Competition Tips and Mistakes"
+msgstr "Советы и Ошибки на Соревнованиях"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:120
+msgid ""
+"Here are some good tips for teams to make decisions in the execution stage."
+msgstr ""
+"Вот несколько полезных рекомендаций, которые помогут командам принимать "
+"решения на этапе реализации проекта."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+msgid "**Problem**"
+msgstr "**Проблема**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:123
+msgid "**Solution**"
+msgstr "**Решение**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+msgid "**Neglect drive practice**"
+msgstr "**Недостаточная тренировка операторов**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:127
+msgid "Drivers unfamiliar with robot"
+msgstr "Операторы, не знакомые с роботом"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+msgid "Robot reliability untested"
+msgstr "Надежность робота не проверена"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:125
+msgid "**Constant driver training**"
+msgstr "**Постоянная тренировка операторов**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:127
+msgid "Drivers comfortable with controls"
+msgstr "Управление робота настроено под опреаторов"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:128
+msgid "Proven and tested robot"
+msgstr "Проверенный и испытанный робот"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+msgid "**No game strategy**"
+msgstr "**Нет игровой стратегии**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:132
+msgid "Lack of contingency plans"
+msgstr "Отсутствие планов на случай непредвиденных обстоятельств"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+msgid "Weakens alliance strength"
+msgstr "Ослабляет результативность альянса"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:130
+msgid "**Strategical driving**"
+msgstr "**Управление роботом с учетом стратегии**."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:132
+msgid "Only purposeful actions taken"
+msgstr "Только целенаправленные действия"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:133
+msgid "Efficient and effective driving"
+msgstr "Эффективное и рациональное управление роботом"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+msgid "**Fully driver-controlled**"
+msgstr "**Полностью управляемый оператором**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:137
+msgid "Less efficient"
+msgstr "Менее эффективно"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:138
+msgid "Requires more practice"
+msgstr "Требуется больше практики"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:135
+msgid "**Partially automated tasks**"
+msgstr "**Частично автоматизированные задачи**."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:137
+msgid "Relieves stress on driver"
+msgstr "Снимает напряжение с операторов"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:138
+msgid "Removes human error"
+msgstr "Устраняет человеческий фактор"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:142
+msgid "Neglecting driver practice |rarr| Constant driver training"
+msgstr ""
+"Пренебрежение тренировкой операторов |rarr| Постоянная практика операторов"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:144
+msgid ""
+"A persistent problem with new teams is neglecting driver practice. Drive "
+"practice is to be done throughout the season, **not the week before "
+"competition.**"
+msgstr ""
+"Постоянная проблема новых команд - пренебрежение тренировками операторов. "
+"Тренировки должны проводиться в течение всего сезона, **а не за неделю до "
+"соревнований.**"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:146
+msgid ""
+"No matter how good your robot is, the robot is only 50% of the equation. The"
+" driver(s) are the other 50% which determine the success of the team as a "
+"whole. Even if your robot is the best in the world, an inferior robot with a"
+" competent drive team more than likely will beat your robot with a poor "
+"drive team. By April's world championships, most top teams have run hundreds"
+" of practice matches."
+msgstr ""
+"Неважно, насколько хорош ваш робот, робот - это только 50% уравнения. "
+"Остальные 50% определяют успех команды в целом. Даже если ваш робот лучший в"
+" мире, более чем вероятно, что уступающий робот с компетентной командой "
+"операторов победит вашего робота с плохой командой операторов. К апрельскому"
+" чемпионату мира большинство лучших команд проводят сотни тренировочных "
+"матчей."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:148
+msgid ""
+"This gives some obvious advantages compared to a team with lesser practice."
+msgstr ""
+"Это дает некоторые очевидные преимущества по сравнению с командой с меньшим "
+"количеством тренировок."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:150
+msgid ""
+"The driver(s) are totally familiar with handling the robot in every "
+"situation."
+msgstr ""
+"Оператор(ы) полностью владеет навыками управления роботом в любой ситуации."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:152
+msgid ""
+"The robot is proven to be reliable enough to survive hours of operation."
+msgstr ""
+"Робот оказался достаточно надежным, чтобы выдержать многочасовую "
+"эксплуатацию."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:153
+msgid ""
+"The immense data that teams gather from test runs are used to optimize every"
+" element of the robot."
+msgstr ""
+"Огромные данные, которые команды собирают в ходе тренировок, используются "
+"для оптимизации каждого элемента робота."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:155
+msgid ""
+"Driver practice not only familiarizes the driver(s) with the robot and "
+"serves as a test of robot reliability, it also simulates in-game conditions."
+" **Learning to push the limits of your robot should be done during practice,"
+" not at a competition.** This way, drivers will become more comfortable "
+"driving under stress and pressure. Teams with intensive driver practice will"
+" purposely make things more difficult (such as placing a disabled robot in "
+"the middle of the field or unplugging a drivetrain motor)."
+msgstr ""
+"Тренировка операторов не только знакомит их с роботом и служит проверкой "
+"надежности робота, но и имитирует игровые условия. **Учиться выжимать "
+"максимум из своего робота следует на тренировках, а не на соревнованиях.** "
+"Таким образом, операторы будут лучше чувствовать себя в условиях стресса и "
+"давления. Команды, интенсивно тренирующие операторов, будут специально "
+"усложнять ситуацию (например, ставить неработающего робота в центр поля или "
+"отключать мотор колесной базы)."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:157
+msgid ""
+"While this may seem extreme, it is really just a form of preparedness. If "
+"your driver doesn't know how to react, then you need more drive practice."
+msgstr ""
+"Хотя это может показаться крайностью, на самом деле это просто форма "
+"готовности. Если ваш оператор не знает, как реагировать, значит, вам нужно "
+"больше практиковаться в управлении роботом."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:160
+msgid "No game strategy |rarr| Strategic driving"
+msgstr "Нет стратегии игры |rarr| Управление роботом с учетом стратегии"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:162
+msgid ""
+"Similar to drive practice, this is something that many inexperienced teams "
+"ignore. A sports example is handy - even with the most talented players, a "
+"team won't go far without good game strategy."
+msgstr ""
+"Как и в случае с тренировками операторов, многие неопытные команды "
+"игнорируют это. Удобен спортивный пример - даже с самыми талантливыми "
+"игроками команда не сможет далеко продвинуться без хорошей игровой "
+"стратегии."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:164
+msgid ""
+"A less capable team with better strategy execution can often pull off an "
+"upset. Planning a strategy ensures that every second in the 2:30 game time "
+"is used to maximum efficiency, which yields maximum points."
+msgstr ""
+"Менее способная команда с лучшей стратегией часто может одержать победу. "
+"Планирование стратегии гарантирует, что каждая секунда в течение 2:30 "
+"игрового времени будет использована с максимальной эффективностью, что "
+"принесет максимум очков."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:166
+msgid ""
+"For example, drivers should know exactly where the robot needs to be "
+"positioned after the autonomous to tele-op switch. Practicing this switch "
+"will save a couple of seconds when drivers have to think \"what do I do "
+"now?\" In very competitive matches, these few seconds may be able to gain "
+"your team an extra cycle. Knowing when to transition from a tele-op to "
+"endgame objective is equally important (hint: perfect one first) and will "
+"save valuable time. Strategy should **always be used to maximize points** - "
+"whether this is a positioning strategy to access the game elements, or a "
+"defensive strategy to hinder the other alliance from scoring."
+msgstr ""
+"Например, операторы должны точно знать, куда нужно поставить робота после "
+"переключения с Автономного периода на Управляемый период. Отработка этого "
+"перехода сэкономит несколько секунд, которые обычно тратятся на размышления "
+"«что делать дальше?». В напряжённых матчах эти секунды могут позволить "
+"команде выполнить дополнительный цикл. Не менее важно понимать, когда "
+"переходить от Управляемого периода к Эндгейму (подсказка: сначала доведите "
+"ее до совершенства) — это также сбережёт ценное время. Стратегия **всегда "
+"должна быть направлена на максимизацию очков** - будь то стратегия "
+"позиционирования для доступа к игровым элементам или оборонительная "
+"стратегия (defense), чтобы помешать другому альянсу набрать очки."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:168
+msgid ""
+"In most seasons, denying the other alliance 10 points is the same value as "
+"scoring 10 points in every match."
+msgstr ""
+"В большинстве сезонов лишить другой альянс 10 очков - это то же самое, что "
+"набрать 10 очков в каждом матче."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:170
+msgid ""
+"**However, it is not advisable for rookie teams to play defense** due to the"
+" specific rules surrounding this strategy. If a team wishes to execute a "
+"defensive strategy, be sure to read all the rules as defense can easily "
+"incur penalties/cards if done improperly."
+msgstr ""
+"**Однако командам-новичкам не рекомендуется играть от обороны (defense)** "
+"из-за особых правил, связанных с этой стратегией. Если команда хочет "
+"использовать оборонительную стратегию (defense), обязательно прочитайте все "
+"правила, так как при неправильной игре оборона (defense) может повлечь за "
+"собой штрафы/наказания."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:172
+msgid "Term"
+msgstr "Понятие"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:175
+msgid "Defense"
+msgstr "Оборона (Defense)"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:177
+msgid ""
+"Defense is a strategy employed with the goal of preventing the opposing "
+"alliance from scoring points, or at least significantly slowing the "
+"opposition's scoring."
+msgstr ""
+"Оборона (Defense) - это стратегия, цель которой - не дать сопернику набрать "
+"очки или, по крайней мере, значительно замедлить их начисление."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:179
+msgid ""
+"This strategy can backfire if drivers illegally play defense and incur "
+"penalties and/or cards for their alliance. Defense is usually played by "
+"obstructing the opposing alliance, either by strategically positioning the "
+"robot to obstruct access or pushing another team's robot into a "
+"disadvantageous position."
+msgstr ""
+"Эта стратегия может не сработать, если операторы будут нарушать правила и "
+"получат штрафы и/или карточки для своего альянса. Оборона (Defense) обычно "
+"заключается в создании препятствий альянсу соперников, либо путем "
+"стратегического расположения робота так, чтобы затруднить доступ, либо путем"
+" вытеснения робота другой команды в невыгодное положение."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:182
+msgid "Fully driver-controlled driving |rarr| Partially automated tasks"
+msgstr ""
+"Полностью контролируемое оператором управление |rarr| Частично "
+"автоматизированные задачи"
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:184
+msgid ""
+"Autonomous should not be limited to only the autonomous mode. Automating "
+"simple tasks can be a real time-saver and efficiency boost to teams."
+msgstr ""
+"Автономность не должна ограничиваться только автономным периодом. "
+"Автоматизация простых задач может реально сэкономить время и повысить "
+"эффективность работы команды."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:186
+msgid ""
+"Automating tasks can save time and reduce the need for driver multi-tasking."
+" Drivers should always be controlling the robot with as few button presses "
+"as possible. For example, automatically stopping the intake mechanism when "
+"game elements have been collected saves a button press."
+msgstr ""
+"Автоматизация задач позволяет сэкономить время и снизить необходимость в "
+"многозадачности оператора. Операторы всегда должны управлять роботом, "
+"нажимая как можно меньше кнопок. Например, автоматическая остановка захвата "
+"после попадания в него игрового элемента позволяет сэкономить одно нажатие "
+"кнопки."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:187
+msgid ""
+"Autonomously operating some mechanisms has the advantage of eliminating "
+"driver error and relieves stress. For example, if a lift has to extend to "
+"exactly 30 inches, a motor with an :term:`encoder <Encoder>` can complete "
+"that with 100% accuracy at full speed, compared to a human driver's minor "
+"error."
+msgstr ""
+"Преимущество автономного управления некоторыми механизмами заключается в "
+"том, что оно исключает ошибки оператора и снимает стресс. Например, если "
+"лифт должен выдвинуться ровно на 30 дюймов, мотор с :term:`encoder "
+"<Encoder>` может сделать это со 100% точностью на полной скорости, по "
+"сравнению с незначительной ошибкой оператора."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:189
+msgid ""
+"Autonomous functions should be able to be overridden by manual input in case"
+" something goes wrong (e.g. encoder is unplugged, a part breaks, etc.) to "
+"prevent damage to the robot and to be compliant with game rules."
+msgstr ""
+"Автономные функции должны иметь возможность переопределяться ручным "
+"управлением на случай возникновения неисправностей (например, отсоединение "
+"энкодера, поломка детали и т.д.) — это предотвратит повреждение робота и "
+"обеспечит соответствие игровым правилам."

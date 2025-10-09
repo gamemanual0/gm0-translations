@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Elizaveta Sukhotskaya, 2025
+# Соня Либерман, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-15 04:42+0000\n"
+"POT-Creation-Date: 2025-10-09 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Elizaveta Sukhotskaya, 2025\n"
+"Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,9 +22,24 @@ msgstr ""
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
+#: ../../gm0/source/docs/software/software-glossary.rst:2
+msgid "Software Glossary"
+msgstr "Словарь Программной Части"
+
 #: ../../gm0/source/docs/software/software-glossary.rst:5
 msgid "Disconnect"
 msgstr "Отключение"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:7
+msgid ""
+"A disconnect (DC) is when, for any reason, the robot is not able to be "
+"controlled from the gamepad. This can happen for many reasons - static "
+"buildup on the robot, a loose cable, or an error in code."
+msgstr ""
+"Отключение (Disconnect, DC) — это ситуация, когда по какой-либо причине "
+"робот не может управляться с помощью геймпада. Это может происходить по "
+"разным причинам - статический заряд на роботе, ненадежно подключённый "
+"кабель, ошибка в коде."
 
 #: ../../gm0/source/docs/software/software-glossary.rst:9
 msgid ""
@@ -37,3 +53,34 @@ msgstr ""
 "натяжения (:term:USB Retention Mount). Также отключения могут быть вызваны "
 "потерей Wi-Fi-соединения или электростатическим разрядом (ESD), "
 "воздействующим на электронику."
+
+#: ../../gm0/source/docs/software/software-glossary.rst:10
+msgid "Driver Station"
+msgstr "Driver Station "
+
+#: ../../gm0/source/docs/software/software-glossary.rst:12
+msgid ""
+"The Driver Station (DS) refers to both the software and device that is used "
+"by the drive team and connects to the gamepad(s). The device can either be "
+"one of the Android phones specified in |gm1| or a REV Robotics Driver Hub."
+msgstr ""
+"Driver Station (DS) — это как программное обеспечение, так и устройство, "
+"которые используются командой управления роботом и подключаются к "
+"геймпаду(ам). Устройство может быть либо одним из телефонов на базе Android,"
+" указанных в |gm1|, либо REV Robotics Driver Hub."
+
+#: ../../gm0/source/docs/software/software-glossary.rst:13
+msgid "Robot Controller"
+msgstr "Robot Controller "
+
+#: ../../gm0/source/docs/software/software-glossary.rst:15
+msgid ""
+"The Robot Controller (RC) refers to both the software and device that is on "
+"the robot that controls it. This can either be a REV Robotics Control Hub or"
+" one of the Android phones specified in |gm1| connected to an Expansion Hub "
+"via a Micro USB cable."
+msgstr ""
+"Robot Controller (RC) — это и устройство, находящееся на роботе, и "
+"программное обеспечение, усправляющее им. Это может быть либо REV Robotics "
+"Control Hub, либо один из телефонов на базе Android, указанных в lgm1l, "
+"подключённый к Expansion Hub через кабель Micro USB."
