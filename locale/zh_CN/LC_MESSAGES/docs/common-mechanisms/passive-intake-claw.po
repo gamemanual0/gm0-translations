@@ -5,15 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 04:16+0000\n"
+"POT-Creation-Date: 2025-10-10 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2023\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +40,7 @@ msgid ""
 "intakes, claws can be made with only servos, and thus don't require valuable"
 " motor slots."
 msgstr ""
-"爪子是最常见的被动吸入拾取装置，可能是头脑风暴中首先想到的机构之一。与大多数吸入拾取装置不同，爪子只需舵机即可制作，因此不需要有价值的电机插槽。"
+"爪式拾取装置是最常见的被动吸入拾取装置，可能是头脑风暴中首先想到的机构之一。与大多数吸入拾取装置不同，爪式拾取装置只需舵机即可制作，因此不需要有价值的电机插槽。"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:8
 msgid ""
@@ -48,7 +49,7 @@ msgid ""
 "element to a separate scoring mechanism. For this reason, in most cases, "
 "claws double as both a collection method and a scoring method."
 msgstr ""
-"这并不是说没有缺点；值得注意的是，与吸入拾取装置不同，当你用爪子拾取东西时，将收集的元素转移到单独的评分机制并不容易。因此，在大多数情况下，爪子既是一种收集方法，也是一种评分方法。"
+"这并不是说没有缺点；值得注意的是，与吸入拾取装置不同，当你用爪式拾取装置拾取东西时，将收集的元素转移到单独的评分机制并不容易。因此，在大多数情况下，爪式拾取装置既是一种收集方法，也是一种评分方法。"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:10
 msgid ""
@@ -57,14 +58,14 @@ msgid ""
 "Recovery would be much harder to control using a more active intake; so "
 "teams used a claw."
 msgstr ""
-"**爪子对于拾取无法被主动摄取控制的大而笨重的元素非常有用。例如，Relic Recovery中的 relic "
-"使用更主动的吸入拾取装置会更难控制；所以团队使用爪子。**"
+"**爪式拾取装置对于拾取无法被主动摄取控制的大而笨重的元素非常有用。例如，Relic Recovery 中的 relic "
+"使用更主动的吸入拾取装置会更难控制；所以团队使用爪式拾取装置。**"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:12
 msgid ""
 "However, claws are outclassed by active intakes for picking up small game "
 "pieces in nearly every game."
-msgstr "然而，在几乎每场比赛中，爪子都被主动吸入拾取装置小游戏碎片的行为所超越。"
+msgstr "然而，在几乎每场比赛中，爪式拾取装置都被主动吸入拾取装置小游戏碎片的行为所超越。"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:15
 msgid "Advantages"
@@ -96,13 +97,13 @@ msgstr "缺点"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:26
 msgid "Depending on their use case, claws are slower than intakes."
-msgstr "根据它们的用例，爪子比吸入拾取装置慢。"
+msgstr "根据它们的用例，爪式拾取装置比吸入拾取装置慢。"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:28
 msgid ""
 "The driver must angle the robot, position the claw, and grab the game "
 "element."
-msgstr "操作手必须调整机器人的角度，定位爪子，并抓住游戏元素。"
+msgstr "操作手必须调整机器人的角度，定位爪式拾取装置，并抓住游戏元素。"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:29
 msgid ""
@@ -112,18 +113,18 @@ msgstr "相比之下，有了吸入拾取装置，操作手只需要定位吸入
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:30
 msgid "Claws can be more fragile and break easily."
-msgstr "爪子可能更脆弱，更容易折断。"
+msgstr "爪式拾取装置可能更脆弱，更容易折断。"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:31
 msgid ""
 "In cases in which claws are slower than intakes, they can be much more prone"
 " to defensive maneuvers. The more time spent collecting, the more vulnerable"
 " you are."
-msgstr "在爪子比吸入拾取装置慢的情况下，它们更容易采取防御策略。花在收集上的时间越多，你就越脆弱。"
+msgstr "在爪式拾取装置比吸入拾取装置慢的情况下，它们更容易采取防御策略。花在收集上的时间越多，它就越脆弱。"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
 msgid "11115's relic claw"
-msgstr "11115队伍 relic 爪子"
+msgstr "11115 队伍 relic 爪式拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
 msgid "11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery"
@@ -131,7 +132,7 @@ msgstr "11115 Gluten Free,决赛联盟冠军(于底特律举办), Relic Recovery
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
 msgid "8680's relic claw"
-msgstr "8680's relic 爪子"
+msgstr "8680队伍 relic 爪式拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
 msgid "8680 Kraken-Pinion, Relic Recovery"
@@ -139,7 +140,7 @@ msgstr "8680 Kraken-Pinion, Relic Recovery"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
 msgid "13075's glyph claw"
-msgstr "13075's glyph 爪子"
+msgstr "13075队伍 glyph 爪式拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
 msgid ""

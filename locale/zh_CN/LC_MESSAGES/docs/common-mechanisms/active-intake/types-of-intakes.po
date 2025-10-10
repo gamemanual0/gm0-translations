@@ -6,16 +6,16 @@
 # Translators:
 # shi shi, 2023
 # DomnickJYH, 2023
-# Shawphy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2025-10-10 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,8 +56,8 @@ msgid ""
 "than one piece at once, such as the foam glyphs in Relic Recovery."
 msgstr ""
 "垂直吸入拾取装置通常具有在垂直轴（Z "
-"轴）上旋转的轮子或其他拾取部件。垂直进气道更易于控制，因为它们一次只能拾取一个元素。垂直进气道擅长拾取大型游戏元素，而这些元素是不可能同时控制多个的，例如《Relic"
-" Recovery》中的泡沫石刻。"
+"轴）上旋转的轮子或其他拾取部件。垂直进气道更易于控制，因为它们一次只能拾取一个元素。垂直进气道擅长拾取大型游戏元素，而这些元素是不可能同时控制多个的，例如"
+" Relic Recovery 中的泡沫石刻。"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:10
 msgid ""
@@ -117,21 +117,21 @@ msgid ""
 "Gecko Wheels."
 msgstr "橡胶轮的例子有 Andymark 的橡胶轮和 goBILDA 的橡胶轮。"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:34
 msgid "A 2\" green compliant wheel"
-msgstr "一个2英寸绿色橡胶轮"
+msgstr "一个 2 英寸绿色橡胶轮"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:34
 msgid "A 2\" compliant wheel"
-msgstr "一个2英寸橡胶轮"
+msgstr "一个 2 英寸橡胶轮"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:40
 msgid "A 4\" green compliant wheel"
-msgstr "一个4英寸绿色橡胶轮"
+msgstr "一个 4 英寸绿色橡胶轮"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:40
 msgid "A 4\" compliant wheel"
-msgstr "一个4英寸橡胶轮"
+msgstr "一个 4 英寸橡胶轮"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:43
 msgid "Solid Wheel Intake"
@@ -159,7 +159,7 @@ msgstr ""
 msgid "Compliant Wheel Intake"
 msgstr "符合标准的车轮吸入拾取装置"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rstNone
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst-1
 msgid "Spring-Loaded Intakes"
 msgstr "弹簧式吸入拾取装置"
 
@@ -186,8 +186,8 @@ msgid ""
 "intakes excel at controlling elements with flat surfaces such as cubes or "
 "rectangular prisms. They suffer at picking up balls."
 msgstr ""
-"橡胶轮吸入拾取装置最常用于大型游戏元素，如 2017-2018 赛季《Relic "
-"Recovery》中的石刻。橡胶轮擅长控制具有平面的元素，如立方体或矩形棱柱。但它们在拾取球方面会吃亏。"
+"橡胶轮吸入拾取装置最常用于大型游戏元素，如 2017-2018 赛季 Relic Recovery "
+"中的石刻。橡胶轮擅长控制具有平面的元素，如立方体或矩形棱柱。但它们在拾取球方面会吃亏。"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:60
 msgid ""
@@ -208,8 +208,8 @@ msgid ""
 "wheels that made contact first, and then had a fixed set in the back. This "
 "is up to the design team's choosing."
 msgstr ""
-"轮式吸入拾取装置可以是弹簧加载的，也可以是锁定到位的。参赛队可以选择其中一种，也可以混合使用；在 \"Relic Recovery "
-"\"项目中，一些参赛队将先接触的一组轮子装上弹簧，然后在后面装上固定的一组轮子。这取决于设计团队的选择。"
+"轮式吸入拾取装置可以是弹簧加载的，也可以是锁定到位的。参赛队可以选择其中一种，也可以混合使用；在 Relic Recovery "
+"项目中，一些参赛队将先接触的一组轮子装上弹簧，然后在后面装上固定的一组轮子。这取决于设计团队的选择。"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:64
 msgid ""
@@ -236,7 +236,7 @@ msgid ""
 msgstr ""
 "手术管一般是乳胶或橡胶管。其最常见的用途是在主动吸入拾取装置中使用，许多赛季以来一直深受队伍的欢迎。手术管的中心是空心的，有不同的直径和壁厚可供选择。参赛队伍可以尝试使用不同种类的手术管，也可以添加聚氨酯管（比橡胶或乳胶管更硬的透明管），以使管子更硬。"
 
-#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:0
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst-1
 msgid "A roll of surgical tubing"
 msgstr "一卷手术管"
 
@@ -280,7 +280,7 @@ msgstr "一般只能拾取一种特定的元素形状"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
 msgid "9971's Relic Recovery intake"
-msgstr "9971 队伍的Relic Recovery吸入拾取装置"
+msgstr "9971 队伍的 Relic Recovery 吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
 msgid ""
@@ -290,31 +290,31 @@ msgstr "9971 LanBros，入围联盟第一选拔赛（于底特律举办），Rel
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
 msgid "8680's Relic Recovery intake"
-msgstr "8680队伍的Relic Recovery吸入拾取装置"
+msgstr "8680 队伍的 Relic Recovery 吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
 msgid "8680 Kraken-Pinion, Relic Recovery"
-msgstr "8680 Kraken-Pinion,Relic Recovery "
+msgstr "8680 Kraken-Pinion, Relic Recovery "
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
 msgid "2856's Relic Recovery intake"
-msgstr "2856 队伍的Relic Recovery吸入拾取装置"
+msgstr "2856 队伍的 Relic Recovery 吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
 msgid ""
 "2856 Tesseract, Relic Recovery, 2 & 4 in. compliant wheels, 2 in. omni "
 "wheels"
-msgstr "2856 Tesseract，Relic Recovery，2 和 4 英寸顺从轮，2 英寸全能轮"
+msgstr "2856 Tesseract，Relic Recovery，2 和 4 英寸兼容轮，2 英寸全方位轮"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
 msgid "11115's Relic Recovery intake"
-msgstr "11115 队伍的Relic Recovery吸入拾取装置"
+msgstr "11115 队伍的 Relic Recovery 吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
 msgid ""
 "11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
 "springloaded"
-msgstr "11115 Gluten Free、入围Alliance Captain（于底特律举办）、Relic Recovery、弹簧加载"
+msgstr "11115 Gluten Free、入围 Alliance Captain（于底特律举办）、Relic Recovery、弹簧加载"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:113
 msgid "Foam Wheel Intake"
@@ -329,7 +329,7 @@ msgstr "泡沫车轮吸入拾取装置的原理与橡胶轮吸入拾取装置相
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
 msgid "6299's ResQ intake"
-msgstr "6299 队伍的ResQ吸入拾取装置"
+msgstr "6299 队伍的 ResQ 吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
 msgid "6299 ViperBots QuadX, Res-Q"
@@ -379,7 +379,7 @@ msgid ""
 "Res-Q, Velocity Vortex, and Rover Ruckus."
 msgstr ""
 "弯管或软管吸入拾取装置通常使用某种柔韧的弯管，它以每1k展现的收入高旋转来进气游戏棋子。油管吸入拾取装置在拾取小物体方面特别有效，例如来自Res-Q、Velmode"
-" Vortex和Rover Ruckus的球和立方体。"
+" Vortex 和 Rover Ruckus 的球和立方体。"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:140
 msgid "Surgical Tubing Intake"
@@ -470,7 +470,7 @@ msgstr "更难轻松拾取大型元素"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
 msgid "8375's surgical tubing intake"
-msgstr "8375队伍的手术管式吸入拾取装置"
+msgstr "8375 队伍的手术管式吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
 msgid "8375 Vulcan Robotics, Res-Q - great example of funneling"
@@ -478,7 +478,7 @@ msgstr "8375 Vulcan Robotics、Res-Q--漏斗输送的典范"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
 msgid "8393's surgical tubing intake"
-msgstr "8393队伍的手术管式吸入拾取装置"
+msgstr "8393 队伍的手术管式吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
 msgid ""
@@ -490,7 +490,7 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
 msgid "11115's surgical tubing intake"
-msgstr "11115队伍的手术管式吸入拾取装置"
+msgstr "11115 队伍的手术管式吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
 msgid "11115 Gluten Free, Winning Alliance First Pick (Detroit), Rover Ruckus"
@@ -498,7 +498,7 @@ msgstr "11115 Gluten Free, 赢得联盟比赛第一名 (于底特律举办), Rov
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
 msgid "7203's surgical tubing intake"
-msgstr "7203队伍的手术管式吸入拾取装置"
+msgstr "7203 队伍的手术管式吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
 msgid "7203 KNO3, Rover Ruckus"
@@ -538,7 +538,7 @@ msgstr "只有当你的团队拥有3D打印部件的经验时，我们才建议�
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
 msgid "731's 3D printed intake"
-msgstr "731队伍的3D打印吸入拾取装置"
+msgstr "731 队伍的3D打印吸入拾取装置"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
 msgid "731 Wannabee Strange, Rover Ruckus"
