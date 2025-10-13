@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Darya Tepysheva, 2025
+# Соня Либерман, 2025
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-13 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Darya Tepysheva, 2025\n"
+"Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,9 +30,75 @@ msgstr "3D-печать"
 msgid "Kinds of 3D Printing"
 msgstr "Виды 3D печати"
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:9
+msgid ""
+"There are a few different kinds of 3D printing. FDM (Fused Deposition "
+"Modeling) (also known as Fused Filament Fabrication) extrudes a melted "
+"filament to create a part and is the most common type and the one we'll "
+"focus on in this guide. SLA (stereolithography) and SLS (Selective Laser "
+"Sintering) are both options for 3D printing plastics, but they are generally"
+" more complex, expensive, or hold other disadvantages in FTC\\ |reg| "
+"applications. For those reasons, they are not recommended."
+msgstr ""
+"Существует несколько различных видов 3D-печати. FDM (Моделирование "
+"Наплавленного Осаждения), также известная как FFF (Изготовление Плавленой "
+"Нити Накала) предполагает выдавливание расплавленного филамента для создания"
+" детали. Это наиболее распространённый тип печати, на котором мы "
+"сосредоточимся в этом руководстве. SLA (стереолитография) и SLS (селективное"
+" лазерное спекание) — это варианты 3D-печати пластиком, но они, как правило,"
+" более сложные, дорогие или имеют другие недостатки применения в FTC\\ "
+"|reg|. По этим причинам они не рекомендуются."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:11
+msgid ""
+"Metal 3D printing (SLS and others) is also becoming more and more available,"
+" but is not in the scope of this guide."
+msgstr ""
+"3D-печать металлом (SLS и другие) также становится все более доступной, "
+"однако не входит в рамки данного руководства."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:13
+msgid ""
+"Consider checking out `the FTC docs 3D printing section <https://ftc-"
+"docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>`_, a "
+"guide for FDM 3D printing within the scope of FTC. It covers topics such as:"
+" bed adhesion, tolerances, designing for 3D printing, tuning, and hardware "
+"choices."
+msgstr ""
+"Рекомендуем ознакомиться с разделом о 3D-печати в документации FTC "
+"<https://ftc-"
+"docs.firstinspires.org/en/latest/manufacturing/3d_printing/index.html>_ — "
+"руководством по FDM 3D-печати в рамках FTC. В нём рассматриваются такие "
+"темы, как: адгезия к столу, допуски, моделирование под 3D-печать, калибровка"
+" и выбор оборудования."
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:16
 msgid "Advantages of 3D Printing"
 msgstr "Преимущества 3D-печати"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:18
+msgid ""
+"3D printing allows for customizable sizing and perfect optimization; for "
+"example, teams can print a spool of the exact diameter needed for optimal "
+"speed, or a belt pulley with a certain number of teeth."
+msgstr ""
+"3D-печать позволяет создавать детали нестандартных размеров и добиваться "
+"идеальной оптимизации. Например, команды могут напечатать бобину строго "
+"определённого диаметра для максимальной скорости или шкив для ременной "
+"передачи с заданным количеством зубьев."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:19
+msgid ""
+"3D printing allows teams to adapt between kits and individual parts easily, "
+"as not all kits have adaptable mounts or brackets. A good example of this "
+"are the Nexus :term:`mecanum <Mecanum Wheel>` bore adapters that teams 3D "
+"print."
+msgstr ""
+"3D-печать позволяет командам легко комбинировать готовые наборы и отдельные "
+"детали, поскольку не все комплекты имеют регулируемые крепления или "
+"кронштейны. Хорошим примером служат переходные втулки для механических колес"
+" Nexus :term:`mecanum <Mecanum Wheel>` , которые команды печатают на "
+"3D-принтерах."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:20
 msgid ""
@@ -41,6 +108,15 @@ msgstr ""
 "3D-печать позволяет изготавливать детали, которые в противном случае было бы"
 " невозможно сделать из таких материалов, как алюминий, из-за ограничений в "
 "механической обработке."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:21
+msgid ""
+"3D printing allows teams to have customizable strain relief on wires and "
+"connections. This is a great project and well worth your time."
+msgstr ""
+"3D-печать позволяет командам создавать кастомную защиту проводов и "
+"соединений от механических нагрузок. Это отличный проект, который "
+"определённо стоит вашего времени."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:24
 msgid "Disadvantages of 3D Printing"
@@ -57,6 +133,18 @@ msgstr ""
 "распечатать как минимум по одному комплекту каждой детали, напечатанной на "
 "3D-принтере, в качестве запасных частей для соревнований **."
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:27
+msgid ""
+"3D printed components are generally weaker than other materials such as "
+"aluminum. However, printing in the proper orientation can be very strong - "
+"teams have 3D printed hooks and other parts to support their FRC\\ |reg| "
+"robot (120 pounds) and FTC robots (40 pounds)."
+msgstr ""
+"3D-печатные компоненты обычно слабее других материалов, таких как алюминий. "
+"Однако печать в правильной ориентации может быть очень прочной - команды "
+"напечатали 3D-крюки и другие детали для поддержки робота FRC\\ |reg| (120 "
+"фунтов) и роботов FTC (40 фунтов)."
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:28
 msgid ""
 "3D printed parts should only be loaded in one orientation. That is, if the "
@@ -69,13 +157,323 @@ msgstr ""
 "приходиться только на нижнюю часть изогнутого крюка. Старайтесь по "
 "возможности исключить боковые нагрузки, чтобы избежать поломки детали."
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:29
+msgid "The size of 3D printed parts is limited by the size of your print bed."
+msgstr ""
+"Размер деталей, напечатанных на 3D-принтере, ограничен размером вашего стола"
+" для печати."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:30
+msgid ""
+"Large and thick prints can take a long time (overnight) to print and can run"
+" the risk of failure."
+msgstr ""
+"Печать крупных и массивных деталей может занять много времени (например, всю"
+" ночь) и сопряжена с высоким риском неудачи."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:31
+msgid ""
+"3D printing can end up quite expensive, though filament can be found for a "
+"reasonable price on online vendors such as Amazon."
+msgstr ""
+"3D-печать может оказаться довольно дорогостоящей, хотя филамент можно найти "
+"по разумной цене у онлайн-продавцов, таких как Amazon."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:34
+msgid "Common Filaments"
+msgstr "Обычные Филаменты"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:36
+msgid ""
+"For almost every part that needs to be 3D printed for FTC, **PLA (or PLA+, "
+"Pro, etc) and/or PETG will meet all the needs for strength, durability, and "
+"aesthetics.** These two filament types are by far the easiest to print, and "
+"are sold by many manufacturers for reasonable prices. Most of the other "
+"filaments here offer very specific advantages (like TPU) that come at the "
+"cost of effort, time, and money."
+msgstr ""
+"Практически для любой детали, которую необходимо напечатать для FTC, **PLA "
+"(или PLA+, Pro и т.д.) и/или PETG удовлетворят все требования по прочности, "
+"долговечности и внешнего вида.** Эти два типа филамента являются безусловно "
+"самыми простыми в печати и продаются многими производителями по разумным "
+"ценам. Большинство других материалов предлагают весьма специфические "
+"преимущества (как, например, TPU), которые достигаются ценой дополнительных "
+"усилий, времени и денег."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:38
+msgid ""
+"If your printer's hotend (the part that melts the filament) has a PTFE "
+"(Teflon) lining where the PTFE tube goes all the way down to the heat block "
+"(common in lower price printers like the Ender 3 and its variants), then you"
+" **should not be printing at or above 250 degrees Celsius**. Doing so will "
+"cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need "
+"to print at these temperatures and you have a PTFE lined hotend, you can "
+"look at upgrading to an all-metal hotend."
+msgstr ""
+"Если нагревательный элемент вашего принтера (часть, в которой расплавляется "
+"филамент) имеет подкладку из ПТФЭ (Тефлон), где трубка из ПТФЭ проходит до "
+"самого термоблока (часто используется в недорогих принтерах, таких как Ender"
+" 3 и его модификациях), то вам **не следует печатать при или выше "
+"температуры 250 градусов Цельсия**. Это приведет к разрушению и расплавлению"
+" трубки из ПТФЭ, что приведет к выделению токсичных паров. Если вам нужно "
+"печатать при таких температурах и у вас есть нагревательный элемент с "
+"покрытием из ПТФЭ, вы можете перейти на цельнометаллический нагревательный "
+"элемент."
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:41
 msgid "PLA (Polylactic Acid)"
 msgstr "PLA (Полимолочная Кислота)"
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:43
+msgid ""
+"The most common 3D Printing filament is polylactic acid, or PLA. It is a "
+"plastic made from biological sources like corn starch and sugar cane. PLA is"
+" stiff but more brittle than other filament options and tends to have little"
+" to no warp when printing. PLA is well suited to the majority of robot "
+"parts, but it may not hold up well to shock loads (impacts to parts), and as"
+" such parts should be designed accordingly."
+msgstr ""
+"Наиболее распространенным филаментом для 3D-печати является полимолочная "
+"кислота, или PLA. Это пластик, изготовленный из биологических материалов, "
+"таких как кукурузный крахмал и сахарный тростник. PLA является жестким, но "
+"более хрупким, чем другие виды филаментов, и при печати практически не "
+"деформируется. PLA хорошо подходит для большинства деталей робота, но может "
+"плохо выдерживать ударные нагрузки (удары по деталям), и поэтому такие "
+"детали должны быть смоделированы соответствующим образом."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:45
+msgid "PLA hotend temperatures range from 190\\ |deg|-230\\ |deg| C"
+msgstr "Температура в хотенде для PLA варьируется от 190\\ |deg|-230\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:46
+msgid ""
+"PLA bed temperatures range from 20\\ |deg|-60\\ |deg| C, but a heated bed "
+"isn't strictly required for PLA"
+msgstr ""
+"Температура стола для PLA варьируется в пределах 20\\ |deg|-60\\ |deg| C, но"
+" подогрев стола не является обязательным условием для PLA."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:48
+msgid ""
+"Due to the relatively low melting point of PLA, it is not advisable to leave"
+" PLA parts in locations such as a hot car, as this can produce severe "
+"warping in those parts."
+msgstr ""
+"Из-за относительно низкой температуры плавления PLA не рекомендуется "
+"оставлять детали из этого материала в таких местах, как закрытый автомобиль "
+"на жаре, так как это может вызвать сильную деформацию деталей."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:50
+msgid ""
+"There are many variations of PLA sold by different manufacturers, like PLA+ "
+"or PLA Pro. These filaments have various additives in them to improve "
+"strength, printability, and other properties. While more expensive, these "
+"products can greatly improve the performance of PLA and cover its "
+"weaknesses."
+msgstr ""
+"Существует множество разновидностей PLA, продаваемых разными "
+"производителями, например, PLA+ или PLA Pro. В состав этих филаментов входят"
+" различные добавки, улучшающие прочность, пригодность для печати и другие "
+"свойства. Хотя эти продукты стоят дороже, они могут значительно улучшить "
+"характеристики PLA и скрыть его недостатки."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:53
+msgid "PETG (Polyethylene Terephthalate Glycol)"
+msgstr "PETG (полиэтилентерефталатгликоль)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:55
+msgid ""
+"PETG can be described as a strength upgrade to PLA. It is not difficult to "
+"print, but often has noticeably more stringing and other minor artifacts. "
+"While it technically has a lower tensile strength than PLA, it is far less "
+"brittle and withstands impacts better, through slight flexing. It is a great"
+" option for FTC parts which need to be impact resistant where PLA will not "
+"suffice. Its higher temperature resistance also means it won't warp in a "
+"high ambient temperature such as a hot car."
+msgstr ""
+"PETG можно охарактеризовать как усиленную версию PLA. Печатать им не сложно,"
+" но он часто дает заметно большее образование нитей и другие мелкие дефекты."
+" Хотя предел прочности при растяжении у PETG технически ниже, чем у PLA, он "
+"гораздо менее хрупкий и лучше выдерживает удары за счет небольшого изгиба. "
+"Это отличный вариант для деталей FTC, которые должны быть ударопрочными, в "
+"тех случаях, когда PLA не справляется. Более высокая термостойкость PETG "
+"также означает, что он не деформируется при высоких температурах окружающей "
+"среды, например, в раскаленной машине."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:57
+msgid ""
+"PETG is known for bonding very well to print beds, **especially glass and "
+"PEI**, and is known to rip chunks out of the bed. It is a good idea to add "
+"some glue stick or hairspray before printing it."
+msgstr ""
+"PETG известен очень сильной адгезией к поверхности стола для печати, "
+"особенно к стеклу и PEI, и может вырывать куски материала из рабочей "
+"поверхности. Перед печатью рекомендуется нанести слой клея-карандаша или "
+"лака для волос."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:59
+msgid "PETG hotend temperatures range from 230\\ |deg|-260\\ |deg| C"
+msgstr "Температурный диапазон хотенда PETG составляет 230\\ |deg|-260\\ |deg| C."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:60
+msgid "PETG bed temperatures range from 60\\ |deg|-80\\ |deg| C"
+msgstr "Температура стола для PETG варьируется от 60\\ |deg|-80\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:63
+msgid "Less Common Filaments"
+msgstr "Менее Распространенные Филаменты"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:65
+msgid ""
+"These filaments are less used than those listed above, but can still find "
+"plenty of use cases on an FTC robot. These usually are used due to specific "
+"material properties such as flexibility or durability. These often come "
+"however, with substantial obstacles for printing that prevent some printers "
+"from printing them out of the box, along with sometimes being significantly "
+"more expensive."
+msgstr ""
+"Данные типы филаментов используются реже, чем упомянутые выше, но также "
+"могут найти множество применений в FTC роботах. Обычно их выбирают из-за "
+"специфических свойств, таких как гибкость или повышенная прочность. Однако "
+"их печать часто сопряжена со значительными трудностями: некоторые принтеры "
+"не могут работать с ними без дополнительной настройки, а стоимость таких "
+"материалов может быть существенно выше."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
+msgid "ABS (Acrylonitrile Butadiene Styrene)"
+msgstr "ABS (Акрилонитрилбутадиенстирол)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:70
+msgid ""
+"ABS used to be the standard filament for printing before PLA became "
+"commercially available. You've probably used ABS before in LEGO\\ |reg| "
+"pieces. It can withstand high loads and is quite ductile. This comes at the "
+"cost of printing difficulty, where an enclosure is often necessary to raise "
+"the ambient temperature and prevent severe part warping. The strength "
+"improvements over PLA can be more easily found in PETG, so ABS parts are not"
+" as common in FTC. ABS is quite affordable though, sold at the same prices "
+"as PLA."
+msgstr ""
+"ABS раньше был стандартным материалом для печати до появления PLA в "
+"коммерческом доступе. Вы наверняка сталкивались с ABS в деталях LEGO\\ "
+"|reg|. Этот материал выдерживает высокие нагрузки и обладает хорошей "
+"пластичностью. Однако за это приходится расплачиваться сложностью печати: "
+"часто требуется термокамера для поддержания температуры окружающей среды и "
+"предотвращения сильной деформации деталей. Поскольку аналогичное улучшение "
+"прочности по сравнению с PLA проще достичь с помощью PETG, ABS не так "
+"распространён в FTC. Тем не менее, ABS вполне доступен по цене и продаётся "
+"по тем же ценам, что и PLA.."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:72
+msgid "ABS hotend temperatures range from 230\\ |deg|-250\\ |deg| C"
+msgstr "Температурный диапазон хотенда ABS составляет 230\\ |deg|-250\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:73
+msgid "ABS bed temperatures range from 100\\ |deg|-120\\ |deg| C"
+msgstr "Температура стола ABS варьируется в пределах 100\\ |deg|-120\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:74
+msgid "Enclosure highly recommended to prevent warping"
+msgstr ""
+"Для предотвращения деформации настоятельно рекомендуется использовать "
+"термокамеру."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:76
+msgid ""
+"Due to the difficulty of printing ABS and its limitations, one might look at"
+" alternatives such as ASA which offer similar properties with much better "
+"printability."
+msgstr ""
+"Из-за сложностей печати ABS и его ограничений стоит рассмотреть "
+"альтернативы, такие как ASA, которые обладают схожими свойствами, но "
+"значительно лучшей технологичностью."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:79
+msgid "TPU/TPE (Thermoplastic polyurethane/Thermoplastic elastomer)"
+msgstr "TPU/TPE (Термопластичный полиуретан/Термопластичный эластомер)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:81
+msgid ""
+"TPU and TPE are both common printing filaments that are widely used for "
+"their flexible material properties. This allows one to create printed parts "
+"that can easily flex and bend. Sold under many different durometers (a "
+"measure on the Shore Hardness Scale of the hardness/flexibility of a "
+"material), TPU/TPE's high impact resistance and layer adhesion make it not "
+"only a versatile filament, but an extremely durable one. In FTC, teams use "
+"TPU/TPE in roles such as printed intake flaps in place of a tube, as well as"
+" custom belts for low-load applications."
+msgstr ""
+"TPU и TPE — это распространенные типы филаментов, широко используемые "
+"благодаря своей гибкости. Они позволяют создавать детали, которые могут "
+"легко сгибаться и деформироваться. Эти материалы продаются с разными "
+"показателями дюрометра (мера твёрдости/гибкости материала по шкале Шора). "
+"Высокая ударная вязкость и отличная адгезия слоев делают TPU/TPE не только "
+"универсальным, но и исключительно прочным материалом. В FTC команды "
+"используют TPU/TPE для таких элементов, как напечатанные элементы для "
+"активного захвата вместо трубок, а также для изготовления несиловых "
+"приводных ремней."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:83
+msgid ""
+"Due to its flexible nature, printers that use a Bowden tube extrusion "
+"system, where the extruder motor is not placed on the hotend, will find it "
+"extremely difficult to print TPU/TPE."
+msgstr ""
+"Из-за гибкой природы этих материалов принтерам с экструдером типа Bowden, "
+"где привод вынесен отдельно от хотенда, печатать TPU/TPE крайне сложно."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:85
+msgid "TPU/TPE hotend temperatures range from 210\\ |deg|-250\\ |deg| C"
+msgstr "Температура хотенда TPU/TPE варьируется от 210\\ |deg|-250\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:88
+msgid "Direct drive extruder is highly recommended"
+msgstr "Настоятельно рекомендуется использовать экструдер с прямой подачей"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:92
+msgid "Exotic Filaments"
+msgstr "Специализированные Виды Филаментов"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:94
+msgid ""
+"There is rarely ever any need for these filaments in FTC. They offer "
+"extremely good material properties for parts that need to be subjected to "
+"high forces and adverse environments. They are all much more expensive than "
+"any of the filaments listed above, and offer a multitude of challenges for "
+"printing."
+msgstr ""
+"В FTC эти материалы практически не находят применения. Несмотря на "
+"превосходные механические свойства, позволяющие деталям выдерживать "
+"экстремальные нагрузки и воздействие неблагоприятных условий окружающей "
+"среды, их использование сопряжено с существенными трудностями. Все эти "
+"филаменты значительно дороже упомянутых выше аналогов, при этом создают "
+"множество проблем при печати."
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:97
 msgid "Nylon"
 msgstr "Нейлон"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:99
+msgid ""
+"Nylon filaments can be glass-filled, carbon fiber-filled, or pure. Nylon is "
+"the king of impact resistance in many situations where the part can flex out"
+" of the way, instead of completely breaking. Occasionally nylon is used for "
+"parts like wheel covers on drivetrains and in places where it will be "
+"repeatedly hit and battered. Nylon requires very high temperatures, "
+"generally requires an enclosure, and absolutely must be dried before (and "
+"while) printing."
+msgstr ""
+"Нейлоновые филаменты могут быть стеклонаполненными, углеволоконными или "
+"чистыми. Нейлон считается лидером по ударопрочности во многих ситуациях, где"
+" деталь может упруго деформироваться, а не ломаться полностью. Его часто "
+"используют для таких деталей, как крышки колес в колесной базе и в местах, "
+"где он может подвергаться многократным ударам и повреждениям. Для печати "
+"нейлоном требуются очень высокие температуры, обычно необходима термокамера,"
+" а материал обязательно нужно просушивать перед печатью (и во время нее)."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
+msgid "Nylon hotend temperatures range from 240\\ |deg|-260\\ |deg| C"
+msgstr "Температура нагрева нейлона варьируется от 240\\ |deg|-260\\ |deg| C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
 msgid ""
@@ -88,17 +486,228 @@ msgstr ""
 "вероятно, приведет к тому, что деталь будет практически непригодна для "
 "использования."
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:104
+msgid "Enclosure recommended"
+msgstr "Рекомендуется использование термокамеры"
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:107
 msgid "Carbon Fiber-filled"
 msgstr "Наполненный углеродным волокном"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:109
+msgid ""
+"Many filaments are also sold with the addition of small chunks of carbon "
+"fiber mixed into the filament itself. While often though of as an extreme "
+"strength improvement, these filaments are instead meant to be stiffer and "
+"help to improve the printability of filaments like nylon. Carbon fiber-"
+"filled filaments generally require higher temperatures, and a hardened steel"
+" nozzle, but if you can print the pure variants of those filaments, you "
+"should be able to print their carbon fiber-filled counterparts."
+msgstr ""
+"Многие филаменты также выпускаются с добавлением частиц углеродного волокна,"
+" которые вводятся в состав самого материала. Хотя их часто считают средством"
+" радикального повышения прочности, на самом деле такие филаменты "
+"предназначены в первую очередь для увеличения жёсткости и улучшения "
+"технологичности печати материалов наподобие нейлона. Углеволоконные "
+"филаменты, как правило, требуют более высоких температур и сопла из "
+"закалённой стали, но если ваш принтер справляется с чистыми версиями этих "
+"материалов, то и с их углеволоконными аналогами проблем возникнуть не "
+"должно."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:113
+msgid "Polycarbonate (PC)"
+msgstr "Поликарбонат (PC)"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:115
+msgid ""
+"Polycarbonate and its variants are very very strong, technical materials. PC"
+" shines in its ability to be very rigid, and handle shock loads exceedingly "
+"well. PC also requires being dry, having a printer capable of **very** high "
+"temperatures, and an enclosure. It is a very challenging material to print, "
+"and is often very expensive. There is little reason to ever need printed "
+"polycarbonate parts in FTC, with no use cases requiring its strength."
+msgstr ""
+"Поликарбонат и его разновидности — это исключительно прочные технические "
+"материалы. Главное преимущество PC заключается в его высокой прочности и "
+"возможности превосходно выдерживать ударные нагрузки. Однако для работы с "
+"ним требуются тщательная сушка, принтер, способный работать при **очень** "
+"высоких температурах, и термокамера. Это чрезвычайно сложный в печати "
+"материал, к тому же обычно весьма дорогой. В FTC практически нет причин "
+"использовать детали из поликарбоната, поскольку ни одна из задач "
+"соревнований не требует его прочностных характеристик."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:117
+msgid ""
+"There are several PC blends that can be much easier to print, a standout "
+"example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC "
+"that retains many of the advantages of pure PC. PolyLite is not quite as "
+"impact-resistant, but a lot cheaper. Both are much easier to print than pure"
+" PC."
+msgstr ""
+"Существует несколько смесей на основе поликарбоната, которые печатать "
+"значительно проще. Яркий пример — материал PolyMax PC от PolyMaker. Это "
+"более простой в печати PC-материал с пониженной температурой обработки, "
+"сохраняющий большинство преимуществ чистого поликарбоната. Модель PolyLite "
+"обладает не столь высокой ударной вязкостью, но существенно дешевле. Оба "
+"варианта печатать намного проще, чем чистый поликарбонат."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
+msgid "PC hotend temperatures range from 250\\ |deg|-320\\ |deg| C"
+msgstr "Температура хотенда PC варьируется от 250\\ |deg|-320\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
+msgid "Enclosure required"
+msgstr "Обязательно использование термокамеры"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:122
+msgid "Filament must be kept dry"
+msgstr "Обязательная сушка филамента"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:125
+msgid "High-end exotic filaments"
+msgstr "Высококлассные специализированные филаменты"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:127
+msgid ""
+"There are a few other materials that can have very high-end benefits, and "
+"push the envelope on what 3D printing can accomplish, but should not be "
+"printed if you are not *very* confident in your printing skills, and have "
+"basically no use in FTC. These materials include, but are not limited to, "
+"Delrin (Polyoxymethylene Homopolymer Acetal), PEI (Polyether Imide, brand "
+"name ULTEM), PEEK (Polyether Ether Ketone), and PEKK "
+"(Polyetherketoneketone). These materials are extremely hard to print, "
+"require ludicrous temperatures (some to the point where a hardened steel "
+"nozzle begins to melt), and are extremely expensive."
+msgstr ""
+"Существуют и другие материалы, которые могут обеспечивать высококлассные "
+"преимущества и расширять границы возможностей 3D-печати, но их не стоит "
+"использовать, если вы не *очень* уверены в своих навыках печати. В FTC они "
+"практически не находят применения. К таким материалам относятся, но не "
+"ограничиваются: Delrin (полиоксиметилен, гомополимер ацеталя), PEI "
+"(полиэфиримид, коммерческое название ULTEM), PEEK (полиэфирэфиркетон) и PEKK"
+" (полиэфиркетонкетон). Эти материалы чрезвычайно сложны в печати, требуют "
+"невероятно высоких температур (некоторые - до такой степени, что начинает "
+"плавиться даже закалённое стальное сопло) и стоят очень дорого."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:130
+msgid "3D Printing Design Guide"
+msgstr "Руководство По Проектированию Для 3D-печати"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:132
+msgid ""
+"Here is a quick guide on designing 3D printed parts that we hope is helpful "
+"for teams who may be unfamiliar with 3D parts."
+msgstr ""
+"Вот краткое руководство по проектированию деталей для 3D-печати, которое, "
+"как мы надеемся, поможет командам, только начинающим работать с "
+"3D-моделированием."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:134
+msgid ""
+"The first consideration when designing 3D printed parts is print "
+"orientation. This refers to the side that contacts the print bed. "
+"Preferably, the part should have a flat bottom to maximize contact with the "
+"print bed."
+msgstr ""
+"Первое, что следует учитывать при проектировании деталей для 3D-печати — это"
+" ориентация модели на столе. Она определяется той стороной, которая "
+"контактирует с поверхностью стола для печати. В идеале деталь должна иметь "
+"плоское основание для максимальной площади контакта со столом, что "
+"обеспечивает лучшее сцепление."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:136
+msgid ""
+"Maximizing contact with the print bed will make sure the part doesn't "
+"delaminate or warp from the bed and increase print quality."
+msgstr ""
+"Максимальная площадь контакта с столом для печати обеспечивает лучшее "
+"сцепление, предотвращая отслаивание и деформацию детали во время печати, что"
+" в итоге повышает общее качество результата."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:138
+msgid ""
+"If it is impossible for the part to have a flat side to print on, a simple "
+"solution is to split the part into multiple parts along a plane. For "
+"instance, the gearbox plate below didn't have a flat side to print on, so it"
+" was split in half. The part was later sandwiched with numerous screws and "
+"plastic glue. If this plate was printed as one part instead of split in "
+"half, support would have to be used to create all of the necessary holes. "
+"Parts that use no support material make sure that the least amount of "
+"plastic is wasted."
+msgstr ""
+"Если деталь не имеет плоской поверхности для печати, простое решение — "
+"разделить её на несколько частей по столу. Например, приведенная ниже "
+"пластина редуктора не имела плоской стороны для печати, поэтому была "
+"разрезана пополам. В дальнейшем части были соединены с помощью винтов и клея"
+" для пластика. Если бы эта пластина была напечатана как единое целое, "
+"потребовалось бы использование поддержек для создания всех необходимых "
+"отверстий. Избегание поддержек позволяет минимизировать расход материала."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst-1
+msgid "A 3D printed gearbox, printed in 2 parts, cut along a plane"
+msgstr ""
+"3D-печатный редуктор, напечатанный 2-мя частями с разрезом по плоскости"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:144
+msgid ""
+"Don't chamfer or round anything on the perimeter of the first layer on the "
+"bottom face of the part. Chamfering or rounding will increase the chances of"
+" the part warping, especially on unheated print plates."
+msgstr ""
+"Не снимайте фаски и не закругляйте ничего по периметру первого слоя на "
+"нижней поверхности детали. Снятие фаски или закругления увеличит вероятность"
+" деформации детали, особенно на столах для печати без нагрева."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:147
 msgid "Draft Angle"
 msgstr "Угол Наклона"
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:149
+msgid ""
+"Draft angle refers to the overhang angle between the part side and normal "
+"vector from the print plate. The maximum draft angle refers to the maximum "
+"angle the printer can print without support material and is based on the "
+"printer, print settings (notably speed, temperature and cooling) and "
+"filament type. When trying to decrease support material, consider every "
+"overhang angle and make sure it is within the maximum draft angle. Staying "
+"within the maximum draft angle will also decrease the chances of part "
+"warping."
+msgstr ""
+"Угол наклона— это угол между боковой поверхностью детали и нормалью к столу "
+"печати. Максимальный угол наклона - это максимальный угол, под которым "
+"принтер может печатать без использования поддержек, и зависит от конкретного"
+" принтера, настроек печати (особенно скорости, температуры и охлаждения) и "
+"типа филамента. Для минимизации поддержек проверяйте все углы наклона в "
+"модели и убедитесь, что их угол не превышает максимально допустимого. "
+"Соблюдение этого предела также снижает риск деформации детали."
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:152
 msgid "Stress Vectors"
 msgstr "Векторы Напряжения"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:154
+msgid ""
+"Perhaps the most important consideration is stress vectors. 3D printed parts"
+" are inherently stronger on two axes and weaker on one axis. The weaker axis"
+" comes from the layering action that defines FDM 3D printing. A common fix "
+"to this is to simply increase the print temperature up to a certain limit "
+"until it starts decreasing print quality, but the weaker axis can be "
+"resolved by again splitting up into multiple parts. The point to get across "
+"is to try to increase strength by optimizing sections of the part on the "
+"plane they are being printed on. For instance, this assembly below was "
+"responsible for hanging the entire robot, so it had to be the maximum "
+"strength possible for a 3D printed part."
+msgstr ""
+"Пожалуй, ключевым аспектом при проектировании являются векторы напряжений. "
+"3D-печатные детали по своей природе обладают повышенной прочностью в двух "
+"осях и пониженной — в третьей. Эта \"слабая ось\" обусловлена самой слоистой"
+" структурой FDM-печати. Частично проблему можно решить повышением "
+"температуры печати до определенного предела, пока не начнет страдать "
+"качество, но более эффективный метод — повторное разделение детали на части."
+" Основная идея заключается в увеличении прочности за счет оптимизации "
+"геометрии детали в плоскости её печати. Например, представленная ниже сборка"
+" отвечала за подвес всего робота и требовала максимально возможной прочности"
+" для 3D-печатной детали."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:156
 msgid ""
@@ -107,6 +716,24 @@ msgid ""
 msgstr ""
 "Может показаться нелогичным разбивать деталь на несколько частей для "
 "увеличения прочности, но в этом есть логика."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:158
+msgid ""
+"The part could have been easily printed as a single part, but it would be "
+"fairly weak when stresses are exerted in the upward direction. Splitting the"
+" part and creating new flat surfaces to print on will strengthen each axis. "
+"*If one small part failed, the robot might still be able to somewhat "
+"function.* This would be preferable to the entire piece failing at once. In "
+"this example, the side pieces were printed as separate parts on a "
+"complementary axis to strengthen the assembly."
+msgstr ""
+"Данную деталь можно было бы легко напечатать цельной, но её прочность "
+"оказалась бы недостаточной при нагрузках, направленных вверх. Разделение "
+"детали и создание новых плоских поверхностей для печати позволяет усилить "
+"каждую из осей. При выходе из строя небольшого компонента робот сохранит "
+"частичную работоспособность, что предпочтительнее полного разрушения всей "
+"конструкции. В данном примере боковые элементы были напечатаны отдельно с "
+"ориентацией на перпендикулярных осях для повышения общей прочности сборки."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst-1
 msgid "A multipart assembly 3D printing"
