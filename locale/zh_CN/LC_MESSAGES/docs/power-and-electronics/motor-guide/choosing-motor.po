@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2024
+# DomnickJYH, 2023
 # Shawphy, 2025
 # 
 #, fuzzy
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-08 16:30+0000\n"
+"POT-Creation-Date: 2025-10-13 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -41,11 +41,11 @@ msgid ""
 " and :term:`goBILDA motors <Yellow Jacket Motor>` are virtually identical. "
 "The most reliable specs can be found in the :ref:`motor-data` section."
 msgstr ""
-"**裸电机** 。在上述所有情况下，这是RS-555型的12V电机  :term:`RS-555 type <RS-550 Series Motor>`"
-" ，自由转速约为 6000 RPM，堵转电流约为 10A。不同供应商发布的电机规格可能略有不同，但差异主要是由于测试方法不同。在现实生活中， "
-":term:`AndyMark NeveRest 电机 <NeveRest Motor>` 、 :term:`REV Robotics HD Hex "
-"电机 <HD Hex Motor>` 和 :term:`goBILDA 电机 <Yellow Jacket Motor>` "
-"使用的裸电机几乎相同。最可靠的规格可以在峰值功率和电机曲线部分找到。"
+"**裸电机** 。在上述所有情况下，这是 RS-555 型的12V电机  :term:`RS-555 type <RS-550 Series "
+"Motor>` ，自由转速约为 6000 RPM，堵转电流约为 "
+"10A。不同供应商发布的电机规格可能略有不同，但差异主要是由于测试方法不同。在现实生活中，:term:`AndyMark NeveRest 电机 "
+"<NeveRest Motor>` 、 :term:`REV Robotics HD Hex 电机 <HD Hex Motor>` 和 "
+":term:`goBILDA 电机 <Yellow Jacket Motor>` 使用的裸电机几乎相同。最可靠的规格可以在峰值功率和电机曲线部分找到。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:39
 msgid ""
@@ -92,9 +92,9 @@ msgid ""
 "Manual for the exact gear ratios <https://docs.revrobotics.com/rev-"
 "crossover-products/ultraplanetary/cartridge-details>`_."
 msgstr ""
-"虽然REV将行星齿轮减速比例为3:1、4:1和5:1，但它们的实际传动比略有不同。请参阅 `REV行星齿轮变速箱用户手册以获取确切的传动比 "
-"<https://docs.revrobotics.com/rev-crossover-"
-"products/ultraplanetary/cartridge-details>`_ 。"
+"虽然 REV 将 UltraPlanetary 的级数列为 3:1、4:1 和 5:1，但它们的实际齿轮比略有不同。有关确切的齿轮比，请查阅 `REV "
+"UltraPlanetary  用户手册 <https://docs.revrobotics.com/rev-crossover-"
+"products/ultraplanetary/cartridge-details>`_。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:61
 msgid ""
@@ -104,8 +104,9 @@ msgid ""
 " addition, the UltraPlanetary has a female 5mm hex output :term:`shaft "
 "<Shaft>` which allows teams to customize the shaft length."
 msgstr ""
-"行星齿轮变速箱旨在为团队提供最大的定制，而没有典型的限制因素——高成本。三级变速箱和电机的总成本对于可定制的电机来说非常划算。此外，行星齿轮变速箱有一个5毫米六角输出"
-" :term:`轴 <Shaft>` ，允许团队定制轴长度。"
+"UltraPlanetary 的目的是为团队提供最大程度的定制化服务，而没有典型的限制因素--"
+"高成本。三级变速箱和电机的总成本对于可定制的电机来说是非常划算的。此外，UltraPlanetary 还有一个内螺纹 5 毫米六角输出 "
+":term:`shaft<Shaft>`，允许团队定制轴的长度。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:80
 msgid "Choosing The Right Gearbox"
