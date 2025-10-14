@@ -9,18 +9,431 @@
 # Aaraf Chy, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-10-14 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:4
+msgid "Design Tradeoffs"
+msgstr "Compromis de conception"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:7
+msgid "**Problem**"
+msgstr "**Problème**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:7
+msgid "Solution"
+msgstr "Solution"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:9
+msgid "**2 motor drivetrain**"
+msgstr "**Châssis à 2 moteurs**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:11
+msgid "Less power"
+msgstr "Moins de puissance"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:12
+msgid "Less acceleration"
+msgstr "Moins d'accélération"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:9
+msgid "**4 motor drivetrain**"
+msgstr "**Châssis à 4 moteurs**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:11
+msgid "Ability to traverse obstacles"
+msgstr "Capacité à franchir des obstacles"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:12
+msgid "Improved power and acceleration"
+msgstr "Amélioration de la puissance et de l'accélération"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:14
+msgid "**Pushbot**"
+msgstr "**Pushbot**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:16
+msgid "Poor agility/manuverability"
+msgstr "Manque d'agilité/maniabilité"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:17
+msgid "Poor top speed"
+msgstr "Vitesse de pointe médiocre"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:14
+msgid "**Mecanum, 6WD, etc.**"
+msgstr "**Mecanum, 6 roues motrices, etc.**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:16
+msgid "More agile, higher top speed"
+msgstr "Plus agile, vitesse de pointe plus élevée"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:17
+msgid "Customizable gear ratio"
+msgstr "Rapport de vitesse personnalisable"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:19
+msgid "**Claw**"
+msgstr "**Pince**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:21
+msgid "Controls 1 element at a time"
+msgstr "Contrôle 1 élément à la fois"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:22
+msgid "Easy to break"
+msgstr "Facile à casser"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:19
+msgid "**Intake**"
+msgstr "**Ramassage**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:21
+msgid "Controls multiple elements at a time"
+msgstr "Contrôle de plusieurs éléments à la fois"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:22
+msgid "Much more efficient"
+msgstr "Beaucoup plus efficace"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:24
+msgid "**Spur gear gearboxes**"
+msgstr "**Réducteurs à engrenages droits**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:26
+msgid "Not for high load use cases"
+msgstr "Pas pour les cas d'utilisation à forte charge"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:27
+msgid "Will break under shock load"
+msgstr "Rupture sous l'effet d'un choc"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:24
+msgid "**Planetary gearboxes**"
+msgstr "**Réducteurs planétaires**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:26
+msgid "Better for drivetrains and high load"
+msgstr "Meilleur pour les châssis et les charges élevées"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:27
+msgid "Resistant to shock loads"
+msgstr "Résistance aux chocs"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:29
+msgid "**Single/multi-axis arm**"
+msgstr "**Bras à un ou plusieurs axes**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:31
+msgid "Often needs high gear ratio"
+msgstr "Nécessite souvent un rapport de démultiplication élevé"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:32
+msgid "More complex than linear extension"
+msgstr "Plus complexe que l'extension linéaire"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:29
+msgid "**Linear extension**"
+msgstr "**Extension linéaire**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:31
+msgid "Generally faster than arms"
+msgstr "Généralement plus rapide que les bras"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:32
+msgid "Much more precise"
+msgstr "Beaucoup plus précis"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:37
+msgid "2 Motor Drivetrain |rarr| 4 Motor Drivetrain"
+msgstr "Châssis à 2 moteurs |rarr| Châssis à 4 moteurs"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:39
+msgid ""
+"In general, it is not recommended for teams to use 2 motors on the "
+"drivetrain, but instead use 4. This is mainly due to the added power and "
+"increased acceleration 4 motors provide."
+msgstr ""
+"En général, il n'est pas recommandé aux équipes d'utiliser 2 moteurs sur le "
+"châssis, mais plutôt 4. Cela est principalement dû à la puissance et à "
+"l'accélération accrues que procurent 4 moteurs."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:41
+msgid ""
+"Typically, top speed is determined by the gear ratio and the motor "
+"specifications, not the number of motors. **However**, acceleration is "
+"affected by the number of motors, and as FTC\\ |reg| robots need to change "
+"direction and accelerate numerous times per match, slow acceleration has a "
+"significant adverse effect on the competitiveness of the robot. In addition,"
+" 2 motor robots may struggle to get over obstacles or climb up ramps, due to"
+" less power. One question that often comes up is \"don't I need more motors "
+"for other things on the robot?\" This is a valid question, but the answer is"
+" generally no. It is possible to build a competitive robot with 4 motors "
+"allocated to drivetrain, and 4 motors for other mechanisms, so there should "
+"be no reason to skimp. Do remember that the drivetrain is the foundation of "
+"the robot. Your mechanisms will not be anywhere near optimized if the "
+"drivetrain can't get your robot from A to B quickly and efficiently. There "
+"has not been a game in FTC history where the top robots needed >4 motors for"
+" the drivetrain, so this is a pretty safe rule to follow."
+msgstr ""
+"En règle générale, la vitesse maximale est déterminée par le rapport de "
+"vitesse et les spécifications du moteur, et non par le nombre de moteurs. "
+"**Cependant, l'accélération est affectée par le nombre de moteurs et, comme "
+"les robots de FTC\\ |reg| doivent changer de direction et accélérer "
+"plusieurs fois par match, une accélération lente a un effet négatif "
+"important sur la compétitivité du robot. En outre, les robots à 2 moteurs "
+"peuvent avoir du mal à franchir des obstacles ou à monter des rampes, en "
+"raison d'une puissance moindre. Une question revient souvent : \"N'ai-je pas"
+" besoin de plus de moteurs pour d'autres choses sur le robot ?\". C'est une "
+"question valable, mais la réponse est généralement non. Il est possible de "
+"construire un robot compétitif avec 4 moteurs alloués à la transmission et 4"
+" moteurs pour d'autres mécanismes, il n'y a donc aucune raison de lésiner. "
+"N'oubliez pas que le châssis est la base du robot. Vos mécanismes ne seront "
+"pas optimisés si le châssis ne peut pas amener votre robot de A à B "
+"rapidement et efficacement. Il n'y a pas eu un seul jeu dans l'histoire de "
+"FTC où les meilleurs robots ont eu besoin de plus de 4 moteurs pour le "
+"châssis, c'est donc une règle assez sûre à suivre."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:44
+msgid "Pushbot |rarr| Mecanum, 6WD, Other Recommended Drivetrains"
+msgstr ""
+"Pushbot |rarr| Mecanum, 6 roues motrices, autres transmissions recommandées"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:46
+msgid ""
+"The pushbot drivetrain, commonly built by first-year teams using the "
+"*FIRST*\\ |reg|-provided guides, is not recommended as a competitive "
+"drivetrain."
+msgstr ""
+"Le châssis pushbot, couramment construit par les équipes de première année à"
+" l'aide des guides *FIRST*\\ |reg|, n'est pas recommandé comme châssis de "
+"compétition."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:48
+msgid ""
+"We do recommend teams who have purchased the Tetrix kit to build it for "
+"educational purposes only - that is, to get familiarized with the parts and "
+"basic building principles using a :term:`channel-based <Channel>` kit. "
+"However, we do not advise that teams use that pushbot at a competition due "
+"to its many flaws."
+msgstr ""
+"Nous recommandons aux équipes qui ont acheté le kit Tetrix de le construire "
+"à des fins éducatives uniquement - c'est-à-dire pour se familiariser avec "
+"les pièces et les principes de construction de base en utilisant un kit "
+":term:`basé sur des profilés <Channel>`. Cependant, nous ne conseillons pas "
+"aux équipes d'utiliser ce pushbot lors d'une compétition en raison de ses "
+"nombreux défauts."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:50
+msgid ""
+"The pushbot is powered by 2 motors, and as stated above, there isn't a "
+"reason to stay with 2 motors on drivetrain."
+msgstr ""
+"Le pushbot est alimenté par 2 moteurs, et comme indiqué ci-dessus, il n'y a "
+"pas de raison de rester avec 2 moteurs sur le châssis."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:51
+msgid ""
+"The pushbot has poor top speed and turning ability, given that the gear "
+"ratio (40:1 on 4 inch wheels) is half the speed that many teams use."
+msgstr ""
+"Le pushbot a une vitesse de pointe et une capacité de virage médiocres, "
+"étant donné que le rapport de transmission (40:1 sur des roues de 4 pouces) "
+"correspond à la moitié de la vitesse utilisée par de nombreuses équipes."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:52
+msgid "It is not advisable to use direct drive."
+msgstr "Il n'est pas conseillé d'utiliser l'entraînement direct."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:54
+msgid ""
+"However, most if not all of these problems will be solved by using a four-"
+"motor drivetrain such as the ones recommended in the drivetrain guide "
+"(mecanum, 6WD, etc.). Therefore, it is recommended for teams to refer to the"
+" :doc:`drivetrain </docs/common-mechanisms/drivetrains/index>` section and "
+"see which drivetrain would fit best for their overall game strategy."
+msgstr ""
+"Cependant, la plupart de ces problèmes, si ce n'est tous, seront résolus par"
+" l'utilisation d'une transmission à quatre moteurs, comme celles "
+"recommandées dans le guide des transmissions (Mécanisme, 6RM, etc.). Il est "
+"donc recommandé aux équipes de se référer à la section :doc:`châssis "
+"</docs/common-mechanisms/drivetrains/index>` et de voir quelle transmission "
+"conviendrait le mieux à leur stratégie de jeu globale."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:57
+msgid "Passive Intake/Claw |rarr| Active Intake"
+msgstr "Ramasseur/Pince passif(ve) |rarr| Ramasseur actif"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:59
+msgid ""
+"Active intakes (ones with continuous rotational motion) should always be "
+"prioritized over passive intakes and grippers."
+msgstr ""
+"Les ramasseurs actifs (ceux qui ont un mouvement de rotation continu) "
+"doivent toujours être privilégiées par rapport aux ramasseurs passeurs et "
+"aux pinces."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:61
+msgid ""
+"Active intakes are much more efficient and effective in picking up common "
+"game elements such as balls, cubes, and rectangular prisms than claws. This "
+"has been a widely accepted rule; many Worlds-level robots over the years use"
+" intakes. **The exception** is that a claw should be used for irregularly "
+"shaped objects that would be impossible to control via intake; for example, "
+"the relic in Relic Recovery."
+msgstr ""
+"Les ramasseurs actifs sont beaucoup plus efficaces pour ramasser les "
+"éléments de jeu courants tels que les balles, les cubes et les prismes "
+"rectangulaires que les pinces. Il s'agit d'une règle largement acceptée ; de"
+" nombreux robots de niveau mondial utilisent des ramasseurs. **L'exception**"
+" est qu'une pince doit être utilisée pour les objets de forme irrégulière "
+"qu'il serait impossible de contrôler à l'aide d'un ramasseur ; par exemple, "
+"la relique dans Relic Recovery."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:63
+msgid "Intakes have two major advantages over claws."
+msgstr ""
+"Les ramasseurs présentent deux avantages majeurs par rapport aux pinces."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:65
+msgid "Intakes can control multiple game elements at a time."
+msgstr "Les ramasseurs peuvent contrôler plusieurs éléments de jeu à la fois."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:66
+msgid ""
+"Intakes are indiscriminate at picking up objects, making them much more "
+"efficient."
+msgstr ""
+"Les ramasseurs ne font pas de distinction pour ramasser les objets, ce qui "
+"les rend beaucoup plus efficaces."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:68
+msgid ""
+"Claws can only pick up one object at a time, and the driver needs to aim the"
+" claw at that specific object to grab it. With an intake, the driver does "
+"not need to focus on one game element - instead; intakes will just pick up "
+"anything in its path, if designed properly. Claws are also prone to "
+"breakage, and thus suffer to defensive robots. They are also generally more "
+"fragile than intakes. Therefore, active intakes are as a result much more "
+"efficient than claws. Nearly every competitive robot from past years has "
+"used active intakes to great effect, so there is plenty of precedent to "
+"follow."
+msgstr ""
+"Les pinces ne peuvent saisir qu'un seul objet à la fois, et le pilote doit "
+"viser cet objet spécifique pour le saisir. Avec un ramasseur, le pilote n'a "
+"pas besoin de se concentrer sur un seul élément du jeu - au lieu de cela, "
+"ils ramasseront tout ce qui se trouve sur leur chemin, s'ils sont conçus "
+"correctement. Les pinces sont également sujettes à la casse, et souffrent "
+"donc pour les robots défensifs. Elles sont aussi généralement plus fragiles "
+"que les ramasseurs. Par conséquent, les ramasseurs actifs sont beaucoup plus"
+" efficaces que les pinces. Presque tous les robots de compétition des années"
+" passées ont utilisé des ramasseurs actifs avec beaucoup d'efficacité, il y "
+"a donc de nombreux précédents à suivre."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:71
+msgid "Spur Gear Gearboxes |rarr| Planetary Gearboxes"
+msgstr "Réducteurs à engrenages droits |rarr| Réducteurs planétaires"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:73
+msgid ""
+"Spur gear gearboxes are fine for most applications for a rookie team. We are"
+" not advocating necessarily having to upgrade to planetary motors, but there"
+" are some advantages which may become useful in more advanced use cases such"
+" as high-load systems."
+msgstr ""
+"Les réducteurs à engrenages droits conviennent à la plupart des applications"
+" pour une équipe débutante. Nous ne préconisons pas de passer nécessairement"
+" à des moteurs planétaires, mais ils présentent certains avantages qui "
+"peuvent s'avérer utiles dans des cas d'utilisation plus avancés, tels que "
+"les systèmes à forte charge."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:75
+msgid ""
+"Spur gear gearboxes have inherent disadvantages to planetary gearboxes. Spur"
+" gear gearboxes should not be used in high-load situations, primarily "
+"because the gears can strip and destroy the gearbox."
+msgstr ""
+"Les réducteurs à engrenages droits présentent des inconvénients inhérents "
+"aux réducteurs planétaires. Les réducteurs à engrenages droits ne doivent "
+"pas être utilisés dans des situations de forte charge, principalement parce "
+"que les engrenages peuvent se déchirer et détruire le réducteur."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:77
+msgid ""
+"An example would be a drivetrain that has to change directions repeatedly "
+"and quickly. Planetary gearboxes are much better suited for drivetrain and "
+"arms, due to the configuration of the sun and planet gears. In addition, "
+"spur gear gearboxes are prone to shock loads; therefore, direct drive is not"
+" advisable on drivetrains. Refer to the :doc:`gearbox anatomy </docs/power-"
+"and-electronics/motor-guide/gearbox-anatomy>` section for more complete "
+"information on gearboxes. **This refers to using spur gear gearboxes which "
+"are attached directly to the pinion gear of the motor. It does not mean "
+"external ratios outside of the motor gearbox, which will always be in a spur"
+" gear configuration.**"
+msgstr ""
+"C'est le cas, par exemple, d'un châssis qui doit changer de direction de "
+"manière répétée et rapide. Les réducteurs planétaires sont beaucoup mieux "
+"adaptés aux transmissions et aux bras, en raison de la configuration des "
+"engrenages solaires et planétaires. En outre, les réducteurs à engrenages "
+"droits sont sujets aux chocs ; par conséquent, l'entraînement direct n'est "
+"pas conseillé pour les châssis. Reportez-vous à la section :doc:`anatomie "
+"des boites d'engrenages </docs/power-and-electronics/motor-guide/gearbox-"
+"anatomy>` pour obtenir des informations plus complètes sur les boîtes de "
+"vitesses. **Il s'agit d'utiliser des réducteurs à engrenages droits qui sont"
+" fixés directement sur le pignon du moteur. Cela ne concerne pas les "
+"rapports externes à la boîte de vitesses du moteur, qui seront toujours dans"
+" une configuration d'engrenage droit.**"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:80
+msgid "Single/multi axis arm |rarr| Linear extension"
+msgstr "Bras à un ou plusieurs axes |rarr| Extension linéaire"
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:82
+msgid ""
+"Teams are generally advised to stay away from arms and move in the direction"
+" of linear slides, primarily due to the issue of complexity. This is because"
+" arms typically are less effective than linear extensions and are harder to "
+"implement properly."
+msgstr ""
+"Il est généralement conseillé aux équipes d'éviter les bras et de s'orienter"
+" vers les glissières linéaires, principalement pour des raisons de "
+"complexité. En effet, les bras sont généralement moins efficaces que les "
+"extensions linéaires et sont plus difficiles à mettre en œuvre correctement."
+
+#: ../../gm0/source/docs/common-mechanisms/design-tradeoffs.rst:84
+msgid ""
+"Arms require a high gear ratio, so arms must be supported extremely well to "
+"bear the torque that the motor provides. A poorly supported and/or "
+"constructed arm will cause the driver needless pain as it is exceedingly "
+"difficult to line up an arm that constantly shakes. In contrast, linear "
+"extensions do not need to worry about gear ratios and gearboxes. They can be"
+" optimized to be more efficient than arms, and typically are more precise, "
+"as linear motion is easier to control than angular motion. Another positive "
+"is that linear slides can have more extension than arms, with some reaching "
+"5+ feet in length."
+msgstr ""
+"Les bras ont besoin d'un rapport de transmission élevé et doivent donc être "
+"extrêmement bien soutenus pour supporter le couple fourni par le moteur. Un "
+"bras mal soutenu et/ou mal construit causera au conducteur des douleurs "
+"inutiles, car il est extrêmement difficile d'aligner un bras qui tremble "
+"constamment. En revanche, les extensions linéaires n'ont pas besoin de se "
+"préoccuper des rapports de transmission et des boîtes de vitesses. Elles "
+"peuvent être optimisées pour être plus efficaces que les bras et sont "
+"généralement plus précises, car le mouvement linéaire est plus facile à "
+"contrôler que le mouvement angulaire. Un autre point positif est que les "
+"glissières linéaires peuvent avoir une plus grande extension que les bras, "
+"certaines pouvant atteindre plus de 5 mètres de long."

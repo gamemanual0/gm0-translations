@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-04 04:32+0000\n"
+"POT-Creation-Date: 2025-10-14 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -22,3 +22,84 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:4
+msgid "Rack and Pinion"
+msgstr "Crémaillère et pignon"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:6
+msgid ""
+"Rack and pinion refers to a a toothed linear gear (the rack), meshed with a "
+"a circular gear (the pinion gear). When the pinion gear is driven, it will "
+"drive the pinion gear upwards or downwards, depending on how the rack and "
+"pinion is mounted."
+msgstr ""
+"La crémaillère désigne un engrenage linéaire denté (la crémaillère), engrené"
+" avec un engrenage circulaire (le pignon). Lorsque le pignon est entraîné, "
+"il entraîne le pignon vers le haut ou vers le bas, en fonction de la façon "
+"dont la crémaillère est montée."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:8
+msgid ""
+"Generally, rack and pinion is a good light-use option for FTC\\ |reg| teams "
+"in terms of linear extension. However, there are some disadvantages to rack "
+"and pinion compared to the other options of linear extension. Therefore, "
+"rack and pinion is generally not recommended for teams."
+msgstr ""
+"En règle générale, la crémaillère est une bonne option pour les équipes FTC "
+"en termes d'extension linéaire. Cependant, la crémaillère présente certains "
+"inconvénients par rapport aux autres options d'extension linéaire. Par "
+"conséquent, la crémaillère n'est généralement pas recommandée pour les "
+"équipes."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:11
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:13
+msgid "Easy way to extend upwards."
+msgstr "Une façon simple d'étendre le champ d'action vers le haut."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:14
+msgid "Power and linear motion in one package"
+msgstr "Puissance et mouvement linéaire en un seul paquet"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:15
+msgid "Can with proper support, sustain heavy load (e.g. hang robot)"
+msgstr ""
+"Peut, avec un soutien approprié, supporter une charge lourde (par exemple, "
+"suspension de robot)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:18
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:20
+msgid ""
+"Rack and pinion generally is only used in one stage, because multiple "
+"mechanisms require other forms of powering it (belt, string, chain, etc.)"
+msgstr ""
+"La crémaillère n'est généralement utilisée qu'à un seul stade, car les "
+"mécanismes multiples nécessitent d'autres formes d'entraînement (courroie, "
+"ficelle, chaîne, etc.)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:22
+msgid ""
+"Rack and pinion needs to be supported very well to sustain heavy load, or "
+"else the mesh will fail. **It is not advisable to use the Tetrix rack and "
+"pinion in high stress conditions**."
+msgstr ""
+"La crémaillère et le pignon doivent être très bien soutenus pour supporter "
+"une charge importante, faute de quoi le maillage se rompt. **Il est "
+"déconseillé d'utiliser la crémaillère Tetrix dans des conditions de fortes "
+"contraintes**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:27
+msgid "A marketing image for the tetrix rack and pinion"
+msgstr "Une image marketing pour la crémaillère tetrix"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:27
+msgid ""
+"The Tetrix rack and pinion has a tendency to fail under medium to high load."
+msgstr ""
+"La crémaillère Tetrix a tendance à céder sous une charge moyenne à élevée."

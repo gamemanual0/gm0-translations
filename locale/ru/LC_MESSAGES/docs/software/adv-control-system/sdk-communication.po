@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Elizaveta Sukhotskaya, 2025
+# Соня Либерман, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 16:31+0000\n"
+"POT-Creation-Date: 2025-10-14 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Elizaveta Sukhotskaya, 2025\n"
+"Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,3 +25,26 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:4
 msgid "SDK Communication"
 msgstr "SDK Communication "
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
+msgid ""
+"Interacting with I2C devices takes significantly longer; upwards of 7 "
+"milliseconds over USB. However, this is not because each LynxCommand takes "
+"longer, but because multiple LynxCommands must be sent to interact with I2C."
+msgstr ""
+"Взаимодействие с устройствами I2C занимает существенно больше времени; свыше"
+" 7 миллисекунд по USB. Однако это происходит не потому, что каждые "
+"LynxCommands занимают больше времени, а потому, что для взаимодействия с I2C"
+" необходимо отправлять несколько LynxCommands."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:22
+msgid ""
+"Please note that since version 5.5 of the SDK, I2C calls on the Control Hub "
+"are much faster than those on the Expansion Hub. This is because the polling"
+" rate was dramatically increased, which can cut down on unnecessary wasted "
+"time."
+msgstr ""
+"Пожалуйста, обратите внимание, что начиная с версии 5.5 SDK, вызовы I2C на "
+"Control Hub происходят значительно быстрее, чем на Expansion Hub. Это "
+"связано с тем, что частота опроса была значительно увеличена, что позволяет "
+"сократить ненужное потраченное время."

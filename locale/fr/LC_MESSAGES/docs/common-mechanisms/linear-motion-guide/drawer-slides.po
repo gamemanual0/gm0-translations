@@ -7,18 +7,511 @@
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-10-14 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:4
+msgid "Drawer Slides"
+msgstr "Glissières de tiroir"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:6
+msgid ""
+"You've *definitely* used a drawer slide before - at least two of them are "
+"mounted to almost any drawer that you've opened. Teams use these drawer "
+"slides for linear motion, often stacking them using 3D printed spacers to "
+"achieve plenty of extension."
+msgstr ""
+"Vous avez **certainement** déjà utilisé une glissière de tiroir — au moins "
+"deux d'entre elles sont montées sur presque tous les tiroirs que vous avez "
+"ouverts. Les équipes utilisent ces glissières de tiroir pour des mouvements "
+"linéaires, les empilant souvent à l'aide d'entretoises imprimées en 3D afin "
+"d'obtenir une grande extension."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:8
+msgid ""
+"These slides are available from a number of different vendors, and come in "
+"many varieties, so choosing the right slide can seem overwhelming. Steel "
+"drawer slides are common, but can be hard to mount, as they aren't made to "
+"be stacked. Aluminum drawer slides, such as the MiSUMI slides, are generally"
+" the best option for teams."
+msgstr ""
+"Ces glissières sont disponibles auprès d'un certain nombre de fournisseurs "
+"et se déclinent en de nombreuses variétés, si bien que le choix de la bonne "
+"glissière peut sembler insurmontable. Les glissières en acier sont "
+"courantes, mais elles peuvent être difficiles à monter, car elles ne sont "
+"pas conçues pour être empilées. Les glissières en aluminium, comme celles de"
+" MiSUMI, sont généralement la meilleure option pour les équipes."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:10
+msgid ""
+"**We recommend the Viper Slides or MiSUMI slides for newer teams.** Viper "
+"Slides are cheaper and interface better with goBILDA products, while MiSUMI "
+"slides interface better with REV products. Viper slides are also available "
+"in a `complete kit <https://www.gobilda.com/2-stage-viper-slide-kit/>`_"
+msgstr ""
+"**Nous recommandons les Viper Slides ou les glissières MiSUMI pour les "
+"nouvelles équipes.** Les Viper Slides sont moins chers et s'interfacent "
+"mieux avec les produits goBILDA, tandis que les glissières MiSUMI "
+"s'interfacent mieux avec les produits REV. Les Viper Slides sont également "
+"disponibles en kit complet <https://www.gobilda.com/2-stage-viper-slide-"
+"kit/>_"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:14
+msgid ""
+"When running two sets of drawer slides together, they should be mounted to "
+"face each other in order to reduce sag. This is especially important for "
+"horizontal extensions."
+msgstr ""
+"Lorsque deux jeux de glissières de tiroirs sont utilisés ensemble, ils "
+"doivent être montés face à face afin de réduire l'affaissement. Ceci est "
+"particulièrement important pour les extensions horizontales."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:0
+msgid ""
+"7236 Recharged Green's Rover Ruckus robot with two sets of SAR3 slides both "
+"facing the ground on their horizontal extension."
+msgstr ""
+"7236 Recharge du robot Rover Ruckus de Green avec deux jeux de glissières "
+"SAR3 orientées vers le sol sur leur extension horizontale."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:19
+msgid "7236 Recharged Green, Rover Ruckus"
+msgstr "7236 Recharged Green, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:21
+msgid ""
+"On 7236's robot, the slides are not facing each other. The sag caused by "
+"this is largely mitigated by supporting the extension at the end with omni "
+"wheels."
+msgstr ""
+"Sur le robot 7236, les glissières ne se font pas face. L'affaissement causé "
+"par cette situation est largement atténué par le soutien de l'extension à "
+"l'extrémité à l'aide de roues omnidirectionnelles."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:0
+msgid ""
+"12791 Iterative Intentions's Freight Frenzy Robot with two sets of SAR240 "
+"slides facing each other on their horizontal extension."
+msgstr ""
+"12791 Robot Freight Frenzy d'Iterative Intentions avec deux jeux de "
+"glissières SAR240 se faisant face sur leur extension horizontale."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:26
+msgid "12791 Iterative Intentions, Power Play"
+msgstr "12791 Iterative Intentions, Power Play"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:28
+msgid ""
+"On 12791's robot, the slides face each other, which decreases sag in "
+"comparison to other orientations."
+msgstr ""
+"Sur le robot 12791, les glissières se font face, ce qui réduit "
+"l'affaissement par rapport à d'autres orientations."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:30
+msgid "Listed below are the recommended drawer slides."
+msgstr "Les glissières de tiroir recommandées sont indiquées ci-dessous."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:33
+msgid "Steel-rolled cabinet drawer slides"
+msgstr "Glissières de tiroirs de meuble roulées en acier"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:35
+msgid ""
+"Available from your local hardware store, steel slides aren't a bad option "
+"for FTC\\ |reg| teams, as they are heavy-duty enough for most use cases. "
+"However, these kinds of slides are much heavier than other aluminum slide "
+"options. Furthermore, these slides are not designed to have bearings or a "
+"second slide attached to them, because they only contain mounting for a "
+"standard drawer. Thus, these slides require drilling holes in order to mount"
+" the necessary parts for linear extension."
+msgstr ""
+"Disponibles dans votre quincaillerie locale, les glissières en acier ne sont"
+" pas une mauvaise option pour les équipes de FTC\\ |reg|, car elles sont "
+"suffisamment résistantes pour la plupart des cas d'utilisation. Cependant, "
+"ces glissières sont beaucoup plus lourdes que les autres glissières en "
+"aluminium. En outre, ces glissières ne sont pas conçues pour recevoir des "
+"roulements ou une deuxième glissière, car elles ne contiennent qu'une "
+"fixation pour un tiroir standard. Par conséquent, ces glissières nécessitent"
+" de percer des trous afin de monter les pièces nécessaires à l'extension "
+"linéaire."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:38
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:76
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:99
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:128
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:40
+msgid "Commonplace at any hardware store"
+msgstr "Banal dans n'importe quelle quincaillerie"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:41
+msgid "Not very expensive"
+msgstr "Pas très cher"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:44
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:84
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:109
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:135
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:46
+msgid "Heavier than other slide options (steel as opposed to aluminum)"
+msgstr ""
+"Plus lourd que les autres options de glissières (acier par opposition à "
+"aluminium)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:47
+msgid "Sliding is usually good but not great"
+msgstr "Le glissement est généralement bon, mais pas excellent"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:48
+msgid "Hard to adapt to building systems"
+msgstr "Difficile de s'adapter aux systèmes de construction"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:49
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:88
+msgid "3D printed spacers may be required"
+msgstr "Des entretoises imprimées en 3D peuvent être nécessaires"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:52
+msgid "MiSUMI Telescopic Slide Rails"
+msgstr "Rails coulissants télescopiques MiSUMI"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:54
+msgid ""
+"The `MiSUMI slide rails <https://us.misumi-"
+"ec.com/vona2/detail/110300072130/?HissuCode=SAR240>`_ are preferred by many "
+"top-tier teams because they are sturdy, very reliable, and ridiculously "
+"smooth due to the ball bearing system. **MiSUMI slides are able to withstand"
+" a significant amount of load with little flex**."
+msgstr ""
+"Les glissières MiSUMI <https://us.misumi-"
+"ec.com/vona2/detail/110300072130/?HissuCode=SAR240>`_ sont préférées par de "
+"nombreuses équipes de haut niveau parce qu'elles sont robustes, très fiables"
+" et ridiculement douces grâce au système de roulement à billes. **Les "
+"glissières MiSUMI sont capables de supporter une charge importante avec peu "
+"de flexion**."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:56
+msgid ""
+"They are also low-profile, and have a M3 mounting pattern, meaning they are "
+"easy to attach to REV components. However, MiSUMI slides have a slightly "
+"higher price point, and it is often difficult to attach one slide to the "
+"next. An easy solution is to attach the end of one slide piece to REV "
+"extrusion, and do the same with the next slide. Then attach the REV pulley "
+"bearing on the top of the extrusion piece for the string to run through."
+msgstr ""
+"Elles sont également peu encombrantes et présentent un schéma de montage M3,"
+" ce qui signifie qu'elles sont faciles à fixer sur les composants REV. "
+"Cependant, les glissières MiSUMI ont un prix légèrement plus élevé et il est"
+" souvent difficile de les fixer l'une à l'autre. Une solution simple "
+"consiste à fixer l'extrémité d'une glissière à l'extrusion REV et à faire de"
+" même avec la glissière suivante. Fixez ensuite le roulement de la poulie "
+"REV sur le haut de la pièce extrudée pour que la ficelle passe à travers."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:58
+msgid ""
+"To save space, some teams have 3D printed an insert that goes between each "
+"slide instead of using the 15mm extrusion piece. In order to attach the "
+"slides to anything, teams will need to purchase **countersunk M3 screws** "
+"from McMaster-Carr. For attaching to REV extrusion, buy 6mm M3 screws with "
+"the M3 nut (**not locknut**) to insert inside the extrusion. As a tip, try "
+"to protect chips or sawdust from falling into the slides, as the sliding "
+"will have a noticeable difference."
+msgstr ""
+"Pour gagner de la place, certaines équipes ont imprimé en 3D un insert qui "
+"va entre chaque glissière au lieu d'utiliser la pièce d'extrusion de 15 mm. "
+"Pour fixer les glissières à quoi que ce soit, les équipes devront acheter "
+"des **vis M3 à tête fraisée** chez McMaster-Carr. Pour la fixation à "
+"l'extrusion REV, achetez des vis M3 de 6 mm avec l'écrou M3 (**pas le "
+"contre-écrou**) à insérer à l'intérieur de l'extrusion. Comme conseil, "
+"essayez de protéger les copeaux ou la sciure de bois de tomber dans les "
+"glissières, car le glissement aura une différence notable."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:60
+msgid ""
+"MiSUMI sells two different types of slides: SAR2 and SAR3. The SAR2 is a "
+"two-piece slide, while the the SAR3 is a three-stage slide (has intermediate"
+" slider to increase the extension of the slide). Teams have used both "
+"successfully, and there isn't neither option is clearly superior."
+msgstr ""
+"MiSUMI vend deux types de glissières : SAR2 et SAR3. Le SAR2 est une "
+"glissière en deux parties, tandis que le SAR3 est une glissière en trois "
+"étapes (avec un curseur intermédiaire pour augmenter l'extension de la "
+"glissière). Les équipes ont utilisé les deux avec succès, et aucune des deux"
+" options n'est clairement supérieure."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:62
+msgid ""
+"Teams using SAR3 slides will generally need to buy low profile M3 jam nuts "
+"from McMaster-Carr to connect the slides together. These nuts fit inside the"
+" slides with a tiny bit of clearance when tightened."
+msgstr ""
+"Les équipes qui utilisent des glissières SAR3 devront généralement acheter "
+"des contre-écrous M3 à profil bas chez McMaster-Carr pour relier les "
+"glissières entre elles. Ces écrous s'insèrent à l'intérieur des glissières "
+"avec un tout petit peu de jeu lorsqu'ils sont serrés."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:67
+msgid "A 3 stage lift using SAR2 slides and a 2 stage lift using SAR3 slides"
+msgstr ""
+"Un ascenseur à 3 étages utilisant des glissières SAR2 et un ascenseur à 2 "
+"étages utilisant des glissières SAR3"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:67
+msgid ""
+"Left: cross section of a 3 stage lift using 3D printed inserts (blue) and "
+"SAR2 slides; right: cross section of a 2 stage lift using a 3D printed "
+"insert and SAR3 slides. The left approach is also used for Long Robotics "
+"slides (discussed below)."
+msgstr ""
+"À gauche : coupe transversale d'un ascenseur à 3 étages utilisant des "
+"inserts imprimés en 3D (bleu) et des glissières SAR2 ; à droite : coupe "
+"transversale d'un ascenseur à 2 étages utilisant un insert imprimé en 3D et "
+"des glissières SAR3. L'approche de gauche est également utilisée pour les "
+"glissières Long Robotics (voir ci-dessous)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:69
+msgid "Rail length Options:"
+msgstr "Options pour la longueur du rail  :"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:71
+msgid "200 mm, part number SAR220 (SAR2) or SAR320 (SAR3)"
+msgstr "200 mm, référence SAR220 (SAR2) ou SAR320 (SAR3)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:72
+msgid "300 mm, part number SAR230 (SAR2) or SAR330 (SAR3)"
+msgstr "300 mm, référence SAR230 (SAR2) ou SAR330 (SAR3)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:73
+msgid "400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)"
+msgstr "400 mm, référence SAR240 (SAR2) ou SAR340 (SAR3)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:78
+msgid "Best slide smoothness due to ball bearings"
+msgstr "Meilleure fluidité de glissement grâce aux roulements à billes"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:79
+msgid "Very little slide flex, robust build quality"
+msgstr "Très peu de flexion de la glissière, qualité de construction robuste"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:80
+msgid "Can handle relatively heavy load use cases (within reason)"
+msgstr ""
+"Peut gérer des cas d'utilisation relativement lourds (dans la limite du "
+"raisonnable)"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:81
+msgid "Compatible with REV 15mm extrusion system"
+msgstr "Compatible avec le système d'extrusion REV 15mm"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:86
+msgid "Not cheap"
+msgstr "Assez cher"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:87
+msgid "Tricky to adapt if not using REV"
+msgstr "Difficile à adapter si l'on n'utilise pas le système REV"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:89
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:139
+msgid ""
+"Steel ball bearings wear into the aluminum rails over time, introducing play"
+msgstr ""
+"Les roulements à billes en acier s'usent dans les rails en aluminium au fil "
+"du temps, ce qui introduit du jeu."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:92
+msgid "Viper Slides"
+msgstr "Glissières Viper"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:94
+msgid ""
+"`goBILDA Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-"
+"carriage-336mm-length-244mm-travel/>`_ are a relatively new addition to the "
+"goBilda ecosystem. They are COTS steel drawer slides that can be purchased "
+"in `a kit with all the parts needed to assemble and rig them right away "
+"<https://www.gobilda.com/2-stage-viper-slide-kit/>`_."
+msgstr ""
+"`goBILDA Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-"
+"carriage-336mm-length-244mm-travel/>`_ est un ajout relativement nouveau à "
+"l'écosystème goBilda. Il s'agit de glissières de tiroir en acier COTS qui "
+"peuvent être achetées en `kit avec toutes les pièces nécessaires pour les "
+"assembler et les monter immédiatement <https://www.gobilda.com/2-stage-"
+"viper-slide-kit/>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:96
+msgid ""
+"They use M4 mounting bolts, and are on the standard 8 mm goBilda pattern."
+msgstr ""
+"Ils utilisent des boulons de montage M4 et sont sur le modèle standard "
+"goBilda de 8 mm."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:101
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:130
+msgid "Slide are smooth due to ball bearings"
+msgstr "Les glissières sont douces grâce aux roulements à billes"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:102
+msgid "Compatible with goBILDA ecosystem"
+msgstr "Compatible avec l'écosystème goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:103
+msgid ""
+"Steel slides can handle more load (can use one set of slides instead of two "
+"in many situations)"
+msgstr ""
+"Les glissières en acier peuvent supporter une charge plus importante (on "
+"peut utiliser un jeu de glissières au lieu de deux dans de nombreuses "
+"situations)."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:104
+msgid ""
+"Available in a kit with everything you need to start using in one purchase"
+msgstr ""
+"Disponible en kit avec tout ce dont vous avez besoin pour commencer à "
+"l'utiliser en un seul achat."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:105
+msgid "Longer stroke (more extension) then the same length misumi slide"
+msgstr ""
+"Course plus longue (plus d'extension) que celle d'un coulisseau misumi de "
+"même longueur"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:106
+msgid "Cheaper then misumi slides"
+msgstr "Moins cher que les rails coulissants misumi"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:111
+msgid "Twice as heavy per slide compared to misumi slides"
+msgstr "Deux fois plus lourd par diapositive que les diapositives misumi"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:112
+msgid "Recommended to mount slides to channel to prevent bending"
+msgstr ""
+"Il est recommandé de monter les glissières sur le canal pour éviter qu'elles"
+" ne se plient."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:115
+msgid "Long Robotics Slides"
+msgstr "Glissières Long Robotics"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:117
+msgid ""
+"Due to the tendency of the endstops to fail, as well as inconsistent jamming"
+" issues on the slides, Long Robotics slides are no longer recommended to "
+"purchase"
+msgstr ""
+"En raison de la tendance à la défaillance des butées et des problèmes de "
+"blocage des glissières, il n'est plus recommandé d'acheter les glissières "
+"Long Robotics."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:119
+msgid ""
+"The `Long Robotics <https://longrobotics.com/>`_ slides are also used by "
+"teams because they are almost as smooth as MiSUMI slides due to the ball "
+"bearing system but slightly cheaper."
+msgstr ""
+"Les glissières \"Long Robotics <https://longrobotics.com/>\" sont également "
+"utilisées par les équipes car elles sont presque aussi douces que les "
+"glissières MiSUMI grâce au système de roulement à billes, mais elles sont "
+"légèrement moins chères."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:121
+msgid ""
+"They utilize M4 mounting bolts, and can mount directly to goBILDA channel. "
+"They are virtually identical to the SAR2 series of MiSUMI slides."
+msgstr ""
+"Elles utilisent des boulons de montage M4 et peuvent être montées "
+"directement sur le profilé goBILDA. Elles sont pratiquement identiques aux "
+"glissières MiSUMI de la série SAR2."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:123
+msgid ""
+"The manufacturer website has CAD files for 3D printed inserts that go "
+"between the slides, which V-bearings are mounted to. V-bearings are "
+"`available from Long Robotics <https://longrobotics.com/product/3x12x4mm-v-"
+"bearing-10-pack/>`_. To attach slides, one will need to purchase "
+"**countersunk M4 screws**, which are `also available from Long Robotics "
+"<https://longrobotics.com/product/6mm-d-low-"
+"head-10mm-m4-screw-10-pack-t10-torx-drive/>`_."
+msgstr ""
+"Le site web du fabricant propose des fichiers CAO pour des inserts imprimés "
+"en 3D qui s'insèrent entre les glissières, sur lesquelles sont montés les "
+"paliers en V. Les paliers en V sont `disponibles auprès de Long Robotics "
+"<https://longrobotics.com/product/3x12x4mm-v-bearing-10-pack/>`_. Pour fixer"
+" les glissières, il faut acheter des **vis M4 à tête fraisée**, qui sont "
+"``également disponibles auprès de Long Robotics "
+"<https://longrobotics.com/product/6mm-d-low-"
+"head-10mm-m4-screw-10-pack-t10-torx-drive/>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:125
+msgid ""
+"These are available in both a `300 mm rail length option "
+"<https://longrobotics.com/product/lrs-300-aluminum-slide-300mm-black-"
+"anodized/>`_ and `400 mm rail length option "
+"<https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-"
+"anodized/>`_."
+msgstr ""
+"Ils sont disponibles en option avec un rail de 300 mm de long "
+"<https://longrobotics.com/product/lrs-300-aluminum-slide-300mm-black-"
+"anodized/>`_ et un rail de 400 mm de long "
+"<https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-"
+"anodized/>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:131
+msgid "Compatible with goBILDA channel"
+msgstr "Compatible avec le profilé goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:132
+msgid "Cheaper than MiSUMI slides"
+msgstr "Moins cher que les rails coulissants MiSUMI"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:137
+msgid ""
+"3D Printed spacers are almost required; while other solutions exist, 3D "
+"Printed spacers are the simplest and lowest-risk"
+msgstr ""
+"Les entretoises imprimées en 3D sont presque obligatoires ; bien qu'il "
+"existe d'autres solutions, les entretoises imprimées en 3D sont les plus "
+"simples et les moins risquées."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:138
+msgid ""
+"Can be difficult to mount to kit systems which aren't :term:`extrusion "
+"<Extrusion>` based or don't have holes spaced at 8 mm apart"
+msgstr ""
+"Peut être difficile à monter sur des systèmes de kits qui ne sont pas basés "
+"sur :term:`extrusion <Extrusion>` ou qui n'ont pas de trous espacés de 8 mm."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:140
+msgid ""
+"The endstops on the slides have been known to fail, spilling ball bearings "
+"out of the slide onto the field"
+msgstr ""
+"Les butées de fin de course des glissières sont connues pour parfois céder, "
+"provoquant l’échappement de billes hors de la glissière et leur dispersion "
+"sur le terrain."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:141
+msgid "Slides have been known to seize and jam on occasion"
+msgstr ""
+"Les glissières sont connues pour se gripper et se bloquer à l'occasion."

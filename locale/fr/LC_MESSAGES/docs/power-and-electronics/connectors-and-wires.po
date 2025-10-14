@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-14 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -37,17 +37,255 @@ msgstr ""
 msgid "Anderson PowerPole"
 msgstr "Anderson PowerPole"
 
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:11
+msgid ""
+"Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest "
+"motors <NeveRest Motor>`. PowerPole connectors are extremely reliable, and "
+"are an excellent choice for high-usage connectors, such as batteries. There "
+"are adapters available to/from other systems. PowerPole connectors are "
+"crimped onto wires."
+msgstr ""
+"Anderson PowerPole est un connecteur utilisé par AndyMark sur ses "
+":term:`NeveRest motors <NeveRest Motor>`. Les connecteurs PowerPole sont "
+"extrêmement fiables et constituent un excellent choix pour les connecteurs à"
+" usage intensif, tels que les batteries. Il existe des adaptateurs pour "
+"d'autres systèmes. Les connecteurs PowerPole sont sertis sur les fils."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:14
+msgid ""
+"While OEM Anderson brand PowerPole connectors are extremely reliable, off-"
+"brand PowerPole connectors, commonly available on sites like Amazon, often "
+"have major reliability issues. When purchasing PowerPole connectors, only "
+"purchase ones specifically listed as Anderson brand."
+msgstr ""
+"Alors que les connecteurs PowerPole de marque Anderson sont extrêmement "
+"fiables, les connecteurs PowerPole d'une autre marque, couramment "
+"disponibles sur des sites tels qu'Amazon, présentent souvent des problèmes "
+"de fiabilité importants. Lorsque vous achetez des connecteurs PowerPole, "
+"n'achetez que ceux qui sont spécifiquement répertoriés comme étant de marque"
+" Anderson."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:16
+msgid ""
+"Additionally, it is important to use crimpers specifically designed for "
+"PowerPole connectors. The `IWISS iCrimp AP-11 "
+"<https://www.amazon.com/dp/B01MSQPTDS>`_ crimpers are a solid choice at a "
+"reasonable price point on Amazon, though any quality crimpers specifically "
+"designed for PowerPole should work fine."
+msgstr ""
+"De plus, il est important d'utiliser des pinces à sertir spécialement "
+"conçues pour les connecteurs PowerPole. Les pinces `IWISS iCrimp AP-11 "
+"<https://www.amazon.com/dp/B01MSQPTDS>`_ sont un choix solide à un prix "
+"raisonnable sur Amazon, mais toutes les pinces de qualité spécialement "
+"conçues pour les PowerPole devraient faire l'affaire."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A PowerPole connector"
+msgstr "Un connecteur PowerPole"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:21
+msgid "3.5mm Bullet"
+msgstr "Bullet 3,5 mm"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:23
+msgid ""
+"A power connector used on the goBILDA Yellow Jacket motors. Bullet "
+"connectors are soldered onto wires."
+msgstr ""
+"Connecteur d'alimentation utilisé sur les moteurs goBILDA Yellow Jacket. Les"
+" connecteurs Bullet sont soudés sur les fils."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:26
+msgid ""
+"Due to the relatively strong holding force and the small size, it is common "
+"for teams to unplug these connectors by pulling on the wires instead of "
+"pulling on the connectors. This will cause fatigue and eventually failure. "
+"If you find yourself often operating these connectors, it is recommended to "
+"replace them with a connector that can be easily unplugged without damaging "
+"the connector, such as the :term:`JST VH` or :term:`Anderson PowerPole` "
+"connectors."
+msgstr ""
+"En raison de la force de maintien relativement importante et de la petite "
+"taille, il est fréquent que les équipes débranchent ces connecteurs en "
+"tirant sur les fils au lieu de tirer sur les connecteurs. Cela entraîne une "
+"fatigue et, à terme, une défaillance. Si vous utilisez souvent ces "
+"connecteurs, il est recommandé de les remplacer par des connecteurs qui "
+"peuvent être facilement débranchés sans les endommager, tels que les "
+"connecteurs :term:`JST VH` ou :term:`Anderson PowerPole`."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A 3.5mm Bullet connector"
+msgstr "Un connecteur Bullet de 3,5 mm"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:31
+msgid "Dupont 0.1\" (TJC8)"
+msgstr "Dupont 0,1\" (TJC8)"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:33
+msgid ""
+"A small pinheader connector commonly used on servos and occasionally on some"
+" sensors. Dupont connectors are crimped onto wires."
+msgstr ""
+"Un petit connecteur à tête d'épingle couramment utilisé sur les servos et "
+"occasionnellement sur certains capteurs. Les connecteurs Dupont sont sertis "
+"sur les fils."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:38
+msgid ""
+"Some vendors sell versions of the 3-pin female connector that are locking, "
+"which significantly improve the reliability of using servo extension wires. "
+"BackBayRC on Amazon sells `servo extension wires with locking connectors "
+"<https://www.amazon.com/BackBayRC-Extension-Strands-Vehicles-"
+"bikes/dp/B0CXR2YBS4/>`_; and Ferra Components sells both `pre-made servo "
+"extension wires with locking connectors "
+"<https://ferracomponents.com/products/20awg-locking-servo-wire>`_, and "
+"`packs of locking connectors you can crimp yourself "
+"<https://ferracomponents.com/products/servo-locking-connector>`_."
+msgstr ""
+"Certains vendent des versions du connecteur femelle à 3 broches qui sont "
+"verrouillables, ce qui améliore considérablement la fiabilité de "
+"l'utilisation des fils d'extension de servo. BackBayRC sur Amazon vend des "
+"\"fils d'extension servo avec connecteurs verrouillables "
+"<https://www.amazon.com/BackBayRC-Extension-Strands-Vehicles-"
+"bikes/dp/B0CXR2YBS4/>\" ; et Ferra Components vend à la fois des \"fils "
+"d'extension servo pré-fabriqués avec connecteurs verrouillables "
+"<https://ferracomponents.com/products/20awg-locking-servo-wire>\", et des "
+"\"paquets de connecteurs verrouillables que vous pouvez sertir vous-même "
+"<https://ferracomponents.com/products/servo-locking-connector>\"."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
+msgid "Locking female 3-pin Dupont connectors"
+msgstr "Connecteurs femelles verrouillables à 3 broches Dupont"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A servo extension wire with 3-pin Dupont connectors"
+msgstr "Un câble d'extension de servo avec des connecteurs Dupont à 3 broches"
+
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:44
 msgid "XT30"
 msgstr "XT30"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:46
+msgid ""
+"The XT30 connector is commonly used by batteries (such as the goBILDA Nested"
+" Battery and the REV Slim Battery), the robot power switch, the REV Control "
+"Hub and Expansion Hub, the :term:`REV Grounding Strap <Grounding Strap>`, "
+"and others. XT30 connectors are soldered onto wires."
+msgstr ""
+"Le connecteur XT30 est couramment utilisé par les batteries (telles que la "
+"batterie imbriquée goBILDA et la batterie mince REV), l'interrupteur "
+"d'alimentation du robot, le concentrateur de commande et le concentrateur "
+"d'extension REV, la :term:``Sangle de mise à la terre REV <Grounding "
+"Strap>`, et d'autres. Les connecteurs XT30 sont soudés sur les fils."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:49
+msgid ""
+"The pins in the XT30 connectors on the Control Hub and Expansion Hub often "
+"compress over time, causing loose power connectivity. See `XT30 Pins are "
+"Compressed - Expansion Hub Troubleshooting "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`_ for details"
+" on the issue and how to fix it."
+msgstr ""
+"Les broches des connecteurs XT30 du Control Hub et de l'Expansion Hub se "
+"compriment souvent avec le temps, ce qui entraîne une perte de connectivité "
+"électrique. Voir ``Les broches XT30 sont comprimées - Dépannage du "
+"Concentrateur d'Expansion <https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/expansion-hub-"
+"troubleshooting#xt30-pins-are-compressed>`_ pour plus de détails sur le "
+"problème et la façon de le résoudre."
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A XT30 connector"
 msgstr "Un connecteur XT30"
 
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:54
+msgid "JST VH"
+msgstr "JST VH"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:56
+msgid ""
+"JST VH is a type of connector used by FTC motors to interface with the REV "
+"Control Hub and Expansion Hub. It is keyed and locks into place for "
+"excellent reliability. JST VH connectors are crimped onto wires."
+msgstr ""
+"JST VH est un type de connecteur utilisé par les moteurs FTC pour "
+"l'interface avec le REV Control Hub et le Expansion Hub. Il est claveté et "
+"se verrouille en place pour une excellente fiabilité. Les connecteurs JST VH"
+" sont sertis sur les fils."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A JST VH connector"
+msgstr "Un connecteur JST VH"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:61
+msgid "JST PH"
+msgstr "JST PH"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:63
+msgid ""
+"JST PH is a type of connector used by the REV Control/Expansion Hubs and "
+"various electronics, such as sensors. On the REV Control/Expansion Hubs, the"
+" 4-pin connector is used for encoder, I2C, analog, and digital connections. "
+"The 3-pin connector is used for the RS-485 connection between the Control "
+"Hub and Expansion Hub. JST PH connectors are crimped onto wires."
+msgstr ""
+"Le JST PH est un type de connecteur utilisé par le Control/Expansion Hubs "
+"REV et divers appareils électroniques, tels que les capteurs. Sur les "
+"control/expansion Hubs REV, le connecteur à 4 broches est utilisé pour les "
+"connexions d'encodeur, I2C, analogiques et numériques. Le connecteur à 3 "
+"broches est utilisé pour la connexion RS-485 entre le concentrateur de "
+"contrôle et le concentrateur d'expansion. Les connecteurs JST PH sont sertis"
+" sur les fils."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "JST PH and JST XH connectors"
+msgstr "Connecteurs JST PH et JST XH"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:68
+msgid "JST XH"
+msgstr "JST XH"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:70
+msgid ""
+"JST XH connectors are used for the encoder connections on goBILDA (MATRIX) "
+"and AndyMark NeveRest motors. Both vendors sell adapters from JST XH to the "
+":term:`JST PH` encoder ports on the REV Control/Expansion Hubs. These "
+"connectors are also occasionally found on some third party sensors. JST XH "
+"connectors are crimped onto wires."
+msgstr ""
+"Les connecteurs JST XH sont utilisés pour les connexions des encodeurs sur "
+"les moteurs goBILDA (MATRIX) et AndyMark NeveRest. Les deux fournisseurs "
+"vendent des adaptateurs de JST XH aux ports d'encodeur :term:`JST PH` sur "
+"les concentrateurs de contrôle/expansion REV. Ces connecteurs sont également"
+" présents sur certains capteurs tiers. Les connecteurs JST XH sont sertis "
+"sur les fils."
+
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:71
 msgid "Tamiya"
 msgstr "Tamiya"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:73
+msgid ""
+"Used on some batteries, such as the Modern Robotics battery that was sold by"
+" goBILDA prior to goBILDA's own battery design being allowed by the "
+"competition manual."
+msgstr ""
+"Utilisé sur certaines batteries, comme la batterie Modern Robotics qui a été"
+" vendue par goBILDA avant que la conception de la batterie de goBILDA ne "
+"soit autorisée par le manuel de la compétition."
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:76
+msgid ""
+"Do not use these connectors! The metal connectors are fragile and will lead "
+"to random disconnects. It is highly recommended to replace any of thse "
+"connectors with a reliable type of connector, such as the :term:`Anderson "
+"PowerPole` connectors."
+msgstr ""
+"N'utilisez pas ces connecteurs ! Les connecteurs métalliques sont fragiles "
+"et provoquent des déconnexions aléatoires. Il est fortement recommandé de "
+"remplacer ces connecteurs par des connecteurs plus fiables, tels que les "
+"connecteurs :term:`Anderson PowerPole`."
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A Tamiya connector"

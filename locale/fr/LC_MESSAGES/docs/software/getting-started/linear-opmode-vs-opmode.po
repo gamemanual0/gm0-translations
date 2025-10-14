@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-10-14 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Justine, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -22,3 +22,157 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:4
+msgid "LinearOpMode vs OpMode"
+msgstr "Mode LinearOp vs Mode Op"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:6
+msgid ""
+"There are two OpMode classes within the FTC\\ |reg| SDK: ``OpMode`` and "
+"``LinearOpMode``. The one you use affects how you write the program. For "
+"examples of how to use OpMode and LinearOpMode, `refer to the example "
+"OpModes in the SDK <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_."
+msgstr ""
+"Il existe deux classes OpMode dans le SDK de FTC : ``OpMode`` et "
+"``LinearOpMode``. Celle que vous utilisez affecte la façon dont vous écrivez"
+" le programme. Pour des exemples d'utilisation d'OpMode et de LinearOpMode, "
+"``référez-vous aux exemples d'OpModes dans le SDK <https://github.com/FIRST-"
+"Tech-"
+"Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:9
+msgid "LinearOpMode Methods"
+msgstr "Méthodes LinearOpMode"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:11
+msgid ""
+"``runOpMode()``: Code inside this method will run exactly once after you "
+"press the INIT button. This is where you should put all code for the OpMode."
+msgstr ""
+"``runOpMode()`` : Le code contenu dans cette méthode sera exécuté exactement"
+" une fois après que vous aurez appuyé sur le bouton INIT. C'est ici que vous"
+" devez placer tout le code de l'OpMode."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:12
+msgid ""
+"``waitForStart()``: This method pauses the Op-Mode until you press the START"
+" button on the driver station."
+msgstr ""
+"``waitForStart()`` : Cette méthode met en pause le mode Op jusqu'à ce que "
+"vous appuyiez sur le bouton START du poste de conduite."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:13
+msgid ""
+"``isStarted()``: returns ``true`` if the START button has been pressed, "
+"otherwise it returns ``false``."
+msgstr ""
+"``isStarted()`` : renvoie ``true`` si le bouton START a été pressé, sinon il"
+" renvoie ``false``."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:14
+msgid ""
+"``isStopRequested()``: returns ``true`` if the STOP button has been pressed,"
+" otherwise it returns ``false``."
+msgstr ""
+"``isStopRequested()`` : renvoie ``true`` si le bouton STOP a été pressé, "
+"sinon il renvoie ``false``."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:15
+msgid ""
+"``idle()``: calls ``Thread.yield``, allowing other threads at the same "
+"priority level to run."
+msgstr ""
+"``idle()`` : appelle ``Thread.yield``, permettant à d'autres threads ayant "
+"le même niveau de priorité de s'exécuter."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:16
+msgid ""
+"``opModeIsActive()``: returns ``isStarted() && !isStopRequested()`` and "
+"calls ``idle()``."
+msgstr ""
+"``opModeIsActive()`` : renvoie ``isStarted() && !isStopRequested()`` et "
+"appelle ``idle()``."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:17
+msgid ""
+"``opModeInInit()``: returns ``!isStarted() && !isStopRequested()`` and does "
+"not call ``idle()``."
+msgstr ""
+"``opModeInInit()`` : renvoie ``!isStarted() && !isStopRequested()`` et "
+"n'appelle pas ``idle()``."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:20
+msgid "OpMode Methods"
+msgstr "Méthodes OpMode"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:22
+msgid ""
+"``init()``: Code inside this method will run exactly once after you press "
+"the INIT button on the driver station."
+msgstr ""
+"``init()`` : Le code contenu dans cette méthode s'exécutera exactement une "
+"fois après que vous aurez appuyé sur le bouton INIT de la station de "
+"pilotage."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:23
+msgid ""
+"``init_loop()``: Once the code in ``init()`` has been run, code inside this "
+"method will run continuously until the START button is pressed on the driver"
+" station."
+msgstr ""
+"``init_loop()`` : Une fois que le code de ``init()`` a été exécuté, le code "
+"contenu dans cette méthode s'exécutera en continu jusqu'à ce que le bouton "
+"START soit pressé sur le poste de conduite."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:24
+msgid ""
+"``start()``: Code inside this method will run exactly once after you press "
+"the START button on the driver station."
+msgstr ""
+"``start()`` : Le code contenu dans cette méthode s'exécutera exactement une "
+"fois après que vous aurez appuyé sur le bouton START du poste de conduite."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:25
+msgid ""
+"``loop()``: Once the code in ``start()`` has been run, code inside this "
+"method will run continuously until the STOP button is pressed on the driver "
+"station."
+msgstr ""
+"``loop()`` : Une fois que le code de ``start()`` a été exécuté, le code à "
+"l'intérieur de cette méthode s'exécutera en continu jusqu'à ce que le bouton"
+" STOP soit pressé sur le poste de conduite."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:26
+msgid ""
+"``stop()``: Code inside this method will run exactly once after you press "
+"the STOP button on the driver station."
+msgstr ""
+"``stop()`` : Le code contenu dans cette méthode s'exécutera exactement une "
+"fois après que vous aurez appuyé sur le bouton STOP du poste de conduite."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:28
+msgid ""
+"As of SDK version 8.1, when executing ``OpMode``\\ s there is a negligible "
+"delay of one millisecond between calls of ``loop()``. Previously, it had "
+"unpredictable delays, however since 8.1 it is similarly performant to "
+"``LinearOpMode``."
+msgstr ""
+"Depuis la version 8.1 du SDK, lors de l'exécution de ``OpMode``, il y a un "
+"délai négligeable d'une milliseconde entre les appels de ``loop()``. "
+"Auparavant, les délais étaient imprévisibles, mais depuis la version 8.1, "
+"les performances sont similaires à celles de ``LinearOpMode``."
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:31
+msgid "Conclusion"
+msgstr "Conclusion"
+
+#: ../../gm0/source/docs/software/getting-started/linear-opmode-vs-opmode.rst:33
+msgid ""
+"Overall, the use of ``LinearOpMode`` or ``OpMode`` is up to preference. "
+"|gm0| uses ``LinearOpMode`` everywhere for consistency."
+msgstr ""
+"Globalement, l'utilisation de ``LinearOpMode`` ou de ``OpMode`` est une "
+"question de préférence. |La version française de Gm0 utilise "
+"``LinearOpMode`` partout pour des raisons de cohérence."

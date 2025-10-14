@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Martin Sorto-Ventura, 2023
 # Lyna Alem, 2025
+# Martin Sorto-Ventura, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-14 04:28+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
-"Last-Translator: Lyna Alem, 2025\n"
+"Last-Translator: Martin Sorto-Ventura, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,6 +25,122 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:4
 msgid "Arms"
 msgstr "Bras "
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:6
+msgid ""
+"Arms encompass a large variety of mechanisms. In FTC, they are used to add "
+"extension and flexibility to end effectors. Arms are especially powerful "
+"when paired with other mechanisms such as linear extension and mini-turrets."
+msgstr ""
+"Les bras englobent une grande variété de mécanismes. En FTC, ils sont "
+"utilisés pour ajouter de l'extension et de la flexibilité aux mécanismes. "
+"Les bras sont particulièrement avantageux lorsqu'ils sont associés à "
+"d'autres mécanismes tels que des extensions linéaires et des mini-tourelles."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:10
+msgid "Arms for Extension"
+msgstr "Bras pour extension"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:12
+msgid ""
+"Arms can be a useful tool for extension. Long arms need large reduction "
+"ratios to drive. The example in the :ref:`Single Arm section <single-arm>` "
+"uses a 254.5:1 reduction. It is recommended to transfer torque to the arm "
+"through a gear, chain, or belt rather than directly mounting to a motor "
+"shaft due to axial forces and the ability to get a larger reduction. Due to "
+"the large amount of momentum these arms can carry, if suddenly stopped they "
+"may be able to break a motor's gearbox or even tip your robot over. Software"
+" control can help to reduce the load on motor gearboxes (see "
+":doc:`/docs/software/concepts/control-loops`)."
+msgstr ""
+"Les bras peuvent être un outil utile pour l'extension. Les bras longs ont "
+"besoin de rapports de réduction importants pour être entraînés. L'exemple "
+"présenté dans la section :ref:`Single Arm <single-arm>` utilise un rapport "
+"de réduction de 254,5:1. Il est recommandé de transférer le couple au bras "
+"par l'intermédiaire d'un engrenage, d'une chaîne ou d'une courroie plutôt "
+"que de le monter directement sur l'arbre du moteur en raison des forces "
+"axiales et de la possibilité d'obtenir une réduction plus importante. En "
+"raison de la grande quantité d'élan que ces bras peuvent transporter, s'ils "
+"s'arrêtent soudainement, ils peuvent briser la boîte de vitesses d'un moteur"
+" ou même faire basculer votre robot. Le contrôle logiciel peut aider à "
+"réduire la charge sur les boîtes de vitesses des moteurs (voir "
+":doc:`/docs/software/concepts/control-loops`)."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:14
+msgid ""
+"Depending on the application and implementation, arms can be either faster "
+"or slower than other extension options."
+msgstr ""
+"Selon l'application et la mise en œuvre, les bras peuvent être plus rapides "
+"ou plus lents que les autres options d'extension."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:19
+msgid "Single Arm"
+msgstr "Bras simple"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:21
+msgid ""
+"The most simple type of arm, a single arm refers to an arm on one axis of "
+"rotation. These arms are relatively easy and quick to build, however they "
+"have little high-level competitive viability as a main extension system "
+"since the extension it provides is limited due to the length restrictions of"
+" the starting cube, only being able to provide around 16\" of extension "
+"whereas over 24\" of extension is desired for most games."
+msgstr ""
+"Le type de bras le plus simple, un bras simple se réfère à un bras sur un "
+"seul axe de rotation. Ces bras sont relativement faciles et rapides à "
+"construire, mais ils ont peu de viabilité compétitive à haut niveau en tant "
+"que système d'extension principal, car l'extension qu'ils fournissent est "
+"limitée en raison des restrictions de longueur du cube de départ, ne pouvant"
+" fournir qu'environ 16\" d'extension alors que plus de 24\" d'extension sont"
+" souhaités pour la plupart des jeux."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
+msgid "goBILDA starter bot, Into The Deep, single arm."
+msgstr "goBILDA starter bot, Into The Deep, bras simple."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
+msgid "goBILDA starter bot, Into The Deep, single arm used for extension."
+msgstr ""
+"goBILDA starter bot, Into The Deep, un seul bras utilisé pour l'extension."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:29
+msgid "Pivot Extension"
+msgstr "Extension du pivot"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:31
+msgid ""
+"A pivot extension mechanism is an arm with a linear extension (typically "
+"linear slides) attached. This allows the linear extension to provide the "
+"desired extension length for both horizontal and vertical extension along "
+"with removing the need for a transfer stage."
+msgstr ""
+"Un mécanisme d'extension à pivot est un bras auquel est attachée une "
+"extension linéaire (généralement des glissières linéaires). Cela permet à "
+"l'extension linéaire de fournir la longueur d'extension souhaitée à la fois "
+"pour l'extension horizontale et verticale, tout en supprimant la nécessité "
+"d'un étage de transfert."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:36
+msgid "Robot with a pivoting arm and long linear extension."
+msgstr "Robot doté d'un bras pivotant et d'une longue extension linéaire."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:36
+msgid "goBILDA Robot in 3 Days, Into The Deep, pivoting linear slides"
+msgstr ""
+"goBILDA Robot en 3 jours, Into The Deep, glissières linéaires pivotantes"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
+msgid "19098's pivot slides"
+msgstr "Glissières pivotantes de 19098"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
+msgid ""
+"19098 Eastern Foxes, Into The Deep, Winning Alliance First Pick (Franklin), "
+"pivoting linear slides"
+msgstr ""
+"19098 Eastern Foxes, Into The Deep, premier choix de l'alliance gagnante "
+"(Franklin), glissières linéaires pivotantes"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid "8417's single arm attached to a belt driven linear extension"
@@ -45,6 +161,124 @@ msgstr ""
 msgid "Multi-Axis Arms"
 msgstr "Bras multi-axes"
 
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
+msgid ""
+"A multi-axis arm consists of multiple rotational joints. A multi-axis arm "
+"provides the extension single arms lack in addition to providing much more "
+"flexibility in positioning the end effector. While multi-axis arms seem like"
+" the obvious solution to the problems single axis arms face, they are much "
+"more difficult to design, manufacture, and control, having issues with "
+"accuracy, backlash, and packaging, while providing little benefit over "
+"linear slides and other extension methods."
+msgstr ""
+"Un bras multi-axes se compose de plusieurs articulations rotatives. Un bras "
+"multi-axes offre l'extension dont les bras simples sont dépourvus, ainsi "
+"qu'une plus grande flexibilité dans le positionnement du mécanisme de "
+"manipulation. Bien que les bras multi-axes semblent être la solution "
+"évidente aux problèmes rencontrés par les bras à axe unique, ils sont "
+"beaucoup plus difficiles à concevoir, à fabriquer et à contrôler, posent des"
+" problèmes de précision, de jeu et d'emballage, tout en offrant peu "
+"d'avantages par rapport aux glissières linéaires et aux autres méthodes "
+"d'extension."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:53
+msgid "This is highly discouraged for inexperienced FTC teams."
+msgstr ""
+"Cette pratique est fortement déconseillée aux équipes de FTC "
+"inexpérimentées."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:58
+msgid "11146's multi-axis arm"
+msgstr "Le bras multi-axes de 11146"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:58
+msgid "11146 Barker Redbacks, Into The Deep, multi-axis arm"
+msgstr "11146 Barker Redbacks, Into The Deep, bras multi-axes"
+
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:63
 msgid "20700's multi-axis arm"
 msgstr "Bras multi-axes de 20700"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:63
+msgid "20700 Snap, Freight Frenzy, multi-axis arm"
+msgstr "20700 Snap, Freight Frenzy, bras multi-axes"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:66
+msgid "Arms for End Effectors"
+msgstr "Bras pour mécanismes de manipulation"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:68
+msgid ""
+"Arms are the most common way to add flexibility and control to end "
+"effectors. These arms typically have one or more rotational joints and/or "
+"linear extension. Due to the relatively small power requirement of these "
+"arms, they are often driven by servos instead of motors."
+msgstr ""
+"Les bras sont le moyen le plus courant d'ajouter de la flexibilité et du "
+"contrôle aux mécanismes de manipulation. Ces bras sont généralement dotés "
+"d'une ou plusieurs articulations rotatives et/ou d'une extension linéaire. "
+"En raison de la puissance relativement faible qu'ils requièrent, ces bras "
+"sont souvent actionnés par des servomoteurs plutôt que par des moteurs."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:70
+msgid ""
+"End effectors are likely to see collisions and with arms acting as a lever, "
+"it is imperative to take extra caution to mount and support these servos "
+"properly (see :doc:`/docs/power-and-electronics/servo-guide/usage-tips`)."
+msgstr ""
+"Les mécanismes de manipulation sont susceptibles de subir des collisions et,"
+" les bras agissant comme un levier, il est impératif de prendre des "
+"précautions supplémentaires pour monter et soutenir ces servos correctement "
+"(voir :doc:`/docs/power-and-electronics/servo-guide/usage-tips`)."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:72
+msgid ""
+"Single and multi-axis arms can add control to the vertical and horizontal "
+"distance of an end effector. In Into The Deep, this type of arm was common "
+"in intakes to allow the intake on a horizontal extension to go over the "
+"submersible barrier and then \"reach down\" for samples. They can be used to"
+" line up intakes and outtakes to facilitate transfers or just generally add "
+"flexibility to where end effectors can act."
+msgstr ""
+"Les bras à un ou plusieurs axes permettent de contrôler la distance "
+"verticale et horizontale d'un mécanisme de manipulation. Dans Into The Deep,"
+" ce type de bras était courant dans les prises d'eau pour permettre à la "
+"prise d'eau sur une extension horizontale de franchir la barrière "
+"submersible, puis de \"descendre\" pour prélever des échantillons. Ils "
+"peuvent être utilisés pour aligner les prises d'eau et les prises d'air afin"
+" de faciliter les transferts ou simplement pour ajouter de la flexibilité à "
+"l'endroit où les effecteurs peuvent agir."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
+msgid ""
+"Linear extension is usually seen on outtakes to increase the range of the "
+"robot's deposit."
+msgstr ""
+"L'extension linéaire est généralement utilisée sur les prises de vues afin "
+"d'augmenter la portée de la dépose du robot."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:79
+msgid "15972's robot with multi-axis intake and outtake arms"
+msgstr "Robot 15972 avec bras de ramasseur et de sortie multi-axes"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:79
+msgid ""
+"15972 TehnoZ, Into The Deep, Finalist Alliance Captain (Edison), arms used "
+"on both intake and outtake, linear extension is used on outtake."
+msgstr ""
+"15972 TehnoZ, Into The Deep, capitaine d'alliance finaliste (Edison), les "
+"bras sont utilisés à la fois à l'entrée et à la sortie, l'extension linéaire"
+" est utilisée à la sortie."
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:84
+msgid "12993's high dof outtake with horizontal extension"
+msgstr ""
+"Prise de vue de 12993 avec une grande portée et une extension horizontale"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:84
+msgid ""
+"12993 RoboKings Aurum, Centerstage, Finalist Alliance 1st Pick, high degree "
+"of freedom outtake arm with horizontal extension."
+msgstr ""
+"12993 RoboKings Aurum, Centerstage, Premier choix d'alliance finaliste, bras"
+" de sortie à haut degré de liberté avec extension horizontale."
