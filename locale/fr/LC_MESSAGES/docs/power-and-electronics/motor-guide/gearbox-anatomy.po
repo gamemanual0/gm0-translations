@@ -8,18 +8,349 @@
 # Younes Djafri, 2025
 # Aaraf Chy, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:4
+msgid "Gearbox Internals"
+msgstr "Boîtes de vitesses internes"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:6
+msgid ""
+"Fundamentally, a gearbox is just a collection of gears and an enclosure that"
+" connects them. Gearboxes have an **output ratio**, the final Gear Reduction"
+" between the motor input and the final output :term:`shaft <Shaft>`."
+msgstr ""
+"Fondamentalement, une boîte de vitesses est simplement un ensemble "
+"d'engrenages et un boîtier qui les relie. Les boîtes de vitesses ont un "
+"**rapport de sortie**, la réduction finale entre l'entrée du moteur et "
+"l':term:`shaft <Shaft>` de sortie finale."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:8
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:26
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:57
+msgid "Term"
+msgstr "Définition"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:11
+msgid "Gear Reduction"
+msgstr "Réduction des engrenages"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:13
+msgid ""
+"Also known as a gear ratio. In any rotational power transmission system "
+"(typically involving motors and :term:`servos <Servo>` in FTC\\ |reg|), a "
+"gear ratio defines both the number of rotations of the system's input and "
+"the number of rotations of the output."
+msgstr ""
+"Également connu sous le nom de rapport d'engrenage. Dans tout système de "
+"transmission de puissance par rotation (impliquant généralement des moteurs "
+"et :term:`servos <Servo>` dans FTC\\ |reg|), un rapport de transmission "
+"définit à la fois le nombre de rotations de l'entrée du système et le nombre"
+" de rotations de la sortie."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:15
+msgid ""
+"For instance, a NeveRest 20 gearmotor consists of an unmodified "
+":term:`NeveRest Motor` and a planetary gearbox that has a gear ratio of 20:1"
+" (or, when spoken, \"20 to 1\"). This means that in order for the output "
+"shaft of the gearbox to rotate 1 time, the input shaft of the motor must "
+"rotate 20 times. Gear ratios are one of the most important design "
+"considerations about a power transmission component."
+msgstr ""
+"Par exemple, un motoréducteur NeveRest 20 se compose d'un :term:`NeveRest "
+"Motor` non modifié et d'un réducteur planétaire dont le rapport de "
+"transmission est de 20:1 (ou, à l'oral, \"20 to 1\"). Cela signifie que pour"
+" que l'arbre de sortie du réducteur tourne une fois, l'arbre d'entrée du "
+"moteur doit tourner 20 fois. Les rapports d'engrenage sont l'une des "
+"considérations les plus importantes dans la conception d'un composant de "
+"transmission de puissance."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:17
+msgid ""
+"Any motor or servo has two properties: speed and torque (or rotational "
+"force). These two properties are inversely proportional, meaning that "
+"increasing speed decreases torque, and vice versa. For instance, if one "
+"wishes to make a mechanism faster at the expense of torque by doubling the "
+"speed of that 20:1 gearbox, they would decrease the gear ratio by a factor "
+"of 2. Since 20 divided by 2 is 10, the new desired ratio would be 10:1 (this"
+" is referred to as gearing up). However, if one wishes to double torque "
+"instead, making the system more powerful and robust at the expense of speed,"
+" they would increase the gear ratio by a factor of 2, leaving them with a "
+"40:1 ratio (this is referred to as gearing down)."
+msgstr ""
+"Tout moteur ou servo possède deux propriétés : la vitesse et le couple (ou "
+"force de rotation). Ces deux propriétés sont inversement proportionnelles, "
+"ce qui signifie qu'une augmentation de la vitesse diminue le couple, et vice"
+" versa. Par exemple, si l'on souhaite rendre un mécanisme plus rapide au "
+"détriment du couple en doublant la vitesse de la boîte de vitesses 20:1, on "
+"diminuera le rapport de transmission d'un facteur 2. 20 divisé par 2 étant "
+"égal à 10, le nouveau rapport souhaité sera de 10:1 (c'est ce que l'on "
+"appelle la démultiplication). Toutefois, si l'on souhaite doubler le couple,"
+" ce qui rend le système plus puissant et plus robuste au détriment de la "
+"vitesse, il faut augmenter le rapport de transmission d'un facteur 2, ce qui"
+" donne un rapport de 40:1 (c'est ce que l'on appelle la démultiplication)."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:19
+msgid ""
+"The most common ways of gearing up or down are using gearboxes, gears, "
+"sprockets and belt-driven pulleys, all of which exist in various sizes."
+msgstr ""
+"Les moyens les plus courants d'augmenter ou de réduire la vitesse sont les "
+"boîtes de vitesses, les engrenages, les pignons et les poulies à courroie, "
+"qui existent tous en différentes tailles."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:21
+msgid ""
+"In FTC, gearboxes may be more common than you think. Nearly every motor and "
+"servo has a gearbox attached or built-in to it. These gearboxes are either "
+"spur or planetary."
+msgstr ""
+"En FTC, les réducteurs sont plus courants que vous ne le pensez. Presque "
+"tous les moteurs et servomoteurs ont un réducteur attaché ou intégré. Ces "
+"réducteurs sont soit à engrenages droits, soit à engrenages planétaires."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:24
+msgid "Spur Gearboxes"
+msgstr "Réducteurs à engrenages droits"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:29
+msgid "Spur gearbox"
+msgstr "Réducteur à roues droites"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:31
+msgid ""
+"A spur gearbox has spur gears which are stacked on top of each other. Gear "
+"reduction is achieved through different size gears on the same plane."
+msgstr ""
+"Un réducteur à engrenages droits comporte des engrenages droits empilés les "
+"uns sur les autres. La réduction de la vitesse est obtenue par des "
+"engrenages de tailles différentes sur le même plan."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:33
+msgid ""
+"Spur gearboxes are an arrangement of :term:`gear ratios <Gear Reduction>`, "
+"often stacked to achieve a large compound ratio (e.g. 40:1). Each individual"
+" ratio only has two :term:`gears <Gear>`- one may be 8:1, another may be "
+"5:1, but the final ratio will be 40:1. These gearboxes are used in the "
+"AndyMark NeveRest Classic series and goBILDA's 5201 series motors, as well "
+"as :term:`REV HD Hex Motors <HD Hex Motor>`. Due to the nature of how these "
+"gearboxes are built, each reduction only has a few teeth from each "
+":term:`gear <Gear>` engaged, and those teeth carry the entire load of the "
+"gearbox. It's easy to damage a spur gearbox from shock load, and if one "
+":term:`gear <Gear>` breaks, the entire gearbox will stop functioning."
+msgstr ""
+"Les boîtes de vitesses droites sont un arrangement de :term:`rapports "
+"d'engrenages <Gear Reduction>`, souvent empilés pour obtenir un grand "
+"rapport composé (par exemple 40:1). Chaque rapport individuel ne comporte "
+"que deux :term:`réducteurs <Gear>` - l'un peut être de 8:1, l'autre de 5:1, "
+"mais le rapport final sera de 40:1. Ces réducteurs sont utilisés dans la "
+"série AndyMark NeveRest Classic et les moteurs de la série 5201 de goBILDA, "
+"ainsi que :term:`REV HD Hex Motors <HD Hex Motor>`. En raison de la nature "
+"de la construction de ces réducteurs, chaque réduction n'a que quelques "
+"dents de chaque :term:`réducteur <Gear>` engagées, et ces dents supportent "
+"la totalité de la charge du réducteur. Il est facile d'endommager un "
+"réducteur à engrenages cylindriques sous l'effet des chocs, et si un "
+":term:`réducteur <Gear>` se casse, c'est l'ensemble du réducteur qui cesse "
+"de fonctionner."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:35
+msgid ""
+"Using spur gearboxes on high-load applications such as drivetrains or arms "
+"is not recommended. Instead, use planetary gearboxes."
+msgstr ""
+"Il n'est pas recommandé d'utiliser des réducteurs à engrenages droits pour "
+"les applications à forte charge telles que les chaînes cinématiques ou les "
+"bras. Il est préférable d'utiliser des réducteurs planétaires."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:40
+msgid "An example spur gearbox"
+msgstr "Un exemple de réducteur à engrenages droits"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:40
+msgid ""
+"Example of a spur gearbox inside a servo. Note how all gears mesh with only "
+"one other gear."
+msgstr ""
+"Exemple d'un réducteur à engrenages droits à l'intérieur d'un servo. Notez "
+"que tous les engrenages ne s'engrènent qu'avec un seul autre engrenage."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:43
+msgid "Advantages of Spur Gearboxes"
+msgstr "Avantages des réducteurs à engrenages droits"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:46
+msgid ""
+"Spur gearboxes are NOT recommended for motors due to their shorter lifespan "
+"and lower mechanical resilience compared to planetary gearboxes. If you are "
+"purchasing new motors, it is highly suggested to purchase planetary gearbox "
+"motors instead. Care should be taken to not put load on the output shaft of "
+"a spur gearbox. In particular, spur gear motors should NOT be used in high "
+"load applications, such as a drivetrain."
+msgstr ""
+"Les réducteurs à engrenages droits ne sont PAS recommandés pour les moteurs "
+"en raison de leur durée de vie plus courte et de leur résistance mécanique "
+"plus faible que celle des réducteurs planétaires. Si vous achetez de "
+"nouveaux moteurs, il est fortement conseillé d'acheter des moteurs à "
+"réducteur planétaire. Il faut veiller à ne pas mettre de charge sur l'arbre "
+"de sortie d'un réducteur à engrenages droits. En particulier, les "
+"motoréducteurs à engrenages droits ne doivent PAS être utilisés dans des "
+"applications à forte charge, telles qu'un châssis."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:48
+msgid ""
+"Generally, spur gearboxes are cheaper than planetary gearboxes. However, in "
+"FTC that price change is often minimal. An HD Hex Motor + UltraPlanetary "
+"gearbox kit from REV is only ~$10 more than an HD Hex Motor + Spur gearbox, "
+"and offers significantly more flexibility/customizability."
+msgstr ""
+"En général, les réducteurs à engrenages droits sont moins chers que les "
+"réducteurs planétaires. Toutefois, en matière de FTC, cette différence de "
+"prix est souvent minime. Un kit moteur hexagonal HD + réducteur "
+"ultraplanétaire de REV ne coûte que ~10 $ de plus qu'un moteur hexagonal HD "
+"+ réducteur à engrenages droits, et offre beaucoup plus de flexibilité et de"
+" possibilités de personnalisation."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:50
+msgid ""
+"Spur gearboxes from different vendors are not interchangeable. However, they"
+" are comparable and practically indistinguishable in performance. The main "
+"thing to consider here is your **desired reduction, your desired motor "
+"connections, and your desired output shaft type**."
+msgstr ""
+"Les réducteurs à engrenages droits de différents fournisseurs ne sont pas "
+"interchangeables. Cependant, leurs performances sont comparables et "
+"pratiquement impossibles à distinguer. L'élément principal à prendre en "
+"compte est la réduction ** souhaitée, les connexions du moteur souhaitées et"
+" le type d'arbre de sortie souhaité**."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:53
+msgid "Planetary Gearboxes"
+msgstr "Réducteurs planétaires"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:55
+msgid ""
+"Planetary gearboxes use a more complex system of gears to achieve a robust "
+"reduction in a compact space. In automotive engineering, planetary gear sets"
+" can achieve a few different ratios without changing gear size, but all "
+"planetary gearboxes that you will see in FTC only achieve one gear ratio."
+msgstr ""
+"Les réducteurs planétaires utilisent un système d'engrenages plus complexe "
+"pour obtenir une forte réduction dans un espace compact. Dans l'ingénierie "
+"automobile, les trains d'engrenages planétaires peuvent atteindre plusieurs "
+"rapports différents sans changer la taille des engrenages, mais tous les "
+"réducteurs planétaires que vous verrez en FTC n'atteignent qu'un seul "
+"rapport de vitesse."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:60
+msgid "Planetary Gear"
+msgstr "Engrenage planétaire"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:62
+msgid ""
+"Planetary gearing consists of a center gear (sun gear) which has smaller "
+"gears (planet gears) revolving around it. The outer radius has a ring gear "
+"which holds the other gears in place."
+msgstr ""
+"Les engrenages planétaires sont constitués d'un engrenage central (roue "
+"solaire) autour duquel tournent des engrenages plus petits (planétaires). Le"
+" rayon extérieur comporte une couronne qui maintient les autres engrenages "
+"en place."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:64
+msgid ""
+"Planetary gearboxes are used in the AndyMark NeveRest Orbital and Hex "
+"gearmotors, REV HD Hex UltraPlanetary motors, and goBILDA's wide selection "
+"of :term:`Yellow Jacket planetary gear motors <Yellow Jacket Motor>`. As you"
+" can see from the graphic below, there are more teeth meshing per stage than"
+" in the spur gearbox."
+msgstr ""
+"Les réducteurs planétaires sont utilisés dans les moteurs AndyMark NeveRest "
+"Orbital et Hex gearmotors, REV HD Hex UltraPlanetary motors, et dans la "
+"large sélection de goBILDA :term:`Yellow Jacket planetary gear motors "
+"<Yellow Jacket Motor>`. Comme vous pouvez le voir sur le graphique ci-"
+"dessous, il y a plus de dents qui s'engrènent par étage que dans le "
+"réducteur à engrenages droits."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:69
+msgid "A planetary gearbox diagram"
+msgstr "Schéma d'une boite de vitesse planétaire"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:69
+msgid ""
+"Example of a planetary gearbox stage. Note how the sun gear meshes with more"
+" than one gear."
+msgstr ""
+"Exemple d'un étage de réducteur planétaire. Notez que le planétaire "
+"s'engrène avec plus d'un engrenage."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:72
+msgid "Advantages of Planetary Gearboxes"
+msgstr "Avantages des boites de vitesse planétaire"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:74
+msgid ""
+"Backlash is lower than spur gearbox equivalents. Backlash is defined as the "
+"clearance or lost motion caused by gaps between parts. This can easily be "
+"explained through putting a wheel or gear on a motor shaft and lightly "
+"rotating it. The part should be able to wiggle around a little without "
+"having considerable force imparted on it. This is caused because it is "
+"impossible for the gear teeth inside the gearbox to mesh perfectly, and is "
+"the same for :term:`chain <Chain>` and :term:`sprockets <Sprocket>`, or any "
+"other form of power transmission. However, planetary gearboxes have less "
+"backlash as they have less stages of gears."
+msgstr ""
+"Le jeu est inférieur à celui des réducteurs à engrenages droits équivalents."
+" Le jeu est défini comme le jeu ou la perte de mouvement causé par les "
+"espaces entre les pièces. On peut facilement l'expliquer en plaçant une roue"
+" ou un engrenage sur l'arbre d'un moteur et en le faisant tourner "
+"légèrement. La pièce doit pouvoir bouger un peu sans qu'une force "
+"considérable ne lui soit imposée. Ce phénomène est dû à l'impossibilité pour"
+" les dents de l'engrenage à l'intérieur du réducteur de s'engrener "
+"parfaitement, et il en va de même pour :term:`chaîne <Chain>` et "
+":term:`pignons <Sprocket>`, ou pour toute autre forme de transmission de "
+"puissance. Toutefois, les réducteurs planétaires ont moins de jeu car ils "
+"comportent moins d'étages d'engrenages."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:75
+msgid ""
+"Efficiency is better than spur gearboxes. A typical two-stage spur gearbox "
+"is about 85% efficient, whereas most two stage planetary gearboxes are 94% "
+"efficient."
+msgstr ""
+"Le rendement est supérieur à celui des réducteurs à engrenages droits. Un "
+"réducteur à engrenages droits à deux étages typique a un rendement d'environ"
+" 85 %, alors que la plupart des réducteurs planétaires à deux étages ont un "
+"rendement de 94 %."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:76
+msgid ""
+"Load capacity is higher for planetary gearboxes. This is due to having "
+"multiple teeth engaged per stage, which spreads the load."
+msgstr ""
+"La capacité de charge est plus élevée pour les réducteurs planétaires. Cela "
+"est dû au fait que plusieurs dents sont engagées par étage, ce qui répartit "
+"la charge."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:78
+msgid ""
+"This means planetary gearboxes will not break as easily when used in high-"
+"load applications such as drivetrains."
+msgstr ""
+"Cela signifie que les réducteurs planétaires ne se cassent pas aussi "
+"facilement lorsqu'ils sont utilisés dans des applications à forte charge "
+"telles que les transmissions."

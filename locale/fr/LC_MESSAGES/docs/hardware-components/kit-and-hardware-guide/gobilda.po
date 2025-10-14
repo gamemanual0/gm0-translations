@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 04:28+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -161,6 +161,46 @@ msgstr "goBILDA profilé en U"
 msgid "goBILDA low-side channel (12x48 mm)"
 msgstr "goBILDA profilé en U (12x48 mm)"
 
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:51
+msgid "Verdict"
+msgstr "Verdict"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:53
+msgid ""
+"goBILDA's kit is a solid, albeit slightly more expensive, option for new "
+"teams. It offers a great deal of flexibility and part options from their "
+"catalog. goBILDA is a solid choice due to reasonable pricing, low learning "
+"curve, and thought-out design that reduces headaches."
+msgstr ""
+"Le kit de goBILDA est une option solide, bien que légèrement plus chère, "
+"pour les nouvelles équipes. goBILDA est un choix solide en raison de son "
+"prix raisonnable, de sa faible courbe d'apprentissage et de sa conception "
+"réfléchie qui réduit les maux de tête."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:56
+msgid "Kit of Parts"
+msgstr "Kit de pièces"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:58
+msgid ""
+"`2023-2024 Kit Parts <https://www.gobilda.com/ftc-starter-"
+"kit-2023-2024-season/>`_"
+msgstr ""
+"`2023-2024 Kit Pièces <https://www.gobilda.com/ftc-starter-"
+"kit-2023-2024-season/>`_"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:61
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:73
+msgid ""
+"goBILDA has some special parts are unavailable in other systems, like "
+":term:`square beam shafts <Shaft>`."
+msgstr ""
+"goBILDA possède des pièces spéciales qui ne sont pas disponibles dans "
+"d'autres systèmes, comme :term:`arbre à poutre carrée <Shaft>`."
+
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:77
 msgid "Disadvantages"
 msgstr "Inconvénients"
@@ -172,6 +212,20 @@ msgid ""
 msgstr ""
 "goBILDA n'est pas le système de construction le moins cher ; son prix est "
 "relativement équivalent à celui d'Actobotics, mais REV est moins cher."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst:81
+msgid ""
+"Because of metric pattern spacing, goBILDA utilizes 8mm pitch :term:`chain "
+"<Chain>`, as opposed to the FTC standard #25 Imperial :term:`chain <Chain>`."
+" This means that other kits' :term:`chain <Chain>` and :term:`sprockets "
+"<Sprocket>` won't work with goBILDA :term:`chain <Chain>` and "
+":term:`sprockets <Sprocket>`."
+msgstr ""
+"A cause de l'espacement métrique, goBILDA utilise une :term:`chaîne <Chain>`"
+" de 8mm, contrairement à la :term:`chaîne <Chain>` impériale #25 standard de"
+" la FTC. Cela signifie que les :term:`chaînes <Chain>` et :term:`pignons "
+"<Sprocket>` d'autres kits ne fonctionneront pas avec les :term:`chaînes "
+"<Chain>` et :term:`pignons <Sprocket>` de goBILDA."
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/gobilda.rst-1
 msgid ""

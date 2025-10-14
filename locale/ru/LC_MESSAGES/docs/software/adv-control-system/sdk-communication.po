@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 04:28+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -25,6 +25,16 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:4
 msgid "SDK Communication"
 msgstr "SDK Communication "
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:6
+msgid ""
+"When using any method in the FTC\\ |reg| SDK that accesses hardware, be that"
+" setting motor power, reading an encoder, a sensor, etc., a LynxCommand is "
+"sent."
+msgstr ""
+"При использовании любого метода в FTC\\ |reg| SDK, который обращается к "
+"аппаратному обеспечению (установка мощности мотора, чтение энкодера, датчика"
+" и т.д.), отправляется LynxCommand."
 
 #: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
 msgid ""

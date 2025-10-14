@@ -7,18 +7,46 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:2
+msgid "Passive Intake/Claw"
+msgstr "Ramasseur passif/pince"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:4
+msgid ""
+"Passive intakes are mechanisms in which the driver must pick up individual "
+"items, usually by actuating some sort of gripper, which holds the game "
+"element."
+msgstr ""
+"Les ramasseurs passifs sont des mécanismes dans lesquels le pilote doit "
+"ramasser des objets individuels, généralement en actionnant une sorte de "
+"pince qui tient l'élément de jeu."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:6
+msgid ""
+"Claws are the most common sort of passive intake and probably one of the "
+"first mechanisms that jump to mind during brainstorming. Unlike most "
+"intakes, claws can be made with only servos, and thus don't require valuable"
+" motor slots."
+msgstr ""
+"Les pinces sont le type de ramasseur actif le plus courant et probablement "
+"l'un des premiers mécanismes qui viennent à l'esprit lors d'un "
+"brainstorming. Contrairement à la plupart des ramasseurs, les pinces peuvent"
+" être fabriquées avec seulement des servos, et ne nécessitent donc pas "
+"d'emplacements précieux pour les moteurs."

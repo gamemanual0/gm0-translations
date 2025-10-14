@@ -7,18 +7,440 @@
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 04:28+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:4
+msgid "Gamepad Usage"
+msgstr "Utilisation de la manette de jeu"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:7
+msgid "Gamepad Layout"
+msgstr "Disposition de la manette de jeu"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Logitech F310"
+msgstr "Logitech F310"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Xbox 360"
+msgstr "Xbox 360"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Xbox 360 gamepad image layout."
+msgstr "Présentation de l'image de la manette de jeu Xbox 360."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "PS4/Etpark"
+msgstr "PS4/Etpark"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "PS4/Etpark gamepad image layout."
+msgstr "Présentation de l'image de la manette de jeu PS4/Etpark."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:30
+msgid ""
+"``L1`` is ``left_bumper``, ``L2`` is ``left_trigger``, ``R1``/``R2`` are the"
+" right-hand equivalents."
+msgstr ""
+"``L1`` est ``left_bumper``, ``L2`` est ``left_trigger``, ``R1``/``R2`` sont "
+"les équivalents de droite."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:33
+msgid "Button Aliases"
+msgstr "Alias des boutons"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:35
+msgid ""
+"Since both PS4-style and Xbox-Style controllers are FTC\\ |reg| legal, there"
+" are `aliases in the FTC SDK <https://github.com/OpenFTC/Extracted-"
+"RC/blob/c960dd7de34d49a66c00a345636175392f936b9e/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L892>`_"
+" between PS4-style and Xbox-style button naming."
+msgstr ""
+"Étant donné que les manettes de type PS4 et Xbox sont toutes deux autorisées"
+" par FTC\\ |reg|, il existe des \"alias\" dans le SDK de FTC "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/c960dd7de34d49a66c00a345636175392f936b9e/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L892>`_"
+" entre le style PS4 et le style Xbox en ce qui concerne le nom des boutons."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:39
+msgid "PS4"
+msgstr "PS4"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:39
+msgid "Xbox"
+msgstr "Xbox"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:41
+msgid "``circle``"
+msgstr "``cercle``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:41
+msgid "``b``"
+msgstr "``b``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:43
+msgid "``a``"
+msgstr "``a``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:45
+msgid "``triangle``"
+msgstr "``triangle``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:45
+msgid "``y``"
+msgstr "``y``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:47
+msgid "``square``"
+msgstr "``carré``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:47
+msgid "``x``"
+msgstr "``x``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:49
+msgid "``share``"
+msgstr "``partage``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:49
+msgid "``back``"
+msgstr "``retour``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:51
+msgid "``options``"
+msgstr "``options``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:51
+msgid "``start``"
+msgstr "``début``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:53
+msgid "``ps``"
+msgstr "``ps``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:53
+msgid "``guide``"
+msgstr "``guide``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:57
+msgid "Boolean Inputs"
+msgstr "Entrées Booléennes"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:59
+msgid ""
+"TeleOp OpModes are generally written in iterative style, with a loop that "
+"contains code that is called over an over. Under this paradigm, a simple "
+"handling of user input could look like"
+msgstr ""
+"Les OpModes TeleOp sont généralement écrits dans un style itératif, avec une"
+" boucle qui contient du code appelé à plusieurs reprises. Selon ce "
+"paradigme, un traitement simple de l'entrée de l'utilisateur pourrait "
+"ressembler à ce qui suit"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:70
+msgid ""
+"In this situation, this likely does what the driver wants: while the button "
+"is held, the motor's power is set to 1, and otherwise the power is set to 0."
+" Since writing the same power to a motor multiple times has no effect on the"
+" motor's behavior, this works perfectly fine. However, issues arise when "
+"wanting to do something once when a button is pressed. For example, it is "
+"tempting to write something like this to get a press of a or b to adjust a "
+"servo."
+msgstr ""
+"Dans cette situation, le pilote fait ce qu'il veut : tant que le bouton est "
+"maintenu, la puissance du moteur est réglée sur 1, et sinon la puissance est"
+" réglée sur 0. Comme le fait d'écrire plusieurs fois la même puissance à un "
+"moteur n'a aucun effet sur le comportement du moteur, cela fonctionne "
+"parfaitement bien. Cependant, des problèmes se posent lorsque l'on veut "
+"faire quelque chose une seule fois lorsqu'on appuie sur un bouton. Par "
+"exemple, il est tentant d'écrire quelque chose comme ceci pour obtenir un "
+"appui sur a ou b pour ajuster un servo."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:81
+msgid ""
+"However, this will behave unpredictably, as each time the button is pressed,"
+" the ``setPosition`` method will be called multiple times as the loop "
+"frequency changes as does the button press length. There are a few "
+"techniques to avoid this, however they all require comparing the gamepad "
+"state to the gamepad state in the previous loop; therefore, it is necessary "
+"to store it."
+msgstr ""
+"Cependant, le comportement sera imprévisible, car à chaque fois que le "
+"bouton est pressé, la méthode ``setPosition`` sera appelée plusieurs fois, "
+"car la fréquence de la boucle change, tout comme la durée de la pression sur"
+" le bouton. Il existe quelques techniques pour éviter cela, mais elles "
+"nécessitent toutes de comparer l'état de la manette de jeu à l'état de la "
+"manette de jeu dans la boucle précédente ; il est donc nécessaire de le "
+"stocker."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:84
+msgid "Storing Gamepad State"
+msgstr "Stockage de l'état de la manette de jeu"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:90
+msgid ""
+"In a ``LinearOpMode`` based TeleOp program, storing both current and "
+"previous gamepad state could look like:"
+msgstr ""
+"Dans un programme TeleOp basé sur le ``LinearOpMode``, le stockage de l'état"
+" actuel et de l'état précédent de la manette de jeu pourrait ressembler à ce"
+" qui suit :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:126
+msgid "Rising Edge Detector"
+msgstr "Détecteur de front montant"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Why is it called a rising edge detector?"
+msgstr "Pourquoi l'appelle-t-on détecteur de front montant ?"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:130
+msgid ""
+"A signal edge is a transition in a digital signal. In this case, the digital"
+" signal is the gamepad input, which is low when not held and high when held."
+" The rising edge is the transition from low to high, and the falling edge is"
+" the transition from high to low."
+msgstr ""
+"Un front de signal est une transition dans un signal numérique. Dans ce cas,"
+" le signal numérique est l'entrée de la manette de jeu, qui est basse "
+"lorsqu'elle n'est pas maintenue et haute lorsqu'elle est maintenue. Le front"
+" montant est la transition de bas en haut, et le front descendant est la "
+"transition de haut en bas."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:128
+msgid "A diagram of a rising/falling edge of a square wave"
+msgstr "Diagramme d'un front montant/descendant d'une onde carrée"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:143
+msgid ""
+"This will increase the servo position by 0.1 exactly once per press of "
+"``a``."
+msgstr ""
+"Ceci augmentera la position du servo de 0.1 exactement une fois par pression"
+" sur ``a``."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:146
+msgid "Falling Edge Detector"
+msgstr "Détecteur de front descendant"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:156
+msgid ""
+"This will decrease the servo position by 0.1 exactly once per release of "
+"``b``."
+msgstr ""
+"Ceci diminuera la position du servo de 0.1 exactement une fois par "
+"relâchement de ``b``."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:158
+msgid ""
+"One button can run different code on the rising and falling edge. This is "
+"mainly useful for fairly complex interactions and so is not demonstrated "
+"here."
+msgstr ""
+"Un bouton peut exécuter un code différent sur le front montant et le front "
+"descendant. Cette fonction est principalement utile pour les interactions "
+"relativement complexes et n'est donc pas démontrée ici."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:161
+msgid "Toggles"
+msgstr "Bascules"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:163
+msgid ""
+"One common use case for rising edge detectors is to control toggles. Toggles"
+" can be used to have a button for the robot to switch between states; for "
+"example, turning an intake on and off. This can be done for any number of "
+"states but is most commonly done between two. To make a toggle between two "
+"states, a rising edge detector is used to set a boolean to its opposite and "
+"then that boolean is used to control an action."
+msgstr ""
+"Un cas d'utilisation courant des détecteurs de fronts montants est la "
+"commande de bascules. Les bascules peuvent être utilisées pour que le robot "
+"dispose d'un bouton lui permettant de passer d'un état à l'autre, par "
+"exemple pour allumer et éteindre une prise. Cela peut se faire pour "
+"n'importe quel nombre d'états, mais le plus souvent entre deux états. Pour "
+"réaliser un basculement entre deux états, un détecteur de front montant est "
+"utilisé pour placer un booléen à son opposé, puis ce booléen est utilisé "
+"pour contrôler une action."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:166
+msgid "Example"
+msgstr "Exemple"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:168
+msgid "Within the initialization code:"
+msgstr "Dans le code d'initialisation :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:174
+msgid "Inside of the corresponding TeleOp loop:"
+msgstr "À l'intérieur de la boucle TeleOp correspondante :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:194
+msgid ""
+"This will turn on the intake when ``a`` is pressed, and leave it on until it"
+" is pressed again."
+msgstr ""
+"Cela activera la prise d'air lorsque ``a`` est pressé, et la laissera "
+"allumée jusqu'à ce que l'on appuie à nouveau sur cette touche."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:199
+msgid "Gamepad Feedback"
+msgstr "Retour d'information sur la manette de jeu"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:201
+msgid ""
+"Gamepad feedback (i.e. rumble and LED control) can be a helpful way for "
+"robots to communicate status to a driver during a match. The degree to which"
+" the legal gamepads support this functionality varies:"
+msgstr ""
+"Le retour d'information de la manette de jeu (c'est-à-dire le grondement et "
+"le contrôle des LED) peut être un moyen utile pour les robots de communiquer"
+" leur état à un pilote pendant un match. Le degré de prise en charge de "
+"cette fonctionnalité par les manettes de jeu légales varie :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:207
+msgid "Rumble: none"
+msgstr "Tumulte : aucun"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:208
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:214
+msgid "LED Control: none"
+msgstr "Contrôle des LED : aucun"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:213
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:218
+msgid "Rumble: large (whomp whomp) and small (bzzz)"
+msgstr "Rumble : grand (whomp whomp) et petit (bzzz)"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "DualShock4 (PS4)"
+msgstr "DualShock4 (PS4)"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:219
+msgid "LED Control: control of RGB lightbar (solid color or pattern)"
+msgstr ""
+"Contrôle des LED : contrôle de la barre lumineuse RVB (couleur unie ou "
+"motif)"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "EtPark"
+msgstr "EtPark"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:223
+msgid ""
+"Rumble: contains both left and right rumble motors, but both seem to be only"
+" small weight (bzzz)"
+msgstr ""
+"Rumble : contient les deux moteurs de rumble gauche et droit, mais les deux "
+"semblent n'avoir qu'un faible poids (bzzz)."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:224
+msgid ""
+"LED Control: control of RGB LED (solid color or pattern). LED is fairly "
+"small and dim and may not be a good choice."
+msgstr ""
+"Contrôle des LED : contrôle des LED RVB (couleur unie ou motif). Les LED "
+"sont assez petites et peu lumineuses et peuvent ne pas être un bon choix."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:226
+msgid ""
+"Gamepad feedback can be used to alert drivers of: start of endgame, intake "
+"loaded, automatic alignment complete, etc."
+msgstr ""
+"Le retour d'information de la manette de jeu peut être utilisé pour avertir "
+"les pilotes du début de la partie finale, du chargement du ramasseur, de la "
+"fin de l'alignement automatique, etc."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:232
+msgid ""
+"The SDK provides both a simple and more complex API for controlling rumble "
+"according to the desired use case."
+msgstr ""
+"Le SDK fournit une API simple ou plus complexe pour contrôler le bruit selon"
+" le cas d'utilisation souhaité."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:236
+msgid ""
+"Rumble power is specified as a floating-point value in the range [0.0, 1.0]."
+msgstr ""
+"La puissance de vibration est spécifiée sous la forme d'une valeur à virgule"
+" flottante comprise entre [0,0 et 1,0]."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:237
+msgid ""
+"Rumble duration is specified in milliseconds as an integer. The constant "
+"``Gamepad.RUMBLE_DURATION_CONTINUOUS`` may be used to indicate that the "
+"rumble should continue until another rumble action is commanded."
+msgstr ""
+"La durée du rumble est spécifiée en millisecondes sous la forme d'un entier."
+" La constante ``Gamepad.RUMBLE_DURATION_CONTINUOUS`` peut être utilisée pour"
+" indiquer que le grondement doit continuer jusqu'à ce qu'une autre action de"
+" grondement soit commandée."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:242
+msgid "Simple API"
+msgstr "API simple"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:264
+msgid "Helper functions:"
+msgstr "Fonctions d'assistance :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:271
+msgid "Advanced API"
+msgstr "API avancée"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:289
+msgid ""
+"Once a ``RumbleEffect`` has been created, it can be sent to a gamepad by "
+"calling:"
+msgstr ""
+"Une fois qu'un ``RumbleEffect`` a été créé, il peut être envoyé à une "
+"manette de jeu en appelant :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:296
+msgid "LED Control"
+msgstr "Contrôle des LED"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:300
+msgid ""
+"RGB LED component (i.e. red, green, blue) intensity is specified as a "
+"floating-point value in the range [0.0, 1.0]."
+msgstr ""
+"L'intensité de la composante RVB des DEL (c'est-à-dire le rouge, le vert et "
+"le bleu) est spécifiée sous la forme d'une valeur à virgule flottante dans "
+"la plage [0,0, 1,0]."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:307
+msgid "To set the LED color for a fixed duration:"
+msgstr "Pour définir la couleur de la LED pour une durée fixe :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:317
+msgid ""
+"Using an anonymous instance of the builder class is the cleanest way to "
+"construct an ``LedEffect``, for example:"
+msgstr ""
+"L'utilisation d'une instance anonyme de la classe constructeur est la façon "
+"la plus propre de construire un ``LedEffect``, par exemple :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:328
+msgid ""
+"Once an ``LedEffect`` has been created, it can be sent to a gamepad by "
+"calling:"
+msgstr ""
+"Une fois qu'un ``LedEffect`` a été créé, il peut être envoyé à une manette "
+"de jeu en appelant :"

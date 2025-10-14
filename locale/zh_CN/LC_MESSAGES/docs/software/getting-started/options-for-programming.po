@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,6 +199,12 @@ msgstr ""
 msgid "Much greater flexibility than Blocks."
 msgstr "比图形化编程有更大的灵活性。"
 
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:71
+msgid ""
+"Much easier to integrate libraries like `FTC Dashboard`_, `FTCLib`_, and "
+"`Road Runner`_."
+msgstr "更容易集成库诸如 `FTC Dashboard`_、`FTCLib`_ 和 `Road Runner`_ 等。"
+
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:72
 msgid ""
 "Can use either a USB connection to the :term:`RC <Robot Controller>` phone, "
@@ -223,6 +229,15 @@ msgid ""
 "using anything on the internet including video tutorials and online "
 "communication, unless you have a second Wifi adapter (cheap and easy)"
 msgstr "连接到机器人控制器的Wi-Fi网络将阻止你使用互联网上的任何内容，包括视频教程和在线通信，除非你有第二个Wifi适配器（便宜且简单）"
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:85
+msgid ""
+"Relatively easy setup process, but time consuming and is a hefty install "
+"(3GB of files between Android Studio, FtcRobotController, and other "
+"libraries)"
+msgstr ""
+"安装过程相对简单，但耗时较长，而且有一个庞大的安装量（Android Studio、FtcRobotController 和其他库之间的文件量达 "
+"3GB）。"
 
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:86
 msgid "Issues can be difficult to diagnose and solve"

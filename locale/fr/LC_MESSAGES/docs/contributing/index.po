@@ -5,18 +5,217 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 04:28+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/contributing/index.rst:4
+msgid "Contributor's Guide"
+msgstr "Guide du contributeur"
+
+#: ../../gm0/source/docs/contributing/index.rst:7
+msgid "Introduction"
+msgstr "Introduction"
+
+#: ../../gm0/source/docs/contributing/index.rst:9
+msgid ""
+"Hello, and thank you for taking the time to consider contributing to |gm0|. "
+"Your knowledge and contributions will help many other teams, and improve "
+"|gm0| as a universal resource. This document is designed to give a basic "
+"overview of contributing to |gm0|."
+msgstr ""
+"Bonjour, et merci de prendre le temps de envisager de contribuer à |gm0|. "
+"Votre savoir et vos contributions aideront de nombreuses autres équipes et "
+"amélioreront |gm0| en tant que ressource universelle. Ce document est conçu "
+"pour fournir un aperçu de base sur la manière de contribuer à |gm0|."
+
+#: ../../gm0/source/docs/contributing/index.rst:12
+msgid "Who can contribute?"
+msgstr "Qui peut contribuer?"
+
+#: ../../gm0/source/docs/contributing/index.rst:14
+msgid ""
+"|gm0| welcomes contributions from basically anybody. The majority of this "
+"guide was written by accomplished students of FTC\\ |reg| from a wide "
+"variety of teams, alongside mentors and alums. Our editorial control is "
+"based purely on content, as long as the content is good, it'll be added to "
+"|gm0|."
+msgstr ""
+"|gm0| accueille les contributions de pratiquement tout le monde. La majorité"
+" de ce guide a été rédigée par des étudiants accomplis de FTC\\ |reg| "
+"provenant de diverses équipes, ainsi que par des mentors et des anciens. "
+"Notre contrôle éditorial repose uniquement sur le contenu ; tant que celui-"
+"ci est de qualité, il sera ajouté à |gm0|."
+
+#: ../../gm0/source/docs/contributing/index.rst:17
+msgid "Goals of |gm0|"
+msgstr "Les objectifs de |gm0|"
+
+#: ../../gm0/source/docs/contributing/index.rst:19
+msgid ""
+"Before writing, please take the time to familiarize yourself with the goals "
+"of |gm0|. The primary goals are:"
+msgstr ""
+"Avant d'écrire, veuillez prendre le temps de vous familiariser avec les "
+"objectifs de |gm0|. Les objectifs principaux sont :"
+
+#: ../../gm0/source/docs/contributing/index.rst:21
+msgid ""
+"To inform and guide newer teams, participants, and coaches of the *FIRST*\\ "
+"|reg| Tech Challenge and help them achieve their competitive goals."
+msgstr ""
+"Informer et guider les nouvelles équipes, participants et entraîneurs du "
+"Défi Techno *FIRST*\\ |reg| et les aider à atteindre leurs objectifs "
+"compétitifs."
+
+#: ../../gm0/source/docs/contributing/index.rst:22
+msgid ""
+"To act as a living reference for mechanisms, techniques, and community "
+"knowledge pertinent to *FIRST* Tech Challenge."
+msgstr ""
+"Agir en tant que référence vivante pour les mécanismes, techniques et "
+"connaissances communautaires pertinentes pour le Défi Techo *FIRST*."
+
+#: ../../gm0/source/docs/contributing/index.rst:24
+msgid ""
+"These goals may seem relatively self-explanatory, but they have several "
+"important takeaways."
+msgstr ""
+"Ces objectifs peuvent sembler relativement évidents, mais ils comportent "
+"plusieurs points importants à retenir."
+
+#: ../../gm0/source/docs/contributing/index.rst:26
+msgid ""
+"**These goals do not necessarily build upon each other.** For example, let's"
+" look at the :doc:`/docs/common-mechanisms/drivetrains/index` section. If we"
+" want to simply guide more rookie teams on a path to become successful, we "
+"would discuss the very popular drivetrains that teams may encounter (2WD, "
+"4WD, 6WD, mecanum, X-Drive, and H-Drive) so that teams can quickly get up to"
+" speed and choose a competitive drivetrain. However, if the goal is to be a "
+"comprehensive reference, we would include every single possible drivetrain "
+"ever created for FTC, even if they aren't very competitive or realistic for "
+"newer teams to build (swerve, ball, octocanum, etc)."
+msgstr ""
+"**Ces objectifs ne se construisent pas nécessairement les uns sur les "
+"autres.** Par exemple, prenons la section :doc:/docs/common-"
+"mechanisms/drivetrains/index. Si l'objectif est simplement de guider les "
+"équipes débutantes sur la voie du succès, nous parlerions des drivetrains "
+"populaires que les équipes peuvent rencontrer (2RM, 4RM, 6WD, mecanum, "
+"X-Drive, et H-Drive) afin qu'elles puissent rapidement se mettre à niveau et"
+" choisir un châssis compétitif. Cependant, si l'objectif est d'être une "
+"référence complète, nous inclurions chaque châssis possible jamais créé pour"
+" FTC, même ceux qui ne sont pas très compétitifs ou réalistes pour les "
+"équipes plus récentes à construire (swerve, ball, octocanum, etc)."
+
+#: ../../gm0/source/docs/contributing/index.rst:28
+msgid ""
+"We are seeking to accomplish both goals with a new structure: there will be "
+"a \"For Rookies\" page, that will link to a list of curated pages designed "
+"for rookies, while pages outside this list can act as more comprehensive "
+"references."
+msgstr ""
+"Nous cherchons à accomplir les deux objectifs avec une nouvelle structure : "
+"il y aura une page \"Pour les débutants\", qui renverra à une liste de pages"
+" sélectionnées et conçues pour les débutants, tandis que les pages en dehors"
+" de cette liste pourront servir de références plus complètes."
+
+#: ../../gm0/source/docs/contributing/index.rst:29
+msgid ""
+"Keep the goal of the page and whether it is designed to be kept on the \"For"
+" Rookies\" page in mind while writing, and adjust the content accordingly."
+msgstr ""
+"Gardez à l'esprit l'objectif de la page et si elle est conçue pour figurer "
+"sur la page \"Pour les débutants\" lors de l'écriture, et ajustez le contenu"
+" en conséquence."
+
+#: ../../gm0/source/docs/contributing/index.rst:31
+msgid ""
+"**Game Manual 0 is a guide from primarily a competitive standpoint.** In "
+"general our recommendations have the end goal of increasing the points "
+"scored by a team while working inside a team's limitations, and building "
+"good technical habits that will be useful in a future career."
+msgstr ""
+"**Game Manual 0 est un guide principalement du point de vue compétitif.** En"
+" général, nos recommandations ont pour objectif final d'augmenter le nombre "
+"de points marqués par une équipe tout en travaillant dans les limites de "
+"l'équipe, et de développer de bonnes habitudes techniques qui seront utiles "
+"dans une future carrière."
+
+#: ../../gm0/source/docs/contributing/index.rst:32
+msgid ""
+"**Game Manual 0 seeks to inform, not tell.** |gm0| does not wish to "
+"encourage one \"meta\" design or series of techniques, instead, the guide "
+"seeks to present teams with a variety of options, with a pros and cons list "
+"of each, and let teams make their own decisions for their own circumstances."
+" If recommendations are given, they must be based on objective, repeatable "
+"reasoning. For more information on this, read the :doc:`style-guide`."
+msgstr ""
+"**Game Manual 0 cherche à informer, pas à dicter.** |gm0| ne souhaite pas "
+"encourager un design ou une série de techniques \"meta\", mais plutôt "
+"présenter aux équipes une variété d'options, avec une liste des avantages et"
+" des inconvénients de chacune, et laisser les équipes prendre leurs propres "
+"décisions en fonction de leurs circonstances. Si des recommandations sont "
+"faites, elles doivent être basées sur un raisonnement objectif et "
+"reproductible. Pour plus d'informations à ce sujet, consultez le :doc:style-"
+"guide."
+
+#: ../../gm0/source/docs/contributing/index.rst:34
+msgid ""
+"**Game Manual 0 is generally a high level concept guide.** This means that "
+"information is given in a way that is applicable to many situations, rather "
+"than a series of steps. However, when possible we link to external "
+"documentation to plug any knowledge gaps. For example: in the electronics "
+"sections, we do not discuss how to exactly wire the robot using the REV "
+"control system, instead we link to the REV documentation for exact wiring "
+"and discuss general wiring best practices."
+msgstr ""
+"**Game Manual 0 est généralement un guide de concepts de haut niveau.** Cela"
+" signifie que l'information est présentée de manière à être applicable à de "
+"nombreuses situations, plutôt que sous forme de séries d'étapes. Cependant, "
+"lorsque cela est possible, nous fournissons des liens vers des "
+"documentations externes pour combler les lacunes de connaissances. Par "
+"exemple : dans les sections électroniques, nous ne discutons pas de la "
+"manière exacte de câbler le robot en utilisant le système de contrôle REV, "
+"mais nous renvoyons à la documentation REV pour le câblage précis et "
+"abordons les meilleures pratiques générales de câblage."
+
+#: ../../gm0/source/docs/contributing/index.rst:37
+msgid "Getting Started Contributing"
+msgstr "Commencer À Contribuer"
+
+#: ../../gm0/source/docs/contributing/index.rst:39
+msgid "Read through this document"
+msgstr "Lisez ce document."
+
+#: ../../gm0/source/docs/contributing/index.rst:40
+msgid "Read through the :doc:`style-guide`"
+msgstr "Lisez le :doc:`style-guide`"
+
+#: ../../gm0/source/docs/contributing/index.rst:41
+msgid ""
+"Review the `Project List "
+"<https://docs.google.com/document/d/1_o7SoUFs6OznR0U07-Mxr5CLdYmKN-"
+"NuU7TiQX8nL6A/edit>`_ and `GitHub issues "
+"<https://github.com/gamemanual0/gm0/issues>`_"
+msgstr ""
+"Examinez la `Liste de projets "
+"<https://docs.google.com/document/d/1_o7SoUFs6OznR0U07-Mxr5CLdYmKN-"
+"NuU7TiQX8nL6A/edit>`_ and `GitHub issues "
+"<https://github.com/gamemanual0/gm0/issues>`_"
+
+#: ../../gm0/source/docs/contributing/index.rst:42
+msgid "Check out the :doc:`methods-of-contributing`"
+msgstr "Consultez le :doc:`methods-of-contributing`"

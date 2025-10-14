@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2024
-# shaw phy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 04:28+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,7 +117,9 @@ msgid ""
 "over time, thus leading to a more inaccurate localization system when using "
 "the two-wheel design."
 msgstr ""
-"社区中的许多团队已经聚集在一个独特的解决方案上，这个解决方案在FTC之外并不常见：使用“无动力全向轮”、“跟踪轮”或“内置里程传感器的全向轮”（这些术语都是同义词）。这些是指连接到编码器传感器上的小型“无动力全向轮”或非驱动（不是由电机驱动）车轮。两个或三个无动力全向轮的里程计通常会通过内置弹簧弹跳反应地面位置以确保准确的跟踪。两轮设计使用一个平行和一个垂直里程计（相对于驱动轮轴平行和垂直），分别测量x和y运动。航向的变化通过陀螺仪测量。三轮设计使用两个平行和一个垂直里程传感器，分别测量x和y运动。然而，这种设计放弃了陀螺仪，而是通过与两个平行车轮的差异来测量航向。这在FTC控制系统中通常更准确，因为BNO055IMU（用于两轮设计中的陀螺仪）使用I2C，其速度比REV集线器上的其余I/O慢，并且无法批量读取。这两个问题会导致微小的偏移问题，这些问题会随着时间的推移而加剧，从而在使用两轮设计时导致更不准确的定位系统。"
+"社区中的许多团队已经聚集在一个独特的解决方案上，这个解决方案在FTC之外并不常见：使用“无动力全向轮”、“跟踪轮”或“内置里程传感器的全向轮”（这些术语都是同义词）。这些是指连接到编码器传感器上的小型“无动力全向轮”或非驱动（不是由电机驱动）车轮。两个或三个无动力全向轮的里程计通常会通过内置弹簧弹跳反应地面位置以确保准确的跟踪。两轮设计使用一个平行和一个垂直里程计（相对于驱动轮轴平行和垂直），分别测量x和y运动。航向的变化通过陀螺仪测量。三轮设计使用两个平行和一个垂直里程传感器，分别测量x和y运动。然而，这种设计放弃了陀螺仪，而是通过与两个平行车轮的差异来测量航向。这在FTC控制系统中通常更准确，因为BNO055IMU（用于两轮设计中的陀螺仪）使用I2C，其速度比REV"
+" Hub上的其余 I/O "
+"慢，并且无法批量读取。这两个问题会导致微小的偏移问题，这些问题会随着时间的推移而加剧，从而在使用两轮设计时导致更不准确的定位系统。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:25
 msgid ""
@@ -235,7 +237,8 @@ msgid ""
 "drive motor encoder ports, so those are potential ports you might want to "
 "use."
 msgstr ""
-"编码器插入REV集线器中的JSTPH端口。这些编码器可以内置在电机上，也可以是外部的。外部编码器仍然需要插入编码器端口，但与该端口中的电机无关。通过软件，我们可以使用电机对象来确定编码器的位置。这应该用不使用编码器的电机来完成。如果你使用无动力轮，你将不需要驱动电机编码器端口，所以这些是你可能想要使用的潜在端口。"
+"编码器插入REV hubs "
+"中的JSTPH端口。这些编码器可以内置在电机上，也可以是外部的。外部编码器仍然需要插入编码器端口，但与该端口中的电机无关。通过软件，我们可以使用电机对象来确定编码器的位置。这应该用不使用编码器的电机来完成。如果你使用无动力轮，你将不需要驱动电机编码器端口，所以这些是你可能想要使用的潜在端口。"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:72
 msgid ""

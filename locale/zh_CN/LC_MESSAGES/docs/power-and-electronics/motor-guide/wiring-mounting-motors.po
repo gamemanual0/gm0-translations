@@ -6,16 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # DomnickJYH, 2024
-# Shawphy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +36,16 @@ msgid ""
 "Depending on the vendor, the motors can come with one of the following "
 "connectors:"
 msgstr "根据供应商的不同，电机可配备以下连接器之一："
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:15
+msgid ""
+"Since REV hubs use :term:`JST VH` connectors, to connect a motor with "
+":term:`3.5mm Bullet` or :term:`Anderson PowerPole` connectors, you need "
+"adapters which you can purchase from REV Robotics, goBILDA, and AndyMark."
+msgstr ""
+"由于 REV hubs 使用 :term:`JST VH` 连接器，要连接使用 :term:`3.5mm Bullet` 或 "
+":term:`Anderson PowerPole` 连接器的电机，需要使用适配器，您可以从 REV Robotics、goBILDA 和 "
+"AndyMark 购买适配器。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:17
 msgid ""
@@ -62,6 +72,26 @@ msgid ""
 "Encoder cables are very fragile. Take care to protect them from snagging and"
 " sharp impacts! It may be prudent to inspect encoder wires once in a while."
 msgstr "编码器电缆非常脆弱。要小心保护，防止被钩住或受到猛烈撞击！为谨慎起见，应定期检查编码器电缆。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:28
+msgid ""
+"If using encoders, you need to connect them to the REV hub by a 4-wire "
+"cable. REV Hub uses 4-pin :term:`JST PH` connector for encoder ports. REV "
+"motors also use :term:`JST PH` encoder ports, so you can connect them to the"
+" hub by :term:`JST PH` 4-wire cable, available from REV Robotics."
+msgstr ""
+"如果使用编码器，则需要用 4 线电缆将其连接到 REV Hub。REV Hub的编码器端口使用 4 针 :term:`JST PH` 连接器。REV "
+"电机也使用 :term:`JST PH` 编码器端口，因此您可以通过 :term:`JST PH` 4 线电缆将它们连接到hub，电缆可从 REV "
+"Robotics 购买。"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:30
+msgid ""
+"goBILDA and AndyMark motors use JST XH 4-pin encoder port (**note the "
+"difference: XH vs PH**), so to connect them, you need a JST PH to JST XH "
+"cable, available from goBILDA and AndyMark."
+msgstr ""
+"goBILDA 和 AndyMark 马达使用 JST XH 4 针编码器端口（**注意区别：XH 与 PH**），因此要连接它们，需要 JST PH "
+"至 JST XH 电缆，可从 goBILDA 和 AndyMark 购买。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:33
 msgid "Mounting Motors"

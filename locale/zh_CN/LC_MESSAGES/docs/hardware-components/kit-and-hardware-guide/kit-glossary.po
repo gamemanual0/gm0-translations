@@ -6,16 +6,16 @@
 # Translators:
 # wwsk2008sq, 2024
 # DomnickJYH, 2024
-# Shawphy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +51,7 @@ msgstr ""
 "槽钢是固定间距的，这意味着预先钻好的孔将安装位置限制在有限范围内。它可用于轻松构建传动系统；但要注意， :term:`齿轮 <Gear>` 和 "
 ":term:`链条 <Chain>` 网格可能与槽钢不匹配。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A piece of tetrix channel"
 msgstr "一块四面体通道"
 
@@ -82,7 +82,7 @@ msgstr ""
 "铝型材不是一个固定间距的系统，团队可以根据需要调整组件。这样就可以轻松实现正确的张力，并将机械装置安装到 :term:`C形梁 <Channel>` "
 "会限制安装的地方。铝型材的可调节性在精确情况下尤其有用，例如进气几何形状。但是，必须格外小心，以确保组件在负载下不会移动。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A piece of REV Robotics extrusion"
 msgstr "一块 REV 机器人的铝型材"
 
@@ -106,7 +106,6 @@ msgid ""
 " sold by most robotics vendors."
 msgstr "传动系统和高速运行时，建议使用轴承。Actobotics、goBILDA 和 REV 套件中都使用了轴承，而且大多数机器人供应商都有销售。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:35
 msgid "Actobotics dual ball bearing hub"
 msgstr "Actobotics 双滚珠轴承轮毂"
@@ -129,11 +128,11 @@ msgstr ""
 "安装到goBILDA和Actobotics系统的方法。这是迄今为止安装舵机的最佳方式，因为它可以减少舵机花键上的负荷，而花键是舵机最薄弱的部分。这是因为在负载情况下，舵机花键齿很容易剥落，导致舵机无法使用。虽然"
 " Servoblocks 的价格并不便宜，但对于团队来说却是最好的投资之一。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "An Actobotics Servoblock"
 msgstr "Actobotics 所售的舵机输出座"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:46
 msgid "An example of a servoblock being used on a robot"
 msgstr "在机器人上使用舵机输出座的示例"
 
@@ -156,9 +155,9 @@ msgstr ""
 "夹紧轮毂用于将 :term:`链条 <Sprocket>` 或 :term:`齿轮 <Gear>` "
 "等部件固定在轴上。它还用于防止轴横向移动。与轴环不同，夹紧轮毂使用螺钉对整个轴施加夹紧力，从而提供更好的固定。因此，建议使用夹紧轮毂而不是轴环。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "An Actobotics clamping hub"
-msgstr "Actobotics 所售的夹紧轮毂"
+msgstr "Actobotics 所售的夹紧 hub"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:54
 msgid "Bevel gear"
@@ -178,7 +177,7 @@ msgid ""
 "driving, and not in the same plane."
 msgstr "不过，斜面齿轮也非常有用，尤其是在空间有限的地方，电机可以垂直于所驱动的元件，而不用在同一平面上。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:63
 msgid "3736 Serious Business' use of bevel gears in Rover Ruckus"
 msgstr "3736 Serious Business 在 Rover Ruckus 中使用斜面齿轮"
 
@@ -201,7 +200,7 @@ msgid ""
 msgstr ""
 "丝杠与螺纹杆非常相似。它用于高负载和高扭矩应用，如悬挂。不过，由于螺纹杆的性质，与线性滑轨相比，丝杠的速度通常很慢。丝杠的速度由两个因素决定。首先是电机的输出速度，其次是每英寸螺纹数（TPI）。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A leadscrew"
 msgstr "一个丝杠"
 
@@ -277,7 +276,7 @@ msgid ""
 msgstr ""
 "轴套的效率低于 :term:`滚珠轴承 <Ball Bearing>` ，因为它们的接触面较大，但对于低负荷情况或低预算团队来说是可以接受的。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:93
 msgid "A REV Robotics bushing"
 msgstr "一个 REV 机器人轴套"
 
@@ -285,7 +284,7 @@ msgstr "一个 REV 机器人轴套"
 msgid "REV Bushing"
 msgstr "REV 轴套"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:99
 msgid "A REV Robotics pillow block"
 msgstr "一个 REV 机器人枕块"
 
@@ -313,7 +312,7 @@ msgid ""
 "slightly undersized as well as prone to twisting."
 msgstr "非常不建议使用 Churro 作为 :term:`轴 <Shaft>` ，因为它的尺寸略小，而且容易扭曲。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A piece of churro"
 msgstr "一个 Churro 六角轴"
 
@@ -353,9 +352,10 @@ msgid ""
 "clamping hubs apply pressure to the whole diameter of the shaft, as opposed "
 "to just one point."
 msgstr ""
-":term:`夹紧轮毂 <Clamping Hub>` 比起固定螺钉，夹紧轮毂更为可取，因为夹紧轮毂会对轴的整个直径施加压力，而不是只对一点施加压力。"
+":term:`夹紧 hub <Clamping Hub>` 比起固定螺钉，夹紧 hub 更为可取，因为夹紧 hub "
+"会对轴的整个直径施加压力，而不是只对一点施加压力。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A set screw"
 msgstr "一个固定螺钉"
 
@@ -369,7 +369,7 @@ msgid ""
 " shaft in order to secure parts."
 msgstr "配备有 :term:`固定螺钉 <Set Screw>` 的轴环可被安装在轴上以固定零件。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A shaft collar"
 msgstr "一个轴环"
 
@@ -391,7 +391,7 @@ msgid ""
 "(and subsequently, the part it is on) useless."
 msgstr "\"剥离内孔 \"是指随着时间的推移，内孔将失去六角形，变得接近圆形，从而使内孔（以及其上的部件）失去作用。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A bearing with a hex bore"
 msgstr "六角孔轴承"
 
@@ -412,7 +412,7 @@ msgid ""
 "that it will have less chance of moving around."
 msgstr "在夹紧的电机表面使用摩擦胶带，以减少电机移动的机会。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:148
 msgid "A TETRIX v1 motor attached with a TETRIX Clamp Mount"
 msgstr "安装有 TETRIX 夹具的 TETRIX v1 电机"
 
@@ -445,7 +445,7 @@ msgid ""
 "of tension in :term:`belts <Timing Belt>` or :term:`chain <Chain>`."
 msgstr "此外，电机不可能旋转并导致 :term:`同步带 <Timing Belt>` 或 :term:`链条 <Chain>` 失去张力。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:0
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:162
 msgid "A REV Robotics v2 motor facemounted to a plate"
 msgstr "安装在平板上的 REV Robotics v2 电机"
 

@@ -6,16 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # DomnickJYH, 2024
-# Shawphy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 04:15+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,7 +228,7 @@ msgid ""
 msgstr ""
 "一般建议使用 CAD "
 "或详细的草图来绘制链条的运行图（链条的放置位置）。齿轮的制作稍微简单一些，也是一种非常简单的选择，尤其是在使用挤压齿轮以啮合时。我们建议不要使用 "
-"TETRIX 齿轮，而应使用其他套件中的齿轮，如 REV delrin 齿轮（带六角轮毂加固器）或 REV 铝质齿轮。"
+"TETRIX 齿轮，而应使用其他套件中的齿轮，如 REV delrin 齿轮（带六角 hub 加固器）或 REV 铝质齿轮。"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:54
 msgid ""
@@ -305,7 +305,7 @@ msgid ""
 "the rotation of the wheel, where a mecanum wheel is generally 45 degrees."
 msgstr "从技术上讲，麦克纳姆轮是一种全向轮，但在一般情况下，\"全向轮 \"的滚轮与轮子的旋转方向成 90 度，而麦轮一般为 45 度。"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst:0
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/index.rst-1
 msgid "A REV Robotics omni wheel"
 msgstr "一个 REV Robotics 的全向轮"
 

@@ -6,16 +6,16 @@
 # Translators:
 # guluomagongchengshi, 2023
 # DomnickJYH, 2024
-# Shawphy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -217,12 +217,12 @@ msgid ""
 ":term:`shafts <Shaft>`, however, this also necessitates the use of a pattern"
 " adapter from the goBILDA pattern to TETRIX."
 msgstr ""
-"TETRIX 轮毂为 :term:`6mm 或 4.7mm 圆形 <Shaft>` ，基于 :term:`固定螺丝 <Set Screw>` "
+"TETRIX hub 为 :term:`6mm 或 4.7mm 圆形 <Shaft>` ，基于 :term:`固定螺丝 <Set Screw>` "
 "，可传递扭矩。这些 :term:`固定螺丝 <Set Screw>` "
 "在负载情况下会松动，因此必须特别注意持续拧紧这些螺丝。此外，强烈建议团队在固定螺丝上使用某种螺纹锁固剂，无论是 :term:`Loctite "
 "Blue（可拆卸）还是 Loctite Red（不可拆卸） <Loctite>` 。一种可能的变通方法是从 goBILDA 购买 6mm D "
-":term:`夹紧轮毂 <Clamping Hub>` ，用于 TETRIX :term:`轴 <Shaft>` ，但这也需要使用从 goBILDA "
-"模式到 TETRIX 模式的模式转换器。"
+":term:`夹紧 hub <Clamping Hub>` ，用于 TETRIX :term:`轴 <Shaft>` ，但这也需要使用从 goBILDA"
+" 模式到 TETRIX 模式的模式转换器。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:44
 msgid ""
@@ -250,7 +250,7 @@ msgid ""
 ":term:`bore <Bore>` of the hub itself can enlarge, leading to a wobbly or "
 "misaligned hub."
 msgstr ""
-"TETRIX 轮毂上的固定螺丝会损坏电机 :term:`轴 <Shaft>` ，轮毂本身的 :term:`内孔 <Bore>` "
+"TETRIX hub 上的固定螺丝会损坏电机 :term:`轴 <Shaft>` ，hub 本身的 :term:`内孔 <Bore>` "
 "也会变大，导致轮毂摇摆或错位。"
 
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst:49
@@ -277,7 +277,7 @@ msgstr ""
 "<Clamp Mounting>` 来安装一个电机。强烈建议在 :term:`C形梁 <Channel>` 内使用 :term:`支座 "
 "<Standoff>` 以防止 :term:`C形梁 <Channel>` 向内或向外弯曲。"
 
-#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rstNone
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/tetrix.rst-1
 msgid "6022 To Be Determined's Velocity Vortex Robot"
 msgstr "6022队伍待定的Velocity Vortex Robot"
 

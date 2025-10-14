@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-08 16:30+0000\n"
+"POT-Creation-Date: 2025-10-14 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -45,6 +45,39 @@ msgstr "XT30"
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A XT30 connector"
 msgstr "一个XT30连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:56
+msgid ""
+"JST VH is a type of connector used by FTC motors to interface with the REV "
+"Control Hub and Expansion Hub. It is keyed and locks into place for "
+"excellent reliability. JST VH connectors are crimped onto wires."
+msgstr ""
+"JST VH 是 FTC 电机用于连接 REV Control Hub和 Expansion Hub "
+"的一种连接器。它带有键控，可锁定到位，具有极佳的可靠性。JST VH 连接器压接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:63
+msgid ""
+"JST PH is a type of connector used by the REV Control/Expansion Hubs and "
+"various electronics, such as sensors. On the REV Control/Expansion Hubs, the"
+" 4-pin connector is used for encoder, I2C, analog, and digital connections. "
+"The 3-pin connector is used for the RS-485 connection between the Control "
+"Hub and Expansion Hub. JST PH connectors are crimped onto wires."
+msgstr ""
+"JST PH 是一种连接器，用于 REV Control/Expansion Hubs  和各种电子设备，如传感器。在 REV "
+"Control/Expansion Hubs 上，4 针连接器用于编码器、I2C、模拟和数字连接。3 针连接器用于控制 hub 和扩展 hub 之间的 "
+"RS-485 连接。JST PH 连接器压接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:70
+msgid ""
+"JST XH connectors are used for the encoder connections on goBILDA (MATRIX) "
+"and AndyMark NeveRest motors. Both vendors sell adapters from JST XH to the "
+":term:`JST PH` encoder ports on the REV Control/Expansion Hubs. These "
+"connectors are also occasionally found on some third party sensors. JST XH "
+"connectors are crimped onto wires."
+msgstr ""
+"JST XH 连接器用于 goBILDA (MATRIX) 和 AndyMark NeveRest 电机的编码器连接。这两家供应商都出售从 JST XH"
+" 到 REV Control/Expansion Hubs 上的 :term:`JST PH` "
+"编码器端口的适配器。这些连接器偶尔也会出现在一些第三方传感器上。JST XH 连接器压接在导线上。"
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:71
 msgid "Tamiya"
