@@ -6,18 +6,91 @@
 # Translators:
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-10-15 04:28+0000\n"
 "PO-Revision-Date: 2023-08-04 04:15+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:2
+msgid "Mini Turrets"
+msgstr "Mini-tourelles"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:4
+msgid ""
+"Mini turrets are turrets that pivot something small, typically an end "
+"effector. These are often at the end of a linear extension or arm. These are"
+" much simpler than full turrets, because they are physically smaller and "
+"deal with much smaller loads. There are many ways to implement a mini "
+"turret, and generally any of the methods mentioned on the :doc:`./full-"
+"turret` page will work, but the center-bearing technique is the most common,"
+" as it is the simplest."
+msgstr ""
+"Les mini-tourelles sont des tourelles qui font pivoter un petit objet, "
+"généralement un effecteur terminal. Elles se trouvent souvent à l'extrémité "
+"d'une extension ou d'un bras linéaire. Elles sont beaucoup plus simples que "
+"les tourelles complètes, car elles sont physiquement plus petites et "
+"traitent des charges beaucoup plus faibles. Il existe de nombreuses façons "
+"d'implémenter une mini-tourelle, et généralement toutes les méthodes "
+"mentionnées sur la page :doc:`./full-turret` fonctionneront, mais la "
+"technique du palier central est la plus courante, car c'est la plus simple."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:8
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:10
+msgid "Allows for accurate mechanism rotation, without drivetrain movement."
+msgstr ""
+"Permet une rotation précise du mécanisme, sans mouvement de la transmission."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:11
+msgid "Much simpler than a full turret."
+msgstr "Beaucoup plus simple qu'une tourelle complète."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:14
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:16
+msgid ""
+"Heavier than just an end effector, which is especially important on the end "
+"of slides/arms because of mechanism speed and center of gravity."
+msgstr ""
+"Plus lourd qu'un simple effecteur, ce qui est particulièrement important à "
+"l'extrémité des glissières/bras en raison de la vitesse du mécanisme et du "
+"centre de gravité."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:17
+msgid "More complex than no turret."
+msgstr "Plus complexe que l'absence de tourelle."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:18
+msgid "Provide fairly limited range compared to full turrets."
+msgstr ""
+"Leur portée est relativement limitée par rapport à celle des tourelles "
+"complètes."
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:23
+msgid "12518 Almond Robotics' Mini Turret"
+msgstr "12518 Almond Robotics' La mini-tourelle"
+
+#: ../../gm0/source/docs/common-mechanisms/turrets/mini-turret.rst:23
+msgid ""
+"12518 Almond Robotics, Freight Frenzy, a **center-bearing mini turret** on "
+"the end of slides used to rotate a scoring mechanism with a servo"
+msgstr ""
+"12518 Almond Robotics, Freight Frenzy, une **tourelle à palier central** sur"
+" l'extrémité des glissières utilisée pour faire tourner un mécanisme "
+"d'incision à l'aide d'un servo"

@@ -8,18 +8,319 @@
 # Younes Djafri, 2025
 # Aaraf Chy, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-13 04:40+0000\n"
+"POT-Creation-Date: 2025-10-15 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:4
+msgid "Tank (Skid-Steer) Drivetrains"
+msgstr "Châssis de type tank (ou à glissement différentiel)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:7
+msgid "2 Wheel Drive (Pushbot Drive)"
+msgstr "2 Roues Motrices (Pushbot Drive)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:9
+msgid "**Recommended only for first drivetrain, not for competitions**"
+msgstr ""
+"**Recommandé uniquement comme premier châssis, pas pour les compétitions**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:13
+msgid ""
+"This type of drivetrain has poor turning as the center of turning is at the "
+"back of the robot between the two powered wheels. In comparison to other "
+"drivetrains, it has poor acceleration due to only using two motors."
+msgstr ""
+"Ce type de transmission ne permet pas de tourner correctement, car le centre"
+" de rotation se trouve à l'arrière du robot, entre les deux roues motrices. "
+"Par rapport à d'autres transmissions, il a une faible accélération car il "
+"n'utilise que deux moteurs."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:20
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:71
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:153
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:228
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:265
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:23
+msgid "No need to worry about powering all four wheels"
+msgstr "Pas besoin de se préoccuper de l'alimentation des quatre roues"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:26
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:79
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:161
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:236
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:271
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:28
+msgid "Slower than other options"
+msgstr "Plus lent que les autres options"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:29
+msgid "Underpowered (all other drivetrain options typically use 4 motors)"
+msgstr ""
+"Sous-puissance (toutes les autres options de transmission utilisent "
+"généralement 4 moteurs)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:30
+msgid ""
+"Uses the Tetrix MAX motor, which is prone to burning out easily, is "
+"underpowered, and has a fragile gearbox."
+msgstr ""
+"Utilise le moteur Tetrix MAX, qui a tendance à griller facilement, est sous-"
+"puissant et possède une boîte de vitesses fragile"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:31
+msgid "Lacks agility and maneuverability due to 2 motor turning"
+msgstr ""
+"Manque d'agilité et de maniabilité en raison des 2 moteurs qui tournent"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:32
+msgid "Poor acceleration due to 2 motors"
+msgstr "Mauvaise accélération due à la présence de 2 moteurs"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:42
+msgid "4 Wheel Drive"
+msgstr "4 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:46
+msgid ""
+"Some teams will put all four traction wheels or use all four omni wheels. It"
+" is not suggested to use all 4 traction wheels due to poor turning that "
+"results in this setup. This is caused by wheel scrub. Using omni wheels for "
+"all four wheels will result in incredible turning, with the robot rotating "
+"around its center."
+msgstr ""
+"Certaines équipes utilisent les 4 roues de traction ou les quatre roues "
+"omni. Il n'est pas recommandé d'utiliser les quatre roues motrices en raison"
+" du mauvais virage qui résulte de cette configuration. Cela est dû au "
+"frottement des roues. L'utilisation de roues omnidirectionnelles pour les "
+"quatre roues permet d'obtenir un virage incroyable, le robot tournant autour"
+" de son centre."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:48
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:61
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:137
+msgid "Term"
+msgstr "Définition"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:59
+msgid ""
+":term:`Weight distribution` is furthermore a large factor that should be "
+"considered: the more weight in the back, the better."
+msgstr ""
+":term:``La répartition du poids`` est également un facteur important à "
+"prendre en compte : plus le poids est important à l'arrière, mieux c'est."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:64
+msgid "Weight distribution"
+msgstr "Répartition du poids"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:74
+msgid "Solid acceleration and traction"
+msgstr "Accélération et traction solides"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:75
+msgid "Can traverse terrain if the chassis is raised high enough"
+msgstr "Peut traverser un terrain si le châssis est suffisamment élevé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:76
+msgid "Good pushing power for defense, yet maneuverable enough to avoid it"
+msgstr ""
+"Bonne puissance de poussée pour la défense, mais suffisamment manœuvrable "
+"pour l'éviter."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:81
+msgid "Can tip more easily than 6WD/8WD with a high center of mass"
+msgstr ""
+"Peut basculer plus facilement qu'un 6RM/8RM avec un centre de masse élevé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:83
+msgid ""
+"Weight distribution factors into the turning point and turning radius of the"
+" robot"
+msgstr ""
+"La répartition du poids influe sur le point de braquage et le rayon de "
+"braquage du robot."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "CAD Examples of Four Wheel Drive (Click to expand)"
+msgstr "Exemples CAD de Quatre Roues Motrices (Cliquez pour agrandir)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "goBILDA COTS"
+msgstr "goBILDA COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:96
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "REV COTS"
+msgstr "REV COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:104
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:112
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "REV Custom"
+msgstr "REV customisé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:120
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:125
+msgid "7209 Tech Hogs, Relic Recovery"
+msgstr "7209 Tech Hogs, récupération de reliques"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
+msgid "10641 Atomic Gears, Rover Ruckus"
+msgstr "10641 Atomic Gears, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:155
+msgid "Great traction and maneuverability"
+msgstr "Excellente traction et maniabilité"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:156
+msgid "Good acceleration, can have a high top speed"
+msgstr "Bonne accélération, vitesse de pointe élevée"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:157
+msgid "Great stability under all robot weights"
+msgstr "Grande stabilité quel que soit le poids du robot"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:158
+msgid "Able to play defense"
+msgstr "Capable de jouer en défense"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:180
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/97e67997606a54fcabd367ac>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/97e67997606a54fcabd367ac>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:188
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/a787322363f7646a8b7cb69e>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/a787322363f7646a8b7cb69e>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:196
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/05fbe7b65c6c4be0b0cddabb>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/05fbe7b65c6c4be0b0cddabb>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:204
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/258524b3c7582178ba684ac5>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/258524b3c7582178ba684ac5>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:217
+msgid "8 Wheel Drive"
+msgstr "8 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:230
+msgid "Combines the stability of 6WD with the agility of 4WD"
+msgstr ""
+"Combine la stabilité des 6 roues motrices et l'agilité des 4 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:231
+msgid "Even more stable than 6WD"
+msgstr "Encore plus stable que les 6 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:232
+msgid "Fantastic traction and acceleration"
+msgstr "Traction et accélération fantastiques"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:233
+msgid "Great for defense"
+msgstr "Idéal pour la défense"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:239
+msgid "Powering all 8 wheels can be tricky"
+msgstr "Alimenter les 8 roues peut s'avérer délicat"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:240
+msgid "Without adequate center drop, turning can be drastically reduced"
+msgstr ""
+"Si la chute du centre n'est pas suffisante, le braquage peut être "
+"considérablement réduit."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:245
+msgid "3846 Maelstrom, Rover Ruckus"
+msgstr "3846 Maelstrom, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:267
+msgid "Very good at traversing terrain"
+msgstr "Très bonne capacité à traverser le terrain"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:268
+msgid "Fantastic traction and pushing power"
+msgstr "Traction et puissance de poussée fantastiques"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:273
+msgid "Suffers in maneuverability and top speed"
+msgstr "Manœuvrabilité et vitesse de pointe insuffisantes"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:274
+msgid "Very complex to implement"
+msgstr "Très complexe à implémenter"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:275
+msgid "Treads are prone to breakage and can fall off easily"
+msgstr ""
+"Les bandes de roulement sont sujettes à la rupture et peuvent tomber "
+"facilement"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:280
+msgid "5975 Cybots, Res-Q"
+msgstr "5975 Cybots, Res-Q"

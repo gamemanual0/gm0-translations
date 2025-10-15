@@ -7,15 +7,16 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 16:32+0000\n"
+"POT-Creation-Date: 2025-10-15 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,6 +27,10 @@ msgstr ""
 #: ../../gm0/source/docs/software/software-glossary.rst:2
 msgid "Software Glossary"
 msgstr "Glossaire des logiciels"
+
+#: ../../gm0/source/docs/software/software-glossary.rst:5
+msgid "Disconnect"
+msgstr "Déconnexion"
 
 #: ../../gm0/source/docs/software/software-glossary.rst:7
 msgid ""
@@ -38,6 +43,23 @@ msgstr ""
 "produire pour de nombreuses raisons - accumulation d'électricité statique "
 "sur le robot, câble mal fixé ou erreur dans le code."
 
+#: ../../gm0/source/docs/software/software-glossary.rst:9
+msgid ""
+"Generally, most DCs are caused by improper wiring, so wire stress relief is "
+"encouraged for all teams (:term:`USB Retention Mount`). They can also be "
+"caused by WiFi disconnects, or an ESD (electrostatic discharge) shock to the"
+" electronics."
+msgstr ""
+"Généralement, la plupart des DC sont causées par un mauvais câblage, c'est "
+"pourquoi toutes les équipes sont encouragées à réduire les tensions sur les "
+"câbles (:term:`USB Retention Mount`). Elles peuvent également être causées "
+"par des déconnexions WiFi ou par un choc ESD (décharge électrostatique) sur "
+"l'électronique."
+
+#: ../../gm0/source/docs/software/software-glossary.rst:10
+msgid "Driver Station"
+msgstr "Driver station ou poste de conduite"
+
 #: ../../gm0/source/docs/software/software-glossary.rst:12
 msgid ""
 "The Driver Station (DS) refers to both the software and device that is used "
@@ -48,6 +70,10 @@ msgstr ""
 "par l'équipe de conduite et connecté à la/aux manette(s) de jeu. L'appareil "
 "peut être l'un des téléphones Android spécifiés dans |gm1| ou un REV "
 "Robotics Driver Hub."
+
+#: ../../gm0/source/docs/software/software-glossary.rst:13
+msgid "Robot Controller"
+msgstr "Contrôleur de robot"
 
 #: ../../gm0/source/docs/software/software-glossary.rst:15
 msgid ""

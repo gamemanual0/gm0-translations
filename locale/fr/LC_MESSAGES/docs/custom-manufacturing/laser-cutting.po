@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 04:28+0000\n"
+"POT-Creation-Date: 2025-10-15 04:28+0000\n"
 "PO-Revision-Date: 2023-06-18 04:15+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -98,3 +98,263 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:21
 msgid "CO2"
 msgstr "CO2"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:23
+msgid ""
+"These are typically enclosed machines, using a moving mirror to aim the "
+"light from a 30+ watt laser tube. These can cut wood and plastics, but can "
+"only mark metal. They can be very useful in FTC for custom parts."
+msgstr ""
+"Il s'agit généralement de machines fermées, utilisant un miroir mobile pour "
+"diriger la lumière d'un tube laser de plus de 30 watts. Elles peuvent "
+"découper le bois et le plastique, mais ne peuvent marquer que le métal. Ils "
+"peuvent être très utiles en FTC pour les pièces personnalisées."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:26
+msgid "Fiber"
+msgstr "Fibre"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:28
+msgid ""
+"These combine beams from multiple laser diodes into a fiber optic cable and "
+"can cut metal. Desktop versions usually have a very limited working area, "
+"often just a couple inches. These are very expensive and few FTC teams have "
+"access to them."
+msgstr ""
+"Ils combinent les faisceaux de plusieurs diodes laser dans un câble à fibre "
+"optique et peuvent découper le métal. Les versions de bureau ont "
+"généralement une zone de travail très limitée, souvent de quelques "
+"centimètres. Ces appareils sont très coûteux et peu d'équipes FTC y ont "
+"accès."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:30
+msgid ""
+"These are generalizations, and are not always true. For example, some diode "
+"cutters can cut thin metals. For more information, always research your "
+"specific laser cutter."
+msgstr ""
+"Il s'agit de généralisations qui ne sont pas toujours vraies. Par exemple, "
+"certains découpeurs à diodes peuvent découper des métaux fins. Pour plus "
+"d'informations, renseignez-vous toujours sur votre découpeur laser "
+"spécifique."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:33
+msgid "What Can You Cut?"
+msgstr "Que pouvez-vous couper ?"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:35
+msgid ""
+"As mentioned above, CO2 lasers---like those commonly available to FTC teams"
+"---can cut wood and some plastics. Some of the most useful materials you can"
+" cut with a CO2 laser in the 40 watt range are:"
+msgstr ""
+"Comme indiqué plus haut, les lasers CO2, comme ceux dont disposent "
+"généralement les équipes FTC, peuvent découper le bois et certains "
+"plastiques. Les matériaux les plus utiles que vous pouvez découper avec un "
+"laser CO2 dans la gamme des 40 watts sont les suivants :"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:38
+msgid "Wood"
+msgstr "Bois"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:40
+msgid ""
+"Most thin wood can be easily lasercut and is great for prototypes as well as"
+" light-duty parts. For more info see :ref:`the material guide <materials-"
+"guide-plywood-and-mdf>`. Please note that some woods - such as MDF - contain"
+" glues that release fumes when cut. Oily or resinous woods may also have a "
+"heightened risk of catching on fire."
+msgstr ""
+"La plupart des bois minces peuvent être facilement découpés au laser et sont"
+" parfaits pour les prototypes et les pièces légères. Pour plus "
+"d'informations, voir :ref:`le guide des matériaux <materials-guide-plywood-"
+"and-mdf>`. Veuillez noter que certains bois, comme le MDF, contiennent des "
+"colles qui dégagent des fumées lors de la découpe. Les bois gras ou résineux"
+" peuvent également présenter un risque accru d'incendie."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:43
+msgid "Acrylic"
+msgstr "Acrylique"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:45
+msgid ""
+"Acrylic is a very commonly used material for laser cutting. Due to its "
+"tendency to fracture under load, it mainly finds use on FTC bots as "
+"decorative plates or as guides to funnel game elements. For more information"
+" on using acrylic in FTC, see :ref:`the material guide <materials-guide-"
+"acrylic>`."
+msgstr ""
+"L'acrylique est un matériau très couramment utilisé pour la découpe laser. "
+"En raison de sa tendance à se fracturer sous l'effet de la charge, il est "
+"principalement utilisé sur les robots FTC comme plaques décoratives ou comme"
+" guides pour les éléments de jeu en entonnoir. Pour plus d'informations sur "
+"l'utilisation de l'acrylique en FTC, voir :ref:`le guide des matériaux "
+"<materials-guide-acrylic>`."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:48
+msgid "Delrin"
+msgstr "Delrin"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:50
+msgid ""
+"Delrin, also known as acetal, can be safely cut on most CO2 lasers with "
+"proper ventilation. Laser cut Delrin can be used to make everything from "
+"motor mounts to linear slide inserts to whole drivetrain plates. More "
+"information on delrin can be found in :ref:`the material guide <materials-"
+"guide-delrin>`."
+msgstr ""
+"Le Delrin, également connu sous le nom d'acétal, peut être découpé en toute "
+"sécurité sur la plupart des lasers CO2 avec une ventilation adéquate. Le "
+"Delrin découpé au laser peut être utilisé pour fabriquer des supports de "
+"moteur, des inserts de glissières linéaires ou des plaques de transmission "
+"complètes. Pour plus d'informations sur le delrin, consultez :ref:`le guide "
+"des matériaux <materials-guide-delrin>`."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:53
+msgid "What Can't You Cut?"
+msgstr "Qu'est-ce que vous ne pouvez pas couper ?"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:55
+msgid ""
+"There are some materials, mostly plastics, you should **NEVER** try cutting "
+"on a desktop laser."
+msgstr ""
+"Il existe des matériaux, principalement des plastiques, qu'il ne faut "
+"**JAMAIS** essayer de découper avec un laser de bureau."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:58
+msgid "PVC"
+msgstr "PVC"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:60
+msgid ""
+"This emits toxic fumes which can damage your laser cutter and your lungs."
+msgstr ""
+"Cela émet des fumées toxiques qui peuvent endommager votre découpeur laser "
+"et vos poumons."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:63
+msgid "Polycarbonate"
+msgstr "Polycarbonate"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:65
+msgid ""
+"If you try to cut polycarbonate it will discolor and burn instead of "
+"cutting, releasing toxic fumes and potentially starting a fire."
+msgstr ""
+"Si vous essayez de couper le polycarbonate, il se décolorera et brûlera au "
+"lieu de se couper, libérant des fumées toxiques et risquant de déclencher un"
+" incendie."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:68
+msgid "ABS and HDPE"
+msgstr "ABS et HDPE"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:70
+msgid "These will both melt instead of cutting cleanly."
+msgstr "Ils fondront tous deux au lieu de couper proprement."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:73
+msgid "Any unknown plastic"
+msgstr "Tout plastique inconnu"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:75
+msgid ""
+"If you don't know what a plastic is, don't take the risk of cutting it. It "
+"could potentially burn or release toxic gasses. Be careful, as some "
+"different plastics, such as acrylic and polycarbonate, can resemble each "
+"other."
+msgstr ""
+"Si vous ne savez pas ce qu'est un plastique, ne prenez pas le risque de le "
+"couper. Il pourrait brûler ou dégager des gaz toxiques. Faites attention, "
+"car certains plastiques, comme l'acrylique et le polycarbonate, peuvent se "
+"ressembler."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:77
+msgid ""
+"This is not an exhaustive list and you should always research materials to "
+"ensure they will be safe before cutting them."
+msgstr ""
+"Cette liste n'est pas exhaustive et vous devez toujours vous renseigner sur "
+"les matériaux pour vous assurer qu'ils sont sûrs avant de les découper."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:80
+msgid "Design Guide"
+msgstr "Guide de conception"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:82
+msgid ""
+"When using a sponsor, machine shop, or service like Fabworks or SendCutSend,"
+" parts may be adjusted by the vendor for you. Check with the service you are"
+" using before you make these adjustments!"
+msgstr ""
+"Lorsque vous faites appel à un sponsor, à un atelier d'usinage ou à un "
+"service tel que Fabworks ou SendCutSend, les pièces peuvent être ajustées "
+"par le vendeur pour vous. Vérifiez auprès du service que vous utilisez avant"
+" de procéder à ces ajustements !"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:84
+msgid ""
+"There are a few quirks of laser cut parts that you should keep in mind when "
+"designing them"
+msgstr ""
+"Les pièces découpées au laser présentent quelques particularités qu'il "
+"convient de garder à l'esprit lors de leur conception."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:87
+msgid "Kerf"
+msgstr "Kerf"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:89
+msgid ""
+"Most laser cutting software does not account for the width of the laser beam"
+" when cutting. This means if you require precise outer dimensions or hole "
+"diameters, you need to manually offset your paths in CAD."
+msgstr ""
+"La plupart des logiciels de découpe laser ne tiennent pas compte de la "
+"largeur du faisceau laser lors de la découpe. Cela signifie que si vous avez"
+" besoin de dimensions extérieures ou de diamètres de trous précis, vous "
+"devez décaler manuellement vos trajectoires dans la CAO."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:92
+msgid "Taper"
+msgstr "Conique"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:94
+msgid ""
+"As the lens in a laser cutter focuses light, it naturally creates a cone "
+"shaped beam. This leads to a beveled edge on parts. While this is usually "
+"not a problem for plates, it means pressfit non-flanged bearings may work "
+"their way out over time as they are squeezed harder at one side than "
+"another. One way to get around this is to lase holes undersized and then "
+"drill or ream them out to their final dimension to achieve vertical walls."
+msgstr ""
+"Lorsque la lentille d'une découpeuse laser concentre la lumière, elle crée "
+"naturellement un faisceau en forme de cône. Il en résulte un bord biseauté "
+"sur les pièces. Bien que cela ne pose généralement pas de problème pour les "
+"plaques, cela signifie que les roulements à pression non bridés peuvent "
+"s'user au fil du temps car ils sont pressés plus fortement d'un côté que de "
+"l'autre. Une façon de contourner ce problème consiste à percer des trous "
+"sous-dimensionnés, puis à les percer ou à les aléser à leur dimension finale"
+" afin d'obtenir des parois verticales."
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:99
+msgid "Side view of a laser-cut acrylic part, showing the taper"
+msgstr ""
+"Vue latérale d'une pièce en acrylique découpée au laser, montrant la "
+"conicité"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:102
+msgid "Other Uses of Laser Cutting"
+msgstr "Autres utilisations de la découpe laser"
+
+#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:104
+msgid ""
+"A laser cutter can be used to precisely mark the positions of holes in a "
+"metal sheet, which can then be drilled out with a drill press to make metal "
+"plates."
+msgstr ""
+"Une découpeuse laser peut être utilisée pour marquer avec précision les "
+"positions des trous dans une feuille de métal, qui peuvent ensuite être "
+"percés à l'aide d'une perceuse à colonne pour fabriquer des plaques de "
+"métal."

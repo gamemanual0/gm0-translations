@@ -5,18 +5,99 @@
 # 
 # Translators:
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 04:28+0000\n"
+"POT-Creation-Date: 2025-10-15 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:2
+msgid "Using Telemetry"
+msgstr "Utilisation de la Télémétrie"
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:4
+msgid ""
+"The SDK has \"telemetry\" that can be sent from the robot controller to the "
+"drivers station to display basic text. This telemetry is accessible through "
+"the ``Telemetry`` class, and the ``telemetry`` variable accessible in both "
+"OpMode and LinearOpMode."
+msgstr ""
+"Le SDK dispose d'une \"télémétrie\" qui peut être envoyée du contrôleur du "
+"robot à la station de pilotage pour afficher un texte de base. Cette "
+"télémétrie est accessible via la classe ``Telemetry``, et la variable "
+"``telemetry`` accessible en OpMode et LinearOpMode."
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:7
+msgid "Building Telemetry"
+msgstr "Bâtir la Télémétrie"
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:9
+msgid ""
+"There are two main methods used to add things to telemetry. ``addData()`` "
+"takes two parameters, a string for the caption, and then a value that can be"
+" any object. This is then printed on the phone screen in the format "
+"``caption : value``. These lines are keyed, so adding a secondary "
+"``addData()`` with the same caption will override the value set."
+msgstr ""
+"Il existe deux méthodes principales pour ajouter des éléments à la "
+"télémétrie. ``addData()`` prend deux paramètres, une chaîne pour la légende,"
+" et une valeur qui peut être n'importe quel objet. Ceci est ensuite imprimé "
+"sur l'écran du téléphone dans le format ``caption : value``. Ces lignes sont"
+" liées, donc l'ajout d'un deuxième `addData()` avec la même légende "
+"remplacera la valeur définie."
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:16
+msgid ""
+"The second method used to add things to telemetry is ``addLine()``. Add line"
+" can be used to add a line with no parameters, or can take a single string "
+"to add as a line."
+msgstr ""
+"La seconde méthode utilisée pour ajouter des éléments à la télémétrie est "
+"``addLine()``. Add line peut être utilisé pour ajouter une ligne sans "
+"paramètre, ou peut prendre une chaîne de caractères à ajouter en tant que "
+"ligne."
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:23
+msgid "Updating Telemetry"
+msgstr "Mise à jour de la Télémétrie"
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:25
+msgid ""
+"Once all telemetry items have been added (typically at the end of an opmode "
+"loop), ``telemetry.update()`` must be called. Calling this method is what "
+"pushes the values to the phone, so without it telemetry will not appear on "
+"the phone screen. Note that ``OpMode`` will call ``telemetry.update()`` "
+"automatically once per call of its ``loop``."
+msgstr ""
+"Une fois que tous les éléments de télémétrie ont été ajoutés (typiquement à "
+"la fin d'une boucle opmode), ``telemetry.update()`` doit être appelé. "
+"L'appel à cette méthode est ce qui pousse les valeurs vers le téléphone, "
+"donc sans elle la télémétrie n'apparaîtra pas sur l'écran du téléphone. "
+"Notez que ``OpMode`` appellera ``telemetry.update()`` automatiquement une "
+"fois par appel de son ``loop``."
+
+#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:27
+msgid ""
+"By default, telemetry is only refreshed on the phone every 250 ms. Any calls"
+" to ``telemetry.update()`` during this window will be saved and overwritten "
+"if update() is called again before 250 ms have elapsed. "
+"``setMsTransmissionInterval()`` may be used to change the amount of time the"
+" SDK will wait between sending updates to the driver station."
+msgstr ""
+"Par défaut, la télémétrie n'est rafraîchie sur le téléphone que toutes les "
+"250 ms. Tout appel à ``telemetry.update()`` pendant cette fenêtre sera "
+"sauvegardé et écrasé si update() est appelé à nouveau avant que 250 ms ne se"
+" soient écoulées. ``setMsTransmissionInterval()`` peut être utilisé pour "
+"modifier le temps d'attente du SDK entre l'envoi des mises à jour à la "
+"station pilote."

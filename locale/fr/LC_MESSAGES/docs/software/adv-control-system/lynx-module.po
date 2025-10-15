@@ -7,18 +7,100 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-10-15 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:4
+msgid "Lynx Module"
+msgstr "Module Lynx"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:6
+msgid ""
+"The Lynx Module is an object that represents the Control Hub and Expansion "
+"Hub. One Lynx Module object is created per connected hub."
+msgstr ""
+"Le Module Lynx est un objet qui représente le Control Hub et  l'Expansion "
+"Hub. Un objet Lynx Module est créé par hub connecté."
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:9
+msgid "General Explanation"
+msgstr "Explication générale"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:12
+msgid "Obtaining Lynx Module Object"
+msgstr "Obtention de l'Objet du Module Lynx"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:14
+msgid ""
+"A list of connected Lynx Module objects can be obtained using "
+"``hardwareMap.getAll(LynxModule.class);``. The Control Hub or the Expansion "
+"Hub connected to the phone via USB will have ``isMaster()`` set to true, and"
+" the hub connected over RS-485 will have it set to false."
+msgstr ""
+"Une liste des objets Lynx Module connectés peut être obtenue en utilisant "
+"``hardwareMap.getAll(LynxModule.class);``. Le Control Hub ou l'Expansion Hub"
+" connecté au téléphone via USB aura ``isMaster()`` fixé à true, et le hub "
+"connecté via RS-485 l'aura fixé à false."
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:17
+msgid "LED"
+msgstr "LED"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:19
+msgid ""
+"The REV hub's LED can be set using ``setConstant()`` or ``setPattern()``.  "
+"``setConstant()`` sets a constant color to the LED, and ``setPattern()`` "
+"allows the user to define a pattern of colors for the REV hub to follow."
+msgstr ""
+"La LED du hub REV peut être réglée à l'aide de ``setConstant()`` ou de "
+"``setPattern()``.  ``setConstant()` fixe une couleur constante à la LED, et "
+"``setPattern()` permet à l'utilisateur de définir un modèle de couleurs que "
+"le hub REV doit suivre."
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:22
+msgid "Power"
+msgstr "Puissance"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:24
+msgid ""
+"The total amount of current that the REV hub is pulling can be measured "
+"using ``getCurrent()``. This is the current pull of the 12V input in the "
+"specified units, so it includes everything connected to the hub as well as "
+"the hub itself. In addition, the input voltage to the expansion hub can be "
+"measured using ``getInputVoltage()``, which returns the battery voltage in "
+"the specified units."
+msgstr ""
+"La quantité totale de courant que le hub REV tire peut être mesurée en "
+"utilisant ``getCurrent()``. Il s'agit du courant tiré de l'entrée 12V dans "
+"les unités spécifiées, ce qui inclut tout ce qui est connecté au "
+"concentrateur ainsi que le concentrateur lui-même. De plus, la tension "
+"d'entrée du concentrateur d'expansion peut être mesurée en utilisant "
+"``getInputVoltage()``, qui retourne la tension de la batterie dans les "
+"unités spécifiées."
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:27
+msgid "Bulk Reads"
+msgstr "Lectures en Bloc"
+
+#: ../../gm0/source/docs/software/adv-control-system/lynx-module.rst:29
+msgid ""
+"Bulk reads can also be managed through the lynx module object. See "
+":doc:`/docs/software/tutorials/bulk-reads` for more information on this."
+msgstr ""
+"Les lectures en masse peuvent également être gérées par l'objet module lynx."
+" Voir :doc:`/docs/software/tutorials/bulk-reads` pour plus d'informations à "
+"ce sujet."

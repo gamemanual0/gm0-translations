@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:31+0000\n"
+"POT-Creation-Date: 2025-10-15 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -35,6 +35,10 @@ msgstr "Disposition de la manette de jeu"
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
 msgid "Logitech F310"
 msgstr "Logitech F310"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
+msgid "Logitech F310 gamepad image layout."
+msgstr "Disposition des boutons de la manette Logitech F310."
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:0
 msgid "Xbox 360"
@@ -92,6 +96,10 @@ msgstr "``cercle``"
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:41
 msgid "``b``"
 msgstr "``b``"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:43
+msgid "``cross``"
+msgstr "``croix``"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:43
 msgid "``a``"
@@ -192,6 +200,37 @@ msgstr ""
 msgid "Storing Gamepad State"
 msgstr "Stockage de l'état de la manette de jeu"
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:86
+msgid ""
+"While each gamepad input's previous state could be stored individually in a "
+"variable, e.g. ``boolean previousA``, this very quickly gets annoying. "
+"Luckily, the FTC SDK provides a way to copy gamepad states, with "
+"``gamepad.copy(gamepadToCopy)``."
+msgstr ""
+"Bien que l'état précédent de chaque entrée du gamepad puisse être stocké "
+"individuellement dans une variable, par exemple ``boolean previousA``, cela "
+"devient très vite ennuyeux. Heureusement, le SDK de FTC fournit un moyen de "
+"copier les états du gamepad, avec ``gamepad.copy(gamepadToCopy)``."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:88
+msgid ""
+"In addition to storing the gamepad state for the previous iteration of the "
+"loop, the gamepad state for the current iteration of the loop is also "
+"stored. This is necessary because if the state of a button was always read "
+"from ``gamepad1``/``gamepad2``, it could change between reading the value "
+"and storing the previous value. This is because ``gamepad1``/``gamepad2`` "
+"update concurrently for ``LinearOpMode``, and so can change during a loop "
+"iteration."
+msgstr ""
+"En plus de stocker l'état de la manette de jeu pour l'itération précédente "
+"de la boucle, l'état de la manette de jeu pour l'itération actuelle de la "
+"boucle est également stocké. Ceci est nécessaire car si l'état d'un bouton "
+"était toujours lu depuis ``gamepad1``/``gamepad2``, il pourrait changer "
+"entre la lecture de la valeur et le stockage de la valeur précédente. C'est "
+"parce que ``gamepad1`/`gamepad2`` se mettent à jour simultanément pour "
+"``LinearOpMode``, et peuvent donc changer pendant une itération de la "
+"boucle."
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:90
 msgid ""
 "In a ``LinearOpMode`` based TeleOp program, storing both current and "
@@ -226,6 +265,21 @@ msgstr ""
 msgid "A diagram of a rising/falling edge of a square wave"
 msgstr "Diagramme d'un front montant/descendant d'une onde carrée"
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:135
+msgid ""
+"The most commonly used technique is a rising edge detector. It allows code "
+"to be run only once when the button is initially pressed, as opposed to "
+"every loop while it is held down. It works by checking that the button is "
+"currently pressed, but was not pressed in the previous loop. For example, "
+"inside of a TeleOp loop:"
+msgstr ""
+"La technique la plus couramment utilisée est un détecteur de front montant. "
+"Elle permet d'exécuter le code une seule fois lorsque le bouton est "
+"initialement enfoncé, plutôt que de le faire à chaque boucle pendant qu'il "
+"est maintenu enfoncé. Il vérifie que le bouton est actuellement enfoncé, "
+"mais qu'il ne l'a pas été dans la boucle précédente. Par exemple, à "
+"l'intérieur d'une boucle TeleOp :"
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:143
 msgid ""
 "This will increase the servo position by 0.1 exactly once per press of "
@@ -237,6 +291,21 @@ msgstr ""
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:146
 msgid "Falling Edge Detector"
 msgstr "Détecteur de front descendant"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:148
+msgid ""
+"A very similar technique is a falling edge detector. It allows code to be "
+"run only once when the button is released, as opposed to every loop while it"
+" is held down. It works by checking that the button is currently not "
+"pressed, but was pressed in the previous loop. For example, inside of a "
+"TeleOp loop:"
+msgstr ""
+"Une technique très similaire est le détecteur de front descendant. Elle "
+"permet d'exécuter le code une seule fois lorsque le bouton est relâché, au "
+"lieu de le faire à chaque boucle lorsque le bouton est maintenu enfoncé. Il "
+"fonctionne en vérifiant que le bouton n'est actuellement pas enfoncé, mais "
+"qu'il l'a été dans la boucle précédente. Par exemple, à l'intérieur d'une "
+"boucle TeleOp :"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:156
 msgid ""
@@ -297,6 +366,19 @@ msgid ""
 msgstr ""
 "Cela activera la prise d'air lorsque ``a`` est pressé, et la laissera "
 "allumée jusqu'à ce que l'on appuie à nouveau sur cette touche."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:196
+msgid ""
+"The less a driver has to keep in their head about the state of the robot the"
+" less they can screw up. Since toggles mean that a button does different "
+"things every time it is pressed, consider alternate solutions. This is "
+"especially true for toggles with more than two states."
+msgstr ""
+"Moins le pilote doit se préoccuper de l'état du robot, moins il risque de se"
+" tromper. Étant donné que les bascules signifient qu'un bouton fait des "
+"choses différentes à chaque fois qu'il est enfoncé, envisagez d'autres "
+"solutions. C'est particulièrement vrai pour les boutons à bascule ayant plus"
+" de deux états."
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:199
 msgid "Gamepad Feedback"
@@ -366,6 +448,10 @@ msgstr ""
 "les pilotes du début de la partie finale, du chargement du ramasseur, de la "
 "fin de l'alignement automatique, etc."
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:230
+msgid "Rumble"
+msgstr "Vibration"
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:232
 msgid ""
 "The SDK provides both a simple and more complex API for controlling rumble "
@@ -392,17 +478,116 @@ msgstr ""
 " indiquer que le grondement doit continuer jusqu'à ce qu'une autre action de"
 " grondement soit commandée."
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:239
+msgid ""
+"All rumble actions are completed asynchronously; i.e. the function calls "
+"will return immediately. Any call to a rumble API will immediately displace "
+"any currently running rumble action. That is, if you command a gamepad to "
+"rumble for 750ms and then immediately command a rumble for 250ms, the "
+"gamepad will rumble for 250ms from the time the second command was issued."
+msgstr ""
+"Toutes les actions de vibration sont réalisées de manière asynchrone, c'est-"
+"à-dire que les appels de fonction sont renvoyés immédiatement. Tout appel à "
+"une API de vibration remplacera immédiatement toute action de vibration en "
+"cours. En d'autres termes, si vous ordonnez à une manette de jeu de vibrer "
+"pendant 750 ms, puis ordonnez immédiatement un vibrage pendant 250 ms, la "
+"manette de jeu vibrera pendant 250 ms à partir du moment où la seconde "
+"commande a été émise."
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:242
 msgid "Simple API"
 msgstr "API simple"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:244
+msgid ""
+"The simplest way to command rumble: rumble motor 1 at 100% power for a "
+"specified duration:"
+msgstr ""
+"La façon la plus simple de commander le grondement est de faire gronder le "
+"moteur 1 à 100 % de sa puissance pendant une durée déterminée :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:250
+msgid "If control over both rumble motors and rumble intensity is desried:"
+msgstr ""
+"Si l’on souhaite contrôler à la fois les deux moteurs de vibration et "
+"l’intensité des vibrations:"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:256
+msgid ""
+"To make a gamepad rumble for a certain number of \"blips\" (the notion of "
+"what a \"blip\" is being predefined by the SDK):"
+msgstr ""
+"Faire vibrer une manette de jeu pendant un certain nombre de \"blips\" (la "
+"notion de \"blip\" étant prédéfinie par le SDK) :"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:264
 msgid "Helper functions:"
 msgstr "Fonctions d'assistance :"
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:266
+msgid ""
+"The ``public boolean isRumbling()`` function provides an educated guess "
+"about whether there is a rumble action ongoing on this gamepad. The Robot "
+"Controller does not know for sure whether a rumble action is ongoing or not,"
+" because once the command is sent to the Driver Station, the Driver Station "
+"handles running the gamepad effects and the Robot Controller is \"hands "
+"off\"."
+msgstr ""
+"La fonction ``public boolean isRumbling()`` permet de savoir si une action "
+"de vibration est en cours sur cette manette de jeu. Le contrôleur du robot "
+"ne sait pas avec certitude si une action de vibration est en cours ou non, "
+"car une fois que la commande est envoyée à la station de pilotage, celle-ci "
+"se charge d'exécuter les effets de la manette de jeu et le contrôleur du "
+"robot n'a plus rien à faire."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:268
+msgid ""
+"The ``public void stopRumble()`` function may be used to stop any ongoing "
+"rumble action for a gamepad (perhaps most useful in conjunction with a "
+"rumble of continuous duration)."
+msgstr ""
+"La fonction ``public void stopRumble()`` peut être utilisée pour arrêter "
+"toute action de vibration en cours pour une manette de jeu (peut-être plus "
+"utile en conjonction avec une vibration de durée continue)."
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:271
 msgid "Advanced API"
 msgstr "API avancée"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:273
+msgid ""
+"To create more advanced rumble behavior, a ``RumbleEffect`` may be created, "
+"which is composed of \"Steps\" which specify the power and duration each "
+"rumble motor should operate at. When a gamepad is commanded to run a "
+"``RumbleEffect``, it will perform each of the \"Steps\" in series."
+msgstr ""
+"Pour créer un comportement de vibration plus avancé, un ``RumbleEffect`` "
+"peut être créé, qui est composé de \"Steps\" qui spécifient la puissance et "
+"la durée à laquelle chaque moteur de vibration doit fonctionner. Lorsqu'une "
+"manette de jeu est commandée pour exécuter un ``RumbleEffect``, elle exécute"
+" chaque \"Pas\" en série."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:275
+msgid ""
+"To create a ``RumbleEffect``, the ``RumbleEffect.Builder`` class must be "
+"used. The builder provides the ``addStep(double rumble1, double rumble2, int"
+" durationMs)`` function which is used to add a step to the sequence, and the"
+" ``build()`` function to create a ``RumbleEffect`` from the sequence of "
+"steps."
+msgstr ""
+"Pour créer un ``RumbleEffect``, la classe ``RumbleEffect.Builder`` doit être"
+" utilisée. Le constructeur fournit la fonction ``addStep(double rumble1, "
+"double rumble2, int durationMs)`` qui est utilisée pour ajouter un pas à la "
+"séquence, et la fonction ``build()`` pour créer un ``RumbleEffect`` à partir"
+" de la séquence de pas."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:277
+msgid ""
+"Using an anonymous instance of the builder class is the cleanest way to "
+"construct a ``RumbleEffect``, for example:"
+msgstr ""
+"L'utilisation d'une instance anonyme de la classe builder est la façon la "
+"plus propre de construire un ``RumbleEffect``, par exemple :"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:289
 msgid ""
@@ -425,9 +610,61 @@ msgstr ""
 "le bleu) est spécifiée sous la forme d'une valeur à virgule flottante dans "
 "la plage [0,0, 1,0]."
 
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:301
+msgid ""
+"LED duration is specified in milliseconds as an integer. The constant "
+"``Gamepad.LED_DURATION_CONTINUOUS`` may be used to indicate that the LED "
+"should remain the specified color until another command is issued."
+msgstr ""
+"La durée de la DEL est spécifiée en millisecondes sous la forme d'un entier."
+" La constante ``Gamepad.LED_DURATION_CONTINUOUS`` peut être utilisée pour "
+"indiquer que la DEL doit rester dans la couleur spécifiée jusqu'à ce qu'une "
+"autre commande soit émise."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:304
+msgid ""
+"All LED actions are completed `asynchronously;` i.e. the function calls will"
+" return immediately. Any call to an LED API will immediately displace any "
+"currently running LED action. That is, if you command the LED green for "
+"750ms and then immediately command purple for 250ms, the LED will light "
+"purple for 250ms from the time the second command was issued."
+msgstr ""
+"Toutes les actions des DEL sont effectuées de manière \"asynchrone\", c'est-"
+"à-dire que les appels de fonction sont renvoyés immédiatement. Tout appel à "
+"une API de DEL remplacera immédiatement toute action de DEL en cours. Ainsi,"
+" si vous commandez une DEL verte pendant 750 ms, puis immédiatement une DEL "
+"violette pendant 250 ms, la DEL s'allumera en violet pendant 250 ms à partir"
+" du moment où la seconde commande a été émise."
+
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:307
 msgid "To set the LED color for a fixed duration:"
 msgstr "Pour définir la couleur de la LED pour une durée fixe :"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:313
+msgid ""
+"To create more advanced LED behavior, an ``LedEffect`` may be created, which"
+" is composed of \"Steps\" which specify a color and the duration for which "
+"to maintain it. When a gamepad is commanded to run an ``LedEffect``, it will"
+" perform each of the \"Steps\" in series."
+msgstr ""
+"Pour créer un comportement plus avancé des DELs, un ``LedEffect`` peut être "
+"créé, qui est composé de \"Steps\" qui spécifient une couleur et la durée "
+"pour laquelle elle doit être maintenue. Lorsqu'une manette de jeu est "
+"commandée pour exécuter un ``LedEffect``, elle exécute chaque \"Pas\" en "
+"série."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:315
+msgid ""
+"To create an ``LedEffect``, the ``LedEffect.Builder`` class must be used. "
+"The builder provides the ``addStep(double r, double g, double b, int "
+"durationMs)`` function which is used to add a step to the sequence, and the "
+"``build()`` function to create an ``LedEffect`` from the sequence of steps."
+msgstr ""
+"Pour créer un ``LedEffect``, la classe ``LedEffect.Builder`` doit être "
+"utilisée. Le constructeur fournit la fonction ``addStep(double r, double g, "
+"double b, int durationMs)`` qui est utilisée pour ajouter un pas à la "
+"séquence, et la fonction ``build()`` pour créer un ``LedEffect`` à partir de"
+" la séquence de pas."
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:317
 msgid ""
