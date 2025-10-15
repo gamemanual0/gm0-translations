@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 04:28+0000\n"
+"POT-Creation-Date: 2025-10-15 16:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Darya Tepysheva, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -426,6 +426,24 @@ msgstr ""
 msgid "TPU/TPE hotend temperatures range from 210\\ |deg|-250\\ |deg| C"
 msgstr "Температура хотенда TPU/TPE варьируется от 210\\ |deg|-250\\ |deg| C"
 
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:86
+msgid ""
+"TPU/TPE does not usually need a heated bed, but if one is used it should not"
+" go over 60 |deg|\\ C as this will fuse TPU with print bed."
+msgstr ""
+"Для печати TPU/TPE обычно не требуется подогреваемый стол, но если он "
+"используется, температура не должна превышать 60 |deg|\\ C — это может "
+"привести к спеканию материала с поверхностью стола."
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:87
+msgid ""
+"TPU/TPE has the tendency to absorb a lot of moisture from the air, and thus "
+"will likely need to be dried before and perhaps during a print."
+msgstr ""
+"TPU/TPE обладают высокой гигроскопичностью и активно поглощают влагу из "
+"воздуха, поэтому обычно требуют просушки перед печатью, а иногда и в "
+"процессе печати."
+
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:88
 msgid "Direct drive extruder is highly recommended"
 msgstr "Настоятельно рекомендуется использовать экструдер с прямой подачей"
@@ -474,6 +492,10 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:101
 msgid "Nylon hotend temperatures range from 240\\ |deg|-260\\ |deg| C"
 msgstr "Температура нагрева нейлона варьируется от 240\\ |deg|-260\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:102
+msgid "Nylon bed temperatures range from 55\\ |deg|-80\\ |deg| C"
+msgstr "Температура стола для нейлона варьируется от 55\\ |deg|-80\\ |deg| C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:103
 msgid ""
@@ -554,6 +576,10 @@ msgstr ""
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:119
 msgid "PC hotend temperatures range from 250\\ |deg|-320\\ |deg| C"
 msgstr "Температура хотенда PC варьируется от 250\\ |deg|-320\\ |deg| C"
+
+#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:120
+msgid "PC bed temperatures range from 80\\ |deg|-140\\ |deg| C"
+msgstr "Температура стола для PC варьируется от 80\\ |deg|-140\\ |deg| C"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:121
 msgid "Enclosure required"
