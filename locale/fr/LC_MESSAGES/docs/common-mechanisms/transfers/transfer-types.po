@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-08 04:28+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -155,6 +155,10 @@ msgstr ""
 "tourner vers le haut pour s'adapter au cube de taille de 18 pouces, ce qui "
 "permet une plus grande flexibilité."
 
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:46
+msgid "Limited in horizontal and vertical movement"
+msgstr "Limitation des mouvements horizontaux et verticaux"
+
 #: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:47
 msgid "Care must be taken that mechanisms align properly to each other"
 msgstr ""
@@ -182,3 +186,253 @@ msgid ""
 msgstr ""
 "6165 MSET Cuttlefish, Freight Frenzy, ramasseur monté sur glissières "
 "linéaires pour une plus grande portée horizontale"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst-1
+msgid "7236 flip up intake"
+msgstr "7236 ramasseur flip up"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:78
+msgid "7236 Recharged Green, Rover Ruckus, Flip up intake"
+msgstr "7236 Recharged Green, Rover Ruckus, ramasseur flip up "
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:81
+msgid "Grate Transfer"
+msgstr "Transfert par grille"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:83
+msgid ""
+"Grate transfer is a form of transfer where two sets of \"forks\" are used on"
+" both the transfer mechanism and the scoring mechanism, offset from each "
+"other. This means the forks can pass by each other without intersecting, "
+"allowing an item to seamlessly go from being supported by one set of forks "
+"to the other. This provides really fast transfer times, but also limits how "
+"the transfer can operate. Generally, this type of transfer is used with two "
+"sets of linear slides at an angle to each other, most commonly with one at a"
+" horizontal and one more vertical."
+msgstr ""
+"Le transfert par grille est une forme de transfert dans laquelle deux jeux "
+"de \"fourches\" sont utilisés à la fois sur le mécanisme de transfert et sur"
+" le mécanisme de pointage, décalés l'un par rapport à l'autre. Cela signifie"
+" que les fourches peuvent passer l'une à côté de l'autre sans se croiser, ce"
+" qui permet à un article de passer sans heurt d'un jeu de fourches à "
+"l'autre. Cela permet d'obtenir des temps de transfert très rapides, mais "
+"limite également la manière dont le transfert peut fonctionner. En général, "
+"ce type de transfert est utilisé avec deux séries de glissières linéaires "
+"inclinées l'une par rapport à l'autre, le plus souvent l'une à l'horizontale"
+" et l'autre à la verticale."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:88
+msgid "Low mechanical complexity"
+msgstr "Faible complexité mécanique"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:89
+msgid "Second fastest transfer system (instantaneous)"
+msgstr "Deuxième système de transfert le plus rapide (instantané)"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:90
+msgid ""
+"Integrates well with linear mechanism (such as extending intakes and "
+"outtakes)"
+msgstr ""
+"S'intègre bien au mécanisme linéaire (comme l'extension des ramasseurs et "
+"des mécanismes de sorties de pièces de jeu)"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:95
+msgid ""
+"More complex design, careful alignment needed to prevent the \"forks\" from "
+"colliding"
+msgstr ""
+"Conception plus complexe, alignement minutieux nécessaire pour éviter que "
+"les \"fourches\" ne se heurtent."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:96
+msgid "Doesn't integrate easily with rotational mechanisms"
+msgstr "Ne s'intègre pas facilement aux mécanismes de rotation"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:97
+msgid ""
+"Limiting in range of motion, mechanisms have to move in specific orders for "
+"the transfer to work correctly"
+msgstr ""
+"Limitation de l'amplitude de mouvement, les mécanismes doivent être déplacés"
+" dans des ordres spécifiques pour que le transfert fonctionne correctement."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:0
+msgid "Animated Grate Transfer Example (Click To Expand)"
+msgstr "Exemple animé de transfert de grille (Cliquer pour agrandir)"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:109
+msgid "6929 grate transfer deposit, where the forks are visible"
+msgstr "6929 dépôt de transfert de grilles, où les fourches sont visibles"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:109
+msgid ""
+"6929 Data Force, Rover Ruckus, Grate transfer deposit. Forks are visible on "
+"the bottom, which go between forks on the intake bucket."
+msgstr ""
+"6929 Data Force, Rover Ruckus, dépôt de transfert de grille. Des fourches "
+"sont visibles sur le fond, qui passent entre les fourches du godet de prise "
+"d'eau."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:112
+msgid "Conveyor Transfers"
+msgstr "Transferts par convoyeur"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:114
+msgid ""
+"Conveyor transfer is a catch all term for transfer system that uses "
+"components to linearly move objects internally. Conveyors can use rollers, "
+"belts, surgical tubing, rubber bands, and other materials to move the items."
+" These materials then form conveyors that seamlessly move the object "
+"linearly from one mechanism to another. Conveyors are generally either "
+"roller conveyors, where a series of rollers move parts, or continuous "
+"conveyors, where a continuous object moves the items. In addition, a hybrid "
+"conveyor can be used which is made up of both rollers and continuous objects"
+" in between."
+msgstr ""
+"Le transfert par convoyeur est un terme générique désignant un système de "
+"transfert qui utilise des composants pour déplacer linéairement des objets "
+"en interne. Les convoyeurs peuvent utiliser des rouleaux, des courroies, des"
+" tubes chirurgicaux, des élastiques et d'autres matériaux pour déplacer les "
+"objets. Ces matériaux forment ensuite des convoyeurs qui déplacent "
+"linéairement l'objet d'un mécanisme à l'autre. Les convoyeurs sont "
+"généralement soit des convoyeurs à rouleaux, où une série de rouleaux "
+"déplace les pièces, soit des convoyeurs continus, où un objet continu "
+"déplace les pièces. Il est également possible d'utiliser un convoyeur "
+"hybride, composé à la fois de rouleaux et d'objets continus."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:119
+msgid "Can create \"buffers\" where multiple items can be stored"
+msgstr ""
+"Possibilité de créer des \"tampons\" où plusieurs éléments peuvent être "
+"stockés"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:120
+msgid "Items can be moved across complex paths internally"
+msgstr "Les objets peuvent être déplacés sur des chemins complexes en interne"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:121
+msgid ""
+"Items can be continuously transferred instead of having discrete back and "
+"forth motions"
+msgstr ""
+"Les articles peuvent être transférés en continu au lieu d'être soumis à des "
+"mouvements de va-et-vient discrets."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:126
+msgid ""
+"Items can jam on the entrance and exit of the conveyor, especially when "
+"multiple elements are entering at once."
+msgstr ""
+"Les articles peuvent se bloquer à l'entrée et à la sortie du convoyeur, en "
+"particulier lorsque plusieurs éléments entrent en même temps."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:127
+msgid "Significant mechanical complexity"
+msgstr "Complexité mécanique importante"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:129
+msgid "There are different types of conveyors that can be used."
+msgstr "Il existe différents types de convoyeurs."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:132
+msgid "Roller Conveyor"
+msgstr "Convoyeur à rouleaux"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:134
+msgid ""
+"Roller conveyors use a series of rollers or wheels to move objects from the "
+"beginning of the conveyor to the end. These transfers allow for the use of "
+"compliant wheel for different or odd shaped items, but care must be taken "
+"that objects don't get stuck in between rollers. In addition, wheels tend to"
+" have better grip then many forms of continuous conveyors. Surgical tubing "
+"can also be used instead of rollers."
+msgstr ""
+"Les convoyeurs à rouleaux utilisent une série de rouleaux ou de roues pour "
+"déplacer les objets du début à la fin du convoyeur. Ces transferts "
+"permettent d'utiliser des roues conformes pour des objets de formes "
+"différentes ou bizarres, mais il faut veiller à ce que les objets ne restent"
+" pas coincés entre les rouleaux. En outre, les roues ont tendance à avoir "
+"une meilleure adhérence que de nombreuses formes de convoyeurs continus. Des"
+" tubes chirurgicaux peuvent également être utilisés à la place des rouleaux."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:139
+msgid ""
+"7244 Roller Conveyor intake, where a series of omni wheels moves a game "
+"element vertical"
+msgstr ""
+"7244 Ramasseur avec convoyeur à rouleaux, où une série de roues "
+"omnidirectionnelles déplace un élément de jeu verticalement."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:139
+msgid ""
+"7244 OUT of the BOX Robotics, Ultimate Goal, Roller conveyor transfer "
+"intake, where a series of omni wheels moves the game element rings at a high"
+" vertical angle"
+msgstr ""
+"7244 OUT of the BOX Robotics, Ultimate Goal, prise de transfert par "
+"convoyeur à rouleaux, où une série de roues omnidirectionnelles déplace les "
+"anneaux de l'élément de jeu à un angle vertical élevé."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:142
+msgid "Continuous Conveyor"
+msgstr "Convoyeur continu"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:144
+msgid ""
+"A continuous conveyor uses a continuous object, such as belts, surgical "
+"tubing, or rubber bands to move objects. These transfers generally have less"
+" compliance than roller intakes, but also continuously contact the object "
+"being moved. This can lead to fewer jamming problems. However, the common "
+"objects used, such as belts and rubber bands, don't have much grip, so they "
+"may slip when transferring objects."
+msgstr ""
+"Un convoyeur continu utilise un objet continu, tel que des courroies, des "
+"tubes chirurgicaux ou des bandes en caoutchouc, pour déplacer des objets. "
+"Ces transferts ont généralement moins de conformité que les entrées à "
+"rouleaux, mais ils sont en contact permanent avec l'objet déplacé. Cela peut"
+" entraîner moins de problèmes de blocage. Cependant, les objets couramment "
+"utilisés, tels que les courroies et les élastiques, n'ont pas beaucoup "
+"d'adhérence et peuvent donc glisser lors du transfert des objets."
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:149
+msgid "8644 Conveyor that uses o-ring belts to move rings internally"
+msgstr ""
+"8644 Convoyeur utilisant des courroies à joints toriques pour déplacer les "
+"anneaux en interne"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:149
+msgid ""
+"8644 Brainstormers, Ultimate Goal, Conveyors which moves rings using o-ring "
+"belts internally"
+msgstr ""
+"8644 Brainstormers, Ultimate Goal, Convoyeurs qui déplacent des anneaux en "
+"utilisant des courroies à joints toriques en interne"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:154
+msgid "11115 Ball transfer using rubber bands"
+msgstr "11115 Transfert de balles à l'aide d'élastiques"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:154
+msgid "11115 Gluten Free, Ball transfer using rubber bands"
+msgstr "11115 Gluten Free, Transfert de balles à l'aide d'élastiques"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:157
+msgid "Hybrid Conveyor"
+msgstr "Convoyeur hybride"
+
+#: ../../gm0/source/docs/common-mechanisms/transfers/transfer-types.rst:159
+msgid ""
+"Hybrid conveyors use rollers with continuous objects such as belts and "
+"rubber bands between them. This solves the contact issues of roller "
+"conveyors while also having more grip then purely continuous conveyors. "
+"However, these conveyors have to be designed to allow both the roller and "
+"continuous materials to make contact with the item."
+msgstr ""
+"Les convoyeurs hybrides utilisent des rouleaux entre lesquels sont "
+"intercalés des objets continus tels que des courroies et des bandes de "
+"caoutchouc. Cela permet de résoudre les problèmes de contact des convoyeurs "
+"à rouleaux tout en offrant une meilleure adhérence que les convoyeurs "
+"purement continus. Toutefois, ces convoyeurs doivent être conçus de manière "
+"à permettre aux rouleaux et aux matériaux continus d'entrer en contact avec "
+"l'article."

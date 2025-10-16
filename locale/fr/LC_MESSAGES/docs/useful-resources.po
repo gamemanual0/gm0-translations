@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 04:28+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -781,6 +781,20 @@ msgstr ""
 
 #: ../../gm0/source/docs/useful-resources.rst:170
 msgid ""
+"`Panels <https://panels.bylazar.com>`_ --- FTControl Panels is an all-in-one"
+" dashboard for FTC robots that lets you control OpModes, tune Limelight "
+"pipelines wirelessly, record and replay match data, configure variables in "
+"real time, and visualize telemetry with interactive field and graph tools."
+msgstr ""
+"`Panels <https://panels.bylazar.com>`_ --- FTControl Panels est un tableau "
+"de bord tout-en-un pour les robots FTC qui vous permet de contrôler les "
+"OpModes, de régler les pipelines Limelight sans fil, d'enregistrer et de "
+"rejouer les données de match, de configurer les variables en temps réel et "
+"de visualiser la télémétrie à l'aide d'outils interactifs de champ et de "
+"graphique."
+
+#: ../../gm0/source/docs/useful-resources.rst:172
+msgid ""
 "`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner"
 " is a motion planning library. Designed primarily for autonomous robotic "
 "movement, it allows for complex path following and generation while "
@@ -798,11 +812,11 @@ msgstr ""
 "Road Runner <https://www.learnroadrunner.com/>`_, un guide pour configurer "
 "Road Runner."
 
-#: ../../gm0/source/docs/useful-resources.rst:173
+#: ../../gm0/source/docs/useful-resources.rst:175
 msgid "Electronics"
 msgstr "Électronique"
 
-#: ../../gm0/source/docs/useful-resources.rst:175
+#: ../../gm0/source/docs/useful-resources.rst:177
 msgid ""
 "`Robot Wiring Guide "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
@@ -814,7 +828,7 @@ msgstr ""
 "wiring-guide.pdf>`_:highlight:`*` --- *First* guide to wiring FTC robots, "
 "including ESD mitigation options."
 
-#: ../../gm0/source/docs/useful-resources.rst:177
+#: ../../gm0/source/docs/useful-resources.rst:179
 msgid ""
 "`An Analysis of ESD Mitigation for the FIRST Tech Challenge "
 "<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
@@ -832,11 +846,11 @@ msgstr ""
 "d'excellentes recommandations sur ce qu'il faut faire pour atténuer ces "
 "problèmes."
 
-#: ../../gm0/source/docs/useful-resources.rst:180
+#: ../../gm0/source/docs/useful-resources.rst:182
 msgid "Team/Event Results"
 msgstr "Résultats de l'équipe/événement"
 
-#: ../../gm0/source/docs/useful-resources.rst:182
+#: ../../gm0/source/docs/useful-resources.rst:184
 msgid ""
 "`FTC Events <https://ftc-events.firstinspires.org/>`_ --- Official *FIRST* "
 "team and event result database for FTC."
@@ -845,7 +859,7 @@ msgstr ""
 "données officielle *FIRST* des équipes et des résultats d'événements pour "
 "FTC."
 
-#: ../../gm0/source/docs/useful-resources.rst:184
+#: ../../gm0/source/docs/useful-resources.rst:186
 msgid ""
 "`FTC Scout <https://ftcscout.org>`_ --- A community FTC Events frontend with"
 " more features and a more slick UI."
@@ -853,7 +867,7 @@ msgstr ""
 "`FTC Scout <https://ftcscout.org>`_ --- Un frontend communautaire pour les "
 "événements FTC avec plus de fonctionnalités et une interface plus élégante."
 
-#: ../../gm0/source/docs/useful-resources.rst:186
+#: ../../gm0/source/docs/useful-resources.rst:188
 msgid ""
 "`The Orange Alliance <https://theorangealliance.org/>`_ --- A community-run "
 "team and event result database, primarily useful for its more comprehensive "

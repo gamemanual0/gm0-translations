@@ -7,18 +7,360 @@
 # Younes Djafri, 2025
 # Aaraf Chy, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:4
+msgid "Linkages"
+msgstr "Liens"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:6
+msgid ""
+"There are many different types of linkages. Often, linkages are used to "
+"convert rotational motion, such as that from a servo or motor, to linear "
+"motion. Linkages can do this efficiently, and also have specialized movement"
+" patterns that can make them desirable for certain mechanisms."
+msgstr ""
+"Il existe de nombreux types de liaisons mécaniques. Souvent, les liaisons "
+"sont utilisées pour convertir un mouvement de rotation, comme celui "
+"provenant d’un servo ou d’un moteur, en mouvement linéaire. Les liaisons "
+"peuvent effectuer cette conversion de manière efficace, et elles présentent "
+"également des schémas de mouvement particuliers qui les rendent "
+"intéressantes pour certains mécanismes."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:8
+msgid "Term"
+msgstr "Définition"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:11
+msgid "Linkage"
+msgstr "Lien"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:13
+msgid ""
+"A system of solid links or bars connected to two or more other links by "
+"hinges, sliding joints, ball-and-socket joints, etc., so as to form a closed"
+" chain or a series of closed chains. Generally used to convert linear motion"
+" to rotational motion or vice versa."
+msgstr ""
+"Système de maillons ou de barres solides reliés à deux ou plusieurs autres "
+"maillons par des charnières, des joints coulissants, des joints à rotule, "
+"etc., de manière à former une chaîne fermée ou une série de chaînes fermées."
+" Généralement utilisé pour convertir un mouvement linéaire en mouvement "
+"rotatif ou vice versa."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:16
+msgid "Considerations"
+msgstr "Considérations"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:18
+msgid "There are several things to consider when constructing a linkage."
+msgstr ""
+"Plusieurs éléments doivent être pris en compte lors de la construction d'une"
+" liaison."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:20
+msgid ""
+"Over-centering is when a linkage is rotated past its center point (usually "
+"the point where both bars of the linkage are parallel). Driving a linkage "
+"over center can have some benefits, like making the linkage harder to "
+"backdrive. See this `informational youtube video "
+"<https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details on this. "
+"Essentially, linkages can form a structure where pushing on the linkage "
+"moves the robot instead of rotating the linkage."
+msgstr ""
+"Le surcentrage se produit lorsqu’une liaison est tournée au-delà de son "
+"point central (généralement le point où les deux barres de la liaison sont "
+"parallèles). Actionner une liaison au-delà de ce point peut présenter "
+"certains avantages, comme rendre la liaison plus difficile à faire reculer "
+"(ou à entraîner en sens inverse). Consultez cette vidéo YouTube "
+"d’information <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ pour plus de "
+"détails à ce sujet. En résumé, les liaisons peuvent former une structure où "
+"exercer une poussée sur la liaison déplace le robot au lieu de simplement "
+"faire tourner la liaison."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:21
+msgid ""
+"Linkages will not have a constant linear speed or force. They generally "
+"reach a maximum speed and force when the bars are perpendicular, and the "
+"speed and force will decrease as the linkage is rotated farther."
+msgstr ""
+"Les liaisons mécaniques n’ont pas une vitesse ou une force linéaire "
+"constante. En général, elles atteignent leur vitesse et leur force maximales"
+" lorsque les barres sont perpendiculaires, puis la vitesse et la force "
+"diminuent à mesure que la liaison continue de tourner."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:22
+msgid ""
+"Cadding the linkage can be useful to check if it will do what you want it to"
+" do. See this `youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_"
+" for an example of how to set up the mates in OnShape."
+msgstr ""
+"Le cadrage de la liaison peut être utile pour vérifier si elle fera ce que "
+"vous voulez qu'elle fasse. Voir cette `vidéo YouTube "
+"<https://www.youtube.com/watch?v=QsAC_seQHJY>`_ pour un exemple de la façon "
+"de paramétrer les contraintes dans OnShape."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:25
+msgid "Common Linkage Types"
+msgstr "Types de liens courants"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:28
+msgid "Linkage Slides"
+msgstr "Liaisons à glissière"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:30
+msgid ""
+"A common use for linkages is to drive a linear extension. This allows for a "
+"compact method of converting the rotational motion from a motor or servo "
+"into linear motion moving a mechanism like drawer slides. Generally, a two "
+"bar linkage with multi degree ball linkage components are used to construct "
+"these linkages."
+msgstr ""
+"Une utilisation courante des liaisons mécaniques consiste à actionner une "
+"extension linéaire. Cela permet une méthode compacte de conversion du "
+"mouvement de rotation provenant d’un moteur ou d’un servo en un mouvement "
+"linéaire, qui déplace un mécanisme tel qu’un système de glissières de "
+"tiroir. En général, une liaison à deux barres avec des composants à rotules "
+"multidirectionnelles est utilisée pour construire ce type de liaison."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:35
+msgid "A picture of a 7236 Recharged Green linkage driven slides"
+msgstr ""
+"Une image des glissières actionnées par liaison de l’équipe 7236 Recharged "
+"Green."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:35
+msgid "7236 Recharged Green, Skystone"
+msgstr "7236 Recharged Green, Skystone"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:39
+msgid "Four Bar"
+msgstr "Liaison à quatre barres"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:41
+msgid ""
+"One type of linkage is called a four bar linkage. This is a linkage that "
+"keeps the end bar at the same angle to the ground at all times. For example,"
+" if the end bar of a virtual four bar is parallel to the ground when "
+"retracted, it will be parallel to the ground at all times, even when rotated"
+" fully out. This is beneficial for mechanisms like claws, which you want "
+"parallel to the ground during operation. In addition, four bars can provide "
+"extension outside of the robot frame, and generally provide both vertical "
+"and horizontal extension due to the \"arc\" that the arm follows. Also, the "
+"construction material of the four bar can be carefully selected to save "
+"weight."
+msgstr ""
+"Un type de liaison est appelé liaison à quatre barres. Il s’agit d’une "
+"liaison qui maintient la barre terminale à un angle constant par rapport au "
+"sol en tout temps. Par exemple, si la barre terminale d’une liaison "
+"virtuelle à quatre barres est parallèle au sol lorsqu’elle est rétractée, "
+"elle restera parallèle au sol en permanence, même lorsqu’elle est "
+"complètement déployée. Ce principe est particulièrement avantageux pour des "
+"mécanismes tels que les pinces, que l’on souhaite garder parallèles au sol "
+"pendant leur fonctionnement. De plus, les liaisons à quatre barres peuvent "
+"offrir une extension au-delà du châssis du robot, et permettent généralement"
+" une extension à la fois verticale et horizontale en raison de l’arc que "
+"suit le bras. Enfin, le matériau de construction d’une liaison à quatre "
+"barres peut être choisi avec soin afin de réduire le poids du mécanisme."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:43
+msgid ""
+"This mechanism is not widely used in FTC\\ |reg| due to the space "
+"requirements. The linkage bars that keep the end bar parallel restrict a "
+"four bar to under 180 degrees of travel (less then 90 degrees in either "
+"direction) without specialized mechanical construction, and the bars also "
+"take up space in the robot frame."
+msgstr ""
+"Ce mécanisme n’est pas largement utilisé dans la compétition FTC |reg| en "
+"raison de ses exigences d’espace. Les barres de liaison qui maintiennent la "
+"barre terminale parallèle limitent une liaison à quatre barres à un "
+"mouvement inférieur à 180 degrés (soit moins de 90 degrés dans chaque "
+"direction) sans recours à une construction mécanique spécialisée. De plus, "
+"ces barres occupent de l’espace à l’intérieur du châssis du robot, ce qui "
+"peut poser des contraintes de conception."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:0
+msgid "CAD Example of Four Bar (Click to expand)"
+msgstr "Exemple CAO de quatre barres (Cliquez pour agrandir)"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:52
+msgid ""
+"`Click here to open this example in Onshape Cad, where you can click and "
+"drag parts to see how they move! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
+msgstr ""
+"`Cliquez ici pour ouvrir cet exemple dans Onshape Cad, où vous pouvez "
+"cliquer et faire glisser les pièces pour voir comment elles se déplacent ! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst-1
+msgid "A picture of a goBILDA Four Bar"
+msgstr "Photo d'une liaison à quatre barres goBILDA"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:58
+msgid "Virtual Four Bar"
+msgstr "Liaison à quatres barres virtuelles"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:60
+msgid ""
+"The more popular alternative to the Four Bar linkage is a Virtual Four Bar. "
+"While not technically a linkage, a virtual four bar uses chains or belts to "
+"create an effect similar to a four bar, where the end effector is kept at a "
+"fixed angle to the ground at all times. Because the need for additional bars"
+" are eliminated, this \"linkage\" can travel more then 180 degrees, and also"
+" can take up less space then a traditional four bar linkage."
+msgstr ""
+"L’alternative la plus populaire à la liaison à quatre barres est la liaison "
+"virtuelle à quatre barres. Bien qu’il ne s’agisse pas techniquement d’une "
+"liaison mécanique, une liaison virtuelle à quatre barres utilise des chaînes"
+" ou des courroies pour reproduire un effet similaire à celui d’une véritable"
+" liaison à quatre barres, où l’organe terminal (ou effecteur) reste à un "
+"angle fixe par rapport au sol en tout temps. Comme elle ne nécessite pas de "
+"barres supplémentaires, cette « liaison » peut effectuer un mouvement "
+"supérieur à 180 degrés tout en occupant moins d’espace qu’une liaison à "
+"quatre barres traditionnelle."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:62
+msgid ""
+"This mechanism is more widely used in FTC, as it is an easy addition to an "
+"arm to maintain the end effector's angle relative to the ground."
+msgstr ""
+"Ce mécanisme est plus largement utilisé en FTC, car il est facile à ajouter "
+"à un bras pour maintenir l'angle de l'effecteur par rapport au sol."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:64
+msgid ""
+"Note: Both chain and belt can be used to construct a virtual four bar, and "
+"there isn't a specific benefit to using either. Due to the fact that the "
+"chain doesn't have to completely rotate around the sprocket, a zip-tie can "
+"be used to tension the chain, making construction easier."
+msgstr ""
+"Remarque : Une chaîne ou une courroie peuvent toutes deux être utilisées "
+"pour construire une liaison virtuelle à quatre barres, sans qu’aucune ne "
+"présente d’avantage particulier par rapport à l’autre. Cependant, comme la "
+"chaîne n’a pas besoin de tourner complètement autour du pignon, il est "
+"possible d’utiliser un collier de serrage ou zip-tie pour tendre la chaîne, "
+"ce qui rend la construction plus simple et plus pratique."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:0
+msgid "CAD Example of Virtual Four Bar (Click to expand)"
+msgstr ""
+"Exemple CAO de liaison virtuelle à quatre barres (cliquer pour agrandir)"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:73
+msgid ""
+"`Click here to open this example in Onshape Cad, where you can click and "
+"drag parts to see how they move! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__."
+msgstr ""
+"`Cliquez ici pour ouvrir cet exemple dans Onshape Cad, où vous pouvez "
+"cliquer et faire glisser les pièces pour voir comment elles se déplacent ! "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:78
+msgid "7244 OUT of the BOX Robotics Virtual Four Bar"
+msgstr ""
+"Liaison virtuelle à quatre barres de l’équipe 7244 OUT of the BOX Robotics"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:78
+msgid "7244 OUT of the BOX Robotics, Ultimate Goal"
+msgstr "7244 OUT of the BOX Robotics, Ultimate Goal"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:81
+msgid "Double-Reverse Four Bar"
+msgstr "Double liaison à quatre barres inversée"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:83
+msgid ""
+"The double reverse four bar is an extension of the four bar linkage that "
+"allows for more extension. A double reverse four bar consists of a four bar "
+"linkage with a second four bar linkage mounted to the end of the first. This"
+" allows for purely linear extension, as opposed to the \"arc\" that a single"
+" four bar will take. The end effector will still stay at a fixed angle to "
+"the ground due to the purely linear extension."
+msgstr ""
+"La liaison à double renversement à quatre barres est une évolution de la "
+"liaison à quatre barres qui permet d’obtenir une plus grande extension. Elle"
+" se compose d’une première liaison à quatre barres sur laquelle est montée "
+"une seconde liaison du même type à son extrémité. Cette configuration permet"
+" une extension purement linéaire, contrairement à l’arc de mouvement décrit "
+"par une seule liaison à quatre barres. De plus, l’effecteur terminal "
+"conserve un angle fixe par rapport au sol, grâce à cette extension linéaire."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:85
+msgid ""
+"This mechanism is not widely used in FTC due to the generally large space "
+"requirements needed, but is a fairly compact method of producing large "
+"amounts of linear extension. Care needs to be taken that each side of a "
+"double reverse four bar is driven equally so that issues do not arise from "
+"asymmetric lifting."
+msgstr ""
+"Ce mécanisme n’est pas largement utilisé dans la compétition FTC, "
+"principalement en raison de ses importants besoins en espace. Cependant, il "
+"constitue une méthode relativement compacte pour obtenir une grande "
+"extension linéaire. Il faut toutefois veiller à ce que chaque côté d’une "
+"liaison à double renversement à quatre barres soit entraîné de manière "
+"égale, afin d’éviter les problèmes liés à un levage asymétrique."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:90
+msgid "11115 Gluten Free Double Reverse Four Bar"
+msgstr " Barre double inversée de Gluten Free 11115"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:90
+msgid "11115 Gluten Free, Skystone"
+msgstr "11115 Gluten Free, Skystone"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:93
+msgid "Virtual Double-Reverse Four Bar"
+msgstr "Liaison virtuelle à double renversement à quatre barres"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:95
+msgid ""
+"Similar to the virtual four bar, the virtual double-reverse four bar is a "
+"linkage that uses belts or chains to replace the linkage bars of the double-"
+"reverse four bar. The virtual double-reverse four bar is simply a virtual "
+"four bar where the end effector sprocket/pulley is half the size of the "
+"static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is "
+"mounted to the end effector sprocket/pulley, and another chain/belt is run, "
+"which creates purely linear motion with an end effector that is always at "
+"the same angle to the ground. This creates much more compact linear motion "
+"then a double-reverse four bar, and can also extend in both directions."
+msgstr ""
+"Similaire à la liaison virtuelle à quatre barres, la liaison virtuelle à "
+"double renversement à quatre barres est un mécanisme qui utilise des "
+"courroies ou des chaînes pour remplacer les barres mécaniques d’une liaison "
+"à double renversement classique. Elle fonctionne comme une liaison virtuelle"
+" à quatre barres dont la poulie ou le pignon de l’effecteur terminal est "
+"deux fois plus petit que le pignon ou la poulie fixe, créant ainsi un "
+"rapport de transmission de 2:1. Une barre est ensuite fixée à la poulie ou "
+"au pignon de l’effecteur, et une seconde courroie ou chaîne est installée, "
+"ce qui permet d’obtenir un mouvement purement linéaire, tout en maintenant "
+"l’effecteur terminal à un angle constant par rapport au sol. Ce système "
+"offre un mouvement linéaire beaucoup plus compact qu’une liaison à double "
+"renversement à quatre barres traditionnelle, et il peut en outre s’étendre "
+"dans les deux directions."
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:100
+msgid "8644 Brainstormers Virtual Double Reverse Four Bar"
+msgstr ""
+"Liaison virtuelle à double renversement à quatre barres de l’équipe 8644 "
+"Brainstormers"
+
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst:100
+msgid "8644 Brainstormers, Freight Frenzy"
+msgstr "8644 Brainstormers, Freight Frenzy"

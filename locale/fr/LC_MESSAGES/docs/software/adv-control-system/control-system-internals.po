@@ -6,18 +6,466 @@
 # Translators:
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 04:28+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:4
+msgid "Control System Electronics"
+msgstr "Électronique des systèmes de contrôle"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:6
+msgid ""
+"This page contains a breakdown of the known electronics in the control "
+"system, as well as any notes regarding them."
+msgstr ""
+"Cette page contient une liste des composants électroniques connus du système"
+" de contrôle, ainsi que toute note les concernant."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
+msgid "Expansion Hub Internals"
+msgstr "Éléments Internes du Expansion Hub"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:11
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:18
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:107
+msgid ""
+"Don't take apart a Control or Expansion Hub unless you really know what you "
+"are doing. They can be damaged in the process, especially if one does not "
+"know how to properly reassemble it."
+msgstr ""
+"Ne démontez pas un Control Hub ou un Expansion Hub si vous ne savez pas "
+"vraiment ce que vous faites. Ils peuvent être endommagés au cours du "
+"processus, surtout si l'on ne sait pas comment les remonter correctement."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
+msgid "Lynx Board"
+msgstr "Carte Lynx"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
+msgid ""
+"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
+"Hub that interacts with hardware. References to \"Lynx\" are made in the "
+"FTC\\ |reg| SDK refer to this board. It appears to have been developed by "
+"both REV and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company), "
+"possibly for use in *FIRST*\\ |reg| Global (judging by the *FIRST* Global "
+"silkscreen on the PCB)."
+msgstr ""
+"\"Lynx\" est le nom de code de la carte à l'intérieur du Expansion Hub et du"
+" Control Hub qui interagit avec le matériel. Les références à \"Lynx\" dans "
+"le SDK de FTC font référence à cette carte. Elle semble avoir été développée"
+" à la fois par REV et `DEKA <https://dekaresearch.com/>`_ (la société de "
+"Dean Kamen), peut-être pour être utilisée dans *FIRST*\\ |reg| Global (à en "
+"juger par la sérigraphie *FIRST* Global sur le PCB)."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
+msgid "A Lynx board that was removed from its case"
+msgstr "Une carte Lynx qui a été enlevé de son boîtier"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:26
+msgid "Processor"
+msgstr "Processeur"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:28
+msgid ""
+"The main processor of the Expansion Hub is a Texas Instruments ARM Cortex M4"
+" running at 80 MHZ."
+msgstr ""
+"Le processeur principal du Expansion Hub est un Texas Instruments ARM Cortex"
+" M4 fonctionnant à 80 MHZ."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:31
+msgid "Ports"
+msgstr "Ports"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:33
+msgid "The expansion hub has the following ports"
+msgstr "L'Expansion Hub possède les ports suivants"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:35
+msgid "Two UART Debug Ports"
+msgstr "Deux UART Debug Ports"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:37
+msgid ""
+"The top port outputs a continuous high speed CSV stream of data from the "
+"various subsystems in the hub."
+msgstr ""
+"Le port supérieur émet un flux CSV continu et à grande vitesse de données "
+"provenant des différents sous-systèmes du concentrateur."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:38
+msgid ""
+"The bottom port outputs data at a baud rate of 115200 at a user specified "
+"verbosity."
+msgstr ""
+"Le port inférieur émet des données à une vitesse de transmission de 115200 "
+"bauds à un niveau de verbosité spécifié par l'utilisateur."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:39
+msgid "Four I2C Ports"
+msgstr "Quatre Ports I2C"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:41
+msgid ""
+"These ports are 100/400 kHz compliant and are connected to a separate bus so"
+" there is no need to be concerned about address collisions"
+msgstr ""
+"Ces ports sont conformes à 100/400 kHz et sont connectés à un bus séparé, il"
+" n'y a donc pas lieu de se préoccuper des collisions d'adresses."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:42
+msgid "There are integrated pull up resistors on this port"
+msgstr "Ce port est équipé de résistances pull up intégrées."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:43
+msgid "Eight DIO Ports"
+msgstr "Huit Ports DIO"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:45
+msgid ""
+"3.3V only, current limited, can briefly supply more than the rated current "
+"spec. Pulled up internally."
+msgstr ""
+"3,3V seulement, courant limité, peut brièvement fournir plus que le courant "
+"nominal spécifié. Tiré vers le haut en interne."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:46
+msgid "Four Analog Ports"
+msgstr "Quatre Ports Analogiques"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:48
+msgid ""
+"5V compliant, you can use a level shifter to supply 5v to the sensor, but "
+"take care the analog line bypasses the level shifter. The VIN and GND lines "
+"must pass through the level shifter for it to work however."
+msgstr ""
+"Compatible 5V, vous pouvez utiliser un convertisseur de niveau pour "
+"alimenter le capteur en 5V, mais attention, la ligne analogique contourne le"
+" convertisseur de niveau. Les lignes VIN et GND doivent cependant passer par"
+" le convertisseur de niveau pour que cela fonctionne."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:49
+msgid "Six Servo Ports"
+msgstr "Six Ports Servo"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:51
+msgid ""
+"The 5V supply on the servo ports is default OFF, and will only enable once a"
+" servo is used. All six 5V pins are switched on and off together, and "
+"disabling PWM on one port will switch all of the ports off unless another "
+"servo is used."
+msgstr ""
+"L'alimentation 5V sur les ports de servo est désactivée par défaut et ne "
+"s'active que lorsqu'un servo est utilisé. Les six broches 5V sont allumées "
+"et éteintes ensemble, et la désactivation du PWM sur un port éteindra tous "
+"les ports, sauf si un autre servo est utilisé."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:52
+msgid "Two 5V Power Ports"
+msgstr "Deux Ports d'Alimentation 5V"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:54
+msgid "The 5V supply is shared with the servos"
+msgstr "L'alimentation 5V est partagée avec les servos."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:55
+msgid "Four Motor Ports"
+msgstr "Quatre Ports Moteur"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:57
+msgid ""
+"Current limited and have overtemperature protection on the chip. The output "
+"does not brake the h-bridge during the PWM off cycle. What this means is "
+"that there might be linearity issues while deaccelerating, because of "
+"momentum in the motor."
+msgstr ""
+"Le courant est limité et la puce est dotée d'une protection contre la "
+"surchauffe. La sortie ne freine pas le pont en H pendant le cycle d'arrêt du"
+" PWM. Cela signifie qu'il peut y avoir des problèmes de linéarité lors de la"
+" décélération, à cause de l'élan du moteur."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:58
+msgid ""
+"The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is "
+"capabile of handling well over the maximum amount of current an FTC motor "
+"can draw. It has integrated current sensing and has been used since the "
+"Modern Robotics era. It has built in thermal and current safety limits. This"
+" motor controller has been used for years, and may even date back to the "
+"early HiTechnic based control system."
+msgstr ""
+"Le pilote du moteur est un circuit intégré ST Microelectronics VNH5050, qui "
+"est capable de gérer bien plus que la quantité maximale de courant qu'un "
+"moteur FTC peut tirer. Il dispose d'une détection de courant intégrée et est"
+" utilisé depuis l'ère de la robotique moderne. Il possède des limites de "
+"sécurité thermique et de courant intégrées. Ce contrôleur de moteur est "
+"utilisé depuis des années et peut même remonter aux premiers systèmes de "
+"contrôle basés sur HiTechnic."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
+msgid "Four Encoder Ports"
+msgstr "Quatre Ports d'Encodeur"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:61
+msgid ""
+"**IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be "
+"connected via hardware and are reliable at high speeds**. There are two "
+"methods of connecting an encoder internally to the Texas Instruments "
+"microprocessor, through hardware and software. Hardware ports use the "
+"integrated quadrature decoder chip and are extremely accurate at high "
+"speeds, whereas encoders decoded in software are not reliable at high "
+"speeds. As a result, high Count per Revolution (CPR) encoders (those with "
+"more than around 4000 counts per revolution) should NOT be used on ports 1 "
+"and 2."
+msgstr ""
+"**IMPORTANT : seuls deux des ports de codeur (ports 0 et 3) semblent être "
+"connectés par le biais du matériel et sont fiables à des vitesses élevées**."
+" Il existe deux méthodes pour connecter un encodeur en interne au "
+"microprocesseur Texas Instruments, par le biais du matériel et du logiciel. "
+"Les ports matériels utilisent la puce de décodage en quadrature intégrée et "
+"sont extrêmement précis à des vitesses élevées, alors que les codeurs "
+"décodés par logiciel ne sont pas fiables à des vitesses élevées. Par "
+"conséquent, les codeurs à nombre élevé de coups par tour (CPR) (ceux qui ont"
+" plus de 4000 coups par tour) ne doivent PAS être utilisés sur les ports 1 "
+"et 2."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:62
+msgid "Two XT30 Connectors"
+msgstr "Deux Connecteurs XT30"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:64
+msgid ""
+"Care should be taken when moving around cables as these connectors have been"
+" known to fail and break off the board."
+msgstr ""
+"Il convient d'être prudent lorsque l'on déplace des câbles, car il est "
+"arrivé que ces connecteurs soient défectueux et se détachent de la carte."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:65
+msgid ""
+"In addition, XT30s will wear and get loose with time. See `XT30 Pins are "
+"Compressed - Expansion Hub Troubleshooting "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`_ for details"
+" on the issue and how to fix it."
+msgstr ""
+"En outre, les XT30 s'usent et se détachent avec le temps. Voir ``Les broches"
+" XT30 sont comprimées - Dépannage du Expansion Hub "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`_ pour plus "
+"de détails sur le problème et la façon de le résoudre."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:66
+msgid "USB Mini-B Connector"
+msgstr "Connecteur USB Mini-B"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:68
+msgid ""
+"Capable of full speed USB 2.0, and 5V output to charge a phone. The 5v "
+"output may be unreliable, it depends on the hub."
+msgstr ""
+"Capable d'une vitesse complète d'USB 2.0, et d'une sortie de 5V pour charger"
+" un téléphone. La sortie 5v peut ne pas être fiable, cela dépend du hub."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:69
+msgid "Internal Connector"
+msgstr "Connecteurs Interne"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
+msgid ""
+"This connector is what is used to connect to the compute daughterboard. It "
+"has a UART connection, as well as power and ground. All Expansion Hubs have "
+"this connector, whether or not they are a Control Hub."
+msgstr ""
+"Ce connecteur est utilisé pour se connecter à la carte fille de calcul. Il "
+"possède une connexion UART, ainsi qu'une alimentation et une mise à la "
+"terre. Tous les Expansion Hubs ont ce connecteur, qu'ils soient ou non un "
+"Control Hub."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:74
+msgid "Control Hub"
+msgstr "Control Hub"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:76
+msgid ""
+"The Control Hub is an Expansion Hub with an embedded single-board compute "
+"daughterboard connected to it. This enables it to not need a separate Robot "
+"Controller phone, as the compute board functions as the Robot Controller. "
+"Internally, LynxCommands are sent over from the daughterboard to the Lynx "
+"board over an internal UART connection."
+msgstr ""
+"Le Control Hub est un Expansion Hub auquel est connectée une carte fille de "
+"calcul monocarte intégrée. Cela lui permet de ne pas avoir besoin d'un "
+"téléphone de contrôleur de robot séparé, car la carte de calcul fonctionne "
+"comme le contrôleur de robot. En interne, les commandes Lynx sont envoyées "
+"de la carte fille à la carte Lynx via une connexion UART interne."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:78
+msgid ""
+"The compute board's physical layout is based on the 96Boards CE spec, and is"
+" visibly extremely similar to the `Dragonboard 410c "
+"<https://www.96boards.org/product/dragonboard410c/>`_."
+msgstr ""
+"La disposition physique de la carte de calcul est basée sur les "
+"spécifications 96Boards CE, et est visiblement très similaire à la "
+"`Dragonboard 410c <https://www.96boards.org/product/dragonboard410c/>`_."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:81
+msgid ""
+"The original version of the Control Hub (REV-31-1152) used in FIRST Global "
+"actually used a `Dragonboard 410c "
+"<https://www.96boards.org/product/dragonboard410c/>`_ as the compute board."
+msgstr ""
+"La version originale du Control Hub (REV-31-1152) utilisée dans FIRST Global"
+" utilisait en fait une `Dragonboard 410c "
+"<https://www.96boards.org/product/dragonboard410c/>`_ comme carte de calcul."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:83
+msgid ""
+"The Control Hub compute board runs a customized version of Android 7.1. It "
+"does not have a proper heatsink on the SOC, only an exremely small and thin "
+"heat spreader, which can cause thermal throttling when heavy processes such "
+"as vision pipelines are used."
+msgstr ""
+"La carte de calcul Control Hub fonctionne avec une version personnalisée "
+"d'Android 7.1. Le SOC n'est pas équipé d'un dissipateur thermique digne de "
+"ce nom, mais seulement d'un diffuseur de chaleur extrêmement petit et fin, "
+"ce qui peut provoquer un étranglement thermique lorsque des processus "
+"lourds, tels que les pipelines de vision, sont utilisés."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
+msgid "SOC: Rockchip RK3328"
+msgstr "SOC : Rockchip RK3328"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:87
+msgid "CPU: Quad-core ARM\\ |reg| Cortex-A53"
+msgstr "CPU : Quadruple cœur ou Quad-core ARM Cortex-A53"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:89
+msgid ""
+"The device tree in the official kernel seems to indicate that the CPU can "
+"clock up to 1.5 GHz"
+msgstr ""
+"L'arborescence du noyau officiel semble indiquer que le processeur peut "
+"atteindre 1,5 GHz."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:90
+msgid "GPU - ARM\\ |reg| Mali 450MP4"
+msgstr "GPU - ARM\\ |reg| Mali 450MP4"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:92
+msgid "HDMI 2.0 support for 4k @ 60Hz"
+msgstr "Prise en charge HDMI 2.0 pour 4k @ 60Hz"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:93
+msgid "RAM: 1GB DDR3"
+msgstr "RAM : 1GB DDR3"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:94
+msgid "Storage: 8 to 16GB of eMMC flash memory"
+msgstr "Stockage : 8 à 16 Go de mémoire flash eMMC"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:96
+msgid ""
+"\"8GB eMMC 4.51\" is the spec officially listed by REV, but multiple real-"
+"world units that were checked all had 16GB eMMC chips found on their boards."
+msgstr ""
+"\"8GB eMMC 4.51\" est la spécification officiellement listée par REV, mais "
+"plusieurs unités réelles vérifiées avaient toutes des puces eMMC de 16GB sur"
+" leurs cartes."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:97
+msgid ""
+"According to REV, in a support email: **\"Original builds of the Control Hub"
+" were manufactured with 8GB eMMC chips. However, some 16GB versions were "
+"made due to supply chain constraints. Recent Control Hubs (purchased after "
+"2022) are more likely to have the 16GB eMMC chip.\"**"
+msgstr ""
+"Selon REV, dans un courriel d'assistance : **Les versions originales du "
+"Control Hub ont été fabriquées avec des puces eMMC de 8 Go. Cependant, "
+"certaines versions de 16 Go ont été fabriquées en raison de contraintes de "
+"la chaîne d'approvisionnement. Les Control Hubs récents (achetés après 2022)"
+" sont plus susceptibles d'être équipés d'une puce eMMC de 16 Go."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:98
+msgid ""
+"USB: 1x USB 3.0, 1x USB 2.0, 1x internal USB 2.0 used to connect the Wi-Fi "
+"chip"
+msgstr ""
+"USB : 1x USB 3.0, 1x USB 2.0, 1x USB 2.0 interne utilisé pour connecter la "
+"puce Wi-Fi"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:99
+msgid "Wi-Fi: Realtek RTL8821CU"
+msgstr "Wi-Fi : Realtek RTL8821CU"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:101
+msgid "IEEE 802.11a/b/g/n/ac Wi-Fi (Dual Band 2.4 & 5 GHz)"
+msgstr "Wi-Fi IEEE 802.11a/b/g/n/ac (double bande 2,4 et 5 GHz)"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:103
+msgid ""
+"802.11w Protected Management Frames standard supported for preventing "
+"`deauthentication attacks <https://en.wikipedia.org/wiki/Wi-"
+"Fi_deauthentication_attack>`_"
+msgstr ""
+"La norme 802.11w Protected Management Frames est prise en charge pour "
+"prévenir les attaques par désauthentification "
+"<https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack>`_"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:104
+msgid "Bluetooth 4.2 (Bluetooth 4.1 listed by REV)"
+msgstr "Bluetooth 4.2 (Bluetooth 4.1 listé par REV)"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:105
+msgid ""
+"Debugging UART: 3 pin header (TX left, RX middle, Ground right), 1500000 "
+"baud"
+msgstr ""
+"UART de débogage : en-tête à 3 broches (TX à gauche, RX au milieu, Ground à "
+"droite), 1500000 bauds"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:110
+msgid ""
+"It is possible to install an Armbian Linux build from "
+"https://forum.armbian.com/topic/26978-csc-armbian-for-rk3318rk3328-tv-box-"
+"boards/ and have it work on the Control Hub. Enable the `rk3318-box-led-"
+"conf3` board type using the ``rk3318-config`` command to allow Wi-FI and all"
+" USB ports to work. Enable the ``rk3328-uart1`` overlay using ``armbian-"
+"config`` to allow communicating with the Lynx board over the internal UART "
+"connection using ``/dev/ttyS1``."
+msgstr ""
+"Il est possible d'installer une version d'Armbian Linux depuis "
+"https://forum.armbian.com/topic/26978-csc-armbian-for-rk3318rk3328-tv-box-"
+"boards/ et de la faire fonctionner sur le Control Hub. Activez le type de "
+"carte `rk3318-box-led-conf3` en utilisant la commande `rk3318-config` pour "
+"permettre au Wi-FI et à tous les ports USB de fonctionner. Activez la "
+"surcouche ``rk3328-uart1`` en utilisant la commande ``armbian-config`` pour "
+"permettre la communication avec la carte Lynx via la connexion UART interne "
+"en utilisant ``dev/ttyS1``."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:112
+msgid "**YOU SHOULDN'T BE DOING THIS FOR FTC!**"
+msgstr "**VOUS NE DEVRIEZ PAS FAIRE CA EN FTC!**"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:117
+msgid "The single board computer and Lynx board from a Control Hub"
+msgstr ""
+"L'ordinateur à carte unique et la carte Lynx à partir d'un Control Hub"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:121
+msgid "The compute board, removed from a Control Hub"
+msgstr "La carte de calcul, retirée d'un Control Hub"

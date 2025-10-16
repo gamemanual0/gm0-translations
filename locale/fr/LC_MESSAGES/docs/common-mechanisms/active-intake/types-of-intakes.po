@@ -7,18 +7,112 @@
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-13 04:40+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:2
+msgid "Types of Intake"
+msgstr "Types de ramasseurs"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:5
+msgid "Horizontal/Top Intake"
+msgstr "Ramasseur horizontal/Par le haut"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:8
+msgid "Vertical Intake"
+msgstr "Ramasseur vertical"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:10
+msgid ""
+"Below are different implementations of horizontal and vertical intakes:"
+msgstr ""
+"Vous trouverez ci-dessous différentes mises en œuvre de ramasseurs "
+"horizontaux et verticaux :"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:140
+msgid "Surgical Tubing Intake"
+msgstr "Mécanisme de ramassage avec tube"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:142
+msgid ""
+"Surgical tubing or spearfishing rubber tubing, sold by many different "
+"manufacturers, is a great option for picking up small game elements such as "
+"the minerals from Res-Q or Rover Ruckus."
+msgstr ""
+"Les tubes chirurgicaux ou les tubes en caoutchouc pour la pêche au harpon, "
+"vendus par de nombreux fabricants, sont une excellente option pour ramasser "
+"de petits éléments de jeu tels que les minéraux de Res-Q ou de Rover Ruckus."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:148
+msgid "Surgical tubing by itself is soft and pliable. Teams have two options"
+msgstr ""
+"Les tubes chirurgicaux sont en eux-mêmes souples et flexibles. Les équipes "
+"ont deux options"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:150
+msgid "Increase the RPM to 800-1000+ RPM"
+msgstr "Augmenter la vitesse de rotation à 800-1000+ RPM"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:151
+msgid "Use polyurethane tubing at a lower RPM (100-250 RPM)."
+msgstr ""
+"Utiliser des tubes en polyuréthane à une vitesse de rotation plus faible "
+"(100-250 tours/minute)."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:153
+msgid ""
+"Polyurethane tubing can be purchased at a local hardware store and is a "
+"clear tubing that is quite stiff. Using some lubricant, insert the clear "
+"tubing into the surgical tubing for added stiffness."
+msgstr ""
+"Le tube en polyuréthane est un tube transparent assez rigide que l'on peut "
+"acheter dans une quincaillerie locale. En utilisant un peu de lubrifiant, "
+"insérez la tubulure transparente dans la tubulure chirurgicale pour plus de "
+"rigidité."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:155
+msgid ""
+"It is encouraged that teams test different RPMs and stiffness to develop the"
+" optimal intake. You will be surprised how changing one small variable such "
+"as the diameter of tubing or how far the tubing extends can affect intake "
+"effectiveness."
+msgstr ""
+"Nous encourageons les équipes à tester différents régimes et différentes "
+"rigidités pour mettre au point l'admission optimale. Vous serez surpris de "
+"constater à quel point le changement d'une petite variable telle que le "
+"diamètre de la tubulure ou la longueur de la tubulure peut affecter "
+"l'efficacité de l'admission."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:162
+msgid "Able to collect multiple elements at a time"
+msgstr "Capacité à collecter plusieurs éléments à la fois"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:163
+msgid "Generally more efficient than wheeled intakes"
+msgstr "Généralement plus efficace que les entrer avec  roues"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:164
+msgid "Specializes in small and odd-shaped elements"
+msgstr "Spécialisé dans les éléments de petite taille et de forme irrégulière"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:169
+msgid "Requires high RPM"
+msgstr "Nécessite une vitesse de rotation élevée"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:170
+msgid "Less controllable"
+msgstr "Moins contrôlable"

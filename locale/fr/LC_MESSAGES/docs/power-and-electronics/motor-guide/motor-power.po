@@ -7,18 +7,367 @@
 # Dusto867@gmail.com, 2025
 # Younes Djafri, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-11-22 04:17+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:4
+msgid "Motor Power"
+msgstr "Puissance du moteur"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:6
+msgid ""
+"Just like any electrical device, motors draw current and consume a certain "
+"amount of power to function. Motors convert some portion of the input power "
+"into spinning the shaft; this portion is the output power. Thinking of "
+"motors in terms of energy instead of speed and torque can make it easier to "
+"calculate how it should be used and provide tools for choosing the optimal "
+"gear ratio for an application."
+msgstr ""
+"Comme tout appareil électrique, les moteurs consomment du courant et une "
+"certaine quantité d'énergie pour fonctionner. Les moteurs convertissent une "
+"partie de la puissance d'entrée en rotation de l'arbre ; cette partie est la"
+" puissance de sortie. Le fait de considérer les moteurs en termes d'énergie "
+"plutôt qu'en termes de vitesse et de couple peut faciliter le calcul de leur"
+" utilisation et fournir des outils pour choisir le rapport de transmission "
+"optimal pour une application."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:9
+msgid "What is Power?"
+msgstr "Qu'est-ce que Power?"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:11
+msgid ""
+"Fundamentally, power is defined as the amount of energy transferred in a "
+"given time period. Practically, this means power is how much \"energy\" you "
+"can get out of the motor. **The output power of a motor varies depending on "
+"how much load is on it, but does not change as the gear ratio of the motor "
+"changes**. What this means is that a free-spinning 1:1 motor will output the"
+" same amount of power as a free spinning 100:1 motor (ignoring friction "
+"differences), but the actual speed and torque will be different. Output "
+"power is proportional to speed times torque, so as speed and torque are "
+"changed with a gearbox, the output power must remain the same."
+msgstr ""
+"Fondamentalement, la puissance est définie comme la quantité d'énergie "
+"transférée dans un laps de temps donné. En pratique, cela signifie que la "
+"puissance est la quantité d'\"énergie\" que vous pouvez tirer du moteur. "
+"**La puissance de sortie d'un moteur varie en fonction de la charge qui lui "
+"est appliquée, mais ne change pas en fonction du rapport de transmission du "
+"moteur**. Cela signifie qu'un moteur 1:1 en rotation libre produira la même "
+"quantité de puissance qu'un moteur 100:1 en rotation libre (sans tenir "
+"compte des différences de frottement), mais que la vitesse et le couple "
+"réels seront différents. La puissance de sortie est proportionnelle à la "
+"vitesse multipliée par le couple, de sorte que lorsque la vitesse et le "
+"couple sont modifiés par un réducteur, la puissance de sortie doit rester la"
+" même."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:13
+msgid ""
+"Another piece of information, although not always as useful, is the *input* "
+"power of the motor. The input power of the motor is how many watts of power "
+"the motor consumes, which is equal to the voltage sent to the motor times "
+"the current consumed by the motor. **Motors are not 100% efficient, so to "
+"get a certain output power you often need double or even triple the input "
+"power**. For example, a standard FTC\\ |reg| motor can consume up to 65 "
+"watts just to produce 29 watts of output power."
+msgstr ""
+"Une autre information, qui n'est pas toujours aussi utile, est la puissance "
+"*d'entrée* du moteur. La puissance d'entrée du moteur correspond au nombre "
+"de watts consommés par le moteur, qui est égal à la tension envoyée au "
+"moteur multipliée par le courant consommé par le moteur. **Les moteurs ne "
+"sont pas efficaces à 100 %, de sorte que pour obtenir une certaine puissance"
+" de sortie, il faut souvent doubler, voire tripler la puissance d'entrée**. "
+"Par exemple, un moteur FTC\\ |reg| standard peut consommer jusqu'à 65 watts "
+"pour une puissance de sortie de 29 watts."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:18
+msgid "Peak Power and Motor Curves"
+msgstr "Courbes de Puissance de Pointe et de Moteur"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:20
+msgid ""
+"In order to figure out how much power your motor will be consuming or "
+"outputting, its helpful to reference a motor curve. These are data sheets "
+"that plot the motor's output speed, output torque, output power, and "
+"efficiency all on one graph. Every FTC legal motor except the Core Hex has "
+"been dyno tested, and their data are below. It is safe to assume other non-"
+"current limited motors (such as servos) follow similarly-shaped curves, "
+"although with different speed, torque, and power outputs."
+msgstr ""
+"Afin de déterminer la puissance que votre moteur consommera ou produira, il "
+"est utile de se référer à une courbe de moteur. Ce sont des fiches "
+"techniques qui indiquent la vitesse de sortie, le couple de sortie, la "
+"puissance de sortie et l'efficacité du moteur sur un même graphique. Tous "
+"les moteurs légaux FTC, à l'exception du Core Hex, ont été testés au banc "
+"d'essai, et leurs données sont ci-dessous. On peut supposer que d'autres "
+"moteurs non limités en courant (tels que les servos) suivent des courbes "
+"similaires, bien que leur vitesse, leur couple et leur puissance de sortie "
+"soient différents."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:23
+msgid "Free Speed (RPM)"
+msgstr "Vitesse libre (RPM)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:23
+msgid "Free Current (A)"
+msgstr "Courant libre (A)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:23
+msgid "Maximum Power (W)"
+msgstr "Puissance maximale (W)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:23
+msgid "Stall Torque  (N*m)"
+msgstr "Couple de décrochage (N*m)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:23
+msgid "Stall Current (A)"
+msgstr "Courant de décrochage (A)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
+msgid "goBILDA (MATRIX)"
+msgstr "goBILDA (MATRIX)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
+msgid "5900"
+msgstr "5900"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
+msgid "0.3"
+msgstr "0.3"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
+msgid "29"
+msgstr "29"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
+msgid "0.19"
+msgstr "0.19"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:25
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
+msgid "11"
+msgstr "11"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
+msgid "NeveRest"
+msgstr "NeveRest"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
+msgid "5500"
+msgstr "5500"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
+msgid "0.4"
+msgstr "0.4"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
+msgid "26"
+msgstr "26"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
+msgid "0.17"
+msgstr "0.17"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:27
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
+msgid "9.8"
+msgstr "9.8"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:29
+msgid "REV Core Hex\\ [#]_"
+msgstr "REV Core Hex\\ [#]_"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:29
+msgid "125"
+msgstr "125"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:29
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
+msgid "0.2"
+msgstr "0.2"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:29
+msgid "10"
+msgstr "10"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:29
+msgid "3.2"
+msgstr "3.2"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:29
+msgid "4.4"
+msgstr "4.4"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
+msgid "REV HD Hex"
+msgstr "REV HD Hex"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
+msgid "6000"
+msgstr "6000"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
+msgid "28"
+msgstr "28"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:31
+msgid "0.18"
+msgstr "0.18"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:33
+msgid "TorqueNado"
+msgstr "TorqueNado"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:36
+msgid ""
+"Data taken directly from the `product page "
+"<https://www.revrobotics.com/rev-41-1300/>`_, no motor curve available."
+msgstr ""
+"Données extraites directement de la page produit "
+"<https://www.revrobotics.com/rev-41-1300/>`_, pas de courbe moteur "
+"disponible."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+msgid "A motor curve for a goBILDA (MATRIX) motor"
+msgstr "Courbe moteur pour un moteur goBILDA (MATRIX)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+msgid "A motor curve for a NeveRest motor"
+msgstr "Une courbe de moteur pour un moteur NeveRest"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:0
+msgid "A motor curve for a REV HD Hex motor"
+msgstr "Courbe moteur pour un moteur REV HD Hex"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:65
+msgid ""
+"A motor curve represents a motor at 12 V (equivalent to setting the motor "
+"power to 1 in software) with various amounts of load applied to the axle. As"
+" you can see, the power output from the motor is not constant, instead "
+"rising until about 50% load, before falling again. This point at 50% load is"
+" called the **peak power output** of the motor, and is at a similar point "
+"(50% load) across all FTC legal motors."
+msgstr ""
+"Une courbe de moteur représente un moteur à 12 V (ce qui équivaut à régler "
+"la puissance du moteur sur 1 dans le logiciel) avec différentes quantités de"
+" charge appliquées à l'essieu. Comme vous pouvez le voir, la puissance de "
+"sortie du moteur n'est pas constante, elle augmente jusqu'à environ 50 % de "
+"la charge, avant de redescendre. Ce point à 50 % de charge est appelé la "
+"**puissance de sortie maximale** du moteur, et se trouve à un point "
+"similaire (50 % de charge) sur tous les moteurs légaux de la FTC."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:67
+msgid ""
+"The varying power of a motor means that speed and torque output do not "
+"change linearly when more load is applied onto the axle. Counterintuitively,"
+" placing 50% stall load on a motor doesn't halve its speed, but will rather "
+"reduce it to slightly above 50% speed. Similarly, placing more then 50% load"
+" on a motor will cause the speed to fall faster then linearly."
+msgstr ""
+"La puissance variable d'un moteur signifie que la vitesse et le couple de "
+"sortie ne changent pas linéairement lorsqu'une charge plus importante est "
+"appliquée à l'essieu. De manière contre-intuitive, une charge de décrochage "
+"de 50 % sur un moteur ne divise pas sa vitesse par deux, mais la réduit "
+"plutôt à une vitesse légèrement supérieure à 50 %. De même, une charge "
+"supérieure à 50 % sur un moteur entraîne une baisse de la vitesse plus "
+"rapide que linéaire."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:69
+msgid ""
+"In addition, you can see that efficiency rises as speed goes up. This means,"
+" if current draw is a concern, one should always be running their motors "
+"with loads below 50% of their stall torque. These two properties of a motor,"
+" the peak power output being 50% of the stall torque and the efficiency of a"
+" motor being higher the lower the load is, guide the selection of the gear "
+"ratio of a motor. **Ideally, gear ratios should be chosen such that the "
+"stall torque is twice the average torque load on the motor, and should skew "
+"towards providing more torque than needed rather then less**."
+msgstr ""
+"En outre, vous pouvez constater que le rendement augmente avec la vitesse. "
+"Cela signifie que si l'on s'intéresse à la consommation de courant, il faut "
+"toujours faire tourner les moteurs avec des charges inférieures à 50 % de "
+"leur couple de décrochage. Ces deux propriétés d'un moteur, la puissance de "
+"sortie maximale étant égale à 50 % du couple de décrochage et le rendement "
+"d'un moteur étant d'autant plus élevé que la charge est faible, guident la "
+"sélection du rapport de démultiplication d'un moteur. **En principe, les "
+"rapports de démultiplication doivent être choisis de manière à ce que le "
+"couple de décrochage soit deux fois supérieur à la charge moyenne du moteur,"
+" et à ce que le moteur fournisse plus de couple que nécessaire plutôt qu'une"
+" quantité moindre**."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:72
+msgid "Note on Current Consumption"
+msgstr "Note sur la consommation de courant"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:74
+msgid ""
+"You may see while looking at motor curves that the stall current of FTC "
+"motors can be as high as 11 amps per motor. FTC batteries can only provide "
+"20 amps of current output before blowing the fuse is likely. However, even "
+"if the 20 amp limit isn't reached, drawing too much current can cause other "
+"motors to feel sluggish or unresponsive. Care should be taken to ensure that"
+" more than two motors are never stalled at the same time."
+msgstr ""
+"En examinant les courbes des moteurs, vous constaterez que le courant de "
+"décrochage des moteurs FTC peut atteindre 11 ampères par moteur. Les "
+"batteries FTC ne peuvent fournir que 20 ampères de courant de sortie avant "
+"que le fusible ne saute. Cependant, même si la limite de 20 ampères n'est "
+"pas atteinte, une consommation de courant trop importante peut entraîner un "
+"ralentissement ou un manque de réactivité des autres moteurs. Il convient de"
+" veiller à ce que plus de deux moteurs ne soient jamais bloqués en même "
+"temps."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:76
+msgid ""
+"You may be able to ignore this when dealing with mecanum drivetrains, as "
+"they will generally slip before the motors actually reach their stall "
+"current. However, placing very low gear ratios or more than 4 motors on "
+"traction drivetrains can exceed the current limit of an FTC battery."
+msgstr ""
+"Il est possible d'ignorer ce problème dans le cas des transmissions "
+"mécaniques, car elles glissent généralement avant que les moteurs "
+"n'atteignent leur courant de décrochage. Cependant, le fait de placer des "
+"rapports de vitesse très bas ou plus de 4 moteurs sur des chaînes de "
+"traction peut dépasser la limite de courant d'une batterie FTC."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-power.rst:78
+msgid ""
+"Motors can pull \"transient current\" where they pull a large amount of "
+"current for extremely brief amounts of time. This often happens when the "
+"motor starts moving or when a momentary load is placed on it. While "
+"transients generally cannot cause a fuse to pop, they can cause other "
+"issues, such as sluggish control if pulled by a motor, or low voltage if the"
+" transient is pulled by a servo (goBILDA Super Speed servos have been "
+"observed to do this occasionally)."
+msgstr ""
+"Les moteurs peuvent produire un \"courant transitoire\", c'est-à-dire qu'ils"
+" produisent une grande quantité de courant pendant un laps de temps "
+"extrêmement court. Cela se produit souvent lorsque le moteur se met en "
+"mouvement ou lorsqu'il est soumis à une charge momentanée. Alors que les "
+"transitoires ne peuvent généralement pas faire sauter un fusible, ils "
+"peuvent causer d'autres problèmes, comme un contrôle lent s'ils sont tirés "
+"par un moteur, ou une faible tension si le transitoire est tiré par un servo"
+" (les servos goBILDA Super Speed ont été observés pour faire cela "
+"occasionnellement)."

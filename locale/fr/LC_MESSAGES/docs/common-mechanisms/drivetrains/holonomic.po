@@ -8,18 +8,273 @@
 # Aaraf Chy, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 04:28+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:4
+msgid "Holonomic Drivetrains"
+msgstr "Châssis Holonomiques"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:7
+msgid "Mecanum Drive"
+msgstr "Châssis Mecanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:11
+msgid "Term"
+msgstr "Définition "
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:14
+msgid "Mecanum Wheel"
+msgstr "Roue Mécanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:36
+msgid ""
+"See `this video <https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ and "
+"`this other video <https://youtu.be/YJaX3vQ6kHw?t=123>`_ for a more in depth"
+" explanation."
+msgstr ""
+"Voir `cette vidéo <https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ et"
+" `cette autre vidéo <https://youtu.be/YJaX3vQ6kHw?t=123>`_ pour une "
+"explication plus approfondie."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:39
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:158
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:193
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:42
+msgid "Good acceleration, can have high top speed"
+msgstr "Bonne accélération, vitesse de pointe élevée"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:43
+msgid "Very versatile drivetrain for nearly any game"
+msgstr "Une transmission très polyvalente pour presque tous les jeux"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:46
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:164
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:201
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:49
+msgid "Able to be pushed around on defense"
+msgstr "Capable de se faire bousculer en défense"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:50
+msgid "Wheels must be powered independently, so there is no redundancy"
+msgstr ""
+"Les roues doivent être alimentées indépendamment, il n'y a donc pas de "
+"redondance."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "CAD Examples of Mecanum Drive (Click to expand)"
+msgstr "Exemples CAD de Mecanum Drive (Cliquez pour agrandir)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "goBILDA COTS"
+msgstr "goBILDA COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:64
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/df9bcea72fcdd7e4aee4134b>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/df9bcea72fcdd7e4aee4134b>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "REV COTS"
+msgstr "REV COTS"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:72
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/b8d4a6cfe4f26c5170f40a6c>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/b8d4a6cfe4f26c5170f40a6c>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:80
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:88
+msgid ""
+"`Click here to explore this model in OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/40c3266dab2e444011cce79c>`__"
+msgstr ""
+"`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
+"<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/40c3266dab2e444011cce79c>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:95
+msgid "Diagram of mecanum directions"
+msgstr "Diagramme des directions du Mecanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:98
+msgid "Mecanum Wheels Miniguide"
+msgstr "Miniguide des roues Mecanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:105
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:107
+msgid ""
+"These wheels are the gold standard of mecanum wheels, if you are buying new "
+"mecanum wheels there is very little reason to buy any mecanum wheels not "
+"from this section."
+msgstr ""
+"Ces roues sont l'étalon-or des roues Mecanum, si vous achetez de nouvelles "
+"roues Mecanum, il y a très peu de raisons d'acheter des roues Mecanum qui ne"
+" font pas partie de cette section."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:113
+msgid "Viable"
+msgstr "Viable"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:115
+msgid ""
+"These mecanums have acceptable performance but there is very little reason "
+"to buy them at this point, as they have been superseded by better ones. If "
+"you already own them, they are a viable option, but consider looking at some"
+" of the mecanums from the `Recommended`_ section."
+msgstr ""
+"Ces mécanismes ont des performances acceptables, mais il y a très peu de "
+"raisons de les acheter à ce stade, car ils ont été remplacés par des "
+"mécanismes plus performants. Si vous les possédez déjà, ils constituent une "
+"option viable, mais envisagez de vous tourner vers certains des mécanismes "
+"de la section `Recommandé`_."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:117
+msgid ""
+"`Nexus Ball Bearing Mecanum Wheels <https://www.robotshop.com/en/100mm-"
+"mecanum-wheel-set.html>`_ ($134.00): These wheels are 100 mm in diameter and"
+" 59 mm wide. They strafe excellently because of the use of ball bearings. "
+"However, they are more expensive, take up more space, have less traction, "
+"and are harder to mount to than the recommended wheels."
+msgstr ""
+"`Roues Mecanum à roulements à billes Nexus "
+"<https://www.robotshop.com/en/100mm-mecanum-wheel-set.html>`_ ($134.00) : "
+"Ces roues ont un diamètre de 100 mm et une largeur de 59 mm. Elles ont une "
+"excellente trajectoire grâce à l'utilisation de roulements à billes. "
+"Cependant, elles sont plus chères, prennent plus de place, ont moins de "
+"traction et sont plus difficiles à monter que les roues recommandées."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:123
+msgid "Not Recommended"
+msgstr "Non recommandé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:133
+msgid "8103 Null Robotics, Rover Ruckus, **using Nexus mecanum bearing**"
+msgstr ""
+"8103 Null Robotics, Rover Ruckus, **utilisant le palier Nexus mecanum**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:141
+msgid "X-Drive"
+msgstr "X-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:143
+msgid ""
+"X-Drive is a holonomic omni-wheel based drivetrain. This type of drive "
+"involves mounting 4 omni wheels at the corner of the robot at a 45 degree "
+"angle."
+msgstr ""
+"X-Drive est une transmission holonomique basée sur des roues "
+"omnidirectionnelles. Ce type d'entraînement implique le montage de 4 roues "
+"omnidirectionnelles au coin du robot à un angle de 45 degrés."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:147
+msgid ""
+"Even though X-drive has good turning and acceleration, the main downside to "
+"the drive is packaging/form factor. Packaging refers to how easy/convenient "
+"the drivetrain fits into the overall design of the robot."
+msgstr ""
+"Même si la transmission X-drive offre de bonnes capacités de rotation et "
+"d'accélération, son principal inconvénient est son conditionnement et son "
+"facteur de forme. L'emballage fait référence à la facilité et à la commodité"
+" avec lesquelles la transmission s'intègre dans la conception générale du "
+"robot."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:153
+msgid ""
+"When using X-Drive, the robot moves forwards/backwards/straight side-to-side"
+" :math:`\\sqrt{2}` times faster than a drivetrain with wheels in the normal "
+"orientation (with the same gear ratio and wheel size)."
+msgstr ""
+"Lorsqu'il utilise X-Drive, le robot se déplace en avant/en arrière/en ligne "
+"droite d'un côté à l'autre :math:`\\sqrt{2}` fois plus vite qu'une "
+"transmission avec des roues dans l'orientation normale (avec le même rapport"
+" d'engrenage et la même taille de roue)."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:160
+msgid "Good maneuverability and agility"
+msgstr "Bonne maniabilité et agilité"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:161
+msgid "Good acceleration"
+msgstr "Bonne accélération"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:166
+msgid "Prone to defense, pushed around easily"
+msgstr "Sujet à la défense, facilement bousculé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:167
+msgid "Often uses direct drive due to awkward form factor"
+msgstr ""
+"Utilise souvent l'entraînement direct en raison de son format peu pratique"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:172
+msgid "731 Wannabee Strange, Velocity Vortex"
+msgstr "731 Wannabee Strange, Velocity Vortex"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:177
+msgid "5040 Nuts and Bolts, Relic Recovery"
+msgstr "5040 Boulons et écrous, récupération de reliques"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:180
+msgid "H-Drive"
+msgstr "H-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:195
+msgid "Combines tank and holonomic drivetrain advantages"
+msgstr "Combine les avantages du réservoir et de la transmission holonomique"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:196
+msgid "Can be used with 3 or 5 motors"
+msgstr "Peut être utilisé avec 3 ou 5 moteurs"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:197
+msgid "Good traction and top speed"
+msgstr "Bonne traction et bonne vitesse de pointe"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:198
+msgid "Great maneuverability and agility"
+msgstr "Grande maniabilité et agilité"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:204
+msgid "Complex suspension occasionally needed, depending on design"
+msgstr ""
+"Une suspension complexe est parfois nécessaire, en fonction de la conception"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:209
+msgid "9804 Bomb Squad, Relic Recovery"
+msgstr "9804 Bomb Squad, Relic Recovery"

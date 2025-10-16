@@ -7,18 +7,598 @@
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 04:28+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2024-06-07 16:17+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:4
+msgid "Fastener Guide"
+msgstr "Guide des fixations"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:5
+msgid ""
+"If you want your robot to stay in one piece, you will need fasteners. "
+"Fasteners are any pieces of hardware that mechanically join parts. This "
+"guide will discuss common types of fasteners, and how to use them on your "
+"robot."
+msgstr ""
+"Si vous voulez que votre robot reste en un seul morceau, vous aurez besoin "
+"d'attaches. Les fixations sont des éléments de quincaillerie qui permettent "
+"d'assembler mécaniquement des pièces. Ce guide présente les types de "
+"fixations les plus courants et explique comment les utiliser sur votre "
+"robot."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:8
+msgid "Threaded Fasteners"
+msgstr "Fixations filetées"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:9
+msgid ""
+"Bolts, screws and nuts are all threaded fasteners -- meaning they use a "
+"helical thread to join parts."
+msgstr ""
+"Les boulons, les vis et les écrous sont tous des éléments de fixation "
+"filetés, c'est-à-dire qu'ils utilisent un filetage hélicoïdal pour assembler"
+" des pièces."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:12
+msgid "Thread Basics"
+msgstr "Principes de base du fil"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:13
+msgid ""
+"To understand threaded fasteners, you will need to know some basic "
+"terminology"
+msgstr ""
+"Pour comprendre les fixations filetées, vous devez connaître quelques termes"
+" de base"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid ""
+"Diagram displaying thread pitch and the difference between internal/external"
+" threads and major/minor diameters."
+msgstr ""
+"Diagramme indiquant le pas de vis et la différence entre les filets "
+"intérieurs/extérieurs et les diamètres majeurs/mineurs."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:19
+msgid "External Thread"
+msgstr "Filetage extérieur"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:20
+msgid ""
+"A thread on an outside surface. For example, bolts have external threads."
+msgstr ""
+"Filetage sur une surface extérieure. Par exemple, les boulons ont un "
+"filetage extérieur."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:21
+msgid "Internal Thread"
+msgstr "Filetage interne"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:22
+msgid ""
+"A thread on an inside surface. For example, nuts have internal threads."
+msgstr ""
+"Filetage sur une surface intérieure. Par exemple, les écrous ont un filetage"
+" intérieur."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:23
+msgid "Thread Pitch"
+msgstr "Pas de filetage"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:24
+msgid ""
+"The distance from one thread to another, measured along the length of the "
+"thread. This can also be expressed as the number of threads per unit of "
+"length, for example threads per inch."
+msgstr ""
+"La distance d'un fil à l'autre, mesurée sur la longueur du fil. Elle peut "
+"également être exprimée en nombre de fils par unité de longueur, par exemple"
+" fils par pouce."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:25
+msgid "Major Diameter"
+msgstr "Diamètre principal"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:26
+msgid "The largest diameter of the thread profile."
+msgstr "Le plus grand diamètre du profil du filet."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:28
+msgid "Minor Diameter"
+msgstr "Diamètre mineur"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:28
+msgid "The smallest diameter of the thread profile."
+msgstr "Le plus petit diamètre du profil du filet."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:31
+msgid "Thread Standards and Naming"
+msgstr "Normes et dénomination des fils"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:32
+msgid ""
+"There are two main systems of naming and sizing threads that you will "
+"encounter in FTC: UTS imperial sizing and ISO metric sizing."
+msgstr ""
+"Il existe deux systèmes principaux de dénomination et de dimensionnement des"
+" fils que vous rencontrerez dans le cadre de FTC : les dimensions impériales"
+" UTS et les dimensions métriques ISO."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:35
+msgid "Imperial (UTS)"
+msgstr "Impérial (UTS)"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:37
+msgid ""
+"The universal thread standard (UTS) is based on the imperial system and "
+"commonly used to size threads in the US and Canada. A UTS thread is named by"
+" a number indicating the major diameter of the thread, followed by the "
+"thread's pitch measured in threads per inch."
+msgstr ""
+"La norme universelle de filetage (UTS) est basée sur le système impérial et "
+"est couramment utilisée pour dimensionner les filetages aux États-Unis et au"
+" Canada. Un filet UTS est désigné par un nombre indiquant le diamètre "
+"principal du filet, suivi du pas du filet mesuré en filets par pouce."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:39
+msgid ""
+"For major diameters of |frac14|\" or greater, first number is simply the "
+"major diameter in inches. For those smaller than |frac14|\", the following "
+"code is used:"
+msgstr ""
+"Pour les diamètres majeurs de |frac14|\" ou plus, le premier chiffre est "
+"simplement le diamètre majeur en pouces. Pour les diamètres inférieurs à "
+"|frac14|\", le code suivant est utilisé :"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:45
+msgid "no."
+msgstr "no."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:45
+msgid "Major Diameter (inches)"
+msgstr "Diamètre principal (en pouces)"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:47
+msgid "#0"
+msgstr "#0"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:47
+msgid "0.0600"
+msgstr "0.0600"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:48
+msgid "#1"
+msgstr "#1"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:48
+msgid "0.0730"
+msgstr "0.0730"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:49
+msgid "#2"
+msgstr "#2"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:49
+msgid "0.0860"
+msgstr "0.0860"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:50
+msgid "#3"
+msgstr "#3"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:50
+msgid "0.0990"
+msgstr "0.0990"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:51
+msgid "#4"
+msgstr "#4"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:51
+msgid "0.1120"
+msgstr "0.1120"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:52
+msgid "#5"
+msgstr "#5"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:52
+msgid "0.1250"
+msgstr "0.1250"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:53
+msgid "#6"
+msgstr "#6"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:53
+msgid "0.1380"
+msgstr "0.1380"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:54
+msgid "#8"
+msgstr "#8"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:54
+msgid "0.1640"
+msgstr "0.1640"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:55
+msgid "#10"
+msgstr "#10"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:55
+msgid "0.1900"
+msgstr "0.1900"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:56
+msgid "#12"
+msgstr "#12"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:56
+msgid "0.2160"
+msgstr "0.2160"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:60
+msgid ""
+"Some common imperial thread sizes in FTC include |frac14|-20 (one quarter "
+"inch major diameter, 20 threads per inch) and #6-32 (0.138 inch major "
+"diameter, 32 threads per inch)"
+msgstr ""
+"Parmi les tailles de filets impériaux courantes en FTC, citons |frac14|-20 "
+"(diamètre principal d'un quart de pouce, 20 filets par pouce) et #6-32 "
+"(diamètre principal de 0,138 pouce, 32 filets par pouce)."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:63
+msgid "Metric (ISO)"
+msgstr "Métrique (ISO)"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:65
+msgid ""
+"The ISO metric thread standard is commonly used worldwide, and for many "
+"products sold by FTC vendors."
+msgstr ""
+"La norme ISO sur les filetages métriques est couramment utilisée dans le "
+"monde entier et pour de nombreux produits vendus par les fournisseurs de "
+"FTC."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:67
+msgid ""
+"A metric thread is designated by the letter M followed by the outer diameter"
+" in millimeters, for example M4 for a 4 mm major diameter bolt. This is then"
+" followed by a \"x\" and the pitch, also in millimeters. For example, "
+"\"M4X0.7\" means a M4 thread with a 0.7 mm pitch."
+msgstr ""
+"Un filet métrique est désigné par la lettre M suivie du diamètre extérieur "
+"en millimètres, par exemple M4 pour un boulon de 4 mm de diamètre. Il est "
+"ensuite suivi d'un \"x\" et du pas, également en millimètres. Par exemple, "
+"\"M4X0,7\" signifie un filet M4 avec un pas de 0,7 mm."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:70
+msgid "Bolts"
+msgstr "Boulons"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:72
+msgid "Bolts are the most commonly used fastener in FTC."
+msgstr ""
+"Les boulons sont les éléments de fixation les plus couramment utilisés dans "
+"la FTC."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:74
+msgid "There are several types of bolts you may encounter, such as:"
+msgstr ""
+"Il existe plusieurs types de boulons que vous pouvez rencontrer, tels que"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:76
+msgid "**Socket Head Bolts**"
+msgstr "**Boulons à tête creuse**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a socket head bolt"
+msgstr "image d'un boulon à tête creuse"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:82
+msgid ""
+"These bolts have a cylindrical head and are tightened and loosened with a "
+"hexagonal recess."
+msgstr ""
+"Ces boulons ont une tête cylindrique et se serrent ou se desserrent à l’aide"
+" d’une clé hexagonale ou Allen."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:84
+msgid "**Button Head Bolts**"
+msgstr "**Boulons à tête ronde**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a button head bolt"
+msgstr "image d'un boulon à tête ronde"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:90
+msgid ""
+"These bolts have a domed head, in contrast to the flat top of a standard "
+"socket bolt."
+msgstr ""
+"Ces boulons ont une tête bombée, contrairement à la tête plate d'un boulon à"
+" douille standard."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:92
+msgid "**Countersunk Head Bolts**"
+msgstr "**Boulons à tête fraisée**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a countersunk head bolt"
+msgstr "image d'un boulon à tête fraisée"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:98
+msgid ""
+"These bolts have a cone-shaped head, and can be used in countersunk (cone-"
+"shaped) holes to achieve a flush surface finish."
+msgstr ""
+"Ces boulons ont une tête conique et peuvent être utilisés dans des trous "
+"fraisés (en forme de cône) pour obtenir une finition de surface affleurante."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:100
+msgid "**Grub Screws**"
+msgstr "**vis sans tête**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a grub screw"
+msgstr "image d'une vis sans tête"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:106
+msgid ""
+"These bolts have no head, the recess is instead embedded within the threads."
+" They are primarily used as set screws."
+msgstr ""
+"Ces boulons n'ont pas de tête, l'empreinte est encastrée dans le filetage. "
+"Ils sont principalement utilisés comme vis de réglage."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:108
+msgid "**Hex Bolts**"
+msgstr "**Boulons à tête hexagonale**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a hex head bolt"
+msgstr "photo d'un boulon à tête hexagonale"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:115
+msgid ""
+"The bolts are tightened with an external hex-shaped head. When designing for"
+" these bolts, it is important to allow clearance on the side of the head for"
+" tightening."
+msgstr ""
+"Les boulons sont serrés à l'aide d'une tête extérieure en forme d'hexagone. "
+"Lors de la conception de ces boulons, il est important de prévoir un espace "
+"libre sur le côté de la tête pour le serrage."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:118
+msgid ""
+"Every bolt requires a \"drive\" -- meaning the geometry which is used to "
+"turn and install it. Each of the bolts listed above can have a variety of "
+"different types of drives:"
+msgstr ""
+"Chaque boulon nécessite un \"entraînement\", c'est-à-dire la géométrie "
+"utilisée pour le tourner et l'installer. Chacun des boulons énumérés ci-"
+"dessus peut avoir différents types d'entraînement :"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "diagram showing thread terminology"
+msgstr "diagramme montrant la terminologie des fils"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:124
+msgid "Nuts"
+msgstr "Écrous"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:126
+msgid ""
+"A nut is a fastener with an internally threaded hole. Together with a bolt, "
+"they're used to join parts together."
+msgstr ""
+"Un écrou est un élément de fixation doté d'un trou fileté à l'intérieur. "
+"Avec un boulon, il est utilisé pour assembler des pièces."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:128
+msgid "Here are some types of nuts you may encounter in FTC:"
+msgstr "Voici quelques types d'écrous que vous pouvez rencontrer en FTC :"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:131
+msgid "**Hex Nuts**"
+msgstr "**Écrous hexagonaux**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a hex nut"
+msgstr "image d'un écrou hexagonal"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:137
+msgid ""
+"These most common type of nut. They can be tightened with a socket hex "
+"wrench."
+msgstr ""
+"Il s'agit du type d'écrou le plus courant. Ils peuvent être serrés à l'aide "
+"d'une clé hexagonale à douille."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:139
+msgid "**Square Nuts**"
+msgstr "**Écrous carrés**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a square nut"
+msgstr "image d'un écrou carré"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:145
+msgid ""
+"These are four-sided nuts. They work well in small spaces and can be easily "
+"inset into square pockets to keep from rotating."
+msgstr ""
+"Il s'agit d'écrous à quatre faces. Ils conviennent bien aux petits espaces "
+"et peuvent être facilement insérés dans des poches carrées pour éviter "
+"qu'ils ne tournent."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:147
+msgid "**T-slot Nuts**"
+msgstr "**écrous à rainure en T**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a T-slot nut"
+msgstr "photo d'un écrou pour rainure en T"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:153
+msgid "These can be inserted into t-slot extrusion to tighten parts onto it."
+msgstr ""
+"Ils peuvent être insérés dans un profilé à rainure en T pour serrer des "
+"pièces sur celui-ci."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:155
+msgid "**Wing Nuts**"
+msgstr "**écrous à ailettes**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a wing nut"
+msgstr "image d'un écrou à oreilles"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:161
+msgid "These nuts can be easily tightened without a wrench."
+msgstr "Ces écrous peuvent être facilement serrés sans clé."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:163
+msgid "**Nyloc Nuts**"
+msgstr "**Écrous anti-vibration**"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "picture of a nyloc nut"
+msgstr "photo d'un écrou autofreinant"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:169
+msgid ""
+"These nuts contain a nylon ring which prevents loosening by increasing "
+"friction on the bolt thread. We recommend using these wherever possible."
+msgstr ""
+"Ces écrous contiennent une bague en nylon qui empêche le desserrage en "
+"augmentant la friction sur le filetage du boulon. Nous recommandons de les "
+"utiliser dans la mesure du possible."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:172
+msgid "Making Threads"
+msgstr "La fabrication de fils"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:174
+msgid ""
+"Sometimes, you will want to create new threads. This process is called "
+"threading. To create internal threads, you can use a cutting tool called a "
+"tap -- essentially a sharper version of a screw."
+msgstr ""
+"Il arrive que vous souhaitiez créer de nouveaux fils. Ce processus s'appelle"
+" le filetage. Pour créer des filetages intérieurs, vous pouvez utiliser un "
+"outil de coupe appelé \"taraud\"-- qui est en fait une version plus pointue "
+"d'une vis."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:177
+msgid "To create external threads, you use a tool called a die."
+msgstr ""
+"Pour créer des filets externes, vous utilisez un outil appelé filière."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst-1
+msgid "diagram showing a tap and die"
+msgstr "diagramme montrant un Taraud et une filière"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:184
+msgid "Threadlocker"
+msgstr "Frein à filets"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:186
+msgid ""
+"Bolts on your robot may loosen over time, especially if there are heavy "
+"vibrations. To prevent this you may use locking nuts or lock washers, which "
+"mechanically press against the thread. Another solution is to use a "
+"threadlocker, which is an adhesive compound that -- as it's name suggests --"
+" locks threads in place."
+msgstr ""
+"Les boulons de votre robot peuvent se desserrer avec le temps, surtout s'ils"
+" sont soumis à de fortes vibrations. Pour éviter cela, vous pouvez utiliser "
+"des écrous de blocage ou des rondelles de blocage, qui appuient "
+"mécaniquement sur le filetage. Une autre solution consiste à utiliser un "
+"frein-filet, qui est un composé adhésif qui, comme son nom l'indique, bloque"
+" les filets en place."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:189
+msgid "Loctite"
+msgstr "Loctite"
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:192
+msgid ""
+"The most popular threadlocker among FTC teams is loctite. There are two "
+"types of Loctite: blue, which is removable, and red, which is permanent (and"
+" we mean it). To use loctite, apply it to the thread of the bolts."
+msgstr ""
+"Le frein-filet le plus populaire parmi les équipes de FTC est le Loctite. Il"
+" existe deux types de Loctite : le bleu, qui est amovible, et le rouge, qui "
+"est permanent (et nous le pensons vraiment). Pour utiliser la Loctite, "
+"appliquez-la sur le filetage des boulons."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:194
+msgid ""
+"It is highly recommended that teams use Loctite on all motor and "
+":term:`servo <Servo>` mounts, as well as any mechanism prone to vibration."
+msgstr ""
+"Il est fortement recommandé aux équipes d'utiliser de la Loctite sur tous "
+"les supports de moteur et de :term:`servo <Servo>`, ainsi que sur tout "
+"mécanisme sujet aux vibrations."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:198
+msgid ""
+"Blue or red Loctite should not be used with brittle plastics such as "
+"polycarbonate. This is known to cause the plastic to crack. Instead, either "
+"use a `cyanoacrolate based glue "
+"<https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-"
+"pro-gel/SAP_0201DGL029Z5.html>`_ or use a `screw with a nylon patch "
+"<https://www.mcmaster.com/products/screws/socket-head-"
+"screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ as this "
+"will not damage the plastic."
+msgstr ""
+"Le Loctite bleu ou rouge ne doit pas être utilisé avec des plastiques "
+"fragiles tels que le polycarbonate. On sait que cela peut provoquer des "
+"fissures dans le plastique. Utilisez plutôt une colle à base de "
+"cyanoacrolate <https://www.loctiteproducts.com/products/central-"
+"pdp.html/loctite-super-pro-gel/SAP_0201DGL029Z5.html>`_ ou utilisez une vis "
+"avec un patch en nylon <https://www.mcmaster.com/products/screws/socket-"
+"head-screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ qui "
+"n'endommagera pas le plastique."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:200
+msgid ""
+"Also note: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we "
+"refer to the \"color\", we mean the fluid color. Blue loctite usually comes "
+"in a red bottle."
+msgstr ""
+"Notez également : **LA COULEUR DU FLACON ET LA COULEUR DU LIQUIDE SONT "
+"INVERSÉES.** Lorsque nous parlons de \"couleur\", nous parlons de la couleur"
+" du liquide. La loctite bleue est généralement livrée dans un flacon rouge."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:205
+msgid ""
+"A red bottle containing blue (removable) loctite, and a blue bottle "
+"containing red (permanent) loctite"
+msgstr ""
+"Un flacon rouge contenant du loctite bleue (amovible) et un flacon bleu "
+"contenant du loctite rouge (permanent)."
+
+#: ../../gm0/source/docs/hardware-components/fastener-guide.rst:205
+msgid ""
+"Blue Loctite (removable, in red tube), Red Loctite (permanent, in blue tube)"
+msgstr ""
+"Loctite bleu (amovible, dans un tube rouge), Loctite rouge (permanent, dans "
+"un tube bleu)"

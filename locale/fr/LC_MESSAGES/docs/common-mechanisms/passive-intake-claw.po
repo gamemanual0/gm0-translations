@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:31+0000\n"
+"POT-Creation-Date: 2025-10-16 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -50,3 +50,134 @@ msgstr ""
 "brainstorming. Contrairement à la plupart des ramasseurs, les pinces peuvent"
 " être fabriquées avec seulement des servos, et ne nécessitent donc pas "
 "d'emplacements précieux pour les moteurs."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:8
+msgid ""
+"This is not to say there are no disadvantages; notably, unlike intakes, when"
+" you pick up something with a claw, it isn't easy to transfer the collected "
+"element to a separate scoring mechanism. For this reason, in most cases, "
+"claws double as both a collection method and a scoring method."
+msgstr ""
+"Cela ne veut pas dire qu'il n'y a pas d'inconvénients ; notamment, "
+"contrairement aux ramasseurs, lorsque vous ramassez quelque chose avec une "
+"pince, il n'est pas facile de transférer l'élément collecté vers un "
+"mécanisme de notation distinct. C'est pourquoi, dans la plupart des cas, les"
+" pinces servent à la fois de méthode de collecte et de méthode de notation."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:10
+msgid ""
+"**Claws are extremely useful for picking up large, unwieldy elements that "
+"cannot be controlled by active intakes**. For example, the relic in Relic "
+"Recovery would be much harder to control using a more active intake; so "
+"teams used a claw."
+msgstr ""
+"**Les pinces sont extrêmement utiles pour ramasser des éléments volumineux "
+"et peu maniables qui ne peuvent pas être contrôlés par des ramasseurs "
+"actifs**. Par exemple, la relique dans Relic Recovery aurait été beaucoup "
+"plus difficile à contrôler en utilisant un ramasseur plus actif ; les "
+"équipes ont donc utilisé une pince."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:12
+msgid ""
+"However, claws are outclassed by active intakes for picking up small game "
+"pieces in nearly every game."
+msgstr ""
+"Cependant, les pinces sont surclassées par les ramasseurs actifs qui "
+"permettent de ramasser de petites pièces de jeu dans presque tous les jeux."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:15
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:17
+msgid "Much simpler than an intake"
+msgstr "Beaucoup plus simple qu'un ramasseur"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:18
+msgid "Takes a lot less time to build than a reliable intake + transfer"
+msgstr ""
+"Cela prend beaucoup moins de temps à construire qu'un système de ramassage "
+"et de transfert fiable."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:19
+msgid "Less moving parts = less things that can go wrong"
+msgstr "Moins de pièces mobiles = moins de choses qui peuvent mal tourner"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:20
+msgid "Usually does not take up a motor slot"
+msgstr "N'occupe généralement pas d'emplacement pour le moteur"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:21
+msgid "Can pick up odd shaped game elements that active intakes can't"
+msgstr ""
+"Peut capter des éléments de jeu de forme irrégulière, ce que les ramasseurs "
+"actifs ne peuvent pas faire."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:24
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:26
+msgid "Depending on their use case, claws are slower than intakes."
+msgstr ""
+"En fonction de leur utilisation, les pinces sont plus lentes que les "
+"ramasseurs."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:28
+msgid ""
+"The driver must angle the robot, position the claw, and grab the game "
+"element."
+msgstr ""
+"Le pilote doit orienter le robot, positionner la pince et saisir l'élément "
+"de jeu."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:29
+msgid ""
+"By contrast, with an intake, the driver needs only to position the intake "
+"and grab the game elements."
+msgstr ""
+"En revanche, avec un ramasseur, le pilote n'a qu'à positionner le ramasseur "
+"et à saisir les éléments du jeu."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:30
+msgid "Claws can be more fragile and break easily."
+msgstr "Les pinces peuvent être plus fragiles et se casser facilement."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:31
+msgid ""
+"In cases in which claws are slower than intakes, they can be much more prone"
+" to defensive maneuvers. The more time spent collecting, the more vulnerable"
+" you are."
+msgstr ""
+"Lorsque les pinces sont plus lentes que les ramasseurs, elles peuvent être "
+"beaucoup plus sujettes aux manœuvres défensives. Plus on passe de temps à "
+"collecter, plus on est vulnérable."
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
+msgid "11115's relic claw"
+msgstr "Pince de #11115 pour les reliques "
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:36
+msgid "11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery"
+msgstr ""
+"11115 Gluten Free, Capitaine de l'alliance finaliste (Détroit), Relic "
+"Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
+msgid "8680's relic claw"
+msgstr "Pince de #8680 pour les reliques "
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:41
+msgid "8680 Kraken-Pinion, Relic Recovery"
+msgstr "8680 Kraken-Pinion, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
+msgid "13075's glyph claw"
+msgstr "Pince de #13075 pour les glyphs"
+
+#: ../../gm0/source/docs/common-mechanisms/passive-intake-claw.rst:46
+msgid ""
+"13075 Coram Deo Academy Robotics, Relic Recovery (**suboptimal use case**)"
+msgstr ""
+"13075 Académie Coram Deo Robotique, Relic Recovery (**cas d'utilisation "
+"sous-optimal**)"
