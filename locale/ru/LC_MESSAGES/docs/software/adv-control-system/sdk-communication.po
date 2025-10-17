@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Соня Либерман, 2025
 # Elizaveta Sukhotskaya, 2025
+# Соня Либерман, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 16:29+0000\n"
+"POT-Creation-Date: 2025-10-17 16:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Elizaveta Sukhotskaya, 2025\n"
+"Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +35,59 @@ msgstr ""
 "При использовании любого метода в FTC\\ |reg| SDK, который обращается к "
 "аппаратному обеспечению (установка мощности мотора, чтение энкодера, датчика"
 " и т.д.), отправляется LynxCommand."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:9
+msgid ""
+"LynxCommands are not sent directly from the Robot Controller to an Expansion"
+" Hub through USB; in an expansion hub they are sent through USB to an FTDI, "
+"which converts the USB signal to a UART one. In the control hub, this USB "
+"step is skipped, instead the control hub board sends the data directly over "
+"UART to the internal expansion hub."
+msgstr ""
+"LynxCommands передаются не напрямую с Robot Controller на Expansion Hub "
+"через USB. В случае внешнего Expansion Hub они отправляются через USB на "
+"микросхему FTDI, которая преобразует USB-сигнал в UART. В Control Hub этот "
+"шаг с USB отсутствует — вместо этого плата Control Hub передает данные "
+"напрямую через UART на встроенный модуль Expansion Hub."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:12
+msgid ""
+"LynxCommands being blocking (and more specifically a master lock being "
+"present on each usb device) means that multithreading hardware calls is at "
+"best not helpful and typically harmful to performance."
+msgstr ""
+"Блокирующая природа LynxCommands (и, в частности, наличие монопольной "
+"блокировки master lock для каждого USB-устройства) означает, что "
+"многопоточные вызовы к аппаратным компонентам в лучшем случае бесполезны, а "
+"обычно — напрямую вредят производительности."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:14
+msgid ""
+"If an Android phone and Expansion Hub is used, LynxCommands are sent over "
+"USB; however if a Control Hub is used, LynxCommands are sent over UART. This"
+" is very important, not just because of the increased reliability with UART "
+"instead of USB, but also because LynxCommands take approximately 3 "
+"milliseconds over USB and approximately 2 milliseconds over UART."
+msgstr ""
+"При использовании Android-телефона и Expansion Hub LynxCommands отправляются"
+" по USB; однако, при использовании Control Hub, LynxCommands отправляются по"
+" UART. Это очень важно, не только из-за повышенной надежности UART по "
+"сравнению с USB, но и потому, что LynxCommands занимают примерно 3 "
+"миллисекунды при использовании USB и примерно 2 миллисекунды при "
+"использовании UART."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:16
+msgid ""
+"Any expansion hubs connected via RS485 receive their commands via that "
+"connector. Lynx hubs do not have to retransmit packets, so the added latency"
+" from this process isn't significant, but there will be some added latency. "
+"Up to 255 expansion hubs can be connected together in theory."
+msgstr ""
+"Все Expansion Hub, подключенные через RS485, получают команды через этот "
+"разъем. Концентраторы Lynx не выполняют ретрансляцию пакетов, поэтому "
+"дополнительная задержка от этого процесса незначительна, но она "
+"присутствует. Теоретически можно объединить до 255 Expansion Hub в единую "
+"сеть."
 
 #: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
 msgid ""
