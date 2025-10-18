@@ -8,15 +8,16 @@
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Nicolas Haeck, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 04:27+0000\n"
+"POT-Creation-Date: 2025-10-18 16:27+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Nicolas Haeck, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,3 +32,35 @@ msgstr "Encodeurs"
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:7
 msgid "What Are Encoders?"
 msgstr "Qu'est-ce qu'un encodeur?"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:8
+msgid ""
+"Very commonly in FTC\\ |reg|, you want to know where something is. Whether "
+"that is how many times your drivetrain wheel has rotated, what angle your "
+"arm is at, or how far your string slides have gone, rotational encoders can "
+"help you. In FTC, an encoder refers to any sensor that tracks the rotational"
+" angle of a mechanism."
+msgstr ""
+"Très souvent, en FTCC\\ |reg|, vous voulez savoir où se trouve quelque "
+"chose. Qu'il s'agisse du nombre de rotations de votre roue motrice, de "
+"l'angle de votre bras ou de la distance parcourue par vos cordes, les "
+"encodeurs rotatifs peuvent vous aider. En FTC, un encodeur désigne tout "
+"capteur qui suit l'angle de rotation d'un mécanisme."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:10
+msgid ""
+"There are two types of encoders commonly used in FTC, relative and absolute "
+"encoders. Relative encoders are the ones covered here as they are the more "
+"common type."
+msgstr ""
+"Deux types d'encodeurs sont couramment utilisés en FTC : les encodeurs "
+"relatifs et les encodeurs absolus. Les encodeurs relatifs sont ceux dont il "
+"est question ici, car ils sont les plus courants."
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:13
+msgid "Relative Encoders"
+msgstr "Enodeurs relatifs"
+
+#: ../../gm0/source/docs/software/tutorials/encoders.rst:21
+msgid "Terminology"
+msgstr "Terminologie"
