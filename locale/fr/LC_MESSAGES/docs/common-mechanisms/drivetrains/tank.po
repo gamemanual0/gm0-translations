@@ -9,15 +9,16 @@
 # Aaraf Chy, 2025
 # Justine, 2025
 # Lyna Alem, 2025
+# sara farhat, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 04:28+0000\n"
+"POT-Creation-Date: 2025-10-19 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Lyna Alem, 2025\n"
+"Last-Translator: sara farhat, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +39,23 @@ msgid "**Recommended only for first drivetrain, not for competitions**"
 msgstr ""
 "**Recommandé uniquement comme premier châssis, pas pour les compétitions**"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:11
+msgid ""
+"This rookie drivetrain is considered one of the inferior drivetrains, though"
+" it is usable at low competition levels. This is the introductory drivetrain"
+" type for many rookies, as it is promoted in official guides published by "
+"*FIRST*\\ |reg| (giving it the name pushbot). It often has :term:`direct "
+"driven <Direct Drive>` :term:`traction wheels <Traction wheel>` with "
+"unpowered :term:`omni wheels <Omni Wheel>`."
+msgstr ""
+"Ce châssis pour débutants est considérée comme l'une des transmissions "
+"inférieures, bien qu'elle soit utilisable à des niveaux de compétition peu "
+"élevés. C'est le type de transmission d'introduction pour de nombreux "
+"débutants, car il est promu dans les guides officiels publiés par *FIRST*\\ "
+"|reg| (ce qui lui a valu le nom de pushbot). Il a souvent :term:`direct "
+"driven <Direct Drive>` :term:`traction wheels <Traction wheel>` avec des "
+":term:`omni wheels <Omni Wheel>` non motorisés."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:13
 msgid ""
 "This type of drivetrain has poor turning as the center of turning is at the "
@@ -49,6 +67,35 @@ msgstr ""
 "Par rapport à d'autres transmissions, il a une faible accélération car il "
 "n'utilise que deux moteurs."
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:15
+msgid ""
+"Even though it may not be an optimal drivetrain, it is still possible to be "
+"competitive as long as the drivetrain is reliable. As a consensus, we would "
+"advise every new team to build the pushbot primarily to learn how to build "
+"with a kit. The pushbot is a good starting point and helps the team get "
+"familiarized with using kit parts, attaching wheels, mounting motors, etc. "
+"However, it is subpar to every other drivetrain in a competitive context."
+msgstr ""
+"Même s'il ne s'agit pas d'une transmission optimale, il est toujours "
+"possible d'être compétitif tant que la transmission est fiable. De manière "
+"générale, nous conseillons à toute nouvelle équipe de construire le pushbot "
+"principalement pour apprendre à construire avec un kit. Le pushbot est un "
+"bon point de départ et aide l'équipe à se familiariser avec l'utilisation "
+"des pièces du kit, la fixation des roues, le montage des moteurs, etc. "
+"Cependant, il est inférieur à toutes les autres transmissions dans un "
+"contexte compétitif."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:17
+msgid ""
+"While the pushbot is a good first drivetrain for new teams to get acquainted"
+" with the kit, it is recommended that teams move away from this drivetrain "
+"when building their competition robot."
+msgstr ""
+"Bien que le pushbot soit une bonne première transmission pour les nouvelles "
+"équipes afin de se familiariser avec le kit, il est recommandé que les "
+"équipes s'éloignent de cette transmission lors de la construction de leur "
+"robot de compétition."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:20
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:71
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:153
@@ -56,6 +103,10 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:265
 msgid "Advantages"
 msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:22
+msgid "Most simple drivetrain to build"
+msgstr "La transmission la plus simple à construire"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:23
 msgid "No need to worry about powering all four wheels"
@@ -96,9 +147,34 @@ msgstr ""
 msgid "Poor acceleration due to 2 motors"
 msgstr "Mauvaise accélération due à la présence de 2 moteurs"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:33
+msgid ""
+"Often :term:`direct driven <Direct Drive>`, which is highly discouraged for "
+"drivetrains"
+msgstr ""
+"Souvent :terme:`direct driven <Direct Drive>`, ce qui est fortement "
+"déconseillé pour les systèmes de transmissions."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
+msgid "Example pushbot drivetrain included in the starter FTC\\ |reg| guide"
+msgstr ""
+"Exemple de système de transmission pushbot incluse dans le guide de "
+"démarrage FTC\\ |reg| règlement"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:42
 msgid "4 Wheel Drive"
 msgstr "4 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:44
+msgid ""
+"In its most common form, the drivetrain uses the same wheel layout as the "
+"two wheel drivetrain (2 traction wheels in the back, 2 omnis in the front), "
+"but with one notable difference: **all four wheels are powered**."
+msgstr ""
+"Dans sa forme la plus courante, le système de transmission utilise la même "
+"disposition des roues que la transmission à deux roues (2 roues motrices à "
+"l'arrière, 2 omnis à l'avant), mais avec une différence notable : **les "
+"quatre roues sont motrices**."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:46
 msgid ""
@@ -121,6 +197,19 @@ msgstr ""
 msgid "Term"
 msgstr "Définition"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:51
+msgid "Wheel scrub"
+msgstr "Gommage des roues"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:57
+msgid ""
+"It is suggested that a four wheel drivetrain be close to, or exactly, a "
+"square. Otherwise, one may encounter problems turning."
+msgstr ""
+"Il est suggéré qu'une transmission à quatre roues soit proche, ou "
+"exactement, d'un carré. Dans le cas contraire, des problèmes de rotation "
+"peuvent survenir."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:59
 msgid ""
 ":term:`Weight distribution` is furthermore a large factor that should be "
@@ -132,6 +221,25 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:64
 msgid "Weight distribution"
 msgstr "Répartition du poids"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:68
+msgid ""
+"Off-center turning, which may or may not be a drawback, is nearly ubiquitous"
+" among 4 wheel drives. This may not be a problem for teams, but it is good "
+"to be aware of it. Off-center turning can be an advantage, but be warned "
+"that turning will be slightly slower on 4 wheel drives than their six or "
+"eight wheel counterparts."
+msgstr ""
+"Les virages décentrés, qui peuvent ou non constituer un inconvénient, sont "
+"presque omniprésents parmi les véhicules à 4 roues motrices. Ce n'est peut-"
+"être pas un problème pour les équipes, mais il est bon d'en être conscient. "
+"Les virages décentrés peuvent être un avantage, mais il faut savoir que les "
+"virages sont légèrement plus lents sur les véhicules à quatre roues motrices"
+" que sur les véhicules à six ou huit roues motrices."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:73
+msgid "More maneuverable than 2WD"
+msgstr "Plus maniable que les deux roues motrices"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:74
 msgid "Solid acceleration and traction"
@@ -151,6 +259,12 @@ msgstr ""
 msgid "Can tip more easily than 6WD/8WD with a high center of mass"
 msgstr ""
 "Peut basculer plus facilement qu'un 6RM/8RM avec un centre de masse élevé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:82
+msgid "All traction wheel 4WD can have decreased maneuverability"
+msgstr ""
+"Les quatre roues motrices à traction peuvent avoir une manœuvrabilité "
+"réduite."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:83
 msgid ""
@@ -209,12 +323,64 @@ msgstr ""
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>`__"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:125
+msgid "7209 Tech Hog's Relic Recovery Robot"
+msgstr "7209 Robot de récupération de reliques Tech Hog"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:125
 msgid "7209 Tech Hogs, Relic Recovery"
 msgstr "7209 Tech Hogs, récupération de reliques"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
 msgid "10641 Atomic Gears, Rover Ruckus"
 msgstr "10641 Atomic Gears, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:133
+msgid "6 Wheel Drive (6WD)"
+msgstr "6 roues motrices (6WD)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:148
+msgid ""
+"**Most drop center 6 wheel drives are made using custom drivetrains** "
+"because it is difficult to get the center wheel drop using a kit based build"
+" system (a notable exception being REV-based kit drivetrains). It is "
+"possible to execute a drop center using goBILDA and Actobotics using pillow "
+"blocks, but it is a little bit more awkward. However, with the new `goBILDA "
+"drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-"
+"bearing-plate-2mm-drop-4-pack/>`_, it is straightforward to make a drop "
+"center drivetrain on goBILDA channel."
+msgstr ""
+"**La plupart des transmissions à 6 roues motrices avec centre de gravité "
+"sont fabriquées en utilisant des transmissions sur mesure** car il est "
+"difficile d'obtenir le centre de gravité en utilisant un système de "
+"construction basé sur un kit (une exception notable étant les transmissions "
+"en kit basées sur le système REV). Il est possible d'obtenir un centre de "
+"gravité avec goBILDA et Actobotics en utilisant des paliers, mais c'est un "
+"peu plus difficile. Cependant, avec la nouvelle `plaque de roulement pour "
+"centre de gravité goBILDA <https://www.gobilda.com/1616-series-drop-center-"
+"bearing-plate-2mm-drop-4-pack/>`_, il est facile de faire une transmission à"
+" centre de gravité sur le canal goBILDA."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:150
+msgid ""
+"6 wheel drives with corner :term:`omni wheels <Omni Wheel>` do not need to "
+"have a center drop. It attempts to solve the issue of turning by replacing "
+"the corner traction wheels with omni wheels, allowing the drivetrain to "
+"achieve better turning, albeit with slightly less traction than a center-"
+"drop. This is very easily buildable in kits, and is a great all-around "
+"drivetrain. Drop center and corner omnis can be combined for maximum turning"
+" reliability, although this comes with side effects like rocking and reduced"
+" traction."
+msgstr ""
+"Les véhicules à 6 roues motrices équipés de :term:`roues omnidirectionnelles"
+" <Omni Wheel>` n'ont pas besoin d'être équipés d'une suspension centrale. Il"
+" tente de résoudre le problème des virages en remplaçant les roues de "
+"traction des virages par des roues omni, ce qui permet à la transmission de "
+"mieux tourner, même si la traction est légèrement inférieure à celle d'un "
+"centre de gravité. Il est très facile à construire en kit, et c'est une "
+"excellente transmission polyvalente. Il est possible de combiner des roues "
+"centrales et des roues omni pour obtenir une fiabilité maximale en virage, "
+"bien que cela entraîne des effets secondaires tels que le balancement et la "
+"réduction de la traction."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:155
 msgid "Great traction and maneuverability"
@@ -267,6 +433,25 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:217
 msgid "8 Wheel Drive"
 msgstr "8 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:223
+msgid ""
+"It is suggested that all eight wheels should be powered, and "
+":term:`planetary <Planetary Gear>` motors should be used over a :term:`spur "
+"gear <Spur gearbox>` motor."
+msgstr ""
+"Il est suggéré que les huit roues soient motorisées et que les moteurs "
+":term:`planétaire <Planetary Gear>` soient utilisés plutôt qu'un moteur "
+":term:`à engrenage cylindrique <Spur gearbox>`."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:225
+msgid ""
+"Teams also have the option of using doubled omni wheels on the outer four "
+"wheels. Doing so will reduce traction/pushing power and increase mobility."
+msgstr ""
+"Les équipes ont également la possibilité d'utiliser des roues omni doublées "
+"sur les quatre roues extérieures. Cela permet de réduire la force de "
+"traction/poussée et d'augmenter la mobilité."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:230
 msgid "Combines the stability of 6WD with the agility of 4WD"

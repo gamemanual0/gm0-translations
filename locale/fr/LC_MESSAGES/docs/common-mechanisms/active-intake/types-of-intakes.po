@@ -8,15 +8,16 @@
 # Dusto867@gmail.com, 2025
 # Justine, 2025
 # Lyna Alem, 2025
+# Nicolas Haeck, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 04:28+0000\n"
+"POT-Creation-Date: 2025-10-19 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Lyna Alem, 2025\n"
+"Last-Translator: Nicolas Haeck, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,6 +43,52 @@ msgid ""
 msgstr ""
 "Vous trouverez ci-dessous différentes mises en œuvre de ramasseurs "
 "horizontaux et verticaux :"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:69
+msgid "Surgical Tubing"
+msgstr "Tubes Chirurgicaux"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst-1
+msgid "A roll of surgical tubing"
+msgstr "Un rouleau de tube chirurgical"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:78
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:160
+msgid "Advantages"
+msgstr "Avantages"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:80
+msgid "Very controllable"
+msgstr "Très contrôlable"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:81
+msgid "Propels elements to desired location"
+msgstr "Propulse les éléments à l'endroit souhaité"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:82
+msgid "Great at picking up large elements"
+msgstr "Excellent pour collecter des éléments volumineux"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:85
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:167
+msgid "Disadvantages"
+msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:87
+msgid "Picks up only one element at a time"
+msgstr "Ne ramasse qu'un seul élément à la fois"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:88
+msgid "Elements can get jammed in a bad position"
+msgstr "Les éléments peuvent se bloquer dans une mauvaise position"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:89
+msgid "Not generally used for picking up small elements"
+msgstr "N'est généralement pas utilisé pour ramasser de petits éléments"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:90
+msgid "Can generally only pick up one specific element shape"
+msgstr "Ne peut généralement capter qu'une forme d'élément spécifique"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:140
 msgid "Surgical Tubing Intake"

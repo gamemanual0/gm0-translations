@@ -8,15 +8,17 @@
 # Aaraf Chy, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
+# Nicolas Haeck, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-29 16:25+0000\n"
+"POT-Creation-Date: 2025-10-19 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Justine, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,6 +150,27 @@ msgstr ""
 "presque toutes les applications ; recommandé pour les applications "
 "porteuses."
 
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:48
+msgid ""
+"Aluminum comes in :term:`channel <Channel>`, :term:`extrusion <Extrusion>`, "
+"flat, angle, sheet/plate, and is used in some drawer slides."
+msgstr ""
+"L'aluminium se présente sous forme de :term:`profilé <Channel>`, "
+":term:`extrusion <Extrusion>`, plat, angle, feuille/plaque, et est utilisé "
+"dans certaines glissières de tiroirs."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:50
+msgid ""
+"Aluminum :term:`channel <Channel>` is used in many build system kits and is "
+"very popular among teams of various skill levels. :term:`channel <Channel>` "
+"is strong yet relatively lightweight, and offers many mounting options for "
+"teams."
+msgstr ""
+"Le :term:`profilé <Channel>`  en aluminium est utilisé dans de nombreux kits"
+" de construction et est très populaire parmi les équipes de différents "
+"niveaux. Le :term:`profilé <Channel>` est solide, mais relativement léger, "
+"et offre de nombreuses options de montage pour les équipes."
+
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:52
 msgid ""
 "15 mm :term:`extrusion <Extrusion>` is compatible with M3 hardware, allowing"
@@ -178,6 +201,30 @@ msgstr "Définition"
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:57
 msgid "Torsional Rigidity"
 msgstr "Rigidité torsionnelle"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:59
+msgid ""
+"Torsional rigidity refers to how difficult it is to twist an object due to "
+"an applied torque. This mainly refers to :term:`extrusion <Extrusion>`, as "
+"it is easier to twist extrusion than :term:`channel <Channel>` or an angle "
+"piece, for example."
+msgstr ""
+"La rigidité torsionnelle fait référence à la difficulté de tordre un objet "
+"sous l'effet d'un couple appliqué. Cela concerne principalement "
+"l':term:`extrusion <Extrusion>`, car il est plus facile de tordre une "
+"extrusion qu'un :term:`profilé <Channel>` ou une pièce angulaire, par "
+"exemple."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:61
+msgid ""
+"Torsional rigidity has consequences particularly in building drivetrains, as"
+" the drivetrain is the last mechanism on your robot that should flex or bend"
+" when weight or force is applied to it."
+msgstr ""
+"La rigidité en torsion a des conséquences particulièrement importantes dans "
+"la construction des châssis, car le châssis est le dernier mécanisme de "
+"votre robot qui doit fléchir ou se plier lorsqu'un poids ou une force lui "
+"est appliqué."
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:63
 msgid ""
@@ -232,6 +279,28 @@ msgstr ""
 "tiroir en acier en raison du gain de poids. Pour plus d'informations, "
 "consultez la section :doc:`Mouvement linéaire </docs/common-"
 "mechanisms/linear-motion-guide/index>`."
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:69
+msgid ""
+"Sheet aluminum is generally used for drivetrain plates on custom "
+"drivetrains. The recommended thickness is 1/8\" or 3/16\". Because it is a "
+"plate, sheet aluminum will bend if not supported correctly with "
+":term:`standoffs <Standoff>` or :term:`channel <Channel>`. Only load the "
+"sheet in the plane that it is in (if the sheet is vertical, then only put "
+"vertical load on it; do not load it horizontally). However, there may be "
+"some applications that would benefit from a slight bit of flex for "
+"adjustability - in those cases, use your judgment and test it out for "
+"yourself!"
+msgstr ""
+"La tôle d'aluminium est généralement utilisée pour les plaques de "
+"transmission sur les transmissions personnalisées. L'épaisseur recommandée "
+"est de 1/8\" ou 3/16\". Comme il s'agit d'une plaque, la tôle d'aluminium se"
+" pliera si elle n'est pas correctement soutenue par :term:`vis de pression "
+"<Standoff>` ou :term:`profilés <Channel>`. Ne chargez la tôle que dans le "
+"plan où elle se trouve (si la tôle est verticale, ne la chargez que "
+"verticalement ; ne la chargez pas horizontalement). Toutefois, certaines "
+"applications peuvent bénéficier d'une légère flexion à des fins d'ajustement"
+" - dans ces cas-là, faites preuve de discernement et testez par vous-même !"
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:74
 msgid ""
@@ -543,6 +612,24 @@ msgstr "Autres"
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:167
 msgid "Plywood and MDF"
 msgstr "Contreplaqué et MDF"
+
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:169
+msgid ""
+"A medium to high strength material suitable for use in a wide variety of "
+"applications. Keep in mind that wood cannot be exposed to water or excessive"
+" humidity, as lumber for use in FTC isn't treated and may warp or expand. Do"
+" not try to use laser cut wood for a drivetrain. This is especially "
+"important if you live in a humid region such as Florida - wood expanding can"
+" completely ruin a custom drivetrain."
+msgstr ""
+"Il s'agit d'un matériau de résistance moyenne à élevée qui convient à une "
+"grande variété d'applications. N'oubliez pas que le bois ne doit pas être "
+"exposé à l'eau ou à une humidité excessive, car le bois destiné à être "
+"utilisé en FTC n'est pas traité et peut se déformer ou se dilater. N'essayez"
+" pas d'utiliser du bois découpé au laser pour une chaîne cinématique. Ceci "
+"est particulièrement important si vous vivez dans une région humide comme la"
+" Floride - la dilatation du bois peut complètement ruiner une transmission "
+"personnalisée."
 
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:170
 msgid ""

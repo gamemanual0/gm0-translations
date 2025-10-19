@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 04:28+0000\n"
+"POT-Creation-Date: 2025-10-19 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -33,6 +33,17 @@ msgstr "Châssis Holonomiques"
 msgid "Mecanum Drive"
 msgstr "Châssis Mecanum"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:9
+msgid ""
+"Mecanum drivetrains consist of four mecanum wheels which are powered "
+"independently by one motor. This configuration angles the velocity of each "
+"wheel, allowing the robot to strafe."
+msgstr ""
+"Les systèmes de châssis Mecanum se composent de quatre roues Mecanum qui "
+"sont entraînées indépendamment par un seul moteur. Cette configuration "
+"oriente la vitesse de chaque roue, ce qui permet au robot de se déplacer "
+"latéralement."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:11
 msgid "Term"
 msgstr "Définition "
@@ -40,6 +51,125 @@ msgstr "Définition "
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:14
 msgid "Mecanum Wheel"
 msgstr "Roue Mécanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:16
+msgid ""
+"Mecanum wheels are a special type of wheel that enable maneuverability and "
+"holonomic strafing as opposed to traditional wheels. They consist of a "
+"series of rubber rollers rotated 45 degrees to either the left or right."
+msgstr ""
+"Les roues Mecanum sont un type spécial de roues qui permettent la "
+"maniabilité et le déplacement latéral, contrairement aux roues "
+"traditionnelles. Elles sont constituées d'une série de rouleaux en "
+"caoutchouc tournés à 45 degrés vers la gauche ou la droite."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:18
+msgid ""
+"In a conventional mecanum drivetrain, running the wheels on one diagonal in "
+"the opposite direction to those on the other diagonal causes sideways "
+"movement. Combinations of these wheel motions allow for vehicle motion in "
+"any direction with any vehicle rotation (including no rotation at all)."
+msgstr ""
+"Dans un châssis mecanum classique, le fait de faire tourner les roues d'une "
+"diagonale dans le sens opposé à celles de l'autre diagonale provoque un "
+"mouvement latéral. La combinaison de ces mouvements de roues permet de "
+"déplacer le véhicule dans n'importe quelle direction avec n'importe quelle "
+"rotation du véhicule (y compris sans aucune rotation)."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:20
+msgid ""
+"The primary advantage to mecanum drive is the maneuverability it affords, "
+"especially because the robot can strafe instead of turn and drive. The "
+"rollers on mecanum wheels form a 45 degree angle with the wheel's axis of "
+"rotation, which means that mecanum drivetrains can't strafe as fast as they "
+"can drive forward."
+msgstr ""
+"Le principal avantage du châssis mecanum est la maniabilité qu'il offre, en "
+"particulier parce que le robot peut faire des mouvements latéraux au lieu de"
+" tourner et de rouler. Les rouleaux des roues mecanums forment un angle de "
+"45 degrés avec l'axe de rotation de la roue, ce qui signifie que les châssis"
+" mecanum ne peuvent pas rouler latéralement aussi rapidement qu'elles "
+"peuvent avancer."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:22
+msgid ""
+"This can be explained by discussing the forces involved. When each wheel "
+"rotates, it applies a friction force to the ground, which moves the robot. "
+"When moving forward, both sets of left wheels rotate in the same direction "
+"at the same speed, and both sets of right wheels rotate in the same "
+"direction at the same speed, meaning that the forces do not oppose each "
+"other. However, when strafing, neither the two left wheels nor the two right"
+" wheels are rotating at the same speed. In many cases, they even rotate in "
+"opposite directions."
+msgstr ""
+"Cela peut s'expliquer en examinant les forces en jeu. Lorsque chaque roue "
+"tourne, elle applique une force de frottement au sol, ce qui fait avancer le"
+" robot. Lorsqu'il avance, les deux roues gauches tournent dans le même sens "
+"et à la même vitesse, et les deux roues droites tournent dans le même sens "
+"et à la même vitesse, ce qui signifie que les forces ne s'opposent pas l'une"
+" à l'autre. Cependant, lors d'un déplacement latéral, ni les deux roues "
+"gauches ni les deux roues droites ne tournent à la même vitesse. Dans de "
+"nombreux cas, elles tournent même en sens inverse."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:24
+msgid ""
+"These two opposing forces cause the rollers to slip more and more, which "
+"angles the robot's velocity at the expense of traction (more slipping "
+"results in a loss of speed). However, the wheels do still slip when moving "
+"forward but not as drastically as they do when strafing."
+msgstr ""
+"Ces deux forces opposées font glisser les rouleaux de plus en plus, ce qui "
+"augmente la vitesse du robot au détriment de la traction (plus de glissement"
+" entraîne une perte de vitesse). Cependant, les roues glissent toujours "
+"lorsqu'elles avancent, mais pas aussi radicalement que lorsqu'elles font du "
+"déplacement latéral."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:26
+msgid ""
+"This is the primary disadvantage to mecanum drivetrains: they tend not to "
+"have much pushing power and thus, are vulnerable to defense by a sturdy tank"
+" drive."
+msgstr ""
+"C'est le principal inconvénient des châssis mecanum : elles ont tendance à "
+"ne pas avoir beaucoup de force de poussée et sont donc vulnérables à la "
+"défense par un châssis de type tank. "
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:28
+msgid ""
+"Due to the fact that mecanum wheels are more likely to slip because of the "
+"diagonal rollers, an optional addition to mecanum drives is a separate "
+"odometry mechanism in order to track the robot's location during autonomous."
+msgstr ""
+"Étant donné que les roues mecanum sont plus susceptibles de glisser en "
+"raison des rouleaux diagonaux, un mécanisme d'odométrie distinct peut être "
+"ajouté en option aux châssis mecanum afin de suivre l'emplacement du robot "
+"pendant qu'il est autonome."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:32
+msgid ""
+"It is important to note that in order to maximize the efficiency and "
+"stability of mecanum drives, when viewed from above, the rollers of each "
+"wheel should point towards the center of the robot, forming an X shape, "
+"rather than a rhombus."
+msgstr ""
+"Il est important de noter que pour maximiser l'efficacité et la stabilité "
+"des châssis mecanums, les rouleaux de chaque roue doivent être orientés vers"
+" le centre du robot, formant ainsi un X plutôt qu'un losange."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:34
+msgid ""
+"The primary reason for this is that it allows the drivetrain to turn "
+"significantly faster than it would otherwise be able to. When using the "
+"suggested setup, when viewed from the robot's underside, the rollers form a "
+"rhombus. This allows the force applied by the wheels on the ground to act "
+"tangent to the turn radius, leading to faster turning."
+msgstr ""
+"La raison principale en est que cela permet au châssis de tourner beaucoup "
+"plus vite qu'il ne pourrait le faire autrement. Avec la configuration "
+"proposée, les rouleaux forment un losange lorsqu'ils sont vus de la face "
+"inférieure du robot. Cela permet à la force appliquée par les roues sur le "
+"sol d'agir de manière tangente au rayon de braquage, ce qui permet de "
+"tourner plus rapidement."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:36
 msgid ""
@@ -57,6 +187,14 @@ msgstr ""
 msgid "Advantages"
 msgstr "Avantages"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:41
+msgid ""
+"Fantastic maneuverability and agility due to strafing, can avoid defense "
+"very well"
+msgstr ""
+"Manœuvrabilité et agilité fantastiques grâce au déplacement latéral, peut "
+"très bien éviter les défenses."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:42
 msgid "Good acceleration, can have high top speed"
 msgstr "Bonne accélération, vitesse de pointe élevée"
@@ -70,6 +208,15 @@ msgstr "Une transmission très polyvalente pour presque tous les jeux"
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:201
 msgid "Disadvantages"
 msgstr "Inconvénients"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:48
+msgid ""
+"Suffers in traction, as mecanum rollers have a lower coefficient of friction"
+" than traction wheels; cannot traverse terrain"
+msgstr ""
+"Souffre en traction, car les rouleaux mecanum ont un coefficient de "
+"frottement plus faible que les roues de traction ; ne peut pas traverser le "
+"terrain."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:49
 msgid "Able to be pushed around on defense"
@@ -109,6 +256,10 @@ msgstr ""
 "`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/b8d4a6cfe4f26c5170f40a6c>`__"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "goBILDA Custom"
+msgstr "goBILDA personnalisé"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:80
 msgid ""
 "`Click here to explore this model in OnShape online CAD "
@@ -116,6 +267,10 @@ msgid ""
 msgstr ""
 "`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/cc2df2fbce0e9ca393696b54>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:0
+msgid "REV Custom"
+msgstr "REV personnalisé"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:88
 msgid ""
@@ -129,9 +284,41 @@ msgstr ""
 msgid "Diagram of mecanum directions"
 msgstr "Diagramme des directions du Mecanum"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:95
+msgid "Configuration for mecanum wheels, courtesy goBILDA"
+msgstr ""
+"Configuration des roues mecanums, avec l'aimable autorisation de goBILDA"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:98
 msgid "Mecanum Wheels Miniguide"
 msgstr "Miniguide des roues Mecanum"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:100
+msgid ""
+"One of the most important features of a mecanum wheel is the mechanism that "
+"allows the roller to spin---either :term:`bushings <Bushing>` or :term:`ball"
+" bearings <Ball Bearing>`. Mecanums which use ball bearings strafe better "
+"than those which use bushings, as the rollers can spin with less friction."
+msgstr ""
+"L'une des caractéristiques les plus importantes d'une roue mecanum est le "
+"mécanisme qui permet au rouleau de tourner - soit les :term:`bagues "
+"<Bushing>`, soit les :term:`roulements à billes <Ball Bearing>`. Les "
+"mecanums qui utilisent des roulements à billes ont un meilleur comportement "
+"que ceux qui utilisent des bagues, car les rouleaux peuvent tourner avec "
+"moins de friction."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:102
+msgid ""
+"In the past, some teams have invested in 6 inch diameter mecanum wheels. "
+"These are generally much more expensive and generally do not provide "
+"significant performance benefits. We highly recommend sticking with wheels "
+"that are between 3 and 4 inches in diameter."
+msgstr ""
+"Dans le passé, certaines équipes ont investi dans des roues mecanum de 6 "
+"pouces de diamètre. Ces roues sont généralement beaucoup plus chères et "
+"n'offrent généralement pas d'avantages significatifs en termes de "
+"performances. Nous recommandons vivement de s'en tenir à des roues d'un "
+"diamètre de 3 à 4 pouces."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:105
 msgid "Recommended"
@@ -146,6 +333,52 @@ msgstr ""
 "Ces roues sont l'étalon-or des roues Mecanum, si vous achetez de nouvelles "
 "roues Mecanum, il y a très peu de raisons d'acheter des roues Mecanum qui ne"
 " font pas partie de cette section."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:109
+msgid ""
+"`goBILDA Mecanum Wheels v2  <https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_ ($127.49 with team "
+"discount): The goBILDA v2 Mecanum Wheels are the gold standard for teams "
+"wanting a quality design in all aspects. They feature a 96mm diameter and a "
+"thickness of 38mm, with ball bearing supported, 70A durometer rollers that "
+"provide excellent strafing performance. With the use of recessed 16x16mm and"
+" 32x32mm holes, these wheels have the largest amount of mounting options and"
+" can fit all shaft styles commonly used in FTC\\ |reg|."
+msgstr ""
+"`Roues mecanum goBILDA v2 <https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_ ($127.49 avec réduction "
+"d'équipe) : Les roues Meccanum goBILDA v2 sont la référence pour les équipes"
+" qui veulent un design de qualité dans tous les aspects. Elles ont un "
+"diamètre de 96mm et une épaisseur de 38mm, avec des rouleaux supportés par "
+"des roulements à billes, 70A duromètre qui fournissent d'excellentes "
+"performances de déplacement latéral. Avec l'utilisation de trous encastrés "
+"de 16x16mm et 32x32mm, ces roues ont le plus grand nombre d'options de "
+"montage et peuvent s'adapter à tous les styles d'arbres couramment utilisés "
+"en FTC."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:110
+msgid ""
+"`REV Robotics Mecanum Wheels <https://www.revrobotics.com/rev-45-1655/>`_ "
+"($127.50 with team discount): The REV Robotics Mecanum Wheels come in at "
+"only 75mm in diameter, providing a smaller mecanum wheel option to FTC "
+"teams; however, they are not the thinnest option at 40.8mm thick. They "
+"feature ball bearing supported rollers that provide exceptional strafing "
+"capabilities and traction. The hole pattern featured on these wheels is "
+"compatible with Andymark Nubs as well as the REV Robotics Universal Hex "
+"Adapter v2 (which is included); however, in order to use other shaft options"
+" the use of an adapter or physical modification will likely be required."
+msgstr ""
+"`Roues mecanum REV Robotics <https://www.revrobotics.com/rev-45-1655/>`_ "
+"($127.50 avec réduction d'équipe) : Les roues Mecanum de REV Robotics ne "
+"font que 75 mm de diamètre, ce qui permet aux équipes de FTC de disposer "
+"d'une roue Mecanum plus petite, mais ce n'est pas l'option la plus fine avec"
+" une épaisseur de 40,8 mm. Elles sont dotées de rouleaux supportés par des "
+"roulements à billes qui offrent des capacités de déplacement latéral et une "
+"traction exceptionnelles. Le schéma de perçage de ces roues est compatible "
+"avec les Andymark Nubs ainsi qu'avec l'adaptateur hexagonal universel REV "
+"Robotics v2 (qui est inclus) ; cependant, pour utiliser d'autres options "
+"d'arbres, l'utilisation d'un adaptateur ou d'une modification physique sera "
+"probablement nécessaire."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:113
 msgid "Viable"
@@ -179,14 +412,109 @@ msgstr ""
 "Cependant, elles sont plus chères, prennent plus de place, ont moins de "
 "traction et sont plus difficiles à monter que les roues recommandées."
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:118
+msgid ""
+"`goBILDA Mecanum Wheels v1 <https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_ (discontinued): These wheels"
+" are very similar to the Nexus Ball Bearing Mecanum Wheels, but with a "
+"different color scheme and better mounting options."
+msgstr ""
+"`Roues mecanum goBILDA v1 <https://www.gobilda.com/96mm-mecanum-wheel-"
+"set-70a-durometer-bearing-supported-rollers/>`_ (discontinué) : Ces roues "
+"sont très similaires aux Nexus Ball Bearing Mecanum Wheels, mais avec une "
+"couleur différente et de meilleures options de montage."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:119
+msgid ""
+"`Andymark Heavy Duty Mecanum Wheels <https://andymark.com/products/4-in-hd-"
+"mecanum-wheels>`_ ($225): These are easily the most expensive mecanums on "
+"the list. These wheels are 4\" in diameter and 1.65\" wide. These are "
+"bushing based mecanums, so while they strafe decently they still perform "
+"worse than bearing based ones. They have a good amount of traction, more "
+"than the Nexus bearing or bushing wheels."
+msgstr ""
+"`Roues mecanum Andymark Heavy Duty<https://andymark.com/products/4-in-hd-"
+"mecanum-wheels>`_ ($225) : Ce sont facilement les mecanums les plus chers de"
+" la liste. Ces roues ont un diamètre de 4\" et une largeur de 1,65\". Ce "
+"sont des mecanums à bague, donc même s'ils ont une bonne traction, ils sont "
+"moins performants que les mecanums à roulements. Elles ont une bonne "
+"traction, plus que les roues Nexus à roulements ou à bagues."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:120
+msgid ""
+"`Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-"
+"mecanum-wheel-set.html>`_ ($80.00): This is the Nexus Ball Bearing Mecanum "
+"Wheel with bushings instead of ball bearings. There is not much to say about"
+" them except that they strafe decently but worse than the ball bearing based"
+" equivalent."
+msgstr ""
+"Roues mecanum à bagues Nexus <https://www.robotshop.com/en/100mm-aluminum-"
+"mecanum-wheel-set.html>`_ ($80.00) : Il s'agit de la Roues mecanum de Nexus "
+"avec des bagues au lieu de roulements à billes. Il n'y a pas grand chose à "
+"en dire si ce n'est qu'elles offrent un déplacement latéral correct, mais "
+"moins bien que l'équivalent à base de roulements à billes."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:123
 msgid "Not Recommended"
 msgstr "Non recommandé"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:125
+msgid ""
+"There is almost no reason to use these mecanum wheels---they perform very "
+"poorly and are not much cheaper than those in the `Recommended`_ section. We"
+" cannot recommend the use of these on an FTC robot, if at all possible "
+"replace them with mecanums from the `Recommended`_ section."
+msgstr ""
+"Il n'y a pratiquement aucune raison d'utiliser ces roues mecanum - elles "
+"sont très peu performantes et ne sont pas beaucoup moins chères que celles "
+"de la section `Recommandé'_. Nous ne pouvons pas recommander l'utilisation "
+"de ces roues sur un robot FTC, si possible remplacez-les par des mecanums de"
+" la section `Recommandé`_."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:127
+msgid ""
+"`TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ "
+"($149.00): These mecanums are designed with a bushing based, hard plastic "
+"roller which in turn creates poor strafing performance. The integrated hub "
+"is a set screw based design with a round bore, causing unreliability as well"
+" as taking up extra space."
+msgstr ""
+"Roues mecanum TETRIX <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ "
+"($149.00) : Ces mecanums sont conçus avec un rouleau en plastique dur basé "
+"sur une douille, ce qui entraîne de mauvaises performances en déplacement "
+"latéral. Le moyeu intégré est basé sur une vis sans fin avec un alésage "
+"rond, ce qui entraîne un manque de fiabilité et un encombrement "
+"supplémentaire."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:128
+msgid ""
+"`Andymark Standard Duty Mecanum Wheels <https://andymark.com/products/4-in-"
+"sd-mecanum-wheel>`_ ($77.00): These wheels barely strafe and are super "
+"fragile."
+msgstr ""
+"`Roues mecanum Andymark Standard Duty <https://andymark.com/products/4-in-"
+"sd-mecanum-wheel>`_ ($77.00) : Ces roues sont très fragiles et ont du mal à "
+"se déplacer."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:133
+msgid "8103 Null Robotics's mecanum drivetrain render"
+msgstr "Rendu du châssis mecanum de l'équipe 8103 Null Robotics"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:133
 msgid "8103 Null Robotics, Rover Ruckus, **using Nexus mecanum bearing**"
 msgstr ""
 "8103 Null Robotics, Rover Ruckus, **utilisant le palier Nexus mecanum**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:138
+msgid "731 Wannabee Strange's mecanum drivetrain render"
+msgstr "Rendu du châssis mecanum de l'équipe 731  Wannabee Strange"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:138
+msgid ""
+"731 Wannabee Strange, Rover Ruckus, using **AndyMark HD mecanum wheels**"
+msgstr ""
+"731 Wannabee Strange, Rover Ruckus, utilisant **Les roues mecanum AndyMark "
+"HD **."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:141
 msgid "X-Drive"
@@ -202,6 +530,26 @@ msgstr ""
 "omnidirectionnelles. Ce type d'entraînement implique le montage de 4 roues "
 "omnidirectionnelles au coin du robot à un angle de 45 degrés."
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:145
+msgid ""
+"One notable difference between X-Drive and mecanum is strafe speed. While, "
+"as mentioned in the mecanum section, the ratio of strafe speed to forward "
+"speed is noticeably less than 1, the ratio on an X-Drive is exactly 1 due to"
+" the rotational symmetry of the wheel placement. This means that an X-Drive "
+"bot's strafe speed and forward speed are equivalent. The drivetrains are "
+"slower, however, when strafing at 45\\ |deg| (approximately "
+":math:`\\frac{\\sqrt{2}}{2}` of its forward speed)."
+msgstr ""
+"L'une des différences notables entre l'X-Drive et le système mecanum est la "
+"vitesse de déplacement latéral. Alors que, comme indiqué dans la section "
+"consacrée au Mécanisme, le rapport entre la vitesse de déplacement et la "
+"vitesse d'avancement est sensiblement inférieur à 1, ce rapport est "
+"exactement de 1 sur un X-Drive en raison de la symétrie de rotation du "
+"positionnement des roues. Cela signifie que la vitesse de déplacement et la "
+"vitesse d'avancement d'un robot X-Drive sont équivalentes. Les trains de "
+"roulement sont cependant plus lents lorsqu'ils se déplacent à 45° (environ "
+":math:``frac{\\sqrt{2}}{2}` de leur vitesse d'avancement)."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:147
 msgid ""
 "Even though X-drive has good turning and acceleration, the main downside to "
@@ -214,6 +562,25 @@ msgstr ""
 " avec lesquelles la transmission s'intègre dans la conception générale du "
 "robot."
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:149
+msgid ""
+"Ideally, the drivetrain should take up as little space as possible to make "
+"it easier to design mechanisms around. Because the omni wheels are offset, "
+"packaging a X-Drive is more difficult than other types of holonomic drive "
+"like mecanum or H-Drive. Also because of the strange packaging, it is "
+"relatively difficult to cleanly transfer power from the motors to wheels, "
+"meaning that most X-Drives end up being direct-driven, which is bad for the "
+"lifespan of the motor gearbox."
+msgstr ""
+"Idéalement, le châssis devrait occuper le moins d'espace possible afin de "
+"faciliter la conception des mécanismes. Comme les roues omni sont décalées, "
+"il est plus difficile de concevoir un X-Drive que d'autres types "
+"d'entraînement holonomique comme le mecanum ou le H-Drive. De plus, en "
+"raison de ce conditionnement étrange, il est relativement difficile de "
+"transférer proprement la puissance des moteurs aux roues, ce qui signifie "
+"que la plupart des X-Drives finissent par être à entraînement direct, ce qui"
+" n'est pas bon pour la durée de vie de la boîte de vitesses du moteur."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:153
 msgid ""
 "When using X-Drive, the robot moves forwards/backwards/straight side-to-side"
@@ -224,6 +591,16 @@ msgstr ""
 "droite d'un côté à l'autre :math:`\\sqrt{2}` fois plus vite qu'une "
 "transmission avec des roues dans l'orientation normale (avec le même rapport"
 " d'engrenage et la même taille de roue)."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:155
+msgid ""
+"For an explanation of why exactly this is, see `this analysis "
+"<https://www.chiefdelphi.com/t/paper-mecanum-and-omni-kinematic-and-force-"
+"analysis/106153>`_."
+msgstr ""
+"Pour une explication de la raison exacte, voir `cette analyse "
+"<https://www.chiefdelphi.com/t/paper-mecanum-and-omni-kinematic-and-force-"
+"analysis/106153>`_."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:160
 msgid "Good maneuverability and agility"
@@ -243,8 +620,16 @@ msgstr ""
 "Utilise souvent l'entraînement direct en raison de son format peu pratique"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:172
+msgid "731 Wannabee Strange's X-Drive"
+msgstr " X-Drive de 731 Wannabee Strange's"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:172
 msgid "731 Wannabee Strange, Velocity Vortex"
 msgstr "731 Wannabee Strange, Velocity Vortex"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:177
+msgid "5040 Nuts and Bolts's X-Drive"
+msgstr "X-Drive de Nuts and Bolts 5040 "
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:177
 msgid "5040 Nuts and Bolts, Relic Recovery"
@@ -253,6 +638,74 @@ msgstr "5040 Boulons et écrous, récupération de reliques"
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:180
 msgid "H-Drive"
 msgstr "H-Drive"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:182
+msgid ""
+"H-Drive (also known as U-drive, depending on the configuration) is a "
+"holonomic type drive that uses all omni wheels. H-Drive relies on a set of "
+"\"strafer wheels\" that are perpendicular to the forward/backward wheels to "
+"achieve strafing. H-Drive is similar to a fusion of a tank drivetrain while "
+"retaining the maneuverability and strafing of holonomic drivetrains."
+msgstr ""
+"La propulsion H (également connue sous le nom de propulsion U, selon la "
+"configuration) est une propulsion de type holonomique qui utilise toutes les"
+" roues omnidirectionnelles. La propulsion H s'appuie sur un ensemble de "
+"\"roues d'entraînement\" qui sont perpendiculaires aux roues avant/arrière "
+"afin d'assurer le déplacement latéral. Le H-Drive est similaire à la fusion "
+"d'un châssis de type tank tout en conservant la manœuvrabilité et le "
+"déplacement latéral des châssis holonomiques."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:184
+msgid ""
+"H-Drive is theoretically very easy to code, but most teams employ some sort "
+"of gyro correction to strafe straight, although it is not necessary with "
+"proper weight distribution."
+msgstr ""
+"Le H-Drive est théoriquement très facile à coder, mais la plupart des "
+"équipes utilisent une sorte de correction gyroscopique pour se diriger en "
+"ligne droite, bien que cela ne soit pas nécessaire avec une bonne "
+"répartition du poids."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:186
+msgid ""
+"H-Drive has a number of possible motor configurations - 1 or 2 motors can be"
+" put on each forward drive pod, and one or two motors can be put on the "
+"strafe wheels. In the configuration with one motor on each forward drive "
+"pod, H-Drive has slightly reduced acceleration compared to mecanum drive."
+msgstr ""
+"H-Drive a plusieurs configurations de moteurs possibles - 1 ou 2 moteurs "
+"peuvent être placés sur chaque pod de propulsion avant, et un ou deux "
+"moteurs peuvent être placés sur les roues de mitraillage. Dans la "
+"configuration avec un moteur sur chaque nacelle avant, le H-Drive a une "
+"accélération légèrement réduite par rapport au châssis mecanum."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:188
+msgid ""
+"For the highest possible reliability, many FRC\\ |reg| teams will suspend "
+"their strafe wheels on a rocker system to ensure that all wheels are in "
+"contact with the ground while the robot is not strafing."
+msgstr ""
+"Pour une fiabilité maximale, beaucoup d'équipes FRC\\ |reg| suspendent leurs"
+" roues de déplacement latéral sur un système de bascule pour s'assurer que "
+"toutes les roues sont en contact avec le sol lorsque le robot n'est pas en "
+"train de se déplacer latéralement."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:190
+msgid ""
+"By far the biggest advantage of H-drive is its ability to accommodate "
+"multiple motor distributions. For instance, if you want to dedicate only 3 "
+"motors to your mechanisms and you have a motor left over, using a 1 strafe "
+"motor, 4 drive motor configuration is absolutely viable. Or if you dedicate "
+"5 motors for your mechanisms, H-drive with 2 drive motors and 1 strafe motor"
+" is definitely optimal."
+msgstr ""
+"Le plus grand avantage du H-drive est de loin sa capacité à s'adapter à de "
+"multiples distributions de moteurs. Par exemple, si vous souhaitez dédier "
+"seulement 3 moteurs à vos mécanismes et qu'il vous reste un moteur, une "
+"configuration avec 1 moteur de déplacement latéral et 4 moteurs "
+"d'entraînement est tout à fait viable. Ou si vous consacrez 5 moteurs à vos "
+"mécanismes, la configuration H-drive avec 2 moteurs d'entraînement et 1 "
+"moteur de déplacement latéral est tout à fait optimale."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:195
 msgid "Combines tank and holonomic drivetrain advantages"
@@ -270,10 +723,18 @@ msgstr "Bonne traction et bonne vitesse de pointe"
 msgid "Great maneuverability and agility"
 msgstr "Grande maniabilité et agilité"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:203
+msgid "Strafing is slightly less effective than mecanum"
+msgstr "Le déplacement latéral  est légèrement moins efficace que le mecanum"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:204
 msgid "Complex suspension occasionally needed, depending on design"
 msgstr ""
 "Une suspension complexe est parfois nécessaire, en fonction de la conception"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:209
+msgid "9804 Bomb Squad's H-Drive"
+msgstr " Le H-Drive de l'équipe Bomb Squad 9804"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:209
 msgid "9804 Bomb Squad, Relic Recovery"

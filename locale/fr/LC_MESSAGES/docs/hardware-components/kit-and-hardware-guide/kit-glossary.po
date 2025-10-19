@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-29 16:25+0000\n"
+"POT-Creation-Date: 2025-10-19 04:28+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -226,6 +226,27 @@ msgstr ""
 msgid "3736 Serious Business, Rover Ruckus"
 msgstr "3736 Serious Business, Rover Ruckus"
 
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:64
+msgid "Lead Screw"
+msgstr "Vis filetée"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:66
+msgid ""
+"A lead screw is very similar to a threaded rod. It is used for high load and"
+" high torque application such as hanging. However, due to the nature of the "
+"threaded rod, lead screws are generally quite slow compared to linear "
+"slides. The speed of a lead screw is determined by two factors. The first is"
+" how fast the motor outputs, and the second is the number of threads per "
+"inch (TPI)."
+msgstr ""
+"Une vis filetée est très similaire à une tige filetée. Elle est utilisée "
+"pour des applications nécessitant une forte charge et un couple élevé, comme"
+" les systèmes de suspension. Cependant, en raison de la nature même de la "
+"tige filetée, les vis filetées sont généralement plus lentes que les "
+"glissières linéaires. La vitesse d’une vis filetée dépend de deux facteurs :"
+" la vitesse de rotation du moteur et le nombre de filets par pouce (TPI, "
+"“threads per inch”)."
+
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
 msgid "A leadscrew"
 msgstr "Une vis sans fin"
@@ -297,3 +318,240 @@ msgstr ""
 #: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:83
 msgid "Bushing"
 msgstr "Bague"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:85
+msgid ""
+"A bushing is primarily mounted on the outside of a :term:`shaft <Shaft>`. It"
+" rotates in a pillow block, which holds the bushing. Generally, both are "
+"made out of a low-friction material such as Delrin or bronze."
+msgstr ""
+"Une bague est principalement montée à l'extérieur d'un :term:`arbre "
+"<Shaft>`. Elle tourne dans un bloc d'appui qui la maintient. En général, les"
+" deux sont fabriqués dans un matériau à faible frottement tel que le Delrin "
+"ou le bronze."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:87
+msgid ""
+"Bushings are less efficient than :term:`ball bearings <Ball Bearing>` "
+"because they have a larger surface of contact, but are acceptable for low-"
+"load situations or low-budget teams."
+msgstr ""
+"Les bagues sont moins efficaces que les :term:`roulements à billes <Ball "
+"Bearing>` car elles ont une plus grande surface de contact, mais elles sont "
+"acceptables pour les situations de faible charge ou pour les équipes à petit"
+" budget."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:93
+msgid "A REV Robotics bushing"
+msgstr "Une douille REV Robotics"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:93
+msgid "REV Bushing"
+msgstr "Douille REV"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:99
+msgid "A REV Robotics pillow block"
+msgstr "Un palier REV Robotics"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:99
+msgid "REV Pillow Block"
+msgstr "Palier REV"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:100
+msgid "Churro"
+msgstr "Churro"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:102
+msgid ""
+"Churro is a 1/2\" or 3/8\" hex product sold by AndyMark. It has a bore that "
+"is easily tapped to accommodate 1/4-20 and 1/4-28 bolts, and is commonly "
+"used as a large :term:`standoff <Standoff>`. It is light and cheap compared "
+"to other hex products."
+msgstr ""
+"Churro est un produit hexagonal de 1/2\" ou 3/8\" vendu par AndyMark. Il "
+"possède un alésage facilement taraudable pour accueillir des boulons 1/4-20 "
+"et 1/4-28, et il est couramment utilisé comme grand :term:`entretoise "
+"<Standoff>`. Il est léger et bon marché par rapport à d'autres produits "
+"hexagonaux."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:104
+msgid ""
+"Using churro as :term:`shaft <Shaft>` is highly discouraged, as it is "
+"slightly undersized as well as prone to twisting."
+msgstr ""
+"L'utilisation du churro comme :term:`arbre <Shaft>` est fortement "
+"déconseillée, car il est légèrement sous-dimensionné et a tendance à se "
+"tordre."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "A piece of churro"
+msgstr "Un morceau de churro"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:109
+msgid "Set Screw"
+msgstr "Vis de Réglage"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:111
+msgid ""
+"A set screw is generally a hex socket screw that is used to fasten parts "
+"such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` to a "
+":term:`shaft <Shaft>`, or to fix a shaft in place so that it doesn't move "
+"around. Due to the hex socket, allen keys must be used to tighten and loosen"
+" set screws."
+msgstr ""
+"Une vis de réglage est généralement une vis à six pans creux utilisée pour "
+"fixer des pièces telles que :term:`bagues <Sprocket>` ou des "
+":term:`roulements à billes <Gear>` à un :term:`arbre <Shaft>`, ou pour fixer"
+" un arbre en place afin qu'il ne bouge pas. En raison de la douille "
+"hexagonale, il faut utiliser des clés Allen pour serrer et desserrer les vis"
+" de réglage."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:113
+msgid ""
+"**Set screws are not recommended for drivetrain and high-load applications**"
+" since there is very little surface area in contact with the shaft (only the"
+" tip of the screw). This makes the set screw likely to damage the shaft. "
+"Therefore, set screws can become loose very easily."
+msgstr ""
+"**Les vis de réglage ne sont pas recommandées pour les applications de "
+"transmission et les applications à forte charge**, car la surface en contact"
+" avec l'arbre est très faible (seule la pointe de la vis). La vis de réglage"
+" risque donc d'endommager l'arbre. Par conséquent, les vis de réglage "
+"peuvent se desserrer très facilement."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:115
+msgid ""
+"If set screws must be used, then it is imperative to use :term:`Loctite` to "
+"reduce the chance of them shaking loose."
+msgstr ""
+"Si des vis de fixation doivent être utilisées, il est impératif d'utiliser "
+":term:`Loctite` pour réduire le risque qu'elles se détachent."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:117
+msgid ""
+":term:`Clamping hubs <Clamping Hub>` are much preferred to set screws, as "
+"clamping hubs apply pressure to the whole diameter of the shaft, as opposed "
+"to just one point."
+msgstr ""
+"Les :term:`moyeux de serrage <Clamping Hub>` sont de loin préférables aux "
+"vis de réglage, car les moyeux de serrage exercent une pression sur tout le "
+"diamètre de l'arbre, et non sur un seul point."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "A set screw"
+msgstr "Une vis de réglage"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:122
+msgid "Shaft Collar"
+msgstr "Collier d'Arbre"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:124
+msgid ""
+"A shaft collar, which has a :term:`set screw <Set Screw>`, is fitted on to a"
+" shaft in order to secure parts."
+msgstr ""
+"Un collier d'arbre, avec :term:`vis de pression <Set Screw>`, est monté sur "
+"un arbre afin de fixer des pièces."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "A shaft collar"
+msgstr "Un collier d'arbre"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:129
+msgid "Bore"
+msgstr "Alésage"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:131
+msgid ""
+"The bore refers to the shape of the opening that the shaft is inserted into."
+" For example, the bore for a 5 mm hex :term:`shaft <Shaft>` is the hexagonal"
+" shape."
+msgstr ""
+"L'alésage désigne la forme de l'ouverture dans laquelle l'arbre est inséré. "
+"Par exemple, l'alésage d'un :term:`arbre <Shaft>` hexagonal de 5 mm est de "
+"forme hexagonale."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:133
+msgid ""
+"\"Stripping the bore\" means that over time, the bore will lose its "
+"hexagonal shape, and become close to a circular shape, rendering the bore "
+"(and subsequently, the part it is on) useless."
+msgstr ""
+"Le \"décapage de l'alésage\" signifie qu'avec le temps, l'alésage perd sa "
+"forme hexagonale et se rapproche d'une forme circulaire, ce qui rend "
+"l'alésage (et par la suite la pièce sur laquelle il se trouve) inutilisable."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst-1
+msgid "A bearing with a hex bore"
+msgstr "Un roulement avec un alésage hexagonal"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:138
+msgid "Clamp Mounting"
+msgstr "Montage par serrage"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:140
+msgid ""
+"Clamp mounting refers to securing a motor primarily by using friction "
+"instead of screws attached to the motor itself. This is generally "
+"discouraged as the motor can become loosened over time."
+msgstr ""
+"Le montage par serrage consiste à fixer un moteur principalement par "
+"friction au lieu d'utiliser des vis fixées au moteur lui-même. Cette méthode"
+" est généralement déconseillée, car le moteur peut se desserrer avec le "
+"temps."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:142
+msgid ""
+"Use friction tape around the surface of the motor that is clamped down so "
+"that it will have less chance of moving around."
+msgstr ""
+"Utilisez du ruban adhésif autour de la surface du moteur qui est fixé afin "
+"qu'il ait moins de chance de bouger."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:148
+msgid "A TETRIX v1 motor attached with a TETRIX Clamp Mount"
+msgstr "Un moteur TETRIX v1 fixé à l’aide d’un support de serrage TETRIX"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:148
+msgid "TETRIX clamp mount and v1 motor"
+msgstr "Support de serrage TETRIX et moteur TETRIX v1"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:149
+msgid "Face Mounting"
+msgstr "Montage frontal"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:151
+msgid ""
+"Face mounting refers to mounting the motor by affixing the motor directly to"
+" the mount using bolts. This is the preferable way of mounting the motor "
+"(compared to :term:`clamp mounting <Clamp Mounting>`) because it is less "
+"likely to loosen over time, especially with the use of :term:`Loctite` on "
+"the bolts."
+msgstr ""
+"Le montage frontal consiste à fixer le moteur directement sur le support à "
+"l'aide de boulons. C'est la meilleure façon de monter le moteur (par rapport"
+" au :term:`montage en serrage <Clamp Mounting>`) car il est moins "
+"susceptible de se desserrer avec le temps, en particulier avec l'utilisation"
+" de :term:`Loctite` sur les boulons."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:153
+msgid "It is advisable that 4-6 bolts be used to face mount for redundancy."
+msgstr ""
+"Il est conseillé d'utiliser 4-6 boulons pour le montage frontal afin "
+"d'assurer la redondance."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:155
+msgid ""
+"Additionally, there is no way that the motor might rotate and cause a loss "
+"of tension in :term:`belts <Timing Belt>` or :term:`chain <Chain>`."
+msgstr ""
+"En outre, il est impossible que le moteur tourne et provoque une perte de "
+"tension des :term:`courroies <Timing Belt>` ou des :term:`profilés <Chain>`."
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:162
+msgid "A REV Robotics v2 motor facemounted to a plate"
+msgstr "Un moteur REV Robotics v2 monté en face d'une plaque"
+
+#: ../../gm0/source/docs/hardware-components/kit-and-hardware-guide/kit-glossary.rst:162
+msgid "REV v2 Motor Facemounted"
+msgstr "Moteur REV v2 monté en face"
