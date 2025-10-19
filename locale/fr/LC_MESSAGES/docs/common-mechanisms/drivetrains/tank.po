@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-19 04:28+0000\n"
+"POT-Creation-Date: 2025-10-19 16:27+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: sara farhat, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -199,7 +199,36 @@ msgstr "Définition"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:51
 msgid "Wheel scrub"
-msgstr "Gommage des roues"
+msgstr "Frottement des roues"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:53
+msgid ""
+"Wheel scrub refers to friction between the side of the wheel and the floor "
+"tile. It inhibits turning as the drivetrain must overcome this frictional "
+"force in order to turn the robot. Wheel scrub is most common on 4 or 6 wheel"
+" tank drivetrains that do not have a :term:`center drop <Drop Center>`."
+msgstr ""
+"Le frottement de la roue correspond à la friction entre le côté de la roue "
+"et la dalle de sol. Il empêche le robot de tourner, car la transmission doit"
+" surmonter cette force de frottement pour faire tourner le robot. Le "
+"frottement des roues est plus fréquent sur les transmissions à réservoir à 4"
+" ou 6 roues qui n'ont pas de :term:`center drop <Drop Center>`."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:55
+msgid ""
+"However, this advantage comes with a major loss of traction. For these "
+"reasons, many teams choose to use two traction wheels and two omni wheels "
+"for a balance between quick turning and traction. The primary advantage of "
+"this drivetrain over other tank drivetrains is its ability to easily move "
+"across raised terrain when the bot's center is raised above the terrain."
+msgstr ""
+"Toutefois, cet avantage s'accompagne d'une perte importante de traction. "
+"C'est pour ces raisons que de nombreuses équipes choisissent d'utiliser deux"
+" roues de traction et deux roues omnidirectionnelles pour un équilibre entre"
+" la rapidité des virages et la traction. L’avantage principal de ce système "
+"de transmission de type char par rapport aux autres modèles similaires "
+"réside dans sa capacité à se déplacer aisément sur un terrain surélevé, même"
+" lorsque le centre du robot est soulevé au-dessus du sol."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:57
 msgid ""
@@ -221,6 +250,19 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:64
 msgid "Weight distribution"
 msgstr "Répartition du poids"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:66
+msgid ""
+"Weight distribution generally refers to how the weight of the robot is "
+"proportioned. It is desirable to have a relatively 50-50 (50% of weight in "
+"the front half, 50% in back half) so that the drivetrain has optimal "
+"manuverability and turning."
+msgstr ""
+"La répartition du poids fait généralement référence à la manière dont le "
+"poids du robot est proportionné. Il est souhaitable d'avoir une répartition "
+"relativement 50-50 (50 % du poids dans la moitié avant, 50 % dans la moitié "
+"arrière) afin que le groupe motopropulseur ait une maniabilité et une "
+"capacité de virage optimales."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:68
 msgid ""
@@ -302,6 +344,10 @@ msgstr ""
 "`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "goBILDA Custom"
+msgstr "goBILDA Custom"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:112
 msgid ""
 "`Click here to explore this model in OnShape online CAD "
@@ -331,12 +377,29 @@ msgid "7209 Tech Hogs, Relic Recovery"
 msgstr "7209 Tech Hogs, récupération de reliques"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
+msgid "10641 Atomic Gear's 4WD on a table"
+msgstr "10641 4WD d'Atomic Gear sur une table"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:130
 msgid "10641 Atomic Gears, Rover Ruckus"
 msgstr "10641 Atomic Gears, Rover Ruckus"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:133
 msgid "6 Wheel Drive (6WD)"
 msgstr "6 roues motrices (6WD)"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:140
+msgid "**Drop Center**"
+msgstr "**Drop Center**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:146
+msgid ""
+"Turning can drastically degrade due to a difference in material underneath "
+"the field, leading to the robot sinking down further than usual."
+msgstr ""
+"Le retournement peut se dégrader considérablement en raison d'une différence"
+" de matériaux sous le terrain, ce qui fait que le robot s'enfonce plus que "
+"d'habitude."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:148
 msgid ""
@@ -398,6 +461,39 @@ msgstr "Grande stabilité quel que soit le poids du robot"
 msgid "Able to play defense"
 msgstr "Capable de jouer en défense"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:163
+msgid ""
+"Drop-center 6WD is tricky to build with :term:`channel <Channel>` based "
+"systems, though this has been partially mitigated with the `goBILDA drop-"
+"center bearing plate <https://www.gobilda.com/1616-series-drop-center-"
+"bearing-plate-2mm-drop-4-pack/>`_"
+msgstr ""
+"Il est difficile de construire un 6 roues motrices à centre basculant avec "
+"les systèmes basés sur :term:`channel <Channel>`, bien que cela ait été "
+"partiellement atténué avec la plaque de roulement à centre basculant "
+"`goBILDA <https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-"
+"drop-4-pack/>`_."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:165
+msgid "Drop-center 6WD is dependent on field conditions"
+msgstr ""
+"Le centre de gravité de 6 roues motrices dépend des conditions de terrain."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:166
+msgid "Corner omni 6WD has less traction"
+msgstr "Corner omni 6 roues motrices a moins de traction"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:167
+msgid ""
+"Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish"
+msgstr ""
+"Un :terme:`rapports de vitesse lents <Gear Reduction>` donnera à un 6 roues "
+"motrices une impression de lenteur."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
+msgid "CAD Examples of Six Wheel Drive (Click to expand)"
+msgstr "Exemples CAD de 6 roues motrices (Cliquez pour agrandir)"
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:180
 msgid ""
 "`Click here to explore this model in OnShape online CAD "
@@ -429,6 +525,14 @@ msgid ""
 msgstr ""
 "`Cliquez ici pour explorer ce modèle dans OnShape online CAD "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/258524b3c7582178ba684ac5>`__"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:209
+msgid "7236 Recharged Green's 6wd"
+msgstr "Le vert rechargé à six roues motrices de 7236"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:214
+msgid "Ethan Doak's 6wd"
+msgstr "Le 6 roue motrice d'Ethan Doak"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:217
 msgid "8 Wheel Drive"
@@ -470,6 +574,10 @@ msgstr "Traction et accélération fantastiques"
 msgid "Great for defense"
 msgstr "Idéal pour la défense"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:238
+msgid "Takes up more space than 6WD"
+msgstr "Prends plus de place qu'un 6 roues motrices."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:239
 msgid "Powering all 8 wheels can be tricky"
 msgstr "Alimenter les 8 roues peut s'avérer délicat"
@@ -481,8 +589,43 @@ msgstr ""
 "considérablement réduit."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:245
+msgid "3846 Maelstrom's 8WD"
+msgstr "3846 Maelstrom's 8 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:245
 msgid "3846 Maelstrom, Rover Ruckus"
 msgstr "3846 Maelstrom, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst-1
+msgid "A render of 13075 Coram Deo Academy Robotics' 8WD"
+msgstr "Un rendu du 13075 Coram Deo Academy Robotics' de 8 roues motrices."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:253
+msgid "13075 Coram Deo Academy Robotics' 8WD"
+msgstr "13075 Coram Deo Academy Robotics' 8WD"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:253
+msgid "13075 Coram Deo Academy Robotics, Rover Ruckus"
+msgstr "13075 Coram Deo Academy Robotics, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:256
+msgid "Tread Drive"
+msgstr "Rendu du système à chenilles "
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:262
+msgid ""
+"While it is possible to implement tread drive successfully, such as in the "
+"example below, most inexperienced teams do not have the capability and know-"
+"how to do so. Tread drive has negligible traction improvements at the cost "
+"of maneuverability. There are better options to traverse terrain, such as a "
+"4WD."
+msgstr ""
+"Bien qu'il soit possible de mettre en œuvre avec succès la traction sur "
+"bande de roulement, comme dans l'exemple ci-dessous, la plupart des équipes "
+"inexpérimentées n'ont pas les capacités et le savoir-faire nécessaires pour "
+"le faire. La bande de roulement apporte des améliorations négligeables en "
+"matière de traction, au détriment de la maniabilité. Il existe de meilleures"
+" options pour traverser le terrain, comme un 4 roues motrices."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:267
 msgid "Very good at traversing terrain"
@@ -505,6 +648,10 @@ msgid "Treads are prone to breakage and can fall off easily"
 msgstr ""
 "Les bandes de roulement sont sujettes à la rupture et peuvent tomber "
 "facilement"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:280
+msgid "5975 Cybots' Tread Drive Render"
+msgstr "Rendu du système à chenilles des 5975 Cybots"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:280
 msgid "5975 Cybots, Res-Q"
