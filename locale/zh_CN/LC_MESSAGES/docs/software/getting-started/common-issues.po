@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-08 16:30+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -180,6 +180,12 @@ msgstr ""
 "<https://github.com/OpenFTC/Extracted-"
 "RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_"
 " ），SDK 就会执行之前解释过的 \"紧急停止 \"例程，并显示 \"卡在`操作`中`\"的错误信息。"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:170
+msgid ""
+"If you need to run any sort of lengthy action in your OpMode, another option"
+" would be using a LinearOpMode instead."
+msgstr "如果需要在 OpMode 中运行任何较长的操作，另一种方法是使用 LinearOpMode。"
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:172
 msgid ""

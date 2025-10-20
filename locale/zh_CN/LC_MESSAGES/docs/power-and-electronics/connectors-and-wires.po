@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:31+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -38,9 +38,103 @@ msgstr ""
 "安德森动力杆\n"
 " "
 
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:11
+msgid ""
+"Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest "
+"motors <NeveRest Motor>`. PowerPole connectors are extremely reliable, and "
+"are an excellent choice for high-usage connectors, such as batteries. There "
+"are adapters available to/from other systems. PowerPole connectors are "
+"crimped onto wires."
+msgstr ""
+"安德森动力杆是 AndyMark 在其 :term:`NeveRest motors<NeveRest Motor>` "
+"上使用的连接器。PowerPole 连接器非常可靠，是电池等高用量连接器的最佳选择。可提供与其他系统的适配器。PowerPole 连接器压接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:14
+msgid ""
+"While OEM Anderson brand PowerPole connectors are extremely reliable, off-"
+"brand PowerPole connectors, commonly available on sites like Amazon, often "
+"have major reliability issues. When purchasing PowerPole connectors, only "
+"purchase ones specifically listed as Anderson brand."
+msgstr ""
+"虽然原装的安德森品牌 PowerPole 连接器非常可靠，但亚马逊等网站上常见的非品牌 PowerPole 连接器往往存在严重的可靠性问题。在购买 "
+"PowerPole 连接器时，只能购买特别标明为安德森品牌的连接器。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:16
+msgid ""
+"Additionally, it is important to use crimpers specifically designed for "
+"PowerPole connectors. The `IWISS iCrimp AP-11 "
+"<https://www.amazon.com/dp/B01MSQPTDS>`_ crimpers are a solid choice at a "
+"reasonable price point on Amazon, though any quality crimpers specifically "
+"designed for PowerPole should work fine."
+msgstr ""
+"此外，使用专门为 PowerPole 连接器设计的连接器也很重要。在亚马逊上， `IWISS iCrimp AP-11 "
+"<https://www.amazon.com/dp/B01MSQPTDS>`_压连接器是一个价格合理的可靠选择，不过任何专门为 PowerPole "
+"设计的高质量连接器都可以正常工作。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A PowerPole connector"
+msgstr "一个 PowerPole 连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:33
+msgid ""
+"A small pinheader connector commonly used on servos and occasionally on some"
+" sensors. Dupont connectors are crimped onto wires."
+msgstr "一种小型针头连接器，通常用于伺服系统，偶尔也用于某些传感器。杜邦连接器压接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:38
+msgid ""
+"Some vendors sell versions of the 3-pin female connector that are locking, "
+"which significantly improve the reliability of using servo extension wires. "
+"BackBayRC on Amazon sells `servo extension wires with locking connectors "
+"<https://www.amazon.com/BackBayRC-Extension-Strands-Vehicles-"
+"bikes/dp/B0CXR2YBS4/>`_; and Ferra Components sells both `pre-made servo "
+"extension wires with locking connectors "
+"<https://ferracomponents.com/products/20awg-locking-servo-wire>`_, and "
+"`packs of locking connectors you can crimp yourself "
+"<https://ferracomponents.com/products/servo-locking-connector>`_."
+msgstr ""
+"有些供应商出售带锁的 3 针母连接器，这大大提高了使用伺服延长线的可靠性。亚马逊上的 BackBayRC 出售 \"带锁定连接器的伺服延长线 "
+"<https://www.amazon.com/BackBayRC-Extension-Strands-Vehicles-"
+"bikes/dp/B0CXR2YBS4/>`_; 和Ferra Components 出售 "
+"\"预制的带锁定连接器的伺服延长线<https://ferracomponents.com/products/20awg-locking-servo-"
+"wire>`_，以及 \"成包的锁定连接器，您可以自己压接<https://ferracomponents.com/products/servo-"
+"locking-connector>`_。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:0
+msgid "Locking female 3-pin Dupont connectors"
+msgstr "杜邦锁定式 3 针母连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A servo extension wire with 3-pin Dupont connectors"
+msgstr "带 3 针杜邦连接器的伺服延长线"
+
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:44
 msgid "XT30"
 msgstr "XT30"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:46
+msgid ""
+"The XT30 connector is commonly used by batteries (such as the goBILDA Nested"
+" Battery and the REV Slim Battery), the robot power switch, the REV Control "
+"Hub and Expansion Hub, the :term:`REV Grounding Strap <Grounding Strap>`, "
+"and others. XT30 connectors are soldered onto wires."
+msgstr ""
+"XT30 连接器通常用于电池（如 goBILDA 嵌套电池和 REV 超薄电池）、机器人电源开关、 Control Hub   和 Expansion "
+"Hub 、:term:`REV 接地带<Grounding Strap>`等。XT30 连接器焊接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:49
+msgid ""
+"The pins in the XT30 connectors on the Control Hub and Expansion Hub often "
+"compress over time, causing loose power connectivity. See `XT30 Pins are "
+"Compressed - Expansion Hub Troubleshooting "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`_ for details"
+" on the issue and how to fix it."
+msgstr ""
+"Control Hub  和 Expansion Hub 上 XT30 连接器的针脚经常会随着时间的推移而压缩，导致电源连接松动。请参阅 \"XT30 "
+"引脚被 Compressed - Expansion Hub 故障排除 <https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/expansion-hub-"
+"troubleshooting#xt30-pins-are-compressed>`_了解有关问题的详情和修复方法。"
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A XT30 connector"
@@ -82,6 +176,23 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:71
 msgid "Tamiya"
 msgstr "Tamiya连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:73
+msgid ""
+"Used on some batteries, such as the Modern Robotics battery that was sold by"
+" goBILDA prior to goBILDA's own battery design being allowed by the "
+"competition manual."
+msgstr "用于某些电池，例如在比赛手册允许 goBILDA 自行设计电池之前，goBILDA 出售的 Modern Robotics 电池。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:76
+msgid ""
+"Do not use these connectors! The metal connectors are fragile and will lead "
+"to random disconnects. It is highly recommended to replace any of thse "
+"connectors with a reliable type of connector, such as the :term:`Anderson "
+"PowerPole` connectors."
+msgstr ""
+"请勿使用这些连接器！金属连接器很脆弱，会导致随机断开。强烈建议使用可靠的连接器，如 :term:`Anderson PowerPole` "
+"连接器替换这些连接器。"
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A Tamiya connector"

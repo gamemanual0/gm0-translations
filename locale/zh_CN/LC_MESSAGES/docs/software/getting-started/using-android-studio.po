@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 16:29+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -26,9 +26,25 @@ msgstr ""
 msgid "Using Android Studio"
 msgstr "使用 Android Studio"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:6
+msgid ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ is an "
+"integrated development environment (IDE) for Android app development based "
+"on IntelliJ. It compiles your code which is then installed onto the Robot "
+"Controller: either the Control Hub or a legal Android phone."
+msgstr ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ 是基于 IntelliJ "
+"的 Android 应用程序开发集成开发环境 ( IDE )。它可以编译代码，然后将代码安装到机器人控制器上：控制中心或合法的安卓手机。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:9
 msgid "Downloading Android Studio"
 msgstr "下载 Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:11
+msgid ""
+"If you've already downloaded Android Studio, you can move on to the next "
+"step, which is `setting up the SDK`_."
+msgstr "如果已经下载了 Android Studio，就可以进入下一步，即 \"设置 SDK\"。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:13
 msgid "The steps to download and setup Android Studio are:"

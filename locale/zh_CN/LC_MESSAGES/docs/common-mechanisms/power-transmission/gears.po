@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 04:29+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -286,6 +286,13 @@ msgid ""
 "spacing limits gear ratios, but this can be circumvented with compound "
 "ratios and a bit of creativity."
 msgstr "**有时，您想要的传动比可能不容易制造** 。通道间距限制了齿轮传动比，但这可以通过复合传动比和一些创造力来规避。"
+
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:80
+msgid ""
+"**Long distance power transfer is impractical with gears**. If you need to "
+"transfer power long distances, gear combinations can become complicated very"
+" quickly, so belt/chain is preferable."
+msgstr "**使用齿轮进行长距离动力传输是不切实际的** 。如果需要长距离传递动力，齿轮组合很快就会变得复杂，因此皮带/链条是首选。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/gears.rst:81
 msgid ""

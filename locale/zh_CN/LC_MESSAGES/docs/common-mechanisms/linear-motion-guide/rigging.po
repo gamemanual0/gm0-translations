@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:31+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -417,6 +417,32 @@ msgid ""
 " more strings to keep track of, as tension must be maintained on all of "
 "them."
 msgstr "层叠索具的一个缺点是必须保持每根线缆的张力。连续式索具虽然也是如此，但需要跟踪的线缆更多，因为必须保持所有线缆的张力。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:147
+msgid "Using PTFE Tubing and John Guest Adapters to Route the String"
+msgstr "使用 PTFE（特氟龙）套管和 John Guest 转换接头穿线"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst-1
+msgid "23292 SuperPowered Jalapenos Rigging Image"
+msgstr "23292  SuperPowered Jalapenos 传动图像"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:154
+msgid ""
+"1/8 in. PTFE tubing and John-guest push-to-connect adapters with M5 thread "
+"on one side work really well for this purpose. These tubing are identical to"
+" the ones used in 3D printers to route filament."
+msgstr ""
+"1/8 英寸增加管和一侧带有 M5 螺纹的 John-guest 按压连接适配器非常适合这种用途。这些管子与 3D 打印机中用于铺设长丝的管子完全相同。"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:156
+msgid ""
+"The tubing can be routed over long distances without adding significant "
+"friction"
+msgstr "管道可以长距离铺设，而不会明显增加摩擦力"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
+msgid "23292 SuperPowered Jalapenos, John Guest adapters rigging example"
+msgstr "23292 SuperPowered Jalapenos，John Guest 适配器传动示例"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:165
 msgid "Belt-driven slides"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:31+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -29,6 +29,19 @@ msgstr "电机术语表"
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:7
 msgid "Core Hex Motor"
 msgstr "Core Hex 电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:9
+msgid ""
+"The Core Hex Motor, sold by REV, is different from the standard "
+":term:`RS-555 series motors <RS-550 Series Motor>` that are generally used "
+"by FTC\\ |reg| teams. It features a 90 degree orientation and does not "
+"contain an output shaft. Thus, teams will have to cut 5 mm hex shaft to "
+"length as needed. The Core Hex motor has a slow gear ratio (72:1), and is "
+"much less powerful than the RS-555 series motors."
+msgstr ""
+"REV 出售的 Core Hex 电机不同于 FTC\\ |reg| 队伍普遍使用的标准 :term:`RS-555 系列电机<RS-550 "
+"Series Motor>`。它的特点是方向呈 90 度，不包含输出轴。因此，参赛队必须根据需要切割 5 毫米六角轴。Core Hex "
+"电机的齿轮比（72:1）较慢，功率也比 RS-555 系列电机小得多。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:11
 msgid ""
@@ -61,9 +74,30 @@ msgstr "一个 REV Robotics HD Hex 电机"
 msgid "NeveRest Motor"
 msgstr "NeveRest 电机"
 
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:25
+msgid ""
+"The NeveRest Motor, sold by AndyMark, is a :term:`RS-555 series motor "
+"<RS-550 Series Motor>` that is available in spur gear and planetary options."
+" It has a 6 mm D-shaft output."
+msgstr ""
+"由 AndyMark 销售的 NeveRest 电机是一种 :term:`RS-555 系列电机<RS-550 Series "
+"Motor>`，有正齿齿轮和行星齿轮可供选择。它有一个 6 毫米的 D 轴输出。"
+
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:26
 msgid "Yellow Jacket Motor"
 msgstr "Yellow Jacket 电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:28
+msgid ""
+"Yellow Jacket motors are the :term:`RS-555 series motor <RS-550 Series "
+"Motor>` and :term:`planetary gearbox <Planetary Gear>` sold by goBILDA. They"
+" come with a 6 mm D-shaft (5202 series) or 8 mm REX shaft (5203/5204 series)"
+" and are available in many different :term:`gear ratios <Gear Reduction>` "
+"from 3.7:1 up to 188:1."
+msgstr ""
+"Yellow Jacket 电机是由 goBILDA 销售的 :term:`RS-555 系列电机 <RS-550 Series Motor>` 和 "
+":term:` 行星齿轮箱 <Planetary Gear>`。它们配有 6 毫米 D 轴（5202 系列）或 8 毫米 REX 轴（5203/5204"
+" 系列），有多种不同的 :term:` 齿轮比<Gear Reduction>`，从 3.7:1 到 188:1。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst-1
 msgid "A Yellow Jacket motor"
@@ -92,6 +126,16 @@ msgstr "一根 UltraHex 轴"
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:40
 msgid "RS-550 Series Motor"
 msgstr "RS-550 系列电机"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst:42
+msgid ""
+"The RS-555 series motor is the standard motor in FTC. It forms the base for "
+"the :term:`AndyMark NeveRest <NeveRest Motor>`, :term:`REV HD Hex <HD Hex "
+"Motor>`, and :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>` motors."
+msgstr ""
+"RS-555 系列马达是 FTC 的标准马达。它是 :term:`AndyMark NeveRest<NeveRest "
+"Motor>`、:term:`REV HD Hex<HD Hex Motor>` 和 :term:`goBILDA Yellow "
+"Jacket<Yellow Jacket Motor>` 电机的基础。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/motor-glossary.rst-1
 msgid "A RS-555 motor, in the form of a bare NeveRest motor"

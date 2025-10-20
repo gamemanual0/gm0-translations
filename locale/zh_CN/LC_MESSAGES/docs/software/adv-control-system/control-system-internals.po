@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-08 16:30+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -34,7 +34,7 @@ msgstr "本页包含控制系统中已知电子设备的故障，以及有关它
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
 msgid "Expansion Hub Internals"
-msgstr "Expansion Hub内部"
+msgstr "Expansion Hub 内部"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:11
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:18
@@ -43,11 +43,26 @@ msgid ""
 "Don't take apart a Control or Expansion Hub unless you really know what you "
 "are doing. They can be damaged in the process, especially if one does not "
 "know how to properly reassemble it."
-msgstr "除非你真的知道你在做什么，否则不要拆开控制或扩展集线器。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。"
+msgstr ""
+"除非你真的知道你在做什么，否则不要拆开Control Hub 或 Expansion Hub "
+"。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
 msgid "Lynx Board"
 msgstr "Lynx 板"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
+msgid ""
+"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
+"Hub that interacts with hardware. References to \"Lynx\" are made in the "
+"FTC\\ |reg| SDK refer to this board. It appears to have been developed by "
+"both REV and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company), "
+"possibly for use in *FIRST*\\ |reg| Global (judging by the *FIRST* Global "
+"silkscreen on the PCB)."
+msgstr ""
+"\"Lynx \"是 Expansion Hub 和 Control Hub 中与硬件交互的电路板的代号。FTC\\ |reg| SDK中提到的 "
+"\"Lynx \"就是指这块板。它似乎是由 REV 和  `DEKA <https://dekaresearch.com/>`_ （Dean Kamen"
+" 的公司）共同开发的，可能用于  *FIRST*\\ |reg| Global（从 PCB 上的 *FIRST* Global 丝印来看）。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
 msgid "A Lynx board that was removed from its case"
@@ -156,9 +171,37 @@ msgid ""
 "momentum in the motor."
 msgstr "电流受限，芯片上有过温保护。在PWM关闭周期期间，输出不会制动h桥。这意味着由于电机中的动量，在减速时可能会出现线性问题。"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:58
+msgid ""
+"The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is "
+"capabile of handling well over the maximum amount of current an FTC motor "
+"can draw. It has integrated current sensing and has been used since the "
+"Modern Robotics era. It has built in thermal and current safety limits. This"
+" motor controller has been used for years, and may even date back to the "
+"early HiTechnic based control system."
+msgstr ""
+"电机驱动器采用 ST Microelectronics VNH5050电机驱动器集成电路 IC，能够处理远远超过 FTC "
+"电机所能消耗的最大电流。它集成了电流检测功能，自现代机器人时代以来一直在使用。它具有内置的热和电流安全限制。这种电机控制器已使用多年，甚至可以追溯到早期基于HiTechnic的控制系统。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
 msgid "Four Encoder Ports"
 msgstr "四个编码器端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:61
+msgid ""
+"**IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be "
+"connected via hardware and are reliable at high speeds**. There are two "
+"methods of connecting an encoder internally to the Texas Instruments "
+"microprocessor, through hardware and software. Hardware ports use the "
+"integrated quadrature decoder chip and are extremely accurate at high "
+"speeds, whereas encoders decoded in software are not reliable at high "
+"speeds. As a result, high Count per Revolution (CPR) encoders (those with "
+"more than around 4000 counts per revolution) should NOT be used on ports 1 "
+"and 2."
+msgstr ""
+"**重要提示：只有两个编码器端口（端口0和3）似乎是通过硬件连接的，并且在高速下是可靠的** 有两种方法可以通过硬件和软件将编码器内部连接到 Texas"
+" Instruments 仪器的微处理器。硬件端口使用集成的正交解码器芯片，在高速下非常准确，而在软件中解码的编码器在高速下并不可靠。因此，每转计数超过"
+" 4000 次的高计数（CPR）编码器不应用于软件连接的端口 1 和 2 。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:62
 msgid "Two XT30 Connectors"
@@ -184,9 +227,100 @@ msgstr "能够全速USB 2.0和5V输出为手机充电。5v输出可能不可靠�
 msgid "Internal Connector"
 msgstr "内部连接器"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
+msgid ""
+"This connector is what is used to connect to the compute daughterboard. It "
+"has a UART connection, as well as power and ground. All Expansion Hubs have "
+"this connector, whether or not they are a Control Hub."
+msgstr ""
+"该连接器用于连接计算子板。它有一个 UART 连接以及电源和地线。无论是否为Control Hub，所有 Expansion Hub 都有这个连接器。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:74
 msgid "Control Hub"
 msgstr "Control Hub"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:76
+msgid ""
+"The Control Hub is an Expansion Hub with an embedded single-board compute "
+"daughterboard connected to it. This enables it to not need a separate Robot "
+"Controller phone, as the compute board functions as the Robot Controller. "
+"Internally, LynxCommands are sent over from the daughterboard to the Lynx "
+"board over an internal UART connection."
+msgstr ""
+"Control Hub 是一个带有嵌入式 Android 单板计算机子板的 Expansion Hub。由于内置了 Android "
+"子板，所以它不再需要单独的手机作为 RC 。在其内部，通过内置的 UART 连接从 Android 子板发送 LynxCommand 到 Lynx 板。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:78
+msgid ""
+"The compute board's physical layout is based on the 96Boards CE spec, and is"
+" visibly extremely similar to the `Dragonboard 410c "
+"<https://www.96boards.org/product/dragonboard410c/>`_."
+msgstr ""
+"该计算板的物理布局基于 96Boards CE 规格，与 `Dragonboard 410c "
+"<https://www.96boards.org/product/dragonboard410c/>`_ 极为相似。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:81
+msgid ""
+"The original version of the Control Hub (REV-31-1152) used in FIRST Global "
+"actually used a `Dragonboard 410c "
+"<https://www.96boards.org/product/dragonboard410c/>`_ as the compute board."
+msgstr ""
+"FIRST Global 使用的最初版本的 Control Hub（REV-31-1152）实际上使用了 `Dragonboard 410c "
+"<https://www.96boards.org/product/dragonboard410c/>`_ 作为计算板。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
+msgid "SOC: Rockchip RK3328"
+msgstr "SOC: Rockchip RK3328"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:87
+msgid "CPU: Quad-core ARM\\ |reg| Cortex-A53"
+msgstr "CPU: Quad-core ARM\\ |reg| Cortex-A53"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:90
+msgid "GPU - ARM\\ |reg| Mali 450MP4"
+msgstr "GPU - ARM\\ |reg| Mali 450MP4"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:92
+msgid "HDMI 2.0 support for 4k @ 60Hz"
+msgstr "HDMI 2.0 支持 4k @ 60Hz 频率"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:93
+msgid "RAM: 1GB DDR3"
+msgstr "RAM：1GB DDR3"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:94
+msgid "Storage: 8 to 16GB of eMMC flash memory"
+msgstr "Storage：8 至 16GB eMMC 闪存"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:96
+msgid ""
+"\"8GB eMMC 4.51\" is the spec officially listed by REV, but multiple real-"
+"world units that were checked all had 16GB eMMC chips found on their boards."
+msgstr "REV 官方列出的规格是 “8GB eMMC 4.51”，但检查的多台实际设备的电路板上都有 16GB eMMC 芯片。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:97
+msgid ""
+"According to REV, in a support email: **\"Original builds of the Control Hub"
+" were manufactured with 8GB eMMC chips. However, some 16GB versions were "
+"made due to supply chain constraints. Recent Control Hubs (purchased after "
+"2022) are more likely to have the 16GB eMMC chip.\"**"
+msgstr ""
+"REV 在一封支持电子邮件中称**“最初生产的 Control Hub 使用的是 8GB eMMC 芯片。但是，由于供应链的限制，生产了一些 16GB "
+"版本。最近的 Control Hub（2022 年后购买）更有可能采用 16GB eMMC 芯片。”**"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:99
+msgid "Wi-Fi: Realtek RTL8821CU"
+msgstr "Wi-Fi: Realtek RTL8821CU"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:104
+msgid "Bluetooth 4.2 (Bluetooth 4.1 listed by REV)"
+msgstr "蓝牙 4.2（蓝牙 4.1 由 REV 列出）"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:105
+msgid ""
+"Debugging UART: 3 pin header (TX left, RX middle, Ground right), 1500000 "
+"baud"
+msgstr "调试 UART：3 针接头（左侧 TX、中间 RX、右侧接地），1500000baud"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:117
 msgid "The single board computer and Lynx board from a Control Hub"

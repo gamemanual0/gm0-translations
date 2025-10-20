@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-09 16:32+0000\n"
+"POT-Creation-Date: 2025-10-20 04:30+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -26,20 +26,138 @@ msgstr ""
 msgid "Arms"
 msgstr "机械臂"
 
-#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
-msgid "8417's single arm attached to a belt driven linear extension"
-msgstr "8417 队伍的单臂连接到皮带驱动的线性延伸装置上"
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:10
+msgid "Arms for Extension"
+msgstr "伸展臂"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:12
+msgid ""
+"Arms can be a useful tool for extension. Long arms need large reduction "
+"ratios to drive. The example in the :ref:`Single Arm section <single-arm>` "
+"uses a 254.5:1 reduction. It is recommended to transfer torque to the arm "
+"through a gear, chain, or belt rather than directly mounting to a motor "
+"shaft due to axial forces and the ability to get a larger reduction. Due to "
+"the large amount of momentum these arms can carry, if suddenly stopped they "
+"may be able to break a motor's gearbox or even tip your robot over. Software"
+" control can help to reduce the load on motor gearboxes (see "
+":doc:`/docs/software/concepts/control-loops`)."
+msgstr ""
+"机械臂可以是一个有用的扩展工具。长机械臂需要较大的减速比来驱动。在 :ref:` 单臂部分<single-arm>` 中的示例使用了 254.5:1 "
+"的减速比。建议通过齿轮、链条或皮带将扭矩传递到机械臂，而不是直接安装到电机轴上，因为这样可以获得更大的轴向力和减速比。由于这些机械臂可携带较大的动力，如果突然停止，可能会导致电机齿轮箱损坏，甚至使机器人翻倒。软件控制有助于减轻电机齿轮箱的负荷（参见"
+" :doc:`/docs/software/concepts/control-loops`）。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:19
+msgid "Single Arm"
+msgstr "单机械臂"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:21
+msgid ""
+"The most simple type of arm, a single arm refers to an arm on one axis of "
+"rotation. These arms are relatively easy and quick to build, however they "
+"have little high-level competitive viability as a main extension system "
+"since the extension it provides is limited due to the length restrictions of"
+" the starting cube, only being able to provide around 16\" of extension "
+"whereas over 24\" of extension is desired for most games."
+msgstr ""
+"单机械臂是最简单的机械臂类型，指的是只有一个旋转轴的机械臂。这种机械臂的制作相对简单快捷，但作为主要的扩展系统，它们在高级别竞技比赛中的可行性不高，因为由于起始立方体的长度限制，它所提供的扩展能力有限，只能提供大约"
+" 16 英寸的扩展，而大多数游戏都需要超过 24 英寸的扩展。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
+msgid "goBILDA starter bot, Into The Deep, single arm."
+msgstr "goBILDA 启动机器人，Into The Deep，单机械臂。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:26
+msgid "goBILDA starter bot, Into The Deep, single arm used for extension."
+msgstr "goBILDA 启动机器人，Into The Deep，单机械臂用于扩展。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:29
+msgid "Pivot Extension"
+msgstr "枢轴扩展"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:31
+msgid ""
+"A pivot extension mechanism is an arm with a linear extension (typically "
+"linear slides) attached. This allows the linear extension to provide the "
+"desired extension length for both horizontal and vertical extension along "
+"with removing the need for a transfer stage."
+msgstr ""
+"枢轴延伸机构是一个连接有线性延伸装置（通常是线性滑轨）的机械臂。这样，线性伸展装置就可以为水平和垂直伸展提供所需的伸展长度，同时无需使用传送结构。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:36
+msgid "Robot with a pivoting arm and long linear extension."
+msgstr "带有旋转机械臂和长线性伸展机械臂的机器人。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:36
+msgid "goBILDA Robot in 3 Days, Into The Deep, pivoting linear slides"
+msgstr "goBILDA 机器人 3 天内完成，Into The Deep，旋转线性滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
+msgid ""
+"19098 Eastern Foxes, Into The Deep, Winning Alliance First Pick (Franklin), "
+"pivoting linear slides"
+msgstr ""
+"19098 Eastern Foxes，Into The Deep，Winning Alliance First Pick（富兰克林），可转动线性滑轨"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid ""
 "8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick (Ochoa), "
 "single arm + custom belt driven linear extension"
-msgstr "8417 'Lectric Legends，Rover Ruckus，入围联盟第一名（于奥乔亚举办），单臂 + 定制皮带驱动线性延长杆"
+msgstr ""
+"8417 'Lectric Legends，Rover Ruckus，入围联盟第一名（于 Ochoa 奥乔亚举办），单臂 + 定制皮带驱动线性延长杆"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:49
 msgid "Multi-Axis Arms"
 msgstr "多轴臂"
 
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:51
+msgid ""
+"A multi-axis arm consists of multiple rotational joints. A multi-axis arm "
+"provides the extension single arms lack in addition to providing much more "
+"flexibility in positioning the end effector. While multi-axis arms seem like"
+" the obvious solution to the problems single axis arms face, they are much "
+"more difficult to design, manufacture, and control, having issues with "
+"accuracy, backlash, and packaging, while providing little benefit over "
+"linear slides and other extension methods."
+msgstr ""
+"多轴机械臂由多个旋转关节组成。多轴机械臂除了具有单轴机械臂所缺乏的延伸能力外，还能更灵活地定位末端效应器。虽然多轴机械臂似乎是解决单轴机械臂所面临问题的明显方案，但其设计、制造和控制难度要大得多，存在精度、反向间隙和封装等问题，而且与线性滑轨和其他延伸方法相比几乎没有任何优势。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:53
+msgid "This is highly discouraged for inexperienced FTC teams."
+msgstr "对于缺乏经验的 FTC 团队来说，这种做法是非常不可取的。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:58
+msgid "11146's multi-axis arm"
+msgstr "11146 队伍的多轴机械臂"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:58
+msgid "11146 Barker Redbacks, Into The Deep, multi-axis arm"
+msgstr "11146 Barker Redbacks，Into The Deep，多轴机械臂"
+
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:63
-msgid "20700's multi-axis arm"
-msgstr "20700 队伍的多轴机械臂"
+msgid "20700 Snap, Freight Frenzy, multi-axis arm"
+msgstr "20700 Snap，Freight Frenzy，多轴机械臂"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:66
+msgid "Arms for End Effectors"
+msgstr "末端执行器机械臂"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:74
+msgid ""
+"Linear extension is usually seen on outtakes to increase the range of the "
+"robot's deposit."
+msgstr "线性延伸通常出现在发射装置上，以增加机器人的存放范围。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:79
+msgid "15972's robot with multi-axis intake and outtake arms"
+msgstr "15972 的机器人配有多轴拾取装置和发射装置"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:79
+msgid ""
+"15972 TehnoZ, Into The Deep, Finalist Alliance Captain (Edison), arms used "
+"on both intake and outtake, linear extension is used on outtake."
+msgstr ""
+"15972 TehnoZ，Into The Deep，入围联盟队长（Edison），拾取装置和发射装置都使用了双机械臂，发射装置使用了线性延伸。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:84
+msgid "12993's high dof outtake with horizontal extension"
+msgstr "12993 的高拾取装置，水平伸展"
