@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-20 04:30+0000\n"
+"POT-Creation-Date: 2025-10-21 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -57,6 +57,13 @@ msgid ""
 msgstr ""
 "检查确保您的系统满足 `必要要求 <https://developer.android.com/studio#Requirements>`_"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:16
+msgid ""
+"Install the latest version of Android Studio from "
+"https://developer.android.com/studio/index.html"
+msgstr ""
+"从 https://developer.android.com/studio/index.html 安装最新版本的 Android Studio"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:17
 msgid ""
 "Run the executable, follow the setup wizard, and use any and all recommended"
@@ -67,9 +74,25 @@ msgstr "运行可执行文件，按照设置向导操作，并使用推荐的所
 msgid "Setting up the SDK"
 msgstr "设置SDK"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:22
+msgid ""
+"Now that you have Android Studio installed, you're going to want to use the "
+"current season's FTC\\ |reg| SDK (software development kit) where you will "
+"create your team's code."
+msgstr "现在您已经安装了 Android Studio，您需要使用本赛季的 FTC\\ |reg| SDK（软件开发工具包）来创建您团队的代码。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:25
 msgid "Downloading the SDK"
 msgstr "下载 SDK"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:27
+msgid ""
+"The SDK is publicly released to a GitHub repository. The current SDK can be "
+"found in the `FtcRobotController <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`_ repository."
+msgstr ""
+"SDK 在 GitHub 存储库中公开发布。当前的 SDK 位于 `FtcRobotController "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ 资源库中。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:30
 msgid "Downloading and opening the SDK in Android Studio"
@@ -80,6 +103,37 @@ msgid ""
 "A screen should appear with an option to configure settings and import a "
 "project"
 msgstr "屏幕上应出现配置设置和导入项目的选项"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:38
+msgid ""
+"Click on the gear icon in the bottom left corner, and select \"check for "
+"updates.\" If you do not have the latest version, download the updates."
+msgstr "点击左下角的齿轮图标，选择 \"检查更新\"。如果没有最新版本，请下载更新。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:42
+msgid ""
+"Consider also changing the name of the final folder in the Directory textbox"
+" from ``FtcRobotController`` to something that reflects your team and the "
+"season, e.g. team number 99999 might use ``99999-2025-26-code``."
+msgstr ""
+"还可以考虑将 \"目录 \"文本框中的最终文件夹名称从 \"FtcRobotController \"更改为反映您的团队和赛季的名称，例如，编号为 "
+"99999 的团队可以使用 ``99999-2025-26-code``。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "TODO: alt text"
+msgstr "待办事项：alt 文本"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:47
+msgid ""
+"When asked if you want to trust and open the project, choose \"Trust "
+"Project\"."
+msgstr "当被问及是否信任并打开项目时，选择 \"信任项目\"。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:52
+msgid ""
+"Select the hammer icon in the icon group in the top right corner of the "
+"window. This will download any needed modules and build the project."
+msgstr "选择窗口右上角图标组中的锤子图标。这将下载所需的模块并构建项目。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:57
 msgid ""
@@ -109,6 +163,20 @@ msgstr "Android Studio 布局"
 msgid "Creating Classes"
 msgstr "创建类"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:75
+msgid ""
+"The first thing to note in the project view is the left panel with the "
+"project components. Expand the :code:`TeamCode` folder, then the "
+":code:`java` folder, and you will see an "
+":code:`org.firstinspires.ftc.teamcode` package."
+msgstr ""
+"在项目视图中，首先要注意的是左侧面板中的项目组件。展开 :code:`TeamCode` 文件夹，然后展开 :code:`java` "
+"文件夹，你会看到一个 :code:`org.firstinspires.ftc.teamcode` 文件夹。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
+msgid "TeamCode > java > org.firstinspires.ftc.teamcode"
+msgstr "TeamCode > java > org.firstinspires.ftc.teamcode"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:80
 msgid ""
 "This is where you will create your code for the robot. To create a new Java "
@@ -119,6 +187,15 @@ msgstr "这是您为机器人创建代码的地方。要创建一个新的Java�
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "New > Java Class"
 msgstr "New > Java Class"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:89
+msgid ""
+"The :code:`readme.md` file in this directory contains useful documentation, "
+"including information on sample programs shipped with the SDK that you can "
+"use and modify. We highly recommend you read this information."
+msgstr ""
+"该目录中的 :code:`readme.md` 文件包含有用的文档，包括 SDK "
+"随附的示例程序信息，您可以使用和修改这些示例程序。我们强烈建议您阅读这些信息。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:92
 msgid "Installing Your Program"
@@ -153,6 +230,12 @@ msgstr ""
 "`无线部署代码 <https://docs.revrobotics.com/duo-control/programming/android-"
 "studio-using-wireless-adb>`_"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:106
+msgid ""
+"If you're still stuck, you can ask for help in the `FTC Discord "
+"<https://discord.com/invite/ftc>`_."
+msgstr "如果您仍有问题，可以在  `FTC Discord <https://discord.com/invite/ftc>`_ 寻求帮助。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:109
 msgid "Gradle"
 msgstr "Gradle"
@@ -176,6 +259,14 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:116
 msgid "Rebuilding"
 msgstr "重建"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:118
+msgid "You can rebuild your project easily with the Build menu."
+msgstr "您可以使用 \"Build\" 菜单轻松重建项目。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:123
+msgid "The build menu at the top of the screen"
+msgstr "屏幕上方的 build 菜单"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:128
 msgid "Invalidate and Restart"
@@ -211,6 +302,19 @@ msgstr "有关正确的软件包名称和版本，请参阅您使用的任何库
 msgid "Finally, perform a Gradle sync."
 msgstr "最后，执行 Gradle 同步。"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:162
+msgid "Android Debug Bridge (adb)"
+msgstr "安卓调试桥接器（adb）"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:164
+msgid ""
+"On macOS, Linux, or using PowerShell, you will have to change any commands "
+"that start with :code:`adb` to start with :code:`./adb` if you are in the "
+":code:`platform-tools` directory."
+msgstr ""
+"在 macOS、Linux 或使用 PowerShell 时，如果您在 :code:`platform-tools` 目录中，则必须将以 "
+":code:`adb` 开头的命令更改为以 :code:`./adb` 开头。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:167
 msgid "Wireless Communication"
 msgstr "无线通信"
@@ -236,6 +340,13 @@ msgstr ""
 ":code:`C:\\Users\\Woodie\\AppData\\Local\\Android\\Sdk` 。然后导航到 "
 ":code:`platform-tools` ，一个名为 adb 的应用程序就会出现在那里。要使用它，请打开 CLI（如 PowerShell "
 "或命令提示符）并运行 :code:`adb devices` 或 :code:`./adb devices` 。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:173
+msgid ""
+"For more information on ADB, you can look at the `ADB documentation "
+"<https://developer.android.com/tools/adb>`_."
+msgstr ""
+"有关 ADB 的更多信息，请参阅 `ADB 文档  <https://developer.android.com/tools/adb>`_。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:176
 msgid "Setting Up ADB"
@@ -268,6 +379,16 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:184
 msgid "Add ADB To PATH"
 msgstr "将 ADB 添加到 PATH"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:186
+msgid ""
+"If you want to use ADB from any directory, add it to PATH. Follow an online "
+"tutorial for adding to PATH and set the PATH to include the :code:`platform-"
+"tools` directory. Once you do that, you can run ADB commands from anywhere "
+"on your system."
+msgstr ""
+"如果要从任何目录使用 ADB，请将其添加到 PATH。按照在线教程添加到 PATH，并设置 PATH 包括 :code:`platform-tools`"
+" 目录。这样，你就可以在系统的任何地方运行 ADB 命令了。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:188
 msgid "Adding variables to PATH:"
@@ -346,6 +467,12 @@ msgstr ""
 "Logcat 对于在运行时调试代码问题或找出出错原因非常有用。例如，如果您的应用程序活动崩溃，而您在日志中看到 5000 "
 "行相同的错误，那么您的代码中可能存在无限递归！"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:220
+msgid ""
+"To use logcat, plug in your device (or connect via ADB). Then, select the "
+"logcat button. Your window should look like this."
+msgstr "要使用 logcat，请插入设备（或通过 ADB 连接）。然后，选择 logcat 按钮。您的窗口应该如下所示。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Terminal and logcat tabs near the bottom left"
 msgstr "左下角附近的终端和 logcat 选项卡"
@@ -353,6 +480,14 @@ msgstr "左下角附近的终端和 logcat 选项卡"
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "A selected device and app with the error messages"
 msgstr "带有错误信息的选定设备和应用程序"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:228
+msgid ""
+"Some useful information on using logcat can be found `here "
+"<https://developer.android.com/studio/debug/logcat>`_."
+msgstr ""
+"有关使用 logcat 的一些有用信息，请参见 "
+"<https://developer.android.com/studio/debug/logcat>`_ 。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:230
 msgid ""
@@ -419,6 +554,14 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:248
 msgid "`The official git tutorial <https://git-scm.com/docs/gittutorial>`_"
 msgstr "`官方 git 教程 <https://git-scm.com/docs/gittutorial>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:249
+msgid ""
+"`GitHub's collection of git resources <https://docs.github.com/en/get-"
+"started/git-basics/set-up-git>`_"
+msgstr ""
+"GitHub 的 git 资源集 <https://docs.github.com/en/get-started/git-basics/set-up-"
+"git>`_"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:250
 msgid ""
