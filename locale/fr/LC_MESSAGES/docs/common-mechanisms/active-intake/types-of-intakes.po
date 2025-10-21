@@ -9,15 +9,16 @@
 # Justine, 2025
 # Lyna Alem, 2025
 # Nicolas Haeck, 2025
+# Frédéric Le Nabec, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-19 04:28+0000\n"
+"POT-Creation-Date: 2025-10-21 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Nicolas Haeck, 2025\n"
+"Last-Translator: Frédéric Le Nabec, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +34,41 @@ msgstr "Types de ramasseurs"
 msgid "Horizontal/Top Intake"
 msgstr "Ramasseur horizontal/Par le haut"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:5
+msgid ""
+"A horizontal intake generally is a wider style of intake that has the intake"
+" rotating on a horizontal axis or plane. Horizontal intakes are generally "
+"used for intaking smaller game elements, as these types of intakes can "
+"control more than one piece at a time. Horizontal intakes have been used "
+"successfully in games such as Res-Q and Rover Ruckus, where teams needed to "
+"pick up small cubes and balls from the floor."
+msgstr ""
+"Une ramasseur horizontal est généralement un style de ramasseur plus large "
+"dont le ramasseur tourne sur un axe ou un plan horizontal. Les ramasseurs "
+"horizontaux sont généralement utilisés pour prendre des éléments de jeu plus"
+" petits, car ces types de ramasseurs peuvent contrôler plus d'un élément à "
+"la fois. Les ramasseurs horizontaux ont été utilisées avec succès dans des "
+"jeux tels que Res-Q et Rover Ruckus, où les équipes devaient ramasser de "
+"petits cubes et des balles sur le sol."
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:8
 msgid "Vertical Intake"
 msgstr "Ramasseur vertical"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:8
+msgid ""
+"A vertical intake typically has wheels or other intake components rotating "
+"on a vertical axis (the z-axis). Vertical intakes are more controllable, as "
+"they can only pick up one element at a time. Vertical intakes excel at "
+"picking up large game elements which would be impossible to control more "
+"than one piece at once, such as the foam glyphs in Relic Recovery."
+msgstr ""
+"Un ramasseur vertical comporte généralement des roues ou d'autres composants"
+" de ramassage qui tournent sur un axe vertical (l'axe z). Les ramasseurs "
+"verticaux sont plus faciles à contrôler, car ils ne peuvent ramasser qu'un "
+"seul élément à la fois. Les ramasseurs verticaux sont idéaux pour ramasser "
+"de gros éléments de jeu dont il serait impossible de contrôler plusieurs a "
+"la fois, comme les glyphes en mousse dans Relic Recovery."
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:10
 msgid ""
@@ -43,6 +76,10 @@ msgid ""
 msgstr ""
 "Vous trouverez ci-dessous différentes mises en œuvre de ramasseurs "
 "horizontaux et verticaux :"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:13
+msgid "Roller and Wheeled Intakes"
+msgstr "Ramasseurs à Rouleaux et à Roues"
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:69
 msgid "Surgical Tubing"
