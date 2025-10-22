@@ -3,16 +3,50 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Соня Либерман, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 17:46+0000\n"
+"POT-Creation-Date: 2025-10-22 16:33+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:5
+#: ../../gm0/source/docs/design-skills/cad.rst:13
+msgid "Computer-aided design (CAD)"
+msgstr "Computer-aided design (CAD) - Автоматизированное проектирование"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:8
+msgid "Introduction"
+msgstr "Вступление"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:17
+msgid ""
+"**CAD is not necessary in FTC to build a successful robot.** Many successful"
+" teams didn't CAD their robot at all. Other successful teams only made parts"
+" of their robot in CAD. Still other teams fully designed their robot in CAD."
+msgstr ""
+"**Для создания успешного робота в FTC не требуется CAD.** Многие успешные "
+"команды вообще не создавали своих роботов в CAD. Другие успешные команды "
+"создавали только отдельные части своих роботов в CAD. Другие команды "
+"полностью проектировали своих роботов в CAD."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:19
+msgid ""
+"So, what's the point of CAD, then? It is encouraged that new teams try their"
+" hand at CAD, especially if you have a mentor or parent who is experienced "
+"in such an area. CAD is beneficial for multiple reasons."
+msgstr ""
+"Итак, в чем же тогда смысл CAD? Приветствуется, чтобы новые команды "
+"пробовали свои силы в CAD, особенно если у вас есть наставник или родитель, "
+"имеющий опыт работы в этой области. CAD полезен по нескольким причинам."
