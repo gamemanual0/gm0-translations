@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2024
 # DomnickJYH, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 04:29+0000\n"
+"POT-Creation-Date: 2025-10-23 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: DomnickJYH, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,8 +36,9 @@ msgid ""
 " WiFi or WiFi Direct."
 msgstr ""
 "FTC\\ |reg| 控制系统由 \":term:`Robot Controller`\" 和 \":term:`Driver Station`\" "
-"组成。 :term:`Robot Controller` 安装在机器人上。它嵌入或连接到特殊的“集线器”，而“集线器”又连接到电机、舵机和传感器。 "
-":term:`Robot Controller` 通过 WiFi 或 WiFi Direct 与 :term:`Driver Station` 相连。"
+"组成。 :term:`Robot Controller` "
+"安装在机器人上。它嵌入或连接到特殊的“集线器(Hub)”，而“集线器”又连接到电机、舵机和传感器。 :term:`Robot Controller` "
+"通过 WiFi 或 WiFi Direct 与 :term:`Driver Station` 相连。"
 
 #: ../../gm0/source/docs/power-and-electronics/control-system.rst:8
 msgid ""
@@ -69,6 +70,14 @@ msgid ""
 "`REV Control System Documentation <https://docs.revrobotics.com/duo-"
 "control/>`_"
 msgstr "`REV 控制系统文件 <https://docs.revrobotics.com/duo-control/>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst:14
+msgid ""
+"`Official troubleshooting guide <https://ftc-"
+"resources.firstinspires.org/ftc/archive/2026/team/robot-troubleshooting>`_"
+msgstr ""
+"`官方故障排除指南 <https://ftc-"
+"resources.firstinspires.org/ftc/archive/2026/team/robot-troubleshooting>`_"
 
 #: ../../gm0/source/docs/power-and-electronics/control-system.rst:16
 msgid ""
