@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 04:28+0000\n"
+"POT-Creation-Date: 2025-10-23 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -610,13 +610,12 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:170
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:180
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:200
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:190
 msgid "Compact enough to fit into a goBILDA channel"
 msgstr "Suffisamment compact pour tenir dans un canal goBILDA"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:172
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:182
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:192
 msgid "**Things to consider**:"
 msgstr "**Les éléments à prendre en compte** :"
 
@@ -644,36 +643,10 @@ msgid "Hasn't been iterated on in a while"
 msgstr "Il n'y a pas eu d'itération depuis un certain temps."
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:187
-msgid "**11115 Gluten Free Design - 2019**"
-msgstr "**11115 Gluten Free Design - 2019**"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:189
-msgid ""
-"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
-msgstr ""
-"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:190
-msgid ""
-"The above link the entire robot assembly for 11115's CAD for the 2018-19 "
-"season"
-msgstr ""
-"Le lien ci-dessus est l'assemblage complet du robot pour le CAD de 11115 "
-"pour la saison 2018-19."
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:194
-msgid "Uses LEGO\\ |reg| gears"
-msgstr "Utilise les engrenages LEGO\\ |reg|"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:195
-msgid "Uses US Digital S4T's. Quite pricey"
-msgstr "Utilise les S4T de US Digital. Assez cher"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:197
 msgid "**9794 Wizards.exe Design**"
 msgstr "**9794 Wizards.exe Design**"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:199
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:189
 msgid ""
 "https://www.youtube.com/watch?list=PLICNg-"
 "rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
@@ -681,15 +654,15 @@ msgstr ""
 "https://www.youtube.com/watch?list=PLICNg-"
 "rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:201
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:191
 msgid "**No longer recommended as it utilizes the E8T**"
 msgstr "**Il n'est plus recommandé car il utilise l'E8T**."
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:194
 msgid "Spring Tensioning"
 msgstr "Tension des ressorts"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:196
 msgid ""
 "It is *highly* recommended that your dead wheel design includes some form of"
 " spring tensioning that pushes the wheel into the ground. This ensures that "
@@ -706,7 +679,7 @@ msgstr ""
 "l'esprit qu'une force trop importante peut soulever un châssis léger du sol "
 "et perturber la conduite."
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:208
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:198
 msgid ""
 "The most popular method of spring tensioning is to pivot your pod around a "
 "point and provide a rotational force via a spring or rubber band."
@@ -715,15 +688,15 @@ msgstr ""
 " le pod autour d'un point et à exercer une force de rotation à l'aide d'un "
 "ressort ou d'un élastique."
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
 msgid "A demonstration of pivoting spring tensioning"
 msgstr "Démonstration de la tension d'un ressort pivotant"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
 msgid "FTC 14320's spring tensioning"
 msgstr "Tension du ressort du FTC 14320"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:216
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
 msgid ""
 "A much more niche option is to vertically spring odometry pods. The idea is "
 "that springing around a pivot will cause the dead wheels to move in the axis"
@@ -743,19 +716,19 @@ msgstr ""
 "recommandée pour l'amélioration relativement mineure de la précision qu'elle"
 " apporte."
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:212
 msgid "An example of vertical spring tensioning"
 msgstr "Un exemple de tension verticale des ressorts"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:212
 msgid "FTC 18172's vertical springing"
 msgstr "Ressort vertical de la FTC 18172"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:225
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:215
 msgid "Gallery"
 msgstr "Galerie"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:228
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:218
 msgid "Open Odometry (REV Through Bore Encoder)"
 msgstr "Odométrie ouverte (Encodeur REV à travers l'alésage)"
 
@@ -767,7 +740,7 @@ msgstr "Dessin éclaté de la conception de l'Odométrie Ouverte"
 msgid "Section view of Open Odometry"
 msgstr "Vue en coupe de l'odométrie ouverte"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:239
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:229
 msgid "FTC\\ |reg| Team 14310 (REV Through Bore Encoder)"
 msgstr "FTC\\ |reg| Équipe 14310 (Encodeur de Passage REV)"
 
@@ -775,7 +748,7 @@ msgstr "FTC\\ |reg| Équipe 14310 (Encodeur de Passage REV)"
 msgid "14130's odometry"
 msgstr "L'odométrie du 14130"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:246
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:236
 msgid "FTC Team 8802 (REV Through Bore Encoder)"
 msgstr "FTC Team 8802 (Encodeur à Alésage REV)"
 
@@ -783,7 +756,7 @@ msgstr "FTC Team 8802 (Encodeur à Alésage REV)"
 msgid "8802's odometry"
 msgstr "L'odométrie du 8802"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:253
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:243
 msgid "FTC Team 14320 (US Digital S4T)"
 msgstr "FTC Team 14320 (US Digital S4T)"
 
@@ -791,15 +764,15 @@ msgstr "FTC Team 14320 (US Digital S4T)"
 msgid "14320's odometry"
 msgstr "L'odométrie du 14320"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:260
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:250
 msgid "FTC Team 11115 (US Digital S4T)"
 msgstr "FTC Team 11115 (US Digital S4T)"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:256
 msgid "11115's odometry"
 msgstr "L'odométrie de 11115"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:256
 msgid ""
 "`FTC Team 11115 Photo Album "
 "<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
@@ -809,7 +782,7 @@ msgstr ""
 "<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
 "KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:269
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:259
 msgid "FTC Team 14481 (REV Through Bore Encoder)"
 msgstr "FTC Team 14481 (Encodeur à Alésage REV)"
 
@@ -817,27 +790,27 @@ msgstr "FTC Team 14481 (Encodeur à Alésage REV)"
 msgid "14481's odometry"
 msgstr "L'odométrie de 14481"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:276
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
 msgid "FTC Team 3658 (REV Through Bore Encoder)"
 msgstr "FTC Team 3658 (Encodeur REV à Travers l'Alésage)"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:272
 msgid "Render of 3658's odometry"
 msgstr "Rendu de l'odométrie de 3658"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:272
 msgid "FTC Team 3658 CAD"
 msgstr "Équipe FTC 3658 CAD"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:285
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:275
 msgid "FTC Team 7236 (REV Through Bore Encoder)"
 msgstr "FTC Team 7236 (Encodeur à Alésage REV)"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:291
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:281
 msgid "Exploded view of 7236's odometry"
 msgstr "Vue éclatée de l'odométrie du 7236"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:291
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:281
 msgid "FTC Team 7236 CAD"
 msgstr "Équipe FTC 7236 CAD"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-22 16:33+0000\n"
+"POT-Creation-Date: 2025-10-23 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Соня Либерман, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -50,3 +50,140 @@ msgstr ""
 "Итак, в чем же тогда смысл CAD? Приветствуется, чтобы новые команды "
 "пробовали свои силы в CAD, особенно если у вас есть наставник или родитель, "
 "имеющий опыт работы в этой области. CAD полезен по нескольким причинам."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:22
+msgid ""
+"CAD is a professional tool that is used in many STEM fields. Having CAD "
+"knowledge and skills will be beneficial in your future career, should you "
+"study and work in those fields."
+msgstr ""
+"CAD - это профессиональный инструмент, который используется во многих "
+"областях STEM. Знания и навыки в области CAD будут полезны в вашей будущей "
+"карьере, если вы будете учиться и работать в этих областях."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:26
+msgid ""
+"**However, CAD is not the magic genie that will guarantee you success in "
+"FTC.** When used properly, it is a great tool to aid teams in building their"
+" robot. Keep in mind, though, that many teams have had success without CAD."
+msgstr ""
+"**Однако CAD - это не волшебный инструмент, который гарантирует вам успех в "
+"FTC.** При правильном использовании это отличный инструмент, помогающий "
+"командам создавать своих роботов. Однако имейте в виду, что многие команды "
+"добились успеха и без CAD."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:31
+msgid "Overview of CAD Programs"
+msgstr "Обзор CAD-программ"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:36
+msgid "`Onshape <https://www.onshape.com/en/education/>`_"
+msgstr "`Onshape <https://www.onshape.com/en/education/>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:38
+msgid ""
+"A fully-featured CAD package, but it runs entirely in the cloud. It can run "
+"on any computer (even Chromebooks!) and has iOS, iPadOS, and Android apps as"
+" well."
+msgstr ""
+"Это полнофункциональный пакет CAD, но он полностью работает в облаке. Он "
+"может работать на любом компьютере (даже на ноутбуках Chromebook!), а также "
+"поддерживает приложения для iOS, iPadOS и Android."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:42
+msgid ""
+"OnShape also has FeatureScript, a programming language where you can write "
+"custom features. The community has created a lot of very useful "
+"FeatureScripts already which you can use completely for free."
+msgstr ""
+"В OnShape также есть FeatureScript, язык программирования, на котором вы "
+"можете создавать пользовательские функции. Сообщество уже создало множество "
+"очень полезных FeatureScripts, которые вы можете использовать совершенно "
+"бесплатно."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:49
+msgid ""
+"`SolidWorks "
+"<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
+msgstr ""
+"`SolidWorks "
+"<https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:55
+msgid ""
+"If you have mentors or team members with previous experience in SolidWorks "
+"or an engineering class at your school that teaches SolidWorks, it will be "
+"your best choice."
+msgstr ""
+"Если у вас есть наставники или участники команды с предыдущим опытом работы "
+"в SolidWorks или в вашей школе есть инженерный класс, где преподается "
+"SolidWorks, это будет ваш лучший выбор."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:58
+msgid "`Inventor <https://www.autodesk.com/education/edu-software/overview>`_"
+msgstr ""
+"`Inventor <https://www.autodesk.com/education/edu-software/overview>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:66
+msgid ""
+"If you have mentors or team members with previous experience in Inventor or "
+"an engineering class at your school that teaches Inventor, it will be your "
+"best choice."
+msgstr ""
+"Если у вас есть наставники или участники команды с предыдущим опытом работы "
+"в Inventor или в вашей школе есть инженерный класс, где преподается "
+"Inventor, это будет ваш лучший выбор."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:71
+msgid ""
+"`Fusion 360 <https://www.autodesk.com/education/edu-software/overview>`_"
+msgstr ""
+"`Fusion 360 <https://www.autodesk.com/education/edu-software/overview>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:86
+msgid ""
+"A family of CAD/CAM applications developed by PTC (Parametric Technology "
+"Corporation). Creo parametric is the main CAD package that includes robust "
+"assembly and part modeling similar to Solidworks."
+msgstr ""
+"Семейство CAD/CAM-приложений, разработанных компанией PTC (Parametric "
+"Technology Corporation). Creo parametric - это основной пакет CAD, который "
+"включает в себя надежную сборку и моделирование деталей, аналогичное "
+"Solidworks."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:94
+msgid ""
+"College-level engineering classes as well as numerous companies in the "
+"automotive, aerospace and consumer industry use Creo. Since Creo makes use "
+"of Windows OS file system it will not run on Mac. However, a Windows "
+"emulator can be installed to run Creo on Mac."
+msgstr ""
+"На инженерных факультетах колледжей, а также во многих компаниях "
+"автомобильной, аэрокосмической и потребительской промышленности используется"
+" Creo. Поскольку Creo использует файловую систему операционной системы "
+"Windows, она не будет работать на Mac. Однако для запуска Creo на Mac можно "
+"установить эмулятор Windows."
+
+#: ../../gm0/source/docs/design-skills/cad.rst:103
+msgid ""
+"`Actobotics (ServoCity) "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_"
+msgstr ""
+"`Actobotics (ServoCity) "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:109
+msgid "File sharing"
+msgstr "Общий доступ к файлам"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:116
+msgid "Useful Resources"
+msgstr "Полезные Ресурсы"
+
+#: ../../gm0/source/docs/design-skills/cad.rst:118
+msgid ""
+"More CAD resources can be found in the :ref:`CAD section of the Useful "
+"Resources page <useful-resources-cad>`."
+msgstr ""
+"Дополнительные ресурсы по CAD можно найти в соответствующем разделе на "
+"странице :ref:`Полезные ресурсы <useful-resources-cad>`. "

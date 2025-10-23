@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 04:18+0000\n"
+"POT-Creation-Date: 2025-10-23 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -70,16 +70,6 @@ msgid ""
 "control/>`_"
 msgstr "`REV 控制系统文件 <https://docs.revrobotics.com/duo-control/>`_"
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rst:14
-msgid ""
-"`Official troubleshooting guide "
-"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
-"system-troubleshooting-guide.pdf>`_"
-msgstr ""
-"`官方故障排除指南 "
-"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
-"system-troubleshooting-guide.pdf>`_"
-
 #: ../../gm0/source/docs/power-and-electronics/control-system.rst:16
 msgid ""
 "There are two possible control systems that can be run on an FTC robot "
@@ -129,7 +119,7 @@ msgstr ""
 "有关设置Control Hub和配置机器人的更多信息，请访问 `REV Robotics' Technical Resources Control "
 "Hub Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`_ 。"
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rstNone
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst-1
 msgid "A diagram of the Control Hub + Expansion Hub control system"
 msgstr "Control Hub + Expansion Hub控制系统示意图"
 
@@ -165,6 +155,6 @@ msgstr "`USB 固定安装 <https://www.revrobotics.com/rev-41-1214/>`_"
 msgid "`XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_"
 msgstr "`XT30 缓解压力 <https://www.thingiverse.com/thing:2887045>`_"
 
-#: ../../gm0/source/docs/power-and-electronics/control-system.rstNone
+#: ../../gm0/source/docs/power-and-electronics/control-system.rst-1
 msgid "A diagram of the RC Phone + Expansion Hub(s) control system"
 msgstr "RC Phone + Expansion Hub控制系统示意图"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:31+0000\n"
+"POT-Creation-Date: 2025-10-23 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -487,13 +487,12 @@ msgstr "最流行和最强大的公开可用设计"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:170
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:180
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:200
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:190
 msgid "Compact enough to fit into a goBILDA channel"
 msgstr "紧凑到足以放入goBILDA通道"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:172
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:182
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:192
 msgid "**Things to consider**:"
 msgstr "**需要考虑的事项**："
 
@@ -519,34 +518,10 @@ msgid "Hasn't been iterated on in a while"
 msgstr "已经有一段时间没有迭代了"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:187
-msgid "**11115 Gluten Free Design - 2019**"
-msgstr "**11115 Gluten Free Design - 2019**"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:189
-msgid ""
-"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
-msgstr ""
-"https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:190
-msgid ""
-"The above link the entire robot assembly for 11115's CAD for the 2018-19 "
-"season"
-msgstr "以上链接2018-19赛季11115的CAD的整个机器人组件"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:194
-msgid "Uses LEGO\\ |reg| gears"
-msgstr "使用 LEGO\\ |reg| 齿轮"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:195
-msgid "Uses US Digital S4T's. Quite pricey"
-msgstr "用US电子S4T(相当昂贵)"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:197
 msgid "**9794 Wizards.exe Design**"
 msgstr "**9794 Wizards.exe Design**"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:199
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:189
 msgid ""
 "https://www.youtube.com/watch?list=PLICNg-"
 "rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
@@ -554,15 +529,15 @@ msgstr ""
 "https://www.youtube.com/watch?list=PLICNg-"
 "rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:201
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:191
 msgid "**No longer recommended as it utilizes the E8T**"
 msgstr "**不再推荐使用E8T**"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:194
 msgid "Spring Tensioning"
 msgstr "弹簧绷紧"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:196
 msgid ""
 "It is *highly* recommended that your dead wheel design includes some form of"
 " spring tensioning that pushes the wheel into the ground. This ensures that "
@@ -574,21 +549,21 @@ msgstr ""
 "*强烈* "
 "建议你的无动力全向轮设计包括某种形式的弹簧绷紧，将车轮推入地面。这确保车轮始终与地面接触并具有足够的牵引力。需要足够的力来确保恒定的牵引力以防止车轮打滑。请记住，太大的力可能会将轻型驱动列车抬离地面并扰乱驾驶。"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:208
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:198
 msgid ""
 "The most popular method of spring tensioning is to pivot your pod around a "
 "point and provide a rotational force via a spring or rubber band."
 msgstr "最流行的弹簧绷紧方法是将里程计围绕一个点枢转，并通过弹簧或橡皮筋提供旋转力。"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
 msgid "A demonstration of pivoting spring tensioning"
 msgstr "一个用枢轴的弹簧绷紧演示"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:214
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:204
 msgid "FTC 14320's spring tensioning"
 msgstr "FTC 14320's spring tensioning"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:216
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:206
 msgid ""
 "A much more niche option is to vertically spring odometry pods. The idea is "
 "that springing around a pivot will cause the dead wheels to move in the axis"
@@ -600,19 +575,19 @@ msgid ""
 msgstr ""
 "一个更小众的选择是垂直弹簧内置里程计轮。这个想法是，如果无动力全向轮相对于地面的高度发生变化，围绕枢轴弹出将导致无动力全向轮在平行于地面的轴上移动。垂直弹出的内置里程计轮不会遇到这样的问题。然而，这并不是大多数团队都会遇到的问题。垂直弹簧更难设计好，并且不建议在精度上相对较小的改进。"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:212
 msgid "An example of vertical spring tensioning"
 msgstr "一个垂直弹簧绷紧示例"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:222
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:212
 msgid "FTC 18172's vertical springing"
 msgstr "FTC 18172's vertical springing"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:225
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:215
 msgid "Gallery"
 msgstr "画廊"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:228
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:218
 msgid "Open Odometry (REV Through Bore Encoder)"
 msgstr "开放式里程计（REV通孔编码器）"
 
@@ -624,7 +599,7 @@ msgstr "开放式测距设计"
 msgid "Section view of Open Odometry"
 msgstr "开放式里程计的剖视视角"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:239
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:229
 msgid "FTC\\ |reg| Team 14310 (REV Through Bore Encoder)"
 msgstr "FTC\\ |reg| Team 14310（REV 通孔编码器）"
 
@@ -632,7 +607,7 @@ msgstr "FTC\\ |reg| Team 14310（REV 通孔编码器）"
 msgid "14130's odometry"
 msgstr "14130 的里程测量"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:246
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:236
 msgid "FTC Team 8802 (REV Through Bore Encoder)"
 msgstr "FTC团队8802（REV通过孔编码器）"
 
@@ -640,7 +615,7 @@ msgstr "FTC团队8802（REV通过孔编码器）"
 msgid "8802's odometry"
 msgstr "8802 的里程测量"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:253
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:243
 msgid "FTC Team 14320 (US Digital S4T)"
 msgstr "FTC团队14320（US电子 S4T编码器）"
 
@@ -648,15 +623,15 @@ msgstr "FTC团队14320（US电子 S4T编码器）"
 msgid "14320's odometry"
 msgstr "14320 的里程测量"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:260
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:250
 msgid "FTC Team 11115 (US Digital S4T)"
 msgstr "FTC团队11115（US电子 S4T编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:256
 msgid "11115's odometry"
 msgstr "11115 的里程测量"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:256
 msgid ""
 "`FTC Team 11115 Photo Album "
 "<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
@@ -666,7 +641,7 @@ msgstr ""
 "<https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-"
 "KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:269
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:259
 msgid "FTC Team 14481 (REV Through Bore Encoder)"
 msgstr "FTC团队14481（REV通过孔编码器）"
 
@@ -674,27 +649,27 @@ msgstr "FTC团队14481（REV通过孔编码器）"
 msgid "14481's odometry"
 msgstr "14481 的里程测量"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:276
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:266
 msgid "FTC Team 3658 (REV Through Bore Encoder)"
 msgstr "FTC队3658（REV通过孔编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:272
 msgid "Render of 3658's odometry"
 msgstr "提供3658的里程计"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:282
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:272
 msgid "FTC Team 3658 CAD"
 msgstr "FTC队伍 3658 CAD"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:285
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:275
 msgid "FTC Team 7236 (REV Through Bore Encoder)"
 msgstr "FTC队7236（REV通过孔编码器）"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:291
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:281
 msgid "Exploded view of 7236's odometry"
 msgstr "7236 的里程计剖视图"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:291
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:281
 msgid "FTC Team 7236 CAD"
 msgstr "FTC 7236 CAD队伍"
 

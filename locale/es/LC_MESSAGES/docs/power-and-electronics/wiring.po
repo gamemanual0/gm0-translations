@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 04:15+0000\n"
+"POT-Creation-Date: 2025-10-23 04:29+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -69,28 +69,6 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:16
 msgid "*FIRST*\\ |reg| FTC Wiring Guide"
 msgstr "*FIRST*\\ |reg| Guía de cableado de FTC"
-
-#: ../../gm0/source/docs/power-and-electronics/wiring.rst:18
-msgid ""
-"*FIRST*\\ |reg| has created a wiring guide to help teams with tasks like "
-"crimping cables, soldering connections, and ESD mitigation that won't be "
-"covered in this guide. Once you read up on electronics and wiring here, look"
-" at the `FTC Wiring Guide "
-"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
-"wiring-guide.pdf>`_ for the best practices and more tips & tricks. In "
-"addition, *FIRST* has written an `ESD Mitigation Whitepaper "
-"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
-"esd-mitigation-echin.pdf>`_ that is worth taking a look at."
-msgstr ""
-"*FIRST* ha creado una guía de cableado para ayudar a los equipos con tareas "
-"como el engarzado de cables, la soldadura de conexiones y la mitigación de "
-"ESD que no se cubrirán en esta guía. Una vez que hayas leído sobre "
-"electrónica y cableado aquí, consulta la `Guía de cableado de FTC "
-"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-"
-"wiring-guide.pdf>`_ para conocer las mejores prácticas y más consejos y "
-"trucos. Además, *FIRST* ha escrito un `Whitepaper de mitigación de ESD "
-"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-"
-"esd-mitigation-echin.pdf>`_ que vale la pena revisar."
 
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:21
 msgid "General Advice"
@@ -241,7 +219,7 @@ msgstr "Un ejemplo de mala instalación eléctrica"
 msgid "Bad example of wiring!"
 msgstr "¡Mal ejemplo de cableado!"
 
-#: ../../gm0/source/docs/power-and-electronics/wiring.rstNone
+#: ../../gm0/source/docs/power-and-electronics/wiring.rst-1
 #: ../../gm0/source/docs/power-and-electronics/wiring.rst:48
 msgid "An example of good wiring by 731"
 msgstr "Un ejemplo de buena conexión eléctrica por 731"
