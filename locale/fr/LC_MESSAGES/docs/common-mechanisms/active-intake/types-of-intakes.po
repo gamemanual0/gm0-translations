@@ -7,18 +7,18 @@
 # Younes Djafri, 2025
 # Dusto867@gmail.com, 2025
 # Justine, 2025
-# Lyna Alem, 2025
 # Nicolas Haeck, 2025
 # Frédéric Le Nabec, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-21 04:29+0000\n"
+"POT-Creation-Date: 2025-10-24 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Frédéric Le Nabec, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,9 +81,229 @@ msgstr ""
 msgid "Roller and Wheeled Intakes"
 msgstr "Ramasseurs à Rouleaux et à Roues"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:15
+msgid ""
+"Roller and wheeled intakes refer to types of intakes which work by having "
+"some sort of hard or pliable object rotate along an axis. Wheeled intakes "
+"use different kinds of wheels (solid traction, compliant, or foam wheels) "
+"that propel the game element to the collection bin. Roller intakes are "
+"wider, and can sometimes intake more than one game element."
+msgstr ""
+"Les ramasseurs à rouleaux et à roues se réfèrent à des types de ramasseurs "
+"qui fonctionnent en faisant tourner une sorte d'objet dur ou souple le long "
+"d'un axe. Les ramasseurs à roues utilisent différents types de roues (roues "
+"à traction solide, roues souples ou roues en mousse) qui propulsent "
+"l'élément de jeu vers le bac de collecte. Les ramasseurs à rouleaux sont "
+"plus larges et peuvent parfois contenir plus d'un élément de jeu."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:17
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:66
+msgid "Term"
+msgstr "Terme"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:20
+msgid "Compliant Wheel"
+msgstr "Roue flexible"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:22
+msgid ""
+"A compliant wheel is a flexible rubber wheel that is primarily used for "
+"intakes. These are **NOT** designed for use in drivetrains."
+msgstr ""
+"Une roue flexible est une roue en caoutchouc flexible qui est principalement"
+" utilisée pour les ramasseurs. Elles ne sont **PAS** conçues pour être "
+"utilisées dans les transmissions."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:24
+msgid ""
+"The available bore options vary depending on the vendor. As with the "
+"compliant wheels, durometer (hardness of rubber) affects both traction and "
+"longevity, sacrificing one for the other. However, in the case of intakes, a"
+" lower durometer is recommended to have maximum grippiness for intaking game"
+" elements."
+msgstr ""
+"Les options d'alésage disponibles varient en fonction du fournisseur. Comme "
+"pour les roues flexibles, le duromètre (dureté du caoutchouc) affecte à la "
+"fois la traction et la longévité, sacrifiant l'une pour l'autre. Toutefois, "
+"dans le cas des ramasseurs, il est recommandé d'utiliser un duromètre plus "
+"faible afin d'obtenir une adhérence maximale pour les éléments de jeu à "
+"prendre en charge."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:26
+msgid ""
+"Durometer refers to the hardness of rubber. Having a high durometer "
+"translates to a harder rubber surface, more durability, but less traction. A"
+" low durometer means a softer rubber, worse durability, but improved "
+"traction."
+msgstr ""
+"Le duromètre fait référence à la dureté du caoutchouc. Un duromètre élevé se"
+" traduit par une surface de caoutchouc plus dure, plus durable, mais moins "
+"adhérente. Un duromètre faible signifie un caoutchouc plus mou, une "
+"durabilité moindre, mais une meilleure traction."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:28
+msgid ""
+"Examples of compliant wheel are Andymark's Compliant Wheels, and goBILDA's "
+"Gecko Wheels."
+msgstr ""
+"Les roues flexibles d'Andymark et les roues Gecko de goBILDA sont des "
+"exemples de roues flexibles."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:34
+msgid "A 2\" green compliant wheel"
+msgstr "Une roue flexible verte de 2\" "
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:34
+msgid "A 2\" compliant wheel"
+msgstr "Une roue flexible de 2\""
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:40
+msgid "A 4\" green compliant wheel"
+msgstr "Une roue verte flexible de 4\""
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:40
+msgid "A 4\" compliant wheel"
+msgstr "Une roue flexible de 4\""
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:43
+msgid "Solid Wheel Intake"
+msgstr "Ramasseur à roues pleines"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:45
+msgid ""
+"Solid wheel intakes use wheels such as grip and traction wheels to pick up "
+"game elements. They can be effective in picking up large game elements which"
+" do not have much tolerance difference."
+msgstr ""
+"Les ramasseurs à roues pleines utilisent des roues comme des roues à "
+"adhérence ou des roues de traction pour ramasser les éléments de jeu. Ils "
+"peuvent être efficaces pour ramasser de gros éléments de jeu qui ne "
+"présentent pas beaucoup de différence de tolérance."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:47
+msgid ""
+"However, compliant wheel intakes generally will be more effective because "
+"compliant wheels offer more adjustability and forgiveness for the game "
+"elements. Compliant wheels also accounting for different game element "
+"orientations (the game pieces can get rotated when being controlled) and "
+"intake angles (the orientation of the game piece before it reaches the "
+"intake)."
+msgstr ""
+"Cependant, les ramasseurs à roues flexibles seront généralement plus "
+"efficaces, car les roues flexibles offrent plus d’adaptabilité et de "
+"tolérance pour les éléments de jeu. Les roues flexibles tiennent également "
+"compte des différentes orientations des éléments de jeu (les pièces peuvent "
+"pivoter lorsqu’elles sont manipulées) et des angles de ramassage "
+"(l’orientation de la pièce avant qu’elle n’atteigne le ramasseur)."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:50
+msgid "Compliant Wheel Intake"
+msgstr "Ramasseur à roues flexibles"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst-1
+msgid "Spring-Loaded Intakes"
+msgstr "Ramasseurs à ressorts"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:54
+msgid ""
+"A spring-loaded intake is able to pivot in order to accommodate a game "
+"element when it is passing through the intake, but will snap back when the "
+"element has gone through. A spring-loaded intake requires more thought, but "
+"guarantees that the intake wheel will always be in contact with the desired "
+"element."
+msgstr ""
+"Un ramasseur à ressorts peut pivoter afin de s’adapter à un élément de jeu "
+"lorsqu’il passe à travers le ramasseur, mais revient rapidement en place une"
+" fois que l’élément est passé. Un ramasseur à ressorts demande plus de "
+"réflexion dans sa conception, mais garantit que la roue de ramassage reste "
+"toujours en contact avec l’élément souhaité."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:56
+msgid ""
+"A locked intake simply means that the wheels are locked into place and "
+"cannot pivot."
+msgstr ""
+"Un ramasseur fixe signifie simplement que les roues sont bloquées en "
+"position et ne peuvent pas pivoter."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:58
+msgid ""
+"The compliant wheel intake is most commonly used with large game elements "
+"such as the glyphs in the 2017-2018 season, Relic Recovery. Compliant wheel "
+"intakes excel at controlling elements with flat surfaces such as cubes or "
+"rectangular prisms. They suffer at picking up balls."
+msgstr ""
+"Le ramasseur à roues flexibles est le plus souvent utilisé avec de grands "
+"éléments de jeu, comme les glyphes de la saison 2017-2018, Relic Recovery. "
+"Les ramasseurs à roues flexibles excellent dans le contrôle d’éléments ayant"
+" des surfaces planes, comme les cubes ou les prismes rectangulaires. Ils ont"
+" cependant du mal à ramasser les balles."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:60
+msgid ""
+"In this game, robots had to pick up glyphs, which were 6 inch foam cubes, "
+"from the center pit and place them in the cryptobox. This game had many "
+"wheeled intakes primarily because the wheels had consistent and controllable"
+" contact with the glyphs. Wheeled intakes were able to propel the glyphs in "
+"a consistent fashion from the point of contact to the deposit plate, which "
+"would flip up to deposit the glyphs."
+msgstr ""
+"Dans ce jeu, les robots devaient ramasser des glyphes, qui étaient des cubes"
+" en mousse de 6 pouces, depuis la fosse centrale et les placer dans la "
+"cryptobox. Ce jeu utilisait de nombreux ramasseurs à roues principalement "
+"parce que les roues assuraient un contact constant et contrôlable avec les "
+"glyphes. Les ramasseurs à roues pouvaient propulser les glyphes de manière "
+"régulière depuis le point de contact jusqu’à la plaque de dépôt, qui se "
+"relevait pour déposer les glyphes."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:62
+msgid ""
+"Wheeled intakes can be spring-loaded or locked into place. Teams could "
+"choose one or mix; in Relic Recovery, some teams spring-loaded the set of "
+"wheels that made contact first, and then had a fixed set in the back. This "
+"is up to the design team's choosing."
+msgstr ""
+"Les ramasseurs à roues peuvent être montés sur ressorts ou fixés en "
+"position. Les équipes pouvaient choisir l’une ou l’autre option, ou même "
+"combiner les deux. Dans Relic Recovery, certaines équipes montaient sur "
+"ressorts l’ensemble de roues qui entrait en contact en premier, puis avaient"
+" un ensemble fixe à l’arrière. Ce choix dépend entièrement de l’équipe de "
+"conception."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:64
+msgid ""
+"Wheeled intakes operate at much slower RPM than surgical tubing intakes, as "
+"wheeled intakes are meant to pick up **one** element at a time. They "
+"generally require more torque than a surgical tubing intake, which is geared"
+" for speed."
+msgstr ""
+"Les ramasseurs à roues fonctionnent à une vitesse de rotation bien plus "
+"faible que les ramasseurs à tubes chirurgicaux, car ils sont conçus pour "
+"ramasser un seul élément à la fois. Ils nécessitent généralement plus de "
+"couple qu’un ramasseur à tubes chirurgicaux, qui est conçu pour la vitesse."
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:69
 msgid "Surgical Tubing"
 msgstr "Tubes Chirurgicaux"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:71
+msgid ""
+"Surgical tubing is generally latex or rubber tubing. Its most common use "
+"case is in active intakes, and has been popular among teams for many "
+"seasons. Surgical tubing has a hollow center and is sold in different "
+"diameters and wall thicknesses. Teams can experiment with different kinds of"
+" surgical tubing, as well as adding polyurethane tubing (clear tubing that "
+"is stiffer than rubber or latex tubing) in order to make the tubing more "
+"stiff."
+msgstr ""
+"Le tube chirurgical est généralement un tube en latex ou en caoutchouc. Son "
+"utilisation la plus courante est dans les ramasseurs actifs, et il est "
+"populaire parmi les équipes depuis de nombreuses saisons. Le tube "
+"chirurgical possède un centre creux et est vendu avec différents diamètres "
+"et épaisseurs de paroi. Les équipes peuvent expérimenter différents types de"
+" tubes chirurgicaux, ainsi qu’ajouter des tubes en polyuréthane (tubes "
+"transparents plus rigides que les tubes en caoutchouc ou en latex) afin de "
+"rendre le système plus rigide."
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst-1
 msgid "A roll of surgical tubing"
@@ -127,6 +347,132 @@ msgstr "N'est généralement pas utilisé pour ramasser de petits éléments"
 msgid "Can generally only pick up one specific element shape"
 msgstr "Ne peut généralement capter qu'une forme d'élément spécifique"
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
+msgid "9971's Relic Recovery intake"
+msgstr "Le ramasseur de 9971 pendant la saison Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:95
+msgid ""
+"9971 LanBros, Finalist Alliance First Pick (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"9971 LanBros, premier choix de l’alliance finaliste (Détroit), Relic "
+"Recovery, ramasseur à ressorts"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
+msgid "8680's Relic Recovery intake"
+msgstr "Le ramasseur de 8680 pendant la saison Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:100
+msgid "8680 Kraken-Pinion, Relic Recovery"
+msgstr "8680 Kraken-Pinion, Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
+msgid "2856's Relic Recovery intake"
+msgstr "Le ramasseur de 2856 pendant la saison Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:105
+msgid ""
+"2856 Tesseract, Relic Recovery, 2 & 4 in. compliant wheels, 2 in. omni "
+"wheels"
+msgstr ""
+"2856 Tesseract, Relic Recovery, roues flexibles de 2 et 4 pouces, roues "
+"omnidirectionnelles de 2 pouces"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
+msgid "11115's Relic Recovery intake"
+msgstr "Le ramasseur de 11115 pendant la saison Relic Recovery"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:110
+msgid ""
+"11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
+"springloaded"
+msgstr ""
+"11115 Gluten Free, capitaine de l’alliance finaliste (Détroit), Relic "
+"Recovery, ramasseur à ressorts"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:113
+msgid "Foam Wheel Intake"
+msgstr "Ramasseur à roues en mousse"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:115
+msgid ""
+"A foam wheel intake has the same principles as a compliant wheel intake, "
+"except that it uses foam wheels. It is generally recommended that teams "
+"stick to compliant wheels as they are grippier and easier to control."
+msgstr ""
+"Un ramasseur à roues en mousse repose sur les mêmes principes qu’un "
+"ramasseur à roues flexibles, sauf qu’il utilise des roues en mousse. Il est "
+"généralement recommandé que les équipes utilisent plutôt des roues "
+"flexibles, car elles offrent une meilleure adhérence et sont plus faciles à "
+"contrôler."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
+msgid "6299's ResQ intake"
+msgstr "Ramasseur de ResQ de 6299"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:120
+msgid "6299 ViperBots QuadX, Res-Q"
+msgstr "6299 ViperBots QuadX, Res-Q"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:123
+msgid "Rubber Band Intake"
+msgstr "Ramasseur à élastiques"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:125
+msgid ""
+"Rubber band intakes, commonly used by in VRC, generally feature sprockets, "
+"wheels, or gears at two ends, with rubber bands interlaced in between to "
+"form a pliable and bendable roller. Generally, it can be actuated or "
+"adjustable with a servo, although this is not necessary."
+msgstr ""
+"Les ramasseurs à élastiques, couramment utilisés en VRC, comportent "
+"généralement des pignons, des roues ou des engrenages à leurs deux "
+"extrémités, avec des élastiques entrelacés entre eux pour former un rouleau "
+"souple et flexible. En général, ils peuvent être actionnés ou ajustés à "
+"l’aide d’un servo, bien que cela ne soit pas nécessaire."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:127
+msgid ""
+"Rubber band intakes are great with intaking balls, but not so great with "
+"other types of game elements such as cubes. It generally is slower than a "
+"surgical tubing intake, and requires multiple stages to transfer elements "
+"from collection to deposit. Zip ties can be added to increase the intake's "
+"range to accommodate for smaller balls."
+msgstr ""
+"Les ramasseurs à bandes élastiques sont très efficaces pour ramasser des "
+"balles, mais beaucoup moins adaptés à d’autres types d’éléments de jeu comme"
+" les cubes. En général, ils sont plus lents qu’un ramasseur à tube "
+"chirurgical et nécessitent plusieurs étapes pour transférer les éléments de "
+"la collecte au dépôt. Des attaches autobloquantes peuvent être ajoutées pour"
+" augmenter la portée du ramasseur et permettre de ramasser des balles plus "
+"petites."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:132
+msgid "A rubber band intake for VRC Turning Point"
+msgstr "Un ramasseur à bandes élastiques pour VRC Turning Point"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:132
+msgid "Ball intake for VRC Game Turning Point"
+msgstr "Ramasseur de balles pour le jeu VRC Turning Point"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:135
+msgid "Tubing Intakes"
+msgstr "Ramasseurs à tubes"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:137
+msgid ""
+"Tubing or noodle intakes typically use some sort of pliable tubing, which is"
+" rotated at high RPM to intake game pieces. Tubing intakes are particularly "
+"efficient at picking up small objects such as the balls and cubes from "
+"Res-Q, Velocity Vortex, and Rover Ruckus."
+msgstr ""
+"Les ramasseurs à tubes ou à nouilles utilisent généralement un type de tube "
+"flexible, qui tourne à haute vitesse pour ramasser les éléments de jeu. Les "
+"ramasseurs à tubes sont particulièrement efficaces pour collecter de petits "
+"objets tels que les balles et les cubes des jeux Res-Q, Velocity Vortex et "
+"Rover Ruckus."
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:140
 msgid "Surgical Tubing Intake"
 msgstr "Mécanisme de ramassage avec tube"
@@ -140,6 +486,28 @@ msgstr ""
 "Les tubes chirurgicaux ou les tubes en caoutchouc pour la pêche au harpon, "
 "vendus par de nombreux fabricants, sont une excellente option pour ramasser "
 "de petits éléments de jeu tels que les minéraux de Res-Q ou de Rover Ruckus."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:144
+msgid ""
+"Surgical tubing intakes can, and often, have multiple sets of tubing in "
+"order to move minerals from the collection point to the holding box. This "
+"was most often seen in games where robots had to transfer minerals from the "
+"field to an elevated location."
+msgstr ""
+"Les ramasseurs à tubes chirurgicaux peuvent, et ont souvent, plusieurs "
+"ensembles de tubes afin de déplacer les minéraux du point de collecte "
+"jusqu’à la boîte de stockage. Ce type de système était le plus souvent "
+"utilisé dans les jeux où les robots devaient transférer des minéraux du "
+"terrain vers un emplacement surélevé."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:146
+msgid ""
+"Unlike wheeled and rubber band intakes, which can be spring-loaded, surgical"
+" tubing intakes are practically always fixed at a certain height and angle."
+msgstr ""
+"Contrairement aux ramasseurs à roues et à bandes élastiques, qui peuvent "
+"être montés sur ressort, les ramasseurs à tubes chirurgicaux sont "
+"pratiquement toujours fixés à une certaine hauteur et à un certain angle."
 
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:148
 msgid "Surgical tubing by itself is soft and pliable. Teams have two options"
@@ -181,6 +549,19 @@ msgstr ""
 "diamètre de la tubulure ou la longueur de la tubulure peut affecter "
 "l'efficacité de l'admission."
 
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:157
+msgid ""
+"Surgical tubing intakes are especially good at picking up multiple elements "
+"at a time, due to the high RPM (sometimes >1000 RPM) of the rollers. "
+"However, it suffers from a lack of controllability, as sometimes the driver "
+"may accidentally pick up more than needed, and have to spit it out."
+msgstr ""
+"Les ramasseurs à tubes chirurgicaux sont particulièrement efficaces pour "
+"ramasser plusieurs éléments à la fois, grâce à la vitesse de rotation élevée"
+" (parfois supérieure à 1000 tr/min) des rouleaux. Cependant, ils présentent "
+"un manque de contrôle : le pilote peut parfois ramasser plus d’éléments que "
+"nécessaire et devoir en recracher une partie."
+
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:162
 msgid "Able to collect multiple elements at a time"
 msgstr "Capacité à collecter plusieurs éléments à la fois"
@@ -200,3 +581,102 @@ msgstr "Nécessite une vitesse de rotation élevée"
 #: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:170
 msgid "Less controllable"
 msgstr "Moins contrôlable"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:171
+msgid "Harder to pick up large elements easily"
+msgstr ""
+"Il est plus difficile de ramasser facilement des éléments de grande taille"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
+msgid "8375's surgical tubing intake"
+msgstr "Ramassage à tube chirurgicale de 8375"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:176
+msgid "8375 Vulcan Robotics, Res-Q - great example of funneling"
+msgstr "8375 Vulcan Robotics, Res-Q - un bon exemple d'entonnoir"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
+msgid "8393's surgical tubing intake"
+msgstr "Ramassage à tube chirurgicale de 8393"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:181
+msgid ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team, Semifinalist Alliance "
+"Captain (St. Louis), Velocity Vortex"
+msgstr ""
+"Équipe 8393 Giant Diencephalic BrainSTEM Robotics, capitaine d’alliance "
+"demi-finaliste (St. Louis), Velocity Vortex"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
+msgid "11115's surgical tubing intake"
+msgstr "Ramassage à tube chirurgicale de 11115"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:186
+msgid "11115 Gluten Free, Winning Alliance First Pick (Detroit), Rover Ruckus"
+msgstr ""
+"Équipe 11115 Gluten Free, premier choix de l’alliance gagnante (Détroit), "
+"Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
+msgid "7203's surgical tubing intake"
+msgstr "Ramassage à tube chirurgicale de 7203"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:191
+msgid "7203 KNO3, Rover Ruckus"
+msgstr "Équipe 7203 KNO3, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:194
+msgid "Zip Tie Intake"
+msgstr "Ramassage avec collier de serrage"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:196
+msgid ""
+"Instead of using surgical tubing, some teams opt for heavy zip ties instead."
+" This can work, but we recommend surgical tubing as it is one of the most "
+"tried and tested methods for picking up nearly any game element. Zip ties "
+"lack the friction of rubber tubing."
+msgstr ""
+"Au lieu d'utiliser des tubes chirurgicaux, certaines équipes optent pour de "
+"gros colliers de serrage. Cela peut fonctionner, mais nous recommandons les "
+"tubes chirurgicaux, car c'est l'une des méthodes les plus éprouvées pour "
+"ramasser presque n'importe quel élément de jeu. Les attaches zip n'ont pas "
+"la friction des tubes en caoutchouc."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:199
+msgid "3D printed intake (NinjaFlex/TPU Filament)"
+msgstr "Ramasseur imprimé en 3D (NinjaFlex/filament PTU)"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:201
+msgid ""
+"TPU/NinjaFlex 3D printer filament is a great low-RPM intake flap option, if "
+"designed right they work well with servos, and several teams have "
+"successfully used this configuration in competition."
+msgstr ""
+"Le filament TPU/NinjaFlex pour imprimante 3D est une excellente option pour "
+"les ramasseurs à bas régime. S'ils sont bien conçus, ils fonctionnent bien "
+"avec les servos, et plusieurs équipes ont utilisé avec succès cette "
+"configuration en compétition."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:203
+msgid ""
+"We recommend 3D printed intakes only if your team has had experience in 3D "
+"printing parts."
+msgstr ""
+"Nous recommandons les ramasseurs imprimés en 3D uniquement si votre équipe a"
+" de l'expérience dans l'impression de pièces en 3D."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
+msgid "731's 3D printed intake"
+msgstr "Ramasseur imprimé en 3D de 731"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:208
+msgid "731 Wannabee Strange, Rover Ruckus"
+msgstr "731 Wannabee Strange, Rover Ruckus"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:213
+msgid "8417's 3D printed intake"
+msgstr "Ramasseur imprimé en 3D de 8417"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/types-of-intakes.rst:213
+msgid "8417 Lectric Legends, Rover Ruckus - TPU intake flaps"
+msgstr "8417 Lectric Legends, Rover Ruckus - Plaques de ramasseur en TPU"

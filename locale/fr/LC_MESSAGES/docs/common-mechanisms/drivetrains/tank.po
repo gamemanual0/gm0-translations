@@ -8,17 +8,17 @@
 # Younes Djafri, 2025
 # Aaraf Chy, 2025
 # Justine, 2025
-# Lyna Alem, 2025
 # sara farhat, 2025
+# Lyna Alem, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-19 16:27+0000\n"
+"POT-Creation-Date: 2025-10-24 16:31+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: sara farhat, 2025\n"
+"Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,6 +154,10 @@ msgid ""
 msgstr ""
 "Souvent :terme:`direct driven <Direct Drive>`, ce qui est fortement "
 "déconseillé pour les systèmes de transmissions."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
+msgid "Tetrix pushbot"
+msgstr "Châssis de base Tetrix"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:39
 msgid "Example pushbot drivetrain included in the starter FTC\\ |reg| guide"
@@ -388,9 +392,54 @@ msgstr "10641 Atomic Gears, Rover Ruckus"
 msgid "6 Wheel Drive (6WD)"
 msgstr "6 roues motrices (6WD)"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:135
+msgid ""
+"A 6 wheel drivetrain is a common competitive drivetrain in FTC for multiple "
+"reasons: it has fantastic traction, great turning, and by having 6 wheels, "
+"the drivetrain has more contact with the ground, helping with stability and "
+"traction. There are two main types of 6 wheel drivetrains: ones with "
+"**corner omnis** and ones with a **drop center**."
+msgstr ""
+"Un châssis à 6 roues est un châssis couramment utilisé en compétition en FTC"
+" pour de multiples raisons : il offre une traction fantastique, il tourne "
+"très bien et, en ayant 6 roues, le châssis a plus de contact avec le sol, ce"
+" qui aide à la stabilité et à la traction. Il existe deux types principaux "
+"de transmissions à 6 roues : celles avec **coin omnidirectionnel et celles "
+"avec **centre abaissé**."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:140
 msgid "**Drop Center**"
 msgstr "**Drop Center**"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:142
+msgid ""
+"A drop center 6WD is a 6 wheel drive with the center wheel mounted slightly "
+"below the other two wheels. The drop should be anywhere from more than "
+"1/16\" up to 1/4\". However, the recommended drop is around 1/8\". "
+"Typically, lighter robots (<25 lbs.) can have less drop, while heavier "
+"robots (>25 lbs.) perform slightly better with more than 1/8\" drop."
+msgstr ""
+"Un 6RM à centre abaissé est un 6 roues motrices dont la roue centrale est "
+"montée légèrement en dessous des deux autres roues. L'abaissement doit être "
+"compris entre plus de 1/16\" et 1/4\". Toutefois, il est recommandé d'avoir "
+"une hauteur d'environ 1/8\". Généralement, les robots plus légers (<25 lbs.)"
+" can have less drop, while heavier robots (>25 lbs.) sont légèrement plus "
+"performants avec un abaissement de plus de 1/8\"."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:144
+msgid ""
+"The purpose of dropping the middle wheel is to ensure that only 4 wheels are"
+" in contact with the ground at all times. This is because turning with 6 "
+"wheels on the ground introduces lots of friction, making it very difficult "
+"to turn quickly. Note that the **required drop may vary depending on both "
+"field condition and weight of the overall robot**."
+msgstr ""
+"L'objectif de l'abandon de la roue du milieu est de s'assurer que seules 4 "
+"roues sont en contact avec le sol à tout moment. En effet, le fait de "
+"tourner avec 6 roues en contact avec le sol introduit beaucoup de friction, "
+"ce qui rend les virages très difficiles à effectuer rapidement. Notez que "
+"**la chute nécessaire peut varier en fonction des conditions du terrain et "
+"du poids de l'ensemble du robot**."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:146
 msgid ""
@@ -474,6 +523,12 @@ msgstr ""
 "`goBILDA <https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-"
 "drop-4-pack/>`_."
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:164
+msgid "Drop-center 6WD is slightly worse at turning, but has more traction"
+msgstr ""
+"Les 6RM à centre basculant sont un peu moins performants dans les virages, "
+"mais ont plus de traction."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:165
 msgid "Drop-center 6WD is dependent on field conditions"
 msgstr ""
@@ -530,13 +585,58 @@ msgstr ""
 msgid "7236 Recharged Green's 6wd"
 msgstr "Le vert rechargé à six roues motrices de 7236"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:209
+msgid "7236 Recharged Green, Rover Ruckus; drop center 6WD"
+msgstr ""
+"7236 Recharged Green, Rover Ruckus ; configuration à 6 roues motrices à "
+"centre abaissé."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:214
 msgid "Ethan Doak's 6wd"
 msgstr "Le 6 roue motrice d'Ethan Doak"
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:214
+msgid "Ethan Doak, goBILDA 6 wheel drive with corner omni wheels"
+msgstr ""
+"Ethan Doak, entraînement à 6 roues goBILDA avec roues omnidirectionnelles "
+"aux coins."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:217
 msgid "8 Wheel Drive"
 msgstr "8 roues motrices"
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:219
+msgid ""
+"An 8 wheel drivetrain is less common than its 6WD counterpart, combining "
+"elements found in both 4 wheel and 6 wheel drivetrains. For example, the 6 "
+"wheel drivetrain generally will have a dropped center wheel so that the "
+"robot turns on four wheels instead of six, reducing friction and increasing "
+"turning mobility."
+msgstr ""
+"La transmission à 8 roues est moins courante que la transmission à 6 roues "
+"motrices, car elle combine des éléments que l'on trouve à la fois dans les "
+"transmissions à 4 roues et à 6 roues. Par exemple, le châssis à 6 roues est "
+"généralement doté d'une roue centrale basse, de sorte que le robot tourne "
+"sur quatre roues au lieu de six, ce qui réduit les frottements et augmente "
+"la mobilité dans les virages."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:221
+msgid ""
+"On an 8 wheel drive, the center four wheels are dropped. This means that "
+"when turning, only these middle four wheels are touching the ground. Thus, "
+"the 8 wheel drivetrain has slightly more stability while turning than a 6 "
+"wheel drive, whereas 6 wheel drives can turn more quickly. Furthermore, "
+"since the 8 wheel drive has wheels in the same place as a 4 wheel drive, it "
+"has the stability of a 4 wheel drive."
+msgstr ""
+"Sur un châssis à 8 roues motrices, les quatre roues du centre sont "
+"abaissées. Cela signifie que dans les virages, seules les quatre roues "
+"centrales touchent le sol. Ainsi, la transmission à 8 roues motrices est "
+"légèrement plus stable dans les virages qu'une transmission à 6 roues "
+"motrices, alors que les transmissions à 6 roues motrices peuvent tourner "
+"plus rapidement. En outre, comme la transmission à 8 roues motrices a des "
+"roues au même endroit qu'une transmission à 4 roues motrices, elle a la "
+"stabilité d'une transmission à 4 roues motrices."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:223
 msgid ""
@@ -611,6 +711,34 @@ msgstr "13075 Coram Deo Academy Robotics, Rover Ruckus"
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:256
 msgid "Tread Drive"
 msgstr "Rendu du système à chenilles "
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:258
+msgid ""
+"Tread drive is the use of tank treads or wide belts to power movement, much "
+"like a real life tank. Unfortunately, in FTC, it is not a competitive "
+"drivetrain for a number of reasons."
+msgstr ""
+"L'entraînement par bande de roulement consiste à utiliser les bandes de "
+"roulement des systèmes de type tank ou de larges courroies pour assurer le "
+"mouvement, comme dans un vrai char d'assaut. Malheureusement, en FTC, il ne "
+"s'agit pas d'une transmission compétitive pour un certain nombre de raisons."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:260
+msgid ""
+"Tread is complex, and has many points of failure. Treads are also very prone"
+" to defense, and a slight hit from another robot is enough to misalign the "
+"treads. :term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren't "
+"great either - TETRIX tracks have a tendency to snap and derail when used on"
+" robot drivetrains, making them not suitable for competition use."
+msgstr ""
+"La bande de roulement est complexe et présente de nombreux points de "
+"défaillance. Les bandes de roulement sont également très sensibles à la "
+"défense, et un léger choc de la part d'un autre robot suffit à les "
+"désaligner. :term:`Commercial Off-The-Shelf (COTS) <COTS>` Les options de "
+"bandes de roulement ne sont pas non plus excellentes - les pistes TETRIX ont"
+" tendance à se briser et à dérailler lorsqu'elles sont utilisées sur les "
+"châssis des robots, ce qui les rend inadaptées à une utilisation dans le "
+"cadre d'une compétition."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:262
 msgid ""
