@@ -3,16 +3,87 @@
 # This file is distributed under the same license as the Game Manual 0 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Darya Tepysheva, 2025
+# Стефания Жукова, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 17:46+0000\n"
+"POT-Creation-Date: 2025-10-27 16:33+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
+"Last-Translator: Стефания Жукова, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:4
+msgid "Engineering Portfolio"
+msgstr "Инженерное Портфолио"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:6
+msgid ""
+"The engineering portfolio is a concise but detailed overview of your team "
+"and season. **It is required for all awards and is a critical part of the "
+"judging process**."
+msgstr ""
+"Инженерное портфолио представляет собой краткий, но подробный обзор вашей "
+"команды и сезона. **Оно требуется для всех наград и является важной частью "
+"процесса оценки**."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:9
+msgid "Portfolio Requirements"
+msgstr "Требования к Портфолио"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:11
+msgid "A detailed list of the requirements is listed in section 9.3 of |gm1|"
+msgstr "Подробный список требований приведен в разделе 9.3 |gm1|"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:16
+msgid "Overall Tips"
+msgstr "Общие Советы"
+
+#: ../../gm0/source/docs/awards/portfolio.rst:18
+msgid ""
+"Organize your portfolio clearly and carefully! Sections should be easy to "
+"follow and read, and have clear headings and explanations. Having your team "
+"number somewhere on the page is helpful for judges quickly reviewing "
+"portfolios."
+msgstr ""
+"Структурируйте свое портфолио четко и аккуратно! Разделы должны быть "
+"понятными и удобными для чтения, с четкими заголовками и пояснениями. "
+"Указание номера вашей команды где-нибудь на странице поможет экспертам "
+"быстро ознакомиться с портфолио."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:20
+msgid ""
+"Make sure your text is readable! Color choices matter a lot, try to avoid "
+"similar color text on a background."
+msgstr ""
+"Убедитесь, что ваш текст читаем! Выбор цвета имеет большое значение, "
+"старайтесь избегать использования текста похожего по цвету на фон."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:22
+msgid ""
+"Less is more: Judges are going to lose interest in large unbroken blocks of "
+"text."
+msgstr ""
+"Меньше значит больше: эксперты потеряют интерес к большим непрерывным блокам"
+" текста."
+
+#: ../../gm0/source/docs/awards/portfolio.rst:23
+msgid ""
+"Images, Images, Images: CAD Drawings and screenshots can be useful tools, "
+"but also have actual pictures of mechanisms and components. While renders "
+"can look impressive in covers, a lot of judges prefer actual CAD screenshots"
+" or pictures."
+msgstr ""
+"Изображения, изображения, изображения: чертежи CAD и скриншоты могут быть "
+"полезными инструментами, но также имейте реальные фотографии механизмов и "
+"компонентов. Хотя рендеры могут выглядеть впечатляюще на обложках, многие "
+"эксперты предпочитают реальные скриншоты CAD или фотографии."

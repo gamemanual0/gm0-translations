@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 16:28+0000\n"
+"POT-Creation-Date: 2025-10-27 16:33+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Elizaveta Sukhotskaya, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -28,3 +28,55 @@ msgstr "SDK Motors"
 #: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:9
 msgid "General Explanation"
 msgstr "Общее Объяснение"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:33
+msgid ""
+"An example of a quadrature wave, with the A channel, B channel. The wave is "
+"broken up into four sections, where each section constitutes a tick."
+msgstr ""
+"Пример квадратурной волны с каналами A и B. Волна разбита на четыре части, "
+"каждая из которых представляет собой тик."
+"                                                                                                                                                                                                                                                                                     "
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:33
+msgid ""
+"An example of a quadrature wave, with channel A leading channel B. Each "
+"count is a \"count\" or \"tick\""
+msgstr ""
+"Пример квадратурной волны, в которой канал A опережает канал B. Каждое "
+"деление — это \"count\" или \"tick\""
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:36
+msgid "Hidden Methods"
+msgstr "Скрытые Методы"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:39
+msgid "DcMotorEx"
+msgstr "DcMotorEx"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:42
+msgid ""
+"There is no downside to using DcMotorEx, in order to convert a DcMotor to a "
+"DcMotorEx the user simply just needs to cast the DcMotor returned by the "
+"``hardwareMap`` to a DcMotorEx."
+msgstr ""
+"Использование DcMotorEx не имеет недостатков. Чтобы преобразовать DcMotor в "
+"DcMotorEx, пользователю нужно просто привести DcMotor, возвращаемый функцией"
+" ``hardwareMap``, к типу DcMotorEx."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:48
+msgid ""
+"PID/PIDF coefficients use internal units for the output, a two byte short "
+"from -32767 to 32767, instead of the user -1 to 1."
+msgstr ""
+"Коэффициенты PID/PIDF используют для вывода внутренние единицы измерения — "
+"двухбайтовое короткое число от -32767 до 32767, а не пользовательские "
+"значения от -1 до 1."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-motors.rst:49
+msgid ""
+"The default ``getVelocity()`` method returns the encoder velocity in ticks "
+"per second."
+msgstr ""
+"Метод ``getVelocity()`` по умолчанию возвращает скорость энкодера в тиках в "
+"секунду."
