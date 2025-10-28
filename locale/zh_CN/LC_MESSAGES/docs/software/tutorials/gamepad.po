@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-20 04:30+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -364,6 +364,12 @@ msgid ""
 "LED Control: control of RGB LED (solid color or pattern). LED is fairly "
 "small and dim and may not be a good choice."
 msgstr "LED控制：RGBLED（纯色或图案）的控制，LED相当小且暗淡，可能不是一个好的选择。"
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:226
+msgid ""
+"Gamepad feedback can be used to alert drivers of: start of endgame, intake "
+"loaded, automatic alignment complete, etc."
+msgstr "游戏手柄反馈可用于提醒操作手：游戏结束开始、吸入拾取装置加载、自动对齐完成等。"
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:230
 msgid "Rumble"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-20 04:30+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -44,7 +44,7 @@ msgid ""
 "are doing. They can be damaged in the process, especially if one does not "
 "know how to properly reassemble it."
 msgstr ""
-"除非你真的知道你在做什么，否则不要拆开Control Hub 或 Expansion Hub "
+"除非你真的知道你在做什么，否则不要拆开 Control Hub 或 Expansion Hub "
 "。它们可能会在这个过程中损坏，尤其是如果你不知道如何正确地重新组装它。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
@@ -60,13 +60,13 @@ msgid ""
 "possibly for use in *FIRST*\\ |reg| Global (judging by the *FIRST* Global "
 "silkscreen on the PCB)."
 msgstr ""
-"\"Lynx \"是 Expansion Hub 和 Control Hub 中与硬件交互的电路板的代号。FTC\\ |reg| SDK中提到的 "
-"\"Lynx \"就是指这块板。它似乎是由 REV 和  `DEKA <https://dekaresearch.com/>`_ （Dean Kamen"
+"\"Lynx\" 是 Expansion Hub 和 Control Hub 中与硬件交互的电路板的代号。FTC\\ |reg| SDK中提到的 "
+"\"Lynx\" 就是指这块板。它似乎是由 REV 和  `DEKA <https://dekaresearch.com/>`_ （Dean Kamen"
 " 的公司）共同开发的，可能用于  *FIRST*\\ |reg| Global（从 PCB 上的 *FIRST* Global 丝印来看）。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
 msgid "A Lynx board that was removed from its case"
-msgstr "一块从机箱中取出的 Lynx 电路板"
+msgstr "一块取出的 Lynx 电路板"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:26
 msgid "Processor"
@@ -76,8 +76,7 @@ msgstr "处理器"
 msgid ""
 "The main processor of the Expansion Hub is a Texas Instruments ARM Cortex M4"
 " running at 80 MHZ."
-msgstr ""
-"扩展集线器（Expansion Hub）的主处理器是Texas Instruments ARM Cortex M4，运行频率为 80 MHZ。"
+msgstr "Expansion Hub 的主处理器是 Texas Instruments ARM Cortex M4，运行频率为 80 MHZ。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:31
 msgid "Ports"
@@ -85,7 +84,7 @@ msgstr "端口"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:33
 msgid "The expansion hub has the following ports"
-msgstr "扩展中心有以下端口："
+msgstr "Expansion hub 有以下端口："
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:35
 msgid "Two UART Debug Ports"
@@ -95,23 +94,23 @@ msgstr "两个通用异步收发设备调试端口"
 msgid ""
 "The top port outputs a continuous high speed CSV stream of data from the "
 "various subsystems in the hub."
-msgstr "顶部端口从集线器中的各个子系统输出连续的高速CSV数据流。"
+msgstr "顶部端口从集线器中的各个子系统输出连续的高速 CSV 数据流。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:38
 msgid ""
 "The bottom port outputs data at a baud rate of 115200 at a user specified "
 "verbosity."
-msgstr "底部端口以用户指定的详细程度以115200的波特率输出数据。"
+msgstr "底部端口以用户指定的详细程度以 115200 的波特率输出数据。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:39
 msgid "Four I2C Ports"
-msgstr "四个I2C端口"
+msgstr "四个 I2C 端口"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:41
 msgid ""
 "These ports are 100/400 kHz compliant and are connected to a separate bus so"
 " there is no need to be concerned about address collisions"
-msgstr "这些端口符合100/400 kHz标准，并连接到单独的总线，因此无需担心地址冲突"
+msgstr "这些端口符合 100/400 kHz 标准，并连接到单独的总线，因此无需担心地址冲突"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:42
 msgid "There are integrated pull up resistors on this port"
@@ -119,13 +118,13 @@ msgstr "此端口上有集成上拉电阻"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:43
 msgid "Eight DIO Ports"
-msgstr "八个DIO端口"
+msgstr "八个 DIO 端口"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:45
 msgid ""
 "3.3V only, current limited, can briefly supply more than the rated current "
 "spec. Pulled up internally."
-msgstr "仅3.3V，电流有限，可短暂提供超过额定电流规格的电流。内部拉起。"
+msgstr "仅 3.3V，电流有限，可短暂提供超过额定电流规格的电流。内部拉起。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:46
 msgid "Four Analog Ports"
@@ -136,7 +135,8 @@ msgid ""
 "5V compliant, you can use a level shifter to supply 5v to the sensor, but "
 "take care the analog line bypasses the level shifter. The VIN and GND lines "
 "must pass through the level shifter for it to work however."
-msgstr "5V兼容，你可以使用电平转换器向传感器供电5v，但要注意模拟线绕过电平转换器。然而，VIN和GND线必须通过电平转换器才能工作。"
+msgstr ""
+"5V 兼容，你可以使用电平转换器向传感器供电 5v ，但要注意模拟线绕过电平转换器。然而，VIN 和 GND 线必须通过电平转换器才能工作。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:49
 msgid "Six Servo Ports"
@@ -149,15 +149,16 @@ msgid ""
 "disabling PWM on one port will switch all of the ports off unless another "
 "servo is used."
 msgstr ""
-"舵机端口上的5V电源默认关闭，仅在使用舵机时启用。所有六个5V引脚一起打开和关闭，除非使用另一个舵机，否则禁用一个端口上的PWM将关闭所有端口。"
+"舵机端口上的 5V 电源默认关闭，仅在使用舵机时启用。所有六个 5V 引脚一起打开和关闭，禁用一个端口上的 PWM "
+"将关闭所有端口，直到再次使用其他舵机。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:52
 msgid "Two 5V Power Ports"
-msgstr "两个5V电源端口"
+msgstr "两个 5V 电源端口"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:54
 msgid "The 5V supply is shared with the servos"
-msgstr "5V电源与舵机共享"
+msgstr "5V 电源与舵机共享"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:55
 msgid "Four Motor Ports"
@@ -180,8 +181,9 @@ msgid ""
 " motor controller has been used for years, and may even date back to the "
 "early HiTechnic based control system."
 msgstr ""
-"电机驱动器采用 ST Microelectronics VNH5050电机驱动器集成电路 IC，能够处理远远超过 FTC "
-"电机所能消耗的最大电流。它集成了电流检测功能，自现代机器人时代以来一直在使用。它具有内置的热和电流安全限制。这种电机控制器已使用多年，甚至可以追溯到早期基于HiTechnic的控制系统。"
+"电机驱动器采用 ST Microelectronics VNH5050 电机驱动器集成电路 IC ，能够处理远远超过 FTC "
+"电机所能消耗的最大电流。它集成了电流检测功能，自现代机器人时代以来一直在使用。它具有内置的热和电流安全限制。这种电机控制器已使用多年，甚至可以追溯到早期基于"
+" HiTechnic 的控制系统。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
 msgid "Four Encoder Ports"
@@ -199,13 +201,14 @@ msgid ""
 "more than around 4000 counts per revolution) should NOT be used on ports 1 "
 "and 2."
 msgstr ""
-"**重要提示：只有两个编码器端口（端口0和3）似乎是通过硬件连接的，并且在高速下是可靠的** 有两种方法可以通过硬件和软件将编码器内部连接到 Texas"
-" Instruments 仪器的微处理器。硬件端口使用集成的正交解码器芯片，在高速下非常准确，而在软件中解码的编码器在高速下并不可靠。因此，每转计数超过"
-" 4000 次的高计数（CPR）编码器不应用于软件连接的端口 1 和 2 。"
+"**重要提示：只有两个编码器端口（端口 0 和 3 ）似乎是通过硬件连接的，并且在高速下是可靠的** 有两种方法可以通过硬件和软件将编码器内部连接到 "
+"Texas Instruments "
+"仪器的微处理器。硬件端口使用集成的正交解码器芯片，在高速下非常准确，而在软件中解码的编码器在高速下并不可靠。因此，每转计数超过 4000 "
+"次的高计数（CPR）编码器不应用于软件连接的端口 1 和 2 。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:62
 msgid "Two XT30 Connectors"
-msgstr "两个XT30连接器"
+msgstr "两个 XT30 连接器"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:64
 msgid ""
@@ -213,15 +216,28 @@ msgid ""
 " known to fail and break off the board."
 msgstr "在电缆周围移动时应小心，因为已知这些连接器会出现故障并从电路板上脱落。"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:65
+msgid ""
+"In addition, XT30s will wear and get loose with time. See `XT30 Pins are "
+"Compressed - Expansion Hub Troubleshooting "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`_ for details"
+" on the issue and how to fix it."
+msgstr ""
+"此外，XT30 会随着时间的推移而磨损和松动。请参阅 `XT30 引脚被压缩 - 扩展集线器故障排除 "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/expansion-hub-troubleshooting#xt30-pins-are-"
+"compressed>`_，了解有关该问题的详细信息和修复方法。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:66
 msgid "USB Mini-B Connector"
-msgstr "USB Mini-B连接器"
+msgstr "USB Mini-B 连接器"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:68
 msgid ""
 "Capable of full speed USB 2.0, and 5V output to charge a phone. The 5v "
 "output may be unreliable, it depends on the hub."
-msgstr "能够全速USB 2.0和5V输出为手机充电。5v输出可能不可靠，取决于集线器。"
+msgstr "能够全速 USB 2.0 和 5V 输出为手机充电。5v 输出可能不可靠，取决于集线器。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:69
 msgid "Internal Connector"
@@ -233,7 +249,7 @@ msgid ""
 "has a UART connection, as well as power and ground. All Expansion Hubs have "
 "this connector, whether or not they are a Control Hub."
 msgstr ""
-"该连接器用于连接计算子板。它有一个 UART 连接以及电源和地线。无论是否为Control Hub，所有 Expansion Hub 都有这个连接器。"
+"该连接器用于连接计算子板。它有一个 UART 连接以及电源和地线。无论是否为 Control Hub，所有 Expansion Hub 都有这个连接器。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:74
 msgid "Control Hub"
@@ -247,7 +263,7 @@ msgid ""
 "Internally, LynxCommands are sent over from the daughterboard to the Lynx "
 "board over an internal UART connection."
 msgstr ""
-"Control Hub 是一个带有嵌入式 Android 单板计算机子板的 Expansion Hub。由于内置了 Android "
+"Control Hub 是一个带有嵌入式 Android 单板计算机子板的 Expansion Hub 。由于内置了 Android "
 "子板，所以它不再需要单独的手机作为 RC 。在其内部，通过内置的 UART 连接从 Android 子板发送 LynxCommand 到 Lynx 板。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:78
@@ -268,6 +284,16 @@ msgstr ""
 "FIRST Global 使用的最初版本的 Control Hub（REV-31-1152）实际上使用了 `Dragonboard 410c "
 "<https://www.96boards.org/product/dragonboard410c/>`_ 作为计算板。"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:83
+msgid ""
+"The Control Hub compute board runs a customized version of Android 7.1. It "
+"does not have a proper heatsink on the SOC, only an exremely small and thin "
+"heat spreader, which can cause thermal throttling when heavy processes such "
+"as vision pipelines are used."
+msgstr ""
+"Control Hub 计算板运行的是定制版 Android 7.1。它的 SOC "
+"上没有适当的散热片，只有一个非常小而薄的散热器，这在使用视觉管线等重型进程时可能会导致热节流。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
 msgid "SOC: Rockchip RK3328"
 msgstr "SOC: Rockchip RK3328"
@@ -275,6 +301,12 @@ msgstr "SOC: Rockchip RK3328"
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:87
 msgid "CPU: Quad-core ARM\\ |reg| Cortex-A53"
 msgstr "CPU: Quad-core ARM\\ |reg| Cortex-A53"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:89
+msgid ""
+"The device tree in the official kernel seems to indicate that the CPU can "
+"clock up to 1.5 GHz"
+msgstr "官方内核中的设备树似乎表明，CPU 的主频可达 1.5 GHz"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:90
 msgid "GPU - ARM\\ |reg| Mali 450MP4"
@@ -290,7 +322,7 @@ msgstr "RAM：1GB DDR3"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:94
 msgid "Storage: 8 to 16GB of eMMC flash memory"
-msgstr "Storage：8 至 16GB eMMC 闪存"
+msgstr "存储：8 至 16GB eMMC 闪存"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:96
 msgid ""
@@ -308,9 +340,28 @@ msgstr ""
 "REV 在一封支持电子邮件中称**“最初生产的 Control Hub 使用的是 8GB eMMC 芯片。但是，由于供应链的限制，生产了一些 16GB "
 "版本。最近的 Control Hub（2022 年后购买）更有可能采用 16GB eMMC 芯片。”**"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:98
+msgid ""
+"USB: 1x USB 3.0, 1x USB 2.0, 1x internal USB 2.0 used to connect the Wi-Fi "
+"chip"
+msgstr "USB：1 个 USB 3.0、1 个 USB 2.0、1 个内部 USB 2.0，用于连接 Wi-Fi 芯片"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:99
 msgid "Wi-Fi: Realtek RTL8821CU"
 msgstr "Wi-Fi: Realtek RTL8821CU"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:101
+msgid "IEEE 802.11a/b/g/n/ac Wi-Fi (Dual Band 2.4 & 5 GHz)"
+msgstr "IEEE 802.11a/b/g/n/ac Wi-Fi（双频 2.4 和 5 GHz）"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:103
+msgid ""
+"802.11w Protected Management Frames standard supported for preventing "
+"`deauthentication attacks <https://en.wikipedia.org/wiki/Wi-"
+"Fi_deauthentication_attack>`_"
+msgstr ""
+"支持 802.11w 保护管理帧标准，以防止 `身份验证攻击 <https://en.wikipedia.org/wiki/Wi-"
+"Fi_deauthentication_attack>`_"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:104
 msgid "Bluetooth 4.2 (Bluetooth 4.1 listed by REV)"
@@ -322,6 +373,29 @@ msgid ""
 "baud"
 msgstr "调试 UART：3 针接头（左侧 TX、中间 RX、右侧接地），1500000baud"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:110
+msgid ""
+"It is possible to install an Armbian Linux build from "
+"https://forum.armbian.com/topic/26978-csc-armbian-for-rk3318rk3328-tv-box-"
+"boards/ and have it work on the Control Hub. Enable the `rk3318-box-led-"
+"conf3` board type using the ``rk3318-config`` command to allow Wi-FI and all"
+" USB ports to work. Enable the ``rk3328-uart1`` overlay using ``armbian-"
+"config`` to allow communicating with the Lynx board over the internal UART "
+"connection using ``/dev/ttyS1``."
+msgstr ""
+"可以从https://forum.armbian.com/topic/26978-csc-armbian-for-rk3318rk3328-tv-"
+"box-boards/  安装 Armbian Linux 版本，并使其在 Control Hub上运行。使用 ``rk3318-config`` "
+"命令启用 `rk3318-box-led-conf3` 板类型，以允许 Wi-FI 和所有 USB 端口工作。使用 ``armbian-config``"
+" 启用 ``rk3328-uart1`` 覆盖，允许使用 ``/dev/ttyS1`` 通过内部 UART 连接与 Lynx 板通信。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:112
+msgid "**YOU SHOULDN'T BE DOING THIS FOR FTC!**"
+msgstr "**在 FTC 赛事里你不应该这样做！**"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:117
 msgid "The single board computer and Lynx board from a Control Hub"
-msgstr "Control Hub的单板计算机和 Lynx 板"
+msgstr "Control Hub 的单板计算机和 Lynx 板"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:121
+msgid "The compute board, removed from a Control Hub"
+msgstr "从 Control Hub 移除的计算板"

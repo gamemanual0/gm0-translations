@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-20 04:30+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -26,9 +26,18 @@ msgstr ""
 msgid "Arms"
 msgstr "机械臂"
 
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:6
+msgid ""
+"Arms encompass a large variety of mechanisms. In FTC, they are used to add "
+"extension and flexibility to end effectors. Arms are especially powerful "
+"when paired with other mechanisms such as linear extension and mini-turrets."
+msgstr ""
+"机械臂包括各种各样的机械装置。在 FTC "
+"中，它们用于增加末端效应器的伸展性和灵活性。当机械臂与线性伸展和小关节发射装置等其他机构搭配使用时，其功能尤为强大。"
+
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:10
 msgid "Arms for Extension"
-msgstr "伸展臂"
+msgstr "伸展机械臂"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:12
 msgid ""
@@ -42,9 +51,15 @@ msgid ""
 " control can help to reduce the load on motor gearboxes (see "
 ":doc:`/docs/software/concepts/control-loops`)."
 msgstr ""
-"机械臂可以是一个有用的扩展工具。长机械臂需要较大的减速比来驱动。在 :ref:` 单臂部分<single-arm>` 中的示例使用了 254.5:1 "
+"机械臂可以是一个有用的伸展工具。长机械臂需要较大的减速比来驱动。在 :ref:` 单臂部分<single-arm>` 中的示例使用了 254.5:1 "
 "的减速比。建议通过齿轮、链条或皮带将扭矩传递到机械臂，而不是直接安装到电机轴上，因为这样可以获得更大的轴向力和减速比。由于这些机械臂可携带较大的动力，如果突然停止，可能会导致电机齿轮箱损坏，甚至使机器人翻倒。软件控制有助于减轻电机齿轮箱的负荷（参见"
 " :doc:`/docs/software/concepts/control-loops`）。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:14
+msgid ""
+"Depending on the application and implementation, arms can be either faster "
+"or slower than other extension options."
+msgstr "根据应用和实现，机械臂可能比延伸方案更快或更慢。"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:19
 msgid "Single Arm"
@@ -59,8 +74,8 @@ msgid ""
 " the starting cube, only being able to provide around 16\" of extension "
 "whereas over 24\" of extension is desired for most games."
 msgstr ""
-"单机械臂是最简单的机械臂类型，指的是只有一个旋转轴的机械臂。这种机械臂的制作相对简单快捷，但作为主要的扩展系统，它们在高级别竞技比赛中的可行性不高，因为由于起始立方体的长度限制，它所提供的扩展能力有限，只能提供大约"
-" 16 英寸的扩展，而大多数游戏都需要超过 24 英寸的扩展。"
+"单机械臂是最简单的机械臂类型，指的是只有一个旋转轴的机械臂。这种机械臂的制作相对简单快捷，但作为主要的延伸系统，它们在高级别竞技比赛中的可行性不高，因为由于起始立方体的长度限制，它所提供的延伸能力有限，只能提供大约"
+" 16 英寸的延伸，而大多数游戏都需要超过 24 英寸的延伸。"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:26
 msgid "goBILDA starter bot, Into The Deep, single arm."
@@ -68,11 +83,11 @@ msgstr "goBILDA 启动机器人，Into The Deep，单机械臂。"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:26
 msgid "goBILDA starter bot, Into The Deep, single arm used for extension."
-msgstr "goBILDA 启动机器人，Into The Deep，单机械臂用于扩展。"
+msgstr "goBILDA 启动机器人，Into The Deep，单机械臂用于伸展。"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:29
 msgid "Pivot Extension"
-msgstr "枢轴扩展"
+msgstr "枢轴延伸"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:31
 msgid ""
@@ -92,11 +107,19 @@ msgid "goBILDA Robot in 3 Days, Into The Deep, pivoting linear slides"
 msgstr "goBILDA 机器人 3 天内完成，Into The Deep，旋转线性滑轨"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:41
+msgid "19098's pivot slides"
+msgstr "19098 队伍的枢轴线性滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:41
 msgid ""
 "19098 Eastern Foxes, Into The Deep, Winning Alliance First Pick (Franklin), "
 "pivoting linear slides"
 msgstr ""
 "19098 Eastern Foxes，Into The Deep，Winning Alliance First Pick（富兰克林），可转动线性滑轨"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:46
+msgid "8417's single arm attached to a belt driven linear extension"
+msgstr "8417 队伍的单机械臂连接到皮带驱动的线性延伸装置上"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:46
 msgid ""
@@ -134,12 +157,47 @@ msgid "11146 Barker Redbacks, Into The Deep, multi-axis arm"
 msgstr "11146 Barker Redbacks，Into The Deep，多轴机械臂"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:63
+msgid "20700's multi-axis arm"
+msgstr "20700 队伍的多轴机械臂"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:63
 msgid "20700 Snap, Freight Frenzy, multi-axis arm"
 msgstr "20700 Snap，Freight Frenzy，多轴机械臂"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:66
 msgid "Arms for End Effectors"
 msgstr "末端执行器机械臂"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:68
+msgid ""
+"Arms are the most common way to add flexibility and control to end "
+"effectors. These arms typically have one or more rotational joints and/or "
+"linear extension. Due to the relatively small power requirement of these "
+"arms, they are often driven by servos instead of motors."
+msgstr ""
+"机械臂是为末端效应器增加灵活性和控制性的最常见方式。这些机械臂通常具有一个或多个旋转接头或线性延伸装置。由于这些机械臂所需的功率相对较小，因此通常由伺服电动机而非电机驱动。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:70
+msgid ""
+"End effectors are likely to see collisions and with arms acting as a lever, "
+"it is imperative to take extra caution to mount and support these servos "
+"properly (see :doc:`/docs/power-and-electronics/servo-guide/usage-tips`)."
+msgstr ""
+"末端效应器很可能会发生碰撞，而且以机械臂作为杠杆，必须格外小心，正确安装和支撑这些舵机（参见 :doc:`/docs/power-and-"
+"electronics/servo-guide/usage-tips`)。"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:72
+msgid ""
+"Single and multi-axis arms can add control to the vertical and horizontal "
+"distance of an end effector. In Into The Deep, this type of arm was common "
+"in intakes to allow the intake on a horizontal extension to go over the "
+"submersible barrier and then \"reach down\" for samples. They can be used to"
+" line up intakes and outtakes to facilitate transfers or just generally add "
+"flexibility to where end effectors can act."
+msgstr ""
+"单轴和多轴机械臂可以增加对末端效应器垂直和水平距离的控制。在 Into The Deep "
+"中，这种机械臂在拾取装置很常见，可以让水平延伸的拾取装置越过水下障碍物，然后 “伸手向下 "
+"”取样。这种机械臂可用于将拾取装置和发射装置排成一线，以方便转移，或者通常只是增加末端效应器作用位置的灵活性。"
 
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:74
 msgid ""
@@ -161,3 +219,9 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/arms.rst:84
 msgid "12993's high dof outtake with horizontal extension"
 msgstr "12993 的高拾取装置，水平伸展"
+
+#: ../../gm0/source/docs/common-mechanisms/arms.rst:84
+msgid ""
+"12993 RoboKings Aurum, Centerstage, Finalist Alliance 1st Pick, high degree "
+"of freedom outtake arm with horizontal extension."
+msgstr "12993 RoboKings Aurum，中心舞台，入围联盟第 1 轮选拔赛，高自由度摄取机械臂，带水平伸展功能。"

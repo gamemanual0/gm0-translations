@@ -6,16 +6,16 @@
 # Translators:
 # wwsk2008sq, 2023
 # DomnickJYH, 2024
-# Shawphy, 2024
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 04:29+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -163,6 +163,26 @@ msgstr "8680 Kraken-Pinion，Rover Ruckus，REV 滑轨"
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:50
 msgid "OpenBuilds Mini V Gantry Kit"
 msgstr "OpenBuilds Mini V “龙门”式套件"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:52
+msgid ""
+"The `OpenBuilds Mini V Gantry Kit <https://us.openbuilds.com/mini-v-gantry-"
+"kit/>`_ is designed for use with OpenBuilds' 20mm V-slot extrusion, which "
+"can be mounted to other build systems using M3 screws and sliding T nuts. "
+"OpenBuilds slides are used for high precision applications such as 3D "
+"printers and CNC machines and have a **much higher load capacity** than REV "
+"and Actobotics slides. OpenBuilds slides are also much heavier than REV and "
+"Actobotics slides, but because they are so strong they can be used in "
+"applications where two sets of lighter duty slides would otherwise be "
+"required. Out of the box, OpenBuilds slides are tailored to single-stage "
+"belt lifts, but they could easily be adapted to work for multi-stage or "
+"string lifts given some thought and additional parts."
+msgstr ""
+"`OpenBuilds 迷你 V “龙门”式套 <https://us.openbuilds.com/mini-v-gantry-kit/>`_ 专为 "
+"OpenBuilds 的 20 毫米 V 型槽挤出机而设计，可使用 M3 螺丝和滑动 T 型螺母安装到其他构建系统上。OpenBuilds 滑轨可用于 "
+"3D 打印机和数控机床等高精度应用，与 REV 和 Actobotics 滑轨相比，具有 **高的承载能力** 。OpenBuilds 滑轨也比 REV"
+" 和 Actobotics 滑轨重得多，但由于它们非常坚固，因此可用于需要两套轻型滑轨的应用场合。开箱即用的 OpenBuilds "
+"滑轨专为单级皮带式升降结构量身定做，但只要花点心思并增加一些部件，就能轻松地将它们改装成多级或串式升降机。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/extrusion-slides.rst:57
 msgid "Sturdy, doesn't flex even under a lot of load"

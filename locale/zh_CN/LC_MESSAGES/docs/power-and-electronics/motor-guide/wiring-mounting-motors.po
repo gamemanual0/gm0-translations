@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-21 16:31+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -48,6 +48,18 @@ msgstr ":term:`3.5mm Bullet` 连接器（goBILDA 电机）"
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:11
 msgid ":term:`Anderson PowerPole` (some AndyMark NeveRest motors)"
 msgstr ":term:`Anderson PowerPole` （某些 AndyMark NeveRest 电机）"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:13
+msgid ""
+":term:`JST VH` is probably easiest to use, as it is the same connector used "
+"by REV Control/Expansion Hubs. It is also locking. :term:`PowerPoles "
+"<Anderson PowerPole>` are very reliable and sturdy but somewhat bulky. "
+":term:`3.5mm Bullet` connectors are very compact, making cables easy to "
+"route through openings, but can be disconnected."
+msgstr ""
+":term:`JST VH` 可能最容易使用，因为它与 REV  Control/Expansion Hubs 使用的连接器相同。 "
+":term:`PowerPoles<Anderson PowerPole>`非常可靠、坚固，但有些笨重。 :term:`3.5mm Bullet` "
+"连接器非常紧凑，便于电缆穿过开口，但可能断开。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:15
 msgid ""

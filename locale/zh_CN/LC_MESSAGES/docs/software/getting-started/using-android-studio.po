@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-21 16:31+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -98,6 +98,14 @@ msgstr ""
 msgid "Downloading and opening the SDK in Android Studio"
 msgstr "下载并在 Android Studio 中打开 SDK"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:32
+msgid ""
+"Open Android Studio. If you have another project open, close it (File -> "
+"Close Project). Make sure \"Projects\" is selected on the sidebar."
+msgstr ""
+"打开 Android Studio。如果打开了其他项目，请将其关闭 ( File -> Close Project )(文件 -> "
+"关闭项目)。确保侧边栏上选择了 \"项目\"。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
 msgid ""
 "A screen should appear with an option to configure settings and import a "
@@ -109,6 +117,17 @@ msgid ""
 "Click on the gear icon in the bottom left corner, and select \"check for "
 "updates.\" If you do not have the latest version, download the updates."
 msgstr "点击左下角的齿轮图标，选择 \"检查更新\"。如果没有最新版本，请下载更新。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:40
+msgid ""
+"Select \"Get from VCS\". Make sure \"Repository URL\" is selected on the "
+"sidebar, then put ``https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController.git`` into the URL text box. Finally, click the"
+" Clone button in the bottom right corner to download the SDK."
+msgstr ""
+"选择 \"从 VCS 获取\"。确保侧边栏上选择了 \"Repository URL\" ，然后在 URL 文本框中输入 "
+"``https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`` "
+"。最后，点击右下角的 \"克隆 \"按钮下载 SDK。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:42
 msgid ""
@@ -188,6 +207,12 @@ msgstr "这是您为机器人创建代码的地方。要创建一个新的Java�
 msgid "New > Java Class"
 msgstr "New > Java Class"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:86
+msgid ""
+"If you want to create a subfolder for organization purposes, you can select "
+"the \"Package\" option. Then, you can create classes in those packages."
+msgstr "如果要创建子文件夹进行组织，可以选择 \"Package\" 选项。然后，就可以在这些文件夹中创建类别。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:89
 msgid ""
 "The :code:`readme.md` file in this directory contains useful documentation, "
@@ -201,9 +226,25 @@ msgstr ""
 msgid "Installing Your Program"
 msgstr "安装程序"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:94
+msgid ""
+"To install your program onto the Robot Controller, you will use the play "
+"button located near the top middle of the application window."
+msgstr "要将程序安装到机器人控制器上，可使用位于应用程序窗口顶部中间位置的 play 按钮。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Play button next to device dropdown"
 msgstr "设备下拉菜单旁的播放按钮"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:99
+msgid ""
+"Near it you will see a dropdown for devices. When you connect your Robot "
+"Controller to your computer, the device should appear in the dropdown after "
+"some time. Then, click the play button and your program will install onto "
+"the device."
+msgstr ""
+"在其旁边，您会看到一个设备下拉菜单。将机器人控制器连接到电脑后，设备应该会在一段时间后出现在下拉菜单中。然后，点击 play "
+"按钮，程序就会安装到设备上。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:101
 msgid ""
@@ -268,9 +309,35 @@ msgstr "您可以使用 \"Build\" 菜单轻松重建项目。"
 msgid "The build menu at the top of the screen"
 msgstr "屏幕上方的 build 菜单"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:123
+msgid ""
+"Note: On Windows and Linux, the menubar is accessed by clicking the "
+"hamburger menu icon at the top left of the window."
+msgstr "注：在 Windows 和 Linux 系统中，可通过单击窗口左上角的三横线菜单图标访问菜单栏。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:125
+msgid ""
+"To clean your project to allow you to rebuild your project from scratch, "
+"choose the ``clean project`` option. This removes old compiled files from "
+"your project. To then rebuild your project, choose the rebuild option."
+msgstr ""
+"要清理项目以便从头开始重建项目，请选择 ``clean project`` （\"清理项目 \"）选项。这将删除项目中的旧编译文件。要重建项目，请选择 "
+"\"重建 \"选项。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:128
 msgid "Invalidate and Restart"
 msgstr "失效和重启"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:130
+msgid ""
+"Sometimes you can get errors after moving things around, refactoring, etc. "
+"The first step is to try cleaning the project and doing a rebuild. If this "
+"doesn't work, you may be able to fix these errors with ``invalidate and "
+"restart`` under the ``file`` dropdown. This clears any caches Android Studio"
+" has and restarts it."
+msgstr ""
+"有时在移动、重构等操作后会出现错误。第一步是尝试清理项目并重建。如果这不起作用，你可以使用 ``文件`` 下拉菜单中的 ``invalidate and"
+" restart``（ \"无效并重新启动 \"）来修复这些错误。这会清除 Android Studio 的缓存并重新启动它。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:133
 msgid "Adding Dependencies"
@@ -291,6 +358,15 @@ msgid ""
 "Some dependencies require changes to your other Gradle files. Make sure to "
 "read the installation instructions for whatever dependency you want to add."
 msgstr "有些依赖项需要修改其他 Gradle 文件。请务必阅读要添加的依赖项的安装说明。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:147
+msgid ""
+"Next, you add a line in the dependencies block to implement the dependency. "
+"This is generally done with :code:`implementation "
+"'com.developer.package:name:version'`."
+msgstr ""
+"然后，在依赖关系块中添加一行，以实现依赖关系。一般使用  :code:`implementation "
+"'com.developer.package:name:version'` 来实现。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:157
 msgid ""
@@ -418,11 +494,33 @@ msgstr "`macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_"
 msgid "Connecting to a Control Hub Wirelessly"
 msgstr "无线连接控制集线器"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:197
+msgid ""
+"Connect to the Wi-Fi hotspot hosted by the Control Hub. The hotspot should "
+"be called \"TEAMNUMBER-RC\" or some small derivation of that. It may include"
+" extra letters if you have multiple devices per team. Refer to R707 in the "
+"|cm| for further details on the network naming scheme."
+msgstr ""
+"连接到 Control Hub 托管的 Wi-Fi 热点。热点名称应为 \"TEAMNUMBER-RC "
+"\"或由此衍生的一些小名称。如果每个团队有多个设备，则可以包含额外的字母。有关网络命名方案的更多详情，请参阅 |cm| 中的 R707。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:198
 msgid ""
 "Once you're connected to a Control Hub's network, you simply need to connect"
 " to it using :code:`adb connect 192.168.43.1:5555`."
 msgstr "连接到控制集线器的网络后，只需使用 :code:`adb connect 192.168.43.1:5555` 连接即可。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:200
+msgid ""
+"Alternatively, if you have the `REV Hardware Client "
+"<https://docs.revrobotics.com/rev-hardware-client>`_ running, it will "
+"attempt to automatically connect ADB to any Control Hub connected via Wi-Fi."
+" This option does not require manually setting up ADB, and is therefore "
+"preferred by many teams using supported computers."
+msgstr ""
+"另外，如果运行了 `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-"
+"client>`_ ，它将尝试自动将 ADB 连接到通过 Wi-Fi 连接的任何 Control Hub 。该选项不需要手动设置 "
+"ADB，因此是许多使用网络支持的计算机的团队的首选。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:203
 msgid "Connecting to a Phone Wirelessly"
@@ -444,6 +542,17 @@ msgid ""
 " phone."
 msgstr "运行 :code:`adb usb`，然后运行 :code:`adb tcpip 5555`。然后就可以拔掉电话线了。"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:208
+msgid ""
+"Connect to the same Wi-Fi network the device is either hosting or on. The "
+"Wi-Fi direct network created by the phone should be called \"TEAMNUMBER-RC\""
+" or some small derivation of that. It may include extra letters if you have "
+"multiple devices per team. Refer to R707 in the |cm| for further details on "
+"the network naming scheme."
+msgstr ""
+"连接到设备托管或使用的同一 Wi-Fi 网络。手机创建的 Wi-Fi 直接网络应称为 \"TEAMNUMBER-RC \" "
+"或其派生词。如果每个团队有多个设备，则可能包含额外的字母。有关网络命名方案的更多详情，请参阅 |cm| 中的 R707。"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:209
 msgid ""
 "Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this "
@@ -452,6 +561,12 @@ msgid ""
 msgstr ""
 "使用 :code:`adb connect 192.168.49.1:5555` 连接手机。如果不起作用，请重新检查电话的 IP "
 "地址，如果不同，请使用该 IP 地址再试一次。"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:211
+msgid ""
+"Once a connection is established to a Control Hub or phone, it should "
+"automatically appear in the device dropdown in Android Studio."
+msgstr "一旦与 Control Hub 或手机建立了连接，它就会自动出现在 Android Studio 的设备下拉菜单中。"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:216
 msgid "Logcat"

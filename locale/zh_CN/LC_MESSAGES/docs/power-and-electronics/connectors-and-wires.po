@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-20 04:30+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -74,6 +74,37 @@ msgstr ""
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
 msgid "A PowerPole connector"
 msgstr "一个 PowerPole 连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:21
+msgid "3.5mm Bullet"
+msgstr "3.5 毫米子弹头"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:23
+msgid ""
+"A power connector used on the goBILDA Yellow Jacket motors. Bullet "
+"connectors are soldered onto wires."
+msgstr "goBILDA Yellow Jacket 电机上使用的电源连接器。子弹头连接器焊接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:26
+msgid ""
+"Due to the relatively strong holding force and the small size, it is common "
+"for teams to unplug these connectors by pulling on the wires instead of "
+"pulling on the connectors. This will cause fatigue and eventually failure. "
+"If you find yourself often operating these connectors, it is recommended to "
+"replace them with a connector that can be easily unplugged without damaging "
+"the connector, such as the :term:`JST VH` or :term:`Anderson PowerPole` "
+"connectors."
+msgstr ""
+"由于这些连接器的夹持力相对较强，而且体积较小，因此团队通常会通过拉电线而不是拉连接器来拔下这些连接器。这会造成金属疲劳，最终导致故障。如果您发现自己经常操作这些连接器，建议更换为可轻松拔出而不会损坏连接器的连接器，如"
+"  :term:`JST VH`  或 :term:`Anderson PowerPole` 连接器。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A 3.5mm Bullet connector"
+msgstr "一个 3.5 毫米子弹头连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:31
+msgid "Dupont 0.1\" (TJC8)"
+msgstr "杜邦 0.1 英寸 ( TJC8 )"
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:33
 msgid ""
@@ -140,6 +171,10 @@ msgstr ""
 msgid "A XT30 connector"
 msgstr "一个XT30连接器"
 
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:54
+msgid "JST VH"
+msgstr "JST VH"
+
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:56
 msgid ""
 "JST VH is a type of connector used by FTC motors to interface with the REV "
@@ -148,6 +183,14 @@ msgid ""
 msgstr ""
 "JST VH 是 FTC 电机用于连接 REV Control Hub和 Expansion Hub "
 "的一种连接器。它带有键控，可锁定到位，具有极佳的可靠性。JST VH 连接器压接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "A JST VH connector"
+msgstr "一个 JST VH 连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:61
+msgid "JST PH"
+msgstr "JST PH"
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:63
 msgid ""
@@ -160,6 +203,14 @@ msgstr ""
 "JST PH 是一种连接器，用于 REV Control/Expansion Hubs  和各种电子设备，如传感器。在 REV "
 "Control/Expansion Hubs 上，4 针连接器用于编码器、I2C、模拟和数字连接。3 针连接器用于控制 hub 和扩展 hub 之间的 "
 "RS-485 连接。JST PH 连接器压接在导线上。"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst-1
+msgid "JST PH and JST XH connectors"
+msgstr "JST PH 和 JST XH 连接器"
+
+#: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:68
+msgid "JST XH"
+msgstr "JST XH"
 
 #: ../../gm0/source/docs/power-and-electronics/connectors-and-wires.rst:70
 msgid ""

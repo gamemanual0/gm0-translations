@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-20 04:30+0000\n"
+"POT-Creation-Date: 2025-10-28 16:34+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -422,6 +422,13 @@ msgstr "层叠索具的一个缺点是必须保持每根线缆的张力。连续
 msgid "Using PTFE Tubing and John Guest Adapters to Route the String"
 msgstr "使用 PTFE（特氟龙）套管和 John Guest 转换接头穿线"
 
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:149
+msgid ""
+"If you're looking for the ability to mount your linear slides in a different"
+" location than your motor/pulley, consider using PTFE tubing and John Guest "
+"Adapters to route the string."
+msgstr "如果您希望将线性滑轨安装在与电机/滑轮不同的位置，可以考虑使用PTFE（特氟龙）管和 John Guest 适配器来布线。"
+
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst-1
 msgid "23292 SuperPowered Jalapenos Rigging Image"
 msgstr "23292  SuperPowered Jalapenos 传动图像"
@@ -439,6 +446,12 @@ msgid ""
 "The tubing can be routed over long distances without adding significant "
 "friction"
 msgstr "管道可以长距离铺设，而不会明显增加摩擦力"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
+msgid ""
+"String going from slide rigging to a pulley on a motor through John Guest "
+"adapters and PTFE tubing."
+msgstr "绳索通过 John Guest 适配器和 PTFE（特氟龙）管，从滑动索具连接到电机上的滑轮。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
 msgid "23292 SuperPowered Jalapenos, John Guest adapters rigging example"
