@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-23 16:29+0000\n"
+"POT-Creation-Date: 2025-12-01 16:36+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Darya Tepysheva, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -20,3 +20,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:4
+msgid "Tips and Tricks"
+msgstr "Советы и Рекомендации"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:6
+msgid ""
+"Below is a collection of tips and tricks on basic building. Some of them may"
+" seem obvious, but almost every FTC\\ |reg| newbie made these mistakes at "
+"least once."
+msgstr ""
+"Ниже собраны советы и рекомендации по базовой сборке. Некоторые из них могут"
+" показаться очевидными, но почти каждый новичок FTC\\ |reg| хотя бы раз "
+"совершал эти ошибки."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:20
+msgid ""
+"Use a hacksaw or a Dremel to cut a slot in the screw head, turning it into a"
+" slotted screw that can be removed using regular flat screwdriver."
+msgstr ""
+"С помощью ножовки по металлу или Дремеля прорежьте шлиц в головке винта, "
+"превратив его в винт со шлицем, который можно извлечь с помощью обычной "
+"плоской отвертки."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:21
+msgid "Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_"
+msgstr ""
+"Используйте 'винтовой экстрактор <https://www.amazon.com/dp/B07GZ17QD9/>`_."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:22
+msgid "If nothing works, drill it out."
+msgstr "Если ничего не помогает, высверлите его."
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:23
+msgid ""
+"If that doesn't work, remember that a screw is not a screw if it is liquid "
+"metal. This is obviously not a very good idea. :)"
+msgstr ""
+"Если и это не сработает, помните, что винт - не винт, если он из жидкого "
+"металла. Это, очевидно, не очень хорошая идея. :)"
+
+#: ../../gm0/source/docs/hardware-components/tips-and-tricks.rst:25
+msgid ""
+"Needless to say, once you removed the damaged screw, discard it immediately "
+"- do not put it back in the box with other screws."
+msgstr ""
+"Само собой разумеется, удалив поврежденный винт, сразу же выбросьте его - не"
+" кладите обратно в коробку с другими винтами."
