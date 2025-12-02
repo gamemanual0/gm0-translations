@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# DomnickJYH, 2024
+# DomnickJYH, 2023
 # Shawphy, 2024
 # 
 #, fuzzy
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2025-12-02 04:36+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -39,30 +39,7 @@ msgstr ""
 "请勿反向驱动 :term:`舵机 <Servo>` 。强行将电动 :term:`舵机 <Servo>` 从其位置上旋转可能会损坏舵机内部的 "
 ":term:`齿轮 <Gear>` 。"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:9
-msgid ""
-"Pay attention to a servo's travel range! The FTC API, by default, outputs "
-"600-2400 |micro|\\ s. ``ServoImplEx`` can be used to increase the range to a"
-" maximum of 500-2500 |micro|\\ s."
-msgstr ""
-"注意舵机的行程范围！默认情况下，FTC API输出600-2400 |micro|\\ s。``ServoImplEx`` "
-"可用于将范围增加到最大500-2500 |micro|\\ s。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:16
-msgid ""
-":term:`Servo` wires usually are black-red-white. Matching the colors is an "
-"easy way to check if the servo is plugged in correctly. :term:`Servo` "
-"connectors provide no protection from plugging them the wrong way: if you "
-"rotate it 180 degrees, it will still fit - but the :term:`servo <Servo>` "
-"would not work. (It wouldn't be damaged, though). Thus, if your :term:`servo"
-" <Servo>` is not working, first check if they are plugged in correctly. Then"
-" check it again."
-msgstr ""
-":term:`舵机` 接线通常是黑-红-白。匹配颜色是检查舵机是否正确插入的简便方法。 :term:`舵机` 连接器不提供插错的保护：如果您将其旋转 "
-"180 度，它仍然可以插入 - 但 :term:`舵机 <Servo>` 将无法工作。(但不会损坏）。因此，如果您的 :term:`舵机 "
-"<Servo>` 不工作，请首先检查它们是否正确接线。然后再检查一次。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:17
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:12
 msgid ""
 "When using :term:`servo <Servo>` wire extensions, use `retaining clips "
 "<https://www.gobilda.com/servo-connector-clip-yellow-6-pack/>`_ to prevent "
@@ -72,14 +49,7 @@ msgstr ""
 "在使用 :term:`舵机 <Servo>` 延长线时，请使用 `固定夹 <https://www.gobilda.com/servo-"
 "connector-clip-yellow-6-pack/>`_ ，以防止在有人拉扯电线时连接脱开。或者，在紧要关头也可以使用电工胶带。"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:18
-msgid ""
-"Do not use socket head screws to attach :term:`servos <Servo>` - when "
-"tightened, they will damage the plastic. Use button head screws or socket "
-"heads with a washer."
-msgstr "请勿使用内六角螺丝固定 :term:`舵机 <Servo>` - 拧紧后会损坏塑料。请使用带垫圈的圆头螺钉或内六角螺钉。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:19
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:15
 msgid ""
 ":term:`Servos <Servo>` break very easily when subjected to lateral loads or "
 "bending of the :term:`shaft <Shaft>`. For example, if you mount an arm or a "
@@ -92,50 +62,7 @@ msgstr ""
 " :term:`舵机 <Servo>` 上安装机械臂或机械爪，很可能在机械臂伸长后第一次撞墙时就会折断 :term:`舵机 <Servo>` "
 "（这种情况不可避免地会发生）。"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:21
-msgid ""
-"To avoid that, use additional supports. The easiest way to do it is by using"
-" :term:`Servoblocks` from Actobotics or goBILDA. These assemblies act as "
-"exoskeletons for the :term:`servo <Servo>`, providing additional support. "
-"They are expensive, but worth every penny. Additionally, REV offers the "
-"inside and outside channel :term:`servo <Servo>` bracket, which when paired "
-"with the aluminum servo :term:`shaft <Shaft>` adapter and :term:`bearing "
-"<Ball Bearing>` assembly, fulfills the same function."
-msgstr ""
-"为了避免这种情况，需要使用额外的支持。最简单的方法是使用 Actobotics 或 goBILDA 的 舵机输出安装座 。这些组件就像 "
-":term:`舵机 <Servo>` 的外骨骼，提供额外的支撑。它们价格昂贵，但物有所值。此外，REV 还提供内外通道 :term:`舵机 "
-"<Servo>` 支架，与铝制舵机输出 :term:`轴 <Shaft>` 适配器和 :term:`支座 <Ball Bearing>` "
-"组件搭配使用，可实现相同的功能。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:0
-msgid "servoblock"
-msgstr "舵机输出座"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:26
-msgid "A servo in a ServoBlock"
-msgstr "帮助舵机固定在结构件并实现不同方向输出的安装座"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:28
-msgid ""
-"There are also some alternative designs of servo supports; one of them, "
-"which is not as strong as the original :term:`Servoblock <Servoblocks>` but "
-"much more compact, is shown below (`CAD "
-"<https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_"
-" is also available):"
-msgstr ""
-"舵机支架也有一些替代设计；其中一种强度不如最初的 :term:`舵机输出座 <Servoblocks>` ，但更紧凑，如下图所示（`CAD "
-"<https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_"
-" 也可用）："
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:33
-msgid "compact servoblock"
-msgstr "紧凑型舵机输出座"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:33
-msgid "Alternative :term:`servo <Servo>` support block"
-msgstr "替代 :term:`舵机 <Servo>` 的支撑块"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:35
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:24
 msgid ""
 "Use linkages. Instead of mounting some rotating piece directly on a "
 ":term:`servo <Servo>`, mount it so it can rotate around a pivot point and "
@@ -148,43 +75,20 @@ msgstr ""
 msgid "linkage"
 msgstr "连杆"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:40
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:29
 msgid ""
 "Linkage example, courtesy of team 4137 Islandbots. A goBILDA flat beam is "
 "used as the link."
 msgstr "连杆示例，由 4137 Islandbots 队伍提供。使用 goBILDA 平梁作为连接装置。"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:42
-msgid ""
-"If you need more power, use a `REV Servo Power Module "
-"<https://www.revrobotics.com/rev-11-1144/>`_."
-msgstr ""
-"如果需要更大的功率，请使用 `REV舵机电源模块 <https://www.revrobotics.com/rev-11-1144/>`_ 。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:44
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:33
 msgid "Term"
 msgstr "术语"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:47
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:36
 msgid "Servo Power Module"
 msgstr "舵机电源模块"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:49
-msgid ""
-"A Servo Power Module (SPM) is a device made by REV Robotics that boosts the "
-"voltage that the Expansion Hub provides to a :term:`servo <Servo>`. The "
-"Expansion Hub's output for servos is 5V at 6 amps, and the SPM boosts the "
-"voltage to 6V and up to 15amps."
-msgstr ""
-"舵机电源模块 (SPM) 是 REV Robotics 生产的一种设备，用于提升Expansion Hub 为 :term:`舵机 <Servo>` "
-"提供的电压。Expansion Hub 的舵机输出为 5V 6 安培，而 SPM 可将电压提升至 6V，最大可达 15 安培。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:51
-msgid ""
-"**This is important for servos under high load conditions such as the Savox "
-"servo.**"
-msgstr "**这对高负载条件下的舵机系统，如 Savox 舵机系统，非常重要。**"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:0
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst-1
 msgid "A REV Robotics Servo Power Module"
 msgstr "REV 机器人舵机电源模块"

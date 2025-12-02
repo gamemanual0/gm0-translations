@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 04:15+0000\n"
+"POT-Creation-Date: 2025-12-02 04:36+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -33,38 +33,11 @@ msgstr "术语"
 msgid "Servo"
 msgstr "舵机"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:11
-msgid ""
-"a small DC motor attached to servo gears that is very finely controllable "
-"and interfaces via a 3 wire PWM connector. Servos are used in FTC\\ |reg| "
-"for high-precision applications that are low-load - for example, opening a "
-"trapdoor for balls to fall through. Typically servos have limited range of "
-"rotation (180\\ |deg| is common). The output has splines, which are the "
-"rigid teeth that are on top of the servo."
-msgstr ""
-"舵机是一种与舵机齿轮相连的小型直流电机，可进行非常精细的控制，并通过 3 线 PWM 连接器进行连接。舵机在 FTC\\ |reg| "
-"中用于低负载的高精度应用--例如，打开活板门让小球通过。通常，舵机的旋转范围有限（通常为 180°）。输出有花键，即舵机顶部的刚性齿。"
-
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:13
 msgid ""
 "Servos are commonly used in RC cars (steering) and RC planes (moving "
 "ailerons). In FTC, servos are typically used for claws, grabbers, and arms."
 msgstr "舵机通常用于遥控汽车（转向）和遥控飞机（移动副翼）。在 FTC 中，舵机通常用于爪子、抓手和机械臂。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:18
-msgid "HS488 Hitec servo"
-msgstr "HS488 Hitec 舵机"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:18
-msgid "A common servo, HS488-HB from Hitec"
-msgstr "Hitec 的 HS488-HB 通用舵机"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:20
-msgid ""
-"Servos are **NOT** replacements for DC motors, and should not be used as "
-"such. Servos are made for fine-tuned and accurate movement, not high-load or"
-" fast rotation applications."
-msgstr "舵机 **不是** 直流电机的替代品，不应作为直流电机使用。舵机用于微调和精确运动，而非高负荷或快速旋转应用。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:22
 msgid ""
@@ -78,30 +51,3 @@ msgstr ""
 "不同制造商生产的舵机种类繁多，价格、性能和价值也大相径庭。幸运的是，几乎所有的舵机都使用标准的三线连接器，并接受同一种控制信号（50 赫兹的 PWM "
 "信号）。每个 REV 扩展集线器提供 6 个舵机端口，因此你可以插入任何制造商生产的舵机。此外，FTC "
 "使用的舵机有一个标准尺寸，因此不同制造商生产的支架可以互换。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:24
-msgid ""
-"Commonly used servos used in FTC are the REV Smart Servo and goBILDA Dual "
-"mode Servos (`25-2 <https://www.gobilda.com/2000-series-dual-mode-"
-"servo-25-2/>`_) and (`25-3 <https://www.gobilda.com/2000-series-dual-mode-"
-"servo-25-3-speed/>`_), but you should check out other servos as well. "
-"Picking the right servo for your application is a question that's almost "
-"impossible to give a blanket answer for. To learn more, please read the "
-":doc:`choosing-servo` section."
-msgstr ""
-"FTC 中常用的舵机是 REV 智能舵机和 goBILDA 双模式舵机 (`25-2 "
-"<https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_) 和 (`25-3 "
-"<https://www.gobilda.com/2000-series-dual-mode-"
-"servo-25-3-speed/>`_)，但你也应该了解一下其他舵机。为你的应用选择合适的舵机是一个几乎不可能给出全面答案的问题。要了解更多信息，请阅读"
-" :doc:`choosing-servo` 部分。"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:26
-msgid ""
-"The most prevalent problem with servos is durability. Internal servo gears "
-"in cheaper servos strip easily when subjected to shock loads. Servos are "
-"also poor at handling lateral loads or bending of the shaft. To avoid having"
-" to frequently replace servos, choose ones with metal gears and use "
-":term:`Servoblocks` or your kit's equivalent to prolong longevity."
-msgstr ""
-"舵机最常见的问题是耐用性。廉价舵机的内部舵机齿轮在受到冲击负荷时很容易剥落。舵机在处理横向负载或轴弯曲时的能力也很差。为避免频繁更换舵机，请选择带有金属齿轮的舵机，并使用"
-" :term:`Servoblocks` 或套件中的同类产品来延长舵机的使用寿命。"

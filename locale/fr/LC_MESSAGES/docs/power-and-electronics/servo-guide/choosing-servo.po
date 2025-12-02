@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 04:28+0000\n"
+"POT-Creation-Date: 2025-12-02 04:36+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -40,35 +40,6 @@ msgstr ""
 " un point de départ pour comparer les différentes options de servo, et "
 "contient également quelques recommandations à la fin."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:10
-msgid ""
-"It is very important to keep the reliability of a given vendor in mind when "
-"choosing servos. It is not uncommon for manufacturers and resellers on "
-"Amazon and other similar sites to exaggerate their servos specs, or pick "
-"unrealistic best case scenarios for measuring the specs. We have limited our"
-" recommendation only to vendors who historically have been reliable with "
-"publishing servo specifications."
-msgstr ""
-"Il est très important de garder à l'esprit la fiabilité d'un vendeur donné "
-"lors du choix des servos. Il n'est pas rare que les fabricants et les "
-"revendeurs sur Amazon et d'autres sites similaires exagèrent les "
-"spécifications de leurs servos, ou choisissent des scénarios irréalistes "
-"pour mesurer les spécifications. Nous avons limité nos recommandations aux "
-"vendeurs qui se sont toujours montrés fiables dans la publication des "
-"spécifications des servos."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:12
-msgid ""
-"As a rule of thumb established manufacturers (HiTech, Savox, ServoCity, "
-"Gobilda, Andymark, etc) will usually publish accurate numbers, and servos "
-"from marketplaces (Amazon, AliExpress, etc) should be viewed with some "
-"skepticism."
-msgstr ""
-"En règle générale, les fabricants établis (HiTech, Savox, ServoCity, "
-"Gobilda, Andymark, etc.) publient généralement des chiffres exacts, et les "
-"servos provenant de marchés (Amazon, AliExpress, etc.) doivent être "
-"considérés avec un certain scepticisme."
-
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:15
 msgid "Servo Type: Regular or Continuous"
 msgstr "Type de Servo : Régulier ou Continu"
@@ -88,7 +59,7 @@ msgstr ""
 "n'ont pas de contrôle de position, mais le signal PWM est utilisé pour "
 "contrôler leur vitesse de rotation."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:19
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:22
 msgid ""
 "Many servos from FTC\\ |reg| vendors are Dual Mode, meaning they can switch "
 "between continuous and regular modes (often requiring the use of a sold-"
@@ -101,11 +72,11 @@ msgstr ""
 "séparément). Ces servos peuvent être utilisés soit en mode continu, soit en "
 "mode normal."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:22
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:25
 msgid "Servo Torque And Speed"
 msgstr "Couple et Vitesse des Servos"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:24
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:27
 msgid ""
 ":term:`Servo` output power is measured in both **speed** and **torque**. "
 "Speed (normally in seconds per 60\\ |deg|) refers to how fast the "
@@ -116,11 +87,11 @@ msgstr ""
 "la vitesse à laquelle le :term:`servo <Servo>` tourne de 60 degrés en mode "
 "de rotation standard."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:26
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:29
 msgid "Why seconds per 60 degrees?"
 msgstr "Pourquoi des secondes par 60 degrés ?"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:28
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:31
 msgid ""
 "Historically, the servos commonly used in FTC were created for RC (Radio "
 "Controlled) car setups. These cars often had steering linkages with a "
@@ -133,7 +104,7 @@ msgstr ""
 "de sorte que les fabricants annonçaient souvent leurs servos en utilisant "
 "des secondes pour 60 degrés."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:30
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:33
 msgid ""
 "Torque (usually measured in oz-in or in kg-cm) refers to the amount of force"
 " the :term:`servo <Servo>` can apply to a lever. For reference, if you put a"
@@ -145,20 +116,7 @@ msgstr ""
 "vous placez une barre de 1\" sur un servo, puis un dynamomètre à "
 "l'extrémité, le couple nominal du servo (en oz-in) sera mesuré."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:32
-msgid ""
-"As you may know, speed and torque will generally have an inverse "
-"relationship. You can find some insanely powerful servos that are pretty "
-"slow (slower than 0.20 s/60\\ |deg|) or some less powerful ones with faster "
-"ratios (anything faster than 0.12 s/60\\ |deg| is considered very fast)."
-msgstr ""
-"Comme vous le savez peut-être, la vitesse et le couple ont généralement une "
-"relation inverse. Vous pouvez trouver des servos extrêmement puissants mais "
-"plutôt lents (plus lents que 0,20 s/60 |deg|) ou des servos moins puissants "
-"avec des rapports plus rapides (tout ce qui est plus rapide que 0,12 s/60 "
-"|deg| est considéré comme très rapide)."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:34
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:37
 msgid ""
 "Finding the right :term:`servo <Servo>` for your application can be tough, "
 "but a good way is trying to decide if you need more speed or torque, and if "
@@ -169,11 +127,11 @@ msgstr ""
 "avez besoin de plus de vitesse ou de couple, et si votre :term:`servo "
 "<Servo>` subira des chocs ou non."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:37
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:40
 msgid "Durability and Servo Gear Material"
 msgstr "Durabilité et matériau des servos"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:39
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:42
 msgid ""
 "The two things that threaten a :term:`servo's <Servo>` longevity are the "
 "internal motor burning out and more commonly, the :term:`gears <Gear>` "
@@ -187,32 +145,11 @@ msgstr ""
 "qui grille est assez rare, mais il peut se produire sous de fortes charges "
 "pendant une période prolongée."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:41
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:44
 msgid "You should **never** stall a servo against an immovable object."
 msgstr "Vous ne devez **jamais** caler un servo contre un objet inamovible."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:43
-msgid ""
-"Gear stripping is a very common problem which occurs when the torque needed "
-"to actuate a component exceeds that of the :term:`servo's <Servo>` maximum "
-"torque. There are two main cases when this can occur."
-msgstr ""
-"L'usure des engrenages est un problème très courant qui survient lorsque le "
-"couple nécessaire pour actionner un composant dépasse le couple maximal du "
-":term:`servo <Servo>`. Il y a deux cas principaux où cela peut se produire."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:45
-msgid ""
-"Shock load from external force can strip the :term:`gears <Gear>` easily, "
-"regardless of which material the :term:`gears <Gear>` are made from. An "
-"example could be the component slamming into the field wall or another "
-"robot."
-msgstr ""
-"<Gear>Les chocs dus à une force extérieure peuvent facilement dénuder les "
-":term:`engrenages <Gear>`, quel que soit le matériau dont ils sont faits. "
-"Par exemple, le composant peut heurter le mur du champ ou un autre robot."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:46
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:49
 msgid ""
 "Shock load from reversing directions on an object that is too heavy can "
 "strip the :term:`gears <Gear>`. Torque increases with mass and also distance"
@@ -232,7 +169,7 @@ msgstr ""
 "légers et ne pas s'inverser brusquement pour prolonger la durée de vie du "
 ":term:`servo <Servo>`."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:48
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:51
 msgid ""
 "Shock load resistance is impacted directly by the material the :term:`gears "
 "<Gear>` are made from. This ranges from plastic to titanium, so let's go "
@@ -242,137 +179,15 @@ msgstr ""
 " faites les :term:`engrenages <Gear>`. Cela va du plastique au titane, alors"
 " descendons la liste, en commençant par le plus faible."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:50
-msgid ""
-"**Plastic**: with low power :term:`servos <Servo>`, these are normally okay."
-" Generally used for applications in model airplanes such as ailerons. FTC "
-"applications include light load mechanisms which will not have direct "
-"contact with any game elements or the field. An example could be a servo "
-"that opens a trapdoor or moves game elements within the robot."
-msgstr ""
-"**Plastique** : avec des :term:`servos <Servo>` de faible puissance, ils "
-"conviennent normalement. Généralement utilisés pour des applications dans "
-"les modèles réduits d'avions, comme les ailerons. Les applications FTC "
-"comprennent les mécanismes à charge légère qui n'ont pas de contact direct "
-"avec les éléments du jeu ou le terrain. Il peut s'agir par exemple d'un "
-"servo qui ouvre une trappe ou qui déplace des éléments du jeu à l'intérieur "
-"du robot."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:51
-msgid ""
-"**Karbonite**: Hitec's :term:`gear <Gear>` plastic is a very durable and "
-"long lasting plastic and is very good under long use and low load. Be aware "
-"that it can strip easily under the shock loads found in FTC. Karbonite is "
-"more durable than plastic but still suffers from shock loads."
-msgstr ""
-"**Karbonite** : L':term:`engrenage <Gear>` en karbonite de Hitec est un "
-"plastique très résistant et durable, qui convient très bien à une "
-"utilisation prolongée et à une faible charge. Il faut savoir qu'il peut se "
-"décoller facilement sous l'effet des chocs que l'on trouve en FTC. La "
-"karbonite est plus durable que le plastique, mais souffre toujours des "
-"chocs."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:52
-msgid ""
-"**Brass**: Brass :term:`gears <Gear>` are stronger than plastic but also "
-"suffer greatly when faced with shock loads in FTC like intake wrists and "
-"deposit buckets. It's found on slightly higher end servos such as the REV "
-"Smart Servo."
-msgstr ""
-"**Laiton** : L':term:`engrenage en laiton <Gear>` est plus résistant que le "
-"plastique, mais souffre beaucoup des chocs en FTC comme les poignets "
-"d'admission et les godets de dépose. On les trouve sur des servos un peu "
-"plus haut de gamme comme le REV Smart Servo."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:53
-msgid ""
-"**Steel**: This is where we start getting big. Steel :term:`gears <Gear>` "
-"are very durable and you'll have a tough time stripping these. In general, "
-"expect to pay a premium. The goBILDA Dual mode servos (v2) is an example of "
-"steel :term:`gear <Gear>` :term:`servo <Servo>`."
-msgstr ""
-"**Acier** : C'est ici que les choses commencent à se corser. Les "
-":term:`engrenages <Gear>` en acier sont très résistants et vous aurez du mal"
-" à les démonter. En général, il faut s'attendre à payer plus cher. Le "
-"goBILDA Dual mode servos (v2) est un exemple se <Gear>` :term:`servo "
-"<Servo>`  avec un :term:`engrenage en acier."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:54
-msgid ""
-"**Titanium**: Titanium is where you get into really high end, virtually "
-"unbreakable :term:`servos <Servo>`. Starting from $75, they can reach over "
-"$150. A common misconception is that titanium is stronger than steel, "
-"however its advantage is in strength to weight ratio (as in, titanium "
-"gearboxes will often be lighter than steel gearboxes)."
-msgstr ""
-"**Titanium** : Le titane est un matériau haut de gamme, pratiquement "
-"incassable :term:`servos <Servo>`. Commençant à 75 dollars, ils peuvent "
-"atteindre plus de 150 dollars. On pense souvent à tort que le titane est "
-"plus résistant que l'acier, mais son avantage réside dans le rapport "
-"résistance/poids (par exemple, les boîtes de vitesses en titane sont souvent"
-" plus légères que les boîtes de vitesses en acier)."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:57
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:63
 msgid "Servo Size"
 msgstr "Taille des servomoteurs "
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:59
-msgid ""
-":term:`Servos <Servo>` come in different sizes. Fortunately, almost all "
-"manufacturers use the same standard set of :term:`servo <Servo>` sizes, "
-"ranging from sub-micro to large. The two sizes commonly used in FTC are "
-"*standard size* (which includes REV Smart Servo and goBILDA Dual Mode "
-"Servos) and *large size* (also known as quarter-scale) :term:`servos "
-"<Servo>`. However, large :term:`servos <Servo>` are quite uncommon."
-msgstr ""
-"Les :term:`servos <Servo>` existent en différentes tailles. Heureusement, "
-"presque tous les fabricants utilisent le même ensemble standard de tailles "
-"de :term:`servo <Servo>` , allant de sub-micro à grand. Les deux tailles "
-"couramment utilisées en FTC sont la *taille standard* (qui inclut les REV "
-"Smart Servo et les goBILDA Dual Mode Servos) et la *grande taille* "
-"(également connue sous le nom de quart d'échelle) :term:`servos <Servo>`. "
-"Cependant, les grands :term:`servos <Servo>` sont assez rares."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:61
-msgid ""
-"Note that while in general, the larger the size, the more powerful the "
-":term:`servo <Servo>`, it is not a strict rule. You can buy very powerful "
-"standard size :term:`servos <Servo>` - just expect to pay more for them."
-msgstr ""
-"Notez qu'en général, plus la taille est grande, plus le :term:`servo "
-"<Servo>` est puissant, mais il ne s'agit pas d'une règle stricte. Il est "
-"possible d'acheter des :term:`servos <Servo>` de taille standard très "
-"puissants, mais il faut s'attendre à les payer plus cher."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:64
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:70
 msgid "Servo Spline"
 msgstr "Servo Spline"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:66
-msgid ""
-"The output shaft of the :term:`servo <Servo>` is commonly called the "
-"**spline**. Most servos have industry standard 25 tooth spline (also known "
-"as F3); in particular, this is the spline used by REV Smart Servo and "
-"goBILDA Dual Mode servos. However, Hitec servos using 24 tooth spline are "
-"also very popular."
-msgstr ""
-"L'arbre de sortie du :term:`servo <Servo>` est communément appelé "
-"**cannelure**. La plupart des servos ont une cannelure standard de 25 dents "
-"(également connue sous le nom de F3) ; en particulier, c'est la cannelure "
-"utilisée par les servos REV Smart Servo et goBILDA Dual Mode. Cependant, les"
-" servos Hitec utilisant une cannelure de 24 dents sont également très "
-"populaires."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:68
-msgid ""
-"Andymark servos are an exception to this, as they use a 5mm hex shaft as "
-"their output instead of a 24 or 25 tooth servo spline."
-msgstr ""
-"Les servos Andymark sont une exception à cette règle, car ils utilisent un "
-"arbre hexagonal de 5 mm comme sortie au lieu d'une cannelure de servo de 24 "
-"ou 25 dents."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:70
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:76
 msgid ""
 "Please check the spline type before you buy the :term:`servo <Servo>` - "
 "otherwise, your :term:`servo <Servo>` attachments will not fit."
@@ -380,7 +195,7 @@ msgstr ""
 "Veuillez vérifier le type de cannelure avant d'acheter le :term:`servo "
 "<Servo>` - sinon votre :term:`servo <Servo>` ne conviendra pas."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:72
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:78
 msgid ""
 "For more info about servo splines, please check "
 "https://www.servocity.com/servo-spline-info/."
@@ -388,11 +203,11 @@ msgstr ""
 "Pour plus d'informations sur les cannelures de servo, veuillez consulter "
 "https://www.servocity.com/servo-spline-info/."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:75
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:81
 msgid "Servo Range"
 msgstr "Gamme Servo"
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:77
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:83
 msgid ""
 "The angle over which a non-continuous :term:`servo <Servo>` can rotate while"
 " retaining position feedback is called the range. When choosing a servo, it "
@@ -402,32 +217,6 @@ msgstr ""
 " conservant le retour de position s'appelle la plage. Lorsque vous "
 "choisissez un servo, il est important de vous assurer que vous disposez "
 "d'une plage suffisante pour le mouvement dont vous avez besoin."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:79
-msgid ""
-"By default, the FTC Control Hub and FTC Expansion Hub output 600-2400 "
-"microsecond signals. However, this range can be expanded to 500-2500 "
-"microseconds. When choosing a servo, it is important to make sure that its "
-"range will be usable for your application inside of 500-2500 microseconds."
-msgstr ""
-"Par défaut, le FTC Control Hub et le FTC Expansion Hub émettent des signaux "
-"de 600-2400 microsecondes. Cependant, cette plage peut être étendue à "
-"500-2500 microsecondes. Lors du choix d'un servo, il est important de "
-"s'assurer que sa plage sera utilisable pour votre application à l'intérieur "
-"de 500-2500 microsecondes."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:83
-msgid ""
-"The default 600-2400 range of the FTC Expansion Hub and FTC Control Hub can "
-"make it appear that popular servos like the goBILDA Dual Mode servos and REV"
-" Smart Robot Servo have less range than advertised. You can use the "
-"following code to expand the range to 500-2500 microseconds."
-msgstr ""
-"La plage par défaut de 600-2400 du FTC Expansion Hub et du FTC Control Hub "
-"peut donner l'impression que des servos populaires comme les servos goBILDA "
-"Dual Mode et REV Smart Robot Servo ont moins de portée que ce qui est "
-"annoncé. Vous pouvez utiliser le code suivant pour étendre la plage à "
-"500-2500 microsecondes."
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:92
 msgid "Cost"
@@ -443,230 +232,6 @@ msgstr ""
 "pour des applications légères, jusqu'à des :term:`servos <Servo>` Hitec ou "
 "Savox pour près de 200 $."
 
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:96
-msgid ""
-"By far the best bang for your buck :term:`servos <Servo>` out there are "
-"going to be **goBILDA dual mode** and **REV SRS** servos. In addition, the "
-"**Andymark High Torque/Speed** servos on paper are the best bang for your "
-"buck servo, but at the time of writing have not been released and tested."
-msgstr ""
-"De loin, les meilleurs servos pour votre argent :term:`servos <Servo>` sont "
-"les **goBILDA dual mode** et **REV SRS**. De plus, les servos **Andymark "
-"High Torque/Speed** sont sur le papier le meilleur servo pour votre argent, "
-"mais à l'heure où j'écris ces lignes, ils n'ont pas encore été "
-"commercialisés et testés."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:98
-msgid ""
-"The biggest downside to the REV SRS are their brass :term:`gears <Gear>`. "
-"Coupled with high output power, this meant that stripping :term:`gears "
-"<Gear>` with any shock load was commonplace."
-msgstr ""
-"Le plus gros inconvénient des REV SRS est leur :term:`engrenage <Gear>` en "
-"laiton. Associé à une puissance de sortie élevée, cela signifie que le "
-"dénudage des :term:`engrenages <Gear>` avec n'importe quel choc est monnaie "
-"courante."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:100
-msgid ""
-"The next big name in FTC :term:`Servos <Servo>` is Hitec, who is a huge name"
-" in hobby :term:`servos <Servo>` for decades and are very well trusted. "
-"Their low end :term:`servos <Servo>` are inexpensive but easily broken."
-msgstr ""
-"Le prochain grand nom des :term:`servos <Servo>` en FTC est Hitec, qui est "
-"un grand nom du hobby :term:`servos <Servo>` depuis des décennies et qui "
-"jouit d'une grande confiance. Leurs :term:`servos <Servo>` bas de gamme sont"
-" peu coûteux, mais facilement cassables."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:102
-msgid ""
-"A mid-priced Hitec :term:`servo <Servo>` is the HS 485-HB/488-HB servo, with"
-" Karbonite :term:`gears <Gear>`. While it shouldn't be used in high load "
-"applications, it is fine for general use such as claws or trapdoors. 485HB "
-"uses 24 tooth spline; 488 HB uses 25 tooth spline (recommended)."
-msgstr ""
-"Un :term:`servo <Servo>` Hitec de prix moyen est le HS 485-HB/488-HB, avec "
-"des :term:`engrenages <Gear>` en Karbonite. Bien qu'il ne doive pas être "
-"utilisé dans des applications à forte charge, il est parfait pour un usage "
-"général tel que les pinces ou les trappes. Le 485HB utilise une cannelure de"
-" 24 dents ; le 488 HB utilise une cannelure de 25 dents (recommandé)."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:104
-msgid ""
-"Where Hitec really shines is the high end market. If your budget is over "
-"$100, you can get into some very powerful Hitec :term:`servos <Servo>`. Most"
-" have titanium :term:`gears <Gear>` and are programmable, so you can dial in"
-" the performance and range to exactly what you need."
-msgstr ""
-"Là où Hitec brille vraiment, c'est sur le marché haut de gamme. Si votre "
-"budget est supérieur à 100 $, vous pouvez vous procurer des :term:`servos "
-"<Servo>` Hitec très puissants. La plupart d'entre eux sont dotés "
-"d':term:`engrenages <Gear>` en titane et sont programmables, ce qui vous "
-"permet de régler les performances et la portée en fonction de vos besoins."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:106
-msgid ""
-"Axon Robotics, a relatively new company, offers programmable, titanium-"
-"geared servos in the $75+ range."
-msgstr ""
-"Axon Robotics, une société relativement récente, propose des servos "
-"programmables à engrenage en titane à partir de 75 dollars."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:108
-msgid ""
-"The last big player in the :term:`servo <Servo>` market in FTC is Savox, "
-"which produces great mid-high range :term:`servos <Servo>` (think "
-"$60-$100+). They are made with titanium :term:`gears <Gear>` (close to "
-"bulletproof) and are **fast**. Savox :term:`servos <Servo>` are mostly "
-"brushless and coreless, so they do tend to scream a little under load, but "
-"they're definitely worth it if your budget allows for it."
-msgstr ""
-"Le dernier grand acteur du marché :term:`servo <Servo>` en FTC est Savox, "
-"qui produit d'excellents :term:`servos <Servo>` moyen-haut de gamme "
-"(60-100$+). Ils sont fabriqués avec des :term:`engrenages <Gear>` en titane "
-"(presque à l'épreuve des balles) et sont **rapides**. Les :term:`servos "
-"<Servo>` Savox sont principalement sans balais et sans noyau, ils ont donc "
-"tendance à crier un peu sous la charge, mais ils en valent vraiment la peine"
-" si votre budget le permet."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:111
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:101
 msgid "Recommended Servos"
 msgstr "Servomoteurs recommandés"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:113
-msgid ""
-"We no longer recommend low priced servos. Due to their low strength, they "
-"end up requiring multiple replacements over time, negating any cost "
-"benefits."
-msgstr ""
-"Nous ne recommandons plus les servos à bas prix. En raison de leur faible "
-"résistance, ils finissent par nécessiter de multiples remplacements au fil "
-"du temps, ce qui annule tout avantage financier."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:116
-msgid "Bang for Your Buck"
-msgstr "Un bon rapport qualité-prix"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:118
-msgid ""
-"`goBILDA Dual Mode Servo (Torque) (25-2-torque) "
-"<https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_ - A "
-"very good price to performance servo. It is dual mode, has a higher than "
-"average output torque (and correspondingly lower speed), and steel gearbox."
-msgstr ""
-"`goBILDA Dual Mode Servo (Torque) (25-2-torque) "
-"<https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_ - Un "
-"servo très bon rapport qualité/prix. Il est bi-mode, a un couple de sortie "
-"plus élevé que la moyenne (et donc une vitesse plus faible), et une boîte de"
-" vitesse en acier."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:120
-msgid ""
-"`goBILDA Dual Mode Servo (Speed) (25-3) "
-"<https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_ - A very"
-" good price to performance servo. It is dual mode, has a higher than average"
-" output speed (and correspondingly lower torque), and steel gearbox."
-msgstr ""
-"`goBILDA Dual Mode Servo (Speed) (25-3) "
-"<https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_ - Un "
-"très bon rapport qualité/prix. Il est bi-mode, a une vitesse de sortie plus "
-"élevée que la moyenne (et un couple correspondant plus faible), et une boîte"
-" de vitesse en acier."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:122
-msgid ""
-"`REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_ - While very "
-"good price to performance, its brass gearbox makes it less recommended than "
-"goBILDA Dual Mode Servos"
-msgstr ""
-"`REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_ - Bien que son"
-" rapport qualité/prix soit très bon, sa boîte de vitesse en laiton le rend "
-"moins recommandé que les servos goBILDA Dual Mode."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:124
-msgid ""
-"`Andymark High Speed/Torque Servo "
-"<https://andymark.com/products/programmable-servos>`_ - A newcomer to the "
-"market, this servo is extremely promising as a price to performance servo, "
-"with a unique 5mm hex output and imperial half inch mounting pattern. The "
-"high speed variant has more power output than the commonly used goBILDA Dual"
-" Mode servo. The high torque servo has a higher efficiency than the goBILDA "
-"Dual Mode servo. **It is unreleased at the time of writing, so these claims "
-"have not been verified.** This servo has been included due to Andymark's "
-"historical reliability."
-msgstr ""
-"`Andymark High Speed/Torque Servo "
-"<https://andymark.com/products/programmable-servos>`_ - Nouveau venu sur le "
-"marché, ce servo est extrêmement prometteur en termes de prix et de "
-"performances, avec une sortie hexagonale unique de 5 mm et un schéma de "
-"montage impérial d'un demi-pouce. La variante haute vitesse a une puissance "
-"de sortie supérieure à celle du servo goBILDA Dual Mode couramment utilisé. "
-"Le servo à couple élevé a un rendement plus élevé que le servo goBILDA Dual "
-"Mode. **Ce servo a été inclus en raison de la fiabilité historique "
-"d'Andymark."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:128
-msgid "Premium Options"
-msgstr "Options Premium"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:130
-msgid ""
-"`Axon Robotics MAX+ <https://axon-robotics.com/products/max>`_ - The best "
-"price to performance high performance servo. It has a high efficiency and a "
-"high power output. In addition, this servo can track its absolute position "
-"via an analog output wire."
-msgstr ""
-"Axon Robotics MAX+ <https://axon-robotics.com/products/max>`_ - Le meilleur "
-"prix pour un servo de haute performance. Il a un rendement élevé et une "
-"grande puissance de sortie. De plus, ce servo peut suivre sa position "
-"absolue via un fil de sortie analogique."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:132
-msgid ""
-"Hitec titanium servos - A reliable choice, Hitec has a large variety of "
-"servos making it a good option for super specific servos such as non-"
-"standard form factors or specific qualities desired such as high speed or "
-"very high torque."
-msgstr ""
-"Servos en titane Hitec - Un choix fiable, Hitec dispose d'une grande variété"
-" de servos, ce qui en fait une bonne option pour les servos très spécifiques"
-" tels que les facteurs de forme non standard ou les qualités spécifiques "
-"souhaitées telles qu'une vitesse élevée ou un couple très élevé."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:136
-msgid "Specialty Servos"
-msgstr "Servomoteurs spécialisés"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:139
-msgid ""
-"`goBILDA 5 Turn Servo <https://www.gobilda.com/2000-series-5-turn-dual-mode-"
-"servo-25-2-torque/>`_"
-msgstr ""
-"`goBILDA 5 Turn Servo <https://www.gobilda.com/2000-series-5-turn-dual-mode-"
-"servo-25-2-torque/>`_"
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:139
-msgid ""
-"goBILDA manufactures all three of their Dual Mode servos (Speed, Super "
-"Speed, Torque) in 5 turn variants, which can rotate 5 turns while still "
-"tracking position. These servos have high range, making them ideal for use "
-"with external gearboxes, but are more expensive and have a lower precision "
-"than the normal variants."
-msgstr ""
-"goBILDA fabrique ses trois servos Dual Mode (Speed, Super Speed, Torque) en "
-"version 5 tours, qui peuvent tourner de 5 tours tout en conservant leur "
-"position. Ces servos ont une grande portée, ce qui les rend idéaux pour une "
-"utilisation avec des boîtes de vitesses externes, mais ils sont plus chers "
-"et ont une précision plus faible que les variantes normales."
-
-#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:141
-msgid ""
-"REV and goBILDA :term:`servos <Servo>` can be purchased from REV and goBILDA"
-" websites respectively. For all other servos, some good sources are "
-"`ServoCity <https://www.servocity.com/>`_ or `Amazon "
-"<https://www.amazon.com/>`_."
-msgstr ""
-"REV et goBILDA :term:`servos <Servo>` peuvent être achetés sur les sites REV"
-" et goBILDA respectivement. Pour tous les autres servos, de bonnes sources "
-"sont `ServoCity <https://www.servocity.com/>`_ ou `Amazon "
-"<https://www.amazon.com/>`_."
