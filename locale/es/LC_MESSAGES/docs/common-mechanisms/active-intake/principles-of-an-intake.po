@@ -1,6 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Game Manual 0 Contributors |  Hosting Graciously Provided By //Copperforge
+# This file is distributed under the same license as the Game Manual 0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Yaretzi Lugo, 2025
+# 
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: Game Manual 0 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-17 04:38+0000\n"
+"PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Yaretzi Lugo, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:4
+msgid "Principles of an Intake"
+msgstr "Principios de un Intake"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:7
+msgid "Reliability"
+msgstr "Fiabilidad"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:9
+msgid ""
+"An intake must be reliable, as picking up and scoring game elements is the "
+"primary method to gain points in all FTC\\ |reg| games."
+msgstr ""
+"Una intake debe ser fiable, ya que recoger y anotar elementos del juego es "
+"el método principal para ganar puntos en todos los juegos de FTC |reg|."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:11
+msgid ""
+"Intakes have many moving parts and are susceptible to breaking, especially "
+"at high RPM. Thus, the intake material must be durable to withstand long "
+"periods of operation."
+msgstr ""
+"Los intakes tienen muchas piezas móviles y son susceptibles de romperse, "
+"especialmente a altas RPM. Por ello, el material del intake debe ser "
+"duradero para soportar largos periodos de funcionamiento."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:13
+msgid ""
+"Intakes often stick outside of the robot frame perimeter. In this case, "
+"durability becomes extremely important; the intake must be built so that "
+"they can withstand impacts/collisions with other robots or parts of the "
+"field."
+msgstr ""
+"Los intakes suelen sobresalir del perímetro de la estructura del robot. En "
+"este caso, la durabilidad adquiere una importancia extrema; los intakes "
+"deben construirse de modo que puedan soportar impactos/colisiones con otros "
+"robots o partes del campo."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:15
+msgid ""
+"There are two ways to accomplish this - either by building the intake very "
+"robustly (lots of support so it doesn't break), or making the intake "
+"flexible (for example out of lexan or spring loading it) so that even though"
+" it may bend due to impacts, it will always spring back into place."
+msgstr ""
+"Hay dos maneras de conseguirlo: o bien construyendo el intake de forma muy "
+"robusta (con mucho soporte para que no se rompa), o bien haciendo que el "
+"intake sea flexible (por ejemplo, de lexan o cargada con resortes) para que,"
+" aunque se doble debido a los impactos, siempre vuelva a su sitio."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:17
+msgid ""
+"Another way to prevent intake breaking is to make a fully retractable intake"
+" that won't protrude outside the 18\" cube, though this is seldom needed."
+msgstr ""
+"Otra forma de evitar la ruptura del intake es hacer un intake totalmente "
+"retráctil que no sobresalga fuera del cubo de 18\", aunque esto rara vez es "
+"necesario."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:20
+msgid "Consistency"
+msgstr "Consistencia"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:22
+msgid ""
+"The intake **must** be able to pick up game elements consistently and "
+"quickly. For example, in Rover Ruckus each robot could only possess 2 "
+"minerals at a time. Therefore, the intake should only pick up two pieces at "
+"a time, not zero, one, or three."
+msgstr ""
+"La intake **debe** ser capaz de recoger elementos del juego de forma "
+"constante y rápida. Por ejemplo, en Rover Ruckus cada robot sólo podía "
+"poseer 2 minerales a la vez. Por lo tanto, el intake sólo debe recoger dos "
+"piezas a la vez, no cero, uno o tres."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:24
+msgid ""
+"This is a common mistake that many inexperienced teams fail to take into "
+"account."
+msgstr ""
+"Se trata de un error común que muchos equipos inexpertos no tienen en "
+"cuenta."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:26
+msgid ""
+"Another component is the varying angles that the game objects can be located"
+" in. This was especially apparent in the Relic Recovery season, where the "
+"\"glyphs\" (foam cubes) could be oriented in many directions."
+msgstr ""
+"Otro componente son los distintos ángulos en que pueden situarse los objetos"
+" del juego. Esto era especialmente evidente en la temporada de Relic "
+"Recovery, en la que los \"glyphs\" (cubos de espuma) podían orientarse en "
+"muchas direcciones."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:28
+msgid ""
+"Even though it was relatively easy to make a compliant wheel intake that "
+"could effectively intake glyphs in one direction, it was hard to make an "
+"intake that could deal with angled glyphs. Being able to intake glyphs in "
+"all orientations was especially important for multi-glyph autonomous modes."
+msgstr ""
+"Aunque fue relativamente fácil hacer un intake de rueda compatible que "
+"pudiera tomar eficazmente glifos en una dirección, fue difícil hacer un "
+"intake que pudiera manejar glifos angulados. Ser capaz de tomar glifos en "
+"todas las orientaciones fue especialmente importante para los modos "
+"autónomos de varios glifos."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:31
+msgid "Controllability"
+msgstr "Controlabilidad"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:33
+msgid ""
+"The intake must be able to consistently control the game elements. For "
+"example, if the intake is too fast and the collection box is not well "
+"designed, then game pieces might fly out. If the intake is too slow, it may "
+"jam itself when contacting the game elements."
+msgstr ""
+"El intake debe ser capaz de controlar de manera constante los elementos del "
+"juego. Por ejemplo, si el intake es demasiado rápido y la caja de "
+"recolección no está bien diseñada, entonces las piezas del juego podrían "
+"salir volando. Si el intake es demasiado lento, puede atascarse al entrar en"
+" contacto con los elementos del juego."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:34
+msgid ""
+"It is possible for pieces to get jammed at an unreachable angle, especially "
+"when using wheeled intakes. If this occurs, ensure that the driver can jar "
+"the stuck element loose to avoid having a disabled robot."
+msgstr ""
+"Es posible que las piezas se atoren en un ángulo inalcanzable, especialmente"
+" al usar intakes con ruedas. Si esto ocurre, asegúrese de que el conductor "
+"pueda liberar el elemento atascado para evitar que el robot quede "
+"deshabilitado."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:35
+msgid ""
+"Optimally, the game elements should follow a certain path each time if "
+"funneling is done correctly."
+msgstr ""
+"Óptimamente, los elementos del juego deberían seguir un cierto camino cada "
+"vez si la canalización se realiza correctamente."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:36
+msgid ""
+"It is best practice that the driver can see the game elements which are "
+"being controlled. This can be done through using clear plating such as "
+"Lexan."
+msgstr ""
+"Es una buena práctica que el conductor pueda ver los elementos del juego que"
+" se están controlando. Esto se puede lograr utilizando placas transparentes "
+"como Lexan."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:39
+msgid "Efficiency"
+msgstr "Eficiencia"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:41
+msgid ""
+"The key to any successful robot is cycle time. Reducing cycle time by having"
+" an efficient intake will lead to major improvements in score. A good intake"
+" should take no more than a few seconds to successfully collect the needed "
+"elements."
+msgstr ""
+"La clave de cualquier robot exitoso es el tiempo de ciclo. Reducir el tiempo"
+" de ciclo al tener un intake eficiente conducirá a mejoras importantes en la"
+" puntuación. Un buen intake no debería tomar más de unos segundos para "
+"recolectar con éxito los elementos necesarios."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:43
+msgid ""
+"For example, in Relic Recovery, the best intakes often had a <3 second "
+"collection time for two game elements, and in Rover Ruckus a 1 second "
+"collection time was desired at the highest level."
+msgstr ""
+"Por ejemplo, en Relic Recovery, los mejores intakes a menudo tenían un "
+"tiempo de recolección de <3 segundos para dos elementos del juego, y en "
+"Rover Ruckus se deseaba un tiempo de recolección de 1 segundo en el nivel "
+"más alto."
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:44
+msgid ""
+"A key rule to remember in FTC is the shortest distance rule: how can you get"
+" scoring elements from A to B in the shortest distance?"
+msgstr ""
+"Una regla clave para recordar en FTC es la regla de la distancia más corta: "
+"¿cómo puedes llevar los elementos de puntuación de A a B en la distancia más"
+" corta?"
+
+#: ../../gm0/source/docs/common-mechanisms/active-intake/principles-of-an-intake.rst:46
+msgid ""
+"The answer is usually one or two straight lines. The closer the scoring "
+"elements follow this path, the faster they will go from collection to "
+"deposit. Don't make overly long routes unless needed."
+msgstr ""
+"La respuesta suele ser una o dos líneas rectas. Cuanto más cerca sigan los "
+"elementos de puntuación este camino, más rápido irán de la recolección al "
+"depósito. No hagas rutas excesivamente largas a menos que sea necesario."

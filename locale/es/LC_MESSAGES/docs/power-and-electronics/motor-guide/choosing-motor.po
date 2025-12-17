@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Ddino XD, 2023
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2025-12-17 04:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,6 +29,170 @@ msgstr "Eligiendo un Motor"
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:7
 msgid "Legal Motors"
 msgstr "Motores Legales"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:9
+msgid ""
+"12 volt motors are strictly controlled by FTC\\ |reg| rules. As of 2025-2026"
+" season, the only FTC legal 12V motors are the following ones:"
+msgstr ""
+"Los motores de 12 voltios están estrictamente controlados por las normas de "
+"la FTC. A partir de la temporada 2025-2026, los únicos motores de 12V "
+"legales para FTC son los siguientes:"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:11
+msgid ""
+"`AndyMark NeveRest 12V DC <https://andymark.com/products/neverest-series-"
+"motor-only?sku=am-3104>`_ (am-3104, am-3104b)"
+msgstr ""
+"`AndyMark NeveRest 12V DC <https://andymark.com/products/neverest-series-"
+"motor-only?sku=am-3104>`_ (am-3104, am-3104b)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:12
+msgid ""
+"`AndyMark NeveRest Hex 12V DC <https://andymark.com/products/neverest-"
+"series-motor-only?sku=am-3104c_17t>`_ (am-3104c)"
+msgstr ""
+"`AndyMark NeveRest Hex 12V DC <https://andymark.com/products/neverest-"
+"series-motor-only?sku=am-3104c_17t>`_ (am-3104c)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:13
+msgid ""
+"`goBILDA Yellow Jacket 520x Series 12V DC <https://www.gobilda.com/yellow-"
+"jacket-planetary-gear-motors>`_ (5201, 5202, 5203, and 5204 series, e.g. "
+"5201-0002-0026)"
+msgstr ""
+"`goBILDA Yellow Jacket 520x Series 12V DC <https://www.gobilda.com/yellow-"
+"jacket-planetary-gear-motors>`_ (5201, 5202, 5203, and 5204 series, e.g. "
+"5201-0002-0026)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:14
+msgid ""
+"`goBILDA 5000 Series 12V DC <https://www.gobilda.com/5000-series-motors>`_ "
+"(e.g. 5000-0002-4008)"
+msgstr ""
+"`goBILDA 5000 Series 12V DC <https://www.gobilda.com/5000-series-motors>`_ "
+"(e.g. 5000-0002-4008)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:15
+msgid ""
+"`Modern Robotics / MATRIX 12V DC <https://www.gobilda.com/5000-series-"
+"matrix-12vdc-motor/>`_ (5000-0002-0001)"
+msgstr ""
+"`Modern Robotics / MATRIX 12V DC <https://www.gobilda.com/5000-series-"
+"matrix-12vdc-motor/>`_ (5000-0002-0001)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:16
+msgid ""
+"`NFR Products Yuksel 12V DC <https://nfrproducts.com/yuksel-12v-dc-motor>`_"
+msgstr ""
+"`NFR Products Yuksel 12V DC <https://nfrproducts.com/yuksel-12v-dc-motor>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:17
+msgid ""
+"`REV Robotics HD Hex 12V DC <https://www.revrobotics.com/REV-41-1291/>`_ "
+"(REV-41-1291)"
+msgstr ""
+"`REV Robotics HD Hex 12V DC <https://www.revrobotics.com/REV-41-1291/>`_ "
+"(REV-41-1291)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:18
+msgid ""
+"`REV Robotics Core Hex 12V DC <https://www.revrobotics.com/rev-41-1300/>`_ "
+"(REV-41-1300)"
+msgstr ""
+"`REV Robotics Core Hex 12V DC <https://www.revrobotics.com/rev-41-1300/>`_ "
+"(REV-41-1300)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:19
+msgid ""
+"`Studica Robotics Maverick 12V DC <https://www.studica.com/studica-robotics-"
+"brand/maverick-dc-gear-motor-611-w-encoder>`_ (75001)"
+msgstr ""
+"`Studica Robotics Maverick 12V DC <https://www.studica.com/studica-robotics-"
+"brand/maverick-dc-gear-motor-611-w-encoder>`_ (75001)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:20
+msgid ""
+"`SWYFT Robotics SWYFT Spike Motor <https://swyftrobotics.com/products/swyft-"
+"spike-ftc-planetary-gearmotors>`_ (SR-MOTOR-DC-01)"
+msgstr ""
+"`SWYFT Robotics SWYFT Spike Motor <https://swyftrobotics.com/products/swyft-"
+"spike-ftc-planetary-gearmotors>`_ (SR-MOTOR-DC-01)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:21
+msgid "TETRIX MAX 12V DC (739530, 39530; now discontinued)"
+msgstr "TETRIX MAX 12V CC (739530, 39530; ya descatalogada)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:22
+msgid ""
+"`TETRIX MAX TorqueNADO 12V DC <https://www.pitsco.com/products/tetrix-max-"
+"torquenado-motor-with-encoder>`_ (W44260)"
+msgstr ""
+"`TETRIX MAX TorqueNADO 12V DC <https://www.pitsco.com/products/tetrix-max-"
+"torquenado-motor-with-encoder>`_ (W44260)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:25
+msgid ""
+"Many legal gearmotors are sold with labeling based on the entire assembly. "
+"These motors may be used with or without the provided gearbox, and/or with "
+"any other compatible gearbox.  Here are some examples:"
+msgstr ""
+"Muchos motorreductores legales se venden con un etiquetado basado en el "
+"conjunto completo. Estos motores pueden utilizarse con o sin la caja de "
+"engranajes suministrada, y/o con cualquier otra caja de engranajes "
+"compatible.  He aquí algunos ejemplos:"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:27
+msgid ""
+"`REV Robotics UltraPlanetary Gearbox Kit & HD Hex Motor "
+"<https://www.revrobotics.com/rev-41-1600/>`_ (REV-41-1600)"
+msgstr ""
+"`REV Robotics UltraPlanetary Gearbox Kit & HD Hex Motor "
+"<https://www.revrobotics.com/rev-41-1600/>`_ (REV-41-1600)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:28
+msgid ""
+"`REV Robotics HD Hex Motor 20:1 Spur Gearbox "
+"<https://www.revrobotics.com/rev-41-1298/>`_ (REV-41-1298)"
+msgstr ""
+"`REV Robotics HD Hex Motor 20:1 Caja de engranajes rectos "
+"<https://www.revrobotics.com/rev-41-1298/>`_ (REV-41-1298)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:29
+msgid ""
+"`REV Robotics HD Hex Motor 40:1 Spur Gearbox "
+"<https://www.revrobotics.com/rev-41-1301/>`_ (REV-41-1301)"
+msgstr ""
+"`REV Robotics HD Motor Hex 40:1 Caja de engranajes rectos "
+"<https://www.revrobotics.com/rev-41-1301/>`_ (REV-41-1301)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:30
+msgid ""
+"`AndyMark NeveRest Gearmotors "
+"<https://andymark.com/collections/gearmotors?filter.p.m.filters.recommended_for=FTC>`_"
+msgstr ""
+"`AndyMark NeveRest Gearmotors "
+"<https://andymark.com/collections/gearmotors?filter.p.m.filters.recommended_for=FTC>`_"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:33
+msgid ""
+"Continuous Rotation servos can also be a great option in place of a 12V "
+"motor in various mechanisms.  See :doc:`Choosing a Servo <../servo-"
+"guide/choosing-servo>` for details."
+msgstr ""
+"Los servos de rotación continua también pueden ser una gran opción en lugar "
+"de un motor de 12V en varios mecanismos.  Consulta :doc:`Cómo elegir un "
+"servo <../servo-guide/choosing-servo>` para obtener más información."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:35
+msgid ""
+"With the exception of the :term:`REV Core Hex Motor <Core Hex Motor>`, all "
+"other motors above have very similar structures. They consist of the "
+"following components:"
+msgstr ""
+"A excepción del :term:`REV Core Hex Motor <Core Hex Motor>`, todos los demás"
+" motores anteriores tienen estructuras muy similares. Constan de los "
+"siguientes componentes:"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:37
 msgid ""
@@ -51,6 +215,26 @@ msgstr ""
 "Robotics HD Hex motors <HD Hex Motor>`, y: término: `goBILDA motors <Yellow "
 "Jacket Motor>` son prácticamente idénticos. Las especificaciones más fiables"
 " se pueden encontrar en la sección :ref:`datos-del-motor`."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:38
+msgid ""
+"**Gearbox**. The gearbox is attached to the front of the motor and reduces "
+"the speed while increasing the torque. For example, a 20:1 gearbox reduces "
+"the speed by a factor of 20, resulting in a no-load speed of around 300RPM. "
+"See :term:`Gear Reduction`. A gearbox also contains the output :term:`shaft "
+"<Shaft>` (typically a 8mm REX shaft, 5mm hex shaft, or 6mm D shaft) and "
+"mounting holes. The gearbox can also be replaced; this is FTC legal but "
+"requires some skill."
+msgstr ""
+"**Caja de engranajes**. La caja de engranajes se acopla a la parte delantera"
+" del motor y reduce la velocidad al tiempo que aumenta el par. Por ejemplo, "
+"una caja de cambios de 20:1 reduce la velocidad en un factor de 20, lo que "
+"resulta en una velocidad sin carga de alrededor de 300RPM. Véase: término:' "
+"Reducción de engranajes`. Una caja de engranajes también contiene el eje de "
+"salida: término: `eje <Shaft>` (normalmente un eje REX de 8 mm, un eje "
+"hexagonal de 5 mm o un eje D de 6 mm) y los orificios de montaje. La caja de"
+" engranajes también se puede sustituir; esto es legal según FTC, pero "
+"requiere cierta habilidad."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:39
 msgid ""
@@ -80,9 +264,42 @@ msgstr ""
 msgid "Gearboxes"
 msgstr "Cajas de Engranajes"
 
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:46
+msgid ""
+"There are two kinds of gearboxes: spur gearboxes, and planetary (also known "
+"as orbital) gearboxes. Their inner structure and difference is discussed in "
+"detail in :doc:`gearbox-anatomy` section. For new teams, it suffices to know"
+" that planetary gearboxes much more reliable, but may be slightly more "
+"expensive. Spur gearboxes can strip under shock loads (for example, when "
+"your robot hits a wall), requiring you to replace the gearbox. For this "
+"reason, it is advised to use planetary gearboxs, especially in high-load use"
+" cases such as drivetrains."
+msgstr ""
+"Existen dos tipos de cajas de engranajes: rectas y planetarias (también "
+"conocidas como orbitales). Su estructura interna y sus diferencias se tratan"
+" en detalle en la sección :doc:`anatomia-de-caja-de-engranajes`. Para los "
+"equipos nuevos, basta con saber que las cajas de engranajes planetarios son "
+"algo más caras, pero más fiables. Las cajas de engranajes rectos pueden "
+"romperse bajo cargas de choque (por ejemplo, cuando el robot choca contra "
+"una pared), lo que obliga a sustituir la caja de engranajes. Por este "
+"motivo, se aconseja utilizar reductores planetarios especialmente en casos "
+"de uso con cargas elevadas, como los chasises."
+
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:49
 msgid "Planetary Gearboxes"
 msgstr "Caja de Engranes Planetarios"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:51
+msgid ""
+"Standard planetary gearboxes include :term:`AndyMark NeveRest Orbital motors"
+" <NeveRest Motor>`, :term:`REV 20:1 Planetary motor <HD Hex Motor>`, and "
+":term:`goBILDA's 5202/5203/5204 Series Yellow Jacket Motors <Yellow Jacket "
+"Motor>`."
+msgstr ""
+"Los reductores planetarios estándar incluyen :term:`AndyMark NeveRest "
+"Orbital motors <NeveRest Motor>`, :term:`REV 20:1 Planetary motor <HD Hex "
+"Motor>`, y :term:`goBILDA's 5202/5203/5204 Series Yellow Jacket Motors "
+"<Yellow Jacket Motor>`."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:53
 msgid ""
@@ -99,6 +316,54 @@ msgstr ""
 "lo principal a tener en cuenta aquí es la reducción deseada, las conexiones "
 "de motor deseadas y el tipo de salida :término:`shaft <Shaft>` deseado."
 
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:55
+msgid ""
+"`goBILDA Yellow Jacket <https://www.gobilda.com/yellow-jacket-planetary-"
+"gear-motors/>`_ has the most varied selection of gearbox ratios with too "
+"many to list here, but utilize the rather uncommon :term:`3.5mm Bullet` "
+"connection for power. The output :term:`shaft <Shaft>` is a 8mm REX (7mm hex"
+" rounded to 8 mm) or :term:`6mm D-shaft <Shaft>`."
+msgstr ""
+"GOBILDA Yellow Jacket <https://www.gobilda.com/yellow-jacket-planetary-gear-"
+"motors/>`_ tiene la más variada selección de relaciones de transmisión con "
+"demasiados para enumerar aquí, pero utilizan el poco común :term:`Bala de "
+"3.5mm` conexión para potencia. La salida del :term:`eje <Shaft>` es un 8mm "
+"REX (7mm hex redondeado a 8 mm) o :term:`6mm D-eje <Shaft>`."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:56
+msgid ""
+"`REV HD Hex Motor with UltraPlanetary Gearbox "
+"<https://www.revrobotics.com/rev-41-1600/>`_ - The UltraPlanetary is a "
+"customizable planetary gearbox that is designed for FTC. The three gearbox "
+"options are 3:1, 4:1, and 5:1, and can be mix & matched to create a custom "
+"ratio. It is possible to use from one to three gearboxes for a minimum ratio"
+" of 3:1 and a maximum of 125:1.  The motor uses the same connections "
+"(:term:`JST VH`) as the REV Expansion and Control Hub for power, which means"
+" no adapter cables are necessary."
+msgstr ""
+"`REV HD Hex Motor with UltraPlanetary Gearbox "
+"<https://www.revrobotics.com/rev-41-1600/>`_ - El UltraPlanetary es un "
+"reductor planetario personalizable que está diseñado para FTC. Las tres "
+"opciones de caja de engranajes son 3:1, 4:1, y 5:1, y se pueden mezclar y "
+"combinar para crear una relación personalizada. Es posible utilizar de una a"
+" tres cajas de engranajes para una relación mínima de 3:1 y máxima de 125:1."
+"  El motor utiliza las mismas conexiones (:term:`JST VH`) que el REV "
+"Expansion y Control Hub para la alimentación, lo que significa que no son "
+"necesarios cables adaptadores."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:59
+msgid ""
+"While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual"
+" gear ratios are slightly different. Consult the `REV UltraPlanetary User's "
+"Manual for the exact gear ratios <https://docs.revrobotics.com/rev-"
+"crossover-products/ultraplanetary/cartridge-details>`_."
+msgstr ""
+"Aunque REV enumera las etapas UltraPlanetary como 3:1, 4:1, y 5:1, sus "
+"relaciones de transmisión reales son ligeramente diferentes. Consulte el "
+"Manual del Usuario del UltraPlanetario REV para conocer las relaciones de "
+"transmisión exactas <https://docs.revrobotics.com/rev-crossover-"
+"products/ultraplanetary/cartridge-details>`_."
+
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:61
 msgid ""
 "The UltraPlanetary was intended to give teams maximum customization without "
@@ -113,6 +378,92 @@ msgstr ""
 "*excepcionalmente* bueno para un motor personalizable. Además, el "
 "UltraPlanetary tiene una salida hexagonal hembra de 5 mm: término: "
 "`shaft<Shaft>` que permite a los equipos personalizar la longitud del eje."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:64
+msgid ""
+"goBILDA sells a special `output adapter <https://www.gobilda.com/flanged-"
+"stainless-steel-shaft-for-rev-motion-pattern-8mm-rex-29mm-length/>`_ and "
+"`motor mount <https://www.gobilda.com/1702-series-quad-block-motor-"
+"mount-43-3/>`_ that allows easily using the UltraPlanetary with the goBILDA "
+"system."
+msgstr ""
+"goBILDA vende un `adaptador de salida` especial "
+"<https://www.gobilda.com/flanged-stainless-steel-shaft-for-rev-motion-"
+"pattern-8mm-rex-29mm-length/>`_ y un `motor de montaje "
+"<https://www.gobilda.com/1702-series-quad-block-motor-mount-43-3/>`_ que "
+"permite utilizar fácilmente el UltraPlanetary con el sistema goBILDA."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:65
+msgid ""
+"`AndyMark NeveRest Orbital <https://andymark.com/products/neverest-orbital-"
+"gearmotors>`_ motors come in four :term:`ratios <Gear Reduction>`, 1:1, "
+"3.7:1, 19.2:1, 50.9:1, and 263.7:1. The output shaft is a :term:`6mm D-shaft"
+" <Shaft>`, and the motors have inbuilt cables with :term:`Anderson "
+"PowerPole` or :term:`JST VH` connectors to connect to power."
+msgstr ""
+"Los motores :term:`AndyMark NeveRest Orbital "
+"<https://andymark.com/products/neverest-orbital-gearmotors>`_ vienen en "
+"cuatro :term:`relaciones <Gear Reduction>`, 1:1, 3.7:1, 19.2:1, 50.9:1, y "
+"263.7:1. El eje de salida es un :term:`eje en D de 6 mm <Shaft>`, y los "
+"motores incorporan cables con conectores :term:`Anderson PowerPole` o "
+":term:`JST VH` para conectarlos a la corriente."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:66
+msgid ""
+"`AndyMark NeveRest Hex <https://andymark.com/products/neverest-hex-"
+"gearmotors>`_ motors come in five :term:`ratios <Gear Reduction>`, 1:1, "
+"3.7:1, 13.7:1, 19.2:1, 50.9:1, and 263.7:1. The output shaft is a :term:`3/8"
+" inch hex shaft <Shaft>`, and the motors have :term:`JST VH` connectors on "
+"the motors to connect to power cables."
+msgstr ""
+"Los motores :term:`AndyMark NeveRest Hex "
+"<https://andymark.com/products/neverest-hex-gearmotors>`_ vienen en cinco "
+":term:`ratios <Gear Reduction>`, 1:1, 3.7:1, 13.7:1, 19.2:1, 50.9:1, y "
+"263.7:1. El eje de salida es un eje hexagonal de :term:`3/8 de pulgada "
+"<Shaft>`, y los motores tienen conectores :term:`JST VH` en los motores para"
+" conectarlos a los cables de alimentación."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:69
+msgid "Spur Gearboxes"
+msgstr "Cajas de engranajes rectos"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:72
+msgid ""
+"Spur gearboxes are NOT recommended due to their shorter lifespan and lower "
+"mechanical resilience compared to planetary gearboxes. If you are purchasing"
+" new motors, it is highly suggested to purchase planetary gearbox motors "
+"instead. Care should be taken to not put load on the output shaft of a spur "
+"gearbox. In particular, spur gear motors should NOT be used in high load "
+"applications, such as a drivetrain."
+msgstr ""
+"Las cajas de engranajes rectos NO se recomiendan debido a su menor vida útil"
+" y resistencia mecánica en comparación con las cajas de engranajes "
+"planetarios. Si va a comprar motores nuevos, se recomienda encarecidamente "
+"adquirir motores con reductores planetarios. Se debe tener cuidado de no "
+"poner carga en el eje de salida de un reductor de engranajes rectos. En "
+"particular, los motorreductores de engranajes rectos NO deben utilizarse en "
+"aplicaciones de alta carga, como un chasis."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:74
+msgid ""
+"Motors with spur gearboxes include :term:`AndyMark NeveRest Classic motors "
+"<NeveRest Motor>` (in 40:1 and 60:1 ratios), the :term:`REV HD Hex 40:1 Spur"
+" motor <HD Hex Motor>`, and the discontinued goBILDA 5201 Series Yellow "
+"Jacket Spur Gear Motors. All of them offer similar performance and "
+"reliability, so your choice is primarily dictated by the convenience of "
+"mounting and connecting to the rest of your design (e.g., if you use REV "
+"kit, you should probably choose :term:`REV HD Hex motor <HD Hex Motor>`, as "
+"it uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system)."
+msgstr ""
+"Entre los motores con engranajes rectos se incluyen :term:`AndyMark NeveRest"
+" Classic motors <NeveRest Motor>` (en relaciones 40:1 y 60:1), el :term:`REV"
+" HD Hex 40:1 Spur motor <HD Hex Motor>`, y los descatalogados goBILDA 5201 "
+"Series Yellow Jacket Spur Gear Motors. Todos ellos ofrecen un rendimiento y "
+"una fiabilidad similares, por lo que su elección viene dictada "
+"principalmente por la comodidad de montaje y conexión con el resto de su "
+"diseño (por ejemplo, si utiliza el kit REV, probablemente debería elegir "
+":term:`REV HD Hex motor <HD Hex Motor>`, ya que utiliza el mismo :term:`eje "
+"hexagonal de 5 mm <Shaft>` que el resto del sistema REV)."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:80
 msgid "Choosing The Right Gearbox"

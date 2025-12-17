@@ -6,16 +6,16 @@
 # Translators:
 # Eli Villalba, 2023
 # Ariadna Moure Jáquez, 2023
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 04:28+0000\n"
+"POT-Creation-Date: 2025-12-17 04:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -877,3 +877,14 @@ msgstr ""
 "ascensor tiene que extenderse exactamente 30 pulgadas, un motor con un "
 ":term:`encoder <Encoder>` puede completarlo con una precisión del 100% a "
 "toda velocidad, comparado al pequeño error de un conductor humano."
+
+#: ../../gm0/source/docs/design-skills/design-strategy.rst:189
+msgid ""
+"Autonomous functions should be able to be overridden by manual input in case"
+" something goes wrong (e.g. encoder is unplugged, a part breaks, etc.) to "
+"prevent damage to the robot and to be compliant with game rules."
+msgstr ""
+"Las funciones autónomas deben poder anularse mediante una entrada manual en "
+"caso de que algo vaya mal (por ejemplo, se desconecta el codificador, se "
+"rompe una pieza, etc.) para evitar daños al robot y cumplir las reglas del "
+"juego."

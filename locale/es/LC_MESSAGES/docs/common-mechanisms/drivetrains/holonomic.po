@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2025-12-17 04:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -413,6 +413,23 @@ msgstr ""
 "ruedas son muy similares a las Nexus Rodamiento de Bolas Ruedas Mecanum, "
 "pero con un esquema de color diferente y mejores opciones de montaje."
 
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:119
+msgid ""
+"`Andymark Heavy Duty Mecanum Wheels <https://andymark.com/products/4-in-hd-"
+"mecanum-wheels>`_ ($225): These are easily the most expensive mecanums on "
+"the list. These wheels are 4\" in diameter and 1.65\" wide. These are "
+"bushing based mecanums, so while they strafe decently they still perform "
+"worse than bearing based ones. They have a good amount of traction, more "
+"than the Nexus bearing or bushing wheels."
+msgstr ""
+"`Andymark Heavy Duty Mecanum Wheels (Ruedas Mecanum de alta resistencia) "
+"<https://www.andymark.com/products/4-in-hd-mecanum-wheel-set-options>`_ "
+"($225 dólares): Estos son fácilmente los más caros mecanums en la lista. "
+"Estas ruedas son de 4 \"de diámetro y 1,65\" de ancho. Se trata de mecanums "
+"basado en casquillos, por lo que si bien ametralla decentemente todavía "
+"realizan peor que los basados en rodamientos. Tienen una buena cantidad de "
+"tracción, más que el cojinete Nexus o ruedas casquillos."
+
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:120
 msgid ""
 "`Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-"
@@ -457,6 +474,16 @@ msgstr ""
 "ametrallador. El cubo integrado es un tornillo de fijación basado en el "
 "diseño con un agujero redondo, causando falta de fiabilidad, así como ocupar"
 " espacio extra."
+
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:128
+msgid ""
+"`Andymark Standard Duty Mecanum Wheels <https://andymark.com/products/4-in-"
+"sd-mecanum-wheel>`_ ($77.00): These wheels barely strafe and are super "
+"fragile."
+msgstr ""
+"`Andymark Standard Duty Mecanum Wheels (Ruedas Mecanum para uso estándar) "
+"<https://www.andymark.com/products/4-in-standard-mecanum-wheel-set>`_ "
+"($77.00 dólares): Estas ruedas apenas ametrallan y son super frágiles."
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/holonomic.rst:133
 msgid "8103 Null Robotics's mecanum drivetrain render"

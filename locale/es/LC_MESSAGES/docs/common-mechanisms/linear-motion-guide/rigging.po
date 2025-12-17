@@ -6,16 +6,16 @@
 # Translators:
 # Marianq Lujan, 2024
 # Victoria Chacon, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:15+0000\n"
+"POT-Creation-Date: 2025-12-17 04:38+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -352,9 +352,9 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:90
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:104
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:122
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:244
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:266
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:292
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:262
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:284
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:310
 msgid "Advantages:"
 msgstr "Ventajas:"
 
@@ -365,9 +365,9 @@ msgstr "El rigging de retracción más sencillo"
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:94
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:109
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:127
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:250
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:271
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:297
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:289
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:315
 msgid "Disadvantages:"
 msgstr "Desventajas:"
 
@@ -469,7 +469,7 @@ msgstr ""
 " :math:`N` **veces mayor** que la bobina de retracción en cascada."
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:124
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:286
 msgid "Very space-efficient"
 msgstr "Muy eficiente en cuanto a espacio"
 
@@ -538,10 +538,60 @@ msgstr ""
 "muchas más cuerdas, ya que hay que mantener la tensión en todas ellas."
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:147
+msgid "Using PTFE Tubing and John Guest Adapters to Route the String"
+msgstr "Uso de tubos de PTFE y adaptadores John Guest para guiar la cuerda"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:149
+msgid ""
+"If you're looking for the ability to mount your linear slides in a different"
+" location than your motor/pulley, consider using PTFE tubing and John Guest "
+"Adapters to route the string."
+msgstr ""
+"Si busca la posibilidad de montar sus guías lineales en una ubicación "
+"diferente a la de su motor/polea, considere la posibilidad de utilizar tubos"
+" de PTFE y adaptadores John Guest para encaminar la cuerda."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst-1
+msgid "23292 SuperPowered Jalapenos Rigging Image"
+msgstr "23292 SuperPowered Jalapenos Imágen de Aparejo"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:154
+msgid ""
+"1/8 in. PTFE tubing and John-guest push-to-connect adapters with M5 thread "
+"on one side work really well for this purpose. These tubing are identical to"
+" the ones used in 3D printers to route filament."
+msgstr ""
+"Los tubos de PTFE de 1/8 pulg. y los adaptadores de conexión a presión John-"
+"guest con rosca M5 en un lado funcionan muy bien para este propósito. Estos "
+"tubos son idénticos a los que se utilizan en las impresoras 3D para guiar el"
+" filamento."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:156
+msgid ""
+"The tubing can be routed over long distances without adding significant "
+"friction"
+msgstr ""
+"Los tubos pueden tenderse a lo largo de grandes distancias sin añadir "
+"fricción significativa."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
+msgid ""
+"String going from slide rigging to a pulley on a motor through John Guest "
+"adapters and PTFE tubing."
+msgstr ""
+"Cuerda que va del aparejo deslizante a una polea en un motor a través de "
+"adaptadores John Guest y tubo de PTFE."
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
+msgid "23292 SuperPowered Jalapenos, John Guest adapters rigging example"
+msgstr ""
+"23292 SuperPowered Jalapenos, ejemplo de montaje de adaptadores John Guest"
+
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:165
 msgid "Belt-driven slides"
 msgstr "Rieles accionados por correa"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:149
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:167
 msgid ""
 "One increasingly popular alternative to traditional string-based rigging is "
 "belt-driven slides. This can be done continuously or using cascade rigging."
@@ -550,11 +600,11 @@ msgstr ""
 "cuerdas son las rieles accionados por correas. Esto puede hacerse de forma "
 "continua o utilizando rigging en cascada."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:152
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:170
 msgid "Advantages over string"
 msgstr "Ventajas sobre la cuerda"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:154
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:172
 msgid ""
 "Unlike string, belts used on slides never need to be tensioned. As discussed"
 " in the linear motion section, in order for string-driven slides to remain "
@@ -572,7 +622,7 @@ msgstr ""
 "cuerda, lo que puede resultar un poco tedioso (especialmente para el rigging"
 " en cascada)."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:156
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:174
 msgid ""
 "However, belts do not have this issue. They tend not to stretch over time, "
 "meaning complex external tensioners are rarely needed. Belts are also on an "
@@ -591,11 +641,11 @@ msgstr ""
 "enrolla en un carrete y se empalma en algún punto, el diámetro del carrete "
 "cambia, haciendo que los dos carretes no estén sincronizados."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:159
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:177
 msgid "Disadvantages over string"
 msgstr "Desventajas frente a la cuerda"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:161
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:179
 msgid ""
 "The main disadvantage of belt-driven slides is the amount of space they take"
 " up. Simply put, belt pulleys take up much more room than the 4mm thick, "
@@ -610,27 +660,27 @@ msgstr ""
 " poleas tienen al menos el doble de grosor y un diámetro considerablemente "
 "mayor, lo que significa que cada etapa debe ser más gruesa."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:166
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:184
 msgid "7236's Rover Ruckus' robot's belt rigging"
 msgstr "7236's Rover Ruckus' rigging de correa del robot"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:166
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:184
 msgid "7236 Recharged Green, Rover Ruckus, **continuous** rig"
 msgstr "7236 Recharged Green, Rover Ruckus, **rigging continuo**"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:171
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:189
 msgid "11190's Relic Recovery robot's belt rigging"
 msgstr "11190's Relic Recovery robot rigging de correa"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:171
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:189
 msgid "11190 Mechadojos, Relic Recovery, continuous belt rig"
 msgstr "11190 Mechadojos, Relic Recovey, rigging de correa continua"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:176
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:194
 msgid "5064's cascading belt rigging diagram"
 msgstr "Esquema de rigging de correa en cascada del 5064"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:176
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:194
 msgid ""
 "5064 Aperture Science Rover Ruckus **cascade** belt-driven proof of concept "
 "drawing"
@@ -638,22 +688,22 @@ msgstr ""
 "5064 Aperture Science Rover Ruckus **cascada** dibujo de prueba de concepto "
 "accionado por correa"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:199
 msgid "5064's cascading belt rigging"
 msgstr "rigging de correa en cascada del 5064"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:181
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:199
 msgid ""
 "5064 Aperture Science Rover Ruckus **cascade** belt-driven final version"
 msgstr ""
 "5064 Aperture Science Rover Ruckus **cascada** versión final accionada por "
 "correa"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:184
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:202
 msgid "Belt or chain driven elevators"
 msgstr "Elevadores accionados por correa o cadena"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:186
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:204
 msgid ""
 "Almost ubiquitous in FRC\\ |reg|, belt and chain elevators have existed "
 "seemingly forever. The basic premise is to have sprockets or pulleys mounted"
@@ -672,19 +722,19 @@ msgstr ""
 "los elevadores tengan diseños multietapa, pero su accionamiento será más "
 "complejo."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:191
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:209
 msgid "7236's belt driven elevator"
 msgstr "Elevador accionado por correa del 7236"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:191
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:209
 msgid "7236 Recharged Green, Rover Ruckus"
 msgstr "7236 Recharged Green, Rover Ruckus"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:194
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
 msgid "Tensioners"
 msgstr "Tensores"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:196
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:214
 msgid ""
 "Tensioning string is one of the most painstaking tasks for a builder in FTC."
 " Ensuring that both sets of slides are tensioned evenly can be an arduous "
@@ -708,7 +758,7 @@ msgstr ""
 "carrete extienda el brazo, manteniendo la tensión para que la cuerda no se "
 "suelte de las poleas en la extensión lineal del riel."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:198
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:216
 msgid ""
 "Another form of tensioner can be a spring-loaded pulley. Since the pulley is"
 " spring-loaded, it will take up the slack in the string. Alternatively, it "
@@ -720,7 +770,7 @@ msgstr ""
 "posibilidad es montar una polea en una pieza de extrusión y deslizarla para "
 "que la cuerda quede tensa."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:200
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:218
 msgid ""
 "There are two main reasons that tensioners are highly recommended in string "
 "based linear slides, the first and oftentimes more important one, is that at"
@@ -739,7 +789,7 @@ msgstr ""
 " extendida. Cuanto más cerca estén los rodamientos, menor será la tensión de"
 " la cuerda."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:202
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:220
 msgid ""
 "Another (but less impactful) thing to keep in mind that spool size changes "
 "as string is added/removed from the spool. If the spool radius increases, "
@@ -754,7 +804,7 @@ msgstr ""
 " también cambiará. Por lo tanto, en todos los diseños de extensiones "
 "lineales que utilizan cuerda es inherente un poco de holgura."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:204
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:222
 msgid ""
 "It is highly encouraged that teams have at least one spring tensioner per "
 "linear slide set."
@@ -762,23 +812,23 @@ msgstr ""
 "Se recomienda encarecidamente que los equipos dispongan de al menos un "
 "tensor de resortes por juego de rieles lineales."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst-1
 msgid "An image of 13075 linear slides"
 msgstr "Una imagen de 13075 rieles lineales"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:230
 msgid "An image of 13075 linear slide's string tensioner"
 msgstr "Una imagen del tensor de cuerda del riel lineal 13075"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:212
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:230
 msgid "13075 Coram Deo Robotics, Rover Ruckus, string tensioner"
 msgstr "13075 Coram Deo Robotics, Rover Ruckus, tensor de cuerda"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:215
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:233
 msgid "Picking the right spool size"
 msgstr "Elegir el tamaño de carrete adecuado"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:217
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:235
 msgid ""
 "Spools have a special property that isn't often discussed, but is extremely "
 "useful when creating linear slide systems. Just as the system's speed and "
@@ -799,7 +849,7 @@ msgstr ""
 "torque es inversamente proporcional a la velocidad, al cambiar el tamaño del"
 " carrete también cambia el torque."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:219
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:237
 msgid ""
 "This is important to recognize, as changing spool size is often more "
 "convenient than changing gear ratio to get the desired combination of speed "
@@ -817,7 +867,7 @@ msgstr ""
 "relación de engranajes de 5:1 proporcionaría una combinación más deseable de"
 " velocidad y torque que su relación actual de 3,7:1."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:221
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:239
 msgid ""
 "In many cases, instead of swapping gearboxes, it makes more sense to swap "
 "out spools to a smaller one. If your spool is currently 2 inches, your new "
@@ -828,7 +878,7 @@ msgstr ""
 "de 2 pulgadas, el nuevo tamaño debería ser :math:`\\frac{2*3,7}{5}` pulgadas"
 " para obtener el mismo resultado."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:223
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:241
 msgid ""
 "You also need to make sure that when fully wrapped on the spool, your cable "
 "or string doesn't overlap. Overlapping can result in a change in spool "
@@ -839,11 +889,11 @@ msgstr ""
 "provocar un cambio en el diámetro del carrete, lo que modificará la tensión "
 "de la cuerda."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:226
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:244
 msgid "Cable management"
 msgstr "Gestión de cables"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:228
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:246
 msgid ""
 "When extending outwards, wire management becomes increasingly important. "
 "Obviously, it is a necessity to use wires slightly longer than the extension"
@@ -857,7 +907,7 @@ msgstr ""
 "dejar estos cables sin protección, ya que pueden enredarse o engancharse en "
 "las rieles con mucha más facilidad que con protección."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:230
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:248
 msgid ""
 "In general, teams should ensure that wires never protrude outside the "
 "structural parts of the robot, because they can get caught on other robots "
@@ -870,7 +920,7 @@ msgstr ""
 " cables o tiras de velcro, o utilizando una placa acrílica para mantener los"
 " cables en el interior."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:232
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:250
 msgid ""
 "However, for linear extensions, other forms of cable management are needed. "
 "The two types of cable management recommended are cable carrier and "
@@ -883,11 +933,11 @@ msgstr ""
 ":doc:`Electrónica y cableado </docs/power-and-electronics/index>` para "
 "obtener más información."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:235
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:253
 msgid "Cable Carrier/Drag Chain"
 msgstr "Portacables/Cadena de arrastre"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:237
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:255
 msgid ""
 "Cable carrier, the standard wire management method within industry, is "
 "plastic chain links with a hollow center. Cables are placed inside the "
@@ -904,12 +954,12 @@ msgstr ""
 "se enderece cuando se extiende. Suelen ser lo suficientemente rígidos como "
 "para no encorvarse excesivamente cuando se retraen."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:239
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:257
 msgid "Here are some links to various drag chain products:"
 msgstr ""
 "Estos son algunos enlaces a diversos productos de cadenas de arrastre:"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:241
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:259
 msgid ""
 "`igus cable carrier <https://www.igus.com/info/energy-chains-e2-micro-small-"
 "cable-carrier>`_"
@@ -917,7 +967,7 @@ msgstr ""
 "`portacables igus <https://www.igus.com/info/energy-chains-e2-micro-small-"
 "cable-carrier>`_"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:242
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:260
 msgid ""
 "`uxcell 10x10mm drag chain, from Amazon <https://www.amazon.com/uxcell-"
 "InnerH-InnerW-Plastic-"
@@ -927,36 +977,36 @@ msgstr ""
 "<https://www.amazon.com/uxcell-InnerH-InnerW-Plastic-"
 "Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:246
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:264
 msgid "Difficult to get tangled/hooked onto other objects or robots"
 msgstr "Difícil de enredarse/engancharse a otros objetos o robots"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:247
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:265
 msgid "Sturdy and durable"
 msgstr "Robusto y duradero"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:248
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:266
 msgid "Protects wires very well"
 msgstr "Protege muy bien los cables"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:252
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:270
 msgid "Large form factor, takes up a lot of space"
 msgstr "Factor de forma grande, ocupa mucho espacio"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:253
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:271
 msgid "Links need to be added if additional extension is needed"
 msgstr "Es necesario añadir enlaces si se necesita una extensión adicional"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:254
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:272
 msgid "Can be on the heavy side, especially with a long length of drag chain"
 msgstr ""
 "Puede resultar pesado, especialmente con una cadena de arrastre larga."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:259
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:277
 msgid "7236's Rover Ruckus robot with cable carriers visible"
 msgstr "El robot Rover Ruckus de 7236 con los portacables a la vista"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:259
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:277
 msgid ""
 "7236 Recharged Green, Rover Ruckus: Cable carrier on the left side of their "
 "horizontal slides and the right side of vertical slides"
@@ -964,11 +1014,11 @@ msgstr ""
 "7236 Recharged Green, Rover Ruckus: Portacables en el lado izquierdo de sus "
 "rieles horizontales y en el lado derecho de los rieles verticales."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:262
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:280
 msgid "Retractable Coil Cord"
 msgstr "Cable retráctil en espiral"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:264
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:282
 msgid ""
 "While not common within industry, coil cords are still very common (coil "
 "cord is a nearly ubiquitous staple of older telephones). Retractable coil "
@@ -979,8 +1029,8 @@ msgstr ""
 "los teléfonos antiguos). El cable en espiral retráctil es más flexible que "
 "los portacables y se estira cuando se extiende."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:269
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:295
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:287
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:313
 msgid ""
 "Flexible and can usually extend to any length needed (unlike cable carriers,"
 " no new links ever need to be added)"
@@ -989,18 +1039,18 @@ msgstr ""
 "necesite (a diferencia de los soportes de cables, nunca es necesario añadir "
 "nuevos enlaces)."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:273
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:291
 msgid "Can get tangled more easily, as it is less stiff than drag chain"
 msgstr ""
 "Puede enredarse más fácilmente, ya que es menos rígida que la cadena de "
 "arrastre"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:281
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst-1
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:299
 msgid "10030's robot's coil cord"
 msgstr "Cable de la bobina del robot 10030"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:281
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:299
 msgid ""
 "10030 7 Sigma Robotics, Relic Recovery: Coil-cord on horizontal extension "
 "mechanism"
@@ -1008,11 +1058,11 @@ msgstr ""
 "10030 7 Sigma Robotics, Relic Recovery: Cuerda helicoidal en mecanismo de "
 "extensión horizontal"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:284
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:302
 msgid "Self-retracting Badge Holder"
 msgstr "Portacredenciales autorretráctil"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:286
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:304
 msgid ""
 "While an uncommon technique, a self-retracting ID Badge holder can help "
 "manage wiring on an extension. These are common items; `here is one from "
@@ -1024,7 +1074,7 @@ msgstr ""
 "artículos comunes; `aquí hay uno de Amazon <https://www.amazon.com/OFES-"
 "Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:288
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:306
 msgid ""
 "This really only works for vertical or near-vertical slides, as there is "
 "still some sag in the cable which can easily get entangled if it extends "
@@ -1034,7 +1084,7 @@ msgstr ""
 " que el cable sigue teniendo una cierta inflexion que puede enredarse "
 "fácilmente si se extiende fuera de la estructura del robot."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:290
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:308
 msgid ""
 "To rig a self-retracting badge holder to a wire, mount the hard plastic part"
 " of the badge holder to the base of the slides, and mount end of the "
@@ -1053,11 +1103,11 @@ msgstr ""
 "(deje uno o dos centímetros para permitir cierta holgura) cuando la "
 "corredera esté retraída."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:294
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:312
 msgid "Extremely simple and easy to implement"
 msgstr "Extremadamente sencillo y fácil de aplicar"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:299
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:317
 msgid ""
 "Similar to a coil, self-retracting cable management strings can get tangled "
 "more easily, as it is less stiff than drag chain"
@@ -1065,7 +1115,7 @@ msgstr ""
 "Al igual que una bobina, la cadena autorretráctil puede enredarse más "
 "fácilmente, ya que es menos rígida que la cadena de arrastre."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:300
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:318
 msgid ""
 "Does not work well on long slides (over 2 stages) without substantial "
 "engineering work"
@@ -1073,12 +1123,12 @@ msgstr ""
 "No funciona bien en rieles largos (más de 2 etapas) sin un trabajo "
 "sustancial de ingeniería."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rstNone
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:308
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst-1
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:326
 msgid "248's robot's badge retractor cable management"
 msgstr "Gestión de cables del retractor de portacredenciales del robot 248"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:308
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:326
 msgid ""
 "248 Fatal Error, Freight Frenzy: Badge retractor cable management on "
 "extension mechanism"
