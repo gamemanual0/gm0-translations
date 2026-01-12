@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2025
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-20 04:30+0000\n"
+"POT-Creation-Date: 2026-01-12 16:35+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2025\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +59,7 @@ msgid ""
 "5201-0002-0026)"
 msgstr ""
 "`goBILDA Yellow Jacket 520x Series 12V DC <https://www.gobilda.com/yellow-"
-"jacket-planetary-gear-motors>`_（5201、5202、5203 和 5204 系列，例如 5201-0002-0026）"
+"jacket-planetary-gear-motors>`_ （5201、5202、5203 和 5204 系列，例如 5201-0002-0026）"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:14
 msgid ""
@@ -174,8 +174,8 @@ msgid ""
 "motor in various mechanisms.  See :doc:`Choosing a Servo <../servo-"
 "guide/choosing-servo>` for details."
 msgstr ""
-"在各种机械装置中，连续旋转伺服器也是替代 12V 电机的最佳选择。详情请参见 :doc:`Choosing a Servo <../servo-"
-"guide/choosing-servo>``。"
+"在各种机械装置中，连续旋转伺服器也是替代 12V 电机的最佳选择。详情请参见 :doc:`挑选舵机 <../servo-guide/choosing-"
+"servo>` 。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:35
 msgid ""
@@ -288,9 +288,9 @@ msgid ""
 " rounded to 8 mm) or :term:`6mm D-shaft <Shaft>`."
 msgstr ""
 "`goBILDA Yellow Jacket <https://www.gobilda.com/yellow-jacket-planetary-"
-"gear-motors/>`_有最多样化的齿轮箱比例可供选择，这里就不一一列举了，但使用相当不常见的  :term:`3.5mm "
-"Bullet`连接来提供动力。输出:term:`shaft<Shaft>` 是 8 毫米 REX（7 毫米六角四舍五入为 8 毫米）或 :term:`6"
-" 毫米 D 型轴<Shaft>`。"
+"gear-motors/>`_ 有最多样化的齿轮箱比例可供选择，这里就不一一列举了，但使用相当不常见的  :term:`3.5mm Bullet` "
+"连接来提供动力。输出 :term:`shaft<Shaft>` 是 8 毫米 REX（7 毫米六角四舍五入为 8 毫米）或 :term:`6 毫米 D "
+"型轴<Shaft>` 。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:56
 msgid ""
@@ -303,8 +303,8 @@ msgid ""
 "(:term:`JST VH`) as the REV Expansion and Control Hub for power, which means"
 " no adapter cables are necessary."
 msgstr ""
-"配有 UltraPlanetary 齿轮箱的 REV HD Hex "
-"电机<https://www.revrobotics.com/rev-41-1600/>`_ - UltraPlanetary "
+"`配有 UltraPlanetary 齿轮箱的 REV HD Hex 电机 "
+"<https://www.revrobotics.com/rev-41-1600/>`_ - UltraPlanetary "
 "是一种可定制的行星齿轮箱，专为 FTC 而设计。三个齿轮箱选项分别为 3:1、4:1 和 "
 "5:1，可以混合搭配以创建自定义比例。可以使用一个到三个齿轮箱，最小传动比为 3:1，最大传动比为 125:1。  电机使用与 REV "
 "扩展和控制集线器相同的连接（:term:`JST VH`）供电，这意味着无需转接电缆。"
@@ -340,9 +340,9 @@ msgid ""
 "mount-43-3/>`_ that allows easily using the UltraPlanetary with the goBILDA "
 "system."
 msgstr ""
-"goBILDA 销售一种特殊的 “输出适配器 <https://www.gobilda.com/flanged-stainless-steel-"
-"shaft-for-rev-motion-pattern-8mm-rex-29mm-length/>`_ ”和 “电机安装座 "
-"<https://www.gobilda.com/1702-series-quad-block-motor-mount-43-3/>`_”，可以方便地将"
+"goBILDA 销售一种特殊的 `输出适配器 <https://www.gobilda.com/flanged-stainless-steel-"
+"shaft-for-rev-motion-pattern-8mm-rex-29mm-length/>`_ 和 `电机安装座 "
+"<https://www.gobilda.com/1702-series-quad-block-motor-mount-43-3/>`_ ，可以方便地将"
 " UltraPlanetary 与 goBILDA 系统结合使用。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:65
@@ -416,9 +416,9 @@ msgid ""
 msgstr ""
 ":term:`REV HD Hex Motor with Spur Gearbox<HD Hex Motor>` - 该电机的传动比为 20:1 或 "
 "40:1，使用与 REV Expansion和Control Hub 相同的连接方式（:term:`JST VH`）供电，这意味着无需转接电缆。输出 "
-":term:`shaft<Shaft>` 是 5 毫米六角 :term:`shaft<Shaft>`。:term:`REV "
+":term:`shaft<Shaft>` 是 5 毫米六角 :term:`shaft<Shaft>` 。:term:`REV "
 "UltraHex<UltraHex>` 有一个 5 毫米六角 :term:`bore<Bore>` 贯穿 1/2 英寸六角 "
-":term:`shaft<Shaft>`的中间，这使得将此电机适配到任何长度的 :term:`UltraHex` 以及 1/2 英寸六角 "
+":term:`shaft<Shaft>` 的中间，这使得将此电机适配到任何长度的 :term:`UltraHex` 以及 1/2 英寸六角 "
 ":term:`shaft<Shaft>` 非常容易。"
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:77

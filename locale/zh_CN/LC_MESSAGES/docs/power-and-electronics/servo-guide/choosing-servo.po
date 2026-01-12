@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2024
-# Shawphy, 2024
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 04:36+0000\n"
+"POT-Creation-Date: 2026-01-12 16:35+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +36,27 @@ msgstr ""
 "鉴于需要考虑的选项众多，挑选 :term:`舵机 <Servo>` "
 "起初可能会令人望而生畏。本指南旨在为比较不同的舵机选项提供一个起点，并在最后提供一些精选建议。"
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:10
+msgid ""
+"It is very important to keep the reliability of a given vendor in mind when "
+"choosing servos. It is very common for manufacturers and resellers on Amazon"
+" and other similar sites to significantly exaggerate their servos' specs, or"
+" pick unrealistic best-case scenarios for measuring the specs. We have "
+"limited our recommendations only to vendors who historically have been "
+"reliable with publishing accurate servo specifications."
+msgstr ""
+"在选择舵机时，牢记特定供应商的可靠性非常重要。亚马逊和其他类似网站上的制造商和经销商通常会明显夸大其舵机规格，或选择不切实际的最佳情况来衡量规格。我们的推荐仅限于那些在发布准确伺服规格方面历来可靠的供应商。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:12
+msgid ""
+"As a rule of thumb established manufacturers (Hitec, Savox, ServoCity, "
+"goBILDA, AndyMark, etc) will usually publish accurate numbers, and servos "
+"from marketplaces (Amazon, AliExpress, hobby stores, etc) should be viewed "
+"with significant skepticism."
+msgstr ""
+"根据经验，知名制造商（Hitec、Savox、ServoCity、goBILDA、AndyMark "
+"等）通常会公布准确的数字，而对于来自市场（亚马逊、AliExpress、业余爱好商店等）的舵机则应持怀疑态度。"
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:15
 msgid "Servo Type: Regular or Continuous"
 msgstr "舵机类型：常规或连续旋转式"
@@ -50,6 +71,23 @@ msgid ""
 msgstr ""
 ":term:`舵机 <Servo>` 舵机可以根据 PWM 输入信号旋转到给定位置的舵机称为 **常规舵机** 。此外，还有 **连续旋转舵机** "
 "，它们实际上只是 :term:`舵机 <Servo>` 舵机外形尺寸的小型电机。它们没有位置控制，而是使用 PWM 信号来控制转速。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:20
+msgid ""
+"Continuous rotation servos aren't even always in a traditional servo form "
+"factor.  The `Melonbotics Super Servo Plus "
+"<https://www.melonbotics.com/products/super-servo-plus>`_, while considered "
+"a continuous rotation servos from a rules and control system perspective, is"
+" essentially a small motor + spur gearbox.  The 1000rpm rated output speed "
+"makes it an excellent alternative to large, heavy standard motors for small,"
+" high-speed mechanisms such as :doc:`active intakes </docs/common-"
+"mechanisms/active-intake/index>`."
+msgstr ""
+"连续旋转舵机甚至并不总是采用传统的舵机外形。从规则和控制系统的角度来看， `Melonbotics Super Servo Plus "
+"<https://www.melonbotics.com/products/super-servo-plus>`_ "
+"虽然被视为连续旋转伺服器，但其本质上是一个小型电机 + 正齿轮箱。 1000rpm "
+"的额定输出速度使其成为大型、重型标准电机的绝佳替代品，适用于小型、高速机构，例如 :doc:`active intakes </docs/common-"
+"mechanisms/active-intake/index>` 。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:22
 msgid ""
@@ -98,6 +136,16 @@ msgstr ""
 "扭矩（通常以 oz-in 或 kg-cm 为单位）是指 :term:`舵机 <Servo>` 可以施加到杠杆上的力的大小。作为参考，如果在舵机上安装一根"
 " 1 英寸的杆，然后在杆端安装测力计，就能测出舵机的额定扭矩（单位为 oz-in）。"
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:35
+msgid ""
+"As you may know, speed and torque will generally have an inverse "
+"relationship. You can find some insanely powerful servos that are pretty "
+"slow (slower than 0.20 s/60\\ |deg|) or some less powerful ones with faster "
+"ratios (anything faster than 0.12 s/60\\ |deg| is considered fast)."
+msgstr ""
+"您可能知道，速度和扭矩通常呈反比关系。你可以找到一些动力强大的舵机，但速度却很慢（慢于 0.20 s/60\\ |deg|) "
+"，或者一些动力较弱的舵机，但有较快的转速（快于 0.12 s/60\\ |deg| 的都被认为是快）。"
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:37
 msgid ""
 "Finding the right :term:`servo <Servo>` for your application can be tough, "
@@ -126,6 +174,20 @@ msgstr ""
 msgid "You should **never** stall a servo against an immovable object."
 msgstr "永远不要将舵机安装在不动的模块上。"
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:46
+msgid ""
+"Gear stripping is a problem which can occur when the torque needed to "
+"actuate a component exceeds that of the :term:`servo's <Servo>` maximum "
+"torque. There are two main cases when this can occur."
+msgstr "当驱动部件所需的扭矩超过 term:`舵机 <Servo>` 最大扭矩时，就会出现齿轮剥离问题。这种情况主要有两种。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:48
+msgid ""
+"Shock load from external force can strip the :term:`gears <Gear>`. An "
+"example could be the component slamming into the field wall or another "
+"robot."
+msgstr "外力产生的冲击载荷会剥离 :term:`齿轮 <Gear>` 。例如，部件撞上场地墙壁或其他机器人。"
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:49
 msgid ""
 "Shock load from reversing directions on an object that is too heavy can "
@@ -147,6 +209,19 @@ msgid ""
 "<Gear>` are made from. This ranges from plastic to titanium, so let's go "
 "down the list, starting from the weakest."
 msgstr "抗冲击负荷能力直接受到 :term:`齿轮 <Gear>` 所用材料的影响。材料范围从塑料到钛，让我们从最弱的开始往下看。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:53
+msgid ""
+"**Plastic** (usually Nylon): With low power :term:`servos <Servo>`, these "
+"can be okay if you ensure they are not subjected to shock loads. Generally "
+"used for applications in model airplanes such as ailerons. FTC applications "
+"include light load mechanisms which will not have direct contact with any "
+"game elements or the field. An example could be a servo that opens a "
+"trapdoor or moves game elements within the robot."
+msgstr ""
+"**塑料**（通常为尼龙）：对于低功率 :term:`舵机 <Servo>` "
+"，如果确保它们不会受到冲击负荷，则可以使用。一般用于模型飞机，如副翼。FTC "
+"应用包括不会直接接触任何游戏元素或场地的轻负载机构。例如，用于打开活板门或移动机器人内游戏元素的舵机。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/choosing-servo.rst:63
 msgid "Servo Size"
