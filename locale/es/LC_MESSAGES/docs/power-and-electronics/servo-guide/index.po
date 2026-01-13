@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 04:36+0000\n"
+"POT-Creation-Date: 2026-01-13 04:46+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +33,23 @@ msgstr "Término"
 msgid "Servo"
 msgstr "Servo"
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:11
+msgid ""
+"A small DC motor attached to servo gears that is very finely controllable "
+"and interfaces via a 3 wire PWM connector. Servos are generally used in "
+"FTC\\ |reg| for high-precision applications - for example, actuating a claw "
+"or lightweight arm. Typically servos have limited range of rotation (180\\ "
+"|deg| is common). The output has splines, which are the rigid teeth that are"
+" on top of the servo."
+msgstr ""
+"Se trata de un pequeño motor de corriente continua acoplado a "
+"servoengranajes que se controla con gran precisión y se conecta mediante un "
+"conector PWM de 3 hilos. Los servos se utilizan generalmente en FTC para "
+"aplicaciones de alta precisión, por ejemplo, para accionar una garra o un "
+"brazo ligero. Normalmente los servos tienen un rango de rotación limitado "
+"(180 grados es lo habitual). La salida tiene splines, que son los dientes "
+"rígidos que se encuentran en la parte superior del servo."
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:13
 msgid ""
 "Servos are commonly used in RC cars (steering) and RC planes (moving "
@@ -41,6 +58,33 @@ msgstr ""
 "Los servos son comúnmente utilizados en autos de control remoto (dirección) "
 "y aviones de control remoto (movimiento de alerones). En FTC, los servos se "
 "utilizan típicamente para garras, agarres y brazos."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:18
+msgid "goBILDA Dual Mode Servo"
+msgstr "Servo goBILDA Dual Mode"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:18
+msgid "A common servo, the goBILDA Dual Mode Servo"
+msgstr "Un servo común, un servo goBILDA Dual Mode"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:20
+msgid ""
+"Historically, servos were designed for fine-tuned and accurate movement in "
+"low-load applications, not high-load or fast rotation applications. However,"
+" modern high-performance servos (often designed and marketed specifically "
+"towards FTC teams) have pushed the limits of how powerful a servo can be, "
+"resulting in many teams using one or more high-power servo(s) to power "
+"mechanisms that do not need the power of a full motor, such as horizontal "
+"extensions and active intakes."
+msgstr ""
+"Históricamente, los servos se diseñaban para movimientos precisos y "
+"ajustados en aplicaciones de baja carga, no para aplicaciones de alta carga "
+"o rotación rápida. Sin embargo, los servos modernos de alto rendimiento (a "
+"menudo diseñados y comercializados específicamente para equipos de FTC) han "
+"ampliado los límites de potencia de un servo, lo que ha dado lugar a que "
+"muchos equipos utilicen uno o varios servos de alta potencia para accionar "
+"mecanismos que no necesitan la potencia de un motor completo, como "
+"extensiones horizontales e intakes activos."
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:22
 msgid ""
@@ -58,3 +102,33 @@ msgstr ""
 " de servo, por lo que puedes conectar un servo de cualquier fabricante. "
 "Además, hay un tamaño estándar para los servos para uso en FTC, por lo que "
 "los soportes se pueden intercambiar entre fabricantes."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:24
+msgid ""
+"Commonly used servos used in FTC are the `goBILDA Dual Mode Servos "
+"<https://www.gobilda.com/standard-size-servos>`_ and REV Smart Robot Servo, "
+"but you should check out other servos as well. Picking the right servo for "
+"your application is a question that's almost impossible to give a blanket "
+"answer for. To learn more, please read the :doc:`choosing-servo` section."
+msgstr ""
+"Los servos más utilizados en FTC son el `goBILDA Dual Mode Servos "
+"<https://www.gobilda.com/standard-size-servos>`_ y el REV Smart Robot Servo,"
+" pero también deberías echar un vistazo a otros servos. Elegir el servo "
+"adecuado para tu aplicación es una pregunta para la que es casi imposible "
+"dar una respuesta general. Para saber más, por favor lee la sección "
+":doc:`elegir-servo`."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:26
+msgid ""
+"The most prevalent problem with servos is durability. Internal servo gears "
+"in cheaper servos strip easily when subjected to shock loads. Servos are "
+"also often poor at handling lateral loads or bending of the shaft. To avoid "
+"having to frequently replace servos, choose ones with steel gears and use "
+":term:`ServoBlocks` or your kit's equivalent to prolong longevity."
+msgstr ""
+"El problema más prevalente con los servos es la durabilidad. Los engranajes "
+"internos de los servos más baratos se desgastan fácilmente cuando se someten"
+" a cargas de impacto. Los servos también son malos para manejar cargas "
+"laterales o flexión del eje. Para evitar tener que reemplazar los servos con"
+" frecuencia, elija aquellos con engranajes de acero y use "
+":term:`Servoblocks` o el equivalente en su kit para prolongar la longevidad."

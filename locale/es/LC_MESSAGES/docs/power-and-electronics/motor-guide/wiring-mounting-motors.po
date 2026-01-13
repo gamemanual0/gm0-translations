@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2026-01-13 04:46+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +37,45 @@ msgid ""
 msgstr ""
 "Dependiendo del proveedor, los motores pueden venir con uno de los "
 "siguientes conectores:"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:9
+msgid ":term:`JST VH` connector (REV motors, some AndyMark NeveRest motors)"
+msgstr ""
+":term:`Conector JST VH` (motores REV, algunos motores AndyMark NeveRest)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:10
+msgid ":term:`3.5mm Bullet` connector (goBILDA motors)"
+msgstr ":term:`Conector de Bala` de 3,5 mm (motores goBILDA)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:11
+msgid ":term:`Anderson PowerPole` (some AndyMark NeveRest motors)"
+msgstr ":term:`Anderson PowerPole` (algunos motores AndyMark NeveRest)"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:13
+msgid ""
+":term:`JST VH` is probably easiest to use, as it is the same connector used "
+"by REV Control/Expansion Hubs. It is also locking. :term:`PowerPoles "
+"<Anderson PowerPole>` are very reliable and sturdy but somewhat bulky. "
+":term:`3.5mm Bullet` connectors are very compact, making cables easy to "
+"route through openings, but can be disconnected."
+msgstr ""
+":term:`JST VH` es probablemente el más fácil de usar, ya que es el mismo "
+"conector utilizado por los REV Control/Expansion Hubs. Los conectores "
+":term:`PowerPoles <Anderson PowerPole>` son muy fiables y resistentes, pero "
+"algo voluminosos. Los conectores :term:`Bala de 3.5mm ` son muy compactos, "
+"lo que facilita el paso de los cables a través de aberturas, pero pueden "
+"desconectarse."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:15
+msgid ""
+"Since REV hubs use :term:`JST VH` connectors, to connect a motor with "
+":term:`3.5mm Bullet` or :term:`Anderson PowerPole` connectors, you need "
+"adapters which you can purchase from REV Robotics, goBILDA, and AndyMark."
+msgstr ""
+"Dado que los REV hubs utilizan conectores :term:`JST VH`, para conectar un "
+"motor con conectores :term:`Bala de 3.5mm ` o :term:`Anderson PowerPole`, "
+"necesitas adaptadores que puedes adquirir en REV Robotics, goBILDA y "
+"AndyMark."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:17
 msgid ""
@@ -70,6 +109,31 @@ msgstr ""
 "Los cables de los codificadores son muy frágiles. Tenga cuidado de "
 "protegerlos de enganches e impactos bruscos. Puede ser prudente inspeccionar"
 " los cables del codificador de vez en cuando."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:28
+msgid ""
+"If using encoders, you need to connect them to the REV hub by a 4-wire "
+"cable. REV Hub uses 4-pin :term:`JST PH` connector for encoder ports. REV "
+"motors also use :term:`JST PH` encoder ports, so you can connect them to the"
+" hub by :term:`JST PH` 4-wire cable, available from REV Robotics."
+msgstr ""
+"Si utiliza codificadores, deberá conectarlos al concentrador REV mediante un"
+" cable de 4 hilos. El concentrador REV utiliza un conector :term:`JST-PH` de"
+" 4 patillas para los puertos de codificador. Los motores REV también "
+"utilizan puertos de encoder :term:`JST-PH`, por lo que puedes conectarlos al"
+" hub mediante un cable :term:`JST-PH` de 4 hilos, disponible en REV "
+"Robotics."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:30
+msgid ""
+"goBILDA and AndyMark motors use JST XH 4-pin encoder port (**note the "
+"difference: XH vs PH**), so to connect them, you need a JST PH to JST XH "
+"cable, available from goBILDA and AndyMark."
+msgstr ""
+"Los motores goBILDA y AndyMark utilizan un puerto de codificador JST XH de 4"
+" patillas (**nótese la diferencia: XH frente a PH**), por lo que para "
+"conectarlos necesitas un cable JST PH a JST XH, disponible en goBILDA y "
+"AndyMark."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/wiring-mounting-motors.rst:33
 msgid "Mounting Motors"

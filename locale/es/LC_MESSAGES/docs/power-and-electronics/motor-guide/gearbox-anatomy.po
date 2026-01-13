@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Marianq Lujan, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2026-01-13 04:46+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,6 +77,31 @@ msgstr ""
 "engranes son una de las consideraciones de diseño más importantes sobre un "
 "componente de transmisión de potencia."
 
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:17
+msgid ""
+"Any motor or servo has two properties: speed and torque (or rotational "
+"force). These two properties are inversely proportional, meaning that "
+"increasing speed decreases torque, and vice versa. For instance, if one "
+"wishes to make a mechanism faster at the expense of torque by doubling the "
+"speed of that 20:1 gearbox, they would decrease the gear ratio by a factor "
+"of 2. Since 20 divided by 2 is 10, the new desired ratio would be 10:1 (this"
+" is referred to as gearing up). However, if one wishes to double torque "
+"instead, making the system more powerful and robust at the expense of speed,"
+" they would increase the gear ratio by a factor of 2, leaving them with a "
+"40:1 ratio (this is referred to as gearing down)."
+msgstr ""
+"Cualquier motor o servomotor FTC tiene dos propiedades: velocidad y torque "
+"(o fuerza de rotación). Estas dos propiedades son inversamente "
+"proporcionales, lo que significa que al aumentar la velocidad disminuye el "
+"torque y viceversa. Por ejemplo, si se desea que un mecanismo sea más rápido"
+" a expensas del torque duplicando la velocidad de esa caja de cambios 20:1, "
+"se reduciría la relación de transmisión en un factor de 2. Como 20 dividido "
+"por 2 es 10, la nueva relación deseada sería 10:1 (esto se denomina aumentar"
+" la relación de transmisión). Sin embargo, si lo que se desea es duplicar el"
+" torque, haciendo que el sistema sea más potente y robusto a expensas de la "
+"velocidad, se aumentaría la relación de transmisión en un factor de 2, con "
+"lo que quedaría una relación de 40:1 (esto se denomina reducir)."
+
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:19
 msgid ""
 "The most common ways of gearing up or down are using gearboxes, gears, "
@@ -85,6 +110,16 @@ msgstr ""
 "Las formas más comunes de aumentar o reducir la velocidad son los "
 "reductores, los engranajes, los piñones y las poleas accionadas por correa, "
 "todos ellos disponibles en varios tamaños."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:21
+msgid ""
+"In FTC, gearboxes may be more common than you think. Nearly every motor and "
+"servo has a gearbox attached or built-in to it. These gearboxes are either "
+"spur or planetary."
+msgstr ""
+"En FTC, las cajas de engranajes pueden ser más comunes de lo que crees. Casi"
+" todos los motores y servomotores tienen una caja de engranajes incorporada."
+" Estos reductores pueden ser de engranajes rectos o planetarios."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:24
 msgid "Spur Gearboxes"
@@ -103,6 +138,32 @@ msgstr ""
 " otros. La reducción de engranajes se consigue mediante engranajes de "
 "distinto tamaño en el mismo plano."
 
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:33
+msgid ""
+"Spur gearboxes are an arrangement of :term:`gear ratios <Gear Reduction>`, "
+"often stacked to achieve a large compound ratio (e.g. 40:1). Each individual"
+" ratio only has two :term:`gears <Gear>`- one may be 8:1, another may be "
+"5:1, but the final ratio will be 40:1. These gearboxes are used in the "
+"AndyMark NeveRest Classic series and goBILDA's 5201 series motors, as well "
+"as :term:`REV HD Hex Motors <HD Hex Motor>`. Due to the nature of how these "
+"gearboxes are built, each reduction only has a few teeth from each "
+":term:`gear <Gear>` engaged, and those teeth carry the entire load of the "
+"gearbox. It's easy to damage a spur gearbox from shock load, and if one "
+":term:`gear <Gear>` breaks, the entire gearbox will stop functioning."
+msgstr ""
+"Las gearboxes de engranajes rectos son un conjunto de :term:`relaciones de "
+"engranajes <Gear Reduction>`, a menudo apiladas para lograr una gran "
+"relación compuesta (por ejemplo, 40:1). Cada relación individual sólo tiene "
+"dos :term:`engranes <Gear>`- una puede ser de 8:1, otra de 5:1, pero la "
+"relación final será de 40:1. Estos reductores se utilizan en la serie "
+"NeveRest Classic de Andymark y en los motores de la serie 5201 de goBILDA, "
+"así como en los :term:`REV HD Hex Motors <HD Hex Motor>`. Debido a la "
+"naturaleza de cómo están construidas estas gearboxes, cada reducción sólo "
+"tiene unos pocos dientes de cada :term:`engrane <Gear>` engranados, y esos "
+"dientes soportan toda la carga de la gearbox . Es fácil dañar una gearbox de"
+" engranajes rectos por una carga de choque, y si se rompe un :term:`engrane "
+"<Gear>`, toda la caja de engranajes dejará de funcionar."
+
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:35
 msgid ""
 "Using spur gearboxes on high-load applications such as drivetrains or arms "
@@ -116,9 +177,47 @@ msgstr ""
 msgid "An example spur gearbox"
 msgstr "Un ejemplo de gearbox de engranajes rectos"
 
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:40
+msgid ""
+"Example of a spur gearbox inside a servo. Note how all gears mesh with only "
+"one other gear."
+msgstr ""
+"Ejemplo de un engranaje recto dentro de un servo. Observa cómo todos los "
+"engranajes engranan sólo con otro engranaje."
+
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:43
 msgid "Advantages of Spur Gearboxes"
 msgstr "Ventajas de los Gearboxes de Engranajes Rectos"
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:46
+msgid ""
+"Spur gearboxes are NOT recommended for motors due to their shorter lifespan "
+"and lower mechanical resilience compared to planetary gearboxes. If you are "
+"purchasing new motors, it is highly suggested to purchase planetary gearbox "
+"motors instead. Care should be taken to not put load on the output shaft of "
+"a spur gearbox. In particular, spur gear motors should NOT be used in high "
+"load applications, such as a drivetrain."
+msgstr ""
+"Las cajas de engranajes rectos NO se recomiendan debido a su menor vida útil"
+" y resistencia mecánica en comparación con las cajas de engranajes "
+"planetarios. Si va a comprar motores nuevos, se recomienda encarecidamente "
+"adquirir motores con caja de engranajes planetarios. Se debe tener cuidado "
+"de no poner carga en el eje de salida de una caja de engranajes rectos. En "
+"particular, los motorreductores de engranajes rectos NO deben utilizarse en "
+"aplicaciones de alta carga, como un chasis."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:48
+msgid ""
+"Generally, spur gearboxes are cheaper than planetary gearboxes. However, in "
+"FTC that price change is often minimal. An HD Hex Motor + UltraPlanetary "
+"gearbox kit from REV is only ~$10 more than an HD Hex Motor + Spur gearbox, "
+"and offers significantly more flexibility/customizability."
+msgstr ""
+"Por lo general, las cajas de engranajes rectos son más baratos que los "
+"planetarios. Sin embargo, en FTC ese cambio de precio suele ser mínimo. Un "
+"kit de un HD Hex Motor + Ultraplanetary gearbox kit de REV sólo cuesta ~10 $"
+" más que un HD Hex Motor + Caja de engranajes rectos, y ofrece mucha más "
+"flexibilidad/personalización."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:50
 msgid ""
@@ -165,6 +264,21 @@ msgstr ""
 " que tiene engranajes más pequeños (engranajes planetarios) girando a su "
 "alrededor. El radio exterior tiene una corona dentada que sujeta los demás "
 "engranajes."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:64
+msgid ""
+"Planetary gearboxes are used in the AndyMark NeveRest Orbital and Hex "
+"gearmotors, REV HD Hex UltraPlanetary motors, and goBILDA's wide selection "
+"of :term:`Yellow Jacket planetary gear motors <Yellow Jacket Motor>`. As you"
+" can see from the graphic below, there are more teeth meshing per stage than"
+" in the spur gearbox."
+msgstr ""
+"Las cajas de engranajes planetarios se utilizan en los motorreductores "
+"AndyMark NeveRest Orbital y Hex, en los motores REV HD Hex UltraPlanetary y "
+"en la amplia selección de motores de engranajes planetarios de goBILDA "
+":term:`Yellow Jacket <Yellow Jacket Motor>`. Como puede verse en el gráfico "
+"siguiente, hay más dientes engranados por etapa que en el reductor de "
+"engranajes rectos."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/gearbox-anatomy.rst:69
 msgid "A planetary gearbox diagram"

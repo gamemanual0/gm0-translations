@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 04:36+0000\n"
+"POT-Creation-Date: 2026-01-13 04:46+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,6 +42,40 @@ msgstr ""
 " :term:`servo motorizado <Servo>` fuera de su posición, corre el riesgo de "
 "dañar los :term:`engranajes <Gear>` internos."
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:9
+msgid ""
+"Pay attention to a servo's travel range! The default 600-2400 range of the "
+"FTC control system when selecting the \"Servo\" configuration can make it "
+"appear that popular servos like the goBILDA Dual Mode Servos and REV Smart "
+"Robot Servos have less range than advertised. Make sure you select the "
+"\"Full Range Servo\" configuration instead to get the full 500-2500 range."
+msgstr ""
+"¡Presta atención al rango de recorrido de un servo! El rango por defecto de "
+"600-2400 del sistema de control FTC al seleccionar la configuración "
+"\"Servo\" puede hacer parecer que servos populares como el goBILDA Dual Mode"
+" Servos y REV Smart Robot Servos tienen menos rango del anunciado. Asegúrate"
+" de seleccionar la configuración \"Full Range Servo\" en su lugar para "
+"obtener el rango completo de 500-2500."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:10
+msgid ""
+":term:`Servo` wires usually are black-red-white or black-red-yellow. "
+"Matching the colors is an easy way to check if the servo is plugged in "
+"correctly. Most :term:`servo <Servo>` connectors provide no protection from "
+"plugging them the wrong way: if you rotate it 180 degrees, it will still fit"
+" - but the :term:`servo <Servo>` would not work. (It shouldn't be damaged, "
+"though.) Thus, if your :term:`servo <Servo>` is not working, first check if "
+"they are plugged in correctly. Then check it again."
+msgstr ""
+":term:`Los cables del servo suelen ser negro-rojo-blanco o negro-rojo-"
+"amarillo. Comparar los colores es una forma fácil de comprobar si el servo "
+"está conectado correctamente. La mayoría de los conectores :term:`servo "
+"<Servo>` no protegen de una conexión incorrecta: si los giras 180 grados, "
+"seguirán encajando, pero el :term:`servo <Servo>` no funcionará. (Aunque no "
+"debería estar dañado). Por lo tanto, si su :term:`servo <Servo>` no "
+"funciona, compruebe primero si están enchufados correctamente. A "
+"continuación, vuelva a comprobarlo."
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:12
 msgid ""
 "When using :term:`servo <Servo>` wire extensions, use `retaining clips "
@@ -53,6 +87,37 @@ msgstr ""
 " sujeción <https://www.gobilda.com/servo-connector-clip-yellow-6-pack/>`_ "
 "para evitar que la conexión se separe cuando alguien tire del cable. También"
 " puede utilizar cinta aislante."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:13
+msgid ""
+"Some vendors sell versions of the 3-pin female connector with retaining "
+"clips built-in. BackBayRC on Amazon sells pre-made `servo extension wires "
+"with locking connectors <https://www.amazon.com/BackBayRC-Extension-Strands-"
+"Vehicles-bikes/dp/B0CXR2YBS4/>`_; and Ferra Components sells both `pre-made "
+"servo extension wires with locking connectors "
+"<https://ferracomponents.com/products/20awg-locking-servo-wire>`_, and "
+"`packs of locking connectors you can crimp yourself "
+"<https://ferracomponents.com/products/servo-locking-connector>`_."
+msgstr ""
+"Algunos proveedores venden versiones del conector hembra de 3 pines con "
+"clips de retención incorporados. BackBayRC en Amazon vende cables de "
+"extensión de servo prefabricados con conectores de bloqueo "
+"<https://www.amazon.com/BackBayRC-Extension-Strands-Vehicles-"
+"bikes/dp/B0CXR2YBS4/>`_; y Ferra Components vende cables de extensión de "
+"servo prefabricados con conectores de bloqueo "
+"<https://ferracomponents.com/products/20awg-locking-servo-wire>`_, y "
+"paquetes de conectores de bloqueo que puedes engarzar tú mismo "
+"<https://ferracomponents.com/products/servo-locking-connector>`_."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:14
+msgid ""
+"Do not use bare socket head screws to attach :term:`servos <Servo>` - when "
+"tightened, they will damage the plastic. Use button head screws or socket "
+"heads with a washer."
+msgstr ""
+"No utilice tornillos de cabeza hueca desnudos para fijar los :term:`servos "
+"<Servo>` - al apretarlos, dañarán el plástico. Utilice tornillos de cabeza "
+"de botón o de cabeza hueca con arandela."
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:15
 msgid ""
@@ -69,6 +134,32 @@ msgstr ""
 "ninguna precaución adicional, es muy probable que rompa el :term:`servo "
 "<Servo>` la primera vez que se estrelle contra la pared con el brazo "
 "extendido (y esto ocurrirá inevitablemente)."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:17
+msgid ""
+"To avoid that, use additional supports. The easiest way to do it is by using"
+" `ServoBlocks from goBILDA <https://www.gobilda.com/servoblocks>`_. "
+":term:`ServoBlocks` act as exoskeletons for the :term:`servo <Servo>`, "
+"providing additional support. They pay for themselves, since they help "
+"protect your servos from getting damaged. Additionally, REV offers the "
+"inside and outside channel :term:`servo <Servo>` bracket, which when paired "
+"with the aluminum servo :term:`shaft <Shaft>` adapter and :term:`bearing "
+"<Ball Bearing>` assembly, fulfills the same function."
+msgstr ""
+"Para evitarlo, utiliza soportes adicionales. La forma más fácil de hacerlo "
+"es utilizando `ServoBlocks de goBILDA "
+"<https://www.gobilda.com/servoblocks>`_. :term:`ServoBlocks` actúan como "
+"exoesqueletos para el :term:`servo <Servo>`, proporcionando soporte "
+"adicional. Se pagan por sí mismos, ya que ayudan a proteger tus servos de "
+"ser dañados. Además, REV ofrece el soporte de canal interior y exterior del "
+":term:`servo <Servo>`, que cuando se combina con el adaptador de :term:`eje "
+"<Shaft>` de aluminio para servo y el conjunto de :term:`rodamientos <Ball "
+"Bearing>`, cumple la misma función."
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:0
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:22
+msgid "A servo in a compact ServoBlock"
+msgstr "Un servo en un ServoBlock compacto"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/usage-tips.rst:24
 msgid ""

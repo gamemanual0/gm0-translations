@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Ddino XD, 2023
-# Yaretzi Lugo, 2025
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-17 04:38+0000\n"
+"POT-Creation-Date: 2026-01-13 04:46+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2025\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -465,6 +465,39 @@ msgstr ""
 ":term:`REV HD Hex motor <HD Hex Motor>`, ya que utiliza el mismo :term:`eje "
 "hexagonal de 5 mm <Shaft>` que el resto del sistema REV)."
 
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:76
+msgid ""
+":term:`REV HD Hex Motor with Spur Gearbox <HD Hex Motor>` - This motor comes"
+" in a 20:1 or 40:1 ratio, and uses the same connections (:term:`JST VH`) as "
+"the REV Expansion and Control Hub for power, which means no adapter cables "
+"are necessary. The output :term:`shaft <Shaft>` is a 5mm hex :term:`shaft "
+"<Shaft>`. :term:`REV UltraHex <UltraHex>` has a 5mm hex :term:`bore <Bore>` "
+"running through the middle of a 1/2\" hex :term:`shaft <Shaft>`, which makes"
+" adapting this motor to any length of :term:`UltraHex`, and by extension, "
+"1/2\" hex :term:`shaft <Shaft>`, very easy."
+msgstr ""
+":term:`REV HD Hex Motor con Caja de engranajes rectos <HD Hex Motor>` - Este"
+" motor viene en una relación de 20:1 o 40:1, y utiliza las mismas conexiones"
+" (:term:`JST VH`) que el REV Expansion y Control Hub para la alimentación, "
+"lo que significa que no son necesarios cables adaptadores. El :term:`eje "
+"<Shaft>` de salida es un :term:`eje <Shaft>` hexagonal de 5mm. :term:`REV "
+"UltraHex <UltraHex>` tiene un :term:`taladro <Bore>` hexagonal de 5mm que "
+"pasa por el medio de un :term:`eje <Shaft>` hexagonal de 1/2\", lo que hace "
+"que adaptar este motor a cualquier longitud de :term:`UltraHex`, y por "
+"extensión, :term:`eje <Shaft>` hexagonal de 1/2\", sea muy fácil."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:77
+msgid ""
+":term:`AndyMark NeveRest Classic <NeveRest Motor>` motors come in 40:1 and "
+"60:1 ratios. The output shaft is a :term:`6mm D-shaft <Shaft>`, and the "
+"motors have inbuilt cables with :term:`Anderson PowerPole` or :term:`JST VH`"
+" connectors to connect to power."
+msgstr ""
+"Los motores :term:`AndyMark NeveRest Classic <NeveRest Motor>` vienen en "
+"relaciones de 40:1 y 60:1. El eje de salida es un :term:`6mm D-eje<Shaft>`, "
+"y los motores llevan cables incorporados con conectores :term:`Anderson "
+"PowerPole` o :term:`JST VH` para conectarlos a la corriente."
+
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:80
 msgid "Choosing The Right Gearbox"
 msgstr "Escogiendo la Caja de Engranajes Adecuados"
@@ -492,6 +525,15 @@ msgstr ""
 "Porque ambos tipos de cajas de cambios son tan similares en precio para "
 "relaciones similares, generalmente recomendamos el uso de una caja de "
 "cambios planetaria en lugar de una caja de cambios de engranaje recto."
+
+#: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:86
+msgid ""
+"If you already own spur gearboxes, try to use them in lower-load situations,"
+" and use planetary motors on your drivetrain and high-load mechanisms."
+msgstr ""
+"Si ya dispone de cajas de engranajes rectos, intente utilizarlos en "
+"situaciones de menor carga, y emplee motores planetarios en tu chasis y los "
+"mecanismos de alta carga."
 
 #: ../../gm0/source/docs/power-and-electronics/motor-guide/choosing-motor.rst:88
 msgid ""
