@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Victoria Chacon, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2026-01-24 04:39+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,9 +26,29 @@ msgstr ""
 msgid "Using Android Studio"
 msgstr "Uso de Android Studio"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:6
+msgid ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ is an "
+"integrated development environment (IDE) for Android app development based "
+"on IntelliJ. It compiles your code which is then installed onto the Robot "
+"Controller: either the Control Hub or a legal Android phone."
+msgstr ""
+"`Android Studio <https://developer.android.com/studio/intro>`_ es un entorno"
+" de desarrollo integrado (IDE) para el desarrollo de aplicaciones Android "
+"basado en IntelliJ. Compila el código y lo instala en el Robot Controller: "
+"el Control Hub o un teléfono Android legal."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:9
 msgid "Downloading Android Studio"
 msgstr "Descarga de Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:11
+msgid ""
+"If you've already downloaded Android Studio, you can move on to the next "
+"step, which is `setting up the SDK`_."
+msgstr ""
+"Si ya has descargado Android Studio, puedes pasar al siguiente paso, que es "
+"`setting up the SDK`_."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:13
 msgid "The steps to download and setup Android Studio are:"
@@ -42,6 +62,14 @@ msgstr ""
 "Compruebe que su sistema cumple los `requisitos necesarios "
 "<https://developer.android.com/studio#Requirements>`_"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:16
+msgid ""
+"Install the latest version of Android Studio from "
+"https://developer.android.com/studio/index.html"
+msgstr ""
+"Instala la última versión de Android Studio desde "
+"https://developer.android.com/studio/index.html"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:17
 msgid ""
 "Run the executable, follow the setup wizard, and use any and all recommended"
@@ -54,9 +82,42 @@ msgstr ""
 msgid "Setting up the SDK"
 msgstr "Configuración del SDK"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:22
+msgid ""
+"Now that you have Android Studio installed, you're going to want to use the "
+"current season's FTC\\ |reg| SDK (software development kit) where you will "
+"create your team's code."
+msgstr ""
+"Ahora que tienes instalado Android Studio, vas a querer usar el SDK (kit de "
+"desarrollo de software) de la temporada actual de FTC\\ |reg| donde crearás "
+"el código de tu equipo."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:25
 msgid "Downloading the SDK"
 msgstr "Descarga del SDK"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:27
+msgid ""
+"The SDK is publicly released to a GitHub repository. The current SDK can be "
+"found in the `FtcRobotController <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`_ repository."
+msgstr ""
+"El SDK se libera públicamente en un repositorio de GitHub. El SDK actual se "
+"puede encontrar en el repositorio `FtcRobotController "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:30
+msgid "Downloading and opening the SDK in Android Studio"
+msgstr "Descargar y abrir el SDK en Android Studio"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:32
+msgid ""
+"Open Android Studio. If you have another project open, close it (File -> "
+"Close Project). Make sure \"Projects\" is selected on the sidebar."
+msgstr ""
+"Abra Android Studio. Si tiene otro proyecto abierto, ciérrelo (Archivo -> "
+"Cerrar proyecto). Asegúrese de que \"Proyectos\" está seleccionado en la "
+"barra lateral."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
 msgid ""
@@ -65,6 +126,60 @@ msgid ""
 msgstr ""
 "Debería aparecer una pantalla con una opción para configurar los ajustes e "
 "importar un proyecto"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:38
+msgid ""
+"Click on the gear icon in the bottom left corner, and select \"check for "
+"updates.\" If you do not have the latest version, download the updates."
+msgstr ""
+"Haz clic en el icono del engranaje en la esquina inferior izquierda, y "
+"selecciona \"buscar actualizaciones\". Si no tienes la última versión, "
+"descarga las actualizaciones."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:40
+msgid ""
+"Select \"Get from VCS\". Make sure \"Repository URL\" is selected on the "
+"sidebar, then put ``https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController.git`` into the URL text box. Finally, click the"
+" Clone button in the bottom right corner to download the SDK."
+msgstr ""
+"Seleccione \"Obtener de VCS\". Asegúrate de que la opción \"Repository URL\""
+" está seleccionada en la barra lateral y, a continuación, introduce "
+"``https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`` en el "
+"cuadro de texto de la URL. Por último, haz clic en el botón Clonar de la "
+"esquina inferior derecha para descargar el SDK."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:42
+msgid ""
+"Consider also changing the name of the final folder in the Directory textbox"
+" from ``FtcRobotController`` to something that reflects your team and the "
+"season, e.g. team number 99999 might use ``99999-2025-26-code``."
+msgstr ""
+"Considera también cambiar el nombre de la carpeta final en el cuadro de "
+"texto Directorio de ``FtcRobotController`` a algo que refleje tu equipo y la"
+" temporada, por ejemplo, el equipo número 99999 podría usar "
+"``99999-2025-26-code``."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:0
+msgid "TODO: alt text"
+msgstr "TODO: alt text"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:47
+msgid ""
+"When asked if you want to trust and open the project, choose \"Trust "
+"Project\"."
+msgstr ""
+"Cuando se le pregunte si desea confiar en el proyecto y abrirlo, elija "
+"\"Confiar en el proyecto\"."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:52
+msgid ""
+"Select the hammer icon in the icon group in the top right corner of the "
+"window. This will download any needed modules and build the project."
+msgstr ""
+"Selecciona el icono del martillo en el grupo de iconos de la esquina "
+"superior derecha de la ventana. Esto descargará los módulos necesarios y "
+"construirá el proyecto."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:57
 msgid ""
@@ -98,6 +213,22 @@ msgstr "Diseño de Android Studio"
 msgid "Creating Classes"
 msgstr "Creación de clases"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:75
+msgid ""
+"The first thing to note in the project view is the left panel with the "
+"project components. Expand the :code:`TeamCode` folder, then the "
+":code:`java` folder, and you will see an "
+":code:`org.firstinspires.ftc.teamcode` package."
+msgstr ""
+"Lo primero que hay que observar en la vista del proyecto es el panel "
+"izquierdo con los componentes del proyecto. Expanda la carpeta "
+":code:`TeamCode`, luego la carpeta :code:`java`, y verá un paquete "
+":code:`org.firstinspires.ftc.teamcode`."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
+msgid "TeamCode > java > org.firstinspires.ftc.teamcode"
+msgstr "TeamCode > java > org.firstinspires.ftc.teamcode"
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:80
 msgid ""
 "This is where you will create your code for the robot. To create a new Java "
@@ -112,13 +243,53 @@ msgstr ""
 msgid "New > Java Class"
 msgstr "Nuevo > Clase de Java"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:86
+msgid ""
+"If you want to create a subfolder for organization purposes, you can select "
+"the \"Package\" option. Then, you can create classes in those packages."
+msgstr ""
+"Si desea crear una subcarpeta con fines de organización, puede seleccionar "
+"la opción \"Paquete\". A continuación, puede crear clases en esos paquetes."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:89
+msgid ""
+"The :code:`readme.md` file in this directory contains useful documentation, "
+"including information on sample programs shipped with the SDK that you can "
+"use and modify. We highly recommend you read this information."
+msgstr ""
+"El archivo :code:`readme.md` de este directorio contiene documentación útil,"
+" incluida información sobre programas de ejemplo incluidos en el SDK que "
+"puede utilizar y modificar. Le recomendamos encarecidamente que lea esta "
+"información."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:92
 msgid "Installing Your Program"
 msgstr "Instalación del programa"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:94
+msgid ""
+"To install your program onto the Robot Controller, you will use the play "
+"button located near the top middle of the application window."
+msgstr ""
+"Para instalar su programa en el Robot Controller, utilice el botón de "
+"reproducción situado en la parte superior central de la ventana de la "
+"aplicación."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Play button next to device dropdown"
 msgstr "Botón de reproducción junto al menú desplegable de dispositivos"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:99
+msgid ""
+"Near it you will see a dropdown for devices. When you connect your Robot "
+"Controller to your computer, the device should appear in the dropdown after "
+"some time. Then, click the play button and your program will install onto "
+"the device."
+msgstr ""
+"Cerca de él verás un desplegable de dispositivos. Cuando conectes tu Robot "
+"Controller al ordenador, el dispositivo debería aparecer en el desplegable "
+"al cabo de un rato. A continuación, haz clic en el botón de reproducción y "
+"tu programa se instalará en el dispositivo."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:101
 msgid ""
@@ -145,6 +316,14 @@ msgid ""
 msgstr ""
 "Desplegando código de forma inalámbrica <https://docs.revrobotics.com/duo-"
 "control/programming/android-studio-using-wireless-adb>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:106
+msgid ""
+"If you're still stuck, you can ask for help in the `FTC Discord "
+"<https://discord.com/invite/ftc>`_."
+msgstr ""
+"Si sigues atascado, puedes pedir ayuda en el `FTC Discord "
+"<https://discord.com/invite/ftc>`_."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:109
 msgid "Gradle"
@@ -174,6 +353,23 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:116
 msgid "Rebuilding"
 msgstr "Reconstrucción"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:118
+msgid "You can rebuild your project easily with the Build menu."
+msgstr "Puedes reconstruir tu proyecto fácilmente con el menú Construir."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:123
+msgid "The build menu at the top of the screen"
+msgstr "El menú de construcción en la parte superior de la pantalla"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:123
+msgid ""
+"Note: On Windows and Linux, the menubar is accessed by clicking the "
+"hamburger menu icon at the top left of the window."
+msgstr ""
+"Nota: En Windows y Linux, se accede a la barra de menús haciendo clic en el "
+"icono del menú hamburguesa situado en la parte superior izquierda de la "
+"ventana."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:128
 msgid "Invalidate and Restart"

@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Crackermi, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 04:27+0000\n"
+"POT-Creation-Date: 2026-01-24 04:39+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -231,6 +231,14 @@ msgstr ""
 msgid "Much greater flexibility than Blocks."
 msgstr "Mucha más flexibilidad que Blocks."
 
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:71
+msgid ""
+"Much easier to integrate libraries like `FTC Dashboard`_, `FTCLib`_, and "
+"`Road Runner`_."
+msgstr ""
+"Mucho más fácil de integrar bibliotecas como `FTC Dashboard`_, `FTCLib`_, y "
+"`Road Runner`_."
+
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:72
 msgid ""
 "Can use either a USB connection to the :term:`RC <Robot Controller>` phone, "
@@ -261,6 +269,16 @@ msgstr ""
 "cualquier cosa en Internet, incluidos los tutoriales en vídeo y la "
 "comunicación en línea, a menos que tenga un segundo adaptador Wifi (barato y"
 " fácil)."
+
+#: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:85
+msgid ""
+"Relatively easy setup process, but time consuming and is a hefty install "
+"(3GB of files between Android Studio, FtcRobotController, and other "
+"libraries)"
+msgstr ""
+"El proceso de instalación es relativamente sencillo, pero requiere tiempo y "
+"es una instalación pesada (3 GB de archivos entre Android Studio, "
+"FtcRobotController y otras bibliotecas)."
 
 #: ../../gm0/source/docs/software/getting-started/options-for-programming.rst:86
 msgid "Issues can be difficult to diagnose and solve"

@@ -6,16 +6,16 @@
 # Translators:
 # Eli Villalba, 2023
 # Marianq Lujan, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 04:28+0000\n"
+"POT-Creation-Date: 2026-01-24 04:39+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,6 +39,21 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:9
 msgid "Exceptions"
 msgstr "Excepciones"
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:11
+msgid ""
+"Exceptions are events that occur during the execution of a program, "
+"disrupting the normal flow of instructions, used in error events or problems"
+" that arise during runtime. A exception can be caught to avoid propagation, "
+"otherwise any exception that's not handled will cause the program flow to "
+"stop immediately."
+msgstr ""
+"Las excepciones son eventos que ocurren durante la ejecución de un programa,"
+" interrumpiendo el flujo normal de instrucciones, utilizadas en eventos de "
+"error o problemas que surgen durante el tiempo de ejecución. Una excepción "
+"puede ser atrapada para evitar su propagación, de lo contrario cualquier "
+"excepción que no sea manejada causará que el flujo del programa se detenga "
+"inmediatamente."
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:13
 msgid "Some common types of exceptions include:"
@@ -224,6 +239,14 @@ msgstr ""
 " ejecutando una acción en cualquiera de estos métodos, el SDK realizará la "
 "rutina de \"parada de emergencia\" explicada antes, con el mensaje de error "
 "\"atascado en ``acción``\"."
+
+#: ../../gm0/source/docs/software/getting-started/common-issues.rst:170
+msgid ""
+"If you need to run any sort of lengthy action in your OpMode, another option"
+" would be using a LinearOpMode instead."
+msgstr ""
+"Si necesita ejecutar algún tipo de acción larga en su OpMode, otra opción "
+"sería utilizar un LinearOpMode en su lugar."
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:172
 msgid ""
