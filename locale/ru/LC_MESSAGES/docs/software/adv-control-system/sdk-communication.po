@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Elizaveta Sukhotskaya, 2025
 # Соня Либерман, 2025
+# Elizaveta Sukhotskaya, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 16:30+0000\n"
+"POT-Creation-Date: 2026-01-25 04:55+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Соня Либерман, 2025\n"
+"Last-Translator: Elizaveta Sukhotskaya, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,19 +75,6 @@ msgstr ""
 "сравнению с USB, но и потому, что LynxCommands занимают примерно 3 "
 "миллисекунды при использовании USB и примерно 2 миллисекунды при "
 "использовании UART."
-
-#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:16
-msgid ""
-"Any expansion hubs connected via RS485 receive their commands via that "
-"connector. Lynx hubs do not have to retransmit packets, so the added latency"
-" from this process isn't significant, but there will be some added latency. "
-"Up to 255 expansion hubs can be connected together in theory."
-msgstr ""
-"Все Expansion Hub, подключенные через RS485, получают команды через этот "
-"разъем. Концентраторы Lynx не выполняют ретрансляцию пакетов, поэтому "
-"дополнительная задержка от этого процесса незначительна, но она "
-"присутствует. Теоретически можно объединить до 255 Expansion Hub в единую "
-"сеть."
 
 #: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
 msgid ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 16:34+0000\n"
+"POT-Creation-Date: 2026-01-25 04:55+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -50,19 +50,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
 msgid "Lynx Board"
 msgstr "Lynx 板"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
-msgid ""
-"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
-"Hub that interacts with hardware. References to \"Lynx\" are made in the "
-"FTC\\ |reg| SDK refer to this board. It appears to have been developed by "
-"both REV and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company), "
-"possibly for use in *FIRST*\\ |reg| Global (judging by the *FIRST* Global "
-"silkscreen on the PCB)."
-msgstr ""
-"\"Lynx\" 是 Expansion Hub 和 Control Hub 中与硬件交互的电路板的代号。FTC\\ |reg| SDK中提到的 "
-"\"Lynx\" 就是指这块板。它似乎是由 REV 和  `DEKA <https://dekaresearch.com/>`_ （Dean Kamen"
-" 的公司）共同开发的，可能用于  *FIRST*\\ |reg| Global（从 PCB 上的 *FIRST* Global 丝印来看）。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
 msgid "A Lynx board that was removed from its case"
@@ -243,14 +230,6 @@ msgstr "能够全速 USB 2.0 和 5V 输出为手机充电。5v 输出可能不�
 msgid "Internal Connector"
 msgstr "内部连接器"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
-msgid ""
-"This connector is what is used to connect to the compute daughterboard. It "
-"has a UART connection, as well as power and ground. All Expansion Hubs have "
-"this connector, whether or not they are a Control Hub."
-msgstr ""
-"该连接器用于连接计算子板。它有一个 UART 连接以及电源和地线。无论是否为 Control Hub，所有 Expansion Hub 都有这个连接器。"
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:74
 msgid "Control Hub"
 msgstr "Control Hub"
@@ -283,16 +262,6 @@ msgid ""
 msgstr ""
 "FIRST Global 使用的最初版本的 Control Hub（REV-31-1152）实际上使用了 `Dragonboard 410c "
 "<https://www.96boards.org/product/dragonboard410c/>`_ 作为计算板。"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:83
-msgid ""
-"The Control Hub compute board runs a customized version of Android 7.1. It "
-"does not have a proper heatsink on the SOC, only an exremely small and thin "
-"heat spreader, which can cause thermal throttling when heavy processes such "
-"as vision pipelines are used."
-msgstr ""
-"Control Hub 计算板运行的是定制版 Android 7.1。它的 SOC "
-"上没有适当的散热片，只有一个非常小而薄的散热器，这在使用视觉管线等重型进程时可能会导致热节流。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
 msgid "SOC: Rockchip RK3328"

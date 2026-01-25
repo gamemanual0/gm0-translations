@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-24 04:39+0000\n"
+"POT-Creation-Date: 2026-01-25 04:55+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -53,22 +53,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:14
 msgid "Lynx Board"
 msgstr "Tablero Lynx"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
-msgid ""
-"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
-"Hub that interacts with hardware. References to \"Lynx\" are made in the "
-"FTC\\ |reg| SDK refer to this board. It appears to have been developed by "
-"both REV and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company), "
-"possibly for use in *FIRST*\\ |reg| Global (judging by the *FIRST* Global "
-"silkscreen on the PCB)."
-msgstr ""
-"\"Lynx\" es el nombre en clave de la placa dentro del Expansión y Control "
-"Hub que interactúa con el hardware. Las referencias a \"Lynx\" que se hacen "
-"en el SDK de FTC |reg| se refieren a esta placa. Parece haber sido "
-"desarrollada tanto por REV como por `DEKA <https://dekaresearch.com/>`_ (la "
-"empresa de Dean Kamen), posiblemente para su uso en *FIRST* |reg| Global (a "
-"juzgar por la serigrafía de *FIRST* Global en la PCB)."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
 msgid "A Lynx board that was removed from its case"
@@ -284,16 +268,6 @@ msgstr ""
 msgid "Internal Connector"
 msgstr "Conector interno"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
-msgid ""
-"This connector is what is used to connect to the compute daughterboard. It "
-"has a UART connection, as well as power and ground. All Expansion Hubs have "
-"this connector, whether or not they are a Control Hub."
-msgstr ""
-"Este conector es el que se utiliza para conectarse a la placa hija de "
-"computación. Tiene una conexión UART, así como alimentación y tierra. Todos "
-"los Expansion Hubs tienen este conector, sean o no un Control Hub."
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:74
 msgid "Control Hub"
 msgstr "Control Hub"
@@ -331,19 +305,6 @@ msgstr ""
 "La versión original del Control Hub (REV-31-1152) utilizado en FIRST Global "
 "en realidad utilizaba una `Dragonboard 410c "
 "<https://www.96boards.org/product/dragonboard410c/>`_ como placa de cálculo."
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:83
-msgid ""
-"The Control Hub compute board runs a customized version of Android 7.1. It "
-"does not have a proper heatsink on the SOC, only an exremely small and thin "
-"heat spreader, which can cause thermal throttling when heavy processes such "
-"as vision pipelines are used."
-msgstr ""
-"La placa de cálculo Control Hub ejecuta una versión personalizada de Android"
-" 7.1. No dispone de un disipador térmico adecuado en el SOC, solo un "
-"disipador extremadamente pequeño y fino, lo que puede provocar un "
-"estrangulamiento térmico cuando se utilizan procesos pesados como los "
-"pipelines de visión."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
 msgid "SOC: Rockchip RK3328"
