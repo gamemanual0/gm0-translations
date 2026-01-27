@@ -6,16 +6,16 @@
 # Translators:
 # Ddino XD, 2024
 # Victoria Chacon, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 04:28+0000\n"
+"POT-Creation-Date: 2026-01-27 04:52+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -430,6 +430,15 @@ msgid ""
 msgstr ""
 "Control LED: control de LED RGB (color sólido o patrón). LED es bastante "
 "pequeño y tenue y puede no ser una buena opción."
+
+#: ../../gm0/source/docs/software/tutorials/gamepad.rst:226
+msgid ""
+"Gamepad feedback can be used to alert drivers of: start of endgame, intake "
+"loaded, automatic alignment complete, etc."
+msgstr ""
+"La retroalimentación del gamepad puede usarse para alertar a los conductores"
+" de: inicio de final de partida, intake cargado, alineación automática "
+"completada, etc."
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:230
 msgid "Rumble"

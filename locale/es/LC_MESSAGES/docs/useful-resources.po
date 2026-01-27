@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 04:29+0000\n"
+"POT-Creation-Date: 2026-01-27 04:52+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,6 +44,21 @@ msgstr ""
 #: ../../gm0/source/docs/useful-resources.rst:17
 msgid "General Resources"
 msgstr "Recursos generales"
+
+#: ../../gm0/source/docs/useful-resources.rst:19
+msgid ""
+"`FTC Discord <https://discord.com/invite/ftc>`_:highlight:`*` --- The "
+"**unofficial** FTC\\ |reg| Discord server is a discussion-based community "
+"server. It is the most active FTC community, which means it generally has "
+"the most up-to-date information, and is the easiest way to get quick answers"
+" to questions. It also has a channel with direct access to vendors."
+msgstr ""
+"`FTC Discord <https://discord.com/invite/ftc>`_:highlight:`*` --- El "
+"servidor **no oficial** FTC\\ |reg| Discord es un servidor comunitario "
+"basado en discusiones. Es la comunidad más activa de FTC, lo que significa "
+"que generalmente tiene la información más actualizada, y es la forma más "
+"fácil de obtener respuestas rápidas a las preguntas. También tiene un canal "
+"con acceso directo a los vendedores."
 
 #: ../../gm0/source/docs/useful-resources.rst:21
 msgid ""
@@ -88,6 +103,26 @@ msgstr ""
 "info>`_:highlight:`*` --- Dónde encuentras la información de la temporada "
 "actual, incluyendo los Manuales del Juego."
 
+#: ../../gm0/source/docs/useful-resources.rst:29
+msgid ""
+"`FTC Blog <https://community.firstinspires.org/topic/ftc>`_ --- The official"
+" FTC blog; important updates are typically posted here."
+msgstr ""
+"`FTC Blog <https://community.firstinspires.org/topic/ftc>`_ --- El blog "
+"oficial de la FTC; aquí suelen publicarse actualizaciones importantes."
+
+#: ../../gm0/source/docs/useful-resources.rst:31
+msgid ""
+"`FTC Tutorials "
+"<https://web.archive.org/web/20231203044359/https://ftctutorials.com/en/>`_ "
+"--- (Unofficial) FTC Tutorials, covering the robot, competitions, and team "
+"management."
+msgstr ""
+"`FTC Tutorials "
+"<https://web.archive.org/web/20231203044359/https://ftctutorials.com/en/>`_ "
+"--- Tutoriales (no oficiales) de FTC, que cubren el robot, las competiciones"
+" y la gestión de equipos."
+
 #: ../../gm0/source/docs/useful-resources.rst:33
 msgid ""
 "`FIRST Resource Library <https://www.firstinspires.org/resource-"
@@ -113,6 +148,16 @@ msgstr ""
 "<https://portfolios.hivemindrobotics.net>`_ --- Una biblioteca de "
 "portafolios de ingeniería premiados en el pasado. Creada por Polar del "
 "equipo FTC 23396 y administrada por la comunidad."
+
+#: ../../gm0/source/docs/useful-resources.rst:37
+msgid ""
+"`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/duo>`_ "
+"--- Covers REV's hardware and software. The control system documentation "
+"includes an introductory FTC programming tutorial."
+msgstr ""
+"`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/duo>`_ "
+"--- Cubre el hardware y el software de REV. La documentación del sistema de "
+"control incluye un tutorial de introducción a la programación del FTC."
 
 #: ../../gm0/source/docs/useful-resources.rst:39
 msgid ""
@@ -194,6 +239,16 @@ msgstr ""
 "software/overview>`_ --- Registro de cuenta educativa de Autodesk. Una "
 "cuenta educativa brinda acceso tanto a Fusion 360 como a Inventor."
 
+#: ../../gm0/source/docs/useful-resources.rst:60
+msgid ""
+"`Creo Education License <https://www.ptc.com/en/education/free-"
+"software/creo-standalone-educator>`_ --- Creo's education license "
+"application form."
+msgstr ""
+"`Creo Education License <https://www.ptc.com/en/education/free-"
+"software/creo-standalone-educator>`_ --- Formulario de solicitud de licencia"
+" educativa de Creo."
+
 #: ../../gm0/source/docs/useful-resources.rst:62
 msgid ""
 "`Onshape Education Account <https://www.onshape.com/en/education/>`_ --- "
@@ -218,6 +273,18 @@ msgstr ""
 msgid "Part Libraries"
 msgstr "Bibliotecas de partes"
 
+#: ../../gm0/source/docs/useful-resources.rst:69
+msgid ""
+"`10650 Hazmat Robotics Public CAD Library + MiSUMI Parts "
+"<https://grabcad.com/library/ftc-cad-files-w-misumi-parts-1>`_ --- A multi-"
+"vendor part library that works across CAD software due to its use of STEP "
+"files."
+msgstr ""
+"`10650 Biblioteca CAD pública de Hazmat Robotics + Piezas MiSUMI "
+"<https://grabcad.com/library/ftc-cad-files-w-misumi-parts-1>`_ --- Una "
+"biblioteca de piezas de múltiples proveedores que funciona en todo el "
+"software CAD gracias a su uso de archivos STEP."
+
 #: ../../gm0/source/docs/useful-resources.rst:71
 msgid ""
 "`2901 Purple Gears Onshape Parts Library "
@@ -227,6 +294,17 @@ msgstr ""
 "2901 Purple Gears Biblioteca de piezas de Onshape "
 "<https://ftconshape.com/introduction-to-the-ftc-parts-library/> --- Una "
 "biblioteca de piezas de múltiples proveedores específicamente para Onshape."
+
+#: ../../gm0/source/docs/useful-resources.rst:73
+msgid ""
+"`ServoCity Official CAD Library "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_ --- "
+"ServoCity's entire STEP file catalog. This includes Actobotics parts."
+msgstr ""
+"`ServoCity Biblioteca Official CAD "
+"<https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_ --- "
+"Todo el catálogo de archivos STEP de ServoCity. Incluye piezas de "
+"Actobotics."
 
 #: ../../gm0/source/docs/useful-resources.rst:76
 msgid "Generators"
@@ -522,6 +600,16 @@ msgstr ""
 "deberás agregarlos manualmente utilizando los datos de la sección "
 ":ref:`datos-del-motor."
 
+#: ../../gm0/source/docs/useful-resources.rst:136
+msgid ""
+"`Pulley Center-to-Center Calculator <https://sdp-si.com/tools/center-"
+"distance-designer.php>`_ --- A fully featured belt pulley center-to-center "
+"distance calculator."
+msgstr ""
+"Calculadora de distancia entre centros de poleas <https://sdp-"
+"si.com/tools/center-distance-designer.php>`_ --- Calculadora de distancia "
+"entre centros de poleas con todas las funciones."
+
 #: ../../gm0/source/docs/useful-resources.rst:138
 msgid ""
 "`ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design "
@@ -680,6 +768,19 @@ msgstr ""
 " completa, que proporciona notablemente un paradigma de programación basado "
 "en comandos y canalizaciones de visión."
 
+#: ../../gm0/source/docs/useful-resources.rst:170
+msgid ""
+"`Panels <https://panels.bylazar.com>`_ --- FTControl Panels is an all-in-one"
+" dashboard for FTC robots that lets you control OpModes, tune Limelight "
+"pipelines wirelessly, record and replay match data, configure variables in "
+"real time, and visualize telemetry with interactive field and graph tools."
+msgstr ""
+"`Panels <https://panels.bylazar.com>`_ --- FTControl Panels es un panel de "
+"control todo en uno para los robots FTC que permite controlar los OpModes, "
+"ajustar las canalizaciones de Limelight de forma inalámbrica, grabar y "
+"reproducir datos de partidos, configurar variables en tiempo real y "
+"visualizar la telemetría con herramientas interactivas de campo y gráficos."
+
 #: ../../gm0/source/docs/useful-resources.rst:172
 msgid ""
 "`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner"
@@ -701,6 +802,17 @@ msgstr ""
 #: ../../gm0/source/docs/useful-resources.rst:175
 msgid "Electronics"
 msgstr "Electrónica"
+
+#: ../../gm0/source/docs/useful-resources.rst:177
+msgid ""
+"`Robot Wiring Guide <https://ftc-resources.firstinspires.org/ftc/team/robot-"
+"wires>`_:highlight:`*` --- *FIRST* guide to wiring FTC robots, including ESD"
+" mitigation options."
+msgstr ""
+"`Guía de cableado de robots <https://ftc-"
+"resources.firstinspires.org/ftc/team/robot-wires>`_:highlight:`*` --- "
+"*FIRST* guía de cableado de robots FTC, incluidas las opciones de mitigación"
+" de ESD."
 
 #: ../../gm0/source/docs/useful-resources.rst:179
 msgid ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-24 04:39+0000\n"
+"POT-Creation-Date: 2026-01-27 04:52+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -371,9 +371,33 @@ msgstr ""
 "icono del menú hamburguesa situado en la parte superior izquierda de la "
 "ventana."
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:125
+msgid ""
+"To clean your project to allow you to rebuild your project from scratch, "
+"choose the ``clean project`` option. This removes old compiled files from "
+"your project. To then rebuild your project, choose the rebuild option."
+msgstr ""
+"Para limpiar tu proyecto y poder reconstruirlo desde cero, elige la opción "
+"``limpiar proyecto``. Esto elimina los archivos compilados antiguos de su "
+"proyecto. Para reconstruir el proyecto, elija la opción de reconstrucción."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:128
 msgid "Invalidate and Restart"
 msgstr "Invalidar y reiniciar"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:130
+msgid ""
+"Sometimes you can get errors after moving things around, refactoring, etc. "
+"The first step is to try cleaning the project and doing a rebuild. If this "
+"doesn't work, you may be able to fix these errors with ``invalidate and "
+"restart`` under the ``file`` dropdown. This clears any caches Android Studio"
+" has and restarts it."
+msgstr ""
+"A veces pueden aparecer errores después de mover cosas, refactorizar, etc. "
+"El primer paso es intentar limpiar el proyecto y reconstruirlo. Si esto no "
+"funciona, puede ser capaz de corregir estos errores con ``invalidar y "
+"reiniciar`` en el menú desplegable ``file``. Esto limpia cualquier caché que"
+" tenga Android Studio y lo reinicia."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:133
 msgid "Adding Dependencies"
@@ -400,6 +424,16 @@ msgstr ""
 "Asegúrate de leer las instrucciones de instalación de la dependencia que "
 "quieras añadir."
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:147
+msgid ""
+"Next, you add a line in the dependencies block to implement the dependency. "
+"This is generally done with :code:`implementation "
+"'com.developer.package:name:version'`."
+msgstr ""
+"A continuación, añada una línea en el bloque de dependencias para "
+"implementar la dependencia. Esto se hace generalmente con "
+":code:`implementation 'com.developer.package:name:version'`."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:157
 msgid ""
 "Refer to the instructions of whatever library you are using for the correct "
@@ -411,6 +445,20 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:159
 msgid "Finally, perform a Gradle sync."
 msgstr "Por último, realice una sincronización Gradle."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:162
+msgid "Android Debug Bridge (adb)"
+msgstr "Puente de depuración de Android (adb)"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:164
+msgid ""
+"On macOS, Linux, or using PowerShell, you will have to change any commands "
+"that start with :code:`adb` to start with :code:`./adb` if you are in the "
+":code:`platform-tools` directory."
+msgstr ""
+"En macOS, Linux o utilizando PowerShell, tendrá que cambiar cualquier "
+"comando que empiece por :code:`adb` para que empiece por :code:`./adb` si se"
+" encuentra en el directorio :code:`platform-tools`."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:167
 msgid "Wireless Communication"
@@ -442,6 +490,14 @@ msgstr ""
 " a :code:`platform-tools` y una aplicación llamada adb debería estar allí. "
 "Para usarlo, abra CLI (como PowerShell o símbolo del sistema) y ejecute "
 ":code:`adb devices` o :code:`./adb devices`."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:173
+msgid ""
+"For more information on ADB, you can look at the `ADB documentation "
+"<https://developer.android.com/tools/adb>`_."
+msgstr ""
+"Para más información sobre ADB, puede consultar la `documentación sobre ADB "
+"<https://developer.android.com/tools/adb>`_."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:176
 msgid "Setting Up ADB"
@@ -480,6 +536,18 @@ msgstr ""
 msgid "Add ADB To PATH"
 msgstr "Añadir ADB a PATH"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:186
+msgid ""
+"If you want to use ADB from any directory, add it to PATH. Follow an online "
+"tutorial for adding to PATH and set the PATH to include the :code:`platform-"
+"tools` directory. Once you do that, you can run ADB commands from anywhere "
+"on your system."
+msgstr ""
+"Si quieres usar ADB desde cualquier directorio, añádelo a PATH. Sigue un "
+"tutorial online para añadirlo al PATH y establece el PATH al directorio "
+":code:`platform-tools`. Una vez hecho esto, podrás ejecutar comandos ADB "
+"desde cualquier parte de tu sistema."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:188
 msgid "Adding variables to PATH:"
 msgstr "Añadir variables a PATH:"
@@ -508,6 +576,19 @@ msgstr "`macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_"
 msgid "Connecting to a Control Hub Wirelessly"
 msgstr "Conexión Inalámbrica a un Control Hub"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:197
+msgid ""
+"Connect to the Wi-Fi hotspot hosted by the Control Hub. The hotspot should "
+"be called \"TEAMNUMBER-RC\" or some small derivation of that. It may include"
+" extra letters if you have multiple devices per team. Refer to R707 in the "
+"|cm| for further details on the network naming scheme."
+msgstr ""
+"Conéctese al punto de acceso Wi-Fi alojado en el Control Hub. El hotspot "
+"debe llamarse \"TEAMNUMBER-RC\" o alguna pequeña derivación del mismo. Puede"
+" incluir letras adicionales si tiene varios dispositivos por equipo. "
+"Consulte R707 en el |cm| para más detalles sobre el esquema de nomenclatura "
+"de la red."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:198
 msgid ""
 "Once you're connected to a Control Hub's network, you simply need to connect"
@@ -515,6 +596,20 @@ msgid ""
 msgstr ""
 "Una vez conectado a la red de un Control Hub, sólo tienes que conectarte a "
 "él utilizando :code:`adb connect 192.168.43.1:5555`."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:200
+msgid ""
+"Alternatively, if you have the `REV Hardware Client "
+"<https://docs.revrobotics.com/rev-hardware-client>`_ running, it will "
+"attempt to automatically connect ADB to any Control Hub connected via Wi-Fi."
+" This option does not require manually setting up ADB, and is therefore "
+"preferred by many teams using supported computers."
+msgstr ""
+"Alternativamente, si tienes el `REV Hardware Client "
+"<https://docs.revrobotics.com/rev-hardware-client>`_ ejecutándose, intentará"
+" conectar automáticamente ADB a cualquier Control Hub conectado vía Wi-Fi. "
+"Esta opción no requiere configurar manualmente ADB, por lo que es la "
+"preferida por muchos equipos que utilizan ordenadores compatibles."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:203
 msgid "Connecting to a Phone Wirelessly"
@@ -540,6 +635,20 @@ msgstr ""
 "Ejecute :code:`adb usb` y luego :code:`adb tcpip 5555`. A continuación, "
 "puede desenchufar el teléfono."
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:208
+msgid ""
+"Connect to the same Wi-Fi network the device is either hosting or on. The "
+"Wi-Fi direct network created by the phone should be called \"TEAMNUMBER-RC\""
+" or some small derivation of that. It may include extra letters if you have "
+"multiple devices per team. Refer to R707 in the |cm| for further details on "
+"the network naming scheme."
+msgstr ""
+"Conéctese a la misma red Wi-Fi que aloja o en la que se encuentra el "
+"dispositivo. La red Wi-Fi directa creada por el teléfono debe llamarse "
+"\"TEAMNUMBER-RC\" o alguna pequeña derivación de la misma. Puede incluir "
+"letras adicionales si tiene varios dispositivos por equipo. Consulte R707 en"
+" el |cm| para más detalles sobre el esquema de nomenclatura de redes."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:209
 msgid ""
 "Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this "
@@ -549,6 +658,15 @@ msgstr ""
 "Conéctese al teléfono utilizando :code:`adb connect 192.168.49.1:5555`. Si "
 "esto no funciona, vuelva a comprobar la dirección IP del teléfono e "
 "inténtelo de nuevo con esa dirección IP si es diferente."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:211
+msgid ""
+"Once a connection is established to a Control Hub or phone, it should "
+"automatically appear in the device dropdown in Android Studio."
+msgstr ""
+"Una vez establecida la conexión con un Control Hub o un teléfono, debería "
+"aparecer automáticamente en el desplegable de dispositivos de Android "
+"Studio."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:216
 msgid "Logcat"
@@ -566,6 +684,15 @@ msgstr ""
 "de tu aplicación se bloquea y consultas el registro y ves 5000 líneas con el"
 " mismo error, ¡probablemente haya una recursividad infinita en tu código!"
 
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:220
+msgid ""
+"To use logcat, plug in your device (or connect via ADB). Then, select the "
+"logcat button. Your window should look like this."
+msgstr ""
+"Para utilizar logcat, conecta tu dispositivo (o conéctalo mediante ADB). A "
+"continuación, selecciona el botón logcat. Tu ventana debería tener este "
+"aspecto."
+
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst-1
 msgid "Terminal and logcat tabs near the bottom left"
 msgstr "Pestañas terminal y logcat en la parte inferior izquierda"
@@ -574,6 +701,24 @@ msgstr "Pestañas terminal y logcat en la parte inferior izquierda"
 msgid "A selected device and app with the error messages"
 msgstr ""
 "Un dispositivo y una aplicación seleccionados con los mensajes de error"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:228
+msgid ""
+"Some useful information on using logcat can be found `here "
+"<https://developer.android.com/studio/debug/logcat>`_."
+msgstr ""
+"Puede encontrar información útil sobre el uso de logcat `aquí "
+"<https://developer.android.com/studio/debug/logcat>`_."
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:230
+msgid ""
+"If you have an issue you don't understand, you can take a screenshot of the "
+"log or select and copy the error and ask a question in the `FTC discord "
+"<https://discord.com/invite/ftc>`_."
+msgstr ""
+"Si tienes un problema que no entiendes, puedes hacer una captura de pantalla"
+" del registro o seleccionar y copiar el error y hacer una pregunta en el "
+"`FTC discord <https://discord.com/invite/ftc>`_."
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:233
 msgid "Wireless Configuration"
@@ -643,6 +788,14 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:248
 msgid "`The official git tutorial <https://git-scm.com/docs/gittutorial>`_"
 msgstr "`El tutorial oficial de git <https://git-scm.com/docs/gittutorial>`_"
+
+#: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:249
+msgid ""
+"`GitHub's collection of git resources <https://docs.github.com/en/get-"
+"started/git-basics/set-up-git>`_"
+msgstr ""
+"`La colección de recursos git de GitHub <https://docs.github.com/en/get-"
+"started/git-basics/set-up-git>`_"
 
 #: ../../gm0/source/docs/software/getting-started/using-android-studio.rst:250
 msgid ""

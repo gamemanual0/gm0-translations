@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Anthonella Contla, 2024
-# Yaretzi Lugo, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-25 04:55+0000\n"
+"POT-Creation-Date: 2026-01-27 04:52+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Yaretzi Lugo, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,6 +75,23 @@ msgstr ""
 " la mayor fiabilidad con UART en lugar de USB, sino también porque los "
 "LynxCommands tardan aproximadamente 3 milisegundos a través de USB y "
 "aproximadamente 2 milisegundos a través de UART."
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:16
+msgid ""
+"Any expansion hubs connected via RS485 receive their commands via that "
+"connector. To get from the USB or UART to RS485 the parent Lynx hub has to "
+"retransmit the packets, but packets traveling over RS485 and passing through"
+" Lynx hubs do not. The added latency from this process isn't significant, "
+"but there will be some added latency. Up to 255 expansion hubs can be "
+"connected together over RS485 in theory."
+msgstr ""
+"Cualquier hub de expansión conectado a través de RS485 recibe sus comandos a"
+" través de ese conector. Para pasar de USB o UART a RS485, el concentrador "
+"Lynx principal tiene que retransmitir los paquetes, pero los paquetes que "
+"viajan a través de RS485 y pasan por los concentradores Lynx no lo hacen. La"
+" latencia añadida de este proceso no es significativa, pero habrá alguna "
+"latencia añadida. En teoría, se pueden conectar hasta 255 concentradores de "
+"expansión a través de RS485."
 
 #: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
 msgid ""
