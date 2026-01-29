@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 04:28+0000\n"
+"POT-Creation-Date: 2026-01-29 16:52+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
 "Last-Translator: Soft Hoarders, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -23,189 +23,46 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../gm0/source/docs/awards/award-types.rst:4
-msgid "Award Categories"
-msgstr "Categorii de premii"
-
 #: ../../gm0/source/docs/awards/award-types.rst:7
 msgid "Advancing Awards"
 msgstr "Premiile Advancing"
 
-#: ../../gm0/source/docs/awards/award-types.rst:12
+#: ../../gm0/source/docs/awards/award-types.rst:25
 msgid "Inspire Award"
 msgstr "Premiile Inspire"
 
-#: ../../gm0/source/docs/awards/award-types.rst:14
-msgid ""
-"The Inspire Award is the top award for an FTC team. It is given to a team "
-"that consistently rises to the top in other awards categories. It is also "
-"(barring host team advancement), the first advancement slot on the "
-"advancement list. This means the winner is guaranteed to advance to the next"
-" level in most scenarios, unlike the winning alliance captain in some "
-"states."
-msgstr ""
-"Inspire Award este cel mai important premiu  pentru o echipă FTC. Acesta "
-"este acordat unei echipe care se situează în mod constant în fruntea altor "
-"categorii de premii. Este, de asemenea (cu excepția avansării echipei "
-"gazdă), primul loc de avansare de pe listă. Acest lucru înseamnă că echipa "
-"câștigătoare este garantată să avanseze în etapa următoare în majoritatea "
-"scenariilor, spre deosebire de căpitanul alianței câștigătoare în unele "
-"state."
-
-#: ../../gm0/source/docs/awards/award-types.rst:16
-msgid ""
-"In order to win the Inspire Award, your team should focus on every other "
-"award category, and perform well in the robot game. In the past, the Inspire"
-" Award has given much more weight to awards performance, but it seems as if "
-"the judges are now taking robot performance into consideration more."
-msgstr ""
-"Pentru a câștiga Inspire Award, echipa ta trebuie să se concentreze pe toate"
-" celelalte categorii de premii și să obțină rezultate bune în meciuri. În "
-"trecut, Inspire Award a acordat o pondere mult mai mare performanțelor "
-"obținute în cadrul altor premii, dar se pare că judecătorii iau acum în "
-"considerare mai mult performanța robotului."
-
-#: ../../gm0/source/docs/awards/award-types.rst:18
-msgid ""
-"Of all the awards, this one is arguably the most subjective, as it is about "
-"how good does a team does overall, including and how much they weigh "
-"outreach as compared to robot performance along with documentation."
-msgstr ""
-"Dintre toate premiile, acesta este, fără îndoială, cel mai subiectiv, "
-"deoarece este vorba despre cât de bine se descurcă o echipă în general, "
-"incluzând și cât de mult prețuiește contactul cu comunitatea în comparație "
-"cu performanța robotului împreună cu documentația."
-
-#: ../../gm0/source/docs/awards/award-types.rst:21
-#: ../../gm0/source/docs/awards/award-types.rst:31
-#: ../../gm0/source/docs/awards/award-types.rst:43
-#: ../../gm0/source/docs/awards/award-types.rst:55
-#: ../../gm0/source/docs/awards/award-types.rst:67
-#: ../../gm0/source/docs/awards/award-types.rst:87
-#: ../../gm0/source/docs/awards/award-types.rst:96
-msgid "Official Game Manual Description"
-msgstr "Descrierea manualului oficial al jocului"
-
-#: ../../gm0/source/docs/awards/award-types.rst:22
+#: ../../gm0/source/docs/awards/award-types.rst:66
 msgid "Think Award"
 msgstr "Premiul Think "
 
-#: ../../gm0/source/docs/awards/award-types.rst:24
-msgid ""
-"The Think Award is based entirely on the |EN| and Engineering Portfolio. In "
-"order to have a chance at winning, the |EN| should include as much math and "
-"physics as possible, document the entire journey of the robot through "
-"iterations, and other documentation of design and game strategy."
-msgstr ""
-"Premiul Think se bazează în întregime pe Portofoliul de Inginerie și pe "
-"Caietul Tehnic. Pentru a avea o șansă de câștig, Caietul Tehnic trebuie să "
-"includă cât mai multă matematică și fizică, să documenteze întregul parcurs "
-"al robotului prin versiuni și alte documente de proiectare și strategie de "
-"joc."
-
-#: ../../gm0/source/docs/awards/award-types.rst:26
-msgid ""
-"In addition, the portfolio should be well laid out and contain information "
-"on various non-technical aspects of the team, such as sustainability "
-"(recruitment of new team member and mentors), training, outreach (especially"
-" the impact of the outreach and what was learned from it), and team "
-"structure. While these categories aren't as strictly important as robot "
-"documentation, they are generally recommended for a strong engineering "
-"portfolio."
-msgstr ""
-"În plus, portofoliul ar trebui să fie bine structurat și să conțină "
-"informații despre diverse aspecte non-tehnice ale echipei, cum ar fi "
-"sustenabilitatea (recrutarea de noi membri ai echipei și mentori), formarea,"
-" activitățile de informare (în special impactul acestora și ce s-a învățat "
-"din ele) și structura echipei. Deși aceste categorii nu sunt la fel de "
-"importante ca documentația robotului, ele sunt în general recomandate pentru"
-" un portofoliu ingineresc bine structurat."
-
-#: ../../gm0/source/docs/awards/award-types.rst:31
-msgid ""
-"The Team must be able to share or provide additional detailed information "
-"that is helpful for the judges. This could include descriptions of the "
-"underlying science and mathematics of the Robot design and game strategies, "
-"the designs, redesigns, successes, and opportunities for improvement. A Team"
-" is not a candidate for this award if their portfolio does not include "
-"engineering content."
-msgstr ""
-"Echipa trebuie să fie capabilă să împărtășească sau să furnizeze informații "
-"suplimentare detaliate care să fie utile pentru juriu. Acestea ar putea "
-"include descrieri ale științei și matematicii care stau la baza proiectării "
-"robotului și a strategiilor de joc, ale proiectelor, reproiectărilor, "
-"succeselor și oportunităților de îmbunătățire. O echipă nu este candidată "
-"pentru acest premiu dacă portofoliul său nu include conținut legat de "
-"ingineria robotului."
-
-#: ../../gm0/source/docs/awards/award-types.rst:32
+#: ../../gm0/source/docs/awards/award-types.rst:110
 msgid "Connect Award"
 msgstr "Premiul Connect "
 
-#: ../../gm0/source/docs/awards/award-types.rst:34
+#: ../../gm0/source/docs/awards/award-types.rst:264
 msgid ""
-"The Connect Award is one of the two outreach awards. This award is for teams"
-" that work with their local STEM community and corporate community. "
-"Unfortunately, the line between the Connect and Motivate award can be vague,"
-" and judges may not differentiate which outreach falls under which award."
+"Present stories to the judges, not just overviews. Tell personal stories."
 msgstr ""
-"Premiul Connect Award este unul dintre cele două premii de popularizare. "
-"Acest premiu se acordă echipelor care lucrează cu comunitatea locală STEM și"
-" cu comunitatea corporatistă. Din păcate, linia de separare între premiul "
-"Connect și premiul Motivate poate fi vagă, iar juriul poate să nu facă "
-"diferența între ce activități de promovare se încadrează în fiecare premiu."
+"Prezentați judecătorilor povești, nu doar prezentări generale. Spuneți "
+"povești personale."
 
-#: ../../gm0/source/docs/awards/award-types.rst:36
-#: ../../gm0/source/docs/awards/award-types.rst:82
+#: ../../gm0/source/docs/awards/award-types.rst:267
 msgid ""
-"Look at the section about differentiating connect and motivate for more "
-"advice on this. For both outreach awards, a Team Plan is required. Refer to "
-"the section about writing a team plan for advice."
+"Follow up, follow up, follow up! If a person gives you a business card or a "
+"student expresses interest, it doesn't hurt to follow up if they don't reach"
+" out as promised. People can forget or get busy, sometimes a reminder is "
+"useful!"
 msgstr ""
-"Pentru mai multe sfaturi în acest sens, consultați secțiunea referitoare la "
-"diferențierea interacțiunii și a motivării. Pentru ambele premii de "
-"popularizare, este necesar un plan de echipă. Consultați secțiunea despre "
-"redactarea unui plan de echipă pentru sfaturi."
+"Urmăriți, urmăriți, urmăriți! Dacă o persoană vă dă o carte de vizită sau un"
+" student își exprimă interesul, nu strică să continuați dacă nu vă "
+"contactează așa cum a promis. Oamenii pot uita sau pot fi ocupați, uneori un"
+" memento este util!"
 
-#: ../../gm0/source/docs/awards/award-types.rst:38
-msgid ""
-"A portfolio is also required for this award, and should contain descriptions"
-" of the outreach as well as what the team gained from the outreach. In "
-"addition, the portfolio should also contain information on plans for "
-"recruitment of mentors as well as how the team plans to meaningfully develop"
-" their STEM connections."
-msgstr ""
-"De asemenea, pentru acest premiu va fi necesar un portofoliu, care trebuie "
-"să conțină descrieri ale activităților de informare, precum și ce a obținut "
-"echipa în urma acestora. În plus, portofoliul ar trebui să conțină și "
-"informații despre planurile de recrutare a mentorilor, precum și despre "
-"modul în care echipa intenționează să își dezvolte în mod semnificativ "
-"legăturile STEM."
-
-#: ../../gm0/source/docs/awards/award-types.rst:40
-msgid ""
-"Be prepared for judges to ask you how your outreaches were meaningful, and "
-"try to avoid doing STEM outreaches just for the sake of saying you did a "
-"STEM outreach. Successful STEM outreaches are those that are undertaken for "
-"a specific purpose and have a clear intent and goal, such as meeting with an"
-" expert on computer vision to ask for advice on a vision task for the game. "
-"If you are struggling to find STEM outreaches, local colleges and businesses"
-" are a good start."
-msgstr ""
-"Pregătiți-vă ca juriul să vă întrebe în ce fel au fost semnificative "
-"acțiunile de promovare și încercați să evitați să faceți acțiuni de "
-"promovare STEM doar de dragul de a spune că ați făcut o astfel de acțiune. "
-"Activitățile STEM de succes sunt cele care au un scop specific și au o "
-"intenție și un obiectiv clar, cum ar fi întâlnirea cu un expert în viziune "
-"computerizată pentru a cere sfaturi cu privire la o sarcină de viziune "
-"pentru joc. Dacă vă străduiți să găsiți outreach-uri STEM, facultățile și "
-"întreprinderile locale sunt un bun început."
-
-#: ../../gm0/source/docs/awards/award-types.rst:44
+#: ../../gm0/source/docs/awards/award-types.rst:270
 msgid "Innovate Award"
 msgstr "Premiul Innovate "
 
-#: ../../gm0/source/docs/awards/award-types.rst:50
+#: ../../gm0/source/docs/awards/award-types.rst:285
 msgid ""
 "While it may be tempting to sell your entire robot as innovative, it is "
 "often much more effective to focus on one or two aspects of your robot "
@@ -219,32 +76,11 @@ msgstr ""
 "inovatoare parte a robotului dvs. și aceasta este ocazia dvs. de a vă axa pe"
 " unul sau două mecanisme pe care le puteți prezenta."
 
-#: ../../gm0/source/docs/awards/award-types.rst:52
-msgid ""
-"The engineering portfolio should contain information on your robot's "
-"mechanisms, and your presentation should also mention the innovative parts "
-"of your robot. However, refrain from over describing the mechanisms you "
-"intend to sell as innovative, as you want to leave room for the judges to "
-"ask questions, which gives you more opportunities and time to sell your "
-"mechanisms. In addition, practice what aspects of the mechanisms you want to"
-" sell as innovative, and make sure you are able to thoroughly describe why "
-"they are innovative when asked."
-msgstr ""
-"Portofoliul de inginerie trebuie să conțină informații despre mecanismele "
-"robotului, iar prezentarea trebuie să menționeze, de asemenea, părțile "
-"inovatoare ale robotului dumneavoastră. Cu toate acestea, abțineți-vă să "
-"descrieți prea mult mecanismele pe care intenționați să le prezentați ca "
-"fiind inovatoare, deoarece doriți să lăsați loc juriului să pună întrebări, "
-"ceea ce vă oferă mai multe oportunități și timp pentru a vă prezenta "
-"mecanismele. În plus, analizați ce aspecte ale mecanismelor doriți să le "
-"prezentați ca fiind inovatoare și asigurați-vă că sunteți în măsură să "
-"descrieți amănunțit de ce sunt inovatoare atunci când sunteți întrebați."
-
-#: ../../gm0/source/docs/awards/award-types.rst:56
+#: ../../gm0/source/docs/awards/award-types.rst:359
 msgid "Control Award"
 msgstr "Premiul Control "
 
-#: ../../gm0/source/docs/awards/award-types.rst:64
+#: ../../gm0/source/docs/awards/award-types.rst:374
 msgid ""
 "In addition, control award software is more then just your autonomous mode "
 "programs. Driver assistance, feedback, and automation all are vital to the "
@@ -254,80 +90,11 @@ msgstr ""
 "programele de autonomie. Asistența driver-ului, feedback-ul și "
 "automatizarea, toate acestea sunt vitale pentru premiul de control."
 
-#: ../../gm0/source/docs/awards/award-types.rst:69
-msgid "Some examples of control award sheets are:"
-msgstr "Câteva exemple de fișe de atribuire a Control Award-ului sunt:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:71
-msgid ""
-"`11115 Gluten Free Rover Ruckus "
-"<https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_"
-msgstr ""
-"`11115 Gluten Free Rover Ruckus "
-"<https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:72
-msgid ""
-"`11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-"
-"aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_"
-msgstr ""
-"`11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-"
-"aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:73
-msgid ""
-"`1002 Circuit Runners Green Skystone "
-"<https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_"
-msgstr ""
-"`1002 Circuit Runners Green Skystone "
-"<https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:74
-msgid ""
-"`9866 VIRUS Skystone "
-"<https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_"
-msgstr ""
-"`9866 VIRUS Skystone "
-"<https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:76
-msgid ""
-"`11528 Bots of Prey Skystone "
-"<https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_"
-msgstr ""
-"`11528 Bots of Prey Skystone "
-"<https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:77
-msgid ""
-"`9794 Wizards.exe Skystone "
-"<https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_"
-msgstr ""
-"`9794 Wizards.exe Skystone "
-"<https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:78
-msgid "Motivate Award"
-msgstr "Premiul Motivate"
-
-#: ../../gm0/source/docs/awards/award-types.rst:84
-msgid ""
-"The key aspects to include in your portfolio and presentation for motivate "
-"is showing how all team members contribute to the success of the team, how "
-"your team is recruiting members from non-stem areas, as well as plans for "
-"fundraising, funding, sustainability, and recruitment."
-msgstr ""
-"Aspectele cheie pe care trebuie să le includeți în portofoliu și în "
-"prezentarea pentru Motivate este să arătați modul în care toți membrii "
-"echipei contribuie la succesul echipei, modul în care echipa dumneavoastră "
-"recrutează membri din alte domenii decât cel de bază, precum și planurile de"
-" strângere de fonduri, finanțare, durabilitate și recrutare."
-
-#: ../../gm0/source/docs/awards/award-types.rst:88
+#: ../../gm0/source/docs/awards/award-types.rst:396
 msgid "Design Award"
 msgstr "Premiul Design "
 
-#: ../../gm0/source/docs/awards/award-types.rst:90
+#: ../../gm0/source/docs/awards/award-types.rst:407
 msgid ""
 "The Design Award is one of the robot awards that primarily focuses on the "
 "hardware aspect of the robot. It is for robots that are both functional, "
@@ -338,7 +105,7 @@ msgstr ""
 "roboților care sunt atât funcționali, cât și estetici și care utilizează "
 "bune practici de proiectare, inclusiv CAD."
 
-#: ../../gm0/source/docs/awards/award-types.rst:94
+#: ../../gm0/source/docs/awards/award-types.rst:411
 msgid ""
 "While functionality is what most teams focus on, the Design Award also takes"
 " into account aesthetics, and most judges will generally be turned off by an"
@@ -350,89 +117,11 @@ msgstr ""
 " fi, în general, descurajați de un robot urât pentru acest premiu (fără "
 "carton pe robot!), așa că asigurați-vă că robotul dvs. arată prezentabil."
 
-#: ../../gm0/source/docs/awards/award-types.rst:100
-msgid "Connect vs Motivate"
-msgstr "Premiile Connect vs Motivate"
+#: ../../gm0/source/docs/awards/award-types.rst:429
+msgid "Judges Choice Award"
+msgstr "Premiul Judges Choice "
 
-#: ../../gm0/source/docs/awards/award-types.rst:104
-msgid "What Falls Under Connect?"
-msgstr "Ce se încadrează la Connect?"
-
-#: ../../gm0/source/docs/awards/award-types.rst:106
-msgid "Developing relationships with companies"
-msgstr "Dezvoltarea relațiilor cu companiile"
-
-#: ../../gm0/source/docs/awards/award-types.rst:107
-msgid "Getting external mentors (not parents)"
-msgstr "Obținerea de mentori externi (nu părinți)"
-
-#: ../../gm0/source/docs/awards/award-types.rst:108
-msgid ""
-"Fundraising from companies (other methods may fall under motivate on a case "
-"by case basis)"
-msgstr ""
-"Strângerea de fonduri de la companii (alte metode pot fi încadrate la "
-"Motivate de la caz la caz)"
-
-#: ../../gm0/source/docs/awards/award-types.rst:110
-msgid "What Falls Under Motivate?"
-msgstr "Ce se încadrează la Motivare?"
-
-#: ../../gm0/source/docs/awards/award-types.rst:113
-msgid "Community Demos"
-msgstr "Demo-uri comunitare"
-
-#: ../../gm0/source/docs/awards/award-types.rst:115
-msgid "Tips for Both"
-msgstr "Sfaturi pentru ambele"
-
-#: ../../gm0/source/docs/awards/award-types.rst:118
-msgid ""
-"Make sure your numbers are somewhat accurate! If you are at a large event, "
-"you can get a rough headcount from the organizers, but its generally better "
-"to know roughly how many people actually stopped and looked at your team."
-msgstr ""
-"Asigurați-vă că cifrele dvs. sunt cât mai exacte! Dacă participați la un "
-"eveniment de amploare, puteți obține o estimare aproximativă de la "
-"organizatori, dar, în general, este mai bine să știți cu aproximație câte "
-"persoane s-au oprit și s-au uitat la echipa dumneavoastră."
-
-#: ../../gm0/source/docs/awards/award-types.rst:119
-msgid ""
-"Present stories to the judges, not just overviews. Tell personal stories."
-msgstr ""
-"Prezentați judecătorilor povești, nu doar prezentări generale. Spuneți "
-"povești personale."
-
-#: ../../gm0/source/docs/awards/award-types.rst:120
-msgid ""
-"Log all your outreach events, with who went and how many hours each person "
-"did in its own place separate from the engineering notebook. This makes it "
-"easier to compile total numbers and shows the judges every outreach "
-"activity/event in one place."
-msgstr ""
-"Înregistrați toate evenimentele de informare, cu precizarea persoanelor care"
-" au participat și câte ore a făcut fiecare persoană, într-un loc separat de "
-"caietul tehnic. Acest lucru facilitează compilarea cifrelor totale și arată "
-"judecătorilor fiecare activitate/eveniment de informare într-un singur loc."
-
-#: ../../gm0/source/docs/awards/award-types.rst:122
-msgid ""
-"Follow up, follow up, follow up! If a person gives you a business card or a "
-"student expresses interest, it doesn't hurt to follow up if they don't reach"
-" out as promised. People can forget or get busy, sometimes a reminder is "
-"useful!"
-msgstr ""
-"Urmăriți, urmăriți, urmăriți! Dacă o persoană vă dă o carte de vizită sau un"
-" student își exprimă interesul, nu strică să continuați dacă nu vă "
-"contactează așa cum a promis. Oamenii pot uita sau pot fi ocupați, uneori un"
-" memento este util!"
-
-#: ../../gm0/source/docs/awards/award-types.rst:125
-msgid "Optional Awards"
-msgstr "Premii opționale"
-
-#: ../../gm0/source/docs/awards/award-types.rst:127
+#: ../../gm0/source/docs/awards/award-types.rst:436
 msgid ""
 "There are some awards that events are not required to present; these do not "
 "advance teams."
@@ -440,58 +129,6 @@ msgstr ""
 "Există unele premii pe care evenimentele nu sunt obligate să le prezinte; "
 "aceste premii nu fac ca echipele să avanseze."
 
-#: ../../gm0/source/docs/awards/award-types.rst:130
-msgid "Judges Choice Award"
-msgstr "Premiul Judges Choice "
-
-#: ../../gm0/source/docs/awards/award-types.rst:133
-msgid "Promote Award and Compass Award"
-msgstr "Premiul Promote și Premiul Compass"
-
-#: ../../gm0/source/docs/awards/award-types.rst:137
-msgid "Some good Promote award submissions include:"
-msgstr "Câteva propuneri bune pentru premiile Promote includ:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:139
-msgid "`Team 3595 in 2014 <https://www.youtube.com/watch?v=yYFxuJwtCu0>`_"
-msgstr "`Echipa 3595 în 2014 <https://www.youtube.com/watch?v=yYFxuJwtCu0>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:140
-msgid "`Team 8808 in 2017 <https://www.youtube.com/watch?v=7yjGMYbtKU0>`_"
-msgstr "`Echipa 8808 în 2017 <https://www.youtube.com/watch?v=7yjGMYbtKU0>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:141
-msgid "`Team 5795 in 2017 <https://www.youtube.com/watch?v=8gn-URpmXVA>`_"
-msgstr "`Echipa 5795 în 2017 <https://www.youtube.com/watch?v=8gn-URpmXVA>``_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:142
-msgid "`Team 4924 in 2016 <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
-msgstr "`Echipa 4924 în 2016 <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:144
+#: ../../gm0/source/docs/awards/award-types.rst:499
 msgid "Some good Compass award submissions include:"
 msgstr "Câteva nominalizări bune pentru premiul Compass includ:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:146
-msgid "`Team 4855 in 2017 <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
-msgstr "`Echipa 4855 în 2017 <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:147
-msgid "`Team 3595 in 2017 <https://www.youtube.com/watch?v=EKKaMAcAfXE>`_"
-msgstr "`Echipa 3595 în 2017 <https://www.youtube.com/watch?v=EKKaMAcAfXE>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:148
-msgid "`Team 9879 in 2017 <https://www.youtube.com/watch?v=z6M6UYMLujo>`_"
-msgstr "`Echipa 9879 în 2017 <https://www.youtube.com/watch?v=z6M6UYMLujo>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:149
-msgid "`Team 6510 in 2015 <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
-msgstr "`Echipa 6510 în 2015 <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:151
-msgid ""
-"For more information on these awards, take a look at the specific section "
-"for each award in |gm1|."
-msgstr ""
-"Pentru mai multe informații despre aceste premii, consultați secțiunea "
-"specifică pentru fiecare premiu din |gm1|."

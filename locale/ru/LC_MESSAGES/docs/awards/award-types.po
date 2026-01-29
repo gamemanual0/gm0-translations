@@ -4,18 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Margarita Kuzma, 2025
 # Darya Tepysheva, 2025
-# Стефания Жукова, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-27 16:33+0000\n"
+"POT-Creation-Date: 2026-01-29 16:52+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: Стефания Жукова, 2025\n"
+"Last-Translator: Darya Tepysheva, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,312 +21,42 @@ msgstr ""
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: ../../gm0/source/docs/awards/award-types.rst:4
-msgid "Award Categories"
-msgstr "Категории Наград"
-
 #: ../../gm0/source/docs/awards/award-types.rst:7
 msgid "Advancing Awards"
 msgstr "Продвигающие Награды"
 
-#: ../../gm0/source/docs/awards/award-types.rst:9
-msgid ""
-"There are 7 awards for FTC\\ |reg| teams (excluding optional awards). For "
-"more information on the exact requirements for these awards, see |gm1|. In "
-"order of advancement priority, these are:"
-msgstr ""
-"Существует 7 наград для команд FTC\\ |reg| (за исключением дополнительных "
-"наград). Для получения дополнительной информации о точных требованиях к этим"
-" наградам смотрите |gm1|. Награды в порядке от самой лучшей к менее "
-"престижным:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:12
+#: ../../gm0/source/docs/awards/award-types.rst:25
 msgid "Inspire Award"
 msgstr "Награда Абсолютный Победитель"
 
-#: ../../gm0/source/docs/awards/award-types.rst:14
-msgid ""
-"The Inspire Award is the top award for an FTC team. It is given to a team "
-"that consistently rises to the top in other awards categories. It is also "
-"(barring host team advancement), the first advancement slot on the "
-"advancement list. This means the winner is guaranteed to advance to the next"
-" level in most scenarios, unlike the winning alliance captain in some "
-"states."
-msgstr ""
-"Награда Абсолютный Победитель - это высшая награда для команды FTC.  "
-"Команда, получившая ее, является главным претендентом на многие другие "
-"награды и является благородным соперником. Кроме того, (за исключением "
-"продвижения принимающей команды), она занимает первое место в списке "
-"достижений. Это означает, что победитель гарантированно переходит на "
-"следующий уровень в большинстве сценариев, в отличие от капитана победившего"
-" альянса в некоторых регионах."
-
-#: ../../gm0/source/docs/awards/award-types.rst:18
-msgid ""
-"Of all the awards, this one is arguably the most subjective, as it is about "
-"how good does a team does overall, including and how much they weigh "
-"outreach as compared to robot performance along with documentation."
-msgstr ""
-"Из всех наград эта, пожалуй, самая субъективная, так как она оценивает общие"
-" достижения команды, включая то, насколько хорошо она сочетает агитационно-"
-"информационную деятельность с выступлением робота на поле, а также "
-"документацию."
-
-#: ../../gm0/source/docs/awards/award-types.rst:21
-#: ../../gm0/source/docs/awards/award-types.rst:31
-#: ../../gm0/source/docs/awards/award-types.rst:43
-#: ../../gm0/source/docs/awards/award-types.rst:55
-#: ../../gm0/source/docs/awards/award-types.rst:67
-#: ../../gm0/source/docs/awards/award-types.rst:87
-#: ../../gm0/source/docs/awards/award-types.rst:96
-msgid "Official Game Manual Description"
-msgstr "Официальное Описание Правил Игры"
-
-#: ../../gm0/source/docs/awards/award-types.rst:22
+#: ../../gm0/source/docs/awards/award-types.rst:66
 msgid "Think Award"
 msgstr "Награда Инженерный Подход"
 
-#: ../../gm0/source/docs/awards/award-types.rst:24
-msgid ""
-"The Think Award is based entirely on the |EN| and Engineering Portfolio. In "
-"order to have a chance at winning, the |EN| should include as much math and "
-"physics as possible, document the entire journey of the robot through "
-"iterations, and other documentation of design and game strategy."
-msgstr ""
-"Награда Инженерный Подход присуждается исключительно на основе Инженерной "
-"Книги |EN| и Инженерного Портфолио. Чтобы иметь шанс на победу, |EN| должен "
-"включать как можно больше математики и физики, документировать весь процесс "
-"разработки робота через итерации, а также содержать другую информацию по "
-"дизайну и игровой стратегии."
-
-#: ../../gm0/source/docs/awards/award-types.rst:26
-msgid ""
-"In addition, the portfolio should be well laid out and contain information "
-"on various non-technical aspects of the team, such as sustainability "
-"(recruitment of new team member and mentors), training, outreach (especially"
-" the impact of the outreach and what was learned from it), and team "
-"structure. While these categories aren't as strictly important as robot "
-"documentation, they are generally recommended for a strong engineering "
-"portfolio."
-msgstr ""
-"Кроме того, портфолио должно быть хорошо организовано и содержать информацию"
-" о различных нетехнических аспектах команды, таких как устойчивое развитие "
-"(привлечение новых членов команды и наставников), обучение, взаимодействие с"
-" сообществом (особенно влияние этого взаимодействия и извлеченные уроки) и "
-"структура команды. Хотя эти категории не так строго важны, как документация "
-"по роботу, они обычно рекомендуются для сильного инженерного портфолио."
-
-#: ../../gm0/source/docs/awards/award-types.rst:32
+#: ../../gm0/source/docs/awards/award-types.rst:110
 msgid "Connect Award"
 msgstr "Награда Установление Научных Связей"
 
-#: ../../gm0/source/docs/awards/award-types.rst:34
-msgid ""
-"The Connect Award is one of the two outreach awards. This award is for teams"
-" that work with their local STEM community and corporate community. "
-"Unfortunately, the line between the Connect and Motivate award can be vague,"
-" and judges may not differentiate which outreach falls under which award."
-msgstr ""
-"Награда Установление Научных Связей является одной из двух наград за работу "
-"с сообществом в FIRST Tech Challenge. Она присуждается командам, которые "
-"активно взаимодействуют с научно-техническим сообществом и коммерческими "
-"организациями в своем регионе. Следует отметить, что различие между "
-"наградами Установление Научных Связей и Развитие Сообщества может быть "
-"неочевидным. Это иногда приводит к сложностям при оценке, когда экспертам "
-"требуется определить, к какой из этих двух номинаций следует отнести "
-"конкретную социальную инициативу команды."
-
-#: ../../gm0/source/docs/awards/award-types.rst:36
-#: ../../gm0/source/docs/awards/award-types.rst:82
-msgid ""
-"Look at the section about differentiating connect and motivate for more "
-"advice on this. For both outreach awards, a Team Plan is required. Refer to "
-"the section about writing a team plan for advice."
-msgstr ""
-"Для получения дополнительных рекомендаций по разграничению критериев наград "
-"Установление Научных Связей и Развитие Сообщества обратитесь к "
-"соответствующему разделу руководства. Для участия в обеих номинациях за "
-"работу с сообществом команда обязана предоставить План Работы Команды. "
-"Требования к его составлению подробно изложены в разделе, посвященном "
-"разработке таких планов."
-
-#: ../../gm0/source/docs/awards/award-types.rst:38
-msgid ""
-"A portfolio is also required for this award, and should contain descriptions"
-" of the outreach as well as what the team gained from the outreach. In "
-"addition, the portfolio should also contain information on plans for "
-"recruitment of mentors as well as how the team plans to meaningfully develop"
-" their STEM connections."
-msgstr ""
-"Для этой награды также требуется портфолио, которое должно содержать "
-"описание работы с сообществом, а также то, что команда получила от этой "
-"работы. Кроме того, в портфолио должна быть информация о планах по "
-"привлечению наставников, а также о том, как команда планирует значимо "
-"развивать свои STEM-связи."
-
-#: ../../gm0/source/docs/awards/award-types.rst:40
-msgid ""
-"Be prepared for judges to ask you how your outreaches were meaningful, and "
-"try to avoid doing STEM outreaches just for the sake of saying you did a "
-"STEM outreach. Successful STEM outreaches are those that are undertaken for "
-"a specific purpose and have a clear intent and goal, such as meeting with an"
-" expert on computer vision to ask for advice on a vision task for the game. "
-"If you are struggling to find STEM outreaches, local colleges and businesses"
-" are a good start."
-msgstr ""
-"Будьте готовы к тому, что эксперты спросят, в чем заключалась значимость "
-"вашей работы с сообществом. Старайтесь избегать мероприятий в STEM-сфере "
-"только ради того, чтобы отметить их наличие в отчетности. Успешными "
-"считаются те STEM-инициативы, которые имеют конкретную цель и четкую задачу "
-"— например, консультация со специалистом по компьютерному зрению для "
-"получения рекомендаций по решению игровой задачи. Если у вас возникают "
-"трудности с поиском STEM-активностей, обратите внимание на местные вузы и "
-"компании — это хорошая отправная точка."
-
-#: ../../gm0/source/docs/awards/award-types.rst:44
+#: ../../gm0/source/docs/awards/award-types.rst:270
 msgid "Innovate Award"
 msgstr "Награда Инновационное Решение"
 
-#: ../../gm0/source/docs/awards/award-types.rst:56
+#: ../../gm0/source/docs/awards/award-types.rst:359
 msgid "Control Award"
 msgstr "Награда Система Управления"
 
-#: ../../gm0/source/docs/awards/award-types.rst:60
-msgid ""
-"Don't be tempted to overlook the control award even though it doesn't "
-"advance at most competitions. The control award counts for the inspire "
-"award, and strong performance in control counts towards inspire ranking."
-msgstr ""
-"Не стоит недооценивать Награду Система Управления, даже если эта награда не "
-"даёт преимуществ в большинстве соревнований. Награда Система Управления "
-"учитывается при присуждении Награды Абсолютный Победитель, а высокие "
-"показатели в области управления роботом влияют на позиции в рейтинге "
-"Абсолютного Победителя."
-
-#: ../../gm0/source/docs/awards/award-types.rst:71
-msgid ""
-"`11115 Gluten Free Rover Ruckus "
-"<https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_"
-msgstr ""
-"`11115 Gluten Free Rover Ruckus "
-"<https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:72
-msgid ""
-"`11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-"
-"aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_"
-msgstr ""
-"`11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-"
-"aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:73
-msgid ""
-"`1002 Circuit Runners Green Skystone "
-"<https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_"
-msgstr ""
-"`1002 Circuit Runners Green Skystone "
-"<https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:74
-msgid ""
-"`9866 VIRUS Skystone "
-"<https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_"
-msgstr ""
-"`9866 VIRUS Skystone "
-"<https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:76
-msgid ""
-"`11528 Bots of Prey Skystone "
-"<https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_"
-msgstr ""
-"`11528 Bots of Prey Skystone "
-"<https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:77
-msgid ""
-"`9794 Wizards.exe Skystone "
-"<https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_"
-msgstr ""
-"`9794 Wizards.exe Skystone "
-"<https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:78
-msgid "Motivate Award"
-msgstr "Награда Развитие Сообщества"
-
-#: ../../gm0/source/docs/awards/award-types.rst:88
+#: ../../gm0/source/docs/awards/award-types.rst:396
 msgid "Design Award"
 msgstr "Награда Дизайн"
 
-#: ../../gm0/source/docs/awards/award-types.rst:100
-msgid "Connect vs Motivate"
-msgstr "Награда Установление Научных Связей vs Награда Развитие Сообщества"
+#: ../../gm0/source/docs/awards/award-types.rst:429
+msgid "Judges Choice Award"
+msgstr "Награда Выбор Экспертов"
 
-#: ../../gm0/source/docs/awards/award-types.rst:106
-msgid "Developing relationships with companies"
-msgstr "Развитие отношений с компаниями"
-
-#: ../../gm0/source/docs/awards/award-types.rst:125
-msgid "Optional Awards"
-msgstr "Необязательные Награды"
-
-#: ../../gm0/source/docs/awards/award-types.rst:127
+#: ../../gm0/source/docs/awards/award-types.rst:436
 msgid ""
 "There are some awards that events are not required to present; these do not "
 "advance teams."
 msgstr ""
 "Есть некоторые награды, которые не обязательно вручать на соревнованиях; они"
 " не продвигают команды вперед."
-
-#: ../../gm0/source/docs/awards/award-types.rst:130
-msgid "Judges Choice Award"
-msgstr "Награда Выбор Экспертов"
-
-#: ../../gm0/source/docs/awards/award-types.rst:139
-msgid "`Team 3595 in 2014 <https://www.youtube.com/watch?v=yYFxuJwtCu0>`_"
-msgstr ""
-"`Команда 3595 в 2014 году <https://www.youtube.com/watch?v=yYFxuJwtCu0>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:140
-msgid "`Team 8808 in 2017 <https://www.youtube.com/watch?v=7yjGMYbtKU0>`_"
-msgstr ""
-"`Команда 8808 в 2017 году <https://www.youtube.com/watch?v=7yjGMYbtKU0>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:141
-msgid "`Team 5795 in 2017 <https://www.youtube.com/watch?v=8gn-URpmXVA>`_"
-msgstr ""
-"`Команда 5795 в 2017 году <https://www.youtube.com/watch?v=8gn-URpmXVA>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:142
-msgid "`Team 4924 in 2016 <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
-msgstr ""
-"`Команда 4924 в 2016 году <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:146
-msgid "`Team 4855 in 2017 <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
-msgstr ""
-"`Команда 4855 в 2017 году <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:147
-msgid "`Team 3595 in 2017 <https://www.youtube.com/watch?v=EKKaMAcAfXE>`_"
-msgstr ""
-"`Команда 3595 в 2017 году <https://www.youtube.com/watch?v=EKKaMAcAfXE>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:148
-msgid "`Team 9879 in 2017 <https://www.youtube.com/watch?v=z6M6UYMLujo>`_"
-msgstr ""
-"`Команда 9879 в 2017 году <https://www.youtube.com/watch?v=z6M6UYMLujo>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:149
-msgid "`Team 6510 in 2015 <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
-msgstr ""
-"'Команда 6510 в 2015 году <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:151
-msgid ""
-"For more information on these awards, take a look at the specific section "
-"for each award in |gm1|."
-msgstr ""
-"Для получения дополнительной информации об этих наградах ознакомьтесь с "
-"конкретным разделом, посвященным каждой награде, в |gm1|."

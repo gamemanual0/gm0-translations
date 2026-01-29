@@ -6,16 +6,15 @@
 # Translators:
 # Crackermi, 2023
 # Nicolás Flores Verdad Quintana, 2023
-# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 04:52+0000\n"
+"POT-Creation-Date: 2026-01-29 16:52+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: Yaretzi Lugo, 2026\n"
+"Last-Translator: Nicolás Flores Verdad Quintana, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,259 +22,53 @@ msgstr ""
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../gm0/source/docs/awards/award-types.rst:4
-msgid "Award Categories"
-msgstr "Categorías de Premios"
-
 #: ../../gm0/source/docs/awards/award-types.rst:7
 msgid "Advancing Awards"
 msgstr "Premios que dan Pase"
 
-#: ../../gm0/source/docs/awards/award-types.rst:9
-msgid ""
-"There are 7 awards for FTC\\ |reg| teams (excluding optional awards). For "
-"more information on the exact requirements for these awards, see |gm1|. In "
-"order of advancement priority, these are:"
-msgstr ""
-"Hay 7 premios para los equipos de FTC (excluyendo los premios opcionales). "
-"Para obtener más información sobre los requisitos exactos de estos premios, "
-"consulta |gm1|. En orden de prioridad de avance, estos son:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:12
+#: ../../gm0/source/docs/awards/award-types.rst:25
 msgid "Inspire Award"
 msgstr "Premio Inspire"
 
-#: ../../gm0/source/docs/awards/award-types.rst:14
-msgid ""
-"The Inspire Award is the top award for an FTC team. It is given to a team "
-"that consistently rises to the top in other awards categories. It is also "
-"(barring host team advancement), the first advancement slot on the "
-"advancement list. This means the winner is guaranteed to advance to the next"
-" level in most scenarios, unlike the winning alliance captain in some "
-"states."
-msgstr ""
-"El Premio Inspire es el máximo galardón para un equipo de FTC. Se concede a "
-"un equipo que se sitúa sistemáticamente en lo más alto en otras categorías "
-"de premios. También es (salvo que el equipo anfitrión avance) el primer "
-"puesto de la lista de ascenso. Esto significa que el ganador tiene "
-"garantizado el avance al siguiente nivel en la mayoría de los casos, a "
-"diferencia del capitán de la alianza ganadora en algunos estados."
-
-#: ../../gm0/source/docs/awards/award-types.rst:16
-msgid ""
-"In order to win the Inspire Award, your team should focus on every other "
-"award category, and perform well in the robot game. In the past, the Inspire"
-" Award has given much more weight to awards performance, but it seems as if "
-"the judges are now taking robot performance into consideration more."
-msgstr ""
-"Para ganar el Premio Inspire, tu equipo debe centrarse en todas las demás "
-"categorías de premios y tener un buen rendimiento en el juego del robot. En "
-"el pasado, el Premio Inspire concedía mucha más importancia a la actuación "
-"en los premios, pero parece que ahora los jueces tienen más en cuenta el "
-"desempeño del robot."
-
-#: ../../gm0/source/docs/awards/award-types.rst:18
-msgid ""
-"Of all the awards, this one is arguably the most subjective, as it is about "
-"how good does a team does overall, including and how much they weigh "
-"outreach as compared to robot performance along with documentation."
-msgstr ""
-"De todos los premios, este es posiblemente el más subjetivo, ya que se trata"
-" de lo bien que lo hace un equipo en general, incluyendo el peso que tiene "
-"su impacto en comparación con el rendimiento del robot junto con la "
-"documentación."
-
-#: ../../gm0/source/docs/awards/award-types.rst:21
-#: ../../gm0/source/docs/awards/award-types.rst:31
-#: ../../gm0/source/docs/awards/award-types.rst:43
-#: ../../gm0/source/docs/awards/award-types.rst:55
-#: ../../gm0/source/docs/awards/award-types.rst:67
-#: ../../gm0/source/docs/awards/award-types.rst:87
-#: ../../gm0/source/docs/awards/award-types.rst:96
-msgid "Official Game Manual Description"
-msgstr "Descripción del Manual Oficial del Juego"
-
-#: ../../gm0/source/docs/awards/award-types.rst:21
-msgid ""
-"This judged award is given to the team that best embodies the 'challenge' of"
-" the *FIRST*\\ |reg| Tech Challenge program. The Team that receives this "
-"award is a strong ambassador for *FIRST* programs and a role model *FIRST* "
-"Team. This Team is a top contender for many other judged awards and is a "
-"gracious competitor. The Inspire Award winner is an inspiration to other "
-"Teams, acting with Gracious Professionalism\\ |reg| both on and off the "
-"playing field. This Team shares their experiences, enthusiasm and knowledge "
-"with other teams, sponsors, their community, and the Judges. Working as a "
-"unit, this Team will have shown success in performing the task of designing "
-"and building a Robot."
-msgstr ""
-"Este premio juzgado se otorga al equipo que mejor representa el 'desafío' "
-"del programa *FIRST* Tech Challenge. El equipo que recibe este premio es un "
-"fuerte embajador de los programas *FIRST* y un modelo a seguir para el "
-"equipo *FIRST*. Este equipo es un fuerte contendiente para muchos otros "
-"premios juzgados y es un competidor amable. El ganador del Premio Inspire es"
-" una inspiración para otros equipos, actuando con Profesionalismo Amable "
-"tanto dentro como fuera del campo de juego. Este equipo comparte sus "
-"experiencias, entusiasmo y conocimiento con otros equipos, patrocinadores, "
-"su comunidad y los jueces. Trabajando como un equipo, este equipo habrá "
-"demostrado éxito al realizar la tarea de diseñar y construir un Robot."
-
-#: ../../gm0/source/docs/awards/award-types.rst:22
+#: ../../gm0/source/docs/awards/award-types.rst:66
 msgid "Think Award"
 msgstr "Premio Think"
 
-#: ../../gm0/source/docs/awards/award-types.rst:24
-msgid ""
-"The Think Award is based entirely on the |EN| and Engineering Portfolio. In "
-"order to have a chance at winning, the |EN| should include as much math and "
-"physics as possible, document the entire journey of the robot through "
-"iterations, and other documentation of design and game strategy."
-msgstr ""
-"El premio Think se basa por completo en la |EN| y en el portafolio de "
-"ingeniería. Para tener posibilidades de ganar, el |EN| debe incluir tantas "
-"matemáticas y física como sea posible, documentar todo el recorrido del "
-"robot a través de iteraciones, y otra documentación de diseño y estrategia "
-"de juego."
-
-#: ../../gm0/source/docs/awards/award-types.rst:26
-msgid ""
-"In addition, the portfolio should be well laid out and contain information "
-"on various non-technical aspects of the team, such as sustainability "
-"(recruitment of new team member and mentors), training, outreach (especially"
-" the impact of the outreach and what was learned from it), and team "
-"structure. While these categories aren't as strictly important as robot "
-"documentation, they are generally recommended for a strong engineering "
-"portfolio."
-msgstr ""
-"Además, el portafolio debe estar bien estructurada y contener información "
-"sobre diversos aspectos no técnicos del equipo, como la sostenibilidad "
-"(reclutamiento de nuevos miembros del equipo y mentores), el entrenamiento, "
-"la divulgación (especialmente el impacto de la divulgación y lo que se "
-"aprendió de ella) y la estructura del equipo. Aunque estas categorías no son"
-" tan estrictamente importantes como la documentación sobre  el robot, en "
-"general se recomiendan para un sólido portfolio de ingeniería."
-
-#: ../../gm0/source/docs/awards/award-types.rst:29
-msgid ""
-"This judged award is given to the Team that best reflects the journey the "
-"Team took as they experienced the engineering design process during the "
-"build season. The engineering content within the portfolio is the key "
-"reference for judges to help identify the most deserving Team. The Teams "
-"engineering content must focus on the design and build stage of the Team's "
-"Robot."
-msgstr ""
-"Este premio se otorga al equipo que mejor refleje su experiencia en el "
-"proceso de diseño durante el periodo de construcción. El contenido de "
-"ingeniería del portafolio es la referencia clave para que los jueces ayuden "
-"a identificar al equipo más merecedor. El contenido de ingeniería del equipo"
-" debe centrarse en la fase de diseño y construcción del robot del equipo."
-
-#: ../../gm0/source/docs/awards/award-types.rst:31
-msgid ""
-"The Team must be able to share or provide additional detailed information "
-"that is helpful for the judges. This could include descriptions of the "
-"underlying science and mathematics of the Robot design and game strategies, "
-"the designs, redesigns, successes, and opportunities for improvement. A Team"
-" is not a candidate for this award if their portfolio does not include "
-"engineering content."
-msgstr ""
-"El equipo debe ser capaz de compartir o proporcionar información adicional "
-"detallada que sea útil para los jueces. Esto podría incluir descripciones de"
-" la ciencia y las matemáticas subyacentes en el diseño del Robot y las "
-"estrategias de juego, los diseños, los rediseños, los éxitos y las "
-"oportunidades de mejora. Un equipo no es candidato a este premio si su "
-"portafolio no incluye contenidos de ingeniería."
-
-#: ../../gm0/source/docs/awards/award-types.rst:32
+#: ../../gm0/source/docs/awards/award-types.rst:110
 msgid "Connect Award"
 msgstr "Premio Connect"
 
-#: ../../gm0/source/docs/awards/award-types.rst:34
+#: ../../gm0/source/docs/awards/award-types.rst:262
 msgid ""
-"The Connect Award is one of the two outreach awards. This award is for teams"
-" that work with their local STEM community and corporate community. "
-"Unfortunately, the line between the Connect and Motivate award can be vague,"
-" and judges may not differentiate which outreach falls under which award."
+"Present numbers, but only emphasize them if they're large with a wow factor"
 msgstr ""
-"El premio Connect es uno de los dos premios de divulgación. Este premio se "
-"concede a los equipos que trabajan con la comunidad STEM local y la "
-"comunidad empresarial. Por desgracia, la línea que separa los premios "
-"Connect y Motivate puede ser imprecisa, y los jueces pueden no diferenciar "
-"qué actividades de divulgación corresponden a cada premio."
+"Presentar cifras, pero sólo destacarlas si son grandes con un factor "
+"sorpresa"
 
-#: ../../gm0/source/docs/awards/award-types.rst:36
-#: ../../gm0/source/docs/awards/award-types.rst:82
+#: ../../gm0/source/docs/awards/award-types.rst:264
 msgid ""
-"Look at the section about differentiating connect and motivate for more "
-"advice on this. For both outreach awards, a Team Plan is required. Refer to "
-"the section about writing a team plan for advice."
+"Present stories to the judges, not just overviews. Tell personal stories."
 msgstr ""
-"Consulte la sección sobre la diferencia entre el Connect y el Motivate para "
-"obtener más consejos al respecto. Para ambos premios de divulgación se "
-"requiere un plan de equipo. Consulta la sección sobre cómo redactar un plan "
-"de equipo para obtener más consejos."
+"Presenta historias a los jueces, no sólo resúmenes. Cuenta historias "
+"personales."
 
-#: ../../gm0/source/docs/awards/award-types.rst:38
+#: ../../gm0/source/docs/awards/award-types.rst:267
 msgid ""
-"A portfolio is also required for this award, and should contain descriptions"
-" of the outreach as well as what the team gained from the outreach. In "
-"addition, the portfolio should also contain information on plans for "
-"recruitment of mentors as well as how the team plans to meaningfully develop"
-" their STEM connections."
+"Follow up, follow up, follow up! If a person gives you a business card or a "
+"student expresses interest, it doesn't hurt to follow up if they don't reach"
+" out as promised. People can forget or get busy, sometimes a reminder is "
+"useful!"
 msgstr ""
-"También se requiere un portafolio para este premio, que debe contener "
-"descripciones de las actividades de divulgación, así como lo que el equipo "
-"obtuvo de las mismas. Además, la carpeta también debe contener información "
-"sobre los planes para la contratación de mentores, así como la forma en que "
-"el equipo planea desarrollar significativamente sus conexiones STEM."
+"¡Seguimiento, seguimiento, seguimiento! Si una persona te da una tarjeta de "
+"visita o un estudiante muestra interés, no está de más hacer un seguimiento "
+"si no se ponen en contacto como prometieron. La gente puede olvidarse o "
+"estar ocupada, así que a veces es útil un recordatorio."
 
-#: ../../gm0/source/docs/awards/award-types.rst:40
-msgid ""
-"Be prepared for judges to ask you how your outreaches were meaningful, and "
-"try to avoid doing STEM outreaches just for the sake of saying you did a "
-"STEM outreach. Successful STEM outreaches are those that are undertaken for "
-"a specific purpose and have a clear intent and goal, such as meeting with an"
-" expert on computer vision to ask for advice on a vision task for the game. "
-"If you are struggling to find STEM outreaches, local colleges and businesses"
-" are a good start."
-msgstr ""
-"Prepárate para que los jueces te pregunten por el significado de tus "
-"actividades de divulgación e intenta evitar hacer actividades de divulgación"
-" STEM por el mero hecho de decir que las has hecho. Las actividades de "
-"divulgación STEM que tienen éxito son las que se llevan a cabo con un "
-"propósito específico y tienen una intención y un objetivo claros, como "
-"reunirse con un experto en visión por ordenador para pedirle consejo sobre "
-"una tarea de visión para el juego. Si te cuesta encontrar actividades de "
-"divulgación STEM, las escueles y empresas locales son un buen comienzo."
-
-#: ../../gm0/source/docs/awards/award-types.rst:43
-msgid ""
-"This judged award is given to the Team that most connects with their local "
-"science, technology, engineering, and math (STEM) community. A true *FIRST* "
-"team is more than a sum of its parts and recognizes that engaging their "
-"local STEM community plays an essential part in their success. The recipient"
-" of this award is recognized for helping the community understand *FIRST*, "
-"the *FIRST* Tech Challenge, and the Team itself. The Team that wins the "
-"Connect Award aggressively seeks and recruits engineers and explores the "
-"opportunities available in the world of engineering, science and technology."
-" This Team has a clear Team plan and has identified steps to achieve their "
-"goals."
-msgstr ""
-"Este premio juzgado se otorga al Equipo que más se conecta con su comunidad "
-"local de ciencia, tecnología, ingeniería y matemáticas (STEM). Un verdadero "
-"equipo *FIRST* es más que la suma de sus partes y reconoce que involucrar a "
-"su comunidad local de STEM juega un papel esencial en su éxito. El receptor "
-"de este premio es reconocido por ayudar a la comunidad a comprender *FIRST*,"
-" el *FIRST* Tech Challenge y el propio Equipo. El Equipo que gana el Premio "
-"Connect busca y recluta energéticamente ingenieros y explora las "
-"oportunidades disponibles en el mundo de la ingeniería, la ciencia y la "
-"tecnología. Este Equipo tiene un plan claro y ha identificado pasos para "
-"alcanzar sus objetivos."
-
-#: ../../gm0/source/docs/awards/award-types.rst:44
+#: ../../gm0/source/docs/awards/award-types.rst:270
 msgid "Innovate Award"
 msgstr "Premio Innovate"
 
-#: ../../gm0/source/docs/awards/award-types.rst:46
+#: ../../gm0/source/docs/awards/award-types.rst:281
 msgid ""
 "The Innovate award is what it sounds like - it's for teams with innovative "
 "robots or robot mechanisms."
@@ -283,7 +76,7 @@ msgstr ""
 "El premio Innovate es lo que parece: es para equipos con robots o mecanismos"
 " innovadores."
 
-#: ../../gm0/source/docs/awards/award-types.rst:48
+#: ../../gm0/source/docs/awards/award-types.rst:283
 msgid ""
 "The Innovate award is mainly for hardware, but some teams have been able to "
 "also present software as innovative. Some judges think it's great to present"
@@ -296,7 +89,7 @@ msgstr ""
 "innovación, pero otros opinan que el software solo encaja en el premio "
 "Control."
 
-#: ../../gm0/source/docs/awards/award-types.rst:50
+#: ../../gm0/source/docs/awards/award-types.rst:285
 msgid ""
 "While it may be tempting to sell your entire robot as innovative, it is "
 "often much more effective to focus on one or two aspects of your robot "
@@ -309,60 +102,11 @@ msgstr ""
 "suelen preguntar cuál es la parte más innovadora de su robot, y esta es su "
 "oportunidad para centrarse en uno o dos mecanismos que puedan vender."
 
-#: ../../gm0/source/docs/awards/award-types.rst:52
-msgid ""
-"The engineering portfolio should contain information on your robot's "
-"mechanisms, and your presentation should also mention the innovative parts "
-"of your robot. However, refrain from over describing the mechanisms you "
-"intend to sell as innovative, as you want to leave room for the judges to "
-"ask questions, which gives you more opportunities and time to sell your "
-"mechanisms. In addition, practice what aspects of the mechanisms you want to"
-" sell as innovative, and make sure you are able to thoroughly describe why "
-"they are innovative when asked."
-msgstr ""
-"El portafolio de ingeniería debe contener información sobre los mecanismos "
-"de tu robot, y tu presentación también debe mencionar las partes innovadoras"
-" de tu robot. Sin embargo, evita describir en exceso los mecanismos que se "
-"pretende vender como innovadores, ya que  se quiere dejar espacio para que "
-"los jueces hagan preguntas, lo que le dará más oportunidades y tiempo para "
-"vender sus mecanismos. Además, practica qué aspectos de los mecanismos "
-"quieres vender como innovadores, y asegúrate de ser capaz de describir a "
-"fondo por qué son innovadores cuando pregunten."
-
-#: ../../gm0/source/docs/awards/award-types.rst:55
-msgid ""
-"The Innovate Award celebrates a Team that thinks imaginatively and has the "
-"ingenuity, creativity, and inventiveness to make their designs come to life."
-" This judged award is given to the Team that has the most innovative and "
-"creative Robot design solution to any specific components in the *FIRST* "
-"Tech Challenge game. Elements of this award include elegant design, "
-"robustness, and 'out of the box' thinking related to design. This award may "
-"address the design of the whole Robot or of a sub-assembly attached to the "
-"Robot. The creative component must work consistently, but a Robot does not "
-"have to work all the time during Matches to be considered for this award. "
-"The Team's engineering portfolio must include a summary of the design of the"
-" component or components and the Team's Robot to be eligible for this award."
-" Entries must describe how the Team arrived at their solution."
-msgstr ""
-"El Premio Innovate celebra a un Equipo que piensa de manera imaginativa y "
-"tiene el ingenio, creatividad e innovación para dar vida a sus diseños. Este"
-" premio juzgado se otorga al Equipo que tiene la solución de diseño de Robot"
-" más innovadora y creativa para cualquier componente específico en el juego "
-"*FIRST* Tech Challenge. Los elementos de este premio incluyen un diseño "
-"elegante, robustez y pensamiento \"fuera de lo común\" relacionado con el "
-"diseño. Este premio puede abordar el diseño del Robot completo o de un "
-"subconjunto adjunto al Robot. El componente creativo debe funcionar de "
-"manera consistente, pero un Robot no tiene que funcionar todo el tiempo "
-"durante los Partidos para ser considerado para este premio. El portafolio de"
-" ingeniería del Equipo debe incluir un resumen del diseño del componente o "
-"componentes y del Robot del Equipo para ser elegible para este premio. Los "
-"segmentos deben describir cómo el Equipo llegó a su solución."
-
-#: ../../gm0/source/docs/awards/award-types.rst:56
+#: ../../gm0/source/docs/awards/award-types.rst:359
 msgid "Control Award"
 msgstr "Premio Control"
 
-#: ../../gm0/source/docs/awards/award-types.rst:58
+#: ../../gm0/source/docs/awards/award-types.rst:370
 msgid ""
 "The Control award is meant to recognize a team that has a good software "
 "solution to make their robot \"intelligent\". It's known as the \"software "
@@ -374,50 +118,7 @@ msgstr ""
 "como el \"premio del software\" y es para el equipo con la mejor o más "
 "innovadora solución de software y sensores para el juego."
 
-#: ../../gm0/source/docs/awards/award-types.rst:60
-msgid ""
-"Don't be tempted to overlook the control award even though it doesn't "
-"advance at most competitions. The control award counts for the inspire "
-"award, and strong performance in control counts towards inspire ranking."
-msgstr ""
-"No caigas en la tentación de pasar por alto el premio de Control aunque no "
-"avance en la mayoría de las competencias. El premio de Control cuenta para "
-"el premio Inspire, y una buena actuación en control cuenta para la "
-"clasificación Inspire."
-
-#: ../../gm0/source/docs/awards/award-types.rst:62
-msgid ""
-"This award requires a separate submission sheet which is a condensed summary"
-" of a team's software. Check your region's rules, some require `the "
-"traditional (in person) "
-"<https://web.archive.org/web/20240417142400/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
-"award-submission-form-traditional.pdf>`_ or `remote "
-"<https://web.archive.org/web/20240417142511/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
-"award-submission-form-remote.pdf>`_ form, but some accept custom forms. "
-"Check with your affiliate partner or judges if you are unsure. **Do not "
-"directly put code into your portfolio, control award sheet or notebook, the "
-"judges will not care**. Instead, focus on explaining key algorithms that you"
-" use, and explain the software in an easy to understand way. Remember, your "
-"control award judges may not be software engineers or programmers, so make "
-"sure you can explain everything to someone without a software background."
-msgstr ""
-"Este premio requiere una hoja de presentación separada que es un resumen "
-"condensado del software de un equipo. Consulta las normas de tu región, "
-"algunas exigen el formulario `tradicional (en persona) "
-"<https://web.archive.org/web/20240417142400/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
-"award-submission-form-traditional.pdf>`_ o `a distancia "
-"<https://web.archive.org/web/20240417142511/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-"
-"award-submission-form-remote.pdf>`_, pero otras aceptan formularios "
-"personalizados. Consulta con tu socio afiliado o con los jueces si no estás "
-"seguro. **No pongas directamente código en tu portafolio, control award o "
-"cuaderno, a los jueces no les importará**. En su lugar, céntrate en explicar"
-" los algoritmos clave que utilizas, y explica el software de una manera "
-"fácil de entender. Recuerda que es posible que los jueces del premio de "
-"control no sean ingenieros de software o programadores, así que asegúrate de"
-" que puedes explicárselo todo a alguien que no tenga conocimientos de "
-"software."
-
-#: ../../gm0/source/docs/awards/award-types.rst:64
+#: ../../gm0/source/docs/awards/award-types.rst:374
 msgid ""
 "In addition, control award software is more then just your autonomous mode "
 "programs. Driver assistance, feedback, and automation all are vital to the "
@@ -427,143 +128,11 @@ msgstr ""
 "autónomo. La asistencia al conductor, la retroalimentación y la "
 "automatización son vitales para el premio de Control."
 
-#: ../../gm0/source/docs/awards/award-types.rst:67
-msgid ""
-"The Control Award celebrates a Team that uses sensors and software to "
-"increase the Robot's functionality in the field. This award is given to the "
-"Team that demonstrates innovative thinking to solve game challenges such as "
-"autonomous operation, improving mechanical systems with intelligent control,"
-" or using sensors to achieve better results. The control component should "
-"work consistently in the field. The Team's engineering portfolio must "
-"contain a summary of the software, sensors, and mechanical control, but "
-"would likely not include copies of the code itself."
-msgstr ""
-"El Premio al Control celebra al Equipo que utiliza sensores y software para "
-"aumentar la funcionalidad del robot sobre la cancha. Este premio es "
-"concedido al equipo que demuestre un pensamiento innovador para resolver los"
-" retos del juego, como el funcionamiento del autónomo, la mejora de los "
-"sistemas mecánicos con controles inteligente o el uso de sensores para "
-"lograr mejores resultados. El componente de control debe funcionar de forma "
-"consistente sobre el terreno. El portafolio de ingeniería del equipo debe "
-"contener un resumen del software, los sensores y el control mecánico, pero "
-"preferentemente no debe incluir copias del código en sí."
-
-#: ../../gm0/source/docs/awards/award-types.rst:69
-msgid "Some examples of control award sheets are:"
-msgstr "Algunos ejemplos de hojas del premio de Control son:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:71
-msgid ""
-"`11115 Gluten Free Rover Ruckus "
-"<https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_"
-msgstr ""
-"`11115 Gluten Free Rover Ruckus "
-"<https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:72
-msgid ""
-"`11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-"
-"aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_"
-msgstr ""
-"`11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-"
-"aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:73
-msgid ""
-"`1002 Circuit Runners Green Skystone "
-"<https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_"
-msgstr ""
-"`1002 Circuit Runners Green Skystone "
-"<https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:74
-msgid ""
-"`9866 VIRUS Skystone "
-"<https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_"
-msgstr ""
-"`9866 VIRUS Skystone "
-"<https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:75
-msgid ""
-"`5143 Xcentrics Skystone "
-"<https://web.archive.org/web/20220619063643/https://docs.google.com/document/d/1HuuHvmBrM-"
-"qRmuz3W7KvYm7uiQcRyLXmuo-KRQFgw4E/edit>`_"
-msgstr ""
-"`5143 Xcentrics Skystone "
-"<https://web.archive.org/web/20220619063643/https://docs.google.com/document/d/1HuuHvmBrM-"
-"qRmuz3W7KvYm7uiQcRyLXmuo-KRQFgw4E/edit>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:76
-msgid ""
-"`11528 Bots of Prey Skystone "
-"<https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_"
-msgstr ""
-"`11528 Bots of Prey Skystone "
-"<https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:77
-msgid ""
-"`9794 Wizards.exe Skystone "
-"<https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_"
-msgstr ""
-"`9794 Wizards.exe Skystone "
-"<https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:78
-msgid "Motivate Award"
-msgstr "Premio Motivate"
-
-#: ../../gm0/source/docs/awards/award-types.rst:80
-msgid ""
-"The Motivate Award is one of the two outreach awards. It's for teams that "
-"work with their local and *FIRST* community. Unfortunately, the line between"
-" the :term:`connect award <Connect Award>` and motivate award can be vague, "
-"and most judges don't know how to differentiate which outreach falls under "
-"which award."
-msgstr ""
-"El Premio Motivate es uno de los dos premios de divulgación. Es para equipos"
-" que trabajan con su comunidad local y *FIRST*. Desafortunadamente, la línea"
-" entre el :termino:`premio Connect<Connect Award>` y el premio Motivate "
-"puede ser vaga, y la mayoría de los jueces no saben cómo diferenciar qué "
-"divulgación corresponde a cada premio."
-
-#: ../../gm0/source/docs/awards/award-types.rst:84
-msgid ""
-"The key aspects to include in your portfolio and presentation for motivate "
-"is showing how all team members contribute to the success of the team, how "
-"your team is recruiting members from non-stem areas, as well as plans for "
-"fundraising, funding, sustainability, and recruitment."
-msgstr ""
-"Los aspectos clave que debes incluir en tu portafolio y presentación para el"
-" Motivate es mostrar cómo todos los miembros del equipo contribuyen al éxito"
-" del mismo, cómo tu equipo está reclutando miembros de áreas no STEM, así "
-"como planes de recaudación de fondos, financiación, sostenibilidad y "
-"reclutamiento."
-
-#: ../../gm0/source/docs/awards/award-types.rst:87
-msgid ""
-"This Team embraces the culture of *FIRST* and clearly shows what it means to"
-" be a team. This judged award celebrates the Team that represents the "
-"essence of the *FIRST* Tech Challenge competition through Gracious "
-"Professionalism and general enthusiasm for the overall philosophy of *FIRST*"
-" and what it means to be a *FIRST* Tech Challenge Team. This is a Team who "
-"makes a collective effort to make *FIRST* known throughout their school and "
-"community, and sparks others to embrace the culture of *FIRST*."
-msgstr ""
-"Este equipo abraza la cultura de *FIRST* y muestra claramente lo que "
-"significa ser un equipo. Este premio juzgado celebra al equipo que "
-"representa la esencia de la competencia *FIRST* Tech Challenge a través de "
-"la Profesionalidad Graciosa y el entusiasmo general por la filosofía global "
-"de *FIRST* y lo que significa ser un equipo *FIRST* Tech Challenge. Este es "
-"un equipo que hace un esfuerzo colectivo para dar a conocer *FIRST* en su "
-"escuela y comunidad, e inspira a otros a abrazar la cultura de *FIRST*."
-
-#: ../../gm0/source/docs/awards/award-types.rst:88
+#: ../../gm0/source/docs/awards/award-types.rst:396
 msgid "Design Award"
 msgstr "Premio Desing"
 
-#: ../../gm0/source/docs/awards/award-types.rst:90
+#: ../../gm0/source/docs/awards/award-types.rst:407
 msgid ""
 "The Design Award is one of the robot awards that primarily focuses on the "
 "hardware aspect of the robot. It is for robots that are both functional, "
@@ -574,23 +143,7 @@ msgstr ""
 "funcionales, estéticos y que utilicen buenas prácticas de diseño, incluido "
 "el CAD."
 
-#: ../../gm0/source/docs/awards/award-types.rst:92
-msgid ""
-"In order to be considered for the Design Award, it's recommended that your "
-"team uses CAD and designs the robot before it is built, with engineering "
-"portfolio sections about the development of the robot through iterations of "
-"the engineering design process. Its important to include CAD screenshots and"
-" drawings in your portfolio, and your design should be consistent with any "
-"team goals listed."
-msgstr ""
-"Para optar al premio Desing, se recomienda que el equipo utilice CAD y "
-"diseñe el robot antes de construirlo, con secciones del portafolio de "
-"ingeniería sobre el desarrollo del robot a través de iteraciones del proceso"
-" de diseño de ingeniería. Es importante incluir capturas de pantalla y "
-"dibujos de CAD en el portafolio, y el diseño debe ser coherente con los "
-"objetivos del equipo."
-
-#: ../../gm0/source/docs/awards/award-types.rst:94
+#: ../../gm0/source/docs/awards/award-types.rst:411
 msgid ""
 "While functionality is what most teams focus on, the Design Award also takes"
 " into account aesthetics, and most judges will generally be turned off by an"
@@ -602,151 +155,11 @@ msgstr ""
 "no les suele gustar un robot feo para este premio (¡sin cartón en el "
 "robot!), así que asegúrate de que tu robot tenga un aspecto presentable."
 
-#: ../../gm0/source/docs/awards/award-types.rst:97
-msgid ""
-"This judged award recognizes design elements of the Robot that are both "
-"functional and aesthetic. The Design Award is presented to Teams that "
-"incorporate industrial design elements into their solution. These design "
-"elements could simplify the Robot's appearance by giving it a clean look, be"
-" decorative in nature, or otherwise express the creativity of the Team. The "
-"Robot should be durable, efficiently designed, and effectively address the "
-"game challenge."
-msgstr ""
-"Este premio reconoce los elementos de diseño del robot que son tanto "
-"funcionales como estéticos. El premio Design se concede a los equipos que "
-"incorporan elementos de diseño industrial a su solución. Estos elementos de "
-"diseño pueden simplificar la apariencia del Robot dándole un aspecto limpio,"
-" ser de naturaleza decorativa o expresar de otro modo la creatividad del "
-"equipo. El robot debe ser duradero, tener un diseño eficiente y abordar "
-"eficazmente el desafío del juego."
+#: ../../gm0/source/docs/awards/award-types.rst:429
+msgid "Judges Choice Award"
+msgstr "Premio Judges Choice"
 
-#: ../../gm0/source/docs/awards/award-types.rst:100
-msgid "Connect vs Motivate"
-msgstr "Connect vs Motivate"
-
-#: ../../gm0/source/docs/awards/award-types.rst:102
-msgid ""
-"Both outreach awards can be hard to differentiate, as the official "
-"descriptions are super vague, and most judges don't know the difference "
-"perfectly. Since the descriptions are very vague, it is up to you to "
-"determine what goes towards which award. Oftentimes, teams will put more "
-"outreach in :term:`Connect <Connect Award>` than :term:`Motivate <Motivate "
-"Award>`, as Connect is fairly high up on the advancement list unlike "
-"Motivate, so putting more into Connect and winning Connect may advance, "
-"though make sure to do your research before trying a strategy like this."
-msgstr ""
-"Ambos premios de divulgación pueden ser difíciles de diferenciar, ya que las"
-" descripciones oficiales son muy vagas y la mayoría de los jueces no conocen"
-" perfectamente la diferencia. Dado que las descripciones son muy vagas, te "
-"corresponde a ti determinar qué corresponde a cada premio. A menudo, los "
-"equipos ponen más alcance en :term:`Connect <Connect Award>` que en "
-":term:`Motivate <Motivate Award>`, ya que el Connect está bastante arriba en"
-" la lista de avance a diferencia del Motivate, por lo que poner más en "
-"Connect y ganar Connect puede avanzar, aunque asegúrate de hacer tu "
-"investigación antes de intentar una estrategia como esta."
-
-#: ../../gm0/source/docs/awards/award-types.rst:104
-msgid "What Falls Under Connect?"
-msgstr "¿Qué Entra Dentro del Connect?"
-
-#: ../../gm0/source/docs/awards/award-types.rst:106
-msgid "Developing relationships with companies"
-msgstr "Desarrollar relaciones con las empresas"
-
-#: ../../gm0/source/docs/awards/award-types.rst:107
-msgid "Getting external mentors (not parents)"
-msgstr "Conseguir mentores externos (no padres)"
-
-#: ../../gm0/source/docs/awards/award-types.rst:108
-msgid ""
-"Fundraising from companies (other methods may fall under motivate on a case "
-"by case basis)"
-msgstr ""
-"Recaudación de fondos de empresas (otros métodos pueden entrar en el "
-"Motivate en función de cada caso)"
-
-#: ../../gm0/source/docs/awards/award-types.rst:110
-msgid "What Falls Under Motivate?"
-msgstr "¿Qué se Incluye en el Motivate?"
-
-#: ../../gm0/source/docs/awards/award-types.rst:112
-msgid "Starting/Mentoring *FIRST* Teams"
-msgstr "Iniciando/Mentoreando equipos *FIRST*"
-
-#: ../../gm0/source/docs/awards/award-types.rst:113
-msgid "Community Demos"
-msgstr "Demostración a la Comunidad"
-
-#: ../../gm0/source/docs/awards/award-types.rst:115
-msgid "Tips for Both"
-msgstr "Consejos para Ambos"
-
-#: ../../gm0/source/docs/awards/award-types.rst:117
-msgid ""
-"Present numbers, but only emphasize them if they're large with a wow factor"
-msgstr ""
-"Presentar cifras, pero sólo destacarlas si son grandes con un factor "
-"sorpresa"
-
-#: ../../gm0/source/docs/awards/award-types.rst:118
-msgid ""
-"Make sure your numbers are somewhat accurate! If you are at a large event, "
-"you can get a rough headcount from the organizers, but its generally better "
-"to know roughly how many people actually stopped and looked at your team."
-msgstr ""
-"Asegúrate de que tus cifras sean exactas. Si se trata de un acto "
-"multitudinario, los organizadores pueden facilitarte un recuento aproximado,"
-" pero en general es mejor saber cuántas personas se han parado a mirar a tu "
-"equipo."
-
-#: ../../gm0/source/docs/awards/award-types.rst:119
-msgid ""
-"Present stories to the judges, not just overviews. Tell personal stories."
-msgstr ""
-"Presenta historias a los jueces, no sólo resúmenes. Cuenta historias "
-"personales."
-
-#: ../../gm0/source/docs/awards/award-types.rst:120
-msgid ""
-"Log all your outreach events, with who went and how many hours each person "
-"did in its own place separate from the engineering notebook. This makes it "
-"easier to compile total numbers and shows the judges every outreach "
-"activity/event in one place."
-msgstr ""
-"Registra todos tus eventos de divulgación, con quién fue y cuántas horas "
-"hizo cada persona en un lugar propio separado del Engineering Notebook. Esto"
-" facilita la recopilación de las cifras totales y muestra a los jueces todas"
-" las actividades/eventos de divulgación en un mismo lugar."
-
-#: ../../gm0/source/docs/awards/award-types.rst:121
-msgid ""
-"For a bigger impact make sure you have more resources then just your team's "
-"information at an event, having details for *FIRST* Lego League teams in "
-"addition to your *FIRST* Tech Challenge information can broaden how many "
-"people you reach."
-msgstr ""
-"Para tener un impacto mayor, asegúrate de tener más recursos además de la "
-"información de tu equipo en un evento, tener detalles de los equipos de "
-"*FIRST* Lego League además de tu información de *FIRST* Tech Challenge puede"
-" ampliar la cantidad de personas a las que llegas."
-
-#: ../../gm0/source/docs/awards/award-types.rst:122
-msgid ""
-"Follow up, follow up, follow up! If a person gives you a business card or a "
-"student expresses interest, it doesn't hurt to follow up if they don't reach"
-" out as promised. People can forget or get busy, sometimes a reminder is "
-"useful!"
-msgstr ""
-"¡Seguimiento, seguimiento, seguimiento! Si una persona te da una tarjeta de "
-"visita o un estudiante muestra interés, no está de más hacer un seguimiento "
-"si no se ponen en contacto como prometieron. La gente puede olvidarse o "
-"estar ocupada, así que a veces es útil un recordatorio."
-
-#: ../../gm0/source/docs/awards/award-types.rst:125
-msgid "Optional Awards"
-msgstr "Premios Opcionales"
-
-#: ../../gm0/source/docs/awards/award-types.rst:127
+#: ../../gm0/source/docs/awards/award-types.rst:436
 msgid ""
 "There are some awards that events are not required to present; these do not "
 "advance teams."
@@ -754,98 +167,6 @@ msgstr ""
 "Hay algunos premios que en los eventos no están obligados a presentar; estos"
 " no hacen avanzar a los equipos."
 
-#: ../../gm0/source/docs/awards/award-types.rst:130
-msgid "Judges Choice Award"
-msgstr "Premio Judges Choice"
-
-#: ../../gm0/source/docs/awards/award-types.rst:132
-msgid ""
-"The Judges Choice Award is meant to recognize a team that doesn't fit into "
-"any of the existing award categories, but the judges still felt the team "
-"deserved to win an award for their outstanding effort or other experience. "
-"This award is very subjective, and doesn't advance teams. It is also "
-"optional to give at every competition, but in some regions given at every "
-"competition unless the judges don't find a deserving team."
-msgstr ""
-"El Judges Choices es un reconocimiento a un equipo que no encaja en ninguna "
-"de las categorías de premios existentes, pero que los jueces consideran que "
-"merece ganar un premio por su extraordinario esfuerzo u otra experiencia. "
-"Este premio es muy subjetivo y no hace progresar a los equipos. También es "
-"opcional otorgarlo en todas las competiciones, pero en algunas regiones se "
-"otorga en todas las competiciones a menos que los jueces no encuentren un "
-"equipo merecedor."
-
-#: ../../gm0/source/docs/awards/award-types.rst:133
-msgid "Promote Award and Compass Award"
-msgstr "Premio Promote y Premio Compass"
-
-#: ../../gm0/source/docs/awards/award-types.rst:135
-msgid ""
-"The Promote and Compass awards are optional awards that are usually given "
-"only at state championships and world championships. These awards do not "
-"require an engineering notebook to win, but do not advance teams. They are "
-"submitted as a video no longer than 1 minute. The Promote award is for "
-"creating a PSA for *FIRST* with a specific video prompt. This prompt changes"
-" every year, and is found in |gm1|. The Compass award is for recognizing an "
-"outstanding mentor. Submitting these awards is usually done on a case-by-"
-"case basis, where the event organizer sends teams instructions on how to "
-"submit."
-msgstr ""
-"Los premios Promote y Compass son premios opcionales que generalmente se "
-"otorgan solo en los campeonatos estatales y mundiales. Estos premios no "
-"requieren un cuaderno de ingeniería para ganar, pero no hacen avanzar a los "
-"equipos. Se envían como un video de no más de 1 minuto. El premio Promote es"
-" para crear un Anuncio de Servicio Público para *FIRST* con una indicación "
-"de video específica. Esta indicación cambia cada año y se encuentra en "
-"|gm1|. El premio Compass es para reconocer a un mentor sobresaliente. La "
-"presentación de estos premios generalmente se realiza caso por caso, donde "
-"el organizador del evento envía instrucciones a los equipos sobre cómo "
-"presentarlos."
-
-#: ../../gm0/source/docs/awards/award-types.rst:137
-msgid "Some good Promote award submissions include:"
-msgstr "Algunas buenas candidaturas a los premios Promote son:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:139
-msgid "`Team 3595 in 2014 <https://www.youtube.com/watch?v=yYFxuJwtCu0>`_"
-msgstr "`Equipo 3595 en 2014 <https://www.youtube.com/watch?v=yYFxuJwtCu0>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:140
-msgid "`Team 8808 in 2017 <https://www.youtube.com/watch?v=7yjGMYbtKU0>`_"
-msgstr "`Equipo 8808 en 2017 <https://www.youtube.com/watch?v=7yjGMYbtKU0>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:141
-msgid "`Team 5795 in 2017 <https://www.youtube.com/watch?v=8gn-URpmXVA>`_"
-msgstr "`Equipo 5795 en 2017 <https://www.youtube.com/watch?v=8gn-URpmXVA>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:142
-msgid "`Team 4924 in 2016 <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
-msgstr "`Equipo 4924 en 2016 <https://www.youtube.com/watch?v=lYaKEnutiR4>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:144
+#: ../../gm0/source/docs/awards/award-types.rst:499
 msgid "Some good Compass award submissions include:"
 msgstr "Algunas buenas candidaturas al premio Compass incluyen:"
-
-#: ../../gm0/source/docs/awards/award-types.rst:146
-msgid "`Team 4855 in 2017 <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
-msgstr "`Equipo 4855 en 2017 <https://www.youtube.com/watch?v=r3zK2l7K8Fo>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:147
-msgid "`Team 3595 in 2017 <https://www.youtube.com/watch?v=EKKaMAcAfXE>`_"
-msgstr "`Equipo 3595 en 2017 <https://www.youtube.com/watch?v=EKKaMAcAfXE>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:148
-msgid "`Team 9879 in 2017 <https://www.youtube.com/watch?v=z6M6UYMLujo>`_"
-msgstr "`Equipo 9879 en 2017 <https://www.youtube.com/watch?v=z6M6UYMLujo>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:149
-msgid "`Team 6510 in 2015 <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
-msgstr "`Equipo 6510 en 2015 <https://www.youtube.com/watch?v=E76ij2H3YF4>`_"
-
-#: ../../gm0/source/docs/awards/award-types.rst:151
-msgid ""
-"For more information on these awards, take a look at the specific section "
-"for each award in |gm1|."
-msgstr ""
-"Para más información sobre estos premios, consulte la sección específica de "
-"cada premio en |gm1|."
