@@ -6,15 +6,16 @@
 # Translators:
 # Crackermi, 2023
 # Nicolás Flores Verdad Quintana, 2023
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-29 16:52+0000\n"
+"POT-Creation-Date: 2026-02-04 05:12+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: Nicolás Flores Verdad Quintana, 2023\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,21 +23,618 @@ msgstr ""
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
+#: ../../gm0/source/docs/awards/award-types.rst:4
+msgid "Types of Awards"
+msgstr "Tipos de premios"
+
 #: ../../gm0/source/docs/awards/award-types.rst:7
 msgid "Advancing Awards"
 msgstr "Premios que dan Pase"
+
+#: ../../gm0/source/docs/awards/award-types.rst:9
+msgid ""
+"There are 8 awards for FTC\\ |reg| teams (excluding optional awards). For "
+"more information on the exact requirements for these awards, see |cm|."
+msgstr ""
+"Hay 8 premios para los equipos de FTC |reg| (excluyendo los premios "
+"opcionales). Para obtener más información sobre los requisitos exactos de "
+"estos premios, consulte |cm|."
+
+#: ../../gm0/source/docs/awards/award-types.rst-1
+msgid "Award hierarchy"
+msgstr "Jerarquía de Premios"
+
+#: ../../gm0/source/docs/awards/award-types.rst:15
+msgid "These are:"
+msgstr "Estos son:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:17
+msgid ""
+"**The Inspire Award** recognizes teams who excel in MCI, TA, and Think award"
+" accomplishments. This team is an all-around inspiration for others."
+msgstr ""
+"**El Inspire Award** reconoce a los equipos que destacan en los logros de "
+"los premios MCI, AT y Think. Este equipo es una fuente de inspiración para "
+"los demás."
+
+#: ../../gm0/source/docs/awards/award-types.rst:18
+msgid ""
+"**MCI awards** recognize the technical accomplishments of teams in the "
+"brainstorming, design, construction, operation, and control of their ROBOTS."
+msgstr ""
+"Los premios **MCI** reconocen los logros técnicos de los equipos en la "
+"creación de ideas, el diseño, la construcción, el funcionamiento y el "
+"control de sus ROBOTS."
+
+#: ../../gm0/source/docs/awards/award-types.rst:19
+msgid ""
+"**TA awards** recognize teams who have expanded their skillset, created a "
+"plan to sustain their program and team, and spread the message of FIRST "
+"throughout their outreach."
+msgstr ""
+"Los premios **TA** reconocen a los equipos que han ampliado su conjunto de "
+"habilidades, creado un plan para sostener su programa y equipo, y difundir "
+"el mensaje de FIRST a través de su impacto."
+
+#: ../../gm0/source/docs/awards/award-types.rst:20
+msgid ""
+"**The Think Award** recognizes teams who masterfully document their team's "
+"process and ROBOT using their PORTFOLIO."
+msgstr ""
+"**El Think Award** reconoce a los equipos que documentan magistralmente el "
+"proceso y el ROBOT de su equipo utilizando su PORTAFOLIO."
+
+#: ../../gm0/source/docs/awards/award-types.rst:21
+msgid ""
+"**Judges' Choice Award** recognizes a team whose unique efforts, "
+"performance, or dynamics merit recognition, but does not fit into any of the"
+" other award categories."
+msgstr ""
+"**El Judges' Choice Award** reconoce a un equipo cuyos esfuerzos, "
+"rendimiento o dinámica merecen un reconocimiento, pero no encajan en ninguna"
+" de las otras categorías de premios."
 
 #: ../../gm0/source/docs/awards/award-types.rst:25
 msgid "Inspire Award"
 msgstr "Premio Inspire"
 
+#: ../../gm0/source/docs/awards/award-types.rst:28
+#: ../../gm0/source/docs/awards/award-types.rst:69
+#: ../../gm0/source/docs/awards/award-types.rst:113
+#: ../../gm0/source/docs/awards/award-types.rst:162
+#: ../../gm0/source/docs/awards/award-types.rst:209
+#: ../../gm0/source/docs/awards/award-types.rst:273
+#: ../../gm0/source/docs/awards/award-types.rst:362
+#: ../../gm0/source/docs/awards/award-types.rst:399
+#: ../../gm0/source/docs/awards/award-types.rst:442
+#: ../../gm0/source/docs/awards/award-types.rst:474
+msgid "Official |cm| Description"
+msgstr "Descripción Oficial"
+
+#: ../../gm0/source/docs/awards/award-types.rst:30
+#: ../../gm0/source/docs/awards/award-types.rst:71
+#: ../../gm0/source/docs/awards/award-types.rst:115
+#: ../../gm0/source/docs/awards/award-types.rst:164
+#: ../../gm0/source/docs/awards/award-types.rst:211
+#: ../../gm0/source/docs/awards/award-types.rst:275
+#: ../../gm0/source/docs/awards/award-types.rst:363
+#: ../../gm0/source/docs/awards/award-types.rst:401
+#: ../../gm0/source/docs/awards/award-types.rst:444
+#: ../../gm0/source/docs/awards/award-types.rst:476
+msgid "Term"
+msgstr "Término"
+
+#: ../../gm0/source/docs/awards/award-types.rst:33
+msgid ""
+"The team that receives this award is a strong ambassador for FIRST programs "
+"and a role model FIRST team. This team is a top contender for many other "
+"judged awards and is a gracious competitor. The Inspire Award winner is an "
+"inspiration to other teams, acting with Gracious Professionalism\\ |reg| "
+"both on and off the playing FIELD. This team shares their experiences, "
+"enthusiasm, and knowledge with other teams, sponsors, their community, and "
+"the JUDGES. Working as a unit, this team will have shown success in "
+"performing the task of designing and building a ROBOT."
+msgstr ""
+"El equipo que recibe este premio es un fuerte embajador de los programas "
+"FIRST y un equipo FIRST modelo a seguir. Este equipo es uno de los "
+"principales contendientes para muchos otros premios y es un competidor "
+"elegante. El ganador del Premio Inspire es una inspiración para otros "
+"equipos, actuando con profesionalismo y gracia tanto dentro como fuera del "
+"campo de juego. Este equipo comparte sus experiencias, entusiasmo y "
+"conocimientos con otros equipos, patrocinadores, su comunidad y los JUECES. "
+"Trabajando como una unidad, este equipo habrá demostrado éxito en la "
+"realización de la tarea de diseñar y construir un ROBOT."
+
+#: ../../gm0/source/docs/awards/award-types.rst:36
+msgid ""
+"A portfolio is required for this award. The Inspire Award is the top award "
+"for an FTC team. It is given to a team that consistently rises to the top in"
+" other awards categories."
+msgstr ""
+"Para este premio se requiere un portafolio. El Premio Inspire es el máximo "
+"galardón para un equipo de FTC. Se concede a un equipo que se sitúa "
+"sistemáticamente en lo más alto en otras categorías de premios."
+
+#: ../../gm0/source/docs/awards/award-types.rst:38
+msgid ""
+"Of all the awards, this one is arguably the most subjective, as it is about "
+"how good a team does overall, including how much they weigh outreach as "
+"compared to robot performance and documentation."
+msgstr ""
+"De todos los premios, éste es posiblemente el más subjetivo, ya que se trata"
+" de lo bien que lo hace un equipo en general, incluido su peso en impacto en"
+" comparación con el rendimiento del robot y la documentación."
+
+#: ../../gm0/source/docs/awards/award-types.rst:40
+msgid ""
+"While the description is comprehensive, here are the key, unwritten tips for"
+" winning the top award:"
+msgstr ""
+"Aunque la descripción es exhaustiva, he aquí los consejos clave, no "
+"escritos, para ganar el máximo galardón:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:43
+msgid ""
+"Be a \"Complete Package\": You cannot win Inspire by being excellent in just"
+" one area. Your robot must be competitive (a top contender), your portfolio "
+"must be comprehensive and professional, and your outreach must be "
+"meaningful. Excellence in all judged categories is the goal."
+msgstr ""
+"Sea un \"paquete completo\": No se puede ganar Inspire siendo excelente sólo"
+" en un área. Tu robot debe ser competitivo (uno de los mejores), tu "
+"portafolio debe estar completo y profesional, y tu impacto debe ser "
+"significativo. El objetivo es la excelencia en todas las categorías."
+
+#: ../../gm0/source/docs/awards/award-types.rst:44
+msgid ""
+"Demonstrate Leadership, Not Just Participation: Show how your team leads and"
+" inspires others. Did you host a scrimmage for newer teams? Create shared "
+"resources? Mentor an FLL team? This goes beyond sharing your own "
+"experiences; it's about actively elevating your entire FIRST community."
+msgstr ""
+"Demuestre liderazgo, no sólo participación: Demuestre cómo su equipo lidera "
+"e inspira a los demás. ¿Organizó una competición para los equipos más "
+"nuevos? ¿Creó recursos compartidos? ¿Fuiste mentor de un equipo FLL? Esto va"
+" más allá de compartir sus propias experiencias; se trata de elevar "
+"activamente a toda su comunidad FIRST."
+
+#: ../../gm0/source/docs/awards/award-types.rst:45
+msgid ""
+"Exemplify Gracious Professionalism\\ |reg| in Action: Judges will observe "
+"you in the pit and on the field. Be helpful to other teams, share tools, "
+"cheer for opponents, and handle both wins and losses with grace. Your "
+"actions speak as loudly as your portfolio."
+msgstr ""
+"Ejemplifique el Gracious Professionalism\\ |reg| en acción: Los jueces te "
+"observarán en el pit y en la cancha. Ayuda a otros equipos, comparte "
+"herramientas, anima a tus oponentes y afronta las victorias y las derrotas "
+"con elegancia. Tus acciones hablan tan alto como tu portafolio."
+
+#: ../../gm0/source/docs/awards/award-types.rst:46
+msgid ""
+"Tell a Cohesive Story: In your judge interview, connect the dots between "
+"your robot design, your outreach, and your team's growth. Show how your core"
+" values drove your success in every aspect of the season."
+msgstr ""
+"Cuente una historia coherente: En tu entrevista con el juez, conecta los "
+"puntos entre el diseño de tu robot, tu impacto y el crecimiento de tu "
+"equipo. Demuestra cómo tus valores fundamentales te han llevado al éxito en "
+"todos los aspectos de la temporada."
+
+#: ../../gm0/source/docs/awards/award-types.rst:49
+msgid "Inspire Award Criteria"
+msgstr "Criterios del Premio Inspire"
+
+#: ../../gm0/source/docs/awards/award-types.rst:52
+#: ../../gm0/source/docs/awards/award-types.rst:54
+#: ../../gm0/source/docs/awards/award-types.rst:60
+#: ../../gm0/source/docs/awards/award-types.rst:62
+#: ../../gm0/source/docs/awards/award-types.rst:85
+#: ../../gm0/source/docs/awards/award-types.rst:127
+#: ../../gm0/source/docs/awards/award-types.rst:176
+#: ../../gm0/source/docs/awards/award-types.rst:178
+#: ../../gm0/source/docs/awards/award-types.rst:223
+#: ../../gm0/source/docs/awards/award-types.rst:228
+#: ../../gm0/source/docs/awards/award-types.rst:293
+#: ../../gm0/source/docs/awards/award-types.rst:295
+#: ../../gm0/source/docs/awards/award-types.rst:297
+#: ../../gm0/source/docs/awards/award-types.rst:380
+#: ../../gm0/source/docs/awards/award-types.rst:386
+#: ../../gm0/source/docs/awards/award-types.rst:417
+#: ../../gm0/source/docs/awards/award-types.rst:419
+#: ../../gm0/source/docs/awards/award-types.rst:488
+#: ../../gm0/source/docs/awards/award-types.rst:490
+msgid "**Required**"
+msgstr "**Requerido**"
+
+#: ../../gm0/source/docs/awards/award-types.rst:52
+#: ../../gm0/source/docs/awards/award-types.rst:85
+#: ../../gm0/source/docs/awards/award-types.rst:127
+#: ../../gm0/source/docs/awards/award-types.rst:176
+#: ../../gm0/source/docs/awards/award-types.rst:223
+#: ../../gm0/source/docs/awards/award-types.rst:293
+#: ../../gm0/source/docs/awards/award-types.rst:380
+#: ../../gm0/source/docs/awards/award-types.rst:417
+#: ../../gm0/source/docs/awards/award-types.rst:488
+msgid "1"
+msgstr "1"
+
+#: ../../gm0/source/docs/awards/award-types.rst:52
+msgid "Team must submit a PORTFOLIO."
+msgstr "El equipo debe presentar un PORTAFOLIO."
+
+#: ../../gm0/source/docs/awards/award-types.rst:54
+#: ../../gm0/source/docs/awards/award-types.rst:92
+#: ../../gm0/source/docs/awards/award-types.rst:132
+#: ../../gm0/source/docs/awards/award-types.rst:178
+#: ../../gm0/source/docs/awards/award-types.rst:228
+#: ../../gm0/source/docs/awards/award-types.rst:295
+#: ../../gm0/source/docs/awards/award-types.rst:386
+#: ../../gm0/source/docs/awards/award-types.rst:419
+#: ../../gm0/source/docs/awards/award-types.rst:490
+msgid "2"
+msgstr "2"
+
+#: ../../gm0/source/docs/awards/award-types.rst:54
+msgid ""
+"The Inspire Award celebrates the strongest qualities of all the judged "
+"awards. A team must be a strong contender for at least one award in each of "
+"the following judged award categories:"
+msgstr ""
+"El Premio Inspire recompensa las mejores cualidades de todos los premios. Un"
+" equipo debe ser un firme candidato a al menos un premio en cada una de las "
+"siguientes categorías:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:56
+msgid "Machine, Creativity, and Innovation Awards,"
+msgstr "Premios a la Máquina, la Creatividad y la Innovación,"
+
+#: ../../gm0/source/docs/awards/award-types.rst:57
+msgid "Team Attributes Awards, and"
+msgstr "Premios por Atributos del Equipo, y"
+
+#: ../../gm0/source/docs/awards/award-types.rst:58
+msgid "Think Award."
+msgstr "Premio Think"
+
+#: ../../gm0/source/docs/awards/award-types.rst:60
+#: ../../gm0/source/docs/awards/award-types.rst:98
+#: ../../gm0/source/docs/awards/award-types.rst:134
+#: ../../gm0/source/docs/awards/award-types.rst:180
+#: ../../gm0/source/docs/awards/award-types.rst:230
+#: ../../gm0/source/docs/awards/award-types.rst:297
+#: ../../gm0/source/docs/awards/award-types.rst:388
+#: ../../gm0/source/docs/awards/award-types.rst:421
+msgid "3"
+msgstr "3"
+
+#: ../../gm0/source/docs/awards/award-types.rst:60
+msgid ""
+"Team must be positive and inclusive, and each team member contribute to the "
+"success of the team."
+msgstr ""
+"El equipo debe ser positivo e inclusivo, y cada uno de sus miembros debe "
+"contribuir al éxito del equipo."
+
+#: ../../gm0/source/docs/awards/award-types.rst:62
+#: ../../gm0/source/docs/awards/award-types.rst:182
+#: ../../gm0/source/docs/awards/award-types.rst:232
+#: ../../gm0/source/docs/awards/award-types.rst:299
+#: ../../gm0/source/docs/awards/award-types.rst:390
+#: ../../gm0/source/docs/awards/award-types.rst:423
+msgid "4"
+msgstr "4"
+
+#: ../../gm0/source/docs/awards/award-types.rst:62
+msgid ""
+"Team is able to describe, demonstrate, document, or display their "
+"experiences and knowledge to the JUDGES."
+msgstr ""
+"El equipo es capaz de describir, demostrar, documentar o exponer sus "
+"experiencias y conocimientos a los JUECES."
+
 #: ../../gm0/source/docs/awards/award-types.rst:66
 msgid "Think Award"
 msgstr "Premio Think"
 
+#: ../../gm0/source/docs/awards/award-types.rst:74
+msgid ""
+"This judged award is given to the team that best reflects the journey the "
+"team took as they experienced their season. The content within the PORTFOLIO"
+" is the key reference for JUDGES to help identify the most deserving team. "
+"The team could share or provide additional detailed information that is "
+"helpful for the JUDGES."
+msgstr ""
+"Este premio se otorga al equipo que mejor refleje el camino recorrido "
+"durante la temporada. El contenido del PORTAFOLIO es la referencia clave "
+"para que los JUECES puedan identificar al equipo más merecedor. El equipo "
+"puede compartir o proporcionar información adicional detallada que sea útil "
+"para los JUECES."
+
+#: ../../gm0/source/docs/awards/award-types.rst:77
+msgid ""
+"A portfolio is required for this award. The Think Award is based entirely on"
+" the |EP|. In order to have a chance at winning, the |EP| should include as "
+"much math and physics as possible, document the entire journey of the robot "
+"through iterations, and other documentation of design and game strategy."
+msgstr ""
+"Para este premio se requiere un portafolio. El premio Think se basa por "
+"completo en el diseño del robot. Para tener posibilidades de ganar, el PE "
+"debe incluir la mayor cantidad posible de matemáticas y física, documentar "
+"todo el recorrido del robot a través de iteraciones y otra documentación de "
+"diseño y estrategia de juego."
+
+#: ../../gm0/source/docs/awards/award-types.rst:79
+msgid ""
+"In addition, the portfolio should be well laid out and contain information "
+"on various non-technical aspects of the team, such as plan how and from "
+"where they get new skills, how they recruit people into FIRST, how the team "
+"tracks goal settings and task execution during the season. While these "
+"categories aren't as strictly important as robot documentation, they are "
+"generally recommended for a strong |EP|."
+msgstr ""
+"Además, el portafolio debe estar bien diseñado y contener información sobre "
+"diversos aspectos no técnicos del equipo, tales como planificar cómo y de "
+"dónde obtienen nuevas habilidades, cómo reclutan gente en FIRST, cómo el "
+"equipo realiza un seguimiento de los metas planteadas y la ejecución de "
+"tareas durante la temporada. Aunque estas categorías no son tan "
+"estrictamente importantes como la documentación del robot, en general se "
+"recomiendan para un PE fuerte."
+
+#: ../../gm0/source/docs/awards/award-types.rst:82
+msgid "Think Award Criteria"
+msgstr "Criterios del Premio Think"
+
+#: ../../gm0/source/docs/awards/award-types.rst:85
+msgid ""
+"Team must submit a PORTFOLIO. The PORTFOLIO must include engineering content"
+" which includes at least one of the following:"
+msgstr ""
+"El equipo debe presentar un PORTAFOLIO. El PORTFOLIO debe incluir contenidos"
+" de ingeniería que incluyan al menos uno de los siguientes aspectos:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:87
+msgid "evidence of use of the engineering process"
+msgstr "pruebas del uso del proceso de ingeniería"
+
+#: ../../gm0/source/docs/awards/award-types.rst:88
+msgid "lessons learned and implemented related to the design of their ROBOT"
+msgstr ""
+"lecciones aprendidas y aplicadas en relación con el diseño de su ROBOT"
+
+#: ../../gm0/source/docs/awards/award-types.rst:89
+msgid "trade off analysis / cost benefit analysis"
+msgstr "análisis de rentabilidad"
+
+#: ../../gm0/source/docs/awards/award-types.rst:90
+msgid "mathematical analysis used to make design decisions"
+msgstr "análisis matemático utilizado para tomar decisiones de diseño"
+
+#: ../../gm0/source/docs/awards/award-types.rst:92
+#: ../../gm0/source/docs/awards/award-types.rst:98
+#: ../../gm0/source/docs/awards/award-types.rst:132
+#: ../../gm0/source/docs/awards/award-types.rst:134
+#: ../../gm0/source/docs/awards/award-types.rst:180
+#: ../../gm0/source/docs/awards/award-types.rst:182
+#: ../../gm0/source/docs/awards/award-types.rst:230
+#: ../../gm0/source/docs/awards/award-types.rst:232
+#: ../../gm0/source/docs/awards/award-types.rst:299
+#: ../../gm0/source/docs/awards/award-types.rst:388
+#: ../../gm0/source/docs/awards/award-types.rst:390
+#: ../../gm0/source/docs/awards/award-types.rst:392
+#: ../../gm0/source/docs/awards/award-types.rst:421
+#: ../../gm0/source/docs/awards/award-types.rst:423
+#: ../../gm0/source/docs/awards/award-types.rst:425
+msgid "**Encouraged**"
+msgstr "**Recomendado**"
+
+#: ../../gm0/source/docs/awards/award-types.rst:92
+msgid ""
+"Team PORTFOLIO may include information about resources which includes any "
+"number of the following examples:"
+msgstr ""
+"El PORTFOLIO del equipo puede incluir información sobre recursos que incluya"
+" cualquier número de los siguientes ejemplos:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:94
+msgid ""
+"how the team learns from team mentors, and/or a development plan for team "
+"members to learn new skills"
+msgstr ""
+"cómo aprende el equipo de los mentores del equipo, y/o un plan de desarrollo"
+" para que los miembros del equipo aprendan nuevas habilidades"
+
+#: ../../gm0/source/docs/awards/award-types.rst:95
+msgid "how the team recruited new people into FIRST"
+msgstr "cómo reclutó el equipo a nuevas personas para FIRST"
+
+#: ../../gm0/source/docs/awards/award-types.rst:96
+msgid ""
+"how the team identified goals and tracked progress towards their goals "
+"throughout the season"
+msgstr ""
+"el modo en que el equipo ha definido sus objetivos y ha seguido sus "
+"progresos a lo largo de la temporada"
+
+#: ../../gm0/source/docs/awards/award-types.rst:98
+msgid "PORTFOLIO information is organized in a clear and intuitive manner"
+msgstr "El PORTAFOLIO está organizado de forma clara e intuitiva"
+
+#: ../../gm0/source/docs/awards/award-types.rst:101
+#: ../../gm0/source/docs/awards/award-types.rst:304
+msgid "Tips for this award:"
+msgstr "Consejos para este premio:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:104
+msgid ""
+"It's All About the Portfolio: Remember, this award is judged entirely on the"
+" Engineering Portfolio. The interview is to clarify its contents. Every key "
+"point must be documented in writing."
+msgstr ""
+"Todo gira en torno al portafolio: Recuerde que este premio se juzga "
+"enteramente por el Portafolio de Ingeniería. La entrevista es para aclarar "
+"su contenido. Cada punto clave debe documentarse por escrito."
+
+#: ../../gm0/source/docs/awards/award-types.rst:105
+msgid ""
+"Show the \"Journey,\" Not Just the Destination: Document every failure, "
+"every prototype, and every iteration. Include photos of failed mechanisms, "
+"notes from brainstorming sessions, and data from test logs. Judges want to "
+"see your thought process and how you overcame obstacles."
+msgstr ""
+"Muestre el \"viaje\", no sólo el destino: Documente cada fallo, cada "
+"prototipo y cada iteración. Incluye fotos de los mecanismos fallidos, notas "
+"de las sesiones de lluvia de ideas y datos de los registros de pruebas. Los "
+"jueces quieren ver su proceso de reflexión y cómo superó los obstáculos."
+
+#: ../../gm0/source/docs/awards/award-types.rst:106
+msgid ""
+"Quantify Your Engineering Decisions: Don't just say \"we made it stronger.\""
+" Say \"After the polycarbonate arm failed under 10N of force, we switched to"
+" 6061 aluminum, which withstood 50N in testing.\" Use math, physics, and "
+"data to justify every major design choice."
+msgstr ""
+"Cuantifique sus decisiones de ingeniería: No se limite a decir \"lo hemos "
+"hecho más resistente\". Diga \"Después de que el brazo de policarbonato "
+"fallara bajo 10N de fuerza, cambiamos a aluminio 6061, que resistió 50N en "
+"las pruebas\". Utilice las matemáticas, la física y los datos para "
+"justificar cada decisión de diseño importante."
+
+#: ../../gm0/source/docs/awards/award-types.rst:107
+msgid ""
+"Structure for Readability: A wall of text will lose the judges' interest. "
+"Use clear headings, bullet points, diagrams, and captioned images. Make it "
+"easy for a judge to quickly understand your process."
+msgstr ""
+"Estructura para facilitar la lectura: Un muro de texto hará perder el "
+"interés de los jueces. Utilice títulos claros, viñetas, diagramas e imágenes"
+" con subtítulos. Facilite al juez la comprensión rápida de su proceso."
+
 #: ../../gm0/source/docs/awards/award-types.rst:110
 msgid "Connect Award"
 msgstr "Premio Connect"
+
+#: ../../gm0/source/docs/awards/award-types.rst:118
+msgid ""
+"This judged award is given to the team that connects with their local "
+"science, technology, engineering, and math (STEM) community to learn and "
+"adopt new tools through effort and persistence. This team has a team plan "
+"and has identified steps to achieve their goals. A PORTFOLIO is not required"
+" for this award."
+msgstr ""
+"Este premio se concede al equipo que se conecta con su comunidad local de "
+"ciencia, tecnología, ingeniería y matemáticas (STEM) para aprender y adoptar"
+" nuevas herramientas mediante el esfuerzo y la persistencia. Este equipo "
+"tiene un plan de equipo y ha identificado los pasos para alcanzar sus "
+"objetivos. Para este premio no se requiere un PORTAFOLIO."
+
+#: ../../gm0/source/docs/awards/award-types.rst:121
+msgid ""
+"Be prepared for judges to ask you how your outreaches were meaningful, and "
+"try to avoid doing STEM outreaches just for the sake of saying you did a "
+"STEM connections. Successful STEM outreaches are those that are undertaken "
+"for a specific purpose and have a clear intent and goal, such as meeting "
+"with an expert on computer vision to ask for advice on a vision task for the"
+" game. If you are struggling to find STEM outreaches, local colleges and "
+"businesses are a good start."
+msgstr ""
+"Prepárate para que los jueces te pregunten por el significado de tus "
+"actividades e intenta evitar hacer actividades STEM por el mero hecho de "
+"decir que has hecho conexiones STEM. Las actividades de STEM que tienen "
+"éxito son las que se realizan con un propósito específico y tienen una "
+"intención y un objetivo claros, como reunirse con un experto en visión por "
+"comptudaro para pedirle consejo sobre una tarea de visión para el juego. Si "
+"te cuesta encontrar conexiones STEM, las universidades y empresas locales "
+"son un buen comienzo."
+
+#: ../../gm0/source/docs/awards/award-types.rst:124
+msgid "Connect Award Criteria"
+msgstr "Criterios del Premio Connect"
+
+#: ../../gm0/source/docs/awards/award-types.rst:127
+msgid ""
+"Team must describe, display, or document a team plan that covers all of the "
+"following:"
+msgstr ""
+"El equipo debe describir, mostrar o documentar un plan de equipo que cubra "
+"todo lo siguiente:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:129
+msgid "The team's goals for the development of team member skills, and"
+msgstr ""
+"Los objetivos del equipo para el desarrollo de las habilidades de los "
+"miembros del equipo, y"
+
+#: ../../gm0/source/docs/awards/award-types.rst:130
+msgid "The steps the team has taken or will take to reach those goals"
+msgstr "Los pasos que el equipo ha dado o dará para alcanzar esos objetivos"
+
+#: ../../gm0/source/docs/awards/award-types.rst:132
+msgid ""
+"Provide examples of developing in person or virtual connections with "
+"individuals in the engineering, science, or technology community."
+msgstr ""
+"Proporcione ejemplos del desarrollo de conexiones personales o virtuales con"
+" personas de la comunidad de la ingeniería, la ciencia o la tecnología."
+
+#: ../../gm0/source/docs/awards/award-types.rst:134
+msgid ""
+"Provide examples of how it actively engages with the engineering community."
+msgstr ""
+"Proporcione ejemplos de cómo se compromete activamente con la comunidad de "
+"ingenieros."
+
+#: ../../gm0/source/docs/awards/award-types.rst:137
+msgid ""
+"The core of this award is depth, purpose, and learning, not just quantity."
+msgstr ""
+"El núcleo de este premio es la profundidad, el propósito y el aprendizaje, "
+"no sólo la cantidad."
+
+#: ../../gm0/source/docs/awards/award-types.rst:139
+msgid ""
+"**Focus on the \"Why,\" Not Just the \"What.\"** For every STEM connection, "
+"be prepared to answer:"
+msgstr ""
+"**Concéntrese en el \"por qué\", no sólo en el \"qué\". Para cada conexión "
+"STEM, esté preparado para responder:"
+
+#: ../../gm0/source/docs/awards/award-types.rst:141
+msgid ""
+"Why did you reach out to this specific person or organization? (e.g., \"We "
+"needed help with a persistent odometry error, so we contacted a local "
+"university's robotics lab.\")"
+msgstr ""
+"¿Por qué se puso en contacto con esa persona u organización en concreto? "
+"(Por ejemplo: \"Necesitábamos ayuda con un error de odometría persistente, "
+"así que nos pusimos en contacto con el laboratorio de robótica de una "
+"universidad local\")."
+
+#: ../../gm0/source/docs/awards/award-types.rst:142
+msgid ""
+"What did you learn from them? (e.g., \"They taught us about sensor fusion, "
+"which we implemented and documented in our |EP|.\")"
+msgstr ""
+"¿Qué aprendió de ellos? (Por ejemplo: \"Nos enseñaron la fusión de sensores,"
+" que pusimos en práctica y documentamos en nuestro |PE|\")."
+
+#: ../../gm0/source/docs/awards/award-types.rst:143
+msgid ""
+"How did it change your approach? (e.g., \"This conversation led us to "
+"redesign our dead wheel assembly, improving our accuracy by 40%.\")"
+msgstr ""
+"¿Cómo cambió su enfoque? (Por ejemplo: \"Esta conversación nos llevó a "
+"rediseñar nuestro montaje de la rueda muerta, mejorando nuestra precisión en"
+" un 40%\")."
+
+#: ../../gm0/source/docs/awards/award-types.rst:145
+msgid ""
+"**Document the Relationship, Not Just the Event.** Don't just list \"Visited"
+" XYZ Engineering.\" Create a small case study for key connections. Include:"
+msgstr ""
+"**Documente la relación, no sólo el evento.** No se limite a enumerar "
+"\"Visitó XYZ Engineering\". Cree un pequeño estudio de caso para las "
+"conexiones clave. Incluya:"
 
 #: ../../gm0/source/docs/awards/award-types.rst:262
 msgid ""
