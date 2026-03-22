@@ -6,16 +6,16 @@
 # Translators:
 # Lyna Alem, 2025
 # Justine, 2025
-# Lyna Alem, 2025
+# Lyna Alem, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-29 16:52+0000\n"
+"POT-Creation-Date: 2026-03-22 16:38+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
-"Last-Translator: Lyna Alem, 2025\n"
+"Last-Translator: Lyna Alem, 2026\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,9 +23,30 @@ msgstr ""
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
+#: ../../gm0/source/docs/awards/award-types.rst:4
+msgid "Types of Awards"
+msgstr "Types de prix"
+
 #: ../../gm0/source/docs/awards/award-types.rst:7
 msgid "Advancing Awards"
 msgstr "Prix de progression"
+
+#: ../../gm0/source/docs/awards/award-types.rst:9
+msgid ""
+"There are 8 awards for FTC\\ |reg| teams (excluding optional awards). For "
+"more information on the exact requirements for these awards, see |cm|."
+msgstr ""
+"Il y a 8 récompenses pour les équipes FTC (à l'exclusion des récompenses "
+"optionnelles). Pour plus d'informations sur les conditions exactes "
+"d'attribution de ces prix, voir |cm|."
+
+#: ../../gm0/source/docs/awards/award-types.rst-1
+msgid "Award hierarchy"
+msgstr "Hiérarchie des prix"
+
+#: ../../gm0/source/docs/awards/award-types.rst:15
+msgid "These are:"
+msgstr "Il s'agit de"
 
 #: ../../gm0/source/docs/awards/award-types.rst:25
 msgid "Inspire Award"
