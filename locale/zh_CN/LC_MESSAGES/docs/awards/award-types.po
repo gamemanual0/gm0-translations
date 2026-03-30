@@ -5,7 +5,7 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# wwsk2008sq, 2024
+# mo-wu-si-kong, 2024
 # Shawphy, 2026
 # 
 #, fuzzy
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 16:56+0000\n"
+"POT-Creation-Date: 2026-03-30 06:02+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
 "Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -23,13 +23,175 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../gm0/source/docs/awards/award-types.rst:4
+msgid "Types of Awards"
+msgstr "奖项类型"
+
 #: ../../gm0/source/docs/awards/award-types.rst:7
 msgid "Advancing Awards"
 msgstr "可晋级奖项"
 
+#: ../../gm0/source/docs/awards/award-types.rst:9
+msgid ""
+"There are 8 awards for FTC\\ |reg| teams (excluding optional awards). For "
+"more information on the exact requirements for these awards, see |cm|."
+msgstr "FTC\\ |reg| 团队可以获得8个奖项（不包括可选奖项）。有关这些奖项具体要求的详细信息，请参阅 |cm|。"
+
+#: ../../gm0/source/docs/awards/award-types.rst-1
+msgid "Award hierarchy"
+msgstr "奖项体系"
+
+#: ../../gm0/source/docs/awards/award-types.rst:15
+msgid "These are:"
+msgstr "它们是："
+
+#: ../../gm0/source/docs/awards/award-types.rst:17
+msgid ""
+"**The Inspire Award** recognizes teams who excel in MCI, TA, and Think award"
+" accomplishments. This team is an all-around inspiration for others."
+msgstr "**启发奖** 旨在表彰在 MCI、TA 和 思维奖项方面取得优异成绩的团队。该团队全面激励他人。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:21
+msgid ""
+"**Judges' Choice Award** recognizes a team whose unique efforts, "
+"performance, or dynamics merit recognition, but does not fit into any of the"
+" other award categories."
+msgstr "**评委选择奖** 旨在表彰在工作、表现或活力方面具有独特价值，但不属于其他奖项类别的团队。"
+
 #: ../../gm0/source/docs/awards/award-types.rst:25
 msgid "Inspire Award"
 msgstr "启发奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:28
+#: ../../gm0/source/docs/awards/award-types.rst:69
+#: ../../gm0/source/docs/awards/award-types.rst:113
+#: ../../gm0/source/docs/awards/award-types.rst:162
+#: ../../gm0/source/docs/awards/award-types.rst:209
+#: ../../gm0/source/docs/awards/award-types.rst:273
+#: ../../gm0/source/docs/awards/award-types.rst:362
+#: ../../gm0/source/docs/awards/award-types.rst:399
+#: ../../gm0/source/docs/awards/award-types.rst:442
+#: ../../gm0/source/docs/awards/award-types.rst:474
+msgid "Official |cm| Description"
+msgstr "官方 |cm| 说明"
+
+#: ../../gm0/source/docs/awards/award-types.rst:30
+#: ../../gm0/source/docs/awards/award-types.rst:71
+#: ../../gm0/source/docs/awards/award-types.rst:115
+#: ../../gm0/source/docs/awards/award-types.rst:164
+#: ../../gm0/source/docs/awards/award-types.rst:211
+#: ../../gm0/source/docs/awards/award-types.rst:275
+#: ../../gm0/source/docs/awards/award-types.rst:363
+#: ../../gm0/source/docs/awards/award-types.rst:401
+#: ../../gm0/source/docs/awards/award-types.rst:444
+#: ../../gm0/source/docs/awards/award-types.rst:476
+msgid "Term"
+msgstr "术语"
+
+#: ../../gm0/source/docs/awards/award-types.rst:33
+msgid ""
+"The team that receives this award is a strong ambassador for FIRST programs "
+"and a role model FIRST team. This team is a top contender for many other "
+"judged awards and is a gracious competitor. The Inspire Award winner is an "
+"inspiration to other teams, acting with Gracious Professionalism\\ |reg| "
+"both on and off the playing FIELD. This team shares their experiences, "
+"enthusiasm, and knowledge with other teams, sponsors, their community, and "
+"the JUDGES. Working as a unit, this team will have shown success in "
+"performing the task of designing and building a ROBOT."
+msgstr ""
+"获得此奖项的团队是 FIRST 项目的杰出代表，也是一个模范 FIRST "
+"团队。该队是许多其他评审奖项的有力竞争者，也是一个高尚的竞争者。启发奖得主在赛场内外都以高尚的专业精神激励着其他团队。该团队与其他团队、赞助商、社区和评委分享他们的经验、热情和知识。通过团队合作，该团队表现出其成功完成了设计和制造机器人的任务。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:36
+msgid ""
+"A portfolio is required for this award. The Inspire Award is the top award "
+"for an FTC team. It is given to a team that consistently rises to the top in"
+" other awards categories."
+msgstr "此奖项需提交作品集。启发奖是FTC团队的最高荣誉，授予在其他奖项类别中持续表现优异的团队。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:38
+msgid ""
+"Of all the awards, this one is arguably the most subjective, as it is about "
+"how good a team does overall, including how much they weigh outreach as "
+"compared to robot performance and documentation."
+msgstr "在所有奖项中，这个奖项或许是最主观的，因为它关乎团队的整体表现——包括与机器人表现和文档相比，他们在多大程度上权衡了外联和推广。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:40
+msgid ""
+"While the description is comprehensive, here are the key, unwritten tips for"
+" winning the top award:"
+msgstr "虽然说明很全面，但赢得最高奖项的关键是以下不成文的秘诀："
+
+#: ../../gm0/source/docs/awards/award-types.rst:43
+msgid ""
+"Be a \"Complete Package\": You cannot win Inspire by being excellent in just"
+" one area. Your robot must be competitive (a top contender), your portfolio "
+"must be comprehensive and professional, and your outreach must be "
+"meaningful. Excellence in all judged categories is the goal."
+msgstr ""
+"成为“全能选手”：仅在某一领域表现卓越无法赢得启发奖。你的机器人必须具备竞争力（一个顶尖竞争者），作品集必须全面且专业，推广活动必须富有意义。在所有评判类别中追求卓越是最终目标。"
+
+#: ../../gm0/source/docs/awards/award-types.rst:49
+msgid "Inspire Award Criteria"
+msgstr "启发奖标准"
+
+#: ../../gm0/source/docs/awards/award-types.rst:52
+#: ../../gm0/source/docs/awards/award-types.rst:54
+#: ../../gm0/source/docs/awards/award-types.rst:60
+#: ../../gm0/source/docs/awards/award-types.rst:62
+#: ../../gm0/source/docs/awards/award-types.rst:85
+#: ../../gm0/source/docs/awards/award-types.rst:127
+#: ../../gm0/source/docs/awards/award-types.rst:176
+#: ../../gm0/source/docs/awards/award-types.rst:178
+#: ../../gm0/source/docs/awards/award-types.rst:223
+#: ../../gm0/source/docs/awards/award-types.rst:228
+#: ../../gm0/source/docs/awards/award-types.rst:293
+#: ../../gm0/source/docs/awards/award-types.rst:295
+#: ../../gm0/source/docs/awards/award-types.rst:297
+#: ../../gm0/source/docs/awards/award-types.rst:380
+#: ../../gm0/source/docs/awards/award-types.rst:386
+#: ../../gm0/source/docs/awards/award-types.rst:417
+#: ../../gm0/source/docs/awards/award-types.rst:419
+#: ../../gm0/source/docs/awards/award-types.rst:488
+#: ../../gm0/source/docs/awards/award-types.rst:490
+msgid "**Required**"
+msgstr "**要求**"
+
+#: ../../gm0/source/docs/awards/award-types.rst:52
+#: ../../gm0/source/docs/awards/award-types.rst:85
+#: ../../gm0/source/docs/awards/award-types.rst:127
+#: ../../gm0/source/docs/awards/award-types.rst:176
+#: ../../gm0/source/docs/awards/award-types.rst:223
+#: ../../gm0/source/docs/awards/award-types.rst:293
+#: ../../gm0/source/docs/awards/award-types.rst:380
+#: ../../gm0/source/docs/awards/award-types.rst:417
+#: ../../gm0/source/docs/awards/award-types.rst:488
+msgid "1"
+msgstr "1"
+
+#: ../../gm0/source/docs/awards/award-types.rst:58
+msgid "Think Award."
+msgstr "思维奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:60
+#: ../../gm0/source/docs/awards/award-types.rst:98
+#: ../../gm0/source/docs/awards/award-types.rst:134
+#: ../../gm0/source/docs/awards/award-types.rst:180
+#: ../../gm0/source/docs/awards/award-types.rst:230
+#: ../../gm0/source/docs/awards/award-types.rst:297
+#: ../../gm0/source/docs/awards/award-types.rst:388
+#: ../../gm0/source/docs/awards/award-types.rst:421
+msgid "3"
+msgstr "3"
+
+#: ../../gm0/source/docs/awards/award-types.rst:62
+#: ../../gm0/source/docs/awards/award-types.rst:182
+#: ../../gm0/source/docs/awards/award-types.rst:232
+#: ../../gm0/source/docs/awards/award-types.rst:299
+#: ../../gm0/source/docs/awards/award-types.rst:390
+#: ../../gm0/source/docs/awards/award-types.rst:423
+msgid "4"
+msgstr "4"
 
 #: ../../gm0/source/docs/awards/award-types.rst:66
 msgid "Think Award"
@@ -38,6 +200,14 @@ msgstr "思维奖"
 #: ../../gm0/source/docs/awards/award-types.rst:110
 msgid "Connect Award"
 msgstr "联结奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:159
+msgid "Reach Award"
+msgstr "发展奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:206
+msgid "Sustain Award"
+msgstr "承载奖"
 
 #: ../../gm0/source/docs/awards/award-types.rst:262
 msgid ""
@@ -105,6 +275,11 @@ msgid ""
 "control award."
 msgstr "此外，能获得控制奖的软件不仅仅是你的自动程序。操作手辅助、反馈和自动化对于控制奖都至关重要。"
 
+#: ../../gm0/source/docs/awards/award-types.rst:392
+#: ../../gm0/source/docs/awards/award-types.rst:425
+msgid "5"
+msgstr "5"
+
 #: ../../gm0/source/docs/awards/award-types.rst:396
 msgid "Design Award"
 msgstr "设计奖"
@@ -138,3 +313,33 @@ msgstr "有些奖项是活动不需要颁发的；这些不会推进团队。"
 #: ../../gm0/source/docs/awards/award-types.rst:499
 msgid "Some good Compass award submissions include:"
 msgstr "一些优秀的罗盘奖项提交包括："
+
+#: ../../gm0/source/docs/awards/award-types.rst:501
+msgid "`Team 11206 in 2025 <https://www.youtube.com/watch?v=GD6snNGpSNM>`_"
+msgstr "`Team 11206 in 2025 <https://www.youtube.com/watch?v=GD6snNGpSNM>`_"
+
+#: ../../gm0/source/docs/awards/award-types.rst:502
+msgid "`Team 5356 in 2024 <https://www.youtube.com/watch?v=qVfcVa6nIms>`_"
+msgstr "`Team 5356 in 2024 <https://www.youtube.com/watch?v=qVfcVa6nIms>`_"
+
+#: ../../gm0/source/docs/awards/award-types.rst:503
+msgid "`Team 14010 in 2023 <https://www.youtube.com/watch?v=XN-TyxRsGxg>`_"
+msgstr "`Team 14010 in 2023 <https://www.youtube.com/watch?v=XN-TyxRsGxg>`_"
+
+#: ../../gm0/source/docs/awards/award-types.rst:504
+msgid "`Team 18457 in 2023 <https://www.youtube.com/watch?v=zlCELaCZox4>`_"
+msgstr "`Team 18457 in 2023 <https://www.youtube.com/watch?v=zlCELaCZox4>`_"
+
+#: ../../gm0/source/docs/awards/award-types.rst:510
+msgid "Digital Animation Award"
+msgstr "数字动画奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:515
+msgid "Safety Animation Award"
+msgstr "安全动画奖"
+
+#: ../../gm0/source/docs/awards/award-types.rst:521
+msgid ""
+"Everyone is responsible for safety during team meetings and the design, "
+"build, travel, and event phases of the competition."
+msgstr "在团队会议以及比赛的设计、建造、旅行和活动阶段，每个人都要对安全负责。"
