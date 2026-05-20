@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-19 05:24+0000\n"
+"POT-Creation-Date: 2026-05-20 07:51+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -25,6 +25,14 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:4
 msgid "Control System Electronics"
 msgstr "Electrónica del sistema de control"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:6
+msgid ""
+"This page contains a breakdown of known electronics in the REV Robotics "
+"control system, as well as notes regarding them."
+msgstr ""
+"Esta página contiene un desglose de los componentes electrónicos conocidos "
+"del sistema de control de REV Robotics, así como notas sobre ellos."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
 msgid "Expansion Hub Internals"
@@ -46,6 +54,22 @@ msgstr ""
 msgid "Lynx Board"
 msgstr "Tablero Lynx"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
+msgid ""
+"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
+"Hub that interacts with hardware. References to \"Lynx\" made in the FTC\\ "
+"|reg| SDK refer to this board. It appears to have been developed by both REV"
+" Robotics and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company). A "
+"reverse-engineered schematic can be found `here "
+"<https://github.com/DuckTapeAndAPrayer/LynxSchematic>`_."
+msgstr ""
+"\"Lynx\" es el nombre en clave de la placa dentro del Expansion Hub y "
+"Control Hub que interactúa con el hardware. Las referencias a \"Lynx\" en el"
+" SDK de FTC se refieren a esta placa. Parece haber sido desarrollada tanto "
+"por REV Robotics como por `DEKA <https://dekaresearch.com/>`_ (la empresa de"
+" Dean Kamen). Un esquema de ingeniería inversa se puede encontrar `aquí "
+"<https://github.com/DuckTapeAndAPrayer/LynxSchematic>`_."
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
 msgid "A Lynx board that was removed from its case"
 msgstr "Una placa Lynx sacada de su caja"
@@ -54,9 +78,23 @@ msgstr "Una placa Lynx sacada de su caja"
 msgid "Processor"
 msgstr "Procesador"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:28
+msgid ""
+"The microcontroller used by the Lynx board is a `Texas Instruments "
+"TM4C123GH6PGE <https://www.ti.com/product/TM4C123GH6PGE>`_, with an Arm "
+"Cortex-M4F processor running at 80 MHZ."
+msgstr ""
+"El microcontrolador utilizado por la placa Lynx es un `Texas Instruments "
+"TM4C123GH6PGE <https://www.ti.com/product/TM4C123GH6PGE>`_, con un "
+"procesador Arm Cortex-M4F funcionando a 80 MHZ."
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:31
 msgid "Ports"
 msgstr "Puertos"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:33
+msgid "The Lynx board has the following ports:"
+msgstr "La placa Lynx tiene los siguientes puertos:"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:35
 msgid "Two UART Debug Ports"
@@ -82,6 +120,30 @@ msgstr ""
 msgid "Four I2C Ports"
 msgstr "Cuatro puertos I2C"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:41
+msgid "These ports are 100/400 kHz compliant."
+msgstr "Estos puertos son compatibles con 100/400 kHz."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:42
+msgid ""
+"The ports are connected to separate busses, so there is generally no need to"
+" be concerned about address collisions.  However, be aware that the internal"
+" IMU shares the I2C bus with I2C port 0."
+msgstr ""
+"Los puertos están conectados a buses separados, por lo que generalmente no "
+"hay necesidad de preocuparse por colisiones de direcciones.  Sin embargo, "
+"ten en cuenta que la IMU interna comparte el bus I2C con el puerto I2C 0."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:43
+msgid ""
+"There appear to be integrated pull up resistors on this port (potentially "
+"using the built-in configurable pull-up/pull-down resistors integrated into "
+"the MCU)."
+msgstr ""
+"Parece que hay resistencias pull up integradas en este puerto "
+"(potencialmente utilizando las resistencias pull-up/pull-down configurables "
+"integradas en la MCU)."
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:44
 msgid "Eight DIO Ports"
 msgstr "Ocho puertos DIO"
@@ -97,6 +159,18 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:47
 msgid "Four Analog Ports"
 msgstr "Cuatro puertos analógicos"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:49
+msgid ""
+"These ports are 5V compliant; you can use a level shifter to supply 5v to "
+"the sensor, but take care the analog line bypasses the level shifter. The "
+"VIN and GND lines, however, must pass through the level shifter for it to "
+"work."
+msgstr ""
+"Estos puertos son compatibles con 5V; puedes utilizar un variador de nivel "
+"para suministrar 5v al sensor, pero ten cuidado de que la línea analógica no"
+" pase por el variador de nivel. Las líneas VIN y GND, sin embargo, deben "
+"pasar a través del variador de nivel para que funcione."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:50
 msgid "Six Servo Ports"
@@ -114,17 +188,85 @@ msgstr ""
 "activan y desactivan juntos, y desactivar PWM en un puerto desactivará todos"
 " los puertos a menos que se utilice otro servo."
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:53
+msgid ""
+"Each pair of 2 side-by-side ports is rated for a maximum current draw of 2 "
+"amps, and the combined set of servo + 5V ports is rated for a maximum total "
+"current draw of 5 amps."
+msgstr ""
+"Cada par de 2 puertos uno al lado del otro está clasificado para un consumo "
+"máximo de corriente de 2 amperios, y el conjunto combinado de puertos servo "
+"+ 5V está clasificado para un consumo máximo total de corriente de 5 "
+"amperios."
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:54
 msgid "Two 5V Power Ports"
 msgstr "Dos puertos de alimentación de 5 V"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:56
+msgid ""
+"The pair of 5V supply ports in rated for a maximum current draw of 2 amps, "
+"and shares the total 5 amp limit with the servo ports."
+msgstr ""
+"El par de puertos de alimentación de 5 V tiene un consumo máximo de "
+"corriente de 2 amperios y comparte el límite total de 5 amperios con los "
+"puertos de servo."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:57
 msgid "Four Motor Ports"
 msgstr "Cuatro puertos de motor"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
+msgid ""
+"The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is "
+"capabile of handling well over the maximum amount of current an FTC motor "
+"can draw. It has integrated current sensing, and built-in thermal and "
+"current safety limits."
+msgstr ""
+"El controlador del motor es un circuito integrado ST Microelectronics "
+"VNH5050, capaz de manejar una corriente muy superior a la máxima que puede "
+"consumir un motor FTC. Dispone de detección de corriente integrada y límites"
+" de seguridad térmicos y de corriente incorporados."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:60
+msgid ""
+"The output does not brake the H-bridge during the PWM off cycle. What this "
+"means is that there might be linearity issues while deaccelerating, because "
+"of momentum in the motor."
+msgstr ""
+"La salida no frena el puente H durante el ciclo de apagado del PWM. Esto "
+"significa que puede haber problemas de linealidad al desacelerar, debido al "
+"impulso del motor."
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:61
 msgid "Four Encoder Ports"
 msgstr "Cuatro puertos de codificador"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:63
+msgid ""
+"**IMPORTANT: Only two of the encoder ports (Ports 0 and 3) can accurately "
+"track position/velocity at high speeds**. There are two methods of "
+"connecting an encoder internally to the Texas Instruments microprocessor, "
+"through the Quadrature Encoder Interface (QEI) and through General-Purpose "
+"Timers (GPTs). Ports 0 and 3 use the integrated QEI and are extremely "
+"accurate at high speeds, whereas encoders using the GPTs often start to "
+"loose counts at high speeds. As a result, high Count per Revolution (CPR) "
+"encoders (those with more than around 4000 counts per revolution) expected "
+"to spin somewhat quickly (such as encoders being used in odometry pods) "
+"should NOT be used on ports 1 and 2."
+msgstr ""
+"**IMPORTANTE: Sólo dos de los puertos de encoder (Puertos 0 y 3) pueden "
+"seguir con precisión la posición/velocidad a altas velocidades**. Existen "
+"dos métodos para conectar internamente un encoder al microprocesador de "
+"Texas Instruments, a través de la interfaz de encoder en cuadratura (QEI) y "
+"a través de temporizadores de propósito general (GPT). Los puertos 0 y 3 "
+"utilizan el QEI integrado y son extremadamente precisos a altas velocidades,"
+" mientras que los encoders que utilizan los GPTs a menudo empiezan a perder "
+"recuentos a altas velocidades. Como resultado, los codificadores de alto "
+"número de cuentas por revolución (CPR) (aquellos con más de 4000 cuentas por"
+" revolución) que se espera que giren con cierta rapidez (como los "
+"codificadores que se utilizan en los pods de odometría) NO deberían "
+"utilizarse en los puertos 1 y 2."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:64
 msgid "Two XT30 Connectors"
@@ -156,9 +298,65 @@ msgstr ""
 msgid "USB Mini-B Connector"
 msgstr "Conector USB Mini-B"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:70
+msgid ""
+"Uses the FTDI FT230XQ chip to bridge the internal UART to USB, allowing an "
+"Expansion Hub to connect over USB to a Control Hub, Android device, "
+"computer, or other such device. The FT230XQ is capable of USB Full Speed (12"
+" Mbps) on the USB side and 3 MBaud on the UART side, and 5V output to charge"
+" a phone. According to REV, the 5V output is not compatible with any of the "
+"remaining Android phones still legal in FTC.  This USB chip is disabled by "
+"the compute board of the Control Hub, meaning this port is not functional "
+"out-of-the-box on a Control Hub."
+msgstr ""
+"Utiliza el chip FTDI FT230XQ para puentear la UART interna a USB, "
+"permitiendo que el Expansion Hub se conecte a través de USB al Control Hub, "
+"dispositivo Android, ordenador u otro dispositivo similar. El FT230XQ es "
+"capaz de USB Full Speed (12 Mbps) en el lado USB y 3 MBaud en el lado UART, "
+"y 5V de salida para cargar un teléfono. Según REV, la salida de 5V no es "
+"compatible con ninguno de los teléfonos Android que aún son legales en la "
+"FTC.  Este chip USB está deshabilitado por la placa de computación del "
+"Control Hub, lo que significa que este puerto no es funcional fuera de la "
+"caja en un Control Hub."
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
 msgid "Internal Connector"
 msgstr "Conector interno"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:73
+msgid ""
+"This connector is what is used to connect to the compute daughterboard. It "
+"has a UART connection, as well as power and ground. All Lynx modules that "
+"came is part of an Control Hub will have this connector, but Lynx modules "
+"sold as Expansion Hubs may or may not have this connector. A Lynx board from"
+" an Expansion Hub that contains the connector, when connected with a Control"
+" Hub's daughterboard, will work as a Control Hub. To go the other way, the "
+"Hub address has to be changed to something other than the Control Hub "
+"address of 173. You can change the address once the daughterboard is removed"
+" by plugging it into an Android device running the Robot Controller app and "
+"using the function in the settings to change the address. (Note that "
+"connecting it to another Control Hub is unlikely to work, due to the address"
+" interference betwen the two Lynx modules. The Driver Hub works fine for "
+"this purpose, but make sure to uninstall the Robot Controller app from it "
+"afterwards, so it doesn't potentially interfere with the Driver Station "
+"app!)"
+msgstr ""
+"Este conector es el que se utiliza para conectarse a la placa hija de "
+"computación. Tiene una conexión UART, así como alimentación y tierra. Todos "
+"los módulos Lynx que vienen como parte de un Control Hub tendrán este "
+"conector, pero los módulos Lynx vendidos como Expansion Hubs pueden o no "
+"tener este conector. Una placa Lynx de un Expansion que contenga el "
+"conector, cuando se conecte con una placa hija de un Control Hub, funcionará"
+" como un Control Hub. Para ir en la otra dirección, la dirección del Hub "
+"tiene que ser cambiada a otra que no sea la dirección del Control Hub de "
+"173. Puedes cambiar la dirección una vez que hayas retirado la tarjeta "
+"secundaria conectándola a un dispositivo Android que ejecute la aplicación "
+"Robot Controller y utilizando la función en la configuración para cambiar la"
+" dirección. (Tenga en cuenta que la conexión a otro concentrador de control "
+"es poco probable que funcione, debido a la interferencia de dirección betwen"
+" los dos módulos Lynx. El Driver Hub funciona bien para este propósito, pero"
+" asegúrese de desinstalar la aplicación Robot Controller de él después, para"
+" que no interfiera potencialmente con la aplicación Driver Station)."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:76
 msgid "Control Hub"
@@ -177,6 +375,36 @@ msgstr ""
 "Controlador de Robot separado, ya que la placa de cómputo funciona como el "
 "Controlador de Robot. Internamente, los comandos Lynx se envían desde la "
 "placa hija a la placa Lynx a través de una conexión UART interna."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:80
+msgid ""
+"The compute board is based on the `96Boards CE Specification, Version 1.0 "
+"<https://raw.githubusercontent.com/96boards/documentation/master/Specifications/96Boards-"
+"CE-Specification.pdf>`_, though it is unknown how many of the features of "
+"the two expansion connectors are wired up/functional beyond the UART and "
+"handful of GPIO lines used to connect to the Lynx board."
+msgstr ""
+"La placa de computación se basa en la `96Boards CE Specification, Version "
+"1.0 "
+"<https://raw.githubusercontent.com/96boards/documentation/master/Specifications/96Boards-"
+"CE-Specification.pdf>`_, aunque se desconoce cuántas de las características "
+"de los dos conectores de expansión están cableadas/funcionales más allá de "
+"la UART y un puñado de líneas GPIO utilizadas para conectar con la placa "
+"Lynx."
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:83
+msgid ""
+"The original version of the Control Hub (REV-31-1152) actually used a "
+"`Dragonboard 410c <https://www.96boards.org/product/dragonboard410c/>`_ as "
+"the compute board.  This version of the Control Hub was never used in, nor "
+"legal for, FTC; it appears to have only been used in early *FIRST*\\ |reg| "
+"Global seasons."
+msgstr ""
+"La versión original del Control Hub (REV-31-1152) utilizaba en realidad una "
+"`Dragonboard 410c <https://www.96boards.org/product/dragonboard410c/>`_ como"
+" placa de cálculo.  Esta versión del Control Hub nunca se utilizó, ni fue "
+"legal para FTC; parece que sólo se utilizó en las primeras temporadas de "
+"*FIRST* |reg| Global."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
 msgid ""
@@ -200,6 +428,16 @@ msgstr "SOC: Rockchip RK3328"
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:89
 msgid "CPU: Quad-core ARM\\ |reg| Cortex-A53"
 msgstr "CPU: Quad-core ARM\\ |reg| Cortex-A53"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:91
+msgid ""
+"The device tree in `the official kernel "
+"<https://github.com/REVrobotics/kernel-controlhub-android>`_ seems to "
+"indicate that the CPU can clock up to 1.5 GHz"
+msgstr ""
+"El árbol de dispositivos en `el kernel oficial "
+"<https://github.com/REVrobotics/kernel-controlhub-android>`_ parece indicar "
+"que la CPU puede alcanzar hasta 1,5 GHz."
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:92
 msgid "GPU - ARM\\ |reg| Mali 450MP4"

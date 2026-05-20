@@ -6,17 +6,17 @@
 # Translators:
 # Ddino XD, 2024
 # Crackermi, 2024
-# Yaretzi Lugo, 2024
 # Anthonella Contla, 2024
+# Yaretzi Lugo, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-07 04:16+0000\n"
+"POT-Creation-Date: 2026-05-20 07:51+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Anthonella Contla, 2024\n"
+"Last-Translator: Yaretzi Lugo, 2026\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -336,3 +336,105 @@ msgstr ""
 "v_{br} = v_f - v_s + (2r_b \\cdot \\omega)\n"
 "\n"
 "v_{fr} = v_f + v_s + (2r_b \\cdot \\omega)"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:113
+msgid "Manipulators"
+msgstr "Manipuladores"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:118
+msgid "Gravity Compensation"
+msgstr "Compensación de la gravedad"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:120
+msgid ""
+"Often in FTC, teams have arms that swing out around an axis. Controlling "
+"these arms requires a bit of thought as depending on the angle they're at, "
+"the effect of gravity drastically changes."
+msgstr ""
+"En FTC, los equipos suelen tener brazos que giran alrededor de un eje. "
+"Controlar estos brazos requiere un poco de reflexión, ya que dependiendo del"
+" ángulo en el que se encuentren, el efecto de la gravedad cambia "
+"drásticamente."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:122
+msgid ""
+"Our first step is defining a reference frame. Our recommendation is to "
+"define zero as straight to the side, as this is when gravity has the "
+"greatest effect on your arm. Other reference frames will still work, but the"
+" exact trigonometry will change."
+msgstr ""
+"Nuestro primer paso es definir un marco de referencia. Nuestra recomendación"
+" es definir el cero como recto hacia un lado, ya que es cuando la gravedad "
+"tiene el mayor efecto sobre el brazo. Otros marcos de referencia seguirán "
+"funcionando, pero la trigonometría exacta cambiará."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:127
+msgid ""
+"A diagram of a robot with a long arm, with 0 degrees marked to the side"
+msgstr ""
+"Un diagrama de un robot con un brazo largo, con 0 grados marcados a un lado"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:127
+msgid "11329 I.C.E. Robotics"
+msgstr "11329 I.C.E. Robotics"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:129
+msgid ""
+"In a reference frame like this, the relative force of gravity will be equal "
+"to the cos of the angle. This makes sense as when the cos function is "
+"evaluated at zero degrees, it returns 1, while at 90 degrees where there is "
+"no effect of gravity, it returns 0."
+msgstr ""
+"En un sistema de referencia como éste, la fuerza relativa de la gravedad "
+"será igual al cos del ángulo. Esto tiene sentido ya que cuando la función "
+"cos se evalúa a cero grados, devuelve 1, mientras que a 90 grados donde no "
+"hay efecto de la gravedad, devuelve 0."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:131
+msgid ""
+"F_g = g\\cos{\\theta}\n"
+"\n"
+msgstr ""
+"F_g = g\\cos{\\theta}\n"
+"\n"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:134
+msgid ""
+"Assuming you have an encoder on your arm, you can find :math:`\\theta` (the "
+"angle of the arm relative to the vertical) using something similar to the "
+"following pseudocode."
+msgstr ""
+"Suponiendo que tienes un codificador en el brazo, puedes encontrar "
+":math:`\\theta` (el ángulo del brazo con respecto a la vertical) usando algo"
+" similar al siguiente pseudocódigo."
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:136
+msgid ""
+"DEGREE_PER_TICK can be found by taking 360 divided by your encoder "
+"resolution all multiplied by your gear ratio. For example, for a `19.2:1 "
+"goBILDA Yellow Jacket <https://www.gobilda.com/5203-series-yellow-jacket-"
+"planetary-gear-motor-19-2-1-ratio-24mm-length-8mm-rex-"
+"shaft-312-rpm-3-3-5v-encoder/>`_, there are 537.7 ticks per revolution, and "
+"so :math:`\\frac{360}{537.7}` degrees per tick at the gearbox output shaft. "
+"If there was a 2:1 gear ratio after that, then the ticks per revolution "
+"would instead be :math:`\\frac{360}{2 \\times 537.7}`"
+msgstr ""
+"GRADOS_POR_TICK se puede encontrar tomando 360 dividido por la resolución de"
+" su codificador todo multiplicado por su relación de transmisión. Por "
+"ejemplo, para un `19.2:1 goBILDA Yellow Jacket "
+"<https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-"
+"motor-19-2-1-ratio-24mm-length-8mm-rex-shaft-312-rpm-3-3-5v-encoder/>`_, hay"
+" 537.7 ticks por revolución, y así :math:`\\frac{360}{537.7}` grados por "
+"tick en el eje de salida de la caja de cambios. Si había una relación de "
+"transmisión de 2:1 después de que, a continuación, las ticks por revolución "
+"sería en cambio :math:`\\frac{360}{2 \\times 537.7}`"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:142
+msgid ""
+"The typical way to utilize the effect of gravity you just found, is to pass "
+"it in as a feedforward parameter to a PID controller. We cover this in "
+":ref:`gravity-compensated-feedforward`."
+msgstr ""
+"La forma típica de utilizar el efecto de la gravedad que acabas de "
+"encontrar, es pasarlo como un parámetro feedforward a un controlador PID. "
+"Cubrimos esto en :ref:`avance-compensado-por-gravedad`."
