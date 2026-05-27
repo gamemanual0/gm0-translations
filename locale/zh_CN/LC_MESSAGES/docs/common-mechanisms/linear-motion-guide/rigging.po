@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# wwsk2008sq, 2024
+# mo-wu-si-kong, 2024
 # Shawphy, 2025
 # 
 #, fuzzy
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 16:34+0000\n"
+"POT-Creation-Date: 2026-05-27 08:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -482,18 +482,6 @@ msgid ""
 msgstr ""
 "与线缆不同，滑轨上使用的皮带无需张紧。正如线缆性运动部分所讨论的，为了让线缆驱动的滑轨保持高效，必须保持线缆的张力。随着时间的推移，线缆自然会松弛，因此你要么需要一个能提供额外张力的装置（弹簧），要么需要手动拉紧线缆，这可能会有点繁琐（尤其是在级联索具上）。"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:174
-msgid ""
-"However, belts do not have this issue. They tend not to stretch over time, "
-"meaning complex external tensioners are rarely needed. Belts are also on an "
-"automatic one to one loop, meaning that for every inch you pull in on the "
-"extension side, you always feed back out that inch on the retraction side, "
-"and vise versa. While this might not seem like a big deal, if a string winds"
-" itself up on a spool and overlaps at any point, the diameter of the spool "
-"changes, making the two spools out of sync."
-msgstr ""
-"然而，皮带却没有这个问题。它们往往不会随着时间的推移而拉伸，这意味着很少需要复杂的外部张紧器。皮带也是一对一自动循环的，这意味着在拉伸侧每拉进一英寸，就会在缩回侧拉出一英寸，反之亦然。虽然这看起来不是什么大问题，但如果绳子在线轴上缠绕，并在任何一点上重叠，线轴的直径就会发生变化，从而使两个线轴不同步。"
-
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:177
 msgid "Disadvantages over string"
 msgstr "与线缆相比的缺点"
@@ -596,18 +584,6 @@ msgid ""
 "is possible to mount a pulley on a piece of extrusion, and slide it so the "
 "string is taut."
 msgstr "另一种张紧器是弹簧滑轮。由于滑轮是弹簧加载的，因此它可以承受绳子的松弛。另外，也可以将滑轮安装在一块铝型材上，然后滑动滑轮使绳子绷紧。"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:218
-msgid ""
-"There are two main reasons that tensioners are highly recommended in string "
-"based linear slides, the first and oftentimes more important one, is that at"
-" its core, a run of string is a series of polygons, and as the slide extends"
-" the effective size of that polygon changes. Meaning that when fully "
-"extended, your slide may require more or less string compared to when "
-"halfway extended. Or partially extended. The closer each set of bearings "
-"are, the less this impracts string tension."
-msgstr ""
-"在基于线缆性滑轨的线缆中强烈推荐使用拉伸器有两个主要原因，第一个也是通常更重要的一个原因是，线缆的核心是一系列多边形，随着滑轨的延伸，多边形的有效尺寸也会发生变化。这意味着，当滑轨完全伸展时，与半伸展时相比，可能需要更多或更少的线缆。或部分伸展时。每组轴承的距离越近，对线缆张力的影响就越小。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:220
 msgid ""

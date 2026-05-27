@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 04:15+0000\n"
+"POT-Creation-Date: 2026-05-27 08:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -352,9 +352,9 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:90
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:104
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:122
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:244
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:266
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:292
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:262
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:284
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:310
 msgid "Advantages:"
 msgstr "Avantaje:"
 
@@ -365,9 +365,9 @@ msgstr "Cea mai simplă schemă de retragere"
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:94
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:109
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:127
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:250
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:271
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:297
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:289
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:315
 msgid "Disadvantages:"
 msgstr "Dezavantaje:"
 
@@ -471,7 +471,7 @@ msgstr ""
 "bobinei de retracție în cascadă."
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:124
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:268
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:286
 msgid "Very space-efficient"
 msgstr "Foarte eficient din punct de vedere al spațiului"
 
@@ -542,11 +542,11 @@ msgstr ""
 "continuu, dar aveți mult mai multe corzi de urmărit, deoarece tensiunea "
 "trebuie menținută pe toate."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:147
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:165
 msgid "Belt-driven slides"
 msgstr "Glisiere acționate cu curea"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:149
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:167
 msgid ""
 "One increasingly popular alternative to traditional string-based rigging is "
 "belt-driven slides. This can be done continuously or using cascade rigging."
@@ -555,11 +555,11 @@ msgstr ""
 " sfori este reprezentată de glisierele acționate cu curele. Acest lucru se "
 "poate face în mod continuu sau prin intermediul unui montaj în cascadă."
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:152
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:170
 msgid "Advantages over string"
 msgstr "Avantaje față de sfoară"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:154
+#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rigging.rst:172
 msgid ""
 "Unlike string, belts used on slides never need to be tensioned. As discussed"
 " in the linear motion section, in order for string-driven slides to remain "
