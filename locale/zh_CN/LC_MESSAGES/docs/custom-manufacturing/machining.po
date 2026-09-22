@@ -1,6 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Game Manual 0 Contributors |  Hosting Graciously Provided By //Copperforge
+# This file is distributed under the same license as the Game Manual 0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Shawphy, 2026
+# 
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: Game Manual 0 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-22 09:12+0000\n"
+"PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:4
+msgid "Machining"
+msgstr "机械加工"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:7
+msgid "Advantages of Machining"
+msgstr "机械加工的优势"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:9
+msgid ""
+"Machining allows teams to create practically any part without limitations."
+msgstr "通过机械加工，团队几乎可以不受限制地制造任何零件。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:10
+msgid ""
+"Machining allows teams to create custom drivetrain plates, arms, linear "
+"slides, etc to fit their design needs more effectively than kits."
+msgstr "通过机械加工，团队能够制造定制的传动系统底板、连杆、直线导轨等部件，相比成套件，更能有效满足其设计需求。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:11
+msgid "Machining is cool. Yes, really."
+msgstr "机械加工真酷。是的，真的。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:14
+msgid "Disadvantages of Machining"
+msgstr "机械加工的缺点"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:16
+msgid ""
+"Perhaps the biggest barrier when making a fully custom robot is that it "
+"requires very expensive manufacturing equipment. While 3D printers have "
+"become more and more common in FTC\\ |reg| and allow teams to create or "
+"customize small parts, many teams do not have access to equipment such as "
+"lathes, routers, waterjet cutters, or CNC machines."
+msgstr ""
+"在制造完全定制的机器人时，最大的障碍或许在于需要非常昂贵的制造设备。虽然3D打印机在FTC\\ "
+"|reg|中已越来越普遍，并能让各支队伍制作或定制小型零件，但许多队伍仍无法使用车床、铣床、水刀切割机或数控机床等设备。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:17
+msgid ""
+"Fully custom robots need to be fully designed in CAD. Sketching will not cut"
+" it when building custom robots."
+msgstr "完全定制的机器人需要在CAD中进行全面设计。在制造定制机器人时，仅靠草图是远远不够的。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:18
+msgid ""
+"Another barrier is that prototyping with fully custom systems is almost "
+"always much slower than using kit parts. The full CAD process takes time, "
+"and fabrication/getting parts fabricated by a shop or sponsor is another "
+"lengthy process. Notwithstanding those two factors, if something goes "
+"drastically wrong then it will require a repeat process of CAD and "
+"fabrication."
+msgstr ""
+"另一个障碍在于，使用完全定制的系统进行原型制作，其速度几乎总是远低于使用套件部件。完整的CAD设计过程需要时间，而加工或委托工厂或赞助商加工零件则是另一个耗时的过程。即便不考虑这两个因素，如果出现重大问题，就必须重新进行CAD设计和加工。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:20
+msgid ""
+"It must be noted that teams do not need to pick between a fully kit-based "
+"robot or a fully custom robot. In fact, many successful teams are actually a"
+" hybrid of both kit and custom parts, as can be seen in many of example "
+"robots in this section."
+msgstr ""
+"需要注意的是，各支队伍无需在完全采用套件组装的机器人与完全定制的机器人之间做出选择。事实上，许多成功的队伍实际上采用了套件部件与定制部件相结合的混合方案，本节中的许多示例机器人便体现了这一点。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:22
+msgid ""
+"However, our suggestion is that inexperienced teams should prioritize 3D "
+"printing over machining for fabricating custom parts, at least for the near "
+"term."
+msgstr "不过，我们的建议是，经验尚浅的团队在制造定制零件时，至少在短期内，应优先考虑3D打印而非机械加工。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:27
+msgid "8680 Kraken Pinion's Rover Ruckus robot"
+msgstr "8680 Kraken Pinion 的 Rover Ruckus 机器人"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:27
+msgid ""
+"8680 Kraken Pinion, Division Semifinalist (Detroit Worlds), Rover Ruckus"
+msgstr "8680 Kraken Pinion，分区半决赛入围者（底特律世界赛），Rover Ruckus"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:29
+msgid ""
+"Utilizes a kit-based drivetrain (Actobotics) and horizontal linear slides "
+"(REV) with a custom intake, housing, and mineral container. Kit linear "
+"actuator (Actobotics) with custom hook."
+msgstr ""
+"采用套件式传动系统（Actobotics）和水平线性滑轨（REV），配有定制的进料口、外壳和矿物容器。套件式线性执行器（Actobotics）配有定制挂钩。"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:34
+msgid "8393 Giant Diencephalic BrainSTEM Robotics Team's Relic Recovery robot"
+msgstr "8393 Giant Diencephalic BrainSTEM 机器人团队的“遗物回收”机器人"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:34
+msgid ""
+"8393 Giant Diencephalic BrainSTEM Robotics Team, Winning Alliance First Pick"
+" (Detroit), Relic Recovery, fully custom"
+msgstr "8393 “巨型间脑”BrainSTEM机器人队，获胜联盟首选（底特律），“遗物回收”任务，完全定制"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:39
+msgid "731 Wannabee Strange's Rover Ruckus robot"
+msgstr "731 Wannabee Strange 的 Rover Ruckus 机器人"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:39
+msgid "731 Wannabee Strange, Rover Ruckus, Design Award Finalist (Houston)"
+msgstr "731 Wannabee Strange、Rover Ruckus，设计奖入围作品（休斯顿）"
+
+#: ../../gm0/source/docs/custom-manufacturing/machining.rst:41
+msgid ""
+"Utilizes a 3D printed (PETG and TPU) and machined (milled) arm/intake with a"
+" custom HDPE drive train (CNC routed)"
+msgstr "采用3D打印（PETG和TPU）和机械加工（铣削）的臂/进气口，配备定制HDPE传动系统（CNC铣削而成）"

@@ -1,6 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Game Manual 0 Contributors |  Hosting Graciously Provided By //Copperforge
+# This file is distributed under the same license as the Game Manual 0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Shawphy, 2026
+# 
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: Game Manual 0 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-22 09:12+0000\n"
+"PO-Revision-Date: 2022-08-16 05:18+0000\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:4
+msgid "Style Guide"
+msgstr "风格指南"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:6
+msgid "Don't deal in absolutes."
+msgstr "不要一概而论。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:8
+msgid "Only a Sith deals in absolutes"
+msgstr "只有西斯才追求绝对"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:9
+msgid "Use pros/cons lists to compare options"
+msgstr "利用“优缺点”列表来比较各种选项"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:10
+msgid "Explain **WHY** something is good or bad"
+msgstr "解释**为什么**某件事是好是坏"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:12
+msgid ""
+"For example, we all know Tetrix V2 Motors are bad. But don't just say "
+"they're bad, say: \"Tetrix V2 motors are underpowered and often burn in a "
+"few seconds under stall, which is why they are not generally recommended. "
+"They also do not have built in encoders. We would highly recommend "
+"purchasing RS-550/RS-555 class motors being sold by goBILDA, REV, and "
+"AndyMark instead.\""
+msgstr ""
+"例如，我们都知道Tetrix V2电机质量很差。但不要只是说它们质量差，而应该这样说：“Tetrix "
+"V2电机功率不足，在失速状态下往往几秒钟内就会烧毁，因此通常不建议使用。此外，它们也没有内置编码器。 我们强烈建议改购由 goBILDA、REV 和 "
+"AndyMark 销售的 RS-550/RS-555 系列电机。”"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:13
+msgid ""
+"Similarly, we know the goBILDA motors are generally good. But *explain* why "
+"they are good, e.g. \"goBILDA Yellow Jacket Planetary motors are generally "
+"recommended if you need a 6mm D/8mm REX output shaft motor, and especially "
+"if you use goBILDA as your primary build system. These motors have a robust "
+"gearbox that generally can handle a decent amount of shock load (but they "
+"still must be supported in high torque situations) and conveniently face "
+"mount into goBILDA parts. Additionally, goBILDA motors do not require the "
+"use of a level shifter to use its encoders with the REV control system for "
+"flexibility. Please note that you will need to adapt the bullet connectors "
+"to the REV control system power cables, and the goBILDA motor power cables "
+"are not removable, unlike the REV Robotics motors.\""
+msgstr ""
+"同样，我们知道 goBILDA 电机总体上性能不错。 但请*解释*它们为何性能优良，例如：“如果您需要一款输出轴为 6mm D/8mm REX "
+"的电机，通常建议选用 goBILDA Yellow Jacket 行星减速电机，特别是当您将 goBILDA 作为主要构建系统时。 "
+"这些电机配备了坚固的齿轮箱，通常能够承受相当大的冲击载荷（但在高扭矩情况下仍需进行支撑），并且可以方便地正面安装到 goBILDA "
+"部件上。此外，goBILDA 电机无需使用电平转换器即可将其编码器与 REV 控制系统配合使用，灵活性很强。 "
+"请注意，您需要将圆柱形连接器适配到REV控制系统的电源线，而且与REV Robotics电机不同，goBILDA电机的电源线不可拆卸。”"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:14
+msgid ""
+"Still emphasize that teams are free to explore and innovate, but help set "
+"realistic expectations (see the following point)"
+msgstr "仍要强调团队可以自由探索和创新，但要帮助设定切合实际的期望（参见下一点）"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:16
+msgid "|gm0| is a guide **from a competitive standpoint**."
+msgstr "|gm0| 是一份 **从竞技角度出发** 的指南。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:18
+msgid ""
+"Try to leave out stuff that doesn't work well and is unpopular; if it is "
+"popular it is worth explaining the disadvantages (see H-drive vs ball drive;"
+" explaining H-drive, as a relatively popular and simple drivetrain makes "
+"sense, but ball drive, a drivetrain that barely exists and is ridiculously "
+"complicated makes no sense to bring up)"
+msgstr ""
+"尽量省略那些效果不佳且不受欢迎的内容；如果某项技术很受欢迎，那么就值得说明其缺点（参见H驱动与球式驱动的对比； "
+"解释H型传动作为一种相对流行且简单的传动系统是有意义的，但球式传动这种几乎不存在且极其复杂的传动系统，则没有必要提及）"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:19
+msgid ""
+"Try to leave opinions out as much as possible. Do not speak authoritatively "
+"on stuff you do not have first-hand experience with whenever possible"
+msgstr "尽量避免发表个人观点。在可能的情况下，不要对那些自己没有亲身经历的事情妄下断言。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:20
+msgid "**Keep in mind that FTC design trends are temporary and transient**"
+msgstr "**请记住，FTC的设计趋势是暂时的、转瞬即逝的**"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:22
+msgid ""
+"Just because something is popular one season doesn't mean it's the end all "
+"be all. There was a time when 6-wheel drives and coaxial swerve drives were "
+"all the rage, but that doesn't mean that we should recommend them in |gm0|. "
+"Try your best to think about why something is popular, and what benefits in "
+"design, function, and execution they actually bring to the table."
+msgstr ""
+"仅仅因为某样东西在一个赛季里很流行，并不意味着它就是万能的。 曾经有一段时间，六轮驱动和同轴转向驱动曾风靡一时，但这并不意味着我们应该在 |gm0| "
+"中推荐它们。请尽量思考某样东西之所以流行是因为什么，以及它们在设计、功能和实现方面究竟能带来哪些实际好处。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:24
+msgid ""
+"Consider that not all teams have the resources to purchase the most optimal "
+"parts for their design."
+msgstr "请考虑到，并非所有团队都有足够的资源来为自己的设计购买最理想的零部件。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:26
+msgid ""
+"This means that we should give recommendations on how to mitigate issues "
+"with poor quality parts."
+msgstr "这意味着，我们应就如何缓解劣质零部件带来的问题提出建议。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:28
+msgid ""
+"For example: TETRIX structure has a bad reputation for bending at times, at "
+"least compared to other build systems compared to REV, goBILDA and "
+"Actobotics. Therefore, we recommend adding extra support when building in "
+"TETRIX compared to other systems (this means including extra crossbars and "
+"adding standoffs inside channel to increase rigidity)."
+msgstr ""
+"例如：TETRIX 结构有时会因容易弯曲而声名不佳，至少与其他构建系统（如 REV、goBILDA 和 Actobotics）相比是如此。 "
+"因此，我们建议在使用 TETRIX 搭建时，与其他系统相比应增加额外的支撑（这意味着需要添加额外的横杆，并在槽型件内部加装间隔柱以提高刚性）。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:30
+msgid "Include pictures/videos whenever possible."
+msgstr "尽可能附上图片/视频。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:32
+msgid "Adding examples of mechanisms really helps with knowledge transfer."
+msgstr "添加机制示例确实有助于知识传递。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:34
+msgid ""
+"Credit the teams: Caption Format is: [Team Number] [Team Name], (Relevant "
+"Accomplishment), [Season], (description)"
+msgstr "请注明球队信息：标题格式为：[球队编号] [球队名称]，（相关成就），[赛季]，（描述）"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:36
+msgid "[]s mean all the time, ()s means when relevant"
+msgstr "[] 表示始终，() 表示在相关情况下"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:37
+msgid ""
+"If you have multiple pictures by the same part from the same team only "
+"credit them on the last one to avoid repetition."
+msgstr "如果同一支团队拍摄了同一部件的多张照片，请仅在最后一张照片上标注来源，以避免重复。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:38
+msgid "Examples"
+msgstr "示例"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:40
+msgid ""
+"11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, "
+"springloaded"
+msgstr "11115 无麸质，联盟队长（底特律）决赛入围者，圣物回收，弹簧驱动"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:41
+msgid "8417 'Lectric Legends, Rover Ruckus, TPU intake flaps"
+msgstr "8417 “Lectric Legends” 品牌，Rover Ruckus 车型，TPU 进气挡板"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:42
+msgid "7236 Recharged Green, Rover Ruckus, Misumi SAR3"
+msgstr "7236 焕新绿，Rover Ruckus，Misumi SAR3"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:44
+msgid "Adhere to brand standards when possible."
+msgstr "在可能的情况下，请遵守品牌标准。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:46
+msgid ""
+"Abide by *FIRST*\\ |reg| Trademark guidelines, available `here "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
+msgstr ""
+"请遵守 *FIRST*\\ |reg| 商标指南，可点击 "
+"`此处<https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_"
+" 查看_"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:48
+msgid ""
+"The first instance of *FIRST* and FTC on a page should include |reg| (i.e, "
+"*FIRST*\\ |reg|)"
+msgstr "页面中首次出现的 *FIRST* 和 FTC 应包含 |reg|（即 *FIRST*\\ |reg|）"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:49
+msgid "Always capitalize and italize the name *FIRST*"
+msgstr "名称*FIRST*必须始终大写并加粗"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:50
+msgid "Do NOT use a possessive on the *FIRST* name (e.g, *FIRST*'s)"
+msgstr "请勿在*名字*上使用所有格（例如，*名字*的）"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:52
+msgid "It's gm0 not GM0 damn it; look at the logo."
+msgstr "是 gm0，不是 GM0，该死；看看那个标志。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:54
+msgid ""
+"This also applies to team names: spell them how they are officially spelled"
+msgstr "这一点也适用于球队名称：请按照其官方拼写方式书写"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:56
+msgid ""
+"Check `FTC Events <https://ftc-events.firstinspires.org/>`_ if you do not "
+"know how to spell a team's name."
+msgstr ""
+"如果您不确定某支球队的名称该怎么拼写，请查看 `FTC 活动<https://ftc-events.firstinspires.org/>`_ 。"
+
+#: ../../gm0/source/docs/contributing/style-guide.rst:58
+msgid ""
+"You can use \"you\" when writing, when it makes writing less awkward. "
+"However, try avoiding excessively using it."
+msgstr "写作时，如果这样能让行文更自然，你可以使用“你”。不过，尽量避免过度使用它。"

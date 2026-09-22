@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2024
-# Shawphy, 2024
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2026-09-22 09:12+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -278,3 +278,86 @@ msgstr ""
 "v_{br} = v_f - v_s + (2r_b \\cdot \\omega)\n"
 "\n"
 "v_{fr} = v_f + v_s + (2r_b \\cdot \\omega)"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:113
+msgid "Manipulators"
+msgstr "操纵者"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:118
+msgid "Gravity Compensation"
+msgstr "重力补偿"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:120
+msgid ""
+"Often in FTC, teams have arms that swing out around an axis. Controlling "
+"these arms requires a bit of thought as depending on the angle they're at, "
+"the effect of gravity drastically changes."
+msgstr ""
+"在FTC比赛中，参赛队伍的机器人通常配备围绕某个轴线摆动的机械臂。控制这些机械臂需要稍加斟酌，因为根据其所处的角度不同，重力对它们的影响会发生巨大变化。"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:122
+msgid ""
+"Our first step is defining a reference frame. Our recommendation is to "
+"define zero as straight to the side, as this is when gravity has the "
+"greatest effect on your arm. Other reference frames will still work, but the"
+" exact trigonometry will change."
+msgstr "第一步是定义一个参考系。我们建议将“正侧方”定义为零点，因为此时重力对手臂的影响最大。其他参考系同样适用，但具体的三角函数计算会有所不同。"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:127
+msgid ""
+"A diagram of a robot with a long arm, with 0 degrees marked to the side"
+msgstr "一幅带有长臂的机器人示意图，侧面标有0度刻度"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:127
+msgid "11329 I.C.E. Robotics"
+msgstr "11329 I.C.E. Robotics"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:129
+msgid ""
+"In a reference frame like this, the relative force of gravity will be equal "
+"to the cos of the angle. This makes sense as when the cos function is "
+"evaluated at zero degrees, it returns 1, while at 90 degrees where there is "
+"no effect of gravity, it returns 0."
+msgstr ""
+"在这样的参考系中，相对重力将等于该角度的余弦值。这合乎逻辑，因为当余弦函数在0度时，其值为1；而在90度时（此时重力不产生影响），其值为0。"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:131
+msgid ""
+"F_g = g\\cos{\\theta}\n"
+"\n"
+msgstr ""
+"F_g = g\\cos{\\theta}\n"
+"\n"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:134
+msgid ""
+"Assuming you have an encoder on your arm, you can find :math:`\\theta` (the "
+"angle of the arm relative to the vertical) using something similar to the "
+"following pseudocode."
+msgstr "假设你的手臂上装有一个编码器，你可以使用类似以下伪代码的方法来计算 :math:`\\theta`（手臂相对于垂直方向的夹角）。"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:136
+msgid ""
+"DEGREE_PER_TICK can be found by taking 360 divided by your encoder "
+"resolution all multiplied by your gear ratio. For example, for a `19.2:1 "
+"goBILDA Yellow Jacket <https://www.gobilda.com/5203-series-yellow-jacket-"
+"planetary-gear-motor-19-2-1-ratio-24mm-length-8mm-rex-"
+"shaft-312-rpm-3-3-5v-encoder/>`_, there are 537.7 ticks per revolution, and "
+"so :math:`\\frac{360}{537.7}` degrees per tick at the gearbox output shaft. "
+"If there was a 2:1 gear ratio after that, then the ticks per revolution "
+"would instead be :math:`\\frac{360}{2 \\times 537.7}`"
+msgstr ""
+"DEGREE_PER_TICK 的计算方法是：360 除以编码器分辨率，再乘以齿轮传动比。 例如，对于 `19.2:1 goBILDA Yellow "
+"Jacket<https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-"
+"motor-19-2-1-ratio-24mm-length-8mm-rex-shaft-312-rpm-3-3-5v-encoder/>`_ ，每转有"
+" 537.7 个刻度，因此减速机输出轴上的每个刻度对应 :math:`\\frac{360}{537.7}` 度。 如果随后还有一个 2:1 "
+"的传动比，那么每转的步进数则变为 :math:`\\frac{360}{2 \\times 537.7}`"
+
+#: ../../gm0/source/docs/software/concepts/kinematics.rst:142
+msgid ""
+"The typical way to utilize the effect of gravity you just found, is to pass "
+"it in as a feedforward parameter to a PID controller. We cover this in "
+":ref:`gravity-compensated-feedforward`."
+msgstr ""
+"利用你刚刚发现的重力效应的典型方法，是将其作为前馈参数输入到PID控制器中。我们将在 :ref:`gravity-compensated-"
+"feedforward` 中介绍这一点。"

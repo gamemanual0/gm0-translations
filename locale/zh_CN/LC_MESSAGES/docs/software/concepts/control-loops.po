@@ -5,16 +5,16 @@
 # 
 # Translators:
 # 芷晗 李, 2023
-# Shawphy, 2024
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 16:16+0000\n"
+"POT-Creation-Date: 2026-09-22 09:12+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -532,18 +532,50 @@ msgid ""
 msgstr ""
 "每个系统都必然存在一定的静摩擦力。这意味着，在施加一定量的动力之前，机器人机构不会移动。这可以通过在想要移动的方向上添加一个恒定的前馈项来模拟。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:207
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:208
+msgid "Gravity Compensated Feedforward"
+msgstr "重力补偿前馈"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:210
+msgid ""
+"In :ref:`gravity-compensation` we derive the effect of gravity upon an arm "
+"as :math:`F_g = g\\cos{\\theta}`. Here we can use that with the following "
+"logic."
+msgstr ""
+"在 :ref:`gravity-compensation` 中，我们推导出重力对连杆的作用力为 :math:`F_g = "
+"g\\cos{\\theta}` 。在此，我们可以结合这一结果，按照以下逻辑进行分析。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:219
+msgid ""
+"This code uses a kF constant to approximate how much power the arm needs to "
+"counteract gravity. In theory, this is something related to gravity "
+"multiplied by the rotational moment of inertia of your arm. Calculating this"
+" is impractical and kF is instead found empirically. This can be done by "
+"setting the gains on the PID to 0, and increasing kF until the arm can hold "
+"itself up at any position. If your arm is still falling, increase kF, and if"
+" your arm is moving upwards, decrease kF. FTC team 16379 Kookybotz has `an "
+"excellent video on Arm programming "
+"<https://youtu.be/E6H6Nqe6qJo?si=AztzVtAqShFEA4EP&t=440>`_, where they "
+"demonstrate how to increase kF."
+msgstr ""
+"该代码使用常数 kF 来近似计算机械臂需要多少功率才能抵消重力。理论上，该值与重力乘以机械臂的旋转惯性矩有关。 直接计算该值并不现实，因此 kF "
+"通常通过实验确定。具体方法是将 PID 控制器的增益设为 0，然后逐步增加 kF 值，直到机械臂能够在任意位置保持平衡。 如果机械臂仍在下落，则增加 "
+"kF 值；如果机械臂向上移动，则减少 kF 值。FTC 16379 号团队 Kookybotz 发布了一段 "
+"`关于机械臂编程的精彩视频<https://youtu.be/E6H6Nqe6qJo?si=AztzVtAqShFEA4EP&t=440>`_ "
+"，其中演示了如何调整 kF 值。"
+
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:223
 msgid "Motion Profiles"
 msgstr "运动曲线"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:210
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:226
 msgid ""
 "Motion profiles are *not* a specific type of control loop, but rather a "
 "technique that works well in combination with other control loops such as "
 "PID and feedforward."
 msgstr "运动曲线 *不是* 一种特定类型的控制回路，而是一种与其他控制回路（如 PID 和前馈）结合使用的技术。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:212
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:228
 msgid ""
 "Motion profiling is a technique popularized in FRC\\ |reg| that is starting "
 "to find its way to FTC. A motion profile is a function used to change the "
@@ -553,7 +585,7 @@ msgstr ""
 "运动曲线是一种在 FRC\\ |reg| 中得到推广的技术，目前正开始应用于 "
 "FTC。运动曲线是一种函数，用于通过逐渐而非瞬时改变所需的速度，以受控和一致的方式改变动力传输系统的速度。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:214
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:230
 msgid ""
 "Let's illustrate this with an example: say you want your drivetrain, which "
 "is initially unmoving, to drive forward at full speed. Ordinarily, you would"
@@ -565,31 +597,31 @@ msgid ""
 msgstr ""
 "让我们举个例子来说明这一点：假设你希望初始不动的传动系统全速前进。通常情况下，你会在代码中将传动系统的所有电机设置为全速。但是，这样做可能会有问题，因为即使你让电机瞬间全速前进，传动系统也需要时间才能达到全速。这可能会导致不受控制的运动，从而降低自主稳定性，更重要的是可能会损坏机械装置。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:216
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:232
 msgid "Motion profiling attempts to solve this issue."
 msgstr "运动曲线试图解决这个问题。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:219
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:235
 msgid "Advantages"
 msgstr "优势"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:221
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:237
 msgid "More controlled and predictable movements"
 msgstr "动作更可控、更可预测"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:222
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
 msgid "Reduces rapid change of applied motor voltage"
 msgstr "降低外加电机电压的快速变化"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:225
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:241
 msgid "Disadvantages"
 msgstr "劣势"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:227
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:243
 msgid "Can be slower"
 msgstr "可能慢一些"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:229
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:245
 msgid ""
 "There are two main types of motion profiles: **Trapezoidal** profiles and "
 "**S-Curve** profiles. Trapezoidal profiles accelerate the system at a "
@@ -602,36 +634,36 @@ msgstr ""
 "运动曲线主要有两种类型：**梯形曲线** 和 **S 曲线** 。梯形曲线以恒定的速度加速系统，而 S 曲线则假定加速度变化的速度是恒定的。鉴于 S "
 "曲线并不是控制二维轨迹（如驾驶）的最佳选择，而且其存在是为了减少打滑（通常只在 FTC 驾驶时才会发生），因此建议在大多数 FTC 应用中使用梯形剖面。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:231
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:247
 msgid ""
 "Trapezoidal profiles get their name from the shape of the graph of velocity "
 "over time:"
 msgstr "梯形曲线的名称来源于速度随时间变化的图形形状："
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:252
 msgid ""
 "The position over time, velocity over time, and acceleration over time "
 "graphs for a trapezoidal motion profile"
 msgstr "梯形运动曲线的位置随时间变化图、速度随时间变化图和加速度随时间变化图"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:252
 msgid ""
 "These are the \"magic functions\" for velocity and acceleration over time "
 "alluded to in the feedforward section."
 msgstr "这些是前文提到的速度和加速度随时间变化的“神奇函数”。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:254
 msgid "Here is some pseudocode for a trapezoidal profile:"
 msgstr "下面是梯形曲线的一些伪代码："
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:268
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:284
 msgid ""
 "The results of the above pseudocode are then used in a feedforward and / or "
 "PID loop to control the position of the system in a smooth and predictable "
 "way."
 msgstr "然后将上述伪代码的结果用于前馈和/或 PID 环路，以平滑和可预测的方式控制系统的位置。"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:270
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:286
 msgid ""
 "A more advanced example of the math for motion profile generation as used in"
 " the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ "

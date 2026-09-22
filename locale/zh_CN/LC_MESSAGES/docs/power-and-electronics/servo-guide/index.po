@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2024
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 04:36+0000\n"
+"POT-Creation-Date: 2026-09-22 09:12+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,11 +33,45 @@ msgstr "术语"
 msgid "Servo"
 msgstr "舵机"
 
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:11
+msgid ""
+"A small DC motor attached to servo gears that is very finely controllable "
+"and interfaces via a 3 wire PWM connector. Servos are generally used in "
+"FTC\\ |reg| for high-precision applications - for example, actuating a claw "
+"or lightweight arm. Typically servos have limited range of rotation (180\\ "
+"|deg| is common). The output has splines, which are the rigid teeth that are"
+" on top of the servo."
+msgstr ""
+"一个连接到伺服齿轮上的小型直流电机，具有极高的可控精度，并通过3线PWM连接器进行接口连接。伺服电机通常用于FTC\\ |reg| "
+"中的高精度应用——例如，驱动抓爪或轻型机械臂。 通常，伺服电机的旋转范围有限（180\\ |deg| "
+"较为常见）。其输出端带有花键，即伺服电机顶部那些刚性的齿。"
+
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:13
 msgid ""
 "Servos are commonly used in RC cars (steering) and RC planes (moving "
 "ailerons). In FTC, servos are typically used for claws, grabbers, and arms."
 msgstr "舵机通常用于遥控汽车（转向）和遥控飞机（移动副翼）。在 FTC 中，舵机通常用于爪子、抓手和机械臂。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:18
+msgid "goBILDA Dual Mode Servo"
+msgstr "goBILDA 双模式伺服电机"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:18
+msgid "A common servo, the goBILDA Dual Mode Servo"
+msgstr "一款常见的伺服电机：goBILDA 双模式伺服电机"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:20
+msgid ""
+"Historically, servos were designed for fine-tuned and accurate movement in "
+"low-load applications, not high-load or fast rotation applications. However,"
+" modern high-performance servos (often designed and marketed specifically "
+"towards FTC teams) have pushed the limits of how powerful a servo can be, "
+"resulting in many teams using one or more high-power servo(s) to power "
+"mechanisms that do not need the power of a full motor, such as horizontal "
+"extensions and active intakes."
+msgstr ""
+"从历史上看，伺服电机原本是为在低负载应用中实现精细、精准的运动而设计的，而非用于高负载或高速旋转的应用。 "
+"然而，现代高性能伺服电机（通常专门针对FTC团队设计和销售）已经突破了伺服电机功率的极限，因此许多团队开始使用一个或多个大功率伺服电机来驱动那些并不需要全功率电机驱动的机构，例如水平伸缩机构和主动拾取装置。"
 
 #: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:22
 msgid ""
@@ -51,3 +85,27 @@ msgstr ""
 "不同制造商生产的舵机种类繁多，价格、性能和价值也大相径庭。幸运的是，几乎所有的舵机都使用标准的三线连接器，并接受同一种控制信号（50 赫兹的 PWM "
 "信号）。每个 REV 扩展集线器提供 6 个舵机端口，因此你可以插入任何制造商生产的舵机。此外，FTC "
 "使用的舵机有一个标准尺寸，因此不同制造商生产的支架可以互换。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:24
+msgid ""
+"Commonly used servos used in FTC are the `goBILDA Dual Mode Servos "
+"<https://www.gobilda.com/standard-size-servos>`_ and REV Smart Robot Servo, "
+"but you should check out other servos as well. Picking the right servo for "
+"your application is a question that's almost impossible to give a blanket "
+"answer for. To learn more, please read the :doc:`choosing-servo` section."
+msgstr ""
+"FTC 中常用的舵机包括 `goBILDA 双模式舵机<https://www.gobilda.com/standard-size-servos>`_ "
+"和 REV 智能机器人舵机，但你也可以看看其他舵机。如何为你的应用场景选择合适的舵机，这个问题几乎不可能给出一个通用的答案。 如需了解更多信息，请阅读 "
+":doc:`choosing-servo` 章节。"
+
+#: ../../gm0/source/docs/power-and-electronics/servo-guide/index.rst:26
+msgid ""
+"The most prevalent problem with servos is durability. Internal servo gears "
+"in cheaper servos strip easily when subjected to shock loads. Servos are "
+"also often poor at handling lateral loads or bending of the shaft. To avoid "
+"having to frequently replace servos, choose ones with steel gears and use "
+":term:`ServoBlocks` or your kit's equivalent to prolong longevity."
+msgstr ""
+"伺服电机最常见的问题是耐用性。 "
+"廉价舵机的内部齿轮在受到冲击载荷时很容易滑齿。此外，这类舵机往往难以承受侧向载荷或轴的弯曲。为避免频繁更换舵机，请选择配备钢制齿轮的型号，并使用 "
+":term:`ServoBlocks` 或套件中的等效部件来延长其使用寿命。"

@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2025
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-19 05:24+0000\n"
+"POT-Creation-Date: 2026-09-22 09:12+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2025\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,6 +25,12 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:4
 msgid "Control System Electronics"
 msgstr "控制系统电子设备"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:6
+msgid ""
+"This page contains a breakdown of known electronics in the REV Robotics "
+"control system, as well as notes regarding them."
+msgstr "本页面列出了REV Robotics控制系统中已知的电子元件及其详细说明，并附有相关注释。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:9
 msgid "Expansion Hub Internals"
@@ -45,6 +51,20 @@ msgstr ""
 msgid "Lynx Board"
 msgstr "Lynx 板"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:16
+msgid ""
+"\"Lynx\" is the codename of the board within the Expansion Hub and Control "
+"Hub that interacts with hardware. References to \"Lynx\" made in the FTC\\ "
+"|reg| SDK refer to this board. It appears to have been developed by both REV"
+" Robotics and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company). A "
+"reverse-engineered schematic can be found `here "
+"<https://github.com/DuckTapeAndAPrayer/LynxSchematic>`_."
+msgstr ""
+"“Lynx”是扩展中心（Expansion Hub）和控制中心（Control Hub）中负责与硬件交互的电路板的代号。 FTC\\ |reg| SDK"
+" 中提及的“Lynx”即指该电路板。该电路板似乎由 REV Robotics 和 "
+"`DEKA<https://dekaresearch.com/>`_（迪恩·卡门的公司）共同开发。反向工程得出的原理图可参见 "
+"`此处<https://github.com/DuckTapeAndAPrayer/LynxSchematic>`_。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:23
 msgid "A Lynx board that was removed from its case"
 msgstr "一块取出的 Lynx 电路板"
@@ -53,9 +73,23 @@ msgstr "一块取出的 Lynx 电路板"
 msgid "Processor"
 msgstr "处理器"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:28
+msgid ""
+"The microcontroller used by the Lynx board is a `Texas Instruments "
+"TM4C123GH6PGE <https://www.ti.com/product/TM4C123GH6PGE>`_, with an Arm "
+"Cortex-M4F processor running at 80 MHZ."
+msgstr ""
+"Lynx 开发板使用的微控制器是 `德州仪器 "
+"TM4C123GH6PGE<https://www.ti.com/product/TM4C123GH6PGE>`_，搭载运行频率为 80 MHz 的 "
+"Arm Cortex-M4F 处理器。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:31
 msgid "Ports"
 msgstr "端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:33
+msgid "The Lynx board has the following ports:"
+msgstr "Lynx 主板具有以下端口："
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:35
 msgid "Two UART Debug Ports"
@@ -77,6 +111,24 @@ msgstr "底部端口以用户指定的详细程度以 115200 的波特率输出�
 msgid "Four I2C Ports"
 msgstr "四个 I2C 端口"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:41
+msgid "These ports are 100/400 kHz compliant."
+msgstr "这些端口符合 100/400 kHz 标准。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:42
+msgid ""
+"The ports are connected to separate busses, so there is generally no need to"
+" be concerned about address collisions.  However, be aware that the internal"
+" IMU shares the I2C bus with I2C port 0."
+msgstr "这些端口连接到不同的总线上，因此通常无需担心地址冲突。不过，请注意，内部IMU与I2C端口0共享同一条I2C总线。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:43
+msgid ""
+"There appear to be integrated pull up resistors on this port (potentially "
+"using the built-in configurable pull-up/pull-down resistors integrated into "
+"the MCU)."
+msgstr "该端口上似乎集成了上拉电阻（可能使用了MCU内置的可配置上拉/下拉电阻）。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:44
 msgid "Eight DIO Ports"
 msgstr "八个 DIO 端口"
@@ -90,6 +142,16 @@ msgstr "仅 3.3V，电流有限，可短暂提供超过额定电流规格的电�
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:47
 msgid "Four Analog Ports"
 msgstr "四个模拟端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:49
+msgid ""
+"These ports are 5V compliant; you can use a level shifter to supply 5v to "
+"the sensor, but take care the analog line bypasses the level shifter. The "
+"VIN and GND lines, however, must pass through the level shifter for it to "
+"work."
+msgstr ""
+"这些端口符合 5V 规范；您可以使用电平转换器向传感器提供 5V 电源，但请注意，模拟信号线应绕过电平转换器。不过，VIN 和 GND "
+"线路必须通过电平转换器，该转换器才能正常工作。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:50
 msgid "Six Servo Ports"
@@ -105,17 +167,65 @@ msgstr ""
 "舵机端口上的 5V 电源默认关闭，仅在使用舵机时启用。所有六个 5V 引脚一起打开和关闭，禁用一个端口上的 PWM "
 "将关闭所有端口，直到再次使用其他舵机。"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:53
+msgid ""
+"Each pair of 2 side-by-side ports is rated for a maximum current draw of 2 "
+"amps, and the combined set of servo + 5V ports is rated for a maximum total "
+"current draw of 5 amps."
+msgstr "每对并排的端口额定最大电流为 2 安培，而舵机端口与 5V 端口组合的额定最大总电流为 5 安培。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:54
 msgid "Two 5V Power Ports"
 msgstr "两个 5V 电源端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:56
+msgid ""
+"The pair of 5V supply ports in rated for a maximum current draw of 2 amps, "
+"and shares the total 5 amp limit with the servo ports."
+msgstr "这两组 5V 供电端口的额定最大电流为 2 安培，并与伺服端口共享 5 安培的总电流限制。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:57
 msgid "Four Motor Ports"
 msgstr "四个电机端口"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
+msgid ""
+"The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is "
+"capabile of handling well over the maximum amount of current an FTC motor "
+"can draw. It has integrated current sensing, and built-in thermal and "
+"current safety limits."
+msgstr ""
+"该电机驱动器是意法半导体（ST "
+"Microelectronics）的VNH5050电机驱动器IC，其电流处理能力远超FTC电机所能吸收的最大电流。该器件集成了电流检测功能，并内置了温度和电流安全限值。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:60
+msgid ""
+"The output does not brake the H-bridge during the PWM off cycle. What this "
+"means is that there might be linearity issues while deaccelerating, because "
+"of momentum in the motor."
+msgstr "在PWM关断周期内，输出不会对H桥进行制动。这意味着，由于电机中的动量，在减速过程中可能会出现线性度问题。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:61
 msgid "Four Encoder Ports"
 msgstr "四个编码器端口"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:63
+msgid ""
+"**IMPORTANT: Only two of the encoder ports (Ports 0 and 3) can accurately "
+"track position/velocity at high speeds**. There are two methods of "
+"connecting an encoder internally to the Texas Instruments microprocessor, "
+"through the Quadrature Encoder Interface (QEI) and through General-Purpose "
+"Timers (GPTs). Ports 0 and 3 use the integrated QEI and are extremely "
+"accurate at high speeds, whereas encoders using the GPTs often start to "
+"loose counts at high speeds. As a result, high Count per Revolution (CPR) "
+"encoders (those with more than around 4000 counts per revolution) expected "
+"to spin somewhat quickly (such as encoders being used in odometry pods) "
+"should NOT be used on ports 1 and 2."
+msgstr ""
+"**重要提示：只有两个编码器端口（端口 0 和 3）能在高速下准确跟踪位置/速度**。 "
+"将编码器内部连接到德州仪器微处理器有两种方法：通过正交编码器接口（QEI）和通过通用定时器（GPTs）。 端口 0 和 3 使用集成的 "
+"QEI，在高速下非常精确，而使用 GPT 的编码器在高速下往往会开始丢失计数。 因此，预计转速较快的、每转计数（CPR）较高的编码器（即每转计数超过 "
+"4000 左右的编码器，例如用于里程计模块的编码器）不应连接到端口 1 和 2。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:64
 msgid "Two XT30 Connectors"
@@ -144,9 +254,50 @@ msgstr ""
 msgid "USB Mini-B Connector"
 msgstr "USB Mini-B 连接器"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:70
+msgid ""
+"Uses the FTDI FT230XQ chip to bridge the internal UART to USB, allowing an "
+"Expansion Hub to connect over USB to a Control Hub, Android device, "
+"computer, or other such device. The FT230XQ is capable of USB Full Speed (12"
+" Mbps) on the USB side and 3 MBaud on the UART side, and 5V output to charge"
+" a phone. According to REV, the 5V output is not compatible with any of the "
+"remaining Android phones still legal in FTC.  This USB chip is disabled by "
+"the compute board of the Control Hub, meaning this port is not functional "
+"out-of-the-box on a Control Hub."
+msgstr ""
+"采用 FTDI FT230XQ 芯片将内部 UART 与 USB 接口连接起来，从而使扩展集线器能够通过 USB 连接到控制集线器、Android "
+"设备、计算机或其他类似设备。 FT230XQ 芯片在 USB 端支持全速 USB（12 Mbps），在 UART 端支持 3 MBaud，并可输出 5V"
+" 电压为手机充电。 "
+"据REV称，该5V输出与FTC地区目前仍合法销售的任何安卓手机均不兼容。该USB芯片被控制集线器的计算板禁用，这意味着该端口在控制集线器上开箱即用时无法正常工作。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
 msgid "Internal Connector"
 msgstr "内部连接器"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:73
+msgid ""
+"This connector is what is used to connect to the compute daughterboard. It "
+"has a UART connection, as well as power and ground. All Lynx modules that "
+"came is part of an Control Hub will have this connector, but Lynx modules "
+"sold as Expansion Hubs may or may not have this connector. A Lynx board from"
+" an Expansion Hub that contains the connector, when connected with a Control"
+" Hub's daughterboard, will work as a Control Hub. To go the other way, the "
+"Hub address has to be changed to something other than the Control Hub "
+"address of 173. You can change the address once the daughterboard is removed"
+" by plugging it into an Android device running the Robot Controller app and "
+"using the function in the settings to change the address. (Note that "
+"connecting it to another Control Hub is unlikely to work, due to the address"
+" interference between the two Lynx modules. The Driver Hub works fine for "
+"this purpose, but make sure to uninstall the Robot Controller app from it "
+"afterwards, so it doesn't potentially interfere with the Driver Station "
+"app!)"
+msgstr ""
+"该连接器用于连接计算子板。它具有UART接口，以及电源和地线。 所有作为控制集线器（Control Hub）组成部分提供的 Lynx "
+"模块均配备此连接器，但作为扩展集线器（Expansion Hub）销售的 Lynx 模块则可能配备也可能不配备此连接器。若来自扩展集线器的 Lynx "
+"板卡上带有此连接器，当其与控制集线器的子卡连接时，即可作为控制集线器运行。 反之，则需将集线器地址更改为与控制集线器默认地址 173 "
+"不同的值。拆下子板后，可将其插入运行“机器人控制器”应用的 Android 设备，并通过设置中的功能更改地址。 "
+"（请注意，将其连接到另一个控制中心（Control Hub）可能无法正常工作，这是由于两个 Lynx 模块之间的地址冲突所致。驱动中心（Driver "
+"Hub）在此情况下可正常工作，但请务必事后从该设备上卸载“机器人控制器”应用，以免其可能干扰“驾驶站”应用！）"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:76
 msgid "Control Hub"
@@ -163,6 +314,42 @@ msgstr ""
 "Control Hub 是一个带有嵌入式 Android 单板计算机子板的 Expansion Hub 。由于内置了 Android "
 "子板，所以它不再需要单独的手机作为 RC 。在其内部，通过内置的 UART 连接从 Android 子板发送 LynxCommand 到 Lynx 板。"
 
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:80
+msgid ""
+"The compute board is based on the `96Boards CE Specification, Version 1.0 "
+"<https://raw.githubusercontent.com/96boards/documentation/master/Specifications/96Boards-"
+"CE-Specification.pdf>`_, though it is unknown how many of the features of "
+"the two expansion connectors are wired up/functional beyond the UART and "
+"handful of GPIO lines used to connect to the Lynx board."
+msgstr ""
+"该计算板基于 `96Boards CE 规范，版本 "
+"1.0<https://raw.githubusercontent.com/96boards/documentation/master/Specifications/96Boards-"
+"CE-Specification.pdf>`_ ，不过目前尚不清楚除了用于连接 Lynx 板的 UART 和少量 GPIO "
+"引脚之外，两个扩展连接器上的其他功能有多少已被接通或可正常工作。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:83
+msgid ""
+"The original version of the Control Hub (REV-31-1152) actually used a "
+"`Dragonboard 410c <https://www.96boards.org/product/dragonboard410c/>`_ as "
+"the compute board.  This version of the Control Hub was never used in, nor "
+"legal for, FTC; it appears to have only been used in early *FIRST*\\ |reg| "
+"Global seasons."
+msgstr ""
+"Control Hub 的原始版本（REV-31-1152）实际上使用了 `Dragonboard "
+"410c<https://www.96boards.org/product/dragonboard410c/>`_ 作为计算板。  "
+"该版本的控制中心从未在FTC比赛中使用过，也不符合FTC比赛规则；它似乎仅在早期的*FIRST*\\ |reg| 全球赛季中使用过。"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:85
+msgid ""
+"The Control Hub compute board runs a customized version of Android 7.1. It "
+"does not have a proper heatsink on the SOC, only an RF shield that does not "
+"touch the SOC, which can cause thermal throttling when heavy processes such "
+"as vision pipelines are used. A large amount of heat seems to be sunk by the"
+" daughterboard PCB, which acts like a heat spreader."
+msgstr ""
+"Control Hub 计算板运行的是 Android 7.1 的定制版本。其系统级芯片（SOC）上没有配备合适的散热片，仅有一个不与 SOC "
+"接触的射频屏蔽罩，这在运行视觉处理管道等高负载任务时可能会导致热节流。 大量热量似乎是由子板PCB散发的，该PCB起到了散热片的作用。"
+
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:87
 msgid "SOC: Rockchip RK3328"
 msgstr "SOC: Rockchip RK3328"
@@ -170,6 +357,15 @@ msgstr "SOC: Rockchip RK3328"
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:89
 msgid "CPU: Quad-core ARM\\ |reg| Cortex-A53"
 msgstr "CPU: Quad-core ARM\\ |reg| Cortex-A53"
+
+#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:91
+msgid ""
+"The device tree in `the official kernel "
+"<https://github.com/REVrobotics/kernel-controlhub-android>`_ seems to "
+"indicate that the CPU can clock up to 1.5 GHz"
+msgstr ""
+"`官方内核<https://github.com/REVrobotics/kernel-controlhub-android>`_ "
+"中的设备树似乎表明，该 CPU 的最高时钟频率可达 1.5 GHz"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:92
 msgid "GPU - ARM\\ |reg| Mali 450MP4"

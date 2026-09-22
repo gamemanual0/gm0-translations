@@ -5,16 +5,16 @@
 # 
 # Translators:
 # DomnickJYH, 2023
-# Shawphy, 2025
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-25 04:55+0000\n"
+"POT-Creation-Date: 2026-09-22 09:12+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: Shawphy, 2025\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,6 +62,19 @@ msgid ""
 msgstr ""
 "如果使用Android手机和扩展集线器，LynxCommand将通过USB发送；但是，如果使用Control "
 "Hub，LynxCommand将通过通用异步收发设备发送。这一点非常重要，不仅因为通用异步收发设备而不是USB提高了可靠性，而且因为LynxCommand在USB上大约需要3毫秒，在通用异步收发设备上大约需要2毫秒。"
+
+#: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:16
+msgid ""
+"Any expansion hubs connected via RS485 receive their commands via that "
+"connector. To get from the USB or UART to RS485 the parent Lynx hub has to "
+"retransmit the packets, but packets traveling over RS485 and passing through"
+" Lynx hubs do not. The added latency from this process isn't significant, "
+"but there will be some added latency. Up to 255 expansion hubs can be "
+"connected together over RS485 in theory."
+msgstr ""
+"任何通过 RS485 连接的扩展集线器均通过该接口接收命令。要将数据从 USB 或 UART 传输到 RS485，父级 Lynx "
+"集线器必须转发数据包，但通过 RS485 传输并经过 Lynx 集线器的数据包则无需转发。 "
+"此过程带来的延迟虽不显著，但确实会增加一些延迟。理论上，最多可通过 RS485 将 255 个扩展集线器相互连接。"
 
 #: ../../gm0/source/docs/software/adv-control-system/sdk-communication.rst:20
 msgid ""
