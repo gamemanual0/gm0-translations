@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shawphy, 2024
+# Shawphy, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 04:15+0000\n"
+"POT-Creation-Date: 2026-09-26 09:15+0000\n"
 "PO-Revision-Date: 2024-03-14 04:15+0000\n"
-"Last-Translator: Shawphy, 2024\n"
+"Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,11 +62,11 @@ msgstr "轴环安装在轴上以固定轴。主要有两种类型：固定螺丝
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:16
 msgid "Set Screw Collars"
-msgstr "固定螺丝轴环"
+msgstr "顶丝固定轴环"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
 msgid "A set screw collar with a grub screw."
-msgstr "固定螺丝轴环，带一个防松螺丝。"
+msgstr "顶丝固定轴环，带一个防松螺丝。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:21
 msgid ""
@@ -76,13 +76,13 @@ msgid ""
 "raised burr, making it difficult to remove/adjust the collar or to use the "
 "shaft for something else in the future."
 msgstr ""
-"固定螺丝轴环使用一个固定螺丝（通常是一个防松螺丝）来拧紧轴。虽然固定螺丝轴环既便宜又容易获得，但也有一些缺点。螺丝会钻入轴中，形成一个凸起的毛刺，导致难以移除/调整轴环或将来将轴用于其他用途。"
+"顶丝固定轴环使用一个顶丝（通常是一个防松螺丝）来拧紧轴。虽然顶丝固定轴环既便宜又容易获得，但也有一些缺点。螺丝会钻入轴中，形成一个凸起的毛刺，导致难以移除/调整轴环或将来将轴用于其他用途。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:24
 msgid "Clamping Collars"
 msgstr "夹紧环"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
 msgid "A clamping shaft collar."
 msgstr "夹紧轴环。"
 
@@ -98,9 +98,9 @@ msgstr ""
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:32
 msgid "Shaft Retaining Rings"
-msgstr "轴固定环"
+msgstr "轴固定环（卡簧）"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
 msgid "a shaft with a shaft retaining ring"
 msgstr "带轴卡环的轴"
 
