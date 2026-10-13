@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 19:08+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -178,25 +178,9 @@ msgstr "每对并排的端口额定最大电流为 2 安培，而舵机端口与
 msgid "Two 5V Power Ports"
 msgstr "两个 5V 电源端口"
 
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:56
-msgid ""
-"The pair of 5V supply ports in rated for a maximum current draw of 2 amps, "
-"and shares the total 5 amp limit with the servo ports."
-msgstr "这两组 5V 供电端口的额定最大电流为 2 安培，并与伺服端口共享 5 安培的总电流限制。"
-
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:57
 msgid "Four Motor Ports"
 msgstr "四个电机端口"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:59
-msgid ""
-"The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is "
-"capabile of handling well over the maximum amount of current an FTC motor "
-"can draw. It has integrated current sensing, and built-in thermal and "
-"current safety limits."
-msgstr ""
-"该电机驱动器是意法半导体（ST "
-"Microelectronics）的VNH5050电机驱动器IC，其电流处理能力远超FTC电机所能吸收的最大电流。该器件集成了电流检测功能，并内置了温度和电流安全限值。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:60
 msgid ""
@@ -208,24 +192,6 @@ msgstr "在PWM关断周期内，输出不会对H桥进行制动。这意味着�
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:61
 msgid "Four Encoder Ports"
 msgstr "四个编码器端口"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:63
-msgid ""
-"**IMPORTANT: Only two of the encoder ports (Ports 0 and 3) can accurately "
-"track position/velocity at high speeds**. There are two methods of "
-"connecting an encoder internally to the Texas Instruments microprocessor, "
-"through the Quadrature Encoder Interface (QEI) and through General-Purpose "
-"Timers (GPTs). Ports 0 and 3 use the integrated QEI and are extremely "
-"accurate at high speeds, whereas encoders using the GPTs often start to "
-"loose counts at high speeds. As a result, high Count per Revolution (CPR) "
-"encoders (those with more than around 4000 counts per revolution) expected "
-"to spin somewhat quickly (such as encoders being used in odometry pods) "
-"should NOT be used on ports 1 and 2."
-msgstr ""
-"**重要提示：只有两个编码器端口（端口 0 和 3）能在高速下准确跟踪位置/速度**。 "
-"将编码器内部连接到德州仪器微处理器有两种方法：通过正交编码器接口（QEI）和通过通用定时器（GPTs）。 端口 0 和 3 使用集成的 "
-"QEI，在高速下非常精确，而使用 GPT 的编码器在高速下往往会开始丢失计数。 因此，预计转速较快的、每转计数（CPR）较高的编码器（即每转计数超过 "
-"4000 左右的编码器，例如用于里程计模块的编码器）不应连接到端口 1 和 2。"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:64
 msgid "Two XT30 Connectors"
@@ -273,31 +239,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:71
 msgid "Internal Connector"
 msgstr "内部连接器"
-
-#: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:73
-msgid ""
-"This connector is what is used to connect to the compute daughterboard. It "
-"has a UART connection, as well as power and ground. All Lynx modules that "
-"came is part of an Control Hub will have this connector, but Lynx modules "
-"sold as Expansion Hubs may or may not have this connector. A Lynx board from"
-" an Expansion Hub that contains the connector, when connected with a Control"
-" Hub's daughterboard, will work as a Control Hub. To go the other way, the "
-"Hub address has to be changed to something other than the Control Hub "
-"address of 173. You can change the address once the daughterboard is removed"
-" by plugging it into an Android device running the Robot Controller app and "
-"using the function in the settings to change the address. (Note that "
-"connecting it to another Control Hub is unlikely to work, due to the address"
-" interference between the two Lynx modules. The Driver Hub works fine for "
-"this purpose, but make sure to uninstall the Robot Controller app from it "
-"afterwards, so it doesn't potentially interfere with the Driver Station "
-"app!)"
-msgstr ""
-"该连接器用于连接计算子板。它具有UART接口，以及电源和地线。 所有作为控制集线器（Control Hub）组成部分提供的 Lynx "
-"模块均配备此连接器，但作为扩展集线器（Expansion Hub）销售的 Lynx 模块则可能配备也可能不配备此连接器。若来自扩展集线器的 Lynx "
-"板卡上带有此连接器，当其与控制集线器的子卡连接时，即可作为控制集线器运行。 反之，则需将集线器地址更改为与控制集线器默认地址 173 "
-"不同的值。拆下子板后，可将其插入运行“机器人控制器”应用的 Android 设备，并通过设置中的功能更改地址。 "
-"（请注意，将其连接到另一个控制中心（Control Hub）可能无法正常工作，这是由于两个 Lynx 模块之间的地址冲突所致。驱动中心（Driver "
-"Hub）在此情况下可正常工作，但请务必事后从该设备上卸载“机器人控制器”应用，以免其可能干扰“驾驶站”应用！）"
 
 #: ../../gm0/source/docs/software/adv-control-system/control-system-internals.rst:76
 msgid "Control Hub"

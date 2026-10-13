@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -131,33 +131,9 @@ msgid ""
 msgstr "在FTC软件中，正交编码器和电机使用相同的电机对象访问。这意味着我们可以像这样访问编码器的位置："
 
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
 msgid "Java"
 msgstr "Java"
 
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:0
 msgid "Blocks"
 msgstr "图形化编程"
@@ -202,29 +178,6 @@ msgid ""
 msgstr ""
 "现在我们有了相对于编码器起始角度的位置（以计数为单位）。我们可以制作一个快速程序来查看这一点的运行情况。在这里，我们使用插入硬件配置中名为“Arm "
 "Motor”的端口的电机编码器。"
-
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:138
-msgid ""
-"If you run the above OpMode and turn the encoder, you should see the values "
-"change as you move. If you rotate the shaft back to where it started, you "
-"will see the number return to (very close to) zero. As an exercise, rotate "
-"the shaft one full revolution (360) degrees and note down the number."
-msgstr ""
-"如果你运行上述OpMode并转动编码器，你应该会看到值在你移动时发生变化。如果你将轴旋转回起始位置，你将看到数字返回（非常接近）零。作为练习，将轴旋转一周（360）度并记下数字。"
-
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:140
-msgid ""
-"There is one more thing we can do with encoders. While knowing the number of"
-" counts something moved is useful, oftentimes one will need a different "
-"number, like the number of revolutions the encoder has turned or the angle "
-"it is at. To determine these, we need a constant, the encoders Counts Per "
-"Revolution or CPR. For external encoders, this number is often provided in a"
-" datasheet. For motors, it will generally be on the product page, although "
-"some motors (most notably the Rev Ultraplanetary Gearbox) do not provide it "
-"plainly."
-msgstr ""
-"我们还可以用编码器做一件事。虽然知道移动的计数很有用，但通常需要一个不同的数字，比如编码器转动的转数或角度。为了确定这些，我们需要一个常数，编码器每转计数或CPR。对于外部编码器，这个数字通常在数据表中提供。对于电机，它通常会出现在产品页面上，尽管一些电机（最明显的是Rev"
-" Ultraplanetary Gearbox）没有明确提供。"
 
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:142
 msgid ""

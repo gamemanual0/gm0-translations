@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# wwsk2008sq, 2024
+# mo-wu-si-kong, 2024
 # DomnickJYH, 2024
 # Shawphy, 2024
 # 
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -124,7 +124,7 @@ msgstr "金属"
 msgid "Aluminum"
 msgstr "铝"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid ""
 "Various aluminum items including extrusion, box tube, flat sheet, channel, "
 "and drawer slides"
@@ -211,18 +211,6 @@ msgstr ""
 "是一个不错的选择。请注意，你需要购买特殊螺母，因为20毫米 :term:`铝型材 <Extrusion>` 与M3螺母不兼容。1英寸铝型材材通常用作 "
 "FRC\\ |reg| 中的主要搭建系统，但对于FTC而言绝对是过剩的。"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:65
-msgid ""
-"Aluminum flat and aluminum angle is widely available at hardware stores. In "
-"certain applications, such as adapting from different build systems, it is "
-"possible to drill custom adapter plates to mount mechanisms to the "
-"drivetrain. Aluminum angle is also a very sturdy structural support piece "
-"that takes up relatively little space, and can adapt to any build system. We"
-" suggest using 1/8\" alumimum with drivetrain or mounting applications, and "
-"1/16\" aluminum for low-load situations."
-msgstr ""
-"铝扁平和铝角在五金店随处可见。在某些应用中，例如适应不同的构建系统，可以钻定制的适配器板将机构安装到传动系统。铝角也是一种非常坚固的结构支撑件，占用相对较小的空间，可以适应任何构建系统。我们建议在传动系统或安装应用中使用1/8\"铝，在低负载情况下使用1/16\"铝。"
-
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:67
 msgid ""
 "Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are"
@@ -275,10 +263,6 @@ msgstr "塑料"
 msgid "Lexan"
 msgstr "Lexan"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
-msgid "Various polycarbonate plates, inlcuing one with a 90-degree bend"
-msgstr "各种聚碳酸酯板，包括一块 90 度弯曲的聚碳酸酯板"
-
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:88
 msgid ""
 "Polycarbonate, commonly known by its brand name Lexan, is a material that is"
@@ -321,7 +305,7 @@ msgid ""
 msgstr ""
 "薄的Lexan可以用金属制动器或工作表弯曲器弯曲。建议团队使用弯曲而不是用螺丝连接——弯曲往往比螺丝连接强得多，因为这意味着零件保持在一个连续的部件中。如果不可能使用工作表弯曲器，可以使用热枪或野营燃烧器加热Lexan以使其弯曲。不建议这样做，因为如果Lexan过热，它可能会导致受伤和起泡。或者，“冷弯曲”，即沿着直线边缘弯曲而不施加热量，也适用于较薄的工作表。"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid "Various ABS plates"
 msgstr "各种 ABS 板"
 
@@ -352,7 +336,7 @@ msgstr "ABS可以用手工工具或数控加工。ABS工作表也可以使用工
 msgid "Thin (1/16 inch) ABS sheets can also be cut using shears."
 msgstr "薄（1/16英寸）ABS工作表也可以用剪刀切割。"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid "Various acetal/Delrin items, including plates and three sprockets"
 msgstr "各种乙缩醛/Delrin 项目，包括板和三个链轮"
 
@@ -377,7 +361,7 @@ msgid ""
 "bending Lexan or ABS."
 msgstr "Delrin可以通过多种方式进行加工，包括激光切割、CNC布线和手工雕刻。然而，弯曲Delrin比弯曲Lexan或ABS困难得多。"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid "Various HDPE plates"
 msgstr "各种高密度聚乙烯板"
 

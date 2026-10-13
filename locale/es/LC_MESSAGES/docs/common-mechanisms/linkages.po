@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -169,20 +169,6 @@ msgstr ""
 "material de construcción de las cuatro barras puede seleccionarse "
 "cuidadosamente para ahorrar peso."
 
-#: ../../gm0/source/docs/common-mechanisms/linkages.rst:43
-msgid ""
-"This mechanism is not widely used in FTC\\ |reg| due to the space "
-"requirements. The linkage bars that keep the end bar parallel restrict a "
-"four bar to under 180 degrees of travel (less then 90 degrees in either "
-"direction) without specialized mechanical construction, and the bars also "
-"take up space in the robot frame."
-msgstr ""
-"Este mecanismo no se utiliza mucho en los FTC debido a los requisitos de "
-"espacio. Las barras de acoplamiento que mantienen la barra final paralela "
-"limitan el recorrido de las cuatro barras a menos de 180 grados (menos de 90"
-" grados en cualquier dirección) sin una construcción mecánica especializada,"
-" y las barras también ocupan espacio en el marco del robot."
-
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:0
 msgid "CAD Example of Four Bar (Click to expand)"
 msgstr "Ejemplo CAD de cuatro barras (Haga clic para ampliar)"
@@ -197,31 +183,13 @@ msgstr ""
 "clic y arrastrar las piezas para ver cómo se mueven. "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
 
-#: ../../gm0/source/docs/common-mechanisms/linkages.rstNone
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst-1
 msgid "A picture of a goBILDA Four Bar"
 msgstr "Una foto de un goBILDA Cuatro Barras"
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:58
 msgid "Virtual Four Bar"
 msgstr "Cuatro Barras Virtual"
-
-#: ../../gm0/source/docs/common-mechanisms/linkages.rst:60
-msgid ""
-"The more popular alternative to the Four Bar linkage is a Virtual Four Bar. "
-"While not technically a linkage, a virtual four bar uses chains or belts to "
-"create an effect similar to a four bar, where the end effector is kept at a "
-"fixed angle to the ground at all times. Because the need for additional bars"
-" are eliminated, this \"linkage\" can travel more then 180 degrees, and also"
-" can take up less space then a traditional four bar linkage."
-msgstr ""
-"La alternativa más popular al enlace de cuatro barras es un enlace de cuatro"
-" barras virtual. Aunque técnicamente no es un enlace, un cuatro barras "
-"virtual utiliza cadenas o correas para crear un efecto similar al de un "
-"cuatro barras, en el que el efector final se mantiene en un ángulo fijo con "
-"respecto al suelo en todo momento. Debido a que se elimina la necesidad de "
-"barras adicionales, este \"enlace\" puede desplazarse más de 180 grados, y "
-"también puede ocupar menos espacio que un enlace de cuatro barras "
-"tradicional."
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:62
 msgid ""
@@ -312,30 +280,6 @@ msgstr "11115 Gluten Free, Skystone"
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:93
 msgid "Virtual Double-Reverse Four Bar"
 msgstr "Cuatro Barras Doble Invertido Virtual"
-
-#: ../../gm0/source/docs/common-mechanisms/linkages.rst:95
-msgid ""
-"Similar to the virtual four bar, the virtual double-reverse four bar is a "
-"linkage that uses belts or chains to replace the linkage bars of the double-"
-"reverse four bar. The virtual double-reverse four bar is simply a virtual "
-"four bar where the end effector sprocket/pulley is half the size of the "
-"static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is "
-"mounted to the end effector sprocket/pulley, and another chain/belt is run, "
-"which creates purely linear motion with an end effector that is always at "
-"the same angle to the ground. This creates much more compact linear motion "
-"then a double-reverse four bar, and can also extend in both directions."
-msgstr ""
-"Al igual que el cuatro barras virtual, el cuatro barras doble invertido "
-"virtual es un enlace que utiliza correas o cadenas para sustituir las barras"
-" del enlace del cuatro barras doble invertido virtual. El cuatro barras "
-"doble invertido virtual es simplemente un cuatro barras virtual en la que el"
-" piñón/polea del efector final tiene la mitad de tamaño que el piñón/polea "
-"estático, lo que da lugar a una relación de transmisión de 2:1. A "
-"continuación, se monta una barra en el piñón/polea del efector final y se "
-"hace funcionar otra cadena/correa, lo que crea un movimiento puramente "
-"lineal con un efector final que siempre está en el mismo ángulo con respecto"
-" al suelo. Esto crea un movimiento lineal mucho más compacto que un cuatro "
-"barras doble invertido, y también puede extenderse en ambas direcciones."
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:100
 msgid "8644 Brainstormers Virtual Double Reverse Four Bar"

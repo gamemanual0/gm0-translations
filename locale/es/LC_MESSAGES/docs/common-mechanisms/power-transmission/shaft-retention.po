@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-07 04:16+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2024-03-14 04:15+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -45,17 +45,6 @@ msgstr ""
 "en el eje. Es importante asegurarse de que los propios rodamientos también "
 "están limitados."
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:6
-msgid ""
-"Make sure to use an appropriately sized shim/washer between the thing "
-"retaining the shaft and the bearing, such that it only touches the bearings "
-"inner race. Otherwise, the rubbing will lead to inefficiency."
-msgstr ""
-"Asegúrese de utilizar una cuña/arandela del tamaño adecuado entre el "
-"elemento que sujeta el eje y el rodamiento, de forma que sólo toque el "
-"anillo interior del rodamiento. De lo contrario, el rozamiento provocará "
-"ineficacia."
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst:8
 msgid ""
 "Outlined below are some common methods FTC teams use for shaft retention."
@@ -80,7 +69,7 @@ msgstr ""
 msgid "Set Screw Collars"
 msgstr "Collares roscados"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
 msgid "A set screw collar with a grub screw."
 msgstr "Un collarín con tornillo prisionero."
 
@@ -102,7 +91,7 @@ msgstr ""
 msgid "Clamping Collars"
 msgstr "Collares de sujeción"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
 msgid "A clamping shaft collar."
 msgstr "Un collar de sujeción del eje."
 
@@ -125,7 +114,7 @@ msgstr ""
 msgid "Shaft Retaining Rings"
 msgstr "Anillos de retención del eje"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rstNone
+#: ../../gm0/source/docs/common-mechanisms/power-transmission/shaft-retention.rst-1
 msgid "a shaft with a shaft retaining ring"
 msgstr "un eje con un anillo de retención del eje"
 

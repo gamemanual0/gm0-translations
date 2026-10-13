@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Bianca Carstea, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -169,23 +169,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:57
 msgid "The Integral Term"
 msgstr "Termenul Integral"
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:61
-msgid ""
-"However, it can still be useful in some cases. Just like the derivative "
-"term, the integral term intends to correct for overshoot. if the system "
-"thinks it reached its destination, it will stop, even when, in fact, the "
-"error is not yet 0. Perhaps the motor is no longer being supplied enough "
-"power to move. Well, given enough time, the integral term will increase the "
-"output (in this case, motor power), causing movement towards the "
-"destination."
-msgstr ""
-"Totuși, poate fi folositoare în unele cazuri. Precum termenul derivat, "
-"termenul integral intenționează să corecteze depășirea. Dacă sistemul crede "
-"că și-a atins destinația, se va opri, și când, ca fapt divers, eroarea nu "
-"este înca 0. Poate că motorul nu are suficientă putere distribuită pentru a "
-"se mișca. Păi, cu suficient timp, termenul integral va mări output-ul (în "
-"acest caz, puterea motorului), pentru a se apropia de destinație."
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:63
 msgid ""
@@ -391,41 +374,15 @@ msgstr ""
 msgid "PID Controller Sample Rate"
 msgstr "Rata de Numerizare a unui Controller PID"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:147
-msgid ""
-"For teams who desire the most performance out of their PID controller, it is"
-" essential to consider the Sample rate of the controller. The Sample rate is"
-" when the controller updates its output given new sensor data. Higher Sample"
-" rates allow for more stable control and allow for the usage of more "
-"significant PID coefficients to reduce settling time. See this `video "
-"<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ to see how sample "
-"rate effects stability in a practical motor control example. The inbuilt PID"
-" controller is locked at a 20hz refresh rate (50ms sample rate). Many top "
-"FTC teams optimize their robot loops to run at up to 80hz, achieving *much* "
-"more stable control with an external PID."
-msgstr ""
-"Pentru echipele care vor cea mai bună performanță din controllerul lor PID, "
-"este esențial să iei în considerare rata de numerizare a controllerului. "
-"Rata de numerizare este atunci când controllerul îți actualizează output-ul "
-"având date noi despre senzori. Cu cât frecvența de numerizare este mai mare,"
-" cu cât controlul este mai stabil și permite folosirea unor coeficienți PID "
-"mai semnificativi pentru a reduce timpul de corectare. Vezi acest `video "
-"<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ pentru a vedea cum "
-"rata de numerizare afectează stabilitatea într-un exemplu practic cu un "
-"motor. Controllerul PID integrat este blocat la frecventa de actualizare de "
-"20Hz (rata de numerizare de 50ms). Multe echipe FTC de top își optimizează "
-"buclele roboților lor pentru a rula la timpi de la până la 80Hz, obținând un"
-" control *mult*  mai stabil cu un PID extern."
-
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:156
 msgid "Feedforward Control"
 msgstr "Controlul Feedforward"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:207
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:223
 msgid "Motion Profiles"
 msgstr "Profilarea Mișcării"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:212
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:228
 msgid ""
 "Motion profiling is a technique popularized in FRC\\ |reg| that is starting "
 "to find its way to FTC. A motion profile is a function used to change the "
@@ -437,31 +394,31 @@ msgstr ""
 "folosită pentru a schimba viteza unei transmisii într-o manieră controlată "
 "și consistentă prin schimbarea vitezei treptat decât instantaneu."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:216
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:232
 msgid "Motion profiling attempts to solve this issue."
 msgstr "Profilarea mișcării încearcă să rezolve această problemă."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:219
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:235
 msgid "Advantages"
 msgstr "Avantaje"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:221
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:237
 msgid "More controlled and predictable movements"
 msgstr "Mișcări mai controlate și previzibile"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:222
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
 msgid "Reduces rapid change of applied motor voltage"
 msgstr "Reduce schimbarea rapidă a tensiunii aplicate motorului"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:225
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:241
 msgid "Disadvantages"
 msgstr "Dezavantaje"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:227
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:243
 msgid "Can be slower"
 msgstr "Poate fi mai lent"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:229
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:245
 msgid ""
 "There are two main types of motion profiles: **Trapezoidal** profiles and "
 "**S-Curve** profiles. Trapezoidal profiles accelerate the system at a "
@@ -480,7 +437,7 @@ msgstr ""
 "în FTC), profilarea trapezoidală este recomandată pentru majoritatea "
 "aplicațiilor FTC."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:231
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:247
 msgid ""
 "Trapezoidal profiles get their name from the shape of the graph of velocity "
 "over time:"
@@ -488,7 +445,7 @@ msgstr ""
 "Profilarea trapezoidală îți are numele din forma graficului velocității în "
 "timp:"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:252
 msgid ""
 "The position over time, velocity over time, and acceleration over time "
 "graphs for a trapezoidal motion profile"
@@ -496,11 +453,11 @@ msgstr ""
 "Poziția în timp, velocitatea în timp, și accerelația în timp vizualizat "
 "pentru profilarea trapezoidală"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:254
 msgid "Here is some pseudocode for a trapezoidal profile:"
 msgstr "Aici este niște pseudocod pentru un profil trapezoidal:"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:270
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:286
 msgid ""
 "A more advanced example of the math for motion profile generation as used in"
 " the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ "

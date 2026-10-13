@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 04:16+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -259,20 +259,6 @@ msgstr ""
 "``STOP_AND_RESET_ENCODERS`` o se desconecte y vuelva la alimentación al "
 "expansion hub."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:83
-msgid ""
-"There is no real standardized terminology when dealing with quadrature "
-"encoders. The SDK uses \"CPR\" or Counts Per Revolution by default,. You may"
-" also see some datasheets list \"PPR\" or Pulses per Revolution. One pulse "
-"can be equivalent to anywhere from 1 to 4 SDK \"counts\". Be careful when "
-"reading datasheets!"
-msgstr ""
-"No existe una terminología estandarizada real cuando se trata de "
-"codificadores de cuadratura. El SDK utiliza \"CPR\" o recuentos por "
-"revolución, por defecto. También puede ver algunas hojas de datos lista "
-"\"PPR\" o pulsos por revolución. Un pulso puede ser equivalente a entre 1 y "
-"4 \"recuentos\" SDK. Tenga cuidado al leer las hojas de datos."
-
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:85
 msgid ""
 "Encoders with high numbers of Counts per Revolution, such as the REV Through"
@@ -333,19 +319,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:104
 msgid "Continuous Rotation Servo"
 msgstr "Servo de rotación continua"
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:110
-msgid ""
-"A CRServo has one main method; ``setPower()``. This works very similarly to "
-"``DcMotor`` 's ``setPower()``, meaning that passing it 0 makes it stop, "
-"passing it 1 makes it go forward at full speed, passing it -1 makes it go "
-"backwards at full speed, and everything in between. ::"
-msgstr ""
-"Un CRServo tiene un método principal; ``setPower()``. Esto funciona de "
-"manera muy similar a ``DcMotor`` `` ``setPower()``, lo que significa que "
-"pasándole 0 hace que se detenga, pasándole 1 hace que avance a toda "
-"velocidad, pasándole -1 hace que retroceda a toda velocidad, y todo lo "
-"demás. ::"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
 msgid "Digital IO"
@@ -411,22 +384,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:139
 msgid "A Note on Hardware Call Speed"
 msgstr "Nota sobre la velocidad de llamada del hardware"
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:141
-msgid ""
-"Every hardware call you make, (whether it be setting the power for a motor, "
-"setting a :term:`servo <Servo>` position, reading an encoder value, etc.) "
-"will take approximately 3 milliseconds to execute, except for I2C calls "
-"which can take upwards of 7ms. This is because behind the scenes, the SDK "
-"may need to make multiple hardware calls in order to perform the I2C "
-"operation."
-msgstr ""
-"Cada llamada de hardware que realices, (ya sea ajustar la potencia de un "
-"motor, ajustar una posición del :term:`servo <Servo>`, leer un valor de "
-"encoder, etc.) tardará aproximadamente 3 milisegundos en ejecutarse, excepto"
-" las llamadas I2C que pueden tardar más de 7ms. Esto se debe a que entre "
-"bastidores, el SDK puede necesitar hacer múltiples llamadas al hardware para"
-" realizar la operación I2C."
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:143
 msgid ""

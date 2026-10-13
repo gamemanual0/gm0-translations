@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2022\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -228,19 +228,6 @@ msgstr ""
 msgid "Weight distribution"
 msgstr "Distribuția greutății"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:66
-msgid ""
-"Weight distribution generally refers to how the weight of the robot is "
-"proportioned. It is desirable to have a relatively 50-50 (50% of weight in "
-"the front half, 50% in back half) so that the drivetrain has optimal "
-"manuverability and turning."
-msgstr ""
-"Distribuția greutății se referă, în general, la modul în care este "
-"proporționată greutatea robotului. Este de dorit să existe o proporție "
-"relativ 50-50 (50% din greutate în jumătatea din față, 50% în jumătatea din "
-"spate), astfel încât șasiul să aibă o manevrabilitate și o capacitate de "
-"virare optimă."
-
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:68
 msgid ""
 "Off-center turning, which may or may not be a drawback, is nearly ubiquitous"
@@ -296,7 +283,6 @@ msgid "CAD Examples of Four Wheel Drive (Click to expand)"
 msgstr "Exemple CAD de tracțiune pe patru roți (Click pentru a extinde)"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "goBILDA COTS"
 msgstr "goBILDA COTS"
 
@@ -308,7 +294,6 @@ msgstr ""
 "`Click aici pentru a explora acest model în OnShape online CAD "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "REV COTS"
 msgstr "REV COTS"
@@ -322,7 +307,6 @@ msgstr ""
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "goBILDA Custom"
 msgstr "goBILDA Custom"
 
@@ -334,7 +318,6 @@ msgstr ""
 "`Click aici pentru a explora acest model în OnShape online CAD "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "REV Custom"
 msgstr "REV Custom"

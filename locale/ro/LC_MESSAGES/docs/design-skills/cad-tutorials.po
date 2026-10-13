@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Mihail Cimpoiasu, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -99,7 +99,7 @@ msgstr ""
 "folosind patru motoare. Roțile selectate sunt 2 roți Colson pentru tracțiune"
 " și 2 roți omni pentru a ajuta la întoarcere."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Drivetrain Plate Technical Drawing"
 msgstr "Desenul tehnic al plăcii de șasiu"
 
@@ -119,7 +119,7 @@ msgstr ""
 "ce schița este finalizată, toate celelalte lucruri se rezolvă de la sine, "
 "devenind totul destul de simplu."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Inner Drivetrain Plate"
 msgstr "Placă interioară de șasiu"
 
@@ -134,11 +134,7 @@ msgstr ""
 "creați pur și simplu o piesă nouă. Întoarceți-vă la placa interioară și "
 "începeți o schiță 2D."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
-msgid "Drivetrain Plate, with entire face seleected"
-msgstr "Placă de șasiu, cu întreaga față selectată"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid ""
 "Drivetrain inner plate with the parts specific to the inner plate selected"
 msgstr ""
@@ -153,7 +149,7 @@ msgstr ""
 "ca o schiță. Ștergeți suporturile de motor din mijloc, apoi extrudeți placa "
 "exterioară."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer Drivetrain Plate"
 msgstr "Placa exterioară de șasiu"
 
@@ -175,28 +171,6 @@ msgstr ""
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:64
 msgid "Additional Considerations"
 msgstr "Considerente suplimentare"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:66
-msgid ""
-"Powering wheels can be done is a couple different ways through either belts "
-"and pulleys, chains and sprockets, gears, or even powered directly from the "
-"motor. Direct drive and chains are the simpler of the options, with direct "
-"drive not needing a calculated distance at all just have to set the motor "
-"exactly where the center of the wheel is. Chains allow for a little bit of "
-"slack not needing an exact center to center distance in the wrap like belts "
-"and pulleys do. Finally gears which need to be a certain distance apart from"
-" each other to mesh properly and not skip or bind."
-msgstr ""
-"Acționarea roților se poate face în câteva moduri diferite, fie prin "
-"intermediul curelelor și a scripeților, a lanțurilor și a roților dințate, a"
-" angrenajelor sau chiar direct de la motor. Transmisia directă și lanțurile "
-"sunt cele mai simple dintre opțiuni, cu transmisie directă neavând nevoie "
-"deloc de o distanță calculată, trebuie doar ca motorul să fie setat exact "
-"unde se află centrul roții. Lanțurile permit un pic de slăbiciune, neavând "
-"nevoie de o distanță exactă între centrele înfășurării, așa cum fac curelele"
-" și scripeții. În cele din urmă, angrenajele care trebuie să fie la o "
-"anumită distanță una față de cealaltă pentru a se cupla în mod corespunzător"
-" și a nu sări sau a nu se bloca."
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:68
 msgid ""

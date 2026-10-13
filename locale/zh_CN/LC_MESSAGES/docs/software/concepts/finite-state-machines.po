@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -79,13 +79,6 @@ msgid ""
 "on the fly during a competition or other time crunch."
 msgstr ""
 "然而，与程序员简单地将每段代码放入函数并按顺序执行相比，这样做并没有任何好处。事实上，很多时候，程序员都会这样编排代码，而不是将代码分割成函数。这样做的结果是，自动阶段代码更难调试，最终也更难在比赛或其他时间紧迫的情况下临时修复。"
-
-#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:58
-msgid ""
-"If one drew out the state transition diagram for each of the states, for the"
-" autonomus above it'd be very linear, and the state transitions always occur"
-" because the section of the code finished:"
-msgstr "如果画出每种状态的状态转换图，对于上面的自动程序来说，它将是非常线性的，而且状态转换总是因为该段代码完成而发生："
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:81
 msgid ""
@@ -176,13 +169,6 @@ msgstr ""
 "如果驾驶员按下其他特定按钮，我们将停止执行上述操作，以防万一--"
 "万一机器人发生故障，驾驶员需要手动控制。与此同时，驾驶员仍能控制我们的传动系统，以便我们进行调整。当然，这有点简化了（可能也不完全是 GF "
 "所做的那样），但目前还是可以做到的。"
-
-#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:102
-msgid ""
-"Before anything is programmed, it may be useful draw out the state diagram "
-"for this to get a better understanding of what we the robot should actually "
-"be doing. This can also add to a Control Award submission."
-msgstr "在编写任何程序之前，不妨绘制出相关的状态图，以便更好地了解机器人实际应该做些什么。这也可以为提交的控制奖增色不少。"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:120
 msgid ""

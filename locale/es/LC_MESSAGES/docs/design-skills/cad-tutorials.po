@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-28 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -141,7 +141,7 @@ msgstr ""
 "tienes que hacer cada lado individualmente. Empieza con un boceto 2D de todo"
 " antes de intentar extruir y hacer objetos 3D reales."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Drivetrain Plate Technical Drawing"
 msgstr "Placas del Chasis Dibujo Técnico"
 
@@ -175,7 +175,7 @@ msgstr ""
 "Extruir la placa a ese espesor. A continuación se muestra el boceto después "
 "de la extrusión."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Inner Drivetrain Plate"
 msgstr "Placa Interior del Chasis  "
 
@@ -188,10 +188,6 @@ msgstr ""
 "El siguiente paso será hacer la placa exterior para la base del chasis. Es "
 "aún más rápido de hacer que la interior. Para ello, basta con crear una "
 "nueva pieza. Vuelve a tu placa interior e inicia un boceto 2D."
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
-msgid "Drivetrain Plate, with entire face seleected"
-msgstr "Placa del chasis, con toda la cara seleccionada"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:49
 msgid ""
@@ -210,7 +206,7 @@ msgstr ""
 " + C, luego ve a la nueva pieza y pulsa crear un dibujo 2D. A continuación, "
 "pulsa CTRL + V."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid ""
 "Drivetrain inner plate with the parts specific to the inner plate selected"
 msgstr ""
@@ -226,7 +222,7 @@ msgstr ""
 "boceto. Elimina los soportes del motor del centro y extruye la placa "
 "exterior."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer Drivetrain Plate"
 msgstr "Placa Exterior del Chasis"
 
@@ -273,27 +269,6 @@ msgstr ""
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:64
 msgid "Additional Considerations"
 msgstr "Consideraciones Adicionales"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:66
-msgid ""
-"Powering wheels can be done is a couple different ways through either belts "
-"and pulleys, chains and sprockets, gears, or even powered directly from the "
-"motor. Direct drive and chains are the simpler of the options, with direct "
-"drive not needing a calculated distance at all just have to set the motor "
-"exactly where the center of the wheel is. Chains allow for a little bit of "
-"slack not needing an exact center to center distance in the wrap like belts "
-"and pulleys do. Finally gears which need to be a certain distance apart from"
-" each other to mesh properly and not skip or bind."
-msgstr ""
-"El accionamiento de las ruedas puede hacerse de maneras diferentes: mediante"
-" correas y poleas, cadenas y piñones, engranajes o incluso directamente "
-"desde el motor. La transmisión directa y las cadenas son las opciones más "
-"sencillas, ya que la transmisión directa no necesita una distancia "
-"calculada, sólo hay que colocar el motor exactamente en el centro de la "
-"rueda. Las cadenas permiten un poco de holgura al no necesitar una distancia"
-" exacta de centro a centro en la envoltura como hacen las correas y las "
-"poleas. Por último, los engranajes deben estar a cierta distancia unos de "
-"otros para engranar correctamente y no saltar o atascarse."
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:68
 msgid ""
@@ -439,8 +414,7 @@ msgstr ""
 " desplazamiento en el lado derecho, selecciona la herramienta de espejo y "
 "luego presiona espejo."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Left side drivetrain pod"
 msgstr "Módulo del chasis izquierdo"
 
@@ -632,11 +606,11 @@ msgstr ""
 " suficiente material alrededor de los orificios del cojinete y del tornillo."
 " A continuación, se muestra un ejemplo."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer mechanism plate with pocketing sketch highlighted"
 msgstr "Placa de mecanismo exterior con sketch del pocketing resaltado"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer mechanism plate with all functional geometry"
 msgstr "Placa de mecanismo exterior con toda la geometría funcional"
 
@@ -680,19 +654,6 @@ msgstr ""
 "bolsillos no atraviesan completamente el material y son mucho más rígidos "
 "que el pocketing a través."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:150
-msgid ""
-"The downside is increased machining time. The increased time is from the "
-"\"lawn mowing\" tool cutting path verses simply cutting the edges of the "
-"geometry. It is also more difficult to machine, because more material is "
-"milled out and chip ejection becomes more important."
-msgstr ""
-"El inconveniente es el aumento del tiempo de maquinado. El aumento de tiempo"
-" se debe a la trayectoria de corte de la herramienta \"cortadora de césped\""
-" en lugar de simplemente cortar los bordes de la geometría. También es más "
-"difícil de mecanizar, porque se muele más material y la expulsión de virutas"
-" es más importante."
-
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:155
 msgid "Outer mechanism plate surface pocketed"
 msgstr "Superficie de la placa del mecanismo exterior embolsada"
@@ -725,22 +686,7 @@ msgstr ""
 "estructural, los orificios deben perforarse en posiciones específicas con la"
 " broca del tamaño adecuado."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:161
-msgid ""
-"The most effective way to find the specific positions and drill bit sizes, "
-"is to first create a pocketing design as you would do with circles and "
-"tangent lines. Then draw holes tangent to the struts created by the circles "
-"and tangent lines. An example is below with the orange as the holes to drill"
-" positioned tangentially to the regular pocketed edges."
-msgstr ""
-"La forma más eficaz de encontrar las posiciones específicas y los tamaños de"
-" las brocas es crear primero un diseño de pocketing de cómo se haría con "
-"círculos y líneas tangentes. A continuación, dibuje orificios tangentes a "
-"los puntales creados por los círculos y las líneas tangentes. A "
-"continuación, se muestra un ejemplo con la naranja como los agujeros para "
-"perforar colocados tangencialmente a los bordes embolsados regulares."
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer mechanism plate showing the tangent circles between the pockets"
 msgstr ""
 "Placa exterior del mecanismo que muestra los círculos tangentes entre las "
@@ -865,7 +811,7 @@ msgstr ""
 "ajustar rápidamente valores y cambiar múltiples dimensiones en un croquis o "
 "elemento."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "A screenshot of the \"Equations, Global Variables, and Dimensions\" view"
 msgstr ""
 "Captura de pantalla de la vista \"Ecuaciones, variables globales y "
@@ -885,7 +831,7 @@ msgstr ""
 msgid "Copy the sketch below."
 msgstr "Copia el siguiente esquema."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The sketch to copy"
 msgstr "El boceto a copiar"
 
@@ -918,7 +864,7 @@ msgstr ""
 "Deje este boceto como referencia y utilice \"Convertir entidades\" para "
 "crear bocetos de características adicionales."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The profile of the pulley"
 msgstr "El perfil de la polea"
 
@@ -930,7 +876,7 @@ msgstr ""
 "A continuación, extruya el círculo exterior en negrita. Corte-extruya el "
 "perfil en el croquis de referencia. Realice estas operaciones por separado."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid ""
 "A screenshot of the tool to create the circular pattern of the next step"
 msgstr ""
@@ -945,7 +891,7 @@ msgstr ""
 "Ahora, cree un Patrón Circular. Defina la Dirección 1 como la cara superior "
 "y cree \"n\" instancias de la función cortar-extruir."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The CAD of the pulley with dimensions"
 msgstr "El CAD de la polea con dimensiones"
 
@@ -960,6 +906,6 @@ msgstr ""
 "por el círculo exterior. De esta forma, la brida cambia con respecto a "
 "\"n\"."
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The complete CAD of the pulley"
 msgstr "El CAD completo de la polea"

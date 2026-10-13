@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 04:14+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -25,15 +25,6 @@ msgstr ""
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:4
 msgid "Rack and Pinion"
 msgstr "齿条和小齿轮"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:6
-msgid ""
-"Rack and pinion refers to a a toothed linear gear (the rack), meshed with a "
-"a circular gear (the pinion gear). When the pinion gear is driven, it will "
-"drive the pinion gear upwards or downwards, depending on how the rack and "
-"pinion is mounted."
-msgstr ""
-"齿轮齿条是指一个齿形线性齿轮（齿条）与一个圆形齿轮（小齿轮）啮合。当驱动小齿轮时，它将向上或向下驱动小齿轮，这取决于齿条和小齿轮的安装方式。"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:8
 msgid ""
@@ -56,10 +47,6 @@ msgstr "向上延伸的简单方法"
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:14
 msgid "Power and linear motion in one package"
 msgstr "集动力和线性运动于一体"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:15
-msgid "Can with proper support, sustain heavy load (e.g. hang robot)"
-msgstr "能在适当的支撑下承受重物（如悬挂式机器人）"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/rack-and-pinion.rst:18
 msgid "Disadvantages"

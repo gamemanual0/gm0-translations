@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 16:17+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2023-06-12 16:06+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -159,33 +159,9 @@ msgstr ""
 "de un codificador de la siguiente manera:"
 
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
 msgid "Java"
 msgstr "Java"
 
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:0
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:0
 msgid "Blocks"
 msgstr "Blocks"
@@ -245,39 +221,6 @@ msgstr ""
 "encoder. Podemos hacer un programa rápido para ver esto en acción. Aquí, "
 "usamos un codificador de motor conectado a un puerto llamado \"Arm Motor\" "
 "en la configuración de hardware."
-
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:138
-msgid ""
-"If you run the above OpMode and turn the encoder, you should see the values "
-"change as you move. If you rotate the shaft back to where it started, you "
-"will see the number return to (very close to) zero. As an exercise, rotate "
-"the shaft one full revolution (360) degrees and note down the number."
-msgstr ""
-"Si ejecuta el OpMode anterior y gira el codificador, debería ver que los "
-"valores cambian a medida que se mueve. Si gira el eje de vuelta a donde "
-"comenzó, verá que el número vuelve a (muy cerca de) cero. Como ejercicio, "
-"gire el eje una vuelta completa (360) grados y anote el número."
-
-#: ../../gm0/source/docs/software/tutorials/encoders.rst:140
-msgid ""
-"There is one more thing we can do with encoders. While knowing the number of"
-" counts something moved is useful, oftentimes one will need a different "
-"number, like the number of revolutions the encoder has turned or the angle "
-"it is at. To determine these, we need a constant, the encoders Counts Per "
-"Revolution or CPR. For external encoders, this number is often provided in a"
-" datasheet. For motors, it will generally be on the product page, although "
-"some motors (most notably the Rev Ultraplanetary Gearbox) do not provide it "
-"plainly."
-msgstr ""
-"Hay algo más que podemos hacer con los encoders. Aunque saber el número de "
-"cuentas que se ha movido algo es útil, a menudo necesitaremos un número "
-"diferente, como el número de revoluciones que ha girado el encoder o el "
-"ángulo en el que se encuentra. Para determinarlos, necesitamos una "
-"constante, los contadores por revolución del encoder o CPR. En el caso de "
-"los encoders externos, este número suele aparecer en la hoja de datos. En el"
-" caso de los motores, suele aparecer en la página del producto, aunque "
-"algunos motores (sobre todo el Rev Ultraplanetary Gearbox) no lo indican "
-"claramente."
 
 #: ../../gm0/source/docs/software/tutorials/encoders.rst:142
 msgid ""

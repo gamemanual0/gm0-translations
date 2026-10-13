@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 04:29+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Bianca Carstea, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -90,26 +90,6 @@ msgstr ""
 ":doc:`software-ul de localizare </docs/software/concepts/odometry>` joacă un"
 " rol important în odometrie; totuși, ca să produci rezultate precise, "
 "hardware-ul fiabil este o necesitate."
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:21
-msgid ""
-"The simplest form of odometry is drive encoder localization. This is the use"
-" of encoders measuring the rotation of motors that power the drive train. "
-"One is able to read the encoder data and feed it through the kinematic "
-"equation for that specific drive train to derive the body's velocity. Drive "
-"encoder localization is generally quite simple and easy to setup as almost "
-"all of the FTC legal motors have built-in encoders. Getting drive encoder "
-"localization setup is simply a matter of plugging in wires, no additional "
-"hardware needed."
-msgstr ""
-"Cea mai simplă formă de odometrie este localizarea prin encoderele "
-"motoarelor. Aceasta folosește encoderele care măsoară rotația motoarelor "
-"care pun în mișcare șasiul. Prin această metodă poți să citești datele "
-"encoderelor și să o folosești prin ecuația cinematică pentru tipul acela de "
-"șasiu pentru a deriva velocitatea corpului. Localizarea prin encoderele "
-"motoarelor este în general destul de simplă și ușor de setat pentru aproape "
-"toate motoarele FTC legale cu encodere incorporate. Trebuie doar să "
-"conectezi câteva cabluri, fără hardware adițional necesar."
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:23
 msgid ""
@@ -197,14 +177,6 @@ msgstr "Puțin efort depus"
 msgid "**Cons**:"
 msgstr "**Contra**:"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:39
-msgid ""
-"Drive encoder localization on mecanum drive can be quite inaccurate due to "
-"lack on traction on mecanum wheels."
-msgstr ""
-"Această metodă de localizare pe șasiurile mecanum poate fi destul de "
-"inprecisă din cauza lipsei tracțiunii pe roțile mecanum."
-
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:40
 msgid ""
 "Will drift on high acceleration on mecanum drive. Accuracy will be good "
@@ -255,22 +227,6 @@ msgstr "Reglajul direcției este destul de important"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:66
 msgid "Encoders"
 msgstr "Encodere"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:68
-msgid ""
-"A lot of the localization done in software relies on readings from encoders."
-" :ref:`encoders` are sensors that track \"counts\" or \"ticks,\" which are "
-"values that represent a certain amount of a rotation. Different encoders "
-"might have a different number of counts per revolution (CPR), which is also "
-"sometimes also called ticks per revolution. The greater the number of "
-"counts, the more precise the data."
-msgstr ""
-"Multe din localizările făcute în software se bazează pe citirea din "
-"encodere. :ref:`Encoderele` sunt senzori care înregistrează \"pașii\" sau "
-"\"ticks\", care sunt valori care reprezintă un anumit grad de rotație. "
-"Encoderele pot avea un număr diferit de citiri pe revoluție (CPR), care de "
-"asemenea uneori se numește și tick-uri pe revoluție. Cu cât numărul acesta "
-"este mai mare, cu cât datele sunt mai precise."
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:70
 msgid ""
@@ -324,6 +280,7 @@ msgid "REV Through-Bore Encoder"
 msgstr "Encoder REV Through-Bore "
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
 msgid "**Advantages:**"
 msgstr "**Avantaje**"

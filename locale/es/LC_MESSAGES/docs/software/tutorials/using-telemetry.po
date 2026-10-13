@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-29 21:29+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -24,18 +24,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:2
 msgid "Using Telemetry"
 msgstr "Utilización de Telemetría"
-
-#: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:4
-msgid ""
-"The SDK has \"telemetry\" that can be sent from the robot controller to the "
-"drivers station to display basic text. This telemetry is accessible through "
-"the ``Telemetry`` class, and the ``telemetry`` variable accessible in both "
-"OpMode and LinearOpMode."
-msgstr ""
-"El SDK tiene \"telemetría\" que puede ser enviada desde el controlador del "
-"robot a la estación de control para mostrar texto básico. Esta telemetría es"
-" accesible a través de la clase ``Telemetry``, y la variable ``telemetry`` "
-"accesible tanto en OpMode como en LinearOpMode."
 
 #: ../../gm0/source/docs/software/tutorials/using-telemetry.rst:7
 msgid "Building Telemetry"

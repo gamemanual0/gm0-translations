@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-28 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -67,7 +67,7 @@ msgstr ""
 "<Traction wheel>` 那样与固体接触，因此车轮产生的力不是与车轮方向平行的力，而是与平行线成 45\\ |deg| "
 "角的力。根据车轮的驱动方式，力矢量的X或Y分量可以抵消，从而允许向任何方向运动。"
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst-1
 msgid "Force diagram of a single mecanum wheel"
 msgstr "单个麦轮的受力示意图"
 
@@ -90,7 +90,7 @@ msgstr ""
 "标准的麦轮驱动配置有4个以“X”形状定向的麦轮。这意味着当从上面看时，滚子是朝向中心的。这种配置允许人们将偏移滚子产生的力矢量相加，并推导出任何方向的运动。重要的是要注意，由于摩擦力，不可能在每个方向都进行完美的运动，因此"
 " :term:`麦轮底盘 <Mecanum Wheel>` 比起其他方向可以更快地向前/向后移动。平移和旋转相结合也会导致运动变慢。"
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst-1
 msgid "Force diagram of a complete mecanum drive"
 msgstr "完整麦轮传动装置的受力示意图"
 
@@ -106,7 +106,7 @@ msgstr ""
 "在上图中，向量1、2、3和4分别表示底盘向图像顶部行驶时由 :term:`麦轮 <Mecanum Wheel>` "
 "创建的力向量。所有电机都在向前行驶。蓝线和红线分别是它们的X和Y分量。以下是车轮必须如何驱动以实现不同运动的几个示例："
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst-1
 msgid ""
 "Examples of ways to move the wheels on mecanum drive to move the robot in "
 "different directions"
@@ -136,19 +136,9 @@ msgstr ""
 "在推导麦轮方程之前，设想一个场景，你有一个2电机坦克底盘，你想用左摇杆Y轴来控制它前进/后退，用右摇杆X轴来控制它自转转动。电机的配置是，当底盘背对着你时，右电机的正方向是顺时针，而左电机相反。要控制只前进/后退运动，你只需要将电机功率设置为Y摇杆值（翻转符号，因为Y是反转的）："
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
 msgid "Java"
 msgstr "Java"
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
 msgid "Blocks"
 msgstr "图形化编程"
@@ -187,16 +177,6 @@ msgid ""
 msgstr ""
 "使用 :term:`麦轮 <Mecanum Wheel>` "
 "进行全向运动的原理与将转弯添加到坦克示例中的原理相同。根据车轮需要如何旋转以获得所需的运动，左摇杆的X值将被加减到每个车轮上。与转弯的唯一区别是，不是同一侧的车轮是相同的符号，而彼此对角线的车轮将是相同的符号。"
-
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:85
-msgid ""
-"We want a positive left stick X value to correlate to rightward strafing. If"
-" we refer back to the vectoring image, this means that the front left and "
-"back right need to rotate forward, while the back left and front right need "
-"to rotate backwards. So, we should add the x value to the front left and "
-"back right and subtract it from the back right and front left:"
-msgstr ""
-"我们想要一个正的左摇杆X值与向右平移相关联。如果我们参考矢量图像，这意味着前左和后右需要向前旋转，而后左和前右需要向后旋转。因此，我们应该将X值添加到前左和后右，并从后右和前左减去它："
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:111
 msgid ""

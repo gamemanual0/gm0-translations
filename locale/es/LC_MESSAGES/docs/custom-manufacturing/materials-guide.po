@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 04:17+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -130,7 +130,7 @@ msgstr "Metales"
 msgid "Aluminum"
 msgstr "Aluminio"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid ""
 "Various aluminum items including extrusion, box tube, flat sheet, channel, "
 "and drawer slides"
@@ -240,26 +240,6 @@ msgstr ""
 "tuercas M3. La extrusión de 1\" se utiliza habitualmente como sistema de "
 "construcción principal en FRC, pero es definitivamente excesivo para FTC."
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:65
-msgid ""
-"Aluminum flat and aluminum angle is widely available at hardware stores. In "
-"certain applications, such as adapting from different build systems, it is "
-"possible to drill custom adapter plates to mount mechanisms to the "
-"drivetrain. Aluminum angle is also a very sturdy structural support piece "
-"that takes up relatively little space, and can adapt to any build system. We"
-" suggest using 1/8\" alumimum with drivetrain or mounting applications, and "
-"1/16\" aluminum for low-load situations."
-msgstr ""
-"El aluminio plano y el ángulo de aluminio están ampliamente disponibles en "
-"ferreterías. En ciertas aplicaciones, como la adaptación de diferentes "
-"sistemas de construcción, es posible perforar placas adaptadoras "
-"personalizadas para montar mecanismos en la chasis. El ángulo de aluminio es"
-" también una pieza de soporte estructural muy resistente que ocupa "
-"relativamente poco espacio, y puede adaptarse a cualquier sistema de "
-"construcción. Sugerimos utilizar el aluminio de 1/8\" con el chasis o "
-"aplicaciones de montaje, y el aluminio de 1/16\" para situaciones de baja "
-"carga."
-
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:67
 msgid ""
 "Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are"
@@ -326,11 +306,6 @@ msgstr "Plásticos"
 msgid "Lexan"
 msgstr "Lexan"
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
-msgid "Various polycarbonate plates, inlcuing one with a 90-degree bend"
-msgstr ""
-"Varias placas de policarbonato, incluida una con una curvatura de 90 grados"
-
 #: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst:88
 msgid ""
 "Polycarbonate, commonly known by its brand name Lexan, is a material that is"
@@ -392,7 +367,7 @@ msgstr ""
 "largo de un borde recto sin aplicar calor, puede funcionar para las láminas "
 "más finas."
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid "Various ABS plates"
 msgstr "Varias placas ABS"
 
@@ -433,7 +408,7 @@ msgstr ""
 "Las láminas de ABS finas (1/16 pulgadas) también pueden cortarse con "
 "cizallas."
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid "Various acetal/Delrin items, including plates and three sprockets"
 msgstr ""
 "Varios artículos de acetal/Delrin, incluidas placas y tres ruedas dentadas"
@@ -468,7 +443,7 @@ msgstr ""
 "enrutamiento con CNC y esculpido a mano. Sin embargo, doblar Delrin es mucho"
 " más difícil que doblar Lexan o ABS."
 
-#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rstNone
+#: ../../gm0/source/docs/custom-manufacturing/materials-guide.rst-1
 msgid "Various HDPE plates"
 msgstr "Varias placas de HDPE"
 

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 04:28+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -98,16 +98,6 @@ msgstr ""
 "fonctions. Il en résulte un code autonome plus difficile à déboguer et, en "
 "fin de compte, plus difficile à corriger à la volée lors d'une compétition "
 "ou d'un autre problème de temps."
-
-#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:58
-msgid ""
-"If one drew out the state transition diagram for each of the states, for the"
-" autonomus above it'd be very linear, and the state transitions always occur"
-" because the section of the code finished:"
-msgstr ""
-"Si l'on dessinait le diagramme de transition d'état pour chacun des états, "
-"pour l'autonomus ci-dessus, il serait très linéaire, et les transitions "
-"d'état se produisent toujours parce que la section du code s'est terminée :"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:81
 msgid ""
@@ -224,17 +214,6 @@ msgstr ""
 "effectuer des ajustements. Bien entendu, ce schéma est un peu simplifié (et "
 "ne correspond probablement pas tout à fait à ce que GF a fait), mais il "
 "suffit pour l'instant."
-
-#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:102
-msgid ""
-"Before anything is programmed, it may be useful draw out the state diagram "
-"for this to get a better understanding of what we the robot should actually "
-"be doing. This can also add to a Control Award submission."
-msgstr ""
-"Avant de programmer quoi que ce soit, il peut être utile de dessiner le "
-"diagramme d'état pour obtenir une meilleure compréhension de ce que le robot"
-" devrait réellement faire. Cela peut également contribuer à la présentation "
-"d'un prix de contrôle."
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:120
 msgid ""

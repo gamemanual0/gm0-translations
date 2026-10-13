@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 04:29+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -108,28 +108,6 @@ msgstr ""
 "cependant, pour produire des résultats précis, il est nécessaire de "
 "concevoir un matériel fiable et précis."
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:21
-msgid ""
-"The simplest form of odometry is drive encoder localization. This is the use"
-" of encoders measuring the rotation of motors that power the drive train. "
-"One is able to read the encoder data and feed it through the kinematic "
-"equation for that specific drive train to derive the body's velocity. Drive "
-"encoder localization is generally quite simple and easy to setup as almost "
-"all of the FTC legal motors have built-in encoders. Getting drive encoder "
-"localization setup is simply a matter of plugging in wires, no additional "
-"hardware needed."
-msgstr ""
-"La forme la plus simple d'odométrie est la localisation par codeur "
-"d'entraînement. Il s'agit de l'utilisation d'encodeurs mesurant la rotation "
-"des moteurs qui alimentent le châssis. Il est possible de lire les données "
-"de l'encodeur et de les introduire dans l'équation cinématique de ce châssis"
-" spécifique afin d'en déduire la vitesse du corps. La localisation de "
-"l'encodeur de l'entraînement est généralement assez simple et facile à "
-"mettre en place, car presque tous les moteurs légaux de FTC sont équipés "
-"d'encodeurs intégrés. L'installation de la localisation du codeur "
-"d'entraînement consiste simplement à brancher des fils, sans matériel "
-"supplémentaire."
-
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:23
 msgid ""
 "Many teams in the community have converged on a unique solution that isn't "
@@ -221,14 +199,6 @@ msgstr "Très peu de configuration nécessaire"
 msgid "**Cons**:"
 msgstr "**Inconvénients** :"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:39
-msgid ""
-"Drive encoder localization on mecanum drive can be quite inaccurate due to "
-"lack on traction on mecanum wheels."
-msgstr ""
-"La localisation de l'encodeur du châssis sur un châssis mecanum peut être "
-"assez imprécise en raison du manque de traction sur les roues mecanums."
-
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:40
 msgid ""
 "Will drift on high acceleration on mecanum drive. Accuracy will be good "
@@ -279,23 +249,6 @@ msgstr "L'ajustement du cap est très important"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:66
 msgid "Encoders"
 msgstr "Encodeurs"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:68
-msgid ""
-"A lot of the localization done in software relies on readings from encoders."
-" :ref:`encoders` are sensors that track \"counts\" or \"ticks,\" which are "
-"values that represent a certain amount of a rotation. Different encoders "
-"might have a different number of counts per revolution (CPR), which is also "
-"sometimes also called ticks per revolution. The greater the number of "
-"counts, the more precise the data."
-msgstr ""
-"Une grande partie de la localisation effectuée dans les logiciels repose sur"
-" les relevés des encodeurs. Les :ref:`encodeurs` sont des capteurs qui "
-"suivent les \"comptes\" ou les \"ticks\", qui sont des valeurs représentant "
-"une certaine quantité d'une rotation. Différents codeurs peuvent avoir un "
-"nombre différent de comptes par révolution (CPR), qui est aussi parfois "
-"appelé ticks par révolution. Plus le nombre de comptes est élevé, plus les "
-"données sont précises."
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:70
 msgid ""
@@ -362,6 +315,7 @@ msgid "REV Through-Bore Encoder"
 msgstr "Encodeur traversant REV"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
 msgid "**Advantages:**"
 msgstr "**Avantages:**"
@@ -477,10 +431,6 @@ msgstr "Un encodeur US Digital S4T"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:111
 msgid "S4T Encoder"
 msgstr "S4T Encodeur"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
-msgid "*****Advantages:**"
-msgstr "*****Avantages:**"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:115
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:139

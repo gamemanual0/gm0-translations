@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-01 16:17+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -118,7 +118,7 @@ msgid ""
 msgstr ""
 "首先，制作驾驶座的左侧。完成后，你所要做的就是将左侧镜像到右侧，这样你就不必单独做每一侧。在尝试挤压和制作实际的3D对象之前，先从所有东西的2D草图开始。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Drivetrain Plate Technical Drawing"
 msgstr "传动系统板技术图纸"
 
@@ -144,7 +144,7 @@ msgid ""
 msgstr ""
 "在此之后，将草图拉伸为传动系统的第一个板。通常，铝板的标准厚度为1/8英寸。也可以使用更薄的板（3/32英寸），但通常大多数团队坚持1/8英寸。将板拉伸到该厚度。下面是拉伸后的草图。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Inner Drivetrain Plate"
 msgstr "内传动系板"
 
@@ -154,10 +154,6 @@ msgid ""
 "faster to do than the inner. To do this, simply create a new part. Go back "
 "to your inner plate and start a 2D sketch."
 msgstr "下一步将是为驱动底座制作外板。它比内部更快。为此，只需创建一个新零件。回到你的内板并开始2D草图。"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
-msgid "Drivetrain Plate, with entire face seleected"
-msgstr "传动系统板，整个板面均被切除"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:49
 msgid ""
@@ -170,7 +166,7 @@ msgid ""
 msgstr ""
 "在内板上开始新草图后，点击“项目几何”，只需单击零件上的任何位置。它应该突出显示零件的每个轮廓。（此处显示的是一条黄线；你的可能是红色、蓝色或其他颜色。）现在单击并拖动零件，选择屏幕上的每一行。现在点击CTRL+C，然后转到新零件并点击创建2D草图。下一步点击CTRL+V。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid ""
 "Drivetrain inner plate with the parts specific to the inner plate selected"
 msgstr "传动系统内板，包括所选内板的专用部件"
@@ -181,7 +177,7 @@ msgid ""
 "Delete your motor mounts out of the middle, then extrude the outer plate."
 msgstr "它应该看起来像内板的精确副本，但现在作为草图。从中间删除电机口，然后拉伸出外板。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer Drivetrain Plate"
 msgstr "外传动系板"
 
@@ -213,19 +209,6 @@ msgstr ""
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:64
 msgid "Additional Considerations"
 msgstr "其他考虑因素"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:66
-msgid ""
-"Powering wheels can be done is a couple different ways through either belts "
-"and pulleys, chains and sprockets, gears, or even powered directly from the "
-"motor. Direct drive and chains are the simpler of the options, with direct "
-"drive not needing a calculated distance at all just have to set the motor "
-"exactly where the center of the wheel is. Chains allow for a little bit of "
-"slack not needing an exact center to center distance in the wrap like belts "
-"and pulleys do. Finally gears which need to be a certain distance apart from"
-" each other to mesh properly and not skip or bind."
-msgstr ""
-"为车轮提供动力可以通过皮带和皮带轮、链条和链轮、齿轮，甚至直接由电机提供动力来实现。直接驱动和链条是更简单的选择，直接驱动根本不需要计算距离，只需将电机精确设置在车轮中心的位置。链条允许一点松弛，而不需要像皮带和皮带轮那样在包裹中精确的中心到中心的距离。最后，需要彼此相距一定距离的齿轮才能正确啮合，而不是跳跃或捆绑。"
 
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:68
 msgid ""
@@ -327,8 +310,7 @@ msgid ""
 msgstr ""
 "下面显示的是一个驱动吊舱，它是传动系统的一半，包括轴、轴承、轮子、电机、皮带等。简而言之，驱动吊舱拥有现实生活中将要建造的一切。这个特别的是左侧，但要使右侧创建一个偏移平面，请选择镜像工具，然后点击镜像。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Left side drivetrain pod"
 msgstr "左侧传动系统吊舱"
 
@@ -463,11 +445,11 @@ msgid ""
 msgstr ""
 "在每个轴承和螺丝孔的边缘上的圆与其他圆之间以及中心的圆之间画切线。轴承孔和螺丝孔半径加上偏移值的圆确保轴承和螺丝孔周围有足够的材料。下面是一个例子。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer mechanism plate with pocketing sketch highlighted"
 msgstr "外侧机构板上有突出的口袋简图"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer mechanism plate with all functional geometry"
 msgstr "带所有功能几何图形的外机构板"
 
@@ -500,15 +482,6 @@ msgstr ""
 ":term:`水射流切割机 <Waterjet cutter>` 和 :term:`激光切割机 <Laser cutter>` "
 "只能切割材料，但是路由器和磨坊能够制造表面口袋。这些口袋不会一直穿过材料，而且比通过口袋更坚硬。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:150
-msgid ""
-"The downside is increased machining time. The increased time is from the "
-"\"lawn mowing\" tool cutting path verses simply cutting the edges of the "
-"geometry. It is also more difficult to machine, because more material is "
-"milled out and chip ejection becomes more important."
-msgstr ""
-"缺点是加工时间增加。增加的时间是从“割草”工具切割路径到简单地切割几何形状的边缘。它也更难加工，因为更多的材料被铣削出来，切屑喷射变得更加重要。"
-
 #: ../../gm0/source/docs/design-skills/cad-tutorials.rst:155
 msgid "Outer mechanism plate surface pocketed"
 msgstr "外机构板表面挖孔"
@@ -533,17 +506,7 @@ msgid ""
 "to be drilled in specific positions with the right size bit."
 msgstr "由于凹坑的主要目标是在不显著牺牲结构稳定性的情况下去除尽可能多的材料，因此需要在特定位置用合适尺寸的钻头钻孔。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rst:161
-msgid ""
-"The most effective way to find the specific positions and drill bit sizes, "
-"is to first create a pocketing design as you would do with circles and "
-"tangent lines. Then draw holes tangent to the struts created by the circles "
-"and tangent lines. An example is below with the orange as the holes to drill"
-" positioned tangentially to the regular pocketed edges."
-msgstr ""
-"找到具置和钻头尺寸的最有效方法是首先创建一个口袋设计，就像你对圆形和切线所做的那样。然后绘制与圆形和切线创建的支柱相切的孔。下面是一个例子，橙色作为钻孔定位在常规口袋边缘的切线上。"
-
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "Outer mechanism plate showing the tangent circles between the pockets"
 msgstr "外层机构板显示挖孔之间的切圆"
 
@@ -632,7 +595,7 @@ msgstr ""
 "为了使滑轮完全参数化（无需重做基本草图即可调整），我们将使用方程式（在Solidworks和Creo中）、参数（Fusion "
 "360和Inventor）或变量（Onform）。方程式允许用户快速调整值并更改草图或特征中的多个维度。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "A screenshot of the \"Equations, Global Variables, and Dimensions\" view"
 msgstr "方程、全局变量和维度 \"视图截图"
 
@@ -647,7 +610,7 @@ msgstr "首先，定义一个新变量“n”并设置默认值为24。这一点
 msgid "Copy the sketch below."
 msgstr "复制下面的草图。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The sketch to copy"
 msgstr "要复制的草图"
 
@@ -673,7 +636,7 @@ msgid ""
 "sketches for additional features."
 msgstr "保留此草图作为参考，并使用“转换实体”为附加功能创建草图。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The profile of the pulley"
 msgstr "滑轮轮廓"
 
@@ -683,7 +646,7 @@ msgid ""
 "reference sketch. Do these features separately."
 msgstr "接下来，挤出外部粗体圆圈。切割-挤出参考草图中的轮廓。分别执行这些功能。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid ""
 "A screenshot of the tool to create the circular pattern of the next step"
 msgstr "创建下一步的圆形图案的工具截图"
@@ -694,7 +657,7 @@ msgid ""
 "create \"n\" instances of the cut-extrude feature."
 msgstr "现在，只需创建一个圆形图案。将方向1定义为顶面并创建“n”个切割挤压特征的实例。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The CAD of the pulley with dimensions"
 msgstr "滑轮 CAD 的尺寸"
 
@@ -705,6 +668,6 @@ msgid ""
 "the outer circle. That way, the flange changes with respect to \"n\"."
 msgstr "现在只需在侧平面上绘制草图并绘制法兰。这取决于你，但我更喜欢保持外部点垂直于穿过外部圆的点。这样，法兰相对于“n”发生变化。"
 
-#: ../../gm0/source/docs/design-skills/cad-tutorials.rstNone
+#: ../../gm0/source/docs/design-skills/cad-tutorials.rst-1
 msgid "The complete CAD of the pulley"
 msgstr "滑轮的完整 CAD"

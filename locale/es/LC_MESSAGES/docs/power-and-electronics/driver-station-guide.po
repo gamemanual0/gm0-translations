@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-17 04:38+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -77,10 +77,6 @@ msgstr ""
 msgid "Larger screen than many Android phones"
 msgstr "Pantalla más grande que muchos teléfonos Android"
 
-#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:19
-msgid "Case is more robust then a standard Android phone"
-msgstr "La carcasa es más robusta que la de un teléfono Android estándar"
-
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:22
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:44
 msgid "Disadvantages"
@@ -101,15 +97,6 @@ msgid ""
 msgstr ""
 "Problemas de alimentación: Los equipos han informado de pérdidas aleatorias "
 "de energía procedentes de una batería de tamaño inadecuado."
-
-#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:26
-msgid ""
-"Battery Issues: Teams have reported high battery drain in sleep mode, "
-"leading to hubs dying faster then expected"
-msgstr ""
-"Problemas de batería: Los equipos han informado de un alto consumo de "
-"batería en el modo de suspensión, lo que lleva a los centros de morir más "
-"rápido de lo esperado"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:27
 msgid ""
@@ -292,31 +279,6 @@ msgstr ""
 "para la gran mayoría de los equipos. Además, hay que tener en cuenta que hay"
 " modelos muy específicos del control de Xbox que son legales, por lo que "
 "pueden ser difíciles de encontrar nuevos.**"
-
-#: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:80
-msgid ""
-"Starting with the 2020-2021 season, the ETPark and Sony PS4 Controllers are "
-"legal and provide numerous advantages over Xbox 360 Controllers. Some of "
-"these advantages include, better trigger and bumper control, a more usable "
-"dpad, and trackpad support as of the 2021-2022 season. Use of the PS4 "
-"controller is slightly different because the locations of the Left Stick and"
-" DPAD are swapped and `some button names are different. "
-"<https://github.com/OpenFTC/OpenRC-"
-"Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_"
-" **Pro Tip: Make sure your drivers have experience with the controller they "
-"plan to use for competition.**"
-msgstr ""
-"A partir de la temporada 2020-2021, los controles ETPark y Sony PS4 son "
-"legales y ofrecen numerosas ventajas sobre los controles Xbox 360. Algunas "
-"de estas ventajas incluyen un mejor control del gatillo y el parachoques, un"
-" dpad más utilizable y compatibilidad con el trackpad a partir de la "
-"temporada 2021-2022. El uso del control de PS4 es ligeramente diferente "
-"porque las ubicaciones del Stick izquierdo y el DPAD están intercambiadas y "
-"`algunos nombres de botones son diferentes. "
-"<https://github.com/OpenFTC/OpenRC-"
-"Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>**Consejo"
-" profesional: Asegúrate de que tus conductores tienen experiencia con el "
-"mando que piensan usar en competición.**"
 
 #: ../../gm0/source/docs/power-and-electronics/driver-station-guide.rst:82
 msgid ""

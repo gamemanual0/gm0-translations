@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# wwsk2008sq, 2023
+# mo-wu-si-kong, 2023
 # DomnickJYH, 2024
 # Shawphy, 2024
 # 
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -203,16 +203,6 @@ msgstr ""
 "McMaster-Carr 购买 **M3 沉头螺丝**。如果要固定到 REV 铝型材上，则需要购买 6 毫米 M3 螺丝，并将 M3 "
 "螺母（**不是防松螺母**）插入铝型材内部。提示：尽量防止切屑或锯末落入滑轨，这会导致滑轨变得不顺滑"
 
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:60
-msgid ""
-"MiSUMI sells two different types of slides: SAR2 and SAR3. The SAR2 is a "
-"two-piece slide, while the the SAR3 is a three-stage slide (has intermediate"
-" slider to increase the extension of the slide). Teams have used both "
-"successfully, and there isn't neither option is clearly superior."
-msgstr ""
-"MiSUMI 销售两种不同类型的滑轨：SAR2 和 SAR3。SAR2 是一种二段式滑轨，而 SAR3 "
-"是一种三段式滑轨（具有中间段，可增加滑轨的延伸长度至约原长度的一倍）。我们的团队已经成功地使用了这两种滑轨，并没有明显的优劣之分。"
-
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:62
 msgid ""
 "Teams using SAR3 slides will generally need to buy low profile M3 jam nuts "
@@ -323,14 +313,6 @@ msgstr "钢制滑轨可承受更大的载荷（在许多情况下可使用一组
 msgid ""
 "Available in a kit with everything you need to start using in one purchase"
 msgstr "套装中包含一次购买即可开始使用的所有零件"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:105
-msgid "Longer stroke (more extension) then the same length misumi slide"
-msgstr "与相同长度的 misumi 滑轨相比，伸展距离更长。"
-
-#: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:106
-msgid "Cheaper then misumi slides"
-msgstr "比 misumi 滑轨便宜"
 
 #: ../../gm0/source/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst:111
 msgid "Twice as heavy per slide compared to misumi slides"

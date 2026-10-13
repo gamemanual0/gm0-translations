@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 16:34+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -245,17 +245,6 @@ msgstr "PETG 料床温度范围为60摄氏度到80摄氏度"
 msgid "Less Common Filaments"
 msgstr "较少常见的长丝"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:65
-msgid ""
-"These filaments are less used than those listed above, but can still find "
-"plenty of use cases on an FTC robot. These usually are used due to specific "
-"material properties such as flexibility or durability. These often come "
-"however, with substantial obstacles for printing that prevent some printers "
-"from printing them out of the box, along with sometimes being significantly "
-"more expensive."
-msgstr ""
-"这些细丝比上面列出的少用，但是仍然可以在FTC机器人上找到很多用例。这些通常是由于特定的材料特性而使用的，如柔韧性或耐用性。然而，这些通常会出现很大的打印障碍，阻止一些打印机开箱打印，有时还会贵得多。"
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
 msgid "ABS (Acrylonitrile Butadiene Styrene)"
 msgstr "ABS（丙烯腈丁二烯苯乙烯）"
@@ -389,18 +378,6 @@ msgstr "建议的附件"
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:107
 msgid "Carbon Fiber-filled"
 msgstr "碳纤维填充"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:109
-msgid ""
-"Many filaments are also sold with the addition of small chunks of carbon "
-"fiber mixed into the filament itself. While often though of as an extreme "
-"strength improvement, these filaments are instead meant to be stiffer and "
-"help to improve the printability of filaments like nylon. Carbon fiber-"
-"filled filaments generally require higher temperatures, and a hardened steel"
-" nozzle, but if you can print the pure variants of those filaments, you "
-"should be able to print their carbon fiber-filled counterparts."
-msgstr ""
-"许多长丝也在销售时添加了小块碳纤维混合到长丝本身中。虽然这些长丝通常被认为是一种极端的强度改进，但它们实际上更坚硬，有助于提高尼龙等长丝的打印性。碳纤维填充长丝通常需要更高的温度和硬化的钢喷嘴，但是如果你能打印这些长丝的纯变体，你应该能够打印它们的碳纤维填充长丝。"
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:113
 msgid "Polycarbonate (PC)"

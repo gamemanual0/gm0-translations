@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 04:29+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -104,27 +104,6 @@ msgstr ""
 "odometría; sin embargo, para producir resultados precisos, es necesario un "
 "diseño de hardware fiable y preciso."
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:21
-msgid ""
-"The simplest form of odometry is drive encoder localization. This is the use"
-" of encoders measuring the rotation of motors that power the drive train. "
-"One is able to read the encoder data and feed it through the kinematic "
-"equation for that specific drive train to derive the body's velocity. Drive "
-"encoder localization is generally quite simple and easy to setup as almost "
-"all of the FTC legal motors have built-in encoders. Getting drive encoder "
-"localization setup is simply a matter of plugging in wires, no additional "
-"hardware needed."
-msgstr ""
-"La forma más sencilla de odometría es la localización por codificador de "
-"accionamiento. Se trata del uso de codificadores que miden la rotación de "
-"los motores que accionan el chasis. Se leen los datos del codificador y se "
-"introducen en la ecuación cinemática del chasis específico para obtener la "
-"velocidad del cuerpo. Por lo general, la localización del codificador de "
-"accionamiento es bastante sencilla y fácil de configurar, ya que casi todos "
-"los motores legales FTC tienen codificadores incorporados. Conseguir la "
-"localización del codificador de accionamiento es simplemente una cuestión de"
-" conectar los cables, sin necesidad de hardware adicional."
-
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:23
 msgid ""
 "Many teams in the community have converged on a unique solution that isn't "
@@ -214,14 +193,6 @@ msgstr "Se necesita muy poca configuración"
 msgid "**Cons**:"
 msgstr "Cons:"
 
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:39
-msgid ""
-"Drive encoder localization on mecanum drive can be quite inaccurate due to "
-"lack on traction on mecanum wheels."
-msgstr ""
-"La localización del codificador del accionamiento mecanum puede ser bastante"
-" imprecisa debido a la falta de tracción de las ruedas mecanum."
-
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:40
 msgid ""
 "Will drift on high acceleration on mecanum drive. Accuracy will be good "
@@ -273,23 +244,6 @@ msgstr "Es muy importante afinar el rumbo"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:66
 msgid "Encoders"
 msgstr "Codificadores (Encoders)"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:68
-msgid ""
-"A lot of the localization done in software relies on readings from encoders."
-" :ref:`encoders` are sensors that track \"counts\" or \"ticks,\" which are "
-"values that represent a certain amount of a rotation. Different encoders "
-"might have a different number of counts per revolution (CPR), which is also "
-"sometimes also called ticks per revolution. The greater the number of "
-"counts, the more precise the data."
-msgstr ""
-"Gran parte de la localización realizada en software se basa en las lecturas "
-"de los encóderes. :ref:`encóderes` son sensores que realizan un seguimiento "
-"de los \"recuentos\" o \"ticks\", que son valores que representan una cierta"
-" cantidad de una rotación. Diferentes codificadores pueden tener un número "
-"diferente de cuentas por revolución (CPR), que a veces también se llama "
-"ticks por revolución. Cuanto mayor sea el número de cuentas, más precisos "
-"serán los datos."
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:70
 msgid ""
@@ -355,6 +309,7 @@ msgid "REV Through-Bore Encoder"
 msgstr "REV Through-Bore Encoder"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:85
+#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:137
 msgid "**Advantages:**"
 msgstr "Ventajas:"
@@ -468,10 +423,6 @@ msgstr "Un codificador US Digital S4T"
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:111
 msgid "S4T Encoder"
 msgstr "Codificador S4T"
-
-#: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:113
-msgid "*****Advantages:**"
-msgstr "Ventajas:"
 
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:115
 #: ../../gm0/source/docs/common-mechanisms/dead-wheels.rst:139

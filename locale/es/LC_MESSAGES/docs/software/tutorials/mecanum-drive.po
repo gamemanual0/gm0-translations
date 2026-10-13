@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -75,7 +75,7 @@ msgstr ""
 "componentes X o Y de los vectores de fuerza pueden anularse, lo que permite "
 "el movimiento en cualquier dirección."
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst-1
 msgid "Force diagram of a single mecanum wheel"
 msgstr "Diagrama de fuerzas de una rueda mecanum"
 
@@ -106,7 +106,7 @@ msgstr ""
 "cualquier otra dirección. La combinación de traslación y rotación también "
 "dará como resultado un movimiento más lento."
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst-1
 msgid "Force diagram of a complete mecanum drive"
 msgstr "Diagrama de fuerzas de un accionamiento mecanum completo"
 
@@ -126,7 +126,7 @@ msgstr ""
 " respectivamente. Aquí hay algunos ejemplos de cómo las ruedas deben ser "
 "impulsadas para lograr diferentes movimientos:"
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rstNone
+#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst-1
 msgid ""
 "Examples of ways to move the wheels on mecanum drive to move the robot in "
 "different directions"
@@ -169,19 +169,9 @@ msgstr ""
 " signo ya que Y está invertido):"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
 msgid "Java"
 msgstr "Java"
 
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:0
 msgid "Blocks"
 msgstr "Blocks"
@@ -237,22 +227,6 @@ msgstr ""
 "obtener el movimiento deseado. La única diferencia con el giro es que en "
 "lugar de que las ruedas del mismo lado tengan el mismo signo, las ruedas "
 "diagonales entre sí tendrán el mismo signo."
-
-#: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:85
-msgid ""
-"We want a positive left stick X value to correlate to rightward strafing. If"
-" we refer back to the vectoring image, this means that the front left and "
-"back right need to rotate forward, while the back left and front right need "
-"to rotate backwards. So, we should add the x value to the front left and "
-"back right and subtract it from the back right and front left:"
-msgstr ""
-"Queremos un valor positivo de X en el stick izquierdo para correlacionarlo "
-"con un giro hacia la derecha. Si volvemos a la imagen de vectorización, esto"
-" significa que la parte delantera izquierda y trasera derecha necesitan "
-"rotar hacia delante, mientras que la parte trasera izquierda y delantera "
-"derecha necesitan rotar hacia atrás. Por lo tanto, debemos añadir el valor x"
-" a la parte delantera izquierda y trasera derecha y restarlo de la parte "
-"trasera derecha y delantera izquierda:"
 
 #: ../../gm0/source/docs/software/tutorials/mecanum-drive.rst:111
 msgid ""

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 19:08+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-09-07 05:37+0000\n"
 "Last-Translator: Shawphy, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -439,19 +439,6 @@ msgid ""
 msgstr ""
 "该评委评选奖项旨在表彰那些通过努力和坚持，与当地科学、技术、工程和数学（STEM）社区建立联系，从而学习并采用新工具的团队。该团队制定了团队计划，并明确了实现目标的具体步骤。该奖项无需提交作品集。"
 
-#: ../../gm0/source/docs/awards/award-types.rst:121
-msgid ""
-"Be prepared for judges to ask you how your outreaches were meaningful, and "
-"try to avoid doing STEM outreaches just for the sake of saying you did a "
-"STEM connections. Successful STEM outreaches are those that are undertaken "
-"for a specific purpose and have a clear intent and goal, such as meeting "
-"with an expert on computer vision to ask for advice on a vision task for the"
-" game. If you are struggling to find STEM outreaches, local colleges and "
-"businesses are a good start."
-msgstr ""
-"请做好准备，评委可能会问你这些科普活动有何意义，尽量避免仅仅为了说自己开展了STEM科普活动而开展STEM科普活动。 "
-"成功的STEM外展活动应是出于特定目的而开展的，且具有明确的意图和目标，例如与计算机视觉领域的专家会面，就游戏中的视觉任务寻求建议。如果你在寻找STEM外展活动时遇到困难，当地的高校和企业是一个不错的起点。"
-
 #: ../../gm0/source/docs/awards/award-types.rst:124
 msgid "Connect Award Criteria"
 msgstr "连结奖评选标准"
@@ -528,10 +515,6 @@ msgstr "你见到了谁（例如，“安娜·史密斯博士，计算机视觉�
 #: ../../gm0/source/docs/awards/award-types.rst:149
 msgid "Key takeaways and advice received."
 msgstr "主要收获及收到的建议。"
-
-#: ../../gm0/source/docs/awards/award-types.rst:150
-msgid "Photos of your team with the expert or implementing of their advice."
-msgstr "贵团队与专家的合影，或落实专家建议时的照片。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:152
 msgid ""
@@ -849,15 +832,6 @@ msgid ""
 msgstr ""
 "请将所有科普推广活动记录在案，包括参与人员及每人投入的小时数，并将其单独记录在与 |EP| "
 "不同的位置。这样既便于汇总总数据，也能让评委在同一处查看所有科普推广活动/事件。"
-
-#: ../../gm0/source/docs/awards/award-types.rst:266
-msgid ""
-"For a bigger impact make sure you have more resources then just your team's "
-"information at an event, having details for FIRST Lego League teams in "
-"addition to your FIRST Tech Challenge information can broaden how many "
-"people you reach."
-msgstr ""
-"为了产生更大的影响，请确保在活动现场提供的资源不仅限于您团队的信息；除了“FIRST科技挑战赛”的相关信息外，若能提供“FIRST乐高联盟”各支队伍的详细信息，将有助于扩大受众范围。"
 
 #: ../../gm0/source/docs/awards/award-types.rst:267
 msgid ""
@@ -1178,13 +1152,6 @@ msgid ""
 msgstr ""
 "不要直接将代码放进你的作品集，评委们不会在意的。相反，应重点解释你所使用的关键算法，并以通俗易懂的方式说明软件的工作原理。请记住，控制类奖项的评委可能并非软件工程师或程序员，因此请确保你能向没有软件背景的人清晰地解释所有内容。"
 
-#: ../../gm0/source/docs/awards/award-types.rst:374
-msgid ""
-"In addition, control award software is more then just your autonomous mode "
-"programs. Driver assistance, feedback, and automation all are vital to the "
-"control award."
-msgstr "此外，能获得控制奖的软件不仅仅是你的自动程序。操作手辅助、反馈和自动化对于控制奖都至关重要。"
-
 #: ../../gm0/source/docs/awards/award-types.rst:377
 msgid "Control Award Criteria"
 msgstr "控制奖评选标准"
@@ -1257,17 +1224,6 @@ msgid ""
 "aesthetic, and use good design practices, including CAD."
 msgstr "设计奖是主要关注机器人硬件方面的机器人奖项之一。它适用于功能性、美观性和使用良好设计实践（包括CAD）的机器人。"
 
-#: ../../gm0/source/docs/awards/award-types.rst:409
-msgid ""
-"In order to be considered for the Design Award, it's recommended that your "
-"team uses CAD and designs the robot before it is built, with |EP| sections "
-"about the development of the robot through iterations of the engineering "
-"design process. Its important to include CAD screenshots and drawings in "
-"your portfolio, and your design should be consistent with any team goals "
-"listed."
-msgstr ""
-"为了有资格角逐设计奖，建议贵团队在组装机器人之前先使用CAD进行设计，并在作品集中加入关于机器人通过工程设计流程迭代开发过程的|EP|部分。请务必在作品集中包含CAD截图和图纸，且设计应与所列出的团队目标保持一致。"
-
 #: ../../gm0/source/docs/awards/award-types.rst:411
 msgid ""
 "While functionality is what most teams focus on, the Design Award also takes"
@@ -1310,10 +1266,6 @@ msgid ""
 "Design is effective and consistent with the team's game plan and/or "
 "strategy."
 msgstr "该设计行之有效，并与球队的比赛计划和/或战术相一致。"
-
-#: ../../gm0/source/docs/awards/award-types.rst:429
-msgid "Judges Choice Award"
-msgstr "评审奖"
 
 #: ../../gm0/source/docs/awards/award-types.rst:431
 msgid ""

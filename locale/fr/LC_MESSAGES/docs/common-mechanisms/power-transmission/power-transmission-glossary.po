@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 04:28+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -49,37 +49,9 @@ msgstr ""
 msgid "Clearance Diameter"
 msgstr "Diamètre de dégagement"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:17
-msgid ""
-"The clearance diameter is the diameter of the imaginary circle that contains"
-" the entire pulley, sprocket, or gear. For pulleys and sprockets, this "
-"includes the belt or chain on the component. Clearance diameter is used to "
-"check for interferences with other mechanisms. It is usually larger then "
-":term:`Pitch Diameter (PD)` and :term:`Outside Diameter (OD)`"
-msgstr ""
-"Le diamètre de dégagement est le diamètre du cercle imaginaire qui contient "
-"l'ensemble de la poulie, du pignon ou de l'engrenage. Pour les poulies et "
-"les pignons, ce diamètre inclut la courroie ou la chaîne du composant. Le "
-"diamètre de dégagement est utilisé pour vérifier l'absence d'interférences "
-"avec d'autres mécanismes. Il est généralement plus grand que :term:`Diamètre"
-" primitif (PD)` et :term:`Diamètre extérieur (OD)`"
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:38
 msgid "GT2 Belt"
 msgstr "Courroie GT2"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:40
-msgid ""
-"GT2 belt is a type of synchronous timing belt commonly used on drivetrains "
-"and other mechanisms. Its available in different widths and pitches, "
-"although the most common is GT2 3mm (3mm :term:`Pitch`), compatible with REV"
-" Robotics :term:`COTS` Pulleys. See :term:`Timing Belt`"
-msgstr ""
-"La courroie GT2 est un type de courroie synchronisée couramment utilisée sur"
-" les chaînes cinématiques et autres mécanismes. Elle est disponible en "
-"différentes largeurs et pas, mais la plus courante est la GT2 3mm (3mm "
-":term:`Pas`), compatible avec les poulies REV Robotics :term:`COTS`. Voir "
-":term:`Courroie de réglage`"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:35
 msgid "HTD Belt"
@@ -129,56 +101,13 @@ msgstr ""
 msgid "Outside Diameter (OD)"
 msgstr "Diamètre extérieur (OD)"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:14
-msgid ""
-"The diameter of the imaginary circle traced by the outermost face of the "
-"teeth on a gear, sprocket, or pulley. This will be larger then the "
-":term:`Pitch Diameter (PD)` for a gear, but smaller then the :term:`Pitch "
-"Diameter (PD)` for a pulley or sprocket."
-msgstr ""
-"Le diamètre du cercle imaginaire tracé par la face extérieure des dents d'un"
-" engrenage, d'un pignon ou d'une poulie. Ce diamètre est plus grand que le "
-":term:`Diamètre primitif (PD)` d'un engrenage, mais plus petit que le "
-":term:`Diamètre primitif (PD)` d'une poulie ou d'un pignon."
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:9
 msgid "Pitch"
 msgstr "Pas"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:11
-msgid ""
-"Pitch refers to the distance between the center of one tooth of a gear, "
-"sprocket, or pulley to another. In chains it refers to the distance from one"
-" pin to another, and in belts it refers to the distance betewen one groove "
-"to another."
-msgstr ""
-"Le pas désigne la distance entre le centre d'une dent d'un engrenage, d'un "
-"pignon ou d'une poulie et celui d'une autre dent. Dans les chaînes, il "
-"s'agit de la distance entre un axe et un autre, et dans les courroies, de la"
-" distance entre une rainure et une autre."
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:6
 msgid "Pitch Diameter (PD)"
 msgstr "Diamètre primitif (PD)"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:8
-msgid ""
-"An imaginary circle around a component used for various calculations. For "
-"gears, it is the imaginary circle that mates with any other gear's pitch "
-"diameter when the gears are properly spaced. For chain and belt, it is the "
-"circle which is traced by the middle of the belt or chain as the pulley or "
-"sprocket rotates. For gears, the pitch diameter will be smaller then the "
-":term:`Outside Diameter (OD)`, but with chain and belts, the pitch diameter "
-"will be larger. :math:`PD = (tooth * pitch)/\\pi`"
-msgstr ""
-"Un cercle imaginaire autour d'un composant utilisé pour divers calculs. Pour"
-" les engrenages, il s'agit du cercle imaginaire qui correspond au diamètre "
-"primitif de tout autre engrenage lorsque les engrenages sont correctement "
-"espacés. Pour les chaînes et les courroies, il s'agit du cercle tracé par le"
-" milieu de la courroie ou de la chaîne lorsque la poulie ou le pignon "
-"tourne. Pour les engrenages, le diamètre primitif sera plus petit que le "
-":term:`Diamètre extérieur (DO)`, mais pour les chaînes et les courroies, le "
-"diamètre primitif sera plus grand. :math:`PD = (dent * pas)/\\pi`"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:26
 msgid "Sprocket"

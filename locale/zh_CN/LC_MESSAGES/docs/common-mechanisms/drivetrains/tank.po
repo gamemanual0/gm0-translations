@@ -6,7 +6,7 @@
 # Translators:
 # guluomagongchengshi, 2023
 # 芷晗 李, 2023
-# wwsk2008sq, 2024
+# mo-wu-si-kong, 2024
 # Shawphy, 2024
 # DomnickJYH, 2024
 # 
@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: DomnickJYH, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -204,16 +204,6 @@ msgstr ":term:`重量分配` 也是一个需要考虑的重要因素：背部的
 msgid "Weight distribution"
 msgstr "重量分配"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:66
-msgid ""
-"Weight distribution generally refers to how the weight of the robot is "
-"proportioned. It is desirable to have a relatively 50-50 (50% of weight in "
-"the front half, 50% in back half) so that the drivetrain has optimal "
-"manuverability and turning."
-msgstr ""
-"重量分配一般是指机器人的重量比例。机器人的重量最好是50-50分配，即各占一半（50% 的重量在前半部分，50% "
-"的重量在后半部分），这样传动系统就能获得最佳的操纵性和转弯性能。"
-
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:68
 msgid ""
 "Off-center turning, which may or may not be a drawback, is nearly ubiquitous"
@@ -259,7 +249,6 @@ msgid "CAD Examples of Four Wheel Drive (Click to expand)"
 msgstr "四轮驱动 CAD 示例（点击展开）"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "goBILDA COTS"
 msgstr "goBILDA COTS"
 
@@ -271,7 +260,6 @@ msgstr ""
 "`点击此处在 OnShape 在线 CAD 中查看此模型 "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "REV COTS"
 msgstr "REV COTS"
@@ -285,7 +273,6 @@ msgstr ""
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "goBILDA Custom"
 msgstr "goBILDA Custom"
 
@@ -297,7 +284,6 @@ msgstr ""
 "`点击此处在 OnShape 在线 CAD 中查看此模型 "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "REV Custom"
 msgstr "REV Custom"
@@ -579,7 +565,7 @@ msgstr "3846 Maelstrom 的八轮驱动方案"
 msgid "3846 Maelstrom, Rover Ruckus"
 msgstr "3846 Maelstrom, Rover Ruckus"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rstNone
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst-1
 msgid "A render of 13075 Coram Deo Academy Robotics' 8WD"
 msgstr "13075 Coram Deo Academy 8WD 机器人效果图"
 

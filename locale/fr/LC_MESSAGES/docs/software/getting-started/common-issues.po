@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 04:28+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -41,21 +41,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:9
 msgid "Exceptions"
 msgstr "Exceptions"
-
-#: ../../gm0/source/docs/software/getting-started/common-issues.rst:11
-msgid ""
-"Exceptions are events that occur during the execution of a program, "
-"disrupting the normal flow of instructions, used in error events or problems"
-" that arise during runtime. A exception can be caught to avoid propagation, "
-"otherwise any exception that's not handled will cause the program flow to "
-"stop immediately."
-msgstr ""
-"Les exceptions sont des événements qui se produisent au cours de l'exécution"
-" d'un programme, perturbant le flux normal des instructions, utilisées dans "
-"les événements d'erreur ou les problèmes qui surviennent au cours de "
-"l'exécution. Une exception peut être rattrapée pour éviter la propagation, "
-"sinon toute exception qui n'est pas gérée entraînera l'arrêt immédiat du "
-"déroulement du programme."
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:13
 msgid "Some common types of exceptions include:"
@@ -83,15 +68,6 @@ msgid ""
 msgstr ""
 "Cette exception est l'une des plus courantes en FTC\\ |reg|, voici un "
 "exemple qui lance une NullPointerException :"
-
-#: ../../gm0/source/docs/software/getting-started/common-issues.rst:44
-msgid ""
-"This can be fixed moving the \"Servo\" variable value definition to the init"
-" (or ``runOpMode()`` in LinearOpModes) method as follows:"
-msgstr ""
-"Ceci peut être corrigé en déplaçant la définition de la valeur de la "
-"variable \"Servo\" dans la méthode init (ou ``runOpMode()`` dans les "
-"LinearOpModes) comme suit :"
 
 #: ../../gm0/source/docs/software/getting-started/common-issues.rst:72
 msgid "**TargetPositionNotSetException**"

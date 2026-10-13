@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 16:17+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2023-06-18 04:15+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -232,12 +232,6 @@ msgid ""
 msgstr ""
 "使用赞助商、机械车间或Fabworks或SendCutsend等服务时，供应商可能会为你调整零件。在进行这些调整之前，请咨询你正在使用的服务！"
 
-#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:84
-msgid ""
-"There are a few quirks of laser cut parts that you should keep in mind when "
-"designing them"
-msgstr "有几个少见的激光切割零件你应该牢记当设计他们"
-
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:87
 msgid "Kerf"
 msgstr "锯口"
@@ -264,7 +258,6 @@ msgid ""
 msgstr ""
 "当激光切割机中的透镜聚焦光线时，它自然会产生锥形光束。这导致零件上有斜边。虽然这通常对板来说不是问题，但这意味着随着时间的推移，压配合非法兰轴承可能会出现问题，因为它们的一侧比另一侧挤压得更厉害。解决这个问题的一种方法是激光孔尺寸较小，然后钻或扩孔到最终尺寸，以实现垂直壁。"
 
-#: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:99
 #: ../../gm0/source/docs/custom-manufacturing/laser-cutting.rst:99
 msgid "Side view of a laser-cut acrylic part, showing the taper"
 msgstr "激光切割丙烯酸部件的侧视图，显示锥度"

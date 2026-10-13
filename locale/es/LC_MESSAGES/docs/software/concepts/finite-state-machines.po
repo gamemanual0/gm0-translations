@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-07 04:16+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Anthonella Contla, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -96,16 +96,6 @@ msgstr ""
 "funciones. El resultado es un código autónomo que es más difícil de depurar "
 "y, en última instancia, más difícil de arreglar sobre la marcha durante una "
 "competencia o en otro momento de apuro."
-
-#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:58
-msgid ""
-"If one drew out the state transition diagram for each of the states, for the"
-" autonomus above it'd be very linear, and the state transitions always occur"
-" because the section of the code finished:"
-msgstr ""
-"Si uno dibujara el diagrama de transición de estado para cada uno de los "
-"estados, para el autónomo de arriba sería muy lineal, y las transiciones de "
-"estado siempre ocurren porque la sección del código terminó:"
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:81
 msgid ""
@@ -219,16 +209,6 @@ msgstr ""
 " que podamos hacer ajustes. Ahora, por supuesto, esto es un poco "
 "simplificado (y probablemente no del todo lo que hizo GF), pero servirá por "
 "ahora."
-
-#: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:102
-msgid ""
-"Before anything is programmed, it may be useful draw out the state diagram "
-"for this to get a better understanding of what we the robot should actually "
-"be doing. This can also add to a Control Award submission."
-msgstr ""
-"Antes de programar nada, puede ser útil dibujar el diagrama de estados para "
-"obtener una mejor comprensión de lo que el robot debería estar haciendo. "
-"Esto también puede contribuir a la presentación de un Premio de Control."
 
 #: ../../gm0/source/docs/software/concepts/finite-state-machines.rst:120
 msgid ""

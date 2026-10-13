@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 04:28+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Lyna Alem, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/gamemanual0/teams/148648/fr_CA/)\n"
@@ -273,24 +273,6 @@ msgstr ""
 ":math:`K_d` correctement réglés, vous pouvez souvent mettre :math:`K_i` à 0 "
 "et en rester là."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:61
-msgid ""
-"However, it can still be useful in some cases. Just like the derivative "
-"term, the integral term intends to correct for overshoot. if the system "
-"thinks it reached its destination, it will stop, even when, in fact, the "
-"error is not yet 0. Perhaps the motor is no longer being supplied enough "
-"power to move. Well, given enough time, the integral term will increase the "
-"output (in this case, motor power), causing movement towards the "
-"destination."
-msgstr ""
-"Cependant, il peut encore être utile dans certains cas. Tout comme le terme "
-"dérivé, le terme intégral vise à corriger les dépassements. Si le système "
-"pense avoir atteint sa destination, il s'arrêtera, même si, en fait, "
-"l'erreur n'est pas encore 0. Peut-être le moteur ne reçoit-il plus assez de "
-"puissance pour se déplacer. Si l'on dispose de suffisamment de temps, le "
-"terme intégral augmentera la sortie (dans ce cas, la puissance du moteur), "
-"ce qui entraînera un mouvement vers la destination."
-
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:63
 msgid ""
 "To explain without calculus, the integral term essentially sums the error "
@@ -301,25 +283,6 @@ msgstr ""
 "l'erreur sur un intervalle de temps spécifique. Pour ce faire, l'erreur de "
 "chaque itération de la boucle est ajoutée à une variable (dans ce cas, "
 ":math:`I(t)`)."
-
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:65
-msgid ""
-"However, summing error this way has an unfortunate side effect: the longer "
-"the loop takes to complete one iteration, the more slowly this sum "
-"increases, which is obviously not desirable, as we don't want lag to affect "
-"how the robot moves. To compensate for this, before the error is added to "
-":math:`I(t)`, it is multiplied by how long the previous loop took to-"
-"complete, or :math:`t_{n+1}-t_n`, preventing lag from making the system sum "
-"more slowly."
-msgstr ""
-"Cependant, l'addition de l'erreur de cette façon a un effet secondaire "
-"malheureux : plus la boucle prend de temps pour compléter une itération, "
-"plus cette somme augmente lentement, ce qui n'est évidemment pas "
-"souhaitable, car nous ne voulons pas que le décalage affecte la façon dont "
-"le robot se déplace. Pour compenser cela, avant que l'erreur ne soit ajoutée"
-" à :math:`I(t)`, elle est multipliée par le temps que la boucle précédente a"
-" pris pour se terminer, ou :math:`t_{n+1}-t_n`, empêchant ainsi le décalage "
-"de rendre la somme du système plus lente."
 
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:67
 msgid ""
@@ -537,34 +500,6 @@ msgstr ""
 msgid "PID Controller Sample Rate"
 msgstr "Taux d'échantillonnage du contrôleur PID"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:147
-msgid ""
-"For teams who desire the most performance out of their PID controller, it is"
-" essential to consider the Sample rate of the controller. The Sample rate is"
-" when the controller updates its output given new sensor data. Higher Sample"
-" rates allow for more stable control and allow for the usage of more "
-"significant PID coefficients to reduce settling time. See this `video "
-"<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ to see how sample "
-"rate effects stability in a practical motor control example. The inbuilt PID"
-" controller is locked at a 20hz refresh rate (50ms sample rate). Many top "
-"FTC teams optimize their robot loops to run at up to 80hz, achieving *much* "
-"more stable control with an external PID."
-msgstr ""
-"Pour les équipes qui souhaitent obtenir les meilleures performances de leur "
-"contrôleur PID, il est essentiel de prendre en compte le taux "
-"d'échantillonnage du contrôleur. Le taux d'échantillonnage est le moment où "
-"le contrôleur met à jour sa sortie en fonction des nouvelles données du "
-"capteur. Des taux d'échantillonnage plus élevés permettent un contrôle plus "
-"stable et l'utilisation de coefficients PID plus importants pour réduire le "
-"temps de stabilisation. Voir cette `vidéo "
-"<https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ pour voir comment le "
-"taux d'échantillonnage affecte la stabilité dans un exemple pratique de "
-"contrôle de moteur. Le contrôleur PID intégré est verrouillé à un taux de "
-"rafraîchissement de 20 Hz (taux d'échantillonnage de 50 ms). De nombreuses "
-"équipes FTC optimisent les boucles de leurs robots pour qu'elles "
-"fonctionnent jusqu'à 80 Hz, ce qui permet d'obtenir un contrôle beaucoup "
-"plus stable avec un PID externe."
-
 #: ../../gm0/source/docs/software/concepts/control-loops.rst:156
 msgid "Feedforward Control"
 msgstr "Contrôle par Anticipation"
@@ -676,11 +611,11 @@ msgstr ""
 " l'ajout d'un terme d'anticipation constant dans la direction où vous "
 "souhaitez vous déplacer."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:207
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:223
 msgid "Motion Profiles"
 msgstr "Profils de mouvement"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:210
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:226
 msgid ""
 "Motion profiles are *not* a specific type of control loop, but rather a "
 "technique that works well in combination with other control loops such as "
@@ -690,7 +625,7 @@ msgstr ""
 "contrôle, mais plutôt une technique qui fonctionne bien en combinaison avec "
 "d'autres boucles de contrôle telles que PID et feedforward."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:212
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:228
 msgid ""
 "Motion profiling is a technique popularized in FRC\\ |reg| that is starting "
 "to find its way to FTC. A motion profile is a function used to change the "
@@ -703,7 +638,7 @@ msgstr ""
 "puissance de manière contrôlée et cohérente en modifiant la vitesse "
 "souhaitée progressivement plutôt qu'instantanément."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:214
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:230
 msgid ""
 "Let's illustrate this with an example: say you want your drivetrain, which "
 "is initially unmoving, to drive forward at full speed. Ordinarily, you would"
@@ -722,31 +657,31 @@ msgstr ""
 "des mouvements incontrôlés qui risquent de rendre l'autonomie moins "
 "cohérente et, peut-être plus important encore, d'endommager les mécanismes."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:216
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:232
 msgid "Motion profiling attempts to solve this issue."
 msgstr "Le profilage des mouvements tente de résoudre ce problème."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:219
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:235
 msgid "Advantages"
 msgstr "Avantages"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:221
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:237
 msgid "More controlled and predictable movements"
 msgstr "Des mouvements plus contrôlés et plus prévisibles"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:222
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
 msgid "Reduces rapid change of applied motor voltage"
 msgstr "Réduit les variations rapides de la tension appliquée au moteur"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:225
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:241
 msgid "Disadvantages"
 msgstr "Inconvénients"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:227
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:243
 msgid "Can be slower"
 msgstr "Peut être plus lent"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:229
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:245
 msgid ""
 "There are two main types of motion profiles: **Trapezoidal** profiles and "
 "**S-Curve** profiles. Trapezoidal profiles accelerate the system at a "
@@ -766,7 +701,7 @@ msgstr ""
 "conduite en FTC), les profils trapézoïdaux sont recommandés pour la plupart "
 "des applications de FTC."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:231
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:247
 msgid ""
 "Trapezoidal profiles get their name from the shape of the graph of velocity "
 "over time:"
@@ -774,7 +709,7 @@ msgstr ""
 "Les profils trapézoïdaux tirent leur nom de la forme du graphique de la "
 "vitesse en fonction du temps :"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:252
 msgid ""
 "The position over time, velocity over time, and acceleration over time "
 "graphs for a trapezoidal motion profile"
@@ -783,7 +718,7 @@ msgstr ""
 "fonction du temps et de l'accélération en fonction du temps pour un profil "
 "de mouvement trapézoïdal."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:236
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:252
 msgid ""
 "These are the \"magic functions\" for velocity and acceleration over time "
 "alluded to in the feedforward section."
@@ -792,11 +727,11 @@ msgstr ""
 "le temps auxquelles il a été fait allusion dans la section sur "
 "l'anticipation."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:238
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:254
 msgid "Here is some pseudocode for a trapezoidal profile:"
 msgstr "Voici un pseudo-code pour un profil trapézoïdal :"
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:268
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:284
 msgid ""
 "The results of the above pseudocode are then used in a feedforward and / or "
 "PID loop to control the position of the system in a smooth and predictable "
@@ -806,7 +741,7 @@ msgstr ""
 "d'anticipation et/ou une boucle PID pour contrôler la position du système de"
 " manière régulière et prévisible."
 
-#: ../../gm0/source/docs/software/concepts/control-loops.rst:270
+#: ../../gm0/source/docs/software/concepts/control-loops.rst:286
 msgid ""
 "A more advanced example of the math for motion profile generation as used in"
 " the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ "

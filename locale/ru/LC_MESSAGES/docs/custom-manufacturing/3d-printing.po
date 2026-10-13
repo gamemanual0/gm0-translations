@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 16:29+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Darya Tepysheva, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/gamemanual0/teams/148648/ru_RU/)\n"
@@ -323,22 +323,6 @@ msgstr "Температура стола для PETG варьируется о�
 msgid "Less Common Filaments"
 msgstr "Менее Распространенные Филаменты"
 
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:65
-msgid ""
-"These filaments are less used than those listed above, but can still find "
-"plenty of use cases on an FTC robot. These usually are used due to specific "
-"material properties such as flexibility or durability. These often come "
-"however, with substantial obstacles for printing that prevent some printers "
-"from printing them out of the box, along with sometimes being significantly "
-"more expensive."
-msgstr ""
-"Данные типы филаментов используются реже, чем упомянутые выше, но также "
-"могут найти множество применений в FTC роботах. Обычно их выбирают из-за "
-"специфических свойств, таких как гибкость или повышенная прочность. Однако "
-"их печать часто сопряжена со значительными трудностями: некоторые принтеры "
-"не могут работать с ними без дополнительной настройки, а стоимость таких "
-"материалов может быть существенно выше."
-
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:68
 msgid "ABS (Acrylonitrile Butadiene Styrene)"
 msgstr "ABS (Акрилонитрилбутадиенстирол)"
@@ -515,26 +499,6 @@ msgstr "Рекомендуется использование термокаме
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:107
 msgid "Carbon Fiber-filled"
 msgstr "Наполненный углеродным волокном"
-
-#: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:109
-msgid ""
-"Many filaments are also sold with the addition of small chunks of carbon "
-"fiber mixed into the filament itself. While often though of as an extreme "
-"strength improvement, these filaments are instead meant to be stiffer and "
-"help to improve the printability of filaments like nylon. Carbon fiber-"
-"filled filaments generally require higher temperatures, and a hardened steel"
-" nozzle, but if you can print the pure variants of those filaments, you "
-"should be able to print their carbon fiber-filled counterparts."
-msgstr ""
-"Многие филаменты также выпускаются с добавлением частиц углеродного волокна,"
-" которые вводятся в состав самого материала. Хотя их часто считают средством"
-" радикального повышения прочности, на самом деле такие филаменты "
-"предназначены в первую очередь для увеличения жёсткости и улучшения "
-"технологичности печати материалов наподобие нейлона. Углеволоконные "
-"филаменты, как правило, требуют более высоких температур и сопла из "
-"закалённой стали, но если ваш принтер справляется с чистыми версиями этих "
-"материалов, то и с их углеволоконными аналогами проблем возникнуть не "
-"должно."
 
 #: ../../gm0/source/docs/custom-manufacturing/3d-printing.rst:113
 msgid "Polycarbonate (PC)"

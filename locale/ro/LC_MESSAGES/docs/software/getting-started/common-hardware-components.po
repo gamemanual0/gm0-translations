@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Bianca Carstea, 2023\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/gamemanual0/teams/148648/ro_RO/)\n"
@@ -226,20 +226,6 @@ msgstr ""
 " nu este resetat la 0 decât dacă ``STOP_AND_RESET_ENCODERS`` este folosit "
 "sau este restartat Expansion Hub-ul."
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:83
-msgid ""
-"There is no real standardized terminology when dealing with quadrature "
-"encoders. The SDK uses \"CPR\" or Counts Per Revolution by default,. You may"
-" also see some datasheets list \"PPR\" or Pulses per Revolution. One pulse "
-"can be equivalent to anywhere from 1 to 4 SDK \"counts\". Be careful when "
-"reading datasheets!"
-msgstr ""
-"Nu există o terminologie standard când utilizezi encodere cuadratule. SDK-ul"
-" folosește \"CPR\" sau Citiri Pe Revoluție implicit. S-ar putea să vezi și "
-"documente care menționează \"PPR\" sau Pulsuri Pe Revoluție. Un puls poate "
-"fi echivalentul a între 1 si 4 citiri ale SDK-ului. Ai grijă când citești "
-"documentațiile!"
-
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:85
 msgid ""
 "Encoders with high numbers of Counts per Revolution, such as the REV Through"
@@ -269,19 +255,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:104
 msgid "Continuous Rotation Servo"
 msgstr "Servomotor cu Rotație Continuă"
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:110
-msgid ""
-"A CRServo has one main method; ``setPower()``. This works very similarly to "
-"``DcMotor`` 's ``setPower()``, meaning that passing it 0 makes it stop, "
-"passing it 1 makes it go forward at full speed, passing it -1 makes it go "
-"backwards at full speed, and everything in between. ::"
-msgstr ""
-"Un servomotor CR are o metodă principală: ``setPower()``. Aceasta "
-"funcționeaza foarte similar cu ``setPower()``-ul ``DcMotor``-ului, adică 0 "
-"îl face să se oprească, 1 îl face să se miște la viteză maximă, -1 îl face "
-"să se rotească în sens invers la viteză maximă, și restul între aceste "
-"valori.::"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
 msgid "Digital IO"
@@ -344,22 +317,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:139
 msgid "A Note on Hardware Call Speed"
 msgstr "De Reținut Despre Viteza de Apelare Hardware"
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:141
-msgid ""
-"Every hardware call you make, (whether it be setting the power for a motor, "
-"setting a :term:`servo <Servo>` position, reading an encoder value, etc.) "
-"will take approximately 3 milliseconds to execute, except for I2C calls "
-"which can take upwards of 7ms. This is because behind the scenes, the SDK "
-"may need to make multiple hardware calls in order to perform the I2C "
-"operation."
-msgstr ""
-"Orice apel hardware pe care îl faci (fie că este să setezi puterea unui "
-"motor, setarea poziției unui :term:`servomotor<Servo>`, citirea unui "
-"encoder, etc.) va lua aproximativ 3 millisecunde pentru a se executa, cu "
-"excepția apelurilor I2C, care pot lua până la 7ms. Acest lucru se întâmplă "
-"deoarece, în spate, SDK-ul trebuie să facă mai multe apeluri pentru a "
-"efectua o operație I2C."
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:143
 msgid ""

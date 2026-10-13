@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 04:15+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Yaretzi Lugo, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/gamemanual0/teams/148648/es_MX/)\n"
@@ -240,18 +240,6 @@ msgstr ""
 msgid "Weight distribution"
 msgstr "Distribución del peso"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:66
-msgid ""
-"Weight distribution generally refers to how the weight of the robot is "
-"proportioned. It is desirable to have a relatively 50-50 (50% of weight in "
-"the front half, 50% in back half) so that the drivetrain has optimal "
-"manuverability and turning."
-msgstr ""
-"La distribución del peso se refiere generalmente a cómo está proporcionado "
-"el peso del robot. Es deseable que sea relativamente 50-50 (50% del peso en "
-"la mitad delantera, 50% en la mitad trasera) para que el chasis tenga una "
-"maniobrabilidad y un giro óptimo."
-
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:68
 msgid ""
 "Off-center turning, which may or may not be a drawback, is nearly ubiquitous"
@@ -306,7 +294,6 @@ msgid "CAD Examples of Four Wheel Drive (Click to expand)"
 msgstr "Ejemplos CAD de tracción a las cuatro ruedas (Haga clic para ampliar)"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "goBILDA COTS"
 msgstr "goBILDA COTS"
 
@@ -318,7 +305,6 @@ msgstr ""
 "`Haga clic aquí para explorar este modelo en OnShape CAD en línea "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "REV COTS"
 msgstr "REV COTS"
@@ -332,7 +318,6 @@ msgstr ""
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__"
 
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "goBILDA Custom"
 msgstr "goBILDA Personalizado"
 
@@ -344,7 +329,6 @@ msgstr ""
 "`Haga clic aquí para explorar este modelo en OnShape CAD en línea "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 #: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst:0
 msgid "REV Custom"
 msgstr "REV Personalizado"
@@ -667,7 +651,7 @@ msgstr "3846 Maelstrom's 8WD"
 msgid "3846 Maelstrom, Rover Ruckus"
 msgstr "3846 Maelstrom, Rover Ruckus"
 
-#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rstNone
+#: ../../gm0/source/docs/common-mechanisms/drivetrains/tank.rst-1
 msgid "A render of 13075 Coram Deo Academy Robotics' 8WD"
 msgstr "Un render de 13075 Coram Deo Academy Robotics' 8WD"
 

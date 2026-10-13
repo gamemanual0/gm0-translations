@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 16:34+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
 "Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -145,13 +145,6 @@ msgstr "``guide``"
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:57
 msgid "Boolean Inputs"
 msgstr "布尔输入"
-
-#: ../../gm0/source/docs/software/tutorials/gamepad.rst:59
-msgid ""
-"TeleOp OpModes are generally written in iterative style, with a loop that "
-"contains code that is called over an over. Under this paradigm, a simple "
-"handling of user input could look like"
-msgstr "TeleOp OpModes通常以迭代风格编写，其中包含通过over调用的代码的循环。在这种范式下，对用户输入的简单处理可能看起来像："
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:70
 msgid ""
@@ -414,10 +407,6 @@ msgid ""
 "The simplest way to command rumble: rumble motor 1 at 100% power for a "
 "specified duration:"
 msgstr "命令震动的最简单方法：在指定持续时间内以100%功率震动电机1："
-
-#: ../../gm0/source/docs/software/tutorials/gamepad.rst:250
-msgid "If control over both rumble motors and rumble intensity is desried:"
-msgstr "如果无法控制震动马达和震动强度："
 
 #: ../../gm0/source/docs/software/tutorials/gamepad.rst:256
 msgid ""

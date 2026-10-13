@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 04:14+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-11-20 04:19+0000\n"
 "Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
@@ -135,16 +135,6 @@ msgid ""
 msgstr ""
 "一种类型的连杆称为四杆连杆。这是一种使端杆始终与地面保持相同角度的连杆。例如，如果虚拟四杆的端杆在缩回时与地面平行，则它将始终与地面平行，即使完全旋转出去。这对于像爪子这样的机构是有益的，您希望在操作过程中与地面平行。此外，四杆可以在机器人框架之外提供延伸，并且由于机械臂跟随的“弧线”，通常提供垂直和水平延伸。此外，可以仔细选择杆的构造材料以节省重量。"
 
-#: ../../gm0/source/docs/common-mechanisms/linkages.rst:43
-msgid ""
-"This mechanism is not widely used in FTC\\ |reg| due to the space "
-"requirements. The linkage bars that keep the end bar parallel restrict a "
-"four bar to under 180 degrees of travel (less then 90 degrees in either "
-"direction) without specialized mechanical construction, and the bars also "
-"take up space in the robot frame."
-msgstr ""
-"由于空间要求，这种机构在FTC中没有广泛使用。保持末端杆平行的连杆将四杆的行程限制在180度以下（两个方向都小于90度），没有专门的机械结构，并且杆还占用机器人框架中的空间。"
-
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:0
 msgid "CAD Example of Four Bar (Click to expand)"
 msgstr "四杆CAD示例（点击展开）"
@@ -158,24 +148,13 @@ msgstr ""
 "`单击此处在Onshape Cad中打开此示例，您可以单击并拖动部件以查看它们如何移动！ "
 "<https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_."
 
-#: ../../gm0/source/docs/common-mechanisms/linkages.rstNone
+#: ../../gm0/source/docs/common-mechanisms/linkages.rst-1
 msgid "A picture of a goBILDA Four Bar"
 msgstr "一张goBILDA四连杆的照片"
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:58
 msgid "Virtual Four Bar"
 msgstr "虚拟四连杆"
-
-#: ../../gm0/source/docs/common-mechanisms/linkages.rst:60
-msgid ""
-"The more popular alternative to the Four Bar linkage is a Virtual Four Bar. "
-"While not technically a linkage, a virtual four bar uses chains or belts to "
-"create an effect similar to a four bar, where the end effector is kept at a "
-"fixed angle to the ground at all times. Because the need for additional bars"
-" are eliminated, this \"linkage\" can travel more then 180 degrees, and also"
-" can take up less space then a traditional four bar linkage."
-msgstr ""
-"四杆连杆更受欢迎的替代方案是虚拟四杆。虽然从技术上讲不是连杆，但虚拟四杆使用链条或皮带来创造类似于四杆的效果，其中末端执行器始终与地面保持固定角度。因为不需要额外的杆，这种“连杆”可以移动超过180度，并且比传统的四杆连杆占用的空间更少。"
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:62
 msgid ""
@@ -249,20 +228,6 @@ msgstr "11115 Gluten Free, Skystone"
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:93
 msgid "Virtual Double-Reverse Four Bar"
 msgstr "虚拟双反四杆"
-
-#: ../../gm0/source/docs/common-mechanisms/linkages.rst:95
-msgid ""
-"Similar to the virtual four bar, the virtual double-reverse four bar is a "
-"linkage that uses belts or chains to replace the linkage bars of the double-"
-"reverse four bar. The virtual double-reverse four bar is simply a virtual "
-"four bar where the end effector sprocket/pulley is half the size of the "
-"static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is "
-"mounted to the end effector sprocket/pulley, and another chain/belt is run, "
-"which creates purely linear motion with an end effector that is always at "
-"the same angle to the ground. This creates much more compact linear motion "
-"then a double-reverse four bar, and can also extend in both directions."
-msgstr ""
-"与虚拟四杆类似，虚拟双反四杆是一种连杆机构，它使用皮带或链条来代替双反四杆的连杆机构。虚拟双反四杆只是一个虚拟四杆机构，其中末端执行器链轮/皮带轮的尺寸是静态链轮/皮带轮的一半，导致2:1的驱动比。然后，将一根杆安装到末端执行器链轮/皮带轮上，并运行另一条链条/皮带，这创造了纯粹的线性运动，末端执行器始终与地面成相同的角度。这比双反四杆产生了更紧凑的线性运动，并且还可以向两个方向延伸。"
 
 #: ../../gm0/source/docs/common-mechanisms/linkages.rst:100
 msgid "8644 Brainstormers Virtual Double Reverse Four Bar"

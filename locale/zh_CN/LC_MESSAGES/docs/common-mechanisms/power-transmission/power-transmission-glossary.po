@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# shaw phy, 2024
+# Shawphy, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-09 16:30+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2024\n"
+"Last-Translator: Shawphy, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,30 +43,9 @@ msgstr ""
 msgid "Clearance Diameter"
 msgstr "间隙直径"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:17
-msgid ""
-"The clearance diameter is the diameter of the imaginary circle that contains"
-" the entire pulley, sprocket, or gear. For pulleys and sprockets, this "
-"includes the belt or chain on the component. Clearance diameter is used to "
-"check for interferences with other mechanisms. It is usually larger then "
-":term:`Pitch Diameter (PD)` and :term:`Outside Diameter (OD)`"
-msgstr ""
-"间隙直径是包含整个滑轮、链轮或齿轮的假想圆的直径。对于滑轮和链轮，这包括部件上的同步带或链条。间隙直径用于检查是否与其他机构发生干涉。它通常大于 "
-":term:`节距直径 (PD)` 和 :term:`外径 (OD)` 。"
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:38
 msgid "GT2 Belt"
 msgstr "GT2 同步带"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:40
-msgid ""
-"GT2 belt is a type of synchronous timing belt commonly used on drivetrains "
-"and other mechanisms. Its available in different widths and pitches, "
-"although the most common is GT2 3mm (3mm :term:`Pitch`), compatible with REV"
-" Robotics :term:`COTS` Pulleys. See :term:`Timing Belt`"
-msgstr ""
-"GT2 同步带，通常用于传动系统和其他机构。它有不同的宽度和间距，但最常见的是 GT2 3mm（3mm :term:`节距`），与 REV "
-"Robotics 的 :term:`COTS` 同步带轮兼容。请参阅 :term:`同步带` 。"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:35
 msgid "HTD Belt"
@@ -107,45 +86,13 @@ msgstr "对于 :term:`链条<Chain>` 和 :term:`同步带<Timing Belt>`，空转
 msgid "Outside Diameter (OD)"
 msgstr "外径 (OD)"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:14
-msgid ""
-"The diameter of the imaginary circle traced by the outermost face of the "
-"teeth on a gear, sprocket, or pulley. This will be larger then the "
-":term:`Pitch Diameter (PD)` for a gear, but smaller then the :term:`Pitch "
-"Diameter (PD)` for a pulley or sprocket."
-msgstr ""
-"齿轮、链轮或滑轮最外侧齿面所描绘的假想圆的直径。它大于齿轮的 :term:`节距直径 (PD)`，但小于滑轮或链轮的 :term:`节距直径 "
-"(PD)`。"
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:9
 msgid "Pitch"
 msgstr "节距"
 
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:11
-msgid ""
-"Pitch refers to the distance between the center of one tooth of a gear, "
-"sprocket, or pulley to another. In chains it refers to the distance from one"
-" pin to another, and in belts it refers to the distance betewen one groove "
-"to another."
-msgstr ""
-"节距是指齿轮、链轮或滑轮的一个齿中心到另一个齿中心之间的距离。在链条中，它指一个销轴到另一个销轴之间的距离；在同步带中，它指一个槽到另一个槽之间的距离。"
-
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:6
 msgid "Pitch Diameter (PD)"
 msgstr "节距直径 (PD)"
-
-#: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:8
-msgid ""
-"An imaginary circle around a component used for various calculations. For "
-"gears, it is the imaginary circle that mates with any other gear's pitch "
-"diameter when the gears are properly spaced. For chain and belt, it is the "
-"circle which is traced by the middle of the belt or chain as the pulley or "
-"sprocket rotates. For gears, the pitch diameter will be smaller then the "
-":term:`Outside Diameter (OD)`, but with chain and belts, the pitch diameter "
-"will be larger. :math:`PD = (tooth * pitch)/\\pi`"
-msgstr ""
-"用于各种计算的部件周围的假想圆。对于齿轮来说，当齿轮间距适当时，它是与任何其他齿轮的节圆直径相匹配的假想圆。对于链条和同步带，它是同步带轮或链轮旋转时，同步带或链条中间所划过的圆。对于齿轮，节圆直径会小于"
-" :term:`外径 (OD)`，但是对于链条和皮带，节圆直径会大一些。 :math:`PD = (tooth * pitch)/\\pi`"
 
 #: ../../gm0/source/docs/common-mechanisms/power-transmission/power-transmission-glossary.rst:26
 msgid "Sprocket"

@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# wwsk2008sq, 2023
+# mo-wu-si-kong, 2023
 # DomnickJYH, 2023
-# shaw phy, 2025
+# Shawphy, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Game Manual 0 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 16:31+0000\n"
+"POT-Creation-Date: 2026-10-13 21:07+0000\n"
 "PO-Revision-Date: 2022-08-16 05:18+0000\n"
-"Last-Translator: shaw phy, 2025\n"
+"Last-Translator: Shawphy, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/gamemanual0/teams/148648/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -210,17 +210,6 @@ msgstr ""
 " opmode 开始时可以是任意的，除非使用了 ``STOP_AND_RESET_ENCODERS`` 或对Expansion "
 "Hub进行了电源循环，否则不会重置为 0。"
 
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:83
-msgid ""
-"There is no real standardized terminology when dealing with quadrature "
-"encoders. The SDK uses \"CPR\" or Counts Per Revolution by default,. You may"
-" also see some datasheets list \"PPR\" or Pulses per Revolution. One pulse "
-"can be equivalent to anywhere from 1 to 4 SDK \"counts\". Be careful when "
-"reading datasheets!"
-msgstr ""
-"处理正交编码器时没有真正的标准化术语。SDK 默认使用 \"CPR\"（每转计数）。你也可能看到一些数据表列出了 "
-"\"PPR\"（每转脉冲数）。一个脉冲相当于 1 到 4 个 SDK \"计数\"。阅读数据表时要小心！"
-
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:85
 msgid ""
 "Encoders with high numbers of Counts per Revolution, such as the REV Through"
@@ -270,16 +259,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:104
 msgid "Continuous Rotation Servo"
 msgstr "连续旋转舵机"
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:110
-msgid ""
-"A CRServo has one main method; ``setPower()``. This works very similarly to "
-"``DcMotor`` 's ``setPower()``, meaning that passing it 0 makes it stop, "
-"passing it 1 makes it go forward at full speed, passing it -1 makes it go "
-"backwards at full speed, and everything in between. ::"
-msgstr ""
-"CRServo 有一个主要方法： ``setPower()`` 。其工作原理与 ``DcMotor`` 的 ``setPower()`` "
-"非常相似，即传入 0 会使其停止，传入 1 会使其全速前进，传入 -1 会使其全速后退，以及介于两者之间的所有情况。 ::"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:115
 msgid "Digital IO"
@@ -334,18 +313,6 @@ msgstr ""
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:139
 msgid "A Note on Hardware Call Speed"
 msgstr "关于硬件调用速度的注意事项"
-
-#: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:141
-msgid ""
-"Every hardware call you make, (whether it be setting the power for a motor, "
-"setting a :term:`servo <Servo>` position, reading an encoder value, etc.) "
-"will take approximately 3 milliseconds to execute, except for I2C calls "
-"which can take upwards of 7ms. This is because behind the scenes, the SDK "
-"may need to make multiple hardware calls in order to perform the I2C "
-"operation."
-msgstr ""
-"每次硬件调用（无论是设置电机功率、设置 :term:`舵机 <Servo>` 位置、读取编码器值等）的执行时间约为 3 毫秒，但 I2C "
-"调用除外，它可能需要 7 毫秒以上。这是因为在幕后，SDK 可能需要进行多次硬件调用才能执行 I2C 操作。"
 
 #: ../../gm0/source/docs/software/getting-started/common-hardware-components.rst:143
 msgid ""
